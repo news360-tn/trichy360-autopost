@@ -1,0 +1,10 @@
+20:52:28 automatic images step failed (posting goes on): bridge autoPending: TypeError: Cannot read properties of null (reading 'getLastRow')
+Traceback (most recent call last):
+  File "/home/runner/work/trichy360-autopost/trichy360-autopost/poster/post.py", line 2094, in <module>
+    main()
+  File "/home/runner/work/trichy360-autopost/trichy360-autopost/poster/post.py", line 1857, in main
+    rows = bridge_get("queue")["rows"]
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/trichy360-autopost/trichy360-autopost/poster/post.py", line 83, in bridge_get
+    raise RuntimeError(f"bridge {action}: {data.get('error')}")
+RuntimeError: bridge queue: TypeError: Cannot read properties of null (reading 'getLastRow')
