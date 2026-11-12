@@ -79,7 +79,7 @@
    "title": "அதவத்தூா், துவாக்குடியில் இன்று மின்தடை"
   },
   "https://www.dinamani.com/all-editions/edition-coimbatore/coimbatore/2026/Nov/10/நாளைய-மின்தடை-பீளமேடு-முத்துக்கவுண்டன்புதூா்": {
-   "at": "2026-11-12T22:15:12.771025+05:30",
+   "at": "2026-11-12T23:09:06.352211+05:30",
    "power_cut": true,
    "why": "",
    "title": "நாளைய மின்தடை: பீளமேடு, முத்துக்கவுண்டன்புதூா்"
@@ -344,6 +344,36 @@
   },
   "https://www.dinamalar.com/amp/news/tamil-nadu-news/5-trapped-in-electric-lift-at-collector-s-office/4374572": {
    "at": "2026-11-12T22:15:12.771025+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "கலெக்டர் ஆபீசில் மின்தடை லிப்டில் சிக்கி 5 பேர் தவிப்பு"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/10-years-for-man-who-raped-woman/4374571": {
+   "at": "2026-11-12T23:09:06.352211+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "பெண்ணை பலாத்காரம் செய்தவருக்கு 10 ஆண்டு"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/man-stabbed-to-death-at-police-station-gate/4374557": {
+   "at": "2026-11-12T23:09:06.352211+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "போலீஸ் ஸ்டேஷன் வாசலில் கழுத்தறுத்து கொண்டவரால் பரபரப்பு"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/federation-for-crop-loan-waiver-announces-protest-in-front-of-central-co-operative-bank-on-november-25/4374556": {
+   "at": "2026-11-12T23:09:06.352211+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "நவ., 25ல் மத்திய கூட்டுறவு வங்கி முன் போராட்டம் பயிர் கடன் தள்ளுபடிக்கான கூட்டமைப்பு அறிவிப்பு"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/driver-killed-as-truck-overturns/4374510": {
+   "at": "2026-11-12T23:09:06.352211+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-salem/5-trapped-in-electric-lift-at-collector-s-office/4374572": {
+   "at": "2026-11-12T23:09:06.352211+05:30",
    "power_cut": false,
    "why": "not this district",
    "title": "கலெக்டர் ஆபீசில் மின்தடை லிப்டில் சிக்கி 5 பேர் தவிப்பு"
