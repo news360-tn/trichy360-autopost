@@ -88,13 +88,6 @@ jobs:
           python poster/facebook.py retry
           git config user.name "news360-bot"; git config user.email "news360-bot@users.noreply.github.com"
           git add -f poster/fb_posted && git commit -qm "facebook retry" && { for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true
-      - name: Cloudinary clean-up (this page's old files; at 50% of the free limit old reels too)
-        if: always() && env.CLOUDINARY_API_KEY != '' && env.DRY_RUN == ''
-        continue-on-error: true
-        timeout-minutes: 5
-        run: |
-          pip install -q requests==2.32.5
-          python poster/cloudclean.py
       - name: Watchdog - restart an overdue collection or writer (GitHub sometimes skips scheduled runs)
         if: always() && github.event_name == 'schedule' && env.BRIDGE_URL != ''
         env:

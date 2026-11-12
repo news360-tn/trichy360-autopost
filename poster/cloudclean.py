@@ -18,8 +18,8 @@ from datetime import datetime, timedelta, timezone
 import requests
 
 FOLDER = "trichy360"
-KEEP_H = float(os.environ.get("CLOUDINARY_KEEP_HOURS", "72") or 72)
-FULL_KEEP_H = float(os.environ.get("CLOUDINARY_FULL_KEEP_HOURS", "26") or 26)
+KEEP_H = float(os.environ.get("CLOUDINARY_KEEP_HOURS", "48") or 48)      # owner 12 Nov: keep the last 48 h only
+FULL_KEEP_H = float(os.environ.get("CLOUDINARY_FULL_KEEP_HOURS", "48") or 48)
 CLEAN_AT = float(os.environ.get("CLOUDINARY_CLEAN_AT", "50") or 50)
 API = "https://api.cloudinary.com/v1_1/{}/"
 
