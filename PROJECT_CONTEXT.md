@@ -81,5 +81,15 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-12 | `3da9285` | bridge: create the News tab (31 column names) when the new Log Sheet does not have it - pick failed 12 Nov with getLastRow of null |
+| 2026-11-12 | `39abbdf` | Trichy 360 live (owner 12 Nov) |
+| 2026-11-12 | `f25127a` | Cloudinary clean-up: this page's files older than 3 days deleted every hour (at 50% of the free limit reels older than 26 h too); a deleted prebuilt reel is uploaded again; rasipalan pictures in the page folder. keys-check: test-only workflow (manual), prints OK/FAIL per secret |
+| 2026-11-12 | `b2ba1b7` | trichy 360: local news for the district - Tamil papers only (Dinamalar, Dinamani + Dinakaran / OneIndia where fresh), district towns and searches, power-cut searches, writer rules, town hashtags; whole district; tests updated |
+| 2026-11-12 | `aeaa712` | trichy 360: Sheet and Drive folder ids set (its own Sheet and folder) |
+| 2026-11-12 | `9d3c615` | trichy 360: Instagram handle trichy360.official |
+| 2026-11-12 | `06120da` | reel end card: 'Source: <paper> (<date>)' instead of 'ஆதாரம்' (owner 12 Nov) |
+| 2026-11-12 | `95b82b3` | trichy 360: own hashtags (page, area, news, Tamil tag, rain/power-cut topic tags); Coimbatore town tags removed; source line stays at the end of every caption |
+| 2026-11-12 | `a08d7a6` | trichy 360 comments: only critical comments (fake-news / doubt claim, complaint, abuse) are e-mailed; emoji and normal comments recorded as ignored; comment check every 2 hours |
+| 2026-11-12 | `d0fde29` | trichy 360: own reel look (style per page), own footer and logo, page town in the end card and ticker; one picture per reel, 12 news a day; still NOT live |
 | 2026-11-12 | `a2ed402` | trichy 360: code from the Salem 360 setup - page identity, logo, 12 news a day (4+4+4), one picture per reel; NOT live (no LIVE file, no secrets) |
 <!-- recent-changes:end -->
