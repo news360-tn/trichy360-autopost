@@ -23,7 +23,7 @@ DRY = os.environ.get("DRY_RUN", "") in ("1", "true", "yes")
 # owner 12 Nov (new pages): ONLY critical comments reach the owner - a fake-news / doubt claim, a complaint, abuse or spam.
 # Emoji-only, praise, thanks, questions and normal chat are recorded as "ignored" (never e-mailed, never checked again).
 CRITICAL = set((os.environ.get("COMMENT_KINDS") or "doubt_or_fake_claim,complaint,spam_or_abuse").split(","))
-HANDLES = {"trichy": "trichy.360"}      # the page's Instagram handle (placeholder - confirm before going live)
+HANDLES = {"trichy": "trichy360.official"}      # the page's Instagram handle (placeholder - confirm before going live)
 
 SYSTEM = """You help the owner of a Tamil local-news Instagram page reply to viewers' comments. You NEVER post anything - the owner chooses.
 Return JSON: {"kind": one of "question" | "doubt_or_fake_claim" | "complaint" | "praise" | "info_from_viewer" | "spam_or_abuse" | "other",

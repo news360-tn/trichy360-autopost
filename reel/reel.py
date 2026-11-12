@@ -20,7 +20,7 @@ ICONS = NM / "@fortawesome" / "fontawesome-free" / "svgs" / "solid"
 PAGES = {
     "coimbatore": {"logo": "logo_coimbatore.png", "name": "கோயம்புத்தூர் 360", "handle": "coimbatore360_official", "tagline": "நம்ம கோவை செய்திகள்", "follow": "கோவை மாவட்டச்<br>செய்திகளுக்கு",
                    "ticker": "கோயம்புத்தூர் 360  •  கோவை மாவட்டச் செய்திகள்  •  Follow செய்யுங்கள்", "footer": "footer_coimbatore.png", "hashtag": "#Coimbatore360"},
-    "trichy": {"logo": "logo_trichy.png", "style": "T", "name": "திருச்சி 360", "handle": "trichy.360", "tagline": "நம்ம திருச்சி செய்திகள்", "follow": "திருச்சி மாவட்டச்<br>செய்திகளுக்கு",
+    "trichy": {"logo": "logo_trichy.png", "style": "T", "name": "திருச்சி 360", "handle": "trichy360.official", "tagline": "நம்ம திருச்சி செய்திகள்", "follow": "திருச்சி மாவட்டச்<br>செய்திகளுக்கு",
                    "ticker": "திருச்சி 360  •  திருச்சி மாவட்டச் செய்திகள்  •  Follow செய்யுங்கள்", "footer": "footer_trichy.png", "hashtag": "#Coimbatore360"},
 }
 PAGE = PAGES["coimbatore"]
