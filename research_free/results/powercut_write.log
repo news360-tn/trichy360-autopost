@@ -1,0 +1,4 @@
+bridge 'recent' failed: {'ok': False, 'error': "TypeError: Cannot read properties of null (reading 'getLastRow')"}
+writer exit 1 (try 1)
+bridge 'recent' failed: {'ok': False, 'error': "TypeError: Cannot read properties of null (reading 'getLastRow')"}
+writer exit 1 (try 2)
