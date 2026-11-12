@@ -54,6 +54,7 @@ jobs:
     outputs:
       ready: ${{ steps.chk.outputs.ready }}
       matrix: ${{ steps.chk.outputs.matrix }}
+      waiting: ${{ steps.chk.outputs.waiting }}
     steps:
       - uses: actions/checkout@v4
         with: {ref: main}
@@ -75,6 +76,7 @@ jobs:
           if grep -q "ready to post: [1-9]" .last_check || [ "$(date -u +%M)" -lt 5 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then git add -f .last_check && git commit -qm "check log" && { for i in 1 2 3 4; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true; fi
           # owner 1 Nov: the list of posts already shared to the story (never twice) is saved after every check
           if [ -f poster/story_shared.json ]; then git add -f poster/story_shared.json && git commit -qm "stories shared" && { for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true; fi
+          echo "waiting=$(grep -c 'waits for the 12-minute gap' .last_check 2>/dev/null || true)" >> "$GITHUB_OUTPUT"
           if [ "${CHECK_RC:-0}" != "0" ]; then echo "::error::post.py check crashed (exit $CHECK_RC) - nothing was posted in this run"; exit 1; fi
       - name: Facebook - try failed posts again (at most 2 more times, within 24 h)
         if: always() && env.BRIDGE_URL != '' && env.DRY_RUN == ''
@@ -129,6 +131,22 @@ jobs:
             git config user.email "news360-bot@users.noreply.github.com"
             git add .heartbeat && git commit -m "Heartbeat" && git push || true
           fi
+
+  continue:      # 12 Nov: GitHub starts the 5-minute schedule only about once an hour - a backlog then posted 1 story per hour.
+                 # While stories wait ONLY for the 12-minute gap, start the next posting run once the gap has passed.
+                 # Stops by itself: no waiting story, or nothing posted (no new gap), means no new run.
+    needs: check
+    if: needs.check.outputs.waiting != '' && needs.check.outputs.waiting != '0' && (github.event_name == 'schedule' || (inputs.dry_run == false && inputs.prebuild == false))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Wait for the 12-minute gap, then start the next posting run
+        run: |
+          echo "${{ needs.check.outputs.waiting }} stories wait only for the gap"
+          sleep 660
+          gh workflow run post.yml -R "$GITHUB_REPOSITORY" -f dry_run=false -f prebuild=false && echo "next posting run started"
 
   post:
     needs: check
