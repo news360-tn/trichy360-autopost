@@ -995,10 +995,17 @@ IG_RUPLOAD = "https://rupload.facebook.com/ig-api-upload/{}/{}"
 def _ig_direct(uid, token, prm, path, collab):
     """owner 12 Nov: Instagram container with upload_type=resumable, then the FILE is sent (no Cloudinary download).
     Raises on any problem - the caller then uses the old video_url method."""
+    global IG_VER
     p = {k: v for k, v in prm.items() if k != "video_url"}
     p["upload_type"] = "resumable"
-    cid, collab_ok, why = create_with_collab(uid, token, p, collab)
-    localmedia.send(IG_RUPLOAD.format(IG_VER or os.environ.get("FB_GRAPH_VER", "v26.0"), cid), token, path)
+    ver = IG_VER or os.environ.get("IG_UPLOAD_VER", "v26.0")
+    old_ver = IG_VER
+    IG_VER = ver      # 12 Nov (Salem RN-1): the unversioned API said "video_url is required" - resumable needs a versioned call
+    try:
+        cid, collab_ok, why = create_with_collab(uid, token, p, collab)
+    finally:
+        IG_VER = old_ver
+    localmedia.send(IG_RUPLOAD.format(ver, cid), token, path)
     return cid, collab_ok, why
 
 

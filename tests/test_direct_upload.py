@@ -78,6 +78,14 @@ class On(Base):
         self.assertIn("/ig-api-upload/", send.call_args.args[0])
         self.assertEqual(len(self.publishes()), 1)
 
+    def test_container_is_made_on_a_versioned_api(self):      # Salem RN-1: unversioned call said "video_url is required"
+        seen = []
+        post.create_with_collab.side_effect = lambda uid, tok, prm, c: (seen.append(post.IG_VER) or "C1", False, "")
+        with mock.patch.object(localmedia, "send"):
+            post.publish_reel("T", LINK, "cap", False)
+        self.assertTrue(seen[0].startswith("v"))
+        self.assertEqual(post.IG_VER, "")      # restored for every other call
+
     def test_upload_failure_falls_back_to_the_link(self):
         with mock.patch.object(localmedia, "send", side_effect=RuntimeError("refused")):
             post.publish_reel("T", LINK, "cap", False)
