@@ -161,7 +161,7 @@ CJK_ETC = r"[\u3040-\u30FF\u3400-\u9FFF\uAC00-\uD7AF\u1100-\u11FF\u0E00-\u0E7F]"
 
 
 def fix_scripts(t):
-    """owner 29 Oct (Coimbatore RN-5, 7, 20, 22 ...): the writer model sometimes types a letter of another script inside a Tamil
+    """owner 29 Oct (Trichy RN-5, 7, 20, 22 ...): the writer model sometimes types a letter of another script inside a Tamil
     word (நির்देசம், ஒண்டிப்புதூর், சிறை탈출). The voice then misreads the word and the card shows a wrong letter.
     Indian scripts share Tamil's letter order, so each such letter becomes the same Tamil letter (aspirated/voiced -> plain:
     द -> த, র -> ர); Chinese/Japanese/Korean/Thai letters are removed."""

@@ -133,7 +133,7 @@ def plan_shots(n_img, content_end, snaps):
 
 def build_html(spec, shots, sents, caps, hook_end, end_t, total, page):
     logo = f"file://{R.KIT.resolve() / page['logo']}"
-    foot = f"file://{(Path(__file__).resolve().parent / 'assets' / page.get('footer', 'footer_coimbatore.png')).as_posix()}"
+    foot = f"file://{(Path(__file__).resolve().parent / 'assets' / page.get('footer', 'footer_trichy.png')).as_posix()}"
     imgs = "".join(f'<img class="pic" id="p{i}" src="file://{Path(p).resolve()}">' for i, p in enumerate(spec["images"]))
     acc = accent_for(spec.get("cat", ""))
     stick = "".join(f'<div class="sticker" id="k{i}">{s["fact"]}</div>' for i, s in enumerate(sents) if s.get("fact"))
@@ -277,8 +277,8 @@ def english_outro(work, idx):
         print("English outro failed, keeping the Tamil line:", e)
 
 
-def main(spec_path, out_mp4, page_key="coimbatore"):
-    R.PAGE = R.PAGES.get(page_key, R.PAGES["coimbatore"]); R.LOGO = R.KIT / R.PAGE["logo"]      # one page only
+def main(spec_path, out_mp4, page_key="trichy"):
+    R.PAGE = R.PAGES.get(page_key, R.PAGES["trichy"]); R.LOGO = R.KIT / R.PAGE["logo"]      # one page only
     spec = json.loads(Path(spec_path).read_text())
     work = Path(out_mp4).with_suffix("")
     work = work.parent / (work.name + "_work"); work.mkdir(parents=True, exist_ok=True)

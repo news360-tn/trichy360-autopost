@@ -1,20 +1,20 @@
 /**
- * Coimbatore 360 bridge (Coimbatore district page கோயம்புத்தூர் 360) – copied from the Namakkal News360 bridge.
+ * Trichy 360 bridge (Trichy district page திருச்சி 360) – copied from the Namakkal News360 bridge.
  * It must run in its OWN Google account with its OWN Sheet, Drive folder and Cloudinary account (never the Namakkal ones).
  * The GitHub posting job talks to this web app to:
- *   - read the queue of stories from the "Coimbatore 360 Log" Sheet
+ *   - read the queue of stories from the "Trichy 360 Log" Sheet
  *   - get the Instagram token (kept here, refreshed automatically every week)
  *   - fetch a recorded human voice for a reel (Drive folder "Voice")
  *   - after posting: update the Sheet + the story's Google Doc and email the owner
  *
  * Setup (once): see README.md in the GitHub repository, section "Apps Script".
  * Script properties used: BRIDGE_KEY, IG_TOKEN_TRICHY, (auto) VOICE_FOLDER_ID, optional ALLOWED_SENDERS
- * E-mail subjects use the tag TRICHY360 (not NEWS360) so the Namakkal bridge never reads Coimbatore mails and the other way round.
+ * E-mail subjects use the tag TRICHY360 (not NEWS360) so the Namakkal bridge never reads Trichy mails and the other way round.
  */
-// ---- OWNER SETS THESE (new Google account for Coimbatore 360; never the Namakkal Sheet / folder / Gmail) ----
-var SHEET_ID = '1u_SUuFW8XLP2C5J2bI6fFgMMbHqOcadXWWyN0LcitIE';      // SALEM: the id of the new "Trichy 360 Log" Sheet - REQUIRED (never the Coimbatore Sheet)                 // id of the new "Coimbatore 360 Log" Sheet (tab "News", same 31 columns)
+// ---- OWNER SETS THESE (new Google account for Trichy 360; never the Namakkal Sheet / folder / Gmail) ----
+var SHEET_ID = '1u_SUuFW8XLP2C5J2bI6fFgMMbHqOcadXWWyN0LcitIE';      // SALEM: the id of the new "Trichy 360 Log" Sheet - REQUIRED (never the Trichy Sheet)                 // id of the new "Trichy 360 Log" Sheet (tab "News", same 31 columns)
 var TAB = 'News';
-var ROOT_FOLDER_ID = '1InZDYxs2ej5r3vgaU7iw9XYBQTiGRarK';      // SALEM: the id of the new Drive folder "Trichy 360" - REQUIRED    // id of the new Drive folder "Coimbatore 360" (prompt files, Voice folder)
+var ROOT_FOLDER_ID = '1InZDYxs2ej5r3vgaU7iw9XYBQTiGRarK';      // SALEM: the id of the new Drive folder "Trichy 360" - REQUIRED    // id of the new Drive folder "Trichy 360" (prompt files, Voice folder)
 var OWNER_EMAIL = 'nammarasipuram2805@gmail.com';           // the owner's Gmail that receives the reports and may send stories / images
 var SHEET_LINK = 'https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/edit';
 
@@ -29,9 +29,9 @@ var C = {
 var NCOLS = 31;
 var CLOUD_NAME = 'vkghshc8';       // OWNER SETS: the new Cloudinary account's cloud name (same as GitHub secret CLOUDINARY_CLOUD)
 var UPLOAD_PRESET = 'trichy360';                 // OWNER SETS: unsigned upload preset in that account (same as GitHub secret CLOUDINARY_PRESET)
-var MIN_IMAGES = 1;     // Coimbatore: ONE image per reel
+var MIN_IMAGES = 1;     // Trichy: ONE image per reel
 var EXPIRE_HOURS = 2;   // owner request 24 Oct: after 3 hours without the owner's images, automatic images are made and the story is posted
-var COLLAB_USERNAME = '';        // Coimbatore: one page, no collaborator
+var COLLAB_USERNAME = '';        // Trichy: one page, no collaborator
 var PAGE_LABEL = { trichy: 'திருச்சி 360' };
 var PAGE_COL = { trichy: C.trichy_link };
 
@@ -92,7 +92,7 @@ function doPost(e) {
 }
 
 // owner 28 Oct: a posted reel the owner removed from Instagram (wrong text) is posted again: its page line is taken out of reel_link
-// and the story goes back to the queue (the posting job rebuilds the reel with the corrected text). body: {ids:["RN-158"], page:"coimbatore"}
+// and the story goes back to the queue (the posting job rebuilds the reel with the corrected text). body: {ids:["RN-158"], page:"trichy"}
 function repost_(b) {
   var sh = sheet_();
   var last = sh.getLastRow();
@@ -118,11 +118,11 @@ function rowObj_(values, rowNum) {
   for (var k in C) o[k] = String(values[C[k] - 1] || '');
   return o;
 }
-/** Coimbatore: there is ONE page (கோயம்புத்தூர் 360, post_to "Coimbatore 360"), no collaborator - every story posts on it (same rule as poster/post.py pages_of). */
+/** Trichy: there is ONE page (திருச்சி 360, post_to "Trichy 360"), no collaborator - every story posts on it (same rule as poster/post.py pages_of). */
 function targets_(postTo) {
   return ['trichy'];
 }
-// true when the page has its carousel (unless reel-only - Coimbatore is reel-only) and its reel
+// true when the page has its carousel (unless reel-only - Trichy is reel-only) and its reel
 function allDone_(r) {
   return targets_(r.post_to).every(function (p) {
     var car = carouselOff_(r) || !!r[p + '_link'];
@@ -348,8 +348,8 @@ function processReplies() {
 // E-mail subject must contain  TRICHY360 STORY . Body (or a .json/.txt attachment) = the story JSON, attachments = the images (png/jpg/zip).
 // One story per e-mail: all images belong to it. Several stories in one e-mail ({"stories":[...]}): name the images S1_1.png, S1_2.png, S2_1.png ...
 // The story is checked, duplicates are refused, the images are uploaded and the story is QUEUED: posting (with the Instagram duplicate check and the fact gate) is automatic.
-var MANUAL_LAST = 'மேலும் செய்திகளுக்கு கோயம்புத்தூர் த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.';
-var MANUAL_FOLLOW = 'கோயம்புத்தூர் செய்திகளைத் தவறவிடாமல் இருக்க Save செய்து Follow செய்யுங்கள் 📌';
+var MANUAL_LAST = 'மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.';
+var MANUAL_FOLLOW = 'திருச்சி செய்திகளைத் தவறவிடாமல் இருக்க Save செய்து Follow செய்யுங்கள் 📌';
 
 function stripTags_(t) { return String(t || '').replace(/<[^>]+>/g, ''); }
 
@@ -384,7 +384,7 @@ function manualProblems_(st, recent) {
     ln.forEach(function (l, j) { if (stripTags_(l).length > 60) p.push('slide ' + (i + 1) + ' line ' + (j + 1) + ' longer than 60 characters'); });
   });
   if (['High', 'Medium', 'Low'].indexOf(st.importance) < 0) p.push('importance must be High, Medium or Low');
-  if (!/^Coimbatore 360\s*$/.test(st.post_to)) p.push("post_to must be 'Coimbatore 360' (the only page; Coimbatore-district news only)");
+  if (!/^Trichy 360\s*$/.test(st.post_to)) p.push("post_to must be 'Trichy 360' (the only page; Trichy-district news only)");
   var rs = String(st.reel_script).trim();
   if (rs.indexOf(MANUAL_LAST) < 0) rs = rs.replace(/\s+$/, '') + ' ' + MANUAL_LAST;   // fixed closing line is added if missing
   st.reel_script = rs;
@@ -492,7 +492,7 @@ function manualOne_(msg) {
 
 // ------------------------------------------------------------------ READY REEL (video + caption already made, sent by e-mail)
 // Subject contains  TRICHY360 REEL . Attach ONE zip (or the files directly) holding ONE .md/.txt (the caption) and ONE video (.mp4/.mov).
-// A PAGE: line at the top of the .md is accepted but ignored (there is one page: coimbatore). Nothing is rebuilt: the video is posted as it is,
+// A PAGE: line at the top of the .md is accepted but ignored (there is one page: trichy). Nothing is rebuilt: the video is posted as it is,
 // with the caption (standard hashtag/AI-line rules), but ONLY if the same news is not already on the Instagram page (checked right before posting).
 function allFiles_(msg, report) {
   var out = [];
@@ -520,7 +520,7 @@ function allFiles_(msg, report) {
 function uploadVideo_(blob, story) {
   var res = UrlFetchApp.fetch('https://api.cloudinary.com/v1_1/' + CLOUD_NAME + '/video/upload', {
     method: 'post', muteHttpExceptions: true,
-    payload: { file: blob, upload_preset: UPLOAD_PRESET, folder: 'coimbatore360/ready/' + story, resource_type: 'video' }
+    payload: { file: blob, upload_preset: UPLOAD_PRESET, folder: 'trichy360/ready/' + story, resource_type: 'video' }
   });
   var d = JSON.parse(res.getContentText());
   if (!d.secure_url) throw new Error('Video upload failed for ' + story + ': ' + res.getContentText().slice(0, 300));
@@ -581,9 +581,9 @@ function readyOne_(msg) {
 }
 
 // one zip = one caption (.md) + one or more videos. Each video becomes its own reel row.
-// Coimbatore: every video goes to the one page (coimbatore), whatever its file name or PAGE line says.
+// Trichy: every video goes to the one page (trichy), whatever its file name or PAGE line says.
 function pageFromName_(name) {
-  return 'coimbatore';
+  return 'trichy';
 }
 
 function addReel_(g, report) {
@@ -593,7 +593,7 @@ function addReel_(g, report) {
   if (txt.length !== 1) { report.push('NOT ADDED ' + g.name + ': needs exactly ONE .md caption file inside, found ' + txt.length); return; }
   if (!vids.length) { report.push('NOT ADDED ' + g.name + ': needs at least ONE video (.mp4) inside, found 0'); return; }
   var lines = txt[0].getDataAsString('UTF-8').replace(/^﻿/, '').replace(/\r/g, '').split('\n');
-  var defPage = 'coimbatore';
+  var defPage = 'trichy';
   while (lines.length && /^\s*(page|post_to)\s*:/i.test(lines[0])) lines.shift();   // settings line: one page only, nothing to choose
   var cap = lines.map(function (l) { return l.replace(/^\s*#{1,6}\s+(?=\S)/, '').replace(/\*\*|__/g, ''); }).join('\n').trim();
   if (!cap) { report.push('NOT ADDED ' + g.name + ': the .md caption file is empty'); return; }
@@ -611,7 +611,7 @@ function addRow_(vid, page, cap, head, groupName, report) {
   var no = nextStoryNo_(sh) + 1, id = 'RN-' + no;
   var url = uploadVideo_(vid, id);
   var row = new Array(NCOLS).fill('');
-  var to = 'Coimbatore 360';      // one page only
+  var to = 'Trichy 360';      // one page only
   row[C.story_id - 1] = id;
   row[C.researched - 1] = "'" + nowIst_(); row[C.published - 1] = "'" + nowIst_();
   row[C.headline_ta - 1] = head; row[C.headline_en - 1] = '';
@@ -801,7 +801,7 @@ function promptCount_(r) {
 function uploadImage_(blob, story) {
   var res = UrlFetchApp.fetch('https://api.cloudinary.com/v1_1/' + CLOUD_NAME + '/image/upload', {
     method: 'post', muteHttpExceptions: true,
-    payload: { file: blob, upload_preset: UPLOAD_PRESET, folder: 'coimbatore360/src/' + story }
+    payload: { file: blob, upload_preset: UPLOAD_PRESET, folder: 'trichy360/src/' + story }
   });
   var d = JSON.parse(res.getContentText());
   if (!d.secure_url) throw new Error('Image upload failed for ' + story + ': ' + res.getContentText().slice(0, 300));
@@ -878,7 +878,7 @@ function postedRows_() {
     if (!r.story_id || (st.indexOf('posted') !== 0 && st.indexOf('partly') !== 0)) continue;
     out.push({ story_id: r.story_id, researched: r.researched, published: r.published, headline_ta: r.headline_ta, headline_en: r.headline_en,
                category: r.category, location: r.location, source: r.source, caption: r.caption, reel_script: r.reel_script,
-               images: r.images, reel_link: r.reel_link, coimbatore_link: r.coimbatore_link, spare_link: r.spare_link });
+               images: r.images, reel_link: r.reel_link, trichy_link: r.trichy_link, spare_link: r.spare_link });
   }
   return out;
 }
@@ -1016,7 +1016,7 @@ function reofferItems_(ids, batch) {
   for (var i = 0; i < data.length; i++) {
     var r = rowObj_(data[i], i + 2);
     if (!want[r.story_id]) continue;
-    if (r.coimbatore_link || r.reel_link) continue;           // already posted: never touch
+    if (r.trichy_link || r.reel_link) continue;           // already posted: never touch
     var prompts = String(r.prompts || '').split(/\n-{3,}\n/).filter(function (x) { return x.trim(); });
     if (!prompts.length) continue;
     sh.getRange(r.row, C.post_status).setValue('Awaiting images');
@@ -1047,7 +1047,7 @@ function retryMessage() {
 
 
 // ================================================================== owner's pick (owner 1 Nov)
-// 6 AM and 4 PM: the GitHub job sends the news list (Dinamalar + Dinamani Coimbatore) -> this makes a GOOGLE FORM with a check box for
+// 6 AM and 4 PM: the GitHub job sends the news list (Dinamalar + Dinamani Trichy) -> this makes a GOOGLE FORM with a check box for
 // every news and e-mails its link -> the owner ticks and presses Submit -> GitHub writes and posts EVERY ticked news.
 // No submit in 1 hour: GitHub posts the top 8. (A Google Form opens on any phone / computer, with any number of Google accounts signed in.)
 var PICK_TAB = 'Picks';
@@ -1055,7 +1055,7 @@ var PICK_HEAD = ['Round', 'Token', 'Created (IST)', 'Deadline', 'Items', 'Auto p
 
 /** Run ONCE from the editor after pasting this code (Run -> authorizeForms): Google asks for the Forms permission. */
 function authorizeForms() {
-  var f = FormApp.create('Coimbatore 360 - permission test');
+  var f = FormApp.create('Trichy 360 - permission test');
   DriveApp.getFileById(f.getId()).setTrashed(true);
   Logger.log('Google Forms permission OK');
 }
@@ -1081,7 +1081,7 @@ function pickFolder_() {
 }
 
 function makePickForm_(b, label, items) {
-  var form = FormApp.create('கோவை செய்திகள் – ' + label + ' – ' + Utilities.formatDate(new Date(), 'Asia/Kolkata', 'dd MMM yyyy'));
+  var form = FormApp.create('திருச்சி செய்திகள் – ' + label + ' – ' + Utilities.formatDate(new Date(), 'Asia/Kolkata', 'dd MMM yyyy'));
   try { DriveApp.getFileById(form.getId()).moveTo(pickFolder_()); } catch (err) { }
   form.setDescription('பதிவிட வேண்டிய செய்திகளைத் தேர்வு செய்து Submit செய்யுங்கள். தேர்வு செய்த ஒவ்வொரு செய்தியும் எழுதப்பட்டு, ரீல் செய்து உடனே பதிவிடப்படும்.\n' +
     b.deadline + '-க்குள் Submit செய்யவில்லை என்றால், முதல் ' + (b.auto_top || 8) + ' செய்திகள் தானாக பதிவிடப்படும்.\n⏳ = முந்தைய பட்டியலில் இருந்து (இன்னும் பதிவிடவில்லை)');
@@ -1121,15 +1121,15 @@ function pickList_(b) {
   }
   var btn = '<a href="' + url + '" style="display:inline-block;background:#c62828;color:#fff;padding:14px 26px;border-radius:8px;text-decoration:none;font-size:18px;font-weight:bold">✅ செய்திகளைத் தேர்வு செய்ய</a>';
   var html = '<div style="font-family:Arial,sans-serif;max-width:680px">' +
-    '<h2 style="margin:0 0 6px">கோவை செய்திகள் – ' + label + ' (' + items.length + ')</h2>' +
+    '<h2 style="margin:0 0 6px">திருச்சி செய்திகள் – ' + label + ' (' + items.length + ')</h2>' +
     '<div style="color:#555;margin-bottom:12px">செய்தி வெளியான நேரம்: ' + esc_(b.window) + '<br>' +
     b.deadline + '-க்குள் தேர்வு செய்யவில்லை என்றால், முதல் ' + (b.auto_top || 8) + ' செய்திகள் தானாக பதிவிடப்படும்.</div>' + btn +
     (newOnes.length ? '<h3 style="margin:18px 0 4px">🆕 புதிய செய்திகள்</h3><table>' + block(newOnes, 1) + '</table>' : '') +
     (left.length ? '<h3 style="margin:18px 0 4px">⏳ முந்தைய பட்டியலில் இருந்து (இன்னும் பதிவிடவில்லை)</h3><table>' + block(left, newOnes.length + 1) + '</table>' : '') +
     '<p>' + btn + '</p><p style="color:#888;font-size:12px">தேர்வு பக்கம் (Google Form): ' + url + '</p></div>';
-  var plain = 'கோவை செய்திகள் – ' + label + ' (' + items.length + ')\nதேர்வு செய்ய: ' + url + '\n\n' +
+  var plain = 'திருச்சி செய்திகள் – ' + label + ' (' + items.length + ')\nதேர்வு செய்ய: ' + url + '\n\n' +
     items.map(function (x, i) { return (i + 1) + '. ' + x.title + '\n   ' + x.summary + '\n   ' + x.source + ' ' + x.url; }).join('\n\n');
-  GmailApp.sendEmail(OWNER_EMAIL, '[TRICHY360 PICK] கோவை செய்திகள் – ' + label + ' (' + items.length + ') – தேர்வு செய்யவும்', plain, { htmlBody: html });
+  GmailApp.sendEmail(OWNER_EMAIL, '[TRICHY360 PICK] திருச்சி செய்திகள் – ' + label + ' (' + items.length + ') – தேர்வு செய்யவும்', plain, { htmlBody: html });
   return { ok: true, round: b.round, items: items.length, form: url };
 }
 

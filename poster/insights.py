@@ -49,7 +49,7 @@ def main():
         hist = json.load(open(HIST, encoding="utf-8"))
     except Exception:
         hist = {}
-    for page in ("coimbatore",):
+    for page in ("trichy",):
         try:
             tok = post.bridge_get("token", page=page)["token"]
             uid, _ = post.ig_account(tok)
@@ -85,8 +85,8 @@ def main():
     json.dump(hist, open(HIST, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
     rows = [h for h in hist.values() if h.get("reach") is not None and (h.get("reach") or 0) > 0]
-    # relative score = post score / the page's median (one page: Coimbatore 360)
-    for pg in ("coimbatore",):
+    # relative score = post score / the page's median (one page: Trichy 360)
+    for pg in ("trichy",):
         sc = [score(h) for h in rows if h["page"] == pg]
         med = statistics.median(sc) if sc else 1
         for h in rows:

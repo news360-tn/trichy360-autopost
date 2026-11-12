@@ -1,6 +1,6 @@
 name: website-backfill
-# Coimbatore 360: THE WEBSITE IS OFF FOR NOW. Manual run only (no schedule). WEBSITE_INGEST_KEY is not passed, so
-# poster/website.py does nothing. When a Coimbatore website exists: add the secret WEBSITE_INGEST_KEY, pass it below
+# Trichy 360: THE WEBSITE IS OFF FOR NOW. Manual run only (no schedule). WEBSITE_INGEST_KEY is not passed, so
+# poster/website.py does nothing. When a Trichy website exists: add the secret WEBSITE_INGEST_KEY, pass it below
 # (env), then this sends every story already posted on Instagram to the website, oldest first, with its English version.
 on:
   workflow_dispatch:
@@ -28,5 +28,5 @@ jobs:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CLAUDE_MAX_CALLS: "0"      # Coimbatore: Claude backup OFF (free models only; no ANTHROPIC_API_KEY passed)
+          CLAUDE_MAX_CALLS: "0"      # Trichy: Claude backup OFF (free models only; no ANTHROPIC_API_KEY passed)
         run: python -u poster/website.py backfill --from "${{ inputs.from }}"

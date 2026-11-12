@@ -24,7 +24,7 @@ FIRST = {
     "jobs": ["வேலைவாய்ப்பு", "வேலை வாய்ப்பு", "காலிப்பணி", "பணியிடங்கள்", "ஆட்சேர்ப்பு", "job fair", "recruitment", "vacanc"],
 }
 # starting weight until insights has measured MIN_PER_TOPIC posts of the topic (then the measured weight is used)
-PRIOR = {"power_cut": 1.5, "crime": 1.2, "accident": 1.0, "civic": 0.8}      # owner 29 Oct (Coimbatore order); measured insights replace these later
+PRIOR = {"power_cut": 1.5, "crime": 1.2, "accident": 1.0, "civic": 0.8}      # owner 29 Oct (Trichy order); measured insights replace these later
 
 
 def topic(text):

@@ -1,4 +1,4 @@
-"""owner 1 Nov (Coimbatore): power-shutdown news is posted at once, without the owner's tick - never twice, never after the cut."""
+"""owner 1 Nov (Trichy): power-shutdown news is posted at once, without the owner's tick - never twice, never after the cut."""
 import datetime, json, sys, tempfile, unittest
 from pathlib import Path
 from unittest import mock
@@ -39,26 +39,26 @@ class PowerCutLane(unittest.TestCase):
 
     def test_new_cut_once_and_never_late(self):
         now = datetime.datetime(2026, 11, 1, 15, 0, tzinfo=IST)
-        dm = "https://www.dinamani.com/all-editions/edition-coimbatore/coimbatore/2026/Nov/01/kalappatti"
-        cm = "https://covaimail.com/tamil/kalappatti-power-cut"
-        old = "https://www.dinamalar.com/news/tamil-nadu-district-news-coimbatore/old-cut/1"
-        other = "https://www.dinamalar.com/news/tamil-nadu-district-news-coimbatore/other-news/2"
+        dm = "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/01/kalappatti"
+        cm = "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/kalappatti-power-cut/9"
+        old = "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/old-cut/1"
+        other = "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/other-news/2"
         arts = {
             dm: {"title": "நாளைய மின்தடை: காளப்பட்டி துணை மின் நிலையம்", "text": "காளப்பட்டி துணை மின் நிலையத்தில் பராமரிப்புப் பணி",
                  "published": "2026-11-01T14:00:00+05:30"},
-            cm: {"title": "நாளை காளப்பட்டி பகுதியில் மின்தடை", "text": "கோவை காளப்பட்டி", "published": "2026-11-01T14:30:00+05:30"},
-            old: {"title": "சூலூர் பகுதியில் 30.10.2026 மின்தடை", "text": "", "published": "2026-10-29T18:00:00+05:30"},
-            other: {"title": "கோவையில் சாலை பணி தொடக்கம்", "text": "", "published": "2026-11-01T10:00:00+05:30"},
+            cm: {"title": "நாளை காளப்பட்டி பகுதியில் மின்தடை", "text": "திருச்சி காளப்பட்டி", "published": "2026-11-01T14:30:00+05:30"},
+            old: {"title": "லால்குடி பகுதியில் 30.10.2026 மின்தடை", "text": "", "published": "2026-10-29T18:00:00+05:30"},
+            other: {"title": "திருச்சியில் சாலை பணி தொடக்கம்", "text": "", "published": "2026-11-01T10:00:00+05:30"},
         }
         got = self.run_find(now, arts)
-        self.assertEqual(got, [dm])      # Dinamani first; Covai Mail's copy of the same cut and the past cut are not written
+        self.assertEqual(got, [dm])      # Dinamani first; Dinamalar's copy of the same cut and the past cut are not written
         self.assertEqual(self.run_find(now, arts), [])      # next hour: never twice
         st = json.loads(powercut.STATE.read_text())
         self.assertIn(pick.pid(dm), st["done"])
 
     def test_already_in_the_sheet_is_skipped(self):
         now = datetime.datetime(2026, 11, 1, 15, 0, tzinfo=IST)
-        dm = "https://www.dinamani.com/all-editions/edition-coimbatore/coimbatore/2026/Nov/01/kalappatti"
+        dm = "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/01/kalappatti"
         arts = {dm: {"title": "நாளைய மின்தடை: காளப்பட்டி துணை மின் நிலையம்", "text": "", "published": "2026-11-01T14:00:00+05:30"}}
         recent = [{"source": "https://x/y", "headline_ta": "காளப்பட்டி பகுதியில் நாளை மின்தடை", "published": "2026-11-01T12:00:00+05:30"}]
         self.assertEqual(self.run_find(now, arts, recent), [])
@@ -66,7 +66,7 @@ class PowerCutLane(unittest.TestCase):
     def test_poster_posts_it_without_other_checks(self):
         sys.path.insert(0, str(ROOT / "poster"))
         import post
-        url = "https://www.dinamani.com/all-editions/edition-coimbatore/coimbatore/2026/Nov/01/kalappatti"
+        url = "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/01/kalappatti"
         post._PICKED = {pick.pid(url)}
         try:
             self.assertTrue(post.owner_picked({"source": url}))

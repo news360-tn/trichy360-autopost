@@ -85,7 +85,7 @@ def stale_reason(headline_ta, headline_en, category, published, today=None):
 
 def news_date(published, source_url="", filed=None):
     """the day the news was published: the 'published' cell, else the date in the newspaper's link (/2026/Oct/26/, 2026-10-26,
-    dinakaran coimbatore-261026-3), else the day it was filed (never earlier than the real day, so it can only be lenient)"""
+    dinakaran trichy-261026-3), else the day it was filed (never earlier than the real day, so it can only be lenient)"""
     d = pub_date(published)
     if d:
         return d
@@ -157,7 +157,7 @@ POWER_ANY = re.compile(r"(?:" + POWER.pattern + r"|மின்\s*வெட்�
 
 
 def is_power_cut(*texts):
-    """owner 30 Oct (Coimbatore): the ONE test for 'this is a power-cut notice' - such a reel may run to 90 s, is judged by the day of
+    """owner 30 Oct (Trichy): the ONE test for 'this is a power-cut notice' - such a reel may run to 90 s, is judged by the day of
     the cut (power_cut_ahead) and is never held back by a daily cap"""
     return bool(POWER_ANY.search(" ".join(str(t or "") for t in texts)))
 
@@ -178,7 +178,7 @@ def _num_dates(text):
 
 
 def power_cut_ahead(headline, published, today=None):
-    """owner 30 Oct (Coimbatore): a power cut is judged by the day of the CUT, not the day it was published - 'நாளை மின்தடை' published
+    """owner 30 Oct (Trichy): a power cut is judged by the day of the CUT, not the day it was published - 'நாளை மின்தடை' published
     last evening is TODAY's cut and is still posted. True only when the headline is a power cut whose day is today or later
     (a cut that is over is still skipped by power_cut_over)."""
     if not is_power_cut(headline):
@@ -192,8 +192,8 @@ def power_cut_ahead(headline, published, today=None):
 
 
 _POWER_COMMON = ("மின்", "தடை", "நாளை", "இன்று", "இன்றை", "காலை", "மதியம", "மாலை", "வரை", "முதல்", "பகுதி", "துணை", "நிலைய",
-                 "பராமர", "பணி", "காரண", "அறிவி", "மணி", "கோவை", "கோயம்", "மாவட", "எந்தெ", "power", "cut", "shut", "tomorr", "today",
-                 "areas", "mainte", "substa", "kovai", "coimb", "from", "till", "will", "the")
+                 "பராமர", "பணி", "காரண", "அறிவி", "மணி", "திரு", "மாவட", "எந்தெ", "power", "cut", "shut", "tomorr", "today",
+                 "areas", "mainte", "substa", "trich", "from", "till", "will", "the")
 
 
 def different_power_cut(a, b, other_filed=None, today=None):
@@ -230,7 +230,7 @@ def cut_day(headline, published):
 
 
 def same_power_cut(a, a_published, b, b_published):
-    """owner 30 Oct (Coimbatore): two power-cut notices are the SAME news when they announce the same cut day and name the same place
+    """owner 30 Oct (Trichy): two power-cut notices are the SAME news when they announce the same cut day and name the same place
     ('நாளை காளப்பட்டியில் மின் தடை' posted last night = 'காளப்பட்டி பகுதியில் இன்று மின் தடை' this morning). The headline check alone
     misses these (different words). Without a shared place nothing is blocked: a power cut is never lost as a false duplicate.
     A day from 'நாளை' may be one day off (posted after midnight, Instagram time), so it may differ by 1; two printed dates must match."""
@@ -244,13 +244,13 @@ def same_power_cut(a, a_published, b, b_published):
     return bool(places(a) & places(b))
 
 
-_GENERIC = ("கோவை", "கோயம்", "மாவட்", "kovai", "coimb", "அருகே", "அருகில்", "இன்று", "நாளை", "நேற்று", "உயிரிழ",
+_GENERIC = ("திரு", "மாவட்", "trich", "அருகே", "அருகில்", "இன்று", "நாளை", "நேற்று", "உயிரிழ",
             "தொழிலா", "கைது", "பகுதி", "நடந்த", "வழங்க")
 
 
 def shares_words(a, b):
-    """Tamil headlines share many letters, so a letter match alone is weak (27 Oct: 'கோவை நீதிமன்றத்திலிருந்து தப்பியோடிய
-    கைதி பிடிப்பு' was taken for 'கோவையில் நீதிமன்ற உத்தரவுப்படி ஆர்எஸ்எஸ் ஊர்வலம்'). The same news also shares a third of
+    """Tamil headlines share many letters, so a letter match alone is weak (27 Oct: 'திருச்சி நீதிமன்றத்திலிருந்து தப்பியோடிய
+    கைதி பிடிப்பு' was taken for 'திருச்சியில் நீதிமன்ற உத்தரவுப்படி ஆர்எஸ்எஸ் ஊர்வலம்'). The same news also shares a third of
     its own words (place names and common words left out), or is almost letter-for-letter the same."""
     import difflib
     n = lambda t: (t or "").replace("ா்", "ர்").lower()
@@ -307,7 +307,7 @@ def follow_up(old, new, days=2):
 NO_NEWS_TA = ("கட்டுரையில் இல்லை", "கட்டுரையில் குறிப்பிடப்படவில்லை", "கட்டுரையில் வெளியிடப்படவில்லை", "இந்தக் கட்டுரையில்",
               "விவரம் இன்னும் தெரியவரவில்லை", "விவரம் தெரியவரவில்லை", "விவரம் இன்னும் தெரியவில்லை", "தகவல் இல்லை",
               "எண்ணோ தகவலோ இல்லை", "விவரம் கிடைத்ததும் பகிரப்படும்",
-              # owner 31 Oct (Coimbatore RN-102: "முழு விவரங்கள் இன்னும் தெரியவரவில்லை ... வெளியானதும் தெரிவிக்கப்படும்")
+              # owner 31 Oct (Trichy RN-102: "முழு விவரங்கள் இன்னும் தெரியவரவில்லை ... வெளியானதும் தெரிவிக்கப்படும்")
               "விவரங்கள் இன்னும் தெரியவரவில்லை", "விவரங்கள் தெரியவரவில்லை", "இன்னும் தெரியவரவில்லை", "வெளியானதும் தெரிவிக்கப்படும்",
               "வெளியானதும் பகிரப்படும்", "தெரியவந்ததும் தெரிவிக்கப்படும்", "முழுமையாக வெளியிடப்படவில்லை", "விவரங்களுக்கு காத்திருங்கள்", "தெரியவந்ததும் பகிரப்படும்", "தொடர்புடையது அல்ல", "தொடர்பில்லை")
 NO_NEWS_EN = ("not in the article", "not mentioned in the article", "article does not", "article doesn't", "no details available",
@@ -354,7 +354,7 @@ def strip_no_news(text):
     return "\n".join(out)
 
 
-# owner 29 Oct (Coimbatore RN-29, a 2025 wedding re-told in a new article): a story whose every dated fact is months old and that
+# owner 29 Oct (Trichy RN-29, a 2025 wedding re-told in a new article): a story whose every dated fact is months old and that
 # has no sign of anything happening now (today / yesterday / a weekday / "so far" / an arrest or verdict) is an old event.
 RECENT_WORDS = ("இன்று", "நேற்று", "நேற்றிரவு", "முன்தினம்", "இன்றிரவு", "இந்த வாரம்", "நாளை", "இதுவரை", "தற்போது", "இன்னும்",
                 "சமீபத்தில்", "திங்கள்", "செவ்வாய்", "புதன்", "வியாழ", "வெள்ளிக்கிழமை", "சனிக்கிழமை", "ஞாயிற்று")
@@ -380,7 +380,7 @@ def old_event(text, today=None):
     return ""
 
 
-# owner 29 Oct (Coimbatore RN-13 / RN-24 bus fight, Namakkal RN-86 / RN-115 Collector wall): the same event reported by two outlets
+# owner 29 Oct (Trichy RN-13 / RN-24 bus fight, Namakkal RN-86 / RN-115 Collector wall): the same event reported by two outlets
 # in different words. Compared on the DISTINCTIVE words of the two reel scripts (words that appear in few other stories: names,
 # places, numbers), not on the headline wording.
 def _event_stems(t):
@@ -409,7 +409,7 @@ def same_event(a, b, df_n):
     return (shared >= 9 and r >= 0.45) or (shared >= 6 and r >= 0.55) or same_incident(a, b, df_n, shared, r)
 
 
-# 31 Oct (Coimbatore RN-96 = RN-95, one prisoner's escape told by two outlets; earlier RN-39 = RN-76, RN-17 = RN-54 posted twice):
+# 31 Oct (Trichy RN-96 = RN-95, one prisoner's escape told by two outlets; earlier RN-39 = RN-76, RN-17 = RN-54 posted twice):
 # word overlap cannot tell "the same event" from "the same kind of story" (two temple poojas share as many rare words as two reports of one
 # escape). An INCIDENT is the same event when both reports name the same person or the same distinctive number - or share many rare words.
 INCIDENT = {"escape": r"தப்பி", "arrest": r"கைது", "verdict": r"தண்டனை", "accident": r"விபத்து|மோதி", "death": r"உயிரிழ|பலி|சடலம",
@@ -453,7 +453,7 @@ def same_incident(a, b, df_n, shared=None, r=None):
         return True
     # owner 31 Oct: RN-13 = RN-24 (one bus drivers' fight, two outlets: 8 shared rare words, 0.50) - on all posted stories of both pages this
     # matched no two different incidents
-    # owner 31 Oct (Coimbatore RN-102 / RN-103 = RN-95): an escape of a prisoner from the same town's prison is one event, however it is
+    # owner 31 Oct (Trichy RN-102 / RN-103 = RN-95): an escape of a prisoner from the same town's prison is one event, however it is
     # told (the follow-ups named no prisoner)
     if "escape" in _incidents(a) & _incidents(b) and "கைதி" in a and "கைதி" in b and _prison_towns(a) & _prison_towns(b):
         return True
@@ -467,7 +467,7 @@ def _prison_towns(t):
     return {m.group(1)[:4] for m in _PRISON.finditer(t or "") if not m.group(1).startswith(("மத்திய", "மாவட்ட", "இந்த", "அந்த", "எந்த"))}
 
 
-# ---- owner 11 Nov (Coimbatore): a power cut that was CANCELLED / POSTPONED / moved to another day after it was posted is NEW news -
+# ---- owner 11 Nov (Trichy): a power cut that was CANCELLED / POSTPONED / moved to another day after it was posted is NEW news -
 # people stay home or plan for it. It names the same place and day as the original notice, so every duplicate test took it for the
 # same news and it was never posted. A notice and its cancellation / change are now never the same news.
 CUT_CHANGE = re.compile(r"ரத்து|ரத்தா|நிறுத்தி\s*வைப்பு|ஒத்தி\s*வை|ஒத்திவை|தள்ளி\s*வை|தள்ளிவை|நடைபெறாது|இருக்காது|"

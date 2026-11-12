@@ -1,5 +1,5 @@
 name: research-free
-# Coimbatore 360 - owner 1 Nov: the 2-hourly rounds are STOPPED. News is collected only at 6 AM and 4 PM by pick.yml (Dinamalar +
+# Trichy 360 - owner 1 Nov: the 2-hourly rounds are STOPPED. News is collected only at 6 AM and 4 PM by pick.yml (Dinamalar +
 # Dinamani, the owner ticks the news in an e-mail page; no reply in 1 hour = top 12). This workflow is kept for writing a link by hand
 # (manual_url) and for the old automatic round if the owner ever starts it by hand.
 on:
@@ -69,7 +69,7 @@ jobs:
           COLLECT_MODE: both        # owner 31 Oct: each round collects AND writes its top 3 (a link given by hand is written at once too)
           MAX_STORIES: "3"          # owner 31 Oct: top 3 per round by expected views; every power cut is written on top
           WRITE_WORKERS: "3"        # stories written at the same time
-          FRESH_DAYS: "1"           # owner 29 Oct: news published TODAY only (Coimbatore)
+          FRESH_DAYS: "1"           # owner 29 Oct: news published TODAY only (Trichy)
           CITY_ONLY: "0"            # owner 31 Oct: the WHOLE district competes (a city story wins a tie: score +1)
           DAILY_CAP: "1000"         # owner 31 Oct (4:48 PM): NO daily limit - every 2-hour round posts its top 3; only Instagram's own 50 a day applies
         run: |

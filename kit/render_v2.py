@@ -1,4 +1,4 @@
-"""கோயம்புத்தூர் 360 — bold carousel renderer (v2).
+"""திருச்சி 360 — bold carousel renderer (v2).
 Usage: python3 render_v2.py slides.json outdir
 Needs (npm, in this folder): @fontsource/baloo-thambi-2 @fontsource/catamaran @fontsource/noto-sans-tamil @fortawesome/fontawesome-free
 Icons: write <i data-ic="handcuffs"></i> in slide html (Font Awesome solid names).

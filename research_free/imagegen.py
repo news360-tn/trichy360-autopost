@@ -1,4 +1,4 @@
-"""AI image generation for Coimbatore 360 - ONE realistic 9:16 news photo per story, FREE FIRST:
+"""AI image generation for Trichy 360 - ONE realistic 9:16 news photo per story, FREE FIRST:
 Cloudflare Workers AI FLUX schnell (free daily allowance) -> NVIDIA NIM FLUX (free credits) -> only if both fail: FAL flux/schnell (cheapest paid)
 -> FAL flux/dev. generate(prompt, seed) -> JPEG bytes, or raises. A model that answers 401/403/404 (not in the plan / bad key) is skipped for the
 rest of the run, 402/429 (credits / rate limit) switches to the next model."""
@@ -6,7 +6,7 @@ import base64, json, os, sys, time, requests
 
 GEN = "https://ai.api.nvidia.com/v1/genai/"
 # (model path, request body builder). FLUX only accepts sizes that are multiples of 64 inside 768..1344 -> 768x1344 is 9:16.
-MODELS = [      # Coimbatore 29 Oct: schnell first (dev timed out at 100 s); SDXL-lightning / SD3-medium answered 404 and were removed
+MODELS = [      # Trichy 29 Oct: schnell first (dev timed out at 100 s); SDXL-lightning / SD3-medium answered 404 and were removed
     ("black-forest-labs/flux.1-schnell", lambda p, s: {"prompt": p, "width": 768, "height": 1344, "seed": s, "steps": 4}),
     ("black-forest-labs/flux.1-dev", lambda p, s: {"prompt": p, "mode": "base", "cfg_scale": 3.5, "width": 768, "height": 1344, "seed": s, "steps": 28}),
 ]
@@ -144,7 +144,7 @@ CLEAN = " Realistic news photograph. No text, no letters, no signboards with wri
 
 
 def _gemini_image(prompt, key):
-    """owner 29 Oct: every free image source before paid FAL. Gemini image models on the Coimbatore project's FREE tier
+    """owner 29 Oct: every free image source before paid FAL. Gemini image models on the Trichy project's FREE tier
     (keep that Google project without billing: then a model outside the free tier answers 429 and costs nothing)."""
     last = None
     for model in GEMINI_IMAGE_MODELS:
@@ -329,6 +329,6 @@ def generate_nvidia(prompt, seed=0, key=None):
 
 if __name__ == "__main__":
     out = sys.argv[1] if len(sys.argv) > 1 else "test.jpg"
-    data = generate(sys.argv[2] if len(sys.argv) > 2 else "Photorealistic news photo, tall vertical, a city road in Coimbatore, Tamil Nadu at dawn, police jeep parked, mist, sharp detail")
+    data = generate(sys.argv[2] if len(sys.argv) > 2 else "Photorealistic news photo, tall vertical, a city road in Trichy, Tamil Nadu at dawn, police jeep parked, mist, sharp detail")
     open(out, "wb").write(data)
     print("saved", out, len(data), "bytes", USED)

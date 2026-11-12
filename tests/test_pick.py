@@ -1,4 +1,4 @@
-"""owner 1 Nov (Coimbatore): collection only at 6 AM / 4 PM from Dinamalar + Dinamani, by published-time windows; the owner ticks the
+"""owner 1 Nov (Trichy): collection only at 6 AM / 4 PM from Dinamalar + Dinamani, by published-time windows; the owner ticks the
 news in an e-mail page, else the top 8; posted news never listed again; listed-not-posted news returns while < 24 h old."""
 import datetime, json, sys, tempfile, unittest
 from pathlib import Path
@@ -96,7 +96,7 @@ class PickFlow(unittest.TestCase):
 
     def test_no_reply_top_8(self):
         urls, _ = self.decide({"ok": True, "submitted": False})
-        self.assertEqual(len(urls), 8)      # owner 2 Nov: 12 -> 8
+        self.assertEqual(len(urls), 4)      # owner 12 Nov: 4 per round, 12 a day
         self.assertEqual(urls[0], "https://www.dinamani.com/14")
         self.assertEqual(self.sent[-1][0], "pickAuto")
 
@@ -112,8 +112,8 @@ class PickFlow(unittest.TestCase):
         self.assertEqual(pick.URLS.read_text(), a["url"])
 
     def test_fewer_than_8_all_posted(self):
-        urls, _ = self.decide({"ok": True, "submitted": False}, items=5)
-        self.assertEqual(len(urls), 5)
+        urls, _ = self.decide({"ok": True, "submitted": False}, items=3)
+        self.assertEqual(len(urls), 3)
 
     def test_auto_pick_never_takes_suicide_or_obituary(self):
         t = datetime.datetime(2026, 11, 1, 6, 0, tzinfo=IST)
@@ -121,7 +121,7 @@ class PickFlow(unittest.TestCase):
               art("https://www.dinamani.com/o", "பொன்னுசாமி கவுண்டா் (108) காலமானாா்", t, 98),
               art("https://www.dinamalar.com/c", "ஸ்ரீ சேஷாத்ரி சுவாமிகள் அதிஷ்டானத்தில் ஆராதனை திருவிழா!", t, 97),
               art("https://www.dinamalar.com/f", "டிரெஸ் பர்ச்சேசில் ஏ.ஐ., அணிந்து பார்க்காமலே வாங்கலாம்!", t, 96),
-              art("https://www.dinamani.com/k", "கோவையில் லாரி மோதி இருவர் பலி", t, 5)]
+              art("https://www.dinamani.com/k", "திருச்சியில் லாரி மோதி இருவர் பலி", t, 5)]
         pool = {a["id"]: a for a in xs}
         pick.STATE.write_text(json.dumps({"last_end": t.isoformat(), "pool": pool, "rounds": {"2026-11-01_morning": {
             "ids": list(pool), "deadline": t.isoformat(), "written": [], "decided": None, "sent": True}}}))
@@ -163,7 +163,7 @@ class OwnerPickIsPosted(unittest.TestCase):
     def test_picked_story_has_no_skip(self):
         sys.path.insert(0, str(ROOT / "poster"))
         import post
-        url = "https://www.dinamalar.com/news/tamil-nadu-district-news-coimbatore/x/1"
+        url = "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/x/1"
         post._PICKED = {pick.pid(url)}
         try:
             row = {"story_id": "RN-1", "source": url, "published": "2020-01-01T10:00:00+05:30", "headline_ta": "செய்தி", "reel_script": "",
@@ -180,13 +180,13 @@ class EndToEndOwnerPick(unittest.TestCase):
     def test_every_picked_news_goes_through(self):
         sys.path.insert(0, str(ROOT / "poster"))
         import post
-        urls = ["https://www.dinamalar.com/news/tamil-nadu-district-news-coimbatore/old-news/1",          # published yesterday evening
-                "https://l-www.dinamalar.com/news/tamil-nadu-district-news-coimbatore/l-www-link/2",     # listed as l-www, written as www
-                "https://www.dinamani.com/all-editions/edition-coimbatore/coimbatore/2026/Oct/31/x"]
+        urls = ["https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/old-news/1",          # published yesterday evening
+                "https://l-www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/l-www-link/2",     # listed as l-www, written as www
+                "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Oct/31/x"]
         rnd = {"ids": [pick.pid(u) for u in urls], "written": [pick.pid(u) for u in urls],
                "decided": {"how": "owner ticked 3", "ids": [pick.pid(u) for u in urls]}}
         post._PICKED = set(rnd["written"])
-        posted_before = {"story_id": "RN-1", "headline_ta": "கோவை மாநகராட்சி குடிநீர் கட்டணம் உயர்வு இல்லை", "headline_en": "",
+        posted_before = {"story_id": "RN-1", "headline_ta": "திருச்சி மாநகராட்சி குடிநீர் கட்டணம் உயர்வு இல்லை", "headline_en": "",
                          "post_status": "Posted", "trichy_link": "https://instagram.com/p/x", "researched": "01 Nov 2026, 08:00",
                          "source": "https://other.example/a"}
         rows = []
@@ -194,7 +194,7 @@ class EndToEndOwnerPick(unittest.TestCase):
             rows.append({"story_id": f"RN-{10 + k}", "source": u.replace("l-www.", "www."), "published": "2026-10-20T18:00:00+05:30",
                          "researched": "20 Oct 2026, 18:00", "headline_ta": posted_before["headline_ta"],      # looks like a duplicate
                          "headline_en": "", "category": "Civic", "location": "Chennai", "reel_script": "", "caption": "",
-                         "images": "x" * 50, "slides_spec": "{}", "review": "Auto", "post_to": "coimbatore"})
+                         "images": "x" * 50, "slides_spec": "{}", "review": "Auto", "post_to": "trichy"})
         old_all = post.ALL_ROWS
         post.ALL_ROWS = rows + [posted_before]
         try:
@@ -230,7 +230,7 @@ class EndToEndOwnerPick(unittest.TestCase):
 
     def test_never_posted_uses_the_posting_rule(self):
         row = {"story_id": "RN-141", "verification": "NOT CLEAN problems: numbers not found in the article: 1000",
-               "location": "கோவை, பீளமேடு", "source": "", "caption": "", "reel_script": ""}
+               "location": "திருச்சி, உறையூர்", "source": "", "caption": "", "reel_script": ""}
         import post
         old = post._location_still_wrong, post._real_numbers, post._skip_reason_base
         post._location_still_wrong = lambda r, f: True
@@ -245,7 +245,7 @@ class EndToEndOwnerPick(unittest.TestCase):
 
     def test_refused_pick_is_skipped_and_not_offered_again(self):      # 3 Nov: the gold-seizure news ('duplicate after write') kept 3 rounds red
         import tempfile
-        url = "https://www.dinamalar.com/news/tamil-nadu-district-news-coimbatore/gold/1"
+        url = "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/gold/1"
         k = pick.pid(url)
         st = {"pool": {k: {"url": url, "title": "பெண் பயணி கடத்தி வந்த ரூ.1 கோடி தங்கம் பறிமுதல்"}},
               "rounds": {"2026-11-03_07": {"written": [k], "decided": {"ids": [k]}}}}
@@ -316,9 +316,9 @@ class AutomaticTwentyADay(unittest.TestCase):
     def test_no_email_and_the_top_news_are_written_at_once(self):
         t = datetime.datetime(2026, 11, 3, 6, 0, tzinfo=IST)
         pick.STATE.write_text(json.dumps({"last_end": (t - datetime.timedelta(hours=9)).isoformat(), "pool": {}, "rounds": {}}))
-        heads = ["பீளமேட்டில் நகை திருட்டு", "சூலூரில் லாரி விபத்து", "வால்பாறையில் யானை நடமாட்டம்", "குடிநீர் கட்டண உயர்வு ரத்து",
-                 "அன்னூரில் மின் கம்பம் சாய்ந்தது", "பொள்ளாச்சி சந்தையில் தேங்காய் விலை", "காந்திபுரம் மேம்பால பணி தாமதம்",
-                 "மேட்டுப்பாளையத்தில் கனமழை எச்சரிக்கை", "கிணத்துக்கடவில் பள்ளி மாணவர் சாதனை", "ரயில் நேர மாற்றம் அறிவிப்பு"]
+        heads = ["பீளமேட்டில் நகை திருட்டு", "லால்குடியில் லாரி விபத்து", "துறையூரில் யானை நடமாட்டம்", "குடிநீர் கட்டண உயர்வு ரத்து",
+                 "முசிறியில் மின் கம்பம் சாய்ந்தது", "மணப்பாறை சந்தையில் தேங்காய் விலை", "சத்திரம் மேம்பால பணி தாமதம்",
+                 "ஸ்ரீரங்கத்தில் கனமழை எச்சரிக்கை", "கிணத்துக்கடவில் பள்ளி மாணவர் சாதனை", "ரயில் நேர மாற்றம் அறிவிப்பு"]
         arts = {f"https://www.dinakaran.com/n{i}": art(f"https://www.dinakaran.com/n{i}", heads[i], t - datetime.timedelta(hours=1), i) for i in range(10)}
         rid = self.collect(t, [{"url": u} for u in arts], lambda it, r: (dict(arts[it["url"]]), ""))
         self.assertEqual(rid, "2026-11-03_06")
@@ -331,8 +331,8 @@ class AutomaticTwentyADay(unittest.TestCase):
     def test_a_link_that_failed_to_open_is_tried_again_next_round(self):
         t = datetime.datetime(2026, 11, 3, 6, 0, tzinfo=IST)
         pick.STATE.write_text(json.dumps({"last_end": (t - datetime.timedelta(hours=9)).isoformat(), "pool": {}, "rounds": {}}))
-        u = "https://www.dinamalar.com/news/tamil-nadu-district-news-coimbatore/x/123456"
-        a = art(u, "கோவையில் விபத்து", t - datetime.timedelta(hours=2))
+        u = "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/x/123456"
+        a = art(u, "திருச்சியில் விபத்து", t - datetime.timedelta(hours=2))
         self.collect(t, [{"url": u}], lambda it, r: (None, "could not open (502)"))
         self.assertIn(u, json.loads(pick.STATE.read_text())["retry"])
         t2 = t + datetime.timedelta(hours=4)      # the next round: the link is not in the papers' lists any more
@@ -354,7 +354,7 @@ class AutomaticTwentyADay(unittest.TestCase):
 
     def test_a_picked_news_never_written_comes_back(self):
         t = datetime.datetime(2026, 11, 3, 10, 0, tzinfo=IST)
-        a = art("https://www.dinamani.com/p", "கோவை குடிநீர் பிரச்சனை", t - datetime.timedelta(hours=5))
+        a = art("https://www.dinamani.com/p", "திருச்சி குடிநீர் பிரச்சனை", t - datetime.timedelta(hours=5))
         for picked_h, listed in ((1, False), (4, True)):
             pool = {a["id"]: dict(a, listed_at=(t - datetime.timedelta(hours=5)).isoformat(), picked_at=(t - datetime.timedelta(hours=picked_h)).isoformat())}
             pick.STATE.write_text(json.dumps({"last_end": (t - datetime.timedelta(hours=4)).isoformat(), "pool": pool, "rounds": {}}))
@@ -365,8 +365,8 @@ class AutomaticTwentyADay(unittest.TestCase):
     def test_a_failed_link_still_in_the_list_is_a_retry_too(self):
         t = datetime.datetime(2026, 11, 3, 6, 0, tzinfo=IST)
         pick.STATE.write_text(json.dumps({"last_end": (t - datetime.timedelta(hours=9)).isoformat(), "pool": {}, "rounds": {}}))
-        u = "https://www.dinamalar.com/news/tamil-nadu-district-news-coimbatore/y/654321"
-        a = art(u, "கோவையில் தீ விபத்து", t - datetime.timedelta(hours=1))
+        u = "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/y/654321"
+        a = art(u, "திருச்சியில் தீ விபத்து", t - datetime.timedelta(hours=1))
         self.collect(t, [{"url": u}], lambda it, r: (None, "could not open (502)"))
         self.collect(t + datetime.timedelta(hours=4), [{"url": u}], lambda it, r: (dict(a), ""))      # still in the paper's list
         self.assertIn(a["id"], json.loads(pick.STATE.read_text())["pool"])

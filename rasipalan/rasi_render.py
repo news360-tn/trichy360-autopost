@@ -2,7 +2,7 @@
 
 Two designs - each page has its own look (owner 31 Oct):
   temple   (இராசிபுரம் 360): sandal-cream, temple maroon + gold, mango-leaf thoranam, kovil-karai border, gold rasi medallions
-  calendar (கோவை 360):      the Tamil daily tear-off calendar sheet, red + black
+  calendar (திருச்சி 360):      the Tamil daily tear-off calendar sheet, red + black
 A festival day changes the colours, the cover emblem and adds the greeting (themes below). Text that is too wide is shrunk to fit."""
 import math
 from pathlib import Path
@@ -276,7 +276,7 @@ body{{position:relative;font-family:'Mukta','BalooL',sans-serif;color:#3a1408;ba
         return s.base(inner)
 
 
-# ================================================================== CALENDAR design (Coimbatore)
+# ================================================================== CALENDAR design (Trichy)
 class Calendar:
     def __init__(s, ctx):
         s.x = ctx

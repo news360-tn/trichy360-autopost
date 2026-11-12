@@ -5,7 +5,7 @@ import post
 
 out = {}
 METRICS = ["reach", "views", "saved", "shares", "likes", "comments", "total_interactions", "ig_reels_avg_watch_time", "ig_reels_video_view_total_time", "plays"]
-for page in ("coimbatore",):
+for page in ("trichy",):
     r = out[page] = {}
     try:
         tok = post.bridge_get("token", page=page)["token"]
@@ -65,10 +65,10 @@ def check_locations(out):
         res["note"] = "no location ids in config.json" if not ids else "no picture to test with"
         return []
     try:
-        tok = post.bridge_get("token", page="coimbatore")["token"]
+        tok = post.bridge_get("token", page="trichy")["token"]
         uid, _ = post.ig_account(tok)
     except Exception as e:
-        res["note"] = f"no token for coimbatore ({type(e).__name__})"
+        res["note"] = f"no token for trichy ({type(e).__name__})"
         return []
     ok = []
     for pid in ids:

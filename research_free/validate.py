@@ -8,8 +8,8 @@ OUTLETS = ["தினமலர்", "தினத்தந்தி", "தின
            "தமிழ் மணி", "டைம்ஸ் ஆஃப் இந்தியா", "dinamalar", "dinamani", "dinathanthi", "daily thanthi", "maalaimalar", "dinakaran",
            "the hindu", "hindu tamil", "times of india", "dt next", "indian express", "news18", "polimer", "sun news", "news7", "vikatan",
            "oneindia", "way2news", "puthiya thalaimurai", "kalaignar", "toptamilnews", "ஆதாரம்", "source:", "http", "www."]
-PAGE = "Coimbatore 360"      # post_to value (the only page)
-LAST = "மேலும் செய்திகளுக்கு கோயம்புத்தூர் த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்."
+PAGE = "Trichy 360"      # post_to value (the only page)
+LAST = "மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்."
 FOLLOW = "உள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏"
 KEYS = ["tamil_headline", "english_headline", "category", "location", "importance", "post_to", "slides_spec", "reel_script", "caption", "scenes"]
 
@@ -104,7 +104,7 @@ def place_problems(d):
 def grounding_problems(d, article):
     """a draft built from the article re-uses the article's words. Invented places/garbled words do not appear in it."""
     art_words = _tamil_words(article)
-    try:      # owner 2 Nov (review): 'கு.பாளையம்' / 'மே.பாளையம்' in the article = 'குமாரபாளையம்' / 'மேட்டுப்பாளையம்' in the draft
+    try:      # owner 2 Nov (review): 'கு.பாளையம்' / 'ஸ்ரீரங்கம்' in the article = 'குமாரபாளையம்' / 'ஸ்ரீரங்கம்' in the draft
         import names
         art_words = art_words + _tamil_words(names.full_places(article))
     except Exception:
@@ -125,7 +125,7 @@ def grounding_problems(d, article):
     for i, w in enumerate(loc_words):
         if len(w) < 4 or (i + 1 < len(loc_words) and (_initial(w), _stem(loc_words[i + 1])) in inits):
             continue      # 'பரமத்தி வேலூர்' when the article writes 'ப.வேலுார்'
-        if _stem(w) not in stems and w not in ("மாவட்டம்", "கோவை", "கோயம்புத்தூர்"):
+        if _stem(w) not in stems and w not in ("மாவட்டம்", "திருச்சி", "திருச்சிராப்பள்ளி"):
             out.append(f"not grounded: location '{w}' is not in the article")
     # 2) most words of the reel script and slides must come from the article
     body = LAST
@@ -179,12 +179,12 @@ def autofix(d):
             ln = x.get("lines") or []
             x["lines"] = [_cut(l, 60) if len(_tags(l)) > 60 else l for l in ln[:3]]
         sp["slides"] = sl
-    d["post_to"] = PAGE      # single page: always Coimbatore 360 (no collab)
+    d["post_to"] = PAGE      # single page: always Trichy 360 (no collab)
     sc = d.get("scenes")
     if isinstance(sc, str) and sc.strip():
         d["scenes"] = [sc.strip()]
     elif isinstance(sc, list):
-        d["scenes"] = [x for x in sc if isinstance(x, str) and x.strip()][:2]      # Coimbatore: exactly ONE image prompt per story
+        d["scenes"] = [x for x in sc if isinstance(x, str) and x.strip()][:2]      # Trichy: exactly ONE image prompt per story
     return d
 
 
@@ -230,7 +230,7 @@ def _stems4(t):
     return {w[:4] for w in re.findall(r"[\u0B80-\u0BFF]{4,}", t or "")}
 
 
-GENERIC4 = {"நாமக்", "மாவட", "கோவை", "கோயம", "ராசி", "இராச", "செய்", "தெரி", "இந்த", "அந்த", "பகுத", "மேலு", "நடைப", "வருக", "உள்ள", "என்ற",
+GENERIC4 = {"நாமக்", "மாவட", "திரு", "ராசி", "இராச", "செய்", "தெரி", "இந்த", "அந்த", "பகுத", "மேலு", "நடைப", "வருக", "உள்ள", "என்ற",
             "அதிக", "போலீ", "தமிழ", "அரசு", "மக்க", "இதனா", "அருக", "நகரா", "ஊராட"}
 
 
@@ -243,7 +243,7 @@ def caption_missing_facts(cap, article, story):
     capd = set(n.replace(",", "") for n in re.findall(r"\d[\d,]*", cap))
     try:
         import allnews
-        places = [w for w in getattr(allnews, "COIMBATORE_WORDS", None) or getattr(allnews, "NAMAKKAL_WORDS", []) if not w.isascii()]
+        places = [w for w in getattr(allnews, "TRICHY_WORDS", None) or getattr(allnews, "NAMAKKAL_WORDS", []) if not w.isascii()]
     except Exception:
         places = []
     miss = []
@@ -389,7 +389,7 @@ def validate(d, article, today_digits=("2026",)):
     p += place_problems(d)
     blob_all = " ".join([d.get("tamil_headline", ""), rs, cap, json.dumps(sp, ensure_ascii=False)])
     foreign = sorted(set(re.findall(r"[\u0900-\u0B7F\u0C00-\u0D7F\u3040-\u30FF\u3400-\u9FFF\uAC00-\uD7AF]", blob_all)))
-    if foreign:      # owner 29 Oct: letters of another script inside Tamil words (Coimbatore RN-5, RN-20 ...)
+    if foreign:      # owner 29 Oct: letters of another script inside Tamil words (Trichy RN-5, RN-20 ...)
         p.append("letters of another script inside Tamil words: " + " ".join(foreign[:8]) + " - write every word only in Tamil letters")
     try:
         from verify import tamil_sequence_problems

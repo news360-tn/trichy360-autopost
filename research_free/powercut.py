@@ -1,8 +1,8 @@
-"""Coimbatore 360 - owner 1 Nov: POWER-SHUTDOWN news is posted at once, WITHOUT the owner's tick (every other news waits for the
+"""Trichy 360 - owner 1 Nov: POWER-SHUTDOWN news is posted at once, WITHOUT the owner's tick (every other news waits for the
 6 AM / 4 PM pick e-mail).
 
 Every hour 6 AM - 10 PM IST (.github/workflows/powercut.yml):
-  find    Dinamani + Dinamalar Coimbatore pages (main) and Covai Mail (backup) -> power-cut notices of Coimbatore district whose cut day
+  find    Dinamani + Dinamalar Trichy pages (main) and Covai Mail (backup) -> power-cut notices of Trichy district whose cut day
           is today (and not over) or later -> research_free/results/powercut_urls.txt (written by collect.py, then posted at once)
   verify  exit 0 when every power cut written today is on Instagram, exit 3 when one is not (the workflow retries, then fails loudly)
 
@@ -16,11 +16,11 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import allnews      # noqa: E402
 
-# ---- the only part that differs between the Coimbatore and the Namakkal copy of this file
-QUERIES = ["கோவை மின்தடை", "கோயம்புத்தூர் மின்தடை", "நாளைய மின்தடை கோவை", "பொள்ளாச்சி மின்தடை", "மேட்டுப்பாளையம் மின்தடை",
-           "சூலூர் மின்தடை", "அன்னூர் மின்தடை", "கோவை மின் நிறுத்தம்"]
-SITES = ("dinamani.com", "dinamalar.com", "covaimail.com")      # order = preference when two papers print the same cut
-DISTRICT_URL = ("district-news-coimbatore", "edition-coimbatore", "covaimail.com")      # a link of the district's own page
+# ---- the only part that differs between the Trichy and the Namakkal copy of this file
+QUERIES = ["திருச்சி மின்தடை", "திருச்சிராப்பள்ளி மின்தடை", "நாளைய மின்தடை திருச்சி", "மணப்பாறை மின்தடை", "ஸ்ரீரங்கம் மின்தடை", "லால்குடி மின்தடை",
+           "முசிறி மின்தடை", "துறையூர் மின்தடை", "திருச்சி மின் நிறுத்தம்"]
+SITES = ("dinamani.com", "dinamalar.com")      # order = preference when two papers print the same cut
+DISTRICT_URL = ("district-news-trichirappalli", "edition-trichy/trichy")      # a link of the district's own page
 # ----
 
 STATE = HERE / "archive" / "powercut_state.json"
@@ -325,7 +325,7 @@ def _never_posted(row):
         import post
         why = post.skip_reason(row) or ""
         if not why:
-            d = post._ig_dup_for_check(row, "coimbatore")
+            d = post._ig_dup_for_check(row, "trichy")
             why = f"already on Instagram ({d})" if d else ""
         return why
     except Exception as e:

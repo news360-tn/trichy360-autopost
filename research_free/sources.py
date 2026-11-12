@@ -1,8 +1,8 @@
-"""Fetch Coimbatore district news candidates. Free sources only; polite 1.5 s gaps. Used inside GitHub Actions."""
+"""Fetch Trichy district news candidates. Free sources only; polite 1.5 s gaps. Used inside GitHub Actions."""
 import re, time, html, json
 import requests
-UA = {"User-Agent": "Mozilla/5.0 (compatible; Coimbatore360-research/1.0)"}
-DISTRICT = "tamil-nadu-district-news-coimbatore"      # Dinamalar's Coimbatore district page
+UA = {"User-Agent": "Mozilla/5.0 (compatible; Trichy360-research/1.0)"}
+DISTRICT = "tamil-nadu-district-news-trichirappalli"      # Dinamalar's Trichy district page
 LIST_URL = "https://www.dinamalar.com/news/" + DISTRICT
 
 
@@ -21,7 +21,7 @@ def candidate_links(limit=15):
         if u not in links:
             links.append(u)
     # 27 Oct: only the first 8 stories are <a href> links; the rest of the district list sits in the page data as
-    # '/news/tamil-nadu-district-news-coimbatore/<id>/<slug>'
+    # '/news/tamil-nadu-district-news-trichirappalli/<id>/<slug>'
     for m in re.finditer(r'/news/(' + DISTRICT + r')/(?:(\d{6,})/([a-z0-9-]+)|([a-z0-9-]+)/(\d{6,}))', h):
         slug, nid = (m.group(3), m.group(2)) if m.group(2) else (m.group(4), m.group(5))
         u = f"https://www.dinamalar.com/news/{m.group(1)}/{slug}/{nid}"
@@ -71,7 +71,7 @@ BODY_TAG = re.compile(r'<(?:div|section)[^>]+(?:itemprop="articleBody"|class="[^
                       r'news[-_ ]?(?:body|content|detail)|entry-content|post-content|td-post-content)[^"]*")[^>]*>|<article[^>]*>', re.I)
 
 
-# owner 31 Oct (Coimbatore RN-102, a Thanthi TV 'breaking' page with only a headline, a video and hashtags): the 'Also Read' /
+# owner 31 Oct (Trichy RN-102, a Thanthi TV 'breaking' page with only a headline, a video and hashtags): the 'Also Read' /
 # related-story cards (other stories' headlines) were taken as the article's text. Everything from that heading on is not the story.
 RELATED = re.compile(r">\s*(?:Also Read|Related (?:News|Stories|Articles)|Read More|இதையும் படிக்க|இதையும் படியுங்கள்|"
                      r"தொடர்புடைய செய்திகள்|மேலும் படிக்க)\s*<")

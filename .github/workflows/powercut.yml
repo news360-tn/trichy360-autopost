@@ -1,6 +1,6 @@
 name: powercut
-# Coimbatore 360 - owner 1 Nov: POWER-SHUTDOWN news is posted at once, WITHOUT the owner's tick (all other news waits for the 6 AM /
-# 4 PM pick e-mail). Every hour 5:50 AM - 9:50 PM IST: Dinamani + Dinamalar Coimbatore (main) and Covai Mail (backup) are checked for
+# Trichy 360 - owner 1 Nov: POWER-SHUTDOWN news is posted at once, WITHOUT the owner's tick (all other news waits for the 6 AM /
+# 4 PM pick e-mail). Every hour 5:50 AM - 9:50 PM IST: Dinamani + Dinamalar Trichy (main) and Covai Mail (backup) are checked for
 # power-cut notices whose cut day is today (not over) or later; each new one is written, made into a reel and posted at once.
 # The same cut is never posted twice (same day + same place), a cut that is over is never posted. A notice not on Instagram within
 # 40 minutes fails this job (GitHub e-mails the owner).

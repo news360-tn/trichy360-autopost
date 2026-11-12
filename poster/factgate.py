@@ -40,7 +40,7 @@ def check(row):
         return []
 
 
-CONFIRM = """You are a strict senior news editor. A first checker listed possible factual problems in a draft; first checkers often misread. For EACH problem, find the exact sentence in the ARTICLE that proves it. The fixed closing line "மேலும் செய்திகளுக்கு கோயம்புத்தூர் த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்", the caption footer and hashtags are never problems. Wording choices (e.g. மூதாட்டி for an elderly woman) are not problems. Only a wrong name, number, place, date, cause or event that contradicts the article is real.
+CONFIRM = """You are a strict senior news editor. A first checker listed possible factual problems in a draft; first checkers often misread. For EACH problem, find the exact sentence in the ARTICLE that proves it. The fixed closing line "மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்", the caption footer and hashtags are never problems. Wording choices (e.g. மூதாட்டி for an elderly woman) are not problems. Only a wrong name, number, place, date, cause or event that contradicts the article is real.
 Return ONLY JSON: {"results":[{"n":1,"real":true|false,"quote":"article sentence that proves it, or empty"}]}"""
 
 

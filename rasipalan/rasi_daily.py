@@ -1,7 +1,7 @@
 """Daily rasipalan carousel - collects at 7:31 AM IST, writes, checks, renders and posts at once (one post per page per day).
 
   PAGE=rasipuram  python rasipalan/rasi_daily.py   -> இராசிபுரம் 360, temple design, நாமக்கல் 360 invited as collaborator
-  PAGE=coimbatore python rasipalan/rasi_daily.py   -> கோயம்புத்தூர் 360, calendar design, no collaborator
+  PAGE=trichy python rasipalan/rasi_daily.py   -> திருச்சி 360, calendar design, no collaborator
   DRY_RUN=1 -> everything except publishing (slides kept in out/rasipalan for review)
 Environment: BRIDGE_URL, BRIDGE_KEY (page tokens), CLOUDINARY_CLOUD, CLOUDINARY_PRESET, model keys (see research_free/llm.py)."""
 import json, os, sys, time

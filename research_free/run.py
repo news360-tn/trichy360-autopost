@@ -106,7 +106,7 @@ def write(art, today):
 CHECK = """You are a strict fact-checker for a Tamil local-news page. You get an ARTICLE and a DRAFT (JSON with Tamil text).
 Check EVERY claim in the draft's tamil_headline, reel_script, slides_spec and caption against the ARTICLE.
 Report a problem for each of these: a place, person role, number, amount, date, time or cause that is NOT in the article or differs from it; an invented detail; a sentence that is ungrammatical or has no clear meaning in Tamil; two different facts mixed into one sentence; an important fact of the article (who did what, where, result such as an arrest) that is missing from the reel_script.
-NOT problems: the caption footer (the 📍 place | posting-date line, the Follow line, hashtags), the fixed closing sentence of reel_script that tells viewers to follow the "கோயம்புத்தூர் த்ரீ சிக்ஸ்டி" page, and wording choices such as மூதாட்டி for an elderly woman. The posting date is today's date, not a claim from the article.
+NOT problems: the caption footer (the 📍 place | posting-date line, the Follow line, hashtags), the fixed closing sentence of reel_script that tells viewers to follow the "திருச்சி த்ரீ சிக்ஸ்டி" page, and wording choices such as மூதாட்டி for an elderly woman. The posting date is today's date, not a claim from the article.
 Return ONLY JSON: {"ok": true or false, "problems": ["short English description of each problem"]}. ok is true ONLY when the problems list is empty."""
 
 
@@ -139,10 +139,10 @@ def factcheck(d, art, claude=True):
         return ["fact-check: could not be run"]
 
 
-PROOF = """You are a senior Tamil news editor and proofreader for the Instagram page "கோயம்புத்தூர் 360" (Coimbatore district).
+PROOF = """You are a senior Tamil news editor and proofreader for the Instagram page "திருச்சி 360" (Trichy district).
 You get a JSON draft. Return the SAME JSON object (same keys, same structure, same facts, same numbers) with ONLY these fixes:
 1. Correct Tamil spelling, sandhi (புணர்ச்சி), grammar and place names in every Tamil text.
-2. reel_script: make it read like ONE continuous story by a professional Tamil TV news reader: smooth connecting words between sentences (மேலும், இதனால், இதையடுத்து, இந்நிலையில்), no abrupt jumps, no repeated facts, first sentence = the hook. Keep the key facts of the draft (70-160 words: the reel is at most 90 seconds - keep EVERY fact of the draft, never drop one to make it shorter) and give every detail the article has (who, exact place, when, how, numbers, action, what next). Keep EVERY number, date, time, amount and age exactly as the digits written in the draft (10.30 மணி, ரூ.5.70, 65 வயது, 26ஆம் தேதி) - never turn them into words and never change them. No English letters. English words that people say in Tamil must be written in Tamil script so a Tamil voice pronounces them (மொபைல், ஆன்லைன், பஸ்). Keep the last sentence exactly: மேலும் செய்திகளுக்கு கோயம்புத்தூர் த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.
+2. reel_script: make it read like ONE continuous story by a professional Tamil TV news reader: smooth connecting words between sentences (மேலும், இதனால், இதையடுத்து, இந்நிலையில்), no abrupt jumps, no repeated facts, first sentence = the hook. Keep the key facts of the draft (70-160 words: the reel is at most 90 seconds - keep EVERY fact of the draft, never drop one to make it shorter) and give every detail the article has (who, exact place, when, how, numbers, action, what next). Keep EVERY number, date, time, amount and age exactly as the digits written in the draft (10.30 மணி, ரூ.5.70, 65 வயது, 26ஆம் தேதி) - never turn them into words and never change them. No English letters. English words that people say in Tamil must be written in Tamil script so a Tamil voice pronounces them (மொபைல், ஆன்லைன், பஸ்). Keep the last sentence exactly: மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.
 3. slides_spec texts and caption: natural modern Tamil, no half-English sentences except fixed words (Follow, Share, Save). Keep the character limits (hl1 40, hl2 28, title 18, lines 60).
 4. "scenes" stays exactly as it is: the TWO English image prompts (do not add, split or translate them).
 Never add facts. Never remove the follow line or hashtags. Output ONLY the JSON object."""

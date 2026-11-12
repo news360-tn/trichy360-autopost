@@ -1,9 +1,9 @@
-"""கோயம்புத்தூர் 360 — photo carousel renderer (v3).
-Usage: python3 render_photo.py spec.json images_dir out_dir [--ai-label] [--page coimbatore]
+"""திருச்சி 360 — photo carousel renderer (v3).
+Usage: python3 render_photo.py spec.json images_dir out_dir [--ai-label] [--page trichy]
 
 spec (v3):
- {"v":3,"story":"RN-26","date":"20 அக்டோபர் 2026","cat":"மழை","loc":"கோவை",
-  "hl1":"கோவையில் கனமழை","hl2":"அடுத்த 5 நாட்கள் தொடரும்",
+ {"v":3,"story":"RN-26","date":"20 அக்டோபர் 2026","cat":"மழை","loc":"திருச்சி",
+  "hl1":"திருச்சியில் கனமழை","hl2":"அடுத்த 5 நாட்கள் தொடரும்",
   "slides":[{"title":"என்ன நடந்தது","lines":["...","...","..."]}, ...]}
 images_dir holds img1.jpg, img2.jpg ... (img1 = cover, img2.. = detail slides, in order).
 Output: <story>_slide1_cover.png ... + the follow slide last. The logo is added afterwards (overlay_logo_v2.py).
@@ -75,7 +75,7 @@ def cover_html(spec, img, ai):
 <div class="cover-cat">{E(spec.get('cat',''))}</div>
 <div class="cover-h1">{E(spec['hl1'])}</div>
 <div class="cover-h2">{E(spec.get('hl2',''))}</div>
-<div class="cover-loc"><i data-ic="location-dot"></i>{E(spec.get('loc','கோவை'))}</div>
+<div class="cover-loc"><i data-ic="location-dot"></i>{E(spec.get('loc','திருச்சி'))}</div>
 <div style="position:absolute;right:34px;bottom:34px;z-index:6;display:flex;align-items:center;gap:12px;background:#FFCC1F;color:#06132F;font:800 34px/1 'NST','CT',sans-serif;padding:16px 26px 12px;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.45)">முழு விவரம் <span style="display:inline-block;width:30px;height:30px"><i data-ic="arrow-right"></i></span></div>
 {AI_CHIP if ai else ''}"""
 
@@ -97,7 +97,7 @@ def page(inner, light=False):
 <body><div class="layer" style="z-index:1">{inner}</div><script>{FIT}</script></body></html>"""
 
 def follow_slide(date):
-    ex = json.loads((HERE / f"example_slides_{os.environ.get('PAGE_KEY', 'coimbatore')}.json").read_text())
+    ex = json.loads((HERE / f"example_slides_{os.environ.get('PAGE_KEY', 'trichy')}.json").read_text())
     h = ex["slides"][-1]["html"]
     h = re.sub(r'(<i data-ic="calendar-days"></i>)[^<]+(</div>)', lambda m: m.group(1) + date + m.group(2), h, count=1)
     # shares and saves push a post further than likes: ask for them on the last slide

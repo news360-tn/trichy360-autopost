@@ -112,11 +112,11 @@ class CaptionRules(unittest.TestCase):
         p = {"date": "2026-10-31", "date_ta": "31 அக்டோபர் 2026", "weekday": "சனி", "tamil_month": "ஐப்பசி", "tamil_day": 14,
              "chandrashtamam": "விருச்சிகம்", "rahu": "9:00 – 10:30", "emagandam": "1:30 – 3:00", "kuligai": "6:00 – 7:30"}
         rs = [{"rasi": r, "stars": 5 if r == "சிம்மம்" else 3, "work": "பணியில் முன்னேற்றம்"} for r in writer.RASI]
-        for page in ("rasipuram", "coimbatore"):
+        for page in ("rasipuram", "trichy"):
             cap = run.caption(run.PAGES[page], p, {"name": "தீபாவளி", "theme": "diwali"}, ["பிரதோஷம்"], rs)
             tags = [w for w in cap.split() if w.startswith("#")]
             self.assertLessEqual(len(tags), 5)
-            self.assertEqual(tags[-1], "#Rasipuram360" if page == "rasipuram" else "#Coimbatore360")
+            self.assertEqual(tags[-1], "#Rasipuram360" if page == "rasipuram" else "#Trichy360")
             self.assertIn("#Deepavali", tags)
             self.assertIn("தீபாவளி நல்வாழ்த்துகள்", cap)
             self.assertIn("சிம்மம்", cap.split("\n")[2])
@@ -193,7 +193,7 @@ class NallaNeram(unittest.TestCase):
 
 
 class WriterNeverFailsOnOneLine(unittest.TestCase):
-    """1 Nov (Coimbatore repost): 3 drafts each had 1 bad line -> the whole post failed. Now the best draft is used and only the
+    """1 Nov (Trichy repost): 3 drafts each had 1 bad line -> the whole post failed. Now the best draft is used and only the
     bad lines are replaced by own safe lines."""
     def test_one_bad_line_is_repaired(self):
         import rasi_writer as W

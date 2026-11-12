@@ -18,7 +18,7 @@
     "rate": "+12%",
     "pitch": "+4Hz",
     "outro_voice": "en-IN-PrabhatNeural",
-    "note": "Coimbatore 360: Valluvar (free edge-tts) reads every reel; Google voices are never used"
+    "note": "Trichy 360: Valluvar (free edge-tts) reads every reel; Google voices are never used"
   },
   "prime_time": {
     "enabled": false,
@@ -33,7 +33,7 @@
       ]
     ],
     "max_wait_hours": 12,
-    "note": "owner 29 Oct (Coimbatore): NO fixed posting times - every reel posts the moment it is made. (enabled=true would make non-urgent reels wait for the windows below.)"
+    "note": "owner 29 Oct (Trichy): NO fixed posting times - every reel posts the moment it is made. (enabled=true would make non-urgent reels wait for the windows below.)"
   },
   "reel_punch": false,
   "reel_max_seconds": 88,
@@ -69,7 +69,29 @@
       "sports_culture": "#Sports",
       "other": "#TamilNews"
     },
-    "place_tags": {},
+    "place_tags": {
+      "ஸ்ரீரங்க": "#Srirangam",
+      "திருவரங்க": "#Srirangam",
+      "மணப்பாறை": "#Manapparai",
+      "லால்குடி": "#Lalgudi",
+      "முசிறி": "#Musiri",
+      "துறையூ": "#Thuraiyur",
+      "திருவெறும்பூ": "#Thiruverumbur",
+      "மண்ணச்சநல்லூ": "#Mannachanallur",
+      "தொட்டிய": "#Thottiyam",
+      "சமயபுர": "#Samayapuram",
+      "திருவானைக்காவ": "#Thiruvanaikoil",
+      "துவாக்குடி": "#Thuvakudi",
+      "உப்பிலியபுர": "#Uppiliyapuram",
+      "மருங்காபுரி": "#Marungapuri",
+      "வையம்பட்டி": "#Vaiyampatti",
+      "தில்லை நக": "#ThillaiNagar",
+      "உறையூ": "#Woraiyur",
+      "பொன்மலை": "#Ponmalai",
+      "மலைக்கோட்டை": "#Rockfort",
+      "சத்திரம் பேருந்து": "#Chathiram",
+      "பாலக்கரை": "#Palakkarai"
+    },
     "extra_tag": "#Tiruchirappalli",
     "search_suffix": "Trichy news",
     "caption_all_facts": true,

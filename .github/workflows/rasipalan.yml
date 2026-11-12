@@ -1,5 +1,5 @@
 name: rasipalan
-# Daily rasipalan carousel on கோயம்புத்தூர் 360 (Tamil daily-calendar design, no collaborator).
+# Daily rasipalan carousel on திருச்சி 360 (Tamil daily-calendar design, no collaborator).
 # owner 31 Oct: collect sharply at 7:31 AM IST and post as soon as it is ready. GitHub can start scheduled jobs late, so the job is
 # scheduled for 7:00 AM and waits until 7:31; backups at 7:45, 9:45 and 11:45 AM (a run stops at once if today is already posted).
 # owner 1 Nov: never miss a day - 2 sources wanted, 1 is enough after 9:30 AM, trying continues until 12:30 PM.

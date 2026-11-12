@@ -1,6 +1,6 @@
-"""Coimbatore 360 - owner's pick flow (owner 1 Nov).
+"""Trichy 360 - owner's pick flow (owner 1 Nov).
 
-Twice a day (6:00 AM and 4:00 PM IST) the news of Dinamalar and Dinamani's Coimbatore pages ONLY is collected - by the article's own
+Twice a day (6:00 AM and 4:00 PM IST) the news of Dinamalar and Dinamani's Trichy pages ONLY is collected - by the article's own
 published time, in back-to-back windows (yesterday 4 PM -> 6 AM, then 6 AM -> 4 PM; a late or failed round continues from the last end).
 The list goes to the owner by e-mail with a check-box page (Apps Script bridge). The owner ticks news and presses Submit:
 EVERY ticked news is written and posted (no other check). No submit within 1 hour: the top 8 by importance are written and posted
@@ -29,8 +29,8 @@ AD = re.compile(r"தள்ளுபடி|ஆஃபர்|ஆபர்|அள�
 DRY = os.environ.get("PICK_DRY", "") in ("1", "true", "yes")
 # owner 2 Nov: "do not ask me to confirm" - no e-mail; every round's top news (PICK_AUTO_TOP, 8 + 6 + 6 = 20 a day) is written at once.
 EMAIL = os.environ.get("PICK_EMAIL", "0") == "1"
-# owner 2 Nov: more than two papers - every Tamil outlet the collector already trusts for Coimbatore
-OUTLETS = {"dinamalar.com": "தினமலர்", "dinamani.com": "தினமணி", "dinakaran.com": "தினகரன்", "dailythanthi.com": "தினத்தந்தி",
+# owner 2 Nov: more than two papers - every Tamil outlet the collector already trusts for Trichy
+OUTLETS = {"tamil.oneindia.com": "ஒன்இந்தியா", "dinamalar.com": "தினமலர்", "dinamani.com": "தினமணி", "dinakaran.com": "தினகரன்", "dailythanthi.com": "தினத்தந்தி",
            "maalaimalar.com": "மாலைமலர்", "hindutamil.in": "இந்து தமிழ்", "polimernews.com": "பாலிமர்"}
 
 
@@ -105,7 +105,7 @@ def category(title):
 
 
 def candidates(log_lines, since=None):
-    """Dinamalar Coimbatore district list + Dinamani Coimbatore edition: article links"""
+    """Dinamalar Trichy district list + Dinamani Trichy edition: article links"""
     items = []
     try:
         items += allnews.from_dinamalar_list()
@@ -114,7 +114,7 @@ def candidates(log_lines, since=None):
     try:
         cfgs = json.loads((HERE / "sources.json").read_text(encoding="utf-8"))
         for cfg in cfgs:
-            if any(d in cfg["url"] for d in OUTLETS):      # owner 2 Nov: every Tamil outlet's Coimbatore page (was Dinamani only)
+            if any(d in cfg["url"] for d in OUTLETS):      # owner 2 Nov: every Tamil outlet's Trichy page (was Dinamani only)
                 try:
                     items += allnews.from_listing(dict(cfg, limit=80))
                 except Exception as e:
@@ -123,9 +123,9 @@ def candidates(log_lines, since=None):
         log_lines.append(f"Dinamani list failed: {str(e)[:120]}")
     # the district list pages show only the latest ~20-40 news: Google / Bing news searches limited to the two papers fill the rest of the window
     both = (allnews.from_google, allnews.from_bing)
-    searches = [(q, d, both) for q in ("கோவை", "கோயம்புத்தூர்", "பொள்ளாச்சி", "மேட்டுப்பாளையம்") for d in ("dinamalar.com", "dinamani.com")]
+    searches = [(q, d, both) for q in ("திருச்சி", "திருச்சிராப்பள்ளி", "மணப்பாறை", "ஸ்ரீரங்கம்") for d in ("dinamalar.com", "dinamani.com")]
     # owner 2 Nov: the other Tamil outlets - one Google search each (a round must stay a few minutes, not half an hour)
-    searches += [("கோவை", d, (allnews.from_google,)) for d in OUTLETS if d not in ("dinamalar.com", "dinamani.com")]
+    searches += [("திருச்சி", d, (allnews.from_google,)) for d in OUTLETS if d not in ("dinamalar.com", "dinamani.com")]
     for q, dom, fns in searches:
         if True:
             for fn in fns:
@@ -162,7 +162,7 @@ def is_posted(url, title, recent):
 
 
 def check_article(it, recent):
-    """-> (item dict, '') when it is real Coimbatore district news, else (None, reason)"""
+    """-> (item dict, '') when it is real Trichy district news, else (None, reason)"""
     import collect
     try:
         art = allnews.article_any(it["url"])
@@ -178,20 +178,20 @@ def check_article(it, recent):
         return None, "not Tamil"
     if not (allnews.has_place(title) or allnews.has_place(art["text"][:400]) or allnews.url_district(it["url"]) in allnews.DISTRICT_SLUGS
             or it.get("via") == "dinamalar-list") or not allnews.local_ok(it["url"], title):
-        return None, "not Coimbatore district"
+        return None, "not Trichy district"
     if allnews.other_district(title):
         return None, "other district"
     # 1 Nov: a Dinamalar page of another district / state section (puducherry, tamil-nadu-news, premium-news ...) is taken only when
-    # its headline or first lines name a Coimbatore-district place ("போதையில் தகராறு 18 பேர்" was Puducherry news)
-    if "dinamalar.com" in it["url"] and "district-news-coimbatore" not in it["url"] \
+    # its headline or first lines name a Trichy-district place ("போதையில் தகராறு 18 பேர்" was Puducherry news)
+    if "dinamalar.com" in it["url"] and "district-news-trichirappalli" not in it["url"] \
             and not (allnews.has_place(title) or allnews.has_place(art["text"][:300])):
-        return None, "not Coimbatore district"
+        return None, "not Trichy district"
     if AD.search(title):
         return None, "shop offer / advertisement"
     # owner 3 Nov: the writer's own district check, run here too - a picked story the writer then refuses (another place in its first
     # lines, e.g. a state political story on the district list) left the round short (10 AM round: 4 of 6 written)
     if allnews.written_elsewhere(title, art.get("text") or ""):
-        return None, "not Coimbatore district"
+        return None, "not Trichy district"
     low = collect.low_interest(title, it["url"])
     if low and ("feature" in low or "editorial" in low):
         return None, low      # recipes, tips, opinion: not news (ceremonies / awards stay - the owner decides)
@@ -276,7 +276,7 @@ def cmd_collect():
     t_end = now()
     t_start = when(st.get("last_end")) or first_start(t_end)
     rid = t_end.strftime("%Y-%m-%d_%H")      # owner 2 Nov: 3 rounds a day (06 / 10 / 19); a late round keeps its own name
-    log(f"round {rid}: news published {t_start:%d %b %H:%M} -> {t_end:%d %b %H:%M} (" + ", ".join(OUTLETS.values()) + " - Coimbatore)")
+    log(f"round {rid}: news published {t_start:%d %b %H:%M} -> {t_end:%d %b %H:%M} (" + ", ".join(OUTLETS.values()) + " - Trichy)")
     try:      # owner 2 Nov: this round's order follows the insights read a moment ago
         import learned
         d_ = learned.load()
@@ -298,7 +298,7 @@ def cmd_collect():
             c["_retry"] = True
     for l in lines:
         log(l)
-    log(f"{len(cands)} links on the two papers' Coimbatore pages")
+    log(f"{len(cands)} links on the two papers' Trichy pages")
     pool = st.setdefault("pool", {})
     try:
         power_done = set(json.loads((HERE / "archive" / "powercut_state.json").read_text(encoding="utf-8")).get("done", {}))
@@ -339,7 +339,7 @@ def cmd_collect():
             pool.pop(k)
             continue
         # 1 Nov: a story listed before a filter existed (Puducherry news) must not come back as a leftover
-        if allnews.other_district(it["title"]) or ("dinamalar.com" in it["url"] and "district-news-coimbatore" not in it["url"]
+        if allnews.other_district(it["title"]) or ("dinamalar.com" in it["url"] and "district-news-trichirappalli" not in it["url"]
                                                   and not (allnews.has_place(it["title"]) or allnews.has_place(it.get("summary", "")[:300]))):
             pool.pop(k)
             continue
@@ -486,7 +486,7 @@ def _never_posted(row):
         import post
         why = post.skip_reason(row) or ""
         if not why:      # owner 11 Nov: the same news is already on Instagram (posted from another row) - the post job skips it for ever
-            d = post._ig_dup_for_check(row, "coimbatore")
+            d = post._ig_dup_for_check(row, "trichy")
             why = f"already on Instagram ({d})" if d else ""
         return why
     except Exception as e:

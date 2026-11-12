@@ -1,5 +1,5 @@
 name: Post stories (carousel + reel)
-# Coimbatore 360 (கோயம்புத்தூர் 360): one page, reel only, Valluvar voice only, website off. Scheduled posting runs only while the LIVE file exists.
+# Trichy 360 (திருச்சி 360): one page, reel only, Valluvar voice only, website off. Scheduled posting runs only while the LIVE file exists.
 
 on:
   schedule:

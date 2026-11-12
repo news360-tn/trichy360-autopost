@@ -24,7 +24,7 @@ ROUTE = r"(ரயில்|ரெயில்|பேருந்து|பஸ்
 
 
 def dashes(t):
-    """a dash between words is never read out ('திருச்சி - நாமக்கல் மாவட்ட எல்லை' -> 'திருச்சி, நாமக்கல் மாவட்ட எல்லை');
+    """a dash between words is never read out ('சேலம் - நாமக்கல் மாவட்ட எல்லை' -> 'சேலம், நாமக்கல் மாவட்ட எல்லை');
     a route is read 'கோவை முதல் நாகர்கோவில் வரை ரயில்'; a dash inside a word ('டி-20', 'கோவை-திருச்சி') becomes a space"""
     d = "[" + re.escape(DASH) + "]"
     w = r"([\u0B80-\u0BFFA-Za-z]+)"
@@ -41,7 +41,7 @@ def clean(t):
     t = re.sub(r"\d", lambda m: ONES[int(m.group())] or "பூஜ்ஜியம்", t)
     t = dashes(t)
     t = t.replace("!", ".").replace("?", ".")
-    # no dash of any kind reaches the voice (owner 1 Nov, RN-256: 'திருச்சி - நாமக்கல்' was read 'திருச்சி மைனஸ் நாமக்கல்')
+    # no dash of any kind reaches the voice (owner 1 Nov, RN-256: 'சேலம் - நாமக்கல்' was read 'சேலம் மைனஸ் நாமக்கல்')
     allowed = set(" ,.0ஃஅஆஇஈஉஊஎஏஐஒஓஔகஙசஜஞடணதநனபமயரறலளழவஷஸஹாிீுூெேைொோௌ்ௗ¡'(),.:;¿")
     return re.sub(r"\s+", " ", "".join(ch for ch in t if ch in allowed)).strip()
 

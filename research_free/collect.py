@@ -1,4 +1,4 @@
-"""Every-3-hours collector (free models). Fetch Coimbatore-district news for the ONE page Coimbatore 360 -> write posts -> validate -> send to the Apps Script bridge
+"""Every-3-hours collector (free models). Fetch Trichy-district news for the ONE page Trichy 360 -> write posts -> validate -> send to the Apps Script bridge
 (Sheet rows + ONE prompt file + ONE email). Usage: python research_free/collect.py [--dry]"""
 import datetime, difflib, json, os, random, re, sys, time
 from pathlib import Path
@@ -15,9 +15,9 @@ def _slot_count():
 
 
 SET_NEWS = int(os.environ.get("SET_NEWS_COUNT", "0") or 0) or _slot_count()
-PAGE_NAME = "Coimbatore 360"      # post_to value in the Sheet (the only page; no second page, no collab)
-AREA = allnews.AREA          # "N" = the Coimbatore 360 page (the only area code)
-MAX_STORIES = int(os.environ.get("MAX_STORIES", "0") or 0) or SET_NEWS       # Coimbatore 360: district news per round
+PAGE_NAME = "Trichy 360"      # post_to value in the Sheet (the only page; no second page, no collab)
+AREA = allnews.AREA          # "N" = the Trichy 360 page (the only area code)
+MAX_STORIES = int(os.environ.get("MAX_STORIES", "0") or 0) or SET_NEWS       # Trichy 360: district news per round
 ARCHIVE = HERE / "archive"
 DRY = "--dry" in sys.argv
 IMG_BUDGET = int(os.environ.get("IMG_BUDGET_MIN", "22")) * 60
@@ -32,7 +32,7 @@ TEMPLATE = ("ONE single continuous photograph from one camera angle (not a colla
             "Keep the top-right corner and the lower third of the image visually simple (sky, road, wall, field) because Tamil text will be placed there.")
 
 
-BRIEF_SYSTEM = """You are the photo editor of a Tamil local-news page for COIMBATORE CITY, Tamil Nadu, India. You plan the ONE photograph that illustrates ONE news story,
+BRIEF_SYSTEM = """You are the photo editor of a Tamil local-news page for TRICHY CITY, Tamil Nadu, India. You plan the ONE photograph that illustrates ONE news story,
 so that a reader who sees only the picture already knows WHICH news it is.
 You get the English headline, place, category and the article text. Work in two steps and return both.
 
@@ -45,17 +45,15 @@ STEP 2 - "scenes": exactly TWO photographs of THIS news (owner 30 Oct: 2 picture
  heap, water on the road, the documents) or, if there is no such object, a WIDE shot of the place with the event in it. Each scene
  100-150 words of plain English, written in THIS order:
  1. SUBJECT + ACTION: the main thing of THIS news happening, in the first sentence (e.g. "A TNEB lineman on a ladder repairs a transformer ...").
- 2. PLACE: the real place type in Coimbatore city with its look (see CITY LOOK), named area if the article gives it.
+ 2. PLACE: the real place type in Trichy city with its look (see CITY LOOK), named area if the article gives it.
  3. PEOPLE: by role, number, clothes, what each group is doing; seen from behind or far away.
  4. VEHICLES / OBJECTS: exact types from the article (two-wheeler, autorickshaw, town bus, lorry, car; seized ganja packets, liquor bottles,
     gold jewellery laid on a table; garbage heap; pothole; overflowing drain; water pots).
  5. TIME + LIGHT + WEATHER: from the article, else daylight.
  6. CAMERA: eye level or slightly high, 35 mm, wide enough to show the place.
  It MUST contain at least THREE concrete facts from STEP 1 (place type, action, objects, numbers) - never a generic scene.
-CITY LOOK (Coimbatore city): Gandhipuram / Ukkadam / Singanallur bus stands with town buses, Avinashi Road and Trichy Road with flyovers and
- heavy traffic, Town Hall and R.S. Puram streets with shops, the Coimbatore Corporation office, Ukkadam and Valankulam lakes, the railway junction,
- Peelamedu and Saravanampatti IT and college campuses, textile mills and pump/foundry units, TNEB substations and transformers on concrete poles,
- Marudhamalai hill and the Western Ghats in the far background; two-wheelers, autorickshaws, private and TNSTC buses; men in shirts with veshti or
+CITY LOOK: Tiruchirappalli (Trichy) city, Tamil Nadu: the Central and Chathiram bus stands with town buses and TNSTC buses, the Rockfort hill temple, the Srirangam temple gopurams, the Cauvery river and its bridges, Thillai Nagar shops, Trichy Junction railway station, the BHEL township, banana and paddy fields along the river;
+ TNEB substations and transformers on concrete poles; two-wheelers, autorickshaws, private and TNSTC buses; men in shirts with veshti or
  trousers, women in sarees or salwar; Tamil Nadu police in khaki; corporation workers; TNEB linemen.
 CATEGORY GUIDE: power cut = TNEB lineman on a pole or a substation, shops and a street without lights; crime = the place only (house exterior,
  police jeep, police station gate) or the seized goods on a table with police in khaki behind, never a body or a weapon at a person;
@@ -70,13 +68,13 @@ Return ONLY JSON: {"facts": "...", "scenes": ["cover scene", "detail scene"]}"""
 
 # owner 29 Oct: the news scene comes FIRST (some image models read only the start of a long prompt), the photo style after it
 IMG_TEMPLATE = ("{scene} "
-                "Photorealistic press photograph from Coimbatore city, Tamil Nadu, India. One single continuous frame (no collage, no panels), "
+                "Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), "
                 "tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, "
                 "true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, "
                 "no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).")
 
 _STOP = {"the", "a", "an", "of", "in", "on", "at", "to", "for", "and", "with", "near", "by", "from", "as", "is", "are", "was", "were", "after",
-         "over", "into", "coimbatore", "city", "kovai", "tamil", "nadu", "district", "news", "says", "said", "held", "two", "three", "four"}
+         "over", "into", "trichy", "city", "trichy", "tamil", "nadu", "district", "news", "says", "said", "held", "two", "three", "four"}
 
 
 def _key_words(t):
@@ -141,8 +139,8 @@ def bridge(action, **kw):
     raise last
 
 
-# what Coimbatore readers care about most (higher = picked first, so it is never missed).
-# owner 29 Oct (Coimbatore): power cut (TNEB) > crime > accident > civic (roads, water, garbage, corporation) > the rest
+# what Trichy readers care about most (higher = picked first, so it is never missed).
+# owner 29 Oct (Trichy): power cut (TNEB) > crime > accident > civic (roads, water, garbage, corporation) > the rest
 INTEREST = [
     (10, ("மின்தடை", "மின் தடை", "மின்நிறுத்த", "மின் நிறுத்த", "மின் வெட்டு", "மின்வெட்டு", "மின் விநியோகம் நிறுத்தம்")),
     (9, ("கொலை", "கைது", "திருட்டு", "கொள்ளை", "மோசடி", "தற்கொலை", "வழிப்பறி", "நகை பறிப்பு", "பறிமுதல்", "போலீஸ்", "போலீசார்")),
@@ -155,7 +153,7 @@ INTEREST = [
     (5, ("பள்ளி", "கல்லூரி", "மாணவ", "தேர்வு", "தேர்வு முடிவு", "உதவித்தொகை", "சேர்க்கை")),
     (5, ("ரேஷன்", "மகளிர் உரிமை", "ஓய்வூதியம்", "திட்டம்", "மானியம்", "ஆட்சியர்", "அறிவிப்பு", "முகாம்", "சிறப்பு முகாம்")),
     (4, ("பேருந்து", "சாலை", "போக்குவரத்து", "ரயில்", "பாலம்", "மேம்பாலம்", "விமான நிலையம்")),
-    (8, ("காட்டு யானை", "யானை", "சிறுத்தை", "கரடி")),      # owner 31 Oct: wildlife is the most shared Coimbatore-only news (was 4)
+    (8, ("காட்டு யானை", "யானை", "சிறுத்தை", "கரடி")),      # owner 31 Oct: wildlife is the most shared Trichy-only news (was 4)
     (7, ("அணை நீர்மட்டம்", "சிறுவாணி", "பில்லூர்", "ஆழியாறு", "குடிநீர் நிறுத்த")),      # dams / water supply of the city
     (9, ("ஆன்லைன் மோசடி", "சைபர் கிரைம்", "சைபர் க்ரைம்")),      # fraud warnings are forwarded to family
     (9, ("கனமழை", "மழை எச்சரிக்கை", "ஆரஞ்சு அலர்ட்", "ரெட் அலர்ட்", "வெள்ளப்பெருக்கு", "பனிமூட்டம்")),      # owner 31 Oct: rain warnings 2nd only to power cuts
@@ -163,7 +161,7 @@ INTEREST = [
 ]
 
 
-# owner 31 Oct (17:07): each Coimbatore round posts its top 3 ONLY from these four kinds - power cut, rain, crime, accident (Namakkal insights,
+# owner 31 Oct (17:07): each Trichy round posts its top 3 ONLY from these four kinds - power cut, rain, crime, accident (Namakkal insights,
 # 193 reels, median views: power cut 23,720 > weather 1,804 > crime 882 > accident 792; temple / civic / education / politics 280-512).
 # Judged on the HEADLINE. Env TOP_KINDS_ONLY=0 turns it off. Links given by hand are never filtered.
 TOP_KINDS = [
@@ -189,7 +187,7 @@ def top_kind(title):
 
 # owner 31 Oct: only news Instagram users watch is written. 30-31 Oct posts showed what they do not: recipes, health / building tips and
 # an editorial (RN-75, 77, 84, 86-91), awareness days, awards, trophies, a tender, a walkout, a tribute (RN-10, 18, 31, 34, 42, 68, 70, 74, 78);
-# Namakkal + Coimbatore insights agree (ceremonies / education events / politics lowest). Never for a power cut or urgent news.
+# Namakkal + Trichy insights agree (ceremonies / education events / politics lowest). Never for a power cut or urgent news.
 LOW_EDITORIAL_URL = re.compile(r"thalayangam|editorial|/opinion|/columns?/|/others/", re.I)
 LOW_FEATURE = re.compile(r"எப்படி|காரணங்கள்|அறிகுறி|கவனிக்க வேண்டிய|டிப்ஸ்|ரெசிபி|செய்முறை|நன்மைகள்|தெரியுமா|ஆபத்து யாருக்கு|"
                          r"தாக்கும்\s+\S+\s+நோய்|ஸ்டைல்|கொத்சு|ரப்டி|சுவையான|காரசாரமான|தீர்வு|என்ன செய்வது|எதைக் குறிக்கின்றன")
@@ -203,14 +201,14 @@ NEVER_LOW = re.compile(r"மின்\s*தடை|மின்தடை|மி�
 
 
 def low_interest(title, url=""):
-    """'' = worth writing; else why Coimbatore viewers would not watch it (config "selection": {"skip_low_interest": false} = off)"""
+    """'' = worth writing; else why Trichy viewers would not watch it (config "selection": {"skip_low_interest": false} = off)"""
     t, u = title or "", url or ""
     if not _selection().get("skip_low_interest", True) or NEVER_LOW.search(t) or _fr().is_power_cut(t):
         return ""
     if LOW_EDITORIAL_URL.search(u):
         return "editorial / opinion, not news"
     if (LOW_FEATURE.search(t) or LOW_FEATURE_URL.search(u)) and not allnews.has_place(t):
-        return "feature / tips / recipe, not a Coimbatore event"
+        return "feature / tips / recipe, not a Trichy event"
     if LOW_CEREMONY.search(t):
         return "ceremony / award / awareness event (low views)"
     return ""
@@ -253,25 +251,25 @@ def fresh(published):
     st = _start_at()
     if st is not None and t.tzinfo is not None and t < st:
         return False      # published before the automation was started: already covered by the posted/e-mailed news
-    # owner 29 Oct (Coimbatore): news published TODAY - plus anything published in the last FRESH_HOURS, so a story published at 11:30 pm
+    # owner 29 Oct (Trichy): news published TODAY - plus anything published in the last FRESH_HOURS, so a story published at 11:30 pm
     # is still taken by the 1 am round ("do not miss any news")
     if t.tzinfo is not None and datetime.datetime.now(IST) - t <= datetime.timedelta(hours=FRESH_HOURS):
         return True
     return (datetime.datetime.now(IST).date() - d).days < FRESH_DAYS
 
 
-FRESH_HOURS = float(os.environ.get("FRESH_HOURS", "0") or 0)      # owner 29 Oct 18:29 (Coimbatore): TODAY's news only, no late-night carry-over
+FRESH_HOURS = float(os.environ.get("FRESH_HOURS", "0") or 0)      # owner 29 Oct 18:29 (Trichy): TODAY's news only, no late-night carry-over
 
 
 def published_today(published):
-    """owner 29 Oct 18:29 (Coimbatore): the article itself must show a publish date, and that date must be today (IST)"""
+    """owner 29 Oct 18:29 (Trichy): the article itself must show a publish date, and that date must be today (IST)"""
     try:
         t = datetime.datetime.fromisoformat(str(published))
     except Exception:
         return False
     d = t.astimezone(IST).date() if t.tzinfo is not None else t.date()
     return d == datetime.datetime.now(IST).date()      # late-night news crosses midnight: still fresh for 3 h
-FRESH_DAYS = int(os.environ.get("FRESH_DAYS", "1") or 1)      # owner 29 Oct (Coimbatore): 1 = news published TODAY only; 2 = today + yesterday
+FRESH_DAYS = int(os.environ.get("FRESH_DAYS", "1") or 1)      # owner 29 Oct (Trichy): 1 = news published TODAY only; 2 = today + yesterday
 
 
 def _fr():
@@ -288,7 +286,7 @@ def is_dup(art, d, recent):
             return True
         if _fr().same_power_cut(r.get("headline_ta"), r.get("researched"), (d or {}).get("tamil_headline", art["title"]), art.get("published")):
             return True      # owner 30 Oct: the same power cut (same day, same place) already filed
-    # 31 Oct (Coimbatore RN-96 = RN-95: one escape, two outlets, written in the same round; RN-39 = RN-76): the new SCRIPT against every story
+    # 31 Oct (Trichy RN-96 = RN-95: one escape, two outlets, written in the same round; RN-39 = RN-76): the new SCRIPT against every story
     # filed in the last 2 days (owner 31 Oct: Namakkal RN-115 repeated RN-86 24 h 8 min later) - this round's included - so the same event
     # in other words is never filed twice
     s = (d or {}).get("reel_script") or ""
@@ -327,7 +325,7 @@ def score(n):
 # the writer round (every 20 min) takes the queue in priority order, writes the story, and the posting job posts it at once.
 MODE = os.environ.get("COLLECT_MODE", "both")      # collect | write | both
 # owner 4 Nov: a final "no" from the writer (a link that could not be opened is NOT here - it is tried again)
-REFUSED = ("not filed", "not written", "not Coimbatore", "already filed", "old", "article has no text", "not a Tamil", "duplicate",
+REFUSED = ("not filed", "not written", "not Trichy", "already filed", "old", "article has no text", "not a Tamil", "duplicate",
            "checked earlier")
 PICK_ONLY = os.environ.get("PICK_ONLY", "") == "1"      # owner 1 Nov: write only MANUAL_URL links (the owner's / automatic pick)
 QUEUE = ARCHIVE / "queue.json"
@@ -462,7 +460,7 @@ def local_score(n, text=""):
 
 
 def recheck_once(st, url):
-    """27 Oct: stories on a paper's own Coimbatore page, and 'duplicates' found by the old letter-only match, are checked once more.
+    """27 Oct: stories on a paper's own Trichy page, and 'duplicates' found by the old letter-only match, are checked once more.
     The old verdict is removed, so the writer (a separate run) does not skip the item as 'checked earlier'; a new check sets a new one.
     True when this item gets its second check now (st is changed in place)."""
     if st.get("r27b") or not ((st.get("s") == "notdistrict" and allnews.url_district(url) in allnews.DISTRICT_SLUGS) or st.get("s") == "dup"):
@@ -473,7 +471,7 @@ def recheck_once(st, url):
 
 
 def verify_candidates(items, state, log):
-    """collect round: open every candidate now, keep only real Coimbatore-district news of today / yesterday, merge the same event
+    """collect round: open every candidate now, keep only real Trichy-district news of today / yesterday, merge the same event
     reported by several outlets. The queue then holds only news that will really be written (no time lost on other districts)."""
     from concurrent.futures import ThreadPoolExecutor
     todo = [n for n in items if not n.get("verified")]
@@ -511,16 +509,16 @@ def verify_candidates(items, state, log):
             if not published_today(art["published"]) and not n.get("manual") and not _fr().power_cut_ahead(art["title"], art["published"]):      # owner 29 Oct: published TODAY only (30 Oct: a power cut by its CUT day)
                 n["status"], stt["s"] = "old", "old"; kept["old"] += 1
                 continue
-            # owner 26 Oct: ONLY Coimbatore-district news - a district place in the headline or in the opening lines (not just a sidebar or a
+            # owner 26 Oct: ONLY Trichy-district news - a district place in the headline or in the opening lines (not just a sidebar or a
             # long list of districts), and a headline that names no other district / town and is not state-wide
             if (not allnews.local_ok(art["url"], art["title"]) or not allnews.local_ok(art["url"], n.get("title", "") or art["title"])
                     or not (allnews.has_place(art["title"]) or allnews.has_place(art["text"][:300]) or allnews.url_district(art["url"]) in allnews.DISTRICT_SLUGS)
-                    or allnews.outside_district(art["title"])):      # 27 Oct: a story on the paper's own Coimbatore page is Coimbatore news even when it names no town
-                n["status"], stt["s"] = "not Coimbatore district news (article names no Coimbatore place)", "notdistrict"; kept["notdistrict"] += 1
+                    or allnews.outside_district(art["title"])):      # 27 Oct: a story on the paper's own Trichy page is Trichy news even when it names no town
+                n["status"], stt["s"] = "not Trichy district news (article names no Trichy place)", "notdistrict"; kept["notdistrict"] += 1
                 continue
             town = allnews.outside_city(art["title"], art["text"][:300])
-            if town and not n.get("manual"):      # owner 29 Oct: Coimbatore city only for now
-                n["status"], stt["s"] = f"not Coimbatore city news ({town})", "notcity"; kept["notdistrict"] += 1
+            if town and not n.get("manual"):      # owner 29 Oct: Trichy city only for now
+                n["status"], stt["s"] = f"not Trichy city news ({town})", "notcity"; kept["notdistrict"] += 1
                 continue
             n.update(url=art["url"], title=art["title"], published=art["published"], verified=True)
             n["area"] = allnews.area_of_story(art["title"], art["text"])
@@ -573,7 +571,7 @@ PRIORITY_ONLY = [False]
 
 
 def assign_carousel(group):
-    """Coimbatore 360 posts reels only: no carousel for any story (kept as a function so the posting code stays like the Namakkal copy)"""
+    """Trichy 360 posts reels only: no carousel for any story (kept as a function so the posting code stays like the Namakkal copy)"""
     for x in group:
         if isinstance(x.get("slides_spec"), dict):
             x["slides_spec"]["carousel"] = False
@@ -586,7 +584,7 @@ def _upload_image(data):
     cloud, preset = os.environ.get("CLOUDINARY_CLOUD"), os.environ.get("CLOUDINARY_PRESET")
     if not cloud or not preset:
         raise RuntimeError("Cloudinary secrets missing")
-    r = requests.post(f"https://api.cloudinary.com/v1_1/{cloud}/image/upload", data={"upload_preset": preset, "folder": "coimbatore360"},
+    r = requests.post(f"https://api.cloudinary.com/v1_1/{cloud}/image/upload", data={"upload_preset": preset, "folder": "trichy360"},
                       files={"file": ("img.jpg", data)}, timeout=300)
     r.raise_for_status()
     return r.json()["secure_url"]
@@ -830,7 +828,7 @@ def trigger_posting(log=None):
 
 
 def body_words(art):
-    """owner 29 Oct (RN-12 Coimbatore, K.N. Nehru raid): words of the article BEYOND its headline. A page that is only a headline
+    """owner 29 Oct (RN-12 Trichy, K.N. Nehru raid): words of the article BEYOND its headline. A page that is only a headline
     (breaking-news stub, video page) gives the writer nothing to report, so it invents details."""
     title = set(re.findall(r"\w+", (art.get("title") or "").lower()))
     return [w for w in re.findall(r"\w+", (art.get("text") or "").lower()) if w not in title and len(w) > 1]
@@ -845,12 +843,12 @@ def tamil_source(art):
     return ta >= max(40, en)          # mostly Tamil letters
 
 
-# owner 30 Oct: a story refused for a reason in the ARTICLE is not written again and again - 'not Coimbatore city news' drafts
+# owner 30 Oct: a story refused for a reason in the ARTICLE is not written again and again - 'not Trichy city news' drafts
 # (Thondamuthur, Periyanaickenpalayam) were written and refused 4-5 times on 30 Oct (a free-model call each time, until the 10-try
 # limit). Final at once: a stale date, an old event, a duplicate cannot change. One more try: the place / 'not news' verdicts depend on
 # the model's wording. A real model failure ('all free models failed: ...', 'bad draft') is always tried again.
 REFUSED_FINAL = (("stale:", "old"), ("old event", "old"), ("duplicate", "dup"))
-REFUSED_ONCE_MORE = (("all free models failed: not Coimbatore city news", "notcity"), ("not news:", "notext"))
+REFUSED_ONCE_MORE = (("all free models failed: not Trichy city news", "notcity"), ("not news:", "notext"))
 
 
 def refusal_verdict(why, st):
@@ -914,7 +912,7 @@ def file_story(art, res, errors_log, recent, scenes=None):
         if why:      # owner 29 Oct (RN-189): a draft that only says "the article has no details" is not news
             return None, why
         why = freshness.old_event(d.get("tamil_headline", "") + " " + d.get("reel_script", ""))
-        if why:      # owner 29 Oct (Coimbatore RN-29): an old event re-told in a new article
+        if why:      # owner 29 Oct (Trichy RN-29): an old event re-told in a new article
             return None, why
         for k_ in ("reel_script", "caption"):      # a real story keeps its facts; only the "not in the article" sentences go (RN-112)
             if d.get(k_):
@@ -961,7 +959,7 @@ def instagram_recent(log=None):
     try:
         sys.path.insert(0, str(HERE.parent / "poster"))
         import post
-        for page in ("coimbatore",):      # page key of Coimbatore 360 (the only page)
+        for page in ("trichy",):      # page key of Trichy 360 (the only page)
             try:
                 tok = post.bridge_get("token", page=page)["token"]
                 uid, _ = post.ig_account(tok)
@@ -1008,7 +1006,7 @@ def main():
         news = [n for n in load_queue() if n.get("verified") and allnews.local_ok(n["url"], n.get("title", ""))]
         log.append(f"write round: {len(news)} news waiting in the queue (written in priority order)")
     else:
-        if PICK_ONLY:      # owner 1 Nov (Coimbatore pick flow): ONLY the links the owner ticked / the automatic top 12 are written
+        if PICK_ONLY:      # owner 1 Nov (Trichy pick flow): ONLY the links the owner ticked / the automatic top 12 are written
             news = []
             log.append("pick round: only the picked links are written (research_free/pick.py)")
         else:
@@ -1039,7 +1037,7 @@ def main():
     rechecks = 0
     for n in sorted(news, key=lambda x: -x["score"]):
         if n["status"] == "collected" and (allnews.other_district(n["title"]) or allnews.outside_district(n["title"], n.get("via", ""))):
-            n["status"] = "not Coimbatore district news (state-wide / other district)"
+            n["status"] = "not Trichy district news (state-wide / other district)"
             continue
         if n["status"] == "collected" and TOP_KINDS_ONLY and not n.get("manual"):
             if not top_kind(n["title"]):
@@ -1064,7 +1062,7 @@ def main():
         queues[a_] = [q for q in queues[a_] if q.get("manual")] + [q for q in queues[a_] if not q.get("manual")]
     from collections import Counter
     log.append("candidate filter: " + ", ".join(f"{k.split(':')[0][:40]}={v}" for k, v in Counter(n["status"] for n in news).most_common()))
-    log.append(f"to write: {len(queues[AREA])} Coimbatore district candidates (max {MAX_STORIES} stories)")
+    log.append(f"to write: {len(queues[AREA])} Trichy district candidates (max {MAX_STORIES} stories)")
     target, done, tried = {AREA: MAX_STORIES}, {AREA: 0}, {AREA: 0}
     if MODE == "both" and not PRIORITY_ONLY[0]:
         # owner 31 Oct: each round writes the TOP 3 by expected views; every power cut is written on top of them, first
@@ -1092,9 +1090,9 @@ def main():
             log.append(f"checking at collection failed (the writer checks each news instead): {str(e)[:120]}")
         target = {AREA: 0}
         log.append("collect round: nothing is written now - the writer job takes the queue by priority and posts each story at once")
-    # every story -> ONE post on Coimbatore 360 (single page, no collaborator)
+    # every story -> ONE post on Trichy 360 (single page, no collaborator)
     tries_cap = {AREA: MAX_STORIES * int(os.environ.get("TRIES_PER_STORY", "40"))}      # owner 31 Oct: 30 tries left a round with 0 of its top 3 (old / repeated news first) - keep going until 3 are written or time runs out
-    log.append(f"candidates waiting: {len(queues[AREA])} Coimbatore; time left {int((DEADLINE - time.time()) / 60)} min")
+    log.append(f"candidates waiting: {len(queues[AREA])} Trichy; time left {int((DEADLINE - time.time()) / 60)} min")
 
     def prepare(n, area):
         """worker thread: open the article, check it, write the story and its image brief. Never raises; returns a result dict."""
@@ -1143,10 +1141,10 @@ def main():
         if ((not (allnews.has_place(n["title"]) or allnews.has_place(art["title"]) or allnews.has_place(art["text"][:300])
                   or allnews.url_district(art["url"]) in allnews.DISTRICT_SLUGS) and n.get("via", "") != "dinamalar-list")
                 or not allnews.local_ok(art["url"], art["title"])) and not n.get("manual"):
-            return {"skip": "not Coimbatore district news (article names no Coimbatore place)", "s": "notdistrict", "log": f"skip ({area}) no Coimbatore place in article: {art['title'][:50]}"}
+            return {"skip": "not Trichy district news (article names no Trichy place)", "s": "notdistrict", "log": f"skip ({area}) no Trichy place in article: {art['title'][:50]}"}
         town = allnews.outside_city(art["title"], art["text"][:300])
-        if town and not n.get("manual"):      # owner 29 Oct: Coimbatore city only for now
-            return {"skip": f"not Coimbatore city news ({town})", "s": "notcity", "log": f"skip ({area}) outside the city ({town}): {art['title'][:50]}"}
+        if town and not n.get("manual"):      # owner 29 Oct: Trichy city only for now
+            return {"skip": f"not Trichy city news ({town})", "s": "notcity", "log": f"skip ({area}) outside the city ({town}): {art['title'][:50]}"}
         low = "" if n.get("manual") else low_interest(art["title"], art["url"])
         if low:      # owner 31 Oct: the article's own headline (a listing title can differ) - checked before any model call
             return {"skip": "not written: " + low, "s": "notext", "log": f"skip ({area}) low interest ({low}): {art['title'][:50]}"}
@@ -1157,7 +1155,7 @@ def main():
         dup = "" if n.get("manual") else same_event_filed(art, recent)
         if dup:      # 29 Oct (Namakkal RN-193 = RN-168): the same event from another outlet under another headline is not written again
             return {"skip": "already filed", "s": "dup", "log": f"skip ({area}) same event as {dup}: {art['title'][:50]}"}
-        area = allnews.area_of_story(art["title"], art["text"])      # always AREA ("N"): the one Coimbatore 360 page
+        area = allnews.area_of_story(art["title"], art["text"])      # always AREA ("N"): the one Trichy 360 page
         art["interest"] = interest(art)
         print(f"writing [{area}]: {art['title'][:60]}", flush=True)
         try:
@@ -1173,9 +1171,9 @@ def main():
             if (not town and loc0 and not allnews.has_place(loc0) and re.search(r"தமிழ்நாடு|தமிழகம்|மாநில|Tamil Nadu", loc0)
                     and (not paper_page or "உள்ளிட்ட" in d0.get("tamil_headline", ""))):
                 town = "state-wide: " + loc0[:40]      # 29 Oct RN-8 / RN-20: written for the whole state, not the city
-            if town:      # 29 Oct RN-2 (Valparai): written, then blocked at posting - now dropped before the picture is made
-                print(f"not Coimbatore city news after writing ({town}): {art['title'][:60]}", flush=True)
-                res = RuntimeError(f"not Coimbatore city news ({town})")
+            if town:      # 29 Oct RN-2 (Thuraiyur): written, then blocked at posting - now dropped before the picture is made
+                print(f"not Trichy city news after writing ({town}): {art['title'][:60]}", flush=True)
+                res = RuntimeError(f"not Trichy city news ({town})")
         if not isinstance(res, Exception):
             try:
                 scenes = image_scenes(art, res[0])
@@ -1243,7 +1241,7 @@ def main():
                 n["status"] = "checked: not urgent, left for the next normal round"
                 log.append(f"not urgent ({area}) {art['title'][:50]}")
                 continue
-            story["post_to"] = PAGE_NAME      # single page: every story is posted on Coimbatore 360 only (no collab)
+            story["post_to"] = PAGE_NAME      # single page: every story is posted on Trichy 360 only (no collab)
             story["_area"], story["_score"] = area, n["score"]
             out.append(story)
             recent.append({"headline_ta": story["tamil_headline"], "source": art["url"], "reel_script": story.get("reel_script") or "",      # 30 Oct RN-214 = RN-209,
@@ -1262,9 +1260,9 @@ def main():
                     unsent.append(story)
     pool.shutdown(wait=False, cancel_futures=True)
     log.append(f"candidate loop ended: left {len(queues[AREA])}, tried={tried}, done={done}, time left {int((DEADLINE - time.time()) / 60)} min")
-    log.append(f"filed: {done[AREA]} Coimbatore district stories (target {MAX_STORIES}), reels only")
+    log.append(f"filed: {done[AREA]} Trichy district stories (target {MAX_STORIES}), reels only")
     # the queue: every eligible news not written yet (new, not tried this round, or a try that can be repeated) - highest priority first
-    # owner 26 Oct: ONLY news that was opened and checked (real Coimbatore-district news that can be written) goes into the queue.
+    # owner 26 Oct: ONLY news that was opened and checked (real Trichy-district news that can be written) goes into the queue.
     # A link that could not be opened is not queued - the next collection finds it again and checks it then.
     waiting = [n for n in news if str(n["status"]).startswith(("collected", "could not open", "not filed"))
                and (n.get("verified") or n.get("manual") or MODE == "both") and allnews.local_ok(n["url"], n.get("title", ""))]      # 31 Oct: a round's leftovers compete again next round (checked when written)
@@ -1291,11 +1289,11 @@ def main():
                 {n["url"]: n["status"] for n in news if str(n.get("status", "")).startswith(REFUSED)}, ensure_ascii=False, indent=1), encoding="utf-8")
         except Exception as e:
             log.append(f"pick refusals not saved: {e}")
-    # --- the list of ELIGIBLE news only (owner 26 Oct): Coimbatore-district news of today / yesterday that was not posted before.
+    # --- the list of ELIGIBLE news only (owner 26 Oct): Trichy-district news of today / yesterday that was not posted before.
     # Other-district, old and already posted items are dropped silently (they used to fill the "All News" tab: 24,000 rows in 5 days).
-    NOT_ELIGIBLE = ("old", "not Coimbatore", "already filed", "checked earlier", "duplicate of a story filed")
+    NOT_ELIGIBLE = ("old", "not Trichy", "already filed", "checked earlier", "duplicate of a story filed")
     news = [n for n in news if not str(n["status"]).startswith(NOT_ELIGIBLE)]
-    rows = [{"source": ", ".join(n["outlets"])[:80], "area": "Coimbatore district", "url": n["url"], "title": n["title"],
+    rows = [{"source": ", ".join(n["outlets"])[:80], "area": "Trichy district", "url": n["url"], "title": n["title"],
              "published": n["published"][:16].replace("T", " "), "mentions": n["mentions"], "score": n["score"], "status": n["status"], "story": n["story"]} for n in news]
     try:
         import csv

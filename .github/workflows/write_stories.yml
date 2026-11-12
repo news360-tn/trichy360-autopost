@@ -70,7 +70,7 @@ jobs:
           AUTO_IMAGES: "1"
           WRITE_STORIES: '1'
           WRITE_WORKERS: "3"
-          FRESH_DAYS: "1"           # owner 29 Oct: news published TODAY only (Coimbatore)
+          FRESH_DAYS: "1"           # owner 29 Oct: news published TODAY only (Trichy)
           CITY_ONLY: "0"            # owner 31 Oct: the whole district
           DAILY_CAP: "1000"         # owner 31 Oct (4:48 PM): NO daily limit - every 2-hour round posts its top 3; only Instagram's own 50 a day applies
           MAX_STORIES: "3"          # owner 31 Oct: a hand run writes the top 3 too

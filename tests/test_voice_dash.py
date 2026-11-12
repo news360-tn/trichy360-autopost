@@ -1,4 +1,4 @@
-"""owner 1 Nov (RN-256): 'திருச்சி - நாமக்கல்' was read 'திருச்சி மைனஸ் நாமக்கல்'. No dash of any kind may ever reach the voice."""
+"""owner 1 Nov (RN-256): 'சேலம் - நாமக்கல்' was read 'சேலம் மைனஸ் நாமக்கல்'. No dash of any kind may ever reach the voice."""
 import re, sys, unittest
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
@@ -8,7 +8,7 @@ import tts      # noqa: E402
 
 class NoDashInVoice(unittest.TestCase):
     def test_place_dash_place(self):
-        self.assertEqual(tts.clean("திருச்சி - நாமக்கல் மாவட்ட எல்லையில்"), "திருச்சி, நாமக்கல் மாவட்ட எல்லையில்")
+        self.assertEqual(tts.clean("சேலம் - நாமக்கல் மாவட்ட எல்லையில்"), "சேலம், நாமக்கல் மாவட்ட எல்லையில்")
         self.assertEqual(tts.clean("காளிப்பட்டி - பாவடி பஞ்சாயத்தில்"), "காளிப்பட்டி, பாவடி பஞ்சாயத்தில்")
 
     def test_route(self):
@@ -19,7 +19,7 @@ class NoDashInVoice(unittest.TestCase):
 
     def test_every_dash_kind(self):
         for d in "-‐‑‒–—―−﹘﹣－":
-            for s in (f"திருச்சி {d} நாமக்கல்", f"திருச்சி{d}நாமக்கல்", f"டி{d}20", f"{d} செய்தி {d}", f"மழை {d}{d} வெள்ளம்"):
+            for s in (f"சேலம் {d} நாமக்கல்", f"சேலம்{d}நாமக்கல்", f"டி{d}20", f"{d} செய்தி {d}", f"மழை {d}{d} வெள்ளம்"):
                 out = tts.clean(s)
                 self.assertFalse(re.search("[" + re.escape(tts.DASH) + "]", out), f"{s!r} -> {out!r}")
                 self.assertNotIn("மைனஸ்", out)

@@ -1,5 +1,5 @@
 """Re-write stories whose first version was wrong/deleted, from the SOURCE article, with the current quality gates (10 tries + fact-check + proofread).
-The image already exists (Coimbatore 360: ONE image per story), so the draft keeps exactly one image prompt. Output: results/rewrite.json (only clean drafts)."""
+The image already exists (Trichy 360: ONE image per story), so the draft keeps exactly one image prompt. Output: results/rewrite.json (only clean drafts)."""
 import json, sys, pathlib, datetime
 HERE = pathlib.Path(__file__).parent
 sys.path.insert(0, str(HERE)); sys.path.insert(0, str(HERE.parent / "poster"))

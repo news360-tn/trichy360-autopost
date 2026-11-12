@@ -1,6 +1,6 @@
 name: collect-switch
 # ONE-CLICK PAUSE / START of the automatic news collection + writing (the free-model / Claude job).
-# Posting is NOT touched: stories you send by e-mail (subject "COIMBATORE360 STORY") and stories already queued keep being posted.
+# Posting is NOT touched: stories you send by e-mail (subject "TRICHY360 STORY") and stories already queued keep being posted.
 # Use: GitHub -> Actions -> "collect-switch" -> Run workflow -> choose pause or start.
 on:
   workflow_dispatch:

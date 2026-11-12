@@ -19,7 +19,7 @@ jobs:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CLAUDE_MAX_CALLS: "0"      # Coimbatore: Claude backup OFF (free models only; no ANTHROPIC_API_KEY passed)
+          CLAUDE_MAX_CALLS: "0"      # Trichy: Claude backup OFF (free models only; no ANTHROPIC_API_KEY passed)
         run: mkdir -p research_free/results && python -u research_free/audit.py > research_free/results/audit.log 2>&1 || true
       - name: Commit
         run: |

@@ -196,7 +196,7 @@ def chain():
 
 CLAUDE_FIRST = os.environ.get("CLAUDE_FIRST", "0") == "1"      # 0 (default) = free models first; Claude only when free models fail, are slow, or hit the limit. 1 = Claude for everything
 FREE_FAILS = [0]                                              # failures of free models in a row (slow, poor or refused answers)
-FREE_FAIL_LIMIT = int(os.environ.get("LLM_FREE_FAIL_LIMIT", "1000000000"))      # owner 29 Oct (Coimbatore): EVERY free model is tried on every call; Claude only when all of them failed / are out of quota
+FREE_FAIL_LIMIT = int(os.environ.get("LLM_FREE_FAIL_LIMIT", "1000000000"))      # owner 29 Oct (Trichy): EVERY free model is tried on every call; Claude only when all of them failed / are out of quota
 
 
 def ask_json(system, user, tries_per_model=1):
@@ -260,7 +260,7 @@ def ask_json(system, user, tries_per_model=1):
     raise RuntimeError(f"no free model answered: {last}")
 
 
-# ---- Claude (paid backup, owner 29 Oct for Coimbatore): ONLY when every free model failed or hit its limit. Needs ANTHROPIC_API_KEY.
+# ---- Claude (paid backup, owner 29 Oct for Trichy): ONLY when every free model failed or hit its limit. Needs ANTHROPIC_API_KEY.
 CLAUDE_CALLS = [0]
 CLAUDE_MAX = int(os.environ.get("CLAUDE_MAX_CALLS", "100000"))   # owner decision 24 Oct: no per-run limit; cost checked after one month       # cost guard per run
 
@@ -273,7 +273,7 @@ def ask_claude(system, user, max_tokens=4000):
     """returns (data, model_name); raises when the key is missing, the budget guard is hit or the API fails (the caller then falls back to the free chain)"""
     if not claude_available():
         raise RuntimeError("claude not available")
-    # owner 29 Oct: always the newest Haiku. claude-haiku-5-5 answered 379 calls in the Namakkal logs; the Coimbatore failures
+    # owner 29 Oct: always the newest Haiku. claude-haiku-5-5 answered 379 calls in the Namakkal logs; the Trichy failures
     # that day were "401 invalid x-api-key" (a wrong key), not a missing model. If a model name is ever refused (404),
     # the call is repeated once with the older Haiku so the story is still written.
     model = os.environ.get("ANTHROPIC_MODEL") or "claude-haiku-5-5"

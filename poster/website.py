@@ -1,4 +1,4 @@
-"""Coimbatore 360 website (OFF for now - no site yet): when switched on, every posted story is sent there with all its details.
+"""Trichy 360 website (OFF for now - no site yet): when switched on, every posted story is sent there with all its details.
 
     send(row, reel_link)          called by the posting job right after a reel is posted
     python poster/website.py backfill [--from RN-1]   one-time: all posted stories from the Sheet, oldest first
@@ -13,13 +13,13 @@ import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "research_free"))
-URL = (os.environ.get("WEBSITE_URL") or "").rstrip("/")      # no Coimbatore 360 site yet
+URL = (os.environ.get("WEBSITE_URL") or "").rstrip("/")      # no Trichy 360 site yet
 IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
 MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
 
-EN_SYSTEM = """You translate Tamil local news from Coimbatore district into clear, simple Indian English for a news website.
+EN_SYSTEM = """You translate Tamil local news from Trichy district into clear, simple Indian English for a news website.
 Keep every fact exactly: names, places, numbers, amounts, dates and times. Do not add anything. Use the English spelling of
-Coimbatore place names (Pollachi, Mettupalayam, Sulur, Valparai, Gandhipuram, Peelamedu ...). Leave out any "follow our page" line.
+Trichy place names (Manapparai, Srirangam, Lalgudi, Thuraiyur, Chathiram, Chathiram ...). Leave out any "follow our page" line.
 Return ONLY JSON: {"title_en": "headline, max 110 characters", "story_en": "the full story as plain sentences"}"""
 
 
@@ -91,7 +91,7 @@ def post(items):
     for k in range(3):
         try:
             r = requests.post(URL + "/api/ingest", json=items, timeout=60,
-                              headers={"authorization": "Bearer " + key, "user-agent": "coimbatore360-pipeline"})
+                              headers={"authorization": "Bearer " + key, "user-agent": "trichy360-pipeline"})
             if r.status_code == 200:
                 return r.json()
             log("website answered", r.status_code, r.text[:200])

@@ -1,7 +1,7 @@
-"""Coimbatore 360 Instagram poster (runs in GitHub Actions) - photo reel flow.
+"""Trichy 360 Instagram poster (runs in GitHub Actions) - photo reel flow.
 
 Flow: the research task queues a story (text + ONE image prompt) -> the picture is made automatically (free models first) ->
-the Apps Script bridge saves the image and sets the story to "Queued" -> this job builds the reel and posts it to கோயம்புத்தூர் 360.
+the Apps Script bridge saves the image and sets the story to "Queued" -> this job builds the reel and posts it to திருச்சி 360.
 One page only (no second page, no collaborator), reels only (no carousel).
 
   python poster/post.py check   # prints ready=<n> (for the workflow); decides whether the heavy job must run
@@ -34,16 +34,16 @@ CACHE = ROOT / "poster" / "prebuilt"
 IG_HOST = "https://graph.instagram.com"
 IG_VER = os.environ.get("IG_API_VERSION", "")
 
-# ---- the page (Coimbatore 360; placeholders until the owner decides - change them HERE only)
+# ---- the page (Trichy 360; placeholders until the owner decides - change them HERE only)
 PAGE = "trichy"
 PAGES = ("trichy",)      # the only page (no collab)
 ALL_ROWS = []      # every row of the queue (set in main) - used to spot the same news posted before
 LOGO = KIT / "logo_trichy.png"
 TAG = "#Trichy360"
 PAGE_EN = "Trichy 360"      # post_to value in the Sheet
-FOLLOW_LINE = "மேலும் செய்திகளுக்கு கோயம்புத்தூர் த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்."
-SAVE_LINE = "கோயம்புத்தூர் செய்திகளைத் தவறவிடாமல் இருக்க Save செய்து Follow செய்யுங்கள் 📌"
-DISTRICTS = ("trichy",)      # allnews.url_district values that are our district
+FOLLOW_LINE = "மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்."
+SAVE_LINE = "திருச்சி செய்திகளைத் தவறவிடாமல் இருக்க Save செய்து Follow செய்யுங்கள் 📌"
+DISTRICTS = ('trichy', 'tiruchirappalli', 'trichirappalli', 'tiruchi', 'tiruchy')      # allnews.url_district values that are our district
 IMPORTANCE = {"High": 0, "Medium": 1, "Low": 2}
 MAX_AGE_H = 48
 AI_LINE = "📌 படங்கள் செய்தியை விளக்க AI மூலம் உருவாக்கப்பட்ட பிரதிநிதித்துவப் படங்கள்."
@@ -160,12 +160,12 @@ LABEL = {"trichy": "திருச்சி 360"}      # must match PAGE_LABEL 
 
 
 def pages_of(row):
-    """the ONE page that posts this story: always Coimbatore 360 (post_to "Coimbatore 360"; there is no second page)"""
+    """the ONE page that posts this story: always Trichy 360 (post_to "Trichy 360"; there is no second page)"""
     return ["trichy"]
 
 
 def collab_page(row, page):
-    """no collaborator page for Coimbatore 360 (collab is always off)"""
+    """no collaborator page for Trichy 360 (collab is always off)"""
     return ""
 
 
@@ -177,7 +177,7 @@ def page_done(row, page):
 
 def spec_has_carousel(row):
     """stories written in the reel-first plan carry "carousel": false in slides_spec when only a reel is wanted (older stories: both)"""
-    return False      # Coimbatore 360: reels only, never a carousel (config.json "carousel": false)
+    return False      # Trichy 360: reels only, never a carousel (config.json "carousel": false)
 
 
 _SKIPPED = set()
@@ -199,7 +199,7 @@ def script_of(o):
             try:
                 sid = f.stem.split("_")[0]
                 s = json.loads(f.read_text(encoding="utf-8")).get("reel_script") or ""
-                if s:      # 30 Oct: RN-x.json has no script - it must not hide the one in RN-x_coimbatore_text.json (21 of 46 stories were missed)
+                if s:      # 30 Oct: RN-x.json has no script - it must not hide the one in RN-x_trichy_text.json (21 of 46 stories were missed)
                     _SCRIPTS.setdefault(sid, s)
             except Exception:
                 pass
@@ -210,7 +210,7 @@ _PICKED = None
 
 
 def owner_picked(row):
-    """owner 1 Nov (Coimbatore pick flow): a news the owner ticked (or the automatic top 12) is posted - no freshness / duplicate /
+    """owner 1 Nov (Trichy pick flow): a news the owner ticked (or the automatic top 12) is posted - no freshness / duplicate /
     place check may hold it back (31 Oct articles picked at 9 AM on 1 Nov were held as 'stale: not today')"""
     global _PICKED
     if _PICKED is None:
@@ -251,7 +251,7 @@ def _skip_reason_base(row):
     same_day = bool(f and f.date() == datetime.now(IST).date())      # filed today: it goes out today, whatever the clock says
     nd = freshness.news_date(row.get("published"), row.get("source"), f)
     manual = "manual" in " ".join(str(row.get(k) or "") for k in ("notes", "batch", "review", "source")).lower()
-    max_age = int(os.environ.get("POST_MAX_AGE_DAYS", "1") or 1)      # owner 29 Oct 18:29: Coimbatore 0 = only news published TODAY
+    max_age = int(os.environ.get("POST_MAX_AGE_DAYS", "1") or 1)      # owner 29 Oct 18:29: Trichy 0 = only news published TODAY
     if not manual and max_age == 0 and not nd:
         return "stale: no publish date known - today's news only"
     if (nd and not manual and (datetime.now(IST).date() - nd).days > max_age      # owner: only today's (or yesterday's) news is posted
@@ -289,7 +289,7 @@ def _skip_reason_base(row):
     why = "" if same_day else freshness.stale_reason(row.get("headline_ta") or "", row.get("headline_en") or "", row.get("category") or "", row.get("published") or "")
     if why:
         return "stale: " + why
-    why = not_coimbatore(row)
+    why = not_trichy(row)
     if why:
         return why
     for o in ALL_ROWS:
@@ -306,9 +306,9 @@ def _skip_reason_base(row):
     return ""
 
 
-def not_coimbatore(row):
-    """last gate (ONLY Coimbatore-district news): a story whose source link is filed under another district, or whose headline
-    and caption name no Coimbatore-district place, is not posted. Stories e-mailed by the owner are not checked."""
+def not_trichy(row):
+    """last gate (ONLY Trichy-district news): a story whose source link is filed under another district, or whose headline
+    and caption name no Trichy-district place, is not posted. Stories e-mailed by the owner are not checked."""
     try:
         sys.path.insert(0, str(ROOT / "research_free"))
         import allnews
@@ -321,27 +321,27 @@ def not_coimbatore(row):
         return "not one news article (the source is a topic / listing page)"
     cap = (row.get("caption") or "")[:600]
     if allnews.other_district(head):
-        return "not Coimbatore district news (the headline names another district)"
+        return "not Trichy district news (the headline names another district)"
     loc = row.get("location") or ""
     paper_page = (allnews.url_district(src) or "").lower() in DISTRICTS
     if loc and not allnews.has_place(loc) and re.search(r"தமிழ்நாடு|தமிழகம்|மாநில|Tamil Nadu", loc) and (not paper_page or "உள்ளிட்ட" in head):
-        return f"not Coimbatore city news (state-wide: {loc[:40]})"      # 29 Oct RN-8 TNEB promotions, RN-20 prison staffing
+        return f"not Trichy city news (state-wide: {loc[:40]})"      # 29 Oct RN-8 TNEB promotions, RN-20 prison staffing
     town = allnews.outside_city(head, loc)
-    if town:      # owner 29 Oct: Coimbatore city only for now (CITY_ONLY=0 for the whole district)
-        return f"not Coimbatore city news ({town})"
+    if town:      # owner 29 Oct: Trichy city only for now (CITY_ONLY=0 for the whole district)
+        return f"not Trichy city news ({town})"
     if allnews.has_place(head):
         return ""
     d = (allnews.url_district(src) or "").lower()
-    if d in DISTRICTS:      # the paper's own Coimbatore page (same rule as the collector)
+    if d in DISTRICTS:      # the paper's own Trichy page (same rule as the collector)
         return ""
     if d:
-        return f"not Coimbatore district news (source filed under {d})"
+        return f"not Trichy district news (source filed under {d})"
     if not allnews.has_place(cap) and not allnews.has_place(row.get("location") or ""):
-        return "not Coimbatore district news (no Coimbatore-district place in the headline or caption)"
+        return "not Trichy district news (no Trichy-district place in the headline or caption)"
     return ""
 
 
-not_namakkal = not_coimbatore      # old name (same call site as the Namakkal project)
+not_namakkal = not_trichy      # old name (same call site as the Namakkal project)
 
 
 def is_ready_reel(row):
@@ -576,7 +576,7 @@ def final_caption(row):
     from digits import to_digits
     cap = to_digits((row.get("caption") or "").strip())
     cap = "\n".join(l for l in cap.split("\n") if "கமெண்டி" not in l)      # owner: never ask people to comment
-    # Instagram allows at most 5 hashtags: keep #Coimbatore360 + the first 4 others, as ONE line at the end
+    # Instagram allows at most 5 hashtags: keep #Trichy360 + the first 4 others, as ONE line at the end
     tags, seen = [], set()
     for t in [TAG] + re.findall(r"#[^\s#]+", cap):
         k = t.lower().rstrip(".,!")
@@ -639,7 +639,7 @@ def final_caption(row):
 
 # ---------------------------------------------------------------- images
 def fetch_images(row, work):
-    """Coimbatore 360: ONE picture per reel (the reel makes its scenes from different moves / crops of it)"""
+    """Trichy 360: ONE picture per reel (the reel makes its scenes from different moves / crops of it)"""
     urls = json.loads(row["images"])[:int((CONFIG.get("free_images") or {}).get("pictures_per_reel", 1))]      # owner 30 Oct: 2 per reel
     work.mkdir(parents=True, exist_ok=True)
     if urls and urls[0] == "NOIMAGE":
@@ -778,7 +778,7 @@ def reel_spec(row, spec, images):
         sents.append({"say": sent, "caption": sent, "fact": best if i >= 1 else ""})
     hook = [(spec.get("hl1") or "").strip(), (spec.get("hl2") or "").strip()]
     return {"v": 3, "story": row["story_id"], "date": spec["date"], "cat": (spec.get("cat") or "").strip(),
-            "location": (spec.get("loc") or "கோவை")[:60], "voice": "male", "hook": hook,
+            "location": (spec.get("loc") or "திருச்சி")[:60], "voice": "male", "hook": hook,
             "mini": (row.get("headline_ta") or "").strip(), "source": source_credit(row)[0], "source_full": source_credit(row)[1],
             "images": [str(p) for p in images], "sentences": sents, "outro": {"say": last},
             "scenes": [{"caption": x["caption"]} for x in sents] + [{"caption": last}]}
@@ -800,7 +800,7 @@ def render_reel(row, spec, images, work, voice_file=None):
 def upload(path, kind):
     url = f"https://api.cloudinary.com/v1_1/{CLOUD}/{'video' if kind == 'video' else 'image'}/upload"
     with open(path, "rb") as f:
-        r = requests.post(url, data={"upload_preset": PRESET, "folder": "coimbatore360"}, files={"file": f}, timeout=600)
+        r = requests.post(url, data={"upload_preset": PRESET, "folder": "trichy360"}, files={"file": f}, timeout=600)
     r.raise_for_status()
     return r.json()["secure_url"]
 
@@ -885,8 +885,8 @@ def verified_locations():
 def pick_location(row, spec):
     """Instagram place id from config.json "locations" (keyword -> id).
     The place named FIRST in the Tamil headline wins, then the English headline, then the story's location fields;
-    the district-wide 'coimbatore' tags are used only when no town, temple or hill is named.
-    Coimbatore 360: config.json has no location ids yet, so this returns ''. 31 Oct: an id is used only after the ig-probe check accepted it."""
+    the district-wide 'trichy' tags are used only when no town, temple or hill is named.
+    Trichy 360: config.json has no location ids yet, so this returns ''. 31 Oct: an id is used only after the ig-probe check accepted it."""
     ok = verified_locations()
     locs = {k: v for k, v in (CONFIG.get("locations") or {}).items() if str(v).strip() in ok}
     generic = {"trichy", "திருச்சி"}
@@ -913,7 +913,7 @@ COLLAB = ""      # page invited as collaborator for the story being posted (set 
 
 
 def collab_user():
-    """the account invited as collaborator: none for Coimbatore 360 (config.json collab_username is empty, collab_page() is always '')"""
+    """the account invited as collaborator: none for Trichy 360 (config.json collab_username is empty, collab_page() is always '')"""
     return CONFIG.get("collab_username", "")
 
 
@@ -1199,7 +1199,7 @@ def still_needed(sid, page, kind):
 
 IG_LIMIT = int(os.environ.get("IG_DAILY_LIMIT", "50"))      # real Instagram limit per page per 24 h (feed posts AND stories count)
 TOTAL = {}
-SOFT_CAP = int(os.environ.get("DAILY_CAP", "25") or 25)     # Coimbatore 360 starts at 25 reels per 24 h (post.yml sets DAILY_CAP); above the cap only High / power-cut news goes out. Instagram's own limit is IG_LIMIT (50)
+SOFT_CAP = int(os.environ.get("DAILY_CAP", "25") or 25)     # Trichy 360 starts at 25 reels per 24 h (post.yml sets DAILY_CAP); above the cap only High / power-cut news goes out. Instagram's own limit is IG_LIMIT (50)
 USED = {}
 
 
@@ -1475,7 +1475,7 @@ def run_story_page(row, page):
     os.environ["PAGE_KEY"] = PAGE
     global COLLAB
     COLLAB = collab_page(row, PAGE)
-    collab = bool(COLLAB)      # always False for Coimbatore 360 (no collaborator page)
+    collab = bool(COLLAB)      # always False for Trichy 360 (no collaborator page)
     log(f"posting on {LABEL[PAGE]} with the {PAGE} logo" + (f", {LABEL[COLLAB]} invited as collaborator" if COLLAB else ""))
     caption = final_caption(row)
     work = OUT / sid
@@ -1484,7 +1484,7 @@ def run_story_page(row, page):
     if cached:
         log("prebuilt carousel + reel found - publishing without rebuilding")
     images = [] if cached else fetch_images(row, work)
-    need_carousel, need_reel = False, LABEL[PAGE] not in (row.get("reel_link") or "")      # Coimbatore 360: reel only, no carousel
+    need_carousel, need_reel = False, LABEL[PAGE] not in (row.get("reel_link") or "")      # Trichy 360: reel only, no carousel
     jpgs = mp4 = None
     reel_cover = None
     voice_file = None
@@ -2038,8 +2038,8 @@ def news_hold(row):
         facts_ = [p for p in facts_ if not re.search(r"[-—–,;:(]\s*(acceptable|this is acceptable|is fine|not an error|no (real )?(issue|problem)|ok)\.?\)?\s*$", p, re.I)]
         facts_ = [f for f in (_real_numbers(p) for p in facts_) if f]
         facts_ = [f for f in (_numbers_still_missing(row, p) for p in facts_) if f]
-        # owner 3 Nov (RN-151): the district / city name itself (கோயம்புத்தூர் vs the article's கோவை) is not an invented place
-        facts_ = [p for p in facts_ if not re.match(r"not grounded: place word '(கோயம்புத்தூர்|கோவை|நாமக்கல்|ராசிபுரம்)[^']*'", p)]
+        # owner 3 Nov (RN-151): the district / city name itself (திருச்சிராப்பள்ளி vs the article's திருச்சி) is not an invented place
+        facts_ = [p for p in facts_ if not re.match(r"not grounded: place word '(திருச்சிராப்பள்ளி|திருச்சி|நாமக்கல்|ராசிபுரம்)[^']*'", p)]
         facts_ = [f for f in facts_ if _location_still_wrong(row, f)]
         if facts_:
             return "held: fact-check problems - " + "; ".join(facts_)[:200]
