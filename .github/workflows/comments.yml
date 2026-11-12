@@ -1,0 +1,38 @@
+name: comments (owner approves every reply)
+# owner 11 Nov: new Instagram comments -> 3 reply options each -> e-mailed to the owner. NOTHING is posted by this job: the owner chooses
+# (and can edit) a reply on the confirmation page, and only then Apps Script posts it (apps_script/Code.gs, comment replies part).
+# Comment text is never printed here - the repository and its logs are public.
+on:
+  schedule:
+    - cron: "15,45 0-17 * * *"      # every 30 minutes, 06:00 - 23:00 IST
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1 = make the options but send / e-mail nothing"
+        default: "0"
+      test_email:
+        description: "1 = send ONE sample e-mail (a made-up comment on the latest post) - nothing is posted"
+        default: "0"
+permissions:
+  contents: read
+concurrency:
+  group: comments
+  cancel-in-progress: false
+jobs:
+  comments:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
+      BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || '0' }}
+      TEST_EMAIL: ${{ github.event_name == 'workflow_dispatch' && inputs.test_email || '0' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install -q requests==2.32.5 pillow==11.3.0
+      - run: python poster/comments.py trichy

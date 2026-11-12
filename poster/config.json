@@ -1,0 +1,156 @@
+{
+  "ai_label": false,
+  "collab_username": "",
+  "post_windows_ist": [
+    "06:30-09:30",
+    "12:30-14:30",
+    "18:30-21:45"
+  ],
+  "bgm": false,
+  "locations": {},
+  "carousel": false,
+  "first_comment": false,
+  "location_tags": true,
+  "reel_design": "v4",
+  "reel_voice": {
+    "engine": "edge",
+    "voice": "ta-IN-ValluvarNeural",
+    "rate": "+12%",
+    "pitch": "+4Hz",
+    "outro_voice": "en-IN-PrabhatNeural",
+    "note": "Coimbatore 360: Valluvar (free edge-tts) reads every reel; Google voices are never used"
+  },
+  "prime_time": {
+    "enabled": false,
+    "windows": [
+      [
+        "09:00",
+        "12:00"
+      ],
+      [
+        "18:00",
+        "21:30"
+      ]
+    ],
+    "max_wait_hours": 12,
+    "note": "owner 29 Oct (Coimbatore): NO fixed posting times - every reel posts the moment it is made. (enabled=true would make non-urgent reels wait for the windows below.)"
+  },
+  "reel_punch": false,
+  "reel_max_seconds": 88,
+  "power_cut": {
+    "note": "owner 30 Oct: a power-cut reel reads EVERY area, so it may run to max_seconds (88 = 2 s under verify.py's 90 s check) with up to script_max_words; all other reels keep reel_max_seconds / reach.script_max_words. {} = normal limits",
+    "max_seconds": 88,
+    "script_max_words": 160
+  },
+  "selection": {
+    "note": "owner 31 Oct: only news Instagram users watch is written - recipes / health and building tips / editorials, awareness days, awards, trophies, tenders, walkouts, tributes are not (research_free/collect.py low_interest). Power cuts and urgent news always. false = off",
+    "skip_low_interest": true
+  },
+  "reel_punch_note": "owner 27 Oct (change 1): every reel opens with a spoken punch line (yellow number + headline) while the big headline is on screen",
+  "reach": {
+    "note": "owner 29 Oct (views plan): each switch can be turned off here without code changes",
+    "script_max_words": 160,
+    "caption_full_details": true,
+    "english_search_line": true,
+    "hashtag_pattern": true,
+    "district_tag": "#Coimbatore",
+    "broad_tag": "#CoimbatoreNews",
+    "topic_tags": {
+      "power_cut": "#PowerCut",
+      "crime": "#CrimeNews",
+      "accident": "#Accident",
+      "civic": "#CivicIssues",
+      "weather": "#Rain",
+      "jobs": "#Jobs",
+      "education": "#Education",
+      "temple": "#Temple",
+      "politics": "#Politics",
+      "poultry_agri": "#Farmers",
+      "sports_culture": "#Sports",
+      "other": "#TamilNews"
+    },
+    "place_tags": {
+      "காந்திபுர": "#Gandhipuram",
+      "ஆர்.எஸ்.புர": "#RSPuram",
+      "உக்கட": "#Ukkadam",
+      "சிங்காநல்லூ": "#Singanallur",
+      "பீளமேடு": "#Peelamedu",
+      "பீளமேட்": "#Peelamedu",
+      "சரவணம்பட்டி": "#Saravanampatti",
+      "போத்தனூ": "#Podanur",
+      "குனியமுத்தூ": "#Kuniyamuthur",
+      "வடவள்ளி": "#Vadavalli",
+      "கவுண்டம்பாளைய": "#Goundampalayam",
+      "சாய்பாபா": "#SaibabaColony",
+      "டவுன்ஹால்": "#TownHall",
+      "ஒண்டிப்புதூ": "#Ondipudur",
+      "கணபதி": "#Ganapathy",
+      "மருதமலை": "#Marudhamalai",
+      "துடியலூ": "#Thudiyalur",
+      "நீலாம்பூ": "#Neelambur",
+      "செல்வபுர": "#Selvapuram",
+      "ரேஸ்கோர்ஸ்": "#RaceCourse",
+      "பொள்ளாச்சி": "#Pollachi",
+      "மேட்டுப்பாளைய": "#Mettupalayam",
+      "சூலூ": "#Sulur",
+      "அன்னூ": "#Annur",
+      "வால்பாறை": "#Valparai",
+      "கிணத்துக்கடவு": "#Kinathukadavu",
+      "மதுக்கரை": "#Madukkarai",
+      "தொண்டாமுத்தூ": "#Thondamuthur",
+      "காரமடை": "#Karamadai",
+      "பெரியநாயக்கன்பாளைய": "#Periyanaickenpalayam",
+      "ஆனைமலை": "#Anaimalai",
+      "சிறுமுகை": "#Sirumugai",
+      "கருமத்தம்பட்டி": "#Karumathampatti",
+      "பேரூ": "#Perur"
+    },
+    "extra_tag": "#Kovai",
+    "search_suffix": "Coimbatore news",
+    "caption_all_facts": true,
+    "hashtag_profiles": {
+      "#coimbatore360": {
+        "page": "#Coimbatore360",
+        "area": "#Coimbatore",
+        "news": "#CoimbatoreNews",
+        "tamil": "#கோவை",
+        "fallback": "#Kovai",
+        "topic": {
+          "weather": "#CoimbatoreRain",
+          "power_cut": "#CoimbatorePowerCut"
+        }
+      }
+    },
+    "hashtag_note": "owner 2 Nov: 5 tags, all from these fixed lists (never the writer's own tags): page + area + town (place_tags; a village maps to its town tag) + local topic (rain / power cut, else the page's news tag) + the Tamil place tag. A Rasipuram reel never carries a Namakkal page tag; no #TamilNews / #TamilNadu style tags"
+  },
+  "free_images": {
+    "note": "owner 30 Oct: pictures from free services first (Cloudflare -> Pollinations -> NVIDIA), FAL only when all fail",
+    "cloudflare_for_writing": false,
+    "pictures_per_reel": 1
+  },
+  "writers": {
+    "note": "owner 30 Oct: free writing models in this order; a provider without its key is skipped; Claude (paid) only after all of them. Gemma 4 is ready but NOT in the order: 30 Oct test on a real story gave 503 (high demand) / 500 - add \"gemma\" here once writer-compare proves it. Cerebras removed 30 Oct: it now needs a card (only $5 trial credit, then paid). Sarvam taken out of the live order 30 Oct: writer-compare gave empty answers (finish_reason length) on 3 real stories - add \"sarvam\" back once writer-compare shows it writes",
+    "order": [
+      "gemini",
+      "groq"
+    ],
+    "gemini_first": [
+      "gemini-3.6-flash",
+      "gemini-3.5-flash"
+    ],
+    "gemini_skip": [
+      "gemini-3.8-flash",
+      "gemini-3.7-flash"
+    ],
+    "gemma_models": [
+      "gemma-4-26b-a4b-it",
+      "gemma-4-31b-it"
+    ],
+    "sarvam_models": [
+      "sarvam-105b"
+    ],
+    "sarvam_reasoning": "low"
+  },
+  "story_reserve": 5,
+  "post_stories": true
+}

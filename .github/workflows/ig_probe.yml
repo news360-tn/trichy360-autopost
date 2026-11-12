@@ -1,0 +1,25 @@
+name: ig-probe
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+env:
+  BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
+  BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install requests pillow
+      - run: python poster/ig_probe.py || true
+      - name: Commit result
+        run: |
+          git config user.name "news360-bot"; git config user.email "bot@users.noreply.github.com"
+          git add -f poster/probe
+          git commit -m "ig probe output" || echo none
+          git pull --rebase --autostash origin main
+          git push

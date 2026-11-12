@@ -1,0 +1,4 @@
+-r ../poster/requirements.txt
+coqui-tts==0.27.5
+transformers>=4.57,<5
+edge-tts==7.2.3

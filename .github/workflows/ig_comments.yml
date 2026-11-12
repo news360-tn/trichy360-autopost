@@ -1,0 +1,30 @@
+name: ig-comments (read-only)
+on:
+  workflow_dispatch:
+    inputs:
+      pages: {description: "pages, space separated", required: true}
+      pubkey: {description: "base64 RSA public key - the report is encrypted with it (repo is public)", required: true}
+permissions:
+  contents: read
+env:
+  BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
+  BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
+jobs:
+  read:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install -q requests pillow
+      - run: python poster/ig_comments.py ${{ inputs.pages }}
+      - name: Encrypt the report (only the holder of the private key can read it)
+        env: {PUB: "${{ inputs.pubkey }}"}
+        run: |
+          echo "$PUB" | base64 -d > pub.pem
+          openssl rand -out k.bin 32
+          openssl enc -aes-256-cbc -pbkdf2 -salt -in comments_report.json -out report.enc -pass file:k.bin
+          openssl pkeyutl -encrypt -pubin -inkey pub.pem -pkeyopt rsa_padding_mode:oaep -in k.bin -out k.enc
+          rm -f k.bin comments_report.json
+          echo "===KEY==="; base64 -w 900 k.enc; echo "===REPORT==="; gzip -9c report.enc | base64 -w 900; echo "===END==="

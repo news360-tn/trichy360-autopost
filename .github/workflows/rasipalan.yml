@@ -1,0 +1,95 @@
+name: rasipalan
+# Daily rasipalan carousel on கோயம்புத்தூர் 360 (Tamil daily-calendar design, no collaborator).
+# owner 31 Oct: collect sharply at 7:31 AM IST and post as soon as it is ready. GitHub can start scheduled jobs late, so the job is
+# scheduled for 7:00 AM and waits until 7:31; backups at 7:45, 9:45 and 11:45 AM (a run stops at once if today is already posted).
+# owner 1 Nov: never miss a day - 2 sources wanted, 1 is enough after 9:30 AM, trying continues until 12:30 PM.
+on:
+  schedule:
+    - cron: "30 1 * * *"      # 07:00 IST - waits until 07:31
+    - cron: "15 2 * * *"      # 07:45 IST backup
+    - cron: "15 4 * * *"      # 09:45 IST backup (a run stops at once if today is already posted)
+    - cron: "15 6 * * *"      # 11:45 IST last backup
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "1 = build the slides only, do not post"
+        default: "1"
+      date:
+        description: "test only: YYYY-MM-DD (empty = today)"
+        default: ""
+      repost:
+        description: "1 = post today again (waits until the old post is deleted on Instagram)"
+        default: "0"
+permissions:
+  contents: write
+concurrency:
+  group: rasipalan-trichy
+  cancel-in-progress: false
+jobs:
+  post:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 340      # 7:00 AM start can keep trying until 12:30
+    env:
+      PAGE: trichy
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry || '' }}
+      RASI_DATE: ${{ github.event_name == 'workflow_dispatch' && inputs.date || '' }}
+      REPOST: ${{ github.event_name == 'workflow_dispatch' && inputs.repost || '0' }}
+      BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
+      BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
+      CLOUDINARY_CLOUD: ${{ secrets.CLOUDINARY_CLOUD }}
+      CLOUDINARY_PRESET: ${{ secrets.CLOUDINARY_PRESET }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}
+      NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      FB_PAGE_ID_TRICHY: ${{ secrets.FB_PAGE_ID_TRICHY }}      # owner 2 Nov: also on the Facebook page
+      FB_TOKEN_TRICHY: ${{ secrets.FB_TOKEN_TRICHY }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: Browser (cached)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-rasipalan-1.56.0
+      - name: Install
+        timeout-minutes: 15
+        run: |
+          pip install -q requests==2.32.5 pillow==11.3.0 playwright==1.56.0 pyswisseph==2.10.3.2
+          python -m playwright install chromium
+          python -c "from playwright.sync_api import sync_playwright as s; p=s().start(); p.chromium.launch().close(); p.stop()" ||
+            sudo "$(command -v python)" -m playwright install-deps chromium
+      - name: Collect, write, check, render and post
+        run: |
+          mkdir -p out/rasipalan/trichy
+          set -o pipefail
+          python rasipalan/rasi_daily.py 2>&1 | tee out/rasipalan/trichy/log.txt
+      - name: Slides for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rasipalan-trichy
+          path: out/rasipalan/trichy
+          if-no-files-found: ignore
+      - name: Preview branch (test runs only, for checking the slides)
+        if: always() && env.DRY_RUN == '1'
+        run: |
+          [ -d out/rasipalan/trichy ] || exit 0
+          rm -f out/rasipalan/trichy/*.png out/rasipalan/trichy/*.html
+          git config user.name "news360-bot"; git config user.email "news360-bot@users.noreply.github.com"
+          git checkout -q --orphan rasipalan-preview-trichy
+          git rm -rq --cached . >/dev/null
+          git add -f out/rasipalan/trichy && git commit -qm "preview" && git push -qf origin rasipalan-preview-trichy
+      - name: Remember today's post (no second post today)
+        if: always()
+        run: |
+          [ -n "$(git status --porcelain rasipalan/state poster/fb_posted)" ] || exit 0
+          git config user.name "news360-bot"; git config user.email "news360-bot@users.noreply.github.com"
+          git add rasipalan/state 2>/dev/null || true; if [ -d poster/fb_posted ]; then git add -f poster/fb_posted; fi
+          git commit -qm "rasipalan posted"
+          for i in 1 2 3 4 5; do git pull -q --rebase -X theirs && git push -q && break; git rebase --abort 2>/dev/null || true; sleep 5; done

@@ -1,0 +1,17 @@
+name: reoffer-stories
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "story ids, space separated"
+        required: true
+jobs:
+  go:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests
+      - env:
+          BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
+          BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
+        run: python research_free/reoffer.py ${{ github.event.inputs.ids }}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "தினமணி கோவை",
+    "url": "https://www.dinamani.com/all-editions/edition-coimbatore/coimbatore",
+    "link_regex": "href=\"((?:https://www\\.dinamani\\.com)?/all-editions/edition-coimbatore/coimbatore/\\d{4}/[^\"#?]+)\"",
+    "limit": 40
+  },
+  {
+    "name": "தினகரன் கோவை",
+    "url": "https://www.dinakaran.com/district/coimbatore/",
+    "link_regex": "href=\"((?:https://www\\.dinakaran\\.com)?/district/(?:coimbatore|kovai)[-_]\\d+[-_]\\d+/?)\"",
+    "limit": 30
+  },
+  {
+    "name": "பாலிமர் கோவை",
+    "url": "https://www.polimernews.com/tags/coimbatore",
+    "link_regex": "href=\"((?:https://www\\.polimernews\\.com)?/districtnews/[^\"#?]+)\"",
+    "limit": 30
+  },
+  {
+    "name": "இந்து தமிழ் கோவை",
+    "url": "https://www.hindutamil.in/topic/coimbatore",
+    "link_regex": "href=\"((?:https://www\\.hindutamil\\.in)?/news/[a-z-]+/[^\"#?]{15,})\"",
+    "limit": 30
+  }
+]

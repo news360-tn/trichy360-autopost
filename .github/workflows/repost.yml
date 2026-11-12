@@ -1,0 +1,35 @@
+name: repost
+# owner removed a posted reel from Instagram (wrong text): queue it again; the posting job rebuilds it with the checked text
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "Story ids to post again, e.g. RN-158 RN-155"
+        required: true
+permissions: { contents: write }
+concurrency: { group: repost, cancel-in-progress: false }
+jobs:
+  repost:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -q requests==2.32.5
+      - name: Queue again and remove the ready-made reels
+        env:
+          BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
+          BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
+          IDS: ${{ inputs.ids }}
+        run: python -u tools/repost.py $IDS
+      - name: Save
+        env:
+          IDS: ${{ inputs.ids }}
+        run: |
+          git add -A poster/prebuilt
+          git diff --cached --quiet && { echo "nothing to remove"; exit 0; }
+          git config user.name "news360-bot"; git config user.email "bot@users.noreply.github.com"
+          git commit -m "prebuilt: repost $(echo "$IDS" | tr -cd 'A-Za-z0-9 ,-')"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs origin main && git push && break; git rebase --abort 2>/dev/null || true; sleep $((i*4)); done

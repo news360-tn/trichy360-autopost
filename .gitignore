@@ -1,0 +1,6 @@
+node_modules
+reel/models/
+out/
+*_work/
+__pycache__/
+.env

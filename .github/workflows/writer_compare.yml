@@ -1,0 +1,44 @@
+name: writer-compare
+# owner 30 Oct: TEST ONLY - writes real articles with ONE free writing model at a time (nothing is saved to the Sheet, nothing is posted)
+# and reports for each model: answered or not, problems left after the checks, time. A model goes into poster/config.json writers.order
+# only after this report shows it writes as well as Gemini.
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "article links, space separated (3-5 recent local news)"
+        required: true
+      providers:
+        description: "models to compare, comma separated"
+        default: "gemini,gemma,sarvam,groq"
+permissions:
+  contents: write
+jobs:
+  compare:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install requests googlenewsdecoder==0.2.2 pillow
+      - name: One model at a time
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CLAUDE_MAX_CALLS: "0"      # Claude never used here - only the free model under test
+        run: |
+          mkdir -p research_free/results/compare
+          for p in $(echo "${{ github.event.inputs.providers }}" | tr ',' ' '); do
+            WRITERS_ORDER=$p timeout 900 python -u research_free/run.py ${{ github.event.inputs.urls }} > research_free/results/compare/$p.log 2>&1 || true
+            echo "== $p"; grep -E "^[0-9]+\. |FAILED" research_free/results/compare/$p.log | tail -6 || true
+          done | tee research_free/results/compare/summary.txt
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "news360-bot"; git config user.email "bot@users.noreply.github.com"
+          git add -f research_free/results/compare
+          git commit -m "writer compare output" || echo none
+          git pull --rebase --autostash origin main
+          git push

@@ -1,0 +1,157 @@
+name: pick
+# Coimbatore 360 - owner 1 Nov. News is collected ONLY at 6:00 AM and 4:00 PM IST, from Dinamalar and Dinamani's Coimbatore pages, by
+# the article's published time (yesterday 4 PM -> 6 AM, then 6 AM -> 4 PM). The list is e-mailed with a check-box page.
+#   owner submits  -> EVERY ticked news is written, made into a reel and posted at once (no other check)
+#   no submit in 1 hour -> the top 8 by importance are written and posted
+#   ticked after that -> added (written and posted too)
+# Each reel is posted as soon as it is ready. Posted news never comes back; listed but not posted news returns in the next list (< 24 h).
+on:
+  schedule:
+    - cron: "30 0 * * *"      # 06:00 IST - 8 news (owner 2 Nov: 20 a day, picked automatically from the insights order)
+    - cron: "30 4 * * *"      # 10:00 IST - 6 news (06-12 IST is the page's best time)
+    - cron: "30 13 * * *"     # 19:00 IST - 6 news (posted 20-22 IST, the page's next-best time)
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "1 = collect and show the list only (no e-mail, nothing written or posted)"
+        default: "0"
+      resume:
+        description: "1 = no new list: decide the LATEST round again (the owner's ticks, else the top 8), write and post it"
+        default: "0"
+permissions:
+  contents: write
+  actions: write      # starts the posting job as soon as a story is saved
+concurrency:
+  group: trichy-pick
+  cancel-in-progress: false
+jobs:
+  pick:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    env:
+      PICK_DRY: ${{ github.event_name == 'workflow_dispatch' && inputs.dry || '0' }}
+      BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
+      BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
+      CITY_ONLY: "0"
+      PICK_AUTO_TOP: ${{ github.event.schedule == '30 0 * * *' && '4' || '4' }}      # 12 Nov: 4 + 4 + 4 = 12 news a day
+      PICK_EMAIL: "0"      # owner 2 Nov: "do not ask me to confirm" - no list e-mail, the top news are written at once
+      PICK_WAIT_MIN: "60"
+      PICK_REQUIRE_EMAIL: "0"
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+      FAL_KEY: ${{ secrets.FAL_KEY }}
+      TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+      POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ANTHROPIC_MODEL: claude-haiku-5-5
+      CLOUDINARY_CLOUD: ${{ secrets.CLOUDINARY_CLOUD }}
+      CLOUDINARY_PRESET: ${{ secrets.CLOUDINARY_PRESET }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: Install
+        run: |
+          pip install -q requests googlenewsdecoder==0.2.2 pillow
+          pip install -q opencv-contrib-python-headless==4.10.0.84 pillow-avif-plugin==1.4.6 || echo 'photo tools not installed'
+      - name: Read the latest Instagram insights (this round's news follow what viewers watch and share now)
+        if: github.event_name != 'workflow_dispatch' || inputs.resume != '1'
+        timeout-minutes: 8
+        run: |      # owner 2 Nov: before EVERY round (was once a day at 02:10); not readable -> the last weights are used
+          python -u poster/insights.py 2>&1 | tail -4 || true
+      - name: Collect and e-mail the list
+        if: github.event_name != 'workflow_dispatch' || inputs.resume != '1'
+        run: |
+          mkdir -p research_free/results
+          : > research_free/results/pick_write.log
+          set -o pipefail      # a stopped round (list not e-mailed) must stop the job - tee would hide the exit code
+          python -u research_free/pick.py collect 2>&1 | tee research_free/results/pick.log
+      - name: Save the round (the next round starts where this one ended)
+        if: always() && (github.event_name != 'workflow_dispatch' || inputs.resume != '1')
+        run: |
+          git config user.name "news360-bot"; git config user.email "bot@users.noreply.github.com"
+          git add -f research_free/archive/pick_state.json research_free/results/pick.log poster/insights research_free/learned.json 2>/dev/null || true
+          git commit -qm "pick: list sent" || true
+          for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash origin main && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*4)); done || true
+      - name: Wait for the owner's pick (max 1 hour), else the top 8
+        if: env.PICK_DRY != '1'
+        run: |
+          set -o pipefail
+          save_state() {      # 5 Nov (RN-188): post runs read pick_state.json from main - save the picked ids BEFORE posting, or a picked
+                              # news published yesterday is skipped as 'stale' until this job ends 2.5 hours later
+            git add -f research_free/archive/pick_state.json 2>/dev/null || true
+            git commit -qm "pick: picked news saved" || true
+            for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash origin main && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*4)); done || true
+          }
+          python -u research_free/pick.py decide 2>&1 | tee -a research_free/results/pick.log
+          save_state
+      - name: Write, make the reels and post every picked news
+        if: env.PICK_DRY != '1'
+        env:
+          PICK_ONLY: "1"
+          COLLECT_MODE: both
+          WRITE_STORIES: "1"
+          AUTO_IMAGES: "1"
+          WRITE_WORKERS: "3"
+          BUDGET_MIN: "80"
+          FRESH_DAYS: "1"
+          DAILY_CAP: "1000"
+        run: |
+          save_state() {      # 5 Nov (RN-188): post runs read pick_state.json from main - save the picked ids BEFORE posting, or a picked
+                              # news published yesterday is skipped as 'stale' until this job ends 2.5 hours later
+            git add -f research_free/archive/pick_state.json 2>/dev/null || true
+            git commit -qm "pick: picked news saved" || true
+            for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash origin main && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*4)); done || true
+          }
+          write() {
+            urls=$(cat research_free/results/pick_urls.txt 2>/dev/null | tr '\n' ' ')
+            n=$(echo $urls | wc -w)
+            [ "$n" -gt 0 ] || { echo "nothing to write"; return 0; }
+            echo "writing $n picked news"
+            for TRY in 1 2; do
+              MANUAL_URL="$urls" MAX_STORIES="$n" python -u research_free/collect.py >> research_free/results/pick_write.log 2>&1 && break
+              echo "writer exit $? (try $TRY)" >> research_free/results/pick_write.log; sleep 30
+            done
+            python -u research_free/pick.py mark >> research_free/results/pick.log 2>&1 || true
+            save_state
+            gh api -X POST "repos/$GH_REPO/actions/workflows/post.yml/dispatches" -f ref=main -f "inputs[dry_run]=false" -f "inputs[prebuild]=false" >/dev/null 2>&1 || true      # post now (GitHub's 5-minute schedule often runs only hourly)
+            tail -25 research_free/results/pick_write.log
+          }
+          write
+          # news ticked AFTER the decision (late submit / second submit) is added: checked every 5 minutes for 40 minutes
+          [ "$PICK_EMAIL" = "1" ] || exit 0      # owner 2 Nov: no e-mail, so no late ticks to wait for
+          for i in $(seq 1 18); do      # owner 2 Nov (review): 90 minutes for a late tick (was 40)
+            sleep 300
+            python -u research_free/pick.py late 2>&1 | tee -a research_free/results/pick.log
+            write
+          done
+      - name: Check that EVERY picked news is on Instagram (else start posting again; after 2.5 hours fail loudly - GitHub e-mails the owner; held / stale news count as skipped)
+        # owner 1 Nov: 7 of 12 ticked news were silently held by the poster ('stale') - a picked news may never stay unposted unnoticed
+        if: env.PICK_DRY != '1'
+        run: |
+          set -o pipefail      # the verify exit code must pass through tee
+          for i in $(seq 1 30); do      # owner 2 Nov: posts are 12+ minutes apart - 2.5 hours for 8 news (was 1 hour)
+            python -u research_free/pick.py verify 2>&1 | tee -a research_free/results/pick.log && exit 0
+            gh api -X POST "repos/$GH_REPO/actions/workflows/post.yml/dispatches" -f ref=main -f "inputs[dry_run]=false" -f "inputs[prebuild]=false" >/dev/null 2>&1 || true      # post now, do not wait for GitHub's schedule
+            sleep 300
+          done
+          python -u research_free/pick.py verify 2>&1 | tee -a research_free/results/pick.log && exit 0
+          echo "::error::some picked news is still not posted after 2.5 hours - see 'NOT POSTED' lines above"; exit 1
+      - name: Save logs and state
+        if: always()
+        run: |
+          git config user.name "news360-bot"; git config user.email "bot@users.noreply.github.com"
+          git add -f research_free/archive research_free/results 2>/dev/null || true
+          git commit -qm "pick: written and posted" || true
+          for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash origin main && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*4)); done || true
+      - name: Fail loudly if the writer crashed (GitHub then e-mails the repo owner)
+        if: env.PICK_DRY != '1'
+        run: |
+          if grep -q "Traceback" research_free/results/pick.log research_free/results/pick_write.log 2>/dev/null; then echo "crash - see the logs"; exit 1; fi

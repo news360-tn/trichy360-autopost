@@ -1,0 +1,25 @@
+{
+ "coimbatore": {
+  "account": "coimbatore360_official",
+  "media_ok": 0,
+  "recent": [],
+  "insights": {},
+  "publishing_quota": {
+   "quota_usage": 0,
+   "config": {
+    "quota_total": 100,
+    "quota_duration": 86400
+   }
+  },
+  "account_reach": [
+   {
+    "value": 0,
+    "end_time": "2026-10-27T07:00:00+0000"
+   },
+   {
+    "value": 0,
+    "end_time": "2026-10-28T07:00:00+0000"
+   }
+  ]
+ }
+}

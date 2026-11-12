@@ -1,0 +1,48 @@
+name: imagegen-test
+# owner 30 Oct: proves each FREE picture service on its own (each step gets only that service's key) - nothing is posted
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install requests pillow
+      - name: Each picture service alone
+        env:
+          CF_T: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_A: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PO: ${{ secrets.POLLINATIONS_API_KEY }}
+          NV: ${{ secrets.NVIDIA_API_KEY }}
+        run: |
+          mkdir -p research_free/results/img
+          P="Photorealistic news photograph: a TNEB lineman on a concrete pole repairing a transformer on a busy Tamil Nadu town road, two-wheelers passing, daylight"
+          one() {      # $1 = name, then the env vars for that service only
+            name=$1; shift
+            if env -i PATH="$PATH" HOME="$HOME" "$@" timeout 240 python -u research_free/imagegen.py research_free/results/img/$name.jpg "$P" > research_free/results/img/$name.log 2>&1; then
+              echo "OK   $name: $(tail -1 research_free/results/img/$name.log)"
+            else
+              echo "FAIL $name: $(grep -m1 'imagegen:' research_free/results/img/$name.log || tail -1 research_free/results/img/$name.log)"
+            fi
+          }
+          [ -n "$CF_T" ] && one cloudflare CLOUDFLARE_API_TOKEN="$CF_T" CLOUDFLARE_ACCOUNT_ID="$CF_A" || echo "SKIP cloudflare (no key)"
+          [ -n "$PO" ] && one pollinations POLLINATIONS_API_KEY="$PO" || echo "SKIP pollinations (no key)"
+          [ -n "$NV" ] && one nvidia NVIDIA_API_KEY="$NV" || echo "SKIP nvidia (no key)"
+          python - <<'PY' | tee research_free/results/img/summary.txt
+          from PIL import Image
+          import glob
+          for f in sorted(glob.glob("research_free/results/img/*.jpg")):
+              print(f, Image.open(f).size)
+          PY
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "news360-bot"; git config user.email "bot@users.noreply.github.com"
+          git add -f research_free/results/img
+          git commit -m "image test output" || echo none
+          git pull --rebase --autostash origin main
+          git push
