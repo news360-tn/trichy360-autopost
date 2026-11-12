@@ -1237,7 +1237,18 @@ function commentNew_(b) {
   (b.items || []).forEach(function (it) {
     if (it.comment_id && !seen[String(it.comment_id)] && fresh.length < COMMENT_MAX_FORM) fresh.push(it);
   });
-  if (!fresh.length) return { ok: true, added: 0 };
+  // owner 12 Nov: normal comments (not critical) are only recorded, so they are never checked or e-mailed again
+  var ign = (b.ignored || []).filter(function (id) { return id && !seen[String(id)]; });
+  if (ign.length) {
+    sh.getRange(sh.getLastRow() + 1, 1, ign.length, COMMENT_COLS.length).setValues(ign.map(function (id) {
+      var r = COMMENT_COLS.map(function () { return ''; });
+      r[COMMENT_COLS.indexOf('received_ist')] = nowIst_(); r[COMMENT_COLS.indexOf('page')] = b.page;
+      r[COMMENT_COLS.indexOf('comment_id')] = String(id); r[COMMENT_COLS.indexOf('kind')] = 'not critical';
+      r[COMMENT_COLS.indexOf('status')] = 'ignored'; r[COMMENT_COLS.indexOf('received_ms')] = Date.now();
+      return r;
+    }));
+  }
+  if (!fresh.length) return { ok: true, added: 0, ignored: ign.length };
   var form = commentFormMake_(b.page, fresh);
   var fid = form.getId();
   var rows = fresh.map(function (it, i) {
@@ -1248,7 +1259,7 @@ function commentNew_(b) {
   });
   sh.getRange(sh.getLastRow() + 1, 1, rows.length, COMMENT_COLS.length).setValues(rows);
   commentMail_(b.page, fresh, form);
-  return { ok: true, added: fresh.length };
+  return { ok: true, added: fresh.length, ignored: ign.length };
 }
 
 // the Google Form of one batch: per comment a section (news + comment), the action, the reply tick boxes and an own-reply box

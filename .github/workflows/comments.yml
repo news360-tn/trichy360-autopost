@@ -4,7 +4,7 @@ name: comments (owner approves every reply)
 # Comment text is never printed here - the repository and its logs are public.
 on:
   schedule:
-    - cron: "15,45 0-17 * * *"      # every 30 minutes, 06:00 - 23:00 IST
+    - cron: "45 0-16/2 * * *"      # owner 12 Nov: every 2 hours, 06:15 - 22:15 IST
   workflow_dispatch:
     inputs:
       dry_run:

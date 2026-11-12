@@ -1276,9 +1276,9 @@ class CommentRepliesNeedOwner11Nov(unittest.TestCase):
                                 "permalink": "https://instagram.com/p/m1", "comments_count": 3}]}
         fake_comments = {"data": [{"id": "c1", "text": "SECRET-TEXT இது பொய் செய்தி", "username": "viewer_one", "timestamp": now},
                                   {"id": "c2", "text": "old one", "username": "viewer_two", "timestamp": now},
-                                  {"id": "c3", "text": "நன்றி", "username": comments.HANDLES.get("rasipuram", "x"), "timestamp": now},
+                                  {"id": "c3", "text": "நன்றி", "username": comments.HANDLES.get("trichy", "x"), "timestamp": now},
                                   {"id": "c4", "text": "answered by hand", "username": "viewer_three", "timestamp": now,
-                                   "replies": {"data": [{"username": comments.HANDLES.get("rasipuram", "x")}]}}]}
+                                   "replies": {"data": [{"username": comments.HANDLES.get("trichy", "x")}]}}]}
         old = (comments.post.bridge_get, comments.post.bridge_post, comments.post.ig, comments.post.ig_account, comments.options_for, comments.DRY)
         comments.post.bridge_get = lambda a, **k: {"token": "t"} if a == "token" else {"ids": ["c2"]}
         comments.post.bridge_post = lambda a, payload: sent.append((a, payload)) or {"ok": True, "added": len(payload["items"])}
@@ -1289,7 +1289,7 @@ class CommentRepliesNeedOwner11Nov(unittest.TestCase):
         out = io.StringIO()
         try:
             with contextlib.redirect_stdout(out):
-                n = comments.run("rasipuram")
+                n = comments.run("trichy")
         finally:
             (comments.post.bridge_get, comments.post.bridge_post, comments.post.ig, comments.post.ig_account, comments.options_for, comments.DRY) = old
         self.assertEqual(n, 1)                                   # c2 handled, c3 the page's own, c4 already answered in the app
@@ -1403,6 +1403,40 @@ class PowerCutCancelledIsNews11Nov(unittest.TestCase):
         self.assertTrue(powercut._change_without_original({"title": self.CANCEL}, [dict(rec[0], post_status="Queued")]))
         self.assertFalse(powercut._change_without_original({"title": self.CUT}, []))
         self.assertFalse(powercut._change_without_original({"title": self.CANCEL}, []))      # Sheet not readable: not blocked
+
+
+class CriticalCommentsOnly12Nov(unittest.TestCase):
+    """12 Nov (new pages): only critical comments (fake-news / doubt claim, complaint, abuse) are e-mailed; emoji and normal comments are
+    recorded as ignored and never e-mailed or checked again"""
+
+    def test_only_critical_sent(self):
+        import importlib, datetime as d, io, contextlib
+        import comments
+        importlib.reload(comments)
+        now = d.datetime.now(d.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+0000")
+        sent, ai = [], []
+        media = {"data": [{"id": "m1", "caption": "news", "timestamp": now, "permalink": "https://instagram.com/p/m1", "comments_count": 4}]}
+        cms = {"data": [{"id": "c1", "text": "இது பொய் செய்தி", "username": "a", "timestamp": now},
+                        {"id": "c2", "text": "🔥🔥👏", "username": "b", "timestamp": now},
+                        {"id": "c3", "text": "super news thanks", "username": "c", "timestamp": now},
+                        {"id": "c4", "text": "road still broken, nobody came", "username": "d", "timestamp": now}]}
+        kinds = {"இது பொய் செய்தி": "doubt_or_fake_claim", "super news thanks": "praise", "road still broken, nobody came": "complaint"}
+        old = (comments.post.bridge_get, comments.post.bridge_post, comments.post.ig, comments.post.ig_account, comments.options_for, comments.DRY)
+        comments.post.bridge_get = lambda a, **k: {"token": "t"} if a == "token" else {"ids": []}
+        comments.post.bridge_post = lambda a, payload: sent.append(payload) or {"ok": True, "added": len(payload["items"]), "ignored": len(payload["ignored"])}
+        comments.post.ig = lambda m, path, tok, **k: media if path.endswith("/media") else cms
+        comments.post.ig_account = lambda tok: ("u1", "x")
+        comments.options_for = lambda cap, text: ai.append(text) or (kinds[text], ["r1", "r2"])
+        comments.DRY = False
+        try:
+            with contextlib.redirect_stdout(io.StringIO()):
+                n = comments.run("trichy")
+        finally:
+            (comments.post.bridge_get, comments.post.bridge_post, comments.post.ig, comments.post.ig_account, comments.options_for, comments.DRY) = old
+        self.assertEqual(n, 2)                                              # the fake-news claim and the complaint
+        self.assertEqual([i["comment_id"] for i in sent[0]["items"]], ["c1", "c4"])
+        self.assertEqual(sorted(sent[0]["ignored"]), ["c2", "c3"])         # emoji and praise: recorded, not e-mailed
+        self.assertNotIn("🔥🔥👏", ai)                                       # emoji-only: no AI call at all
 
 
 if __name__ == "__main__":
