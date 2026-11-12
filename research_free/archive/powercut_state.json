@@ -79,7 +79,7 @@
    "title": "அதவத்தூா், துவாக்குடியில் இன்று மின்தடை"
   },
   "https://www.dinamani.com/all-editions/edition-coimbatore/coimbatore/2026/Nov/10/நாளைய-மின்தடை-பீளமேடு-முத்துக்கவுண்டன்புதூா்": {
-   "at": "2026-11-12T20:46:03.130741+05:30",
+   "at": "2026-11-12T21:33:32.343424+05:30",
    "power_cut": true,
    "why": "",
    "title": "நாளைய மின்தடை: பீளமேடு, முத்துக்கவுண்டன்புதூா்"
@@ -335,6 +335,12 @@
    "power_cut": false,
    "why": "not this district",
    "title": "நாளை(நவ.12) மின் நிறுத்தம்"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Oct/02/power-outage-in-coastal-areas-today": {
+   "at": "2026-11-12T21:33:32.343424+05:30",
+   "power_cut": true,
+   "why": "cut day 2026-10-03 has passed",
+   "title": "அக்கரைப்பட்டி பகுதிகளில் இன்று மின்தடை"
   }
  },
  "done": {
