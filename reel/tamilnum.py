@@ -83,6 +83,8 @@ def _time(h, mm):
 def speak_numbers(t):
     """replace every number in a Tamil sentence by its Tamil words (12ம் -> பன்னிரண்டாம், 11,600 -> பதினோராயிரத்து அறுநூறு style)"""
     t = re.sub(r"<[^>]+>", "", t)                       # stray html (<b>56</b>)
+    # owner 12 Nov (RN-534): school year "பிளஸ் 2" is said "பிளஸ் டூ" (Plus Two), never "பிளஸ் இரண்டு"; "பிளஸ் 1" -> "பிளஸ் ஒன்"
+    t = re.sub(r"(?:பிளஸ்|[Pp]lus|\+)\s*[-–]?\s*([12])(?![\d.,])", lambda m: "பிளஸ் " + ("டூ" if m.group(1) == "2" else "ஒன்"), t)
     # dates 26.10.2026 / 26/10/2026 / 26-10-2026 -> அக்டோபர் 26ஆம் தேதி (2026)
     def _date(m):
         d, mo, y = int(m.group(1)), int(m.group(2)), m.group(3)
