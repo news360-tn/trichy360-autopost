@@ -260,7 +260,7 @@ from digits import to_digits  # display-only: numbers as digits, 360
 
 PAUSE = 0.8      # quiet beat + soft chime between the end of the news and the "follow" line
 CHIME_T = 0.0
-OUTRO_EN = "Follow Coimbatore Three Sixty for more local news."
+OUTRO_EN = "Follow Trichy Three Sixty for more local news."      # owner 12 Nov: the spoken follow line names THIS page
 
 
 def english_outro(work, idx):
