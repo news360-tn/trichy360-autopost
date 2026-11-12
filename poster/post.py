@@ -14,6 +14,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
+import localmedia      # owner 12 Nov: direct reel upload (OFF unless DIRECT_UPLOAD=1)
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -802,7 +803,10 @@ def upload(path, kind):
     with open(path, "rb") as f:
         r = requests.post(url, data={"upload_preset": PRESET, "folder": "trichy360"}, files={"file": f}, timeout=600)
     r.raise_for_status()
-    return r.json()["secure_url"]
+    link = r.json()["secure_url"]
+    if kind == "video" and localmedia.enabled():
+        localmedia.remember(link, path)      # the direct upload sends this file instead of the link
+    return link
 
 
 def cache_key(row, spec, caption):
@@ -985,11 +989,41 @@ def publish_carousel(token, urls, caption, collab, alt=""):
     return mid, ig("GET", mid, token, fields="permalink").get("permalink", ""), collab_ok, why
 
 
+IG_RUPLOAD = "https://rupload.facebook.com/ig-api-upload/{}/{}"
+
+
+def _ig_direct(uid, token, prm, path, collab):
+    """owner 12 Nov: Instagram container with upload_type=resumable, then the FILE is sent (no Cloudinary download).
+    Raises on any problem - the caller then uses the old video_url method."""
+    p = {k: v for k, v in prm.items() if k != "video_url"}
+    p["upload_type"] = "resumable"
+    cid, collab_ok, why = create_with_collab(uid, token, p, collab)
+    localmedia.send(IG_RUPLOAD.format(IG_VER or os.environ.get("FB_GRAPH_VER", "v26.0"), cid), token, path)
+    return cid, collab_ok, why
+
+
 def publish_reel(token, video_url, caption, collab, cover_url=""):
     uid, _ = ig_account(token)
     prm = dict(media_type="REELS", video_url=video_url, caption=caption, share_to_feed="true")
     if cover_url:
         prm["cover_url"] = cover_url   # chosen cover photo (sharp frame with the hook headline)
+    path = localmedia.get(video_url)      # None unless DIRECT_UPLOAD=1 (then: the file, made here or downloaded once)
+    if path:
+        cid = None
+        try:
+            cid, collab_ok, why = _ig_direct(uid, token, prm, path, collab)
+            wait_ready(cid, token, 15)
+        except Exception as e:
+            log("direct upload not used - posting with the link as before:", str(e)[:200])
+            cid = None
+        if cid:      # the file is on Instagram: publish it; from here on NO fallback (a reel is never posted twice)
+            mid = ig("POST", f"{uid}/media_publish", token, creation_id=cid)["id"]
+            log("reel sent as a file (direct upload)")
+            try:
+                link = ig("GET", mid, token, fields="permalink").get("permalink", "")
+            except Exception:
+                link = ""
+            return mid, link, collab_ok, why
     try:
         cid, collab_ok, why = create_with_collab(uid, token, prm, collab)
     except RuntimeError as e:
@@ -1047,7 +1081,16 @@ def publish_story(token, media_url, kind):
         uid, _ = ig_account(token)
         prm = dict(media_type="STORIES")
         prm["video_url" if kind == "video" else "image_url"] = media_url
-        cid = ig("POST", f"{uid}/media", token, **prm)["id"]
+        cid = None
+        path = localmedia.get(media_url) if kind == "video" else None      # None unless DIRECT_UPLOAD=1
+        if path:
+            try:
+                cid = _ig_direct(uid, token, prm, path, False)[0]
+            except Exception as e:
+                log("story: direct upload not used - the link is used:", str(e)[:150])
+                cid = None
+        if not cid:
+            cid = ig("POST", f"{uid}/media", token, **prm)["id"]
         wait_ready(cid, token, 10)
         mid = ig("POST", f"{uid}/media_publish", token, creation_id=cid)["id"]
         USED[PAGE] = USED.get(PAGE, 0) + 1

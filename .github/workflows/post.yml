@@ -46,6 +46,7 @@ env:
   DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '' }}
   PREBUILD: ${{ github.event_name == 'workflow_dispatch' && inputs.prebuild && '1' || '' }}
   PAUSED: ${{ vars.PAUSED }}
+  DIRECT_UPLOAD: "1"      # owner 12 Nov: TRIAL on the new pages - reels sent as files, not Cloudinary links (falls back to the link)
 
 jobs:
   check:
