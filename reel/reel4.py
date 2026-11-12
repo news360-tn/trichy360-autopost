@@ -153,6 +153,70 @@ STYLES = {
 #sum .row .v{color:#fff}
 #end .send{background:rgba(255,255,255,.95)}
 """,
+    # owner 12 Nov: each page has its own look (page "style" in reel/reel.py). Same layout and timing, different colours and shapes.
+    "S": """
+#hook .h1{display:inline-block;background:linear-gradient(90deg,#B3121C,#E3151B);color:#fff;padding:14px 30px 4px;border-radius:0 0 22px 0;font-size:88px;text-shadow:none;box-shadow:0 12px 34px rgba(0,0,0,.5)}
+#hook .h2{display:inline-block;background:#fff;color:#B3121C;padding:6px 26px 2px;border-radius:0 0 18px 0;font-size:56px;margin-top:0}
+#mini{background:#B3121C;border-left:10px solid #FFD400;font-size:40px}
+#pin{background:#FFD400;color:#1a1a1a;border-radius:0 30px 30px 0}
+#pin .ic{color:#B3121C}
+.card{background:#fff;color:#1a1a1a;border-left:12px solid #B3121C;border-radius:8px}
+.card .lb{color:#B3121C}.card .vl{color:#1a1a1a}
+#sum{background:rgba(179,18,28,.92);border-radius:10px}
+#end .e2{background:#B3121C}
+""",
+    # K - Karur: white cards and a gold frame, dark green text
+    "K": """
+#hdr{background:#fff;color:#0B3D2E;border-radius:999px;border:4px solid #D4A017;padding:10px 26px 10px 12px}
+#hdr .nm{color:#0B3D2E;text-shadow:none}#hdr .sub{color:#0B3D2E;text-shadow:none}
+#hook .h1{background:#fff;color:#0B3D2E;border:5px solid #D4A017;padding:16px 30px 6px;border-radius:18px;font-size:86px;text-shadow:none;box-shadow:0 12px 34px rgba(0,0,0,.45)}
+#hook .h2{background:#D4A017;color:#0B3D2E;border-radius:12px;padding:6px 22px 2px}
+#mini{background:#fff;color:#0B3D2E;border-left:0;border-bottom:8px solid #D4A017;text-shadow:none}
+#pin{background:#0B3D2E;color:#fff;border:3px solid #D4A017}
+.card{background:#fff;color:#0B3D2E;border:4px solid #D4A017;border-radius:18px}
+.card .lb{color:#8a6d00}.card .vl{color:#0B3D2E}
+#sum{background:#fff;color:#0B3D2E;border:4px solid #D4A017;border-radius:18px}
+#sum .st,#sum .l{color:#0B3D2E}#sum .v{color:#0B3D2E}
+""",
+    # T - Trichy: teal bands and round tags, strong bottom shade
+    "T": """
+#shade{background:linear-gradient(to bottom,rgba(0,0,0,.15),rgba(0,0,0,.05) 35%,rgba(0,40,45,.85) 100%)}
+#hdr{background:rgba(0,70,75,.85);border-radius:20px;padding:12px 22px}
+#pin{background:#00A6A6;color:#fff;border-radius:40px}
+#pin .ic{color:#fff}
+#hook .h1{background:rgba(0,70,75,.9);color:#fff;border-left:12px solid #FFC93C;padding:16px 26px 6px;border-radius:6px;font-size:84px}
+#hook .h2{color:#FFC93C;text-shadow:0 2px 10px rgba(0,0,0,.7)}
+#mini{background:#00A6A6;border-radius:999px;left:40px;right:40px;padding:12px 36px 6px;font-size:40px;text-shadow:none}
+.card{background:rgba(0,70,75,.95);border:3px solid #00A6A6;border-radius:40px 10px 40px 10px}
+.card .lb{color:#FFC93C}
+#sum{background:rgba(0,70,75,.95);border:3px solid #00A6A6;border-radius:30px}
+#end .e2{background:#00A6A6}
+""",
+    # P - Tirupur: deep blue panels, straight edges, white headline strip
+    "P": """
+#hdr{background:#0A2A6B;border-radius:6px;padding:12px 24px 12px 14px;border-left:10px solid #FFFFFF}
+#hook .h1{background:#fff;color:#0A2A6B;padding:14px 28px 4px;border-radius:4px;font-size:88px;text-shadow:none;box-shadow:0 12px 30px rgba(0,0,0,.45)}
+#hook .h2{background:#0A2A6B;color:#fff;border-radius:4px;padding:6px 22px 2px}
+#mini{background:#0A2A6B;border-radius:0;left:0;right:0;border-top:6px solid #fff;padding:14px 48px 8px;font-size:40px;text-shadow:none}
+#pin{background:#fff;color:#0A2A6B;border-radius:6px}
+#pin .ic{color:#0A2A6B}
+.card{background:rgba(10,42,107,.95);border:0;border-left:10px solid #fff;border-radius:4px}
+#sum{background:rgba(10,42,107,.95);border-radius:4px;border-top:6px solid #fff}
+#end .e2{background:#fff;color:#0A2A6B}
+""",
+    # E - Erode: green rounded frame with a turmeric-gold accent
+    "E": """
+#hdr{background:#14532D;border-radius:26px;border:3px solid #E9B949;padding:12px 26px 12px 12px}
+#hook .h1{background:#14532D;color:#fff;border:4px solid #E9B949;border-radius:60px;padding:16px 40px 6px;font-size:84px;text-shadow:none}
+#hook .h2{background:#E9B949;color:#14532D;border-radius:60px;padding:6px 30px 2px}
+#mini{background:rgba(20,83,45,.92);border-radius:22px;left:60px;right:60px;border:3px solid #E9B949;text-shadow:none;font-size:40px}
+#pin{background:#E9B949;color:#14532D;border-radius:60px}
+#pin .ic{color:#14532D}
+.card{background:rgba(20,83,45,.94);border:3px solid #E9B949;border-radius:60px}
+.card .lb{color:#E9B949}
+#sum{background:rgba(20,83,45,.94);border:3px solid #E9B949;border-radius:30px}
+#end .e2{background:#14532D;border:3px solid #E9B949}
+""",
 }
 
 ACCENT = {"மின் தடை": "#F59E0B", "மழை": "#1E88E5", "வானிலை": "#1E88E5", "வெள்ள": "#1E88E5", "விபத்து": "#E3151B", "குற்ற": "#B91C1C",
@@ -434,7 +498,7 @@ def build_html(spec, shots, sents, caps, hook_end, end_t, total, page):
                        "caps": [{"a": g["a"], "b": g["b"], "w": [[x[1], x[2]] for x in g["words"]]} for g in caps],
                        "hook_end": hook_end, "end_t": end_t, "total": total, "n": len(layers), "single": len(spec["images"]) == 1,
                        "sum_a": (sents[-2]["a"] if len(sents) > 5 else sents[-1]["a"]) if len(sents) > 3 else end_t, "rows": len(rows) if summary else 0})
-    style = (os.environ.get("REEL_STYLE") or spec.get("style") or "A").upper()
+    style = (os.environ.get("REEL_STYLE") or spec.get("style") or page.get("style") or "A").upper()
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}{STYLES.get(style, "")}</style></head><body style="--acc:{acc}">
 <div id="stage">{imgs}</div><div id="shade"></div><div id="flash"></div>
 <img id="plogo" src="{logo}">
