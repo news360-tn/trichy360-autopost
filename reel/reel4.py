@@ -511,7 +511,7 @@ def build_html(spec, shots, sents, caps, hook_end, end_t, total, page):
 {cards}
 {summary}
 <div id="cap">{cap_html}</div>
-<div id="end"><img src="{logo}"><div class="e1">{E(page['tagline'])}</div><div class="e2">FOLLOW @{page['handle']}</div><div class="e4">📌 Save • தேவைப்படுவோருக்கு Share</div><div class="e3">{E(spec.get('location',''))}</div>{('<div class="e5">ஆதாரம்: ' + E(spec['source_full']) + '</div>') if spec.get('source_full') else ''}</div>
+<div id="end"><img src="{logo}"><div class="e1">{E(page['tagline'])}</div><div class="e2">FOLLOW @{page['handle']}</div><div class="e4">📌 Save • தேவைப்படுவோருக்கு Share</div><div class="e3">{E(spec.get('location',''))}</div>{('<div class="e5">Source: ' + E(spec['source_full']) + '</div>') if spec.get('source_full') else ''}</div>
 <script>
 const D={data};
 const cl=x=>Math.max(0,Math.min(1,x)), ease=x=>1-Math.pow(1-x,3), back=x=>{{const c=1.70158,c3=c+1;return 1+c3*Math.pow(x-1,3)+c*Math.pow(x-1,2)}};
