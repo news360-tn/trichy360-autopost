@@ -81,34 +81,5 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
-| 2026-11-11 | `27f7af2` | Apps Script: comment-poll functions renamed without the trailing underscore (private functions are hidden from the Run list) - setupCommentPoll |
-| 2026-11-11 | `192dd17` | comment replies: Google Form per batch (works on any device, no account) - news, comment, tick-box replies (one or more), own reply, Reply/Skip/Hide; posted only after the owner submits; 5-minute check (setupCommentPoll_) |
-| 2026-11-11 | `de49eec` | facebook RN-312 |
-| 2026-11-11 | `026cf77` | comment reply form: the e-mailed link and form buttons use the bridge's own public address (getUrl gave an address that opened Google Drive) (owner 11 Nov) |
-| 2026-11-11 | `2247d31` | powercut: notices written |
-| 2026-11-11 | `f7697da` | comment replies: one reply form per page (works anywhere) - full news, the comment, 5-7 tick-box replies (one or more) or own text, Post reply / Skip / Hide; nothing is posted before the owner presses Post reply; manual test e-mail (owner 11 Nov) |
-| 2026-11-11 | `f0d7f5f` | facebook RN-238 |
-| 2026-11-11 | `6a0bacd` | power cuts: a cancellation / postponement / day change is posted (urgent) only when this page posted that cut - never dropped as a duplicate of the original; the power-cut check remembers notices the writer refused (owner 11 Nov) |
-| 2026-11-11 | `abb1ac1` | powercut: notices written |
-| 2026-11-11 | `6c6ade2` | comments: old unanswered comments offered too (60 days, 100 posts); comments the page already answered in the app are skipped (owner 11 Nov) |
-| 2026-11-11 | `e828968` | powercut: notices written |
-| 2026-11-11 | `04cdaed` | facebook RN-234 |
-| 2026-11-11 | `4157385` | caption ends with 'Source: <paper> (<date>): <article link>'; no source comment under the post (owner 11 Nov) |
-| 2026-11-11 | `bbe4aed` | facebook RN-230 |
-| 2026-11-11 | `743a5ce` | powercut: notices written |
-| 2026-11-11 | `25415ce` | facebook RN-227 |
-| 2026-11-11 | `121f6f8` | facebook RN-228 |
-| 2026-11-11 | `3ef0d21` | powercut: notices written |
-| 2026-11-11 | `c94f28a` | facebook RN-224 |
-| 2026-11-11 | `07c0b0f` | facebook RN-225 |
-| 2026-11-11 | `547c7e6` | powercut: notices written |
-| 2026-11-11 | `a64de44` | Apps Script: comment replies merged into Code.gs - the owner pastes one file (owner 11 Nov) |
-| 2026-11-11 | `49b6e3d` | facebook RN-222 |
-| 2026-11-11 | `71905fc` | facebook RN-218 |
-| 2026-11-11 | `b8c5677` | powercut: notices written |
-| 2026-11-11 | `e913c1f` | Facebook: only top news by insights (urgent / best topics), 5 a day 2 h apart, 24 h pause on Facebook's limit (368), no retry; news source (paper + date) on the reel header, end card and captions, article link in the Facebook caption and the page's Instagram comment; comment replies e-mailed with 3 options - posted only after the owner's choice (owner 11 Nov) |
-| 2026-11-11 | `3884c40` | facebook retry |
-| 2026-11-11 | `789a8d9` | facebook retry |
-| 2026-11-11 | `026cd9b` | facebook RN-217 |
-| 2026-11-11 | `d95f5a8` | facebook retry |
+| 2026-11-12 | `a2ed402` | trichy 360: code from the Salem 360 setup - page identity, logo, 12 news a day (4+4+4), one picture per reel; NOT live (no LIVE file, no secrets) |
 <!-- recent-changes:end -->
