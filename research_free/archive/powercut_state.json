@@ -79,7 +79,7 @@
    "title": "அதவத்தூா், துவாக்குடியில் இன்று மின்தடை"
   },
   "https://www.dinamani.com/all-editions/edition-coimbatore/coimbatore/2026/Nov/10/நாளைய-மின்தடை-பீளமேடு-முத்துக்கவுண்டன்புதூா்": {
-   "at": "2026-11-12T21:53:35.365964+05:30",
+   "at": "2026-11-12T22:15:12.771025+05:30",
    "power_cut": true,
    "why": "",
    "title": "நாளைய மின்தடை: பீளமேடு, முத்துக்கவுண்டன்புதூா்"
@@ -341,6 +341,12 @@
    "power_cut": true,
    "why": "cut day 2026-10-03 has passed",
    "title": "அக்கரைப்பட்டி பகுதிகளில் இன்று மின்தடை"
+  },
+  "https://www.dinamalar.com/amp/news/tamil-nadu-news/5-trapped-in-electric-lift-at-collector-s-office/4374572": {
+   "at": "2026-11-12T22:15:12.771025+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "கலெக்டர் ஆபீசில் மின்தடை லிப்டில் சிக்கி 5 பேர் தவிப்பு"
   }
  },
  "done": {
