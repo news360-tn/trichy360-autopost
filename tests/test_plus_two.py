@@ -1,22 +1,45 @@
-"""owner 12 Nov (RN-534): 'பிளஸ் 2 மாணவர்' was read 'பிளஸ் இரண்டு' - it is said 'பிளஸ் டூ'."""
+"""owner 12 Nov (RN-534 'பிளஸ் 2' read 'பிளஸ் இரண்டு'): numbers must be read the way people SAY them.
+1) a number inside an English name is said in English: பிளஸ் டூ, குரூப் ஃபோர், டி ட்வென்டி, ஃபைவ் ஜி
+2) a case ending after a number is part of the word: நாற்பதுக்கும், ...ஒன்றில், ரூபாய்க்கு (was 'நாற்பது, க்கும்')
+3) everything else is unchanged Tamil."""
 import sys, unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "reel"))
-from tamilnum import speak_numbers      # noqa: E402
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "reel"))
+sys.path.insert(0, str(ROOT / "research_free"))
+import names      # noqa: E402
+import tts        # noqa: E402
+
+CASES = {
+    # English names
+    "பிளஸ் 2 மாணவர்": "பிளஸ் டூ மாணவர்", "பிளஸ்2 மாணவர்": "பிளஸ் டூ மாணவர்", "பிளஸ்-2 மாணவர்": "பிளஸ் டூ மாணவர்",
+    "+2 மாணவர்": "பிளஸ் டூ மாணவர்", "பிளஸ் 1 தேர்வு": "பிளஸ் ஒன் தேர்வு",
+    "குரூப்-2 தேர்வு": "குரூப் டூ தேர்வு", "குரூப்4 தேர்வு": "குரூப் ஃபோர் தேர்வு", "குரூப் 2ஏ தேர்வு": "குரூப் டூ ஏ தேர்வு",
+    "யமஹா ஆர்15 பைக்": "யமஹா ஆர் ஃபிஃப்டீன் பைக்", "M20 மாடல்": "எம் ட்வென்டி மாடல்", "T20 போட்டி": "டி ட்வென்டி போட்டி",
+    "டி-20 போட்டி": "டி ட்வென்டி போட்டி", "4ஜி சேவை": "ஃபோர் ஜி சேவை", "5G சேவை": "ஃபைவ் ஜி சேவை", "ஏ1 குற்றவாளி": "ஏ ஒன் குற்றவாளி",
+    # endings joined to the number
+    "2021-ல்": "இரண்டாயிரத்து இருபத்து ஒன்றில்", "40-க்கும்": "நாற்பதுக்கும்", "200க்கும் மேற்பட்டோர்": "இருநூறுக்கும் மேற்பட்டோர்",
+    "6,000க்கும் அதிகமான": "ஆறாயிரத்துக்கும் அதிகமான", "73-இல்": "எழுபத்து மூன்றில்", "126-ஆகவும்": "நூற்று இருபத்து ஆறாகவும்",
+    "ரூ.1500-க்கு": "ஆயிரத்து ஐந்நூறு ரூபாய்க்கு", "ரூ.200-இலிருந்து": "இருநூறு ரூபாயிலிருந்து", "31க்குள்": "முப்பத்து ஒன்றுக்குள்",
+    "படிவம்-6ல்": "படிவம் ஆறில்", "நெ.4 வார்டு": "எண் நான்கு வார்டு",
+    # unchanged Tamil
+    "17 வயது": "பதினேழு வயது", "17-வது": "பதினேழாவது", "10ம் வகுப்பு": "பத்தாம் வகுப்பு", "2 பேர் காயம்": "இரண்டு பேர் காயம்",
+    "எம்.எல்.ஏ. 3 பேர்": "சட்டமன்ற உறுப்பினர் மூன்று பேர்", "5 ஐ.பி.எஸ். அதிகாரிகள்": "ஐந்து ஐ பி எஸ் அதிகாரிகள்",
+    "1000 ஆக உயர்வு": "ஆயிரம் ஆக உயர்வு", "கோவிட்-19": "கோவிட் பத்தொன்பது", "NH 44 சாலை": "என் ஹெச் நாற்பத்து நான்கு சாலை",
+    "காலை 10.30 மணி": "காலை பத்தரை மணி", "ரூ.4,500": "நாலாயிரத்து ஐந்நூறு ரூபாய்",
+}
 
 
-class PlusTwo(unittest.TestCase):
-    def test_plus_two_and_one(self):
-        for src in ("பிளஸ் 2 மாணவர்", "பிளஸ்2 மாணவர்", "பிளஸ்-2 மாணவர்", "Plus 2 மாணவர்", "+2 மாணவர்"):
-            self.assertEqual(speak_numbers(src), "பிளஸ் டூ மாணவர்", src)
-        self.assertEqual(speak_numbers("பிளஸ் 1 தேர்வு"), "பிளஸ் ஒன் தேர்வு")
+class SpokenNumbers(unittest.TestCase):
+    def test_all_cases(self):
+        for src, want in CASES.items():
+            self.assertEqual(tts.clean(names.spoken(src)), want, src)
 
-    def test_other_numbers_unchanged(self):
-        self.assertEqual(speak_numbers("17 வயது மகன்"), "பதினேழு வயது மகன்")
-        self.assertEqual(speak_numbers("10ம் வகுப்பு"), "பத்தாம் வகுப்பு")
-        self.assertEqual(speak_numbers("2 பேர் காயம்"), "இரண்டு பேர் காயம்")
-        self.assertNotIn("டூ", speak_numbers("பிளஸ் 25 கிலோ"))      # not a school year
+    def test_rn534_voice_script(self):
+        out = tts.clean(names.spoken("டூவீலர் விபத்தில் பிளஸ் 2 மாணவர் உயிரிழந்தார். 17 வயது மகன் கவின், பிளஸ் 2 படித்து வந்தார்."))
+        self.assertNotIn("இரண்டு", out)
+        self.assertEqual(out.count("பிளஸ் டூ"), 2)
 
 
 if __name__ == "__main__":

@@ -80,11 +80,77 @@ def _time(h, mm):
     return words(h) + " " + words(mm)
 
 
+
+# ---- owner 12 Nov (RN-534): numbers that belong to an ENGLISH name are said in English, as people say them -------------------
+EN = {0: "ஜீரோ", 1: "ஒன்", 2: "டூ", 3: "த்ரீ", 4: "ஃபோர்", 5: "ஃபைவ்", 6: "சிக்ஸ்", 7: "செவன்", 8: "எய்ட்", 9: "நைன்", 10: "டென்",
+      11: "லெவன்", 12: "ட்வெல்வ்", 13: "தர்டீன்", 14: "ஃபோர்டீன்", 15: "ஃபிஃப்டீன்", 16: "சிக்ஸ்டீன்", 17: "செவன்டீன்",
+      18: "எய்டீன்", 19: "நைன்டீன்"}
+EN_TENS = {2: "ட்வென்டி", 3: "தர்டி", 4: "ஃபோர்டி", 5: "ஃபிஃப்டி", 6: "சிக்ஸ்டி", 7: "செவன்டி", 8: "எய்டி", 9: "நைன்டி"}
+LET = dict(zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ", ["ஏ", "பி", "சி", "டி", "இ", "எஃப்", "ஜி", "ஹெச்", "ஐ", "ஜே", "கே", "எல்", "எம்", "என்", "ஓ",
+                                              "பி", "க்யூ", "ஆர்", "எஸ்", "டி", "யூ", "வி", "டபிள்யூ", "எக்ஸ்", "வை", "இசட்"]))
+# words / letter names that are followed by an English number: பிளஸ் 2, குரூப் 4, டி20, ஆர்15, ஏ1 (accused), வி3, ஐ50
+EN_WORD = r"பிளஸ்|குரூப்|லெவல்|மாடல்|டைப்|வெர்ஷன்"      # may have a space before the number: பிளஸ் 2, குரூப் 4
+EN_LETTER = r"ஏ|பி|சி|டி|ஜி|ஐ|ஜே|கே|எல்|எம்|என்|ஆர்|எஸ்|வி|எக்ஸ்|எஃப்|யூ|வை|இசட்|க்யூ|டபிள்யூ|[A-Za-z]{1,3}"      # attached only: டி20, ஆர்15, ஏ1, T20
+# ('எம்.எல்.ஏ. 3 பேர்' keeps 'மூன்று': a letter with a SPACE before the number is not an English name)
+EN_SUFFIX = r"ஜி|டி|ஏ|பி|சி|எக்ஸ்|[A-Za-z]"      # 4ஜி, 5G, 3டி, குரூப் 2ஏ
+TA = "\u0B80-\u0BFF"
+
+
+def en_number(n):
+    if n < 20:
+        return EN[n]
+    if n < 100:
+        t, o = divmod(n, 10)
+        return EN_TENS[t] + ("" if o == 0 else " " + EN[o])
+    return " ".join(EN[int(c)] for c in str(n))      # model numbers: 150 -> ஒன் ஃபைவ் ஜீரோ
+
+
+def _letters(w):
+    return " ".join(LET.get(c.upper(), c) for c in w) if re.fullmatch(r"[A-Za-z]+", w) else w
+
+
+def english_names(t):
+    t = re.sub(r"(?<![\d.,])(\d{1,2})[-–]?(" + EN_SUFFIX + r")(?![" + TA + r"A-Za-z])",
+               lambda m: en_number(int(m.group(1))) + " " + _letters(m.group(2)), t)
+    t = re.sub(r"(?<![" + TA + r"A-Za-z\d])(?:(" + EN_WORD + r")\s*[-–]?\s*|(?!NH|SH)(" + EN_LETTER + r")[-–]?)(\d{1,3})(?![\d,.])",
+               lambda m: _letters(m.group(1) or m.group(2)) + " " + en_number(int(m.group(3))), t)
+    t = re.sub(r"\+\s*([12])(?![\d.,])", lambda m: "பிளஸ் " + en_number(int(m.group(1))), t)      # +2 / +1
+    return t
+
+
+# ---- owner 12 Nov: a case ending written after a number is part of the word: 40-க்கும் -> நாற்பதுக்கும், 2021-ல் -> ...ஒன்றில் ---------
+ENDINGS = r"இலிருந்து|லிருந்து|க்குள்|க்கும்|க்குப்|க்கு|ஆகவும்|ஆகும்|ஆக|ஆல்|இல்|ல்|உம்|ஐ|ஓடு|உடன்"
+NUM_END = re.compile(r"(?P<n>\d[\d,]*(?:\.\d+)?)(?:\s*[-–]\s*)?(?P<end>" + ENDINGS + r")(?![" + TA + r"])")
+VSIGN = {"அ": "", "ஆ": "ா", "இ": "ி", "ஈ": "ீ", "உ": "ு", "ஊ": "ூ", "எ": "ெ", "ஏ": "ே", "ஐ": "ை", "ஒ": "ொ", "ஓ": "ோ"}
+
+
+def join_ending(w, e):
+    w = w.rstrip()
+    if e in ("ல்", "லிருந்து"):
+        e = "இ" + e                                  # 2021ல் = 2021இல்
+    if e[0] in VSIGN:
+        sign, rest = VSIGN[e[0]], e[1:]
+        if w.endswith("ு"):
+            return w[:-1] + sign + rest                 # ஒன்று+இல் -> ஒன்றில், ஆறு+ஆக -> ஆறாக
+        if w.endswith("ம்"):
+            if e[0] in "இஐஓ" or e == "ஆல்":
+                return w[:-2] + "த்த" + sign + rest      # ஆயிரம்+இல் -> ஆயிரத்தில்
+            if e == "உடன்":
+                return w[:-2] + "த்துடன்"
+            return w[:-1] + sign + rest                 # ஆயிரம்+ஆக -> ஆயிரமாக
+        if w.endswith("்"):
+            return w[:-1] + sign + rest                 # ரூபாய்+ஆக -> ரூபாயாக
+        return w + "ய" + sign + rest                    # கோடி+இல் -> கோடியில்
+    if w.endswith("ம்"):
+        return w[:-2] + "த்து" + e                      # ஆயிரம்+க்கு -> ஆயிரத்துக்கு
+    return w + e                                        # நாற்பது+க்கும் -> நாற்பதுக்கும், ரூபாய்+க்கு -> ரூபாய்க்கு
+
+
 def speak_numbers(t):
     """replace every number in a Tamil sentence by its Tamil words (12ம் -> பன்னிரண்டாம், 11,600 -> பதினோராயிரத்து அறுநூறு style)"""
     t = re.sub(r"<[^>]+>", "", t)                       # stray html (<b>56</b>)
-    # owner 12 Nov (RN-534): school year "பிளஸ் 2" is said "பிளஸ் டூ" (Plus Two), never "பிளஸ் இரண்டு"; "பிளஸ் 1" -> "பிளஸ் ஒன்"
-    t = re.sub(r"(?:பிளஸ்|[Pp]lus|\+)\s*[-–]?\s*([12])(?![\d.,])", lambda m: "பிளஸ் " + ("டூ" if m.group(1) == "2" else "ஒன்"), t)
+    t = re.sub(r"(?<![" + TA + r"])நெ\.\s*(?=\d)", "எண் ", t)      # நெ.4 வார்டு -> எண் நான்கு வார்டு
+    t = english_names(t)      # owner 12 Nov (RN-534 'பிளஸ் 2'): a number that is part of an English name is said in English
     # dates 26.10.2026 / 26/10/2026 / 26-10-2026 -> அக்டோபர் 26ஆம் தேதி (2026)
     def _date(m):
         d, mo, y = int(m.group(1)), int(m.group(2)), m.group(3)
@@ -107,7 +173,8 @@ def speak_numbers(t):
     t = re.sub(r"(?<![\d.])(\d{4})\s*[-–]\s*(\d{2})(?![\d])", r"\1 \2", t)
     t = re.sub(r"(?<![\d.])(\d[\d,]*)\s*[-–]\s*(\d[\d,]*)(?![\d.])", r"\1 முதல் \2", t)
     t = re.sub(r"(?:₹|ரூ\.?)\s*(\d[\d,]*(?:\.\d+)?)\s*(லட்சம்|ஆயிரம்|கோடி)", r"\1 \2 ரூபாய்", t)      # ரூ.9 லட்சம் -> 9 லட்சம் ரூபாய்
-    t = re.sub(r"(?:₹|ரூ\.?)\s*(\d[\d,]*(?:\.\d+)?)", r"\1 ரூபாய்", t)      # ரூ.11,600 -> 11,600 ரூபாய்
+    t = re.sub(r"(?:₹|ரூ\.?)\s*(\d[\d,]*(?:\.\d+)?)(?:(?:\s*[-–]\s*)?(" + ENDINGS + r")(?![" + TA + r"]))?",
+               lambda m: m.group(1) + " " + (join_ending("ரூபாய்", m.group(2)) if m.group(2) else "ரூபாய்"), t)      # ரூ.11,600 -> 11,600 ரூபாய்
     t = t.replace("%", " சதவீதம்")
 
     def ordinal(m):
@@ -133,6 +200,7 @@ def speak_numbers(t):
         return words(int(s)) + " "
     t = ORD_VADU.sub(vadu, t)
     t = ORD.sub(ordinal, t)
+    t = NUM_END.sub(lambda m: join_ending(num(NUM.match(m.group("n"))), m.group("end")) + " ", t)      # 40-க்கும் -> நாற்பதுக்கும்
     t = NUM.sub(num, t)
     return re.sub(r"\s+", " ", t).strip()
 
