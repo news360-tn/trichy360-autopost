@@ -43,7 +43,17 @@ function authorized_(e) {
   var key = props_().getProperty('BRIDGE_KEY');
   return key && e && e.parameter && e.parameter.key === key;
 }
-function sheet_() { return SpreadsheetApp.openById(SHEET_ID).getSheetByName(TAB); }
+function sheet_() {      // 12 Nov: a brand-new Log Sheet has only "Sheet1" - create the News tab (with its 31 column names) instead of failing
+  var ss = SpreadsheetApp.openById(SHEET_ID), sh = ss.getSheetByName(TAB);
+  if (!sh) {
+    var head = Object.keys(C).sort(function (a, b) { return C[a] - C[b]; });
+    var first = ss.getSheets()[0];
+    if (ss.getSheets().length === 1 && first.getLastRow() === 0) { sh = first.setName(TAB); } else { sh = ss.insertSheet(TAB); }
+    sh.getRange(1, 1, 1, head.length).setValues([head]);
+    sh.setFrozenRows(1);
+  }
+  return sh;
+}
 function nowIst_() { return Utilities.formatDate(new Date(), 'Asia/Kolkata', 'dd MMM yyyy, HH:mm'); }
 
 function doGet(e) {
