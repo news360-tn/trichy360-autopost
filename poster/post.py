@@ -821,10 +821,26 @@ def load_cache(sid, key):
     try:
         d = json.loads(cache_path(sid).read_text(encoding="utf-8"))
         if d.get("key") == key and d.get("reel") and (d.get("carousel") or d.get("reel_only")):
+            if not links_alive(d):
+                log("prebuilt files were removed from Cloudinary (clean-up) - made and uploaded again")
+                return None
             return d
     except Exception:
         pass
     return None
+
+
+def links_alive(media):
+    """owner 12 Nov: poster/cloudclean.py deletes old Cloudinary files; a cached link that is gone (404) means: upload again.
+    A network error is not proof of a deleted file, so the cache is still used then."""
+    urls = [media.get("reel"), media.get("cover"), media.get("story")] + list(media.get("carousel") or [])
+    for u in [u for u in urls if u]:
+        try:
+            if requests.head(u, timeout=20, allow_redirects=True).status_code in (404, 410):
+                return False
+        except Exception:
+            pass
+    return True
 
 
 def save_cache(sid, key, media, checks):

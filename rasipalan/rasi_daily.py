@@ -77,7 +77,7 @@ def wait_ready(cid, token, minutes=6):
 def upload(path):
     with open(path, "rb") as f:
         r = requests.post(f"https://api.cloudinary.com/v1_1/{os.environ['CLOUDINARY_CLOUD']}/image/upload",
-                          data={"upload_preset": os.environ["CLOUDINARY_PRESET"], "folder": "rasipalan"}, files={"file": f}, timeout=300)
+                          data={"upload_preset": os.environ["CLOUDINARY_PRESET"], "folder": "trichy360"}, files={"file": f}, timeout=300)
     r.raise_for_status()
     return r.json()["secure_url"]
 
