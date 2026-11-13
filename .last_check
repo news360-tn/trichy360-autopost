@@ -1,10 +1,6 @@
-21:33:30 automatic images step failed (posting goes on): bridge autoPending: TypeError: Cannot read properties of null (reading 'getLastRow')
-Traceback (most recent call last):
-  File "/home/runner/work/trichy360-autopost/trichy360-autopost/poster/post.py", line 2094, in <module>
-    main()
-  File "/home/runner/work/trichy360-autopost/trichy360-autopost/poster/post.py", line 1857, in main
-    rows = bridge_get("queue")["rows"]
-           ^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/trichy360-autopost/trichy360-autopost/poster/post.py", line 83, in bridge_get
-    raise RuntimeError(f"bridge {action}: {data.get('error')}")
-RuntimeError: bridge queue: TypeError: Cannot read properties of null (reading 'getLastRow')
+07:07:16 story catch-up trichy: quota 0/50, 0 recent posts, 0 live stories, owner ids ['17841462048887226', '28956510467350700']
+07:07:16 1 stories in the queue, ready to post: 1
+07:07:16   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+07:07:16    RN-1 review= 'Auto' images= 99 spec= 660 pages= ['trichy'] links= '' '' age_h= 0.0 ready= True set_started= True
+07:07:18 publishing quota trichy: 0/50
+07:07:20 instagram duplicate check trichy: 0 recent posts read
