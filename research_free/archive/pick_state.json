@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-13T21:51:09.374927+05:30",
+ "last_end": "2026-11-14T01:51:56.620819+05:30",
  "pool": {
   "Cb700483": {
    "id": "Cb700483",
@@ -14,34 +14,6 @@
    "listed_at": "2026-11-13T07:08:07.795440+05:30",
    "picked_at": "2026-11-13T07:13:58.693597+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
-  },
-  "Ca91a51d": {
-   "id": "Ca91a51d",
-   "url": "https://www.hindutamil.in/news/crime/prisoner-escaped-after-verdict",
-   "title": "கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி",
-   "summary": "மதுரை: கஞ்சா வழக்​கில் தண்​டனை விவரத்தை நீதிபதி அறி​வித்​ததும் தப்​பியோடிய கைதியை போலீ​ஸார் தேடி வரு​கின்​றனர்.திண்​டுக்கல் மது​விலக்கு அமலாக்​கப்​ பி​ரிவு போலீ​ஸார் கடந்த 2024 மே 20-ம் தேதி திருச்சி - திண்​டுக்​கல் ச...",
-   "source": "இந்து தமிழ்",
-   "published": "2026-11-12T19:23:08Z",
-   "category": "குற்றம்",
-   "score": 4.0,
-   "power_cut": false,
-   "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T11:01:01.914432+05:30",
-   "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
-  },
-  "C1582626": {
-   "id": "C1582626",
-   "url": "https://www.dinamalar.com/news/business-general-news/the-possibility-of-ordering/4374984",
-   "title": "ஆர்டர் வாய்ப்பு",
-   "summary": "காகித ஆலையில் இரும்பு கட்டமைப்பு பணிக்கு வாய்ப்பு தமிழ்நாடு செய்தித்தாள் காகித நிறுவனத்தின் திருச்சி மாவட்டம், மொண்டிப்பட்டி இரண்டாவது ஆலையில், இரும்பு கட்டமைப்புகளை தயாரித்து பொருத்துவதற்கு ஒப்பந்தப்புள்ளிகள் வரவேற்க...",
-   "source": "தினமலர்",
-   "published": "2026-11-13T16:46:18+05:30",
-   "category": "பொது",
-   "score": 3.0,
-   "power_cut": false,
-   "listed_at": "2026-11-13T17:53:32.929039+05:30",
-   "picked_at": "2026-11-13T21:52:18.402146+05:30",
-   "posted": true
   }
  },
  "rounds": {
@@ -204,6 +176,17 @@
    "written": [
     "C1582626"
    ]
+  },
+  "2026-11-14_01": {
+   "window": [
+    "2026-11-13T21:51:09.374927+05:30",
+    "2026-11-14T01:51:56.620819+05:30"
+   ],
+   "ids": [],
+   "sent": false,
+   "deadline": "2026-11-14T02:51:56.620819+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}
