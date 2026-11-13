@@ -1,9 +1,14 @@
-07:43:50 SKIP RN-4 held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
+11:07:52 SKIP RN-4 held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
 ::warning title=Held from posting RN-4::held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
-07:43:52 story catch-up trichy: quota 4/50, 2 recent posts, 2 live stories, owner ids ['17841462048887226', '28956510467350700']
-07:43:52 2 stories in the queue, ready to post: 1
-07:43:52   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-07:43:52    RN-2 review= 'Auto' images= 99 spec= 731 pages= ['trichy'] links= '' '' age_h= 0.5 ready= True set_started= True
-07:43:52    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 0.5 ready= False set_started= True
-07:43:53 publishing quota trichy: 4/50
-07:43:55 instagram duplicate check trichy: 2 recent posts read
+11:07:54 story catch-up trichy: quota 8/50, 4 recent posts, 4 live stories, owner ids ['17841462048887226', '28956510467350700']
+11:07:54 4 stories in the queue, ready to post: 3
+11:07:54   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+11:07:54    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 3.9 ready= False set_started= True
+11:07:54    RN-5 review= 'Auto' images= 99 spec= 751 pages= ['trichy'] links= '' '' age_h= 0.0 ready= True set_started= True
+11:07:54    RN-6 review= 'Auto' images= 99 spec= 882 pages= ['trichy'] links= '' '' age_h= 0.0 ready= True set_started= True
+11:07:54    RN-7 review= 'Auto' images= 99 spec= 891 pages= ['trichy'] links= '' '' age_h= 0.0 ready= True set_started= True
+11:07:55 publishing quota trichy: 8/50
+11:07:57 instagram duplicate check trichy: 4 recent posts read
+11:07:57    RN-6 waits for the 12-minute gap after the last post on ['trichy']
+11:07:57    RN-5 waits for the 12-minute gap after the last post on ['trichy']
+11:07:57 prebuilding ahead of the set start: ['RN-5', 'RN-6']
