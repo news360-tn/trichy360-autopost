@@ -155,6 +155,263 @@ STYLES = {
 """,
 }
 
+# ==== owner 13 Nov: PREMIUM STORY PANEL (new pages; config "reel_style": "P") ==========================================================
+# Photo in the top 60 %, an emerald panel below holds the headline and captions (text never sits on the photo); champagne-gold accent,
+# ivory cards, serif Tamil headline; NO black anywhere. Motion: district map with the town pin (first seconds), headline word by word,
+# count-up numbers, karaoke caption pill, one news-type layer (power-cut time bar / accident sweep / rain / police band), smooth loop,
+# light sound effects. Voice, timing, captions and every fact are exactly as before - only the look and the motion layer change.
+PREMIUM_ACCENT = "#C9A24B"
+
+
+def _premium_fonts():
+    out = []
+    av = R.NM / "@fontsource-variable" / "anek-tamil" / "files"      # condensed news cut = font-stretch 75 %
+    for sub, rng in (("tamil", ""), ("latin", "unicode-range:U+0000-00FF,U+2022,U+2013,U+2014;")):
+        f = av / f"anek-tamil-{sub}-standard-normal.woff2"
+        if f.exists():
+            out.append(f"@font-face{{font-family:'AT';font-weight:100 800;font-stretch:75% 125%;src:url('file://{f}') format('woff2-variations');{rng}}}")
+    return "\n".join(out) + R.ff("NSR", "noto-serif-tamil", [700, 800])
+
+
+STYLES["P"] = _premium_fonts() + """
+:root{--acc:#C9A24B;--navy:#0B3B2E;--yellow:#F3DFA2}
+body{background:#0B3B2E}
+#stage{height:1150px;border-bottom:8px solid #C9A24B}
+.pic{height:1150px}
+#shade{bottom:auto;height:1150px;background:linear-gradient(180deg,rgba(11,59,46,.85) 0%,rgba(11,59,46,.15) 24%,rgba(11,59,46,0) 40%,rgba(11,59,46,0) 82%,rgba(11,59,46,.55) 100%)}
+#flash{display:none}
+#hdr .nm{font:800 46px/1 'NSR','NST';letter-spacing:1px;color:#F3DFA2;text-shadow:0 2px 12px rgba(4,32,24,.6)}
+#hdr .sub{font:600 27px 'AT','NST';color:rgba(255,248,236,.85);gap:16px;margin-top:10px;text-shadow:0 2px 8px rgba(4,32,24,.8)}
+#hdr .tag{background:linear-gradient(100deg,#C9A24B,#F3DFA2);color:#0B3B2E;border-radius:4px;padding:6px 14px 1px;font:800 27px 'AT','NST'}
+#hdr .src{background:none;padding:0;color:rgba(255,248,236,.85);font:600 27px 'AT','NST'}
+#plogo{width:112px;height:112px;top:146px;border:3px solid #C9A24B;box-shadow:0 8px 24px rgba(4,32,24,.5)}
+#pin{top:296px;max-width:700px;background:rgba(11,59,46,.74);box-shadow:none;color:#FFF8EC;padding:10px 24px 6px 16px;gap:10px;
+  font:700 38px/1.2 'AT','NST';font-stretch:87.5%;border:1.5px solid rgba(201,162,75,.6)}
+#pin span{max-width:620px}
+#pin .ic{color:#F3DFA2}
+#hook{top:1196px;left:56px;right:56px}
+#hook .h1{font:800 92px/1.12 'NSR','NST';color:#FFF8EC;-webkit-text-stroke:0;letter-spacing:0;text-shadow:none}
+#hook .h1 .w{display:inline-block}
+#hook .h2{margin-top:18px;background:linear-gradient(100deg,#C9A24B,#F3DFA2 48%,#C9A24B);color:#0B3B2E;border-radius:6px;padding:10px 24px 2px;
+  font:800 60px/1.1 'AT','CT';font-stretch:87.5%;box-shadow:none}
+#mini{top:1196px;left:56px;right:56px;font:700 44px/1.28 'NSR','NST';color:#FFF8EC;border-left:4px solid #C9A24B;padding:2px 0 0 22px;text-shadow:none}
+#cap{top:1330px;height:262px;left:56px;right:56px}
+.ph{-webkit-text-stroke:0;font:800 62px/1.24 'AT','CT';font-stretch:87.5%;color:#FFF8EC;text-shadow:none}
+.ph span{padding:0 8px;margin-right:.12em;border-radius:6px}
+.ph span.on{color:#0B3B2E;background:linear-gradient(100deg,#C9A24B,#F3DFA2)}
+.card{top:700px;background:#FFF8EC;border:1.5px solid #C9A24B;border-radius:18px;box-shadow:0 24px 60px rgba(4,32,24,.45)}
+.card .ico{background:#0B3B2E;color:#F3DFA2;width:128px;margin:14px 0 14px 14px;border-radius:12px;font-size:60px}
+.card .tx{padding:20px 32px 16px 24px}
+.card .lb{font:700 27px 'AT','NST';color:#8A6A23;letter-spacing:2px}
+.card .vl{font:800 56px/1.15 'AT','NST';font-stretch:87.5%;color:#0B3B2E}
+#sum{top:330px;background:#FFF8EC;border:1.5px solid #C9A24B;border-radius:20px;box-shadow:0 24px 60px rgba(4,32,24,.5)}
+#sum .st{background:#0B3B2E;color:#F3DFA2;font:800 44px 'NSR','NST'}
+#sum .row{border-top:1px solid rgba(201,162,75,.35)}
+#sum .row .ic{color:#C9A24B}
+#sum .row .l{font:700 28px/1.2 'AT','NST';color:#8A6A23}
+#sum .row .v{font:700 40px/1.22 'AT','NST';font-stretch:87.5%;color:#0B3B2E}
+#end{background:linear-gradient(170deg,rgba(20,86,63,.9),rgba(11,59,46,.96))}
+#end img{border:4px solid #C9A24B;box-shadow:0 14px 50px rgba(4,32,24,.6)}
+#end .e1{font:800 80px/1.2 'NSR','NST';color:#FFF8EC}
+#end .e2{background:linear-gradient(100deg,#C9A24B,#F3DFA2 48%,#C9A24B);color:#0B3B2E;border-radius:999px;font:800 54px 'AT','CT';padding:18px 48px 8px}
+#end .e4{background:none;color:rgba(255,248,236,.88);font:700 40px 'AT','NST'}
+#end .e3{color:#F3DFA2;font:800 46px 'AT','NST'}
+#end .e5{background:none;color:rgba(255,248,236,.7);font:600 32px 'AT','NST'}
+#foot{opacity:.8}
+#fxmap{position:absolute;right:48px;top:292px;width:250px;z-index:21;background:rgba(11,59,46,.74);border:1.5px solid rgba(201,162,75,.6);border-radius:18px;padding:10px 10px 6px;opacity:0}
+#fxmap svg{width:230px;height:230px;display:block;overflow:visible}
+#fxd{fill:rgba(201,162,75,0);stroke:#F3DFA2;stroke-width:2.6;stroke-linejoin:round}
+#fxdot{fill:#F3DFA2;stroke:#0B3B2E;stroke-width:3}
+.fxring{fill:none;stroke:#F3DFA2;stroke-width:3}
+#fxmap .lb{font:700 24px/1.15 'AT','NST';font-stretch:87.5%;color:#FFF8EC;text-align:center;margin-top:2px}
+#fxmap .lb b{color:#F3DFA2}
+#fxmap .osm{font:500 13px 'NST',sans-serif;color:rgba(255,248,236,.5);text-align:right}
+#fxloop{position:absolute;inset:0;z-index:60;background:#0B3B2E;opacity:0;pointer-events:none}
+#fxtl{position:absolute;left:48px;right:48px;top:960px;z-index:22;opacity:0;background:rgba(11,59,46,.9);border:1.5px solid rgba(201,162,75,.55);border-radius:14px;padding:18px 26px 16px}
+#fxtl .row{display:flex;justify-content:space-between;align-items:center;font:800 34px 'AT','NST';font-stretch:87.5%;color:#FFF8EC}
+#fxtl .row .ic{width:40px;height:40px;color:#F3DFA2}
+#fxtl .bar{margin-top:12px;height:18px;border-radius:9px;background:rgba(255,248,236,.16);overflow:hidden}
+#fxtl .fill{height:100%;width:0;background:linear-gradient(100deg,#C9A24B,#F3DFA2 48%,#C9A24B);border-radius:9px}
+#fxsweep{position:absolute;left:-1400px;top:960px;width:1300px;height:140px;z-index:21;background:#B4232C;transform:skewX(-18deg);display:flex;align-items:center;
+  justify-content:center;gap:24px;font:800 66px 'AT','CT';font-stretch:75%;color:#FFF8EC;letter-spacing:2px;opacity:0}
+#fxsweep .ic{width:60px;height:60px}
+#fxedge{position:absolute;left:0;right:0;top:0;height:1150px;z-index:6;pointer-events:none;opacity:0}
+#fxrain{position:absolute;left:0;top:0;width:1080px;height:1150px;z-index:6;pointer-events:none}
+#fxalert{position:absolute;left:48px;right:48px;top:960px;z-index:22;opacity:0;border-radius:14px;padding:16px 26px 10px;display:flex;align-items:center;gap:18px;
+  font:800 40px 'AT','NST';font-stretch:87.5%;color:#FFF8EC;box-shadow:0 14px 40px rgba(4,32,24,.4)}
+#fxalert .ic{width:46px;height:46px;flex:none}
+.cnt{font-variant-numeric:tabular-nums}
+"""
+PREMIUM_ALERTS = {"rain": ("triangle-exclamation", "வானிலை எச்சரிக்கை", "#1E5FAF"), "crime": ("handcuffs", "போலீஸ் நடவடிக்கை", "#1E4A9C")}
+
+
+def reel_style(spec):
+    """REEL_STYLE env, the story's own style, then poster/config.json "reel_style", else the original look A"""
+    cfg = ""
+    try:
+        cfg = json.loads((Path(__file__).resolve().parent.parent / "poster" / "config.json").read_text()).get("reel_style", "")
+    except Exception:
+        pass
+    return (os.environ.get("REEL_STYLE") or spec.get("style") or cfg or "A").upper()
+
+
+def premium_kind(spec):
+    """the one news-type layer of the premium look ('' = the shared motion only)"""
+    t = " ".join([str(spec.get("cat") or ""), str(spec.get("mini") or "")] + [str(x) for x in (spec.get("hook") or [])])
+    if re.search(r"மின்\s*தடை|மின்தடை|மின்\s*நிறுத்த", t):
+        return "power"
+    if re.search(r"விபத்து|மோதி|கவிழ்ந்", t):
+        return "accident"
+    if re.search(r"மழை|வானிலை|வெள்ள|புயல்", t):
+        return "rain"
+    if re.search(r"குற்ற|கைது|கஞ்சா|திருட்டு|கொலை|போலீஸ்", t):
+        return "crime"
+    return ""
+
+
+def time_span(spec):
+    """('காலை 9', 'மாலை 5') for the power-cut time bar, or None when the story does not say both ends clearly"""
+    t = " ".join([str(spec.get("mini") or "")] + [str(x) for x in (spec.get("hook") or [])])
+    got = []
+    for w, n in re.findall(r"(காலை|மதியம்|பிற்பகல்|மாலை|இரவு)\s*(\d{1,2}(?:[.:]\d{2})?)", t):
+        if f"{w} {n}" not in got:
+            got.append(f"{w} {n}")
+    return (got[0], got[1]) if len(got) >= 2 else None
+
+
+def district_map(location):
+    """(svg path, town x, town y or None, label html) from reel/assets/district_map.json (OpenStreetMap), or None"""
+    try:
+        m = json.loads((Path(__file__).resolve().parent / "assets" / "district_map.json").read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    loc = str(location or "")
+    town = next((t for t in sorted(m.get("towns", {}), key=len, reverse=True) if t in loc), "")
+    xy = m["towns"].get(town) if town else None
+    label = (f"<b>{E(town)}</b> · " if town else "") + E(m.get("district_ta", "")) + " மாவட்டம்"
+    return m["path"], (xy[0] if xy else None), (xy[1] if xy else None), label, m.get("credit", "© OpenStreetMap")
+
+
+PREMIUM_JS = """
+<script>
+(function(){
+const cl=x=>Math.max(0,Math.min(1,x)), ease=x=>1-Math.pow(1-x,3), back=x=>{const c=1.70158,c3=c+1;return 1+c3*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const KIND="__KIND__";
+const h1=document.querySelector('#hook .h1');
+h1.innerHTML=h1.textContent.trim().split(/\\s+/).map(w=>'<span class="w">'+w+'</span>').join(' ');
+const words=[...h1.querySelectorAll('.w')];
+const RX=/(\\d[\\d,]*)(?=\\s*(பேர்|லட்ச|கோடி|கிலோ|டன்|சதவீத|மூட்டை|பணியிட|ஏக்கர்|அடி|%))/g;
+document.querySelectorAll('#hook .h2,#mini,.card .vl,#sum .v').forEach(el=>{el.innerHTML=el.innerHTML.replace(RX,(m,n)=>'<span class="cnt" data-n="'+n.replace(/,/g,'')+'">'+n+'</span>');});
+function startOf(el){
+  if(el.closest('#hook'))return 0.35; if(el.closest('#mini'))return D.hook_end;
+  const c=el.closest('.card'); if(c){const s=D.sents[+c.id.slice(1)];return Math.max(s.a+0.15,D.hook_end+0.1);}
+  const r=el.closest('.row'); if(r)return D.sum_a+0.25+(+r.id.slice(1))*0.28; return 0;}
+const cnts=[...document.querySelectorAll('.cnt')].map(e=>({e,n:+e.dataset.n,a:startOf(e)}));
+const path=document.getElementById('fxd'), L=path?path.getTotalLength():0; if(path)path.style.strokeDasharray=L;
+let placed=false;
+const _r=window.renderAt;
+window.renderAt=function(t){
+  _r(t);
+  const live=t<D.end_t?1:0, T=D.total;
+  if(!placed){placed=true;      // the news-type band sits just above the headline panel
+    const top_=document.querySelector('#hook .h1').getBoundingClientRect().top;
+    ['fxtl','fxalert'].forEach(id=>{const e=document.getElementById(id); if(e)e.style.top=Math.max(560,Math.round(Math.min(1150,top_)-e.offsetHeight-40))+'px';});}
+  document.getElementById('cap').style.opacity=t<D.hook_end?0:1;      // the headline and the captions share the panel: captions after the headline
+  const m=document.getElementById('fxmap');
+  if(m){m.style.opacity=live*ease(cl(t/0.25))*(1-cl((t-(D.hook_end-0.2))/0.35));
+    path.style.strokeDashoffset=L*(1-ease(cl(t/0.7))); path.style.fill='rgba(201,162,75,'+(0.16*cl((t-0.45)/0.4))+')';
+    const dot=document.getElementById('fxdot');
+    if(dot){const dp=cl((t-0.65)/0.35); dot.setAttribute('opacity',dp>0?1:0); dot.setAttribute('transform','translate(0,'+(-46*(1-back(dp)))+')');
+      for(let i=0;i<2;i++){const ph=((t-1.0-i*0.6)%1.2+1.2)%1.2/1.2, on=t>1.0+i*0.6, r=document.getElementById('fxr'+i);
+        r.setAttribute('r',6+34*ph); r.setAttribute('opacity',on?0.8*(1-ph):0);}}}
+  words.forEach((w,i)=>{const p=cl((t-0.05-i*0.09)/0.28); w.style.opacity=ease(p); w.style.transform='translateY('+(46*(1-ease(p)))+'px)';});
+  cnts.forEach(c=>{const p=ease(cl((t-c.a)/0.8)); c.e.textContent=Math.round(c.n*p).toLocaleString('en-IN');});
+  const tl=document.getElementById('fxtl');
+  if(tl){const on=t>0.45&&t<D.hook_end; tl.style.opacity=on?ease(cl((t-0.45)/0.25))*(1-cl((t-(D.hook_end-0.25))/0.25)):0;
+    tl.querySelector('.fill').style.width=(100*ease(cl((t-0.6)/1.1)))+'%';}
+  const sw=document.getElementById('fxsweep');
+  if(sw){sw.style.opacity=(t<0.95)?1:0; sw.style.left=(-1400+2700*ease(cl(t/0.9)))+'px';
+    const g=document.getElementById('fxedge'), pulse=0.5+0.5*Math.sin(t*Math.PI*2/0.9);
+    g.style.opacity=live; g.style.boxShadow='inset 0 0 '+(80+60*pulse)+'px '+(14+10*pulse)+'px rgba(180,35,44,'+(t<D.hook_end?0.5:0.2)+')';}
+  const cv=document.getElementById('fxrain');
+  if(cv){const x=cv.getContext('2d'); x.clearRect(0,0,1080,1150);
+    if(live){x.strokeStyle='rgba(225,236,255,.42)'; x.lineWidth=3; x.lineCap='round';
+      for(let i=0;i<150;i++){const h=Math.sin(i*12.9898)*43758.5453, fr=h-Math.floor(h), sp=1500+900*fr, len=50+60*fr;
+        const px=(i*97.3+fr*400)%1180-50, py=((fr*1150+sp*t)%1300)-120;
+        x.beginPath(); x.moveTo(px,py); x.lineTo(px-len*0.22,py+len); x.stroke();}}}
+  const al=document.getElementById('fxalert');
+  if(al){const on=t>0.45&&t<D.hook_end; al.style.opacity=on?(0.8+0.2*Math.sin(t*Math.PI*2/0.8))*ease(cl((t-0.45)/0.25))*(1-cl((t-(D.hook_end-0.25))/0.25)):0;}
+  document.getElementById('fxloop').style.opacity=t<0.14?1-t/0.14:(t>T-0.4?cl((t-(T-0.4))/0.4):0);      // smooth replay
+};
+})();
+</script>
+"""
+
+
+def _ic(name):
+    """an icon, or nothing when the icon set is missing (an icon never stops a reel)"""
+    try:
+        return R.icon(name)
+    except (SystemExit, Exception):
+        return ""
+
+
+def premium_layer(html_, spec):
+    """the premium motion layer, added to the finished page (map, news-type layer, loop, script)"""
+    kind = premium_kind(spec)
+    h = '<div id="fxloop"></div>'
+    dm = district_map(spec.get("location"))
+    if dm:
+        path, tx, ty, label, credit = dm
+        pin = "" if tx is None else ("".join(f'<circle class="fxring" id="fxr{i}" cx="{tx}" cy="{ty}" r="6" opacity="0"/>' for i in range(2))
+                                     + f'<circle id="fxdot" cx="{tx}" cy="{ty}" r="11" opacity="0"/>')
+        h += f'<div id="fxmap"><svg viewBox="0 0 260 260"><path id="fxd" d="{path}"/>{pin}</svg><div class="lb">{label}</div><div class="osm">{E(credit)}</div></div>'
+    if kind == "power" and time_span(spec):
+        a, b = time_span(spec)
+        h += f'<div id="fxtl"><div class="row"><span>{E(a)}</span>{_ic("bolt")}<span>{E(b)}</span></div><div class="bar"><div class="fill"></div></div></div>'
+    if kind == "accident":
+        h += f'<div id="fxedge"></div><div id="fxsweep">{_ic("car-burst")}<span>விபத்து</span></div>'
+    if kind == "rain":
+        h += '<canvas id="fxrain" width="1080" height="1150"></canvas>'
+    if kind in PREMIUM_ALERTS:
+        ic, tx_, col = PREMIUM_ALERTS[kind]
+        h += f'<div id="fxalert" style="background:{col}">{_ic(ic)}<span>{tx_}</span></div>'
+    return html_.replace("</script></body></html>", "</script>" + h + PREMIUM_JS.replace("__KIND__", kind) + "</body></html>")
+
+
+def premium_sfx(work, spec, sents, hook_end, end_t):
+    """light sound effects mixed under the voice (pin pop, card whoosh, accident alert, rain bed); never fails the reel"""
+    import wave
+    mix = work / "mix.wav"
+    with wave.open(str(mix)) as w_:
+        rate = w_.getframerate()
+    gen = {"whoosh": "anoisesrc=d=0.45:c=pink:a=0.5,highpass=f=500,lowpass=f=4500,afade=t=in:d=0.18,afade=t=out:st=0.2:d=0.25",
+           "pop": "sine=f=880:d=0.09,afade=t=out:st=0.02:d=0.07",
+           "alert": "sine=f=740:d=0.16,apad=pad_dur=0.05,afade=t=out:st=0.1:d=0.06",
+           "rainbed": "anoisesrc=d=%.2f:c=brown:a=0.35,lowpass=f=1800,highpass=f=200,afade=t=in:d=0.6,afade=t=out:st=%.2f:d=0.6" % (end_t, max(0.1, end_t - 0.6))}
+    kind = premium_kind(spec)
+    ev = [("pop", 0.68, 0.5)] + [("whoosh", max(s["a"] + 0.15, hook_end + 0.1) - 0.1, 0.3) for s in sents if s.get("has_card")]
+    if kind == "accident":
+        ev += [("whoosh", 0.0, 0.4), ("alert", 0.05, 0.22), ("alert", 0.3, 0.22)]
+    if kind == "rain":
+        ev += [("rainbed", 0.0, 0.3)]
+    if kind in ("power", "rain", "crime"):
+        ev += [("whoosh", 0.4, 0.25)]
+    for n in {e[0] for e in ev}:
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", gen[n], "-ar", str(rate), "-ac", "2", str(work / f"sfx_{n}.wav")], check=True)
+    inputs, chains = [], []
+    for i, (n, at, vol) in enumerate(ev):
+        inputs += ["-i", str(work / f"sfx_{n}.wav")]
+        ms = int(max(0.0, at) * 1000)
+        chains.append(f"[{i + 1}:a]adelay={ms}|{ms},volume={vol}[s{i}]")
+    fc = (f"[0:a]aformat=sample_rates={rate}:channel_layouts=stereo[v];" + ";".join(chains) + ";[v]" + "".join(f"[s{i}]" for i in range(len(ev)))
+          + f"amix=inputs={len(ev) + 1}:normalize=0:duration=first[a]")
+    out = work / "mix_sfx.wav"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mix), *inputs, "-filter_complex", fc, "-map", "[a]", str(out)], check=True)
+    out.replace(mix)
+# ==== end of the premium story panel ===================================================================================================
+
+
 ACCENT = {"மின் தடை": "#F59E0B", "மழை": "#1E88E5", "வானிலை": "#1E88E5", "வெள்ள": "#1E88E5", "விபத்து": "#E3151B", "குற்ற": "#B91C1C",
           "கோவில்": "#C2410C", "திருவிழா": "#C2410C", "வேலை": "#059669", "கல்வி": "#2563EB", "தாக்குதல்": "#DC2626"}
 
@@ -400,7 +657,7 @@ def plan_shots(n_img, content_end, snaps):
 def build_html(spec, shots, sents, caps, hook_end, end_t, total, page):
     logo = f"file://{R.KIT.resolve() / page['logo']}"
     foot = f"file://{(Path(__file__).resolve().parent / 'assets' / page.get('footer', 'footer_trichy.png')).as_posix()}"
-    acc = accent_for(spec.get("cat", ""))
+    acc = PREMIUM_ACCENT if reel_style(spec) == "P" else accent_for(spec.get("cat", ""))      # premium: one fixed page accent
     layers = pic_layers(spec["images"])
     imgs = "".join(f'<img class="pic" id="p{i}" src="file://{Path(p).resolve()}">' for i, p in enumerate(layers))
     cards = ""
@@ -434,8 +691,8 @@ def build_html(spec, shots, sents, caps, hook_end, end_t, total, page):
                        "caps": [{"a": g["a"], "b": g["b"], "w": [[x[1], x[2]] for x in g["words"]]} for g in caps],
                        "hook_end": hook_end, "end_t": end_t, "total": total, "n": len(layers), "single": len(spec["images"]) == 1,
                        "sum_a": (sents[-2]["a"] if len(sents) > 5 else sents[-1]["a"]) if len(sents) > 3 else end_t, "rows": len(rows) if summary else 0})
-    style = (os.environ.get("REEL_STYLE") or spec.get("style") or "A").upper()
-    return f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}{STYLES.get(style, "")}</style></head><body style="--acc:{acc}">
+    style = reel_style(spec)
+    html_ = f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}{STYLES.get(style, "")}</style></head><body style="--acc:{acc}">
 <div id="stage">{imgs}</div><div id="shade"></div><div id="flash"></div>
 <img id="plogo" src="{logo}">
 <div id="hdr"><div><div class="nm">{page['name']}</div>
@@ -509,6 +766,7 @@ window.fitAll=function(){{
   fitEl(document.getElementById('mini'),124,30); document.querySelectorAll('#sum .v').forEach(e=>fitEl(e,104,26)); document.querySelectorAll('#sum .l').forEach(e=>fitEl(e,76,20)); fitEl(document.querySelector('#pin span'),70,28);
 }};
 </script></body></html>"""
+    return premium_layer(html_, spec) if style == "P" else html_
 
 
 def max_seconds(spec=None):
@@ -633,6 +891,11 @@ def main(spec_path, out_mp4, page_key="trichy"):
     V3.build_audio(work, starts, shots, [dict(s, fact="") for s in sents], total)
     page = work / "reel4.html"
     page.write_text(build_html(spec, shots, sents, caps, hook_end, end_t, total, R.PAGE))
+    if reel_style(spec) == "P":      # owner 13 Nov: light sound effects under the voice (premium look only)
+        try:
+            premium_sfx(work, spec, sents, hook_end, end_t)
+        except Exception as e:
+            print("sound effects skipped (the reel is fine):", str(e)[:150])
     nframes = int(math.ceil(total * FPS))
     enc = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(FPS), "-c:v", "mjpeg", "-i", "-",
                             "-i", str(work / "mix.wav"), "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
