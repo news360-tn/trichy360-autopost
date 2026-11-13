@@ -407,6 +407,12 @@
    "power_cut": false,
    "why": "not this district",
    "title": "இன்றைய மின் தடை: புதுச்சேரி"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-coimbatore/today-s-power-outage-coimbatore/4358790": {
+   "at": "2026-11-13T12:17:05.991801+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "இன்றைய மின் தடை: கோயம்புத்தூர்"
   }
  },
  "done": {
@@ -437,6 +443,10 @@
   "Cb700483": {
    "why": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)",
    "at": "2026-11-13T08:38:44.829270+05:30"
+  },
+  "Ca91a51d": {
+   "why": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)",
+   "at": "2026-11-13T12:18:45.334969+05:30"
   }
  }
 }
