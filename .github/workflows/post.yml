@@ -42,7 +42,7 @@ env:
   FB_TOKEN_TRICHY: ${{ secrets.FB_TOKEN_TRICHY }}
   DAILY_CAP: "44"   # owner 31 Oct: no daily limit of our own - only Instagram's 50 a day (reels + stories); owner 2 Nov (review): the last 6 are kept for urgent news / power cuts
   CITY_ONLY: "0"      # owner 31 Oct: the whole district (top 3 per round decides)
-  POST_MAX_AGE_DAYS: "0"      # owner 29 Oct 18:29: only news PUBLISHED TODAY is posted
+  POST_MAX_AGE_DAYS: "1"      # owner 13 Nov: today's and yesterday's news - the night's news waits for 08:00 and is never skipped
   DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '' }}
   PREBUILD: ${{ github.event_name == 'workflow_dispatch' && inputs.prebuild && '1' || '' }}
   PAUSED: ${{ vars.PAUSED }}

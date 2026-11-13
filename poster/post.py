@@ -115,6 +115,9 @@ URGENT = re.compile(r"மின்\s*தடை|மின்தடை|power\s*(cu
                     r"தீ\s*விபத்து|fire|காணவில்லை|missing|சாலை\s*மறியல்|traffic\s*diversion|போக்குவரத்து\s*மாற்றம்", re.I)
 
 
+POWER_CUT = re.compile(r"மின்\s*தடை|மின்தடை|மின்\s*நிறுத்தம்|power\s*(cut|shut)", re.I)
+
+
 def prime_urgent(row):
     """time-sensitive news (power cut, accident, rain warning, Collector / Govt notice, jobs, exam, today / tomorrow) never waits"""
     return bool(URGENT.search(f"{row.get('headline_ta', '')} {row.get('headline_en', '')} {row.get('category', '')}"))
@@ -127,16 +130,45 @@ def in_prime_time(now=None):
 
 
 def prime_wait(row, now=None):
-    """'' = post now. Otherwise why this reel waits (a high-view window is coming). Urgent news and reels that have already
-    waited max_wait_hours never wait, so every news still goes out."""
+    """'' = post now. Otherwise why this reel waits. owner 13 Nov: news is collected every 4 hours; a story waits for the first posting
+    START time (config prime_time.starts) after it was filed, then posts with all the other waiting news - there is NO end time and
+    nothing is skipped. Only power cuts post at once; a story that has waited max_wait_hours goes out whatever the hour."""
     pt = CONFIG.get("prime_time") or {}
-    if not pt.get("enabled") or prime_urgent(row) or is_urgent(row) or in_prime_time(now):
+    if not pt.get("enabled"):
+        return ""
+    if pt.get("immediate") == "power_cut":      # owner 13 Nov: ONLY power cuts post at once (found by category or headline)
+        now_ok = is_shutdown(row) or bool(POWER_CUT.search(f"{row.get('headline_ta', '')} {row.get('headline_en', '')}"))
+    else:
+        now_ok = prime_urgent(row) or is_urgent(row)
+    if now_ok:
         return ""
     waited = age_hours(row)
     if waited is not None and waited >= float(pt.get("max_wait_hours", 12)):
         return ""
-    nxt = next((a for a, b in sorted(pt.get("windows", [])) if a > (now or datetime.now(IST)).strftime("%H:%M")), (pt.get("windows") or [["09:00"]])[0][0])
+    now = now or datetime.now(IST)
+    if pt.get("starts"):
+        start = posting_start(row, pt["starts"], float(pt.get("grace_min", 60)))
+        return "" if start is None or now >= start else f"waits for posting start ({start:%H:%M} IST)"
+    if in_prime_time(now):
+        return ""
+    nxt = next((a for a, b in sorted(pt.get("windows", [])) if a > now.strftime("%H:%M")), (pt.get("windows") or [["09:00"]])[0][0])
     return f"waits for prime time ({nxt} IST)"
+
+
+def posting_start(row, starts, grace_min=60):
+    """the posting start time of a story: the first start (e.g. 08:00 / 12:00 / 18:00 IST) at or after it was filed minus grace_min
+    (a batch whose writing runs past its start still belongs to that start). None = filed time unknown (posts at once)."""
+    f = filed_at(row)
+    if f is None:
+        return None
+    ref = f - timedelta(minutes=grace_min)
+    for day in (0, 1):
+        for st in sorted(starts):
+            h, mi = (int(x) for x in st.split(":"))
+            cand = datetime(ref.year, ref.month, ref.day, h, mi, tzinfo=ref.tzinfo) + timedelta(days=day)
+            if cand >= ref:
+                return cand
+    return None
 
 
 def age_hours(row):

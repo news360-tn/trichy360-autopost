@@ -22,6 +22,10 @@ QUERIES = ["திருச்சி மின்தடை", "திருச்
 SITES = ("dinamani.com", "dinamalar.com")      # order = preference when two papers print the same cut
 DISTRICT_URL = ("district-news-trichirappalli", "edition-trichy/trichy")      # a link of the district's own page
 # ----
+# owner 13 Nov: the daily STATE-WIDE lists name every district's areas - a cut is often printed only there. Only OUR district's part
+# is used (allnews.district_section); a list without a Trichy part is refused as 'not this district'.
+STATE_SITES = ("tamil.news18.com", "tamil.abplive.com", "tamil.samayam.com")
+STATE_QUERIES = ["தமிழகத்தில் நாளை மின்தடை", "தமிழ்நாட்டில் நாளை மின்தடை பகுதிகள்"]
 
 STATE = HERE / "archive" / "powercut_state.json"
 URLS = HERE / "results" / "powercut_urls.txt"
@@ -124,6 +128,14 @@ def links():
                     items += [x for x in fn(f"{q} site:{dom}") if dom in (x.get("site", "") + x.get("url", "")) and F.is_power_cut(x.get("title", ""))]
                 except Exception as e:
                     log(f"{fn.__name__} '{q}' {dom} failed: {str(e)[:80]}")
+    for q in STATE_QUERIES:
+        for dom in STATE_SITES:
+            for fn in (allnews.from_google, allnews.from_bing):
+                try:
+                    items += [dict(x, state_list=True) for x in fn(f"{q} site:{dom}")
+                              if dom in (x.get("site", "") + x.get("url", "")) and F.is_power_cut(x.get("title", ""))]
+                except Exception as e:
+                    log(f"{fn.__name__} '{q}' {dom} failed: {str(e)[:80]}")
     out, seen = [], set()
     for it in items:
         u = it["url"]
@@ -133,7 +145,13 @@ def links():
             except Exception:
                 continue
         u = norm(u)
-        if u in seen or not any(d in u for d in SITES):
+        if it.get("state_list"):
+            if not any(d in u for d in STATE_SITES):
+                continue
+            u += allnews.SECTION_MARK      # read as: intro + our district's part only
+        elif not any(d in u for d in SITES):
+            continue
+        if u in seen:
             continue
         seen.add(u)
         out.append(dict(it, url=u))

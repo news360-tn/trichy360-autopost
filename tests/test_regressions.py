@@ -3,6 +3,7 @@
     python3 -m unittest discover -s tests -v
 
 Each test names the real story that broke, so a failure says which old problem has come back."""
+from unittest import mock
 import ast, datetime, json, os, re, sys, tempfile, unittest
 from pathlib import Path
 
@@ -473,30 +474,43 @@ class SinglePage(unittest.TestCase):
 
 
 class PrimeTime(unittest.TestCase):
-    """owner 27 Oct: non-urgent reels wait for 9-12 / 18-21:30; urgent news never waits; nothing is ever dropped"""
-    def at(self, h, m=0):
-        return datetime.datetime.combine(TODAY, datetime.time(h, m), IST)
+    """owner 13 Nov: news collected every 4 hours waits for its posting START (08:00 / 12:00 / 18:00 IST), then all of it is posted -
+    no end time, nothing skipped; only power cuts post at once"""
+    def at(self, h, m=0, day=0):
+        return datetime.datetime.combine(TODAY, datetime.time(h, m), IST) + datetime.timedelta(days=day)
 
-    def row(self, title, filed_h_ago=1):
-        t = datetime.datetime.now(IST) - datetime.timedelta(hours=filed_h_ago)
-        return {"story_id": "RN-T", "headline_ta": title, "headline_en": "", "category": "", "researched": t.strftime("%d %b %Y, %H:%M")}
+    def row(self, title, h, m=0):
+        return {"story_id": "RN-T", "headline_ta": title, "headline_en": "", "category": "", "researched": self.at(h, m).strftime("%d %b %Y, %H:%M")}
 
-    def test_urgent_never_waits(self):
-        for title in ("காளப்பநாயக்கன்பட்டி பகுதியில் நாளை மின் தடை", "தனியார் பேருந்து மோதி தொழிலாளி உயிரிழப்பு",
-                      "நாமக்கல் மாவட்டத்தில் கனமழை எச்சரிக்கை", "ஆட்சியர் அறிவிப்பு: சிறப்பு முகாம்"):
-            self.assertEqual("", post.prime_wait(self.row(title), self.at(14)), title)
+    def wait(self, row, now, waited=1.0):
+        with mock.patch.object(post, "age_hours", return_value=waited):
+            return post.prime_wait(row, now)
 
-    def test_trichy_posts_at_once(self):      # owner 29 Oct (Trichy): no fixed times, every reel posts the moment it is made
-        self.assertFalse(json.loads((ROOT / "poster" / "config.json").read_text())["prime_time"]["enabled"])
-        for h in (3, 14, 23):
-            self.assertEqual("", post.prime_wait(self.row("கோவில் கும்பாபிஷேக விழா"), self.at(h)), h)
+    def test_owner_starts_on(self):
+        pt = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["prime_time"]
+        self.assertTrue(pt["enabled"])
+        self.assertEqual(pt["starts"], ["08:00", "12:00", "18:00"])
+        self.assertEqual(pt["immediate"], "power_cut")
 
-    def test_posts_inside_prime_time(self):
-        self.assertEqual("", post.prime_wait(self.row("கோவில் கும்பாபிஷேக விழா"), self.at(10)))
-        self.assertEqual("", post.prime_wait(self.row("கோவில் கும்பாபிஷேக விழா"), self.at(19, 30)))
+    def test_each_batch_waits_for_its_start_then_no_end_time(self):
+        news = "கோவில் கும்பாபிஷேக விழா"
+        for filed, now, expect in (((5, 40), (7, 0), "08:00"), ((5, 40), (8, 0), ""), ((5, 40), (23, 0), ""),      # no end time
+                                   ((10, 20), (11, 0), "12:00"), ((10, 20), (12, 5), ""), ((13, 50), (16, 0), "18:00"),
+                                   ((17, 40), (17, 50), "18:00"), ((21, 30), (23, 0), "08:00"), ((8, 30), (8, 40), "")):      # 05:00 batch written late
+            got = self.wait(self.row(news, *filed), self.at(*now))
+            if expect:
+                self.assertIn(expect, got, (filed, now))
+            else:
+                self.assertEqual("", got, (filed, now))
+        self.assertEqual("", self.wait(self.row(news, 21, 30), self.at(8, 0, day=1)))      # the night's news goes out at 08:00 next day
 
-    def test_never_dropped_after_long_wait(self):      # a reel that has waited 12 hours goes out whatever the hour
-        self.assertEqual("", post.prime_wait(self.row("கோவில் கும்பாபிஷேக விழா", filed_h_ago=13), self.at(3)))
+    def test_only_power_cut_posts_at_once(self):
+        self.assertEqual("", self.wait(self.row("காளப்பநாயக்கன்பட்டி பகுதியில் நாளை மின் தடை", 21, 30), self.at(23)))
+        for title in ("தனியார் பேருந்து மோதி தொழிலாளி உயிரிழப்பு", "கனமழை எச்சரிக்கை", "ஆட்சியர் அறிவிப்பு: சிறப்பு முகாம்"):
+            self.assertIn("posting start", self.wait(self.row(title, 13, 50), self.at(15)), title)
+
+    def test_never_dropped_after_long_wait(self):
+        self.assertEqual("", self.wait(self.row("கோவில் கும்பாபிஷேக விழா", 21, 30), self.at(3, day=1), waited=19))
 
 
 class ReelOpening(unittest.TestCase):
@@ -2212,11 +2226,12 @@ class RoundsTopThree(unittest.TestCase):
     them at once. A new day starts fresh. A slow or failed story never holds the next round."""
     WF = ROOT / ".github" / "workflows"
 
-    def test_rounds_at_the_owners_times(self):      # owner 2 Nov: 20 news a day, picked automatically - rounds 06:00 / 10:00 / 17:00 IST
+    def test_rounds_at_the_owners_times(self):      # owner 2 Nov: 20 news a day, picked automatically - rounds every 4 hours from 01:00 IST
         wf = (self.WF / "pick.yml").read_text(encoding="utf-8")
-        times = sorted(((int(h) * 60 + int(m) + 330) % 1440) / 60 for m, h in re.findall(r'cron: "(\d+) (\d+) \* \* \*"', wf))
-        self.assertEqual([6, 10, 17], times)      # owner 13 Nov: evening round 19:00 -> 17:00
-        self.assertIn("PICK_AUTO_TOP: ${{ github.event.schedule == '30 0 * * *' && '4' || '4' }}", wf)      # owner 12 Nov: 4 + 4 + 4 = 12
+        times = sorted(((int(h) * 60 + int(m) + 330) % 1440) / 60 for m, hs in re.findall(r'cron: "(\d+) ([\d,]+) \* \* \*"', wf)
+                       for h in hs.split(","))
+        self.assertEqual([1, 5, 9, 13, 17, 21], times)      # owner 13 Nov: every 4 hours (posting waits for 08:00 / 12:00 / 18:00)
+        self.assertIn('PICK_AUTO_TOP: "3"', wf)      # owner 13 Nov: 6 rounds x 3 = 18 a day (was 12)
         self.assertIn('PICK_EMAIL: "0"', wf)      # "do not ask me to confirm"
 
     def test_each_round_writes_top_3_of_the_whole_district(self):

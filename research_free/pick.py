@@ -494,6 +494,17 @@ def _never_posted(row):
         return ""
 
 
+def _waits(row):
+    """owner 13 Nov: written and waiting for its posting start time (08:00 / 12:00 / 18:00) - not missing, it posts when that start comes"""
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "poster"))
+        import post
+        return post.prime_wait(row)
+    except Exception as e:
+        log("verify: posting start not checked:", str(e)[:120])
+        return ""
+
+
 def picked_status(rnd, rows):
     """owner 1 Nov: every picked news must be POSTED. -> {id: 'posted' | 'queued RN-x' | 'skipped RN-x: why' | 'not written'}"""
     want = list(dict.fromkeys(list(rnd.get("written") or []) + list((rnd.get("decided") or {}).get("ids") or [])))
@@ -513,7 +524,9 @@ def picked_status(rnd, rows):
             out[i] = "posted"
         else:
             why = _never_posted(r)
-            out[i] = f"skipped {r.get('story_id')}: {why}" if why else f"queued {r.get('story_id')} ({r.get('post_status') or 'no status'})"
+            wait = "" if why else _waits(r)
+            out[i] = (f"skipped {r.get('story_id')}: {why}" if why else f"waiting {r.get('story_id')}: {wait}" if wait
+                      else f"queued {r.get('story_id')} ({r.get('post_status') or 'no status'})")
     return out
 
 
@@ -549,8 +562,12 @@ def cmd_verify():
             stat[k] = "skipped (not written): the newspaper removed the article (page not found)"
     title = {k: v.get("title", "") for k, v in pool.items()}
     skipped = {k: v for k, v in stat.items() if v.startswith("skipped")}
-    bad = {k: v for k, v in stat.items() if v != "posted" and k not in skipped}
-    log(f"verify {rid}: {len(stat) - len(bad) - len(skipped)} of {len(stat)} picked news posted, {len(skipped)} skipped on purpose")
+    waiting = {k: v for k, v in stat.items() if v.startswith("waiting")}
+    bad = {k: v for k, v in stat.items() if v != "posted" and k not in skipped and k not in waiting}
+    log(f"verify {rid}: {len(stat) - len(bad) - len(skipped) - len(waiting)} of {len(stat)} picked news posted, {len(skipped)} skipped on purpose, "
+        f"{len(waiting)} waiting for their posting start")
+    for k, v in waiting.items():
+        log(f"   WAITING {k}: {v[:120]} - {title.get(k, '')[:60]}")
     for k, v in skipped.items():
         log(f"   SKIPPED {k}: {v[:160]} - {title.get(k, '')[:60]}")      # held / stale / duplicate: post.py never posts it
     for k, v in bad.items():

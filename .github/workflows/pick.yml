@@ -7,9 +7,8 @@ name: pick
 # Each reel is posted as soon as it is ready. Posted news never comes back; listed but not posted news returns in the next list (< 24 h).
 on:
   schedule:
-    - cron: "30 0 * * *"      # 06:00 IST - 8 news (owner 2 Nov: 20 a day, picked automatically from the insights order)
-    - cron: "30 4 * * *"      # 10:00 IST - 6 news (06-12 IST is the page's best time)
-    - cron: "30 11 * * *"     # 17:00 IST - 6 news (owner 13 Nov: was 19:00 - posts at 19-21 IST got far fewer views than morning ones)
+    - cron: "30 23,3 * * *"           # 05:00 / 09:00 IST (owner 13 Nov: collection every 4 hours; posting waits for 08:00 / 12:00 / 18:00)
+    - cron: "30 7,11,15,19 * * *"     # 13:00 / 17:00 / 21:00 / 01:00 IST
   workflow_dispatch:
     inputs:
       dry:
@@ -33,7 +32,7 @@ jobs:
       BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
       BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
       CITY_ONLY: "0"
-      PICK_AUTO_TOP: ${{ github.event.schedule == '30 0 * * *' && '4' || '4' }}      # 12 Nov: 4 + 4 + 4 = 12 news a day
+      PICK_AUTO_TOP: "3"      # owner 13 Nov: 6 rounds x 3 = 18 news a day (was 4+4+4 = 12; each round finds plenty of local news)
       PICK_EMAIL: "0"      # owner 2 Nov: "do not ask me to confirm" - no list e-mail, the top news are written at once
       PICK_WAIT_MIN: "60"
       PICK_REQUIRE_EMAIL: "0"

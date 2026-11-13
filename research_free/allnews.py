@@ -477,8 +477,57 @@ def resolve(url):
         raise RuntimeError(f"google news link not decoded ({err}; {str(e)[:60]})")
 
 
+# owner 13 Nov: the daily STATE-WIDE power-cut lists (News18, ABP Live, Samayam: "தமிழகத்தில் நாளை மின்தடை ...") name the areas
+# district by district - Trichy's cuts are often printed ONLY there (12 Nov: "நாமக்கல்: சமயசங்கிலி, ஆலையபட்டி, பருத்திப்பள்ளி").
+# Such a link carries SECTION_MARK (research_free/powercut.py adds it); reading it gives only the intro (date, hours) + OUR district's part.
+SECTION_MARK = "#district-section"
+SECTION_NAMES = ('திருச்சி', 'திருச்சிராப்பள்ளி')
+TN_DISTRICTS = ("அரியலூர்", "செங்கல்பட்டு", "சென்னை", "கோவை", "கோயம்புத்தூர்", "கடலூர்", "தருமபுரி", "தர்மபுரி", "திண்டுக்கல்", "ஈரோடு",
+                "கள்ளக்குறிச்சி", "காஞ்சிபுரம்", "கன்னியாகுமரி", "கரூர்", "கிருஷ்ணகிரி", "மதுரை", "மயிலாடுதுறை", "நாகப்பட்டினம்", "நாகை",
+                "நாமக்கல்", "நீலகிரி", "உதகை", "பெரம்பலூர்", "புதுக்கோட்டை", "ராமநாதபுரம்", "ராணிப்பேட்டை", "சேலம்", "சிவகங்கை", "தென்காசி",
+                "தஞ்சாவூர்", "தஞ்சை", "தேனி", "தூத்துக்குடி", "திருச்சி", "திருச்சிராப்பள்ளி", "திருநெல்வேலி", "நெல்லை", "திருப்பத்தூர்",
+                "திருப்பூர்", "திருவள்ளூர்", "திருவண்ணாமலை", "திருவாரூர்", "வேலூர்", "விழுப்புரம்", "விருதுநகர்", "புதுச்சேரி")
+_SECTION_HEAD = re.compile(r'(?:^|(?<=[\s.,;:|>\-–"]))(' + "|".join(sorted(TN_DISTRICTS, key=len, reverse=True)) +
+                           r')(?:\s*/\s*[^\s":,.]+)?'      # Samayam: "கோவை/மெட்ரோ மின் தடை பகுதிகள்":- "..."
+                           r'(?:\s*(?:மாவட்டத்தில்|மாவட்டம்)\s*(?:பகுதிகள்)?\s*[:\-–]?|\s*(?:மின்\s*தடை|மின்தடை|மின்வெட்டு)?\s*(?:பகுதிகள்)?\s*"?\s*[:\-–])')
+
+
+def district_section(url, names=None):
+    """the article at url (a state-wide power-cut list) cut down to its intro (date, hours) and the part about OUR district.
+    No such part -> the original title with an empty text (the power-cut check then refuses it as 'not this district')."""
+    names = names or SECTION_NAMES
+    base = url.split("#")[0]
+    art = article_any(base)
+    text = re.sub(r"[ \t]+", " ", art.get("text") or "")
+    heads = list(_SECTION_HEAD.finditer(text))
+    own = [m for m in heads if m.group(1) in names]
+    if not own:
+        return dict(art, url=url, text="")
+    m = own[0]
+    parts = []      # every part about our district (Samayam splits one district: "கோவை/மெட்ரோ", "கோவை/வடக்கு")
+    for h in own:
+        nxt = next((x.start() for x in heads if x.start() > h.end()), len(text))
+        p = text[h.end():min(nxt, h.end() + 700)].strip(' .,:;-–"\n')
+        if p and p not in parts:
+            parts.append(p)
+    part = "; ".join(parts)
+    first = heads[0].start() if heads else 0
+    intro = [s.strip() for s in re.split(r"(?<=[.!?])\s+|\n+", text[:first]) if s.strip()]
+    others = [d for d in TN_DISTRICTS if d not in names]
+    intro = " ".join(s for s in intro if ("மணி" in s or "பராமரிப்பு" in s) and not any(d in s for d in others))[:400]
+    title = art.get("title") or ""
+    when = re.search(r"நாளை\s*(?:\(|மறுநாள்)?\s*\d{1,2}[.\-/]\d{1,2}[.\-/]\d{2,4}\)?|\d{1,2}[.\-/]\d{1,2}[.\-/]\d{2,4}|நாளை", title)
+    areas = [x.strip(' "') for x in re.split(r"[,،;]\s*", part)]
+    name = m.group(1)
+    new_title = f"{name} மாவட்டத்தில் {when.group(0) if when else 'நாளை'} மின்தடை: {', '.join(a.strip() for a in areas[:4] if a.strip())}"
+    body = (intro + "\n" if intro else "") + f"{name} மாவட்டம் - மின்தடை ஏற்படும் பகுதிகள்: {part}."
+    return dict(art, url=url, title=new_title[:200], text=body)
+
+
 def article_any(url):
     """title / published / text from any outlet's article page (JSON-LD first, then page paragraphs)."""
+    if SECTION_MARK in url:
+        return district_section(url)
     if "dinamalar.com" in url:
         return dinamalar.article(url)
     h = _get(url, timeout=40).text
