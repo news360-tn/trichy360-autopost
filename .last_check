@@ -1,12 +1,11 @@
-23:50:51 SKIP RN-4 held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
+00:03:01 SKIP RN-4 held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
 ::warning title=Held from posting RN-4::held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
-23:50:53 story catch-up trichy: quota 23/50, 12 recent posts, 11 live stories, owner ids ['17841462048887226', '28956510467350700']
-23:51:27 story catch-up trichy: post 17991302661119722 not shared (Instagram 17841462048887226/media_publish: {'message': 'Fatal', 'type': 'OAuthException', 'code': -1, 'error_subcode': 2207032, 'is_transient': False,) - tried again next run
-23:51:27 3 stories in the queue, ready to post: 2
-23:51:27   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-23:51:27    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 16.6 ready= False set_started= True
-23:51:27    RN-12 review= 'Auto' images= 197 spec= 846 pages= ['trichy'] links= '' '' age_h= 3.5 ready= True set_started= True
-23:51:27    RN-14 review= 'Auto' images= 197 spec= 720 pages= ['trichy'] links= '' '' age_h= 2.0 ready= True set_started= True
-23:51:28 publishing quota trichy: 23/50
-23:51:30 instagram duplicate check trichy: 12 recent posts read
-23:51:30    RN-14 waits for the 12-minute gap after the last post on ['trichy']
+00:03:03 story catch-up trichy: quota 24/50, 13 recent posts, 11 live stories, owner ids ['17841462048887226', '28956510467350700']
+00:03:57 story catch-up trichy: post 17991302661119722 not shared (Instagram 17841462048887226/media_publish: {'message': 'Fatal', 'type': 'OAuthException', 'code': -1, 'error_subcode': 2207032, 'is_transient': False,) - tried again next run
+00:03:57 2 stories in the queue, ready to post: 1
+00:03:57   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+00:03:57    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 16.8 ready= False set_started= True
+00:03:57    RN-14 review= 'Auto' images= 197 spec= 720 pages= ['trichy'] links= '' '' age_h= 2.2 ready= True set_started= True
+00:03:59 publishing quota trichy: 24/50
+00:04:00 instagram duplicate check trichy: 13 recent posts read
+00:04:00    RN-14 waits for the 12-minute gap after the last post on ['trichy']
