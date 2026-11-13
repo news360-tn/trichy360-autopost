@@ -482,15 +482,17 @@ class PrimeTime(unittest.TestCase):
     def row(self, title, h, m=0):
         return {"story_id": "RN-T", "headline_ta": title, "headline_en": "", "category": "", "researched": self.at(h, m).strftime("%d %b %Y, %H:%M")}
 
-    def wait(self, row, now, waited=1.0):
-        with mock.patch.object(post, "age_hours", return_value=waited):
+    def wait(self, row, now, waited=1.0, enabled=True):
+        pt = dict(json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["prime_time"], enabled=enabled)
+        with mock.patch.object(post, "age_hours", return_value=waited), mock.patch.dict(post.CONFIG, {"prime_time": pt}):
             return post.prime_wait(row, now)
 
-    def test_owner_starts_on(self):
+    def test_owner_posts_at_once(self):
+        """owner 13 Nov 22:51: no posting start times - every eligible story posts as soon as it is ready (rule switched OFF)"""
         pt = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["prime_time"]
-        self.assertTrue(pt["enabled"])
-        self.assertEqual(pt["starts"], ["08:00", "12:00", "18:00"])
-        self.assertEqual(pt["immediate"], "power_cut")
+        self.assertFalse(pt["enabled"])
+        for filed, now in (((21, 30), (23, 0)), ((13, 50), (15, 0)), ((5, 40), (6, 0))):
+            self.assertEqual("", post.prime_wait(self.row("கோவில் கும்பாபிஷேக விழா", *filed), self.at(*now)))
 
     def test_each_batch_waits_for_its_start_then_no_end_time(self):
         news = "கோவில் கும்பாபிஷேக விழா"

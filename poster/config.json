@@ -21,7 +21,7 @@
     "note": "Trichy 360: Valluvar (free edge-tts) reads every reel; Google voices are never used"
   },
   "prime_time": {
-    "enabled": true,
+    "enabled": false,
     "starts": [
       "08:00",
       "12:00",
@@ -30,7 +30,7 @@
     "grace_min": 60,
     "max_wait_hours": 18,
     "immediate": "power_cut",
-    "note": "owner 13 Nov: news is collected every 4 hours (01/05/09/13/17/21 IST); each story waits for the first posting START time after it was filed (60 min grace, so a batch still being written joins the start that has just begun), then EVERY waiting news is posted one after another - no end time, nothing skipped. Insights 22 Oct-13 Nov: 8-11 AM best, 2-5 PM and late night weakest. ONLY power cuts post at once. A story that waited max_wait_hours posts whatever the hour. Was OFF from 29/31 Oct."
+    "note": "owner 13 Nov 22:51: OFF - news is collected every 4 hours and every eligible story posts AT ONCE (no 08:00 / 12:00 / 18:00 wait). Earlier rule kept for reference: each story waits for the first posting START time after it was filed (60 min grace, so a batch still being written joins the start that has just begun), then EVERY waiting news is posted one after another - no end time, nothing skipped. Insights 22 Oct-13 Nov: 8-11 AM best, 2-5 PM and late night weakest. ONLY power cuts post at once. A story that waited max_wait_hours posts whatever the hour. Was OFF from 29/31 Oct."
   },
   "reel_punch": false,
   "reel_max_seconds": 88,
