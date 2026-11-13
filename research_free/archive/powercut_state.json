@@ -79,9 +79,9 @@
    "title": "அதவத்தூா், துவாக்குடியில் இன்று மின்தடை"
   },
   "https://www.dinamani.com/all-editions/edition-coimbatore/coimbatore/2026/Nov/10/நாளைய-மின்தடை-பீளமேடு-முத்துக்கவுண்டன்புதூா்": {
-   "at": "2026-11-12T23:09:06.352211+05:30",
+   "at": "2026-11-13T07:00:10.651359+05:30",
    "power_cut": true,
-   "why": "",
+   "why": "cut day 2026-11-12 has passed",
    "title": "நாளைய மின்தடை: பீளமேடு, முத்துக்கவுண்டன்புதூா்"
   },
   "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/10/திருச்சியில்-நாளை-மின்தடை": {
@@ -377,6 +377,42 @@
    "power_cut": false,
    "why": "not this district",
    "title": "கலெக்டர் ஆபீசில் மின்தடை லிப்டில் சிக்கி 5 பேர் தவிப்பு"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/the-objective-of-the-jal-jeevan-mission-is-to-ensure-a-sustainable-drinking-water-supply-in-villages-union-minister-c-r-patil": {
+   "at": "2026-11-13T07:00:10.651359+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "கிராமங்களில் நிலையான குடிநீா் சேவையை உறுதி செய்வதே ஜல் ஜீவன் இயக்கத்தின் நோக்கம்: மத்திய அமைச்சா் சி.ஆா். பாட்டீல்"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/holy-cross-girls-school-selected-for-the-state-level-south-indian-science-drama-festival-competition": {
+   "at": "2026-11-13T07:00:10.651359+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "தென்னிந்திய அறிவியல் நாடக விழா மாநிலப் போட்டிக்கு புனித சிலுவை பெண்கள் பள்ளி தோ்வு"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/national-library-week-celebrations-to-begin-tomorrow-at-the-district-central-library-various-events-organized": {
+   "at": "2026-11-13T07:00:10.651359+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "மாவட்ட மைய நூலகத்தில் தேசிய நூலக வார விழா நாளை தொடக்கம்: பல்வேறு நிகழ்ச்சிகளுக்கு ஏற்பாடு"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/man-slits-his-own-throat-on-police-station-premises-causing-a-stir": {
+   "at": "2026-11-13T07:00:10.651359+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "காவல் நிலைய வளாகத்தில் கழுத்தை அறுத்துக் கொண்டவரால் பரபரப்பு"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/power-outage-today-inthanganagar-and-balakrishnampatti-areas": {
+   "at": "2026-11-13T07:00:10.651359+05:30",
+   "power_cut": true,
+   "why": "",
+   "title": "தங்கநகா், பாலகிருஷ்ணம்பட்டி பகுதிகளில் இன்று மின்தடை"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-news/5-trapped-in-electric-lift-at-collector-s-office/4374572": {
+   "at": "2026-11-13T07:00:10.651359+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "கலெக்டர் ஆபீசில் மின்தடை லிப்டில் சிக்கி 5 பேர் தவிப்பு"
   }
  },
  "done": {
@@ -403,6 +439,14 @@
    "published": "2026-11-10T19:07:00.000Z",
    "cut_day": "2026-11-12",
    "at": "2026-11-12T20:46:03.130741+05:30"
+  },
+  "C382fa65": {
+   "id": "C382fa65",
+   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/power-outage-today-inthanganagar-and-balakrishnampatti-areas",
+   "title": "தங்கநகா், பாலகிருஷ்ணம்பட்டி பகுதிகளில் இன்று மின்தடை",
+   "published": "2026-11-12T21:09:51.312Z",
+   "cut_day": "2026-11-13",
+   "at": "2026-11-13T07:00:10.651359+05:30"
   }
  },
  "retried": {},

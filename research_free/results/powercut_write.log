@@ -2,3 +2,182 @@ bridge 'recent' failed: {'ok': False, 'error': "TypeError: Cannot read propertie
 writer exit 1 (try 1)
 bridge 'recent' failed: {'ok': False, 'error': "TypeError: Cannot read properties of null (reading 'getLastRow')"}
 writer exit 1 (try 2)
+writing [N]: தங்கநகா், பாலகிருஷ்ணம்பட்டி
+பகுதிகளில் இன்று மின்தடை
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.6-flash: Expecting ',' delimiter: line 49 column 3 (char 1465)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.5-flash
+fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3-flash-preview
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+ok groq/qwen/qwen3.8-27b (4s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m5
+ok groq/openai/gpt-oss-120b (4s)
+factcheck by groq/openai/gpt-oss-120b: 1 problems
+  Place name 'தங்கநகர்' used in headline, reel script, slides and caption does not match the article (article mentions 'தங்கநகா்')
+attempt 1 groq/qwen/qwen3.8-27b: 1 problems
+  fact-check: Place name 'தங்கநகர்' used in headline, reel script, slides and caption does not match the article (article mentions 'தங்கநகா்')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_gener
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+ok groq/qwen/qwen3.8-27b (5s)
+attempt 2 groq/qwen/qwen3.8-27b: 39 problems
+  numbers not found in the article: 23
+  stray Tamil sign '்' after 'ா' in «ங்கநகா் மற»
+  stray Tamil sign 'ா' after 'ூ' in «ிருமனூா், »
+  stray Tamil sign '்' after 'ா' in «ருமனூா், ப»
+  stray Tamil sign 'ா' after 'ூ' in «ுநாவலூா், »
+  stray Tamil sign '்' after 'ா' in «நாவலூா், ர»
+  stray Tamil sign 'ா' after 'ா' in «ட்டியாா்பட»
+  stray Tamil sign '்' after 'ா' in «்டியாா்பட்»
+  stray Tamil sign 'ா' after 'ூ' in «் புதூா், »
+  stray Tamil sign '்' after 'ா' in « புதூா், எ»
+  stray Tamil sign '்' after 'ா' in «. பாதா்பேட»
+  stray Tamil sign 'ா' after 'ஆ' in «்டை, ஆா்.க»
+  stray Tamil sign '்' after 'ா' in «டை, ஆா்.கோ»
+  stray Tamil sign 'ா' after 'ூ' in «மேட்டூா், »
+  stray Tamil sign '்' after 'ா' in «ேட்டூா், க»
+  stray Tamil sign 'ா' after 'ூ' in «ே.புதூா், »
+  stray Tamil sign '்' after 'ா' in «.புதூா், ம»
+  stray Tamil sign '்' after 'ா' in «றியாளா் பொ»
+  stray Tamil sign 'ா' after 'ா' in «்தகுமாா் இ»
+  stray Tamil sign '்' after 'ா' in «தகுமாா் இந»
+  stray Tamil sign '்' after 'ா' in «ங்கநகா் மற»
+  stray Tamil sign 'ா' after 'ூ' in «ிருமனூா், »
+  stray Tamil sign '்' after 'ா' in «ருமனூா், ப»
+  stray Tamil sign 'ா' after 'ூ' in «ுநாவலூா், »
+  stray Tamil sign '்' after 'ா' in «நாவலூா், ர»
+  stray Tamil sign 'ா' after 'ா' in «ட்டியாா்பட»
+  stray Tamil sign '்' after 'ா' in «்டியாா்பட்»
+  stray Tamil sign 'ா' after 'ூ' in «்.புதூா், »
+  stray Tamil sign '்' after 'ா' in «.புதூா், எ»
+  stray Tamil sign '்' after 'ா' in «. பாதா்பேட»
+  stray Tamil sign 'ா' after 'ஆ' in «்டை, ஆா்.க»
+  stray Tamil sign '்' after 'ா' in «டை, ஆா்.கோ»
+  stray Tamil sign 'ா' after 'ூ' in «மேட்டூா், »
+  stray Tamil sign '்' after 'ா' in «ேட்டூா், க»
+  stray Tamil sign 'ா' after 'ூ' in «ே.புதூா், »
+  stray Tamil sign '்' after 'ா' in «.புதூா், ம»
+  stray Tamil sign '்' after 'ா' in «றியாளா் பொ»
+  stray Tamil sign 'ா' after 'ா' in «்தகுமாா் இ»
+  stray Tamil sign '்' after 'ா' in «தகுமாா் இந»
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m5
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
+free models unavailable: no free model answered: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-
+ok anthropic/claude-haiku-5-5
+claude rewrite 1 anthropic/claude-haiku-5-5: 47 problems
+  hl1 (the first headline on screen) must name the place 'துறையூர்', e.g. 'துறையூர்: ...' or 'துறையூர்-இல் ...' - viewers share news of their own area
+  stray Tamil sign '்' after 'ா' in «ங்கநகா், ப»
+  stray Tamil sign '்' after 'ா' in «ங்கநகா், ப»
+  stray Tamil sign 'ா' after 'ூ' in «ிருமனூா், »
+  stray Tamil sign '்' after 'ா' in «ருமனூா், ப»
+  stray Tamil sign 'ா' after 'ூ' in «ுநாவலூா், »
+  stray Tamil sign '்' after 'ா' in «நாவலூா், ர»
+  stray Tamil sign 'ா' after 'ா' in «ட்டியாா்பட»
+  stray Tamil sign '்' after 'ா' in «்டியாா்பட்»
+  stray Tamil sign 'ா' after 'ூ' in «் புதூா், »
+  stray Tamil sign '்' after 'ா' in « புதூா், எ»
+  stray Tamil sign '்' after 'ா' in «. பாதா்பேட»
+  stray Tamil sign 'ா' after 'ஆ' in «்டை, ஆா்.க»
+  stray Tamil sign '்' after 'ா' in «டை, ஆா்.கோ»
+  stray Tamil sign '்' after 'ூ' in «மேட்டூ், க»
+  stray Tamil sign 'ா' after 'ூ' in «ே.புதூா், »
+  stray Tamil sign '்' after 'ா' in «.புதூா், ம»
+  stray Tamil sign 'ா' after 'ூ' in «துறையூா் ம»
+  stray Tamil sign '்' after 'ா' in «ுறையூா் மி»
+  stray Tamil sign '்' after 'ா' in «றியாளா் பொ»
+  stray Tamil sign 'ா' after 'ா' in «்தகுமாா் த»
+  stray Tamil sign '்' after 'ா' in «தகுமாா் தெ»
+  stray Tamil sign 'ா' after 'ா' in «துள்ளாா். »
+  stray Tamil sign '்' after 'ா' in «ுள்ளாா். ம»
+  stray Tamil sign '்' after 'ா' in «ங்கநகா், ப»
+  stray Tamil sign 'ா' after 'ூ' in «துறையூா் ம»
+  stray Tamil sign '்' after 'ா' in «ுறையூா் மி»
+  stray Tamil sign '்' after 'ா' in «ங்கநகா், ப»
+  stray Tamil sign 'ா' after 'ூ' in «ிருமனூா், »
+  stray Tamil sign '்' after 'ா' in «ருமனூா், ப»
+  stray Tamil sign 'ா' after 'ூ' in «ுநாவலூா், »
+  stray Tamil sign '்' after 'ா' in «நாவலூா், ர»
+  stray Tamil sign 'ா' after 'ா' in «ட்டியாா்பட»
+  stray Tamil sign '்' after 'ா' in «்டியாா்பட்»
+  stray Tamil sign 'ா' after 'ூ' in «்.புதூா், »
+  stray Tamil sign '்' after 'ா' in «.புதூா், எ»
+  stray Tamil sign '்' after 'ா' in «. பாதா்பேட»
+  stray Tamil sign 'ா' after 'ஆ' in «்டை, ஆா்.க»
+  stray Tamil sign '்' after 'ா' in «டை, ஆா்.கோ»
+  stray Tamil sign '்' after 'ூ' in «மேட்டூ், க»
+  stray Tamil sign 'ா' after 'ூ' in «ே.புதூா், »
+  stray Tamil sign '்' after 'ா' in «.புதூா், ம»
+  stray Tamil sign 'ா' after 'ூ' in «துறையூா் ம»
+  stray Tamil sign '்' after 'ா' in «ுறையூா் மி»
+  stray Tamil sign '்' after 'ா' in «றியாளா் பொ»
+  stray Tamil sign 'ா' after 'ா' in «்தகுமாா்
+
+»
+  stray Tamil sign '்' after 'ா' in «தகுமாா்
+
+T»
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m5
+free fact-check unavailable, using Claude: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model 
+ok anthropic/claude-haiku-5-5
+factcheck by anthropic/claude-haiku-5-5: 5 problems
+  The draft says the power cut is 'நாளை' (tomorrow) and gives the date as 'நவம்பர் 13ஆம் தேதி வெள்ளிக்கிழமை'. The article only says the maintenance is on Friday and gives the headline 'இன்று' (today); the date 13 November and the 'tomorrow' framing are not stated in the article.
+  The article's headline says the power cut is 'இன்று' (today), while the draft's headline, reel_script, slides and caption all say 'நாளை' (tomorrow), contradicting the article's timing.
+  The reel_script lists 'எ. பாதா்பேட்டை' as 'பாதர்பேட்டை' and drops the 'எ.' prefix; the article's area is 'எ. பாதா்பேட்டை', so the place name is altered.
+  The slides_spec lists areas that are missing 'வைரபெருமாள்பட்டி' and 'கல்லாங்குத்து' and similar omissions; the slide 'எந்தப் பகுதிகள்?' also omits many listed areas, which is acceptable as a summary, but the slide text 'மாராடி' is placed under a list that mixes unrelated groups, not a factual error by itself.
+  The draft adds the advice to prepare water and mobile charging in advance, which is not stated in the article.
+claude rewrite 2 anthropic/claude-haiku-5-5: 5 problems
+  fact-check: The draft says the power cut is 'நாளை' (tomorrow) and gives the date as 'நவம்பர் 13ஆம் தேதி வெள்ளிக்கிழமை'. The article only says the maintenance is on Friday and gives the headline 'இன்று' (today); the date 13 November and the 'tomorrow' framing are not stated in the article.
+  fact-check: The article's headline says the power cut is 'இன்று' (today), while the draft's headline, reel_script, slides and caption all say 'நாளை' (tomorrow), contradicting the article's timing.
+  fact-check: The reel_script lists 'எ. பாதா்பேட்டை' as 'பாதர்பேட்டை' and drops the 'எ.' prefix; the article's area is 'எ. பாதா்பேட்டை', so the place name is altered.
+  fact-check: The slides_spec lists areas that are missing 'வைரபெருமாள்பட்டி' and 'கல்லாங்குத்து' and similar omissions; the slide 'எந்தப் பகுதிகள்?' also omits many listed areas, which is acceptable as a summary, but the slide text 'மாராடி' is placed under a list that mixes unrelated groups, not a factual error by itself.
+  fact-check: The draft adds the advice to prepare water and mobile charging in advance, which is not stated in the article.
+ok anthropic/claude-haiku-5-5
+claude rewrite 3 anthropic/claude-haiku-5-5: 1 problems
+  sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m5
+proofread skipped: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m5enxj94ehaa58b82eyehvhp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1616. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m5
+ok anthropic/claude-haiku-5-5
+real photo skipped (photo uploaded 2026-01-31 (older than the news)): https://media.dinamani.com/dinamani/2026-01-31/t14nmocl/%E0%AE%AE%E0%AE%BF%E0%AE%A9%E0%AF%
+real photo skipped (photo uploaded 2026-01-31 (older than the news)): https://media.dinamani.com/dinamani/2026-01-31/t14nmocl/மின்தடை?w=1200&h=675&auto=format%2
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+image match check unavailable: gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout
+images made: 1 for 'Power cut today in ThangANagar and Balak'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261113-0706","first":"RN-1"}
+posting job started at once
+earlier stories still waiting for images: []
+instagram check: 0 recent posts read from the page
+pick round: only the picked links are written (research_free/pick.py)
+manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/power-outage-today-inthanganagar-and-balakrishnampatti-areas
+candidate filter: collected=1
+to write: 1 Trichy district candidates (max 1 stories)
+round: top 1 of 1 candidates
+candidates waiting: 1 Trichy; time left 39 min
+try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 1})
+posting job started at once
+candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 35 min
+filed: 1 Trichy district stories (target 1), reels only
+queue: 0 news waiting to be written
+All News sheet: {"ok":true,"added":1,"updated":0} 
+stories: 1
