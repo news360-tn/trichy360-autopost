@@ -81,6 +81,9 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-13 | `9279103` | collection every 4 hours (01/05/09/13/17/21 IST, 3 news each = 18 a day, was 12); posting waits for its start 08:00 / 12:00 / 18:00 then all news posts - no end time, nothing skipped; only power cuts at once; today's and yesterday's news (night news posts at 08:00). Power cuts: also the daily state-wide lists (News18 / ABP / Samayam) - this district's part only (owner 13 Nov) |
+| 2026-11-13 | `0445f3f` | powercut: notices written |
+| 2026-11-13 | `af5da22` | powercut: notices written |
 | 2026-11-13 | `20ff16d` | evening round 19:00 -> 17:00 IST (evening posts got far fewer views). Reel: spoken sentence 1 names the town and states the news (no question / teaser). ABP / Samayam named as sources (owner 13 Nov) |
 | 2026-11-13 | `48b3ff1` | power cut: a notice filed under another district's page is refused unless its headline names this district (13 Nov: Trichy took Coimbatore's Peelamedu cut - its text named a Trichy word) |
 | 2026-11-13 | `d4fdbcd` | powercut: notices written |
@@ -108,7 +111,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-13 | `35a0f81` | pick: picked news saved |
 | 2026-11-13 | `9d5e9b3` | pick: picked news saved |
 | 2026-11-13 | `ceee0e4` | pick: list sent |
-| 2026-11-13 | `d13fa35` | powercut: notices written |
-| 2026-11-12 | `7049695` | powercut: notices written |
-| 2026-11-12 | `8462fc7` | voice: numbers read the way people say them - English names in English (பிளஸ் டூ, குரூப் ஃபோர், டி ட்வென்டி, ஃபைவ் ஜி), endings joined (நாற்பதுக்கும், ...ஒன்றில், ரூபாய்க்கு), நெ. -> எண் |
 <!-- recent-changes:end -->
