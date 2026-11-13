@@ -16,7 +16,8 @@
     "https://www.dinamalar.com/news/tamil-nadu-news/man-stabbed-to-death-at-police-station-gate/4374557"
    ],
    "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T07:13:58.693583+05:30"
+   "picked_at": "2026-11-13T07:13:58.693583+05:30",
+   "posted": true
   },
   "C6fd5c8e": {
    "id": "C6fd5c8e",
@@ -29,7 +30,8 @@
    "score": 11.2,
    "power_cut": false,
    "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T07:13:58.693589+05:30"
+   "picked_at": "2026-11-13T07:13:58.693589+05:30",
+   "posted": true
   },
   "C244ddd5": {
    "id": "C244ddd5",
@@ -42,7 +44,8 @@
    "score": 10.0,
    "power_cut": false,
    "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T07:13:58.693594+05:30"
+   "picked_at": "2026-11-13T07:13:58.693594+05:30",
+   "posted": true
   },
   "Cb700483": {
    "id": "Cb700483",
@@ -55,7 +58,8 @@
    "score": 10.0,
    "power_cut": false,
    "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T07:13:58.693597+05:30"
+   "picked_at": "2026-11-13T07:13:58.693597+05:30",
+   "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
   },
   "Cbd6f19f": {
    "id": "Cbd6f19f",
@@ -195,7 +199,10 @@
     "C6fd5c8e",
     "Cb700483",
     "Ce72deba"
-   ]
+   ],
+   "refused": {
+    "Cb700483": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
+   }
   }
  },
  "retry": {}
