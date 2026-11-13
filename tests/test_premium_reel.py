@@ -20,9 +20,10 @@ def spec(**kw):
 
 @unittest.skipIf(reel4 is None, "reel4 needs playwright")
 class PremiumReel(unittest.TestCase):
-    def test_new_pages_use_the_premium_look(self):
-        self.assertEqual(json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["reel_style"], "P")
-        self.assertEqual(reel4.reel_style({}), "P")
+    def test_page_uses_the_namakkal_design(self):
+        """owner 13 Nov 23:10: every page uses the Namakkal 360 design (look A); the premium look P stays in the code, switched off"""
+        self.assertEqual(json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["reel_style"], "A")
+        self.assertEqual(reel4.reel_style({}), "A")
         deps = json.loads((ROOT / "kit" / "package.json").read_text(encoding="utf-8"))["dependencies"]
         self.assertIn("@fontsource-variable/anek-tamil", deps)
         self.assertIn("@fontsource/noto-serif-tamil", deps)

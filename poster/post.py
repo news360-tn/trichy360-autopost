@@ -846,7 +846,7 @@ def upload(path, kind):
 def cache_key(row, spec, caption):
     import hashlib
     raw = json.dumps([row.get("reel_script"), row.get("slides_spec"), caption, row.get("images"), spec.get("date"), row.get("post_to")]
-                     + ["reel-r5"], ensure_ascii=False)      # r2 (27 Oct): reels built before the <b>-tag fix are made again
+                     + ["reel-r6"], ensure_ascii=False)      # r6 (13 Nov 23:10): waiting premium-look reels are made again in the Namakkal design      # r2 (27 Oct): reels built before the <b>-tag fix are made again
     return hashlib.sha1(raw.encode()).hexdigest()[:16]
 
 
