@@ -1,295 +1,298 @@
 {
  "log": [
   "earlier stories still waiting for images: []",
-  "instagram check: 4 recent posts read from the page",
+  "instagram check: 7 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/holy-cross-girls-school-selected-for-the-state-level-south-indian-science-drama-festival-competition",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/road-workers-novel-form-of-protest",
-  "manual link added: https://www.hindutamil.in/news/crime/prisoner-escaped-after-verdict",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-district-news-chennai/irctc-special-tour-from-chennai-trichy/4374547",
-  "candidate filter: collected=4",
-  "to write: 4 Trichy district candidates (max 4 stories)",
-  "round: top 4 of 4 candidates",
-  "candidates waiting: 4 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-district-news-chen",
-  "try (N) manual=True: https://www.hindutamil.in/news/crime/prisoner-escaped-after-",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "NOT filed (N) கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய : not Trichy district news (the story's first lines name another place and no Trichy place)",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'fal-ai/flux/schnell': 1})",
+  "manual link added: https://www.dailythanthi.com/news/tamilnadu/trichy-tragedy-of-having-to-carry-a-body-down-a-canal-due-to-lack-of-a-bridge",
+  "manual link added: https://www.hindutamil.in/news/tamilnadu/minister-ramesh-press-meet-in-trichy-2",
+  "manual link added: https://www.dailythanthi.com/amp/story/news/tamilnadu/new-high-level-bridge-across-the-kudamurutti-river-at-a-cost-of-rs-25-crore-durai-vaiko-submits-request-to-minister-adhav-arjuna",
+  "candidate filter: collected=3",
+  "to write: 3 Trichy district candidates (max 3 stories)",
+  "round: top 3 of 3 candidates",
+  "candidates waiting: 3 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dailythanthi.com/amp/story/news/tamilnadu/new-hi",
+  "try (N) manual=True: https://www.hindutamil.in/news/tamilnadu/minister-ramesh-pre",
+  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/trichy-tragedy-o",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "auto images: 1 of 1 stories ({'fal-ai/flux/schnell': 2})",
-  "auto images: 1 of 1 stories ({'fal-ai/flux/schnell': 3})",
-  "candidate loop ended: left 0, tried={'N': 4}, done={'N': 3}, time left 73 min",
-  "filed: 3 Trichy district stories (target 4), reels only",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 9})",
+  "candidate loop ended: left 0, tried={'N': 3}, done={'N': 3}, time left 74 min",
+  "filed: 3 Trichy district stories (target 3), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":4,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":3,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "ok gemini/gemini-3.6-flash (15s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (17s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (10s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (32s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (19s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (15s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (26s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (4s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "ok gemini/gemini-3.6-flash (25s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (21s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "ok gemini/gemini-3.6-flash (16s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (17s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
+  "ok gemini/gemini-3.5-flash (12s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "ok gemini/gemini-3.6-flash (23s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "ok gemini/gemini-3.6-flash (28s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (9s)",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing ",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing ",
+  "ok gemini/gemini-3-flash-preview (13s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "dead for this round: gemini/gemini-3-flash-preview",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "dead for this round: groq/openai/gpt-oss-120b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "dead for this round: groq/qwen/qwen3.8-27b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok gemini/gemini-3-flash-preview (12s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
   "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
+  "ok gemini/gemini-3-flash-preview (14s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "ok groq/qwen/qwen3.8-27b (4s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "திருச்சியில் சாலைப் பணியாளர்கள் நூதன போராட்டம்: பணிநீக்க காலத்தை பணிக்காலமாக மாற்ற கோரிக்கை",
-   "english_headline": "Road workers in Trichy protest with blindfolds and scales of justice, demanding their 41-month dismissal period be regularised as service",
-   "category": "Government & Services",
-   "location": "Trichy, Trichy district",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "போராட்டம்",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சியில் சாலைப் பணியாளர்கள் நூதன",
-    "hl2": "41 மாத பணிநீக்க காலம்",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "திருச்சியில் நெடுஞ்சாலைத் துறை சாலைப் பணியாளர் சங்கத்தினர்",
-       "கண்களில் கறுப்புத் துணி கட்டி, கைகளில் நீதி தராசு ஏந்தினர்",
-       "நெடுஞ்சாலைத் துறை கண்காணிப்பு பொறியாளர் அலுவலகம் முன்"
-      ]
-     },
-     {
-      "title": "முக்கியக் கோரிக்கை",
-      "lines": [
-       "41 மாத பணிநீக்க காலத்தை பணிக்காலமாக முறைப்படுத்த வேண்டும்",
-       "சென்னை உயர்நீதிமன்ற உத்தரவுக்குப் பிறகும் இன்னும்",
-       "தமிழக அரசு விரைந்து முடிவெடுக்க வேண்டும்"
-      ]
-     },
-     {
-      "title": "பிற கோரிக்கைகள்",
-      "lines": [
-       "மாநில நெடுஞ்சாலைத் துறை ஆணையத்தைக் கலைக்க வேண்டும்",
-       "நெடுஞ்சாலை பராமரிப்புப் பணிகளை தனியாரிடம் வழங்கும்",
-       "மாநிலச் செயலர் ஆர். இளங்கோவன் சிறப்புரையாற்றினார்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சியில் சாலைப் பணியாளர்கள் நூதன முறையில் போராட்டம் நடத்தினர். வியாழக்கிழமை நெடுஞ்சாலைத் துறை கண்காணிப்பு பொறியாளர் அலுவலகம் முன் இந்தப் போராட்டம் நடைபெற்றது. போராட்டக்காரர்கள் கண்களில் கறுப்புத் துணி கட்டி, கைகளில் நீதி தராசு ஏந்தியிருந்தனர். 41 மாத பணிநீக்க காலத்தை இன்னும் பணிக்காலமாக முறைப்படுத்தவில்லை என்பது முக்கியக் கோரிக்கை. சென்னை உயர்நீதிமன்றம் உத்தரவிட்ட பிறகும் இந்தக் காலம் முறைப்படுத்தப்படவில்லை. தமிழக அரசு விரைந்து முடிவெடுக்க வேண்டும் என்று வலியுறுத்தப்பட்டது. மாநில நெடுஞ்சாலைத் துறை ஆணையத்தைக் கலைக்க வேண்டும் என்பதும் கோரிக்கையாக இருந்தது. நெடுஞ்சாலைப் பராமரிப்புப் பணிகளைத் தனியாரிடம் வழங்கும் நடவடிக்கையைக் கைவிட வேண்டும் என்றும் கோரினர். மாநிலச் செயலர் ஆர். இளங்கோவன் சிறப்புரையாற்றினார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "✊ திருச்சியில் சாலைப் பணியாளர்கள் நூதன போராட்டம்\n\n📰 முழு விவரம்:\nவியாழக்கிழமை திருச்சியில் நெடுஞ்சாலைத் துறை சாலைப் பணியாளர் சங்கத்தினர் போராட்டம் நடத்தினர். நெடுஞ்சாலைத் துறை கண்காணிப்பு பொறியாளர் அலுவலகம் முன் நடைபெற்ற இந்தப் போராட்டத்தில் கண்களில் கறுப்புத் துணி கட்டி, கைகளில் நீதி தராசு ஏந்தினர்.\n41 மாத பணிநீக்க காலத்தை பணிக்காலமாக முறைப்படுத்த வேண்டும் என்பது முக்கியக் கோரிக்கை. சென்னை உயர்நீதிமன்றம் உத்தரவிட்ட பிறகும் இன்னும் முறைப்படுத்தப்படவில்லை.\nமாநில நெடுஞ்சாலைத் துறை ஆணையத்தைக் கலைக்க வேண்டும்; நெடுஞ்சாலைப் பராமரிப்புப் பணிகளை தனியாரிடம் வழங்கும் நடவடிக்கையைக் கைவிட வேண்டும் என்றும் வலியுறுத்தப்பட்டது.\nமாவட்டத் தலைவர்கள் ஜீவானந்தம், திரவியம், செவந்திலிங்கம் தலைமை வகித்தனர். மாநிலச் செயலர் ஆர். இளங்கோவன் சிறப்புரையாற்றினார்.\n\nRoad workers protest in Trichy over 41-month dismissal period | Trichy news\n📍 திருச்சி, திருச்சி மாவட்டம் | 13 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
-   "prompts": "Men in plain shirts and veshti stand in a row in front of a government office building in Trichy, the Highways Department monitoring engineer's office, with black cloth tied over their eyes and balance scales held up in their raised hands. A banner-less but organised crowd of road workers fills the front of the compound, some seated on plastic chairs, others standing close together under the bright daylight of a Thursday morning. Several men wear white shirts with veshti, a few in full-sleeved shirts and trousers, and a few older members in towels on their shoulders. Behind them stand a concrete office block with tiled steps, a tall tree and a parked two-wheeler at the gate, and a line of black tarmac road with an autorickshaw passing at the edge of the frame. Camera at eye level, 35 mm, wide enough to show the whole crowd, the office building and the road, capturing the scales raised high against a clear sky. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/road-workers-novel-form-of-protest",
-   "published": "2026-11-12T21:05:55.515Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 0 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/bgk9wm1u/image/upload/v1794548248/trichy360/fkliaisf3gnke9dmmjfb.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி. சிறப்பு சுற்றுலா அறிவிப்பு",
-   "english_headline": "IRCTC announces special tours from Chennai and Trichy, including Sri Lanka and Himachal trips",
-   "category": "Roads & Transport",
-   "location": "Chennai and Trichy, Trichy district",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "சுற்றுலா அறிவிப்பு",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சியில் இருந்து சிறப்பு சுற்றுலா",
-    "hl2": "ஐ.ஆர்.சி.டி.சி. அறிவிப்பு",
-    "slides": [
-     {
-      "title": "என்ன அறிவிப்பு?",
-      "lines": [
-       "ஐ.ஆர்.சி.டி.சி. சென்னை, திருச்சியில் இருந்து சிறப்பு",
-       "உள்நாடு, வெளிநாட்டுப் பயணத் திட்டங்கள்",
-       "இணையதளம்: www.irctctourism.com"
-      ]
-     },
-     {
-      "title": "வெளிநாட்டுப் பயணம்",
-      "lines": [
-       "இலங்கை ராமாயண யாத்திரை, கொழும்பு முதல் நுவரெலியா வரை",
-       "<b>ஆறு நாள்</b> விமான சுற்றுலா, <b>டிசம்பர் 10</b>ம் தேதி",
-       "கட்டணம் <b>ரூ.67,850</b>"
-      ]
-     },
-     {
-      "title": "உள்நாட்டுப்",
-      "lines": [
-       "ஹிமாச்சல பிரதேசம்: சிம்லா, மணாலி, சண்டிகர், <b>ஏழு",
-       "ஒடிசா மணற்சிற்ப கலைத் திருவிழா, ஆறு நாள், <b>30</b>ம் தேதி",
-       "கொல்கட்டா, சுந்தரவனக் காடுகள், ஆறு நாள், டிசம்பர் 18ம்"
-      ]
-     },
-     {
-      "title": "வார சுற்றுலா",
-      "lines": [
-       "சென்னையில் உறுதி செய்த ரயில் பயணச்சீட்டுடன் வாரந்தோறும்",
-       "புதன்: ஷீரடி; வியாழன்: ஊட்டி மலை ரயில்",
-       "முன்பதிவு: www.irctctourism.com"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "சென்னை, திருச்சியில் இருந்து ஐ ஆர் சி டி சி சிறப்பு சுற்றுலா அறிவிக்கப்பட்டுள்ளது. இந்திய ரயில்வே உணவு மற்றும் சுற்றுலா கழகம் இந்த பயணத் திட்டங்களை அறிவித்துள்ளது. இலங்கை ராமாயண யாத்திரையில் கொழும்பு முதல் நுவரெலியா வரை ஆறு நாள் விமான சுற்றுலா டிசம்பர் 10ம் தேதி தொடங்குகிறது. கட்டணம் 67,850 ரூபாய். ஹிமாச்சல பிரதேசத்துக்கு ஏழு நாள் விமான சுற்றுலா 26ம் தேதி தொடங்குகிறது. சிம்லா, மணாலி, சண்டிகர் ஆகிய இடங்களுக்குச் செல்லலாம். கட்டணம் 54,800 ரூபாய். ஒடிசா மணற்சிற்ப கலைத் திருவிழா ஆறு நாள் பயணம் 30ம் தேதி தொடங்குகிறது. கட்டணம் 43,100 ரூபாய். கொல்கத்தா மற்றும் சுந்தரவனக் காடுகள் ஆறு நாள் சுற்றுலா டிசம்பர் 18ம் தேதி தொடங்குகிறது. கட்டணம் 39,900 ரூபாய். சென்னையில் உறுதி செய்யப்பட்ட ரயில் பயணச்சீட்டுடன் வாரந்தோறும் சிறப்பு சுற்றுலா அறிமுகம் செய்யப்படுகிறது. புதன்கிழமை ஷீரடி, வியாழன்தோறும் ஊட்டி மலை ரயில் சுற்றுலா மற்றும் கன்னியாகுமரி, திருச்செந்தூர், ராமேஸ்வரம், மதுரை சுற்றுலா. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚆 சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி. சிறப்பு சுற்றுலா அறிவிப்பு\n\n📰 முழு விவரம்:\nஇந்திய ரயில்வே உணவு மற்றும் சுற்றுலா கழகம் (ஐ.ஆர்.சி.டி.சி.) சென்னை, திருச்சியில் இருந்து பல்வேறு உள்நாடு, வெளிநாட்டு சிறப்பு பயணத் திட்டங்களை அறிவித்துள்ளது.\nஇலங்கை ராமாயண யாத்திரை: கொழும்பு முதல் நுவரெலியா வரை ஆறு நாள் விமான சுற்றுலா, டிசம்பர் 10ம் தேதி. கட்டணம் ரூ.67,850.\nஹிமாச்சல பிரதேசம்: சிம்லா, மணாலி, சண்டிகர் ஏழு நாள் விமான சுற்றுலா, 26ம் தேதி. கட்டணம் ரூ.54,800.\nஒடிசா மணற்சிற்ப கலைத் திருவிழா: ஆறு நாள் பயணம், 30ம் தேதி. கட்டணம் ரூ.43,100.\nகொல்கத்தா மற்றும் சுந்தரவனக் காடுகள்: ஆறு நாள் சுற்றுலா, டிசம்பர் 18ம் தேதி. கட்டணம் ரூ.39,900.\nசென்னையில் உறுதி செய்யப்பட்ட ரயில் பயணச்சீட்டுடன் வாரந்தோறும் சிறப்பு சுற்றுலா அறிமுகம்: புதன்கிழமை ஷீரடி; வியாழன்தோறும் ஊட்டி மலை ரயில் சுற்றுலா மற்றும் கன்னியாகுமரி–திருச்செந்தூர்–ராமேஸ்வரம்–மதுரை சுற்றுலா.\n\n🌐 முன்பதிவு: www.irctctourism.com\nℹ️ மக்கள் கவனத்திற்கு: பயணத்துக்கு இணையதளத்தில் முன்பதிவு செய்யலாம்.\n\nIRCTC special tours from Chennai and Trichy | Trichy news\n📍 சென்னை, திருச்சி | 12 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #TamilNadu",
-   "prompts": "A group of travellers with suitcases and backpacks walks along the platform at Trichy Junction railway station toward a waiting long passenger train, with a pair of women in sarees and a family with children seen from behind as they board. The setting is a busy railway platform in Trichy city, with iron pillars, a station roof, and other passengers around. Several tourists carry bags and rolled travel gear, and a few hold printed ticket slips in their hands. Vehicles visible include the train with its carriages and an autorickshaw waiting outside the station gate. The scene is bright daylight with soft sun through the station roof. Camera at eye level, 35 mm, wide enough to show the platform and train. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-district-news-chennai/irctc-special-tour-from-chennai-trichy/4374547",
-   "published": "2026-11-12T21:52:50+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: source/outlet name or link appears: www.",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/bgk9wm1u/image/upload/v1794548257/trichy360/rnqwscuagcs4ncgdf0uc.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சி: தென்னிந்திய அறிவியல் நாடக விழா மாநிலப் போட்டிக்கு புனித சிலுவை பெண்கள் பள்ளி தேர்வு",
-   "english_headline": "St. Cross Girls' school, Theppakulam, Trichy, qualifies for the state-level South Indian science drama festival",
-   "category": "Education",
-   "location": "Theppakulam, Trichy city, Trichy district",
-   "importance": "Medium",
+   "tamil_headline": "திருவெறும்பூர் அருகே பாலம் இல்லாததால் வாய்க்காலில் இறங்கி சடலத்தைச் சுமந்து சென்ற அவலம்: பொதுமக்கள் கோரிக்கை",
+   "english_headline": "Lack of bridge across Thattankulam canal near Thiruverumbur forces residents to wade through water carrying deceased person's body",
+   "category": "Civic Issues",
+   "location": "Thiruverumbur, Trichy district",
+   "importance": "High",
    "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "கல்வி",
-    "loc": "தெப்பக்குளம், திருச்சி",
-    "hl1": "தெப்பக்குளம் பள்ளி",
-    "hl2": "தென்னிந்திய அறிவியல் நாடக",
+    "cat": "அடிப்படை வசதி",
+    "loc": "திருவெறும்பூர், திருச்சி",
+    "hl1": "திருவெறும்பூரில் பாலம் இல்லை",
+    "hl2": "வாய்க்காலில் சுமந்த சோகம்",
     "slides": [
      {
-      "title": "என்ன வெற்றி?",
+      "title": "என்ன நடந்தது?",
       "lines": [
-       "தெப்பக்குளம் புனித சிலுவை மேல்நிலைப் பள்ளி <b>முதலிடம்</b>",
-       "திருச்சி எல்என்பி பள்ளியில் நடந்த வருவாய் மாவட்ட போட்டி",
-       "இதற்காக மாநில அளவிலான போட்டிக்குத் தேர்வு"
+       "திருவெறும்பூர் அருகே தட்டான்குளம் வாய்க்கால் உள்ளது",
+       "இங்கு வாய்க்காலைக் கடக்க பாலம் வசதி இல்லை",
+       "மயானத்திற்குச் செல்ல பொதுமக்கள் கடும் சிரமப்படுகின்றனர்"
       ]
      },
      {
-      "title": "போட்டி விவரம்",
+      "title": "துயர சம்பவம்",
       "lines": [
-       "6 முதல் 10ஆம் வகுப்பு மாணவர்களுக்கான போட்டி",
-       "வருவாய் மாவட்ட அளவில் <b>11 அணிகள்</b> தேர்வு",
-       "ஒவ்வொரு அணியிலும் <b>8 பேர்</b> இடம்பெற்றனர்"
+       "அப்பகுதியைச் சேர்ந்த <b>ராஜசேகரன்</b> உயிரிழந்தார்",
+       "சடலத்தை அடக்கம் செய்ய மயானத்திற்கு எடுத்துச் சென்றனர்",
+       "வேறு வழியின்றி தண்ணீரில் இறங்கிச் சுமந்து சென்றனர்"
       ]
      },
      {
-      "title": "அடுத்து என்ன?",
+      "title": "மக்கள் கோரிக்கை",
       "lines": [
-       "மாநிலப் போட்டி கள்ளக்குறிச்சியில் வெள்ளிக்கிழமை நடைபெறும்",
-       "மாநிலப் போட்டியில் <b>38 அணிகள்</b> பங்கேற்கும்",
-       "முதல் இரண்டு இடங்கள் பெங்களூரில் தென்னிந்திய"
-      ]
-     },
-     {
-      "title": "மற்ற இடங்கள்",
-      "lines": [
-       "கே. வளையப்பட்டி நடுநிலைப் பள்ளி <b>இரண்டாமிடம்</b>",
-       "மண்ணச்சநல்லூர் அரசு மாதிரி பெண்கள் மேல்நிலைப் பள்ளி",
-       "பள்ளிக் கல்வித் துறை அதிகாரிகள் தகவல்"
+       "இறந்த பிறகும் துயரம் தொடர்வதாக பொதுமக்கள் வேதனை",
+       "தட்டான்குளம் வாய்க்காலில் பாலம் அமைக்க வேண்டும்",
+       "அதிகாரிகள் உடனடியாக நடவடிக்கை எடுக்க கோரிக்கை"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "தெப்பக்குளம் புனித சிலுவை மேல்நிலைப் பள்ளி மாநில அளவிலான போட்டிக்குத் தேர்வாகியுள்ளது. திருச்சியில் 6 முதல் 10ஆம் வகுப்பு வரை படிக்கும் பள்ளி மாணவர்களுக்கான தென்னிந்திய அறிவியல் நாடக விழா போட்டி, கல்வி மாவட்ட அளவில் அண்மையில் நடைபெற்றது. இதில் பல்வேறு அணிகள் பங்கேற்றன. வருவாய் மாவட்ட அளவிலான போட்டிக்கு 11 அணிகள் தேர்வாகின. ஒவ்வொரு அணியிலும் இயக்குநர், நடிகர்கள் மற்றும் தொழில்நுட்பக் கலைஞர்கள் என 8 பேர் இடம்பெற்றிருந்தனர். வருவாய் மாவட்ட அளவிலான போட்டி புதன்கிழமை திருச்சி எல்என்பி பள்ளியில் நடைபெற்றது. இதில் தெப்பக்குளம் புனித சிலுவை பெண்கள் மேல்நிலைப் பள்ளி முதலிடம் பிடித்தது. கே. வளையப்பட்டி ஊராட்சி ஒன்றிய நடுநிலைப் பள்ளி இரண்டாமிடத்தையும், மண்ணச்சநல்லூர் அரசு மாதிரி பெண்கள் மேல்நிலைப் பள்ளி மூன்றாமிடத்தையும் பிடித்தன. முதலிடம் பிடித்த அணி, கள்ளக்குறிச்சியில் வெள்ளிக்கிழமை நடைபெறும் மாநில அளவிலான போட்டியில் பங்கேற்கத் தேர்வு செய்யப்பட்டுள்ளது. மாநில அளவிலான போட்டியில் வருவாய் மாவட்டத்துக்கு ஒரு அணி வீதம் 38 அணிகள் பங்கேற்கும். வெற்றிபெற்று முதல் இரண்டு இடங்களைப் பிடிக்கும் அணிகள் பெங்களூரில் நடைபெறும் தென்னிந்திய அளவிலான போட்டியில் பங்கேற்கும் என பள்ளிக் கல்வித் துறை அதிகாரிகள் தெரிவித்துள்ளனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🎭 தெப்பக்குளம் பள்ளி மாநிலப் போட்டிக்குத் தேர்வு\n\n📰 முழு விவரம்:\nதென்னிந்திய அறிவியல் நாடக விழா போட்டியின் வருவாய் மாவட்ட அளவிலான போட்டியில் தெப்பக்குளம் புனித சிலுவை பெண்கள் மேல்நிலைப் பள்ளி முதலிடம் பிடித்தது. இந்தப் போட்டி திருச்சி எல்என்பி பள்ளியில் புதன்கிழமை நடைபெற்றது. இதன் மூலம் கள்ளக்குறிச்சியில் வெள்ளிக்கிழமை நடைபெறும் மாநில அளவிலான போட்டிக்குத் தேர்வாகியுள்ளது.\n📍 இடம்: தெப்பக்குளம், திருச்சி\n🏫 2ஆம் இடம்: கே. வளையப்பட்டி ஊராட்சி ஒன்றிய நடுநிலைப் பள்ளி\n🏫 3ஆம் இடம்: மண்ணச்சநல்லூர் அரசு மாதிரி பெண்கள் மேல்நிலைப் பள்ளி\nℹ️ மாநிலப் போட்டியில் வருவாய் மாவட்டத்துக்கு ஒரு அணி வீதம் 38 அணிகள் பங்கேற்கும். முதல் இரண்டு இடங்களைப் பிடிக்கும் அணிகள் பெங்களூரில் நடைபெறும் தென்னிந்திய அளவிலான போட்டியில் பங்கேற்கும்.\n\nTrichy school selected for state science drama festival | Trichy news\n📍 தெப்பக்குளம், திருச்சி | 12 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Education",
-   "prompts": "A team of schoolgirls in Tamil Nadu school uniform performs a science drama on a stage in a school auditorium in Theppakulam, Trichy, after winning the district-level South Indian Science Drama Festival. Behind them is a simple painted backdrop and a few props: a cardboard model of a science experiment, a wooden table with chart papers and a small trophy. Some students in the team stand at the side of the stage in their uniforms, while a teacher in a sari watches from the front row of plastic chairs in the hall. The stage is lit by ordinary tube lights from the ceiling, daylight comes through high windows, and the atmosphere is festive. The people are seen from behind or far away, with no readable text or signboards visible. Shot at eye level in a wide frame at 35 mm so the stage, props and audience are all visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/holy-cross-girls-school-selected-for-the-state-level-south-indian-science-drama-festival-competition",
-   "published": "2026-11-12T21:12:47.095Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 6 ('தென்னிந்திய அறிவியல் நாடக விழா போட்டியின் மாநில அளவிலான போட்'); 10 ('தென்னிந்திய அறிவியல் நாடக விழா போட்டியின் மாநில அளவிலான போட்'); 11 ('இதில், பல்வேறு அணிகள் பங்கேற்ற நிலையில் வருவாய் மாவட்ட அளவில'); 8 ('ஒவ்வொரு அணியிலும் இயக்குநா், நடிகா்கள் மற்றும் தொழில்நுட்பக்')",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
+   "reel_script": "திருவெறும்பூர் அருகே பாலம் இல்லாததால் வாய்க்காலில் சடலத்தைச் சுமந்து சென்றனர். திருச்சி மாவட்டம் திருவெறும்பூர் பகுதியில் தட்டான்குளம் வாய்க்கால் அமைந்துள்ளது. இந்த வாய்க்காலைக் கடந்து செல்ல முறையான பாலம் வசதி அமைக்கப்படவில்லை. இதனால் அப்பகுதியில் யாரேனும் உயிரிழந்தால் சடலத்தை மயானத்திற்கு எடுத்துச் செல்வதில் பெரும் சிரமம் ஏற்படுகிறது. இந்நிலையில் அப்பகுதியைச் சேர்ந்த ராஜசேகரன் என்பவர் உயிரிழந்தார். அவரது சடலத்தை அடக்கம் செய்ய உறவினர்களும் பொதுமக்களும் எடுத்துச் சென்றனர். வேறு வழி இல்லாததால் தண்ணீர் ஓடும் தட்டான்குளம் வாய்க்காலில் இறங்கி ராஜசேகரனின் சடலத்தைத் தோளில் சுமந்து கடந்து சென்றனர். அடிப்படை வசதிகள் இல்லாததால் இறந்த பிறகும் துயரம் தொடர்வதாக மக்கள் வேதனை தெரிவித்தனர். எனவே அதிகாரிகள் உடனடியாகத் தலையிட்டு புதிய பாலம் அமைக்க நடவடிக்கை எடுக்க வேண்டும் என அப்பகுதி பொதுமக்கள் கோரிக்கை விடுத்துள்ளனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "⚠️ திருவெறும்பூர் அருகே பாலம் இல்லாததால் வாய்க்காலில் இறங்கி சடலத்தைச் சுமந்து சென்ற அவலம்\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம் திருவெறும்பூர் அருகே உள்ள தட்டான்குளம் வாய்க்காலில் பாலம் இல்லாததால், அப்பகுதியில் யாரேனும் உயிரிழந்தால் சடலத்தைச் சுமந்து செல்வோர் வாய்க்காலில் இறங்கிச் செல்லும் அவல நிலை நீடிக்கிறது. சமீபத்தில் அப்பகுதியைச் சேர்ந்த ராஜசேகரன் என்பவர் உயிரிழந்த நிலையில், அவரது சடலத்தை அடக்கம் செய்ய மயானத்திற்கு எடுத்துச் சென்றனர். வாய்க்காலைக் கடக்க பாலம் இல்லாததால், உறவினர்களும் பொதுமக்களும் தண்ணீர் ஓடும் தட்டான்குளம் வாய்க்காலில் இறங்கி ராஜசேகரனின் சடலத்தைத் தோளில் சுமந்து சென்றனர். அடிப்படை வசதிகள் இல்லாததால் இறந்த பிறகும் துயரம் தொடர்வதாக பொதுமக்கள் வேதனை தெரிவித்துள்ளனர். எனவே அதிகாரிகள் தலையிட்டு உடனடியாக புதிய பாலம் அமைக்க வேண்டும் என மக்கள் கோரிக்கை விடுத்துள்ளனர்.\n\n📍 இடம்: தட்டான்குளம் வாய்க்கால், திருவெறும்பூர், திருச்சி மாவட்டம்\n⚠️ பிரச்சனை: பாலம் இல்லாததால் வாய்க்காலில் இறங்கி சடலத்தைச் சுமந்து செல்லும் நிலை\n📢 கோரிக்கை: உடனடியாக புதிய பாலம் அமைக்க பொதுமக்கள் கோரிக்கை\n\nஇந்த செய்தியை தேவைப்படுவோருக்கு Share செய்யுங்கள்.\n\nThiruverumbur Trichy Thattankulam canal bridge demand | Trichy news\n📍 திருவெறும்பூர், திருச்சி | 13 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thiruverumbur #TrichyNews #திருச்சி",
+   "prompts": "A group of local men wade through knee-deep flowing water in a canal, holding a flower-covered funeral bier on their shoulders to cross to the opposite side. The scene takes place at Thattankulam canal near Thiruverumbur in Trichy district, where steep earthen banks are lined with dense wild bushes and green fields. Six to eight village men are seen from behind, wearing simple shirts with veshtis tucked up above their knees as they carefully step through the muddy water stream. They support a long bamboo funeral bier wrapped in white cloth and decorated with fresh orange marigold garlands, lifted high to keep it dry above the canal current. Natural daytime sunlight illuminates the flowing brown water and the green foliage along the bank. Captured at eye level from the canal shore using a 35 mm lens, wide enough to show the full crossing. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide landscape shot illustrates the Thattankulam canal crossing point where an unpaved earthen path abruptly terminates at the edge of flowing water without any bridge. The location is the Thattankulam canal bank in the Thiruverumbur area of Trichy district, flanked by tall reeds, overgrown shrubs, and agricultural palm trees in the background. Two villagers are visible in the far distance from behind, standing on the opposite muddy bank near the water. Deep footprints and tire tracks mark the dry dirt road where it meets the water's edge, emphasizing the complete absence of any concrete culvert or bridge structure across the canal. Midday daylight lights up the murky flowing irrigation water and the dusty banks. Shot from a slightly elevated angle using a 35 mm lens to capture both sides of the canal and the missing link between the roads. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dailythanthi.com/news/tamilnadu/trichy-tragedy-of-having-to-carry-a-body-down-a-canal-due-to-lack-of-a-bridge",
+   "published": "2026-11-13T06:40:59Z",
+   "verification": "DRAFT (gemini/gemini-3.6-flash) - fact-check: no problems found",
+   "note": "free-model draft gemini/gemini-3.6-flash, 2 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/bgk9wm1u/image/upload/v1794548265/trichy360/yumagyynxhaugfopmyzb.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794572942/trichy360/qrwwlqh5inzaqi8r5mmi.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794572944/trichy360/kun2sket2klrjcgnc2nr.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "திருச்சியில் கேக் வழங்கும் நிகழ்ச்சி - அங்கன்வாடி குழந்தைகள் விவகாரத்தில் அமைச்சர் ரமேஷ் விளக்கம்",
+   "english_headline": "Minister Ramesh explains Anganwadi children exclusion from cake distribution in Trichy",
+   "category": "Education",
+   "location": "Trichy city, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "கல்வி",
+    "loc": "திருச்சி",
+    "hl1": "திருச்சியில் கேக் வழங்கும் நிகழ்ச்சி",
+    "hl2": "அமைச்சர் ரமேஷ் விளக்கம்",
+    "slides": [
+     {
+      "title": "நிகழ்ச்சி விவரம்",
+      "lines": [
+       "குழந்தைகள் தினத்தை முன்னிட்டு நிகழ்ச்சி",
+       "சையது முர்துஷா மேல்நிலைப் பள்ளியில் நடைபெற்றது",
+       "அமைச்சர் ரமேஷ் தொடங்கி வைத்தார்"
+      ]
+     },
+     {
+      "title": "கேக் எண்ணிக்கை",
+      "lines": [
+       "மாவட்டம் முழுவதும் 2.64 லட்சம் பேருக்கு",
+       "மொத்தம் 5.28 லட்சம் கேக்குகள் வழங்கப்படுகிறது",
+       "முதல்வர் விஜய் திட்டத்தை அறிவித்தார்"
+      ]
+     },
+     {
+      "title": "அமைச்சர் விளக்கம்",
+      "lines": [
+       "அங்கன்வாடி குழந்தைகள் விவகாரம் முதல்வர் கவனத்திற்கு",
+       "எதிர்காலத்தில் தேவைப்பட்டால் மாற்றம் செய்யப்படுவது",
+       "எந்த பிரிவினையும் பாகுபாடும் இல்லை"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சியில் குழந்தைகள் தின கேக் வழங்கும் நிகழ்ச்சியில் அமைச்சர் ரமேஷ் முக்கிய விளக்கம் அளித்துள்ளார். தமிழக இந்து சமய அறநிலைத்துறை அமைச்சர் ரமேஷ் இந்த நிகழ்ச்சியை தொடங்கி வைத்தார். இடம் திருச்சி சையது முர்துஷா மேல்நிலைப் பள்ளி. மாவட்டம் முழுவதும் 2.64 லட்சம் மாணவ மாணவிகள் மற்றும் ஆசிரியர்களுக்கு 5.28 லட்சம் கேக்குகள் வழங்கப்படுகிறது. அங்கன்வாடி குழந்தைகள் இந்த திட்டத்தில் இல்லாதது குறித்து கேள்வி எழுப்பப்பட்டது. இதற்கு பதிலளித்த அமைச்சர் ரமேஷ், 1 முதல் 12ஆம் வகுப்பு வரை மாணவர்களுக்கு மட்டுமே முதல் முறையாக இந்த திட்டம் கொண்டு வரப்பட்டுள்ளதாக கூறினார். அங்கன்வாடி குழந்தைகள் விவகாரம் முதல்வர் கவனத்திற்கு எடுத்துச் செல்லப்பட்டுள்ளதாக தெரிவித்தார். எதிர்காலத்தில் மாற்றங்கள் தேவைப்பட்டால் முதல்வர் நிச்சயம் அதை முன்னெடுப்பார் என்று உறுதி அளித்தார். மாணவச் செல்வங்களிடம் எந்த பிரிவினையும் பாகுபாடும் பார்ப்பது இல்லை என்று அவர் கூறினார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🎂 திருச்சியில் குழந்தைகள் தின கேக் வழங்கல் - அங்கன்வாடி குழந்தைகள் விவகாரத்தில் அமைச்சர் ரமேஷ் விளக்கம்\n\n📰 முழு விவரம்:\nகுழந்தைகள் தினத்தை முன்னிட்டு திருச்சி சையது முர்துஷா மேல்நிலைப் பள்ளியில் கேக் வழங்கும் நிகழ்ச்சி நடைபெற்றது. தமிழக இந்து சமய அறநிலைத்துறை அமைச்சர் ரமேஷ் இந்த நிகழ்ச்சியை தொடங்கி வைத்தார். திருச்சி மாவட்டத்தில் 2.50 லட்சம் மாணவ மாணவிகள் மற்றும் ஆசிரியர்கள் அலுவலர்கள் என மொத்தம் 2.64 லட்சம் பேருக்கு 5.28 லட்சம் கேக்குகள் வழங்கப்படுகிறது. அங்கன்வாடி குழந்தைகள் இந்த திட்டத்தில் இல்லாதது குறித்து கேள்வி எழுப்பப்பட்டது. இதற்கு பதிலளித்த அமைச்சர் ரமேஷ், 1 முதல் 12ஆம் வகுப்பு வரை மாணவர்களுக்கு மட்டுமே முதல் முறையாக இந்த திட்டம் கொண்டு வரப்பட்டுள்ளதாக கூறினார். அங்கன்வாடி குழந்தைகள் விவகாரம் முதல்வர் கவனத்திற்கு எடுத்துச் செல்லப்பட்டுள்ளதாக தெரிவித்தார். எதிர்காலத்தில் மாற்றங்கள் தேவைப்பட்டால் முதல்வர் நிச்சயம் அதை முன்னெடுப்பார் என்று உறுதி அளித்தார். மாணவச் செல்வங்களிடம் எந்த பிரிவினையும் பாகுபாடும் பார்ப்பது இல்லை என்று அவர் கூறினார்.\n\n📍 இடம்: திருச்சி சையது முர்துஷா மேல்நிலைப் பள்ளி\n🗓️ நாள்: நவம்பர் 13\nℹ️ மக்கள் கவனத்திற்கு: அங்கன்வாடி குழந்தைகள் விவகாரம் முதல்வர் கவனத்திற்கு எடுத்துச் செல்லப்பட்டுள்ளது.\n\nTrichy cake distribution Anganwadi children minister Ramesh explanation | Trichy news\n📍 Trichy city, Trichy | 13 Nov 2026\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n#Trichy360 #Trichy #TrichyNews #Education #திருச்சி",
+   "prompts": "A minister's event at a Trichy school: a group of students in Tamil Nadu school uniform stand in a neat row in the courtyard of a government higher secondary school, cakes being distributed by teachers at a table near the entrance. Seen from behind and at a distance, the children hold cake boxes and greeting cards in their hands while a few officials in shirts and trousers stand nearby. The school is a single-storey concrete building with a tiled verandah and a plain painted wall, in the city of Tiruchirappalli. Bright daylight falls on the courtyard, with a few town buses and two-wheelers parked along the road outside the gate. The scene is shot at eye level with a 35 mm lens, wide enough to show the school building, the crowd of children and the cake table together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up detail of stacked cake boxes and greeting cards laid out on a plain wooden table in a school verandah, a few cake boxes opened to show the cakes, with small hands of students reaching towards them from the edge of the frame. Behind the table, tiled school walls and a stack of school bags sit in soft focus, with daylight coming through the verandah pillars. Students are seen only from behind or as blurred figures in school uniform. The frame is taken at slightly high eye level with a 35 mm lens to highlight the cakes and the distribution moment in a Trichy government school. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.hindutamil.in/news/tamilnadu/minister-ramesh-press-meet-in-trichy-2",
+   "published": "2026-11-13T07:42:24Z",
+   "verification": "DRAFT (groq/qwen/qwen3.8-27b) - NOT CLEAN, held from posting - problems: reel_script must tell how the story ENDED, as the article's last lines say ('- அமைச்சர் ரமேஷ் விளக்கம்') - say what finally happened (complaint, action promised, released, arrested, case filed, how long it lasted); never write that details are unknown",
+   "note": "free-model draft groq/qwen/qwen3.8-27b, 6 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794573112/trichy360/st6q0hl8way9ofotskc7.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794573122/trichy360/yr5exbayckmtf933ddhe.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "குடமுருட்டி ஆற்றில் ரூ.25 கோடியில் புதிய பாலம் கட்ட துரை வைகோ எம்.பி கோரிக்கை!",
+   "english_headline": "Trichy MP Durai Vaiko meets Minister Aadhav Arjuna requesting Rs 25 crore high-level bridge across Kudamurutti river and hospital road repairs",
+   "category": "Roads & Transport",
+   "location": "Kudamurutti river, Trichy district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "பாலம் கோரிக்கை",
+    "loc": "குடமுருட்டி ஆறு, திருச்சி",
+    "hl1": "குடமுருட்டி ஆற்றில் புதிய உயர்மட்ட பாலம்",
+    "hl2": "துரை வைகோ எம்.பி கோரிக்கை",
+    "slides": [
+     {
+      "title": "ரூ.25 கோடி பாலம்",
+      "lines": [
+       "திருச்சி - கரூர் சாலையில் குடமுருட்டி ஆறு",
+       "சுமார் <b>ரூ.25 கோடியில்</b> உயர்மட்ட மேம்பாலம்",
+       "திட்ட அறிக்கை தயாரிக்க வலியுறுத்தல்"
+      ]
+     },
+     {
+      "title": "1872 பழமையான பாலம்",
+      "lines": [
+       "<b>1872ல்</b> கட்டப்பட்ட பழமையான செங்கல் பாலம்",
+       "பாலத்தின் அகலம் வெறும் <b>7 மீட்டர்</b> மட்டுமே",
+       "மழைக்கால நீர்வரத்து, பாலச் சேதத்தால் அபாயம்"
+      ]
+     },
+     {
+      "title": "மருத்துவமனை சாலை",
+      "lines": [
+       "கோவில்பட்டி அரசு மருத்துவமனை சாலை சீரமைப்பு",
+       "CSR நிதி பெற TMB வங்கிக்குக் கருத்துரு",
+       "பணிகளை விரைந்து தொடங்க நினைவூட்டல் கடிதம்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சி குடமுருட்டி ஆற்றில் புதிய பாலம் கட்ட துரை வைகோ கோரிக்கை விடுத்துள்ளார். திருச்சி நாடாளுமன்ற உறுப்பினர் துரை வைகோ, அமைச்சர் ஆதவ் அர்ஜுனாவை நேரில் சந்தித்து நினைவூட்டல் கடிதம் வழங்கினார். திருச்சி கரூர் சாலையில் உள்ள குடமுருட்டி ஆற்றில் 1872ஆம் ஆண்டு கட்டப்பட்ட பழமையான பாலம் உள்ளது. திருச்சி மற்றும் கரூர் மாவட்டங்களை இணைக்கும் இந்தப் பாலம் வெறும் 7 மீட்டர் அகலம் மட்டுமே கொண்டுள்ளது. மழைக்கால நீர்வரத்து மற்றும் பாலத்தின் சேதத்தைக் கருத்தில் கொண்டு, ரூ.25 கோடியில் புதிய உயர்மட்ட பாலம் அமைக்க வலியுறுத்தப்பட்டுள்ளது. தற்போதைய பாலத்தின் வலதுபுறத்தில் புதிய பாலம் கட்ட விரிவான திட்ட அறிக்கை தயாரிக்கக் கேட்கப்பட்டுள்ளது. மேலும் தூத்துக்குடி மாவட்டம் கோவில்பட்டி அரசு மருத்துவமனை பழுதடைந்த சாலைகளையும் சீரமைக்கக் கோரிக்கை வைக்கப்பட்டது. கோவில்பட்டி மருத்துவமனை சாலை சீரமைப்புக்கு சி எஸ் ஆர் நிதி பெற தூத்துக்குடி மாவட்ட ஆட்சியர் மூலம் தமிழ்நாடு மெர்க்கண்டைல் வங்கி பவுண்டேஷனுக்கு கருத்துரு அனுப்பப்பட்டுள்ளது. இந்தப் பணிகள் 3 மாதத்திற்குள் தொடங்கும் என அமைச்சர் உறுதியளித்த நிலையில், தற்போது பணிகளை விரைந்து தொடங்க நினைவூட்டல் கடிதம் வழங்கப்பட்டுள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🌉 திருச்சி குடமுருட்டி ஆற்றில் ரூ.25 கோடியில் புதிய பாலம்: அமைச்சர் ஆதவ் அர்ஜுனாவிடம் துரை வைகோ கோரிக்கை\n\n📰 முழு விவரம்:\nதிருச்சி நாடாளுமன்ற உறுப்பினர் துரை வைகோ, பொதுப்பணித்துறை அமைச்சர் ஆதவ் அர்ஜுனாவைச் சென்னையில் உள்ள அவரது இல்லத்தில் நேரில் சந்தித்து நினைவூட்டல் கடிதம் வழங்கினார்.\nதிருச்சி - கரூர் சாலையில் உள்ள குடமுருட்டி ஆற்றில் 1872ஆம் ஆண்டு கட்டப்பட்ட செங்கல் பாலம் 7 மீட்டர் அகலம் மட்டுமே கொண்டுள்ளதால், இதன் வலதுபுறத்தில் ரூ.25 கோடி மதிப்பீட்டில் புதிய உயர்மட்ட பாலம் கட்ட விரிவான திட்ட அறிக்கை தயாரிக்க வலியுறுத்தியுள்ளார்.\nஅத்துடன் தூத்துக்குடி மாவட்டம் கோவில்பட்டி அரசு மருத்துவமனையின் பழுதடைந்த சாலைகளைச் சீரமைக்க PWD செலவின மதிப்பீடு தயாரித்துள்ளது. CSR நிதி மூலம் பணிகளை மேற்கொள்ள தூத்துக்குடி மாவட்ட ஆட்சியர் வாயிலாக தமிழ்நாடு மெர்க்கண்டைல் வங்கி பவுண்டேஷனுக்குக் கருத்துரு அனுப்பப்பட்டுள்ளது.\nகடந்த ஜூலை 25 அன்று வைக்கப்பட்ட கோரிக்கைக்கு 3 மாதத்திற்குள் நடவடிக்கை எடுப்பதாக அமைச்சர் உறுதியளித்திருந்த நிலையில், தற்போது பணிகளை விரைந்து தொடங்க நினைவூட்டல் கடிதம் அளிக்கப்பட்டுள்ளது.\n\n📍 இடம்: குடமுருட்டி ஆறு, திருச்சி - கரூர் சாலை\n🗓️ நாள்: 13 நவம்பர் 2026\nℹ️ மக்கள் கவனத்திற்கு: குடமுருட்டி ஆற்றுப் பாலப் போக்குவரத்து நெரிசல் மற்றும் பாதுகாப்பைக் கருதி புதிய பாலம் கோரப்பட்டுள்ளது.\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்\n\nKudamurutti river new bridge request by MP Durai Vaiko | Trichy news\n📍 Kudamurutti river, Trichy | 13 November 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Kudamurutti #TrichyNews #திருச்சி",
+   "prompts": "A narrow old brick-built bridge of 1872 vintage spans the Kudamurutti river on the Trichy-Karur road in Trichy district, its carriageway only about 7 metres wide, with two-wheelers, an autorickshaw and a private bus crossing slowly in single file. Muddy monsoon water runs high and brown under the arches, with banana and paddy fields and palm trees along the riverbanks. A small group of PWD engineers in shirts and trousers stands on the roadside near the parapet, seen from behind and at a distance, studying a paper plan spread on the bonnet of a white government car. Two men in shirts with veshti and a woman in a cotton saree wait on the footpath. The scene is broad daylight under soft overcast skies, with the brick arches and the water clearly visible. Shot at eye level, 35 mm, wide enough to show the full bridge, the river and the adjacent site where a new high-level bridge is planned. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of the cracked and crumbling brick parapet and the worn edge of the old 1872 brick bridge over the Kudamurutti river, with exposed bricks, dark stains and peeling mortar. Muddy monsoon water flows high just below the arches. The narrow road surface with faded lane markings is partly visible, and a single two-wheeler slowly passes at the far end, seen from behind. Daylight, overcast, 35 mm lens at eye level, slightly tight so the age and damage of the brickwork fill the frame. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dailythanthi.com/amp/story/news/tamilnadu/new-high-level-bridge-across-the-kudamurutti-river-at-a-cost-of-rs-25-crore-durai-vaiko-submits-request-to-minister-adhav-arjuna",
+   "published": "2026-11-13T09:44:51Z",
+   "verification": "DRAFT (gemini/gemini-3.6-flash) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 06 ('இந்நிலையில், துரை வைகோ அமைச்சர் ஆதவ் அர்ஜுனாவிடம் பணிகளை விர'); 07 ('மேலும், CSR நிதி மூலம் இப்பணிகளை மேற்கொள்ளும் வகையில், தூத்த')",
+   "note": "free-model draft gemini/gemini-3.6-flash, 4 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794573130/trichy360/hhmweblremfecvnbcotd.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794573138/trichy360/thhpddbvlq5kimxu39q6.jpg"
    ]
   }
  ]
