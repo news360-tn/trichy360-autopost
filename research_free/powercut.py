@@ -159,6 +159,9 @@ def check(it, today, now):
     it["_title"] = title
     if not F.is_power_cut(title):
         return None, "not a power cut"
+    filed = allnews.url_district(it["url"])
+    if filed and filed not in allnews.DISTRICT_SLUGS and not allnews.has_place(title):
+        return None, "other district"      # owner 13 Nov: filed under another district's page (Trichy took Coimbatore's Peelamedu cut - its text named a Trichy word)
     if not (allnews.has_place(title) or allnews.has_place(text[:800]) or any(d in it["url"] for d in DISTRICT_URL)):
         return None, "not this district"
     if allnews.other_district(title):

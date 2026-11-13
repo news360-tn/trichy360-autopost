@@ -86,5 +86,30 @@ class PowerCutLane(unittest.TestCase):
                 self.assertIn("inputs[dry_run]=false", line)
 
 
+class OtherDistrictPage13Nov(unittest.TestCase):
+    """owner 13 Nov: a power cut filed under another district's page is never taken because its TEXT names one of our places"""
+    def setUp(self):
+        self.place = sorted(w for w in powercut.allnews.PLACE_STEMS if not w.isascii() and len(w) > 3)[0]
+        self.now = datetime.datetime(2026, 11, 12, 19, 0, tzinfo=IST)
+
+    def check(self, url, title, text):
+        art = {"title": title, "text": text, "published": "2026-11-12T18:00:00+05:30", "url": url}
+        with mock.patch.object(powercut.allnews, "article_any", return_value=art):
+            return powercut.check({"url": url, "title": title}, self.now.date(), self.now)
+
+    def test_other_district_edition_refused_even_if_text_names_our_place(self):
+        url = "https://www.dinamani.com/all-editions/edition-coimbatore/coimbatore/2026/Nov/12/peelamedu"
+        text = f"பீளமேடு துணை மின் நிலையத்தில் பராமரிப்புப் பணி. {self.place} சாலை பகுதிகள்."
+        self.assertTrue(powercut.allnews.has_place(text))      # the text alone would have let it in before
+        got, why = self.check(url, "நாளைய மின்தடை: பீளமேடு, முத்துக்கவுண்டன்புதூா்", text)
+        self.assertIsNone(got)
+        self.assertEqual(why, "other district")
+
+    def test_own_district_page_still_taken(self):
+        url = "https://www.dinamani.com/all-editions/" + powercut.DISTRICT_URL[1] + "/2026/Nov/12/x"
+        got, why = self.check(url, f"நாளைய மின்தடை: {self.place} துணை மின் நிலையம்", "பராமரிப்புப் பணி")
+        self.assertIsNotNone(got, why)
+
+
 if __name__ == "__main__":
     unittest.main()
