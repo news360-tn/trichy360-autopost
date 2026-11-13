@@ -1,0 +1,26 @@
+00:16:42 gold & silver rate for trichy - 13 நவம்பர் 2026 (DRY RUN)
+00:16:42 reading today's rate
+00:16:42   gold   GoodReturns today's date on page: yes 22K 12695  24K 13849
+00:16:43   gold   Groww       today's date on page: yes 22K 12695  24K 13849
+00:16:43   gold   RateToday   today's date on page: yes 22K 12695  24K 13849
+00:16:43   gold   BankBazaar  today's date on page: yes 22K None  24K None
+00:16:43   silver GoodReturns today's date on page: yes 1 g 195
+00:16:44   silver Groww       today's date on page: yes 1 g 195
+00:16:44   silver RateToday   today's date on page: yes 1 g 195
+00:16:44   silver BankBazaar  today's date on page: yes 1 g None
+00:16:44 CONFIRMED gold 22K ₹12695 24K ₹13849 (GoodReturns, Groww, RateToday); silver ₹195/g (GoodReturns, Groww, RateToday)
+00:16:45 slide 1_gold.jpg
+00:16:46 slide 2_silver.jpg
+00:16:46 trichy caption:
+💰 இன்றைய தங்கம், வெள்ளி விலை | 13 நவம்பர் 2026
+
+🟡 22K தங்கம் (1 கிராம்): ₹12,695 (₹120 குறைவு)
+🟡 24K தங்கம் (1 கிராம்): ₹13,849 (₹131 குறைவு)
+⚪ வெள்ளி (1 கிராம்): ₹195 (₹5 குறைவு)
+
+சென்னை சந்தை விலை (தமிழ்நாடு). ஜிஎஸ்டி, செய்கூலி, சேதாரம் தனி; கடைகளுக்கு ஏற்ப விலை சற்று மாறலாம்.
+
+தினமும் காலை தங்கம், வெள்ளி விலை அறிய Follow செய்யுங்கள் 🙏 @trichy360.official
+
+#தங்கம்விலை #GoldRate #SilverRate #GoldPriceToday #திருச்சி #Trichy360
+00:16:46 DRY RUN: trichy slides in /home/runner/work/trichy360-autopost/trichy360-autopost/out/goldrate/trichy - not posted
