@@ -1,0 +1,8 @@
+[
+ {"date": "2026-11-07", "g22": 13160, "silver": 205, "note": "seeded 14 Nov from DT Next daily lists"},
+ {"date": "2026-11-09", "g22": 13255, "g24": 14460, "silver": 205, "note": "seeded 14 Nov (YourStory, DT Next, HDFC Sky)"},
+ {"date": "2026-11-10", "g22": 13210, "g24": 14411, "silver": 205, "note": "seeded 14 Nov (YourStory, DT Next)"},
+ {"date": "2026-11-11", "g22": 13015, "silver": 200, "note": "seeded 14 Nov (DT Next)"},
+ {"date": "2026-11-12", "g22": 12815, "g24": 13980, "silver": 200, "note": "seeded 14 Nov (DT Next, GoodReturns, YourStory)"},
+ {"date": "2026-11-13", "g22": 12695, "g24": 13849, "silver": 195, "note": "seeded 14 Nov (YourStory, DT Next, GoodReturns; silver DT Next only)"}
+]

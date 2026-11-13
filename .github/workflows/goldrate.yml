@@ -1,0 +1,75 @@
+name: goldrate
+# owner 14 Nov: daily gold & silver rate carousel (2 slides) on every page of this repo, posted as soon as today's rate is confirmed.
+# The Chennai jewellers' association fixes the rate at 9:30 AM IST; the job starts 9:40 and checks every 5 minutes. It posts only when
+# 2 rate pages show today's date and the same rate. Backups at 11:00 AM and 12:30 PM (a run skips a page already posted today).
+on:
+  schedule:
+    - cron: "5 4 * * *"       # 09:35 IST - waits until 09:40
+    - cron: "30 5 * * *"      # 11:00 IST backup
+    - cron: "0 7 * * *"       # 12:30 IST last backup
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "1 = read the rates and make the slides only, do not post"
+        default: "1"
+      date:
+        description: "test only (dry): YYYY-MM-DD the rate pages still show"
+        default: ""
+permissions:
+  contents: write
+concurrency:
+  group: goldrate
+  cancel-in-progress: false
+jobs:
+  post:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    env:
+      GOLD_PAGES: "trichy"
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry || '' }}
+      GOLD_DATE: ${{ github.event_name == 'workflow_dispatch' && inputs.date || '' }}
+      BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
+      BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
+      CLOUDINARY_CLOUD: ${{ secrets.CLOUDINARY_CLOUD }}
+      CLOUDINARY_PRESET: ${{ secrets.CLOUDINARY_PRESET }}
+      FB_PAGE_ID_TRICHY: ${{ secrets.FB_PAGE_ID_TRICHY }}
+      FB_TOKEN_TRICHY: ${{ secrets.FB_TOKEN_TRICHY }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: Browser (cached)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-goldrate-1.56.0
+      - name: Install
+        timeout-minutes: 15
+        run: |
+          pip install -q requests==2.32.5 pillow==11.3.0 playwright==1.56.0
+          python -m playwright install chromium
+          python -c "from playwright.sync_api import sync_playwright as s; p=s().start(); p.chromium.launch().close(); p.stop()" ||
+            sudo "$(command -v python)" -m playwright install-deps chromium
+      - name: Read the rate, make the slides, post
+        run: |
+          mkdir -p out/goldrate
+          set -o pipefail
+          python goldrate/gold_daily.py 2>&1 | tee out/goldrate/log.txt
+      - name: Preview branch (test runs only, for checking the slides)
+        if: always() && env.DRY_RUN == '1'
+        run: |
+          [ -d out/goldrate ] || exit 0
+          rm -f out/goldrate/*/*.html
+          git config user.name "news360-bot"; git config user.email "news360-bot@users.noreply.github.com"
+          git checkout -q --orphan goldrate-preview
+          git rm -rq --cached . >/dev/null
+          git add -f out/goldrate && git commit -qm "preview" && git push -qf origin goldrate-preview
+      - name: Remember today's rate and posts
+        if: always() && env.DRY_RUN != '1'
+        run: |
+          [ -n "$(git status --porcelain goldrate/state poster/fb_posted)" ] || exit 0
+          git config user.name "news360-bot"; git config user.email "news360-bot@users.noreply.github.com"
+          git add goldrate/state 2>/dev/null || true; if [ -d poster/fb_posted ]; then git add -f poster/fb_posted; fi
+          git commit -qm "goldrate posted"
+          for i in 1 2 3 4 5; do git pull -q --rebase -X theirs && git push -q && break; git rebase --abort 2>/dev/null || true; sleep 5; done
