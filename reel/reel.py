@@ -18,7 +18,7 @@ FS = NM / "@fontsource"
 ICONS = NM / "@fortawesome" / "fontawesome-free" / "svgs" / "solid"
 # Trichy 360: ONE page (no second page). Page name / handle / logo in this one place.
 PAGES = {
-    "trichy": {"logo": "logo_trichy.png", "style": "T", "name": "திருச்சி 360", "handle": "trichy360.official", "tagline": "நம்ம திருச்சி செய்திகள்", "follow": "திருச்சி மாவட்டச்<br>செய்திகளுக்கு",
+    "trichy": {"logo": "logo_trichy.png", "name": "திருச்சி 360", "handle": "trichy360.official", "tagline": "நம்ம திருச்சி செய்திகள்", "follow": "திருச்சி மாவட்டச்<br>செய்திகளுக்கு",
                    "ticker": "திருச்சி 360  •  திருச்சி மாவட்டச் செய்திகள்  •  Follow செய்யுங்கள்", "footer": "footer_trichy.png", "hashtag": "#Trichy360"},
 }
 PAGE = PAGES["trichy"]
