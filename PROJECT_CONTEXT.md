@@ -81,6 +81,23 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-13 | `78002cd` | posting: no start-time wait - every eligible story posts as soon as it is ready (prime_time OFF); collection stays every 4 hours (owner 13 Nov 22:51) |
+| 2026-11-13 | `d0ab496` | powercut: notices written |
+| 2026-11-13 | `4c4256c` | powercut: notices written |
+| 2026-11-13 | `13ec2c3` | pick: written and posted |
+| 2026-11-13 | `b3bb373` | pick: picked news saved |
+| 2026-11-13 | `00df201` | pick: picked news saved |
+| 2026-11-13 | `bb3c2ac` | pick: list sent |
+| 2026-11-13 | `16e628b` | powercut: notices written |
+| 2026-11-13 | `02b8dfd` | powercut: notices written |
+| 2026-11-13 | `3673b99` | powercut: notices written |
+| 2026-11-13 | `90493d9` | pick: written and posted |
+| 2026-11-13 | `d19aa5c` | pick: picked news saved |
+| 2026-11-13 | `000a808` | pick: picked news saved |
+| 2026-11-13 | `e582aa2` | pick: list sent |
+| 2026-11-13 | `34e3862` | stories shared |
+| 2026-11-13 | `c3b9499` | powercut: notices written |
+| 2026-11-13 | `f722d3e` | powercut: notices written |
 | 2026-11-13 | `65d2014` | reel: premium story panel (owner 13 Nov) - photo top 60 %, emerald panel with the headline and captions, champagne gold, ivory cards, serif Tamil headline, no black; district map + town pin (OpenStreetMap), word-by-word headline, count-up numbers, news-type layer (power-cut time bar / accident / rain / police), smooth loop, light sound effects. Voice, timing and facts unchanged |
 | 2026-11-13 | `1f3bf6b` | pick: written and posted |
 | 2026-11-13 | `d46eb1f` | powercut: notices written |
@@ -94,21 +111,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-13 | `0445f3f` | powercut: notices written |
 | 2026-11-13 | `af5da22` | powercut: notices written |
 | 2026-11-13 | `20ff16d` | evening round 19:00 -> 17:00 IST (evening posts got far fewer views). Reel: spoken sentence 1 names the town and states the news (no question / teaser). ABP / Samayam named as sources (owner 13 Nov) |
-| 2026-11-13 | `48b3ff1` | power cut: a notice filed under another district's page is refused unless its headline names this district (13 Nov: Trichy took Coimbatore's Peelamedu cut - its text named a Trichy word) |
-| 2026-11-13 | `d4fdbcd` | powercut: notices written |
-| 2026-11-13 | `93cb730` | powercut: notices written |
-| 2026-11-13 | `7a950b3` | powercut: notices written |
-| 2026-11-13 | `151d425` | stories shared |
-| 2026-11-13 | `f270097` | powercut: notices written |
-| 2026-11-13 | `a2b18af` | powercut: notices written |
-| 2026-11-13 | `7d8efe1` | pick: written and posted |
-| 2026-11-13 | `1130b32` | reel: same design as Coimbatore 360 (colours, shapes, fonts) - per-page themes removed; end card keeps 'Source:' (owner 12 Nov); waiting reels rebuilt |
-| 2026-11-13 | `9c95ed0` | powercut: notices written |
-| 2026-11-13 | `8764fb3` | pick: picked news saved |
-| 2026-11-13 | `f479342` | pick: picked news saved |
-| 2026-11-13 | `a8be844` | pick: list sent |
-| 2026-11-13 | `c130f74` | powercut: notices written |
-| 2026-11-13 | `03d5cae` | powercut: notices written |
-| 2026-11-13 | `2ff0a3d` | powercut: notices written |
-| 2026-11-13 | `c5f80be` | reel: new Trichy 360 footer logo (same size and format as Namakkal/Rasipuram, transparent surround); waiting reels rebuilt |
 <!-- recent-changes:end -->
