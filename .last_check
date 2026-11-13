@@ -1,7 +1,10 @@
-12:01:40 SKIP RN-4 held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
+17:59:29 SKIP RN-4 held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
 ::warning title=Held from posting RN-4::held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
-12:01:42 story catch-up trichy: quota 12/50, 7 recent posts, 5 live stories, owner ids ['17841462048887226', '28956510467350700']
-12:02:37 story catch-up trichy: post 17991302661119722 not shared (Instagram 17841462048887226/media_publish: {'message': 'Fatal', 'type': 'OAuthException', 'code': -1, 'error_subcode': 2207032, 'is_transient': False,) - tried again next run
-12:02:37 1 stories in the queue, ready to post: 0
-12:02:37   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-12:02:37    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 4.8 ready= False set_started= True
+17:59:31 story catch-up trichy: quota 13/50, 7 recent posts, 6 live stories, owner ids ['17841462048887226', '28956510467350700']
+18:00:25 story catch-up trichy: post 17991302661119722 not shared (Instagram 17841462048887226/media_publish: {'message': 'Fatal', 'type': 'OAuthException', 'code': -1, 'error_subcode': 2207032, 'is_transient': False,) - tried again next run
+18:00:25 2 stories in the queue, ready to post: 1
+18:00:25   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+18:00:25    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 10.8 ready= False set_started= True
+18:00:25    RN-8 review= 'Auto' images= 197 spec= 736 pages= ['trichy'] links= '' '' age_h= 0.0 ready= True set_started= True
+18:00:27 publishing quota trichy: 13/50
+18:00:28 instagram duplicate check trichy: 7 recent posts read
