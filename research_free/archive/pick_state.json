@@ -43,7 +43,8 @@
     "https://www.dinamalar.com/news/tamil-nadu-news/10-years-for-man-who-raped-woman/4374571",
     "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/10-years-imprisonment-for-man-who-sexually-assaulted-a-woman-from-perambalur"
    ],
-   "listed_at": "2026-11-13T07:08:07.795440+05:30"
+   "listed_at": "2026-11-13T07:08:07.795440+05:30",
+   "picked_at": "2026-11-13T20:17:39.869038+05:30"
   },
   "Ccf64f94": {
    "id": "Ccf64f94",
@@ -55,7 +56,8 @@
    "category": "பொது",
    "score": 3.0,
    "power_cut": false,
-   "listed_at": "2026-11-13T07:08:07.795440+05:30"
+   "listed_at": "2026-11-13T07:08:07.795440+05:30",
+   "picked_at": "2026-11-13T20:17:39.869040+05:30"
   },
   "C6c771c9": {
    "id": "C6c771c9",
@@ -67,7 +69,8 @@
    "category": "பொது",
    "score": 3.0,
    "power_cut": false,
-   "listed_at": "2026-11-13T07:08:07.795440+05:30"
+   "listed_at": "2026-11-13T07:08:07.795440+05:30",
+   "picked_at": "2026-11-13T20:17:39.869042+05:30"
   },
   "C92f9220": {
    "id": "C92f9220",
@@ -219,8 +222,20 @@
    ],
    "sent": false,
    "deadline": "2026-11-13T21:16:00.606338+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "no submit by 09:16 PM - automatic top 3",
+    "ids": [
+     "Ca6a89cd",
+     "Ccf64f94",
+     "C6c771c9"
+    ],
+    "at": "2026-11-13T20:17:39.869025+05:30"
+   },
+   "written": [
+    "C6c771c9",
+    "Ca6a89cd",
+    "Ccf64f94"
+   ]
   }
  },
  "retry": {}
