@@ -401,6 +401,12 @@
    "power_cut": true,
    "why": "cut day 2026-11-12 has passed",
    "title": "திருச்சியில் நாளை மின்தடை"
+  },
+  "https://www.dinamalar.com/amp/news/puducherry/today-s-power-outage-puducherry/4374265": {
+   "at": "2026-11-13T08:37:02.348770+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "இன்றைய மின் தடை: புதுச்சேரி"
   }
  },
  "done": {
@@ -427,5 +433,10 @@
    "at": "2026-11-13T07:23:53.358890+05:30"
   }
  },
- "refused": {}
+ "refused": {
+  "Cb700483": {
+   "why": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)",
+   "at": "2026-11-13T08:38:44.829270+05:30"
+  }
+ }
 }
