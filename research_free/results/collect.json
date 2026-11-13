@@ -3,309 +3,109 @@
   "earlier stories still waiting for images: []",
   "instagram check: 10 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/10-years-for-man-who-raped-woman/4374571",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/national-library-week-celebrations-to-begin-tomorrow-at-the-district-central-library-various-events-organized",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/the-objective-of-the-jal-jeevan-mission-is-to-ensure-a-sustainable-drinking-water-supply-in-villages-union-minister-c-r-patil",
-  "candidate filter: collected=3",
-  "to write: 3 Trichy district candidates (max 3 stories)",
-  "round: top 3 of 3 candidates",
-  "candidates waiting: 3 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-district-news-tric",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})",
+  "manual link added: https://www.dinamalar.com/news/business-general-news/the-possibility-of-ordering/4374984",
+  "candidate filter: collected=1",
+  "to write: 1 Trichy district candidates (max 1 stories)",
+  "round: top 1 of 1 candidates",
+  "candidates waiting: 1 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dinamalar.com/news/business-general-news/the-pos",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})",
-  "candidate loop ended: left 0, tried={'N': 3}, done={'N': 3}, time left 76 min",
-  "filed: 3 Trichy district stories (target 3), reels only",
+  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 77 min",
+  "filed: 1 Trichy district stories (target 1), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":3,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (15s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (11s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (39s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (10s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (7s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (16s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (11s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (12s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (11s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (14s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
-  "ok gemini/gemini-3-flash-preview (12s)",
+  "ok groq/openai/gpt-oss-120b (7s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok groq/openai/gpt-oss-120b (6s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "ok groq/qwen/qwen3.8-27b (4s)",
+  "ok groq/qwen/qwen3.8-27b (5s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5"
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
  ],
  "stories": [
   {
-   "tamil_headline": "கிராமங்களில் நிலையான குடிநீர் சேவையை உறுதி செய்வதே ஜல் ஜீவன் இயக்கத்தின் நோக்கம்",
-   "english_headline": "Jal Jeevan Mission aims to ensure steady, safe drinking water to every village home, says Union Minister C.R. Patil in Trichy",
+   "tamil_headline": "ஒப்பந்தப்புள்ளிகள் வரவேற்பு: மொண்டிப்பட்டி காகித ஆலை, மின்வாரியம், பூந்தமல்லி நகராட்சி",
+   "english_headline": "Tender invitations: Mondipatti paper mill iron structure work, TANGEDCO bolts and rods, Poonamallee municipality equipment",
    "category": "Government & Services",
-   "location": "Trichy, Trichy district",
+   "location": "Mondipatti second paper mill, Trichy district; Coimbatore South electricity circle; Poonamallee municipality, Tiruvallur district",
    "importance": "Medium",
    "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "அரசு திட்டம்",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சியில் ஜல் ஜீவன் மாநாடு",
-    "hl2": "நவ. 12, 13 – 2 நாள் மாநாடு",
+    "cat": "ஒப்பந்தம்",
+    "loc": "மொண்டிப்பட்டி, திருச்சி",
+    "hl1": "மொண்டிப்பட்டி காகித ஆலையில் ஒப்பந்த",
+    "hl2": "கடைசி நாள் நவ.16",
     "slides": [
      {
-      "title": "மாநாடு எங்கே?",
+      "title": "காகித ஆலை பணி",
       "lines": [
-       "திருச்சியில் <b>நவ. 12, 13</b> ஆகிய 2 நாள்கள் மாநாடு",
-       "மத்திய, தமிழ்நாடு அரசுகள் இணைந்து நடத்துகின்றன",
-       "ஜல் ஜீவன் இயக்கத்தின் மண்டல அளவிலான மாநாடு"
+       "மொண்டிப்பட்டி இரண்டாவது ஆலைக்கு இரும்பு கட்டமைப்புப் பணி",
+       "ஒப்பந்த எண்: 2026_TNPL_717092_1",
+       "கடைசி நாள்: <b>நவ.16</b>, பிற்பகல் <b>3 மணி</b>"
       ]
      },
      {
-      "title": "யார் பங்கேற்பு?",
+      "title": "மின்வாரிய",
       "lines": [
-       "தமிழகம், ஆந்திரம், கர்நாடகம், கேரளம், தெலங்கானா",
-       "புதுச்சேரி, லட்சத்தீவுகள் பிரதிநிதிகள்",
-       "அனுபவங்களையும் கருத்துகளையும் பகிர்ந்து கொள்வர்"
+       "கோவை தெற்கு மின் பகிர்மான வட்டத்துக்கு போல்ட், நட்டு, கம்பி",
+       "தலா <b>300</b> ஸ்டே ஐ போல்ட், <b>300</b> ஸ்டே ராடுகள்",
+       "கடைசி நாள்: <b>நவ.19</b>, பிற்பகல் <b>2 மணி</b>"
       ]
      },
      {
-      "title": "அமைச்சர் பேச்சு",
+      "title": "பூந்தமல்லி",
       "lines": [
-       "ஒவ்வொரு கிராம வீட்டுக்கும் தரமான குடிநீர் நோக்கம்",
-       "குழாய் இணைப்புகள் தொடர்ந்து முழுமையாக செயல்பட உறுதி",
-       "குடிநீர் ஆதாரப் பாதுகாப்பு, தரம் பற்றியும் விவாதம்"
+       "பயோமெட்ரிக் வருகைப்பதிவு இயந்திரங்கள், ஜி.பி.எஸ். சாதனங்கள்",
+       "ஒலிபெருக்கி, மைக் வழங்கி பொருத்தும் பணி",
+       "கடைசி நாள்: <b>நவ.27</b>, பிற்பகல் <b>3 மணி</b>"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சியில் ஜல் ஜீவன் இயக்க மாநாடு நடைபெறுகிறது. கிராமங்களில் உள்ள ஒவ்வொரு வீட்டுக்கும் நிலையான, பாதுகாப்பான குடிநீர் சேவையை உறுதி செய்வதே இந்த இயக்கத்தின் நோக்கம் என மத்திய ஜல்சக்தி துறை அமைச்சர் சி ஆர் பாட்டீல் தெரிவித்தார். மத்திய அரசும் தமிழ்நாடு அரசும் இணைந்து நவம்பர் 12, 13 ஆகிய 2 நாள்கள் இந்த மாநாட்டை நடத்துகின்றன. தமிழகம், ஆந்திரம், கர்நாடகம், கேரளம், தெலங்கானா, புதுச்சேரி, லட்சத்தீவுகள் பிரதிநிதிகள் கலந்துகொள்கின்றனர். வியாழக்கிழமை தொடங்கிய முதல் நாள் மாநாட்டுக்கு சி ஆர் பாட்டீலும் மாநில நீர்வளத் துறை அமைச்சர் என். ஆனந்தும் தலைமை வகித்தனர். வீட்டுக் குடிநீர் குழாய் இணைப்புகள் அனைத்தும் தொடர்ந்து முழுமையாக செயல்படுவதை உறுதி செய்யுமாறு அலுவலர்களுக்கு அமைச்சர் அறிவுறுத்தினார். குடிநீர் ஆதாரங்களைப் பாதுகாத்தல், தரத்தை உறுதி செய்தல் பற்றியும் விவாதிக்கப்பட்டன. வெள்ளிக்கிழமை 2ஆம் நாள் நிகழ்வுகள் நடைபெறவுள்ளன. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚰 திருச்சியில் ஜல் ஜீவன் இயக்க மண்டல மாநாடு நவ. 12, 13 நடைபெறுகிறது\n\n📰 முழு விவரம்:\nகிராமங்களில் உள்ள ஒவ்வொரு வீட்டுக்கும் தரமான, பாதுகாப்பான குடிநீர் வழங்குவதே ஜல் ஜீவன் இயக்கத்தின் நோக்கம் என மத்திய ஜல்சக்தி துறை அமைச்சர் சி.ஆர். பாட்டீல் கூறினார்.\nமத்திய அரசும் தமிழ்நாடு அரசும் இணைந்து திருச்சியில் நவ. 12, 13 ஆகிய 2 நாள்கள் மண்டல அளவிலான மாநாட்டை நடத்துகின்றன.\nதமிழகம், ஆந்திரம், கர்நாடகம், கேரளம், தெலங்கானா, புதுச்சேரி, லட்சத்தீவுகள் பிரதிநிதிகள் கலந்துகொண்டு அனுபவங்களைப் பகிர்ந்துகொள்வர்.\nவியாழக்கிழமை தொடங்கிய முதல் நாள் மாநாட்டுக்கு சி.ஆர். பாட்டீல், மாநில நீர்வளத் துறை அமைச்சர் என். ஆனந்த் ஆகியோர் தலைமை வகித்தனர்.\nவீட்டுக் குடிநீர் குழாய் இணைப்புகள் தொடர்ந்து முழுமையாக செயல்படுவதை உறுதி செய்ய அலுவலர்களுக்கு அறிவுறுத்தப்பட்டது.\nகுடிநீர் ஆதாரங்களைப் பாதுகாத்தல், தரத்தை உறுதி செய்தல் குறித்தும் விவாதிக்கப்பட்டது.\nவெள்ளிக்கிழமை 2ஆம் நாள் நிகழ்வுகள் நடைபெறவுள்ளன.\n\nJal Jeevan Mission regional conference Trichy | Trichy news\n📍 திருச்சி மாவட்டம் | 12 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #JalJeevan",
-   "prompts": "A conference hall in Trichy city fills with officials in formal shirts and sarees seated at long tables with name cards and microphones, as a senior Union minister presides over the opening session of a two-day zonal meeting on the Jal Jeevan Mission. Behind the dais a backdrop shows a water-drop motif, and delegates from several southern states sit in rows facing the stage, seen from behind and from a distance so no faces are visible. Some men wear white shirts with veshti and others suit trousers, while women wear cotton sarees in bright colours. Water bottles and steel tumblers stand on the tables and a few papers lie open. The room is lit by bright ceiling lights and daylight from high windows, indicating a midday Thursday session. The camera sits at eye level near the back of the hall, using a 35 mm lens wide enough to show the full stage, the long rows of delegates and the table arrangement, creating a clear official government meeting scene. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a steel drinking water tumbler and a clear glass water jug placed on a polished conference table, with a folder of printed papers and a black pen beside them, in a government hall in Trichy. Water droplets glisten on the glass surface, suggesting clean drinking water and the mission's focus on safe water supply. In the soft blurred background, delegates in formal shirts and sarees sit at a distance, faces out of focus or turned away. Warm daylight from a nearby window falls across the table, giving a clean, calm mood. The camera is held slightly above the table at around 45 degrees with a 35 mm lens, keeping the water container sharp and the room softly visible behind it, pointing to the theme of safe household drinking water. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/the-objective-of-the-jal-jeevan-mission-is-to-ensure-a-sustainable-drinking-water-supply-in-villages-union-minister-c-r-patil",
-   "published": "2026-11-12T21:15:45.036Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 0 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794581451/trichy360/zaybsfestc5s1usk0b9s.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794581456/trichy360/pwfyemutcaxikabizmox.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சியில் தேசிய நூலக வார விழா நாளை தொடக்கம்",
-   "english_headline": "National Library Week begins tomorrow at Trichy district central library with multiple programmes",
-   "category": "Temples & Events",
-   "location": "Trichy district central library, Trichy district",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "நிகழ்ச்சி",
-    "loc": "திருச்சி மாவட்ட மைய நூலகம்",
-    "hl1": "திருச்சியில் நூலக வார விழா நாளை தொடக்கம்",
-    "hl2": "நவ. 14 முதல் 20 வரை",
-    "slides": [
-     {
-      "title": "எப்போது?",
-      "lines": [
-       "நவம்பர் <b>14</b> முதல் <b>20</b> வரை நடைபெறும்",
-       "திருச்சி மாவட்ட மைய நூலகத்தில்",
-       "மாவட்ட நூலகத் துறை சார்பில் நடத்தப்படுகிறது"
-      ]
-     },
-     {
-      "title": "தொடக்க நிகழ்ச்சி",
-      "lines": [
-       "நவம்பர் <b>14</b>: புத்தகக் கண்காட்சி, நாணயக் கண்காட்சி",
-       "தபால்தலை கண்காட்சியும் நடைபெறும்",
-       "பொதுமக்களுக்கான நூலகம் என்ற பெயரில்"
-      ]
-     },
-     {
-      "title": "பிற நிகழ்ச்சிகள்",
-      "lines": [
-       "<b>15</b>: ஓவியப் போட்டி, மாறுவேடப் போட்டி",
-       "<b>16</b>: கைவினைப் பொருள் கண்காட்சி, மருத்துவ முகாம்",
-       "<b>17</b>: பட்டிமண்டபம், முதியோருக்கு மருத்துவ முகாம்"
-      ]
-     },
-     {
-      "title": "பங்கேற்க",
-      "lines": [
-       "அனைத்துத் தரப்பினரும் பங்கேற்கலாம்",
-       "தொடர்புக்கு <b>86100 45329</b>, <b>94426 63936</b>",
-       "மாவட்ட நூலக அலுவலர் க. ஸான்பாஷா"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சி மாவட்ட மைய நூலகத்தில் தேசிய நூலக வார விழா நவம்பர் 14ஆம் தேதி தொடங்குகிறது. இந்த விழா நவம்பர் 20ஆம் தேதி வரை நடைபெறும். திருச்சி மாவட்ட நூலகத் துறை சார்பில் பல்வேறு நிகழ்ச்சிகள் நடத்தப்படவுள்ளன. நவம்பர் 14ஆம் தேதி புத்தகக் கண்காட்சி, நாணயக் கண்காட்சி, தபால்தலை கண்காட்சி நடைபெறும். நவம்பர் 15ஆம் தேதி குழந்தைகளுக்கான ஓவியப் போட்டி மற்றும் மாறுவேடப் போட்டி நடைபெறும். நவம்பர் 16ஆம் தேதி மகளிருக்கான கைவினைப் பொருள் கண்காட்சி, மருத்துவ முகாம் மற்றும் ஆரோக்கிய சமையல் போட்டி நடைபெறும். நவம்பர் 17ஆம் தேதி பெரியோருக்கான பட்டிமண்டபம் மற்றும் சிறப்பு மருத்துவ முகாம் நடைபெறும். நவம்பர் 18ஆம் தேதி இளைஞர்களுக்கு அரசுப் போட்டித் தேர்வு வழிகாட்டி நிகழ்ச்சியும், மாதிரித் தேர்வுகளும் நடைபெறும். அதனைத் தொடர்ந்து கண் பரிசோதனை முகாமும் நடைபெறும். நவம்பர் 19ஆம் தேதி வாசிப்பு மாரத்தான் மற்றும் புதிய உறுப்பினர் சேர்க்கை நடைபெறும். பொதுமக்கள், வாசகர்கள், இளைஞர்கள், மாணவர்கள், குழந்தைகள் என அனைவரும் பங்கேற்கலாம். போட்டிகள் குறித்த சந்தேகங்களுக்கு 86100 45329, 94426 63936 ஆகிய எண்களில் தொடர்பு கொள்ளலாம். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "📚 திருச்சியில் நாளை முதல் தேசிய நூலக வார விழா\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்ட நூலகத் துறை சார்பில், மாவட்ட மைய நூலகத்தில் தேசிய நூலக வார விழா நவம்பர் 14ஆம் தேதி தொடங்கி 20ஆம் தேதி வரை நடைபெறவுள்ளது.\nநவம்பர் 14ஆம் தேதி புத்தகக் கண்காட்சி, நாணயக் கண்காட்சி, தபால்தலை கண்காட்சி நடைபெறும்.\nநவம்பர் 15ஆம் தேதி ஓவியப் போட்டி, மாறுவேடப் போட்டி நடைபெறும்.\nநவம்பர் 16ஆம் தேதி கைவினைப் பொருள் கண்காட்சி, மகளிருக்கான மருத்துவ முகாம், ஆரோக்கிய சமையல் போட்டி நடைபெறும்.\nநவம்பர் 17ஆம் தேதி பட்டிமண்டபம், பெரியோருக்கான சிறப்பு மருத்துவ முகாம் நடைபெறும்.\nநவம்பர் 18ஆம் தேதி அரசுப் போட்டித் தேர்வு வழிகாட்டி நிகழ்ச்சி, மாதிரித் தேர்வுகள், கண் பரிசோதனை முகாம் நடைபெறும்.\nநவம்பர் 19ஆம் தேதி வாசிப்பு மாரத்தான், புதிய உறுப்பினர் சேர்க்கை நடைபெறும்.\nநவம்பர் 20ஆம் தேதி நூலக விழிப்புணர்வு நிகழ்ச்சி, வாசிப்பை நேசிப்போம் நிகழ்ச்சி நடைபெறும்.\n📞 தொடர்புக்கு: 86100 45329, 94426 63936 (மாவட்ட நூலக அலுவலர் க. ஸான்பாஷா)\n\nTrichy National Library Week from 14 Nov | Trichy news\n📍 திருச்சி மாவட்டம் | 13 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Library",
-   "prompts": "A library staff member in a shirt arranges a display of books on a long wooden table inside the Trichy district central library, ready for the opening of National Library Week. The setting is a public reading hall in Trichy city, with tall wooden bookshelves filled with books lining the walls, reading tables with chairs in rows, and a few ceiling fans and tube lights overhead. In the background, two or three visitors in shirts, trousers and a salwar-kameez stand near the shelves, seen from behind and at a distance, browsing. Stacks of books, a small pile of paper folders and a banner stand are placed on the table, but nothing readable is shown. It is daytime, with soft daylight coming through the windows mixed with indoor lights. The camera is at eye level, shot on a 35 mm lens, wide enough to show the whole hall and its shelves. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a glass display case at the library's coin and stamp exhibition, showing rows of old coins and postage stamps arranged on a dark velvet cloth. The coins are shown in neat circles, some silver and some copper-coloured, and the stamps are in small framed sheets with colourful designs, none of which carry any readable text. Beside the case, the edge of a wooden display table holds a few hand-painted children's artworks pinned on a board, and a visitor's hand, seen from behind, points at one piece. The setting is the central library hall in Trichy city, with the bookshelves faintly visible in the background. Light is soft and indoors with some daylight from a window. The camera is slightly high, at about a 35 mm focal length, close enough to focus on the coins and stamps while keeping the library shelves blurred behind. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/national-library-week-celebrations-to-begin-tomorrow-at-the-district-central-library-various-events-organized",
-   "published": "2026-11-12T21:12:12.640Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
+   "reel_script": "மொண்டிப்பட்டி காகித ஆலையில் இரும்பு கட்டமைப்பு பணிக்கு ஒப்பந்தப்புள்ளிகள் வரவேற்கப்பட்டுள்ளன. தமிழ்நாடு செய்தித்தாள் காகித நிறுவனத்தின் திருச்சி மாவட்டம், மொண்டிப்பட்டி இரண்டாவது ஆலைக்கு இரும்பு கட்டமைப்புகளைத் தயாரித்துப் பொருத்த ஒப்பந்தம் கோரப்பட்டுள்ளது. ஒப்பந்த எண் 2026, டி என் டி பி எல் 717092, 1. கடைசி நாள் நவம்பர் 16ஆம் தேதி பிற்பகல் 3 மணி. கோவை தெற்கு மின் பகிர்மான வட்டத்துக்கு 300 ஸ்டே ஐ போல்ட் மற்றும் நட்டுகள், 300 ஸ்டே ராடுகள் வழங்கவும் ஒப்பந்தப்புள்ளிகள் கோரப்பட்டுள்ளன. இரண்டு பொருட்களுக்கும் தனித்தனி ஒப்பந்தங்கள். கடைசி நாள் நவம்பர் 19ஆம் தேதி பிற்பகல் 2 மணி. திருவள்ளூர் மாவட்டம், பூந்தமல்லி நகராட்சிக்குப் பயோமெட்ரிக் வருகைப்பதிவு இயந்திரங்கள், ஜி பி எஸ் கண்காணிப்பு சாதனங்கள், ஒலிபெருக்கி, மைக் வழங்கிப் பொருத்தவும் ஒப்பந்தம் கோரப்பட்டுள்ளது. கடைசி நாள் நவம்பர் 27ஆம் தேதி பிற்பகல் 3 மணி. விண்ணப்பிக்க தமிழ்நாடு டெண்டர்ஸ் இணையதளத்தில் சம்பந்தப்பட்ட ஒப்பந்த எண்ணைப் பயன்படுத்தி முழு பணி விவரம், தகுதி விதிகள், தேவையான ஆவணங்களைப் பார்த்து விண்ணப்பிக்கலாம். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "📋 மொண்டிப்பட்டி காகித ஆலையில் இரும்பு கட்டமைப்பு பணிக்கு ஒப்பந்தம் - நவ. 16 கடைசி நாள்\n\n📰 முழு விவரம்:\nதமிழ்நாடு செய்தித்தாள் காகித நிறுவனத்தின் திருச்சி மாவட்டம், மொண்டிப்பட்டி இரண்டாவது ஆலையில் இரும்பு கட்டமைப்புகளைத் தயாரித்துப் பொருத்த ஒப்பந்தப்புள்ளிகள் வரவேற்கப்பட்டுள்ளன.\nகோவை தெற்கு மின் பகிர்மான வட்டத்துக்கு தலா 300 ஸ்டே ஐ போல்ட் மற்றும் நட்டுகள், 300 ஸ்டே ராடுகள் வழங்க ஒப்பந்தப்புள்ளிகள் கோரப்பட்டுள்ளன. இரண்டுக்கும் தனித்தனி ஒப்பந்தங்கள்.\nதிருவள்ளூர் மாவட்டம், பூந்தமல்லி நகராட்சிக்குப் பயோமெட்ரிக் வருகைப்பதிவு இயந்திரங்கள், ஜி.பி.எஸ். கண்காணிப்பு சாதனங்கள், ஒலிபெருக்கி, மைக் வழங்கிப் பொருத்த ஒப்பந்தப்புள்ளிகள் வரவேற்கப்பட்டுள்ளன.\n\n📍 இடம்: மொண்டிப்பட்டி, திருச்சி மாவட்டம் (காகித ஆலை)\n🗓️ கடைசி நாள்: நவ. 16 (காகித ஆலை), நவ. 19 (மின் வாரியம்), நவ. 27 (பூந்தமல்லி நகராட்சி)\n🕒 நேரம்: நவ. 16 பிற்பகல் 3 மணி, நவ. 19 பிற்பகல் 2 மணி, நவ. 27 பிற்பகல் 3 மணி\n📞 விண்ணப்பிக்க: tntenders.gov.in இணையதளத்தில் ஒப்பந்த எண்ணைப் பயன்படுத்தி முழு விவரம் பார்க்கலாம்\nℹ️ மக்கள் கவனத்திற்கு: முழு பணி விவரம், தகுதி விதிகள், தேவையான ஆவணங்களை இணையதளத்தில் பார்த்த பின் விண்ணப்பிக்கவும்.\n\nMondipatti paper mill iron structure tender, last date Nov 16 | Trichy news\n📍 மொண்டிப்பட்டி, திருச்சி மாவட்டம் | 13 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Mondipatti #TrichyNews #திருச்சி",
+   "prompts": "A row of tall iron lattice structures and steel framework stands at the second paper mill plant in Mondipatti, Trichy district, with the factory sheds and chimneys of the mill in the background. Along the edge of the plant, stacks of steel beams and angle iron lie on the ground beside a yard, with a few workers in shirts and trousers seen from far away and from behind, checking the framework. Overhead, the sky is bright daylight with a clear, warm light typical of Trichy. Near the banana and paddy fields along the river edge, the factory's iron skeleton rises against the sky. The camera is at eye level with a 35 mm lens, wide enough to show the mill's steel structure and the open yard around it, with no readable signboards or logos visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a neat pile of galvanised steel stay rods and heavy bolts with their nuts laid together on a concrete surface, placed beside a concrete electricity pole with a metal stay wire running down to an anchor plate in the ground. The stay rods and bolts are the key objects, lit by daylight, with the pole's base and a little roadside grass visible behind them in a residential edge of the city. In the far background a TNEB lineman in a plain shirt and trousers, seen from behind, looks at the pole, showing the power distribution network of Coimbatore South circle. The camera is slightly high, 35 mm, close enough to make the bolts, nuts and rods clearly visible as the detail. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamalar.com/news/business-general-news/the-possibility-of-ordering/4374984",
+   "published": "2026-11-13T16:46:18+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script has numbers without their meaning (1); write what each number is: '15 வயது', '30 பாட்டில்கள்', 'அக்டோபர் 26ஆம் தேதி'",
    "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794581466/trichy360/nb8kog8yntuedk9rmvcm.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794581469/trichy360/b25m69hlavb3y3yfneev.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "சிறுகனூர் அருகே பெண்ணை பலாத்காரம் செய்தவருக்கு 10 ஆண்டு சிறை",
-   "english_headline": "Man who raped woman after bike lift near Sirugnur gets 10 years in jail",
-   "category": "Crime & Safety",
-   "location": "Sirugnur, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "நீதி",
-    "loc": "சிறுகனூர்",
-    "hl1": "சிறுகனூர்: பெண்ணை பலாத்காரம்",
-    "hl2": "10 ஆண்டு சிறை, ரூ.10,000",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "பைக்கில் லிப்ட் தருவதாக கூறி பெண் அழைத்துச் செல்லப்பட்டார்",
-       "காட்டுப்பகுதியில் பெண்ணை பலாத்காரம் செய்ததாக புகார்",
-       "சிறுகனூர் போலீசார் சுரேஷை கைது செய்தனர்"
-      ]
-     },
-     {
-      "title": "யார்? எங்கே?",
-      "lines": [
-       "பெரம்பலூர் மாவட்டத்தை சேர்ந்த 42 வயது பெண்",
-       "திருச்சி மாவட்டம், ரெட்டிமாங்குடியில் தங்கையை",
-       "ரெட்டிமாங்குடியைச் சேர்ந்த 46 வயது சுரேஷ்"
-      ]
-     },
-     {
-      "title": "தீர்ப்பு",
-      "lines": [
-       "திருச்சி மாவட்ட மகிளா நீதிமன்றம் தீர்ப்பளித்தது",
-       "சுரேஷுக்கு <b>10 ஆண்டு</b> சிறை தண்டனை",
-       "<b>10,000 ரூபாய்</b> அபராதமும் விதிக்கப்பட்டது"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "சிறுகனூர் அருகே பெண்ணை பலாத்காரம் செய்த நபருக்கு 10 ஆண்டு சிறைத் தண்டனை விதிக்கப்பட்டுள்ளது. பெரம்பலூர் மாவட்டத்தைச் சேர்ந்த 42 வயது பெண், 2023 பிப்ரவரி 12ஆம் தேதி திருச்சி மாவட்டம் ரெட்டிமாங்குடியில் உள்ள தங்கையைப் பார்க்கச் சென்றார். ஊர் திரும்ப ரெட்டிமாங்குடி பேருந்து நிறுத்தத்தில் அவர் நின்றிருந்தார். அப்போது பைக்கில் வந்த ரெட்டிமாங்குடியைச் சேர்ந்த 46 வயதான சுரேஷ், சிறுகனூர் வரை லிப்ட் தருவதாகக் கூறி அந்தப் பெண்ணை அழைத்துச் சென்றார். அதே பகுதியில் உள்ள காட்டுப்பகுதிக்கு பைக்கை ஓட்டிச் சென்ற அவர், அங்கு அந்தப் பெண்ணை பலாத்காரம் செய்தார். பின்னர் மிரட்டி அனுப்பி வைத்தார். அந்தப் பெண் சிறுகனூர் போலீசில் புகார் அளித்தார். போலீசார் சுரேஷைக் கைது செய்தனர். விசாரணை திருச்சி மாவட்ட மகிளா நீதிமன்றத்தில் நடைபெற்றது. நேற்று நீதிபதி சண்முகப்பிரியா தீர்ப்பளித்தார். சுரேஷுக்கு 10 ஆண்டு சிறைத் தண்டனையும், 10,000 ரூபாய் அபராதமும் விதிக்கப்பட்டது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "⚖️ சிறுகனூர்: பெண்ணை பலாத்காரம் செய்தவருக்கு 10 ஆண்டு சிறை\n\n📰 முழு விவரம்:\nபைக்கில் லிப்ட் தருவதாகக் கூறி பெண்ணை அழைத்துச் சென்று பலாத்காரம் செய்த வழக்கில் சுரேஷுக்கு 10 ஆண்டு சிறைத் தண்டனை விதிக்கப்பட்டுள்ளது.\nபெரம்பலூர் மாவட்டத்தைச் சேர்ந்த 42 வயது பெண், 2023 பிப்ரவரி 12ஆம் தேதி திருச்சி மாவட்டம் ரெட்டிமாங்குடியில் உள்ள தங்கையைப் பார்க்கச் சென்றார். ஊர் திரும்ப பேருந்து நிறுத்தத்தில் நின்றிருந்தபோது, ரெட்டிமாங்குடியைச் சேர்ந்த 46 வயது சுரேஷ் சிறுகனூர் வரை லிப்ட் தருவதாகக் கூறினார்.\nஅதே பகுதியில் உள்ள காட்டுப்பகுதிக்கு சென்று பெண்ணை பலாத்காரம் செய்து, பின்னர் மிரட்டி அனுப்பினார்.\n👮 நடவடிக்கை: பெண் சிறுகனூர் போலீசில் புகார் அளித்தார்; சுரேஷ் கைது செய்யப்பட்டார்.\n⚖️ தீர்ப்பு: திருச்சி மாவட்ட மகிளா நீதிமன்றம், நீதிபதி சண்முகப்பிரியா; 10 ஆண்டு சிறை, ரூ.10,000 அபராதம்.\n\nSirugnur rape case 10 years jail | Trichy news\n📍 சிறுகனூர், திருச்சி மாவட்டம் | 12 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Sirugnur #TrichyNews #திருச்சி",
-   "prompts": "A Tamil Nadu police constable in khaki uniform stands guarding the entrance of the Trichy district Mahila court building, its concrete pillars and tiled roof visible, while a few lawyers in black coats walk past in the background. The court premises are on a quiet road in Trichy city, with a row of parked two-wheelers and a few autorickshaws along the compound wall. Women in sarees and salwars and men in shirts and trousers wait near the gate, seen from behind or at a distance, their faces not visible. It is daytime under bright, hazy Trichy sunlight, with a mild humid breeze. The photo is taken at eye level from across the road, wide enough to show the courthouse facade, the guard, and the gate, in a 35 mm style with natural colours and soft focus on the figures. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a wooden judge's table in a Tamil Nadu court room, with a stack of case files tied in pink cloth bundles and a black and white ceremonial gavel resting beside them. Behind the table, a worn wooden bench and a plain cream wall lit by a ceiling fan's shadow give a sober, official feel. A single printed page with blurred, unreadable text lies on the table, and no words are legible. The light is soft and yellowish from tube lights and a window at the side. The camera is at slightly high angle, 35 mm, focused on the case files and gavel, with the background gently blurred. No people are visible, only the court's furniture and the sealed documents. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/10-years-for-man-who-raped-woman/4374571",
-   "published": "2026-11-12T21:54:36+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script writes ages as newspaper shorthand (தண்டனையும், 10,); say it as a news reader: '12 வயது மகன் ராஜா', 'கவுசிக் (14 வயது)' -> '14 வயதான கவுசிக்'",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794581476/trichy360/dchzuff5258myqe4f7lu.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794581491/trichy360/e4y8qbe4iho5jftwt0u4.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794587055/trichy360/cmlrx7d3fsc6xubk0z84.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794587060/trichy360/lta1qqwulzhwpoahueup.jpg"
    ]
   }
  ]
