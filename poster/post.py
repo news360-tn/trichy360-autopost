@@ -542,7 +542,9 @@ SOURCE_NAMES = [("dinamalar.com", "தினமலர்"), ("dinamani.com", "�
                 ("news18.com", "நியூஸ்18 தமிழ்"), ("vikatan.com", "விகடன்"), ("oneindia.com", "ஒன்இந்தியா"), ("polimernews.com", "பாலிமர் நியூஸ்"),
                 ("sunnews.in", "சன் நியூஸ்"), ("news7tamil.live", "நியூஸ்7 தமிழ்"), ("kalaignarseithigal.com", "கலைஞர் செய்திகள்"),
                 ("thehindu.com", "The Hindu"), ("timesofindia", "Times of India"), ("dtnext.in", "DT Next"),
-                ("newindianexpress.com", "The New Indian Express"), ("tnebltd", "மின்வாரியம்"), ("tangedco", "மின்வாரியம்"), ("tnpdcl", "மின்வாரியம்")]
+                ("newindianexpress.com", "The New Indian Express"),
+                ("abplive.com", "ABP நாடு"), ("samayam.com", "சமயம் தமிழ்"),      # owner 13 Nov: the state-wide power-cut lists
+                ("tnebltd", "மின்வாரியம்"), ("tangedco", "மின்வாரியம்"), ("tnpdcl", "மின்வாரியம்")]
 
 
 def source_names(row):

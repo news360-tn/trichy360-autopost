@@ -9,7 +9,7 @@ on:
   schedule:
     - cron: "30 0 * * *"      # 06:00 IST - 8 news (owner 2 Nov: 20 a day, picked automatically from the insights order)
     - cron: "30 4 * * *"      # 10:00 IST - 6 news (06-12 IST is the page's best time)
-    - cron: "30 13 * * *"     # 19:00 IST - 6 news (posted 20-22 IST, the page's next-best time)
+    - cron: "30 11 * * *"     # 17:00 IST - 6 news (owner 13 Nov: was 19:00 - posts at 19-21 IST got far fewer views than morning ones)
   workflow_dispatch:
     inputs:
       dry:

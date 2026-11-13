@@ -2212,10 +2212,10 @@ class RoundsTopThree(unittest.TestCase):
     them at once. A new day starts fresh. A slow or failed story never holds the next round."""
     WF = ROOT / ".github" / "workflows"
 
-    def test_rounds_at_the_owners_times(self):      # owner 2 Nov: 20 news a day, picked automatically - rounds 06:00 / 10:00 / 19:00 IST
+    def test_rounds_at_the_owners_times(self):      # owner 2 Nov: 20 news a day, picked automatically - rounds 06:00 / 10:00 / 17:00 IST
         wf = (self.WF / "pick.yml").read_text(encoding="utf-8")
         times = sorted(((int(h) * 60 + int(m) + 330) % 1440) / 60 for m, h in re.findall(r'cron: "(\d+) (\d+) \* \* \*"', wf))
-        self.assertEqual([6, 10, 19], times)
+        self.assertEqual([6, 10, 17], times)      # owner 13 Nov: evening round 19:00 -> 17:00
         self.assertIn("PICK_AUTO_TOP: ${{ github.event.schedule == '30 0 * * *' && '4' || '4' }}", wf)      # owner 12 Nov: 4 + 4 + 4 = 12
         self.assertIn('PICK_EMAIL: "0"', wf)      # "do not ask me to confirm"
 

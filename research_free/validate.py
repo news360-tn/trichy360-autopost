@@ -98,7 +98,33 @@ def place_problems(d):
     if not names_place(sp.get("hl1", "") + " " + sp.get("hl2", ""), loc):
         return [f"hl1 (the first headline on screen) must name the place '{loc.split(',')[0].strip()}', e.g. '{loc.split(',')[0].strip()}: ...' or "
                 f"'{loc.split(',')[0].strip()}-இல் ...' - viewers share news of their own area"]
-    return []
+    return hook_problems(d, loc)
+
+
+TEASER = re.compile(r"\?|தெரியுமா|என்ன நடந்தது|அதிர்ச்சி சம்பவம்|பரபரப்பு சம்பவம்|பரபரப்பான சம்பவம்|ஒரு சம்பவம்|முழு விவரம்|பார்ப்போம்|காணலாம்")
+
+
+def first_sentence(rs):
+    """sentence 1 of the reel_script ('ப.வேலூரில்' / 'டி.என்.பாளையம்' keep their dots: a sentence ends at . ! ? followed by a space)"""
+    return re.split(r"(?<=[.!?])\s+", (rs or "").strip())[0]
+
+
+def hook_problems(d, loc):
+    """owner 13 Nov (insights: half the viewers leave within ~7 s, a quarter within 4.6 s): the SPOKEN sentence 1 is heard in the first
+    3 seconds - it names the town / area and states the news itself (what happened, the number), never a question or a teaser"""
+    s1 = first_sentence(d.get("reel_script") or "")
+    if not s1:
+        return []
+    p = []
+    town = loc.split(",")[0].strip()
+    if not names_place(s1, loc):
+        p.append(f"reel_script sentence 1 (heard in the first 3 seconds) must name the place '{town}' and the news itself, e.g. "
+                 f"'{town}-இல் ... 3 பேர் கைது.' - viewers decide in 3 seconds whether the news is about their area")
+    t = TEASER.search(s1)
+    if t:
+        p.append(f"reel_script sentence 1 is a teaser ('{t.group(0)}'): state the news itself in the first 3 seconds - what happened, where, "
+                 "the number or result - never a question or 'shocking incident'")
+    return p
 
 
 def grounding_problems(d, article):
