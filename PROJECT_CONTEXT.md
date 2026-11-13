@@ -81,6 +81,14 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-13 | `1130b32` | reel: same design as Coimbatore 360 (colours, shapes, fonts) - per-page themes removed; end card keeps 'Source:' (owner 12 Nov); waiting reels rebuilt |
+| 2026-11-13 | `9c95ed0` | powercut: notices written |
+| 2026-11-13 | `8764fb3` | pick: picked news saved |
+| 2026-11-13 | `f479342` | pick: picked news saved |
+| 2026-11-13 | `a8be844` | pick: list sent |
+| 2026-11-13 | `c130f74` | powercut: notices written |
+| 2026-11-13 | `03d5cae` | powercut: notices written |
+| 2026-11-13 | `2ff0a3d` | powercut: notices written |
 | 2026-11-13 | `c5f80be` | reel: new Trichy 360 footer logo (same size and format as Namakkal/Rasipuram, transparent surround); waiting reels rebuilt |
 | 2026-11-13 | `c08f701` | powercut: notices written |
 | 2026-11-13 | `ccce0ff` | stories shared |
@@ -103,12 +111,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-12 | `87f2261` | powercut: notices written |
 | 2026-11-12 | `21412f7` | TRIAL: direct reel upload ON for this new page (file instead of Cloudinary link; falls back to the link; never posts twice) |
 | 2026-11-12 | `91de910` | cloudinary: keep the last 48 h only, clean once every 48 h (own workflow; hourly step removed) |
-| 2026-11-12 | `739de75` | powercut: notices written |
-| 2026-11-12 | `d20a9bf` | post: start the next posting run after the 12-minute gap while stories wait (GitHub runs the 5-min schedule ~hourly; Coimbatore had 23 waiting, 1 posted per hour) |
-| 2026-11-12 | `3da9285` | bridge: create the News tab (31 column names) when the new Log Sheet does not have it - pick failed 12 Nov with getLastRow of null |
-| 2026-11-12 | `39abbdf` | Trichy 360 live (owner 12 Nov) |
-| 2026-11-12 | `f25127a` | Cloudinary clean-up: this page's files older than 3 days deleted every hour (at 50% of the free limit reels older than 26 h too); a deleted prebuilt reel is uploaded again; rasipalan pictures in the page folder. keys-check: test-only workflow (manual), prints OK/FAIL per secret |
-| 2026-11-12 | `b2ba1b7` | trichy 360: local news for the district - Tamil papers only (Dinamalar, Dinamani + Dinakaran / OneIndia where fresh), district towns and searches, power-cut searches, writer rules, town hashtags; whole district; tests updated |
-| 2026-11-12 | `aeaa712` | trichy 360: Sheet and Drive folder ids set (its own Sheet and folder) |
-| 2026-11-12 | `9d3c615` | trichy 360: Instagram handle trichy360.official |
 <!-- recent-changes:end -->
