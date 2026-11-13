@@ -81,6 +81,14 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-13 | `48b3ff1` | power cut: a notice filed under another district's page is refused unless its headline names this district (13 Nov: Trichy took Coimbatore's Peelamedu cut - its text named a Trichy word) |
+| 2026-11-13 | `d4fdbcd` | powercut: notices written |
+| 2026-11-13 | `93cb730` | powercut: notices written |
+| 2026-11-13 | `7a950b3` | powercut: notices written |
+| 2026-11-13 | `151d425` | stories shared |
+| 2026-11-13 | `f270097` | powercut: notices written |
+| 2026-11-13 | `a2b18af` | powercut: notices written |
+| 2026-11-13 | `7d8efe1` | pick: written and posted |
 | 2026-11-13 | `1130b32` | reel: same design as Coimbatore 360 (colours, shapes, fonts) - per-page themes removed; end card keeps 'Source:' (owner 12 Nov); waiting reels rebuilt |
 | 2026-11-13 | `9c95ed0` | powercut: notices written |
 | 2026-11-13 | `8764fb3` | pick: picked news saved |
@@ -103,12 +111,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-12 | `7049695` | powercut: notices written |
 | 2026-11-12 | `8462fc7` | voice: numbers read the way people say them - English names in English (பிளஸ் டூ, குரூப் ஃபோர், டி ட்வென்டி, ஃபைவ் ஜி), endings joined (நாற்பதுக்கும், ...ஒன்றில், ரூபாய்க்கு), நெ. -> எண் |
 | 2026-11-12 | `8ed41aa` | voice: 'பிளஸ் 2' is read 'பிளஸ் டூ' (was 'பிளஸ் இரண்டு', RN-534); 'பிளஸ் 1' -> 'பிளஸ் ஒன்' |
-| 2026-11-12 | `fbcb1a9` | direct upload: create the resumable container on a versioned Instagram API (Salem RN-1: unversioned call wanted video_url; fell back to the link correctly) |
-| 2026-11-12 | `4144f71` | reel: spoken follow line names this page (was 'Follow Coimbatore Three Sixty'); waiting reels rebuilt |
-| 2026-11-12 | `e1efec6` | powercut: notices written |
-| 2026-11-12 | `47f9be2` | stories shared |
-| 2026-11-12 | `6defe2d` | powercut: notices written |
-| 2026-11-12 | `87f2261` | powercut: notices written |
-| 2026-11-12 | `21412f7` | TRIAL: direct reel upload ON for this new page (file instead of Cloudinary link; falls back to the link; never posts twice) |
-| 2026-11-12 | `91de910` | cloudinary: keep the last 48 h only, clean once every 48 h (own workflow; hourly step removed) |
 <!-- recent-changes:end -->
