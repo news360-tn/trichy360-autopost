@@ -1,26 +1,26 @@
 {
  "log": [
   "earlier stories still waiting for images: []",
-  "instagram check: 1 recent posts read from the page",
+  "instagram check: 4 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/man-stabbed-to-death-at-police-station-gate/4374557",
-  "manual link added: https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-elderly-murder-case-police-inquiry",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/driver-killed-as-truck-overturns/4374510",
-  "manual link added: https://www.dinakaran.com/news/prisoner_escapes_from_court",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/holy-cross-girls-school-selected-for-the-state-level-south-indian-science-drama-festival-competition",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/road-workers-novel-form-of-protest",
+  "manual link added: https://www.hindutamil.in/news/crime/prisoner-escaped-after-verdict",
+  "manual link added: https://www.dinamalar.com/news/tamil-nadu-district-news-chennai/irctc-special-tour-from-chennai-trichy/4374547",
   "candidate filter: collected=4",
   "to write: 4 Trichy district candidates (max 4 stories)",
   "round: top 4 of 4 candidates",
   "candidates waiting: 4 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinakaran.com/news/prisoner_escapes_from_court",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-district-news-tric",
-  "try (N) manual=True: https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-elde",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 1})",
+  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-district-news-chen",
+  "try (N) manual=True: https://www.hindutamil.in/news/crime/prisoner-escaped-after-",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "NOT filed (N) கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய : not Trichy district news (the story's first lines name another place and no Trichy place)",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "auto images: 1 of 1 stories ({'fal-ai/flux/schnell': 1})",
   "posting job started at once",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-district-news-tric",
-  "NOT filed (N) தண்டனை அறிவிக்கப்பட்ட கைதி நீதிமன்றத்தில் இருந்து : not Trichy district news (the story's first lines name another place and no Trichy place)",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})",
-  "candidate loop ended: left 0, tried={'N': 4}, done={'N': 3}, time left 78 min",
+  "auto images: 1 of 1 stories ({'fal-ai/flux/schnell': 2})",
+  "auto images: 1 of 1 stories ({'fal-ai/flux/schnell': 3})",
+  "candidate loop ended: left 0, tried={'N': 4}, done={'N': 3}, time left 73 min",
   "filed: 3 Trichy district stories (target 4), reels only",
   "queue: 0 news waiting to be written",
   "All News sheet: {\"ok\":true,\"added\":4,\"updated\":0}"
@@ -29,17 +29,22 @@
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
+  "ok gemini/gemini-3-flash-preview (9s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
@@ -47,40 +52,27 @@
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "dead for this round: groq/qwen/qwen3.8-27b",
   "ok anthropic/claude-haiku-5-5",
-  "fail gemini/gemini-3-flash-preview: Expecting ',' delimiter: line 55 column 2 (char 4038)",
-  "not available on this plan: gemini/gemini-3-flash-preview",
-  "ok gemini/gemini-3-flash-preview (14s)",
+  "ok gemini/gemini-3-flash-preview (12s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
@@ -93,191 +85,211 @@
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "திருச்சி ஆவின் நிறுவனத்தில் தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி",
-   "english_headline": "Sleeping driver dies after milk van runs over him at Trichy Aavin premises",
-   "category": "Crime & Safety",
-   "location": "Trichy Aavin premises, Trichy airport area, Trichy district",
+   "tamil_headline": "திருச்சியில் சாலைப் பணியாளர்கள் நூதன போராட்டம்: பணிநீக்க காலத்தை பணிக்காலமாக மாற்ற கோரிக்கை",
+   "english_headline": "Road workers in Trichy protest with blindfolds and scales of justice, demanding their 41-month dismissal period be regularised as service",
+   "category": "Government & Services",
+   "location": "Trichy, Trichy district",
    "importance": "Medium",
-   "scope": "local",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "விபத்து",
+    "cat": "போராட்டம்",
     "loc": "திருச்சி",
-    "hl1": "திருச்சி ஆவின் பார்க்கிங்கில் டிரைவர்",
-    "hl2": "பால் வேன் ஏறியதில்",
+    "hl1": "திருச்சியில் சாலைப் பணியாளர்கள் நூதன",
+    "hl2": "41 மாத பணிநீக்க காலம்",
     "slides": [
      {
       "title": "என்ன நடந்தது?",
       "lines": [
-       "திருச்சி ஆவின் நிறுவனத்தில் பார்க்கிங் பகுதியில் சம்பவம்",
-       "தூங்கிய டிரைவர் விஷ்வா, <b>40</b> வயது மீது பால் வேன் ஏறியது",
-       "விஷ்வா சம்பவ இடத்திலேயே உயிரிழந்தார்"
+       "திருச்சியில் நெடுஞ்சாலைத் துறை சாலைப் பணியாளர் சங்கத்தினர்",
+       "கண்களில் கறுப்புத் துணி கட்டி, கைகளில் நீதி தராசு ஏந்தினர்",
+       "நெடுஞ்சாலைத் துறை கண்காணிப்பு பொறியாளர் அலுவலகம் முன்"
       ]
      },
      {
-      "title": "எப்படி நடந்தது?",
+      "title": "முக்கியக் கோரிக்கை",
       "lines": [
-       "பணி முடிந்ததும் விஷ்வா வேன் அருகில் படுத்து உறங்கினார்",
-       "வேன் டிரைவர் வேனை முன்னே நகர்த்தும்போது இது தெரியவில்லை",
-       "விஷ்வாவின் தொடைப்பகுதியில் சக்கரம் ஏறி இறங்கியது"
+       "41 மாத பணிநீக்க காலத்தை பணிக்காலமாக முறைப்படுத்த வேண்டும்",
+       "சென்னை உயர்நீதிமன்ற உத்தரவுக்குப் பிறகும் இன்னும்",
+       "தமிழக அரசு விரைந்து முடிவெடுக்க வேண்டும்"
       ]
      },
      {
-      "title": "போலீஸ் நடவடிக்கை",
+      "title": "பிற கோரிக்கைகள்",
       "lines": [
-       "காயமடைந்த விஷ்வா அரசு மருத்துவமனையில் சேர்க்கப்பட்டார்",
-       "அதிகாலையில் அவர் உயிரிழந்தார்",
-       "வேன் டிரைவர் சுரேந்தர், <b>37</b> வயது கைது செய்யப்பட்டார்"
+       "மாநில நெடுஞ்சாலைத் துறை ஆணையத்தைக் கலைக்க வேண்டும்",
+       "நெடுஞ்சாலை பராமரிப்புப் பணிகளை தனியாரிடம் வழங்கும்",
+       "மாநிலச் செயலர் ஆர். இளங்கோவன் சிறப்புரையாற்றினார்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சி ஆவின் நிறுவனத்தின் பார்க்கிங் பகுதியில் தூங்கிய டிரைவர் ஒருவர் பால் வேன் ஏறியதில் உயிரிழந்தார். உயிரிழந்தவர் புதுக்கோட்டை மாவட்டம் ஆவூரைச் சேர்ந்த விஷ்வா, 40 வயது. இவர் திருச்சி விமான நிலையம் பகுதியில் உள்ள ஆவின் நிறுவனத்துக்கு பால் கொண்டு வரும் ஒப்பந்த வேனில் டிரைவராகப் பணியாற்றினார். நவம்பர் 12ஆம் தேதி இரவு பணி முடிந்ததும் அவர் நிறுத்தப்பட்டிருந்த பால் வேன் அருகில் படுத்து உறங்கினார். இதைப் பார்க்காத வேன் டிரைவர் வேனை முன்னே நகர்த்தியபோது, விஷ்வாவின் தொடைப்பகுதியில் சக்கரம் ஏறி இறங்கியது. காயமடைந்த விஷ்வா நவம்பர் 11ஆம் தேதி நள்ளிரவு திருச்சி அரசு மருத்துவமனையில் சேர்க்கப்பட்டார். அதிகாலையில் அவர் உயிரிழந்தார். திருச்சி மாநகர போக்குவரத்து தெற்கு புலனாய்வு பிரிவு போலீசார் வழக்குப் பதிவு செய்து, வேன் டிரைவர் சுரேந்தர், 37 வயது என்பவரை கைது செய்தனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚐 திருச்சி ஆவின் பார்க்கிங்கில் தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி\n\n📰 முழு விவரம்:\nதிருச்சி ஆவின் நிறுவனத்தின் பார்க்கிங் பகுதியில் பணி முடிந்து தூங்கிய டிரைவர் விஷ்வா (40 வயது), மீது பால் வேன் ஏறியதில் அவர் உயிரிழந்தார். புதுக்கோட்டை மாவட்டம் ஆவூரைச் சேர்ந்த விஷ்வா, திருச்சி விமான நிலையம் பகுதியில் உள்ள ஆவின் நிறுவனத்துக்கு பால் கொண்டு வரும் ஒப்பந்த வேனில் டிரைவராகப் பணியாற்றினார்.\n🕘 நேரம்: நவம்பர் 12ஆம் தேதி இரவு\n🛏️ நடந்தது: நிறுத்தப்பட்டிருந்த பால் வேன் அருகில் விஷ்வா படுத்து உறங்கினார். இதைப் பார்க்காத வேன் டிரைவர் வேனை முன்னே நகர்த்தியபோது, விஷ்வாவின் தொடைப்பகுதியில் சக்கரம் ஏறி இறங்கியது.\n🏥 நவம்பர் 11ஆம் தேதி நள்ளிரவு திருச்சி அரசு மருத்துவமனையில் சேர்க்கப்பட்ட விஷ்வா, இன்று அதிகாலை உயிரிழந்தார்.\n👮 நடவடிக்கை: திருச்சி மாநகர போக்குவரத்து தெற்கு புலனாய்வு பிரிவு போலீசார் வழக்குப் பதிவு செய்து, வேன் டிரைவர் சுரேந்தர் (37 வயது), என்பவரைக் கைது செய்தனர்.\n\nSleeping driver killed by milk van at Trichy Aavin | Trichy news\n📍 திருச்சி ஆவின் வளாகம், திருச்சி மாவட்டம் | 13 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Trichy",
-   "prompts": "A white milk van with its back doors open stands in the parking area of the Aavin dairy in the Trichy airport area, its tyres close to the ground in the late night. Stacked steel milk cans and plastic crates sit on the concrete floor beside it, under the yellow glow of tube lights mounted on tall poles. Two uniformed Tamil Nadu police constables in khaki stand at a distance near the van, seen from behind, while a dairy worker in a half-sleeve shirt and veshti stands by the gate, looking towards the vehicle. Further back, a parked two-wheeler and a few other vans sit along the compound wall. The night is quiet, the air still, with no rain. Shot at eye level on 35 mm, wide enough to show the full parking area and the van, so the setting of a milk van accident at a dairy is clear. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/driver-killed-as-truck-overturns/4374510",
-   "published": "2026-11-12T21:53:02+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
+   "reel_script": "திருச்சியில் சாலைப் பணியாளர்கள் நூதன முறையில் போராட்டம் நடத்தினர். வியாழக்கிழமை நெடுஞ்சாலைத் துறை கண்காணிப்பு பொறியாளர் அலுவலகம் முன் இந்தப் போராட்டம் நடைபெற்றது. போராட்டக்காரர்கள் கண்களில் கறுப்புத் துணி கட்டி, கைகளில் நீதி தராசு ஏந்தியிருந்தனர். 41 மாத பணிநீக்க காலத்தை இன்னும் பணிக்காலமாக முறைப்படுத்தவில்லை என்பது முக்கியக் கோரிக்கை. சென்னை உயர்நீதிமன்றம் உத்தரவிட்ட பிறகும் இந்தக் காலம் முறைப்படுத்தப்படவில்லை. தமிழக அரசு விரைந்து முடிவெடுக்க வேண்டும் என்று வலியுறுத்தப்பட்டது. மாநில நெடுஞ்சாலைத் துறை ஆணையத்தைக் கலைக்க வேண்டும் என்பதும் கோரிக்கையாக இருந்தது. நெடுஞ்சாலைப் பராமரிப்புப் பணிகளைத் தனியாரிடம் வழங்கும் நடவடிக்கையைக் கைவிட வேண்டும் என்றும் கோரினர். மாநிலச் செயலர் ஆர். இளங்கோவன் சிறப்புரையாற்றினார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "✊ திருச்சியில் சாலைப் பணியாளர்கள் நூதன போராட்டம்\n\n📰 முழு விவரம்:\nவியாழக்கிழமை திருச்சியில் நெடுஞ்சாலைத் துறை சாலைப் பணியாளர் சங்கத்தினர் போராட்டம் நடத்தினர். நெடுஞ்சாலைத் துறை கண்காணிப்பு பொறியாளர் அலுவலகம் முன் நடைபெற்ற இந்தப் போராட்டத்தில் கண்களில் கறுப்புத் துணி கட்டி, கைகளில் நீதி தராசு ஏந்தினர்.\n41 மாத பணிநீக்க காலத்தை பணிக்காலமாக முறைப்படுத்த வேண்டும் என்பது முக்கியக் கோரிக்கை. சென்னை உயர்நீதிமன்றம் உத்தரவிட்ட பிறகும் இன்னும் முறைப்படுத்தப்படவில்லை.\nமாநில நெடுஞ்சாலைத் துறை ஆணையத்தைக் கலைக்க வேண்டும்; நெடுஞ்சாலைப் பராமரிப்புப் பணிகளை தனியாரிடம் வழங்கும் நடவடிக்கையைக் கைவிட வேண்டும் என்றும் வலியுறுத்தப்பட்டது.\nமாவட்டத் தலைவர்கள் ஜீவானந்தம், திரவியம், செவந்திலிங்கம் தலைமை வகித்தனர். மாநிலச் செயலர் ஆர். இளங்கோவன் சிறப்புரையாற்றினார்.\n\nRoad workers protest in Trichy over 41-month dismissal period | Trichy news\n📍 திருச்சி, திருச்சி மாவட்டம் | 13 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
+   "prompts": "Men in plain shirts and veshti stand in a row in front of a government office building in Trichy, the Highways Department monitoring engineer's office, with black cloth tied over their eyes and balance scales held up in their raised hands. A banner-less but organised crowd of road workers fills the front of the compound, some seated on plastic chairs, others standing close together under the bright daylight of a Thursday morning. Several men wear white shirts with veshti, a few in full-sleeved shirts and trousers, and a few older members in towels on their shoulders. Behind them stand a concrete office block with tiled steps, a tall tree and a parked two-wheeler at the gate, and a line of black tarmac road with an autorickshaw passing at the edge of the frame. Camera at eye level, 35 mm, wide enough to show the whole crowd, the office building and the road, capturing the scales raised high against a clear sky. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/road-workers-novel-form-of-protest",
+   "published": "2026-11-12T21:05:55.515Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/bgk9wm1u/image/upload/v1794534290/trichy360/gplwzctfwqh9ie2zrgbs.jpg"
+    "https://res.cloudinary.com/bgk9wm1u/image/upload/v1794548248/trichy360/fkliaisf3gnke9dmmjfb.jpg"
    ]
   },
   {
-   "tamil_headline": "கொடியாலம் வடக்கு புலிவலத்தில் முன்விரோதத்தில் முதியவர் அடித்துக்கொலை: 3 பேர் கைது",
-   "english_headline": "Elderly man beaten to death over old enmity in Kodiyalam North Pulivalam near Trichy; 3 arrested",
-   "category": "Crime & Safety",
-   "location": "Kodiyalam North Pulivalam near Mukkombu, Trichy district",
-   "importance": "High",
-   "scope": "local",
+   "tamil_headline": "சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி. சிறப்பு சுற்றுலா அறிவிப்பு",
+   "english_headline": "IRCTC announces special tours from Chennai and Trichy, including Sri Lanka and Himachal trips",
+   "category": "Roads & Transport",
+   "location": "Chennai and Trichy, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "குற்றச் செய்தி",
-    "loc": "கொடியாலம் வடக்கு புலிவலம்",
-    "hl1": "கொடியாலம்: முன்விரோதத்தில் முதியவர் கொலை",
-    "hl2": "3 பேர் கைது",
+    "cat": "சுற்றுலா அறிவிப்பு",
+    "loc": "திருச்சி",
+    "hl1": "திருச்சியில் இருந்து சிறப்பு சுற்றுலா",
+    "hl2": "ஐ.ஆர்.சி.டி.சி. அறிவிப்பு",
     "slides": [
      {
-      "title": "என்ன நடந்தது?",
+      "title": "என்ன அறிவிப்பு?",
       "lines": [
-       "முக்கொம்பு அருகே கொடியாலம் வடக்கு புலிவலத்தில் சம்பவம்",
-       "நடராஜன் (<b>65 வயது</b>) வயலில் நாற்று நடும் பணியில் இருந்தார்",
-       "முன்விரோதத்தில் வீரமணி, மகாமணி, சித்ரா வயலுக்கு வந்து"
+       "ஐ.ஆர்.சி.டி.சி. சென்னை, திருச்சியில் இருந்து சிறப்பு",
+       "உள்நாடு, வெளிநாட்டுப் பயணத் திட்டங்கள்",
+       "இணையதளம்: www.irctctourism.com"
       ]
      },
      {
-      "title": "தாக்குதல்",
+      "title": "வெளிநாட்டுப் பயணம்",
       "lines": [
-       "மகாமணி இரும்புக் கம்பியால் நடராஜனைத் தாக்கினார்",
-       "வீரமணி பாட்டிலால் நடராஜனைத் தாக்கினார்",
-       "பலத்த காயமடைந்த நடராஜன் திருச்சி அரசு மருத்துவமனைக்கு"
+       "இலங்கை ராமாயண யாத்திரை, கொழும்பு முதல் நுவரெலியா வரை",
+       "<b>ஆறு நாள்</b> விமான சுற்றுலா, <b>டிசம்பர் 10</b>ம் தேதி",
+       "கட்டணம் <b>ரூ.67,850</b>"
       ]
      },
      {
-      "title": "கைது, உயிரிழப்பு",
+      "title": "உள்நாட்டுப்",
       "lines": [
-       "நடராஜனின் மகன் பாரதிதாசன் ஜீயபுரம் போலீசில் புகார் அளித்தார்",
-       "வீரமணி, மகாமுனி, சித்ரா ஆகியோர் கைது செய்யப்பட்டனர்",
-       "சிகிச்சை பலனின்றி நடராஜன் உயிரிழந்தார்; வழக்கு கொலை வழக்காக"
+       "ஹிமாச்சல பிரதேசம்: சிம்லா, மணாலி, சண்டிகர், <b>ஏழு",
+       "ஒடிசா மணற்சிற்ப கலைத் திருவிழா, ஆறு நாள், <b>30</b>ம் தேதி",
+       "கொல்கட்டா, சுந்தரவனக் காடுகள், ஆறு நாள், டிசம்பர் 18ம்"
+      ]
+     },
+     {
+      "title": "வார சுற்றுலா",
+      "lines": [
+       "சென்னையில் உறுதி செய்த ரயில் பயணச்சீட்டுடன் வாரந்தோறும்",
+       "புதன்: ஷீரடி; வியாழன்: ஊட்டி மலை ரயில்",
+       "முன்பதிவு: www.irctctourism.com"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "கொடியாலம் வடக்கு புலிவலத்தில் முன்விரோதத்தில் 65 வயது முதியவர் அடித்துக்கொல்லப்பட்டார். முக்கொம்பு அருகே உள்ள கொடியாலம் வடக்கு புலிவலத்தைச் சேர்ந்த நடராஜன், கடந்த சில நாட்களுக்கு முன்பு அருகில் உள்ள வயலில் நாற்று நடும் பணியில் ஈடுபட்டிருந்தார். அப்போது முன்விரோதம் காரணமாக அதே பகுதியைச் சேர்ந்த வீரமணி, மகாமணி, சித்ரா ஆகியோர் வயலுக்குச் சென்று நடராஜனை தகாத வார்த்தைகளால் திட்டி தகராறு செய்தனர். திடீரென மகாமணி இரும்புக் கம்பியாலும், வீரமணி பாட்டிலாலும் நடராஜனைத் தாக்கினர். பலத்த காயமடைந்த நடராஜனை அக்கம் பக்கத்தினர் மீட்டு திருச்சி அரசு மருத்துவமனைக்கு அனுப்பி வைத்தனர். இந்தச் சம்பவம் தொடர்பாக நடராஜனின் மகன் பாரதிதாசன் ஜீயபுரம் போலீசில் புகார் அளித்தார். போலீசார் வழக்குப்பதிவு செய்து வீரமணி, மகாமுனி, வீரமணியின் மனைவி சித்ரா ஆகியோரைக் கைது செய்தனர். இந்நிலையில் சிகிச்சை பலனின்றி நடராஜன் உயிரிழந்தார். இதையடுத்து போலீசார் இந்த வழக்கைக் கொலை வழக்காக மாற்றி, மூன்று பேர் மீதும் வழக்குப்பதிவு செய்தனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 கொடியாலம்: முன்விரோதத்தில் முதியவர் அடித்துக்கொலை, 3 பேர் கைது\n\n📰 முழு விவரம்:\nமுக்கொம்பு அருகே உள்ள கொடியாலம் வடக்கு புலிவலத்தைச் சேர்ந்த நடராஜன் (65 வயது) கடந்த சில நாட்களுக்கு முன்பு வயலில் நாற்று நடும் பணியில் ஈடுபட்டிருந்தார். அப்போது முன்விரோதம் காரணமாக வீரமணி, மகாமணி, சித்ரா ஆகியோர் அங்கு சென்று அவரைத் தகாத வார்த்தைகளால் திட்டி தகராறு செய்தனர்.\nதிடீரென மகாமணி இரும்புக் கம்பியாலும், வீரமணி பாட்டிலாலும் நடராஜனைத் தாக்கினர். பலத்த காயமடைந்த அவர் அக்கம் பக்கத்தினரால் மீட்கப்பட்டு திருச்சி அரசு மருத்துவமனைக்கு அனுப்பப்பட்டார்.\nநடராஜனின் மகன் பாரதிதாசன் ஜீயபுரம் போலீசில் புகார் அளித்தார். வழக்குப்பதிவு செய்த போலீசார் வீரமணி, மகாமுனி, சித்ரா ஆகியோரைக் கைது செய்தனர்.\nசிகிச்சை பலனின்றி நடராஜன் உயிரிழந்தார். இதையடுத்து வழக்கு கொலை வழக்காக மாற்றப்பட்டு மூன்று பேர் மீதும் வழக்குப்பதிவு செய்யப்பட்டது.\n\nKodiyalam elderly man beaten to death, 3 arrested | Trichy news\n📍 கொடியாலம் வடக்கு புலிவலம், திருச்சி மாவட்டம் | 13 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Kodiyalam #Crime #TrichyNews #திருச்சி",
-   "prompts": "A Tamil Nadu police jeep in khaki parked on a village road beside a green paddy field near Mukkombu, with two police constables in khaki uniform standing beside the vehicle while a woman in a cotton saree and a man in a shirt and veshti are seen from behind being escorted toward it. In the background, rows of freshly planted green paddy saplings stretch across the flooded field under a bright morning sky, with a few banana trees and a Cauvery-belt village house with a tiled roof visible at the field edge. The people are seen from behind or far away, faces not visible, and the scene conveys a quiet, sombre arrest in a rural Trichy village. Daylight, soft clear light. Camera at eye level, 35 mm, wide enough to show the field, the road and the police vehicle together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-elderly-murder-case-police-inquiry",
-   "published": "2026-11-12T11:02:38Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption needs 5 hashtags (Instagram max), has 6",
+   "reel_script": "சென்னை, திருச்சியில் இருந்து ஐ ஆர் சி டி சி சிறப்பு சுற்றுலா அறிவிக்கப்பட்டுள்ளது. இந்திய ரயில்வே உணவு மற்றும் சுற்றுலா கழகம் இந்த பயணத் திட்டங்களை அறிவித்துள்ளது. இலங்கை ராமாயண யாத்திரையில் கொழும்பு முதல் நுவரெலியா வரை ஆறு நாள் விமான சுற்றுலா டிசம்பர் 10ம் தேதி தொடங்குகிறது. கட்டணம் 67,850 ரூபாய். ஹிமாச்சல பிரதேசத்துக்கு ஏழு நாள் விமான சுற்றுலா 26ம் தேதி தொடங்குகிறது. சிம்லா, மணாலி, சண்டிகர் ஆகிய இடங்களுக்குச் செல்லலாம். கட்டணம் 54,800 ரூபாய். ஒடிசா மணற்சிற்ப கலைத் திருவிழா ஆறு நாள் பயணம் 30ம் தேதி தொடங்குகிறது. கட்டணம் 43,100 ரூபாய். கொல்கத்தா மற்றும் சுந்தரவனக் காடுகள் ஆறு நாள் சுற்றுலா டிசம்பர் 18ம் தேதி தொடங்குகிறது. கட்டணம் 39,900 ரூபாய். சென்னையில் உறுதி செய்யப்பட்ட ரயில் பயணச்சீட்டுடன் வாரந்தோறும் சிறப்பு சுற்றுலா அறிமுகம் செய்யப்படுகிறது. புதன்கிழமை ஷீரடி, வியாழன்தோறும் ஊட்டி மலை ரயில் சுற்றுலா மற்றும் கன்னியாகுமரி, திருச்செந்தூர், ராமேஸ்வரம், மதுரை சுற்றுலா. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚆 சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி. சிறப்பு சுற்றுலா அறிவிப்பு\n\n📰 முழு விவரம்:\nஇந்திய ரயில்வே உணவு மற்றும் சுற்றுலா கழகம் (ஐ.ஆர்.சி.டி.சி.) சென்னை, திருச்சியில் இருந்து பல்வேறு உள்நாடு, வெளிநாட்டு சிறப்பு பயணத் திட்டங்களை அறிவித்துள்ளது.\nஇலங்கை ராமாயண யாத்திரை: கொழும்பு முதல் நுவரெலியா வரை ஆறு நாள் விமான சுற்றுலா, டிசம்பர் 10ம் தேதி. கட்டணம் ரூ.67,850.\nஹிமாச்சல பிரதேசம்: சிம்லா, மணாலி, சண்டிகர் ஏழு நாள் விமான சுற்றுலா, 26ம் தேதி. கட்டணம் ரூ.54,800.\nஒடிசா மணற்சிற்ப கலைத் திருவிழா: ஆறு நாள் பயணம், 30ம் தேதி. கட்டணம் ரூ.43,100.\nகொல்கத்தா மற்றும் சுந்தரவனக் காடுகள்: ஆறு நாள் சுற்றுலா, டிசம்பர் 18ம் தேதி. கட்டணம் ரூ.39,900.\nசென்னையில் உறுதி செய்யப்பட்ட ரயில் பயணச்சீட்டுடன் வாரந்தோறும் சிறப்பு சுற்றுலா அறிமுகம்: புதன்கிழமை ஷீரடி; வியாழன்தோறும் ஊட்டி மலை ரயில் சுற்றுலா மற்றும் கன்னியாகுமரி–திருச்செந்தூர்–ராமேஸ்வரம்–மதுரை சுற்றுலா.\n\n🌐 முன்பதிவு: www.irctctourism.com\nℹ️ மக்கள் கவனத்திற்கு: பயணத்துக்கு இணையதளத்தில் முன்பதிவு செய்யலாம்.\n\nIRCTC special tours from Chennai and Trichy | Trichy news\n📍 சென்னை, திருச்சி | 12 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #TamilNadu",
+   "prompts": "A group of travellers with suitcases and backpacks walks along the platform at Trichy Junction railway station toward a waiting long passenger train, with a pair of women in sarees and a family with children seen from behind as they board. The setting is a busy railway platform in Trichy city, with iron pillars, a station roof, and other passengers around. Several tourists carry bags and rolled travel gear, and a few hold printed ticket slips in their hands. Vehicles visible include the train with its carriages and an autorickshaw waiting outside the station gate. The scene is bright daylight with soft sun through the station roof. Camera at eye level, 35 mm, wide enough to show the platform and train. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamalar.com/news/tamil-nadu-district-news-chennai/irctc-special-tour-from-chennai-trichy/4374547",
+   "published": "2026-11-12T21:52:50+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: source/outlet name or link appears: www.",
    "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/bgk9wm1u/image/upload/v1794534338/trichy360/fslscnpcy5ns6tgoczry.jpg"
+    "https://res.cloudinary.com/bgk9wm1u/image/upload/v1794548257/trichy360/rnqwscuagcs4ncgdf0uc.jpg"
    ]
   },
   {
-   "tamil_headline": "மணப்பாறை போலீஸ் ஸ்டேஷன் வாசலில் கழுத்தை அறுத்துக்கொண்டவரால் பரபரப்பு",
-   "english_headline": "Man slashes his neck at Manapparai police station gate after wife complaint over debt; taken to government hospital",
-   "category": "Crime & Safety",
-   "location": "Manapparai police station, Manapparai, Trichy district",
+   "tamil_headline": "திருச்சி: தென்னிந்திய அறிவியல் நாடக விழா மாநிலப் போட்டிக்கு புனித சிலுவை பெண்கள் பள்ளி தேர்வு",
+   "english_headline": "St. Cross Girls' school, Theppakulam, Trichy, qualifies for the state-level South Indian science drama festival",
+   "category": "Education",
+   "location": "Theppakulam, Trichy city, Trichy district",
    "importance": "Medium",
    "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "போலீஸ் பரபரப்பு",
-    "loc": "மணப்பாறை",
-    "hl1": "மணப்பாறை போலீஸ் ஸ்டேஷன் வாசலில் பரபரப்பு",
-    "hl2": "கழுத்தை அறுத்துக்கொண்டவர்",
+    "cat": "கல்வி",
+    "loc": "தெப்பக்குளம், திருச்சி",
+    "hl1": "தெப்பக்குளம் பள்ளி",
+    "hl2": "தென்னிந்திய அறிவியல் நாடக",
     "slides": [
      {
-      "title": "என்ன நடந்தது?",
+      "title": "என்ன வெற்றி?",
       "lines": [
-       "மணப்பாறை போலீஸ் ஸ்டேஷன் வாசலில் ஒருவர் கழுத்தை கத்தியால்",
-       "விசாரணைக்கு வந்தபோது நேற்று மாலை நடந்தது",
-       "காயமடைந்தவர் மணப்பாறை அரசு மருத்துவமனையில் அனுமதி"
+       "தெப்பக்குளம் புனித சிலுவை மேல்நிலைப் பள்ளி <b>முதலிடம்</b>",
+       "திருச்சி எல்என்பி பள்ளியில் நடந்த வருவாய் மாவட்ட போட்டி",
+       "இதற்காக மாநில அளவிலான போட்டிக்குத் தேர்வு"
       ]
      },
      {
-      "title": "பின்னணி",
+      "title": "போட்டி விவரம்",
       "lines": [
-       "மணப்பாறை அருகே வடக்கு சேர்பட்டியைச் சேர்ந்தவர் மோகன்குமார்",
-       "மனைவி பெயரில் வாங்கிய கடனை திரும்பச் செலுத்தவில்லை",
-       "கடனைக் கட்டச் சொன்ன மனைவியை தாக்கினார்"
+       "6 முதல் 10ஆம் வகுப்பு மாணவர்களுக்கான போட்டி",
+       "வருவாய் மாவட்ட அளவில் <b>11 அணிகள்</b> தேர்வு",
+       "ஒவ்வொரு அணியிலும் <b>8 பேர்</b> இடம்பெற்றனர்"
       ]
      },
      {
-      "title": "புகார் & நடவடிக்கை",
+      "title": "அடுத்து என்ன?",
       "lines": [
-       "மனைவி சாந்தி மணப்பாறை போலீசில் புகார் அளித்தார்",
-       "விசாரணைக்கு வந்த மோகன்குமார் கத்தியால் கழுத்தை அறுத்தார்",
-       "போலீசாரும் அங்கிருந்தவர்களும் அவரை மீட்டனர்"
+       "மாநிலப் போட்டி கள்ளக்குறிச்சியில் வெள்ளிக்கிழமை நடைபெறும்",
+       "மாநிலப் போட்டியில் <b>38 அணிகள்</b> பங்கேற்கும்",
+       "முதல் இரண்டு இடங்கள் பெங்களூரில் தென்னிந்திய"
+      ]
+     },
+     {
+      "title": "மற்ற இடங்கள்",
+      "lines": [
+       "கே. வளையப்பட்டி நடுநிலைப் பள்ளி <b>இரண்டாமிடம்</b>",
+       "மண்ணச்சநல்லூர் அரசு மாதிரி பெண்கள் மேல்நிலைப் பள்ளி",
+       "பள்ளிக் கல்வித் துறை அதிகாரிகள் தகவல்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "மணப்பாறை போலீஸ் ஸ்டேஷன் வாசலில் ஒருவர் கழுத்தை கத்தியால் அறுத்துக்கொண்டதால் பரபரப்பு ஏற்பட்டது. நேற்று மாலை விசாரணைக்கு வந்தபோது இச்சம்பவம் நடந்தது. மணப்பாறை அருகே வடக்கு சேர்பட்டியைச் சேர்ந்த மோகன்குமார், 26 வயது கூலித் தொழிலாளி. அவர் தன் மனைவி பெயரில் கடன் வாங்கியிருந்தார். அந்தக் கடனை அவர் திரும்பச் செலுத்தவில்லை. கடனைக் கட்டச் சொல்லி மனைவி சாந்தி வற்புறுத்தினார். ஆத்திரமடைந்த மோகன்குமார், நேற்று முன்தினம் மனைவியைத் தாக்கினார். இதுகுறித்து சாந்தி மணப்பாறை போலீசில் புகார் அளித்தார். விசாரணைக்கு வந்த மோகன்குமார், தன்னிடம் இருந்த சிறிய கத்தியால் போலீஸ் ஸ்டேஷன் வாசலிலேயே கழுத்தை அறுத்துக்கொண்டார். போலீசாரும் அங்கிருந்தவர்களும் அவரை மீட்டு, மணப்பாறை அரசு மருத்துவமனையில் சேர்த்தனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 மணப்பாறை போலீஸ் ஸ்டேஷன் வாசலில் கழுத்தை அறுத்துக்கொண்டவரால் பரபரப்பு\n\n📰 முழு விவரம்:\nமணப்பாறை அருகே வடக்கு சேர்பட்டியைச் சேர்ந்த மோகன்குமார் (26 வயது), மனைவி பெயரில் வாங்கிய கடனைத் திரும்பச் செலுத்தவில்லை. கடனைக் கட்டச் சொன்ன மனைவி சாந்தியை நேற்று முன்தினம் தாக்கினார். சாந்தி மணப்பாறை போலீசில் புகார் அளித்தார். நேற்று மாலை விசாரணைக்கு வந்த மோகன்குமார், போலீஸ் ஸ்டேஷன் வாசலில் தன்னிடம் இருந்த சிறிய கத்தியால் கழுத்தை அறுத்துக்கொண்டார். போலீசாரும் அங்கிருந்தவர்களும் அவரை மீட்டு, மணப்பாறை அரசு மருத்துவமனையில் அனுமதித்தனர்.\n📍 இடம்: மணப்பாறை போலீஸ் ஸ்டேஷன் வாசல், திருச்சி மாவட்டம்\n🗓️ நாள்: நேற்று மாலை (நவம்பர் 12)\n\nManapparai police station man slashes neck, hospitalised | Trichy news\n📍 மணப்பாறை, திருச்சி மாவட்டம் | 13 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Manapparai #TrichyNews #திருச்சி",
-   "prompts": "A group of Tamil Nadu police constables in khaki uniform hurry toward the open gate of a Manapparai police station in the evening, rushing to help a man who has collapsed near the entrance. The police station is a modest single or two-storey government building with a plain compound wall and an iron gate, set on a quiet town road in Manapparai, Trichy district. Several onlookers in shirts, trousers and sarees stand at a respectful distance on the roadside, seen from behind or far away, their faces not visible. A parked two-wheeler and a white police jeep stand near the gate. The scene is in the early evening with warm street light just coming on and soft orange sky light. Shot at eye level, 35 mm lens, wide enough to show the gate, the road and the people reacting, with no visible blood or injury and no readable signboards. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/man-stabbed-to-death-at-police-station-gate/4374557",
-   "published": "2026-11-12T21:53:14+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); the article says he does daily-wage work (தினக்கூலி), which is roughly consistent, but the caption's '(26 வயது)' age is fine; however the caption and reel_script both say the wife was 'தாக்கினார்' on 'நேற்று முன்தினம' which matches the article.; fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is not in the article; the article only says 'நேற்று மாலை' and gives no calendar date.; fact-check: The caption's English line 'Manapparai police station man slashes neck, hospitalised | Trichy news' is an English addition not present in the article, and it is a second language block rather than a clear Tamil statement, though it is part of the caption body rather than the footer.; fact-check: The reel_script's first sentence says the incident happened 'நேற்று மாலை விசாரணைக்கு வந்தபோது' and the caption says 'நேற்று மாலை விசாரணைக்கு வந்த' which are consistent, but the reel_script omits that the wife's complaint was filed with the police before the incident, which is an important sequence fact (complaint led to the summons) that is only implied.",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 4 validator problem(s)",
+   "reel_script": "தெப்பக்குளம் புனித சிலுவை மேல்நிலைப் பள்ளி மாநில அளவிலான போட்டிக்குத் தேர்வாகியுள்ளது. திருச்சியில் 6 முதல் 10ஆம் வகுப்பு வரை படிக்கும் பள்ளி மாணவர்களுக்கான தென்னிந்திய அறிவியல் நாடக விழா போட்டி, கல்வி மாவட்ட அளவில் அண்மையில் நடைபெற்றது. இதில் பல்வேறு அணிகள் பங்கேற்றன. வருவாய் மாவட்ட அளவிலான போட்டிக்கு 11 அணிகள் தேர்வாகின. ஒவ்வொரு அணியிலும் இயக்குநர், நடிகர்கள் மற்றும் தொழில்நுட்பக் கலைஞர்கள் என 8 பேர் இடம்பெற்றிருந்தனர். வருவாய் மாவட்ட அளவிலான போட்டி புதன்கிழமை திருச்சி எல்என்பி பள்ளியில் நடைபெற்றது. இதில் தெப்பக்குளம் புனித சிலுவை பெண்கள் மேல்நிலைப் பள்ளி முதலிடம் பிடித்தது. கே. வளையப்பட்டி ஊராட்சி ஒன்றிய நடுநிலைப் பள்ளி இரண்டாமிடத்தையும், மண்ணச்சநல்லூர் அரசு மாதிரி பெண்கள் மேல்நிலைப் பள்ளி மூன்றாமிடத்தையும் பிடித்தன. முதலிடம் பிடித்த அணி, கள்ளக்குறிச்சியில் வெள்ளிக்கிழமை நடைபெறும் மாநில அளவிலான போட்டியில் பங்கேற்கத் தேர்வு செய்யப்பட்டுள்ளது. மாநில அளவிலான போட்டியில் வருவாய் மாவட்டத்துக்கு ஒரு அணி வீதம் 38 அணிகள் பங்கேற்கும். வெற்றிபெற்று முதல் இரண்டு இடங்களைப் பிடிக்கும் அணிகள் பெங்களூரில் நடைபெறும் தென்னிந்திய அளவிலான போட்டியில் பங்கேற்கும் என பள்ளிக் கல்வித் துறை அதிகாரிகள் தெரிவித்துள்ளனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🎭 தெப்பக்குளம் பள்ளி மாநிலப் போட்டிக்குத் தேர்வு\n\n📰 முழு விவரம்:\nதென்னிந்திய அறிவியல் நாடக விழா போட்டியின் வருவாய் மாவட்ட அளவிலான போட்டியில் தெப்பக்குளம் புனித சிலுவை பெண்கள் மேல்நிலைப் பள்ளி முதலிடம் பிடித்தது. இந்தப் போட்டி திருச்சி எல்என்பி பள்ளியில் புதன்கிழமை நடைபெற்றது. இதன் மூலம் கள்ளக்குறிச்சியில் வெள்ளிக்கிழமை நடைபெறும் மாநில அளவிலான போட்டிக்குத் தேர்வாகியுள்ளது.\n📍 இடம்: தெப்பக்குளம், திருச்சி\n🏫 2ஆம் இடம்: கே. வளையப்பட்டி ஊராட்சி ஒன்றிய நடுநிலைப் பள்ளி\n🏫 3ஆம் இடம்: மண்ணச்சநல்லூர் அரசு மாதிரி பெண்கள் மேல்நிலைப் பள்ளி\nℹ️ மாநிலப் போட்டியில் வருவாய் மாவட்டத்துக்கு ஒரு அணி வீதம் 38 அணிகள் பங்கேற்கும். முதல் இரண்டு இடங்களைப் பிடிக்கும் அணிகள் பெங்களூரில் நடைபெறும் தென்னிந்திய அளவிலான போட்டியில் பங்கேற்கும்.\n\nTrichy school selected for state science drama festival | Trichy news\n📍 தெப்பக்குளம், திருச்சி | 12 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Education",
+   "prompts": "A team of schoolgirls in Tamil Nadu school uniform performs a science drama on a stage in a school auditorium in Theppakulam, Trichy, after winning the district-level South Indian Science Drama Festival. Behind them is a simple painted backdrop and a few props: a cardboard model of a science experiment, a wooden table with chart papers and a small trophy. Some students in the team stand at the side of the stage in their uniforms, while a teacher in a sari watches from the front row of plastic chairs in the hall. The stage is lit by ordinary tube lights from the ceiling, daylight comes through high windows, and the atmosphere is festive. The people are seen from behind or far away, with no readable text or signboards visible. Shot at eye level in a wide frame at 35 mm so the stage, props and audience are all visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/holy-cross-girls-school-selected-for-the-state-level-south-indian-science-drama-festival-competition",
+   "published": "2026-11-12T21:12:47.095Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 6 ('தென்னிந்திய அறிவியல் நாடக விழா போட்டியின் மாநில அளவிலான போட்'); 10 ('தென்னிந்திய அறிவியல் நாடக விழா போட்டியின் மாநில அளவிலான போட்'); 11 ('இதில், பல்வேறு அணிகள் பங்கேற்ற நிலையில் வருவாய் மாவட்ட அளவில'); 8 ('ஒவ்வொரு அணியிலும் இயக்குநா், நடிகா்கள் மற்றும் தொழில்நுட்பக்')",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/bgk9wm1u/image/upload/v1794534344/trichy360/eppdox0ogji41g94ewaf.jpg"
+    "https://res.cloudinary.com/bgk9wm1u/image/upload/v1794548265/trichy360/yumagyynxhaugfopmyzb.jpg"
    ]
   }
  ]
