@@ -1,21 +1,8 @@
-20:16:00 round 2026-11-13_20: news published 13 Nov 17:53 -> 13 Nov 20:16 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-20:16:00 insights 2026-11-13T20:16+05:30 (9 reels): topic weights None; best openings []
-20:16:46 39 links on the two papers' Trichy pages
-20:17:35 skipped: published before this window=19, not Trichy district=8, already posted=4, same event already posted=2, shop offer / advertisement=1, power cut - posted automatically=1, no title=1
-20:17:35 list: 0 new + 5 earlier news not posted yet
-20:17:35    1. [பொது] பெண்ணை பலாத்காரம் செய்தவருக்கு 10 ஆண்டு (தினமலர் + தினமணி) (earlier)
-20:17:35    2. [பொது] மாவட்ட மைய நூலகத்தில் தேசிய நூலக வார விழா நாளை தொடக்கம்: பல்வேறு நிகழ் (தினமணி) (earlier)
-20:17:35    3. [பொது] கிராமங்களில் நிலையான குடிநீா் சேவையை உறுதி செய்வதே ஜல் ஜீவன் இயக்கத்தி (தினமணி) (earlier)
-20:17:35    4. [பொது] ஆர்டர் வாய்ப்பு (தினமலர்) (earlier)
-20:17:35    5. [பொது] மேகதாது அணை கட்ட எந்த சூழலிலும் நாங்கள் அனுமதிக்கமாட்டோம்: அமைச்சர் என (தினத்தந்தி) (earlier)
-20:17:35 automatic pick (owner 2 Nov): no e-mail - the top 3 are written at once
-ROUND=2026-11-13_20
-20:17:39 could not mark the automatic pick on the page: bridge pickAuto: no such round
-20:17:39 decided: no submit by 09:16 PM - automatic top 3 -> 3 news to write and post
-PICK_URLS=https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/10-years-for-man-who-raped-woman/4374571 https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/national-library-week-celebrations-to-begin-tomorrow-at-the-district-central-library-various-events-organized https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/the-objective-of-the-jal-jeevan-mission-is-to-ensure-a-sustainable-drinking-water-supply-in-villages-union-minister-c-r-patil
-20:21:37 3 listed news now in the Sheet
-20:21:48 instagram duplicate check trichy: 10 recent posts read
-20:21:48 verify 2026-11-13_20: 0 of 3 picked news posted, 0 skipped on purpose, 3 waiting for their posting start
-20:21:48    WAITING C6c771c9: waiting RN-11: waits for posting start (08:00 IST) - கிராமங்களில் நிலையான குடிநீா் சேவையை உறுதி செய்வதே ஜல் ஜீவன்
-20:21:48    WAITING Ca6a89cd: waiting RN-13: waits for posting start (08:00 IST) - பெண்ணை பலாத்காரம் செய்தவருக்கு 10 ஆண்டு
-20:21:48    WAITING Ccf64f94: waiting RN-12: waits for posting start (08:00 IST) - மாவட்ட மைய நூலகத்தில் தேசிய நூலக வார விழா நாளை தொடக்கம்: பல்
+21:51:09 round 2026-11-13_21: news published 13 Nov 20:16 -> 13 Nov 21:51 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+21:51:09 insights 2026-11-13T21:51+05:30 (9 reels): topic weights None; best openings []
+21:51:43 32 links on the two papers' Trichy pages
+21:52:13 skipped: published before this window=19, already posted=4, not Trichy district=3, same event already posted=1, shop offer / advertisement=1, power cut - posted automatically=1
+21:52:13 list: 0 new + 1 earlier news not posted yet
+21:52:13    1. [பொது] ஆர்டர் வாய்ப்பு (தினமலர்) (earlier)
+21:52:13 automatic pick (owner 2 Nov): no e-mail - the top 3 are written at once
+ROUND=2026-11-13_21
