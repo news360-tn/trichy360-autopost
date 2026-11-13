@@ -1864,9 +1864,9 @@ class FreePicturesFirst30Oct(unittest.TestCase):
             for k, v in old.items():
                 os.environ.pop(k, None) if v is None else os.environ.__setitem__(k, v)
 
-    def test_two_pictures_per_reel(self):      # owner 12 Nov: ONE picture per reel on the new pages
-        self.assertEqual(1, collect.pictures_per_reel())
-        self.assertEqual(1, json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["free_images"]["pictures_per_reel"])
+    def test_two_pictures_per_reel(self):      # owner 13 Nov: 2 pictures per reel on the new pages (article photos first)
+        self.assertEqual(2, collect.pictures_per_reel())
+        self.assertEqual(2, json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["free_images"]["pictures_per_reel"])
 
 
 class FreeWriters30Oct(unittest.TestCase):
