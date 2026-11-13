@@ -1,12 +1,11 @@
-11:19:35 SKIP RN-4 held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
+11:31:10 SKIP RN-4 held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
 ::warning title=Held from posting RN-4::held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
-11:19:38 story catch-up trichy: quota 9/50, 5 recent posts, 4 live stories, owner ids ['17841462048887226', '28956510467350700']
-11:19:38 3 stories in the queue, ready to post: 2
-11:19:38   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-11:19:38    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 4.1 ready= False set_started= True
-11:19:38    RN-5 review= 'Auto' images= 99 spec= 751 pages= ['trichy'] links= '' '' age_h= 0.2 ready= True set_started= True
-11:19:38    RN-6 review= 'Auto' images= 99 spec= 882 pages= ['trichy'] links= '' '' age_h= 0.2 ready= True set_started= True
-11:19:39 publishing quota trichy: 9/50
-11:19:40 instagram duplicate check trichy: 5 recent posts read
-11:19:40    RN-6 waits for the 12-minute gap after the last post on ['trichy']
-11:19:40    RN-5 waits for the 12-minute gap after the last post on ['trichy']
+11:31:13 story catch-up trichy: quota 9/50, 5 recent posts, 4 live stories, owner ids ['17841462048887226', '28956510467350700']
+11:31:13 3 stories in the queue, ready to post: 2
+11:31:13   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+11:31:13    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 4.3 ready= False set_started= True
+11:31:13    RN-5 review= 'Auto' images= 99 spec= 751 pages= ['trichy'] links= '' '' age_h= 0.4 ready= True set_started= True
+11:31:13    RN-6 review= 'Auto' images= 99 spec= 882 pages= ['trichy'] links= '' '' age_h= 0.4 ready= True set_started= True
+11:31:15 publishing quota trichy: 9/50
+11:31:16 instagram duplicate check trichy: 5 recent posts read
+11:31:17    RN-5 waits for the 12-minute gap after the last post on ['trichy']
