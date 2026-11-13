@@ -1,52 +1,6 @@
 {
- "last_end": "2026-11-13T07:08:07.795440+05:30",
+ "last_end": "2026-11-13T10:59:27.095506+05:30",
  "pool": {
-  "Ce72deba": {
-   "id": "Ce72deba",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/man-stabbed-to-death-at-police-station-gate/4374557",
-   "title": "போலீஸ் ஸ்டேஷன் வாசலில் கழுத்தறுத்து கொண்டவரால் பரபரப்பு",
-   "summary": "திருச்சி: மணப்பாறை போலீஸ் ஸ்டேஷன் வாசலில், கழுத்தை கத்தியால் அறுத்து கொண்டவரால் பரபரப்பு ஏற்பட்டது. திருச்சி மாவட்டம், மணப்பாறை அருகே வடக்கு சேர்பட்டியைச் சேர்ந்தவர் மோகன்குமார், 26.",
-   "source": "தினமலர் + தினமணி",
-   "published": "2026-11-12T21:53:14+05:30",
-   "category": "பொது",
-   "score": 13.2,
-   "power_cut": false,
-   "alts": [
-    "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/man-slits-his-own-throat-on-police-station-premises-causing-a-stir",
-    "https://www.dinamalar.com/news/tamil-nadu-news/man-stabbed-to-death-at-police-station-gate/4374557"
-   ],
-   "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T07:13:58.693583+05:30",
-   "posted": true
-  },
-  "C6fd5c8e": {
-   "id": "C6fd5c8e",
-   "url": "https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-elderly-murder-case-police-inquiry",
-   "title": "திருச்சி அருகே முன்விரோதத்தில் முதியவர் அடித்துக்கொலை- பெண் உள்பட 3 பேர் கைது",
-   "summary": "திருச்சியை அடுத்த முக்கொம்பு அருகே உள்ள கொடியாலம் வடக்கு புலிவலத்தை சேர்ந்தவர் நடராஜன் (வயது 65). கடந்த சில நாட்களுக்கு முன்பு இவர் அருகே உள்ள ஒரு வயலில் நாற்று நடும் பணியில் ஈடுபட்டு இருந்தார்.முதியவர் மீது தாக்குதல்...",
-   "source": "மாலைமலர்",
-   "published": "2026-11-12T11:02:38Z",
-   "category": "குற்றம்",
-   "score": 11.2,
-   "power_cut": false,
-   "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T07:13:58.693589+05:30",
-   "posted": true
-  },
-  "C244ddd5": {
-   "id": "C244ddd5",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/driver-killed-as-truck-overturns/4374510",
-   "title": "தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி",
-   "summary": "திருச்சி: திருச்சி ஆவின் நிறுவனத்தில், பார்க்கிங் பகுதியில் துாங்கிய டிரைவர் விஷ்வா, 40, மீது பால்வேன் ஏறியதில் பரிதாபமாக உயிரிழந்தார். புதுக்கோட்டை மாவட்டம், ஆவூரைச் சேர்ந்தவர் விஷ்வா.",
-   "source": "தினமலர்",
-   "published": "2026-11-12T21:53:02+05:30",
-   "category": "விபத்து",
-   "score": 10.0,
-   "power_cut": false,
-   "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T07:13:58.693594+05:30",
-   "posted": true
-  },
   "Cb700483": {
    "id": "Cb700483",
    "url": "https://www.dinakaran.com/news/prisoner_escapes_from_court",
@@ -203,6 +157,26 @@
    "refused": {
     "Cb700483": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
    }
+  },
+  "2026-11-13_10": {
+   "window": [
+    "2026-11-13T07:08:07.795440+05:30",
+    "2026-11-13T10:59:27.095506+05:30"
+   ],
+   "ids": [
+    "Cbd6f19f",
+    "C9898622",
+    "Ca91a51d",
+    "C2a5ff5c",
+    "Ca6a89cd",
+    "Ccf64f94",
+    "C6c771c9",
+    "C92f9220"
+   ],
+   "sent": false,
+   "deadline": "2026-11-13T11:59:27.095506+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}

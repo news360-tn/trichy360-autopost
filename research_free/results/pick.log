@@ -1,59 +1,15 @@
-07:08:07 round 2026-11-13_07: news published 12 Nov 16:00 -> 13 Nov 07:08 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-07:08:07 insights 2026-11-13T07:08+05:30 (0 reels): topic weights None; best openings []
-07:12:05 123 links on the two papers' Trichy pages
-07:13:54 skipped: not Trichy district=81, published before this window=20, shop offer / advertisement=2, not Tamil=2, power cut - posted automatically=1, no title=1
-07:13:54 list: 12 new + 0 earlier news not posted yet
-07:13:54    1. [பொது] போலீஸ் ஸ்டேஷன் வாசலில் கழுத்தறுத்து கொண்டவரால் பரபரப்பு (தினமலர் + தினமணி)
-07:13:54    2. [குற்றம்] திருச்சி அருகே முன்விரோதத்தில் முதியவர் அடித்துக்கொலை- பெண் உள்பட 3 பே (மாலைமலர்)
-07:13:54    3. [விபத்து] தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி (தினமலர்)
-07:13:54    4. [குற்றம்] தண்டனை அறிவிக்கப்பட்ட கைதி நீதிமன்றத்தில் இருந்து தப்பி ஓட்டம் - Dinak (தினகரன்)
-07:13:54    5. [கல்வி] தென்னிந்திய அறிவியல் நாடக விழா மாநிலப் போட்டிக்கு புனித சிலுவை பெண்கள் (தினமணி)
-07:13:54    6. [சாலை] சாலைப் பணியாளா்கள் நூதன போராட்டம் (தினமணி)
-07:13:54    7. [குற்றம்] கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி (இந்து தமிழ்)
-07:13:54    8. [பொது] சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி., சிறப்பு சுற்றுலா (தினமலர்)
-07:13:54    9. [பொது] பெண்ணை பலாத்காரம் செய்தவருக்கு 10 ஆண்டு (தினமலர் + தினமணி)
-07:13:54   10. [பொது] மாவட்ட மைய நூலகத்தில் தேசிய நூலக வார விழா நாளை தொடக்கம்: பல்வேறு நிகழ் (தினமணி)
-07:13:54   11. [பொது] கிராமங்களில் நிலையான குடிநீா் சேவையை உறுதி செய்வதே ஜல் ஜீவன் இயக்கத்தி (தினமணி)
-07:13:54   12. [பொது] மேகதாது அணை கட்ட எந்த சூழலிலும் நாங்கள் அனுமதிக்கமாட்டோம்: அமைச்சர் என (தினத்தந்தி)
-07:13:54 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-13_07
-07:13:58 could not mark the automatic pick on the page: bridge pickAuto: no such round
-07:13:58 decided: no submit by 08:08 AM - automatic top 4 -> 4 news to write and post
-PICK_URLS=https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/man-stabbed-to-death-at-police-station-gate/4374557 https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-elderly-murder-case-police-inquiry https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/driver-killed-as-truck-overturns/4374510 https://www.dinakaran.com/news/prisoner_escapes_from_court
-07:15:54 1 picked news refused by the writer - not offered again
-07:15:54 3 listed news now in the Sheet
-07:16:02 instagram duplicate check trichy: 1 recent posts read
-07:16:02 verify 2026-11-13_07: 0 of 4 picked news posted, 2 skipped on purpose
-07:16:02    SKIPPED Cb700483: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - தண்டனை அறிவிக்கப்பட்ட கைதி நீதிமன்றத்தில் இருந்து தப்பி ஓட்ட
-07:16:02    SKIPPED Ce72deba: skipped RN-4: held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's - போலீஸ் ஸ்டேஷன் வாசலில் கழுத்தறுத்து கொண்டவரால் பரபரப்பு
-07:16:02    NOT POSTED C244ddd5: queued RN-2 (Queued) - தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி
-07:16:02    NOT POSTED C6fd5c8e: queued RN-3 (Queued) - திருச்சி அருகே முன்விரோதத்தில் முதியவர் அடித்துக்கொலை- பெண் 
-07:21:08 instagram duplicate check trichy: 1 recent posts read
-07:21:08 verify 2026-11-13_07: 0 of 4 picked news posted, 2 skipped on purpose
-07:21:08    SKIPPED Cb700483: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - தண்டனை அறிவிக்கப்பட்ட கைதி நீதிமன்றத்தில் இருந்து தப்பி ஓட்ட
-07:21:08    SKIPPED Ce72deba: skipped RN-4: held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's - போலீஸ் ஸ்டேஷன் வாசலில் கழுத்தறுத்து கொண்டவரால் பரபரப்பு
-07:21:08    NOT POSTED C244ddd5: queued RN-2 (Queued) - தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி
-07:21:08    NOT POSTED C6fd5c8e: queued RN-3 (Queued) - திருச்சி அருகே முன்விரோதத்தில் முதியவர் அடித்துக்கொலை- பெண் 
-07:26:15 instagram duplicate check trichy: 2 recent posts read
-07:26:15 verify 2026-11-13_07: 1 of 4 picked news posted, 2 skipped on purpose
-07:26:15    SKIPPED Cb700483: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - தண்டனை அறிவிக்கப்பட்ட கைதி நீதிமன்றத்தில் இருந்து தப்பி ஓட்ட
-07:26:15    SKIPPED Ce72deba: skipped RN-4: held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's - போலீஸ் ஸ்டேஷன் வாசலில் கழுத்தறுத்து கொண்டவரால் பரபரப்பு
-07:26:15    NOT POSTED C244ddd5: queued RN-2 (Queued) - தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி
-07:31:23 instagram duplicate check trichy: 2 recent posts read
-07:31:23 verify 2026-11-13_07: 1 of 4 picked news posted, 2 skipped on purpose
-07:31:23    SKIPPED Cb700483: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - தண்டனை அறிவிக்கப்பட்ட கைதி நீதிமன்றத்தில் இருந்து தப்பி ஓட்ட
-07:31:23    SKIPPED Ce72deba: skipped RN-4: held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's - போலீஸ் ஸ்டேஷன் வாசலில் கழுத்தறுத்து கொண்டவரால் பரபரப்பு
-07:31:23    NOT POSTED C244ddd5: queued RN-2 (Queued) - தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி
-07:36:31 instagram duplicate check trichy: 2 recent posts read
-07:36:31 verify 2026-11-13_07: 1 of 4 picked news posted, 2 skipped on purpose
-07:36:31    SKIPPED Cb700483: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - தண்டனை அறிவிக்கப்பட்ட கைதி நீதிமன்றத்தில் இருந்து தப்பி ஓட்ட
-07:36:31    SKIPPED Ce72deba: skipped RN-4: held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's - போலீஸ் ஸ்டேஷன் வாசலில் கழுத்தறுத்து கொண்டவரால் பரபரப்பு
-07:36:31    NOT POSTED C244ddd5: queued RN-2 (Queued) - தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி
-07:41:38 instagram duplicate check trichy: 2 recent posts read
-07:41:38 verify 2026-11-13_07: 1 of 4 picked news posted, 2 skipped on purpose
-07:41:38    SKIPPED Cb700483: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - தண்டனை அறிவிக்கப்பட்ட கைதி நீதிமன்றத்தில் இருந்து தப்பி ஓட்ட
-07:41:38    SKIPPED Ce72deba: skipped RN-4: held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's - போலீஸ் ஸ்டேஷன் வாசலில் கழுத்தறுத்து கொண்டவரால் பரபரப்பு
-07:41:38    NOT POSTED C244ddd5: queued RN-2 (Queued) - தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி
-07:46:43 verify 2026-11-13_07: 2 of 4 picked news posted, 2 skipped on purpose
-07:46:43    SKIPPED Cb700483: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - தண்டனை அறிவிக்கப்பட்ட கைதி நீதிமன்றத்தில் இருந்து தப்பி ஓட்ட
-07:46:43    SKIPPED Ce72deba: skipped RN-4: held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's - போலீஸ் ஸ்டேஷன் வாசலில் கழுத்தறுத்து கொண்டவரால் பரபரப்பு
+10:59:27 round 2026-11-13_10: news published 13 Nov 07:08 -> 13 Nov 10:59 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+10:59:27 insights 2026-11-13T10:59+05:30 (3 reels): topic weights None; best openings []
+11:00:21 46 links on the two papers' Trichy pages
+11:00:58 skipped: published before this window=20, not Trichy district=16, shop offer / advertisement=1, already posted=1, power cut - posted automatically=1, no title=1
+11:00:58 list: 0 new + 8 earlier news not posted yet
+11:00:58    1. [கல்வி] தென்னிந்திய அறிவியல் நாடக விழா மாநிலப் போட்டிக்கு புனித சிலுவை பெண்கள் (தினமணி) (earlier)
+11:00:58    2. [சாலை] சாலைப் பணியாளா்கள் நூதன போராட்டம் (தினமணி) (earlier)
+11:00:58    3. [குற்றம்] கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி (இந்து தமிழ்) (earlier)
+11:00:58    4. [பொது] சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி., சிறப்பு சுற்றுலா (தினமலர்) (earlier)
+11:00:58    5. [பொது] பெண்ணை பலாத்காரம் செய்தவருக்கு 10 ஆண்டு (தினமலர் + தினமணி) (earlier)
+11:00:58    6. [பொது] மாவட்ட மைய நூலகத்தில் தேசிய நூலக வார விழா நாளை தொடக்கம்: பல்வேறு நிகழ் (தினமணி) (earlier)
+11:00:58    7. [பொது] கிராமங்களில் நிலையான குடிநீா் சேவையை உறுதி செய்வதே ஜல் ஜீவன் இயக்கத்தி (தினமணி) (earlier)
+11:00:58    8. [பொது] மேகதாது அணை கட்ட எந்த சூழலிலும் நாங்கள் அனுமதிக்கமாட்டோம்: அமைச்சர் என (தினத்தந்தி) (earlier)
+11:00:58 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-13_10
