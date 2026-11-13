@@ -26,7 +26,8 @@
    "score": 7.0,
    "power_cut": false,
    "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T11:01:01.914420+05:30"
+   "picked_at": "2026-11-13T11:01:01.914420+05:30",
+   "posted": true
   },
   "C9898622": {
    "id": "C9898622",
@@ -39,7 +40,8 @@
    "score": 6.8,
    "power_cut": false,
    "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T11:01:01.914427+05:30"
+   "picked_at": "2026-11-13T11:01:01.914427+05:30",
+   "posted": true
   },
   "Ca91a51d": {
    "id": "Ca91a51d",
@@ -52,7 +54,8 @@
    "score": 4.0,
    "power_cut": false,
    "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T11:01:01.914432+05:30"
+   "picked_at": "2026-11-13T11:01:01.914432+05:30",
+   "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
   },
   "C2a5ff5c": {
    "id": "C2a5ff5c",
@@ -65,7 +68,8 @@
    "score": 4.0,
    "power_cut": false,
    "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T11:01:01.914435+05:30"
+   "picked_at": "2026-11-13T11:01:01.914435+05:30",
+   "posted": true
   },
   "Ca6a89cd": {
    "id": "Ca6a89cd",
@@ -194,7 +198,10 @@
     "C9898622",
     "Ca91a51d",
     "Cbd6f19f"
-   ]
+   ],
+   "refused": {
+    "Ca91a51d": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
+   }
   }
  },
  "retry": {}
