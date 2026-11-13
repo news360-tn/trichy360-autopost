@@ -81,6 +81,12 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-13 | `65d2014` | reel: premium story panel (owner 13 Nov) - photo top 60 %, emerald panel with the headline and captions, champagne gold, ivory cards, serif Tamil headline, no black; district map + town pin (OpenStreetMap), word-by-word headline, count-up numbers, news-type layer (power-cut time bar / accident / rain / police), smooth loop, light sound effects. Voice, timing and facts unchanged |
+| 2026-11-13 | `1f3bf6b` | pick: written and posted |
+| 2026-11-13 | `d46eb1f` | powercut: notices written |
+| 2026-11-13 | `f3714b9` | pick: picked news saved |
+| 2026-11-13 | `1effb9b` | pick: picked news saved |
+| 2026-11-13 | `99cd998` | pick: list sent |
 | 2026-11-13 | `0ca9a9d` | 2 pictures per reel (owner 13 Nov): the news article's own photos first (vision-checked), one photo -> a closer crop as the second, none -> 2 AI pictures |
 | 2026-11-13 | `8e2625e` | powercut: notices written |
 | 2026-11-13 | `0c5b308` | powercut: notices written |
@@ -105,10 +111,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-13 | `03d5cae` | powercut: notices written |
 | 2026-11-13 | `2ff0a3d` | powercut: notices written |
 | 2026-11-13 | `c5f80be` | reel: new Trichy 360 footer logo (same size and format as Namakkal/Rasipuram, transparent surround); waiting reels rebuilt |
-| 2026-11-13 | `c08f701` | powercut: notices written |
-| 2026-11-13 | `ccce0ff` | stories shared |
-| 2026-11-13 | `534ed15` | powercut: notices written |
-| 2026-11-13 | `2061636` | rasipalan posted |
-| 2026-11-13 | `f12b80d` | pick: written and posted |
-| 2026-11-13 | `4fce457` | powercut: notices written |
 <!-- recent-changes:end -->
