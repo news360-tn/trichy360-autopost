@@ -1,74 +1,15 @@
-10:59:27 round 2026-11-13_10: news published 13 Nov 07:08 -> 13 Nov 10:59 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-10:59:27 insights 2026-11-13T10:59+05:30 (3 reels): topic weights None; best openings []
-11:00:21 46 links on the two papers' Trichy pages
-11:00:58 skipped: published before this window=20, not Trichy district=16, shop offer / advertisement=1, already posted=1, power cut - posted automatically=1, no title=1
-11:00:58 list: 0 new + 8 earlier news not posted yet
-11:00:58    1. [கல்வி] தென்னிந்திய அறிவியல் நாடக விழா மாநிலப் போட்டிக்கு புனித சிலுவை பெண்கள் (தினமணி) (earlier)
-11:00:58    2. [சாலை] சாலைப் பணியாளா்கள் நூதன போராட்டம் (தினமணி) (earlier)
-11:00:58    3. [குற்றம்] கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி (இந்து தமிழ்) (earlier)
-11:00:58    4. [பொது] சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி., சிறப்பு சுற்றுலா (தினமலர்) (earlier)
-11:00:58    5. [பொது] பெண்ணை பலாத்காரம் செய்தவருக்கு 10 ஆண்டு (தினமலர் + தினமணி) (earlier)
-11:00:58    6. [பொது] மாவட்ட மைய நூலகத்தில் தேசிய நூலக வார விழா நாளை தொடக்கம்: பல்வேறு நிகழ் (தினமணி) (earlier)
-11:00:58    7. [பொது] கிராமங்களில் நிலையான குடிநீா் சேவையை உறுதி செய்வதே ஜல் ஜீவன் இயக்கத்தி (தினமணி) (earlier)
-11:00:58    8. [பொது] மேகதாது அணை கட்ட எந்த சூழலிலும் நாங்கள் அனுமதிக்கமாட்டோம்: அமைச்சர் என (தினத்தந்தி) (earlier)
-11:00:58 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-13_10
-11:01:01 could not mark the automatic pick on the page: bridge pickAuto: no such round
-11:01:01 decided: no submit by 11:59 AM - automatic top 4 -> 4 news to write and post
-PICK_URLS=https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/holy-cross-girls-school-selected-for-the-state-level-south-indian-science-drama-festival-competition https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/road-workers-novel-form-of-protest https://www.hindutamil.in/news/crime/prisoner-escaped-after-verdict https://www.dinamalar.com/news/tamil-nadu-district-news-chennai/irctc-special-tour-from-chennai-trichy/4374547
-11:07:52 1 picked news refused by the writer - not offered again
-11:07:52 3 listed news now in the Sheet
-11:08:02 instagram duplicate check trichy: 4 recent posts read
-11:08:02 verify 2026-11-13_10: 0 of 4 picked news posted, 1 skipped on purpose
-11:08:02    SKIPPED Ca91a51d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி
-11:08:02    NOT POSTED C2a5ff5c: queued RN-6 (Queued) - சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி., சிறப்பு சுற்று
-11:08:02    NOT POSTED C9898622: queued RN-5 (Queued) - சாலைப் பணியாளா்கள் நூதன போராட்டம்
-11:08:02    NOT POSTED Cbd6f19f: queued RN-7 (Queued) - தென்னிந்திய அறிவியல் நாடக விழா மாநிலப் போட்டிக்கு புனித சிலு
-11:13:10 instagram duplicate check trichy: 4 recent posts read
-11:13:10 verify 2026-11-13_10: 0 of 4 picked news posted, 1 skipped on purpose
-11:13:10    SKIPPED Ca91a51d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி
-11:13:10    NOT POSTED C2a5ff5c: queued RN-6 (Queued) - சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி., சிறப்பு சுற்று
-11:13:10    NOT POSTED C9898622: queued RN-5 (Queued) - சாலைப் பணியாளா்கள் நூதன போராட்டம்
-11:13:10    NOT POSTED Cbd6f19f: queued RN-7 (Queued) - தென்னிந்திய அறிவியல் நாடக விழா மாநிலப் போட்டிக்கு புனித சிலு
-11:18:17 instagram duplicate check trichy: 5 recent posts read
-11:18:17 verify 2026-11-13_10: 1 of 4 picked news posted, 1 skipped on purpose
-11:18:17    SKIPPED Ca91a51d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி
-11:18:17    NOT POSTED C2a5ff5c: queued RN-6 (Queued) - சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி., சிறப்பு சுற்று
-11:18:17    NOT POSTED C9898622: queued RN-5 (Queued) - சாலைப் பணியாளா்கள் நூதன போராட்டம்
-11:23:24 instagram duplicate check trichy: 5 recent posts read
-11:23:24 verify 2026-11-13_10: 1 of 4 picked news posted, 1 skipped on purpose
-11:23:24    SKIPPED Ca91a51d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி
-11:23:24    NOT POSTED C2a5ff5c: queued RN-6 (Queued) - சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி., சிறப்பு சுற்று
-11:23:24    NOT POSTED C9898622: queued RN-5 (Queued) - சாலைப் பணியாளா்கள் நூதன போராட்டம்
-11:28:30 instagram duplicate check trichy: 5 recent posts read
-11:28:30 verify 2026-11-13_10: 1 of 4 picked news posted, 1 skipped on purpose
-11:28:30    SKIPPED Ca91a51d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி
-11:28:30    NOT POSTED C2a5ff5c: queued RN-6 (Queued) - சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி., சிறப்பு சுற்று
-11:28:30    NOT POSTED C9898622: queued RN-5 (Queued) - சாலைப் பணியாளா்கள் நூதன போராட்டம்
-11:33:37 instagram duplicate check trichy: 5 recent posts read
-11:33:37 verify 2026-11-13_10: 1 of 4 picked news posted, 1 skipped on purpose
-11:33:37    SKIPPED Ca91a51d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி
-11:33:37    NOT POSTED C2a5ff5c: queued RN-6 (Queued) - சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி., சிறப்பு சுற்று
-11:33:37    NOT POSTED C9898622: queued RN-5 (Queued) - சாலைப் பணியாளா்கள் நூதன போராட்டம்
-11:38:44 instagram duplicate check trichy: 6 recent posts read
-11:38:44 verify 2026-11-13_10: 2 of 4 picked news posted, 1 skipped on purpose
-11:38:44    SKIPPED Ca91a51d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி
-11:38:44    NOT POSTED C9898622: queued RN-5 (Queued) - சாலைப் பணியாளா்கள் நூதன போராட்டம்
-11:43:50 instagram duplicate check trichy: 6 recent posts read
-11:43:50 verify 2026-11-13_10: 2 of 4 picked news posted, 1 skipped on purpose
-11:43:50    SKIPPED Ca91a51d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி
-11:43:50    NOT POSTED C9898622: queued RN-5 (Queued) - சாலைப் பணியாளா்கள் நூதன போராட்டம்
-11:48:58 instagram duplicate check trichy: 6 recent posts read
-11:48:58 verify 2026-11-13_10: 2 of 4 picked news posted, 1 skipped on purpose
-11:48:58    SKIPPED Ca91a51d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி
-11:48:58    NOT POSTED C9898622: queued RN-5 (Queued) - சாலைப் பணியாளா்கள் நூதன போராட்டம்
-11:54:04 instagram duplicate check trichy: 6 recent posts read
-11:54:04 verify 2026-11-13_10: 2 of 4 picked news posted, 1 skipped on purpose
-11:54:04    SKIPPED Ca91a51d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி
-11:54:04    NOT POSTED C9898622: queued RN-5 (Queued) - சாலைப் பணியாளா்கள் நூதன போராட்டம்
-11:59:11 instagram duplicate check trichy: 6 recent posts read
-11:59:11 verify 2026-11-13_10: 2 of 4 picked news posted, 1 skipped on purpose
-11:59:11    SKIPPED Ca91a51d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி
-11:59:11    NOT POSTED C9898622: queued RN-5 (Queued) - சாலைப் பணியாளா்கள் நூதன போராட்டம்
-12:04:16 verify 2026-11-13_10: 3 of 4 picked news posted, 1 skipped on purpose
-12:04:16    SKIPPED Ca91a51d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - கஞ்சா கடத்திய வழக்கில் தண்டனை அறிவித்ததும் தப்பிய கைதி
+17:53:32 round 2026-11-13_17: news published 13 Nov 10:59 -> 13 Nov 17:53 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+17:53:32 insights 2026-11-13T17:53+05:30 (6 reels): topic weights None; best openings []
+17:55:56 76 links on the two papers' Trichy pages
+17:56:58 skipped: not Trichy district=41, published before this window=20, already posted=3, shop offer / advertisement=1, power cut - posted automatically=1, no title=1, only a headline=1
+17:56:58 list: 4 new + 4 earlier news not posted yet
+17:56:58    1. [பொது] திருச்சி: பாலம் இல்லாததால் வாய்க்காலில் இறங்கி சடலத்தைத் தூக்கிச் சென் (தினத்தந்தி)
+17:56:58    2. [பொது] அங்கன்வாடி குழந்தைகளுக்கு கேக் தராதது ஏன்? - அமைச்சர் ரமேஷ் விளக்கம் (இந்து தமிழ்)
+17:56:58    3. [பொது] குடமுருட்டி ஆற்றில் ரூ.25 கோடியில் புதிய உயர்மட்ட பாலம் - அமைச்சர் ஆதவ (தினத்தந்தி)
+17:56:58    4. [பொது] ஆர்டர் வாய்ப்பு (தினமலர்)
+17:56:58    5. [பொது] பெண்ணை பலாத்காரம் செய்தவருக்கு 10 ஆண்டு (தினமலர் + தினமணி) (earlier)
+17:56:58    6. [பொது] மாவட்ட மைய நூலகத்தில் தேசிய நூலக வார விழா நாளை தொடக்கம்: பல்வேறு நிகழ் (தினமணி) (earlier)
+17:56:58    7. [பொது] கிராமங்களில் நிலையான குடிநீா் சேவையை உறுதி செய்வதே ஜல் ஜீவன் இயக்கத்தி (தினமணி) (earlier)
+17:56:58    8. [பொது] மேகதாது அணை கட்ட எந்த சூழலிலும் நாங்கள் அனுமதிக்கமாட்டோம்: அமைச்சர் என (தினத்தந்தி) (earlier)
+17:56:58 automatic pick (owner 2 Nov): no e-mail - the top 3 are written at once
+ROUND=2026-11-13_17

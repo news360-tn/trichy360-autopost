@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-13T10:59:27.095506+05:30",
+ "last_end": "2026-11-13T17:53:32.929039+05:30",
  "pool": {
   "Cb700483": {
    "id": "Cb700483",
@@ -15,34 +15,6 @@
    "picked_at": "2026-11-13T07:13:58.693597+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
   },
-  "Cbd6f19f": {
-   "id": "Cbd6f19f",
-   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/holy-cross-girls-school-selected-for-the-state-level-south-indian-science-drama-festival-competition",
-   "title": "தென்னிந்திய அறிவியல் நாடக விழா மாநிலப் போட்டிக்கு புனித சிலுவை பெண்கள் பள்ளி தோ்வு",
-   "summary": "தென்னிந்திய அறிவியல் நாடக விழா போட்டியின் மாநில அளவிலான போட்டிக்கு தெப்பக்குளம் புனித சிலுவை மேல்நிலைப் பள்ளி தோ்வாகியுள்ளது..திருச்சியில் 6 முதல் 10-ஆம் வகுப்பு வரை படிக்கும் பள்ளி மாணவா்களுக்கான தென்னிந்திய அறிவியல...",
-   "source": "தினமணி",
-   "published": "2026-11-12T21:12:47.095Z",
-   "category": "கல்வி",
-   "score": 7.0,
-   "power_cut": false,
-   "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T11:01:01.914420+05:30",
-   "posted": true
-  },
-  "C9898622": {
-   "id": "C9898622",
-   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/road-workers-novel-form-of-protest",
-   "title": "சாலைப் பணியாளா்கள் நூதன போராட்டம்",
-   "summary": "பணிநீக்க காலத்தை பணிக்காலமாக முறைப்படுத்த வேண்டும் உள்ளிட்ட பல்வேறு கோரிக்கைகளை வலியுறுத்தி, திருச்சியில் நெடுஞ்சாலைத் துறை சாலைப் பணியாளா் சங்கத்தினா் வியாழக்கிழமை கண்களில் கறுப்புத் துணியை கட்டிக் கொண்டு, கைகளில் நீ...",
-   "source": "தினமணி",
-   "published": "2026-11-12T21:05:55.515Z",
-   "category": "சாலை",
-   "score": 6.8,
-   "power_cut": false,
-   "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T11:01:01.914427+05:30",
-   "posted": true
-  },
   "Ca91a51d": {
    "id": "Ca91a51d",
    "url": "https://www.hindutamil.in/news/crime/prisoner-escaped-after-verdict",
@@ -56,20 +28,6 @@
    "listed_at": "2026-11-13T07:08:07.795440+05:30",
    "picked_at": "2026-11-13T11:01:01.914432+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
-  },
-  "C2a5ff5c": {
-   "id": "C2a5ff5c",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-chennai/irctc-special-tour-from-chennai-trichy/4374547",
-   "title": "சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி., சிறப்பு சுற்றுலா",
-   "summary": "இந்திய ரயில்வே உணவு மற்றும் சுற்றுலா கழகம் எனும் ஐ.ஆர்.சி.டி.சி., நிறுவனம், சென்னை மற்றும் திருச்சியில் இருந்து, பல்வேறு உள்நாட்டு, வெளிநாட்டு சிறப்பு பயண திட்டங்களை அறிவித்துள்ளது.",
-   "source": "தினமலர்",
-   "published": "2026-11-12T21:52:50+05:30",
-   "category": "பொது",
-   "score": 4.0,
-   "power_cut": false,
-   "listed_at": "2026-11-13T07:08:07.795440+05:30",
-   "picked_at": "2026-11-13T11:01:01.914435+05:30",
-   "posted": true
   },
   "Ca6a89cd": {
    "id": "Ca6a89cd",
@@ -122,6 +80,54 @@
    "score": 2.0,
    "power_cut": false,
    "listed_at": "2026-11-13T07:08:07.795440+05:30"
+  },
+  "C9c8cf4b": {
+   "id": "C9c8cf4b",
+   "url": "https://www.dailythanthi.com/news/tamilnadu/trichy-tragedy-of-having-to-carry-a-body-down-a-canal-due-to-lack-of-a-bridge",
+   "title": "திருச்சி: பாலம் இல்லாததால் வாய்க்காலில் இறங்கி சடலத்தைத் தூக்கிச் சென்ற அவலம்",
+   "summary": "திருச்சி,திருச்சி மாவட்டம், திருவெறும்பூர் அருகே உள்ள தட்டான்குளம் வாய்க்காலில் பாலம் இல்லாததால், சடலத்தை அப்பகுதி பொதுமக்கள் வாய்க்காலில் இறங்கி சுமந்து செல்லும் அவல நிலை ஏற்பட்டுள்ளது.",
+   "source": "தினத்தந்தி",
+   "published": "2026-11-13T06:40:59Z",
+   "category": "பொது",
+   "score": 6.0,
+   "power_cut": false,
+   "listed_at": "2026-11-13T17:53:32.929039+05:30"
+  },
+  "C8b3d16f": {
+   "id": "C8b3d16f",
+   "url": "https://www.hindutamil.in/news/tamilnadu/minister-ramesh-press-meet-in-trichy-2",
+   "title": "அங்கன்வாடி குழந்தைகளுக்கு கேக் தராதது ஏன்? - அமைச்சர் ரமேஷ் விளக்கம்",
+   "summary": "திருச்சி: “மாணவச் செல்வங்களிடம் எந்த பிரிவினையும் பாகுபாடும் பார்ப்பது இல்லை. அனைவருக்கும் தேவையானதை முதல்வர் செய்து கொடுப்பார்” என அமைச்சர் ரமேஷ் தெரிவித்துள்ளார்.",
+   "source": "இந்து தமிழ்",
+   "published": "2026-11-13T07:42:24Z",
+   "category": "பொது",
+   "score": 6.0,
+   "power_cut": false,
+   "listed_at": "2026-11-13T17:53:32.929039+05:30"
+  },
+  "Cd017079": {
+   "id": "Cd017079",
+   "url": "https://www.dailythanthi.com/amp/story/news/tamilnadu/new-high-level-bridge-across-the-kudamurutti-river-at-a-cost-of-rs-25-crore-durai-vaiko-submits-request-to-minister-adhav-arjuna",
+   "title": "குடமுருட்டி ஆற்றில் ரூ.25 கோடியில் புதிய உயர்மட்ட பாலம் - அமைச்சர் ஆதவ் அர்ஜுனாவிடம் துரை வைகோ கோரிக்கை!",
+   "summary": "திருச்சி, திருச்சி குடமுருட்டி ஆற்றில் ரூ.25 கோடியில் புதிய உயர்மட்ட பாலம் கட்ட வேண்டும் எனவும் கோவில்பட்டி அரசு மருத்துவமனை சாலைகளை சீரமைக்க வேண்டும் எனவும் துரை வைகோரி கோரிக்கை வைத்திருந்தார்.",
+   "source": "தினத்தந்தி",
+   "published": "2026-11-13T09:44:51Z",
+   "category": "பொது",
+   "score": 6.0,
+   "power_cut": false,
+   "listed_at": "2026-11-13T17:53:32.929039+05:30"
+  },
+  "C1582626": {
+   "id": "C1582626",
+   "url": "https://www.dinamalar.com/news/business-general-news/the-possibility-of-ordering/4374984",
+   "title": "ஆர்டர் வாய்ப்பு",
+   "summary": "காகித ஆலையில் இரும்பு கட்டமைப்பு பணிக்கு வாய்ப்பு தமிழ்நாடு செய்தித்தாள் காகித நிறுவனத்தின் திருச்சி மாவட்டம், மொண்டிப்பட்டி இரண்டாவது ஆலையில், இரும்பு கட்டமைப்புகளை தயாரித்து பொருத்துவதற்கு ஒப்பந்தப்புள்ளிகள் வரவேற்க...",
+   "source": "தினமலர்",
+   "published": "2026-11-13T16:46:18+05:30",
+   "category": "பொது",
+   "score": 3.0,
+   "power_cut": false,
+   "listed_at": "2026-11-13T17:53:32.929039+05:30"
   }
  },
  "rounds": {
@@ -202,6 +208,26 @@
    "refused": {
     "Ca91a51d": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
    }
+  },
+  "2026-11-13_17": {
+   "window": [
+    "2026-11-13T10:59:27.095506+05:30",
+    "2026-11-13T17:53:32.929039+05:30"
+   ],
+   "ids": [
+    "C9c8cf4b",
+    "C8b3d16f",
+    "Cd017079",
+    "C1582626",
+    "Ca6a89cd",
+    "Ccf64f94",
+    "C6c771c9",
+    "C92f9220"
+   ],
+   "sent": false,
+   "deadline": "2026-11-13T18:53:32.929039+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}
