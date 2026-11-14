@@ -55,6 +55,25 @@ def boost(text):
     return float(w) if w is not None else PRIOR.get(t, 0.0)
 
 
+# owner 14 Nov: each round's news is chosen by THIS page's insights. A topic's own weight is trusted once this page has at least
+# TRUST_N measured reels of it; until then the pattern proven on Coimbatore 360 (272 reels) + Namakkal 360 is used
+# (power cut > accident / rain > crime > jobs; politics and temple news lowest). Switches over by itself as views build up.
+TRUST_N = 5
+PATTERN = {"power_cut": 1.5, "accident": 0.9, "weather": 0.8, "crime": 0.7, "jobs": 0.6, "civic": 0.0, "education": -0.1,
+           "temple": -0.1, "sports_culture": -0.2, "poultry_agri": -0.3, "politics": -0.5, "other": 0.0}
+
+
+def reach_weight(text, data=None):
+    """(weight, topic, 'page' | 'pattern') - how well news of this headline's topic reaches people on this page"""
+    t = topic(text)
+    d = load() if data is None else data
+    n = (d.get("topic_n") or {}).get(t, 0)
+    w = (d.get("topic_weight") or {}).get(t)
+    if w is not None and n >= TRUST_N:
+        return float(w), t, "page"
+    return PATTERN.get(t, 0.0), t, "pattern"
+
+
 def hints():
     """short style guidance for the writer prompt; '' until enough posts have been measured"""
     d = load()

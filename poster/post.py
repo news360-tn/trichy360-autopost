@@ -1117,10 +1117,23 @@ def _story_room():
     return USED[PAGE] + 1 <= TOTAL[PAGE] - reserve
 
 
-def publish_story(token, media_url, kind):
+def urgent_stories_only():
+    """owner 14 Nov (plan A): 24 news a day x 2 posts would use all 50 of Instagram's 24-hour posts - the story share is kept for
+    power cuts / urgent news only (config stories_urgent_only; false = every post gets its story as before)"""
+    return bool(CONFIG.get("stories_urgent_only", False))
+
+
+def wants_story(row):
+    return not urgent_stories_only() or row is None or is_urgent(row)
+
+
+def publish_story(token, media_url, kind, row=None):
     """Instagram Story (image or video) on the same account. Never raises: a story problem must not undo the post."""
     try:
         if not CONFIG.get("post_stories", True):
+            return ""
+        if not wants_story(row):
+            log("no story share: only power cuts / urgent news go to the story (owner 14 Nov)")
             return ""
         if not _story_room():
             log(f"story waits: {USED[PAGE]}/{TOTAL[PAGE]} posts in 24 h - posted by the story catch-up when the limit allows")
@@ -1180,7 +1193,7 @@ def story_catchup(max_new=6):
             mine = {str(x) for x in (uid, me.get("id"), me.get("user_id")) if x}      # 1 Nov: a post's owner id is the app id, not user_id
             q = (ig("GET", f"{uid}/content_publishing_limit", token, fields="quota_usage,config").get("data") or [{}])[0]
             used, total = int(q.get("quota_usage", 0)), min(int((q.get("config") or {}).get("quota_total", 50) or 50), IG_LIMIT)
-            feed = ig("GET", f"{uid}/media", token, fields="id,media_type,media_url,timestamp,owner,children{media_type,media_url}", limit=40).get("data", [])
+            feed = ig("GET", f"{uid}/media", token, fields="id,media_type,media_url,timestamp,owner,caption,children{media_type,media_url}", limit=40).get("data", [])
             stories = sorted(t for t in (_ts(x.get("timestamp", "")) for x in ig("GET", f"{uid}/stories", token, fields="id,timestamp").get("data", [])) if t)
             now = datetime.now(timezone.utc)
             made = tries = 0
@@ -1189,6 +1202,10 @@ def story_catchup(max_new=6):
                 t = _ts(m.get("timestamp", ""))
                 if not t or str((m.get("owner") or {}).get("id") or uid) not in mine:
                     continue      # a collab post of the other page: that page shares it
+                if urgent_stories_only():      # owner 14 Nov (plan A): only a power-cut post is caught up
+                    import freshness
+                    if not freshness.is_power_cut((m.get("caption") or "")[:300]):
+                        continue
                 tkey = f"t:{pg}:{t:%Y-%m-%dT%H:%M}"
                 if not timedelta(minutes=20) <= now - t <= timedelta(hours=20) or m.get("id") in shared or tkey in shared:
                     continue      # (1 Nov: a late story is not inside the 30-minute window - the rasipalan got a 2nd story)
@@ -1470,7 +1487,7 @@ def run_ready_reel(row, page):
         mid, link, collab_ok, why = publish_reel(token, url, caption, bool(COLLAB), "")
         log("ready reel posted", sid, link)
         try:
-            publish_story(token, url, "video")
+            publish_story(token, url, "video", row)
         except Exception as e:
             log("story not made (post itself is fine):", e)
         share_facebook(sid, "reel", [url], caption, row=row)
@@ -1719,7 +1736,7 @@ def run_story_page(row, page):
                 done.append(("carousel", link))
                 try:
                     if media.get("story"):
-                        publish_story(token, media["story"], "image")
+                        publish_story(token, media["story"], "image", row)
                 except Exception as e:
                     log("story image not made (post itself is fine):", e)
                 fb = share_facebook(sid, "photos", urls, caption, row=row)
@@ -1756,7 +1773,7 @@ def run_story_page(row, page):
                                        "media_urls": [url], "caption": caption, "voice": voice, "collab": collab_ok, "checks": note})
                 done.append(("reel", link))
                 first_comment(token, mid, sid, 1)
-                publish_story(token, url, "video")
+                publish_story(token, url, "video", row)
                 try:      # website OFF for now: website.send does nothing without WEBSITE_INGEST_KEY (a website problem never stops posting)
                     import website
                     website.send(row, link)
@@ -1987,7 +2004,8 @@ def main():
                         if todo and len(dups) == len(todo):
                             log("  ", r["story_id"], "skipped: already on Instagram", dups)
                             continue
-                        pg = [p for p in todo if p not in full and left.get(p, per_story) >= per_story
+                        ps = per_story if wants_story(r) else 1      # owner 14 Nov: no story share = 1 post for this news
+                        pg = [p for p in todo if p not in full and left.get(p, ps) >= ps
                               and (is_urgent(r) or USED.get(p, 0) < SOFT_CAP)]      # owner 2 Nov (review): over the cap only urgent news
                         if todo and not pg:
                             log("  ", r["story_id"], "waits: Instagram's 24-hour post limit is (almost) used on", todo)

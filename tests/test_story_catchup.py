@@ -35,6 +35,7 @@ class StoryCatchUp(unittest.TestCase):
                 return {"id": "c"}
             return {"id": "p"}
         with mock.patch.object(post, "DRY", False), mock.patch.object(post, "LABEL", {"x": "X"}), \
+                mock.patch.dict(post.CONFIG, {"stories_urgent_only": False}), \
                 mock.patch.object(post, "bridge_get", return_value={"token": "t"}), mock.patch.object(post, "ig_account", return_value=("U", "u")), \
                 mock.patch.object(post, "ig", side_effect=ig), mock.patch.object(post, "wait_ready"), \
                 mock.patch.object(post, "upload", side_effect=lambda p, k: "https://cloud/" + Path(p).name), \

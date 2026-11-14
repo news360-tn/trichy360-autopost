@@ -19,6 +19,8 @@ class PickFlow(unittest.TestCase):
     def setUp(self):
         self.d = tempfile.TemporaryDirectory()
         self.old = (pick.STATE, pick.URLS, pick.DRY, pick.EMAIL)
+        self._ir = pick.INSIGHT_RANK
+        pick.INSIGHT_RANK = False      # owner 14 Nov: the insight pick has its own tests (test_insight_pick.py)
         pick.EMAIL = True      # these tests cover the e-mail flow (it can be switched on again with PICK_EMAIL=1)
         pick.STATE = Path(self.d.name) / "pick_state.json"
         pick.URLS = Path(self.d.name) / "urls.txt"
@@ -27,6 +29,7 @@ class PickFlow(unittest.TestCase):
 
     def tearDown(self):
         pick.STATE, pick.URLS, pick.DRY, pick.EMAIL = self.old
+        pick.INSIGHT_RANK = getattr(self, "_ir", pick.INSIGHT_RANK)
         self.d.cleanup()
 
     def run_collect(self, now, found, recent=()):
@@ -298,10 +301,12 @@ class AutomaticTwentyADay(unittest.TestCase):
         self.d = tempfile.TemporaryDirectory()
         self.old = (pick.STATE, pick.URLS, pick.DRY, pick.EMAIL)
         pick.STATE, pick.URLS, pick.DRY, pick.EMAIL = Path(self.d.name) / "s.json", Path(self.d.name) / "u.txt", False, False
+        self._ir, pick.INSIGHT_RANK = pick.INSIGHT_RANK, False      # owner 14 Nov: the insight pick has its own tests
         self.sent = []
 
     def tearDown(self):
         pick.STATE, pick.URLS, pick.DRY, pick.EMAIL = self.old
+        pick.INSIGHT_RANK = getattr(self, "_ir", pick.INSIGHT_RANK)
         self.d.cleanup()
 
     def collect(self, now, cands, check):

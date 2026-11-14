@@ -103,6 +103,7 @@ def main():
                 m = statistics.median(v)
                 tw[t] = round(max(-0.5, min(1.5, (m - 1.0) * 2)), 2)      # +1.5 max, -0.5 min: public-service news (weather, power cuts) is never buried the page median (clamped)
         out["topic_weight"] = tw
+        out["topic_n"] = {t: len(v) for t, v in by.items() if t != "other"}      # owner 14 Nov: reels measured per topic (learned.TRUST_N)
         hours = {}
         for h in rows:
             hr = datetime.datetime.fromisoformat(h["t"].replace("+0000", "+00:00")).astimezone(IST).hour

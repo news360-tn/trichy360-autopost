@@ -32,7 +32,7 @@ jobs:
       BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
       BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
       CITY_ONLY: "0"
-      PICK_AUTO_TOP: "3"      # owner 13 Nov: 6 rounds x 3 = 18 news a day (was 4+4+4 = 12; each round finds plenty of local news)
+      PICK_ROUND_TOP: "1=2,5=5,9=5,13=3,17=5,21=4"      # owner 14 Nov: news per round at LEAST (01:00 2, 05:00 5, 09:00 5, 13:00 3, 17:00 5, 21:00 4 = 24 a day) + up to 3 more of well-watched topics, chosen by the page's insights
       PICK_EMAIL: "0"      # owner 2 Nov: "do not ask me to confirm" - no list e-mail, the top news are written at once
       PICK_WAIT_MIN: "60"
       PICK_REQUIRE_EMAIL: "0"

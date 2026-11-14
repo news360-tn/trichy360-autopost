@@ -25,6 +25,14 @@ URLS = HERE / "results" / "pick_urls.txt"
 AUTO_TOP = int(os.environ.get("PICK_AUTO_TOP", "4"))      # owner 2 Nov: 12 -> 8
 WAIT_MIN = int(os.environ.get("PICK_WAIT_MIN", "60"))
 LEFT_HOURS = 24
+# owner 14 Nov: the news a round writes at least (IST hour of the round = count). A round starts with every news not posted yet
+# (this round's new news + earlier rounds' leftovers < 24 h old) and writes only its top N by this page's insights.
+ROUND_TOP = os.environ.get("PICK_ROUND_TOP", "1=2,5=5,9=5,13=3,17=5,21=4")
+INSIGHT_RANK = os.environ.get("PICK_INSIGHT_RANK", "1") == "1"      # 0 = the earlier order (power cut, then score)
+# owner 14 Nov 15:12: the round's count is the MINIMUM - more news people watch is written too: news of a topic that reaches well on
+# this page (insight weight >= EXTRA_WEIGHT) beyond the count, at most EXTRA_MAX more a round (Instagram's 50 posts a day stay safe)
+EXTRA_WEIGHT = float(os.environ.get("PICK_EXTRA_WEIGHT", "0.5"))
+EXTRA_MAX = int(os.environ.get("PICK_EXTRA_MAX", "3"))
 AD = re.compile(r"தள்ளுபடி|ஆஃபர்|ஆபர்|அள்ளுங்க|அள்ளுவோம்|விற்பனை தொடக்கம்|ஷோரூம்|புதிய கிளை திறப்பு|சிறப்பு விற்பனை")      # advertorials, not news
 DRY = os.environ.get("PICK_DRY", "") in ("1", "true", "yes")
 # owner 2 Nov: "do not ask me to confirm" - no e-mail; every round's top news (PICK_AUTO_TOP, 8 + 6 + 6 = 20 a day) is written at once.
@@ -243,6 +251,38 @@ def auto_ok(it):
         return ""
 
 
+def round_top(t):
+    """the round's count (minimum) for the round run at time t: the slot whose hour is the latest one <= t's hour (a late run keeps its slot)"""
+    try:
+        slots = sorted((int(h), int(n)) for h, n in (x.split("=") for x in ROUND_TOP.split(",") if x.strip()))
+    except Exception:
+        slots = []
+    if not slots:
+        return AUTO_TOP
+    hit = [n for h, n in slots if h <= t.hour]
+    return hit[-1] if hit else slots[-1][1]
+
+
+def reach_score(it, at):
+    """the round's order: the news' own score + this page's insight weight for its topic (x3) - a little for every 4 hours of age"""
+    import learned
+    w, t, how = learned.reach_weight(it.get("title", ""))
+    pt = when(it.get("published")) or when(it.get("listed_at"))
+    age = max(0.0, (at - pt).total_seconds() / 3600) if pt else 0.0
+    return float(it.get("score", 0)) + 3 * w - min(3.0, 0.5 * int(age // 4)), t, w, how
+
+
+def reach_rank(items, at):
+    """power cuts first (always written), then by reach_score"""
+    sc = {}
+    for x in items:
+        try:
+            sc[x["id"]] = reach_score(x, at)
+        except Exception:
+            sc[x["id"]] = (float(x.get("score", 0)), "?", 0.0, "-")
+    return sorted(items, key=lambda x: (not x.get("power_cut"), -sc[x["id"]][0], str(x.get("published", "")))), sc
+
+
 def rank(items):
     return sorted(items, key=lambda x: (not x.get("power_cut"), -x.get("score", 0), str(x.get("published", ""))), reverse=False)
 
@@ -426,6 +466,26 @@ def cmd_decide():
         if DRY or now() >= deadline:
             break
         time.sleep(60)
+    if chosen is None and INSIGHT_RANK:
+        at = when((rnd.get("window") or ["", ""])[1]) or now()
+        top = round_top(at)
+        items, sc = reach_rank([pool[i] for i in rnd["ids"] if i in pool], at)
+        left_out = [(x["title"], auto_ok(x)) for x in items if auto_ok(x)]
+        items = [x for x in items if not auto_ok(x)]
+        for t_, why_ in left_out:
+            log(f"   not picked automatically ({why_}): {t_[:70]}")
+        power = [x for x in items if x.get("power_cut")]      # a power cut is always written, on top of the round's count
+        rest = [x for x in items if not x.get("power_cut")]
+        extra = [x for x in rest[top:] if sc[x["id"]][2] >= EXTRA_WEIGHT][:EXTRA_MAX]      # more news people watch, beyond the count
+        pick_ = power + rest[:top] + extra
+        log(f"round {rid} (at least {top}, up to {EXTRA_MAX} more of well-watched topics): {len(items)} news to choose from ({sum(1 for x in items if x.get('leftover'))} from earlier rounds), "
+            f"ranked by this page's insights")
+        for i, x in enumerate(items, 1):
+            s_, t_, w_, how_ = sc[x["id"]]
+            log(f"  {'EXTRA' if x in extra else ('PICK ' if x in pick_ else '     ')} {i:2}. {s_:5.1f} [{t_} {w_:+.2f} {how_}]{' (earlier)' if x.get('leftover') else ''} {x['title'][:60]}")
+        chosen = [x["id"] for x in pick_]
+        how = (f"automatic: top {top} of {len(items)} by insights" + (f" + {len(extra)} more well-watched" if extra else "")
+               + (f" + {len(power)} power cut" if power else ""))
     if chosen is None:
         items = rank([pool[i] for i in rnd["ids"] if i in pool])
         left_out = [(x["title"], auto_ok(x)) for x in items if auto_ok(x)]
