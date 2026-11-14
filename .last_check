@@ -1,18 +1,17 @@
-18:02:26 SKIP RN-4 held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
-18:02:26 SKIP RN-19 held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the article.
+18:14:00 SKIP RN-4 held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
+18:14:00 SKIP RN-19 held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the article.
 ::warning title=Held from posting RN-19::held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the article.
-18:02:26 SKIP RN-22 held: fact-check problems - numbers not found in the article: 1000
+18:14:00 SKIP RN-22 held: fact-check problems - numbers not found in the article: 1000
 ::warning title=Held from posting RN-22::held: fact-check problems - numbers not found in the article: 1000
-18:02:26 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-18:02:28 story catch-up trichy: quota 27/50, 22 recent posts, 12 live stories, owner ids ['17841462048887226', '28956510467350700']
-18:02:28 6 stories in the queue, ready to post: 2
-18:02:28   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-18:02:28    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 34.8 ready= False set_started= True
-18:02:28    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 4.0 ready= False set_started= True
-18:02:28    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 0.4 ready= False set_started= True
-18:02:28    RN-23 review= 'Auto' images= 197 spec= 632 pages= ['trichy'] links= '' '' age_h= 0.3 ready= True set_started= True
-18:02:28    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 0.3 ready= False set_started= True
-18:02:28    RN-25 review= 'Auto' images= 197 spec= 724 pages= ['trichy'] links= '' '' age_h= 0.3 ready= True set_started= True
-18:02:29 publishing quota trichy: 27/50
-18:02:30 instagram duplicate check trichy: 22 recent posts read
-18:02:30    RN-25 waits for the 12-minute gap after the last post on ['trichy']
+18:14:00 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+18:14:02 story catch-up trichy: quota 26/50, 23 recent posts, 11 live stories, owner ids ['17841462048887226', '28956510467350700']
+18:14:02 5 stories in the queue, ready to post: 1
+18:14:02   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+18:14:02    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 35.0 ready= False set_started= True
+18:14:02    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 4.2 ready= False set_started= True
+18:14:02    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 0.6 ready= False set_started= True
+18:14:02    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 0.5 ready= False set_started= True
+18:14:02    RN-25 review= 'Auto' images= 197 spec= 724 pages= ['trichy'] links= '' '' age_h= 0.5 ready= True set_started= True
+18:14:04 publishing quota trichy: 26/50
+18:14:05 instagram duplicate check trichy: 23 recent posts read
+18:14:05    RN-25 waits for the 12-minute gap after the last post on ['trichy']
