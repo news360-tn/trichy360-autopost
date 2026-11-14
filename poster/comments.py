@@ -20,9 +20,10 @@ import post      # noqa: E402
 DAYS = int(os.environ.get("COMMENT_DAYS", "60") or 60)      # owner 11 Nov: the old comments never answered are offered too, not only new ones
 MAX_PER_RUN = int(os.environ.get("COMMENT_MAX", "20") or 20)      # one Google Form holds up to 20 comments
 DRY = os.environ.get("DRY_RUN", "") in ("1", "true", "yes")
-# owner 12 Nov (new pages): ONLY critical comments reach the owner - a fake-news / doubt claim, a complaint, abuse or spam.
-# Emoji-only, praise, thanks, questions and normal chat are recorded as "ignored" (never e-mailed, never checked again).
-CRITICAL = set((os.environ.get("COMMENT_KINDS") or "doubt_or_fake_claim,complaint,spam_or_abuse").split(","))
+# owner 14 Nov: ONLY important comments reach the owner by e-mail - a question to the owner, a fake-news / doubt claim, a complaint or
+# criticism, interesting information from a viewer, abuse. Emoji-only, praise, thanks and normal chat are recorded as "ignored"
+# (never e-mailed, never checked again).
+CRITICAL = set((os.environ.get("COMMENT_KINDS") or "question,doubt_or_fake_claim,complaint,info_from_viewer,spam_or_abuse").split(","))
 HANDLES = {"trichy": "trichy360.official"}      # the page's Instagram handle (placeholder - confirm before going live)
 
 SYSTEM = """You help the owner of a Tamil local-news Instagram page reply to viewers' comments. You NEVER post anything - the owner chooses.
@@ -36,7 +37,7 @@ Rules for every reply:
 - A complaint about a local problem: thank them and say we will bring it to the notice of the officials / follow up.
 - Praise: a short thank-you (one option may ask them to share the page with friends).
 - spam_or_abuse: "options" is an empty list.
-- If kind is question, praise, info_from_viewer or other: "options" is an empty list (only critical comments get replies).
+- If kind is praise or other: "options" is an empty list (only important comments get replies).
 - Never argue, never blame, never take a political side."""
 
 
