@@ -81,6 +81,7 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-14 | `9ffe725` | goldrate: import the browser only when slides are made (tests machine has none - fixes the red tests since 13 Nov) |
 | 2026-11-14 | `f1ab67e` | posting: Gmail daily email limit no longer counts as a failed post record (sheet row is already saved - no 5x retries); checker notes ending 'so not a problem' no longer hold a story (14 Nov) |
 | 2026-11-14 | `8b88b11` | powercut: notices written |
 | 2026-11-14 | `cef6447` | powercut: notices written |
@@ -110,5 +111,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-13 | `2a3317b` | pick: list sent |
 | 2026-11-13 | `c48594a` | goldrate: daily gold & silver rate carousel on this page (owner 14 Nov) - same job as Namakkal 360, own logo and handle |
 | 2026-11-13 | `99d64bf` | reel: Namakkal 360 design (look A) on this page - premium look P switched off; waiting reels made again (cache r6) (owner 13 Nov 23:10) |
-| 2026-11-13 | `ef79ba7` | powercut: notices written |
 <!-- recent-changes:end -->
