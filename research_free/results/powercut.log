@@ -1,2 +1,12 @@
-11:05:56 skipped: could not open=2
-11:05:56 no new power-cut notice
+11:37:18 from_google 'திருச்சி மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+11:37:55 from_google 'திருச்சி மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+11:38:36 from_google 'திருச்சிராப்பள்ளி மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+11:39:17 from_google 'திருச்சிராப்பள்ளி மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+11:40:02 from_google 'நாளைய மின்தடை திருச்சி' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+11:40:39 from_google 'நாளைய மின்தடை திருச்சி' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+11:41:19 from_google 'மணப்பாறை மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+11:41:58 from_google 'மணப்பாறை மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+11:42:36 from_google 'ஸ்ரீரங்கம் மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+11:43:14 from_google 'ஸ்ரீரங்கம் மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+11:44:04 skipped: could not open=2
+11:44:04 no new power-cut notice
