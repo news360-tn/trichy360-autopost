@@ -91,9 +91,15 @@ def bridge_post(action, payload):
             try:
                 return _bridge_post(action, payload)
             except Exception as e:
+                if EMAIL_QUOTA in str(e):      # 14 Nov: the sheet row is already saved - only the owner's email (the bridge's last step) hit Gmail's daily limit
+                    log("bridge 'posted' saved; the owner email was skipped (Gmail daily email limit reached)")
+                    return {"ok": True, "email_skipped": True}
                 log(f"bridge 'posted' failed (try {k + 1}):", str(e)[:150])
                 time.sleep(15 * (k + 1))
     return _bridge_post(action, payload)
+
+
+EMAIL_QUOTA = "Service invoked too many times for one day: email"
 
 
 def _bridge_post(action, payload):
@@ -2135,7 +2141,7 @@ def news_hold(row):
         # owner 3 Nov: a "fact-check:" flag about cut-off text, line length or word count is formatting, not a wrong fact - it posts
         facts_ = [p for p in facts_ if not re.search(r"cut off|mid-sentence|mid-phrase|longer than|too long|too short|characters|\d+ words|word count|incomplete sentence|ends abruptly|sentence fragment|incomplete|ungrammatical|unclear|awkward|spelling|grammar", p, re.I)]
         # 4 Nov (RN-334): the checker itself says the point is fine ("- acceptable", "not an error") - that is a note, not a problem
-        facts_ = [p for p in facts_ if not re.search(r"[-—–,;:(]\s*(acceptable|this is acceptable|is fine|not an error|no (real )?(issue|problem)|ok)\.?\)?\s*$", p, re.I)]
+        facts_ = [p for p in facts_ if not re.search(r"[-—–,;:(]\s*(so\s+)?(acceptable|this is acceptable|is fine|not an error|not a problem|no (real )?(issue|problem)|ok)\.?\)?\s*$", p, re.I)]
         facts_ = [f for f in (_real_numbers(p) for p in facts_) if f]
         facts_ = [f for f in (_numbers_still_missing(row, p) for p in facts_) if f]
         # owner 3 Nov (RN-151): the district / city name itself (திருச்சிராப்பள்ளி vs the article's திருச்சி) is not an invented place

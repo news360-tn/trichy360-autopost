@@ -93,6 +93,9 @@ class CheckerNoteAcceptable(unittest.TestCase):
     def test_real_conflict_still_holds(self):
         self.assertTrue(post.news_hold(self.r("fact-check: reel_script says 5 trees were cut but the article says the trees were not cut")))
 
+    def test_so_not_a_problem_posts(self):      # 14 Nov RN-316
+        self.assertEqual(post.news_hold(self.r("fact-check: The caption adds a time line, which is fine as the article supports it, so not a problem")), "")
+
 
 class EntryPointLast(unittest.TestCase):
     """the posting job runs main() when the file is executed: every function it uses must be defined above that line (2 Nov, NameError)"""
