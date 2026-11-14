@@ -1,79 +1,67 @@
 {
  "log": [
   "earlier stories still waiting for images: []",
-  "instagram check: 24 recent posts read from the page",
+  "instagram check: 27 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/weather/4376070",
-  "manual link added: https://www.dailythanthi.com/news/tamilnadu/additional-buses-for-devotees-going-to-sabarimala-transport-corporation-arranges",
-  "manual link added: https://www.polimernews.com/politicsnews/question-those-who-call-me-a-zero-or-a-hero-seeman-12809616",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/ஸ்ரீரங்கத்தில்-ஸ்ரீரங்கநாச்சியாா்-ஊஞ்சல்-உற்சவ-விழா-நிறைவு",
-  "candidate filter: collected=4",
-  "to write: 4 Trichy district candidates (max 4 stories)",
-  "round: top 4 of 4 candidates",
-  "candidates waiting: 4 Trichy; time left 79 min",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/வங்கி-அலுவலா்-வீட்டில்-நகை-திருடிய-இருவா்-கைது",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/%E0%AE%AA%E0%AF%81%E0%AE%95%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%88-%E0%AE%AA%E0%AF%8A%E0%AE%B0%E0%AF%81%E0%AE%B3%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%AA%E0%AE%A4%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BF-%E0%AE%B5%E0%AF%88%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4-3-%E0%AE%AA%E0%AF%87%E0%AE%BE%E0%AF%8D-%E0%AE%95%E0%AF%88%E0%AE%A4%E0%AF%81",
+  "candidate filter: collected=2",
+  "to write: 2 Trichy district candidates (max 2 stories)",
+  "round: top 2 of 2 candidates",
+  "candidates waiting: 2 Trichy; time left 79 min",
   "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.polimernews.com/politicsnews/question-those-who-",
-  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/additional-buses",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/weather/43760",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 7})",
-  "candidate loop ended: left 0, tried={'N': 4}, done={'N': 4}, time left 77 min",
-  "filed: 4 Trichy district stories (target 4), reels only",
+  "candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 76 min",
+  "filed: 2 Trichy district stories (target 2), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":4,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":2,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (9s)",
+  "ok gemini/gemini-3-flash-preview (15s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3.5-flash (22s)",
+  "ok gemini/gemini-3.6-flash (31s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
-  "ok gemini/gemini-3-flash-preview (13s)",
+  "ok gemini/gemini-3-flash-preview (17s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok groq/qwen/qwen3.8-27b (3s)",
+  "ok groq/qwen/qwen3.8-27b (4s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok groq/openai/gpt-oss-120b (4s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "switching away from groq/openai/gpt-oss-120b for 10 min",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "ok anthropic/claude-haiku-5-5",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
@@ -83,267 +71,132 @@
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "ஸ்ரீரங்கநாச்சியார் ஊஞ்சல் உற்சவ விழா நிறைவு",
-   "english_headline": "Sri Ranganachiyar swing festival concludes at Srirangam Ranganathar temple after 7 days",
-   "category": "Temples & Events",
-   "location": "Srirangam, Trichy district",
-   "importance": "Low",
+   "tamil_headline": "திருச்சி உறையூரில் வங்கி அலுவலர் வீட்டில் நகை திருட்டு: இருவர் கைது",
+   "english_headline": "Two arrested for stealing jewellery from bank officer's house in Uraiyur, Trichy",
+   "category": "Crime & Safety",
+   "location": "Uraiyur, Trichy city, Trichy district",
+   "importance": "Medium",
    "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "கோயில் விழா",
-    "loc": "ஸ்ரீரங்கம்",
-    "hl1": "ஸ்ரீரங்கநாச்சியார் ஊஞ்சல் உற்சவம் நிறைவு",
-    "hl2": "7 நாள் விழா வெள்ளிக்கிழமை",
+    "cat": "குற்றச் செய்தி",
+    "loc": "உறையூர், திருச்சி",
+    "hl1": "உறையூரில் வீட்டில் நகை திருடிய இருவர்",
+    "hl2": "4 பவுன் நகைகள் திருட்டு",
     "slides": [
      {
-      "title": "விழா விவரம்",
+      "title": "என்ன நடந்தது?",
       "lines": [
-       "ஸ்ரீரங்கம் அரங்கநாத சுவாமி கோயிலில் <b>7 நாள்</b> நடைபெற்ற விழா",
-       "வெள்ளிக்கிழமை மாலையுடன் நிறைவு",
-       "அரங்கநாதர் விழா முடிந்த பின் ஸ்ரீரங்கநாச்சியார் உற்சவம்"
+       "உறையூரில் வங்கி அலுவலர் வீட்டில் நகை திருட்டு",
+       "அக். 1ஆம் தேதி <b>4 பவுன்</b> நகைகள் காணவில்லை",
+       "இரண்டு வாரங்கள் கழித்து பீரோவைப் பார்த்தபோது தெரிந்தது"
       ]
      },
      {
-      "title": "ஊஞ்சல் நிகழ்ச்சி",
+      "title": "யார் கைது?",
       "lines": [
-       "மாலை <b>6 மணிக்கு</b> ஊஞ்சல் மண்டபத்துக்கு வந்து சேர்ந்தார்",
-       "இரவு <b>7 மணிக்கு</b> ஊஞ்சல் விழா தொடங்கியது",
-       "இரவு <b>8 மணி</b> வரை பக்தர்களுக்கு சேவை சாதித்தார்"
+       "பரதன் (19 வயது), விஜயராஜ் (21 வயது) ஆகிய இருவர் கைது",
+       "இருவரும் நண்பர்களுடன் சேர்ந்து திருட்டில் ஈடுபட்டனர்",
+       "மேலும் இருவரை போலீஸார் தேடி வருகின்றனர்"
       ]
      },
      {
-      "title": "நிறைவு நேரம்",
+      "title": "போலீஸ் நடவடிக்கை",
       "lines": [
-       "இரவு <b>9 மணிக்குப்</b> புறப்பட்டார்",
-       "இரவு <b>9.30 மணிக்கு</b> மூலஸ்தானம் சென்று சேர்ந்தார்",
-       "ஏராளமான பக்தர்கள் தரிசனம் செய்தனர்"
+       "உறையூர் போலீஸார் வழக்குப் பதிந்து விசாரணை",
+       "வெள்ளிக்கிழமை இருவர் கைது செய்யப்பட்டனர்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "ஸ்ரீரங்கம் அரங்கநாத சுவாமி கோயிலில் 7 நாள்கள் நடைபெற்ற ஸ்ரீரங்கநாச்சியார் ஊஞ்சல் உற்சவ விழா வெள்ளிக்கிழமை மாலையுடன் நிறைவடைந்தது. அரங்கநாதருக்கான ஊஞ்சல் உற்சவ விழா முடிந்த பின், ஸ்ரீரங்கநாச்சியார் உற்சவ விழா தொடங்கியது. விழா நாள்களில் ஸ்ரீரங்கநாச்சியார் சிறப்பு அலங்காரத்தில் ஊஞ்சல் உற்சவம் கண்டருளி பக்தர்களுக்கு சேவை சாதித்தார். நிறைவு நாளான வெள்ளிக்கிழமை மாலை, மூலஸ்தானத்திலிருந்து ஸ்ரீரங்கநாச்சியார் பல்வேறு திரு ஆபரணங்களை அணிந்து மாலை 6 மணிக்கு ஊஞ்சல் மண்டபத்துக்கு வந்து சேர்ந்தார். இரவு 7 மணிக்கு ஊஞ்சல் விழா தொடங்கியது. இருபுறமும் வெண்சாமரம் வீச, ஊஞ்சலில் ஆடியபடி இரவு 8 மணி வரை பக்தர்களுக்கு சேவை சாதித்தார். ஏராளமான பக்தர்கள் தரிசனம் செய்தனர். இரவு 9 மணிக்குப் புறப்பட்டு, 9.30 மணிக்கு மூலஸ்தானம் சென்று சேர்ந்தார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🛕 ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியார் ஊஞ்சல் உற்சவ விழா நிறைவு\n\n📰 முழு விவரம்:\nஸ்ரீரங்கம் அரங்கநாத சுவாமி கோயிலில் 7 நாள்கள் நடைபெற்று வந்த ஸ்ரீரங்கநாச்சியார் ஊஞ்சல் உற்சவ விழா வெள்ளிக்கிழமை மாலையுடன் நிறைவடைந்தது. அரங்கநாதருக்கான ஊஞ்சல் உற்சவ விழா முடிந்த பின், கடந்த 7ஆம் தேதி ஸ்ரீரங்கநாச்சியார் உற்சவ விழா தொடங்கியது.\nநிறைவு நாளான வெள்ளிக்கிழமை மாலை, மூலஸ்தானத்திலிருந்து ஸ்ரீரங்கநாச்சியார் ரத்தின நீள்முடி கிரீடம், வைரக் காது காப்பு, வைர அபயஹஸ்தம், செங்கப்பூ மாலை உள்ளிட்ட திரு ஆபரணங்கள் அணிந்து மாலை 6 மணிக்கு ஊஞ்சல் மண்டபத்துக்கு வந்து சேர்ந்தார்.\nஇரவு 7 மணிக்கு பூக்களால் அலங்கரிக்கப்பட்ட ஊஞ்சல் மண்டபத்தில் ஊஞ்சல் விழா தொடங்கியது. இருபுறமும் வெண்சாமரம் வீச, இரவு 8 மணி வரை பக்தர்களுக்கு சேவை சாதித்தார். ஏராளமான பக்தர்கள் தரிசனம் செய்தனர்.\nஇரவு 9 மணிக்குப் புறப்பட்டு, படிப்பு கண்டருளி 9.30 மணிக்கு மூலஸ்தானம் சென்று சேர்ந்தார்.\n\nSrirangam Ranganachiyar swing festival ends | Trichy news\n📍 ஸ்ரீரங்கம், திருச்சி மாவட்டம் | 14 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Srirangam #TrichyNews #திருச்சி",
-   "prompts": "A decorated swing mandapam inside the Srirangam Ranganathar temple is filled with flowers as a priest waves white chamaram fans beside the goddess Sri Ranganachiyar, who sits on a swing. Behind her a crowd of devotees, seen from behind, stands in the temple hall while the swing mandapam glows with oil lamps. The temple interior has tall stone pillars, carved ceilings and gopuram-style architecture visible in the background, reflecting the Srirangam temple in Trichy city, Tamil Nadu. Devotees in silk veshti, sarees and salwar wear traditional clothes, some with folded hands. It is evening, around 7 pm, with warm golden light from the lamps and no daylight. Camera at eye level, 35 mm, wide enough to show the full mandapam, the swing and the crowd. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of the ornate swing mandapam, its frame wrapped in fresh marigold and jasmine garlands, with a pair of white chamaram fans held in the foreground. Gold jewellery and a decorated crown reflect lamplight on the swing seat, and the carved wooden pillars of the mandapam are visible at the edges. Devotees far behind are slightly blurred. The scene is lit warmly by oil lamps in the evening, around 7 pm, in Srirangam temple, Trichy. Camera slightly high, 35 mm, focusing on the flowers, fans and jewels that tell the story of the swing festival closing. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/ஸ்ரீரங்கத்தில்-ஸ்ரீரங்கநாச்சியாா்-ஊஞ்சல்-உற்சவ-விழா-நிறைவு",
-   "published": "2026-11-14T01:04:09.211Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 14 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794672810/trichy360/wcv0hvmem9iohucqqukn.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794672815/trichy360/h7sespwac4mvuh0fd5ok.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "தவறு செய்த எம்.எல்.ஏ., துணை சபாநாயகரை நீக்கத் துணிவில்லாத முதல்வர் விஜய் தன்னை தூய சக்தி என்கிறாரா? - சீமான் கேள்வி",
-   "english_headline": "Seeman questions CM Vijay: how can he call himself pure force without removing the TVK MLA and deputy speaker?",
-   "category": "Government & Services",
-   "location": "Trichy airport, Trichy district",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "அரசியல்",
-    "loc": "திருச்சி விமான நிலையம்",
-    "hl1": "முதல்வர் விஜய் தூய சக்தியா? - சீமான்",
-    "hl2": "எம்.எல்.ஏ., துணை சபாநாயகர்",
-    "slides": [
-     {
-      "title": "சீமானின் கேள்வி",
-      "lines": [
-       "திருச்சி விமான நிலையத்தில் சீமான் பேட்டி அளித்தார்",
-       "தவறு செய்த த.வெ.க. எம்.எல்.ஏ.வை நீக்கத் துணிவில்லை என்றார்",
-       "துணை சபாநாயகரை நீக்கவும் துணிவில்லை என்றார்"
-      ]
-     },
-     {
-      "title": "தூய சக்தி விவகாரம்",
-      "lines": [
-       "முதல்வர் விஜய் தன்னைத் தூய சக்தி என்கிறார்",
-       "அப்படி என்றால் எப்படி என்று சீமான் கேள்வி எழுப்பினார்",
-       "மேகதாது குறித்து தன்னிடம் கேட்டால் என்ன பதில் என்றார்"
-      ]
-     },
-     {
-      "title": "ஜீரோ, ஹீரோ",
-      "lines": [
-       "தான் ஜீரோ, ஹீரோ என்பவரிடம் கேளுங்கள் என்றார்",
-       "முதல்வர் செயலில் காட்டுவார் என்பவர்கள் அவர் செய்த ஒரு",
-       "குழந்தைகள் வாழ்த்து அட்டையில் நேரு படம் இடம்பெறாதது"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "முதல்வர் விஜய் தன்னைத் தூய சக்தி என்கிறார், அப்படியென்றால் தவறு செய்த த வெ க சட்டமன்ற உறுப்பினர்வையும், துணை சபாநாயகரையும் நீக்கத் துணிவில்லையா என்று சீமான் கேள்வி எழுப்பியுள்ளார். திருச்சி விமான நிலையத்தில் பேட்டியளித்த அவர், இதைக் கூறினார். மேகதாது விவகாரம் குறித்து தன்னிடம் கேட்டால் என்ன பதில் சொல்வேன் என்று கேட்பவர்கள், தான் ஜீரோ, ஹீரோ என்று கூறுபவரிடம் கேட்க வேண்டும் என்றும் அவர் கூறினார். முதல்வர் எதையும் பேச மாட்டார், செயலில் காட்டுவார் என்பவர்கள், அவர் செய்த ஒரு செயலைக் கூற முடியுமா என்றும் சீமான் கேட்டார். குழந்தைகளுக்கான வாழ்த்து அட்டையில் நேரு படம் இடம்பெறாதது குறித்தும் அவர் விமர்சித்தார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🗣️ முதல்வர் விஜய் தன்னைத் தூய சக்தி என்கிறாரா? - சீமான் கேள்வி\n\n📰 முழு விவரம்:\nதவறு செய்த த.வெ.க. எம்.எல்.ஏ.வையும், துணை சபாநாயகரையும் அந்தப் பொறுப்புகளில் இருந்து நீக்கத் துணிவில்லாத முதல்வர் விஜய், தன்னைத் தூய சக்தி என்று எப்படிக் கூறுகிறார் என்று சீமான் கேள்வி எழுப்பியுள்ளார்.\nதிருச்சி விமான நிலையத்தில் பேட்டியளித்த அவர், மேகதாது விவகாரம் குறித்து தன்னிடம் கேட்டால் என்ன பதில் சொல்வேன் என்றும், தான் ஜீரோ, ஹீரோ என்று கூறுபவரிடம் கேளுங்கள் என்றும் கூறினார்.\nமுதல்வர் எதையும் பேச மாட்டார், செயலில் காட்டுவார் என்று கூறுவோர், அவர் காட்டிய ஏதாவது ஒரு செயலைக் கூற முடியுமா என்றும் சீமான் கேள்வி எழுப்பினார்.\nகுழந்தைகளுக்கான வாழ்த்து அட்டையில் நேரு படம் இடம்பெறாதது குறித்தும் அவர் விமர்சித்தார்.\n\n📍 இடம்: திருச்சி விமான நிலையம்\n\nSeeman questions CM Vijay on pure force claim | Trichy news\n📍 திருச்சி மாவட்டம் | 14 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Seeman",
-   "prompts": "Seeman, a political leader in a white shirt and veshti, speaks into a cluster of microphones held up by reporters at the arrivals area of Tiruchirappalli airport in Trichy. The setting is the airport terminal forecourt, with glass sliding doors, a few parked autorickshaws and private cars beyond a low railing, and a line of Tamil Nadu police in khaki standing at a distance. Reporters crowd in from the front, their backs and shoulders visible, holding handheld recorders and phones on sticks. Some supporters in shirts stand behind, watching. It is daylight under a clear sky, with bright, even light on the terminal building. Shot at eye level with a 35 mm lens, wide enough to show the airport entrance, the crowd of reporters, and the press cluster around the speaker, with faces kept turned away or blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a bundle of microphones and handheld recorders pushed forward on a dark cloth-covered press stand at the entrance of Tiruchirappalli airport, Trichy. Behind the mic cluster, blurred hands of reporters hold notepads and pens, and the edge of a khaki-clad police sleeve is visible. Background shows the glass doors of the terminal and a few parked two-wheelers and an autorickshaw under daylight. Taken in clear daytime light, shot from slightly above at 35 mm, the frame centres on the microphones to suggest a press interview in progress, with no readable logos or text. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.polimernews.com/politicsnews/question-those-who-call-me-a-zero-or-a-hero-seeman-12809616",
-   "published": "2026-11-14T18:06:54.850+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 22 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences; hl1 (the first headline on screen) must name the place 'திருச்சி விமான நிலையம்', e.g. 'திருச்சி விமான நிலையம்: ...' or 'திருச்சி விமான நிலையம்-இல் ...' - viewers share news of their own area",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 2 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794672824/trichy360/w8n2ebczm9p1ulnbzgxl.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794672827/trichy360/obzplfev0q2ubdgfjjsw.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "சபரிமலைக்கு திருச்சியில் இருந்து சிறப்பு பஸ்கள்: நவம்பர் 16 முதல் இயக்கம்",
-   "english_headline": "Special buses to Sabarimala from Trichy and other cities starting November 16; booking open 60 days in advance",
-   "category": "Roads & Transport",
-   "location": "Trichy city, Trichy district",
-   "importance": "High",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "சிறப்பு பஸ்கள்",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சி: சபரிமலைக்கு சிறப்பு பஸ்கள்",
-    "hl2": "நவம்பர் 16 முதல் இயக்கம்",
-    "slides": [
-     {
-      "title": "எப்போது?",
-      "lines": [
-       "நவம்பர் <b>16</b> முதல் ஜனவரி <b>17</b> வரை இயக்கம்",
-       "மண்டல பூஜை, மகர விளக்கு திருவிழா ஏற்பாடு",
-       "திருச்சியில் இருந்து பம்பைக்கு நேரடி பஸ்கள்"
-      ]
-     },
-     {
-      "title": "வசதிகள்",
-      "lines": [
-       "அதிநவீன சொகுசு மிதவை மற்றும் ஏ.சி. பஸ்கள்",
-       "இருக்கை மற்றும் படுக்கை வசதி கொண்ட பஸ்கள்",
-       "குழுவாகச் செல்வோருக்கு வாடகை பஸ் வசதி"
-      ]
-     },
-     {
-      "title": "முன்பதிவு",
-      "lines": [
-       "<b>60</b> நாட்களுக்கு முன்பே முன்பதிவு செய்யலாம்",
-       "ஆன்லைன் மற்றும் செயலி மூலம் புக் செய்யலாம்",
-       "டிசம்பர் <b>26-29</b> வரை பஸ்கள் இயங்காது"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "சபரிமலை செல்லும் பக்தர்களுக்காக திருச்சியில் இருந்து சிறப்பு பஸ்கள் இயக்கப்படுகின்றன. மண்டல பூஜை மற்றும் மகர விளக்கு திருவிழாவை முன்னிட்டு அரசு விரைவுப் போக்குவரத்துக் கழகம் இந்த ஏற்பாட்டை செய்துள்ளது. வரும் நவம்பர் 16ஆம் தேதி முதல் ஜனவரி 17ஆம் தேதி வரை இந்த பஸ்கள் இயக்கப்படும். திருச்சியில் இருந்து பம்பைக்கு அதிநவீன சொகுசு மிதவை பஸ்கள் மற்றும் குளிர்சாதன வசதி கொண்ட பஸ்கள் இயக்கப்படுகின்றன. மேலும் குளிர்சாதன வசதி இல்லாத இருக்கை மற்றும் படுக்கை வசதி கொண்ட பஸ்களும் இதில் அடங்கும். பயணத்திற்கு 60 நாட்களுக்கு முன்பாகவே ஆன்லைன் மூலமாகவோ அல்லது செயலி வழியாகவோ முன்பதிவு செய்து கொள்ளலாம். குழுவாகச் செல்லும் பக்தர்களுக்கு வாடகை அடிப்படையில் தனியாக பஸ் வசதி செய்து தரப்படும். சபரிமலை நடை சாத்தப்படுவதால் டிசம்பர் 26 முதல் 29ஆம் தேதி வரை இந்த சிறப்பு பஸ்கள் இயங்காது. சென்னை, மதுரை, புதுச்சேரி, கடலூர் மற்றும் ஓசூரில் இருந்தும் பம்பைக்கு பஸ்கள் இயக்கப்படுகின்றன. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚌 சபரிமலை பக்தர்களுக்கு நற்செய்தி: திருச்சியில் இருந்து சிறப்பு பஸ்கள் இயக்கம்!\n\n📰 முழு விவரம்:\nசபரிமலை ஐயப்பன் கோவில் மண்டல பூஜை மற்றும் மகர விளக்கு திருவிழாவை முன்னிட்டு, தமிழகத்தின் முக்கிய நகரங்களில் இருந்து பம்பைக்கு சிறப்பு பஸ்கள் இயக்கப்படுகின்றன. நவம்பர் 16 முதல் ஜனவரி 17 வரை இந்தச் சேவை தொடரும். திருச்சியில் இருந்து அதிநவீன சொகுசு மிதவை பஸ்கள், ஏ.சி. பஸ்கள், குளிர்சாதனம் இல்லாத இருக்கை மற்றும் படுக்கை வசதி கொண்ட பஸ்கள் இயக்கப்பட உள்ளன. டிசம்பர் 27 முதல் 30 வரை கோவில் நடை சாத்தப்படுவதால், டிசம்பர் 26 முதல் 29 வரை பஸ்கள் இயங்காது. பக்தர்கள் 60 நாட்களுக்கு முன்பே முன்பதிவு செய்து கொள்ளலாம்.\n\n📍 இடம்: திருச்சி, சென்னை, மதுரை, புதுச்சேரி, கடலூர், ஓசூர்\n🗓️ நாள்: நவம்பர் 16 முதல் ஜனவரி 17 வரை\n🚌 வசதிகள்: சொகுசு மிதவை, ஏ.சி, சீட்டர் மற்றும் ஸ்லீப்பர் பஸ்கள்\n📱 முன்பதிவு: ஆன்லைன் அல்லது டி.என்.எஸ்.டி.சி செயலி மூலம் செய்யலாம்\nℹ️ மக்கள் கவனத்திற்கு: குழுவாகச் செல்லும் பக்தர்களுக்கு வாடகை அடிப்படையில் பஸ் வசதி உண்டு\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்\n\nTrichy to Sabarimala special bus booking 2026 | Trichy news\n📍 திருச்சி | 14 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Sabarimala #TNSTC #திருச்சி",
-   "prompts": "Ayyappa devotees in black and blue veshti and dhotis line up to board a TNSTC luxury air-conditioned bus at the Trichy Central bus stand in Trichy city, the group travelling together to Sabarimala. Behind them stand other Tamil Nadu State Transport Corporation coaches with their front doors open, passengers carrying travel bags, rucksacks and cloth bundles up the steps. The bus stand is a busy open platform with concrete pillars, a row of parked buses and a few autorickshaws at the edge, the shops and the Rockfort hill faintly visible in the distance. Daylight, clear sky, soft morning light. Men are seen mostly from behind or slightly to the side, and the scene feels calm and orderly. Shot at eye level from the platform side with a 35 mm lens, wide enough to show the bus, the queue of devotees and the bus stand layout. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dailythanthi.com/news/tamilnadu/additional-buses-for-devotees-going-to-sabarimala-transport-corporation-arranges",
-   "published": "2026-11-14T12:18:04Z",
-   "verification": "DRAFT (gemini/gemini-3-flash-preview) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 5 ('பஸ்கள், குளிர்சாதனம் இல்லாத இருக்கை மற்றும் படுக்கை வசதி உள்')",
-   "note": "free-model draft gemini/gemini-3-flash-preview, 2 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794672838/trichy360/u6t8aw5j2zq8vpogju5a.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சியில் இன்று வெப்பநிலை 31 டிகிரி வரை பதிவு",
-   "english_headline": "Trichy records max 31°C and min 24°C today, Chennai max 32°C",
-   "category": "Weather & Agriculture",
-   "location": "Trichy city, Trichy district",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "வானிலை",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சியில் அதிகபட்ச வெப்பநிலை 31",
-    "hl2": "குறைந்தபட்சம் 24 டிகிரி",
-    "slides": [
-     {
-      "title": "இன்றைய வெப்பநிலை",
-      "lines": [
-       "திருச்சியில் அதிகபட்சம் <b>31°C</b>",
-       "குறைந்தபட்சம் <b>24°C</b>",
-       "திருச்சி நகரப் பதிவு"
-      ]
-     },
-     {
-      "title": "பிற நகரங்கள்",
-      "lines": [
-       "சென்னை <b>32°C</b> – <b>24°C</b>",
-       "மதுரை <b>33°C</b> – <b>23°C</b>",
-       "கோவை <b>30°C</b> – <b>21°C</b>"
-      ]
-     },
-     {
-      "title": "மலைப் பகுதிகள்",
-      "lines": [
-       "ஊட்டி <b>17°C</b> – <b>9°C</b>",
-       "கொடைக்கானல் <b>18°C</b> – <b>10°C</b>",
-       "மலைப் பகுதிகளில் குளிர் அதிகம்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சியில் இன்று அதிகபட்ச வெப்பநிலை 31 டிகிரி செல்சியஸ் பதிவாகியுள்ளது. குறைந்தபட்ச வெப்பநிலை 24 டிகிரி செல்சியஸ் ஆக உள்ளது. சென்னையில் அதிகபட்சம் 32 டிகிரி செல்சியஸ், குறைந்தபட்சம் 24 டிகிரி செல்சியஸ் பதிவாகியுள்ளது. மதுரையில் அதிகபட்சம் 33 டிகிரி செல்சியஸ், குறைந்தபட்சம் 23 டிகிரி செல்சியஸ் பதிவாகியுள்ளது. கோவையில் அதிகபட்சம் 30 டிகிரி செல்சியஸ், குறைந்தபட்சம் 21 டிகிரி செல்சியஸ் பதிவாகியுள்ளது. ஊட்டியில் அதிகபட்சம் 17 டிகிரி செல்சியஸ், குறைந்தபட்சம் 9 டிகிரி செல்சியஸ் பதிவாகியுள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🌡️ திருச்சியில் இன்று அதிகபட்சம் 31°C, குறைந்தபட்சம் 24°C\n\n📰 முழு விவரம்:\nதிருச்சியில் அதிகபட்ச வெப்பநிலை 31 டிகிரி செல்சியஸ், குறைந்தபட்ச வெப்பநிலை 24 டிகிரி செல்சியஸ் ஆக பதிவாகியுள்ளது.\nசென்னை 32–24°C, மதுரை 33–23°C, கோவை 30–21°C, சேலம் 31–22°C, ஈரோடு 31–23°C ஆகியவை பதிவாகியுள்ளன.\nஊட்டி 17–9°C, கொடைக்கானல் 18–10°C என மலைப் பகுதிகளில் குளிர் அதிகமாக உள்ளது.\n\nTrichy temperature today 31°C max 24°C min | Trichy news\n📍 திருச்சி, திருச்சி மாவட்டம் | 14 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #வானிலை #திருச்சி",
-   "prompts": "A wide view of the Cauvery river at Tiruchirappalli under a bright midday sun, its water calm and slightly low between sandy banks. Beyond the river, the rocky outline of Rockfort hill rises over the city, with the Srirangam temple gopuram visible in the distance through a light heat haze. Along the riverbank, green banana plants and paddy fields stretch out under the clear sky, and a few farmers are seen far away, from behind, walking between the rows with their dhotis tied up. A town bus and a couple of two-wheelers move along a road near the bridge in the foreground. The sky is clear and pale blue, the light is strong and warm, the air looks dry and shimmering with heat. Shot at eye level or slightly high, 35 mm, wide enough to show the river, fields, hill and temple together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a dry, cracked patch of earth at the edge of a paddy field beside the Cauvery in Trichy, with a few green banana leaves in the background showing signs of heat stress under strong sunlight. Scattered dry leaves lie on the ground and a small irrigation channel carries only a thin trickle of water. In the soft background, a farmer seen from behind stands among the crops with a folded towel on his shoulder. The light is harsh and direct from a high midday sun, the sky is bright and cloudless, and the scene feels hot and still. Shot at close range at eye level, 35 mm, with shallow depth of field keeping the cracked soil and leaves sharp. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-news/weather/4376070",
-   "published": "2026-11-14T18:22:48+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்); use the article's own words and facts",
+   "reel_script": "உறையூரில் வங்கி அலுவலர் வீட்டில் நகை திருடிய இருவர் வெள்ளிக்கிழமை கைது செய்யப்பட்டனர். திருச்சி லிங்கா நகர் சண்முகா நகர் கார்டன் பகுதியைச் சேர்ந்த ராஜ்குமாரின் மனைவி தீபா (42 வயது) தில்லை நகரில் உள்ள ஒரு தேசிய மயமாக்கப்பட்ட வங்கியின் காப்பீட்டு நிறுவனத்தில் விற்பனைப் பிரிவு மேலாளராகப் பணியாற்றி வருகிறார். அக்டோபர் 1ஆம் தேதி தீபா தனது 4 பவுன் நகைகளை வீட்டின் பீரோவில் வைத்துவிட்டுக் காலையில் வேலைக்குச் சென்றார். இரண்டு வாரங்கள் கழித்து பீரோவைப் பார்த்தபோது நகைகள் காணவில்லை. இதுகுறித்த புகாரின் பேரில் உறையூர் போலீஸார் வழக்குப் பதிந்து விசாரித்தனர். விசாரணையில், உறையூர் பாண்டமங்கலம் முஸ்லிம் தெருவைச் சேர்ந்த பரதன் (19 வயது), முத்தரசநல்லூர் காவிரி நகரைச் சேர்ந்த விஜயராஜ் (21 வயது) ஆகிய இருவரும் சக நண்பர்களுடன் சேர்ந்து நகைத் திருட்டில் ஈடுபட்டது தெரியவந்தது. போலீஸார் பரதன், விஜயராஜ் ஆகியோரை வெள்ளிக்கிழமை கைது செய்தனர். மேலும் இருவரைத் தேடி வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 உறையூரில் வீட்டில் நகை திருடிய இருவர் கைது\n\n📰 முழு விவரம்:\nதிருச்சி உறையூரில் வங்கி அலுவலர் தீபா வீட்டில் 4 பவுன் நகைகள் திருடப்பட்டன. அக். 1ஆம் தேதி நகைகளை பீரோவில் வைத்துவிட்டு வேலைக்குச் சென்றார். இரண்டு வாரங்கள் கழித்து பீரோவைப் பார்த்தபோது நகைகள் காணவில்லை. உறையூர் போலீஸார் வழக்குப் பதிந்து விசாரித்தனர். பரதன் (19 வயது), விஜயராஜ் (21 வயது) ஆகிய இருவரும் நண்பர்களுடன் சேர்ந்து திருட்டில் ஈடுபட்டது தெரியவந்தது.\n📍 இடம்: உறையூர், திருச்சி\n🗓️ நாள்: அக். 1ஆம் தேதி திருட்டு; வெள்ளிக்கிழமை கைது\n👮 நடவடிக்கை: இருவர் கைது; மேலும் இருவரை போலீஸார் தேடி வருகின்றனர்\n\nTrichy Uraiyur jewellery theft, two arrested | Trichy news\n📍 உறையூர், திருச்சி மாவட்டம் | 15 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Uraiyur #TrichyNews #திருச்சி",
+   "prompts": "Two young men, seen from behind with hands tied in front, are walked out of a residential lane in Uraiyur by two Tamil Nadu police constables in khaki uniform, one carrying a folded cloth bag of seized items. The lane is an ordinary Trichy residential street with low tiled-roof houses, a concrete compound wall, and a parked two-wheeler by the gate. A small group of neighbours stands at a distance by a doorway, watching quietly. It is a bright Friday daytime, with soft shadows on the road. The camera sits at eye level, about 35 mm, wide enough to show the whole lane, the houses and the police vehicle parked at the corner. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of an open steel almirah inside a bedroom in a Trichy house, its door swung open and the inner shelves empty except for a folded cloth and a small brown velvet jewellery box lying on a wooden shelf. Some gold jewellery pieces are laid out on a plain cloth on a low table in front, with a khaki police cap and a notebook beside them, a police constable's hand only partly visible at the edge of the frame. Daylight comes through a window with a grille, casting warm light on the metal shelves. The camera is slightly above, at about 35 mm, focused on the almirah and the seized jewellery, with the room behind softly blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/வங்கி-அலுவலா்-வீட்டில்-நகை-திருடிய-இருவா்-கைது",
+   "published": "2026-11-14T18:58:40.211Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: known issue meta_article: cards talks about the article instead of the news ('தகவல் வெளியிடப்படவில்லை') - rewrite so it does not happen again",
    "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794672859/trichy360/pudwxmcix8bsmieoha8c.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794672868/trichy360/bk5js0jsdlx85b38hmqg.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794687056/trichy360/qku8lsxh3oibnackijsz.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794687059/trichy360/fxpsaoglipxrygm5vds4.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "மணப்பாறை, துவரங்குறிச்சியில் 335 கிலோ புகையிலைப் பொருள்கள் பறிமுதல்: 3 பேர் கைது",
+   "english_headline": "335 kg of banned tobacco products seized in Manapparai and Thuvarankurichi; 3 arrested",
+   "category": "Crime & Safety",
+   "location": "Thuvarankurichi and Manapparai, Trichy district",
+   "importance": "High",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "புகையிலை பறிமுதல்",
+    "loc": "துவரங்குறிச்சி, மணப்பாறை",
+    "hl1": "துவரங்குறிச்சியில் புகையிலை பறிமுதல்",
+    "hl2": "<b>335 கிலோ</b> பறிமுதல்",
+    "slides": [
+     {
+      "title": "என்ன நடந்தது?",
+      "lines": [
+       "அரசால் தடை செய்யப்பட்ட புகையிலைப் பொருள்கள் விற்பனை தகவல்",
+       "துவரங்குறிச்சி காவல் நிலைய எல்லையில் தனிப்படை போலீசார் சோதனை",
+       "மொத்தம் <b>335 கிலோ</b> புகையிலைப் பொருள்கள் பறிமுதல்"
+      ]
+     },
+     {
+      "title": "முதல் வழக்கு",
+      "lines": [
+       "கரடிப்பட்டி கிராமத்தைச் சேர்ந்த மலையாண்டி (45 வயது) வீட்டில்",
+       "வீட்டில் பதுக்கி வைத்திருந்த <b>323 கிலோ</b> பறிமுதல்",
+       "மலையாண்டி கைது; நீதிமன்றத்தில் ஆஜர்; சிறையில் அடைப்பு"
+      ]
+     },
+     {
+      "title": "இரண்டாவது வழக்கு",
+      "lines": [
+       "நொச்சிமேடு பகுதியில் விற்பனைக்கு வைத்திருந்த புகையிலை",
+       "சுமார் <b>12 கிலோ</b> புகையிலைப் பொருள்கள் பறிமுதல்",
+       "ரகுநாதன் (28 வயது), ரமேஷ்குமார் (40 வயது) கைது; விசாரணை நடக்கிறது"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "மணப்பாறை, துவரங்குறிச்சி பகுதிகளில் மொத்தம் 335 கிலோ புகையிலைப் பொருள்கள் பறிமுதல் செய்யப்பட்டன. அரசால் தடை செய்யப்பட்ட இந்தப் பொருள்கள் விற்கப்படுவதாக போலீசாருக்குத் தகவல் கிடைத்தது. அதன் அடிப்படையில் தனிப்படை போலீசார் தணிக்கையில் ஈடுபட்டனர். துவரங்குறிச்சி காவல் நிலைய எல்லைக்குள்பட்ட கரடிப்பட்டி கிராமத்தைச் சேர்ந்த மலையாண்டி (45 வயது) என்பவர் வீட்டில் சோதனை செய்யப்பட்டது. அங்கு பதுக்கி வைக்கப்பட்டிருந்த 323 கிலோ புகையிலைப் பொருள்கள் பறிமுதல் செய்யப்பட்டன. மலையாண்டி கைது செய்யப்பட்டு, நீதிமன்றத்தில் ஆஜர்படுத்தப்பட்டு சிறையில் அடைக்கப்பட்டார். சனிக்கிழமை, மணப்பாறை காவல் நிலைய எல்லைக்குள்பட்ட நொச்சிமேடு பகுதியில் சுமார் 12 கிலோ புகையிலைப் பொருள்கள் பறிமுதல் செய்யப்பட்டன. விற்பனைக்காக வைத்திருந்ததாக அணியாப்பூர் காமராஜர் தெருவைச் சேர்ந்த ரகுநாதன் (28 வயது), அண்ணாவி நகரைச் சேர்ந்த ரமேஷ்குமார் (40 வயது) ஆகிய இருவர் மீதும் வழக்கு பதிவு செய்யப்பட்டது. அவர்கள் கைது செய்யப்பட்டு, விசாரணை நடைபெற்று வருகிறது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 துவரங்குறிச்சி, மணப்பாறையில் 335 கிலோ புகையிலைப் பொருள்கள் பறிமுதல் - 3 பேர் கைது\n\n📰 முழு விவரம்:\nமணப்பாறை, துவரங்குறிச்சி பகுதிகளில் அரசால் தடை செய்யப்பட்ட புகையிலைப் பொருள்கள் விற்கப்படுவதாக போலீசாருக்குத் தகவல் கிடைத்தது. இதையடுத்து தனிப்படை போலீசார் தணிக்கையில் ஈடுபட்டனர்.\nகரடிப்பட்டி கிராமத்தைச் சேர்ந்த மலையாண்டி (45 வயது) வீட்டில் பதுக்கி வைத்திருந்த 323 கிலோ புகையிலைப் பொருள்கள் பறிமுதல் செய்யப்பட்டன. அவர் கைது செய்யப்பட்டு, நீதிமன்றத்தில் ஆஜர்படுத்தப்பட்டு சிறையில் அடைக்கப்பட்டார்.\nநொச்சிமேடு பகுதியில் விற்பனைக்காக வைத்திருந்த சுமார் 12 கிலோ புகையிலைப் பொருள்கள் பறிமுதல் செய்யப்பட்டன. அணியாப்பூர் காமராஜர் தெருவைச் சேர்ந்த ரகுநாதன் (28 வயது), அண்ணாவி நகரைச் சேர்ந்த ரமேஷ்குமார் (40 வயது) ஆகிய இருவரும் கைது செய்யப்பட்டு விசாரணை நடைபெற்று வருகிறது.\n📍 இடம்: துவரங்குறிச்சி, மணப்பாறை (திருச்சி மாவட்டம்)\n👮 நடவடிக்கை: 3 பேர் கைது\nℹ️ மக்கள் கவனத்திற்கு: அரசால் தடை செய்யப்பட்ட புகையிலைப் பொருள்கள் விற்பனை பற்றித் தகவல் இருந்தால் போலீசுக்குத் தெரிவியுங்கள்.\n\nTobacco seized in Thuvarankurichi and Manapparai, 3 arrested | Trichy news\n📍 துவரங்குறிச்சி, மணப்பாறை, திருச்சி மாவட்டம்\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Manapparai #TrichyNews #திருச்சி",
+   "prompts": "A team of Tamil Nadu police in khaki stands beside a stack of large white gunny sacks and plastic bags filled with seized banned tobacco products, piled on the floor of a small residential house in a village near Thuvarankurichi, Trichy district. Two police constables and a sub-inspector, seen from behind, are carrying out an inventory while a few villagers watch from the doorway at a distance. The house is a modest single-storey brick building with a tiled roof and a narrow front verandah; a dusty village lane lies outside with a two-wheeler parked nearby. Daylight streams through the open door, suggesting a bright afternoon. The tobacco packets are stacked in heaps of roughly 300 kilograms, with loose packets scattered on the floor. Shot at eye level from the doorway, 35 mm lens, wide enough to show the house interior, police and sacks together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of several large gunny sacks and cardboard cartons full of seized banned tobacco products stacked on a concrete floor, with a police khaki sleeve and a cane lathi resting at the edge of the frame. Loose packets are spilled beside the sacks, showing the bulk of the seizure. Behind them, slightly out of focus, a Tamil Nadu police constable stands with his back to the camera in the dim interior of a village house. Daylight from a doorway falls across the pile, giving a warm natural tone. Shot from slightly above at about 35 mm, focusing on the stacked sacks as the key object of the story, with no readable labels or text visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/%E0%AE%AA%E0%AF%81%E0%AE%95%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%88-%E0%AE%AA%E0%AF%8A%E0%AE%B0%E0%AF%81%E0%AE%B3%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%AA%E0%AE%A4%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BF-%E0%AE%B5%E0%AF%88%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4-3-%E0%AE%AA%E0%AF%87%E0%AE%BE%E0%AF%8D-%E0%AE%95%E0%AF%88%E0%AE%A4%E0%AF%81",
+   "published": "2026-11-14T18:54:38.188Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: slide 3 line 3 longer than 60 characters",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794687068/trichy360/lzxpl2xatwpxftkouf1i.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794687129/trichy360/afj9nqetdkwbexo8nxcb.jpg"
    ]
   }
  ]
