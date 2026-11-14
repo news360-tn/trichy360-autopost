@@ -1,111 +1,293 @@
 {
  "log": [
   "earlier stories still waiting for images: []",
-  "instagram check: 10 recent posts read from the page",
+  "instagram check: 15 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamalar.com/news/business-general-news/the-possibility-of-ordering/4374984",
-  "candidate filter: collected=1",
-  "to write: 1 Trichy district candidates (max 1 stories)",
-  "round: top 1 of 1 candidates",
-  "candidates waiting: 1 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamalar.com/news/business-general-news/the-pos",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%A4%E0%AE%B2%E0%AF%88%E0%AE%AE%E0%AE%B1%E0%AF%88%E0%AE%B5%E0%AE%BE%E0%AE%95-%E0%AE%87%E0%AE%B0%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4-%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%AA%E0%AE%B2-%E0%AE%B0%E0%AF%8C%E0%AE%9F%E0%AE%BF-%E0%AE%95%E0%AF%88%E0%AE%A4%E0%AF%81",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/இருவரிடம்-இணையவழியில்-ரூ-10-லட்சம்-மோசடி",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/திருச்சி-மத்திய-சிறையில்-கைப்பேசிசிம்காா்டுகள்-பறிமுதல்-இரு-கைதிகள்-மீது-வழக்கு",
+  "candidate filter: collected=3",
+  "to write: 3 Trichy district candidates (max 3 stories)",
+  "round: top 3 of 3 candidates",
+  "candidates waiting: 3 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 77 min",
-  "filed: 1 Trichy district stories (target 1), reels only",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 7})",
+  "candidate loop ended: left 0, tried={'N': 3}, done={'N': 3}, time left 76 min",
+  "filed: 3 Trichy district stories (target 3), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":3,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3.6-flash (15s)",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (13s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (14s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
+  "ok gemini/gemini-3.6-flash (17s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (8s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
   "ok groq/openai/gpt-oss-120b (7s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "ok gemini/gemini-3-flash-preview (29s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "ok groq/qwen/qwen3.8-27b (5s)",
+  "ok groq/qwen/qwen3.8-27b (3s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "ஒப்பந்தப்புள்ளிகள் வரவேற்பு: மொண்டிப்பட்டி காகித ஆலை, மின்வாரியம், பூந்தமல்லி நகராட்சி",
-   "english_headline": "Tender invitations: Mondipatti paper mill iron structure work, TANGEDCO bolts and rods, Poonamallee municipality equipment",
-   "category": "Government & Services",
-   "location": "Mondipatti second paper mill, Trichy district; Coimbatore South electricity circle; Poonamallee municipality, Tiruvallur district",
+   "tamil_headline": "திருச்சி மத்திய சிறையில் கைப்பேசி, சிம்கார்டுகள் பறிமுதல்: இரு கைதிகள் மீது வழக்கு",
+   "english_headline": "Phones and SIM cards seized in Trichy Central Prison; case booked against two prisoners",
+   "category": "Crime & Safety",
+   "location": "Trichy Central Prison, Trichy district",
    "importance": "Medium",
-   "scope": "district",
+   "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "ஒப்பந்தம்",
-    "loc": "மொண்டிப்பட்டி, திருச்சி",
-    "hl1": "மொண்டிப்பட்டி காகித ஆலையில் ஒப்பந்த",
-    "hl2": "கடைசி நாள் நவ.16",
+    "cat": "சிறை சோதனை",
+    "loc": "திருச்சி மத்திய சிறை",
+    "hl1": "திருச்சி மத்திய சிறையில் கைப்பேசி",
+    "hl2": "இரு கைதிகள் மீது வழக்கு",
     "slides": [
      {
-      "title": "காகித ஆலை பணி",
+      "title": "என்ன நடந்தது?",
       "lines": [
-       "மொண்டிப்பட்டி இரண்டாவது ஆலைக்கு இரும்பு கட்டமைப்புப் பணி",
-       "ஒப்பந்த எண்: 2026_TNPL_717092_1",
-       "கடைசி நாள்: <b>நவ.16</b>, பிற்பகல் <b>3 மணி</b>"
+       "திருச்சி மத்திய சிறையில் சிறை அறைகளில் ஆய்வு",
+       "கைதிகள் கைப்பேசி பயன்படுத்துவதாக ரகசியத் தகவல்",
+       "வியாழக்கிழமை சிறைக் காவலர்கள் ஆய்வு நடத்தினர்"
       ]
      },
      {
-      "title": "மின்வாரிய",
+      "title": "என்ன கிடைத்தது?",
       "lines": [
-       "கோவை தெற்கு மின் பகிர்மான வட்டத்துக்கு போல்ட், நட்டு, கம்பி",
-       "தலா <b>300</b> ஸ்டே ஐ போல்ட், <b>300</b> ஸ்டே ராடுகள்",
-       "கடைசி நாள்: <b>நவ.19</b>, பிற்பகல் <b>2 மணி</b>"
+       "நீதிமன்றத்துக்கு சென்று திரும்பிய கைதிகள் சோதனை",
+       "காலணிகளில் <b>கைப்பேசி</b>, <b>3 சிம் கார்டுகள்</b>",
+       "<b>4 பேட்டரிகள்</b>, சார்ஜர் மற்றும் சார்ஜர் ஒயர்"
       ]
      },
      {
-      "title": "பூந்தமல்லி",
+      "title": "வழக்கு விவரம்",
       "lines": [
-       "பயோமெட்ரிக் வருகைப்பதிவு இயந்திரங்கள், ஜி.பி.எஸ். சாதனங்கள்",
-       "ஒலிபெருக்கி, மைக் வழங்கி பொருத்தும் பணி",
-       "கடைசி நாள்: <b>நவ.27</b>, பிற்பகல் <b>3 மணி</b>"
+       "கைதிகள் அகிலன், கார்த்திக் ஆகியோர் மீது வழக்கு",
+       "புகாரின்பேரில் கே.கே.நகர் போலீஸார் வழக்குப் பதிவு",
+       "போலீஸார் விசாரணை நடத்தி வருகின்றனர்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "மொண்டிப்பட்டி காகித ஆலையில் இரும்பு கட்டமைப்பு பணிக்கு ஒப்பந்தப்புள்ளிகள் வரவேற்கப்பட்டுள்ளன. தமிழ்நாடு செய்தித்தாள் காகித நிறுவனத்தின் திருச்சி மாவட்டம், மொண்டிப்பட்டி இரண்டாவது ஆலைக்கு இரும்பு கட்டமைப்புகளைத் தயாரித்துப் பொருத்த ஒப்பந்தம் கோரப்பட்டுள்ளது. ஒப்பந்த எண் 2026, டி என் டி பி எல் 717092, 1. கடைசி நாள் நவம்பர் 16ஆம் தேதி பிற்பகல் 3 மணி. கோவை தெற்கு மின் பகிர்மான வட்டத்துக்கு 300 ஸ்டே ஐ போல்ட் மற்றும் நட்டுகள், 300 ஸ்டே ராடுகள் வழங்கவும் ஒப்பந்தப்புள்ளிகள் கோரப்பட்டுள்ளன. இரண்டு பொருட்களுக்கும் தனித்தனி ஒப்பந்தங்கள். கடைசி நாள் நவம்பர் 19ஆம் தேதி பிற்பகல் 2 மணி. திருவள்ளூர் மாவட்டம், பூந்தமல்லி நகராட்சிக்குப் பயோமெட்ரிக் வருகைப்பதிவு இயந்திரங்கள், ஜி பி எஸ் கண்காணிப்பு சாதனங்கள், ஒலிபெருக்கி, மைக் வழங்கிப் பொருத்தவும் ஒப்பந்தம் கோரப்பட்டுள்ளது. கடைசி நாள் நவம்பர் 27ஆம் தேதி பிற்பகல் 3 மணி. விண்ணப்பிக்க தமிழ்நாடு டெண்டர்ஸ் இணையதளத்தில் சம்பந்தப்பட்ட ஒப்பந்த எண்ணைப் பயன்படுத்தி முழு பணி விவரம், தகுதி விதிகள், தேவையான ஆவணங்களைப் பார்த்து விண்ணப்பிக்கலாம். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "📋 மொண்டிப்பட்டி காகித ஆலையில் இரும்பு கட்டமைப்பு பணிக்கு ஒப்பந்தம் - நவ. 16 கடைசி நாள்\n\n📰 முழு விவரம்:\nதமிழ்நாடு செய்தித்தாள் காகித நிறுவனத்தின் திருச்சி மாவட்டம், மொண்டிப்பட்டி இரண்டாவது ஆலையில் இரும்பு கட்டமைப்புகளைத் தயாரித்துப் பொருத்த ஒப்பந்தப்புள்ளிகள் வரவேற்கப்பட்டுள்ளன.\nகோவை தெற்கு மின் பகிர்மான வட்டத்துக்கு தலா 300 ஸ்டே ஐ போல்ட் மற்றும் நட்டுகள், 300 ஸ்டே ராடுகள் வழங்க ஒப்பந்தப்புள்ளிகள் கோரப்பட்டுள்ளன. இரண்டுக்கும் தனித்தனி ஒப்பந்தங்கள்.\nதிருவள்ளூர் மாவட்டம், பூந்தமல்லி நகராட்சிக்குப் பயோமெட்ரிக் வருகைப்பதிவு இயந்திரங்கள், ஜி.பி.எஸ். கண்காணிப்பு சாதனங்கள், ஒலிபெருக்கி, மைக் வழங்கிப் பொருத்த ஒப்பந்தப்புள்ளிகள் வரவேற்கப்பட்டுள்ளன.\n\n📍 இடம்: மொண்டிப்பட்டி, திருச்சி மாவட்டம் (காகித ஆலை)\n🗓️ கடைசி நாள்: நவ. 16 (காகித ஆலை), நவ. 19 (மின் வாரியம்), நவ. 27 (பூந்தமல்லி நகராட்சி)\n🕒 நேரம்: நவ. 16 பிற்பகல் 3 மணி, நவ. 19 பிற்பகல் 2 மணி, நவ. 27 பிற்பகல் 3 மணி\n📞 விண்ணப்பிக்க: tntenders.gov.in இணையதளத்தில் ஒப்பந்த எண்ணைப் பயன்படுத்தி முழு விவரம் பார்க்கலாம்\nℹ️ மக்கள் கவனத்திற்கு: முழு பணி விவரம், தகுதி விதிகள், தேவையான ஆவணங்களை இணையதளத்தில் பார்த்த பின் விண்ணப்பிக்கவும்.\n\nMondipatti paper mill iron structure tender, last date Nov 16 | Trichy news\n📍 மொண்டிப்பட்டி, திருச்சி மாவட்டம் | 13 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Mondipatti #TrichyNews #திருச்சி",
-   "prompts": "A row of tall iron lattice structures and steel framework stands at the second paper mill plant in Mondipatti, Trichy district, with the factory sheds and chimneys of the mill in the background. Along the edge of the plant, stacks of steel beams and angle iron lie on the ground beside a yard, with a few workers in shirts and trousers seen from far away and from behind, checking the framework. Overhead, the sky is bright daylight with a clear, warm light typical of Trichy. Near the banana and paddy fields along the river edge, the factory's iron skeleton rises against the sky. The camera is at eye level with a 35 mm lens, wide enough to show the mill's steel structure and the open yard around it, with no readable signboards or logos visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a neat pile of galvanised steel stay rods and heavy bolts with their nuts laid together on a concrete surface, placed beside a concrete electricity pole with a metal stay wire running down to an anchor plate in the ground. The stay rods and bolts are the key objects, lit by daylight, with the pole's base and a little roadside grass visible behind them in a residential edge of the city. In the far background a TNEB lineman in a plain shirt and trousers, seen from behind, looks at the pole, showing the power distribution network of Coimbatore South circle. The camera is slightly high, 35 mm, close enough to make the bolts, nuts and rods clearly visible as the detail. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/business-general-news/the-possibility-of-ordering/4374984",
-   "published": "2026-11-13T16:46:18+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script has numbers without their meaning (1); write what each number is: '15 வயது', '30 பாட்டில்கள்', 'அக்டோபர் 26ஆம் தேதி'",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
+   "reel_script": "திருச்சி மத்திய சிறையில் கைப்பேசி மற்றும் சிம் கார்டுகள் பறிமுதல் செய்யப்பட்டன. இதுதொடர்பாக இரு கைதிகள் மீது போலீஸார் வழக்குப் பதிவு செய்து விசாரித்து வருகின்றனர். கைதிகள் கைப்பேசி பயன்படுத்துவதாக ரகசியத் தகவல் கிடைத்தது. இதன்பேரில், மத்திய சிறை அதிகாரி ராஜேஷ்கண்ணன் தலைமையிலான சிறைக் காவலர்கள் வியாழக்கிழமை அனைத்து சிறை அறைகளிலும் ஆய்வு மேற்கொண்டனர். நீதிமன்றத்துக்கு சென்றுவிட்டு சிறைக்குத் திரும்பிய கைதிகள் அகிலன், கார்த்திக் ஆகியோரிடம் சோதனை நடத்தப்பட்டது. அவர்களின் காலணிகளில் கைப்பேசி, 4 பேட்டரிகள், 3 சிம் கார்டுகள், சார்ஜர் மற்றும் சார்ஜர் ஒயர் மறைத்து எடுத்து வந்தது தெரியவந்தது. இதையடுத்து, சிறைக் காவலர்கள் அவற்றைப் பறிமுதல் செய்தனர். இதுகுறித்த புகாரின்பேரில், அகிலன், கார்த்திக் ஆகிய இருவர் மீதும் கே கே நகர் போலீஸார் வழக்குப் பதிவு செய்து விசாரிக்கின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்\n\n📰 முழு விவரம்:\nதிருச்சி மத்திய சிறையில் கைதிகள் கைப்பேசி பயன்படுத்துவதாக ரகசியத் தகவல் கிடைத்தது. இதன்பேரில் மத்திய சிறை அதிகாரி ராஜேஷ்கண்ணன் தலைமையிலான சிறைக் காவலர்கள் வியாழக்கிழமை அனைத்து சிறை அறைகளிலும் ஆய்வு மேற்கொண்டனர்.\nநீதிமன்றத்துக்கு சென்று சிறைக்குத் திரும்பிய கைதிகள் அகிலன், கார்த்திக் ஆகியோரிடம் நடத்திய சோதனையில், அவர்களின் காலணிகளில் கைப்பேசி, 4 பேட்டரிகள், 3 சிம் கார்டுகள், சார்ஜர் மற்றும் சார்ஜர் ஒயர் மறைத்து எடுத்து வந்தது தெரியவந்தது. சிறைக் காவலர்கள் அவற்றைப் பறிமுதல் செய்தனர்.\nஇதுகுறித்த புகாரின்பேரில் அகிலன், கார்த்திக் ஆகிய இருவர் மீதும் கே.கே.நகர் போலீஸார் வழக்குப் பதிவு செய்து விசாரிக்கின்றனர்.\n\n📍 இடம்: திருச்சி மத்திய சிறை\n👮 நடவடிக்கை: இரு கைதிகள் மீது கே.கே.நகர் போலீஸார் வழக்குப் பதிவு\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #TrichyCentralPrison",
+   "prompts": "A group of prison warders in khaki uniform stand near the high grey perimeter wall of Trichy Central Prison in the daytime, while a prison official in a pale shirt and trousers walks beside two prisoners in plain white and off-white clothes returning from court, their backs to the camera. The prison gate and watchtower are visible behind them and the sky is bright and clear. In the foreground a steel barrier and a gravel path lead toward the entrance. The scene shows the moment after a search has been carried out inside the prison complex, with the warders alert and the two prisoners walking slowly with their heads down. The image is taken at eye level from a short distance, wide enough to show the prison wall, the gate and the group of officials, using a 35 mm lens. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up on a metal table inside a prison office, where a mobile phone, several small loose batteries, three SIM cards and a coiled charger with its wire have been laid out side by side after being seized. Beside them lies a pair of worn canvas shoes, one turned over to show the hollow where the items were hidden. A khaki sleeve of a prison warder rests at the edge of the frame, and a dim tube light falls across the table in the afternoon. The surface of the table is grey and scratched, and no text or labels are visible. The camera is at slightly high eye level, close enough to show the detail of the phone, the batteries and the cables clearly, with a shallow depth of field. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/திருச்சி-மத்திய-சிறையில்-கைப்பேசிசிம்காா்டுகள்-பறிமுதல்-இரு-கைதிகள்-மீது-வழக்கு",
+   "published": "2026-11-14T01:07:40.677Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794587055/trichy360/cmlrx7d3fsc6xubk0z84.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794587060/trichy360/lta1qqwulzhwpoahueup.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794630693/trichy360/s2vbwlrf7z0uivayrell.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794630703/trichy360/zvn4ydn5uqc3eb89sv4k.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "திருச்சியில் தலைமறைவாக இருந்த பிரபல ரௌடி கைது",
+   "english_headline": "Notorious rowdy Somu alias Somasundaram arrested in Trichy after hiding since June 27",
+   "category": "Crime & Safety",
+   "location": "Trichy airport area, Trichy district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "குற்றச் செய்தி",
+    "loc": "திருச்சி",
+    "hl1": "திருச்சியில் தலைமறைவு ரௌடி கைது",
+    "hl2": "ஜூன் 27 முதல் தேடப்பட்டவர்",
+    "slides": [
+     {
+      "title": "யார் கைது?",
+      "lines": [
+       "புத்தூர் எம்ஜிஆர் நகர் சோமு (எ) சோமசுந்தரம், 35 வயது",
+       "20-க்கும் மேற்பட்ட வழக்குகள் நிலுவையில் உள்ளன",
+       "புதுக்கோட்டையில் என்கவுன்டர் செய்யப்பட்ட துரையின் தம்பி"
+      ]
+     },
+     {
+      "title": "எப்படி கைது?",
+      "lines": [
+       "திருச்சி அரசு மருத்துவமனை காவல் ஆய்வாளர் தலைமையில் தனிப்படை",
+       "விமான நிலையம் அருகே உறவினர் வீட்டில் பதுங்கியிருந்தார்",
+       "வெள்ளிக்கிழமை அதிகாலை கைது செய்யப்பட்டார்"
+      ]
+     },
+     {
+      "title": "அடுத்து என்ன?",
+      "lines": [
+       "நீதிமன்றத்தில் ஆஜர்படுத்தப்பட்டார்",
+       "திருச்சி மத்திய சிறையில் அடைக்கப்பட்டார்",
+       "திருட்டு வழக்கில் பிறப்பிக்கப்பட்ட பிடியாணை தொடர்பாக"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சியில் நீண்ட நாள் தலைமறைவாக இருந்த பிரபல ரௌடி சோமு என்கிற சோமசுந்தரம் கைது செய்யப்பட்டார். திருச்சி புத்தூர் எம்ஜிஆர் நகரைச் சேர்ந்த 35 வயது சோமசுந்தரம் மீது கொள்ளை, திருட்டு உள்ளிட்ட 20-க்கும் மேற்பட்ட வழக்குகள் நிலுவையில் உள்ளன. இவர் புதுக்கோட்டையில் என்கவுன்டர் செய்யப்பட்ட பிரபல ரௌடி துரையின் தம்பி ஆவார். திருட்டு வழக்கில் பிறப்பிக்கப்பட்ட பிணையில்லாத பிடியாணை தொடர்பாக, ஜூன் 27 முதல் தனிப்படை போலீஸார் இவரைத் தேடி வந்தனர். திருச்சி அரசு மருத்துவமனை காவல் ஆய்வாளர் ஆர் எஸ் செல்வக்குமார் தலைமையிலான தனிப்படையினர் இந்தத் தேடுதல் பணியை மேற்கொண்டனர். இந்நிலையில், இவர் திருச்சி விமான நிலையம் அருகே பதுங்கியிருப்பதாகத் தனிப்படை போலீஸாருக்குத் தகவல் கிடைத்தது. இதையடுத்து, விமான நிலையம் அருகேயுள்ள உறவினர் வீட்டில் பதுங்கியிருந்த சோமசுந்தரம் வெள்ளிக்கிழமை அதிகாலை கைது செய்யப்பட்டார். நீதிமன்றத்தில் ஆஜர்படுத்தப்பட்ட அவர், திருச்சி மத்திய சிறையில் அடைக்கப்பட்டார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 திருச்சியில் ஜூன் முதல் தலைமறைவாக இருந்த பிரபல ரௌடி சோமு கைது\n\n📰 முழு விவரம்:\nதிருச்சி புத்தூர் எம்ஜிஆர் நகரைச் சேர்ந்த சோமு (எ) சோமசுந்தரம் (35 வயது), மீது கொள்ளை, திருட்டு உள்ளிட்ட 20-க்கும் மேற்பட்ட வழக்குகள் நிலுவையில் உள்ளன. இவர் புதுக்கோட்டையில் என்கவுன்டர் செய்யப்பட்ட பிரபல ரௌடி துரையின் தம்பி ஆவார்.\nதிருட்டு வழக்கில் பிறப்பிக்கப்பட்ட பிணையில்லாத பிடியாணை தொடர்பாக, ஜூன் 27 முதல் திருச்சி அரசு மருத்துவமனை காவல் ஆய்வாளர் ஆர்.எஸ். செல்வக்குமார் தலைமையிலான தனிப்படை போலீஸார் அவரைத் தேடி வந்தனர்.\nஇந்நிலையில், திருச்சி விமான நிலையம் அருகே பதுங்கியிருப்பதாகத் தகவல் கிடைத்தது. விமான நிலையம் அருகேயுள்ள உறவினர் வீட்டில் பதுங்கியிருந்த அவரை வெள்ளிக்கிழமை அதிகாலை போலீஸார் கைது செய்தனர்.\n👮 நடவடிக்கை: நீதிமன்றத்தில் ஆஜர்படுத்தி திருச்சி மத்திய சிறையில் அடைக்கப்பட்டார்.\n\nTrichy rowdy Somu arrested near airport | Trichy news\n📍 திருச்சி மாவட்டம் | 14 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Crime",
+   "prompts": "A Tamil Nadu police team in khaki uniforms stands at the gate of a modest two-storey residential house on a quiet lane near Trichy airport in the early morning, just after dawn. Seen from behind and at a distance, two or three constables in khaki shirts and trousers stand beside a white-and-khaki police jeep parked at the roadside, while a plainclothes officer walks toward the house entrance. The house has a low compound wall, an iron gate, a concrete front porch and a tiled roof, typical of a middle-class family home in the Trichy airport outskirts. Along the lane there are two-wheelers parked near the wall, a few coconut palms and an electric pole with a TNEB transformer. The light is soft morning daylight with pale sky, and the street is quiet with a few early-rising neighbours watching from a distance. Eye level, slightly high, 35 mm lens wide enough to show the house, the police jeep and the lane. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a wooden table in a police station room or on the porch of the house, with a police constable's khaki-clad arm and a notebook resting beside a stack of case files and a folded arrest-warrant document. Beside the papers sits a steel tumbler and a plastic water bottle, and a khaki police cap lies at the edge of the table. Behind the table, out of focus, a concrete wall and a window with grey iron bars let in early-morning light. The scene is calm and procedural, with no visible faces, no readable text on the papers, and no weapons. Eye level, shallow depth of field, 35 mm lens, soft natural daylight from the window. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%A4%E0%AE%B2%E0%AF%88%E0%AE%AE%E0%AE%B1%E0%AF%88%E0%AE%B5%E0%AE%BE%E0%AE%95-%E0%AE%87%E0%AE%B0%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4-%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%AA%E0%AE%B2-%E0%AE%B0%E0%AF%8C%E0%AE%9F%E0%AE%BF-%E0%AE%95%E0%AF%88%E0%AE%A4%E0%AF%81",
+   "published": "2026-11-14T01:02:57.953Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794630715/trichy360/jnip2hhcr0bntloq5dvj.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794630718/trichy360/rbhuupgzoqgqefkcrc2a.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "திருச்சியில் இருவரிடம் இணையவழியில் ரூ.10 லட்சம் மோசடி",
+   "english_headline": "Two people in Trichy defrauded of over Rs 10 lakh online; cyber crime police investigating",
+   "category": "Crime & Safety",
+   "location": "Trichy city, Trichy district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "இணைய மோசடி",
+    "loc": "திருச்சி",
+    "hl1": "திருச்சியில் இருவரிடம் ரூ.10 லட்சம்",
+    "hl2": "சைபர் போலீஸ் விசாரணை",
+    "slides": [
+     {
+      "title": "முதல் மோசடி",
+      "lines": [
+       "திருச்சி 40 வயது பெண்ணிடம் <b>ரூ.8.31 லட்சம்</b> மோசடி",
+       "கடன் தருவதாகக் கூறி பல தவணைகளில் பணம் பெறப்பட்டது",
+       "ஜூலை 29 முதல் அக். 21 வரை பணம் அனுப்பினார்"
+      ]
+     },
+     {
+      "title": "இரண்டாவது மோசடி",
+      "lines": [
+       "திருச்சி 32 வயது இளைஞரின் கைப்பேசி ஹேக் செய்யப்பட்டது",
+       "செயலியைப் பதிவிறக்கியதால் அக். 7-ல் கைப்பேசி செயலிழந்தது",
+       "வங்கிக் கணக்கில் இருந்து <b>ரூ.1.68 லட்சம்</b> எடுக்கப்பட்டது"
+      ]
+     },
+     {
+      "title": "போலீஸ் நடவடிக்கை",
+      "lines": [
+       "இருவர் புகார்களின் பேரில் சைபர் குற்றப் பிரிவு",
+       "வியாழக்கிழமை வழக்குப் பதிந்து போலீஸார் விசாரிக்கின்றனர்",
+       "அறியாத அழைப்புகள், செயலிகளில் கவனமாக இருங்கள்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சியில் இருவரிடம் இணையவழியில் சுமார் 10 லட்சம் ரூபாய் மோசடி செய்யப்பட்டுள்ளது. திருச்சியைச் சேர்ந்த 40 வயது பெண்ணை மர்ம நபர் கைப்பேசியில் தொடர்புகொண்டார். தான் தனியார் நிதி நிறுவன ஊழியர் என்றும், 5 லட்சம் ரூபாய் கடன் தருவதாகவும் அவர் கூறினார். நம்பிய அந்தப் பெண் ஆவணங்களை அனுப்பினார். பின்னர் பதிவுக் கட்டணம் உள்ளிட்ட கட்டணங்களைச் செலுத்துமாறு அந்த நபர் கேட்டார். ஜூலை 29 முதல் அக்டோபர் 21 வரை பல தவணைகளில் 8 லட்சத்து 31 ஆயிரம் ரூபாய் அனுப்பினார். பணம் மேலும் கேட்டதால்தான் ஏமாற்றப்பட்டது அவருக்குத் தெரியவந்தது. இதுகுறித்து இணையதளம் மூலம் அளித்த புகாரில் வழக்குப் பதிவு செய்யப்பட்டுள்ளது. இதேபோல், திருச்சியைச் சேர்ந்த 32 வயது இளைஞர் அக்டோபர் 7ஆம் தேதி இன்ஸ்டாகிராமில் வந்த கைப்பேசி தீம் செயலியைப் பதிவிறக்கினார். அதனால் அவருடைய கைப்பேசி ஹேக் செய்யப்பட்டு செயலிழந்தது. நவம்பர் 9ஆம் தேதி வங்கிக்குச் சென்றபோது, யுபிஐ மூலம் ஒரு லட்சத்து 68 ஆயிரம் ரூபாய் எடுக்கப்பட்டிருந்தது தெரியவந்தது. தேசிய சைபர் குற்றப் பிரிவு இணையதளத்தில் அளித்த புகாரில் வியாழக்கிழமை வழக்குப் பதிந்து போலீஸார் விசாரிக்கின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "💸 திருச்சியில் இருவரிடம் இணையவழியில் ரூ.10 லட்சம் மோசடி\n\n📰 முழு விவரம்:\nதிருச்சியில் பெண் உள்பட இருவரிடம் இணைய வழியில் ரூ.9.99 லட்சம் மோசடி செய்யப்பட்டது. இதுகுறித்து சைபர் குற்றப் பிரிவு போலீஸார் விசாரிக்கின்றனர்.\n🔹 திருச்சியைச் சேர்ந்த 40 வயது பெண்ணின் கைப்பேசிக்கு ஜூலை 29ஆம் தேதி அழைப்பு வந்தது. பேசிய மர்ம நபர், தான் தனியார் நிதி நிறுவன ஊழியர் என்றும், 5 லட்சம் ரூபாய் கடன் தர தயாராக இருப்பதாகவும் கூறினார்.\n🔹 நம்பிய அந்தப் பெண் ஆவணங்களை அனுப்பினார். பதிவுக் கட்டணம் உள்ளிட்ட பல கட்டணங்களைச் செலுத்துமாறு அந்த நபர் கூறினார்.\n🔹 ஜூலை 29 முதல் அக். 21 வரை பல தவணைகளில் ரூ.8.31 லட்சம் அனுப்பினார். மேலும் பணம் கேட்டதால் ஏமாற்றப்பட்டது தெரியவந்தது.\n🔹 இளைஞரிடம் மோசடி: திருச்சியைச் சேர்ந்த 32 வயது இளைஞர் அக். 7ஆம் தேதி கைப்பேசியில் இன்ஸ்டாகிராம் பார்த்தபோது வந்த 'கைப்பேசி தீம்' செயலியைப் பதிவிறக்கினார். அதன்பின் அவரது கைப்பேசி ஹேக் செய்யப்பட்டு செயலிழந்தது.\n🔹 நவ. 9ஆம் தேதி வங்கிக்குச் சென்றபோது, யுபிஐ பரிவர்த்தனை மூலம் ரூ.1.68 லட்சம் எடுக்கப்பட்டது தெரியவந்தது.\n👮 நடவடிக்கை: இருவரது புகார்களின் பேரில் திருச்சி மாநகர சைபர் குற்றப் பிரிவு போலீஸார் வியாழக்கிழமை வழக்குப் பதிந்து விசாரிக்கின்றனர்.\n\nTrichy two people online fraud Rs 10 lakh | Trichy news\n📍 திருச்சி | 14 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Trichy\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Trichy",
+   "prompts": "A Trichy city cyber crime police officer in khaki uniform sits at a desk in a police station office, reviewing printed complaint papers and a laptop screen turned away from the camera, while a woman in a cotton saree and a young man in a shirt sit on a bench beside the desk, seen from behind and slightly blurred. On the desk lie two mobile phones, a bank passbook and a stack of printed application forms. The room is a typical Tamil Nadu government police station interior with plain white walls, a ceiling fan, a wooden table and a tall steel almirah in the background, lit by daylight coming through a window. The officers and complainants are at a safe distance, no faces visible. Time is late morning with soft natural light. Camera at eye level, 35 mm, wide enough to show the room and the desk with the phones and papers in focus. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of two mobile phones lying on a wooden police desk beside a bank passbook and a printed complaint form, with a khaki-sleeved hand of a police officer resting near the papers. The phones show dark blank screens, no readable text, and the passbook cover is plain with no visible words. The background is softly blurred, showing a steel almirah and a window with daylight. The scene conveys a digital fraud case with the devices and bank documents as evidence. Late morning natural light falls across the desk. Camera slightly high, 35 mm, shallow depth of field focusing on the phones and papers. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/இருவரிடம்-இணையவழியில்-ரூ-10-லட்சம்-மோசடி",
+   "published": "2026-11-14T01:05:49.352Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption needs 5 hashtags (Instagram max), has 10",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794630725/trichy360/yjzbx1b3ckcu7c04xexo.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794630760/trichy360/d3raplp9ptirul10zboj.jpg"
    ]
   }
  ]

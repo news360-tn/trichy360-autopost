@@ -1,0 +1,252 @@
+writing [N]: இருவரிடம் இணையவழியில் ரூ. 10 லட்சம் மோசடி
+writing [N]: திருச்சியில் தலைமறைவாக 
+இருந்த பிரபல ரௌடி கைது
+writing [N]: திருச்சி மத்திய சிறையில் 
+கைப்பேசி,சிம்காா்டுகள் பறிமுதல் 
+இ
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (13s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (14s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.5-flash
+ok gemini/gemini-3.6-flash (17s)
+attempt 1 gemini/gemini-3.6-flash: 9 problems
+  stray Tamil sign 'ா' after 'ா' in « தனியாா் ந»
+  stray Tamil sign '்' after 'ா' in «தனியாா் நி»
+  stray Tamil sign '்' after 'ா' in « ஊழியா் என»
+  stray Tamil sign '்' after 'ா' in «றிய மா்ம ந»
+  stray Tamil sign '்' after 'ா' in «்ம நபா் 40»
+  stray Tamil sign '்' after 'ா' in «ர சைபா் கு»
+  stray Tamil sign 'ா' after 'ா' in «போலீஸாா் வ»
+  stray Tamil sign '்' after 'ா' in «ோலீஸாா் வழ»
+  stray Tamil sign '்' after 'ா' in «ின்றனா்.
+
+»
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (8s)
+factcheck by gemini/gemini-3.6-flash: 1 problems
+  The name of the arrested person (Somu alias Somasundaram) is missing from the reel_script.
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  fact-check: The name of the arrested person (Somu alias Somasundaram) is missing from the reel_script.
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+dead for this round: gemini/gemini-3-flash-preview
+ok groq/openai/gpt-oss-120b (7s)
+attempt 2 groq/openai/gpt-oss-120b: 3 problems
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+ok gemini/gemini-3-flash-preview (29s)
+factcheck by gemini/gemini-3-flash-preview: 2 problems
+  The names of the prisoners (Akilan and Karthik) mentioned in the article are missing from the reel_script.
+  The specific date (12 November 2026) in the caption is an invented detail not found in the article.
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  fact-check: The names of the prisoners (Akilan and Karthik) mentioned in the article are missing from the reel_script.
+  fact-check: The specific date (12 November 2026) in the caption is an invented detail not found in the article.
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+switching away from groq/openai/gpt-oss-120b for 10 min
+ok groq/qwen/qwen3.8-27b (3s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+switching away from groq/openai/gpt-oss-120b for 10 min
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+free fact-check unavailable, using Claude: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model 
+ok anthropic/claude-haiku-5-5
+factcheck by anthropic/claude-haiku-5-5: 6 problems
+  The draft's reel_script and caption give the arrested man's name as 'சோமு' only, but the article says 'சோமு (எ) சோமசுந்தரம்'; the full name is not an error by itself, so this is minor, but the caption's '(35 வயது)' is correct per article.
+  Missing fact in reel_script: the article identifies him as the younger brother of 'துரை', a gangster killed in an encounter (என்கவுண்டர்) in Pudukkottai; the reel_script does mention this, so no issue there.
+  Caption and reel_script say 'இவர் புதுக்கோட்டையில் என்கவுண்டர் செய்யப்பட்ட பிரபல ரௌடியான துரையின் தம்பியாவார்' — consistent with article.
+  Caption states '(35 வயது)' twice in the same sentence ('கைது செய்யப்பட்ட ரௌடி சோமு (35 வயது) அவரை') and the sentence 'இவர் ... சோமு (35 வயது) அவரை வெள்ளிக்கிழமை அதிகாலை கைது செய்தனர்' has a redundant pronoun 'அவரை' after the subject, making the Tamil ungrammatical and confusing.
+  The reel_script sentence 'இவர் திருச்சி விமான நிலையம் அருகே பதுங்கியிருப்பதாக ... தகவல் கிடைத்தது' is fine, but 'திருட்டு வழக்கில் பிறப்பிக்கப்பட்ட பிணையிலாத் பிடிவாரி' uses the non-standard 'பிணையிலாத்' and 'பிடிவாரி' (article says 'பிடியாணை'), which is a wording departure that changes the term for the warrant (பிடியாணை means arrest warrant), and the draft's 'பிடிவாரி' is not a clear equivalent.
+  The reel_script says the arrest was made by 'தனிப்படை போலீஸார்' and the article says the team was led by inspector R. S. Selvakumar; the draft omits the inspector-led team detail, which is an important who-did-what fact missing from the reel_script.
+attempt 3 groq/qwen/qwen3.8-27b: 6 problems
+  fact-check: The draft's reel_script and caption give the arrested man's name as 'சோமு' only, but the article says 'சோமு (எ) சோமசுந்தரம்'; the full name is not an error by itself, so this is minor, but the caption's '(35 வயது)' is correct per article.
+  fact-check: Missing fact in reel_script: the article identifies him as the younger brother of 'துரை', a gangster killed in an encounter (என்கவுண்டர்) in Pudukkottai; the reel_script does mention this, so no issue there.
+  fact-check: Caption and reel_script say 'இவர் புதுக்கோட்டையில் என்கவுண்டர் செய்யப்பட்ட பிரபல ரௌடியான துரையின் தம்பியாவார்' — consistent with article.
+  fact-check: Caption states '(35 வயது)' twice in the same sentence ('கைது செய்யப்பட்ட ரௌடி சோமு (35 வயது) அவரை') and the sentence 'இவர் ... சோமு (35 வயது) அவரை வெள்ளிக்கிழமை அதிகாலை கைது செய்தனர்' has a redundant pronoun 'அவரை' after the subject, making the Tamil ungrammatical and confusing.
+  fact-check: The reel_script sentence 'இவர் திருச்சி விமான நிலையம் அருகே பதுங்கியிருப்பதாக ... தகவல் கிடைத்தது' is fine, but 'திருட்டு வழக்கில் பிறப்பிக்கப்பட்ட பிணையிலாத் பிடிவாரி' uses the non-standard 'பிணையிலாத்' and 'பிடிவாரி' (article says 'பிடியாணை'), which is a wording departure that changes the term for the warrant (பிடியாணை means arrest warrant), and the draft's 'பிடிவாரி' is not a clear equivalent.
+  fact-check: The reel_script says the arrest was made by 'தனிப்படை போலீஸார்' and the article says the team was led by inspector R. S. Selvakumar; the draft omits the inspector-led team detail, which is an important who-did-what fact missing from the reel_script.
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+switching away from groq/qwen/qwen3.8-27b for 10 min
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` 
+fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3-flash-preview
+free models unavailable: no free model answered: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read t
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+free fact-check unavailable, using Claude: no free model answered: None
+ok anthropic/claude-haiku-5-5
+claude rewrite 1 anthropic/claude-haiku-5-5: 1 problems
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 5 ('9.99 லட்சம் மோசடி செய்யப்பட்டது குறித்து சைபா் குற்றப் பிரிவ'); 7 ('7-ஆம் தேதி கைப்பேசியில் இன்ஸ்டாகிராம் பாா்த்தபோது, அதில் வந்')
+ok anthropic/claude-haiku-5-5
+factcheck by anthropic/claude-haiku-5-5: 1 problems
+  slides_spec slide title 'எப்படித்' is truncated and has no clear meaning in Tamil
+claude rewrite 1 anthropic/claude-haiku-5-5: 1 problems
+  fact-check: slides_spec slide title 'எப்படித்' is truncated and has no clear meaning in Tamil
+ok anthropic/claude-haiku-5-5
+claude rewrite 1 anthropic/claude-haiku-5-5: 1 problems
+  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+free fact-check unavailable, using Claude: no free model answered: None
+ok anthropic/claude-haiku-5-5
+factcheck by anthropic/claude-haiku-5-5: 6 problems
+  The caption's 'Follow' line and posting-date footer are excluded from checking, but the reel_script says 'மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்' which is the allowed closing sentence, so no issue there; however the reel_script states the search was done 'சிறை அறைகளிலும் ஆய்வு' on Thursday, which matches the article, and the 'ராஜேஷ்கண்ணன்' attribution matches as well.
+  The slides_spec 'hl1' uses 'சிம்கார்டுகள்' and the reel_script/caption say 'சிம்கார்டுகள்' consistently; no mismatch found there.
+  Caption says the court-returned prisoners were 'அகிலன், கார்த்திக்' and that the search was 'வியாழக்கிழமை' — both match the article.
+  The caption's cited date 'நவம்பர் 14, 2026' is the posting date and is excluded from checking.
+  Missing fact: the reel_script and slides never state that the case was registered with the police on the basis of a complaint from the prison authorities, although the article says 'புகாரின்பேரில்'; the reel_script does mention 'புகாரின்பேரில்', so this is covered and not a real omission.
+  The caption's '📍 Trichy' location and English line 'Trichy Central Prison phones seized, two prisoners booked | Trichy news' is an extra English line not present in the article, which is an invented/unsupported addition in the caption body.
+claude rewrite 2 anthropic/claude-haiku-5-5: 6 problems
+  fact-check: The caption's 'Follow' line and posting-date footer are excluded from checking, but the reel_script says 'மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்' which is the allowed closing sentence, so no issue there; however the reel_script states the search was done 'சிறை அறைகளிலும் ஆய்வு' on Thursday, which matches the article, and the 'ராஜேஷ்கண்ணன்' attribution matches as well.
+  fact-check: The slides_spec 'hl1' uses 'சிம்கார்டுகள்' and the reel_script/caption say 'சிம்கார்டுகள்' consistently; no mismatch found there.
+  fact-check: Caption says the court-returned prisoners were 'அகிலன், கார்த்திக்' and that the search was 'வியாழக்கிழமை' — both match the article.
+  fact-check: The caption's cited date 'நவம்பர் 14, 2026' is the posting date and is excluded from checking.
+  fact-check: Missing fact: the reel_script and slides never state that the case was registered with the police on the basis of a complaint from the prison authorities, although the article says 'புகாரின்பேரில்'; the reel_script does mention 'புகாரின்பேரில்', so this is covered and not a real omission.
+  fact-check: The caption's '📍 Trichy' location and English line 'Trichy Central Prison phones seized, two prisoners booked | Trichy news' is an extra English line not present in the article, which is an invented/unsupported addition in the caption body.
+ok anthropic/claude-haiku-5-5
+claude rewrite 2 anthropic/claude-haiku-5-5: 1 problems
+  caption needs 5 hashtags (Instagram max), has 10
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+free fact-check unavailable, using Claude: no free model answered: None
+ok anthropic/claude-haiku-5-5
+factcheck by anthropic/claude-haiku-5-5: 5 problems
+  reel_script says the arrested man was 'சோமு (எ) சோமசுந்தரம், வயது 35' and places 'Puthur MGR Nagar' — fine, but the article says he was arrested while hiding at a relative's house near the airport; reel_script says 'விமான நிலையம் அருகே உறவினர் வீட்டில்' which matches, so no issue there.
+  reel_script omits the detail that the arrest was made by the special police team ('தனிப்படை போலீசாரால்') only in the first sentence and later drops the 'police team' attribution for the arrest — acceptable; however the caption adds 'நடவடிக்கை: காவல் ஆய்வாளர் ஆர்.எஸ். செல்வக்குமார் தலைமையிலான தனிப்படை போலீசார் கைது செய்தனர்' which is consistent with the article.
+  caption and reel_script state the arrest happened 'வெள்ளிக்கிழமை அதிகாலை' (early Friday morning) in the reel_script, but the article says he was arrested early Friday morning — consistent.
+  caption says 'உறவினர் வீட்டில் இருந்தவரை' while the article says he was hiding ('பதுங்கியிருந்த') at a relative's house — consistent in substance.
+  slides_spec hl2 'விமான நிலையம் அருகே' and caption headline 'விமான நிலையம் அருகே பதுங்கிய' — consistent with article.
+claude rewrite 2 anthropic/claude-haiku-5-5: 5 problems
+  fact-check: reel_script says the arrested man was 'சோமு (எ) சோமசுந்தரம், வயது 35' and places 'Puthur MGR Nagar' — fine, but the article says he was arrested while hiding at a relative's house near the airport; reel_script says 'விமான நிலையம் அருகே உறவினர் வீட்டில்' which matches, so no issue there.
+  fact-check: reel_script omits the detail that the arrest was made by the special police team ('தனிப்படை போலீசாரால்') only in the first sentence and later drops the 'police team' attribution for the arrest — acceptable; however the caption adds 'நடவடிக்கை: காவல் ஆய்வாளர் ஆர்.எஸ். செல்வக்குமார் தலைமையிலான தனிப்படை போலீசார் கைது செய்தனர்' which is consistent with the article.
+  fact-check: caption and reel_script state the arrest happened 'வெள்ளிக்கிழமை அதிகாலை' (early Friday morning) in the reel_script, but the article says he was arrested early Friday morning — consistent.
+  fact-check: caption says 'உறவினர் வீட்டில் இருந்தவரை' while the article says he was hiding ('பதுங்கியிருந்த') at a relative's house — consistent in substance.
+  fact-check: slides_spec hl2 'விமான நிலையம் அருகே' and caption headline 'விமான நிலையம் அருகே பதுங்கிய' — consistent with article.
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+free fact-check unavailable, using Claude: no free model answered: None
+ok anthropic/claude-haiku-5-5
+factcheck by anthropic/claude-haiku-5-5: 0 problems
+claude rewrite 3 anthropic/claude-haiku-5-5: 0 problems
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+proofread skipped: no free model answered: None
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok anthropic/claude-haiku-5-5
+claude rewrite 3 anthropic/claude-haiku-5-5: 2 problems
+  not grounded: location 'நகரம்' is not in the article
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 9 ('9.99 லட்சம் மோசடி செய்யப்பட்டது குறித்து சைபா் குற்றப் பிரிவ'); 99 ('9.99 லட்சம் மோசடி செய்யப்பட்டது குறித்து சைபா் குற்றப் பிரிவ'); 5 ('9.99 லட்சம் மோசடி செய்யப்பட்டது குறித்து சைபா் குற்றப் பிரிவ'); 7 ('7-ஆம் தேதி கைப்பேசியில் இன்ஸ்டாகிராம் பாா்த்தபோது, அதில் வந்'); 9 ('9-ஆம் தேதி வங்கிக்குச் சென்றபோது அவருடைய கணக்கில் இருந்து யு')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+proofread skipped: no free model answered: None
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok anthropic/claude-haiku-5-5
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+free fact-check unavailable, using Claude: no free model answered: None
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+ok anthropic/claude-haiku-5-5
+ok anthropic/claude-haiku-5-5
+factcheck by anthropic/claude-haiku-5-5: 4 problems
+  The caption's 'நாள்: வெள்ளிக்கிழமை (நவம்பர் 13)' adds a specific date (November 13) that does not appear in the article; the article only says Friday.
+  The caption's '(35 வயது)' is fine, but the reel_script says 'சோமு, 35 வயதுடைய சோமசுந்தரம்' which mixes two names into one sentence, wrongly implying Somu is a separate person from Somasundaram; the article states 'சோமு (எ) சோமசுந்தரம்' as one person's two names.
+  The reel_script states 'திருச்சி அரசு மருத்துவமனை காவல் ஆய்வாளர் ஆர் எஸ் செல்வக்குமார் தலைமையில் இந்தத் தேடுதல் நடைபெற்றது' as the search; the article says he led the team in the search, which matches, but the reel_script omits that the arrest itself was made by the special team, which is an important detail of who did what.
+  The reel_script says 'விமான நிலையம் அருகே உறவினர் வீட்டில் அவர் பதுங்கியிருப்பதாகத் தகவல் கிடைத்தது' which is accurate, but the headline and reel's opening say he was arrested 'விமான நிலையம் அருகே' while the article says he was arrested at a relative's house near the airport; the location is stated loosely in the headline and slides_spec 'loc' field, which is acceptable only as a shortening.
+claude rewrite 3 anthropic/claude-haiku-5-5: 4 problems
+  fact-check: The caption's 'நாள்: வெள்ளிக்கிழமை (நவம்பர் 13)' adds a specific date (November 13) that does not appear in the article; the article only says Friday.
+  fact-check: The caption's '(35 வயது)' is fine, but the reel_script says 'சோமு, 35 வயதுடைய சோமசுந்தரம்' which mixes two names into one sentence, wrongly implying Somu is a separate person from Somasundaram; the article states 'சோமு (எ) சோமசுந்தரம்' as one person's two names.
+  fact-check: The reel_script states 'திருச்சி அரசு மருத்துவமனை காவல் ஆய்வாளர் ஆர் எஸ் செல்வக்குமார் தலைமையில் இந்தத் தேடுதல் நடைபெற்றது' as the search; the article says he led the team in the search, which matches, but the reel_script omits that the arrest itself was made by the special team, which is an important detail of who did what.
+  fact-check: The reel_script says 'விமான நிலையம் அருகே உறவினர் வீட்டில் அவர் பதுங்கியிருப்பதாகத் தகவல் கிடைத்தது' which is accurate, but the headline and reel's opening say he was arrested 'விமான நிலையம் அருகே' while the article says he was arrested at a relative's house near the airport; the location is stated loosely in the headline and slides_spec 'loc' field, which is acceptable only as a shortening.
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+proofread skipped: no free model answered: None
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+real photo not this news (The image is a generic stock photograph of a green iPhone 5c, not an actual phot): https://media.dinamani.com/dinamani/import/2024/2/8/original/mobile-app.jpg
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok anthropic/claude-haiku-5-5
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 2 for 'Phones and SIM cards seized in Trichy Ce'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261114-1001","first":"RN-15"}
+posting job started at once
+real photo skipped (photo uploaded 2026-03-31 (older than the news)): https://media.dinamani.com/dinamani/2026-03-31/d0cmdkm2/%E0%AE%95%E0%AF%88%E0%AE%A4%E0%AF%
+real photo skipped (photo uploaded 2026-03-31 (older than the news)): https://media.dinamani.com/dinamani/2026-03-31/d0cmdkm2/கைது?w=1200&h=675&auto=format%2Cco
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 2 for 'Notorious rowdy Somu alias Somasundaram '
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261114-1002","first":"RN-16"}
+real photo skipped (photo uploaded 2026-09-24 (older than the news)): https://media.dinamani.com/dinamani/2026-09-24/rlcah6a1/202609243953535.jpg
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match: False The photo is a generic close-up of a person's hand resting near a smartphone and documents on a wooden table, with no in
+image match: False The image is an AI-generated generic/stock photo showing smartphones, a bank slip, and a police uniform, rather than rea
+images made: 2 for 'Two people in Trichy defrauded of over R'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261114-1002","first":"RN-17"}
+earlier stories still waiting for images: []
+instagram check: 15 recent posts read from the page
+pick round: only the picked links are written (research_free/pick.py)
+manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%A4%E0%AE%B2%E0%AF%88%E0%AE%AE%E0%AE%B1%E0%AF%88%E0%AE%B5%E0%AE%BE%E0%AE%95-%E0%AE%87%E0%AE%B0%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4-%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%AA%E0%AE%B2-%E0%AE%B0%E0%AF%8C%E0%AE%9F%E0%AE%BF-%E0%AE%95%E0%AF%88%E0%AE%A4%E0%AF%81
+manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/இருவரிடம்-இணையவழியில்-ரூ-10-லட்சம்-மோசடி
+manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/திருச்சி-மத்திய-சிறையில்-கைப்பேசிசிம்காா்டுகள்-பறிமுதல்-இரு-கைதிகள்-மீது-வழக்கு
+candidate filter: collected=3
+to write: 3 Trichy district candidates (max 3 stories)
+round: top 3 of 3 candidates
+candidates waiting: 3 Trichy; time left 79 min
+try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/
+try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/
+try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})
+posting job started at once
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 7})
+candidate loop ended: left 0, tried={'N': 3}, done={'N': 3}, time left 76 min
+filed: 3 Trichy district stories (target 3), reels only
+queue: 0 news waiting to be written
+All News sheet: {"ok":true,"added":3,"updated":0} 
+stories: 3
