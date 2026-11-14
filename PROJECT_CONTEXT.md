@@ -81,6 +81,14 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-14 | `1f338cc` | pick: each round's news chosen by the page's insights (at least 2/5/5/3/5/4 + up to 3 more well-watched, leftovers compete, power cuts on top); story share only for power cuts / urgent news |
+| 2026-11-14 | `fd59463` | powercut: notices written |
+| 2026-11-14 | `9658755` | powercut: notices written |
+| 2026-11-14 | `04ca6d0` | pick: written and posted |
+| 2026-11-14 | `61c05ad` | powercut: notices written |
+| 2026-11-14 | `d542093` | pick: picked news saved |
+| 2026-11-14 | `3cc8b2e` | pick: picked news saved |
+| 2026-11-14 | `b42526d` | pick: list sent |
 | 2026-11-14 | `9ffe725` | goldrate: import the browser only when slides are made (tests machine has none - fixes the red tests since 13 Nov) |
 | 2026-11-14 | `f1ab67e` | posting: Gmail daily email limit no longer counts as a failed post record (sheet row is already saved - no 5x retries); checker notes ending 'so not a problem' no longer hold a story (14 Nov) |
 | 2026-11-14 | `8b88b11` | powercut: notices written |
@@ -103,12 +111,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-14 | `1fe4b15` | powercut: notices written |
 | 2026-11-14 | `f0b253a` | powercut: notices written |
 | 2026-11-14 | `e6b0f9d` | rasipalan posted |
-| 2026-11-14 | `c028f7a` | powercut: notices written |
-| 2026-11-14 | `82a079c` | powercut: notices written |
-| 2026-11-14 | `b493e8f` | pick: written and posted |
-| 2026-11-14 | `8c077ea` | pick: list sent |
-| 2026-11-13 | `9e42de8` | pick: written and posted |
-| 2026-11-13 | `2a3317b` | pick: list sent |
-| 2026-11-13 | `c48594a` | goldrate: daily gold & silver rate carousel on this page (owner 14 Nov) - same job as Namakkal 360, own logo and handle |
-| 2026-11-13 | `99d64bf` | reel: Namakkal 360 design (look A) on this page - premium look P switched off; waiting reels made again (cache r6) (owner 13 Nov 23:10) |
 <!-- recent-changes:end -->
