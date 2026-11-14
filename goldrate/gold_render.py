@@ -2,7 +2,6 @@
 render(page_cfg, rates, outdir) -> [gold.jpg, silver.jpg]   (silver slide left out when today's silver rate is not confirmed)"""
 from pathlib import Path
 
-from playwright.sync_api import sync_playwright
 
 HERE = Path(__file__).resolve().parent
 FONTS = HERE / "fonts"
@@ -184,6 +183,7 @@ def render(p, r, outdir, log=print):
     outdir = Path(outdir)
     outdir.mkdir(parents=True, exist_ok=True)
     kinds = ["gold"] + (["silver"] if r.get("silver") else [])
+    from playwright.sync_api import sync_playwright      # only here: the test machine has no browser
     out = []
     with sync_playwright() as pw:
         b = pw.chromium.launch()
