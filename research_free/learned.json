@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-15T01:34+05:30",
- "posts_measured": 24,
+ "updated": "2026-11-15T02:47+05:30",
+ "posts_measured": 26,
  "topic_weight": {
-  "crime": 0.56,
-  "politics": -0.02
+  "crime": 0.6,
+  "politics": -0.07
  },
  "topic_n": {
   "accident": 2,
-  "crime": 3,
+  "crime": 5,
   "power_cut": 1,
   "civic": 2,
   "education": 2,
@@ -28,7 +28,7 @@
   "🚨 திருச்சியில் தலைமறைவாக இருந்த பிரபல ரௌடி சோமு கைது",
   "🚐 திருச்சி ஆவின் பார்க்கிங்கில் தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி"
  ],
- "avg_watch_s": 6.7,
+ "avg_watch_s": 6.4,
  "best_topics": [
   "crime",
   "politics"
