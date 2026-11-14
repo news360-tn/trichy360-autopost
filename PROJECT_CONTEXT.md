@@ -81,6 +81,7 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-14 | `cce1f06` | comments: e-mail only important comments (question, fake / doubt claim, complaint, viewer information, abuse) - praise, thanks, emoji and chat are not e-mailed |
 | 2026-11-14 | `bfce108` | pick: health tips and day functions not written automatically; sexual-harassment / POCSO news counts as crime; schedule comments updated |
 | 2026-11-14 | `1f338cc` | pick: each round's news chosen by the page's insights (at least 2/5/5/3/5/4 + up to 3 more well-watched, leftovers compete, power cuts on top); story share only for power cuts / urgent news |
 | 2026-11-14 | `fd59463` | powercut: notices written |
@@ -110,5 +111,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-14 | `3dfa2c2` | powercut: notices written |
 | 2026-11-14 | `38c747e` | stories shared |
 | 2026-11-14 | `1fe4b15` | powercut: notices written |
-| 2026-11-14 | `f0b253a` | powercut: notices written |
 <!-- recent-changes:end -->
