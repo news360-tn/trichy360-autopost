@@ -12,3 +12,55 @@
 21:41:38    7. [பொது] “தவறு செய்தவர்களை நீக்கும் துணிவில்லாத முதல்வர் விஜய் தூய சக்தியா?” -  (இந்து தமிழ்) (earlier)
 21:41:38 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
 ROUND=2026-11-14_21
+21:41:40 round 2026-11-14_21 (at least 4, up to 3 more of well-watched topics): 7 news to choose from (0 from earlier rounds), ranked by this page's insights
+21:41:40   PICK   1.  13.4 [weather +0.80 pattern] வானிலை
+21:41:40   PICK   2.   6.0 [other +0.00 pattern] சபரிமலைக்கு செல்லும் பக்தர்களுக்காக கூடுதல் பஸ்கள்: போக்குவர
+21:41:40   PICK   3.   3.0 [other +0.00 pattern] நான் ஜீரோ...ஹீரோ என கூறுபவரிடம் கேள்வி எழுப்புங்கள் - சீமான்
+21:41:40   PICK   4.   1.5 [other +0.00 pattern] ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
+21:41:40          5.   1.0 [politics -0.50 pattern] “தவறு செய்தவர்களை நீக்கும் துணிவில்லாத முதல்வர் விஜய் தூய சக
+21:41:40          6.   0.5 [politics -0.50 pattern] தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட
+21:41:40          7.   0.0 [politics -0.50 pattern] அதிமுக எங்களுக்கு பகை சக்தி அல்ல: மு. வீரபாண்டியன்
+21:41:40 decided: automatic: top 4 of 7 by insights -> 4 news to write and post
+PICK_URLS=https://www.dinamalar.com/news/tamil-nadu-news/weather/4376070 https://www.dailythanthi.com/news/tamilnadu/additional-buses-for-devotees-going-to-sabarimala-transport-corporation-arranges https://www.polimernews.com/politicsnews/question-those-who-call-me-a-zero-or-a-hero-seeman-12809616 https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/ஸ்ரீரங்கத்தில்-ஸ்ரீரங்கநாச்சியாா்-ஊஞ்சல்-உற்சவ-விழா-நிறைவு
+21:44:35 4 listed news now in the Sheet
+21:44:42 instagram duplicate check trichy: 24 recent posts read
+21:44:42 verify 2026-11-14_21: 0 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+21:44:42    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
+21:44:42    NOT POSTED C23db552: queued RN-27 (Queued) - நான் ஜீரோ...ஹீரோ என கூறுபவரிடம் கேள்வி எழுப்புங்கள் - சீமான்
+21:44:42    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
+21:44:42    NOT POSTED C8777ffe: queued RN-28 (Queued) - சபரிமலைக்கு செல்லும் பக்தர்களுக்காக கூடுதல் பஸ்கள்: போக்குவர
+21:49:49 instagram duplicate check trichy: 24 recent posts read
+21:49:49 verify 2026-11-14_21: 0 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+21:49:49    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
+21:49:49    NOT POSTED C23db552: queued RN-27 (Queued) - நான் ஜீரோ...ஹீரோ என கூறுபவரிடம் கேள்வி எழுப்புங்கள் - சீமான்
+21:49:49    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
+21:49:49    NOT POSTED C8777ffe: queued RN-28 (Queued) - சபரிமலைக்கு செல்லும் பக்தர்களுக்காக கூடுதல் பஸ்கள்: போக்குவர
+21:54:55 instagram duplicate check trichy: 25 recent posts read
+21:54:55 verify 2026-11-14_21: 1 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+21:54:55    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
+21:54:55    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
+21:54:55    NOT POSTED C8777ffe: queued RN-28 (Queued) - சபரிமலைக்கு செல்லும் பக்தர்களுக்காக கூடுதல் பஸ்கள்: போக்குவர
+22:00:02 instagram duplicate check trichy: 25 recent posts read
+22:00:02 verify 2026-11-14_21: 1 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+22:00:02    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
+22:00:02    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
+22:00:02    NOT POSTED C8777ffe: queued RN-28 (Queued) - சபரிமலைக்கு செல்லும் பக்தர்களுக்காக கூடுதல் பஸ்கள்: போக்குவர
+22:05:10 instagram duplicate check trichy: 25 recent posts read
+22:05:10 verify 2026-11-14_21: 1 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+22:05:10    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
+22:05:10    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
+22:05:10    NOT POSTED C8777ffe: queued RN-28 (Queued) - சபரிமலைக்கு செல்லும் பக்தர்களுக்காக கூடுதல் பஸ்கள்: போக்குவர
+22:10:18 instagram duplicate check trichy: 26 recent posts read
+22:10:18 verify 2026-11-14_21: 2 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+22:10:18    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
+22:10:18    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
+22:15:27 instagram duplicate check trichy: 26 recent posts read
+22:15:27 verify 2026-11-14_21: 2 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+22:15:27    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
+22:15:27    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
+22:20:35 instagram duplicate check trichy: 26 recent posts read
+22:20:35 verify 2026-11-14_21: 2 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+22:20:35    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
+22:20:35    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
+22:25:40 verify 2026-11-14_21: 3 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+22:25:40    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
