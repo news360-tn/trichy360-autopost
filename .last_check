@@ -1,16 +1,16 @@
-22:22:59 SKIP RN-4 held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
-22:22:59 SKIP RN-19 held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the article.
+01:31:49 SKIP RN-4 held: fact-check problems - fact-check: The reel_script states Mohan Kumar is a 'கூலித் தொழிலாளி' (daily wage labourer); fact-check: The caption's date line states '(நவம்பர் 12)' as the specific date of the incident, which is no
+01:31:49 SKIP RN-19 held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the article.
 ::warning title=Held from posting RN-19::held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the article.
-22:22:59 SKIP RN-22 held: fact-check problems - numbers not found in the article: 1000
+01:31:50 SKIP RN-22 held: fact-check problems - numbers not found in the article: 1000
 ::warning title=Held from posting RN-22::held: fact-check problems - numbers not found in the article: 1000
-22:22:59 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-22:22:59 SKIP RN-29 held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்)
+01:31:50 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+01:31:50 SKIP RN-29 held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்)
 ::warning title=Held from posting RN-29::held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்)
-22:23:01 story catch-up trichy: quota 26/50, 27 recent posts, 10 live stories, owner ids ['17841462048887226', '28956510467350700']
-22:23:01 5 stories in the queue, ready to post: 0
-22:23:01   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-22:23:01    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 39.1 ready= False set_started= True
-22:23:01    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 8.4 ready= False set_started= True
-22:23:01    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 4.7 ready= False set_started= True
-22:23:01    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 4.7 ready= False set_started= True
-22:23:01    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 0.7 ready= False set_started= True
+01:31:52 story catch-up trichy: quota 21/50, 27 recent posts, 8 live stories, owner ids ['17841462048887226', '28956510467350700']
+01:31:52 5 stories in the queue, ready to post: 0
+01:31:52   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+01:31:52    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 42.3 ready= False set_started= True
+01:31:52    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 11.5 ready= False set_started= True
+01:31:52    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 7.8 ready= False set_started= True
+01:31:52    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 7.8 ready= False set_started= True
+01:31:52    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 3.8 ready= False set_started= True
