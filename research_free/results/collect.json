@@ -1,23 +1,23 @@
 {
  "log": [
   "earlier stories still waiting for images: []",
-  "instagram check: 15 recent posts read from the page",
+  "instagram check: 19 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%A4%E0%AE%B2%E0%AF%88%E0%AE%AE%E0%AE%B1%E0%AF%88%E0%AE%B5%E0%AE%BE%E0%AE%95-%E0%AE%87%E0%AE%B0%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4-%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%AA%E0%AE%B2-%E0%AE%B0%E0%AF%8C%E0%AE%9F%E0%AE%BF-%E0%AE%95%E0%AF%88%E0%AE%A4%E0%AF%81",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/இருவரிடம்-இணையவழியில்-ரூ-10-லட்சம்-மோசடி",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/திருச்சி-மத்திய-சிறையில்-கைப்பேசிசிம்காா்டுகள்-பறிமுதல்-இரு-கைதிகள்-மீது-வழக்கு",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/%E0%AE%B5%E0%AF%86%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AE%9A%E0%AF%8D-%E0%AE%9A%E0%AE%BE%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AE%9F%E0%AE%BF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81-%E0%AE%AA%E0%AE%AF%E0%AE%BF%E0%AE%BE%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%80%E0%AE%9F%E0%AF%81-%E0%AE%A8%E0%AE%B530-%E0%AE%95%E0%AE%9F%E0%AF%88%E0%AE%9A%E0%AE%BF-%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%8D",
+  "manual link added: https://www.dinamani.com/tamilnadu/2026/Nov/14/aiadmk-to-hold-a-protest-on-nov-18-condemning-deputy-speaker-ravi-shankar",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/special-camp-today-for-name-changes-and-corrections-in-family-ration-cards",
   "candidate filter: collected=3",
   "to write: 3 Trichy district candidates (max 3 stories)",
   "round: top 3 of 3 candidates",
   "candidates waiting: 3 Trichy; time left 79 min",
   "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "try (N) manual=True: https://www.dinamani.com/tamilnadu/2026/Nov/14/aiadmk-to-hol",
   "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})",
   "posting job started at once",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 7})",
-  "candidate loop ended: left 0, tried={'N': 3}, done={'N': 3}, time left 76 min",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 9})",
+  "candidate loop ended: left 0, tried={'N': 3}, done={'N': 3}, time left 72 min",
   "filed: 3 Trichy district stories (target 3), reels only",
   "queue: 0 news waiting to be written",
   "All News sheet: {\"ok\":true,\"added\":3,\"updated\":0}"
@@ -29,90 +29,125 @@
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.6-flash (13s)",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "ok gemini/gemini-3.6-flash (16s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (32s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.6-flash (14s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "switching away from gemini/gemini-3.6-flash for 10 min",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3.6-flash (17s)",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "switching away from gemini/gemini-3.6-flash for 10 min",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "switching away from gemini/gemini-3.6-flash for 10 min",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "switching away from gemini/gemini-3.5-flash for 10 min",
+  "ok gemini/gemini-3-flash-preview (11s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3-flash-preview (11s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3-flash-preview (13s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3-flash-preview (13s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.6-flash (8s)",
+  "ok gemini/gemini-3.5-flash (52s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3-flash-preview (7s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.5-flash",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "ok gemini/gemini-3-flash-preview (11s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3-flash-preview (11s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3-flash-preview (11s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3-flash-preview (11s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3-flash-preview (10s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "dead for this round: gemini/gemini-3-flash-preview",
-  "ok groq/openai/gpt-oss-120b (7s)",
+  "ok gemini/gemini-3-flash-preview (10s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok gemini/gemini-3-flash-preview (29s)",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "switching away from gemini/gemini-3-flash-preview for 10 min",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "ok groq/qwen/qwen3.8-27b (4s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "ok groq/qwen/qwen3.8-27b (3s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
   "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "ok groq/qwen/qwen3.8-27b (0s)",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
@@ -120,174 +155,182 @@
  ],
  "stories": [
   {
-   "tamil_headline": "திருச்சி மத்திய சிறையில் கைப்பேசி, சிம்கார்டுகள் பறிமுதல்: இரு கைதிகள் மீது வழக்கு",
-   "english_headline": "Phones and SIM cards seized in Trichy Central Prison; case booked against two prisoners",
-   "category": "Crime & Safety",
-   "location": "Trichy Central Prison, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
+   "tamil_headline": "குடும்ப அட்டை திருத்தத்துக்கு இன்று சிறப்பு முகாம்",
+   "english_headline": "Special camps today in all 11 taluks of Trichy district for ration card name and address correction",
+   "category": "Government & Services",
+   "location": "Ayyappanagar-1, Thennur-1, Ventur, Thiruparaithurai, Manjampatti, Ariyagoundapatti, Periyakurukkai, Thiruppainjeeli South, Sevanthilingapuram, Sebanapuram-2, Alangarai West - Trichy district",
+   "importance": "High",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "சிறை சோதனை",
-    "loc": "திருச்சி மத்திய சிறை",
-    "hl1": "திருச்சி மத்திய சிறையில் கைப்பேசி",
-    "hl2": "இரு கைதிகள் மீது வழக்கு",
+    "cat": "அரசு சேவை",
+    "loc": "திருச்சி மாவட்டம்",
+    "hl1": "குடும்ப அட்டை திருத்தத்துக்கு இன்று",
+    "hl2": "காலை 10 – பிற்பகல் 1 மணி வரை",
     "slides": [
      {
-      "title": "என்ன நடந்தது?",
+      "title": "எப்போது?",
       "lines": [
-       "திருச்சி மத்திய சிறையில் சிறை அறைகளில் ஆய்வு",
-       "கைதிகள் கைப்பேசி பயன்படுத்துவதாக ரகசியத் தகவல்",
-       "வியாழக்கிழமை சிறைக் காவலர்கள் ஆய்வு நடத்தினர்"
+       "இன்று சனிக்கிழமை <b>காலை 10 மணி</b> முதல் <b>பிற்பகல் 1 மணி</b> வரை",
+       "11 வட்டங்களிலும் பொது விநியோகத் திட்ட சிறப்பு குறைதீர்",
+       "நவம்பர் மாதம் மீண்டும் வழங்கப்பட்ட வாய்ப்பு"
       ]
      },
      {
-      "title": "என்ன கிடைத்தது?",
+      "title": "எதற்கு?",
       "lines": [
-       "நீதிமன்றத்துக்கு சென்று திரும்பிய கைதிகள் சோதனை",
-       "காலணிகளில் <b>கைப்பேசி</b>, <b>3 சிம் கார்டுகள்</b>",
-       "<b>4 பேட்டரிகள்</b>, சார்ஜர் மற்றும் சார்ஜர் ஒயர்"
+       "குடும்ப அட்டையில் பெயர் மாற்றம் செய்ய",
+       "திருத்தம் மற்றும் முகவரி மாற்றம் செய்ய",
+       "விண்ணப்பங்களை வழங்கி பயன்பெறலாம்"
       ]
      },
      {
-      "title": "வழக்கு விவரம்",
+      "title": "எங்கே?",
       "lines": [
-       "கைதிகள் அகிலன், கார்த்திக் ஆகியோர் மீது வழக்கு",
-       "புகாரின்பேரில் கே.கே.நகர் போலீஸார் வழக்குப் பதிவு",
-       "போலீஸார் விசாரணை நடத்தி வருகின்றனர்"
+       "திருச்சி கிழக்கு: அய்யப்பநகர்-1",
+       "திருச்சி மேற்கு: தென்னூர்-1, திருவெறும்பூர்: வேங்கூர்",
+       "ஸ்ரீரங்கம்: திருப்பராய்த்துறை, மணப்பாறை: மஞ்சம்பட்டி"
+      ]
+     },
+     {
+      "title": "யார் தலைமை?",
+      "lines": [
+       "அந்தந்த வட்ட கண்காணிப்பு அலுவலர்கள் தலைமையில் முகாம்",
+       "சம்பந்தப்பட்ட பகுதி பொதுமக்கள் தவறாமல் கலந்து கொள்ளுங்கள்",
+       "முகாம் நடக்கும் நியாய விலைக் கடைகளில் செல்லுங்கள்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சி மத்திய சிறையில் கைப்பேசி மற்றும் சிம் கார்டுகள் பறிமுதல் செய்யப்பட்டன. இதுதொடர்பாக இரு கைதிகள் மீது போலீஸார் வழக்குப் பதிவு செய்து விசாரித்து வருகின்றனர். கைதிகள் கைப்பேசி பயன்படுத்துவதாக ரகசியத் தகவல் கிடைத்தது. இதன்பேரில், மத்திய சிறை அதிகாரி ராஜேஷ்கண்ணன் தலைமையிலான சிறைக் காவலர்கள் வியாழக்கிழமை அனைத்து சிறை அறைகளிலும் ஆய்வு மேற்கொண்டனர். நீதிமன்றத்துக்கு சென்றுவிட்டு சிறைக்குத் திரும்பிய கைதிகள் அகிலன், கார்த்திக் ஆகியோரிடம் சோதனை நடத்தப்பட்டது. அவர்களின் காலணிகளில் கைப்பேசி, 4 பேட்டரிகள், 3 சிம் கார்டுகள், சார்ஜர் மற்றும் சார்ஜர் ஒயர் மறைத்து எடுத்து வந்தது தெரியவந்தது. இதையடுத்து, சிறைக் காவலர்கள் அவற்றைப் பறிமுதல் செய்தனர். இதுகுறித்த புகாரின்பேரில், அகிலன், கார்த்திக் ஆகிய இருவர் மீதும் கே கே நகர் போலீஸார் வழக்குப் பதிவு செய்து விசாரிக்கின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்\n\n📰 முழு விவரம்:\nதிருச்சி மத்திய சிறையில் கைதிகள் கைப்பேசி பயன்படுத்துவதாக ரகசியத் தகவல் கிடைத்தது. இதன்பேரில் மத்திய சிறை அதிகாரி ராஜேஷ்கண்ணன் தலைமையிலான சிறைக் காவலர்கள் வியாழக்கிழமை அனைத்து சிறை அறைகளிலும் ஆய்வு மேற்கொண்டனர்.\nநீதிமன்றத்துக்கு சென்று சிறைக்குத் திரும்பிய கைதிகள் அகிலன், கார்த்திக் ஆகியோரிடம் நடத்திய சோதனையில், அவர்களின் காலணிகளில் கைப்பேசி, 4 பேட்டரிகள், 3 சிம் கார்டுகள், சார்ஜர் மற்றும் சார்ஜர் ஒயர் மறைத்து எடுத்து வந்தது தெரியவந்தது. சிறைக் காவலர்கள் அவற்றைப் பறிமுதல் செய்தனர்.\nஇதுகுறித்த புகாரின்பேரில் அகிலன், கார்த்திக் ஆகிய இருவர் மீதும் கே.கே.நகர் போலீஸார் வழக்குப் பதிவு செய்து விசாரிக்கின்றனர்.\n\n📍 இடம்: திருச்சி மத்திய சிறை\n👮 நடவடிக்கை: இரு கைதிகள் மீது கே.கே.நகர் போலீஸார் வழக்குப் பதிவு\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #TrichyCentralPrison",
-   "prompts": "A group of prison warders in khaki uniform stand near the high grey perimeter wall of Trichy Central Prison in the daytime, while a prison official in a pale shirt and trousers walks beside two prisoners in plain white and off-white clothes returning from court, their backs to the camera. The prison gate and watchtower are visible behind them and the sky is bright and clear. In the foreground a steel barrier and a gravel path lead toward the entrance. The scene shows the moment after a search has been carried out inside the prison complex, with the warders alert and the two prisoners walking slowly with their heads down. The image is taken at eye level from a short distance, wide enough to show the prison wall, the gate and the group of officials, using a 35 mm lens. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up on a metal table inside a prison office, where a mobile phone, several small loose batteries, three SIM cards and a coiled charger with its wire have been laid out side by side after being seized. Beside them lies a pair of worn canvas shoes, one turned over to show the hollow where the items were hidden. A khaki sleeve of a prison warder rests at the edge of the frame, and a dim tube light falls across the table in the afternoon. The surface of the table is grey and scratched, and no text or labels are visible. The camera is at slightly high eye level, close enough to show the detail of the phone, the batteries and the cables clearly, with a shallow depth of field. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/திருச்சி-மத்திய-சிறையில்-கைப்பேசிசிம்காா்டுகள்-பறிமுதல்-இரு-கைதிகள்-மீது-வழக்கு",
-   "published": "2026-11-14T01:07:40.677Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 0 validator problem(s)",
+   "reel_script": "குடும்ப அட்டையில் பெயர் மாற்றம் மற்றும் திருத்தம் செய்ய இன்று சிறப்பு முகாம் நடைபெறுகிறது. திருச்சி மாவட்டத்தின் 11 வட்டங்களிலும் பொது விநியோகத் திட்ட சிறப்பு குறைதீர் முகாம் இன்று சனிக்கிழமை நடைபெறுகிறது. காலை 10 மணி முதல் பிற்பகல் 1 மணி வரை முகாம் நடக்கும். குடும்ப அட்டையில் பெயர் மாற்றம், திருத்தம் மற்றும் முகவரி மாற்றம் செய்ய நவம்பர் மாதம் மீண்டும் ஒரு வாய்ப்பை மாவட்ட நிர்வாகம் வழங்கியுள்ளது. அய்யப்பநகர்-1, தென்னூர்-1, வேங்கூர், திருப்பராய்த்துறை, மஞ்சம்பட்டி உள்ளிட்ட நியாய விலைக் கடைகளில் முகாம்கள் நடைபெறும். ஒவ்வொரு வட்டத்திலும் அந்தந்த வட்ட கண்காணிப்பு அலுவலர்கள் தலைமையில் முகாம்கள் நடைபெறும். சம்பந்தப்பட்ட பகுதி பொதுமக்கள் தவறாமல் கலந்துகொண்டு விண்ணப்பங்களை வழங்கிப் பயன்பெறலாம் என மாவட்ட ஆட்சியர் பிரத்திக் தாயள் தெரிவித்துள்ளார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "📋 இன்று குடும்ப அட்டை திருத்த சிறப்பு முகாம் – திருச்சி மாவட்டம் முழுவதும்\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்ட நிர்வாகம் நவம்பர் மாதம் மீண்டும் ஒரு வாய்ப்பை அளித்துள்ளது. குடும்ப அட்டைகளில் பெயர் மாற்றம், திருத்தம் மற்றும் முகவரி மாற்றம் செய்ய திருச்சி மாவட்டத்தின் 11 வட்டங்களிலும் பொது விநியோகத் திட்ட சிறப்பு குறைதீர் முகாம் சனிக்கிழமை நடைபெறுகிறது.\n🕘 நேரம்: காலை 10 மணி முதல் பிற்பகல் 1 மணி வரை\n🏘️ இடங்கள்: அய்யப்பநகர்-1 (திருச்சி கிழக்கு), தென்னூர்-1 (திருச்சி மேற்கு), வேங்கூர் (திருவெறும்பூர்), திருப்பராய்த்துறை (ஸ்ரீரங்கம்), மஞ்சம்பட்டி (மணப்பாறை), ஆரியகோண்பட்டி (மருங்காபுரி), பெரியகுருக்கை (லால்குடி), திருப்பைஞ்சீலி தெற்கு (மண்ணச்சநல்லூர்), செவந்திலிங்கபுரம் (முசிறி), சேபனாபுரம்-2 (துறையூர்), அலங்கரை மேற்கு (தொட்டியம்) ஆகிய நியாய விலைக் கடைகள்\n👮 யார் தலைமை: அந்தந்த வட்ட கண்காணிப்பு அலுவலர்கள்\n📞 அறிவிப்பு: மாவட்ட ஆட்சியர் பிரத்திக் தாயள்\nℹ️ மக்கள் கவனத்திற்கு: சம்பந்தப்பட்ட பகுதி பொதுமக்கள் தவறாமல் கலந்துகொண்டு விண்ணப்பங்களை வழங்கிப் பயன்பெறலாம்.\n\nTrichy ration card correction camps today | Trichy news\n📍 திருச்சி மாவட்டம் | 14 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Srirangam",
+   "prompts": "A line of Trichy residents, men in shirts and women in sarees and salwars, stands in a queue outside a fair-price ration shop on a Saturday morning, holding application papers and ration cards in their hands. The shop is a small single-storey building with a shutter pulled halfway up and a plain counter visible through the doorway, on a quiet residential street in a Trichy taluk town with a few parked two-wheelers and an autorickshaw at the kerb. Some people are seen from behind or at a distance, waiting patiently while a government official in a shirt sits at a table just inside the shop to take their forms. The late-morning light is bright and even, with a clear sky. The camera sits at eye level, about 35 mm wide, showing the shop front, the queue and the street so the purpose of the camp is clear. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up on a wooden table inside a ration shop counter where a stack of printed application forms, a family ration card and a few loose papers lie beside a blue ballpoint pen and a small hand-held stamp pad. A corner of a government official's sleeve in a pale shirt rests on the table as he sorts the papers, while a blurred glimpse of a waiting resident's hand holds a card at the edge of the frame. Behind the table the plain shop shelves are half visible, and light from a doorway falls across the papers in the late morning. The camera is at table height, about 35 mm, shallow focus on the forms and card, with no readable text or names visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/special-camp-today-for-name-changes-and-corrections-in-family-ration-cards",
+   "published": "2026-11-14T00:58:22.220Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: slides_spec.loc 'திருச்சி மாவட்டம்' is only the district: write the town / village / area the article names (people share news of their own area)",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794630693/trichy360/s2vbwlrf7z0uivayrell.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794630703/trichy360/zvn4ydn5uqc3eb89sv4k.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794644914/trichy360/kxeedwsloiw2jzkaag0h.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794644961/trichy360/jp9iiwfs0bpnqmhxhygz.jpg"
    ]
   },
   {
-   "tamil_headline": "திருச்சியில் தலைமறைவாக இருந்த பிரபல ரௌடி கைது",
-   "english_headline": "Notorious rowdy Somu alias Somasundaram arrested in Trichy after hiding since June 27",
-   "category": "Crime & Safety",
-   "location": "Trichy airport area, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
+   "tamil_headline": "பேரவைத் துணைத் தலைவர் ரவிசங்கரை கண்டித்து நவ.18-ல் அதிமுக ஆர்ப்பாட்டம்!",
+   "english_headline": "AIADMK announces protest on Nov 18 condemning Assembly Deputy Speaker Ravi Shankar over alleged assault in Thuraiyur",
+   "category": "Government & Services",
+   "location": "Thuraiyur, Trichy district",
+   "importance": "High",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "குற்றச் செய்தி",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சியில் தலைமறைவு ரௌடி கைது",
-    "hl2": "ஜூன் 27 முதல் தேடப்பட்டவர்",
+    "cat": "அரசியல்",
+    "loc": "துறையூர், திருச்சி",
+    "hl1": "துறையூரில் நவ.18-ல் அதிமுக ஆர்ப்பாட்டம்",
+    "hl2": "துணைத் தலைவருக்கு எதிர்ப்பு",
     "slides": [
      {
-      "title": "யார் கைது?",
+      "title": "என்ன சம்பவம்?",
       "lines": [
-       "புத்தூர் எம்ஜிஆர் நகர் சோமு (எ) சோமசுந்தரம், 35 வயது",
-       "20-க்கும் மேற்பட்ட வழக்குகள் நிலுவையில் உள்ளன",
-       "புதுக்கோட்டையில் என்கவுன்டர் செய்யப்பட்ட துரையின் தம்பி"
+       "துறையூரில் குடிநீர், குப்பை பிரச்னை பற்றி மனு கொடுத்தவர்",
+       "சட்டப்பேரவை துணைத் தலைவர் தாக்கியதாகக் குற்றச்சாட்டு",
+       "சமூக வலைதளங்களில் விடியோ வெளியாகிப் பரபரப்பு"
       ]
      },
      {
-      "title": "எப்படி கைது?",
+      "title": "அதிமுக அறிவிப்பு",
       "lines": [
-       "திருச்சி அரசு மருத்துவமனை காவல் ஆய்வாளர் தலைமையில் தனிப்படை",
-       "விமான நிலையம் அருகே உறவினர் வீட்டில் பதுங்கியிருந்தார்",
-       "வெள்ளிக்கிழமை அதிகாலை கைது செய்யப்பட்டார்"
+       "சட்டப்பேரவை துணைத் தலைவரைக் கண்டித்து ஆர்ப்பாட்டம்",
+       "<b>நவம்பர் 18</b>ஆம் தேதி கண்டன ஆர்ப்பாட்டம்",
+       "அதிமுக சார்பாக அறிவிப்பு வெளியிடப்பட்டுள்ளது"
       ]
      },
      {
-      "title": "அடுத்து என்ன?",
+      "title": "யார் நடத்துவது?",
       "lines": [
-       "நீதிமன்றத்தில் ஆஜர்படுத்தப்பட்டார்",
-       "திருச்சி மத்திய சிறையில் அடைக்கப்பட்டார்",
-       "திருட்டு வழக்கில் பிறப்பிக்கப்பட்ட பிடியாணை தொடர்பாக"
+       "அதிமுக திருச்சி புறநகர் வடக்கு மாவட்டம் ஏற்பாடு",
+       "தவறிழைத்தவர் மீது கடும் நடவடிக்கை எடுக்கக் கோரிக்கை",
+       "துறையூர் பகுதியில் மாபெரும் போராட்டம் நடைபெறும்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சியில் நீண்ட நாள் தலைமறைவாக இருந்த பிரபல ரௌடி சோமு என்கிற சோமசுந்தரம் கைது செய்யப்பட்டார். திருச்சி புத்தூர் எம்ஜிஆர் நகரைச் சேர்ந்த 35 வயது சோமசுந்தரம் மீது கொள்ளை, திருட்டு உள்ளிட்ட 20-க்கும் மேற்பட்ட வழக்குகள் நிலுவையில் உள்ளன. இவர் புதுக்கோட்டையில் என்கவுன்டர் செய்யப்பட்ட பிரபல ரௌடி துரையின் தம்பி ஆவார். திருட்டு வழக்கில் பிறப்பிக்கப்பட்ட பிணையில்லாத பிடியாணை தொடர்பாக, ஜூன் 27 முதல் தனிப்படை போலீஸார் இவரைத் தேடி வந்தனர். திருச்சி அரசு மருத்துவமனை காவல் ஆய்வாளர் ஆர் எஸ் செல்வக்குமார் தலைமையிலான தனிப்படையினர் இந்தத் தேடுதல் பணியை மேற்கொண்டனர். இந்நிலையில், இவர் திருச்சி விமான நிலையம் அருகே பதுங்கியிருப்பதாகத் தனிப்படை போலீஸாருக்குத் தகவல் கிடைத்தது. இதையடுத்து, விமான நிலையம் அருகேயுள்ள உறவினர் வீட்டில் பதுங்கியிருந்த சோமசுந்தரம் வெள்ளிக்கிழமை அதிகாலை கைது செய்யப்பட்டார். நீதிமன்றத்தில் ஆஜர்படுத்தப்பட்ட அவர், திருச்சி மத்திய சிறையில் அடைக்கப்பட்டார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சியில் ஜூன் முதல் தலைமறைவாக இருந்த பிரபல ரௌடி சோமு கைது\n\n📰 முழு விவரம்:\nதிருச்சி புத்தூர் எம்ஜிஆர் நகரைச் சேர்ந்த சோமு (எ) சோமசுந்தரம் (35 வயது), மீது கொள்ளை, திருட்டு உள்ளிட்ட 20-க்கும் மேற்பட்ட வழக்குகள் நிலுவையில் உள்ளன. இவர் புதுக்கோட்டையில் என்கவுன்டர் செய்யப்பட்ட பிரபல ரௌடி துரையின் தம்பி ஆவார்.\nதிருட்டு வழக்கில் பிறப்பிக்கப்பட்ட பிணையில்லாத பிடியாணை தொடர்பாக, ஜூன் 27 முதல் திருச்சி அரசு மருத்துவமனை காவல் ஆய்வாளர் ஆர்.எஸ். செல்வக்குமார் தலைமையிலான தனிப்படை போலீஸார் அவரைத் தேடி வந்தனர்.\nஇந்நிலையில், திருச்சி விமான நிலையம் அருகே பதுங்கியிருப்பதாகத் தகவல் கிடைத்தது. விமான நிலையம் அருகேயுள்ள உறவினர் வீட்டில் பதுங்கியிருந்த அவரை வெள்ளிக்கிழமை அதிகாலை போலீஸார் கைது செய்தனர்.\n👮 நடவடிக்கை: நீதிமன்றத்தில் ஆஜர்படுத்தி திருச்சி மத்திய சிறையில் அடைக்கப்பட்டார்.\n\nTrichy rowdy Somu arrested near airport | Trichy news\n📍 திருச்சி மாவட்டம் | 14 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Crime",
-   "prompts": "A Tamil Nadu police team in khaki uniforms stands at the gate of a modest two-storey residential house on a quiet lane near Trichy airport in the early morning, just after dawn. Seen from behind and at a distance, two or three constables in khaki shirts and trousers stand beside a white-and-khaki police jeep parked at the roadside, while a plainclothes officer walks toward the house entrance. The house has a low compound wall, an iron gate, a concrete front porch and a tiled roof, typical of a middle-class family home in the Trichy airport outskirts. Along the lane there are two-wheelers parked near the wall, a few coconut palms and an electric pole with a TNEB transformer. The light is soft morning daylight with pale sky, and the street is quiet with a few early-rising neighbours watching from a distance. Eye level, slightly high, 35 mm lens wide enough to show the house, the police jeep and the lane. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a wooden table in a police station room or on the porch of the house, with a police constable's khaki-clad arm and a notebook resting beside a stack of case files and a folded arrest-warrant document. Beside the papers sits a steel tumbler and a plastic water bottle, and a khaki police cap lies at the edge of the table. Behind the table, out of focus, a concrete wall and a window with grey iron bars let in early-morning light. The scene is calm and procedural, with no visible faces, no readable text on the papers, and no weapons. Eye level, shallow depth of field, 35 mm lens, soft natural daylight from the window. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%A4%E0%AE%B2%E0%AF%88%E0%AE%AE%E0%AE%B1%E0%AF%88%E0%AE%B5%E0%AE%BE%E0%AE%95-%E0%AE%87%E0%AE%B0%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4-%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%AA%E0%AE%B2-%E0%AE%B0%E0%AF%8C%E0%AE%9F%E0%AE%BF-%E0%AE%95%E0%AF%88%E0%AE%A4%E0%AF%81",
-   "published": "2026-11-14T01:02:57.953Z",
+   "reel_script": "துறையூரில் சட்டப்பேரவை துணைத் தலைவரைக் கண்டித்து அதிமுக ஆர்ப்பாட்டம் அறிவிப்பு. திருச்சி புறநகர் வடக்கு மாவட்ட அதிமுக சார்பில் நவம்பர் 18ஆம் தேதி இந்த கண்டன ஆர்ப்பாட்டம் நடைபெறுகிறது. கடந்த நவம்பர் 8ஆம் தேதி துறையூர் பகுதியைச் சேர்ந்த சமூக செயல்பாட்டாளர் ஒருவர் குடிநீர் மற்றும் குப்பை பிரச்னை குறித்து மனு அளிக்கச் சென்றுள்ளார். அப்போது சட்டப்பேரவைத் துணைத் தலைவரும் துறையூர் தொகுதி சட்டமன்ற உறுப்பினருமான ரவிசங்கர் அவரைத் தகாத வார்த்தைகளால் திட்டித் தாக்கியதாக குற்றச்சாட்டு எழுந்தது. இதுகுறித்த காணொலி சமூக வலைதளங்களில் வெளியாகிப் பெரும் பரபரப்பை ஏற்படுத்தியது. இந்தச் சம்பவத்தில் அதிகார மமதையில் தவறிழைத்தவர் மீது கடும் நடவடிக்கை எடுக்க கோரி இந்த ஆர்ப்பாட்டம் நடத்தப்படுகிறது. இந்த மாபெரும் கண்டன ஆர்ப்பாட்டம் குறித்து அதிமுக சார்பில் அதிகாரப்பூர்வ அறிக்கை வெளியிடப்பட்டுள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "📢 துறையூரில் சட்டப்பேரவை துணைத் தலைவரைக் கண்டித்து நவ.18-ல் அதிமுக ஆர்ப்பாட்டம்!\n\n📰 முழு விவரம்:\nதமிழ்நாடு சட்டப்பேரவைத் துணைத் தலைவரும் துறையூர் தொகுதி சட்டமன்ற உறுப்பினருமான ரவிசங்கரை கண்டித்து அதிமுக சார்பில் நவம்பர் 18ஆம் தேதி கண்டன ஆர்ப்பாட்டம் நடைபெறும் என்று அறிவிக்கப்பட்டுள்ளது.\nகடந்த நவம்பர் 8ஆம் தேதி துறையூர் பகுதியைச் சேர்ந்த சமூக செயல்பாட்டாளர் ஒருவர் குடிநீர் தட்டுப்பாடு மற்றும் குப்பை அகற்றும் பிரச்னைகள் குறித்து மனு அளிக்க துணைத் தலைவரைச் சந்தித்துள்ளார்.\nஅப்போது அவர் தகாத வார்த்தைகளால் திட்டித் தாக்கப்பட்டதாகக் கூறப்படும் விடியோ சமூக வலைதளங்களில் வெளியாகிப் பரபரப்பை ஏற்படுத்தியது.\nஇதையடுத்து அதிகார மமதையில் தவறிழைத்தவர் மீது கடும் நடவடிக்கை எடுக்க வலியுறுத்தி திருச்சி புறநகர் வடக்கு மாவட்ட அதிமுக சார்பில் இந்த மாபெரும் கண்டன ஆர்ப்பாட்டம் நடத்தப்படவுள்ளது.\n\n📍 இடம்: துறையூர், திருச்சி மாவட்டம்\n🗓️ நாள்: 18 நவம்பர் 2026\n📢 அமைப்பு: அதிமுக திருச்சி புறநகர் வடக்கு மாவட்டம்\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்\n\nThuraiyur AIADMK protest November 18 Legislative Assembly Deputy Speaker | Trichy news\n📍 துறையூர், திருச்சி மாவட்டம் | 14 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thuraiyur #TrichyNews #திருச்சி",
+   "prompts": "A large crowd of AIADMK party cadres gathers on a wide road in Thuraiyur town, Trichy district, holding party flags and black-and-white placards raised above their heads, with the protest focused on condemning the Assembly Deputy Speaker. The people are seen from behind or at a distance, men in white shirts and veshti and some women in cotton sarees, standing in an orderly rally formation. Tamil Nadu police in khaki stand at the edge of the road near a barricade, keeping watch over the protesters. Behind them are small Thuraiyur town shops with plain facades, a few parked two-wheelers and an autorickshaw at the kerb, and a town bus passing slowly in the background. The scene is in clear daylight with a bright sky and soft shadows on the tarmac. The photograph is taken at eye level from slightly high, using a 35 mm lens wide enough to show the full crowd, the road, the flags and the town setting together, with no readable text, signboards or logos visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a bundle of AIADMK party flags and rolled placards resting against a low concrete wall at the protest site in Thuraiyur town, Trichy district. The flags are red-and-white and the placards are plain, unreadable and angled towards the camera, with a few hands of protesters from behind visible at the edge of the frame. Behind the wall the blurred outline of a parked two-wheeler and a row of small shop shutters can be seen in daylight. Dust and a few dry leaves lie on the pavement. The light is bright, natural and midday, and the camera sits at waist height with a 35 mm lens, shooting slightly from above so the flags and the wall stay in sharp focus while the background falls softly out of focus. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/tamilnadu/2026/Nov/14/aiadmk-to-hold-a-protest-on-nov-18-condemning-deputy-speaker-ravi-shankar",
+   "published": "2026-11-14T07:24:45.326Z",
+   "verification": "DRAFT (gemini/gemini-3.5-flash) - NOT CLEAN, held from posting - problems: fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the article.",
+   "note": "free-model draft gemini/gemini-3.5-flash, 2 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794645029/trichy360/ld8tbyzuvcebhmyd05lz.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794645044/trichy360/vqoyj9aho25rqs2at3et.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "வெங்காயச் சாகுபடிக்கு பயிர் காப்பீடு: நவ. 30 கடைசி நாள்",
+   "english_headline": "Crop insurance for onion cultivation: last date November 30",
+   "category": "Weather & Agriculture",
+   "location": "Mannachanallur, Musiri, Pullambadi, Thaa.Pettai, Thottiyam, Thuraiyur and Uppiliyapuram blocks, Trichy district",
+   "importance": "High",
+   "scope": "",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "பயிர் காப்பீடு",
+    "loc": "மண்ணச்சநல்லூர், திருச்சி மாவட்டம்",
+    "hl1": "மண்ணச்சநல்லூர்: வெங்காயக் காப்பீடுக்கு",
+    "hl2": "7 வட்டாரங்களில் ராபி பருவம்",
+    "slides": [
+     {
+      "title": "எந்த பயிர்?",
+      "lines": [
+       "ராபி சிறப்புப் பருவ வெங்காயச் சாகுபடிக்குக் காப்பீடு",
+       "திருச்சி மாவட்டத்தின் <b>7 வட்டாரங்களில்</b> பதிவு",
+       "கடைசி நாள் <b>நவம்பர் 30</b>"
+      ]
+     },
+     {
+      "title": "எந்த வட்டாரங்கள்?",
+      "lines": [
+       "மண்ணச்சநல்லூர், முசிறி, புள்ளம்பாடி",
+       "தா.பேட்டை, தொட்டியம், துறையூர், உப்பிலியபுரம்",
+       "தேர்வு செய்யப்பட்ட கிராமங்களில் காப்பீடு செய்யலாம்"
+      ]
+     },
+     {
+      "title": "எப்படிப் பதிவு?",
+      "lines": [
+       "ஏக்கருக்கு பிரீமியம் <b>ரூ. 2085.50</b> செலுத்த வேண்டும்",
+       "அரசு பொது சேவை மையம், கூட்டுறவு சங்கம், வங்கி மூலம்",
+       "அடங்கல், சிட்டா, வங்கிக் கணக்கு, ஆதார் அட்டை தேவை"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "மண்ணச்சநல்லூர் உள்ளிட்ட 7 வட்டாரங்களில் வெங்காயம் பயிரிடுவோருக்கு காப்பீடு செய்ய கடைசி நாள் நவம்பர் 30. திருச்சி மாவட்டத்தில் 2026 ராபி சிறப்புப் பருவத்தில் வெங்காயம் சாகுபடி செய்யும் விவசாயிகள் பிரதமரின் பயிர்க் காப்பீட்டுத் திட்டத்தில் பதிவு செய்யலாம். மண்ணச்சநல்லூர், முசிறி, புள்ளம்பாடி, தா.பேட்டை, தொட்டியம், துறையூர் மற்றும் உப்பிலியபுரம் வட்டாரங்களில் தேர்வு செய்யப்பட்ட கிராமங்களில் இந்தக் காப்பீடு பொருந்தும். வறட்சி, வெள்ளம் மற்றும் மகசூல் இழப்பால் ஏற்படும் பாதிப்புகளுக்கு இதன் மூலம் இழப்பீடு பெறலாம். நவம்பர் 30ஆம் தேதிக்குள் விண்ணப்பித்து, பிரீமியத் தொகையாக ஏக்கருக்கு ரூ.2085.50 செலுத்த வேண்டும். அரசு பொது சேவை மையம், தொடக்க வேளாண்மைக் கூட்டுறவு சங்கங்கள் அல்லது தேசியமயமாக்கப்பட்ட வங்கிகள் மூலம் இதைச் செலுத்தலாம். நடப்பு பருவ அடங்கல், சிட்டா, வங்கிக் கணக்குப் புத்தகம் மற்றும் ஆதார் அட்டையுடன் விண்ணப்பிக்க வேண்டும். விவசாயியின் பெயர், முகவரி, நிலப்பரப்பு, சர்வே எண் மற்றும் உட்பிரிவு, நிலம் உள்ள கிராமம் ஆகிய விவரங்களைச் சரியாக அளிக்க வேண்டும். இயற்கை இடர்பாடுகளில் இருந்து பாதுகாத்துக்கொள்ள ஆட்சியர் பிரத்திக் தாயள் கேட்டுக்கொண்டுள்ளார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🌾 மண்ணச்சநல்லூர் உள்ளிட்ட திருச்சி வட்டாரங்களில் வெங்காயக் காப்பீடுக்கு நவ. 30 கடைசி நாள்\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டத்தின் 7 வட்டாரங்களில் ராபி சிறப்புப் பருவ வெங்காயச் சாகுபடிக்குப் பயிர்க் காப்பீடு செய்ய வரும் நவம்பர் 30ஆம் தேதி கடைசி நாளாகும். தோட்டக்கலைப் பயிர்களைப் பிரதமரின் பயிர்க் காப்பீடுத் திட்டத்தில் காப்பீடு செய்தால், வறட்சி, வெள்ளம் மற்றும் மகசூல் இழப்பால் ஏற்படும் பாதிப்புகளுக்கு இழப்பீடு பெறலாம். மண்ணச்சநல்லூர், முசிறி, புள்ளம்பாடி, தா.பேட்டை, தொட்டியம், துறையூர் மற்றும் உப்பிலியபுரம் வட்டாரங்களில் தேர்வு செய்யப்பட்ட கிராமங்களில் காப்பீடு செய்யலாம்.\n💰 ஏக்கருக்கு பிரீமியத் தொகை ரூ.2085.50. அரசு பொது சேவை மையம், தொடக்க வேளாண்மைக் கூட்டுறவு சங்கங்கள், தேசியமயமாக்கப்பட்ட வங்கிகள் மூலம் செலுத்தலாம்.\n📄 தேவை: நடப்பு பருவ அடங்கல், சிட்டா, வங்கிக் கணக்குப் புத்தகம், ஆதார் அட்டை. பெயர், முகவரி, நிலப்பரப்பு, சர்வே எண் மற்றும் உட்பிரிவு, நிலம் உள்ள கிராமம் ஆகியவற்றைச் சரியாக அளிக்கவும்.\n👨‍🌾 ஆட்சியர் பிரத்திக் தாயள் விவசாயிகள் இயற்கை இடர்பாடுகளில் இருந்து பாதுகாத்துக்கொள்ள காப்பீடு செய்யுமாறு கேட்டுக்கொண்டுள்ளார்.\n\nOnion crop insurance deadline November 30 Trichy | Trichy news\n📍 மண்ணச்சநல்லூர், திருச்சி மாவட்டம் | 14 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Mannachanallur #TrichyNews #திருச்சி",
+   "prompts": "Farmers stand in a green onion field in a village of Trichy district, checking the crop as the rabi season bulbs ripen in neat raised beds. Behind them, a row of banana trees and paddy fields stretches toward the Cauvery plains. Two men in shirts and veshti kneel among the onion plants, one holding a bunch of harvested onions, and a woman in a cotton saree stands at the field edge with a cloth bag. A two-wheeler is parked on the mud bund beside a small irrigation channel. The light is soft morning daylight with a clear sky. The camera sits at eye level about 35 mm, wide enough to show the field, the bunds and the village edge, with the people seen from behind or far away, no faces visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a wooden table at a village primary agricultural cooperative society counter in Trichy district. On the table lie a stack of paper documents, a bank passbook with a plain blue cover, and a folded land record (adangal) beside a set of loose onion bulbs freshly pulled from the field, some still with soil on them. A farmer's hand, seen from the side and slightly blurred, rests on the papers. A ceiling fan and the edge of a khaki-clad official's sleeve are faintly visible in the background. Daylight from a window falls across the table. The camera is at table height, 35 mm, focused on the documents and onions to show the insurance paperwork and the crop being insured, with no readable text. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/%E0%AE%B5%E0%AF%86%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AE%9A%E0%AF%8D-%E0%AE%9A%E0%AE%BE%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AE%9F%E0%AE%BF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81-%E0%AE%AA%E0%AE%AF%E0%AE%BF%E0%AE%BE%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%80%E0%AE%9F%E0%AF%81-%E0%AE%A8%E0%AE%B530-%E0%AE%95%E0%AE%9F%E0%AF%88%E0%AE%9A%E0%AE%BF-%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%8D",
+   "published": "2026-11-14T00:58:49.800Z",
    "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794630715/trichy360/jnip2hhcr0bntloq5dvj.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794630718/trichy360/rbhuupgzoqgqefkcrc2a.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சியில் இருவரிடம் இணையவழியில் ரூ.10 லட்சம் மோசடி",
-   "english_headline": "Two people in Trichy defrauded of over Rs 10 lakh online; cyber crime police investigating",
-   "category": "Crime & Safety",
-   "location": "Trichy city, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "இணைய மோசடி",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சியில் இருவரிடம் ரூ.10 லட்சம்",
-    "hl2": "சைபர் போலீஸ் விசாரணை",
-    "slides": [
-     {
-      "title": "முதல் மோசடி",
-      "lines": [
-       "திருச்சி 40 வயது பெண்ணிடம் <b>ரூ.8.31 லட்சம்</b> மோசடி",
-       "கடன் தருவதாகக் கூறி பல தவணைகளில் பணம் பெறப்பட்டது",
-       "ஜூலை 29 முதல் அக். 21 வரை பணம் அனுப்பினார்"
-      ]
-     },
-     {
-      "title": "இரண்டாவது மோசடி",
-      "lines": [
-       "திருச்சி 32 வயது இளைஞரின் கைப்பேசி ஹேக் செய்யப்பட்டது",
-       "செயலியைப் பதிவிறக்கியதால் அக். 7-ல் கைப்பேசி செயலிழந்தது",
-       "வங்கிக் கணக்கில் இருந்து <b>ரூ.1.68 லட்சம்</b> எடுக்கப்பட்டது"
-      ]
-     },
-     {
-      "title": "போலீஸ் நடவடிக்கை",
-      "lines": [
-       "இருவர் புகார்களின் பேரில் சைபர் குற்றப் பிரிவு",
-       "வியாழக்கிழமை வழக்குப் பதிந்து போலீஸார் விசாரிக்கின்றனர்",
-       "அறியாத அழைப்புகள், செயலிகளில் கவனமாக இருங்கள்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சியில் இருவரிடம் இணையவழியில் சுமார் 10 லட்சம் ரூபாய் மோசடி செய்யப்பட்டுள்ளது. திருச்சியைச் சேர்ந்த 40 வயது பெண்ணை மர்ம நபர் கைப்பேசியில் தொடர்புகொண்டார். தான் தனியார் நிதி நிறுவன ஊழியர் என்றும், 5 லட்சம் ரூபாய் கடன் தருவதாகவும் அவர் கூறினார். நம்பிய அந்தப் பெண் ஆவணங்களை அனுப்பினார். பின்னர் பதிவுக் கட்டணம் உள்ளிட்ட கட்டணங்களைச் செலுத்துமாறு அந்த நபர் கேட்டார். ஜூலை 29 முதல் அக்டோபர் 21 வரை பல தவணைகளில் 8 லட்சத்து 31 ஆயிரம் ரூபாய் அனுப்பினார். பணம் மேலும் கேட்டதால்தான் ஏமாற்றப்பட்டது அவருக்குத் தெரியவந்தது. இதுகுறித்து இணையதளம் மூலம் அளித்த புகாரில் வழக்குப் பதிவு செய்யப்பட்டுள்ளது. இதேபோல், திருச்சியைச் சேர்ந்த 32 வயது இளைஞர் அக்டோபர் 7ஆம் தேதி இன்ஸ்டாகிராமில் வந்த கைப்பேசி தீம் செயலியைப் பதிவிறக்கினார். அதனால் அவருடைய கைப்பேசி ஹேக் செய்யப்பட்டு செயலிழந்தது. நவம்பர் 9ஆம் தேதி வங்கிக்குச் சென்றபோது, யுபிஐ மூலம் ஒரு லட்சத்து 68 ஆயிரம் ரூபாய் எடுக்கப்பட்டிருந்தது தெரியவந்தது. தேசிய சைபர் குற்றப் பிரிவு இணையதளத்தில் அளித்த புகாரில் வியாழக்கிழமை வழக்குப் பதிந்து போலீஸார் விசாரிக்கின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "💸 திருச்சியில் இருவரிடம் இணையவழியில் ரூ.10 லட்சம் மோசடி\n\n📰 முழு விவரம்:\nதிருச்சியில் பெண் உள்பட இருவரிடம் இணைய வழியில் ரூ.9.99 லட்சம் மோசடி செய்யப்பட்டது. இதுகுறித்து சைபர் குற்றப் பிரிவு போலீஸார் விசாரிக்கின்றனர்.\n🔹 திருச்சியைச் சேர்ந்த 40 வயது பெண்ணின் கைப்பேசிக்கு ஜூலை 29ஆம் தேதி அழைப்பு வந்தது. பேசிய மர்ம நபர், தான் தனியார் நிதி நிறுவன ஊழியர் என்றும், 5 லட்சம் ரூபாய் கடன் தர தயாராக இருப்பதாகவும் கூறினார்.\n🔹 நம்பிய அந்தப் பெண் ஆவணங்களை அனுப்பினார். பதிவுக் கட்டணம் உள்ளிட்ட பல கட்டணங்களைச் செலுத்துமாறு அந்த நபர் கூறினார்.\n🔹 ஜூலை 29 முதல் அக். 21 வரை பல தவணைகளில் ரூ.8.31 லட்சம் அனுப்பினார். மேலும் பணம் கேட்டதால் ஏமாற்றப்பட்டது தெரியவந்தது.\n🔹 இளைஞரிடம் மோசடி: திருச்சியைச் சேர்ந்த 32 வயது இளைஞர் அக். 7ஆம் தேதி கைப்பேசியில் இன்ஸ்டாகிராம் பார்த்தபோது வந்த 'கைப்பேசி தீம்' செயலியைப் பதிவிறக்கினார். அதன்பின் அவரது கைப்பேசி ஹேக் செய்யப்பட்டு செயலிழந்தது.\n🔹 நவ. 9ஆம் தேதி வங்கிக்குச் சென்றபோது, யுபிஐ பரிவர்த்தனை மூலம் ரூ.1.68 லட்சம் எடுக்கப்பட்டது தெரியவந்தது.\n👮 நடவடிக்கை: இருவரது புகார்களின் பேரில் திருச்சி மாநகர சைபர் குற்றப் பிரிவு போலீஸார் வியாழக்கிழமை வழக்குப் பதிந்து விசாரிக்கின்றனர்.\n\nTrichy two people online fraud Rs 10 lakh | Trichy news\n📍 திருச்சி | 14 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Trichy\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Trichy",
-   "prompts": "A Trichy city cyber crime police officer in khaki uniform sits at a desk in a police station office, reviewing printed complaint papers and a laptop screen turned away from the camera, while a woman in a cotton saree and a young man in a shirt sit on a bench beside the desk, seen from behind and slightly blurred. On the desk lie two mobile phones, a bank passbook and a stack of printed application forms. The room is a typical Tamil Nadu government police station interior with plain white walls, a ceiling fan, a wooden table and a tall steel almirah in the background, lit by daylight coming through a window. The officers and complainants are at a safe distance, no faces visible. Time is late morning with soft natural light. Camera at eye level, 35 mm, wide enough to show the room and the desk with the phones and papers in focus. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of two mobile phones lying on a wooden police desk beside a bank passbook and a printed complaint form, with a khaki-sleeved hand of a police officer resting near the papers. The phones show dark blank screens, no readable text, and the passbook cover is plain with no visible words. The background is softly blurred, showing a steel almirah and a window with daylight. The scene conveys a digital fraud case with the devices and bank documents as evidence. Late morning natural light falls across the desk. Camera slightly high, 35 mm, shallow depth of field focusing on the phones and papers. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/இருவரிடம்-இணையவழியில்-ரூ-10-லட்சம்-மோசடி",
-   "published": "2026-11-14T01:05:49.352Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption needs 5 hashtags (Instagram max), has 10",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794630725/trichy360/yjzbx1b3ckcu7c04xexo.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794630760/trichy360/d3raplp9ptirul10zboj.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794645055/trichy360/bzyukenwm7opziygvclo.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794645064/trichy360/mexnau2blndymmuhhpho.jpg"
    ]
   }
  ]
