@@ -81,34 +81,34 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-14 | `f1ab67e` | posting: Gmail daily email limit no longer counts as a failed post record (sheet row is already saved - no 5x retries); checker notes ending 'so not a problem' no longer hold a story (14 Nov) |
+| 2026-11-14 | `8b88b11` | powercut: notices written |
+| 2026-11-14 | `cef6447` | powercut: notices written |
+| 2026-11-14 | `b9efe05` | powercut: notices written |
+| 2026-11-14 | `5c2373a` | stories shared |
+| 2026-11-14 | `40b993a` | powercut: notices written |
+| 2026-11-14 | `76cb17d` | pick: written and posted |
+| 2026-11-14 | `6c6df4e` | powercut: notices written |
+| 2026-11-14 | `d780412` | stories shared |
+| 2026-11-14 | `f170fee` | powercut: notices written |
+| 2026-11-14 | `f2c2b2f` | goldrate posted |
+| 2026-11-14 | `525ef39` | powercut: notices written |
+| 2026-11-14 | `395f3a0` | pick: picked news saved |
+| 2026-11-14 | `844393b` | pick: picked news saved |
+| 2026-11-14 | `5321cce` | pick: list sent |
+| 2026-11-14 | `024a1d7` | powercut: notices written |
+| 2026-11-14 | `3dfa2c2` | powercut: notices written |
+| 2026-11-14 | `38c747e` | stories shared |
+| 2026-11-14 | `1fe4b15` | powercut: notices written |
+| 2026-11-14 | `f0b253a` | powercut: notices written |
+| 2026-11-14 | `e6b0f9d` | rasipalan posted |
+| 2026-11-14 | `c028f7a` | powercut: notices written |
+| 2026-11-14 | `82a079c` | powercut: notices written |
+| 2026-11-14 | `b493e8f` | pick: written and posted |
+| 2026-11-14 | `8c077ea` | pick: list sent |
+| 2026-11-13 | `9e42de8` | pick: written and posted |
+| 2026-11-13 | `2a3317b` | pick: list sent |
 | 2026-11-13 | `c48594a` | goldrate: daily gold & silver rate carousel on this page (owner 14 Nov) - same job as Namakkal 360, own logo and handle |
 | 2026-11-13 | `99d64bf` | reel: Namakkal 360 design (look A) on this page - premium look P switched off; waiting reels made again (cache r6) (owner 13 Nov 23:10) |
 | 2026-11-13 | `ef79ba7` | powercut: notices written |
-| 2026-11-13 | `78002cd` | posting: no start-time wait - every eligible story posts as soon as it is ready (prime_time OFF); collection stays every 4 hours (owner 13 Nov 22:51) |
-| 2026-11-13 | `d0ab496` | powercut: notices written |
-| 2026-11-13 | `4c4256c` | powercut: notices written |
-| 2026-11-13 | `13ec2c3` | pick: written and posted |
-| 2026-11-13 | `b3bb373` | pick: picked news saved |
-| 2026-11-13 | `00df201` | pick: picked news saved |
-| 2026-11-13 | `bb3c2ac` | pick: list sent |
-| 2026-11-13 | `16e628b` | powercut: notices written |
-| 2026-11-13 | `02b8dfd` | powercut: notices written |
-| 2026-11-13 | `3673b99` | powercut: notices written |
-| 2026-11-13 | `90493d9` | pick: written and posted |
-| 2026-11-13 | `d19aa5c` | pick: picked news saved |
-| 2026-11-13 | `000a808` | pick: picked news saved |
-| 2026-11-13 | `e582aa2` | pick: list sent |
-| 2026-11-13 | `34e3862` | stories shared |
-| 2026-11-13 | `c3b9499` | powercut: notices written |
-| 2026-11-13 | `f722d3e` | powercut: notices written |
-| 2026-11-13 | `65d2014` | reel: premium story panel (owner 13 Nov) - photo top 60 %, emerald panel with the headline and captions, champagne gold, ivory cards, serif Tamil headline, no black; district map + town pin (OpenStreetMap), word-by-word headline, count-up numbers, news-type layer (power-cut time bar / accident / rain / police), smooth loop, light sound effects. Voice, timing and facts unchanged |
-| 2026-11-13 | `1f3bf6b` | pick: written and posted |
-| 2026-11-13 | `d46eb1f` | powercut: notices written |
-| 2026-11-13 | `f3714b9` | pick: picked news saved |
-| 2026-11-13 | `1effb9b` | pick: picked news saved |
-| 2026-11-13 | `99cd998` | pick: list sent |
-| 2026-11-13 | `0ca9a9d` | 2 pictures per reel (owner 13 Nov): the news article's own photos first (vision-checked), one photo -> a closer crop as the second, none -> 2 AI pictures |
-| 2026-11-13 | `8e2625e` | powercut: notices written |
-| 2026-11-13 | `0c5b308` | powercut: notices written |
-| 2026-11-13 | `9279103` | collection every 4 hours (01/05/09/13/17/21 IST, 3 news each = 18 a day, was 12); posting waits for its start 08:00 / 12:00 / 18:00 then all news posts - no end time, nothing skipped; only power cuts at once; today's and yesterday's news (night news posts at 08:00). Power cuts: also the daily state-wide lists (News18 / ABP / Samayam) - this district's part only (owner 13 Nov) |
 <!-- recent-changes:end -->
