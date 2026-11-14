@@ -1,14 +1,24 @@
 {
- "updated": "2026-11-14T13:51+05:30",
- "posts_measured": 16,
+ "updated": "2026-11-14T17:36+05:30",
+ "posts_measured": 18,
  "topic_weight": {
-  "crime": -0.43
+  "crime": 0.23
+ },
+ "topic_n": {
+  "accident": 2,
+  "crime": 3,
+  "power_cut": 1,
+  "civic": 2,
+  "education": 2,
+  "politics": 2,
+  "sports_culture": 1,
+  "weather": 1
  },
  "best_hours_ist": [
   10,
   11,
   18,
-  7
+  14
  ],
  "top_openings": [
   "🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்",
@@ -16,7 +26,7 @@
   "🚐 திருச்சி ஆவின் பார்க்கிங்கில் தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி",
   "🚆 சென்னை, திருச்சியில் இருந்து ஐ.ஆர்.சி.டி.சி. சிறப்பு சுற்றுலா அறிவிப்பு"
  ],
- "avg_watch_s": 6.2,
+ "avg_watch_s": 6.5,
  "best_topics": [
   "crime"
  ],

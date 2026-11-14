@@ -1,41 +1,16 @@
-13:51:19 round 2026-11-14_13: news published 14 Nov 09:56 -> 14 Nov 13:51 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-13:51:19 insights 2026-11-14T13:51+05:30 (16 reels): topic weights {'crime': -0.43}; best openings ['🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்', '🚨 திருச்சியில் தலைமறைவாக இருந்த பிரபல ரௌடி சோமு கைது']
-13:52:59 58 links on the two papers' Trichy pages
-13:53:40 skipped: not Trichy district=22, published before this window=20, already posted=3, same event already posted=2, shop offer / advertisement=1, no title=1, only a headline=1
-13:53:40 list: 5 new + 5 earlier news not posted yet
-13:53:40    1. [பொது] பேரவைத் துணைத் தலைவர் ரவி சங்கரை கண்டித்து நவ.18 இல் அதிமுக ஆர்ப்பாட்ட (தினமணி)
-13:53:40    2. [பொது] சபரிமலை பக்தர்களுக்காக 16-ந்தேதி முதல் சொகுசு சிறப்பு பஸ்கள் இயக்கம் (மாலைமலர்)
-13:53:40    3. [பொது] திருச்சி கிழக்கு சட்டமன்ற தொகுதியில் முதலமைச்சர் விஜய் 20-ந்தேதி பிரம் (மாலைமலர்)
-13:53:40    4. [பொது] தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட்சிகளுக்கு (தினத்தந்தி)
-13:53:40    5. [பொது] தாவரவியலின் தாய்மரம் | மாதம் ஓர் ஆளுமை (இந்து தமிழ்)
-13:53:40    6. [பொது] வெங்காயச் சாகுபடிக்கு பயிா் காப்பீடு: நவ.30 கடைசி நாள் (தினமணி) (earlier)
-13:53:40    7. [பொது] குடும்ப அட்டைகளில் பெயா் மாற்ற, திருத்தம் செய்ய இன்று சிறப்பு முகாம் (தினமணி) (earlier)
-13:53:40    8. [பொது] நாகநாத சுவாமி கோயிலில் ராகு-கேது பெயா்ச்சி வழிபாடு (தினமணி) (earlier)
-13:53:40    9. [பொது] ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு (தினமணி) (earlier)
-13:53:40   10. [பொது] அதிமுக எங்களுக்கு பகை சக்தி அல்ல: மு. வீரபாண்டியன் (தினமணி) (earlier)
-13:53:40 automatic pick (owner 2 Nov): no e-mail - the top 3 are written at once
-ROUND=2026-11-14_13
-13:53:44 could not mark the automatic pick on the page: bridge pickAuto: no such round
-13:53:44 decided: no submit by 02:51 PM - automatic top 3 -> 3 news to write and post
-PICK_URLS=https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/%E0%AE%B5%E0%AF%86%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AE%9A%E0%AF%8D-%E0%AE%9A%E0%AE%BE%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AE%9F%E0%AE%BF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81-%E0%AE%AA%E0%AE%AF%E0%AE%BF%E0%AE%BE%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%80%E0%AE%9F%E0%AF%81-%E0%AE%A8%E0%AE%B530-%E0%AE%95%E0%AE%9F%E0%AF%88%E0%AE%9A%E0%AE%BF-%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%8D https://www.dinamani.com/tamilnadu/2026/Nov/14/aiadmk-to-hold-a-protest-on-nov-18-condemning-deputy-speaker-ravi-shankar https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/special-camp-today-for-name-changes-and-corrections-in-family-ration-cards
-14:01:11 3 listed news now in the Sheet
-14:01:20 instagram duplicate check trichy: 19 recent posts read
-14:01:20 verify 2026-11-14_13: 0 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-14:01:20    SKIPPED Ccf44ff8: skipped RN-19: held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the articl - பேரவைத் துணைத் தலைவர் ரவி சங்கரை கண்டித்து நவ.18 இல் அதிமுக 
-14:01:20    NOT POSTED C7726b21: queued RN-18 (Queued) - குடும்ப அட்டைகளில் பெயா் மாற்ற, திருத்தம் செய்ய இன்று சிறப்ப
-14:01:20    NOT POSTED Cf7bc6fd: queued RN-20 (Queued) - வெங்காயச் சாகுபடிக்கு பயிா் காப்பீடு: நவ.30 கடைசி நாள்
-14:06:26 instagram duplicate check trichy: 19 recent posts read
-14:06:26 verify 2026-11-14_13: 0 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-14:06:26    SKIPPED Ccf44ff8: skipped RN-19: held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the articl - பேரவைத் துணைத் தலைவர் ரவி சங்கரை கண்டித்து நவ.18 இல் அதிமுக 
-14:06:26    NOT POSTED C7726b21: queued RN-18 (Queued) - குடும்ப அட்டைகளில் பெயா் மாற்ற, திருத்தம் செய்ய இன்று சிறப்ப
-14:06:26    NOT POSTED Cf7bc6fd: queued RN-20 (Queued) - வெங்காயச் சாகுபடிக்கு பயிா் காப்பீடு: நவ.30 கடைசி நாள்
-14:11:32 instagram duplicate check trichy: 20 recent posts read
-14:11:32 verify 2026-11-14_13: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-14:11:32    SKIPPED Ccf44ff8: skipped RN-19: held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the articl - பேரவைத் துணைத் தலைவர் ரவி சங்கரை கண்டித்து நவ.18 இல் அதிமுக 
-14:11:32    NOT POSTED Cf7bc6fd: queued RN-20 (Queued) - வெங்காயச் சாகுபடிக்கு பயிா் காப்பீடு: நவ.30 கடைசி நாள்
-14:16:39 instagram duplicate check trichy: 20 recent posts read
-14:16:39 verify 2026-11-14_13: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-14:16:39    SKIPPED Ccf44ff8: skipped RN-19: held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the articl - பேரவைத் துணைத் தலைவர் ரவி சங்கரை கண்டித்து நவ.18 இல் அதிமுக 
-14:16:39    NOT POSTED Cf7bc6fd: queued RN-20 (Queued) - வெங்காயச் சாகுபடிக்கு பயிா் காப்பீடு: நவ.30 கடைசி நாள்
-14:21:45 verify 2026-11-14_13: 2 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-14:21:45    SKIPPED Ccf44ff8: skipped RN-19: held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the articl - பேரவைத் துணைத் தலைவர் ரவி சங்கரை கண்டித்து நவ.18 இல் அதிமுக 
+17:36:57 round 2026-11-14_17: news published 14 Nov 13:51 -> 14 Nov 17:36 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+17:36:57 insights 2026-11-14T17:36+05:30 (18 reels): topic weights {'crime': 0.23}; best openings ['🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்', '🚨 திருச்சியில் தலைமறைவாக இருந்த பிரபல ரௌடி சோமு கைது']
+17:38:17 53 links on the two papers' Trichy pages
+17:39:05 skipped: not Trichy district=21, published before this window=20, already posted=5, same event already posted=2, shop offer / advertisement=1, feature / tips / recipe, not a Trichy event=1
+17:39:05 list: 2 new + 7 earlier news not posted yet
+17:39:05    1. [பொது] த.வெ.க. அரசை கண்டித்து துறையூரில் அதிமுக 18-ந்தேதி ஆர்ப்பாட்டம்: எடப்ப (மாலைமலர்)
+17:39:05    2. [பொது] “தவறு செய்தவர்களை நீக்கும் துணிவில்லாத முதல்வர் விஜய் தூய சக்தியா?” -  (இந்து தமிழ்)
+17:39:05    3. [பொது] நாகநாத சுவாமி கோயிலில் ராகு-கேது பெயா்ச்சி வழிபாடு (தினமணி) (earlier)
+17:39:05    4. [பொது] சபரிமலை பக்தர்களுக்காக 16-ந்தேதி முதல் சொகுசு சிறப்பு பஸ்கள் இயக்கம் (மாலைமலர்) (earlier)
+17:39:05    5. [பொது] ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு (தினமணி) (earlier)
+17:39:05    6. [பொது] அதிமுக எங்களுக்கு பகை சக்தி அல்ல: மு. வீரபாண்டியன் (தினமணி) (earlier)
+17:39:05    7. [பொது] திருச்சி கிழக்கு சட்டமன்ற தொகுதியில் முதலமைச்சர் விஜய் 20-ந்தேதி பிரம் (மாலைமலர்) (earlier)
+17:39:05    8. [பொது] தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட்சிகளுக்கு (தினத்தந்தி) (earlier)
+17:39:05    9. [பொது] தாவரவியலின் தாய்மரம் | மாதம் ஓர் ஆளுமை (இந்து தமிழ்) (earlier)
+17:39:05 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-14_17
