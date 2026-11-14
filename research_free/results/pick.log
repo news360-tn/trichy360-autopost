@@ -1,66 +1,17 @@
-21:39:29 round 2026-11-14_21: news published 14 Nov 17:36 -> 14 Nov 21:39 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-21:39:29 insights 2026-11-14T21:39+05:30 (21 reels): topic weights {'crime': 0.64, 'politics': 0.58}; best openings ['🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்', '🚨 திருச்சியில் தலைமறைவாக இருந்த பிரபல ரௌடி சோமு கைது']
-21:40:51 53 links on the two papers' Trichy pages
-21:41:38 skipped: not Trichy district=21, published before this window=20, already posted=5, same event already posted=2, shop offer / advertisement=1
-21:41:38 list: 3 new + 4 earlier news not posted yet
-21:41:38    1. [பொது] வானிலை (தினமலர்)
-21:41:38    2. [பொது] சபரிமலைக்கு செல்லும் பக்தர்களுக்காக கூடுதல் பஸ்கள்: போக்குவரத்துக் கழக (தினத்தந்தி)
-21:41:38    3. [பொது] நான் ஜீரோ...ஹீரோ என கூறுபவரிடம் கேள்வி எழுப்புங்கள் - சீமான் (பாலிமர்)
-21:41:38    4. [பொது] ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு (தினமணி) (earlier)
-21:41:38    5. [பொது] அதிமுக எங்களுக்கு பகை சக்தி அல்ல: மு. வீரபாண்டியன் (தினமணி) (earlier)
-21:41:38    6. [பொது] தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட்சிகளுக்கு (தினத்தந்தி) (earlier)
-21:41:38    7. [பொது] “தவறு செய்தவர்களை நீக்கும் துணிவில்லாத முதல்வர் விஜய் தூய சக்தியா?” -  (இந்து தமிழ்) (earlier)
-21:41:38 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-14_21
-21:41:40 round 2026-11-14_21 (at least 4, up to 3 more of well-watched topics): 7 news to choose from (0 from earlier rounds), ranked by this page's insights
-21:41:40   PICK   1.  13.4 [weather +0.80 pattern] வானிலை
-21:41:40   PICK   2.   6.0 [other +0.00 pattern] சபரிமலைக்கு செல்லும் பக்தர்களுக்காக கூடுதல் பஸ்கள்: போக்குவர
-21:41:40   PICK   3.   3.0 [other +0.00 pattern] நான் ஜீரோ...ஹீரோ என கூறுபவரிடம் கேள்வி எழுப்புங்கள் - சீமான்
-21:41:40   PICK   4.   1.5 [other +0.00 pattern] ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
-21:41:40          5.   1.0 [politics -0.50 pattern] “தவறு செய்தவர்களை நீக்கும் துணிவில்லாத முதல்வர் விஜய் தூய சக
-21:41:40          6.   0.5 [politics -0.50 pattern] தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட
-21:41:40          7.   0.0 [politics -0.50 pattern] அதிமுக எங்களுக்கு பகை சக்தி அல்ல: மு. வீரபாண்டியன்
-21:41:40 decided: automatic: top 4 of 7 by insights -> 4 news to write and post
-PICK_URLS=https://www.dinamalar.com/news/tamil-nadu-news/weather/4376070 https://www.dailythanthi.com/news/tamilnadu/additional-buses-for-devotees-going-to-sabarimala-transport-corporation-arranges https://www.polimernews.com/politicsnews/question-those-who-call-me-a-zero-or-a-hero-seeman-12809616 https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/ஸ்ரீரங்கத்தில்-ஸ்ரீரங்கநாச்சியாா்-ஊஞ்சல்-உற்சவ-விழா-நிறைவு
-21:44:35 4 listed news now in the Sheet
-21:44:42 instagram duplicate check trichy: 24 recent posts read
-21:44:42 verify 2026-11-14_21: 0 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-21:44:42    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
-21:44:42    NOT POSTED C23db552: queued RN-27 (Queued) - நான் ஜீரோ...ஹீரோ என கூறுபவரிடம் கேள்வி எழுப்புங்கள் - சீமான்
-21:44:42    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
-21:44:42    NOT POSTED C8777ffe: queued RN-28 (Queued) - சபரிமலைக்கு செல்லும் பக்தர்களுக்காக கூடுதல் பஸ்கள்: போக்குவர
-21:49:49 instagram duplicate check trichy: 24 recent posts read
-21:49:49 verify 2026-11-14_21: 0 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-21:49:49    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
-21:49:49    NOT POSTED C23db552: queued RN-27 (Queued) - நான் ஜீரோ...ஹீரோ என கூறுபவரிடம் கேள்வி எழுப்புங்கள் - சீமான்
-21:49:49    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
-21:49:49    NOT POSTED C8777ffe: queued RN-28 (Queued) - சபரிமலைக்கு செல்லும் பக்தர்களுக்காக கூடுதல் பஸ்கள்: போக்குவர
-21:54:55 instagram duplicate check trichy: 25 recent posts read
-21:54:55 verify 2026-11-14_21: 1 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-21:54:55    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
-21:54:55    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
-21:54:55    NOT POSTED C8777ffe: queued RN-28 (Queued) - சபரிமலைக்கு செல்லும் பக்தர்களுக்காக கூடுதல் பஸ்கள்: போக்குவர
-22:00:02 instagram duplicate check trichy: 25 recent posts read
-22:00:02 verify 2026-11-14_21: 1 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-22:00:02    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
-22:00:02    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
-22:00:02    NOT POSTED C8777ffe: queued RN-28 (Queued) - சபரிமலைக்கு செல்லும் பக்தர்களுக்காக கூடுதல் பஸ்கள்: போக்குவர
-22:05:10 instagram duplicate check trichy: 25 recent posts read
-22:05:10 verify 2026-11-14_21: 1 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-22:05:10    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
-22:05:10    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
-22:05:10    NOT POSTED C8777ffe: queued RN-28 (Queued) - சபரிமலைக்கு செல்லும் பக்தர்களுக்காக கூடுதல் பஸ்கள்: போக்குவர
-22:10:18 instagram duplicate check trichy: 26 recent posts read
-22:10:18 verify 2026-11-14_21: 2 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-22:10:18    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
-22:10:18    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
-22:15:27 instagram duplicate check trichy: 26 recent posts read
-22:15:27 verify 2026-11-14_21: 2 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-22:15:27    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
-22:15:27    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
-22:20:35 instagram duplicate check trichy: 26 recent posts read
-22:20:35 verify 2026-11-14_21: 2 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-22:20:35    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
-22:20:35    NOT POSTED C6ed44a5: queued RN-26 (Queued) - ஸ்ரீரங்கத்தில் ஸ்ரீரங்கநாச்சியாா் ஊஞ்சல் உற்சவ விழா நிறைவு
-22:25:40 verify 2026-11-14_21: 3 of 4 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-22:25:40    SKIPPED C2c9d397: skipped RN-29: held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்) - வானிலை
+01:34:15 round 2026-11-15_01: news published 14 Nov 21:39 -> 15 Nov 01:34 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+01:34:15 insights 2026-11-15T01:34+05:30 (24 reels): topic weights {'crime': 0.56, 'politics': -0.02}; best openings ['🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்', '🗳️ திருச்சி கிழக்கில் 20-ந்தேதி முதலமைச்சர் விஜய் ரோடு-ஷோ']
+01:36:36 81 links on the two papers' Trichy pages
+01:38:45 skipped: not Trichy district=47, published before this window=20, already posted=3, shop offer / advertisement=1, same event already posted=1
+01:38:46 list: 8 new + 2 earlier news not posted yet
+01:38:46    1. [குற்றம்] வங்கி அலுவலா் வீட்டில் நகை திருடிய இருவா் கைது (தினமணி)
+01:38:46    2. [குற்றம்] புகையிலை பொருள்கள் பதுக்கி வைத்திருந்த 3 போ் கைது (தினமணி)
+01:38:46    3. [குற்றம்] துணை சபாநாயகர் தாக்கியதாக புகார் கூறியவர் விசாரணைக்கு ஆஜராக சம்மன் (தினமலர்)
+01:38:46    4. [பொது] மேக்கேதாட்டு அணை கட்டியே தீருவோம் என கூறிய கா்நாடக முதல்வரை பிரதமர் மோ (தினமணி)
+01:38:46    5. [பொது] நூலக முறைகேடு விவகாரத்தில் ஜெயரஞ்சன் வாய் திறக்காதது ஏன்? - பீட்டர் அல (இந்து தமிழ்)
+01:38:46    6. [பொது] பட்டியலின விவசாயிகள் 100 சதவீத மானியத்துடன் ஆழ்துளை கிணறு அமைக்க விண்ண (தினமணி)
+01:38:46    7. [பொது] புத்த, சமண, சீக்கிய மதத்தினா் நிதியுதவியுடன் புனித பயணம் மேற்கொள்ள விண (தினமணி)
+01:38:46    8. [பொது] தமிழக அமைச்சரவையில் மாற்றம் செய்ய வாய்ப்பு: ம.தி.மு.க., துரை வைகோ தகவல (தினமலர்)
+01:38:46    9. [பொது] அதிமுக எங்களுக்கு பகை சக்தி அல்ல: மு. வீரபாண்டியன் (தினமணி) (earlier)
+01:38:46   10. [பொது] தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட்சிகளுக்கு (தினத்தந்தி) (earlier)
+01:38:46 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-15_01
