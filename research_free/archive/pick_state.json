@@ -1,19 +1,29 @@
 {
- "last_end": "2026-11-15T17:39:04.017291+05:30",
+ "last_end": "2026-11-16T01:59:48.626869+05:30",
  "pool": {
-  "Cffa0aa0": {
-   "id": "Cffa0aa0",
-   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/meekkeetaattttu-annai-kttttiyee-tiiruvoom-ennn-kuurriy-kaanaattk-mutlvrai-pirtmaa-knnttittirukk-veennttum-piittttaa-alpoonnns",
-   "title": "மேக்கேதாட்டு அணை கட்டியே தீருவோம் என கூறிய கா்நாடக முதல்வரை பிரதமர் மோடி கண்டித்திருக்க வேண்டும்: பீட்டா் அல்போன்ஸ்",
-   "summary": "அரசு விழாவில் மேக்கேதாட்டு அணையை கட்டியே தீருவோம் என கா்நாடக முதல்வா் பேசியபோது, அங்கிருந்த பிரதமா் நரேந்திர மோடி கண்டித்திருக்க வேண்டும் என்றாா் காங்கிரஸ் கட்சியின் மூத்த தலைவா் பீட்டா் அல்போன்ஸ்..திருச்சி மாநகா், மா...",
-   "source": "தினமணி",
-   "published": "2026-11-14T18:56:58.885Z",
-   "category": "பொது",
-   "score": 6.0,
+  "C62d16fe": {
+   "id": "C62d16fe",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/300-kg-tobacco-products-seized/4377006",
+   "title": "300 கிலோ புகையிலை பொருட்கள் பறிமுதல்",
+   "summary": "திருச்சி: திருச்சி அருகே வீட்டில் பதுக்கி வைத்திருந்த, 300 கிலோ புகையிலை பொருட்களை போலீசார் பறிமுதல் செய்தனர். திருச்சி மாவட்டம், துவரங்குறிச்சி அருகே உள்ள கரடிப்பட்டியில், ‘ஹான்ஸ், கூல் லிப்’ உள்ளிட்ட புகையிலை பொருட்...",
+   "source": "தினமலர்",
+   "published": "2026-11-15T18:42:41+05:30",
+   "category": "குற்றம்",
+   "score": 10.0,
    "power_cut": false,
-   "listed_at": "2026-11-15T01:34:15.844315+05:30",
-   "picked_at": "2026-11-15T05:35:44.586538+05:30",
-   "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
+   "listed_at": "2026-11-16T01:59:48.626869+05:30"
+  },
+  "C51a9c02": {
+   "id": "C51a9c02",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/father-son-killed-as-truck-rams-into-truck/4377013",
+   "title": "கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி",
+   "summary": "திருச்சி: சமயபுரம் அருகே, பைக் மீது கன்டெய்னர் லாரி மோதிய விபத்தில், ராஜலிங்கம், 50, அவரது மகன் மகேந்திரன், 30, இருவரும் பலியாகினர். கரூர் மாவட்டம், நச்சலுாரைச் சேர்ந்தவர் விவசாயி ராஜலிங்கம்.",
+   "source": "தினமலர்",
+   "published": "2026-11-15T18:48:02+05:30",
+   "category": "விபத்து",
+   "score": 10.0,
+   "power_cut": false,
+   "listed_at": "2026-11-16T01:59:48.626869+05:30"
   }
  },
  "rounds": {
@@ -452,6 +462,20 @@
    "ids": [],
    "sent": false,
    "deadline": "2026-11-15T18:39:04.017291+05:30",
+   "decided": null,
+   "written": []
+  },
+  "2026-11-16_01": {
+   "window": [
+    "2026-11-15T17:39:04.017291+05:30",
+    "2026-11-16T01:59:48.626869+05:30"
+   ],
+   "ids": [
+    "C62d16fe",
+    "C51a9c02"
+   ],
+   "sent": false,
+   "deadline": "2026-11-16T02:59:48.626869+05:30",
    "decided": null,
    "written": []
   }

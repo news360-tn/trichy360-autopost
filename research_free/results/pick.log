@@ -1,10 +1,23 @@
-17:39:04 round 2026-11-15_17: news published 15 Nov 13:54 -> 15 Nov 17:39 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-17:39:04 insights 2026-11-15T17:39+05:30 (33 reels): topic weights {'crime': 1.5, 'education': -0.24, 'politics': 0.0}; best openings ['🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்', '🚨 உறையூரில் வீட்டில் நகை திருடிய இருவர் கைது']
-17:41:00 71 links on the two papers' Trichy pages
-17:42:50 skipped: not Trichy district=41, published before this window=20, already posted=6, shop offer / advertisement=1, same event already posted=1, no title=1
-17:42:50 list: 0 new + 0 earlier news not posted yet
-17:42:50 no news in this window - no e-mail
-ROUND=2026-11-15_17
-17:42:51 no list this round - nothing to post
-PICK_URLS=
-17:42:52 verify: no decided round
+01:59:48 round 2026-11-16_01: news published 15 Nov 17:39 -> 16 Nov 01:59 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+01:59:48 insights 2026-11-16T01:59+05:30 (33 reels): topic weights {'crime': 1.5, 'education': -0.25, 'politics': 0.0}; best openings ['🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்', '🗳️ திருச்சி கிழக்கில் 20-ந்தேதி முதலமைச்சர் விஜய் ரோடு-ஷோ']
+02:09:32 from_google dinamalar.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+02:09:32 from_google dinamani.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+02:09:32 from_google dinamalar.com 'திருச்சிராப்பள்ளி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+02:09:32 from_google dinamani.com 'திருச்சிராப்பள்ளி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+02:09:32 from_google dinamalar.com 'மணப்பாறை' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+02:09:32 from_google dinamani.com 'மணப்பாறை' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+02:09:32 from_google dinamalar.com 'ஸ்ரீரங்கம்' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+02:09:32 from_google dinamani.com 'ஸ்ரீரங்கம்' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+02:09:32 from_google tamil.oneindia.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+02:09:32 from_google dinakaran.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+02:09:32 from_google dailythanthi.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+02:09:32 from_google maalaimalar.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+02:09:32 from_google hindutamil.in 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+02:09:32 from_google polimernews.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+02:09:32 29 links on the two papers' Trichy pages
+02:10:23 skipped: published before this window=18, already posted=6, shop offer / advertisement=1, same event already posted=1
+02:10:23 list: 2 new + 0 earlier news not posted yet
+02:10:23    1. [குற்றம்] 300 கிலோ புகையிலை பொருட்கள் பறிமுதல் (தினமலர்)
+02:10:23    2. [விபத்து] கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி (தினமலர்)
+02:10:23 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-16_01
