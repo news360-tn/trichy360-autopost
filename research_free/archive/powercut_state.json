@@ -593,6 +593,36 @@
    "power_cut": false,
    "why": "other district",
    "title": "நாளை மறுதினம் (நவ.16) மின்தடை: கோயம்புத்தூர்"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/why-is-someone-who-claims-to-be-a-mass-leader-afraid-to-meet-the-people-seeman": {
+   "at": "2026-11-15T07:00:26.772222+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "‘மாஸ் லீடா்’ எனக் கூறுபவா் மக்களை சந்திக்க பயப்படுவது ஏன்? சீமான்"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/applications-invited-from-followers-of-the-buddhist-jain-and-sikh-religions-for-financial-assistance-to-undertake-a-pilgrimage": {
+   "at": "2026-11-15T07:00:26.772222+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "புத்த, சமண, சீக்கிய மதத்தினா் நிதியுதவியுடன் புனித பயணம் மேற்கொள்ள விண்ணப்பிக்க அழைப்பு"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/invitation-for-applications-from-scheduled-caste-farmers-for-the-installation-of-borewells-with-a-100-percent-subsidy": {
+   "at": "2026-11-15T07:00:26.772222+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "பட்டியலின விவசாயிகள் 100 சதவீத மானியத்துடன் ஆழ்துளை கிணறு அமைக்க விண்ணப்பிக்க அழைப்பு"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/வங்கி-அலுவலா்-வீட்டில்-நகை-திருடிய-இருவா்-கைது": {
+   "at": "2026-11-15T07:00:26.772222+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "வங்கி அலுவலா் வீட்டில் நகை திருடிய இருவா் கைது"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/meekkeetaattttu-annai-kttttiyee-tiiruvoom-ennn-kuurriy-kaanaattk-mutlvrai-pirtmaa-knnttittirukk-veennttum-piittttaa-alpoonnns": {
+   "at": "2026-11-15T07:00:26.772222+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "மேக்கேதாட்டு அணை கட்டியே தீருவோம் என கூறிய கா்நாடக முதல்வரை பிரதமர் மோடி கண்டித்திருக்க வேண்டும்: பீட்டா் அல்போன்ஸ்"
   }
  },
  "done": {
@@ -627,6 +657,10 @@
   "Ca91a51d": {
    "why": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)",
    "at": "2026-11-13T12:18:45.334969+05:30"
+  },
+  "Cffa0aa0": {
+   "why": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)",
+   "at": "2026-11-15T07:17:03.826450+05:30"
   }
  }
 }
