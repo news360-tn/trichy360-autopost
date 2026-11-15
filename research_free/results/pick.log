@@ -1,68 +1,10 @@
-05:34:43 round 2026-11-15_05: news published 15 Nov 01:34 -> 15 Nov 05:34 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-05:34:43 insights 2026-11-15T05:34+05:30 (26 reels): topic weights {'crime': 0.6, 'politics': -0.13}; best openings ['🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்', '🗳️ திருச்சி கிழக்கில் 20-ந்தேதி முதலமைச்சர் விஜய் ரோடு-ஷோ']
-05:35:05 33 links on the two papers' Trichy pages
-05:35:42 skipped: published before this window=20, not Trichy district=4, already posted=3, shop offer / advertisement=1, same event already posted=1
-05:35:42 list: 0 new + 8 earlier news not posted yet
-05:35:42    1. [குற்றம்] துணை சபாநாயகர் தாக்கியதாக புகார் கூறியவர் விசாரணைக்கு ஆஜராக சம்மன் (தினமலர்) (earlier)
-05:35:42    2. [பொது] மேக்கேதாட்டு அணை கட்டியே தீருவோம் என கூறிய கா்நாடக முதல்வரை பிரதமர் மோ (தினமணி) (earlier)
-05:35:42    3. [பொது] நூலக முறைகேடு விவகாரத்தில் ஜெயரஞ்சன் வாய் திறக்காதது ஏன்? - பீட்டர் அல (இந்து தமிழ்) (earlier)
-05:35:42    4. [பொது] அதிமுக எங்களுக்கு பகை சக்தி அல்ல: மு. வீரபாண்டியன் (தினமணி) (earlier)
-05:35:42    5. [பொது] தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட்சிகளுக்கு (தினத்தந்தி) (earlier)
-05:35:42    6. [பொது] பட்டியலின விவசாயிகள் 100 சதவீத மானியத்துடன் ஆழ்துளை கிணறு அமைக்க விண்ண (தினமணி) (earlier)
-05:35:42    7. [பொது] புத்த, சமண, சீக்கிய மதத்தினா் நிதியுதவியுடன் புனித பயணம் மேற்கொள்ள விண (தினமணி) (earlier)
-05:35:42    8. [பொது] தமிழக அமைச்சரவையில் மாற்றம் செய்ய வாய்ப்பு: ம.தி.மு.க., துரை வைகோ தகவல (தினமலர்) (earlier)
-05:35:42 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-15_05
-05:35:44 round 2026-11-15_05 (at least 5, up to 3 more of well-watched topics): 8 news to choose from (0 from earlier rounds), ranked by this page's insights
-05:35:44   PICK   1.   9.5 [other +0.00 pattern] துணை சபாநாயகர் தாக்கியதாக புகார் கூறியவர் விசாரணைக்கு ஆஜராக 
-05:35:44   PICK   2.   5.5 [other +0.00 pattern] மேக்கேதாட்டு அணை கட்டியே தீருவோம் என கூறிய கா்நாடக முதல்வரை 
-05:35:44   PICK   3.   5.5 [other +0.00 pattern] நூலக முறைகேடு விவகாரத்தில் ஜெயரஞ்சன் வாய் திறக்காதது ஏன்? - 
-05:35:44   PICK   4.   2.5 [other +0.00 pattern] புத்த, சமண, சீக்கிய மதத்தினா் நிதியுதவியுடன் புனித பயணம் மேற
-05:35:44   PICK   5.   2.5 [other +0.00 pattern] தமிழக அமைச்சரவையில் மாற்றம் செய்ய வாய்ப்பு: ம.தி.மு.க., துரை
-05:35:44          6.   1.6 [poultry_agri -0.30 pattern] பட்டியலின விவசாயிகள் 100 சதவீத மானியத்துடன் ஆழ்துளை கிணறு அம
-05:35:44          7.   0.6 [politics -0.13 page] தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட
-05:35:44          8.   0.1 [politics -0.13 page] அதிமுக எங்களுக்கு பகை சக்தி அல்ல: மு. வீரபாண்டியன்
-05:35:44 decided: automatic: top 5 of 8 by insights -> 5 news to write and post
-PICK_URLS=https://www.dinamalar.com/news/tamil-nadu-news/complainant-summoned-for-questioning-over-assault-on-deputy-speaker/4376480 https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/meekkeetaattttu-annai-kttttiyee-tiiruvoom-ennn-kuurriy-kaanaattk-mutlvrai-pirtmaa-knnttittirukk-veennttum-piittttaa-alpoonnns https://www.hindutamil.in/news/tamilnadu/why-is-jeyaranjan-silent-on-library-irregularities-issue-peter-alphonse https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/applications-invited-from-followers-of-the-buddhist-jain-and-sikh-religions-for-financial-assistance-to-undertake-a-pilgrimage https://www.dinamalar.com/news/tamil-nadu-news/tamil-nadu-cabinet-likely-to-be-reshuffled-says-mdmk-s-durai-vaiko/4376125
-05:39:22 1 picked news refused by the writer - not offered again
-05:39:22 4 listed news now in the Sheet
-05:39:30 instagram duplicate check trichy: 29 recent posts read
-05:39:31 verify 2026-11-15_05: 0 of 5 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-05:39:31    SKIPPED Cffa0aa0: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - மேக்கேதாட்டு அணை கட்டியே தீருவோம் என கூறிய கா்நாடக முதல்வரை 
-05:39:31    NOT POSTED C05b10cf: queued RN-34 (Queued) - தமிழக அமைச்சரவையில் மாற்றம் செய்ய வாய்ப்பு: ம.தி.மு.க., துரை
-05:39:31    NOT POSTED C6b91b94: queued RN-35 (Queued) - துணை சபாநாயகர் தாக்கியதாக புகார் கூறியவர் விசாரணைக்கு ஆஜராக 
-05:39:31    NOT POSTED C90aebf9: queued RN-32 (Queued) - நூலக முறைகேடு விவகாரத்தில் ஜெயரஞ்சன் வாய் திறக்காதது ஏன்? - 
-05:39:31    NOT POSTED C93cbff6: queued RN-33 (Queued) - புத்த, சமண, சீக்கிய மதத்தினா் நிதியுதவியுடன் புனித பயணம் மேற
-05:44:37 instagram duplicate check trichy: 29 recent posts read
-05:44:37 verify 2026-11-15_05: 0 of 5 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-05:44:37    SKIPPED Cffa0aa0: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - மேக்கேதாட்டு அணை கட்டியே தீருவோம் என கூறிய கா்நாடக முதல்வரை 
-05:44:37    NOT POSTED C05b10cf: queued RN-34 (Queued) - தமிழக அமைச்சரவையில் மாற்றம் செய்ய வாய்ப்பு: ம.தி.மு.க., துரை
-05:44:37    NOT POSTED C6b91b94: queued RN-35 (Queued) - துணை சபாநாயகர் தாக்கியதாக புகார் கூறியவர் விசாரணைக்கு ஆஜராக 
-05:44:37    NOT POSTED C90aebf9: queued RN-32 (Queued) - நூலக முறைகேடு விவகாரத்தில் ஜெயரஞ்சன் வாய் திறக்காதது ஏன்? - 
-05:44:37    NOT POSTED C93cbff6: queued RN-33 (Queued) - புத்த, சமண, சீக்கிய மதத்தினா் நிதியுதவியுடன் புனித பயணம் மேற
-05:49:43 instagram duplicate check trichy: 30 recent posts read
-05:49:43 verify 2026-11-15_05: 1 of 5 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-05:49:43    SKIPPED Cffa0aa0: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - மேக்கேதாட்டு அணை கட்டியே தீருவோம் என கூறிய கா்நாடக முதல்வரை 
-05:49:43    NOT POSTED C05b10cf: queued RN-34 (Queued) - தமிழக அமைச்சரவையில் மாற்றம் செய்ய வாய்ப்பு: ம.தி.மு.க., துரை
-05:49:43    NOT POSTED C6b91b94: queued RN-35 (Queued) - துணை சபாநாயகர் தாக்கியதாக புகார் கூறியவர் விசாரணைக்கு ஆஜராக 
-05:49:43    NOT POSTED C93cbff6: queued RN-33 (Queued) - புத்த, சமண, சீக்கிய மதத்தினா் நிதியுதவியுடன் புனித பயணம் மேற
-05:54:50 instagram duplicate check trichy: 30 recent posts read
-05:54:50 verify 2026-11-15_05: 1 of 5 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-05:54:50    SKIPPED Cffa0aa0: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - மேக்கேதாட்டு அணை கட்டியே தீருவோம் என கூறிய கா்நாடக முதல்வரை 
-05:54:50    NOT POSTED C05b10cf: queued RN-34 (Queued) - தமிழக அமைச்சரவையில் மாற்றம் செய்ய வாய்ப்பு: ம.தி.மு.க., துரை
-05:54:50    NOT POSTED C6b91b94: queued RN-35 (Queued) - துணை சபாநாயகர் தாக்கியதாக புகார் கூறியவர் விசாரணைக்கு ஆஜராக 
-05:54:50    NOT POSTED C93cbff6: queued RN-33 (Queued) - புத்த, சமண, சீக்கிய மதத்தினா் நிதியுதவியுடன் புனித பயணம் மேற
-05:59:57 instagram duplicate check trichy: 32 recent posts read
-05:59:57 verify 2026-11-15_05: 3 of 5 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-05:59:57    SKIPPED Cffa0aa0: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - மேக்கேதாட்டு அணை கட்டியே தீருவோம் என கூறிய கா்நாடக முதல்வரை 
-05:59:57    NOT POSTED C93cbff6: queued RN-33 (Queued) - புத்த, சமண, சீக்கிய மதத்தினா் நிதியுதவியுடன் புனித பயணம் மேற
-06:05:03 instagram duplicate check trichy: 32 recent posts read
-06:05:03 verify 2026-11-15_05: 3 of 5 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-06:05:03    SKIPPED Cffa0aa0: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - மேக்கேதாட்டு அணை கட்டியே தீருவோம் என கூறிய கா்நாடக முதல்வரை 
-06:05:03    NOT POSTED C93cbff6: queued RN-33 (Queued) - புத்த, சமண, சீக்கிய மதத்தினா் நிதியுதவியுடன் புனித பயணம் மேற
-06:10:10 instagram duplicate check trichy: 32 recent posts read
-06:10:10 verify 2026-11-15_05: 3 of 5 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-06:10:10    SKIPPED Cffa0aa0: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - மேக்கேதாட்டு அணை கட்டியே தீருவோம் என கூறிய கா்நாடக முதல்வரை 
-06:10:10    NOT POSTED C93cbff6: queued RN-33 (Queued) - புத்த, சமண, சீக்கிய மதத்தினா் நிதியுதவியுடன் புனித பயணம் மேற
-06:15:15 verify 2026-11-15_05: 4 of 5 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-06:15:15    SKIPPED Cffa0aa0: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - மேக்கேதாட்டு அணை கட்டியே தீருவோம் என கூறிய கா்நாடக முதல்வரை 
+09:58:32 round 2026-11-15_09: news published 15 Nov 05:34 -> 15 Nov 09:58 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+09:58:32 insights 2026-11-15T09:58+05:30 (30 reels): topic weights {'crime': 0.76, 'education': -0.31, 'politics': 0.06}; best openings ['🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்', '🗳️ திருச்சி கிழக்கில் 20-ந்தேதி முதலமைச்சர் விஜய் ரோடு-ஷோ']
+09:59:21 45 links on the two papers' Trichy pages
+10:00:19 skipped: published before this window=20, not Trichy district=14, already posted=4, shop offer / advertisement=1, same event already posted=1, no title=1
+10:00:19 list: 1 new + 2 earlier news not posted yet
+10:00:19    1. [கல்வி] விமானத்தில் பறக்க வேண்டும் என்ற கனவு நனவானது... அரசு பள்ளி மாணவர்கள் உ (தினத்தந்தி)
+10:00:19    2. [பொது] தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட்சிகளுக்கு (தினத்தந்தி) (earlier)
+10:00:19    3. [பொது] பட்டியலின விவசாயிகள் 100 சதவீத மானியத்துடன் ஆழ்துளை கிணறு அமைக்க விண்ண (தினமணி) (earlier)
+10:00:19 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-15_09
