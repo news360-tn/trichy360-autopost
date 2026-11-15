@@ -1,50 +1,7 @@
-09:58:32 round 2026-11-15_09: news published 15 Nov 05:34 -> 15 Nov 09:58 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-09:58:32 insights 2026-11-15T09:58+05:30 (30 reels): topic weights {'crime': 0.76, 'education': -0.31, 'politics': 0.06}; best openings ['🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்', '🗳️ திருச்சி கிழக்கில் 20-ந்தேதி முதலமைச்சர் விஜய் ரோடு-ஷோ']
-09:59:21 45 links on the two papers' Trichy pages
-10:00:19 skipped: published before this window=20, not Trichy district=14, already posted=4, shop offer / advertisement=1, same event already posted=1, no title=1
-10:00:19 list: 1 new + 2 earlier news not posted yet
-10:00:19    1. [கல்வி] விமானத்தில் பறக்க வேண்டும் என்ற கனவு நனவானது... அரசு பள்ளி மாணவர்கள் உ (தினத்தந்தி)
-10:00:19    2. [பொது] தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட்சிகளுக்கு (தினத்தந்தி) (earlier)
-10:00:19    3. [பொது] பட்டியலின விவசாயிகள் 100 சதவீத மானியத்துடன் ஆழ்துளை கிணறு அமைக்க விண்ண (தினமணி) (earlier)
-10:00:19 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-15_09
-10:00:21 round 2026-11-15_09 (at least 5, up to 3 more of well-watched topics): 3 news to choose from (0 from earlier rounds), ranked by this page's insights
-10:00:21   PICK   1.   6.4 [education -0.10 pattern] விமானத்தில் பறக்க வேண்டும் என்ற கனவு நனவானது... அரசு பள்ளி ம
-10:00:21   PICK   2.   1.1 [poultry_agri -0.30 pattern] பட்டியலின விவசாயிகள் 100 சதவீத மானியத்துடன் ஆழ்துளை கிணறு அம
-10:00:21   PICK   3.   0.7 [politics +0.06 page] தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட
-10:00:21 decided: automatic: top 5 of 3 by insights -> 3 news to write and post
-PICK_URLS=https://www.dailythanthi.com/news/tamilnadu/the-dream-of-flying-in-an-airplane-has-come-true-government-school-students-are-thrilled https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/invitation-for-applications-from-scheduled-caste-farmers-for-the-installation-of-borewells-with-a-100-percent-subsidy https://www.dailythanthi.com/news/tamilnadu/was-law-and-order-in-good-shape-during-the-dmks-rule-minister-shahjahan-asks-opposition-parties
-10:02:53 3 listed news now in the Sheet
-10:03:00 instagram duplicate check trichy: 34 recent posts read
-10:03:00 verify 2026-11-15_09: 0 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-10:03:00    NOT POSTED C6d4c5e1: queued RN-38 (Queued) - தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட
-10:03:00    NOT POSTED C72c005c: queued RN-36 (Queued) - விமானத்தில் பறக்க வேண்டும் என்ற கனவு நனவானது... அரசு பள்ளி ம
-10:03:00    NOT POSTED Cb956c7f: queued RN-37 (Queued) - பட்டியலின விவசாயிகள் 100 சதவீத மானியத்துடன் ஆழ்துளை கிணறு அம
-10:08:07 instagram duplicate check trichy: 34 recent posts read
-10:08:07 verify 2026-11-15_09: 0 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-10:08:07    NOT POSTED C6d4c5e1: queued RN-38 (Queued) - தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட
-10:08:07    NOT POSTED C72c005c: queued RN-36 (Queued) - விமானத்தில் பறக்க வேண்டும் என்ற கனவு நனவானது... அரசு பள்ளி ம
-10:08:07    NOT POSTED Cb956c7f: queued RN-37 (Queued) - பட்டியலின விவசாயிகள் 100 சதவீத மானியத்துடன் ஆழ்துளை கிணறு அம
-10:13:13 instagram duplicate check trichy: 35 recent posts read
-10:13:13 verify 2026-11-15_09: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-10:13:13    NOT POSTED C6d4c5e1: queued RN-38 (Queued) - தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட
-10:13:13    NOT POSTED Cb956c7f: queued RN-37 (Queued) - பட்டியலின விவசாயிகள் 100 சதவீத மானியத்துடன் ஆழ்துளை கிணறு அம
-10:18:19 instagram duplicate check trichy: 36 recent posts read
-10:18:19 verify 2026-11-15_09: 2 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-10:18:19    NOT POSTED C6d4c5e1: queued RN-38 (Queued) - தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட
-10:23:25 instagram duplicate check trichy: 36 recent posts read
-10:23:25 verify 2026-11-15_09: 2 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-10:23:25    NOT POSTED C6d4c5e1: queued RN-38 (Queued) - தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட
-10:28:32 instagram duplicate check trichy: 37 recent posts read
-10:28:32 verify 2026-11-15_09: 2 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-10:28:32    NOT POSTED C6d4c5e1: queued RN-38 (Queued) - தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட
-10:33:39 instagram duplicate check trichy: 37 recent posts read
-10:33:39 verify 2026-11-15_09: 2 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-10:33:39    NOT POSTED C6d4c5e1: queued RN-38 (Queued) - தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட
-10:38:46 instagram duplicate check trichy: 37 recent posts read
-10:38:46 verify 2026-11-15_09: 2 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-10:38:46    NOT POSTED C6d4c5e1: queued RN-38 (Queued) - தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட
-10:43:54 instagram duplicate check trichy: 37 recent posts read
-10:43:54 verify 2026-11-15_09: 2 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-10:43:54    NOT POSTED C6d4c5e1: queued RN-38 (Queued) - தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட
-10:48:58 verify 2026-11-15_09: 3 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+13:54:20 round 2026-11-15_13: news published 15 Nov 09:58 -> 15 Nov 13:54 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+13:54:20 insights 2026-11-15T13:54+05:30 (33 reels): topic weights {'crime': 1.5, 'education': -0.22, 'politics': -0.21}; best openings ['🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்', '🚨 உறையூரில் வீட்டில் நகை திருடிய இருவர் கைது']
+13:55:54 60 links on the two papers' Trichy pages
+13:56:44 skipped: not Trichy district=31, published before this window=20, already posted=5, shop offer / advertisement=1, same event already posted=1
+13:56:44 list: 0 new + 0 earlier news not posted yet
+13:56:44 no news in this window - no e-mail
+ROUND=2026-11-15_13

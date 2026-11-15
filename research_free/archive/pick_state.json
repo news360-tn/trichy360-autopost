@@ -1,20 +1,6 @@
 {
- "last_end": "2026-11-15T09:58:32.885227+05:30",
+ "last_end": "2026-11-15T13:54:20.445621+05:30",
  "pool": {
-  "C6d4c5e1": {
-   "id": "C6d4c5e1",
-   "url": "https://www.dailythanthi.com/news/tamilnadu/was-law-and-order-in-good-shape-during-the-dmks-rule-minister-shahjahan-asks-opposition-parties",
-   "title": "தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? எதிர்க்கட்சிகளுக்கு அமைச்சர் ஷாஜகான் கேள்வி",
-   "summary": "மணப்பாறை, திருச்சி மாவட்டம், புத்தாநத்தம் பகுதிக்கு வந்த சிறுபான்மை நலத்துறை அமைச்சர் ஷாஜஹான் பின்னர் செய்தியாளர்களுக்கு அளித்த பேட்டியில் கூறியதாவது; இந்த ஆறு மாத ஆட்சி என்பது மக்கள் எதை விரும்பி மாற்றத்தை விரும்பி வ...",
-   "source": "தினத்தந்தி",
-   "published": "2026-11-14T05:40:49Z",
-   "category": "பொது",
-   "score": 3.0,
-   "power_cut": false,
-   "listed_at": "2026-11-14T13:51:19.114449+05:30",
-   "picked_at": "2026-11-15T10:00:21.483386+05:30",
-   "posted": true
-  },
   "Cffa0aa0": {
    "id": "Cffa0aa0",
    "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/meekkeetaattttu-annai-kttttiyee-tiiruvoom-ennn-kuurriy-kaanaattk-mutlvrai-pirtmaa-knnttittirukk-veennttum-piittttaa-alpoonnns",
@@ -28,34 +14,6 @@
    "listed_at": "2026-11-15T01:34:15.844315+05:30",
    "picked_at": "2026-11-15T05:35:44.586538+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
-  },
-  "Cb956c7f": {
-   "id": "Cb956c7f",
-   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/invitation-for-applications-from-scheduled-caste-farmers-for-the-installation-of-borewells-with-a-100-percent-subsidy",
-   "title": "பட்டியலின விவசாயிகள் 100 சதவீத மானியத்துடன் ஆழ்துளை கிணறு அமைக்க விண்ணப்பிக்க அழைப்பு",
-   "summary": "ஆதிதிராவிட, பழங்குடியின விவசாயிகள் 100 சதவீத மானியத்துடன் ஆழ்துளை கிணறு அமைக்க விண்ணப்பிக்கலாம் என மாவட்ட நிா்வாகம் அழைப்பு விடுத்துள்ளது..வேளாண்மைப் பொறியியல் துறை மூலமாக புதிய நீா் ஆதாரங்களை உருவாக்கி நிகர சாகுபடி ப...",
-   "source": "தினமணி",
-   "published": "2026-11-14T18:59:29.926Z",
-   "category": "பொது",
-   "score": 3.0,
-   "power_cut": false,
-   "listed_at": "2026-11-15T01:34:15.844315+05:30",
-   "picked_at": "2026-11-15T10:00:21.483384+05:30",
-   "posted": true
-  },
-  "C72c005c": {
-   "id": "C72c005c",
-   "url": "https://www.dailythanthi.com/news/tamilnadu/the-dream-of-flying-in-an-airplane-has-come-true-government-school-students-are-thrilled",
-   "title": "விமானத்தில் பறக்க வேண்டும் என்ற கனவு நனவானது... அரசு பள்ளி மாணவர்கள் உற்சாகம்!",
-   "summary": "திருச்சி,சென்னையில் இருந்து விமானம் மூலம் திருச்சிக்கு அரசு பள்ளி மாணவ-மாணவிகள் வந்தனர். விமான பயண கனவு நிறைவேறியதால் அவர்கள் மகிழ்ச்சி அடைந்தனர்.விமானத்தில் பயணிக்கும் கனவுவிமானத்தில் பயணம் செய்வது என்பது அனைவருக்கும...",
-   "source": "தினத்தந்தி",
-   "published": "2026-11-15T02:29:01Z",
-   "category": "கல்வி",
-   "score": 6.69,
-   "power_cut": false,
-   "listed_at": "2026-11-15T09:58:32.885227+05:30",
-   "picked_at": "2026-11-15T10:00:21.483381+05:30",
-   "posted": true
   }
  },
  "rounds": {
@@ -474,6 +432,17 @@
     "C72c005c",
     "Cb956c7f"
    ]
+  },
+  "2026-11-15_13": {
+   "window": [
+    "2026-11-15T09:58:32.885227+05:30",
+    "2026-11-15T13:54:20.445621+05:30"
+   ],
+   "ids": [],
+   "sent": false,
+   "deadline": "2026-11-15T14:54:20.445621+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}
