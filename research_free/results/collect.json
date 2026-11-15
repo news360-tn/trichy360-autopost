@@ -1,368 +1,280 @@
 {
  "log": [
   "earlier stories still waiting for images: []",
-  "instagram check: 29 recent posts read from the page",
+  "instagram check: 34 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/complainant-summoned-for-questioning-over-assault-on-deputy-speaker/4376480",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/meekkeetaattttu-annai-kttttiyee-tiiruvoom-ennn-kuurriy-kaanaattk-mutlvrai-pirtmaa-knnttittirukk-veennttum-piittttaa-alpoonnns",
-  "manual link added: https://www.hindutamil.in/news/tamilnadu/why-is-jeyaranjan-silent-on-library-irregularities-issue-peter-alphonse",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/applications-invited-from-followers-of-the-buddhist-jain-and-sikh-religions-for-financial-assistance-to-undertake-a-pilgrimage",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/tamil-nadu-cabinet-likely-to-be-reshuffled-says-mdmk-s-durai-vaiko/4376125",
-  "candidate filter: collected=5",
-  "to write: 5 Trichy district candidates (max 5 stories)",
-  "round: top 5 of 5 candidates",
-  "candidates waiting: 5 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/tamil-nadu-ca",
+  "manual link added: https://www.dailythanthi.com/news/tamilnadu/the-dream-of-flying-in-an-airplane-has-come-true-government-school-students-are-thrilled",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/invitation-for-applications-from-scheduled-caste-farmers-for-the-installation-of-borewells-with-a-100-percent-subsidy",
+  "manual link added: https://www.dailythanthi.com/news/tamilnadu/was-law-and-order-in-good-shape-during-the-dmks-rule-minister-shahjahan-asks-opposition-parties",
+  "candidate filter: collected=3",
+  "to write: 3 Trichy district candidates (max 3 stories)",
+  "round: top 3 of 3 candidates",
+  "candidates waiting: 3 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/was-law-and-orde",
   "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.hindutamil.in/news/tamilnadu/why-is-jeyaranjan-s",
+  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/the-dream-of-fly",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})",
   "posting job started at once",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/complainant-s",
-  "NOT filed (N) மேக்கேதாட்டு அணை கட்டியே தீருவோம் என கூறிய கா்நாடக: not Trichy district news (the story's first lines name another place and no Trichy place)",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 10})",
-  "candidate loop ended: left 0, tried={'N': 5}, done={'N': 4}, time left 76 min",
-  "filed: 4 Trichy district stories (target 5), reels only",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 7})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 9})",
+  "candidate loop ended: left 0, tried={'N': 3}, done={'N': 3}, time left 77 min",
+  "filed: 3 Trichy district stories (target 3), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":5,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":3,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "ok gemini/gemini-3.6-flash (14s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
+  "ok gemini/gemini-3.6-flash (15s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "switching away from gemini/gemini-3.6-flash for 10 min",
+  "ok gemini/gemini-3-flash-preview (11s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
-  "ok groq/openai/gpt-oss-120b (7s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3-flash-preview: Expecting ',' delimiter: line 47 column 2 (char 4342)",
+  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok gemini/gemini-3-flash-preview (10s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok gemini/gemini-3.6-flash (17s)",
+  "ok groq/openai/gpt-oss-120b (4s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "ok groq/qwen/qwen3.8-27b (4s)",
+  "ok gemini/gemini-3.5-flash (19s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_gener",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok groq/qwen/qwen3.8-27b (10s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "ok groq/qwen/qwen3.8-27b (0s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "திருச்சியில் பீட்டர் அல்போன்ஸ் பேட்டி: நூலக முறைகேடு விவகாரத்தில் ஜெயரஞ்சன் ஏன் வாய் திறக்கவில்லை?",
-   "english_headline": "Congress leader Peter Alphonse questions Jeyaranjan over 75,000 fake books in libraries during Trichy press meet",
-   "category": "Government & Services",
-   "location": "Trichy city, Trichy district",
+   "tamil_headline": "விமானத்தில் பறக்க வேண்டும் என்ற கனவு நனவானது... அரசு பள்ளி மாணவர்கள் உற்சாகம்!",
+   "english_headline": "Government school students fulfill dream of flying in a plane from Chennai to Trichy",
+   "category": "Education",
+   "location": "Trichy airport, Trichy district",
    "importance": "Medium",
-   "scope": "district",
+   "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "அரசியல்",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சியில் பீட்டர் அல்போன்ஸ் கேள்வி",
-    "hl2": "75 ஆயிரம் போலி நூல் விவகாரம்",
+    "cat": "கல்வி",
+    "loc": "திருச்சி விமான நிலையம்",
+    "hl1": "விமானத்தில் பறக்க வேண்டும் என்ற கனவு",
+    "hl2": "35 குழந்தைகள், 15 மூத்த",
     "slides": [
      {
-      "title": "நேருவுக்கு மரியாதை",
+      "title": "விமான பயணம்",
       "lines": [
-       "திருச்சி சேவா சங்கம் பள்ளி அருகே நேரு சிலைக்கு மாலை",
-       "காங்கிரஸ் மூத்த தலைவர் பீட்டர் அல்போன்ஸ் மரியாதை"
+       "சென்னையில் இருந்து விமானம் மூலம் திருச்சிக்கு வந்தனர்",
+       "35 ஏழை, எளிய பள்ளி குழந்தைகள், சிறப்பு குழந்தைகள், திருநங்கை",
+       "15 மூத்த குடிமக்கள்"
       ]
      },
      {
-      "title": "நூலக முறைகேடு",
+      "title": "வரவேற்பு",
       "lines": [
-       "நூலகங்களில் <b>75 ஆயிரம்</b> போலி நூல்கள் இடம்பெற்றதாக புகார்",
-       "பரிந்துரைக் குழுத் தலைவர் ஜெயரஞ்சன் பதில் கூற வேண்டும்"
+       "திருச்சி விமான நிலையத்தில் பூக்கள் மற்றும் இனிப்புகள்",
+       "பின்னர் பஸ் மூலம் கல்லணை, தஞ்சை பெரிய கோவிலை பார்வையிட்டனர்",
+       "இரவில் ரெயில் மூலம் சென்னை சென்றனர்"
       ]
      },
      {
-      "title": "மேகேதாட்டு அணை",
+      "title": "பயணம்",
       "lines": [
-       "மேகேதாட்டு அணை பற்றி கர்நாடக முதல்வர் பேசியதற்கு கண்டனம்",
-       "தொகுதி மறுவரையறை வாக்கெடுப்பில் சதி வெளிப்படும் என கருத்து"
+       "இசையமைப்பாளர் ஏ.ஆர்.ரகுமானின் சகோதரி ஏ.ஆர்.ரைஹானா",
+       "தொண்டு நிறுவனர் அரவிந்த் ஜெயபால்",
+       "வி.ஜி.பி. குழுமத்தின் தலைவர் வி.ஜி.பி.சந்தோசம்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சியில் 75 ஆயிரம் போலி நூல்கள் விவகாரத்தில் பரிந்துரைக் குழுத் தலைவர் ஜெயரஞ்சன் ஏன் மௌனமாக உள்ளார் என காங்கிரஸ் மூத்த தலைவர் பீட்டர் அல்போன்ஸ் கேள்வி எழுப்பியுள்ளார். மறைந்த பிரதமர் நேருவின் பிறந்தநாளை முன்னிட்டு திருச்சி சேவா சங்கம் பள்ளி எதிரே உள்ள அவரது சிலைக்கு பீட்டர் அல்போன்ஸ் மாலை அணிவித்து மரியாதை செலுத்தினார். பின்னர் செய்தியாளர்களிடம் பேசிய அவர், நூலகங்களில் 75 ஆயிரம் போலி நூல்கள் இடம்பெற்றது தொடர்பாக ஜெயரஞ்சன் பதிலளிக்க வேண்டும் என்றார். மேகேதாட்டில் அணை கட்டுவதை எந்த சக்தியாலும் தடுக்க முடியாது என கர்நாடக முதலமைச்சர் டி கே சிவகுமார் பேசியதை மேடையிலேயே பிரதமர் மோடி கண்டித்திருக்க வேண்டும் எனத் தெரிவித்தார். தவறு செய்த தவெக சட்டமன்ற உறுப்பினர்கள் மீது முதலமைச்சர் நடவடிக்கை எடுப்பார் என்றும் கூறினார். நாடாளுமன்றக் கூட்டத்தொடரில் தொகுதி மறுவரையறை வாக்கெடுப்பு நடக்கும் போது தமிழகத்தில் நடக்கும் சதிகளின் முகத்திரை கிழிக்கப்படும் எனத் தெரிவித்தார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🗣️ திருச்சியில் பீட்டர் அல்போன்ஸ் பேட்டி: நூலக விவகாரத்தில் ஜெயரஞ்சன் பதில் கூற கேள்வி!\n\n📰 முழு விவரம்:\nமறைந்த பிரதமர் நேருவின் பிறந்தநாளை முன்னிட்டு, திருச்சி சேவா சங்கம் பள்ளி எதிரே உள்ள அவரது சிலைக்கு காங்கிரஸ் மூத்த தலைவர் பீட்டர் அல்போன்ஸ் மாலை அணிவித்து மரியாதை செலுத்தினார். பின்னர் செய்தியாளர்களைச் சந்தித்துப் பேசினார்.\n\nநூலகங்களில் 75 ஆயிரம் போலி நூல்கள் இடம்பெற்றது தொடர்பாக, புத்தகப் பரிந்துரைக் குழுத் தலைவராக இருந்த ஜெயரஞ்சன் ஏன் அமைதியாக இருக்கிறார் என்றும், அவர் இதற்குப் பதிலளிக்க வேண்டும் என்றும் கேள்வி எழுப்பினார். மேலும் மேகேதாட்டு அணை விவகாரத்தில் கர்நாடக முதலமைச்சரின் பேச்சைப் பிரதமர் மோடி கண்டித்திருக்க வேண்டும் எனக் குறிப்பிட்டார்.\n\n📍 இடம்: சேவா சங்கம் பள்ளி எதிரில், திருச்சி\n🗓️ நாள்: 14 நவம்பர் 2026\nℹ️ விவரம்: நூலக முறைகேடு தொடர்பாக ஜெயரஞ்சன் விளக்கமளிக்க வேண்டும் என வலியுறுத்தல்\n\nசெய்தியை மற்றவர்களுடன் Share செய்யுங்கள்.\n\nPeter Alphonse press meet in Trichy | Trichy news\n📍 திருச்சி | 14 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #SevaSangam #TrichyNews #திருச்சி",
-   "prompts": "A senior politician in white khadi shirt and veshti stands beside a bronze statue of Jawaharlal Nehru on a tree-lined roadside in Trichy city, a garland of marigolds draped over the statue's shoulders, as he speaks to a small ring of reporters holding microphones and notebooks. The setting is a public roadside plaza in front of a school compound wall, with a few two-wheelers and an autorickshaw parked at the kerb and a Tamil Nadu school building in the background. Several Congress party workers in white shirts stand a few steps behind, seen from behind and at a distance, while a reporter with a camera mic leans in. Morning daylight with soft shadows under the trees, Nehru's birthday celebration mood. Camera at eye level, 35 mm, wide enough to show the statue, the school wall and the press cluster; no readable text or signboards visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a bronze statue of Jawaharlal Nehru on a granite pedestal, its shoulders and arm wrapped in a fresh garland of marigolds and jasmine, with a few loose petals fallen on the stone base. Behind it, the blurred edge of a school compound wall and green tree leaves in morning light. In the lower corner, a few microphones and a reporter's hand holding a notebook, out of focus, suggesting a press meet. Shallow depth of field, 85 mm, eye level, soft daylight with no readable signs or faces. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.hindutamil.in/news/tamilnadu/why-is-jeyaranjan-silent-on-library-irregularities-issue-peter-alphonse",
-   "published": "2026-11-14T19:14:30Z",
-   "verification": "DRAFT (gemini/gemini-3.6-flash) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 21 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences; caption misses facts of the article (put every one in 📰 முழு விவரம்): 1 ('இவ்​வாறு கூறினார்..பாகிஸ்தானை 1 விக்கெட் வித்தியாசத்தில் வீழ'); 19 ('இவ்​வாறு கூறினார்..பாகிஸ்தானை 1 விக்கெட் வித்தியாசத்தில் வீழ')",
-   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 2 validator problem(s)",
+   "reel_script": "விமானத்தில் பறக்க வேண்டும் என்ற கனவு நனவானது. நேற்று காலையில் சென்னையில் இருந்து விமானம் மூலம் திருச்சிக்கு அரசு பள்ளி மாணவ-மாணவிகள் வந்தனர். 35 ஏழை, எளிய பள்ளி குழந்தைகள், சிறப்பு குழந்தைகள், திருநங்கை மற்றும் 15 மூத்த குடிமக்கள் விமானத்தில் பயணம் செய்தனர். திருச்சி விமான நிலையம் வந்தடைந்த அவர்களுக்கு பூக்கள் மற்றும் இனிப்புகள் கொடுத்து உற்சாக வரவேற்பு அளிக்கப்பட்டது. பின்னர் அவர்கள் பஸ் மூலம் கல்லணை, தஞ்சை பெரிய கோவிலை பார்வையிட்டனர். அதன் பின்னர் இரவில் ரெயில் மூலம் சென்னை சென்றனர். மாணவர்களுடன் விமானத்தில் இசையமைப்பாளர் ஏ ஆர் ரகுமானின் சகோதரி ஏ ஆர் ரைஹானா பயணம் மேற்கொண்டார். தொண்டு நிறுவனர் அரவிந்த் ஜெயபால், வி ஜி பி குழுமத்தின் தலைவர் வி ஜி பி சந்தோசம் ஆகியோரும் பயணம் மேற்கொண்டு வந்தனர். விமானத்தில் பறக்கும் போது மேகங்களையும், மேலிருந்து புவியின் அழகையும் ரசித்தனர். விமானம் புறப்படும் போது இருந்த அச்ச உணர்வு மேலே பறக்கும் போது மறைந்து மகிழ்ச்சி அளித்தது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "✈️ விமானத்தில் பறக்க வேண்டும் என்ற கனவு நனவானது... அரசு பள்ளி மாணவர்கள் உற்சாகம்!\n\n📰 முழு விவரம்:\nநேற்று காலையில் சென்னையில் இருந்து விமானம் மூலம் திருச்சிக்கு அரசு பள்ளி மாணவ-மாணவிகள் வந்தனர். 35 ஏழை, எளிய பள்ளி குழந்தைகள், சிறப்பு குழந்தைகள், திருநங்கை மற்றும் 15 மூத்த குடிமக்கள் விமானத்தில் பயணம் செய்தனர். திருச்சி விமான நிலையம் வந்தடைந்த அவர்களுக்கு பூக்கள் மற்றும் இனிப்புகள் கொடுத்து உற்சாக வரவேற்பு அளிக்கப்பட்டது. பின்னர் அவர்கள் பஸ் மூலம் கல்லணை, தஞ்சை பெரிய கோவிலை பார்வையிட்டனர். அதன் பின்னர் இரவில் ரெயில் மூலம் சென்னை சென்றனர். மாணவர்களுடன் விமானத்தில் இசையமைப்பாளர் ஏ.ஆர்.ரகுமானின் சகோதரி ஏ.ஆர்.ரைஹானா, தொண்டு நிறுவனர் அரவிந்த் ஜெயபால், வி.ஜி.பி. குழுமத்தின் தலைவர் வி.ஜி.பி.சந்தோசம் ஆகியோரும் பயணம் மேற்கொண்டு வந்தனர். விமானத்தில் பறக்கும் போது மேகங்களையும், மேலிருந்து புவியின் அழகையும் ரசித்தனர். விமானம் புறப்படும் போது இருந்த அச்ச உணர்வு மேலே பறக்கும் போது மறைந்து மகிழ்ச்சி அளித்தது.\n\n📍 இடம்: திருச்சி விமான நிலையம்\n🗓️ நாள்: நேற்று\n🕘 நேரம்: காலையில்\nℹ️ மக்கள் கவனத்திற்கு: விமான பயண கனவு நிறைவேறியதால் அவர்கள் மகிழ்ச்சி அடைந்தனர்.\n\nGovernment school students fulfill dream of flying in a plane from Chennai to Trichy | Trichy news\n📍 Trichy airport, Trichy | 15 Nov 2026\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Education",
+   "prompts": "Trichy airport arrival hall in daylight where a group of Tamil Nadu government school students in school uniform, along with several senior citizens, stand in a loose cluster on the terminal floor as a welcome party approaches them. Two volunteers in plain shirts hold bunches of flowers and a tray of sweets, and the children look up with excited faces, seen from behind and from a distance so no faces are recognisable. Behind them stand glass windows showing the apron of the airport with a parked passenger aircraft and its boarding stairs, and a few ground staff in uniform. The students carry small school bags and some hold their boarding passes. The scene is bright morning light coming through the large glass walls. Shot at eye level, 35 mm lens, wide enough to show the terminal interior, the group and the aircraft outside the window. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up detail of a group of school children's hands holding a bunch of fresh flowers and a small box of sweets just handed to them at Trichy airport arrival area, with a school bag strap and a boarding pass visible in the frame. The background is softly blurred, showing the airport terminal floor and the legs of a few people in trousers and sarees. Bright daylight from the glass windows falls across the flowers and sweets, showing the joyful, celebratory mood of the moment. Shot at slightly high angle, 35 mm lens, shallow depth of field. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dailythanthi.com/news/tamilnadu/the-dream-of-flying-in-an-airplane-has-come-true-government-school-students-are-thrilled",
+   "published": "2026-11-15T02:29:01Z",
+   "verification": "DRAFT (groq/qwen/qwen3.8-27b) - fact-check: no problems found",
+   "note": "free-model draft groq/qwen/qwen3.8-27b, 3 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794701248/trichy360/ndrvbojarnbvqmtorr6i.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794701253/trichy360/gyjq3yjtqnt9vo2zrqnb.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794717112/trichy360/r8fchkwqxh7p97ghlyhh.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794717122/trichy360/bdo3tspmmunbyhvk3wnd.jpg"
    ]
   },
   {
-   "tamil_headline": "புத்த, சமண, சீக்கிய மதத்தினர் புனித பயணத்திற்கு நிதியுதவி: விண்ணப்பிக்க அழைப்பு",
-   "english_headline": "Trichy district invites applications for Buddhist, Jain and Sikh pilgrims seeking financial aid for holy journeys; last date 31 Jan 2027",
+   "tamil_headline": "பட்டியலின விவசாயிகள் 100 சதவீத மானியத்துடன் ஆழ்துளை கிணறு அமைக்க விண்ணப்பிக்கலாம்",
+   "english_headline": "SC/ST farmers can apply for 100% subsidy to dig borewells under Ambedkar agriculture scheme in Trichy district",
    "category": "Government & Services",
-   "location": "Trichy district administration (applications from Trichy district; Tamil Nadu)",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "அரசு நலத்திட்டம்",
-    "loc": "திருச்சி மாவட்டம்",
-    "hl1": "புனித பயண நிதியுதவிக்கு விண்ணப்பம்",
-    "hl2": "கடைசி நாள் 31.01.2027",
-    "slides": [
-     {
-      "title": "யாருக்கு?",
-      "lines": [
-       "புத்த, சமண, சீக்கிய மதத்தினருக்கு நிதியுதவி",
-       "தமிழ்நாட்டைச் சேர்ந்த <b>120 பேருக்கு</b> வாய்ப்பு",
-       "ஒருவருக்கு <b>ரூ.10,000</b> வீதம் வழங்கப்படும்"
-      ]
-     },
-     {
-      "title": "எங்கே செல்லலாம்?",
-      "lines": [
-       "புத்த கயா, சாரநாத், லும்பினி போன்ற இடங்கள்",
-       "தில்வாரா, சரவணபெலகோலா போன்ற சமண தலங்கள்",
-       "அமிர்தசரஸ், ஹசூர் சாகிப் போன்ற சீக்கிய தலங்கள்"
-      ]
-     },
-     {
-      "title": "எப்படி",
-      "lines": [
-       "படிவம் மாவட்ட ஆட்சியர் அலுவலகத்தில் இலவசம்",
-       "இணையதளத்திலும் பதிவிறக்கம் செய்யலாம்",
-       "சென்னைக்கு ஆவணங்களுடன் அனுப்ப வேண்டும்"
-      ]
-     },
-     {
-      "title": "கடைசி நாள்",
-      "lines": [
-       "விண்ணப்பம் அனுப்ப கடைசி நாள் <b>31.01.2027</b>",
-       "ஆணையர், சிறுபான்மையினர் நலத்துறை, சென்னை",
-       "மாவட்ட ஆட்சியர் பிரத்திக் தாயள் அறிவிப்பு"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "புத்த, சமண, சீக்கிய மதத்தினர் புனித பயணம் செல்ல நிதியுதவிக்கு விண்ணப்பிக்கலாம். தமிழ்நாட்டைச் சேர்ந்த 50 புத்த மதத்தினர், 50 சமண மதத்தினர், 20 சீக்கிய மதத்தினருக்கு இந்த உதவி வழங்கப்படுகிறது. ஒருவருக்கு ரூ.10,000 வீதம், மொத்தம் 120 பேருக்கு ரூ.12 லட்சம் நிதியுதவி வழங்கப்படுகிறது. இந்தியாவில் உள்ள அவரவர் மதத்தின் புனிதத் தலங்களுக்குச் செல்லலாம். புத்த மதத்தினர் புத்த கயா, சாரநாத், லும்பினி போன்ற இடங்களுக்குச் செல்லலாம். சமண மதத்தினர் தில்வாரா, சரவணபெலகோலா போன்ற தலங்களுக்குச் செல்லலாம். சீக்கிய மதத்தினர் அமிர்தசரஸ், ஹசூர் சாகிப் போன்ற தலங்களுக்குச் செல்லலாம். விண்ணப்ப படிவங்களை மாவட்ட ஆட்சியர் அலுவலகத்தில் உள்ள சிறுபான்மையினர் நல அலுவலகத்தில் இலவசமாகப் பெறலாம். இணையதளத்திலும் பதிவிறக்கம் செய்யலாம். பூர்த்தி செய்த விண்ணப்பத்தை சென்னை சேப்பாக்கம் முகவரிக்கு 31 ஜனவரி 2027க்குள் ஆவணங்களுடன் அனுப்ப வேண்டும். மாவட்ட ஆட்சியர் பிரத்திக் தாயள் இதைத் தெரிவித்துள்ளார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🙏 புத்த, சமண, சீக்கிய மதத்தினர் புனித பயண நிதியுதவிக்கு விண்ணப்பிக்கலாம்\n\n📰 முழு விவரம்:\nதமிழ்நாட்டைச் சேர்ந்த 50 புத்த மதத்தினர், 50 சமண மதத்தினர், 20 சீக்கிய மதத்தினருக்கு புனித பயண நிதியுதவி வழங்கப்படுகிறது. ஒருவருக்கு ரூ.10,000 வீதம், 120 பேருக்கு மொத்தம் ரூ.12 லட்சம் வழங்கப்படுகிறது.\nஇந்தியாவில் உள்ள அவரவர் மதத்தின் புனிதத் தலங்களுக்குச் செல்லலாம்.\n🛕 புத்த மதம்: புத்த கயா (பிகார்), குசி நகர் (உத்தரபிரதேசம்), சாரநாத் (வாரணாசி), ராஜ்கிர், வைஷாலி (பிகார்), லும்பினி (நேபாளம்)\n🛕 சமண மதம்: தில்வாரா, ரணக்பூர், ஜெய்சால்மர் (ராஜஸ்தான்), சிக்கர்ஜி (ஜார்கண்ட்), பாலிடனா (குஜராத்), பவபுரி (பிகார்), சரவணபெலகோலா (கர்நாடகா)\n🛕 சீக்கிய மதம்: அமிர்தசரஸ் (பஞ்சாப்), தக்ட் ஸ்ரீ கேசகர் சாகிப், தக்ட் ஸ்ரீ டாம்டமா சாகிப், தக்ட் ஸ்ரீ ஹர்மந்திர் சாகிப் (பிகார்), தக்ட் ஸ்ரீ ஹசூர் சாகிப் (மகாராஷ்டிரா); பாகிஸ்தானில் உள்ள குருத்வாராக்களும் உள்ளன\n📝 விண்ணப்ப படிவம்: மாவட்ட ஆட்சியர் அலுவலகத்தில் உள்ள மாவட்ட பிற்படுத்தப்பட்டோர் மற்றும் சிறுபான்மையினர் நல அலுவலகத்தில் கட்டணமின்றிப் பெறலாம்; இணையதளத்திலும் பதிவிறக்கலாம்.\n📮 பூர்த்தி செய்த விண்ணப்பத்தை ஆணையர், சிறுபான்மையினர் நலத்துறை, கலசமஹால் பாரம்பரிய கட்டடம், முதல் தளம், சேப்பாக்கம், சென்னை-600 005 முகவரிக்கு 31.01.2027க்குள் ஆவணங்களுடன் அனுப்ப வேண்டும்.\n\nTrichy Buddhist Jain Sikh pilgrimage aid applications open, last date 31 Jan 2027 | Trichy news\n📍 திருச்சி மாவட்டம் | 15 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Trichy\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்",
-   "prompts": "A row of applicants stands in a queue outside the district Collectorate building in Trichy city, collecting application forms from a counter at the Minority Welfare office. The Collectorate is a government building with a plain facade, pillars and a tiled entrance, and the morning light falls evenly on the steps. Men in shirts with veshti and women in sarees and salwar stand in line, seen from behind and far away, some holding folded papers and files. A few government staff in plain clothes sit behind the counter, blurred in the background. Clean open courtyard, a few two-wheelers parked near the gate, daylight, no readable text. Camera at eye level, 35 mm, wide enough to show the whole building and the queue. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a stack of blank application forms and a neatly filled form lying on a government office desk, with a pen resting beside it and a clip of documents placed on top. The paper is white and plain, with printed lines and no readable words, and the desk surface is wooden and worn. Behind it, a soft-focus view of a file cabinet and a fan on the wall in a government office. Daylight from a window at the side gives soft, even light. Camera slightly high, 35 mm, shallow depth of field so the forms are sharp and the background is softened. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/applications-invited-from-followers-of-the-buddhist-jain-and-sikh-religions-for-financial-assistance-to-undertake-a-pilgrimage",
-   "published": "2026-11-14T19:01:34.218Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: slides_spec.loc 'திருச்சி மாவட்டம்' is only the district: write the town / village / area the article names (people share news of their own area)",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794701268/trichy360/hatay5pddrnzfutyqkvu.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794701279/trichy360/aur1epzlgxxkoyddu5ll.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "தமிழக அமைச்சரவையில் மாற்றம் செய்ய வாய்ப்பு: துரை வைகோ தகவல்",
-   "english_headline": "Cabinet reshuffle likely in Tamil Nadu, says MDMK's Durai Vaiko",
-   "category": "Government & Services",
-   "location": "Trichy city, Trichy district",
+   "location": "Trichy district (Trichy, Musiri, Lalgudi offices)",
    "importance": "High",
-   "scope": "",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "அரசியல் செய்தி",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சி: அமைச்சரவையில் மாற்றம் வரலாம்",
-    "hl2": "துரை வைகோ தகவல்",
+    "cat": "அரசு திட்டம்",
+    "loc": "திருச்சி, முசிறி, லால்குடி",
+    "hl1": "பட்டியலின விவசாயிகளுக்கு 100% மானியம்",
+    "hl2": "ரூ. 8 லட்சம் வரை மானியம்",
     "slides": [
      {
-      "title": "என்ன சொன்னார்?",
+      "title": "என்ன திட்டம்?",
       "lines": [
-       "அமைச்சரவையில் மாற்றம் செய்ய வாய்ப்புள்ளது",
-       "ஆட்சியை மேலும் சிறப்பாக நடத்த இது உதவும்",
-       "புதிய அமைச்சர்களுக்கு அனுபவக் குறைவு இருக்கலாம்"
+       "ஆதிதிராவிட, பழங்குடியின விவசாயிகளுக்கு ஆழ்துளை கிணறு",
+       "<b>100 சதவீதம்</b> அல்லது அதிகபட்சம் <b>ரூ. 8 லட்சம்</b> மானியம்",
+       "அண்ணல் அம்பேத்கர் வேளாண் உதவித் திட்டத்தின் கீழ்"
       ]
      },
      {
-      "title": "எங்கே சொன்னார்?",
+      "title": "யார்",
       "lines": [
-       "திருச்சியில் நேற்று அளித்த பேட்டியில் தெரிவித்தார்",
-       "ம.தி.மு.க. முதன்மைச் செயலர் துரை வைகோ",
-       "த.வெ.க. தலைமையிலான கூட்டணியில் ம.தி.மு.க. உள்ளது"
+       "ஒரு ஏக்கர் நிலம் வைத்துள்ள விவசாயிகள்",
+       "நீரை விவசாயத்துக்கு மட்டுமே பயன்படுத்த வேண்டும்",
+       "5 ஆண்டுகளுக்கு நிலத்தை வேறு யாருக்கும் விற்கக் கூடாது"
       ]
      },
      {
-      "title": "பிற கருத்துகள்",
+      "title": "தேவையான ஆவணங்கள்",
       "lines": [
-       "கள்ளக்குறிச்சி எம்.எல்.ஏ. அருள் விக்னேஷ் மீதான குற்றச்சாட்டு",
-       "தவறு நிரூபிக்கப்பட்டால் கைது நிச்சயம் என்றார்",
-       "ஆண்டுக்கு சராசரியாக 1,300 கொலைகள் நடப்பதாக <b>NCRB</b> தரவு"
+       "புகைப்படத்துடன் கூடிய விண்ணப்பம், ஜாதிச் சான்றிதழ்",
+       "ஆதார், குடும்ப அட்டை நகல், சிட்டா அடங்கல், நில வரைபடம்",
+       "உதவி செயற்பொறியாளர் அலுவலகத்தில் விண்ணப்பிக்கவும்"
+      ]
+     },
+     {
+      "title": "தொடர்பு முகவரி",
+      "lines": [
+       "திருச்சி: பொன்மலைப்பட்டி சாலை, ஜெயில் கார்னர்",
+       "முசிறி: கண்ணதாசன் தெரு, பார்வதிபுரம்",
+       "லால்குடி: கணபதி நகர் வடக்கு விரிவு, தாளக்குடி"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "தமிழக அமைச்சரவையில் மாற்றம் வரலாம் என்று ம தி மு க துரை வைகோ தெரிவித்துள்ளார். திருச்சியில் நேற்று அளித்த பேட்டியில் அவர் இதைக் கூறினார். ஆட்சியை மேலும் சிறப்பாக நடத்த அமைச்சரவையில் மாற்றங்கள் செய்யப்பட வாய்ப்பு உள்ளது என்றார். தற்போதைய அமைச்சர்கள் பலரும் புதியவர்கள் என்பதால் நிர்வாக அனுபவத்தில் சில குறைகள் இருக்கலாம் என்றும் அவர் குறிப்பிட்டார். கள்ளக்குறிச்சி த வெ க சட்டமன்ற உறுப்பினர் அருள் விக்னேஷ் மீதான குற்றச்சாட்டை அவர் மறுத்துள்ளார். அதிகாரப்பூர்வ புகார் அளிக்கப்பட்டு விசாரணையில் தவறு நிரூபிக்கப்பட்டால் அவர் கைது செய்யப்படுவார் என்று துரை வைகோ கூறினார். தேசிய குற்ற ஆவணக் காப்பகத்தின் 2022 முதல் 2026 வரையிலான தரவுகளின்படி, தமிழகத்தில் ஆண்டுக்கு சராசரியாக 1,300 கொலைகள் நடந்துள்ளன. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🏛️ தமிழக அமைச்சரவையில் மாற்றம் வரலாம்: துரை வைகோ தகவல்\n\n📰 முழு விவரம்:\nதிருச்சியில் நேற்று அளித்த பேட்டியில் ம.தி.மு.க. முதன்மைச் செயலர் துரை வைகோ, தமிழக ஆட்சியை மேலும் சிறப்பாக நடத்த அமைச்சரவையில் மாற்றங்கள் செய்யப்பட வாய்ப்பு உள்ளது என்று தெரிவித்தார்.\nதற்போதைய அமைச்சர்கள் பலரும் புதியவர்கள் என்பதால் நிர்வாக அனுபவத்தில் சில குறைகள் இருக்கலாம் என்றார்.\nகள்ளக்குறிச்சி த.வெ.க. எம்.எல்.ஏ. அருள் விக்னேஷ் தன் மீதான குற்றச்சாட்டை மறுத்துள்ளார். அதிகாரப்பூர்வ புகார் அளிக்கப்பட்டு தவறு நிரூபிக்கப்பட்டால் அவர் கைது செய்யப்படுவார் என்றார்.\nதேசிய குற்ற ஆவணக் காப்பகத்தின் 2022 முதல் 2026 வரையிலான தரவுகளின்படி, தமிழகத்தில் ஆண்டுக்கு சராசரியாக 1,300 கொலைகள் நடந்துள்ளன. சட்டம் ஒழுங்கு சீர்கெட்டதாக எதிர்க்கட்சிகள் பொய்யான பிம்பத்தை உருவாக்குவதாக அவர் குற்றம் சாட்டினார்.\nஹிந்தி குறித்து: தான் ஆங்கிலத்தில் பேசியதை வெட்டிவிட்டு, ஹிந்தியில் பேசியதை மட்டும் தி.மு.க. ஐ.டி. விங் அவதூறு பரப்புவதாக அவர் குற்றம் சாட்டினார்.\n\nTamil Nadu cabinet reshuffle likely, says Durai Vaiko | Trichy news\n📍 திருச்சி மாவட்டம் | 15 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #TamilNadu",
-   "prompts": "A press meet is underway in a hall in Trichy city, Tamil Nadu, where a politician in a white shirt and veshti speaks at a table draped with a cloth, with a cluster of microphones in front of him. Seen from behind the press crowd, a row of Tamil reporters with notebooks and a few TV cameramen stand close to the table, their faces turned toward the speaker and kept in soft focus. The hall has plain white walls, a row of ceiling tube lights, and a blurred maroon backdrop with no readable text behind the table. Ceiling fans turn slowly above, and plastic chairs are stacked along the side wall. Indoor daytime light, shot at eye level with a slight high angle at 35 mm, wide enough to show the full press group and the hall. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a cluster of microphones and a small glass water tumbler and notepad on a cloth-covered table at a press meet in Trichy city. Behind the table, out of focus, the blurred shapes of a politician's hands resting on a folder and reporters' hands holding recording devices and pens. The cloth is pale cream with a faint pattern, lit by warm indoor tube light. Shallow depth of field at 35 mm, eye level, focusing on the microphones and water glass to show a formal political press briefing in a Tamil Nadu city hall. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-news/tamil-nadu-cabinet-likely-to-be-reshuffled-says-mdmk-s-durai-vaiko/4376125",
-   "published": "2026-11-14T22:08:02+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences; reel_script sentence 1 (heard in the first 3 seconds) must name the place 'திருச்சி' and the news itself, e.g. 'திருச்சி-இல் ... 3 பேர் கைது.' - viewers decide in 3 seconds whether the news is about their area",
+   "reel_script": "பட்டியலின விவசாயிகள் ஆழ்துளை கிணறு அமைக்க 100 சதவீத அரசு மானியம் பெறலாம். ஆதிதிராவிட மற்றும் பழங்குடியின விவசாயிகள் ஆழ்துளை அல்லது குழாய்க் கிணறு அமைக்க அதிகபட்சம் ரூ. 8 லட்சம் வரை மானியம் வழங்கப்படுகிறது. இது அண்ணல் அம்பேத்கர் வேளாண் உதவித் திட்டத்தின் கீழ் வழங்கப்படும் உதவி. வேளாண்மைப் பொறியியல் துறை மூலம் புதிய நீர் ஆதாரங்கள் உருவாக்கப்படும். ஒரு ஏக்கர் நிலம் வைத்துள்ள விவசாயிகள் இதில் விண்ணப்பிக்கலாம். கிடைக்கும் நீரை விவசாயம் தவிர மற்ற பணிகளுக்குப் பயன்படுத்தக் கூடாது. 5 ஆண்டுகளுக்கு அந்த நிலத்தை வேறு யாருக்கும் விற்பனை செய்யக் கூடாது. புகைப்படத்துடன் கூடிய விண்ணப்பம், ஜாதிச் சான்றிதழ், ஆதார் அட்டை நகல், குடும்ப அட்டை நகல், சிட்டா அடங்கல், நில வரைபடம் ஆகியவற்றை இணைக்க வேண்டும். திருச்சி, முசிறி, லால்குடி ஆகிய இடங்களில் உள்ள உதவி செயற்பொறியாளர் அலுவலகங்களில் தொடர்பு கொள்ளலாம். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🌾 பட்டியலின விவசாயிகளுக்கு ஆழ்துளை கிணறு அமைக்க 100% மானியம்\n\n📰 முழு விவரம்:\nஆதிதிராவிட, பழங்குடியின விவசாயிகள் ஆழ்துளை அல்லது குழாய்க் கிணறு அமைக்க 100 சதவீதம் அல்லது அதிகபட்சம் ரூ. 8 லட்சம் அரசு மானியம் வழங்கப்படுகிறது. அண்ணல் அம்பேத்கர் வேளாண் உதவித் திட்டத்தின் கீழ் இந்த வாய்ப்பு உள்ளது. ஒரு ஏக்கர் நிலம் வைத்துள்ள விவசாயிகள் விண்ணப்பிக்கலாம். கிடைக்கும் நீரை விவசாயம் தவிர மற்ற பணிகளுக்குப் பயன்படுத்தக் கூடாது. 5 ஆண்டுகளுக்கு அந்த நிலத்தை வேறு யாருக்கும் விற்பனை செய்யக் கூடாது.\n📄 விண்ணப்பத்துடன் புகைப்படம், ஜாதிச் சான்றிதழ், ஆதார் அட்டை நகல், குடும்ப அட்டை நகல், சிட்டா அடங்கல், நில வரைபடம் இணைக்க வேண்டும்.\n\n📍 இடம்: திருச்சி (பொன்மலைப்பட்டி சாலை, ஜெயில் கார்னர்), முசிறி (கண்ணதாசன் தெரு, பார்வதிபுரம்), லால்குடி (கணபதி நகர் வடக்கு விரிவு, தாளக்குடி)\n📞 தொடர்புக்கு: உதவி செயற்பொறியாளர் அலுவலகம், வேளாண்மை பொறியியல் துறை - திருச்சி 98424 76576, முசிறி 80568 41434, லால்குடி 94434 95191\n\nTrichy farmers 100% subsidy borewell apply | Trichy news\n📍 திருச்சி மாவட்டம் | 15 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Musiri",
+   "prompts": "A group of farmers from behind, one holding a folded application file and a bundle of papers, stands in a queue outside a government office of the Agricultural Engineering Department in Trichy city, Tamil Nadu. The building is a modest concrete office with a tiled veranda and a plain wall, with no readable signboard. Most people wear a checked veshti and a plain shirt, and a few women in cotton sarees hold cloth folders. Some stand with rolled land maps under their arms, and a wooden bench sits near the entrance. A small paddy field edge and a row of banana plants show the rural link, and an autorickshaw is parked at the roadside. The time is mid-morning under soft daylight with a clear sky. The camera is at eye level, 35 mm, wide enough to show the office frontage and the queue, with people seen from behind and far away. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up on a wooden table in a government office, where a neat stack of printed application forms, a land map unfolded on top, and a bundle of photocopied documents sit beside a pen. The paper edges are slightly worn from handling, and a farmer's hand rests lightly on the stack, shown only from the wrist down. Behind the table, a plain whitewashed wall and a tube light give the office look, with a green cotton cloth bag and a few folded Chitta papers in the frame. The soft daylight comes through a window on the left, and no readable text or names are visible. The camera is slightly high, 35 mm, focused on the documents with the farmer's hand and the office wall softly blurred behind. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/14/invitation-for-applications-from-scheduled-caste-farmers-for-the-installation-of-borewells-with-a-100-percent-subsidy",
+   "published": "2026-11-14T18:59:29.926Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: hl1 (the first headline on screen) must name the place 'திருச்சி', e.g. 'திருச்சி: ...' or 'திருச்சி-இல் ...' - viewers share news of their own area; caption misses facts of the article (put every one in 📰 முழு விவரம்): 620 ('5 ஆண்டுகளுக்கு அந்த நிலத்தை வேறு யாருக்கும் விற்பனை செய்யக் '); 020, ('5 ஆண்டுகளுக்கு அந்த நிலத்தை வேறு யாருக்கும் விற்பனை செய்யக் '); 621211, ('உதவி செயற்பொறியாளா் அலுவலகம், வேளாண்மை பொறியியல் துறை, கண்ணத'); 621216, ('உதவி செயற்பொறியாளா் அலுவலகம், வேளாண்மை பொறியியல் துறை, கணபதி')",
    "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 2 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794701289/trichy360/azgcuzvg5u3ncrcxhwyf.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794701294/trichy360/rufm0l3ktucvu8kel8im.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794717148/trichy360/dn4a0zofbgthki23y0es.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794717159/trichy360/plq4aahexr9tkbktdsyz.jpg"
    ]
   },
   {
-   "tamil_headline": "துணை சபாநாயகர் தாக்கியதாக புகார் கூறியவருக்கு போலீஸ் சம்மன்",
-   "english_headline": "Man who alleged Deputy Speaker assaulted him summoned by police to appear for questioning on the 16th",
-   "category": "Crime & Safety",
-   "location": "Trichy city, Trichy district",
-   "importance": "High",
-   "scope": "",
+   "tamil_headline": "தி.மு.க ஆட்சியில் சட்டம், ஒழுங்கு சரியாக இருந்ததா? அமைச்சர் ஷாஜஹான் கேள்வி",
+   "english_headline": "Minister Shajahan asks opposition whether law and order was right under DMK rule; says 9,000 murders happened in last five years",
+   "category": "Government & Services",
+   "location": "Manapparai, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "போலீஸ் விசாரணை",
-    "loc": "திருச்சி",
-    "hl1": "துணை சபாநாயகர் தாக்குதல் புகார்: சம்மன்",
-    "hl2": "16ம் தேதி காலை 10 மணிக்கு",
+    "cat": "அரசியல் பேட்டி",
+    "loc": "மணப்பாறை",
+    "hl1": "மணப்பாறை: கடந்த 5 ஆண்டு கொலைகள் 9,000",
+    "hl2": "அமைச்சர் ஷாஜஹான் பதில்",
     "slides": [
      {
-      "title": "என்ன நடந்தது?",
+      "title": "அமைச்சர் பேட்டி",
       "lines": [
-       "தீபாவளி இரவு துறையூரைச் சேர்ந்த கார்த்திக்குமார், <b>48</b>",
-       "அப்போது அவர் தாக்கப்பட்டதாக வீடியோ வெளியானது",
-       "காயமடைந்த கார்த்திக்குமார் மண்ணச்சநல்லூர் அரசு"
+       "மணப்பாறை, புத்தாநத்தம் பகுதிக்கு வந்த சிறுபான்மை நலத்துறை",
+       "இந்த ஆறு மாத ஆட்சி சிறப்பாக நடப்பதாகக் கூறினார்",
+       "லஞ்சம், ஊழல் இல்லாத ஆட்சி என்றார்"
       ]
      },
      {
-      "title": "புதிய திருப்பம்",
+      "title": "சட்டம் ஒழுங்கு",
       "lines": [
-       "இன்ஸ்பெக்டர் கிருபாநிதி அவரை மிரட்டி துணை சபாநாயகர்",
-       "அடுத்தநாள் தன்னை தாக்கியது உண்மை என கார்த்திக்குமார்",
-       "மிரட்டி அப்படி பேச வைத்ததாக அவர் குற்றம்சாட்டினார்"
+       "எதிர்க்கட்சிகள் சட்டம் ஒழுங்கு குறித்து விமர்சிக்கின்றன",
+       "கடந்த <b>5 ஆண்டு</b> திமுக ஆட்சியில் <b>9,000 கொலைகள்</b> நடந்தன",
+       "கொலைகளை நியாயப்படுத்தவில்லை என்றார்"
       ]
      },
      {
-      "title": "சம்மன்",
+      "title": "விலைவாசி, கல்வி",
       "lines": [
-       "<b>16ம் தேதி</b> காலை <b>10 மணிக்கு</b> விசாரணைக்கு ஆஜராக சம்மன்",
-       "திருச்சி எஸ்.பி. அலுவலகத்தில் தலைமையிட ஏ.டி.எஸ்.பி. முன்",
-       "அரசியல் தலைவர்கள் கண்டனம்; பதவி நீக்கக் கோரிக்கை"
+       "விலைவாசி உயர்வுக்கு சூப்பர் எல் நினோ காரணம் என்றார்",
+       "கல்வி உதவித்தொகை விண்ணப்பித்த அனைவருக்கும் வழங்கப்படும்",
+       "தகுதியான விண்ணப்பங்கள் குறைவால் தேதி தள்ளி வைக்கப்பட்டது"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "துணை சபாநாயகர் ரவிசங்கரால் தாக்கப்பட்டதாகப் புகார் கூறியவரை போலீசார் விசாரணைக்கு அழைத்துள்ளனர். துறையூரைச் சேர்ந்த கார்த்திக்குமார், 48 வயது, கடந்த தீபாவளி இரவு துணை சபாநாயகர் ரவிசங்கரைச் சந்திக்கச் சென்றார். அப்போது அவர் தாக்கப்பட்டதாக வீடியோ வெளியானது. காயமடைந்த கார்த்திக்குமார் மண்ணச்சநல்லூர் அரசு மருத்துவமனையில் சேர்ந்தார். அங்கு வந்த மண்ணச்சநல்லூர் இன்ஸ்பெக்டர் கிருபாநிதி அவரை மிரட்டி துணை சபாநாயகர் வீட்டுக்கு அழைத்துச் சென்றதாகக் கூறப்படுகிறது. அங்கு தன்னை அடிக்கவில்லை என அவர் கூறினார். அடுத்தநாள் துறையூர் திரும்பிய பின், தன்னை துணை சபாநாயகர் தாக்கியது உண்மை என்றும், மிரட்டித்தான் அப்படிப் பேச வைக்கப்பட்டதாகவும் கார்த்திக்குமார் கூறினார். பின்னர் அவர் திருச்சி அரசு மருத்துவமனையில் சிகிச்சைக்குச் சேர்ந்தார். இச்சம்பவத்துக்கு அரசியல் தலைவர்கள் கண்டனம் தெரிவித்து, துணை சபாநாயகரைப் பதவி நீக்கக் கோரி வருகின்றனர். இந்நிலையில், 16ம் தேதி காலை 10 மணிக்கு திருச்சி காவல் கண்காணிப்பாளர் அலுவலகத்தில் உள்ள தலைமையிட கூடுதல் காவல் கண்காணிப்பாளர் முன் கார்த்திக்குமார் விசாரணைக்கு ஆஜராக வேண்டும் என சம்மன் அனுப்பப்பட்டுள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 துணை சபாநாயகர் தாக்கியதாக புகார் கூறியவருக்கு திருச்சியில் போலீஸ் சம்மன்\n\n📰 முழு விவரம்:\nதுறையூரைச் சேர்ந்த கார்த்திக்குமார் (48 வயது), கடந்த தீபாவளி இரவு துணை சபாநாயகர் ரவிசங்கரைச் சந்திக்கச் சென்றார். அப்போது அவர் தாக்கப்பட்டதாக வீடியோ வெளியானது. காயமடைந்த கார்த்திக்குமார் மண்ணச்சநல்லூர் அரசு மருத்துவமனையில் சேர்ந்தபோது அங்கு வந்த மண்ணச்சநல்லூர் இன்ஸ்பெக்டர் கிருபாநிதி அவரை மிரட்டி துணை சபாநாயகர் வீட்டுக்கு அழைத்துச் சென்றதாகக் கூறப்படுகிறது.\nஅங்கு தன்னை அடிக்கவில்லை என்று கூறிய கார்த்திக்குமார், அடுத்தநாள் துறையூர் திரும்பிய பின், தன்னை துணை சபாநாயகர் தாக்கியது உண்மை என்றும், மிரட்டி அப்படிப் பேச வைக்கப்பட்டதாகவும் கூறினார். பின்னர் திருச்சி அரசு மருத்துவமனையில் சிகிச்சைக்குச் சேர்ந்தார்.\nஇச்சம்பவம் அரசியல் தலைவர்களிடையே அதிர்ச்சியை ஏற்படுத்தியது. பலரும் கண்டனம் தெரிவித்து, துணை சபாநாயகரைப் பதவி நீக்கக் கோரி வருகின்றனர்.\n👮 நடவடிக்கை: தாக்கப்பட்டதாகக் கூறப்படும் கார்த்திக்குமார் விசாரணைக்கு ஆஜராக சம்மன்.\n🕘 நேரம்: 16ம் தேதி காலை 10 மணி\n📍 இடம்: திருச்சி எஸ்.பி. அலுவலகம், தலைமையிட ஏ.டி.எஸ்.பி. முன்\n\nDeputy Speaker assault complaint, police summons to Trichy | Trichy news\n📍 திருச்சி மாவட்டம் | 14 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Manachanallur #TrichyNews #திருச்சி",
-   "prompts": "A middle-aged man in a plain white shirt and veshti stands at the gate of a Trichy police office complex, holding a folded summons paper in one hand as he waits to be called in for questioning. Seen from behind and slightly to the side, he faces a government building with a grey compound wall and a metal gate, with a Tamil Nadu police jeep parked just inside the compound and two police constables in khaki uniform standing near the entrance. Morning daylight, clear sky, quiet street lined with a few two-wheelers and a parked autorickshaw. A couple of onlookers stand at a distance on the pavement. The man's face is not visible. Camera at eye level, 35 mm lens, wide enough to show the full gate, the building and the street of Trichy city. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a folded official summons notice held between two fingers, the paper slightly creased, resting on a wooden desk beside a steel police station register and a black ballpoint pen. Behind it, out of focus, a khaki-uniformed police constable's sleeve and a government office window with grey metal bars. Soft morning daylight from the side, creating gentle shadows on the paper. No readable text is shown on the paper; only its white texture and the fold lines are visible. Camera close and slightly high, 50 mm lens, shallow depth of field to isolate the summons paper as the story's key object at a Trichy police office. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-news/complainant-summoned-for-questioning-over-assault-on-deputy-speaker/4376480",
-   "published": "2026-11-14T22:42:40+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: hl1 (the first headline on screen) must name the place 'திருச்சி', e.g. 'திருச்சி: ...' or 'திருச்சி-இல் ...' - viewers share news of their own area",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
+   "reel_script": "மணப்பாறை அருகே புத்தாநத்தத்தில் அமைச்சர் ஷாஜஹான் கடந்த 5 ஆண்டு திமுக ஆட்சியில் 9,000 கொலைகள் நடந்ததாகக் கூறினார். புத்தாநத்தம் பகுதிக்கு வந்த சிறுபான்மை நலத்துறை அமைச்சர் ஷாஜஹான் செய்தியாளர்களுக்குப் பேட்டி அளித்தார். இந்த ஆறு மாத ஆட்சி மக்கள் விரும்பிய மாற்றத்தை நிறைவேற்றுவதாக அவர் கூறினார். லஞ்சம், ஊழல் இல்லாத ஆட்சி என அரசு அறிவித்து அதைப் பின்பற்றுவதாகவும் தெரிவித்தார். தவெக ஆட்சியில் சட்டம் ஒழுங்கு குறித்து எதிர்க்கட்சிகள் விமர்சிப்பதற்கு அவர் பதிலளித்தார். திமுக ஆட்சியில் சட்டம் ஒழுங்கு சரியாக இருந்ததைப் போலப் பேசுவது அரசியல் காழ்ப்புணர்ச்சி என்று கூறினார். எதிர்க்கட்சித் தலைவராக இருக்கும் உதயநிதி ஸ்டாலின், கனிமொழி போன்றவர்கள் அரசைக் குற்றம் சாட்டுவதாக விமர்சித்தார். விலைவாசி உயருக்கு சூப்பர் எல் நினோ காரணம் என்றும், பிற மாநிலங்களிலும் உலக நாடுகளிலும் இந்த விலை ஏற்றம் உள்ளது என்றும் கூறினார். கல்வி உதவித்தொகை விண்ணப்பித்த அனைவருக்கும் வழங்கப்படும் என்றார். தகுதியான விண்ணப்பங்கள் குறைவாக வந்ததால் அதற்கான தேதி மீண்டும் தள்ளி வைக்கப்பட்டதாகத் தெரிவித்தார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🏛️ மணப்பாறையில் அமைச்சர் ஷாஜஹான்: கடந்த 5 ஆண்டில் 9,000 கொலைகள் என விமர்சனம்\n\n📰 முழு விவரம்:\nமணப்பாறை, புத்தாநத்தம் பகுதிக்கு வந்த சிறுபான்மை நலத்துறை அமைச்சர் ஷாஜஹான் செய்தியாளர்களுக்குப் பேட்டி அளித்தார். இந்த ஆறு மாத ஆட்சி மக்கள் விரும்பிய மாற்றத்தை நிறைவேற்றுவதாக அவர் கூறினார். லஞ்சம், ஊழல் இல்லாத ஆட்சி என அறிவிக்கப்பட்டு பின்பற்றப்படுவதாகத் தெரிவித்தார்.\nசட்டம் ஒழுங்கு குறித்த எதிர்க்கட்சிகளின் விமர்சனத்துக்குப் பதிலளித்த அவர், கடந்த 5 ஆண்டு திமுக ஆட்சியில் 9,000 கொலைகள் நடந்ததாகக் கூறினார். கொலைகளை நியாயப்படுத்தவில்லை என்றும், எம்எல்ஏக்கள் மீது சமூக வலைத்தளங்களில் தொடர்ந்து செய்தி எழுதப்படுவதாகவும் குறிப்பிட்டார். உறுதியான புகார் அளிக்கப்பட்டு உண்மை இருந்தால் முதலமைச்சர் உறுதியான நடவடிக்கை எடுப்பார் என்றார்.\n🌶️ விலைவாசி உயர்வுக்கு சூப்பர் எல் நினோ காரணம் என்றும், உலக நாடுகளிலும் பிற மாநிலங்களிலும் இந்த விலை ஏற்றம் உள்ளது என்றும் கூறினார்.\n🎓 கல்வி உதவித்தொகை சமூக நீதித் துறை மற்றும் சிறுபான்மை நலத்துறை சார்பில் வழங்கப்படும். விண்ணப்பித்த அனைவருக்கும் தொகை வழங்கப்படும் என்றார்.\n📅 கடந்த ஆண்டு 10 பேருக்கு வழங்கப்பட்டது. இந்த ஆண்டு தேதிகள் அறிவிக்கப்பட்டு பல விண்ணப்பங்கள் நீட்டிப்பு செய்த பிறகும், கிடைத்த விண்ணப்பங்கள் 15, 16 மட்டுமே. அதில் தகுதியான விண்ணப்பங்கள் ஏழு மட்டுமே என்பதால் தேதி மீண்டும் தள்ளி வைக்கப்பட்டுள்ளது.\n🎓 வெளிநாட்டில் படிக்கும் மாணவர்களுக்கு விண்ணப்பம் சரியாக இருந்தால் உதவி வழங்கப்படும் என்றார்.\n\nMinister Shajahan Manapparai press meet law and order | Trichy news\n📍 மணப்பாறை, திருச்சி மாவட்டம் | 15 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Manapparai #அரசியல் #TrichyNews",
+   "prompts": "A cluster of Tamil news reporters holds up microphones and phone recorders to a middle-aged minister in a white shirt and veshti, seen from behind and slightly to the side, as he speaks outside a small government building in Puthanatham, Manapparai, Trichy district. Around him stand a few party workers and officials in plain shirts and trousers, some with folded hands, while several reporters in shirts jostle with their notebooks. Behind them is a low-rise town street with a tiled-roof shop, a two-wheeler parked at the kerb and a town bus passing in the background. The scene is daytime under bright, slightly hazy sunlight, with a faint shadow falling across the road. Shot at eye level with a 35 mm lens, wide enough to show the group, the building and the road so the setting of a press meet is clear. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a cluster of black and silver press microphones and a handheld voice recorder bunched together at the front of a podium, with several hands of reporters reaching in from the frame edges. Behind the microphones is a blurred table with a glass of water and a few folded papers. In the soft background, the out-of-focus shapes of people in shirts and sarees stand in a government hall. Daylight from a window falls across the table, and no readable text or logos are visible. Shot at a slightly high angle with a shallow depth of field, focusing on the microphones to suggest a press statement on law and order and government claims. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dailythanthi.com/news/tamilnadu/was-law-and-order-in-good-shape-during-the-dmks-rule-minister-shahjahan-asks-opposition-parties",
+   "published": "2026-11-14T05:40:49Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 14 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794701350/trichy360/nwz1zyjbw1ple3uwkjcz.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794701354/trichy360/ouwqtqesohfe84vv568p.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794717164/trichy360/ai84mjzdm6v0hhxkj3yb.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794717167/trichy360/vb0aukxpv7xjpint6a4e.jpg"
    ]
   }
  ]
