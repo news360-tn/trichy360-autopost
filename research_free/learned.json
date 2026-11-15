@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-15T13:54+05:30",
+ "updated": "2026-11-15T17:39+05:30",
  "posts_measured": 33,
  "topic_weight": {
   "crime": 1.5,
-  "education": -0.22,
-  "politics": -0.21
+  "education": -0.24,
+  "politics": 0.0
  },
  "topic_n": {
   "accident": 2,
@@ -30,7 +30,7 @@
   "🗳️ திருச்சி கிழக்கில் 20-ந்தேதி முதலமைச்சர் விஜய் ரோடு-ஷோ",
   "🚨 திருச்சியில் தலைமறைவாக இருந்த பிரபல ரௌடி சோமு கைது"
  ],
- "avg_watch_s": 6.7,
+ "avg_watch_s": 6.8,
  "best_topics": [
   "crime",
   "politics",

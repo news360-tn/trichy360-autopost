@@ -1,10 +1,7 @@
-13:54:20 round 2026-11-15_13: news published 15 Nov 09:58 -> 15 Nov 13:54 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-13:54:20 insights 2026-11-15T13:54+05:30 (33 reels): topic weights {'crime': 1.5, 'education': -0.22, 'politics': -0.21}; best openings ['🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்', '🚨 உறையூரில் வீட்டில் நகை திருடிய இருவர் கைது']
-13:55:54 60 links on the two papers' Trichy pages
-13:56:44 skipped: not Trichy district=31, published before this window=20, already posted=5, shop offer / advertisement=1, same event already posted=1
-13:56:44 list: 0 new + 0 earlier news not posted yet
-13:56:44 no news in this window - no e-mail
-ROUND=2026-11-15_13
-13:56:45 no list this round - nothing to post
-PICK_URLS=
-13:56:46 verify: no decided round
+17:39:04 round 2026-11-15_17: news published 15 Nov 13:54 -> 15 Nov 17:39 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+17:39:04 insights 2026-11-15T17:39+05:30 (33 reels): topic weights {'crime': 1.5, 'education': -0.24, 'politics': 0.0}; best openings ['🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்', '🚨 உறையூரில் வீட்டில் நகை திருடிய இருவர் கைது']
+17:41:00 71 links on the two papers' Trichy pages
+17:42:50 skipped: not Trichy district=41, published before this window=20, already posted=6, shop offer / advertisement=1, same event already posted=1, no title=1
+17:42:50 list: 0 new + 0 earlier news not posted yet
+17:42:50 no news in this window - no e-mail
+ROUND=2026-11-15_17
