@@ -1,26 +1,23 @@
-23:04:03 SKIP RN-4 stale: published 12 Nov, older than yesterday
-23:04:03 SKIP RN-19 held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the article.
-23:04:04 SKIP RN-22 held: fact-check problems - numbers not found in the article: 1000
-23:04:04 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-23:04:04 SKIP RN-29 held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்)
-23:04:04 SKIP RN-42 held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact-check: The reel_script states the body was found in the well belonging to Manivanna
+23:22:51 SKIP RN-4 stale: published 12 Nov, older than yesterday
+23:22:51 SKIP RN-19 held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the article.
+23:22:51 SKIP RN-22 held: fact-check problems - numbers not found in the article: 1000
+23:22:51 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+23:22:51 SKIP RN-29 held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்)
+23:22:51 SKIP RN-42 held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact-check: The reel_script states the body was found in the well belonging to Manivanna
 ::warning title=Held from posting RN-42::held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact-check: The reel_script states the body was found in the well belonging to Manivanna
-23:04:04 SKIP RN-45 held: fact-check problems - numbers not found in the article: 7
+23:22:52 SKIP RN-45 held: fact-check problems - numbers not found in the article: 7
 ::warning title=Held from posting RN-45::held: fact-check problems - numbers not found in the article: 7
-23:04:05 instagram duplicate check trichy: 50 recent posts read
-23:04:07 story catch-up trichy: quota 17/50, 40 recent posts, 4 live stories, owner ids ['17841462048887226', '28956510467350700']
-23:04:07 10 stories in the queue, ready to post: 3
-23:04:07   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-23:04:07    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 87.8 ready= False set_started= True
-23:04:07    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 57.1 ready= False set_started= True
-23:04:07    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 53.4 ready= False set_started= True
-23:04:07    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 53.4 ready= False set_started= True
-23:04:07    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 49.3 ready= False set_started= True
-23:04:07    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 17.2 ready= False set_started= True
-23:04:07    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 17.2 ready= False set_started= True
-23:04:07    RN-51 review= 'Auto' images= 197 spec= 716 pages= ['trichy'] links= '' '' age_h= 0.3 ready= True set_started= True
-23:04:07    RN-53 review= 'Auto' images= 197 spec= 607 pages= ['trichy'] links= '' '' age_h= 0.2 ready= True set_started= True
-23:04:07    RN-54 review= 'Auto' images= 197 spec= 672 pages= ['trichy'] links= '' '' age_h= 0.2 ready= True set_started= True
-23:04:09 publishing quota trichy: 17/50
-23:04:09    RN-54 waits for the 12-minute gap after the last post on ['trichy']
-23:04:09 prebuilding ahead of the set start: ['RN-54']
+23:22:54 story catch-up trichy: quota 20/50, 40 recent posts, 5 live stories, owner ids ['17841462048887226', '28956510467350700']
+23:22:54 8 stories in the queue, ready to post: 1
+23:22:54   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+23:22:54    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 88.1 ready= False set_started= True
+23:22:54    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 57.4 ready= False set_started= True
+23:22:54    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 53.7 ready= False set_started= True
+23:22:54    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 53.7 ready= False set_started= True
+23:22:54    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 49.6 ready= False set_started= True
+23:22:54    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 17.5 ready= False set_started= True
+23:22:54    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 17.5 ready= False set_started= True
+23:22:54    RN-54 review= 'Auto' images= 197 spec= 672 pages= ['trichy'] links= '' '' age_h= 0.5 ready= True set_started= True
+23:22:55 publishing quota trichy: 20/50
+23:22:57 instagram duplicate check trichy: 50 recent posts read
+23:22:57    RN-54 waits for the 12-minute gap after the last post on ['trichy']
