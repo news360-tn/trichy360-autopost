@@ -1,19 +1,19 @@
-23:58:28 SKIP RN-4 stale: published 12 Nov, older than yesterday
-23:58:28 SKIP RN-19 held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the article.
-23:58:28 SKIP RN-22 held: fact-check problems - numbers not found in the article: 1000
-23:58:28 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-23:58:28 SKIP RN-29 held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்)
-23:58:28 SKIP RN-42 held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact-check: The reel_script states the body was found in the well belonging to Manivanna
+00:18:43 SKIP RN-4 stale: published 12 Nov, older than yesterday
+00:18:43 SKIP RN-19 held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the article.
+00:18:43 SKIP RN-22 held: fact-check problems - numbers not found in the article: 1000
+00:18:43 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+00:18:43 SKIP RN-29 held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்)
+00:18:43 SKIP RN-42 held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact-check: The reel_script states the body was found in the well belonging to Manivanna
 ::warning title=Held from posting RN-42::held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact-check: The reel_script states the body was found in the well belonging to Manivanna
-23:58:28 SKIP RN-45 held: fact-check problems - numbers not found in the article: 7
+00:18:43 SKIP RN-45 held: fact-check problems - numbers not found in the article: 7
 ::warning title=Held from posting RN-45::held: fact-check problems - numbers not found in the article: 7
-23:58:31 story catch-up trichy: quota 21/50, 40 recent posts, 5 live stories, owner ids ['17841462048887226', '28956510467350700']
-23:58:31 7 stories in the queue, ready to post: 0
-23:58:31   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-23:58:31    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 88.7 ready= False set_started= True
-23:58:31    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 58.0 ready= False set_started= True
-23:58:31    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 54.3 ready= False set_started= True
-23:58:31    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 54.3 ready= False set_started= True
-23:58:31    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 50.2 ready= False set_started= True
-23:58:31    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 18.1 ready= False set_started= True
-23:58:31    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 18.1 ready= False set_started= True
+00:18:45 story catch-up trichy: quota 21/50, 40 recent posts, 5 live stories, owner ids ['17841462048887226', '28956510467350700']
+00:18:45 7 stories in the queue, ready to post: 0
+00:18:45   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+00:18:45    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 89.1 ready= False set_started= True
+00:18:45    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 58.3 ready= False set_started= True
+00:18:45    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 54.6 ready= False set_started= True
+00:18:45    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 54.6 ready= False set_started= True
+00:18:45    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 50.6 ready= False set_started= True
+00:18:45    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 18.4 ready= False set_started= True
+00:18:45    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 18.4 ready= False set_started= True
