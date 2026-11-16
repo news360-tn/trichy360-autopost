@@ -1,10 +1,11 @@
-17:32:22 round 2026-11-16_17: news published 16 Nov 16:15 -> 16 Nov 17:32 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-17:32:22 insights 2026-11-16T17:32+05:30 (42 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'education': -0.5, 'politics': 0.04}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 சமயபுரம் அருகே கொடூர விபத்து: கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி']
-17:32:57 40 links on the two papers' Trichy pages
-17:33:38 skipped: published before this window=18, not Trichy district=10, already posted=8, shop offer / advertisement=1, no title=1
-17:33:38 list: 0 new + 0 earlier news not posted yet
-17:33:38 no news in this window - no e-mail
-ROUND=2026-11-16_17
-17:33:41 no list this round - nothing to post
-PICK_URLS=
-17:33:41 verify: no decided round
+22:48:46 round 2026-11-16_22: news published 16 Nov 17:32 -> 16 Nov 22:48 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+22:48:46 insights 2026-11-16T22:48+05:30 (43 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'education': -0.5, 'politics': -0.05}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 சமயபுரம் அருகே கொடூர விபத்து: கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி']
+22:51:23 87 links on the two papers' Trichy pages
+22:52:53 skipped: not Trichy district=53, published before this window=18, already posted=9, shop offer / advertisement=1, only a headline=1
+22:52:53 list: 4 new + 0 earlier news not posted yet
+22:52:53    1. [குற்றம்] வீட்டிற்கு செல்லும் வழியில் விவசாயி தலை துண்டித்துக் கொலை.. (பாலிமர்)
+22:52:53    2. [பொது] துணை சபாநாயகர் ரவிசங்கரிடம் ‘அறை’ வாங்கியவர் அலைக்கழிப்பு (தினமலர்)
+22:52:53    3. [விலை] வரத்து குறைவு: இரட்டை சதம் அடித்த சின்ன வெங்காயம் விலை - இல்லத்தரசிகள் (தினத்தந்தி)
+22:52:53    4. [பொது] கடன் தகராறில் தீக்குளிக்க முயன்ற தி.மு.க., நிர்வாகியால் பரபரப்பு (தினமலர்)
+22:52:53 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-16_22
