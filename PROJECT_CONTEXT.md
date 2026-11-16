@@ -81,6 +81,17 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-16 | `98c3130` | post: while news is still waiting, a live posting run starts the next one (GitHub skipped most 5-minute runs on 16 Nov) |
+| 2026-11-16 | `a240184` | pick: written and posted |
+| 2026-11-16 | `0bc5e60` | pick: list sent |
+| 2026-11-16 | `fa3e1e4` | pick: written and posted |
+| 2026-11-16 | `ab61687` | pick: picked news saved |
+| 2026-11-16 | `9d3617c` | pick: picked news saved |
+| 2026-11-16 | `cc994a1` | pick: list sent |
+| 2026-11-16 | `acf3f15` | stories shared |
+| 2026-11-16 | `32f726c` | powercut: notices written |
+| 2026-11-16 | `7423a42` | powercut: notices written |
+| 2026-11-16 | `02dbdc9` | goldrate posted |
 | 2026-11-16 | `49c7aaa` | pick: a round GitHub skipped adds its count to the next round; lifestyle columns not written automatically; leftover count in the round log |
 | 2026-11-16 | `08f1b98` | rasipalan posted |
 | 2026-11-16 | `b137da2` | pick: written and posted |
@@ -100,15 +111,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-15 | `1a91ed8` | pick: written and posted |
 | 2026-11-15 | `9d0d209` | pick: list sent |
 | 2026-11-15 | `5b8ea9c` | powercut: notices written |
-| 2026-11-15 | `1197472` | powercut: notices written |
-| 2026-11-15 | `c85b5f0` | powercut: notices written |
-| 2026-11-15 | `8f169d6` | powercut: notices written |
-| 2026-11-15 | `e267b44` | powercut: notices written |
-| 2026-11-15 | `e1e8ad1` | powercut: notices written |
-| 2026-11-15 | `51bc9f8` | powercut: notices written |
-| 2026-11-15 | `3a50204` | pick: written and posted |
-| 2026-11-15 | `dc8179f` | pick: list sent |
-| 2026-11-15 | `73e8273` | stories shared |
-| 2026-11-15 | `78ba84b` | powercut: notices written |
-| 2026-11-15 | `4c0fcc8` | powercut: notices written |
 <!-- recent-changes:end -->
