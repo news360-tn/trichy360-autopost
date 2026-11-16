@@ -1,82 +1,14 @@
-05:47:28 round 2026-11-16_05: news published 16 Nov 01:59 -> 16 Nov 05:47 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-05:47:28 insights 2026-11-16T05:47+05:30 (35 reels): topic weights {'accident': 0.55, 'crime': 0.64, 'education': -0.19, 'politics': 0.06}; best openings ['🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்', '🗳️ திருச்சி கிழக்கில் 20-ந்தேதி முதலமைச்சர் விஜய் ரோடு-ஷோ']
-05:48:59 63 links on the two papers' Trichy pages
-05:50:08 skipped: not Trichy district=28, published before this window=18, already posted=3, shop offer / advertisement=1, same event already posted=1
-05:50:08 list: 6 new + 0 earlier news not posted yet
-05:50:08    1. [மின்தடை] சமயபுரம் பகுதிகளில் நாளை மின் தடை (தினமணி)
-05:50:08    2. [குற்றம்] திருச்சி அருகே விவசாயி வெட்டிக் கொலை (தினமணி)
-05:50:08    3. [குற்றம்] திருச்சியில் பயங்கரம் 2 பவுன் நகைக்காக மூதாட்டி கழுத்து நெரித்து கொலை: (தினகரன்)
-05:50:08    4. [விபத்து] வெவ்வேறு விபத்துகளில் இருவா் உயிரிழப்பு (தினமணி)
-05:50:08    5. [விபத்து] கிணற்றில் மூதாட்டி சடலமாக மீட்பு (தினமணி)
-05:50:08    6. [விபத்து] பைக்கில் சென்ற தந்தை, மகன் லாரி மோதி உயிரிழப்பு (தினமணி)
-05:50:08 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-16_05
-05:50:09 round 2026-11-16_05 (at least 5, up to 3 more of well-watched topics): 6 news to choose from (0 from earlier rounds), ranked by this page's insights
-05:50:09   PICK   1.  19.0 [power_cut +1.50 pattern] சமயபுரம் பகுதிகளில் நாளை மின் தடை
-05:50:09   PICK   2.  14.6 [crime +0.64 page] திருச்சி அருகே விவசாயி வெட்டிக் கொலை
-05:50:09   PICK   3.  14.2 [accident +0.90 pattern] வெவ்வேறு விபத்துகளில் இருவா் உயிரிழப்பு
-05:50:09   PICK   4.  13.6 [crime +0.64 page] திருச்சியில் பயங்கரம் 2 பவுன் நகைக்காக மூதாட்டி கழுத்து நெரி
-05:50:09   PICK   5.  13.2 [accident +0.90 pattern] பைக்கில் சென்ற தந்தை, மகன் லாரி மோதி உயிரிழப்பு
-05:50:09   PICK   6.  11.0 [other +0.00 pattern] கிணற்றில் மூதாட்டி சடலமாக மீட்பு
-05:50:09 decided: automatic: top 5 of 6 by insights + 1 power cut -> 6 news to write and post
-PICK_URLS=https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/சமயபுரம்-பகுதிகளில்-நாளை-மின்-தடை-3 https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/திருச்சி-அருகே-விவசாயி-வெட்டிக்-கொலை https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/வெவ்வேறு-விபத்துகளில்இருவா்-உயிரிழப்பு-2 https://www.dinakaran.com/news/trichy_jewelry_woman_murder_intoxication_arrest/amp https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/பைக்கில்-சென்ற-தந்தை-மகன்-லாரி-மோதி-உயிரிழப்பு https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/கிணற்றில்-மூதாட்டி-சடலமாக-மீட்பு-2
-05:54:23 1 picked news refused by the writer - not offered again
-05:54:23 5 listed news now in the Sheet
-05:54:31 instagram duplicate check trichy: 40 recent posts read
-05:54:31 verify 2026-11-16_05: 0 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-05:54:31    SKIPPED C04d16fe: skipped RN-42: held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact- - கிணற்றில் மூதாட்டி சடலமாக மீட்பு
-05:54:31    SKIPPED C9151425: skipped RN-45: held: fact-check problems - numbers not found in the article: 7 - சமயபுரம் பகுதிகளில் நாளை மின் தடை
-05:54:31    SKIPPED Cbd49946: skipped: the writer refused it - not filed: duplicate after write - பைக்கில் சென்ற தந்தை, மகன் லாரி மோதி உயிரிழப்பு
-05:54:31    NOT POSTED C370b893: queued RN-41 (Queued) - திருச்சியில் பயங்கரம் 2 பவுன் நகைக்காக மூதாட்டி கழுத்து நெரி
-05:54:31    NOT POSTED C51d93af: queued RN-43 (Queued) - வெவ்வேறு விபத்துகளில் இருவா் உயிரிழப்பு
-05:54:31    NOT POSTED C6d9cf9a: queued RN-44 (Queued) - திருச்சி அருகே விவசாயி வெட்டிக் கொலை
-05:59:38 instagram duplicate check trichy: 41 recent posts read
-05:59:38 verify 2026-11-16_05: 0 of 6 picked news posted, 4 skipped on purpose, 0 waiting for their posting start
-05:59:38    SKIPPED C04d16fe: skipped RN-42: held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact- - கிணற்றில் மூதாட்டி சடலமாக மீட்பு
-05:59:38    SKIPPED C370b893: skipped RN-41: already on Instagram (2026-11-16T00:29:34+0000) - திருச்சியில் பயங்கரம் 2 பவுன் நகைக்காக மூதாட்டி கழுத்து நெரி
-05:59:38    SKIPPED C9151425: skipped RN-45: held: fact-check problems - numbers not found in the article: 7 - சமயபுரம் பகுதிகளில் நாளை மின் தடை
-05:59:38    SKIPPED Cbd49946: skipped: the writer refused it - not filed: duplicate after write - பைக்கில் சென்ற தந்தை, மகன் லாரி மோதி உயிரிழப்பு
-05:59:38    NOT POSTED C51d93af: queued RN-43 (Queued) - வெவ்வேறு விபத்துகளில் இருவா் உயிரிழப்பு
-05:59:38    NOT POSTED C6d9cf9a: queued RN-44 (Queued) - திருச்சி அருகே விவசாயி வெட்டிக் கொலை
-06:04:46 instagram duplicate check trichy: 41 recent posts read
-06:04:46 verify 2026-11-16_05: 1 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-06:04:46    SKIPPED C04d16fe: skipped RN-42: held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact- - கிணற்றில் மூதாட்டி சடலமாக மீட்பு
-06:04:46    SKIPPED C9151425: skipped RN-45: held: fact-check problems - numbers not found in the article: 7 - சமயபுரம் பகுதிகளில் நாளை மின் தடை
-06:04:46    SKIPPED Cbd49946: skipped: the writer refused it - not filed: duplicate after write - பைக்கில் சென்ற தந்தை, மகன் லாரி மோதி உயிரிழப்பு
-06:04:46    NOT POSTED C51d93af: queued RN-43 (Queued) - வெவ்வேறு விபத்துகளில் இருவா் உயிரிழப்பு
-06:04:46    NOT POSTED C6d9cf9a: queued RN-44 (Queued) - திருச்சி அருகே விவசாயி வெட்டிக் கொலை
-06:09:53 instagram duplicate check trichy: 41 recent posts read
-06:09:53 verify 2026-11-16_05: 1 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-06:09:53    SKIPPED C04d16fe: skipped RN-42: held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact- - கிணற்றில் மூதாட்டி சடலமாக மீட்பு
-06:09:53    SKIPPED C9151425: skipped RN-45: held: fact-check problems - numbers not found in the article: 7 - சமயபுரம் பகுதிகளில் நாளை மின் தடை
-06:09:53    SKIPPED Cbd49946: skipped: the writer refused it - not filed: duplicate after write - பைக்கில் சென்ற தந்தை, மகன் லாரி மோதி உயிரிழப்பு
-06:09:53    NOT POSTED C51d93af: queued RN-43 (Queued) - வெவ்வேறு விபத்துகளில் இருவா் உயிரிழப்பு
-06:09:53    NOT POSTED C6d9cf9a: queued RN-44 (Queued) - திருச்சி அருகே விவசாயி வெட்டிக் கொலை
-06:15:01 instagram duplicate check trichy: 42 recent posts read
-06:15:01 verify 2026-11-16_05: 2 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-06:15:01    SKIPPED C04d16fe: skipped RN-42: held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact- - கிணற்றில் மூதாட்டி சடலமாக மீட்பு
-06:15:01    SKIPPED C9151425: skipped RN-45: held: fact-check problems - numbers not found in the article: 7 - சமயபுரம் பகுதிகளில் நாளை மின் தடை
-06:15:01    SKIPPED Cbd49946: skipped: the writer refused it - not filed: duplicate after write - பைக்கில் சென்ற தந்தை, மகன் லாரி மோதி உயிரிழப்பு
-06:15:01    NOT POSTED C51d93af: queued RN-43 (Queued) - வெவ்வேறு விபத்துகளில் இருவா் உயிரிழப்பு
-06:20:10 instagram duplicate check trichy: 42 recent posts read
-06:20:10 verify 2026-11-16_05: 2 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-06:20:10    SKIPPED C04d16fe: skipped RN-42: held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact- - கிணற்றில் மூதாட்டி சடலமாக மீட்பு
-06:20:10    SKIPPED C9151425: skipped RN-45: held: fact-check problems - numbers not found in the article: 7 - சமயபுரம் பகுதிகளில் நாளை மின் தடை
-06:20:10    SKIPPED Cbd49946: skipped: the writer refused it - not filed: duplicate after write - பைக்கில் சென்ற தந்தை, மகன் லாரி மோதி உயிரிழப்பு
-06:20:10    NOT POSTED C51d93af: queued RN-43 (Queued) - வெவ்வேறு விபத்துகளில் இருவா் உயிரிழப்பு
-06:25:17 instagram duplicate check trichy: 42 recent posts read
-06:25:17 verify 2026-11-16_05: 2 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-06:25:17    SKIPPED C04d16fe: skipped RN-42: held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact- - கிணற்றில் மூதாட்டி சடலமாக மீட்பு
-06:25:17    SKIPPED C9151425: skipped RN-45: held: fact-check problems - numbers not found in the article: 7 - சமயபுரம் பகுதிகளில் நாளை மின் தடை
-06:25:17    SKIPPED Cbd49946: skipped: the writer refused it - not filed: duplicate after write - பைக்கில் சென்ற தந்தை, மகன் லாரி மோதி உயிரிழப்பு
-06:25:17    NOT POSTED C51d93af: queued RN-43 (Queued) - வெவ்வேறு விபத்துகளில் இருவா் உயிரிழப்பு
-06:30:25 instagram duplicate check trichy: 42 recent posts read
-06:30:25 verify 2026-11-16_05: 2 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-06:30:25    SKIPPED C04d16fe: skipped RN-42: held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact- - கிணற்றில் மூதாட்டி சடலமாக மீட்பு
-06:30:25    SKIPPED C9151425: skipped RN-45: held: fact-check problems - numbers not found in the article: 7 - சமயபுரம் பகுதிகளில் நாளை மின் தடை
-06:30:25    SKIPPED Cbd49946: skipped: the writer refused it - not filed: duplicate after write - பைக்கில் சென்ற தந்தை, மகன் லாரி மோதி உயிரிழப்பு
-06:30:25    NOT POSTED C51d93af: queued RN-43 (Queued) - வெவ்வேறு விபத்துகளில் இருவா் உயிரிழப்பு
-06:35:33 verify 2026-11-16_05: 3 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-06:35:33    SKIPPED C04d16fe: skipped RN-42: held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact- - கிணற்றில் மூதாட்டி சடலமாக மீட்பு
-06:35:33    SKIPPED C9151425: skipped RN-45: held: fact-check problems - numbers not found in the article: 7 - சமயபுரம் பகுதிகளில் நாளை மின் தடை
-06:35:33    SKIPPED Cbd49946: skipped: the writer refused it - not filed: duplicate after write - பைக்கில் சென்ற தந்தை, மகன் லாரி மோதி உயிரிழப்பு
+16:15:32 round 2026-11-16_16: news published 16 Nov 05:47 -> 16 Nov 16:15 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+16:15:32 insights 2026-11-16T16:15+05:30 (38 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'education': -0.5, 'politics': -0.26}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 சமயபுரம் அருகே கொடூர விபத்து: கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி']
+16:19:20 116 links on the two papers' Trichy pages
+16:20:52 skipped: not Trichy district=73, published before this window=18, already posted=9, only a headline=3, shop offer / advertisement=1, no title=1
+16:20:52 list: 7 new + 0 earlier news not posted yet
+16:20:52    1. [பொது] வேளாண் பல்கலை மாணவியருக்கு பாடம் கற்றுத்தரும் இயற்கை விவசாயி (தினமலர்)
+16:20:52    2. [பொது] முடிவுக்கு வந்த 14 வருட திருமண வாழ்க்கை.. இணையத்தில் வைரலாகும் ஆதவ் அர (ஒன்இந்தியா)
+16:20:52    3. [பொது] ஸ்ரீரங்கம் அரசு மருத்துவமனையிடம் நிலுவை வாடகைத்தொகையை வசூலிக்கக்கோரி வ (பாலிமர்)
+16:20:52    4. [பொது] திமுகவின் ஆட்சி தமிழ்நாட்டில் விரைவில் உதயமாகத்தான் போகிறது: மு.க.ஸ்டா (தினத்தந்தி)
+16:20:52    5. [பொது] கவலைப்படாதீர்கள்.. தமிழகத்தில் விரைவில் திமுக ஆட்சி உதயம் ஆகும்- மு.க. (மாலைமலர்)
+16:20:52    6. [பொது] திருச்சி கிழக்கில் இடைத்தேர்தல்.. திமுக ஆட்சி உதயமாகும்! சீர்கெட்ட ஆட் (ஒன்இந்தியா)
+16:20:52    7. [பொது] திருச்சி அரசு மருத்துவமனையில் ரேடியோதெரபி சிகிச்சை! புற்றுநோயாளிகள் எத (தினமணி)
+16:20:52 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-16_16
