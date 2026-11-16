@@ -733,7 +733,7 @@
    "title": "புதுகையில் நாளை மின் நிறுத்தம்"
   },
   "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/%E0%AE%9A%E0%AE%AE%E0%AE%AF%E0%AE%AA%E0%AF%81%E0%AE%B0%E0%AE%AE%E0%AF%8D-%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%88-%E0%AE%AE%E0%AE%BF%E0%AE%A9%E0%AF%8D-%E0%AE%A4%E0%AE%9F%E0%AF%88-3": {
-   "at": "2026-11-16T12:16:54.061438+05:30",
+   "at": "2026-11-16T12:52:25.240897+05:30",
    "power_cut": true,
    "why": "",
    "title": "சமயபுரம் பகுதிகளில் நாளை மின் தடை"
@@ -755,6 +755,12 @@
    "power_cut": false,
    "why": "other district",
    "title": "இன்றைய மின்தடை: கடலூர்"
+  },
+  "https://www.dinamalar.com/news/puducherry/tomorrows-power-outage-puducherry/4360855": {
+   "at": "2026-11-16T12:52:25.240897+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "நாளைய மின் தடை: புதுச்சேரி"
   }
  },
  "done": {
