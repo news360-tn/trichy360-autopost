@@ -181,3 +181,133 @@ filed: 1 Trichy district stories (target 1), reels only
 queue: 0 news waiting to be written
 All News sheet: {"ok":true,"added":1,"updated":0} 
 stories: 1
+writing [N]: திருச்சி மாவட்டத்தில் நாளை (17-11-2026) மின்தடை: குட்டி அம்ப
+writing [N]: திருச்சி மாவட்டத்தில் நாளை (17-11-2026) மின்தடை: பல்வேறு பகு
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+
+poor answer - skipped for 30 min: gemini/gemini-3.5-flash
+poor answer - skipped for 30 min: gemini/gemini-3.5-flash
+ok gemini/gemini-3-flash-preview (11s)
+attempt 1 gemini/gemini-3-flash-preview: 3 problems
+  caption needs 5 hashtags (Instagram max), has 6
+  slides_spec.loc 'திருச்சி மாவட்டம்' is only the district: write the town / village / area the article names (people share news of their own area)
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 11 ('திருச்சி மாவட்டத்தில் நாளை (17-11-2026) மின்தடை: பல்வேறு பகு')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (13s)
+attempt 1 gemini/gemini-3-flash-preview: 2 problems
+  caption needs 5 hashtags (Instagram max), has 6
+  slides_spec.loc 'திருச்சி மாவட்டம்' is only the district: write the town / village / area the article names (people share news of their own area)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3-flash-preview (12s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+dead for this round: gemini/gemini-3-flash-preview
+ok gemini/gemini-3-flash-preview (13s)
+attempt 2 gemini/gemini-3-flash-preview: 2 problems
+  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+  reel_script sentence 1 (heard in the first 3 seconds) must name the place 'லால்குடி' and the news itself, e.g. 'லால்குடி-இல் ... 3 பேர் கைது.' - viewers decide in 3 seconds whether the news is about their area
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+ok groq/openai/gpt-oss-120b (6s)
+factcheck by groq/openai/gpt-oss-120b: 0 problems
+attempt 2 gemini/gemini-3-flash-preview: 0 problems
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok groq/openai/gpt-oss-120b (6s)
+proofread rejected (3 problems)
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+ok groq/qwen/qwen3.8-27b (4s)
+attempt 3 groq/qwen/qwen3.8-27b: 2 problems
+  numbers not found in the article: 26
+  slides_spec.loc 'திருச்சி மாவட்டம்' is only the district: write the town / village / area the article names (people share news of their own area)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+ok groq/openai/gpt-oss-120b (3s)
+real photo skipped (photo uploaded 2025-11-05 (older than the news)): https://feeds.abplive.com/onecms/images/uploaded-images/2025/11/05/57e7644fbd886fd750d957b
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 2 for 'Power shutdown in Trichy's K. Sathanur a'
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261116-2245","first":"RN-51"}
+posting job started at once
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+switching away from groq/openai/gpt-oss-120b for 10 min
+free models unavailable: no free model answered: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-
+ok anthropic/claude-haiku-5-5
+claude rewrite 1 anthropic/claude-haiku-5-5: 2 problems
+  caption talks about the article instead of the news (கட்டுரை) - if the article has no real news, return an empty reel_script
+  known issue meta_article: caption talks about the article instead of the news ('கட்டுரை') - rewrite so it does not happen again
+ok anthropic/claude-haiku-5-5
+claude rewrite 2 anthropic/claude-haiku-5-5: 3 problems
+  slides_spec.loc 'திருச்சி மாவட்டம்' is only the district: write the town / village / area the article names (people share news of their own area)
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 11 ('திருச்சி மாவட்டத்தில் நாளை (17-11-2026) மின்தடை: குட்டி அம்ப')
+  known issue meta_article: cards talks about the article instead of the news ('கட்டுரை') - rewrite so it does not happen again
+ok anthropic/claude-haiku-5-5
+claude rewrite 3 anthropic/claude-haiku-5-5: 1 problems
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 11 ('திருச்சி மாவட்டத்தில் நாளை (17-11-2026) மின்தடை: குட்டி அம்ப')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/qwen/qwen3.8-27b (5s)
+proofread rejected (2 problems)
+  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 11 ('திருச்சி மாவட்டத்தில் நாளை (17-11-2026) மின்தடை: குட்டி அம்ப')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+ok anthropic/claude-haiku-5-5
+real photo skipped (photo uploaded 2025-12-17 (older than the news)): https://feeds.abplive.com/onecms/images/uploaded-images/2025/12/17/8a8c7e1191d5b969273328f
+real photo skipped (photo uploaded 2025-05-04 (older than the news)): https://feeds.abplive.com/onecms/images/uploaded-images/2025/05/04/baa3c4bb9c7d9c63868779a
+real photo skipped (photo uploaded 2024-06-01 (older than the news)): https://feeds.abplive.com/onecms/images/uploaded-images/2024/06/01/30bb4f4955010c9438f31b5
+real photo not downloaded: cannot identify image file <_io.BytesIO object at 0x7fbbd4b05670>
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 2 for 'Power cut in Trichy district tomorrow (1'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261116-2246","first":"RN-52"}
+earlier stories still waiting for images: []
+instagram check: 50 recent posts read from the page
+pick round: only the picked links are written (research_free/pick.py)
+manual link added: https://tamil.abplive.com/news/tamil-nadu/tamilnadu-power-shutdown-17-11-2026-vellore-karur-kovai-power-cut-areas-affected-279880#district-section
+manual link added: https://tamil.abplive.com/news/trichy/trichy-power-cut-17-11-2026-know-timings-areas-affected-by-power-shutdown-279854/amp#district-section
+candidate filter: collected=2
+to write: 2 Trichy district candidates (max 2 stories)
+round: top 2 of 2 candidates
+candidates waiting: 2 Trichy; time left 39 min
+try (N) manual=True: https://tamil.abplive.com/news/trichy/trichy-power-cut-17-11
+try (N) manual=True: https://tamil.abplive.com/news/tamil-nadu/tamilnadu-power-sh
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})
+posting job started at once
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})
+candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 35 min
+filed: 2 Trichy district stories (target 2), reels only
+queue: 0 news waiting to be written
+All News sheet: {"ok":true,"added":2,"updated":0} 
+stories: 2
