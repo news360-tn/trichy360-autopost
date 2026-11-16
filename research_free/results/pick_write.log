@@ -1,0 +1,155 @@
+writing [N]: வரத்து குறைவு: இரட்டை சதம் அடித்த சின்ன வெங்காயம் விலை - இல்
+writing [N]: வீட்டிற்கு செல்லும் வழியில் விவசாயி தலை துண்டித்துக் கொலை..
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.5-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+writing [N]: துணை சபாநாயகர் ரவிசங்கரிடம் ‘அறை’ வாங்கியவர் அலைக்கழிப்பு
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+dead for this round: gemini/gemini-3-flash-preview
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_gener
+ok gemini/gemini-3-flash-preview (12s)
+attempt 1 gemini/gemini-3-flash-preview: 2 problems
+  slides_spec.loc 'திருச்சி மாவட்டம்' is only the district: write the town / village / area the article names (people share news of their own area)
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 8 ('வழக்கமாக தினமும் 8 முதல் 10 லாரிகளில் சுமார் 100 டன் சின்ன வ'); 10 ('வழக்கமாக தினமும் 8 முதல் 10 லாரிகளில் சுமார் 100 டன் சின்ன வ'); 2 ('இதனால் கடந்த சில நாட்களாக தினமும் 2 லாரிகளில் 20 டன் சின்ன வ'); 150 ('கடந்த வாரம் மொத்த விற்பனையில் கிலோ ரூ.150-க்கு விற்கப்பட்ட ச'); 65 ('விலை உயர்வு காரணமாக ஓட்டல்களிலும் சின்ன வெங்காயத்தின் பயன்பா'); 60 ('விலை உயர்வு காரணமாக ஓட்டல்களிலும் சின்ன வெங்காயத்தின் பயன்பா')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+ok groq/qwen/qwen3.8-27b (4s)
+attempt 1 groq/qwen/qwen3.8-27b: 1 problems
+  hl1 (the first headline on screen) must name the place 'துறையூர்', e.g. 'துறையூர்: ...' or 'துறையூர்-இல் ...' - viewers share news of their own area
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+switching away from groq/openai/gpt-oss-120b for 10 min
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+switching away from groq/qwen/qwen3.8-27b for 10 min
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` 
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+switching away from groq/openai/gpt-oss-120b for 10 min
+free models unavailable: no free model answered: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-
+ok anthropic/claude-haiku-5-5
+claude rewrite 1 anthropic/claude-haiku-5-5: 1 problems
+  reel_script has 54 words; need 60-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+free fact-check unavailable, using Claude: no free model answered: None
+ok anthropic/claude-haiku-5-5
+factcheck by anthropic/claude-haiku-5-5: 5 problems
+  The reel_script says Karthikeyan was summoned 'இன்று' (today) and was sent back by police, but the article says he was summoned for today (Nov 16) and was turned back yesterday (நேற்று) when the ADSP was absent; the reel_script wrongly conflates these, and the caption's 'இன்று (நவ. 16) விசாரணைக்கு ஆஜராக' also mismatches the article's date of the turn-back.
+  The reel_script calls the official 'காவல் கண்காணிப்பாளர்' (SP) office and the caption and slides call it 'எஸ்.பி. அலுவலகம்', but the article says the summons was at the Trichy SP office, which is consistent; however the reel_script adds 'கூடுதல் காவல் கண்காணிப்பாளர் மதியழகன்' whereas the article names him as ADSP (ஏ.டி.எஸ்.பி.) Madhiyazhagan, a title mismatch.
+  The reel_script says the summoned person was 'வக்கீலுடன்' and mentions the lawyer name correctly, but states the police sent him to 'வேறு நாளில்' while the reel_script's first sentence says he was 'விசாரணைக்கு வரவழைக்கப்பட்ட' and turned back today, mixing two different days into one narrative.
+  The reel_script states Ravisankar was attacked with the son providing a stick ('கட்டை எடுத்துக் கொடுக்க, அதாலும் தாக்கினார்'), and the caption says 'மகன் மீதும்' legal action is demanded; the article only says the complainant demands legal action against 'அவர்கள்' (them), so the caption's specific claim about the son is an added detail not clearly grounded in the article's stated demand.
+  The reel_script's first sentence says the complainant 'புகார் அளித்தார்' and then the sentence 'இன்று விசாரணைக்கு வரவழைக்கப்பட்ட அவரை, போலீசார் வேறு நாளுக்கு வருமாறு திருப்பி அனுப்பினர்' describes today's turn-back, which contradicts the article's timeline (turn-back was yesterday, Nov 15, with the summons for today).
+claude rewrite 1 anthropic/claude-haiku-5-5: 5 problems
+  fact-check: The reel_script says Karthikeyan was summoned 'இன்று' (today) and was sent back by police, but the article says he was summoned for today (Nov 16) and was turned back yesterday (நேற்று) when the ADSP was absent; the reel_script wrongly conflates these, and the caption's 'இன்று (நவ. 16) விசாரணைக்கு ஆஜராக' also mismatches the article's date of the turn-back.
+  fact-check: The reel_script calls the official 'காவல் கண்காணிப்பாளர்' (SP) office and the caption and slides call it 'எஸ்.பி. அலுவலகம்', but the article says the summons was at the Trichy SP office, which is consistent; however the reel_script adds 'கூடுதல் காவல் கண்காணிப்பாளர் மதியழகன்' whereas the article names him as ADSP (ஏ.டி.எஸ்.பி.) Madhiyazhagan, a title mismatch.
+  fact-check: The reel_script says the summoned person was 'வக்கீலுடன்' and mentions the lawyer name correctly, but states the police sent him to 'வேறு நாளில்' while the reel_script's first sentence says he was 'விசாரணைக்கு வரவழைக்கப்பட்ட' and turned back today, mixing two different days into one narrative.
+  fact-check: The reel_script states Ravisankar was attacked with the son providing a stick ('கட்டை எடுத்துக் கொடுக்க, அதாலும் தாக்கினார்'), and the caption says 'மகன் மீதும்' legal action is demanded; the article only says the complainant demands legal action against 'அவர்கள்' (them), so the caption's specific claim about the son is an added detail not clearly grounded in the article's stated demand.
+  fact-check: The reel_script's first sentence says the complainant 'புகார் அளித்தார்' and then the sentence 'இன்று விசாரணைக்கு வரவழைக்கப்பட்ட அவரை, போலீசார் வேறு நாளுக்கு வருமாறு திருப்பி அனுப்பினர்' describes today's turn-back, which contradicts the article's timeline (turn-back was yesterday, Nov 15, with the summons for today).
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+ok anthropic/claude-haiku-5-5
+claude rewrite 2 anthropic/claude-haiku-5-5: 1 problems
+  reel_script has 54 words; need 60-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
+ok anthropic/claude-haiku-5-5
+claude rewrite 2 anthropic/claude-haiku-5-5: 2 problems
+  reel_script must tell how the story ENDED, as the article's last lines say ('துணை சபாநாயகர் ரவிசங்கரிடம் ‘அறை’ வாங்கியவர் அலைக்கழிப்பு') - say what finally happened (complaint, action promised, released, arrested, case filed, how long it lasted); never write that details are unknown
+  hl1 (the first headline on screen) must name the place 'திருச்சி', e.g. 'திருச்சி: ...' or 'திருச்சி-இல் ...' - viewers share news of their own area
+ok anthropic/claude-haiku-5-5
+claude rewrite 3 anthropic/claude-haiku-5-5: 1 problems
+  reel_script has 51 words; need 60-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+proofread skipped: no free model answered: None
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok anthropic/claude-haiku-5-5
+claude rewrite 1 anthropic/claude-haiku-5-5: 1 problems
+  reel_script sentence 1 (heard in the first 3 seconds) must name the place 'கோயம்பேடு' and the news itself, e.g. 'கோயம்பேடு-இல் ... 3 பேர் கைது.' - viewers decide in 3 seconds whether the news is about their area
+ok anthropic/claude-haiku-5-5
+real photo skipped (photo uploaded 2026-04-22 (older than the news)): https://static-cdn.publive.online/polimer-news/media/media_files/2026/04/22/apple-2026-04-
+real photo skipped (photo uploaded 2026-03-09 (older than the news)): https://static-cdn.publive.online/polimer-news/media/media_files/2026/03/09/live-tv-1-2026
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+ok anthropic/claude-haiku-5-5
+claude rewrite 3 anthropic/claude-haiku-5-5: 2 problems
+  slide 1 line 1 longer than 60 characters
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): துறையூர் ('திருச்சி மாவட்டம், துறையூரை சேர்ந்தவர் கார்த்திக்குமார், நவ.')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+proofread skipped: no free model answered: None
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok anthropic/claude-haiku-5-5
+claude rewrite 2 anthropic/claude-haiku-5-5: 2 problems
+  reel_script has 93 words; need 100-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 70 ('விலை உயர்வு காரணமாக ஓட்டல்களிலும் சின்ன வெங்காயத்தின் பயன்பா'); 60 ('விலை உயர்வு காரணமாக ஓட்டல்களிலும் சின்ன வெங்காயத்தின் பயன்பா')
+ok anthropic/claude-haiku-5-5
+ok anthropic/claude-haiku-5-5
+claude rewrite 3 anthropic/claude-haiku-5-5: 1 problems
+  hl1 (the first headline on screen) must name the place 'கோயம்பேடு', e.g. 'கோயம்பேடு: ...' or 'கோயம்பேடு-இல் ...' - viewers share news of their own area
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+proofread skipped: no free model answered: None
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok anthropic/claude-haiku-5-5
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout
+images made: 2 for 'Farmer beheaded on way home near Somaras'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261116-2255","first":"RN-53"}
+posting job started at once
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 2 for 'Police send back victim of Deputy Speake'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261116-2255","first":"RN-54"}
+earlier stories still waiting for images: []
+instagram check: 50 recent posts read from the page
+pick round: only the picked links are written (research_free/pick.py)
+manual link added: https://www.polimernews.com/districtnews/farmer-beheaded-to-death-while-returning-home-12814747
+manual link added: https://www.dinamalar.com/news/tamil-nadu-news/the-man-who-bought-the-room-from-deputy-speaker-ravi-shankar/4378112
+manual link added: https://www.dailythanthi.com/news/tamilnadu/shortage-of-supply-housewives-worried-over-rise-in-price-of-small-onions
+candidate filter: collected=3
+to write: 3 Trichy district candidates (max 3 stories)
+round: top 3 of 3 candidates
+candidates waiting: 3 Trichy; time left 79 min
+try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/shortage-of-supp
+try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/the-man-who-b
+try (N) manual=True: https://www.polimernews.com/districtnews/farmer-beheaded-to-
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})
+posting job started at once
+NOT filed (N) வரத்து குறைவு: இரட்டை சதம் அடித்த சின்ன வெங்காயம் : not Trichy district news (the story's first lines name another place and no Trichy place)
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})
+candidate loop ended: left 0, tried={'N': 3}, done={'N': 2}, time left 77 min
+filed: 2 Trichy district stories (target 3), reels only
+queue: 0 news waiting to be written
+All News sheet: {"ok":true,"added":3,"updated":0} 
+stories: 2
