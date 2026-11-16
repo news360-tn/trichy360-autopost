@@ -14,7 +14,8 @@
    "alts": [
     "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/%E0%AE%9A%E0%AE%AE%E0%AE%AF%E0%AE%AA%E0%AF%81%E0%AE%B0%E0%AE%AE%E0%AF%8D-%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%88-%E0%AE%AE%E0%AE%BF%E0%AE%A9%E0%AF%8D-%E0%AE%A4%E0%AE%9F%E0%AF%88-3"
    ],
-   "listed_at": "2026-11-16T05:47:28.501347+05:30"
+   "listed_at": "2026-11-16T05:47:28.501347+05:30",
+   "picked_at": "2026-11-16T05:50:09.810761+05:30"
   },
   "C6d9cf9a": {
    "id": "C6d9cf9a",
@@ -29,7 +30,8 @@
    "alts": [
     "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF-%E0%AE%85%E0%AE%B0%E0%AF%81%E0%AE%95%E0%AF%87-%E0%AE%B5%E0%AE%BF%E0%AE%B5%E0%AE%9A%E0%AE%BE%E0%AE%AF%E0%AE%BF-%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%BF%E0%AE%95%E0%AF%8D-%E0%AE%95%E0%AF%8A%E0%AE%B2%E0%AF%88"
    ],
-   "listed_at": "2026-11-16T05:47:28.501347+05:30"
+   "listed_at": "2026-11-16T05:47:28.501347+05:30",
+   "picked_at": "2026-11-16T05:50:09.810773+05:30"
   },
   "C370b893": {
    "id": "C370b893",
@@ -41,7 +43,8 @@
    "category": "குற்றம்",
    "score": 11.64,
    "power_cut": false,
-   "listed_at": "2026-11-16T05:47:28.501347+05:30"
+   "listed_at": "2026-11-16T05:47:28.501347+05:30",
+   "picked_at": "2026-11-16T05:50:09.810781+05:30"
   },
   "C51d93af": {
    "id": "C51d93af",
@@ -56,7 +59,8 @@
    "alts": [
     "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/%E0%AE%B5%E0%AF%86%E0%AE%B5%E0%AF%8D%E0%AE%B5%E0%AF%87%E0%AE%B1%E0%AF%81-%E0%AE%B5%E0%AE%BF%E0%AE%AA%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%81%E0%AE%95%E0%AE%B3%E0%AE%BF%E0%AE%B2%E0%AF%8D%E0%AE%87%E0%AE%B0%E0%AF%81%E0%AE%B5%E0%AE%BE%E0%AF%8D-%E0%AE%89%E0%AE%AF%E0%AE%BF%E0%AE%B0%E0%AE%BF%E0%AE%B4%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81-2"
    ],
-   "listed_at": "2026-11-16T05:47:28.501347+05:30"
+   "listed_at": "2026-11-16T05:47:28.501347+05:30",
+   "picked_at": "2026-11-16T05:50:09.810777+05:30"
   },
   "C04d16fe": {
    "id": "C04d16fe",
@@ -71,7 +75,8 @@
    "alts": [
     "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/%E0%AE%95%E0%AE%BF%E0%AE%A3%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%AE%E0%AF%82%E0%AE%A4%E0%AE%BE%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%BF-%E0%AE%9A%E0%AE%9F%E0%AE%B2%E0%AE%AE%E0%AE%BE%E0%AE%95-%E0%AE%AE%E0%AF%80%E0%AE%9F%E0%AF%8D%E0%AE%AA%E0%AF%81-2"
    ],
-   "listed_at": "2026-11-16T05:47:28.501347+05:30"
+   "listed_at": "2026-11-16T05:47:28.501347+05:30",
+   "picked_at": "2026-11-16T05:50:09.810788+05:30"
   },
   "Cbd49946": {
    "id": "Cbd49946",
@@ -83,7 +88,8 @@
    "category": "விபத்து",
    "score": 10.55,
    "power_cut": false,
-   "listed_at": "2026-11-16T05:47:28.501347+05:30"
+   "listed_at": "2026-11-16T05:47:28.501347+05:30",
+   "picked_at": "2026-11-16T05:50:09.810784+05:30"
   }
  },
  "rounds": {
@@ -564,8 +570,26 @@
    ],
    "sent": false,
    "deadline": "2026-11-16T06:47:28.501347+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 5 of 6 by insights + 1 power cut",
+    "ids": [
+     "C9151425",
+     "C6d9cf9a",
+     "C51d93af",
+     "C370b893",
+     "Cbd49946",
+     "C04d16fe"
+    ],
+    "at": "2026-11-16T05:50:09.810743+05:30"
+   },
+   "written": [
+    "C04d16fe",
+    "C370b893",
+    "C51d93af",
+    "C6d9cf9a",
+    "C9151425",
+    "Cbd49946"
+   ]
   }
  },
  "retry": {}
