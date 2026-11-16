@@ -263,6 +263,28 @@ def round_top(t):
     return hit[-1] if hit else slots[-1][1]
 
 
+CATCHUP_MAX = int(os.environ.get("PICK_CATCHUP_MAX", "9"))      # owner 16 Nov: a late round writes the skipped round's count too
+
+
+def window_top(t_start, t_end):
+    """owner 16 Nov: the count of EVERY round time inside (t_start, t_end] - GitHub sometimes skips a scheduled round (15 Nov 21:00),
+    then the next round writes both counts. No round time inside (a second run in the same round): the round's own count."""
+    try:
+        slots = sorted((int(h), int(n)) for h, n in (x.split("=") for x in ROUND_TOP.split(",") if x.strip()))
+        if not slots or not t_start or t_end <= t_start or (t_end - t_start).total_seconds() > 30 * 3600:
+            return round_top(t_end)
+        total, day = 0, t_start.replace(hour=0, minute=0, second=0, microsecond=0)
+        while day <= t_end:
+            for h, n in slots:
+                s = day.replace(hour=h)
+                if t_start < s <= t_end:
+                    total += n
+            day += datetime.timedelta(days=1)
+        return min(CATCHUP_MAX, total) if total else round_top(t_end)
+    except Exception:
+        return round_top(t_end)
+
+
 def reach_score(it, at):
     """the round's order: the news' own score + this page's insight weight for its topic (x3) - a little for every 4 hours of age"""
     import learned
@@ -468,8 +490,12 @@ def cmd_decide():
         time.sleep(60)
     if chosen is None and INSIGHT_RANK:
         at = when((rnd.get("window") or ["", ""])[1]) or now()
-        top = round_top(at)
-        items, sc = reach_rank([pool[i] for i in rnd["ids"] if i in pool], at)
+        top = window_top(when((rnd.get("window") or ["", ""])[0]), at)      # owner 16 Nov: + the count of a skipped round
+        if top != round_top(at):
+            log(f"a round time was skipped by GitHub since the last round - this round writes {top} (its own {round_top(at)} + the skipped round's)")
+        items, sc = reach_rank([dict(pool[i], leftover=bool(pool[i].get("listed_at") and when(pool[i]["listed_at"])
+                                                            and when(pool[i]["listed_at"]) < at - datetime.timedelta(minutes=30)))
+                                for i in rnd["ids"] if i in pool], at)
         left_out = [(x["title"], auto_ok(x)) for x in items if auto_ok(x)]
         items = [x for x in items if not auto_ok(x)]
         for t_, why_ in left_out:
@@ -478,12 +504,14 @@ def cmd_decide():
         rest = [x for x in items if not x.get("power_cut")]
         extra = [x for x in rest[top:] if sc[x["id"]][2] >= EXTRA_WEIGHT][:EXTRA_MAX]      # more news people watch, beyond the count
         pick_ = power + rest[:top] + extra
+        pick_ids = {x["id"] for x in pick_}
         log(f"round {rid} (at least {top}, up to {EXTRA_MAX} more of well-watched topics): {len(items)} news to choose from ({sum(1 for x in items if x.get('leftover'))} from earlier rounds), "
             f"ranked by this page's insights")
         for i, x in enumerate(items, 1):
             s_, t_, w_, how_ = sc[x["id"]]
             log(f"  {'EXTRA' if x in extra else ('PICK ' if x in pick_ else '     ')} {i:2}. {s_:5.1f} [{t_} {w_:+.2f} {how_}]{' (earlier)' if x.get('leftover') else ''} {x['title'][:60]}")
         chosen = [x["id"] for x in pick_]
+        assert len(pick_ids) == len(chosen)
         how = (f"automatic: top {top} of {len(items)} by insights" + (f" + {len(extra)} more well-watched" if extra else "")
                + (f" + {len(power)} power cut" if power else ""))
     if chosen is None:

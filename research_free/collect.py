@@ -191,7 +191,8 @@ def top_kind(title):
 LOW_EDITORIAL_URL = re.compile(r"thalayangam|editorial|/opinion|/columns?/|/others/", re.I)
 LOW_FEATURE = re.compile(r"எப்படி|காரணங்கள்|அறிகுறி|கவனிக்க வேண்டிய|டிப்ஸ்|ரெசிபி|செய்முறை|நன்மைகள்|தெரியுமா|ஆபத்து யாருக்கு|"
                          r"தாக்கும்\s+\S+\s+நோய்|ஸ்டைல்|கொத்சு|ரப்டி|சுவையான|காரசாரமான|தீர்வு|என்ன செய்வது|எதைக் குறிக்கின்றன|"
-                         r"என்ன வித்தியாசம்|அபாயத்தை அதிகரிக்கும்|அன்றாட பழக்க|போடுவதின் அவசியம்|போடுவதன் அவசியம்")      # owner 14 Nov: health tips
+                         r"என்ன வித்தியாசம்|அபாயத்தை அதிகரிக்கும்|அன்றாட பழக்க|போடுவதின் அவசியம்|போடுவதன் அவசியம்|"
+                         r"\|\s*\S+\s*ஸ்பெஷல்|ஆண்கள் ஸ்பெஷல்|பெண்கள் ஸ்பெஷல்|மனசுக்கு பிடித்த|பகிர்ந்து செய்வதே")      # owner 16 Nov: lifestyle columns      # owner 14 Nov: health tips
 LOW_FEATURE_URL = re.compile(r"how-to|how-does|causes-of|recipe|-curry|who-is-most-at-risk|benefits-of|tips-for|symptoms|-in-children|"
                              r"with-all-the-flavours", re.I)
 LOW_CEREMONY = re.compile(r"விழிப்புணர்வு\s*(பேரணி|நிகழ்ச்சி|ஊர்வலம்)|கருத்தரங்கு|பட்டமளிப்பு|விருது|கௌரவ|சிலைக்கு.{0,20}மரியாதை|மாலை அணிவித்|"
