@@ -55,6 +55,7 @@ jobs:
     outputs:
       ready: ${{ steps.chk.outputs.ready }}
       matrix: ${{ steps.chk.outputs.matrix }}
+      more: ${{ steps.chk.outputs.more }}
       waiting: ${{ steps.chk.outputs.waiting }}
     steps:
       - uses: actions/checkout@v4
@@ -72,6 +73,7 @@ jobs:
             pip install -q requests==2.32.5 pillow==11.3.0
             pip install -q opencv-contrib-python-headless==4.10.0.84 pillow-avif-plugin==1.4.6 || echo 'photo tools not installed'      # owner 31 Oct: real news photos
             set +e; python poster/post.py check 2>&1 | tee .last_check; CHECK_RC=${PIPESTATUS[0]}; set -e      # owner 2 Nov: a crash must not look green
+            n=$(grep -oE "ready to post: [0-9]+" .last_check | grep -oE "[0-9]+" | head -1); if [ "${n:-0}" -gt 0 ] || grep -qE "auto images: (time for this run used up|credit cap)" .last_check; then echo "more=1" >> "$GITHUB_OUTPUT"; fi      # owner 16 Nov: news still waiting - this run starts the next one
           fi
           git config user.name "news360-bot"; git config user.email "news360-bot@users.noreply.github.com"
           if grep -q "ready to post: [1-9]" .last_check || [ "$(date -u +%M)" -lt 5 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then git add -f .last_check && git commit -qm "check log" && { for i in 1 2 3 4; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true; fi
@@ -237,3 +239,17 @@ jobs:
           if [ -n "$(git log origin/main..HEAD --oneline 2>/dev/null)" ]; then
             for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep 5; done
           fi
+
+  again:      # owner 16 Nov: GitHub skipped most scheduled 5-minute runs - while news is still waiting, a live run starts the next one
+    needs: [check, post]
+    if: always() && needs.check.outputs.more == '1' && github.event_name != 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - name: Start the next live posting check in 6 minutes
+        if: env.DRY_RUN == '' && env.PREBUILD == ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sleep 360
+          gh api -X POST "repos/${{ github.repository }}/actions/workflows/post.yml/dispatches" -f ref=main -F "inputs[dry_run]=false" || echo "next run not started (the 5-minute schedule still runs)"
