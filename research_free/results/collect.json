@@ -1,35 +1,38 @@
 {
  "log": [
   "earlier stories still waiting for images: []",
-  "instagram check: 40 recent posts read from the page",
+  "instagram check: 45 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/சமயபுரம்-பகுதிகளில்-நாளை-மின்-தடை-3",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/திருச்சி-அருகே-விவசாயி-வெட்டிக்-கொலை",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/வெவ்வேறு-விபத்துகளில்இருவா்-உயிரிழப்பு-2",
-  "manual link added: https://www.dinakaran.com/news/trichy_jewelry_woman_murder_intoxication_arrest/amp",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/பைக்கில்-சென்ற-தந்தை-மகன்-லாரி-மோதி-உயிரிழப்பு",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/கிணற்றில்-மூதாட்டி-சடலமாக-மீட்பு-2",
-  "candidate filter: collected=6",
-  "to write: 6 Trichy district candidates (max 6 stories)",
-  "round: top 6 of 6 candidates",
-  "candidates waiting: 6 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.dinakaran.com/news/trichy_jewelry_woman_murder_i",
-  "NOT filed (N) பைக்கில் சென்ற தந்தை, மகன் \nலாரி மோதி உயிரிழப்பு: duplicate after write",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})",
+  "manual link added: https://www.dinamalar.com/news/kalvimalar-news/organic-farmer-teaches-lessons-to-agricultural-university-students/83588",
+  "manual link added: https://tamil.oneindia.com/photos/aadhav-arjuna-daisy-martin-family-photos-goes-trendy-on-social-media-oi128795.html",
+  "manual link added: https://www.polimernews.com/districtnews/case-filed-seeking-recovery-of-pending-rent-from-srirangam-government-hospital-12814129",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/16/radiotherapy-treatment-at-trichy-government-hospitalcancer-patients-await-it",
+  "manual link added: https://www.dailythanthi.com/news/tamilnadu/dmk-government-is-set-to-emerge-in-tamil-nadu-soon-mk-stalins-remarks",
+  "manual link added: https://www.maalaimalar.com/news/tamilnadu/stalin-promises-dmk-rule-amid-criticism-of-current-government",
+  "manual link added: https://tamil.oneindia.com/news/chennai/mk-stalin-predicts-trichy-east-by-election-says-dmk-will-return-to-power-845765.html",
+  "candidate filter: collected=7",
+  "to write: 7 Trichy district candidates (max 7 stories)",
+  "round: top 7 of 7 candidates",
+  "candidates waiting: 7 Trichy; time left 79 min",
+  "try (N) manual=True: https://tamil.oneindia.com/news/chennai/mk-stalin-predicts-t",
+  "try (N) manual=True: https://www.maalaimalar.com/news/tamilnadu/stalin-promises-d",
+  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/dmk-government-i",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
   "posting job started at once",
   "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 7})",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "try (N) manual=True: https://www.polimernews.com/districtnews/case-filed-seeking-",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 9})",
+  "try (N) manual=True: https://tamil.oneindia.com/photos/aadhav-arjuna-daisy-martin",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 11})",
-  "candidate loop ended: left 0, tried={'N': 6}, done={'N': 5}, time left 75 min",
-  "filed: 5 Trichy district stories (target 6), reels only",
+  "try (N) manual=True: https://www.dinamalar.com/news/kalvimalar-news/organic-farme",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 13})",
+  "NOT filed (N) கவலைப்படாதீர்கள்.. தமிழகத்தில் விரைவில் திமுக ஆட்ச: not Trichy district news (the story's first lines name another place and no Trichy place)",
+  "NOT filed (N) வேளாண் பல்கலை மாணவியருக்கு பாடம் கற்றுத்தரும் இயற்: not Trichy district news (the story's first lines name another place and no Trichy place)",
+  "candidate loop ended: left 0, tried={'N': 7}, done={'N': 5}, time left 70 min",
+  "filed: 5 Trichy district stories (target 7), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":6,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":7,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
@@ -38,446 +41,486 @@
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (35s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (36s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (44s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (22s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (36s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (38s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (25s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (25s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (34s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (45s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "ok gemini/gemini-3.6-flash (27s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "ok gemini/gemini-3.6-flash (50s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (19s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (31s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
+  "ok gemini/gemini-3.6-flash (26s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "ok gemini/gemini-3.6-flash (28s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (33s)",
+  "ok gemini/gemini-3.6-flash (44s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
   "ok gemini/gemini-3-flash-preview (10s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok gemini/gemini-3-flash-preview (10s)",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3.6-flash (16s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (10s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (12s)",
+  "ok gemini/gemini-3-flash-preview (24s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (10s)",
+  "ok gemini/gemini-3-flash-preview (11s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "ok gemini/gemini-3-flash-preview (6s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok gemini/gemini-3-flash-preview (14s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "switching away from gemini/gemini-3-flash-preview for 10 min",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "ok gemini/gemini-3-flash-preview (16s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "switching away from gemini/gemini-3-flash-preview for 10 min",
+  "ok gemini/gemini-3-flash-preview (10s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3-flash-preview (11s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3-flash-preview (11s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3-flash-preview (9s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3-flash-preview (5s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
+  "ok gemini/gemini-3-flash-preview (9s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_gener",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "ok anthropic/claude-haiku-5-5",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "ok groq/openai/gpt-oss-120b (3s)",
+  "ok groq/qwen/qwen3.8-27b (4s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok groq/qwen/qwen3.8-27b (2s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "ok groq/qwen/qwen3.8-27b (3s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "ok gemini/gemini-3-flash-preview (32s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "திருச்சியில் 2 பவுன் நகைக்காக மூதாட்டி கொலை: போதை சகோதரர்கள் உட்பட 3 பேர் கைது",
-   "english_headline": "Elderly woman strangled for 2 pawn of gold in Trichy; 3 arrested including two drunk brothers",
-   "category": "Crime & Safety",
-   "location": "Ponmalai railway ground area, Thiruverumbur, Trichy district",
-   "importance": "High",
-   "scope": "",
+   "tamil_headline": "திருச்சியில் மு.க.ஸ்டாலின் பேச்சு: விரைவில் தமிழகத்தில் திமுக ஆட்சி உதயமாகும் என உரை",
+   "english_headline": "DMK President M.K. Stalin speaks at Trichy event, claims DMK will soon come to power in Tamil Nadu",
+   "category": "Government & Services",
+   "location": "Trichy city, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "குற்றச் செய்தி",
-    "loc": "திருவெறும்பூர்",
-    "hl1": "திருச்சியில் நகைக்காக மூதாட்டி கொலை",
-    "hl2": "3 பேர் கைது",
+    "cat": "அரசியல்",
+    "loc": "திருச்சி",
+    "hl1": "திருச்சியில் மு.க.ஸ்டாலின் காரசார பேச்சு",
+    "hl2": "திமுக ஆட்சி விரைவில் வரும்",
     "slides": [
      {
-      "title": "என்ன நடந்தது?",
+      "title": "திருச்சி விழா",
       "lines": [
-       "பொன்மலை ரயில்வே மைதானம் அருகே முட்புதரில் மூதாட்டி சடலம்",
-       "கடந்த <b>7ஆம் தேதி</b> <b>70 வயது</b> மூதாட்டி மர்மமாக இறந்து கிடந்தார்",
-       "கழுத்து நெரிக்கப்பட்ட தடம் இருந்தது"
+       "திருச்சியில் முன்னாள் அமைச்சர் கே.என்.நேரு இல்லத் திருமணம்",
+       "திமுக தலைவர் <b>மு.க.ஸ்டாலின்</b> பங்கேற்று உரை"
       ]
      },
      {
-      "title": "யார் கைது?",
+      "title": "ஸ்டாலின் உரை",
       "lines": [
-       "சுப்பிரமணியபுரம் சகோதரர்கள் ராஜசேகர் (48 வயது), ஆறுமுகம் (46 வயது)",
-       "மற்றொருவர் கார்த்திக் (40 வயது)",
-       "மூவரும் நேற்று போலீசாரால் கைது செய்யப்பட்டனர்"
+       "தமிழகத்தில் விரைவில் <b>திமுக ஆட்சி</b> அமையும் எனப் பேச்சு",
+       "தவெக ஆட்சியால் மக்களுக்கு ஏமாற்றமே கிடைத்துள்ளது",
+       "திரையில் ஹீரோவாக இருந்த விஜய் நிஜத்தில் வில்லன்"
       ]
      },
      {
-      "title": "எப்படி நடந்தது?",
+      "title": "காரசார விமர்சனம்",
       "lines": [
-       "இறந்தவர் புதுக்கோட்டை மாவட்டம் குமாரமங்கலத்தைச் சேர்ந்த",
-       "வீட்டு வேலைக்காக திருச்சி வந்தபோது ஆட்டோவில்",
-       "<b>2 பவுன்</b> நகைக்கு ஆசைப்பட்டு ஆட்டோவிலேயே கழுத்தை நெரித்தனர்"
-      ]
-     },
-     {
-      "title": "கவனிக்க",
-      "lines": [
-       "போலீசில் சிக்காமல் இருக்க உடலை முட்புதரில் வீசிச் சென்றனர்",
-       "போதையில் இருந்த மூவரும் இந்தச் செயலில் ஈடுபட்டனர்",
-       "விசாரணை தொடர்கிறது"
+       "மாநிலத்தில் பாலியல் கொடுமைகள் அதிகரித்துள்ளன",
+       "மனு அளிக்க வந்தவரை துணை சபாநாயகர் தாக்கியுள்ளார்",
+       "மாற்றத்திற்கு அனைவரும் தயாராக இருக்குமாறு அழைப்பு"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சியில் 2 பவுன் நகைக்காக 75 வயது மூதாட்டி கழுத்தை நெரித்துக் கொல்லப்பட்டார். திருவெறும்பூர் பகுதியில், திருச்சி பொன்மலை ரயில்வே மைதானம் அருகே முட்புதரில் கடந்த 7ஆம் தேதி அந்த மூதாட்டியின் உடல் கிடந்தது. இறந்தவர் புதுக்கோட்டை மாவட்டம் குமாரமங்கலத்தைச் சேர்ந்த திருமதி என்று போலீசார் அடையாளம் கண்டனர். வீட்டு வேலைக்காக திருச்சி வந்தபோது, மூவர் அவரை ஆட்டோவில் ஏற்றிச் சென்றனர். போதையில் இருந்த அவர்கள், 2 பவுன் நகைக்கு ஆசைப்பட்டு ஆட்டோவிலேயே அவரின் வாயைப் பொத்தி கழுத்தை நெரித்தனர். போலீசில் சிக்கக்கூடாது என்பதற்காக உடலை முட்புதரில் வீசிச் சென்றனர். சுப்பிரமணியபுரத்தைச் சேர்ந்த சகோதரர்கள் ராஜசேகர், ஆறுமுகம் மற்றும் கார்த்திக் ஆகிய மூவரையும் போலீசார் நேற்று கைது செய்தனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சியில் 2 பவுன் நகைக்காக மூதாட்டி கொலை: 3 பேர் கைது\n\n📰 முழு விவரம்:\nதிருவெறும்பூர் பகுதியில், திருச்சி பொன்மலை ரயில்வே மைதானம் அருகே முட்புதரில் கடந்த 7ஆம் தேதி 70 வயது மதிக்கத்தக்க மூதாட்டி மர்மமான முறையில் இறந்து கிடந்தார். அவரின் கழுத்து நெரிக்கப்பட்ட தடம் இருந்தது. போலீசார் வழக்குப்பதிவு செய்து விசாரித்தனர். இறந்தவர் புதுக்கோட்டை மாவட்டம் குமாரமங்கலத்தைச் சேர்ந்த திருமதி (75 வயது) என்று தெரியவந்தது. வீட்டு வேலைக்காக திருச்சி வந்தபோது, மூவர் அவரை ஆட்டோவில் ஏற்றிச் சென்றனர். போதையில் இருந்த அவர்கள், 2 பவுன் நகைக்கு ஆசைப்பட்டு ஆட்டோவிலேயே அவரின் வாயைப் பொத்தி கழுத்தை நெரித்ததில் அவர் உயிரிழந்தார். போலீசில் சிக்கக்கூடாது என்பதற்காக உடலை முட்புதரில் வீசிச் சென்றனர். சுப்பிரமணியபுரத்தைச் சேர்ந்த சகோதரர்களான ஆட்டோ டிரைவர் ராஜசேகர் (48 வயது), எலக்ட்ரீசியன் ஆறுமுகம் (46 வயது), தொழிலாளி கார்த்திக் (40 வயது) ஆகிய மூவரையும் போலீசார் நேற்று கைது செய்தனர்.\n📍 இடம்: பொன்மலை ரயில்வே மைதானம் அருகே, திருவெறும்பூர், திருச்சி மாவட்டம்\n🗓️ நாள்: கடந்த 7ஆம் தேதி கண்டுபிடிக்கப்பட்டது\n\nTrichy woman murdered for gold, 3 arrested | Trichy news\n📍 திருவெறும்பூர், திருச்சி மாவட்டம் | 16 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thiruverumbur #கைது #TrichyNews",
-   "prompts": "A Tamil Nadu police constable in khaki stands guard beside a three-wheeled auto-rickshaw parked on the edge of an open railway ground near Ponmalai in Trichy, with a thorny bush and a line of railway tracks behind it. Three men, seen from behind and far away, are being led toward a police jeep, one wearing a checked shirt and veshti, one in trousers and a half-sleeve shirt, and one in a plain banian; their heads are lowered and they are not looking at the camera. The scene is a dusty early-morning road edge with dry grass, a concrete railway boundary wall, and a few parked two-wheelers in the distance. Soft daylight with light haze, a calm and somber mood. The camera is at eye level, 35 mm, wide enough to show the auto-rickshaw, the railway fence and the police presence, with no faces visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a thorny bush (mullu-puthar) at the edge of the Ponmalai railway ground, its dry branches and scattered dead leaves in the foreground, with a rusted railway fence and a glimpse of rail tracks behind it. On the dusty ground lie a crumpled piece of plain cloth and a few dry twigs, and a police khaki boot steps into the frame at the bottom edge, with a plastic evidence bag and a small notebook held by a police hand just out of focus. The light is soft late-afternoon daylight, with a slightly grey, subdued atmosphere. The camera is close, at ground-to-waist height, 35 mm macro-like framing with shallow depth of field, focusing on the bush and the evidence, with no people's faces visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinakaran.com/news/trichy_jewelry_woman_murder_intoxication_arrest/amp",
-   "published": "2026-11-16T02:29:05+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: slide 2 line 1 longer than 60 characters",
+   "reel_script": "திருச்சியில் நடைபெற்ற திருமண விழாவில் மு க ஸ்டாலின் கடுமையாகப் பேசினார். முன்னாள் அமைச்சர் கே என் நேரு இல்லத் திருமண விழாவில் அவர் கலந்து கொண்டார். தமிழகத்தில் தவெக ஆட்சியால் மக்களுக்கு ஏமாற்றமே கிடைத்துள்ளதாக அவர் குற்றம் சாட்டினார். சினிமாவில் ஹீரோவாக இருந்த விஜய், நிஜ வாழ்க்கையில் வில்லனாக வலம் வருகிறார் என்றார். தவெக நிர்வாகிகள் பாலியல் வழக்கில் தலைமறைவாகி உள்ளதாக அவர் சுட்டிக்காட்டினார். மனு கொடுக்க வந்த சாமானிய மனிதரை துணை சபாநாயகர் தாக்கியதாகவும் அவர் கூறினார். மாநிலத்தில் பாலியல் கொடுமைகள் அதிகரித்து வருவதாக கனிமொழி வெளிக்கொண்டு வந்ததை அவர் குறிப்பிட்டார். தமிழகத்தில் விரைவில் திமுக ஆட்சி மலர நல்ல சூழல் அமைய உள்ளது என்றார். இதற்குத் தொண்டர்கள் இப்போதே தயாராக இருக்க வேண்டும் என்றும் அவர் கேட்டுக்கொண்டார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🗣️ திருச்சியில் மு.க.ஸ்டாலின் காரசார பேச்சு: தமிழகத்தில் விரைவில் திமுக ஆட்சி அமையும் என அறிவிப்பு\n\n📰 முழு விவரம்:\nதிருச்சியில் முன்னாள் அமைச்சர் கே.என்.நேரு இல்லத் திருமண விழாவில் திமுக தலைவர் மு.க.ஸ்டாலின் கலந்து கொண்டு பேசினார். தமிழகத்தில் தவெக ஆட்சியால் மக்களுக்கு ஏமாற்றமே கிடைத்துள்ளதாக அவர் தெரிவித்தார். சினிமாவில் ஹீரோவாக இருந்த விஜய் நிஜத்தில் வில்லனாக வலம் வருகிறார் என்றும், மனு கொடுக்க வந்த சாமானிய மனிதரை துணை சபாநாயகர் தாக்கியதாகவும் அவர் குற்றம் சாட்டினார். மாநிலத்தில் பாலியல் கொடுமைகள் அதிகரித்து வருவதாக கனிமொழி வெளிக்கொண்டு வந்ததை அவர் சுட்டிக்காட்டினார். விரைவில் திமுக ஆட்சி மலர நல்ல சூழல் அமைய உள்ளதால், அனைவரும் தயாராக இருக்குமாறு கேட்டுக்கொண்டார்.\n\n📍 இடம்: திருச்சி\n🗓️ நாள்: 16 நவம்பர் 2026\nℹ️ தகவல்: முன்னாள் அமைச்சர் கே.என்.நேரு இல்லத் திருமண விழாவில் மு.க.ஸ்டாலின் உரை.\n\nமுக்கிய செய்திகளைப் பெற Share செய்யுங்கள்.\n\nMK Stalin speech in Trichy KN Nehru wedding | Trichy news\n📍 திருச்சி மாவட்டம் | 16 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #MKStalin #திருச்சி",
+   "prompts": "A political leader in a white shirt and veshti stands at a flower-decorated podium on an elevated stage, addressing a crowded indoor audience inside a grand marriage hall in Trichy city. The speaker is viewed from behind and slightly to the side. In the hall, rows of guests and party attendees wearing crisp white shirts with veshtis and silk sarees sit in cushioned banquet chairs facing the stage. Bright yellow and orange floral garlands frame the backdrop of the stage, with multiple goose-neck microphones mounted on the wooden podium. Bright indoor chandelier and stage lighting illuminate the entire gathering. The camera is positioned at eye level from the rear of the auditorium using a 35mm lens, capturing a wide shot that shows the stage, speaker, and the assembled crowd inside the Trichy hall. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide shot of the exterior entrance gate of a decorated marriage hall along a main road in Trichy city during a major political function. Guests dressed in traditional white shirts and veshtis walk through the main entrance arch embellished with fresh marigold flower strings, seen from behind. Several white SUV motor cars and two-wheelers are parked along the side of the asphalt street outside the venue. The distinct outline of the Rockfort hill is faintly visible in the far distance against a clear blue sky. Bright midday sunlight lights up the street scene, capturing the bustling atmosphere outside the event hall. The eye-level 35mm wide photo highlights the venue location and parked vehicles. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dailythanthi.com/news/tamilnadu/dmk-government-is-set-to-emerge-in-tamil-nadu-soon-mk-stalins-remarks",
+   "published": "2026-11-16T05:16:42Z",
+   "verification": "DRAFT (gemini/gemini-3.6-flash) - fact-check: no problems found",
+   "note": "free-model draft gemini/gemini-3.6-flash, 2 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794826498/trichy360/xzelxermjb40q75xbo50.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794826519/trichy360/ig2qv4vuiu328uwj13r0.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "திருச்சி கிழக்கில் விரைவில் இடைத்தேர்தல் வரும்: திமுக தலைவர் மு.க.ஸ்டாலின் பேச்சு",
+   "english_headline": "Trichy East by-election coming soon, says DMK President MK Stalin at KN Nehru family wedding in Chennai",
+   "category": "Government & Services",
+   "location": "Trichy East, Trichy district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "அரசியல்",
+    "loc": "திருச்சி கிழக்கு",
+    "hl1": "திருச்சி கிழக்கில் விரைவில் இடைத்தேர்தல்",
+    "hl2": "ஸ்டாலின் சென்னையில் பேச்சு",
+    "slides": [
+     {
+      "title": "இடைத்தேர்தல்",
+      "lines": [
+       "<b>திருச்சி கிழக்கில்</b> விரைவில் இடைத்தேர்தல் வரும்",
+       "திமுக தலைவர் <b>மு.க.ஸ்டாலின்</b> அறிவிப்பு",
+       "சென்னையில் நடைபெற்ற திருமண விழாவில் பேச்சு"
+      ]
+     },
+     {
+      "title": "திருமண விழா",
+      "lines": [
+       "திமுக முதன்மைச் செயலாளர் <b>கே.என்.நேரு</b> இல்லத் திருமணம்",
+       "மணமக்கள் விஷால் நாராயண் - ரிஷாவுக்கு வாழ்த்து",
+       "40 ஆண்டுகள் கழகத்திற்கு உழைத்தவர் எனப் பாராட்டு"
+      ]
+     },
+     {
+      "title": "ஸ்டாலின் பேச்சு",
+      "lines": [
+       "தமிழகத்தில் சீர்கெட்ட ஆட்சி விரைவில் முடியும்",
+       "விரைவில் திமுக ஆட்சி தமிழகத்தில் உதயமாகும்",
+       "இடைத்தேர்தலில் திமுக வெற்றி பெறும் என உறுதி"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சி கிழக்கில் விரைவில் இடைத்தேர்தல் வரும் என திமுக தலைவர் மு.க.ஸ்டாலின் தெரிவித்துள்ளார். சென்னையில் திமுக முதன்மைச் செயலாளர் கே.என்.நேரு இல்லத் திருமண விழா நடைபெற்ற நிலையில், அதில் தலைமை தாங்கிய மு.க.ஸ்டாலின், மணமக்கள் விஷால் நாராயண் - ரிஷா தம்பதியை வாழ்த்தினார். அப்போது பேசிய அவர், 40 ஆண்டுகளாகக் கழகத்திற்காக உழைத்தவர் கே.என்.நேரு என்று பெருமையுடன் கூறினார். மேலும் மாநாடு என்றால் கே.என்.நேரு தான் என்றும், தலைவர் கலைஞரையும் நேருவையும் போல என்னையும் நேருவையும் பிரிக்க முடியாது என்றும் தெரிவித்தார். கலைஞர் மறைவுக்குப் பின் திமுக வெற்றிநடை போட கே.என்.நேரு போன்ற தலைவர்களும் முக்கிய காரணம் என்றார். தொடர்ந்து பேசிய அவர், தமிழகத்தில் கடந்த 6 மாதங்களாக ஆட்சி நடக்கவில்லை, வெறும் காட்சிதான் நடக்கிறது என கடுமையாக விமர்சித்தார். இதனால் தற்போதைய சீர்கெட்ட ஆட்சி முடிவுக்கு வந்து, விரைவில் திமுக ஆட்சி மீண்டும் உதயமாகும் என்றார். இதையடுத்து வரப்போகும் திருச்சி கிழக்கு இடைத்தேர்தலில் திமுக வெற்றி பெற்று சீர்கெட்ட ஆட்சியை முடிவுக்குக் கொண்டுவரும் என்றும் மு.க.ஸ்டாலின் உறுதி அளித்தார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🗳️ திருச்சி கிழக்கில் விரைவில் இடைத்தேர்தல்: மு.க.ஸ்டாலின் பேச்சு\n\n📰 முழு விவரம்:\nசென்னையில் திமுக முதன்மைச் செயலாளர் கே.என்.நேரு இல்லத் திருமண விழா நடைபெற்றது. அதில் கலந்துகொண்ட திமுக தலைவர் மு.க.ஸ்டாலின், மணமக்கள் விஷால் நாராயண் - ரிஷா தம்பதியை வாழ்த்தித் திருமணத்தை நடத்தி வைத்தார்.\n\nநிகழ்ச்சியில் பேசிய அவர், 40 ஆண்டுகளாகக் கழகத்திற்கு உழைத்தவர் கே.என்.நேரு என்றும், மாநாடு என்றால் நேருதான் என்றும் பாராட்டினார். கலைஞர் மறைவுக்குப் பிறகு கழகம் வெற்றிநடை போட நேரு போன்றவர்களின் உழைப்பே முக்கிய காரணம் என்றார்.\n\nமேலும் தமிழகத்தில் கடந்த 6 மாதங்களாக ஆட்சி நடக்கவில்லை, காட்சிதான் நடக்கிறது என விமர்சித்த அவர், விரைவில் சீர்கெட்ட ஆட்சி முடிந்து திமுக ஆட்சி உதயமாகும் என்றார். திருச்சி கிழக்கில் விரைவில் இடைத்தேர்தல் வரவுள்ளதாகவும், அதில் திமுக வெற்றி பெறும் என்றும் மு.க.ஸ்டாலின் தெரிவித்துள்ளார்.\n\n📍 இடம்: திருச்சி கிழக்கு தொகுதி\n🏛️ நிகழ்வு: திருமண விழா உரை\n🗣️ கூறியவர்: திமுக தலைவர் மு.க.ஸ்டாலின்\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்\n\nTrichy East by-election coming soon says MK Stalin | Trichy news\n📍 திருச்சி கிழக்கு, திருச்சி மாவட்டம் | 16 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyEast #TrichyNews #திருச்சி",
+   "prompts": "A political leader wearing a crisp white shirt and traditional veshti stands at a podium microphone on a decorated wedding stage, addressing a large indoor gathering. The scene takes place on an auditorium stage adorned with backdrops of fresh marigold and pink flower strings. On stage, seated dignitaries in white traditional attire and a bride and groom in silk wedding clothes are visible in soft focus. The speaker is captured from a side-rear perspective so no facial features are identifiable. Bright indoor stage lighting illuminates the podium and flower arrangements. Captured at eye level with a 35mm lens, wide enough to show the grand stage setting. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide view from the back of a large marriage hall showing rows of seated guests in traditional Tamil attire watching a distant illuminated stage. The interior features decorated hall pillars, ceiling lights, and rows of audience chairs occupied by men in shirts and women in colourful silk sarees, seen from behind. In the distance, the grand stage with flower decorations and podium setup is brightly lit under indoor hall lighting. Shot from a wide rear camera angle using a 35mm lens to capture the full atmosphere of the gathering. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://tamil.oneindia.com/news/chennai/mk-stalin-predicts-trichy-east-by-election-says-dmk-will-return-to-power-845765.html",
+   "published": "2026-11-16T12:01:25+05:30",
+   "verification": "DRAFT (gemini/gemini-3.6-flash + proofread gemini/gemini-3.6-flash) - fact-check: no problems found",
+   "note": "free-model draft gemini/gemini-3.6-flash + proofread gemini/gemini-3.6-flash, 2 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794826550/trichy360/jf97p054cgrir9xwr20m.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794826554/trichy360/k5ucmvxgymv5uobxk94w.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "ஸ்ரீரங்கம் அரசு மருத்துவமனை 50 ஆண்டு வாடகை நிலுவை: அறிக்கை தாக்கல் செய்ய நீதிமன்றம் உத்தரவு",
+   "english_headline": "Srirangam Govt Hospital 50-year rent arrears: High Court orders HR&CE report",
+   "category": "Government & Services",
+   "location": "Srirangam, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "நீதிமன்ற உத்தரவு",
+    "loc": "ஸ்ரீரங்கம்",
+    "hl1": "ஸ்ரீரங்கம் அரசு மருத்துவமனை நிலுவை வாடகை",
+    "hl2": "50 ஆண்டுகளாக நிலுவை",
+    "slides": [
+     {
+      "title": "வாடகை நிலுவை",
+      "lines": [
+       "ஸ்ரீரங்கம் ரங்கநாதர் கோவில் இடத்தில் மருத்துவமனை இயங்குகிறது",
+       "கடந்த <b>50 ஆண்டுகளாக</b> வாடகை செலுத்தவில்லை என வழக்கு",
+       "உயர்நீதிமன்ற மதுரை அமர்வில் மனு தாக்கல் செய்யப்பட்டது"
+      ]
+     },
+     {
+      "title": "நீதிமன்ற கேள்வி",
+      "lines": [
+       "வழக்கை விசாரித்த நீதிபதிகள் அதனை தள்ளுபடி செய்தனர்",
+       "அரசே வாடகை செலுத்தாவிட்டால் மக்களிடம் எப்படி வசூலிப்பீர்கள்?",
+       "நீதிபதிகள் அரசு தரப்பிற்கு கடும் கேள்வி எழுப்பினர்"
+      ]
+     },
+     {
+      "title": "அறிக்கை உத்தரவு",
+      "lines": [
+       "அறநிலையத்துறையின் மொத்த நிலுவை தொகை எவ்வளவு?",
+       "நடவடிக்கை குறித்து விரிவான அறிக்கை தாக்கல் செய்ய உத்தரவு",
+       "அறநிலையத்துறை ஆணையருக்கு நீதிமன்றம் ஆணை"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "ஸ்ரீரங்கம் அரசு மருத்துவமனையின் 50 ஆண்டு வாடகை நிலுவை குறித்து நீதிமன்றம் கேள்வி எழுப்பியுள்ளது. திருச்சி ஸ்ரீரங்கம் ரங்கநாதர் கோவிலுக்கு சொந்தமான இடத்தில் அரசு மருத்துவமனை செயல்பட்டு வருகிறது. இந்த மருத்துவமனை நிர்வாகம் கடந்த 50 ஆண்டுகளாக வாடகை செலுத்தவில்லை என்று கூறப்படுகிறது. நிலுவையில் உள்ள வாடகையை வசூலிக்க உத்தரவிடக் கோரி உயர்நீதிமன்ற மதுரை அமர்வில் வழக்கு தொடரப்பட்டது. இந்த வழக்கை விசாரித்த நீதிபதிகள் அதனை தள்ளுபடி செய்து உத்தரவிட்டனர். அப்போது அரசே முறையாக வாடகையை செலுத்தவில்லை என்றால் மற்றவர்களிடம் இருந்து அரசு எப்படி வாடகை வசூலிக்கும் என்று நீதிபதிகள் கேள்வி எழுப்பினர். மேலும் இந்து சமய அறநிலையத்துறையின் கீழ் வசூலிக்கப்படாமல் நிலுவையில் உள்ள மொத்த வாடகை தொகை எவ்வளவு என்று வினவினர். வாடகை செலுத்தாதவர்கள் மீது எடுக்கப்பட்ட நடவடிக்கைகள் குறித்து விரிவான அறிக்கை தாக்கல் செய்ய ஆணையருக்கு உத்தரவிடப்பட்டுள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "⚖️ ஸ்ரீரங்கம் அரசு மருத்துவமனை 50 ஆண்டு வாடகை நிலுவை: அறிக்கை தாக்கல் செய்ய நீதிமன்றம் உத்தரவு\n\n📰 முழு விவரம்:\nதிருச்சி ஸ்ரீரங்கம் ரங்கநாதர் கோவிலுக்கு சொந்தமான இடத்தில் செயல்பட்டு வரும் ஸ்ரீரங்கம் அரசு மருத்துவமனை நிர்வாகம், கடந்த 50 ஆண்டுகளாக வாடகை செலுத்தவில்லை என வழக்கு தொடரப்பட்டது. இந்த நிலுவை தொகையை வசூலிக்க கோரி உயர்நீதிமன்ற மதுரை அமர்வில் மனு தாக்கல் செய்யப்பட்டது.\n\nஇந்த வழக்கை விசாரித்த நீதிபதிகள், மனுவைத் தள்ளுபடி செய்தனர். மேலும், அரசே முறையாக வாடகையை செலுத்தவில்லை என்றால், மற்ற வாடகைதாரர்களிடம் இருந்து அரசு எப்படி முறையாக வாடகை வசூலிக்கும் என கேள்வி எழுப்பினர்.\n\nஅறநிலையத்துறையின் கீழ் வசூலிக்கப்படாமல் நிலுவையில் உள்ள மொத்த வாடகை தொகை எவ்வளவு மற்றும் முறையாக வாடகை செலுத்தாதவர்கள் மீது எடுக்கப்பட்ட நடவடிக்கைகள் என்ன என்பது குறித்து விரிவான அறிக்கையை தாக்கல் செய்ய அறநிலையத்துறை ஆணையருக்கு நீதிபதிகள் உத்தரவிட்டுள்ளனர்.\n\n📍 இடம்: ஸ்ரீரங்கம், திருச்சி மாவட்டம்\n⚖️ நீதிமன்றம்: உயர்நீதிமன்ற மதுரை அமர்வு\n📋 உத்தரவு: நிலுவை வாடகை குறித்த விரிவான அறிக்கை தாக்கல் செய்ய வேண்டும்\n\nSrirangam Govt Hospital rent arrears case | Trichy news\n📍 Srirangam, Trichy | 16 November 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Srirangam #HighCourt #திருச்சி",
+   "prompts": "A panel of judges presides over a hearing on a rent‑arrears case concerning a government hospital. Inside the Madurai High Court courtroom, high ceilings, wooden benches and state flags create a formal setting. Judges sit on an elevated bench, seen from behind in black robes, while lawyers stand at tables with papers, all facing the bench; a court clerk works behind a desk. Wooden judge’s bench, raised bench, stacks of legal documents on the clerk’s desk and a silver gavel are visible. Daylight filters through tall windows, interior lights illuminate the space, no weather visible. Shot from eye level with a 35 mm lens, a medium‑wide frame captures the bench, participants and key objects. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up shows a stack of official legal papers stamped with a court seal, indicating the ordered report on the hospital’s rent arrears. The scene is set on the clerk’s dark‑wood desk inside the same Madurai High Court courtroom. No full figures are shown; only the edge of a judge’s hand reaching for a document is faintly visible. The stack includes legal documents, a red‑ink stamp, a leather‑bound report and a silver gavel placed beside them. Soft overhead lighting highlights the papers, with daylight visible through the courtroom window. Captured from a slightly high angle with a 35 mm lens, the tight framing focuses on the documents and seal. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.polimernews.com/districtnews/case-filed-seeking-recovery-of-pending-rent-from-srirangam-government-hospital-12814129",
+   "published": "2026-11-16T15:40:39.859+05:30",
+   "verification": "DRAFT (gemini/gemini-3-flash-preview) - fact-check: no problems found",
+   "note": "free-model draft gemini/gemini-3-flash-preview, 4 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794826655/trichy360/dt8y5r4jchexanbqzjo9.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794826660/trichy360/lktwjhu6rtg30jqit5kx.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "ஆதவ் அர்ஜுனா – டெய்சி மார்ட்டின் 14 ஆண்டு திருமண உறவு முடிவுக்கு வந்தது",
+   "english_headline": "Aadhav Arjuna and Daisy Martin end 14-year marriage by mutual consent; family photos go viral",
+   "category": "Government & Services",
+   "location": "லால்குடி, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "சமூகச் செய்தி",
+    "loc": "திருச்சி மாவட்டம்",
+    "hl1": "14 ஆண்டு திருமண உறவு முடிவுக்கு வந்தது",
+    "hl2": "பரஸ்பர சம்மதத்துடன் பிரிவு",
+    "slides": [
+     {
+      "title": "என்ன நடந்தது?",
+      "lines": [
+       "ஆதவ் அர்ஜுனாவுடனான திருமண உறவை டெய்சி மார்ட்டின்",
+       "இருவரும் <b>14 ஆண்டுகள்</b> தம்பதிகளாக வாழ்ந்தனர்",
+       "பரஸ்பர சம்மதத்துடன் தனித்தனி பாதையில் செல்ல முடிவு"
+      ]
+     },
+     {
+      "title": "பின்னணி",
+      "lines": [
+       "டெய்சி மார்ட்டின், <b>2012</b>ஆம் ஆண்டு ஆதவ் அர்ஜுனாவை",
+       "இவர்களுக்கு ஒரு ஆண் குழந்தை உள்ளது",
+       "தொழிலதிபர் மார்ட்டின், லால்குடி எம்எல்ஏ லீமா ரோஸ் ஆகியோரின்"
+      ]
+     },
+     {
+      "title": "இணையத்தில் வைரல்",
+      "lines": [
+       "இருவரின் குடும்பப் புகைப்படங்கள் சமூக ஊடகங்களில் வைரலாகின்றன",
+       "ஆதவ் அர்ஜுனா அமைச்சராகப் பதவியேற்ற விழாவில் டெய்சி",
+       "இணையவாசிகளின் கவனத்தை இந்தச் செய்தி ஈர்த்துள்ளது"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "பிரபல அரசியல் தம்பதிகளின் 14 ஆண்டு திருமண வாழ்க்கை முடிவுக்கு வந்துள்ளது. ஆதவ் அர்ஜுனாவுடனான திருமண உறவை முறித்துக்கொள்வதாக டெய்சி மார்ட்டின் அறிவித்துள்ளார். டெய்சி மார்ட்டின், 2012ஆம் ஆண்டு ஆதவ் அர்ஜுனாவை திருமணம் செய்துகொண்டார். இவர்களுக்கு ஒரு ஆண் குழந்தை உள்ளது. பிரபல தொழிலதிபர் மார்ட்டின், லால்குடி அதிமுக எம்எல்ஏ லீமா ரோஸ் ஆகியோரின் மகள்தான் டெய்சி மார்ட்டின். ஆதவ் அர்ஜுனா அமைச்சராகப் பதவியேற்ற விழாவில் டெய்சி மார்ட்டின் கலந்துகொண்டார். இருவரும் பரஸ்பர சம்மதத்துடன் தம்பதிகளாகப் பிரிந்து, தனித்தனி பாதையில் பயணிக்க முடிவு செய்துள்ளனர். இவர்களின் குடும்பப் புகைப்படங்கள் சமூக ஊடகங்களில் வைரலாகி வருகின்றன. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "💔 ஆதவ் அர்ஜுனா – டெய்சி மார்ட்டின் 14 ஆண்டு திருமண உறவு முடிவுக்கு வந்தது\n\n📰 முழு விவரம்:\nஆதவ் அர்ஜுனாவுடனான திருமண உறவை முறித்துக்கொள்வதாக டெய்சி மார்ட்டின் அறிவித்துள்ளார். டெய்சி மார்ட்டின், 2012ஆம் ஆண்டு ஆதவ் அர்ஜுனாவை திருமணம் செய்துகொண்டார். இவர்களுக்கு ஒரு ஆண் குழந்தை உள்ளது. தொழிலதிபர் மார்ட்டின், லால்குடி அதிமுக எம்எல்ஏ லீமா ரோஸ் ஆகியோரின் மகள்தான் டெய்சி மார்ட்டின். ஆதவ் அர்ஜுனா அமைச்சராகப் பதவியேற்ற விழாவில் டெய்சி மார்ட்டின் கலந்துகொண்டார். இருவரும் 14 ஆண்டுகள் தம்பதிகளாக வாழ்ந்து வந்தனர். இந்நிலையில் பரஸ்பர சம்மதத்துடன் பிரிந்து, தனித்தனி பாதையில் பயணிக்க முடிவு செய்துள்ளனர். இருவரின் குடும்பப் புகைப்படங்கள் சமூக ஊடகங்களில் வைரலாகி வருகின்றன.\n\nAadhav Arjuna Daisy Martin separation after 14 years | Trichy news\n📍 திருச்சி மாவட்டம் | 16 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #TamilNadu",
+   "prompts": "A close view from behind of a man's hand holding a smartphone in a modest Tamil Nadu living room in Trichy, where a glowing screen shows a social media feed with a family photo, though the screen content is blurred and unreadable. The phone sits near a steel tumbler of filter coffee on a wooden table, with a framed photo ledge and a ceiling fan above. Trichy's typical house interior with a cream-painted wall, a tiled floor and a folded newspaper nearby suggests a middle-class home. The man is seen from behind and out of focus, wearing a white shirt. Soft daylight enters through a window at the side. Shot at eye level, 35 mm, showing the room and the phone in the foreground to emphasise a family photo going viral online. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA detail close-up of a smartphone resting on a wooden table, its screen showing a blurred family photo with the image abstracted, with no readable text or faces. Beside it lies a folded white handkerchief and a small brass lamp, suggesting a quiet Tamil home in Trichy. In the background, slightly out of focus, a window lets in soft afternoon light and a glimpse of a cream wall. The scene conveys a viral family photo and a quiet private moment, with no people visible except a hand from behind. Shot at 35 mm, close framing, shallow depth of field, eye level. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://tamil.oneindia.com/photos/aadhav-arjuna-daisy-martin-family-photos-goes-trendy-on-social-media-oi128795.html",
+   "published": "2026-11-16T14:38:42+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: slides_spec.loc 'திருச்சி மாவட்டம்' is only the district: write the town / village / area the article names (people share news of their own area)",
    "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794788554/trichy360/x7kwkbaq9i3emkvdhkww.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794788586/trichy360/n2gybskpdwcfcf2ao1r8.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794826701/trichy360/odocfphsrua5dsgkxp9q.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794826705/trichy360/pddmjhaqxvpiyd9k0fzy.jpg"
    ]
   },
   {
-   "tamil_headline": "துறையூர் அருகே கிணற்றில் மூதாட்டி சடலமாக மீட்பு",
-   "english_headline": "Elderly woman found dead in a well near Thuraiyur",
-   "category": "Crime & Safety",
-   "location": "Visuvampalsamudram North village, Upliliyapuram, Thuraiyur taluk, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "சடலம் மீட்பு",
-    "loc": "துறையூர், திருச்சி மாவட்டம்",
-    "hl1": "துறையூர் அருகே கிணற்றில் மூதாட்டி சடலம்",
-    "hl2": "ஞாயிற்றுக்கிழமை மீட்பு",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "துறையூர் அருகே மூதாட்டி கிணற்றில் சடலமாக மீட்பு",
-       "உயிரிழந்தவர் கோட்டப்பாளையத்தைச் சேர்ந்த <b>80 வயது</b> புஷ்பம்",
-       "ஞாயிற்றுக்கிழமை மீட்கப்பட்டார்"
-      ]
-     },
-     {
-      "title": "காணாமல் போனது",
-      "lines": [
-       "மனநலம் பாதிக்கப்பட்ட புஷ்பம் சென்னையில் சிகிச்சை பெற்றவர்",
-       "தீபாவளிக்காக சொந்த ஊருக்கு அழைத்து வரப்பட்டார்",
-       "<b>8ஆம் தேதி</b> முதல் காணவில்லை"
-      ]
-     },
-     {
-      "title": "போலீஸ் நடவடிக்கை",
-      "lines": [
-       "மகன் நித்தியானந்தன் கொடுத்த புகாரில் வழக்குப் பதிவு",
-       "விசுவாம்பாள்சமுத்திரம் வடக்கு கிராமத்தில் வயல் கிணற்றில்",
-       "சடலம் துறையூர் அரசு மருத்துவமனைக்கு அனுப்பி விசாரணை"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "துறையூர் அருகே 80 வயது மூதாட்டி ஒருவர் கிணற்றில் சடலமாக மீட்கப்பட்டார். கோட்டப்பாளையத்தைச் சேர்ந்த ரா. புஷ்பம் என்ற இந்த மூதாட்டி மனநலம் பாதிக்கப்பட்டவர். சென்னையில் உறவினர்கள் இவருக்குச் சிகிச்சை அளித்தனர். தீபாவளிக்காக சொந்த ஊருக்கு அழைத்து வரப்பட்ட இவர், அக்டோபர் மாதம் 8ஆம் தேதி முதல் காணவில்லை. அவரது மகன் நித்தியானந்தன் கொடுத்த புகாரின் பேரில் உப்பிலியபுரம் போலீசார் வழக்குப் பதிவு செய்தனர். இந்நிலையில், விசுவாம்பாள்சமுத்திரம் வடக்கு கிராமத்தில் மணிவண்ணனுக்குச் சொந்தமான வயல் கிணற்றில் அவர் சடலமாக மிதந்தார். தகவல் அறிந்த உப்பிலியபுரம் போலீசார் சடலத்தை மீட்டு, துறையூர் அரசு மருத்துவமனைக்கு அனுப்பி வைத்து விசாரித்து வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🙏 துறையூர் அருகே கிணற்றில் மூதாட்டி சடலமாக மீட்பு\n\n📰 முழு விவரம்:\nதுறையூர் அருகே கோட்டப்பாளையத்தைச் சேர்ந்த ரா. புஷ்பம் (80 வயது) என்ற மூதாட்டி ஞாயிற்றுக்கிழமை கிணற்றில் சடலமாக மீட்கப்பட்டார். மனநலம் பாதிக்கப்பட்ட இவருக்குச் சென்னையில் உறவினர்கள் சிகிச்சை அளித்தனர். தீபாவளிக்காக சொந்த ஊருக்கு அழைத்து வரப்பட்ட இவர் 8ஆம் தேதி முதல் காணவில்லை. அவரது மகன் நித்தியானந்தன் கொடுத்த புகாரின் பேரில் உப்பிலியபுரம் போலீசார் வழக்குப் பதிவு செய்தனர். விசுவாம்பாள்சமுத்திரம் வடக்கு கிராமத்தில் மணிவண்ணனுக்குச் சொந்தமான வயல் கிணற்றில் சடலம் மிதந்தது. போலீசார் சடலத்தை மீட்டு துறையூர் அரசு மருத்துவமனைக்கு அனுப்பி விசாரித்து வருகின்றனர்.\n📍 இடம்: விசுவாம்பாள்சமுத்திரம் வடக்கு கிராமம், உப்பிலியபுரம், துறையூர், திருச்சி மாவட்டம்\n👮 நடவடிக்கை: உப்பிலியபுரம் போலீசார் விசாரணை\n\nThuraiyur elderly woman found dead in well | Trichy news\n📍 துறையூர், திருச்சி மாவட்டம் | 15 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thuraiyur #TrichyNews #திருச்சி",
-   "prompts": "A police constable in khaki and two village men stand at the edge of a circular stone farm well in a green paddy field in Visuvampalsamudram North village, Thuraiyur taluk, Trichy district, Tamil Nadu, seen from behind at a distance. The well has a low concrete parapet and a rope, and the men are lifting a covered body from the water with a long rope and a cloth sheet, with the wet ground and a few plastic chappals nearby. Behind them the flat paddy fields stretch toward a line of palm trees under a bright Sunday daylight sky. Villagers in shirts and veshtis watch quietly from a distance, some holding their heads. Shot at eye level on a 35 mm lens, wide enough to show the field, the well and the police, with no faces visible and no readable text. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of the mouth of a rural farm well in a paddy field, with a damp concrete parapet, a coiled rope tied to a wooden post and a few wet footprints in the mud at its edge. Dark water sits inside the well, with a faint ripple where the body was lifted out, and a folded white cloth lies on the ground beside a police khaki sleeve, partly out of frame. Green paddy stalks and a low bund of soil frame the scene in soft daylight. The shot is taken from slightly high at eye level on a 35 mm lens, focused on the well and the rope, with no faces, no text and no visible injuries. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/கிணற்றில்-மூதாட்டி-சடலமாக-மீட்பு-2",
-   "published": "2026-11-15T22:58:01.734Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 8ஆம் தேதி in slides/caption) as a specific month, but the article gives only 'கடந்த 8 ஆம் தேதி' with no month named; 'அக்டோபர்' is an invented detail.; fact-check: The reel_script states the body was found in the well belonging to Manivannan, a detail present in the article, but the reel_script's second sentence says 'சென்னையில் உறவினர்கள் இவருக்குச் சிகிச்சை அளித்தனர்' which is accurate; no further issue there, however the caption's English footer line 'Thuraiyur elderly woman found dead in well' is outside the exempt footer only in its content and is not a claim error.",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 2 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794788595/trichy360/lmjkwfsenqauhrflawj2.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794788599/trichy360/ccci8heajysmwcxniwqc.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சியில் வெவ்வேறு விபத்துகளில் இருவர் உயிரிழப்பு",
-   "english_headline": "Two killed in separate accidents in Trichy",
-   "category": "Roads & Transport",
-   "location": "Trichy city, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "சாலை விபத்து",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சியில் இரு வேறு விபத்துகளில்",
-    "hl2": "இருவர் மீதும் வழக்குப் பதிவு",
-    "slides": [
-     {
-      "title": "முதல் விபத்து",
-      "lines": [
-       "திருச்சி மேலரண் சாலையில் ஆட்டோ மோதியதில் வரதராஜன் (50 வயது)",
-       "சாலையைக் கடக்க முயன்றபோது விபத்து நடந்தது",
-       "அரசு மருத்துவமனைக்குக் கொண்டு செல்லும்போதே உயிரிழந்தது"
-      ]
-     },
-     {
-      "title": "இரண்டாம் விபத்து",
-      "lines": [
-       "திருச்சி - சென்னை புறவழிச்சாலையில் பைக் மோதியதில் சுவாதி",
-       "அக். 15ஆம் தேதி நடந்த இந்த விபத்தில் மொபெட்டில் சென்றார்",
-       "சிகிச்சைப் பலனின்றி சனிக்கிழமை உயிரிழந்தார்"
-      ]
-     },
-     {
-      "title": "போலீஸ் விசாரணை",
-      "lines": [
-       "திருச்சி வடக்குப் போக்குவரத்துப் புலனாய்வுப் பிரிவு",
-       "ஆட்டோ ஓட்டுநர் பாரதி (31 வயது) மீது விசாரணை நடைபெறுகிறது",
-       "பைக் ஓட்டுநர் பிரவீன் நிக்கோலஸ் (19 வயது) மீதும் விசாரணை"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சியில் வெவ்வேறு விபத்துகளில் இரண்டு பேர் சனிக்கிழமை உயிரிழந்தனர். துறையூர் உப்பிலியபுரத்தைச் சேர்ந்த பொ. வரதராஜன் (50 வயது) சனிக்கிழமை மாலை திருச்சி மேலரண் சாலையில் சாலையைக் கடக்க முயன்றபோது வேகமாக வந்த ஆட்டோ மோதியதில் பலத்த காயமடைந்தார். அவர் அரசு மருத்துவமனைக்குக் கொண்டு செல்லப்பட்டபோது ஏற்கெனவே உயிரிழந்தது தெரியவந்தது. திருச்சி வடக்குப் போக்குவரத்துப் புலனாய்வுப் பிரிவு போலீசார் வழக்குப் பதிவு செய்து ஆட்டோ ஓட்டுநர் பாலக்கரை ஜெயில்பேட்டையைச் சேர்ந்த எஸ். பாரதியிடம் (31 வயது) விசாரிக்கின்றனர். பொன்மலைப்பட்டி முல்லை நகரைச் சேர்ந்த சுவாமிநாதனின் மகள் சுவாதி (26 வயது), அக்டோபர் 15ஆம் தேதி திருச்சி - சென்னை புறவழிச்சாலை அப்பல்லோ மருத்துவமனை அணுகுச் சாலையில் மொபெட்டில் சென்றபோது, எதிர்திசையில் அதிவேகத்தில் வந்த பைக் மோதியதில் பலத்த காயமடைந்தார். தனியார் மருத்துவமனைகளில் சிகிச்சை பெற்ற சுவாதி, சனிக்கிழமை சிகிச்சைப் பலனின்றி உயிரிழந்தார். பைக்கை ஓட்டிவந்த பாலக்கரையைச் சேர்ந்த ஜெ. பிரவீன் நிக்கோலஸ் (19 வயது) என்பவரிடம் போலீசார் விசாரிக்கின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சியில் வெவ்வேறு விபத்துகளில் இருவர் உயிரிழப்பு\n\n📰 முழு விவரம்:\nதிருச்சியில் வெவ்வேறு விபத்துகளில் இருவர் சனிக்கிழமை உயிரிழந்தனர். துறையூர் உப்பிலியபுரத்தைச் சேர்ந்த பொ. வரதராஜன் (50 வயது) சனிக்கிழமை மாலை திருச்சி மேலரண் சாலையில் கணேஷ் பேக்கரி அருகே சாலையைக் கடக்க முயன்றபோது வேகமாக வந்த ஆட்டோ மோதியதில் பலத்த காயமடைந்தார். அரசு மருத்துவமனையில் அவர் ஏற்கெனவே உயிரிழந்திருந்தது தெரியவந்தது.\nஅக். 15ஆம் தேதி திருச்சி - சென்னை புறவழிச்சாலை அப்பல்லோ மருத்துவமனை அணுகுச் சாலையில் மொபெட்டில் சென்ற பொன்மலைப்பட்டி முல்லை நகரைச் சேர்ந்த சுவாதி (26 வயது) மீது எதிர்திசையில் அதிவேகத்தில் வந்த பைக் மோதியது. தனியார் மருத்துவமனைகளில் சிகிச்சை பெற்ற அவர் சனிக்கிழமை உயிரிழந்தார்.\n👮 நடவடிக்கை: திருச்சி வடக்குப் போக்குவரத்துப் புலனாய்வுப் பிரிவு போலீசார் வழக்குப் பதிவு செய்து, ஆட்டோ ஓட்டுநர் எஸ். பாரதி (31 வயது), பைக் ஓட்டுநர் ஜெ. பிரவீன் நிக்கோலஸ் (19 வயது) ஆகியோரிடம் விசாரிக்கின்றனர்.\n\nTwo killed in separate Trichy accidents | Trichy news\n📍 திருச்சி மாவட்டம் | 15 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Accident",
-   "prompts": "A pedestrian-free stretch of a busy Trichy city road in the early evening shows a single black-and-yellow autorickshaw stopped at the roadside, its front slightly crumpled, while two Tamil Nadu police in khaki stand beside it at a distance, and a small cluster of onlookers in shirts and sarees watches from the pavement. The place is a main road in Trichy city lined with small shops, including a bakery storefront whose sign is not readable, with two-wheelers parked along the kerb and a few town buses further down the road. A man's chappal lies on the tarmac near a yellow-painted median, marking where the pedestrian was struck, with no injured people or bodies visible. The scene is late Saturday evening under street lights and shop lights, with the road still wet-free and dry. Shot at eye level from about 20 metres away on a 35 mm lens, wide enough to show the shops, the autorickshaw, the police and the road. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up detail of a crumpled silver moped and a dented motorcycle lying on the edge of a concrete bypass service lane, with broken plastic fragments scattered on the tarmac and a traffic cone placed beside them. Behind is the access road of a hospital compound with its boundary wall and a blurred row of trees, and a Tamil Nadu police officer in khaki stands far back, seen from behind, making notes. Two-wheelers and a car pass slowly on the main bypass in the background. The light is late afternoon daylight with long soft shadows. Camera is slightly high, close on the damaged vehicles with a 35 mm lens, the bypass and hospital wall visible behind them. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/வெவ்வேறு-விபத்துகளில்இருவா்-உயிரிழப்பு-2",
-   "published": "2026-11-15T21:44:53.636Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): பாலக்கரை ('இதையடுத்து திருச்சி அரசு மருத்துவமனைக்கு அவரைக் கொண்டு சென்ற'); பாலக்கரை ('இதையடுத்து இங்குள்ள தனியாா் மருத்துவமனையிலும், பின்னா் கோவைய')",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794788605/trichy360/ookmncmmzqj3n4rvlzbr.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794788609/trichy360/dmmmdpuv7prg0qgcquac.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சி அருகே விவசாயி வெட்டிக் கொலை",
-   "english_headline": "Farmer hacked to death near Trichy by unidentified persons",
-   "category": "Crime & Safety",
-   "location": "Podhavur, Somarasampettai police limits, Trichy district",
+   "tamil_headline": "திருச்சி அரசு மருத்துவமனையில் ரேடியோதெரபி சிகிச்சை இல்லை: நோயாளிகள் கடும் அவதி",
+   "english_headline": "Lack of Radiotherapy facility at Trichy MGM Hospital forces cancer patients to travel to Thanjavur or Madurai",
+   "category": "Health",
+   "location": "Mahatma Gandhi Memorial Government Hospital, Trichy city, Trichy district",
    "importance": "High",
-   "scope": "",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "குற்றச் செய்தி",
-    "loc": "போதாவூர், திருச்சி",
-    "hl1": "திருச்சி அருகே விவசாயி வெட்டிக் கொலை",
-    "hl2": "சோமரசம்பேட்டை போலீஸ் விசாரணை",
+    "cat": "சிகிச்சை வசதி",
+    "loc": "திருச்சி அரசு மருத்துவமனை",
+    "hl1": "திருச்சியில் ரேடியோதெரபி சிகிச்சை இல்லை",
+    "hl2": "புற்றுநோயாளிகள் கடும் அவதி",
     "slides": [
      {
-      "title": "என்ன நடந்தது?",
+      "title": "என்ன பிரச்சனை?",
       "lines": [
-       "போதாவூரில் விவசாயி பாண்டியன் வெட்டிக் கொலை",
-       "வயது <b>49</b>, தந்தை பெயர் ராஜலிங்கம்",
-       "ஞாயிற்றுக்கிழமை இரவு நடந்தது"
+       "திருச்சி அரசு மருத்துவமனையில் <b>ரேடியோதெரபி</b> வசதி இல்லை",
+       "புற்றுநோயாளிகள் தஞ்சாவூர் அல்லது மதுரைக்கு அலையும் நிலை",
+       "தினமும் <b>30</b> முதல் <b>50</b> நோயாளிகள் வருகை"
       ]
      },
      {
-      "title": "எப்படி நடந்தது?",
+      "title": "பணியாளர்",
       "lines": [
-       "இருசக்கர வாகனத்தில் சென்றபோது சம்பவம்",
-       "பைக்கில் வந்த மர்ம நபர்கள் வெட்டினர்",
-       "வெட்டிவிட்டு அவர்கள் தப்பினர்"
+       "<b>18</b> மருத்துவர்கள் தேவைப்படும் இடத்தில் ஒருவர் மட்டுமே உள்ளார்",
+       "<b>36</b> செவிலியர்கள் மற்றும் <b>10</b> உதவியாளர்கள் தேவை",
+       "தற்போது கீமோதெரபி, அறுவை சிகிச்சை மட்டுமே நடக்கிறது"
       ]
      },
      {
-      "title": "போலீஸ் நடவடிக்கை",
+      "title": "அடுத்த கட்டம்",
       "lines": [
-       "சோமரசம்பேட்டை போலீஸார் சடலத்தைக் கைப்பற்றினர்",
-       "திருச்சி அரசு மருத்துவமனைக்கு அனுப்பப்பட்டது",
-       "வழக்குப் பதிந்து விசாரணை நடைபெறுகிறது"
+       "ரூ. <b>9.25 கோடி</b> மதிப்பில் பெட்-சிடி ஸ்கேன் விரைவில் வரும்",
+       "ரூ. <b>6 கோடியில்</b> ரேடியோதெரபி கருவி வாங்க அனுமதி",
+       "அவசர சிகிச்சை பிரிவு பின்புறம் இடம் தேர்வு"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சி அருகே போதாவூரில் விவசாயி ஒருவர் வெட்டிக் கொல்லப்பட்டார். ஞாயிற்றுக்கிழமை இரவு, இருசக்கர வாகனத்தில் சென்றபோது மர்ம நபர்கள் அவரை வெட்டிக் கொன்றுவிட்டுத் தப்பினர். கொல்லப்பட்டவர் போதாவூரைச் சேர்ந்த 49 வயது விவசாயி பாண்டியன். அவர் ராஜலிங்கத்தின் மகன். தகவலறிந்து சென்ற சோமரசம்பேட்டை போலீஸார் பாண்டியனின் சடலத்தைக் கைப்பற்றி, திருச்சி அரசு மருத்துவமனைக்கு அனுப்பினர். திருச்சி மாவட்டக் காவல் கண்காணிப்பாளர் டோங்கரே பிரவீன் உமேஷ் சம்பவ இடத்துக்கு நேரில் சென்று ஆய்வு நடத்தினார். சோமரசம்பேட்டை போலீஸார் வழக்குப் பதிந்து விசாரித்து வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம் போதாவூரைச் சேர்ந்த விவசாயி பாண்டியன் (49 வயது), ஞாயிற்றுக்கிழமை இரவு இருசக்கர வாகனத்தில் சென்றபோது மர்ம நபர்களால் வெட்டிக் கொல்லப்பட்டார். பைக்கில் வந்த அந்த நபர்கள் வெட்டிவிட்டுத் தப்பினர்.\nதகவலறிந்து வந்த சோமரசம்பேட்டை போலீஸார் பாண்டியனின் சடலத்தைக் கைப்பற்றி திருச்சி அரசு மருத்துவமனைக்கு அனுப்பினர். மாவட்டக் காவல் கண்காணிப்பாளர் டோங்கரே பிரவீன் உமேஷ் சம்பவ இடத்தில் நேரில் ஆய்வு நடத்தினார். சோமரசம்பேட்டை போலீஸார் வழக்குப் பதிந்து விசாரித்து வருகின்றனர்.\n\n📍 இடம்: போதாவூர், சோமரசம்பேட்டை காவல் எல்லை, திருச்சி மாவட்டம்\n🗓️ நாள்: ஞாயிற்றுக்கிழமை இரவு\n👮 நடவடிக்கை: சடலம் கைப்பற்றப்பட்டது; வழக்குப் பதிவு செய்து விசாரணை நடைபெறுகிறது\n\nTrichy farmer murder Podhavur | Trichy news\n📍 போதாவூர், திருச்சி மாவட்டம்\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்.\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Podhavur",
-   "prompts": "A village road at night in Podhavur, near Somarasampettai, Trichy district, shows a parked two-wheeler lying on its side at the roadside while Tamil Nadu police in khaki stand at a distance around a cordoned spot with a torch beam on the tarmac. Several onlookers, men in shirts and veshti seen from behind, stand well back in the dim streetlight, and a few paddy fields and palm trees line the narrow road under a dark night sky. The scene is quiet and tense, with no bodies or injuries visible. The police jeep is parked with its hazard lights on, and a police officer is writing notes on a clipboard. Shot at eye level, 35 mm, wide enough to show the road, the fields and the scattered police presence, with the two-wheeler in the foreground slightly out of focus. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up detail of a two-wheeler's handlebar and front wheel resting on the dark tarmac of a village road at night, lit by a police torch beam, with a few scattered footprints in the dust and a small heap of crushed dry leaves nearby. Beyond the bike, the blurred silhouettes of police in khaki stand in the distance under a faint streetlight, and paddy field edges fade into darkness. The mood is somber and empty, with no people in sharp focus and no visible injuries. Shot at low angle, 50 mm, shallow depth of field, slightly blurred background, night time, no readable signs or text. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/திருச்சி-அருகே-விவசாயி-வெட்டிக்-கொலை",
-   "published": "2026-11-15T22:54:48.279Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 0 validator problem(s)",
+   "reel_script": "திருச்சி அரசு மருத்துவமனையில் ரேடியோதெரபி சிகிச்சை வசதி இல்லாததால் புற்றுநோயாளிகள் கடும் அவதிக்குள்ளாகி வருகின்றனர். மகாத்மா காந்தி நினைவு அரசு மருத்துவமனைக்கு நாள்தோறும் 30 முதல் 50 புற்றுநோயாளிகள் சிகிச்சைக்காக வந்து செல்கின்றனர். இங்கு கதிர்வீச்சு சிகிச்சை எனப்படும் ரேடியோதெரபி வசதி இல்லாததால் நோயாளிகள் தஞ்சாவூர் அல்லது மதுரைக்குச் செல்ல வேண்டியுள்ளது. தனியார் மருத்துவமனைகளில் சிகிச்சை பெற வசதி இல்லாத ஏழை நோயாளிகள் நீண்ட தூரம் பயணிப்பதால் மிகுந்த மன உளைச்சலுக்கு ஆளாகின்றனர். மருத்துவமனையில் புற்றுநோய் சிகிச்சைக் குழுவில் போதிய மருத்துவர்கள் மற்றும் செவிலியர்கள் இல்லை. 18 மருத்துவர்கள் தேவைப்படும் இடத்தில் ஒரு மருத்துவர் மட்டுமே பணியில் உள்ளார். தற்போது கீமோதெரபி மற்றும் புற்றுநோய் கட்டி அகற்றும் அறுவை சிகிச்சைகள் மட்டுமே இங்கு வழங்கப்படுகின்றன. இந்நிலையில் ரூ. 9.25 கோடியில் பெட்-சிடி ஸ்கேன் கருவி விரைவில் பயன்பாட்டுக்கு வர உள்ளது. மேலும் ரூ. 6 கோடியில் ரேடியோதெரபி கருவி வாங்கவும் புதிய கட்டிடம் கட்டவும் அனுமதி கோரப்பட்டுள்ளது. அனுமதி கிடைத்தவுடன் இந்தச் சிகிச்சை வசதி தொடங்கப்படும் என மருத்துவமனை நிர்வாகம் தெரிவித்துள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🏥 திருச்சி அரசு மருத்துவமனையில் ரேடியோதெரபி சிகிச்சை இல்லை: தஞ்சாவூர், மதுரைக்கு அலையும் புற்றுநோயாளிகள்!\n\n📰 முழு விவரம்:\nதிருச்சி மகாத்மா காந்தி நினைவு அரசு மருத்துவமனையில் புற்றுநோயாளிகளுக்கான ரேடியோதெரபி (கதிர்வீச்சு) சிகிச்சை வசதி இல்லாததால் நோயாளிகள் கடும் அவதிக்குள்ளாகி வருகின்றனர். நாள்தோறும் 30 முதல் 50 நோயாளிகள் புற்றுநோய் சிகிச்சைக்காக இங்கு வருகின்றனர். ஆனால் இந்த வசதி இல்லாததால் மருத்துவர்கள் அவர்களை தஞ்சாவூர் அல்லது மதுரைக்குச் செல்ல அறிவுறுத்துகின்றனர். ஏழ்மை நிலையில் உள்ள நோயாளிகள் நீண்ட தூரம் பயணித்து சிகிச்சை பெறுவதால் மிகுந்த சிரமத்திற்கு ஆளாகின்றனர். மருத்துவமனையில் 18 மருத்துவர்கள் தேவைப்படும் நிலையில் ஒரு மருத்துவர் மட்டுமே உள்ளார். தற்போது கீமோதெரபி மற்றும் அறுவை சிகிச்சை மட்டுமே வழங்கப்படுகிறது.\n\n📍 இடம்: மகாத்மா காந்தி நினைவு அரசு மருத்துவமனை, திருச்சி\n💰 புதிய திட்டம்: ரூ. 9.25 கோடியில் பெட்-சிடி ஸ்கேன் கருவி விரைவில் வரவுள்ளது.\n🕘 நிலை: ரூ. 6 கோடியில் ரேடியோதெரபி கருவி வாங்கவும், புதிய கட்டிடம் கட்டவும் அனுமதி கோரப்பட்டுள்ளது.\nℹ️ மக்கள் கவனத்திற்கு: அனுமதி கிடைத்தவுடன் ரேடியோதெரபி சிகிச்சை மையப் பணிகள் தொடங்கப்படும் என மருத்துவமனை நிர்வாகம் தெரிவித்துள்ளது.\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்.\n\nTrichy MGM Hospital Radiotherapy facility demand | Trichy news\n📍 Trichy city, Trichy | 16 November 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyCity #Health #திருச்சி",
+   "prompts": "A weary cancer patient sits on a plastic chair in the outpatient corridor of the Mahatma Gandhi Memorial Government Hospital in Trichy city, waiting with a paper file of medical reports held in lap. Around her, a few other patients and an attendant wait quietly on rows of benches under ceiling fans, while a corridor of the large government hospital stretches behind them with a tiled floor and pale green painted walls. Several people are seated, some wearing sarees and shirts with veshti, and a family member in a light cotton shirt stands beside a wheelchair at the far end. The hospital is busy, with the crowd of outpatients reflecting the thousands who visit each day. Daylight enters through tall windows on one side, suggesting a late morning. The camera is at eye level, shot with a 35 mm lens, wide enough to show the corridor, benches and the figures, with the faces of patients kept turned away or softly blurred, and no readable signboards or text anywhere in frame. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a folded hospital case file and a stack of medical reports lying on a wooden bench in a government hospital waiting area in Trichy, with a worn plastic chair and a patient's hand gripping the edge of the papers. The detail shows the paperwork of a cancer patient who has been told to travel to Thanjavur or Madurai for radiation treatment, emphasising distress and the long wait. Behind the bench, out of focus, a pair of sandals and the hem of a cotton saree are visible on the tiled floor, and a tube light overhead gives a flat indoor glow. The light is daytime from the hospital windows, mixed with fluorescent tubes. The camera is close, slightly above the bench, using a 35 mm lens with a shallow depth of field, keeping any faces out of frame and avoiding any readable text on the papers. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/16/radiotherapy-treatment-at-trichy-government-hospitalcancer-patients-await-it",
+   "published": "2026-11-16T03:43:00.000Z",
+   "verification": "DRAFT (gemini/gemini-3-flash-preview) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 1950 ('கோபாலகிருஷ்ணன்.‘ இங்கு ரேடியோதெரபி சிகிச்சை இல்லாததால் தஞ்சா'); 15 ('கோபாலகிருஷ்ணன்.‘ இங்கு ரேடியோதெரபி சிகிச்சை இல்லாததால் தஞ்சா'); 32 ('கோபாலகிருஷ்ணன்.‘ இங்கு ரேடியோதெரபி சிகிச்சை இல்லாததால் தஞ்சா'); 5,000 ('மருத்துவமனையில் நாள்தோறும் 5,000-க்கும் மேற்பட்ட வெளிநோயாளிக'); 1,500 ('மருத்துவமனையில் நாள்தோறும் 5,000-க்கும் மேற்பட்ட வெளிநோயாளிக'); 3 ('புற்றுநோய் சிகிச்சைக்கு ஒரு பேராசிரியா், ஒரு கூடுதல் பேராசிர')",
+   "note": "free-model draft gemini/gemini-3-flash-preview, 1 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794788623/trichy360/qpsgyemvv2ajoqpn8cqn.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794788627/trichy360/wede0eszqv3sunh9ncsr.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "சமயபுரம் பகுதிகளில் நாளை மின் தடை: காலை 9 முதல் மதியம் 2 மணி வரை",
-   "english_headline": "Power cut in Samayapuram areas on Tuesday from 9 AM to 2 PM for substation maintenance",
-   "category": "மின் தடை",
-   "location": "Samayapuram and surrounding villages, Trichy district",
-   "importance": "High",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "மின் தடை",
-    "loc": "சமயபுரம்",
-    "hl1": "சமயபுரம் பகுதிகளில் நாளை மின் தடை",
-    "hl2": "காலை 9 – மதியம் 2 மணி வரை",
-    "slides": [
-     {
-      "title": "எப்போது?",
-      "lines": [
-       "நாளை <b>செவ்வாய்க்கிழமை</b> மின்சாரம் இருக்காது",
-       "காலை <b>9 மணி</b> முதல் மதியம் <b>2 மணி</b> வரை",
-       "துணை மின் நிலையப் பராமரிப்புப் பணிகளால் மின் தடை"
-      ]
-     },
-     {
-      "title": "எந்தப் பகுதிகள்?",
-      "lines": [
-       "சமயபுரம், மண்ணச்சநல்லூர் ரோடு, வெங்கங்குடி",
-       "எழில் நகர், காருண்யா சிட்டி, மண்ணச்சநல்லூர்",
-       "இருங்களூர், கல்பாளையம், கொணலை, பாலையூர் உட்பட பல ஊர்கள்"
-      ]
-     },
-     {
-      "title": "பகுதிகள் தொடர்ச்சி",
-      "lines": [
-       "தச்சங்குறிச்சி, மருதூர், திருவாசி, பனமங்கலம்",
-       "அக்கரைப்பட்டி, வங்காரம், ஆய்குடி உட்பட பல ஊர்கள்",
-       "முழுப் பட்டியலும் ஸ்ரீரங்கம் கோட்ட செயற்பொறியாளர்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "சமயபுரம் பகுதிகளில் நாளை 7 மணி நேரம் மின்சாரம் இருக்காது. நாளை செவ்வாய்க்கிழமை காலை 9 மணி முதல் மதியம் 2 மணி வரை மின்சாரம் நிறுத்தப்படும். துணை மின் நிலையப் பராமரிப்பு பணிகளே இதற்குக் காரணம். சமயபுரம், மண்ணச்சநல்லூர் ரோடு, வெங்கங்குடி, எழில் நகர், காருண்யா சிட்டி, மண்ணச்சநல்லூர், இருங்களூர், கல்பாளையம் உட்பட பல ஊர்களில் மின் தடை ஏற்படும். தச்சங்குறிச்சி, மருதூர், திருவாசி, பனமங்கலம், அக்கரைப்பட்டி, வங்காரம், ஆய்குடி உட்பட இன்னும் பல பகுதிகளிலும் மின் தடை இருக்கும். முழுப் பட்டியலை ஸ்ரீரங்கம் கோட்ட செயற்பொறியாளர் ஆர். செல்வம் தெரிவித்துள்ளார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "⚡ சமயபுரம் பகுதிகளில் நாளை மின் தடை: காலை 9 – மதியம் 2 மணி வரை\n\n📰 முழு விவரம்:\nசமயபுரம் பகுதிகளில் நாளை (செவ்வாய்க்கிழமை) துணை மின் நிலையப் பராமரிப்புப் பணிகளுக்காக மின்சாரம் நிறுத்தப்படுகிறது.\n🕘 நேரம்: காலை 9 மணி முதல் மதியம் 2 மணி வரை\n🏘️ பகுதிகள்: சமயபுரம், மண்ணச்சநல்லூர் ரோடு, வெங்கங்குடி, வ.உ.சி. நகர் பூங்கா, எழில் நகர், காருண்யா சிட்டி, மண்ணச்சநல்லூர், இருங்களூர், கல்பாளையம், கொணலை, மேலசீதேவிமங்கலம், புறத்தாக்குடி, ச. புதூர், வலையூர், கரியமாணிக்கம், பாலையூர், தெற்கு எதுமலை, கன்னியாக்குடி, ஸ்ரீபெரும்புதூர், தச்சங்குறிச்சி, மருதூர், மாடக்குடி, வைப்பூர், சங்கர் நகர், கூத்தூர், நொச்சியம், பளூர், பாச்சூர், திருவாசி, பனமங்கலம், குமரக்குடி, அழகியமணவாளம், அத்தாணி, திருவரங்கப்பட்டி, கோவத்தக்குடி, மான்பிடிமங்கலம், சாலப்பட்டி, எடையப்பட்டி, அய்யம்பாளையம், ராசாம்பாளையம், தத்தமங்கலம், தளுதாளப்பட்டி, சிறுகுடி, வீராணி, சிறுப்பத்தூர், தேவிமங்கலம், அக்கரைப்பட்டி, வங்காரம், ஆய்குடி\n📢 இந்தத் தகவலை ஸ்ரீரங்கம் கோட்ட செயற்பொறியாளர் ஆர். செல்வம் தெரிவித்துள்ளார்.\n\nSamayapuram power cut Tuesday 9 AM to 2 PM | Trichy news\n📍 சமயபுரம், திருச்சி மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Samayapuram #மின்தடை #TrichyNews",
-   "prompts": "A TNEB lineman in a khaki uniform and helmet stands on a ladder beside a concrete pole, working on the high-tension lines at a substation in Samayapuram, Trichy district, during a scheduled maintenance shutdown. The setting is a rural edge of the Samayapuram area, with a small TNEB substation enclosure, transformers on concrete structures, and banana and paddy fields behind a low compound wall. A second TNEB worker, seen from behind, holds a metal tool box at the base of the pole. A maintenance vehicle is parked on the dirt approach road, and a few villagers stand far away near a row of houses, watching quietly. It is bright midday daylight with a clear sky, the time being around 9 AM to 2 PM. The camera is at eye level, 35 mm, wide enough to show the substation, the poles, the workers, and the fields. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of the substation's switch gear and high-tension isolator on a concrete pole, with the disconnected wires hanging still and a red-and-white insulated tool rested against the pole base. A TNEB lineman's gloved hand, seen from the side and partly out of focus, grips a metal cable clamp. Behind it, the concrete transformer structure and the edge of a paddy field are visible in soft daylight. No readable labels, numbers, or signboards are in frame. The camera is slightly high, at 35 mm, showing the equipment and a sliver of the rural landscape of Samayapuram. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/சமயபுரம்-பகுதிகளில்-நாளை-மின்-தடை-3",
-   "published": "2026-11-15T21:36:03.048Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: numbers not found in the article: 7",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794788652/trichy360/q1kglhev73u3zau6suxc.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794788656/trichy360/feancrhelyksbmrprhnj.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794826711/trichy360/zz73gelfpc4tyhph4dnd.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794826716/trichy360/ab6nldfbmpnqhbw2sb6u.jpg"
    ]
   }
  ]
