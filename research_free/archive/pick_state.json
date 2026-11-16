@@ -26,7 +26,8 @@
    "score": 6.0,
    "power_cut": false,
    "listed_at": "2026-11-16T16:15:32.237898+05:30",
-   "picked_at": "2026-11-16T16:20:54.625318+05:30"
+   "picked_at": "2026-11-16T16:20:54.625318+05:30",
+   "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
   },
   "Cd7633b3": {
    "id": "Cd7633b3",
@@ -39,7 +40,8 @@
    "score": 3.0,
    "power_cut": false,
    "listed_at": "2026-11-16T16:15:32.237898+05:30",
-   "picked_at": "2026-11-16T16:20:54.625320+05:30"
+   "picked_at": "2026-11-16T16:20:54.625320+05:30",
+   "posted": true
   },
   "C4cc55c1": {
    "id": "C4cc55c1",
@@ -52,7 +54,8 @@
    "score": 3.0,
    "power_cut": false,
    "listed_at": "2026-11-16T16:15:32.237898+05:30",
-   "picked_at": "2026-11-16T16:20:54.625321+05:30"
+   "picked_at": "2026-11-16T16:20:54.625321+05:30",
+   "posted": true
   },
   "C98339eb": {
    "id": "C98339eb",
@@ -65,7 +68,8 @@
    "score": 2.74,
    "power_cut": false,
    "listed_at": "2026-11-16T16:15:32.237898+05:30",
-   "picked_at": "2026-11-16T16:20:54.625323+05:30"
+   "picked_at": "2026-11-16T16:20:54.625323+05:30",
+   "posted": true
   },
   "C262b6eb": {
    "id": "C262b6eb",
@@ -78,7 +82,8 @@
    "score": 2.74,
    "power_cut": false,
    "listed_at": "2026-11-16T16:15:32.237898+05:30",
-   "picked_at": "2026-11-16T16:20:54.625324+05:30"
+   "picked_at": "2026-11-16T16:20:54.625324+05:30",
+   "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
   },
   "C9688710": {
    "id": "C9688710",
@@ -91,7 +96,8 @@
    "score": 2.74,
    "power_cut": false,
    "listed_at": "2026-11-16T16:15:32.237898+05:30",
-   "picked_at": "2026-11-16T16:20:54.625325+05:30"
+   "picked_at": "2026-11-16T16:20:54.625325+05:30",
+   "posted": true
   },
   "C6861251": {
    "id": "C6861251",
@@ -104,7 +110,8 @@
    "score": 2.0,
    "power_cut": false,
    "listed_at": "2026-11-16T16:15:32.237898+05:30",
-   "picked_at": "2026-11-16T16:20:54.625322+05:30"
+   "picked_at": "2026-11-16T16:20:54.625322+05:30",
+   "posted": true
   }
  },
  "rounds": {
@@ -646,7 +653,11 @@
     "C98339eb",
     "Cc4d0699",
     "Cd7633b3"
-   ]
+   ],
+   "refused": {
+    "C262b6eb": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)",
+    "Cc4d0699": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
+   }
   }
  },
  "retry": {}
