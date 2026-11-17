@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-17T08:04+05:30",
- "posts_measured": 47,
+ "updated": "2026-11-17T08:41+05:30",
+ "posts_measured": 48,
  "topic_weight": {
   "accident": 1.5,
   "crime": 1.5,
-  "power_cut": -0.06,
+  "power_cut": -0.02,
   "education": -0.5,
-  "politics": -0.31
+  "politics": -0.32
  },
  "topic_n": {
   "accident": 4,
@@ -32,7 +32,7 @@
   "🗳️ திருச்சி கிழக்கில் 20-ந்தேதி முதலமைச்சர் விஜய் ரோடு-ஷோ",
   "🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்"
  ],
- "avg_watch_s": 7.9,
+ "avg_watch_s": 8.0,
  "best_topics": [
   "accident",
   "crime",
