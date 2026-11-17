@@ -3,541 +3,114 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/16/%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF-%E0%AE%AE%E0%AE%BE%E0%AE%B5%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%A9%E0%AF%8D-%E0%AE%87%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%88%E0%AE%AF-%E0%AE%AE%E0%AE%BF%E0%AE%A9%E0%AF%8D%E0%AE%A4%E0%AE%9F%E0%AF%88",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/16/முன்விரோதத்தில்-விவசாயி-வெட்டிக்-கொலை-2-சிறுவா்கள்-உள்பட-11-பேரிடம்-விசாரணை",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/government-loses-rs-2220-crore-rice-mill-owner-with-family-arrested/4378411",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/16/வாகன-விபத்தில்-ஓய்வு-பெற்ற-ஆசிரியா்-உயிரிழப்பு",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/16/%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%85%E0%AE%B4%E0%AF%81%E0%AE%95%E0%AE%BF%E0%AE%AF-%E0%AE%A8%E0%AE%BF%E0%AE%B2%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%9A%E0%AE%BF%E0%AE%B1%E0%AF%88-%E0%AE%B5%E0%AE%BE%E0%AE%BE%E0%AF%8D%E0%AE%9F%E0%AE%BE%E0%AF%8D-%E0%AE%9A%E0%AE%9F%E0%AE%B2%E0%AE%AE%E0%AE%BE%E0%AE%95-%E0%AE%AE%E0%AF%80%E0%AE%9F%E0%AF%8D%E0%AE%AA%E0%AF%81",
-  "manual link added: https://www.dailythanthi.com/news/tamilnadu/385-lakh-vehicles-commit-violations-at-paranur-toll-plaza-in-40-days-138-crore-in-fines-imposed",
-  "manual link added: https://www.hindutamil.in/news/tamilnadu/will-move-court-if-no-action-taken-against-deputy-speaker-victims-lawyer",
-  "candidate filter: collected=7",
-  "to write: 7 Trichy district candidates (max 7 stories)",
-  "round: top 7 of 7 candidates",
-  "candidates waiting: 7 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.hindutamil.in/news/tamilnadu/will-move-court-if-",
-  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/385-lakh-vehicle",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "manual link added: https://www.dinamalar.com/news/tamil-nadu-district-news-madurai/high-court-defers-verdict-on-dmk-executive-s-bail-plea-in-srirangam-temple-land-grabbing-case/4378568",
+  "candidate filter: collected=1",
+  "to write: 1 Trichy district candidates (max 1 stories)",
+  "round: top 1 of 1 candidates",
+  "candidates waiting: 1 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-district-news-madu",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/government-lo",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 10})",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 13})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 15})",
-  "NOT filed (N) திருச்சி மாவட்டத்தின் இன்றைய மின்தடை: duplicate after write",
-  "candidate loop ended: left 0, tried={'N': 7}, done={'N': 6}, time left 74 min",
-  "filed: 6 Trichy district stories (target 7), reels only",
+  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 73 min",
+  "filed: 1 Trichy district stories (target 1), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":7,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
+  "fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.5-flash",
+  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_gener",
+  "ok groq/qwen/qwen3.8-27b (5s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "ok gemini/gemini-3.6-flash (23s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.5-flash (26s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.6-flash (40s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (18s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3.5-flash (35s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "dead for this round: gemini/gemini-3-flash-preview",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok groq/qwen/qwen3.8-27b (4s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok gemini/gemini-3-flash-preview (12s)",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok gemini/gemini-3.5-flash (49s)",
+  "ok groq/openai/gpt-oss-120b (5s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok groq/openai/gpt-oss-120b (6s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5"
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
  ],
  "stories": [
   {
-   "tamil_headline": "திருச்சியில் சிறை வார்டர் அழுகிய நிலையில் சடலமாக மீட்பு",
-   "english_headline": "Prison ward found dead and decomposed in Trichy",
+   "tamil_headline": "ஸ்ரீரங்கம் கோயில் நிலம் அபகரிப்பு வழக்கு: தி.மு.க. நிர்வாகி ராம்குமார் ஜாமின் மனு மீதான தீர்ப்பு ஒத்திவைப்பு",
+   "english_headline": "Sriranga temple land grab case: High Court reserves verdict on DMK functionary Ramkumar's bail plea",
    "category": "Crime & Safety",
-   "location": "K.K. Nagar, Trichy city, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "குற்றச் செய்தி",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சியில் சிறை வார்டர் சடலமாக மீட்பு",
-    "hl2": "அழுகிய நிலையில் கிடந்தார்",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "திருச்சி மத்திய சிறை காவலர் குடியிருப்பில் சடலம் மீட்பு",
-       "திங்கள்கிழமை போலீசார் கதவை உடைத்துப் பார்த்தனர்",
-       "சிறை வார்டர் ரமேஷ், <b>45 வயது</b>, அழுகிய நிலையில் கிடந்தார்"
-      ]
-     },
-     {
-      "title": "பின்னணி",
-      "lines": [
-       "மதுரை மாவட்டத்தைச் சேர்ந்தவர் ரமேஷ்",
-       "திருச்சி மத்திய சிறையில் வார்டராக பணியாற்றினார்",
-       "முறையாகப் பணிக்குச் செல்லவில்லை என கூறப்படுகிறது"
-      ]
-     },
-     {
-      "title": "போலீஸ் நடவடிக்கை",
-      "lines": [
-       "துர்நாற்றம் குறித்து அருகிலிருந்தவர்கள் தகவல் அளித்தனர்",
-       "இறந்து <b>2 நாட்களுக்கு</b> மேல் ஆகியிருக்கலாம் என போலீஸ்",
-       "கே.கே.நகர் போலீசார் வழக்குப் பதிந்து விசாரிக்கின்றனர்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சியில் சிறை வார்டர் ஒருவர் அழுகிய நிலையில் சடலமாக மீட்கப்பட்டார். திங்கள்கிழமை திருச்சி மத்திய சிறை காவலர்கள் குடியிருப்பில் இந்தச் சம்பவம் நடந்தது. உயிரிழந்தவர் மதுரை மாவட்டத்தைச் சேர்ந்த 45 வயது ரமேஷ். அவர் திருச்சி மத்திய சிறையில் வார்டராகப் பணியாற்றி வந்தார். அவர் முறையாகப் பணிக்குச் செல்லவில்லை என்று கூறப்படுகிறது. அவரது வீட்டிலிருந்து துர்நாற்றம் வீசியதையடுத்து, அருகிலிருந்தவர்கள் கே கே நகர் காவல் நிலையத்துக்குத் தகவல் அளித்தனர். போலீசார் வீட்டின் கதவை உடைத்துப் பார்த்தபோது, ரமேஷ் சடலமாகக் கிடந்தது தெரியவந்தது. அவர் இறந்து 2 நாட்களுக்கு மேல் ஆகியிருக்கலாம் என போலீசார் தெரிவித்துள்ளனர். சடலம் உடற்கூறாய்வுக்காக திருச்சி அரசு மருத்துவமனைக்கு அனுப்பப்பட்டது. கே கே நகர் போலீசார் வழக்குப் பதிந்து விசாரணை நடத்தி வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சியில் சிறை வார்டர் அழுகிய நிலையில் சடலமாக மீட்பு\n\n📰 முழு விவரம்:\nதிருச்சி மத்திய சிறை காவலர்கள் குடியிருப்பில் திங்கள்கிழமை சிறை வார்டர் ரமேஷ் (45 வயது) அழுகிய நிலையில் சடலமாக மீட்கப்பட்டார். மதுரை மாவட்டத்தைச் சேர்ந்த ரமேஷ், திருச்சி மத்திய சிறையில் வார்டராகப் பணியாற்றி வந்தார். அவர் முறையாகப் பணிக்குச் செல்லவில்லை எனக் கூறப்படுகிறது. வீட்டிலிருந்து துர்நாற்றம் வீசியதையடுத்து அருகிலிருந்தவர்கள் கே.கே.நகர் காவல் நிலையத்துக்குத் தகவல் அளித்தனர். போலீசார் கதவை உடைத்துப் பார்த்தபோது சடலம் கண்டறியப்பட்டது. அவர் இறந்து 2 நாட்களுக்கு மேல் ஆகியிருக்கலாம் என போலீசார் தெரிவித்துள்ளனர். சடலம் உடற்கூறாய்வுக்காக திருச்சி அரசு மருத்துவமனைக்கு அனுப்பப்பட்டது.\n📍 இடம்: கே.கே.நகர், திருச்சி\n🗓️ நாள்: திங்கள்கிழமை\n👮 நடவடிக்கை: கே.கே.நகர் போலீசார் வழக்குப் பதிந்து விசாரணை நடத்தி வருகின்றனர்.\nஉயிரிழப்புக்கான காரணம் இன்னும் தெரியவில்லை.\n\nTrichy prison warder found dead decomposed | Trichy news\n📍 திருச்சி மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #TrichyCrime",
-   "prompts": "A row of Tamil Nadu police in khaki uniform stands outside a closed residential door of a government quarters block in K.K. Nagar, Trichy, after the door has been forced open. Seen from behind at a short distance, two constables in khaki shirts and trousers with caps stand in the common corridor, while a few neighbours in casual shirts and sarees watch quietly from the far end of the passage. A white police jeep with a light bar is parked on the narrow lane beyond the building's concrete steps, and a few two-wheelers are parked along the wall. It is daytime on a Monday with flat, clear light falling through the open corridor, and the walls are painted in faded cream. The scene is tense but calm, with no visible injuries or bodies. Camera at eye level, 35 mm, wide enough to show the building corridor, the police, the neighbours and the jeep in the lane. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of the house door of a prison staff quarters flat in K.K. Nagar, Trichy, showing the wooden door with its frame broken open at the lock where police forced entry. Splintered wood edges and a bent metal latch are clearly visible, with a faded cream wall and a cracked tiled floor in front of the doorway. A pair of khaki police boots and the hem of a khaki trouser are seen at the edge of the frame, moving past the door. Thin sunlight from a side window falls across the splintered wood, creating soft shadows. No bodies, blood, or readable signboards are shown. Camera at eye level, 50 mm, shallow depth of field to focus on the broken lock and door frame. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/16/%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%85%E0%AE%B4%E0%AF%81%E0%AE%95%E0%AE%BF%E0%AE%AF-%E0%AE%A8%E0%AE%BF%E0%AE%B2%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%9A%E0%AE%BF%E0%AE%B1%E0%AF%88-%E0%AE%B5%E0%AE%BE%E0%AE%BE%E0%AF%8D%E0%AE%9F%E0%AE%BE%E0%AF%8D-%E0%AE%9A%E0%AE%9F%E0%AE%B2%E0%AE%AE%E0%AE%BE%E0%AE%95-%E0%AE%AE%E0%AF%80%E0%AE%9F%E0%AF%8D%E0%AE%AA%E0%AF%81",
-   "published": "2026-11-16T22:05:01.413Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: known issue meta_article: script talks about the article instead of the news ('விவரம் இன்னும் தெரியவில்லை') - rewrite so it does not happen again",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794883490/trichy360/nxqy6pohxqej2wbfkuzo.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794883493/trichy360/dcizyhgy2wcduflt3ok7.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "துறையூர் எம்எல்ஏ மீது தாக்குதல் புகார்: நடவடிக்கை இல்லையெனில் நீதிமன்றம் செல்வோம்",
-   "english_headline": "Thuraiyur assault complaint: lawyer warns of High Court action if no action is taken against Assembly deputy speaker",
-   "category": "Crime & Safety",
-   "location": "Thuraiyur, Trichy district",
+   "location": "Srirangam, Trichy district",
    "importance": "High",
    "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "குற்றச் செய்தி",
-    "loc": "துறையூர்",
-    "hl1": "துறையூர் எம்எல்ஏ மீது தாக்குதல் புகார்",
-    "hl2": "நடவடிக்கை இல்லையெனில்",
+    "cat": "வழக்கு",
+    "loc": "ஸ்ரீரங்கம்",
+    "hl1": "ஸ்ரீரங்கம் கோயில் நிலம் அபகரிப்பு வழக்கு",
+    "hl2": "ஜாமின் தீர்ப்பு ஒத்திவைப்பு",
     "slides": [
      {
-      "title": "என்ன நடந்தது?",
+      "title": "என்ன வழக்கு?",
       "lines": [
-       "துறையூரைச் சேர்ந்த கார்த்திக் குமார் தாக்கப்பட்டதாகப் புகார்",
-       "கடந்த <b>8ஆம் தேதி</b> முறையிடச் சென்றபோது சம்பவம் நடந்தது",
-       "துறையூர் எம்எல்ஏ ரவி சங்கர் மீது புகார் எழுந்துள்ளது"
+       "ஸ்ரீரங்கம் ரங்கநாதர் கோயில் நிலம் <b>ரூ.50 கோடி</b> மதிப்பு",
+       "போலி ஆவணங்கள் மூலம் அபகரித்ததாக வழக்கு",
+       "தி.மு.க. பகுதி செயலாளர் ராம்குமார் மீது வழக்கு"
       ]
      },
      {
-      "title": "விசாரணை நிலை",
+      "title": "ராம்குமார் வாதம்",
       "lines": [
-       "கார்த்திக் குமார் புகார் அளித்துள்ளார்",
-       "நேற்று திருச்சி ஏடிஎஸ்பி அலுவலகத்தில் ஆஜரானார்",
-       "ஏடிஎஸ்பி இல்லாததால் விசாரணை நடைபெறவில்லை"
+       "<b>5 ஏக்கர் 87 சென்ட்</b> நிலத்தை வாங்கியதாகக் கூறினார்",
+       "2024ல் <b>ரூ.2 கோடியே 90 லட்சம்</b> கொடுத்து வாங்கியதாக",
+       "நிலம் கோயிலுக்கு சொந்தமானது என்பதற்கு ஆவணம் இல்லை என்றார்"
       ]
      },
      {
-      "title": "வழக்கறிஞரின்",
+      "title": "அரசு தரப்பு",
       "lines": [
-       "போலீசார் வழக்குப் பதிவு செய்து விசாரிக்க வேண்டும் என",
-       "உரிய நடவடிக்கை இல்லையெனில் உயர் நீதிமன்றத்தை நாடுவோம்"
+       "நிலம் கோயிலுக்கு சொந்தமானது என்று ஆவணங்கள் உள்ளன",
+       "ஜாமின் அனுமதிக்கக் கூடாது என ஆட்சேபம்",
+       "கைதாகி <b>47 நாட்கள்</b> ஆகிறது"
+      ]
+     },
+     {
+      "title": "நீதிமன்ற முடிவு",
+      "lines": [
+       "மதுரை உயர்நீதிமன்றக் கிளை தீர்ப்பை ஒத்திவைத்தது",
+       "நீதிபதி கே.முரளிசங்கர் விசாரித்தார்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "துறையூரில் எம்எல்ஏ மீது தாக்குதல் புகார் எழுந்துள்ளது. துறையூர் பகுதியைச் சேர்ந்த கார்த்திக் குமார், கடந்த 8ஆம் தேதி தனது பகுதிப் பிரச்சினை தொடர்பாக முறையிடச் சென்றபோது தாக்கப்பட்டதாகப் புகார் கூறியுள்ளார். துறையூர் தொகுதி எம்எல்ஏவும், சட்டப்பேரவை துணைத் தலைவருமான ரவி சங்கர் அவரைத் தாக்கியதாகக் குற்றம் சாட்டப்பட்டுள்ளது. இதுதொடர்பாக கார்த்திக் குமார் புகார் அளித்துள்ளார். விசாரணைக்காக அவர், தனது வழக்கறிஞர் பொன் முருகேசனுடன் நேற்று திருச்சி ஏடிஎஸ்பி அலுவலகத்தில் ஆஜரானார். ஏடிஎஸ்பி இல்லாததால் விசாரணை நடைபெறவில்லை. இதையடுத்து செய்தியாளர்களிடம் பேசிய வழக்கறிஞர் பொன் முருகேசன், போலீசார் வழக்குப் பதிவு செய்து விசாரிக்க வேண்டும் என்று கோரினார். உரிய நடவடிக்கை இல்லையெனில் உயர் நீதிமன்றத்தை நாடுவோம் என்று அவர் தெரிவித்தார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 துறையூர் எம்எல்ஏ மீது தாக்குதல் புகார்: நடவடிக்கை இல்லையெனில் நீதிமன்றம் செல்வோம்\n\n📰 முழு விவரம்:\nதுறையூர் பகுதியைச் சேர்ந்த கார்த்திக் குமார், கடந்த 8ஆம் தேதி தனது பகுதிப் பிரச்சினை தொடர்பாக முறையிடச் சென்றபோது தாக்கப்பட்டதாகப் புகார் எழுந்துள்ளது. துறையூர் தொகுதி எம்எல்ஏவும், சட்டப்பேரவை துணைத் தலைவருமான ரவி சங்கர் தாக்கியதாகக் குற்றம் சாட்டப்பட்டுள்ளது. இதுதொடர்பாக கார்த்திக் குமார் புகார் அளித்துள்ளார்.\n📍 இடம்: திருச்சி ஏடிஎஸ்பி அலுவலகம் (விசாரணைக்கு ஆஜர்)\n🗓️ நாள்: கடந்த 8ஆம் தேதி (சம்பவம்); நேற்று (ஆஜர்)\n👮 நடவடிக்கை: விசாரணைக்கு ஆஜரானபோது ஏடிஎஸ்பி இல்லாததால் விசாரணை நடைபெறவில்லை.\nℹ️ மக்கள் கவனத்திற்கு: போலீசார் வழக்குப் பதிவு செய்து விசாரிக்க வேண்டும் என வழக்கறிஞர் பொன் முருகேசன் கோரியுள்ளார். உரிய நடவடிக்கை இல்லையெனில் உயர் நீதிமன்றத்தை நாடுவோம் என்றும் தெரிவித்துள்ளார்.\n\nThuraiyur MLA assault complaint, lawyer warns of High Court | Trichy news\n📍 துறையூர், திருச்சி மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thuraiyur #திருச்சி #TrichyNews",
-   "prompts": "A lawyer in a black coat and a man in a white shirt stand at the gate of a government police office in Trichy city, waiting to be called inside for questioning. Seen from behind at a distance, the two men are talking quietly while a Tamil Nadu police constable in khaki stands near the entrance. The office is a plain two-storey government building with a verandah, tiled roof and a few parked two-wheelers and a police jeep outside. A small group of other visitors waits on a bench under a fan-cooled hall window, and the corridor is empty of officers, suggesting the officer is absent. It is midday in bright daylight with a clear sky and soft shadows. The camera is at eye level, 35 mm, wide enough to show the building, gate and people, with no readable signboards or text visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a wooden table inside a police office with a stack of case files tied with cloth and an open complaint register lying beside a ceiling fan's shadow. A single white paper and a black pen rest on the file, with an empty chair pushed back behind the table, showing the officer is absent. The light comes from a window in daylight, falling across the papers. In the background, slightly out of focus, a khaki-uniformed constable stands near a wall, seen from behind. The camera is at slightly high eye level, 35 mm, focused on the files and register, with no readable text or names visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.hindutamil.in/news/tamilnadu/will-move-court-if-no-action-taken-against-deputy-speaker-victims-lawyer",
-   "published": "2026-11-17T01:59:07Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 3 ('இவ்​வாறு அவர் தெரி​வித்​தார்..சின்னசேலத்தில் சோகம்: ஏரியில் ')",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
+   "reel_script": "ஸ்ரீரங்கம் ரங்கநாதர் கோயிலுக்கு சொந்தமான ரூ.50 கோடி மதிப்பிலான நிலம் அபகரிப்பு வழக்கில் ஜாமின் தீர்ப்பு ஒத்திவைக்கப்பட்டுள்ளது. போலி ஆவணங்கள் மூலம் நிலத்தை அபகரித்ததாக தி மு க பகுதி செயலாளர் ராம்குமார் மீது வழக்கு பதியப்பட்டுள்ளது. மதுரை உயர்நீதிமன்றக் கிளையில் அவர் ஜாமின் மனு தாக்கல் செய்தார். ராம்குமார் தனது மனுவில், ஸ்ரீரங்கத்தில் குறிப்பிட்ட சர்வே எண்ணில் உள்ள 5 ஏக்கர் 87 சென்ட் நிலத்தை 2024ஆம் ஆண்டு ரூ.2 கோடியே 90 லட்சம் கொடுத்து வாங்கியதாகக் கூறினார். நிலம் ஸ்ரீரங்கம் சார்பதிவாளர் கள ஆய்வு செய்த பின்னரே பதிவு செய்யப்பட்டது என்றும், அந்த நிலம் கோயிலுக்குச் சொந்தமானது என்பதற்கு ஆவணங்கள் இல்லை என்றும் வாதிட்டார். அரசியல் உள்நோக்கில் வழக்கு பதியப்பட்டுள்ளதாகவும், கைதாகி 47 நாட்கள் ஆனதாகவும், விசாரணை முடிந்துவிட்டதால் ஜாமின் வழங்க வேண்டும் என்றும் கோரினார். அரசு தரப்பில், நிலம் கோயிலுக்குச் சொந்தமானது என்பதற்கு ஆவணங்கள் உள்ளதாகவும், ஜாமின் அனுமதிக்கக் கூடாது என்றும் ஆட்சேபம் தெரிவிக்கப்பட்டது. நீதிபதி கே.முரளிசங்கர் விசாரித்து, தீர்ப்பை ஒத்திவைத்தார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 ஸ்ரீரங்கம் கோயில் நிலம் அபகரிப்பு வழக்கு: தி.மு.க. நிர்வாகி ஜாமின் தீர்ப்பு ஒத்திவைப்பு\n\n📰 முழு விவரம்:\nஸ்ரீரங்கம் ரங்கநாதர் கோயிலுக்கு சொந்தமான ரூ.50 கோடி மதிப்பிலான நிலத்தை போலி ஆவணங்கள் மூலம் அபகரித்ததாக பதிவான வழக்கில், தி.மு.க. பகுதி செயலாளர் ராம்குமாரின் ஜாமின் மனு மீதான தீர்ப்பை மதுரை உயர்நீதிமன்றக் கிளை ஒத்திவைத்தது.\nராம்குமார் தனது மனுவில், ஸ்ரீரங்கத்தில் குறிப்பிட்ட சர்வே எண்ணில் உள்ள 5 ஏக்கர் 87 சென்ட் நிலத்தை, புதுச்சேரியைச் சேர்ந்த ஓய்வு பெற்ற நீதிபதி ஒருவர் மற்றும் அவரது குடும்பத்தினரிடமிருந்து 2024ஆம் ஆண்டு ரூ.2 கோடியே 90 லட்சம் கொடுத்து வாங்கியதாகக் கூறினார்.\nநிலம் ஸ்ரீரங்கம் சார்பதிவாளர் கள ஆய்வு செய்த பின்னரே பதிவு செய்யப்பட்டது; அந்த நிலம் கோயிலுக்குச் சொந்தமானது என்பதற்கு ஆவணங்கள் இல்லை என்றும் அவர் வாதிட்டார்.\nஅரசியல் உள்நோக்கில் வழக்கு பதியப்பட்டுள்ளதாகவும், கைதாகி 47 நாட்கள் ஆனதாகவும், விசாரணை முடிந்துவிட்டதால் ஜாமின் அனுமதிக்க வேண்டும் எனவும் அவர் கோரினார்.\nஅரசு தரப்பில், நிலம் கோயிலுக்குச் சொந்தமானது என்பதற்கு ஆவணங்கள் உள்ளதாகவும், ஜாமின் அனுமதிக்கக் கூடாது என்றும் ஆட்சேபம் தெரிவிக்கப்பட்டது.\nநீதிபதி கே.முரளிசங்கர் விசாரித்து, தீர்ப்பை ஒத்திவைத்தார்.\n\nSriranga temple land grab case, bail verdict reserved | Trichy news\n📍 ஸ்ரீரங்கம், திருச்சி மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Srirangam #TrichyNews #திருச்சி",
+   "prompts": "A judge's bench in a high-ceilinged Madurai High Court courtroom, with a few lawyers in black coats and white bands seated at the long tables below, wooden rafters and tall windows letting in daylight. The judge sits at a raised wooden bench with files and bundles of papers stacked in front of him, as if pausing before giving a decision on a bail plea. Court staff in plain shirts and veshti move quietly near the back. Some lawyers hold thick case files and land documents bound with red tape, their faces turned away or shown from behind. Shot from the back of the courtroom at eye level, 35 mm lens, wide enough to show the whole bench, the lawyers and the empty space where the accused's family would sit. Calm, subdued mood, late morning light through the windows, no visible text or signboards. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a stack of old land records and legal documents tied with faded red cloth tape on a wooden court table, a worn pen and a brass paperweight beside them. The papers show dense hand-written columns and stamped seals, slightly out of focus at the edges, with a soft blur of a black lawyer's coat in the background. Daylight from a window falls across the pages, showing the weight of a land dispute worth crores. No readable words or numbers are visible; the focus stays on the papers and the sense of a pending verdict. 35 mm, shallow depth of field, eye level. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamalar.com/news/tamil-nadu-district-news-madurai/high-court-defers-verdict-on-dmk-executive-s-bail-plea-in-srirangam-temple-land-grabbing-case/4378568",
+   "published": "2026-11-17T17:04:23+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794883535/trichy360/etq1v5pk0j1fhtm5xa49.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794883538/trichy360/lbd8xpimwjy45v2jl6br.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "பரனூர் சுங்கச்சாவடியில் 40 நாட்களில் 3.85 லட்சம் வாகனங்கள் விதிமீறல்; ரூ.1.38 கோடி அபராதம்",
-   "english_headline": "Paranur toll plaza: 3.85 lakh vehicles violated payment rules in 40 days; Rs 1.38 crore fines collected",
-   "category": "Roads & Transport",
-   "location": "Paranur toll plaza, Tambaram-Tindivanam section, NH 179B, Chengalpattu district",
-   "importance": "High",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "சுங்கச்சாவடி",
-    "loc": "பரனூர், சென்னை",
-    "hl1": "பரனூர் சுங்கச்சாவடியில் 40 நாளில் 3.85",
-    "hl2": "ரூ.1.38 கோடி அபராதம் வசூல்",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "பரனூர் சுங்கச்சாவடியில் தானியங்கி கட்டண முறை அமல்",
-       "40 நாளில் <b>3.85 லட்சம்</b> வாகனங்கள் கட்டணம் செலுத்தவில்லை",
-       "இ-சலான் மூலம் <b>3.27 லட்சம்</b> அபராதம் அனுப்பப்பட்டுள்ளது"
-      ]
-     },
-     {
-      "title": "விதிமீறல் காரணம்",
-      "lines": [
-       "போதிய பணம் இல்லாதது",
-       "பிளாக் லிஸ்ட் செய்யப்பட்ட அட்டை",
-       "பாஸ்டேக் இல்லாதது"
-      ]
-     },
-     {
-      "title": "அபராதம் விவரம்",
-      "lines": [
-       "72 மணி நேரத்துக்குள் ஆன்லைனில் செலுத்தினால் <b>50%</b> தள்ளுபடி",
-       "தவறினால் பாஸ்டேக் முடக்கப்படும்",
-       "<b>ரூ.1.38 கோடி</b> அபராதம் வசூலாகியுள்ளது"
-      ]
-     },
-     {
-      "title": "மக்களுக்கு",
-      "lines": [
-       "பாஸ்டேக்கில் போதிய பணம் வைத்திருங்கள்",
-       "நம்பர் பிளேட்டை சேதப்படுத்தினால் வழக்குப்பதிவு",
-       "பெயர் மாற்றம், தடையில்லாச் சான்று சேவைகள் கிடைக்காது"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "பரனூர் சுங்கச்சாவடியில் 40 நாட்களில் 3.85 லட்சம் வாகனங்கள் கட்டணம் செலுத்தாமல் விதிமீறல். அக்டோபர் 1ஆம் தேதி முதல் நவம்பர் 9ஆம் தேதி வரை 24.69 லட்சம் வாகனங்கள் சுங்கச்சாவடியைக் கடந்துள்ளன. இதில் 20.83 லட்சம் வாகனங்கள் பாஸ்டேக் மூலம் முறையாகக் கட்டணம் செலுத்தியுள்ளன. போதிய பணம் இல்லாதது, பிளாக் லிஸ்ட் செய்யப்பட்ட அட்டை, பாஸ்டேக் இல்லாதது ஆகிய காரணங்களால் 3 லட்சத்து 85 ஆயிரத்து 679 வாகனங்கள் விதிமீறலில் ஈடுபட்டுள்ளன. கட்டணம் செலுத்தாத வாகனங்களுக்கு இரட்டிப்பு அபராதத்துடன் இ-சலான் அனுப்பப்படுகிறது. 72 மணி நேரத்துக்குள் ஆன்லைனில் செலுத்தினால் 50 சதவீதம் தள்ளுபடி கிடைக்கும். தவறினால் வாகனத்தின் பாஸ்டேக் முடக்கப்பட்டு, பிற சுங்கச்சாவடிகளைக் கடக்கவும் தடை ஏற்படும். வாகனப் பெயர் மாற்றம், தடையில்லாச் சான்று உள்ளிட்ட சேவைகளையும் பெற முடியாது. இந்த 40 நாட்களில் 3 லட்சத்து 27 ஆயிரத்து 927 இ-சலான்கள் பிறப்பிக்கப்பட்டுள்ளன. அபராதம் செலுத்தியவர்களிடமிருந்து 1 கோடியே 38 லட்சத்து 8 ஆயிரத்து 290 ரூபாய் வசூலாகியுள்ளது. நம்பர் பிளேட்டுகளைச் சேதப்படுத்தினாலோ, மாற்றியமைத்தாலோ காவல் நிலையத்தில் புகார் அளித்து வழக்குப்பதிவு செய்யப்படும். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚗 பரனூர் சுங்கச்சாவடியில் 40 நாளில் 3.85 லட்சம் வாகனங்கள் விதிமீறல்\n\n📰 முழு விவரம்:\nபரனூர் சுங்கச்சாவடியில் தடுப்புகள் இல்லாத தானியங்கி கட்டண முறை அமல்படுத்தப்பட்ட 40 நாட்களில் 3 லட்சத்து 85 ஆயிரத்து 679 வாகனங்கள் கட்டணம் செலுத்தாமல் விதிமீறலில் ஈடுபட்டுள்ளன. அக்டோபர் 1 முதல் நவம்பர் 9 வரை 24.69 லட்சம் வாகனங்கள் சுங்கச்சாவடியைக் கடந்தன; இதில் 20.83 லட்சம் வாகனங்கள் பாஸ்டேக் மூலம் முறையாகக் கட்டணம் செலுத்தின.\nபோதிய பணம் இல்லாதது, பிளாக் லிஸ்ட் செய்யப்பட்ட அட்டை, பாஸ்டேக் இல்லாதது ஆகியவை விதிமீறலுக்குக் காரணங்களாகும். கட்டணம் செலுத்தாத வாகனங்களுக்கு இரட்டிப்பு அபராதத்துடன் இ-சலான் அனுப்பப்படுகிறது. 72 மணி நேரத்துக்குள் ஆன்லைனில் செலுத்தினால் 50 சதவீதம் தள்ளுபடி கிடைக்கும். தவறினால் பாஸ்டேக் முடக்கப்படும், பிற சுங்கச்சாவடிகளைக் கடக்கவும் தடை ஏற்படும். வாகனப் பெயர் மாற்றம், தடையில்லாச் சான்று உள்ளிட்ட சேவைகளையும் பெற முடியாது.\n40 நாட்களில் 3 லட்சத்து 27 ஆயிரத்து 927 இ-சலான்கள் பிறப்பிக்கப்பட்டன. அவற்றில் 68 ஆயிரத்து 226 வாகன ஓட்டிகள் அபராதம் செலுத்தியதன் மூலம் 1 கோடியே 38 லட்சத்து 8 ஆயிரத்து 290 ரூபாய் வசூலானது.\nநம்பர் பிளேட்டுகளைச் சேதப்படுத்தினாலோ மாற்றியமைத்தாலோ புகைப்பட ஆதாரங்களுடன் காவல் நிலையத்தில் புகார் அளித்து வழக்குப்பதிவு செய்யப்படும்.\n\nParanur toll 3.85 lakh vehicle violations in 40 days | Trichy news\n📍 பரனூர், செங்கல்பட்டு மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Paranur",
-   "prompts": "A row of passenger cars, a lorry and a private bus drive slowly through the automatic lanes of Paranur toll plaza on the national highway, with no barrier arms closed across the road. Overhead on gantry poles, number plate scanner cameras watch the approaching traffic, and a bright FASTag reader panel sits above the lanes. Beside the highway there are the toll booth shelters with small staff cabins, and a plain tar road stretches toward Chengalpattu in the distance. A few uniformed toll staff in shirts stand far off near a booth, seen from behind. Daylight falls evenly across the lanes and the grey tarmac, with dusty roadside shrubs and a few distant palm trees at the edge of the highway. Camera at eye level, 35 mm, wide enough to show the full toll plaza and the traffic lanes. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a car's rear number plate as it passes under an overhead scanner gantry at Paranur toll plaza, with the plate in sharp focus and the blurred grey tarmac of the highway lane below. The metal gantry arm and a camera housing sit above the vehicle, and a second-hand smudge of dust covers the bumper. In the background, a lorry waits slightly out of focus and a low concrete divider runs along the lane. Daylight, slightly hazy, with the scanner's shadow falling across the road. Camera at slightly low angle, 50 mm close detail, shallow depth of field, showing no readable text on the plate. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dailythanthi.com/news/tamilnadu/385-lakh-vehicles-commit-violations-at-paranur-toll-plaza-in-40-days-138-crore-in-fines-imposed",
-   "published": "2026-11-17T02:21:31Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 179 ('சென்னை,தமிழ்நாட்டில் தேசிய நெடுஞ்சாலை 179பி தாம்பரம் - திண்ட'); 200 ('சுங்கச்சாவடியில் இருந்து 200 மீட்டருக்கு முன்பே மைக்ரோ ஸ்கேன'); 8,290 ('அவற்றில், 68 ஆயிரத்து, 226 வாகன ஓட்டிகள் அபராதம் செலுத்திய வ')",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794883566/trichy360/nk4erc33d75nu1xg7zhu.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794883570/trichy360/m8qqfgn9sg6ksy5pkivf.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "மணப்பாறை அருகே விபத்து: ஓய்வு பெற்ற ஆசிரியர் தாமஸ் ஆரோக்கியம் உயிரிழப்பு",
-   "english_headline": "Retired government school teacher Thomas Arokiyam dies in road accident near Manapparai",
-   "category": "Roads & Transport",
-   "location": "Manapparai, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "சாலை விபத்து",
-    "loc": "மணப்பாறை",
-    "hl1": "மணப்பாறை அருகே விபத்தில் ஆசிரியர்",
-    "hl2": "இருசக்கர வாகனத்தில் சென்றவர்",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "மணப்பாறை அருகே திங்கள்கிழமை விபத்து",
-       "பயணிகள் ஆட்டோ, கார் மோதிய விபத்து",
-       "இருசக்கர வாகனத்தில் சென்ற <b>62 வயது</b> ஆசிரியர் உயிரிழந்தார்"
-      ]
-     },
-     {
-      "title": "யார் அவர்?",
-      "lines": [
-       "மலையடிப்பட்டி வடக்குத் தெருவைச் சேர்ந்த தாமஸ் ஆரோக்கியம்",
-       "மணப்பாறை நகராட்சி நடுநிலைப் பள்ளியில் ஆசிரியராகப் பணியாற்றி",
-       "திங்கள்கிழமை பிற்பகலில் மணப்பாறை வந்து வீடு திரும்பினார்"
-      ]
-     },
-     {
-      "title": "எப்படி நடந்தது?",
-      "lines": [
-       "திருச்சி - திண்டுக்கல் தேசிய நெடுஞ்சாலையில் மஞ்சம்பட்டி",
-       "பின்னால் வந்த கார், முன்னால் சென்ற பயணிகள் ஆட்டோ மீது",
-       "ஆட்டோ, இருசக்கர வாகனம் மீது மோதியதில் தலையில் பலத்த காயம்"
-      ]
-     },
-     {
-      "title": "அடுத்து என்ன?",
-      "lines": [
-       "ஆட்டோ ஓட்டுநர் காயமடைந்து மருத்துவமனையில் சிகிச்சை பெற்றார்",
-       "போலீசார் உடலைக் கைப்பற்றி மணப்பாறை அரசு மருத்துவமனைக்கு",
-       "வழக்குப் பதிந்து போலீசார் விசாரிக்கின்றனர்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "மணப்பாறை அருகே திங்கள்கிழமை நடந்த சாலை விபத்தில் ஓய்வு பெற்ற அரசுப் பள்ளி ஆசிரியர் ஒருவர் உயிரிழந்தார். மலையடிப்பட்டி வடக்குத் தெருவைச் சேர்ந்த 62 வயது தாமஸ் ஆரோக்கியம், மணப்பாறை நகராட்சி நடுநிலைப் பள்ளியில் ஆசிரியராகப் பணியாற்றி ஓய்வு பெற்றவர். திங்கள்கிழமை பிற்பகலில் மணப்பாறைக்கு வந்துவிட்டு, தனது இருசக்கர வாகனத்தில் வீடு திரும்பினார். திருச்சி - திண்டுக்கல் தேசிய நெடுஞ்சாலையில் மஞ்சம்பட்டி அருகே சென்றபோது, அதே திசையில் சென்ற பயணிகள் ஆட்டோ மீது பின்னால் வந்த கார் மோதியது. அந்த ஆட்டோ தாமஸ் ஆரோக்கியம் ஓட்டிய இருசக்கர வாகனத்தின் மீது மோதியது. இந்த விபத்தில் தலையில் பலத்த காயமடைந்த தாமஸ் ஆரோக்கியம் நிகழ்விடத்திலேயே உயிரிழந்தார். ஆட்டோ ஓட்டுநர் காயமடைந்து மருத்துவமனையில் சிகிச்சை பெற்று வருகிறார். தகவலறிந்து சென்ற மணப்பாறை போலீசார் உடலைக் கைப்பற்றி, உடற்கூறாய்வுக்காக மணப்பாறை அரசு மருத்துவமனைக்கு அனுப்பினர். வழக்குப் பதிந்து போலீசார் விசாரித்து வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 மணப்பாறை அருகே விபத்தில் ஓய்வு பெற்ற ஆசிரியர் உயிரிழப்பு\n\n📰 முழு விவரம்:\nமணப்பாறை அருகே திங்கள்கிழமை பயணிகள் ஆட்டோ, கார் மோதிய விபத்தில், இருசக்கர வாகனத்தில் சென்ற ஓய்வு பெற்ற அரசுப் பள்ளி ஆசிரியர் தாமஸ் ஆரோக்கியம் (62 வயது) உயிரிழந்தார்.\nதிருச்சி - திண்டுக்கல் தேசிய நெடுஞ்சாலையில் மஞ்சம்பட்டி அருகே, பின்னால் வந்த கார் முன்னால் சென்ற பயணிகள் ஆட்டோ மீது மோதியது. ஆட்டோ இருசக்கர வாகனத்தின் மீது மோதியதில் தாமஸ் ஆரோக்கியம் தலையில் பலத்த காயமடைந்து நிகழ்விடத்திலேயே உயிரிழந்தார்.\nஆட்டோ ஓட்டுநர் காயமடைந்து மருத்துவமனையில் சிகிச்சை பெற்று வருகிறார்.\n\n📍 இடம்: மஞ்சம்பட்டி அருகே, திருச்சி - திண்டுக்கல் தேசிய நெடுஞ்சாலை, மணப்பாறை\n🗓️ நாள்: திங்கள்கிழமை\n👮 நடவடிக்கை: மணப்பாறை போலீசார் உடலைக் கைப்பற்றி உடற்கூறாய்வுக்காக மணப்பாறை அரசு மருத்துவமனைக்கு அனுப்பி, வழக்குப் பதிந்து விசாரிக்கின்றனர்.\n\nManapparai road accident retired teacher killed | Trichy news\n📍 மணப்பாறை, திருச்சி மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Manapparai #விபத்து #TrichyNews",
-   "prompts": "A damaged passenger auto-rickshaw and a crumpled two-wheeler lie on the Trichy-Dindigul national highway near Manjampatti, outside Manapparai, after a multi-vehicle collision on a Monday afternoon. The four-lane highway runs straight through open land with dry scrub, a few palm trees and a roadside tea stall at the edge, under bright daylight. Tamil Nadu police in khaki stand near the middle of the road, with a few onlookers in shirts and trousers and women in sarees watching quietly from the shoulder, seen from behind and far away. A car with a crushed front bumper stands at an angle in the adjoining lane, and slow-moving two-wheelers and lorries pass by. The scene is quiet and sombre, with no injured people visible and no blood. Shot at eye level, 35 mm lens, wide enough to show the highway stretch and the damaged vehicles. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a crumpled two-wheeler, its front wheel bent and handlebars twisted, lying on the tarmac of the Trichy-Dindigul national highway near Manapparai, with the broken edge of a passenger auto-rickshaw body just visible beside it. Scattered fragments of plastic and metal lie on the dark road surface, and a police khaki boot stands at the edge of the frame. Afternoon sunlight falls across the road, with a dusty roadside verge and a few dry bushes behind. No people's faces are visible, and there is no blood or injury. Shot at low angle, 35 mm lens, shallow depth of field to isolate the damaged two-wheeler. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/16/வாகன-விபத்தில்-ஓய்வு-பெற்ற-ஆசிரியா்-உயிரிழப்பு",
-   "published": "2026-11-16T23:32:26.620Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794883578/trichy360/nyzjqa6jxnlwoszsrxte.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794883581/trichy360/nqhjsfkgk0bujxztfeq8.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை: 11 பேரிடம் விசாரணை",
-   "english_headline": "Farmer hacked to death over old enmity at Bodhavur near Somarasampettai, Trichy; 11 people including 2 minors questioned",
-   "category": "Crime & Safety",
-   "location": "Bodhavur, Somarasampettai, Trichy district",
-   "importance": "High",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "கொலை வழக்கு",
-    "loc": "போதாவூர், சோமரசம்பேட்டை",
-    "hl1": "போதாவூரில் விவசாயி வெட்டிக் கொலை",
-    "hl2": "11 பேரிடம் விசாரணை",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "சோமரசம்பேட்டை அருகே போதாவூரில் விவசாயி பாண்டியன்",
-       "ஞாயிற்றுக்கிழமை இரவு மர்ம நபர்களால் கொல்லப்பட்டார்",
-       "பாண்டியன் வயது <b>49</b>"
-      ]
-     },
-     {
-      "title": "முன்விரோதம்",
-      "lines": [
-       "இன்பராஜ் மனைவியை தர்மராஜ் சில மாதங்களுக்கு முன்பு கிண்டல்",
-       "அப்போது நடந்த மோதலில் பாண்டியன் இன்பராஜை சிறிய கத்தியால்",
-       "பாண்டியனை கொலை செய்வேன் என்று இன்பராஜ் சவால் விடுத்தார்"
-      ]
-     },
-     {
-      "title": "விசாரணை",
-      "lines": [
-       "8 பேர் மற்றும் <b>17 வயது</b> சிறுவர்கள் <b>2 பேர்</b>",
-       "<b>11 பேரிடம்</b> 2 தனிப்படைகள் விசாரணை",
-       "வழக்கு தொடர்ந்து விசாரிக்கப்படுகிறது"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "சோமரசம்பேட்டை அருகே போதாவூரில் முன்விரோதத்தில் விவசாயி ஒருவர் வெட்டிக் கொலை செய்யப்பட்டார். கொலையானவர் போதாவூரைச் சேர்ந்த 49 வயது விவசாயி பாண்டியன். ஞாயிற்றுக்கிழமை இரவு அவர் மர்ம நபர்களால் வெட்டிக் கொல்லப்பட்டார். போதாவூர் மேலத் தெருவைச் சேர்ந்த இன்பராஜின் மனைவியை தர்மராஜ் சில மாதங்களுக்கு முன்பு கிண்டல் செய்துள்ளார். அப்போது நடந்த மோதலில் பாண்டியன் சிறிய கத்தியால் இன்பராஜைத் தாக்கியதாகக் கூறப்படுகிறது. அப்போதே பாண்டியனை கொலை செய்வேன் என்று இன்பராஜ் சவால் விடுத்துள்ளார். ஞாயிற்றுக்கிழமை தனியாக இருசக்கர வாகனத்தில் சென்ற பாண்டியனை, இன்பராஜ் உள்ளிட்ட 8 பேரும் 17 வயது சிறுவர்கள் இருவரும் சேர்ந்து வெட்டிக் கொலை செய்தது தெரியவந்துள்ளது. இந்த வழக்கில் சம்பந்தப்பட்ட 2 சிறுவர்கள் உள்பட 11 பேரிடமும் தனிப்படை போலீசார் விசாரணை நடத்தி வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை\n\n📰 முழு விவரம்:\nசோமரசம்பேட்டை அருகேயுள்ள போதாவூரைச் சேர்ந்த ராஜலிங்கம் மகன் பாண்டியன் (49 வயது), விவசாயி. ஞாயிற்றுக்கிழமை இரவு போதாவூர் பகுதியில் மர்ம நபர்களால் வெட்டிக்கொலை செய்யப்பட்டார்.\nபோதாவூர் மேலத் தெருவைச் சேர்ந்த சந்திரன் மகன் இன்பராஜ் (22 வயது) என்பவரின் மனைவியை, அதே பகுதியைச் சேர்ந்த தர்மராஜ் சில மாதங்களுக்கு முன்பு கிண்டல் செய்துள்ளார். இது தொடர்பான மோதலின்போது பாண்டியன் சிறிய கத்தியால் இன்பராஜைத் தாக்கியதாகக் கூறப்படுகிறது. அப்போதே பாண்டியனை கொலை செய்வேன் என்று இன்பராஜ் சவால் விடுத்துள்ளார்.\nஞாயிற்றுக்கிழமை தனியாக இருசக்கர வாகனத்தில் சென்ற பாண்டியனை, இன்பராஜ் உள்ளிட்ட 8 பேரும் 17 வயது சிறுவர்கள் இருவரும் சேர்ந்து வெட்டிக் கொலை செய்தது தெரியவந்துள்ளது.\nஇந்நிலையில், இந்த வழக்கில் சம்பந்தப்பட்ட 2 சிறுவர்கள் உள்பட 11 பேரிடமும் தனிப்படை போலீசார் விசாரணை நடத்தி வருகின்றனர். இதற்காக 2 தனிப்படைகள் அமைக்கப்பட்டுள்ளன.\n👮 நடவடிக்கை: 11 பேரிடம் தனிப்படை போலீசார் விசாரணை\n\nBodhavur farmer murder over old enmity, 11 questioned | Trichy news\n📍 போதாவூர், சோமரசம்பேட்டை, திருச்சி மாவட்டம் | 16 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Somarasampettai #TrichyNews #திருச்சி",
-   "prompts": "A group of Tamil Nadu police in khaki uniform stand beside a cluster of young men seated on the ground under a neem tree, as part of a special team questioning 11 suspects in a murder case at Bodhavur village near Somarasampettai, Trichy. The setting is a narrow village street lined with low tiled-roof houses and concrete compound walls, with a few dim lights from homes at dusk. The young men, some in shirts and trousers and others in veshti, are seen from behind or far away, their faces not shown, sitting quietly while officers in khaki stand over them with notebooks. Beyond the street, rows of paddy and banana fields along the Cauvery plains stretch into the evening haze. A two-wheeler is parked at the roadside near the group, linking the scene to the victim's bike. The light is the soft blue-gold of early night, with a faint overhead lamp. Shot at eye level on a 35 mm lens, wide enough to show the village lane, the police circle and the fields behind. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a single two-wheeler, the motorcycle the farmer was riding when he was attacked, parked on the edge of a dusty village road in Bodhavur near Somarasampettai, Trichy. The scooter sits on its stand against a low compound wall, its seat and handlebars in sharp focus, with dust and dried mud on the tyres. Behind it, a blurred edge of a rural lane and the dark outline of a neem tree frame the scene. Dim evening light from a distant street lamp falls across the metal body, suggesting Sunday night. No people are visible, only the empty vehicle and its quiet stillness, implying the earlier attack. Shot at close range on a 35 mm lens, slightly above the handlebars, with a shallow depth of field to isolate the bike against the village background. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/16/முன்விரோதத்தில்-விவசாயி-வெட்டிக்-கொலை-2-சிறுவா்கள்-உள்பட-11-பேரிடம்-விசாரணை",
-   "published": "2026-11-16T23:30:54.703Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: numbers not found in the article: 8; caption misses facts of the article (put every one in 📰 முழு விவரம்): 23 ('அப்போதே, பாண்டியனை கொலை செய்துவிடுவதாக இன்பராஜ் சவால் விடுத்'); 18 ('அப்போதே, பாண்டியனை கொலை செய்துவிடுவதாக இன்பராஜ் சவால் விடுத்'); 20 ('அப்போதே, பாண்டியனை கொலை செய்துவிடுவதாக இன்பராஜ் சவால் விடுத்'); 21 ('அப்போதே, பாண்டியனை கொலை செய்துவிடுவதாக இன்பராஜ் சவால் விடுத்')",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 2 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794883629/trichy360/llicuheeb1ufyhyzgbnr.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794883632/trichy360/pg3ofrdj8u7tgtepc4dd.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "அரசுக்கு 22.20 கோடி ரூபாய் இழப்பு; அரிசி ஆலை உரிமையாளர் குடும்பத்துடன் கைது",
-   "english_headline": "Rs 22.20 crore loss to government; rice mill owner arrested with family",
-   "category": "Crime & Safety",
-   "location": "Trichy, Trichy district",
-   "importance": "High",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "மோசடி கைது",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சி: அரசுக்கு 22.20 கோடி இழப்பு",
-    "hl2": "குடும்பத்துடன் கைது",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "ரேஷன் அரிசி தயாரிக்க கொடுத்த <b>3710 மெட்ரிக் டன்</b> நெல் முறைகேடு",
-       "முறைகேடாக கள்ளச் சந்தையில் விற்பனை",
-       "அரசுக்கு <b>22.20 கோடி ரூபாய்</b> இழப்பு"
-      ]
-     },
-     {
-      "title": "யார் கைது?",
-      "lines": [
-       "மணப்பாறை அரிசி ஆலை உரிமையாளர் சண்முகம்",
-       "அவரது மனைவி வனிதா, மகன் ரங்கராஜன்",
-       "மூவரும் போலீசாரால் கைது செய்யப்பட்டனர்"
-      ]
-     },
-     {
-      "title": "புகார் & விசாரணை",
-      "lines": [
-       "நுகர்பொருள் வாணிபக் கழகத்தின் திருச்சி மண்டல மேலாளர் புகார்",
-       "புகார்படி போலீசார் கைது செய்தனர்",
-       "தற்போது விசாரணை நடைபெற்று வருகிறது"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சியில் ரேஷன் அரிசி மோசடியில் அரசுக்கு 22 கோடியே 20 லட்சம் ரூபாய் இழப்பு ஏற்பட்டுள்ளது. ரேஷன் கடைகளுக்கு அரிசி தயாரிக்க அரசு கொடுத்த 3710 மெட்ரிக் டன் நெல் முறைகேடு செய்யப்பட்டது. அந்த நெல் முறைகேடாக கள்ளச் சந்தையில் விற்கப்பட்டது. மணப்பாறை அரிசி ஆலை உரிமையாளர் சண்முகம், அவரது மனைவி வனிதா, மகன் ரங்கராஜன் ஆகியோர் கைது செய்யப்பட்டனர். நுகர்பொருள் வாணிபக் கழகத்தின் திருச்சி மண்டல மேலாளர் கொடுத்த புகார்படி போலீசார் இந்தக் கைதை மேற்கொண்டனர். மூவரிடமும் தற்போது விசாரணை நடைபெற்று வருகிறது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சியில் அரசுக்கு 22.20 கோடி ரூபாய் இழப்பு; அரிசி ஆலை உரிமையாளர் குடும்பத்துடன் கைது\n\n📰 முழு விவரம்:\nதிருச்சியில் ரேஷன் கடைகளுக்கு அரிசி தயாரிக்க அரசு கொடுத்த 3710 மெட்ரிக் டன் நெல் முறைகேடு செய்யப்பட்டது. அந்த நெல் கள்ளச் சந்தையில் விற்கப்பட்டதால் அரசுக்கு 22.20 கோடி ரூபாய் இழப்பு ஏற்பட்டது.\nமணப்பாறை அரிசி ஆலை உரிமையாளர் சண்முகம், அவரது மனைவி வனிதா, மகன் ரங்கராஜன் ஆகியோரை போலீசார் கைது செய்தனர்.\nநுகர்பொருள் வாணிபக் கழகத்தின் திருச்சி மண்டல மேலாளர் கொடுத்த புகார்படி இந்தக் கைது நடைபெற்றது. மூவரிடமும் விசாரணை நடைபெற்று வருகிறது.\n\n📍 இடம்: திருச்சி மாவட்டம்\n🗓️ நாள்: நவம்பர் 17, 2026\n👮 நடவடிக்கை: சண்முகம், வனிதா, ரங்கராஜன் கைது; விசாரணை நடைபெறுகிறது\n\nIslam Trichy rice fraud Rs 22.20 crore arrest | Trichy news\n📍 திருச்சி மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Manapparai",
-   "prompts": "A group of police in khaki uniforms escorts three members of a family, a middle-aged man, a woman in a saree and a young man, out of the gate of a large rice mill in Manapparai, Trichy district, as the family is taken for questioning. The setting is a rice mill yard with tall stacks of paddy and rice gunny sacks piled against a brick and corrugated-sheet shed, a white Tamil Nadu police jeep parked near the gate, and a few corporation or mill workers standing at a distance. The man wears a plain shirt and veshti, the woman a cotton saree with the end drawn over her head, and the young man a shirt and trousers; they are seen from behind or from the side, far enough that no faces are clear. Sacks of paddy are stacked high in the background, and the scene conveys a sense of a seized, stalled operation. It is daylight with soft, even sunlight in the Tamil Nadu afternoon, and the camera is at eye level with a 35 mm wide lens showing the whole yard, the gate and the stacked grain. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up detail of stacked gunny sacks of paddy and loose rice grains spilling onto the concrete floor of a rice mill in Manapparai, Trichy district, with a few sacks marked as seized placed on a wooden table in front of a police officer in khaki whose hands and uniform are visible but whose face is not shown. The sacks are stacked high against a bare brick wall, with mill machinery and a weighing scale partly visible in the background. The grain is golden-brown paddy and white milled rice piled in heaps, showing the scale of the 3710 metric tonne stock involved in the misappropriation. The lighting is bright daylight coming through the mill shed's open doorway, casting clear shadows across the floor. The camera sits slightly above table height, shot with a 35 mm lens focused on the sacks and grain, with the police officer's uniform softly blurred in the foreground. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-news/government-loses-rs-2220-crore-rice-mill-owner-with-family-arrested/4378411",
-   "published": "2026-11-17T07:20:00+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794883651/trichy360/sfi1lyhy4eo3ondwzkcg.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794883654/trichy360/ejhegcu1du4ag7r3jzpc.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794920808/trichy360/wewx4immiinwm39tnk6p.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794920840/trichy360/w7pafvcqqmxojcjlbqrl.jpg"
    ]
   }
  ]
