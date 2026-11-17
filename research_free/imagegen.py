@@ -6,9 +6,10 @@ import base64, json, os, sys, time, requests
 
 GEN = "https://ai.api.nvidia.com/v1/genai/"
 # (model path, request body builder). FLUX only accepts sizes that are multiples of 64 inside 768..1344 -> 768x1344 is 9:16.
-MODELS = [      # Trichy 29 Oct: schnell first (dev timed out at 100 s); SDXL-lightning / SD3-medium answered 404 and were removed
-    ("black-forest-labs/flux.1-schnell", lambda p, s: {"prompt": p, "width": 768, "height": 1344, "seed": s, "steps": 4}),
-    ("black-forest-labs/flux.1-dev", lambda p, s: {"prompt": p, "mode": "base", "cfg_scale": 3.5, "width": 768, "height": 1344, "seed": s, "steps": 28}),
+MODELS = [      # owner 17 Nov: no 'seed' - NVIDIA answers 422 'Extra inputs are not permitted' since mid-Nov
+         # Trichy 29 Oct: schnell first (dev timed out at 100 s); SDXL-lightning / SD3-medium answered 404 and were removed
+    ("black-forest-labs/flux.1-schnell", lambda p, s: {"prompt": p, "width": 768, "height": 1344, "steps": 4}),
+    ("black-forest-labs/flux.1-dev", lambda p, s: {"prompt": p, "mode": "base", "cfg_scale": 3.5, "width": 768, "height": 1344, "steps": 28}),
 ]
 DEAD = set()
 USED = {}
