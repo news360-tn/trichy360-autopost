@@ -1,59 +1,17 @@
-22:48:46 round 2026-11-16_22: news published 16 Nov 17:32 -> 16 Nov 22:48 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-22:48:46 insights 2026-11-16T22:48+05:30 (43 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'education': -0.5, 'politics': -0.05}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 சமயபுரம் அருகே கொடூர விபத்து: கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி']
-22:51:23 87 links on the two papers' Trichy pages
-22:52:53 skipped: not Trichy district=53, published before this window=18, already posted=9, shop offer / advertisement=1, only a headline=1
-22:52:53 list: 4 new + 0 earlier news not posted yet
-22:52:53    1. [குற்றம்] வீட்டிற்கு செல்லும் வழியில் விவசாயி தலை துண்டித்துக் கொலை.. (பாலிமர்)
-22:52:53    2. [பொது] துணை சபாநாயகர் ரவிசங்கரிடம் ‘அறை’ வாங்கியவர் அலைக்கழிப்பு (தினமலர்)
-22:52:53    3. [விலை] வரத்து குறைவு: இரட்டை சதம் அடித்த சின்ன வெங்காயம் விலை - இல்லத்தரசிகள் (தினத்தந்தி)
-22:52:53    4. [பொது] கடன் தகராறில் தீக்குளிக்க முயன்ற தி.மு.க., நிர்வாகியால் பரபரப்பு (தினமலர்)
-22:52:53 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-16_22
-22:52:56    not picked automatically (suicide / obituary - only when the owner ticks it): கடன் தகராறில் தீக்குளிக்க முயன்ற தி.மு.க., நிர்வாகியால் பரபரப்பு
-22:52:56 round 2026-11-16_22 (at least 4, up to 3 more of well-watched topics): 3 news to choose from (0 from earlier rounds), ranked by this page's insights
-22:52:56   PICK   1.  16.5 [crime +1.50 page] வீட்டிற்கு செல்லும் வழியில் விவசாயி தலை துண்டித்துக் கொலை..
-22:52:56   PICK   2.  10.0 [other +0.00 pattern] துணை சபாநாயகர் ரவிசங்கரிடம் ‘அறை’ வாங்கியவர் அலைக்கழிப்பு
-22:52:56   PICK   3.   5.6 [poultry_agri -0.30 pattern] வரத்து குறைவு: இரட்டை சதம் அடித்த சின்ன வெங்காயம் விலை - இல்
-22:52:56 decided: automatic: top 4 of 3 by insights -> 3 news to write and post
-PICK_URLS=https://www.polimernews.com/districtnews/farmer-beheaded-to-death-while-returning-home-12814747 https://www.dinamalar.com/news/tamil-nadu-news/the-man-who-bought-the-room-from-deputy-speaker-ravi-shankar/4378112 https://www.dailythanthi.com/news/tamilnadu/shortage-of-supply-housewives-worried-over-rise-in-price-of-small-onions
-22:55:36 1 picked news refused by the writer - not offered again
-22:55:36 2 listed news now in the Sheet
-22:55:45 instagram duplicate check trichy: 50 recent posts read
-22:55:45 verify 2026-11-16_22: 0 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-22:55:45    SKIPPED C6628022: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வரத்து குறைவு: இரட்டை சதம் அடித்த சின்ன வெங்காயம் விலை - இல்
-22:55:45    NOT POSTED C847f5c3: queued RN-53 (Queued) - வீட்டிற்கு செல்லும் வழியில் விவசாயி தலை துண்டித்துக் கொலை..
-22:55:45    NOT POSTED C8594bf9: queued RN-54 (Queued) - துணை சபாநாயகர் ரவிசங்கரிடம் ‘அறை’ வாங்கியவர் அலைக்கழிப்பு
-23:00:53 instagram duplicate check trichy: 50 recent posts read
-23:00:53 verify 2026-11-16_22: 0 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-23:00:53    SKIPPED C6628022: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வரத்து குறைவு: இரட்டை சதம் அடித்த சின்ன வெங்காயம் விலை - இல்
-23:00:53    NOT POSTED C847f5c3: queued RN-53 (Queued) - வீட்டிற்கு செல்லும் வழியில் விவசாயி தலை துண்டித்துக் கொலை..
-23:00:53    NOT POSTED C8594bf9: queued RN-54 (Queued) - துணை சபாநாயகர் ரவிசங்கரிடம் ‘அறை’ வாங்கியவர் அலைக்கழிப்பு
-23:06:00 instagram duplicate check trichy: 50 recent posts read
-23:06:00 verify 2026-11-16_22: 0 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-23:06:00    SKIPPED C6628022: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வரத்து குறைவு: இரட்டை சதம் அடித்த சின்ன வெங்காயம் விலை - இல்
-23:06:00    NOT POSTED C847f5c3: queued RN-53 (Queued) - வீட்டிற்கு செல்லும் வழியில் விவசாயி தலை துண்டித்துக் கொலை..
-23:06:00    NOT POSTED C8594bf9: queued RN-54 (Queued) - துணை சபாநாயகர் ரவிசங்கரிடம் ‘அறை’ வாங்கியவர் அலைக்கழிப்பு
-23:11:07 instagram duplicate check trichy: 50 recent posts read
-23:11:07 verify 2026-11-16_22: 0 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-23:11:07    SKIPPED C6628022: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வரத்து குறைவு: இரட்டை சதம் அடித்த சின்ன வெங்காயம் விலை - இல்
-23:11:07    NOT POSTED C847f5c3: queued RN-53 (Queued) - வீட்டிற்கு செல்லும் வழியில் விவசாயி தலை துண்டித்துக் கொலை..
-23:11:07    NOT POSTED C8594bf9: queued RN-54 (Queued) - துணை சபாநாயகர் ரவிசங்கரிடம் ‘அறை’ வாங்கியவர் அலைக்கழிப்பு
-23:16:13 instagram duplicate check trichy: 50 recent posts read
-23:16:14 verify 2026-11-16_22: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-23:16:14    SKIPPED C6628022: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வரத்து குறைவு: இரட்டை சதம் அடித்த சின்ன வெங்காயம் விலை - இல்
-23:16:14    NOT POSTED C8594bf9: queued RN-54 (Queued) - துணை சபாநாயகர் ரவிசங்கரிடம் ‘அறை’ வாங்கியவர் அலைக்கழிப்பு
-23:21:20 instagram duplicate check trichy: 50 recent posts read
-23:21:20 verify 2026-11-16_22: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-23:21:20    SKIPPED C6628022: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வரத்து குறைவு: இரட்டை சதம் அடித்த சின்ன வெங்காயம் விலை - இல்
-23:21:20    NOT POSTED C8594bf9: queued RN-54 (Queued) - துணை சபாநாயகர் ரவிசங்கரிடம் ‘அறை’ வாங்கியவர் அலைக்கழிப்பு
-bridge 'queue' did not answer (try 1 of 3): HTTPSConnectionPool(host='script.google.com', port=443): Read timed out. (read timeout=120)
-23:28:37 instagram duplicate check trichy: 50 recent posts read
-23:28:37 verify 2026-11-16_22: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-23:28:37    SKIPPED C6628022: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வரத்து குறைவு: இரட்டை சதம் அடித்த சின்ன வெங்காயம் விலை - இல்
-23:28:37    NOT POSTED C8594bf9: queued RN-54 (Queued) - துணை சபாநாயகர் ரவிசங்கரிடம் ‘அறை’ வாங்கியவர் அலைக்கழிப்பு
-23:33:45 instagram duplicate check trichy: 50 recent posts read
-23:33:45 verify 2026-11-16_22: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-23:33:45    SKIPPED C6628022: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வரத்து குறைவு: இரட்டை சதம் அடித்த சின்ன வெங்காயம் விலை - இல்
-23:33:45    NOT POSTED C8594bf9: queued RN-54 (Queued) - துணை சபாநாயகர் ரவிசங்கரிடம் ‘அறை’ வாங்கியவர் அலைக்கழிப்பு
-23:38:49 verify 2026-11-16_22: 2 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-23:38:49    SKIPPED C6628022: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வரத்து குறைவு: இரட்டை சதம் அடித்த சின்ன வெங்காயம் விலை - இல்
+08:04:29 round 2026-11-17_08: news published 16 Nov 22:48 -> 17 Nov 08:04 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+08:04:29 insights 2026-11-17T08:04+05:30 (47 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': -0.06, 'education': -0.5, 'politics': -0.31}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 சமயபுரம் அருகே கொடூர விபத்து: கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி']
+08:10:11 87 links on the two papers' Trichy pages
+08:12:15 skipped: not Trichy district=51, published before this window=18, already posted=5, same event already posted=2, shop offer / advertisement=1
+08:12:15 list: 9 new + 1 earlier news not posted yet
+08:12:15    1. [மின்தடை] திருச்சி மாவட்டத்தின் இன்றைய மின்தடை (தினமணி)
+08:12:15    2. [குற்றம்] முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை 2 சிறுவா்கள் உள்பட 11 பேரிடம் வி (தினமணி)
+08:12:15    3. [குற்றம்] தொழிலாளி தூக்கிட்டுத் தற்கொலை (தினமணி)
+08:12:15    4. [குற்றம்] அரசுக்கு 22.20 கோடி ரூபாய் இழப்பு; அரிசி ஆலை உரிமையாளர் குடும்பத்துடன் (தினமலர்)
+08:12:15    5. [விபத்து] வாகன விபத்தில் ஓய்வு பெற்ற ஆசிரியா் உயிரிழப்பு (தினமணி)
+08:12:15    6. [குற்றம்] திருச்சியில் அழுகிய நிலையில் சிறை வாா்டா் சடலமாக மீட்பு (தினமணி)
+08:12:15    7. [பொது] பரனூர் சுங்கச்சாவடியில் 40 நாட்களில் 3.85 லட்சம் வாகனங்கள் விதிமீறல்;  (தினத்தந்தி)
+08:12:15    8. [பொது] நிலப் பிரச்னையில் இருவா் தீக்குளிக்க முயற்சி (தினமணி)
+08:12:15    9. [நீதிமன்றம்] பேரவை துணைத் தலைவர் மீது நடவடிக்கை எடுக்காவிட்டால் நீதிமன்றத்தை நாடுவோ (இந்து தமிழ்)
+08:12:15   10. [பொது] கடன் தகராறில் தீக்குளிக்க முயன்ற தி.மு.க., நிர்வாகியால் பரபரப்பு (தினமலர்) (earlier)
+08:12:15 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-17_08

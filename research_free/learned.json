@@ -1,19 +1,20 @@
 {
- "updated": "2026-11-16T22:48+05:30",
- "posts_measured": 43,
+ "updated": "2026-11-17T08:04+05:30",
+ "posts_measured": 47,
  "topic_weight": {
   "accident": 1.5,
   "crime": 1.5,
+  "power_cut": -0.06,
   "education": -0.5,
-  "politics": -0.05
+  "politics": -0.31
  },
  "topic_n": {
   "accident": 4,
-  "crime": 9,
-  "power_cut": 1,
+  "crime": 10,
+  "power_cut": 3,
   "civic": 2,
   "education": 4,
-  "politics": 10,
+  "politics": 11,
   "sports_culture": 1,
   "weather": 1,
   "temple": 2,
@@ -31,11 +32,11 @@
   "🗳️ திருச்சி கிழக்கில் 20-ந்தேதி முதலமைச்சர் விஜய் ரோடு-ஷோ",
   "🔒 திருச்சி மத்திய சிறையில் கைப்பேசி, சிம் கார்டுகள் பறிமுதல்"
  ],
- "avg_watch_s": 7.7,
+ "avg_watch_s": 7.9,
  "best_topics": [
   "accident",
   "crime",
-  "politics"
+  "power_cut"
  ],
  "weak_topics": [
   "education",
