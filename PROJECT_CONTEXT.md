@@ -81,6 +81,26 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-17 | `2eedd51` | pick: picked news saved |
+| 2026-11-17 | `b89692d` | pick: list sent |
+| 2026-11-17 | `62994a4` | pictures: NVIDIA FLUX no longer accepts 'seed' (422) - dropped so the free NVIDIA pictures work again |
+| 2026-11-17 | `7392ea6` | goldrate posted |
+| 2026-11-17 | `6fe7aad` | rasipalan posted |
+| 2026-11-17 | `92bb259` | powercut: notices written |
+| 2026-11-17 | `2249c3b` | powercut: notices written |
+| 2026-11-17 | `ed41274` | pick: written and posted |
+| 2026-11-17 | `50c1860` | pick: picked news saved |
+| 2026-11-17 | `0da58ec` | pick: list sent |
+| 2026-11-17 | `5768a78` | pick: written and posted |
+| 2026-11-17 | `d31f9f9` | pick: picked news saved |
+| 2026-11-17 | `398fb79` | pick: picked news saved |
+| 2026-11-17 | `61ba42e` | pick: list sent |
+| 2026-11-16 | `19bc113` | pick: written and posted |
+| 2026-11-16 | `34043b3` | powercut: notices written |
+| 2026-11-16 | `e0926cf` | pick: picked news saved |
+| 2026-11-16 | `5b6c108` | pick: picked news saved |
+| 2026-11-16 | `b0e64cc` | pick: list sent |
+| 2026-11-16 | `03d0c76` | powercut: notices written |
 | 2026-11-16 | `98c3130` | post: while news is still waiting, a live posting run starts the next one (GitHub skipped most 5-minute runs on 16 Nov) |
 | 2026-11-16 | `a240184` | pick: written and posted |
 | 2026-11-16 | `0bc5e60` | pick: list sent |
@@ -91,24 +111,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-16 | `acf3f15` | stories shared |
 | 2026-11-16 | `32f726c` | powercut: notices written |
 | 2026-11-16 | `7423a42` | powercut: notices written |
-| 2026-11-16 | `02dbdc9` | goldrate posted |
-| 2026-11-16 | `49c7aaa` | pick: a round GitHub skipped adds its count to the next round; lifestyle columns not written automatically; leftover count in the round log |
-| 2026-11-16 | `08f1b98` | rasipalan posted |
-| 2026-11-16 | `b137da2` | pick: written and posted |
-| 2026-11-16 | `5bac4a9` | pick: picked news saved |
-| 2026-11-16 | `dfaca9e` | pick: picked news saved |
-| 2026-11-16 | `0fca18c` | pick: list sent |
-| 2026-11-15 | `55e80b8` | pick: written and posted |
-| 2026-11-15 | `44f082b` | pick: picked news saved |
-| 2026-11-15 | `dfa883d` | pick: picked news saved |
-| 2026-11-15 | `03985d4` | pick: list sent |
-| 2026-11-15 | `2174d42` | powercut: notices written |
-| 2026-11-15 | `7f4c3e5` | powercut: notices written |
-| 2026-11-15 | `acd615c` | stories shared |
-| 2026-11-15 | `f916ae0` | powercut: notices written |
-| 2026-11-15 | `eea285c` | powercut: notices written |
-| 2026-11-15 | `8933c30` | powercut: notices written |
-| 2026-11-15 | `1a91ed8` | pick: written and posted |
-| 2026-11-15 | `9d0d209` | pick: list sent |
-| 2026-11-15 | `5b8ea9c` | powercut: notices written |
 <!-- recent-changes:end -->
