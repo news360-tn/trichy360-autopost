@@ -433,9 +433,9 @@
    "title": "coimbatore power cut: கோவையில் நாளை (17-11-2026) எங்கெல்லாம் கரண்ட் இருக்காது? - மின்வாரியம் வெளியிட்ட லிஸ்ட்"
   },
   "https://tamil.abplive.com/news/trichy/trichy-power-cut-17-11-2026-know-timings-areas-affected-by-power-shutdown-279854#district-section": {
-   "at": "2026-11-17T13:36:28.699445+05:30",
+   "at": "2026-11-17T14:04:13.353349+05:30",
    "power_cut": true,
-   "why": "",
+   "why": "power cut ends today at 15:00 - too late to post",
    "title": "திருச்சி மாவட்டத்தில் நாளை (17-11-2026) மின்தடை: பல்வேறு பகுதிகளில் (நவம்பர் 17, 2026, செவ்வாய்க்கிழமை) மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெற உள்ளதால், காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம"
   },
   "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/10/துறையூா்-பகுதியில்-இன்று-நவ11-மின்தடை": {
@@ -647,6 +647,36 @@
    "power_cut": false,
    "why": "not this district",
    "title": "Chennai Power Cut: அட கடவுளே... சென்னையில் நாளை (17.11.2026) ஒரே நேரத்தில் இவ்வளவு இடங்களில் மின்தடையா?"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/power-outage-today-inthanganagar-and-balakrishnampatti-areas": {
+   "at": "2026-11-17T14:04:13.353349+05:30",
+   "power_cut": true,
+   "why": "cut day 2026-11-13 has passed",
+   "title": "தங்கநகா், பாலகிருஷ்ணம்பட்டி பகுதிகளில் இன்று மின்தடை"
+  },
+  "https://www.dinamani.com/all-editions/edition-coimbatore/coimbatore/2026/Nov/10/நாளைய-மின்தடை-பீளமேடு-முத்துக்கவுண்டன்புதூா்": {
+   "at": "2026-11-17T14:04:13.353349+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "நாளைய மின்தடை: பீளமேடு, முத்துக்கவுண்டன்புதூா்"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/10/திருச்சியில்-நாளை-மின்தடை": {
+   "at": "2026-11-17T14:04:13.353349+05:30",
+   "power_cut": true,
+   "why": "cut day 2026-11-12 has passed",
+   "title": "திருச்சியில் நாளை மின்தடை"
+  },
+  "https://tamil.abplive.com/news/coimbatore/coimbatore-power-cut-18-11-2026-know-timings-areas-affected-by-power-shutdown-279918#district-section": {
+   "at": "2026-11-17T14:04:13.353349+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "coimbatore power cut: கோவையில் நாளை (18-11-2026) எங்கெல்லாம் மின் தடை? - மின்வாரியம் வெளியிட்ட லிஸ்ட்"
+  },
+  "https://tamil.abplive.com/news/vellore/vellore-power-cut-18-11-2026-know-timings-areas-affected-by-power-shutdown-279927#district-section": {
+   "at": "2026-11-17T14:04:13.353349+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "Vellore power cut: வேலூரில் நாளை (18-11-2026) எங்கெல்லாம் கரண்ட் கட்? - மின்வாரியம் வெளியிட்ட லிஸ்ட்"
   }
  },
  "done": {
@@ -688,6 +718,10 @@
   "Cc4d0699": {
    "why": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)",
    "at": "2026-11-16T23:20:35.299888+05:30"
+  },
+  "C9190013": {
+   "why": "not filed: duplicate after write",
+   "at": "2026-11-17T14:07:44.290981+05:30"
   }
  }
 }
