@@ -50,7 +50,8 @@
    "category": "நீதிமன்றம்",
    "score": 5.0,
    "power_cut": false,
-   "listed_at": "2026-11-17T18:27:04.006584+05:30"
+   "listed_at": "2026-11-17T18:27:04.006584+05:30",
+   "picked_at": "2026-11-17T18:31:08.099190+05:30"
   }
  },
  "rounds": {
@@ -578,8 +579,16 @@
    ],
    "sent": false,
    "deadline": "2026-11-17T19:27:04.006584+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 8 of 1 by insights",
+    "ids": [
+     "Cdca0b6f"
+    ],
+    "at": "2026-11-17T18:31:08.099179+05:30"
+   },
+   "written": [
+    "Cdca0b6f"
+   ]
   }
  },
  "retry": {}
