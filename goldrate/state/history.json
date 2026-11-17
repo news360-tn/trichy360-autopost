@@ -86,5 +86,21 @@
    "Groww",
    "RateToday"
   ]
+ },
+ {
+  "date": "2026-11-17",
+  "g22": 12470,
+  "g24": 13604,
+  "gold_sources": [
+   "GoodReturns",
+   "Groww",
+   "RateToday"
+  ],
+  "silver": 190,
+  "silver_sources": [
+   "GoodReturns",
+   "Groww",
+   "RateToday"
+  ]
  }
 ]
