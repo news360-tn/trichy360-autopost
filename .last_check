@@ -1,24 +1,23 @@
-23:15:31 SKIP RN-4 stale: published 12 Nov, older than yesterday
-23:15:31 SKIP RN-19 held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the article.
-23:15:31 SKIP RN-22 held: fact-check problems - numbers not found in the article: 1000
-23:15:31 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-23:15:31 SKIP RN-29 held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்)
-23:15:31 SKIP RN-42 held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact-check: The reel_script states the body was found in the well belonging to Manivanna
-23:15:32 SKIP RN-45 held: fact-check problems - numbers not found in the article: 7
-23:15:35 story catch-up trichy: quota 17/50, 40 recent posts, 7 live stories, owner ids ['17841462048887226', '28956510467350700']
-23:15:35 10 stories in the queue, ready to post: 3
-23:15:35   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-23:15:35    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 112.0 ready= False set_started= True
-23:15:35    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 81.3 ready= False set_started= True
-23:15:35    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 77.6 ready= False set_started= True
-23:15:35    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 77.6 ready= False set_started= True
-23:15:35    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 73.5 ready= False set_started= True
-23:15:35    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 41.4 ready= False set_started= True
-23:15:35    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 41.4 ready= False set_started= True
-23:15:35    RN-63 review= 'Auto' images= 197 spec= 875 pages= ['trichy'] links= '' '' age_h= 0.7 ready= True set_started= True
-23:15:35    RN-64 review= 'Auto' images= 197 spec= 734 pages= ['trichy'] links= '' '' age_h= 0.7 ready= True set_started= True
-23:15:35    RN-66 review= 'Auto' images= 197 spec= 965 pages= ['trichy'] links= '' '' age_h= 0.6 ready= True set_started= True
-23:15:36 publishing quota trichy: 17/50
-23:15:38 instagram duplicate check trichy: 50 recent posts read
-23:15:39    RN-63 waits for the 12-minute gap after the last post on ['trichy']
-23:15:39    RN-66 waits for the 12-minute gap after the last post on ['trichy']
+23:27:19 SKIP RN-4 stale: published 12 Nov, older than yesterday
+23:27:19 SKIP RN-19 held: fact-check problems - fact-check: The caption incorrectly lists the year as 2026 for the protest date, which is not mentioned in the article.
+23:27:19 SKIP RN-22 held: fact-check problems - numbers not found in the article: 1000
+23:27:19 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+23:27:19 SKIP RN-29 held: fact-check problems - not grounded: only 20% of the words come from the article (e.g. இன்று, அதிகபட்ச, வெப்பநிலை, டிகிரி, செல்சியஸ்)
+23:27:19 SKIP RN-42 held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact-check: The reel_script states the body was found in the well belonging to Manivanna
+23:27:19 SKIP RN-45 held: fact-check problems - numbers not found in the article: 7
+23:27:21 story catch-up trichy: quota 17/50, 40 recent posts, 6 live stories, owner ids ['17841462048887226', '28956510467350700']
+23:27:21 9 stories in the queue, ready to post: 2
+23:27:21   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+23:27:21    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 112.2 ready= False set_started= True
+23:27:21    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 81.5 ready= False set_started= True
+23:27:21    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 77.8 ready= False set_started= True
+23:27:21    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 77.8 ready= False set_started= True
+23:27:21    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 73.7 ready= False set_started= True
+23:27:21    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 41.6 ready= False set_started= True
+23:27:21    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 41.6 ready= False set_started= True
+23:27:21    RN-63 review= 'Auto' images= 197 spec= 875 pages= ['trichy'] links= '' '' age_h= 0.9 ready= True set_started= True
+23:27:21    RN-66 review= 'Auto' images= 197 spec= 965 pages= ['trichy'] links= '' '' age_h= 0.8 ready= True set_started= True
+23:27:22 publishing quota trichy: 17/50
+23:27:23 instagram duplicate check trichy: 50 recent posts read
+23:27:23    RN-63 waits for the 12-minute gap after the last post on ['trichy']
+23:27:24    RN-66 waits for the 12-minute gap after the last post on ['trichy']
