@@ -3,114 +3,382 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-district-news-madurai/high-court-defers-verdict-on-dmk-executive-s-bail-plea-in-srirangam-temple-land-grabbing-case/4378568",
-  "candidate filter: collected=1",
-  "to write: 1 Trichy district candidates (max 1 stories)",
-  "round: top 1 of 1 candidates",
-  "candidates waiting: 1 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-district-news-madu",
+  "manual link added: https://tamil.oneindia.com/news/trichirappalli/tamilisai-predicts-bjp-s-lotus-will-bloom-in-tamil-nadu-targets-congress-and-tvk-846181.html",
+  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/direct-flights-to-trichy-subang/4379025",
+  "manual link added: https://www.dinamalar.com/news/business-general-news/opportunity-for-musicians-on-national-scale/4378790",
+  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/arogara-fund-for-human-beings-hindu-people-s-party-strongly-condemns/4379102",
+  "candidate filter: collected=4",
+  "to write: 4 Trichy district candidates (max 4 stories)",
+  "round: top 4 of 4 candidates",
+  "candidates waiting: 4 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/arogara-fund-",
+  "try (N) manual=True: https://www.dinamalar.com/news/business-general-news/opportu",
+  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/direct-flight",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 73 min",
-  "filed: 1 Trichy district stories (target 1), reels only",
+  "try (N) manual=True: https://tamil.oneindia.com/news/trichirappalli/tamilisai-pre",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})",
+  "candidate loop ended: left 0, tried={'N': 4}, done={'N': 4}, time left 76 min",
+  "filed: 4 Trichy district stories (target 4), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":4,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
+  "ok gemini/gemini-3-flash-preview (9s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3-flash-preview (10s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3-flash-preview (4s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "ok gemini/gemini-3-flash-preview (11s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "switching away from gemini/gemini-3.6-flash for 10 min",
+  "ok gemini/gemini-3-flash-preview (10s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
   "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.5-flash",
-  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok groq/qwen/qwen3.8-27b (5s)",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "dead for this round: gemini/gemini-3-flash-preview",
+  "ok gemini/gemini-3-flash-preview (15s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok anthropic/claude-haiku-5-5",
+  "ok groq/qwen/qwen3.8-27b (4s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok groq/openai/gpt-oss-120b (5s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok gemini/gemini-3-flash-preview (17s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/qwen/qwen3.8-27b (0s)",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/qwen/qwen3.8-27b (0s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "ஸ்ரீரங்கம் கோயில் நிலம் அபகரிப்பு வழக்கு: தி.மு.க. நிர்வாகி ராம்குமார் ஜாமின் மனு மீதான தீர்ப்பு ஒத்திவைப்பு",
-   "english_headline": "Sriranga temple land grab case: High Court reserves verdict on DMK functionary Ramkumar's bail plea",
-   "category": "Crime & Safety",
-   "location": "Srirangam, Trichy district",
-   "importance": "High",
-   "scope": "local",
+   "tamil_headline": "திருச்சி உள்ளிட்ட 26 இடங்களில் இளம் இசைக் கலைஞர்களுக்கு வாய்ப்பு",
+   "english_headline": "Youth music talent show 'Air Rising Stars' by All India Radio in 26 places including Trichy until 30th",
+   "category": "Government & Services",
+   "location": "Trichy, Madurai, Puducherry and 23 other places - Trichy district",
+   "importance": "Medium",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "வழக்கு",
-    "loc": "ஸ்ரீரங்கம்",
-    "hl1": "ஸ்ரீரங்கம் கோயில் நிலம் அபகரிப்பு வழக்கு",
-    "hl2": "ஜாமின் தீர்ப்பு ஒத்திவைப்பு",
+    "cat": "இசை வாய்ப்பு",
+    "loc": "திருச்சி",
+    "hl1": "திருச்சியில் இளம் இசைக் கலைஞர்களுக்கு",
+    "hl2": "பரிசு ரூ.20,000 வரை",
     "slides": [
      {
-      "title": "என்ன வழக்கு?",
+      "title": "என்ன நிகழ்ச்சி?",
       "lines": [
-       "ஸ்ரீரங்கம் ரங்கநாதர் கோயில் நிலம் <b>ரூ.50 கோடி</b> மதிப்பு",
-       "போலி ஆவணங்கள் மூலம் அபகரித்ததாக வழக்கு",
-       "தி.மு.க. பகுதி செயலாளர் ராம்குமார் மீது வழக்கு"
+       "'ஏர் ரைசிங் ஸ்டார்ஸ்' இசை நிகழ்ச்சி",
+       "அகில இந்திய வானொலி துவக்கியுள்ளது",
+       "இளம் இசைக் கலைஞர்களை ஊக்குவிப்பதே நோக்கம்"
       ]
      },
      {
-      "title": "ராம்குமார் வாதம்",
+      "title": "எங்கே, எப்போது?",
       "lines": [
-       "<b>5 ஏக்கர் 87 சென்ட்</b> நிலத்தை வாங்கியதாகக் கூறினார்",
-       "2024ல் <b>ரூ.2 கோடியே 90 லட்சம்</b> கொடுத்து வாங்கியதாக",
-       "நிலம் கோயிலுக்கு சொந்தமானது என்பதற்கு ஆவணம் இல்லை என்றார்"
+       "மதுரை, திருச்சி, புதுச்சேரி உட்பட <b>26 இடங்களில்</b>",
+       "இம்மாதம் <b>30ஆம் தேதி</b> வரை நடைபெறும்",
+       "வானொலி, தொலைக்காட்சி, யுடியூபில் ஒளிபரப்பு"
       ]
      },
      {
-      "title": "அரசு தரப்பு",
+      "title": "யாருக்கு வாய்ப்பு?",
       "lines": [
-       "நிலம் கோயிலுக்கு சொந்தமானது என்று ஆவணங்கள் உள்ளன",
-       "ஜாமின் அனுமதிக்கக் கூடாது என ஆட்சேபம்",
-       "கைதாகி <b>47 நாட்கள்</b> ஆகிறது"
+       "வானொலியில் தர மதிப்பீடு பெற்ற கலைஞர்களுக்கு முன்னுரிமை",
+       "<b>30 வயதுக்கு உட்பட்ட</b> இசைக் கலைஞர்கள்",
+       "தகுதியின் அடிப்படையில் புதிய கலைஞர்களுக்கும் வாய்ப்பு"
       ]
      },
      {
-      "title": "நீதிமன்ற முடிவு",
+      "title": "பரிசுத் தொகை",
       "lines": [
-       "மதுரை உயர்நீதிமன்றக் கிளை தீர்ப்பை ஒத்திவைத்தது",
-       "நீதிபதி கே.முரளிசங்கர் விசாரித்தார்"
+       "ஜனவரி 15 வரை யுடியூபில் அதிக பார்வைகள் பெறும் கலைஞர்கள்",
+       "முதல் பரிசு <b>ரூ.20,000</b>, இரண்டாம் பரிசு <b>ரூ.15,000</b>",
+       "மூன்றாம் பரிசு <b>ரூ.10,000</b>"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "ஸ்ரீரங்கம் ரங்கநாதர் கோயிலுக்கு சொந்தமான ரூ.50 கோடி மதிப்பிலான நிலம் அபகரிப்பு வழக்கில் ஜாமின் தீர்ப்பு ஒத்திவைக்கப்பட்டுள்ளது. போலி ஆவணங்கள் மூலம் நிலத்தை அபகரித்ததாக தி மு க பகுதி செயலாளர் ராம்குமார் மீது வழக்கு பதியப்பட்டுள்ளது. மதுரை உயர்நீதிமன்றக் கிளையில் அவர் ஜாமின் மனு தாக்கல் செய்தார். ராம்குமார் தனது மனுவில், ஸ்ரீரங்கத்தில் குறிப்பிட்ட சர்வே எண்ணில் உள்ள 5 ஏக்கர் 87 சென்ட் நிலத்தை 2024ஆம் ஆண்டு ரூ.2 கோடியே 90 லட்சம் கொடுத்து வாங்கியதாகக் கூறினார். நிலம் ஸ்ரீரங்கம் சார்பதிவாளர் கள ஆய்வு செய்த பின்னரே பதிவு செய்யப்பட்டது என்றும், அந்த நிலம் கோயிலுக்குச் சொந்தமானது என்பதற்கு ஆவணங்கள் இல்லை என்றும் வாதிட்டார். அரசியல் உள்நோக்கில் வழக்கு பதியப்பட்டுள்ளதாகவும், கைதாகி 47 நாட்கள் ஆனதாகவும், விசாரணை முடிந்துவிட்டதால் ஜாமின் வழங்க வேண்டும் என்றும் கோரினார். அரசு தரப்பில், நிலம் கோயிலுக்குச் சொந்தமானது என்பதற்கு ஆவணங்கள் உள்ளதாகவும், ஜாமின் அனுமதிக்கக் கூடாது என்றும் ஆட்சேபம் தெரிவிக்கப்பட்டது. நீதிபதி கே.முரளிசங்கர் விசாரித்து, தீர்ப்பை ஒத்திவைத்தார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 ஸ்ரீரங்கம் கோயில் நிலம் அபகரிப்பு வழக்கு: தி.மு.க. நிர்வாகி ஜாமின் தீர்ப்பு ஒத்திவைப்பு\n\n📰 முழு விவரம்:\nஸ்ரீரங்கம் ரங்கநாதர் கோயிலுக்கு சொந்தமான ரூ.50 கோடி மதிப்பிலான நிலத்தை போலி ஆவணங்கள் மூலம் அபகரித்ததாக பதிவான வழக்கில், தி.மு.க. பகுதி செயலாளர் ராம்குமாரின் ஜாமின் மனு மீதான தீர்ப்பை மதுரை உயர்நீதிமன்றக் கிளை ஒத்திவைத்தது.\nராம்குமார் தனது மனுவில், ஸ்ரீரங்கத்தில் குறிப்பிட்ட சர்வே எண்ணில் உள்ள 5 ஏக்கர் 87 சென்ட் நிலத்தை, புதுச்சேரியைச் சேர்ந்த ஓய்வு பெற்ற நீதிபதி ஒருவர் மற்றும் அவரது குடும்பத்தினரிடமிருந்து 2024ஆம் ஆண்டு ரூ.2 கோடியே 90 லட்சம் கொடுத்து வாங்கியதாகக் கூறினார்.\nநிலம் ஸ்ரீரங்கம் சார்பதிவாளர் கள ஆய்வு செய்த பின்னரே பதிவு செய்யப்பட்டது; அந்த நிலம் கோயிலுக்குச் சொந்தமானது என்பதற்கு ஆவணங்கள் இல்லை என்றும் அவர் வாதிட்டார்.\nஅரசியல் உள்நோக்கில் வழக்கு பதியப்பட்டுள்ளதாகவும், கைதாகி 47 நாட்கள் ஆனதாகவும், விசாரணை முடிந்துவிட்டதால் ஜாமின் அனுமதிக்க வேண்டும் எனவும் அவர் கோரினார்.\nஅரசு தரப்பில், நிலம் கோயிலுக்குச் சொந்தமானது என்பதற்கு ஆவணங்கள் உள்ளதாகவும், ஜாமின் அனுமதிக்கக் கூடாது என்றும் ஆட்சேபம் தெரிவிக்கப்பட்டது.\nநீதிபதி கே.முரளிசங்கர் விசாரித்து, தீர்ப்பை ஒத்திவைத்தார்.\n\nSriranga temple land grab case, bail verdict reserved | Trichy news\n📍 ஸ்ரீரங்கம், திருச்சி மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Srirangam #TrichyNews #திருச்சி",
-   "prompts": "A judge's bench in a high-ceilinged Madurai High Court courtroom, with a few lawyers in black coats and white bands seated at the long tables below, wooden rafters and tall windows letting in daylight. The judge sits at a raised wooden bench with files and bundles of papers stacked in front of him, as if pausing before giving a decision on a bail plea. Court staff in plain shirts and veshti move quietly near the back. Some lawyers hold thick case files and land documents bound with red tape, their faces turned away or shown from behind. Shot from the back of the courtroom at eye level, 35 mm lens, wide enough to show the whole bench, the lawyers and the empty space where the accused's family would sit. Calm, subdued mood, late morning light through the windows, no visible text or signboards. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a stack of old land records and legal documents tied with faded red cloth tape on a wooden court table, a worn pen and a brass paperweight beside them. The papers show dense hand-written columns and stamped seals, slightly out of focus at the edges, with a soft blur of a black lawyer's coat in the background. Daylight from a window falls across the pages, showing the weight of a land dispute worth crores. No readable words or numbers are visible; the focus stays on the papers and the sense of a pending verdict. 35 mm, shallow depth of field, eye level. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-district-news-madurai/high-court-defers-verdict-on-dmk-executive-s-bail-plea-in-srirangam-temple-land-grabbing-case/4378568",
-   "published": "2026-11-17T17:04:23+05:30",
+   "reel_script": "திருச்சி உள்ளிட்ட 26 இடங்களில் இளம் இசைக் கலைஞர்களுக்கு வாய்ப்பு வழங்கப்படுகிறது. அகில இந்திய வானொலி 'ஏர் ரைசிங் ஸ்டார்ஸ்' என்ற இசை நிகழ்ச்சியைத் துவக்கியுள்ளது. இளம் இசைக் கலைஞர்களை ஊக்குவிப்பதே இதன் நோக்கம். மதுரை, திருச்சி, புதுச்சேரி உள்ளிட்ட 26 இடங்களில் இம்மாதம் 30ஆம் தேதி வரை இந்நிகழ்ச்சி நடைபெறும். வானொலியில் தர மதிப்பீடு பெற்ற 30 வயதுக்கு உட்பட்ட இசைக் கலைஞர்களுக்கு முன்னுரிமை அளிக்கப்படும். தகுதியின் அடிப்படையில் புதிய கலைஞர்களுக்கும் வாய்ப்பு வழங்கப்படும். நிகழ்ச்சிகள் வானொலி, தொலைக்காட்சி, யுடியூப் தளங்களில் ஒளிபரப்பப்படும். ஜனவரி 15ஆம் தேதி வரை யுடியூபில் அதிக பார்வைகள் பெறும் முதல் மூன்று கலைஞர்களுக்குப் பரிசு வழங்கப்படும். முதல் பரிசு 20,000 ரூபாய், இரண்டாம் பரிசு 15,000 ரூபாய், மூன்றாம் பரிசு 10,000 ரூபாய். பங்கேற்பது குறித்த விவரங்களுக்கு, சம்பந்தப்பட்ட வானொலி நிலையங்களைத் தொடர்பு கொள்ளலாம் என மத்திய அரசு தெரிவித்துள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🎶 திருச்சி உள்ளிட்ட 26 இடங்களில் இளம் இசைக் கலைஞர்களுக்கு வாய்ப்பு\n\n📰 முழு விவரம்:\nஅகில இந்திய வானொலி 'ஏர் ரைசிங் ஸ்டார்ஸ்' என்ற இசை நிகழ்ச்சியைத் துவக்கியுள்ளது. இளம் இசைக் கலைஞர்களை ஊக்குவிப்பதே நோக்கம். மதுரை, திருச்சி, புதுச்சேரி உள்ளிட்ட 26 இடங்களில் இம்மாதம் 30ஆம் தேதி வரை நிகழ்ச்சி நடைபெறும். வானொலியில் தர மதிப்பீடு பெற்ற, 30 வயதுக்கு உட்பட்ட இசைக் கலைஞர்களுக்கு முன்னுரிமை. தகுதியின் அடிப்படையில் புதிய கலைஞர்களுக்கும் வாய்ப்பு உண்டு. நிகழ்ச்சிகள் வானொலி, தொலைக்காட்சி, யுடியூப் தளங்களில் ஒளிபரப்பப்படும். ஜனவரி 15ஆம் தேதி வரை யுடியூபில் அதிக பார்வைகள் பெறும் முதல் மூன்று கலைஞர்களுக்குப் பரிசு: முதல் பரிசு ரூ.20,000, இரண்டாம் பரிசு ரூ.15,000, மூன்றாம் பரிசு ரூ.10,000.\n🎙️ பங்கேற்பது குறித்த விவரங்களுக்கு சம்பந்தப்பட்ட வானொலி நிலையங்களைத் தொடர்பு கொள்ளலாம் என மத்திய அரசு தெரிவித்துள்ளது.\n\nAir Rising Stars music talent show Trichy | Trichy news\n📍 திருச்சி மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
+   "prompts": "A young singer stands on a small stage in a government radio auditorium in Trichy city, performing into a microphone while a young guitarist and a tabla player sit beside him on the stage. The hall is a plain Tamil Nadu government-style auditorium with cream walls, rows of wooden chairs and a few audience members seen from behind, some in shirts and sarees, sitting quietly in the front rows. Stage lights are warm and the stage has a simple backdrop and a microphone stand, with a pair of sound speakers at the sides. The performers are young men and women in ordinary clothes, the singer in a pale kurta, seen slightly from the side and far enough to show the whole stage. Daytime indoor light mixes with the stage lamps, and the mood is focused and calm. Camera at eye level, 35 mm, wide enough to show the stage, the musicians and the rows of seats. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a young musician's hands on a wooden tabla or a guitar fretboard in front of a microphone, lit by warm stage light in a Trichy city radio auditorium. A microphone stand with a black cable is in the foreground, slightly out of focus, and a bit of the seated audience is blurred in the background, seen from behind. The instrument is the central detail, showing the performer's fingers mid-play on the strings or drum skin. The surroundings are plain stage fittings with dark curtains and a few cables on the floor. Indoor daytime light blended with stage lamps, calm and concentrated. Camera at slightly high angle, 35 mm, close enough to show the instrument and hands clearly. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamalar.com/news/business-general-news/opportunity-for-musicians-on-national-scale/4378790",
+   "published": "2026-11-17T18:56:48+05:30",
    "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 0 validator problem(s)",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794920808/trichy360/wewx4immiinwm39tnk6p.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794920840/trichy360/w7pafvcqqmxojcjlbqrl.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794935157/trichy360/saavqopekndgibftybpv.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794935193/trichy360/wbclt8ut8l1ekij2clfl.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "மனிதர்களுக்கு ‘அரோகரா’ கோஷமா? ஹிந்து மக்கள் கட்சி கடும் கண்டனம்",
+   "english_headline": "Hindu Makkal Katchi condemns use of 'Arogara' chant for humans at Tiruchendur Soorasamharam festival",
+   "category": "Government & Services",
+   "location": "Lalgudi, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "அரசியல் கருத்து",
+    "loc": "லால்குடி",
+    "hl1": "மனிதர்களுக்கு ‘அரோகரா’ கூறுவதா? கண்டனம்",
+    "hl2": "அர்ஜூன் சம்பத் பேட்டி",
+    "slides": [
+     {
+      "title": "யார் பேசினார்?",
+      "lines": [
+       "ஹிந்து மக்கள் கட்சித் தலைவர் அர்ஜூன் சம்பத், லால்குடியில்",
+       "பேட்டி நவ. 17 அன்று வழங்கப்பட்டது",
+       "திருச்சி மாவட்டம், லால்குடியில் இன்று பேட்டி"
+      ]
+     },
+     {
+      "title": "என்ன கண்டனம்?",
+      "lines": [
+       "இறைவனைப் போற்றும் ‘அரோகரா’ நாமத்தை மனிதர்களுக்குச் சொல்வது",
+       "திருச்செந்தூர் சூரசம்ஹார விழாவில்",
+       "சம்பந்தப்பட்டவர்கள் மன்னிப்பு கேட்க வேண்டும் என கோரிக்கை"
+      ]
+     },
+     {
+      "title": "பிற கருத்துகள்",
+      "lines": [
+       "நாடு முழுவதும் பசுவதை தடுப்புச் சட்டத்தை அமல்படுத்த",
+       "மாட்டிறைச்சி விருந்து நிகழ்ச்சிகளை தடை செய்ய வேண்டும் என",
+       "மேகதாது விவகாரத்தில் தமிழக உரிமைகளை பாதுகாக்க காங்கிரஸ்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்செந்தூர் சூரசம்ஹார விழாவில் ‘அரோகரா’ நாமத்தை மனிதர்களுக்குச் சொன்னது முருக பக்தர்களை கொச்சைப்படுத்தும் செயல் என ஹிந்து மக்கள் கட்சித் தலைவர் அர்ஜூன் சம்பத் கண்டனம் தெரிவித்துள்ளார். திருச்சி மாவட்டம், லால்குடியில் இன்று நவம்பர் 17ஆம் தேதி அவர் பேட்டி அளித்தார். இந்த விவகாரத்தில் சம்பந்தப்பட்டவர்கள் மன்னிப்பு கேட்க வேண்டும் என அவர் வலியுறுத்தினார். நாடு முழுவதும் பசுவதை தடுப்புச் சட்டத்தை அமல்படுத்த வேண்டும் என்றும் கோரினார். மாட்டிறைச்சி விருந்து நிகழ்ச்சிகளை அரசியல் கட்சிகளும் அமைப்புகளும் நடத்துவதைத் தடை செய்ய வேண்டும் என்றும் கூறினார். பட்டியலின மக்களை மாட்டிறைச்சி உண்பவர்கள் என்று கூறுவது அவர்களை இழிவுபடுத்தும் என்றும் தெரிவித்தார். மேகதாது விவகாரத்தில் தமிழகத்தின் உரிமைகளைப் பாதுகாக்க காங்கிரஸ் மற்றும் கூட்டணிக் கட்சிகள் நடவடிக்கை எடுக்க வேண்டும் என்றும் வலியுறுத்தினார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🗣️ லால்குடியில் ‘அரோகரா’ விவகாரம்: அர்ஜூன் சம்பத் கடும் கண்டனம்\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம், லால்குடியில் நவ. 17 அன்று ஹிந்து மக்கள் கட்சித் தலைவர் அர்ஜூன் சம்பத் பேட்டி அளித்தார். இறைவனைப் போற்றும் ‘அரோகரா’ நாமத்தை மனிதர்களுக்குச் சொல்வது முருக பக்தர்களை கொச்சைப்படுத்தும் செயல் என அவர் கூறினார். திருச்செந்தூர் சூரசம்ஹார விழாவில் இதுபோல் கூறப்பட்டதாகக் குறிப்பிட்ட அவர், சம்பந்தப்பட்டவர்கள் மன்னிப்பு கேட்க வேண்டும் என வலியுறுத்தினார்.\n📍 இடம்: லால்குடி, திருச்சி மாவட்டம்\n🗓️ நாள்: நவம்பர் 17, 2026\nℹ️ பிற கருத்துகள்: பசுவதை தடுப்புச் சட்டத்தை நாடு முழுவதும் அமல்படுத்த வேண்டும்; மாட்டிறைச்சி விருந்து நிகழ்ச்சிகளைத் தடை செய்ய வேண்டும்; மேகதாது விவகாரத்தில் காங்கிரஸ் நடவடிக்கை எடுக்க வேண்டும்.\n\nHindu Makkal Katchi Arjun Sampath Lalgudi remarks | Trichy news\n📍 லால்குடி, திருச்சி மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Lalgudi #TrichyNews #திருச்சி",
+   "prompts": "A group of reporters and party followers in a small press meet hall in Lalgudi town, Trichy district, Tamil Nadu, listen to a party leader speaking into a cluster of microphones on a plain table. Seen from behind at eye level, the reporters hold notebooks and phones raised towards the front. The hall is a modest concrete-walled room with a ceiling fan, tube lights, and a few plastic chairs. The leader is partly visible in the distance wearing a white shirt and veshti, one hand raised in explanation; his face is not shown clearly. Behind the table a plain banner area is kept blank with no readable text. Men in shirts and trousers and a few women in sarees fill the rows of chairs. Daylight comes through open side windows, afternoon, clear weather. Camera at eye level, 35 mm, wide enough to show the whole room and the crowd of listeners. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a table covered with a cluster of microphones and a few folded notebooks and a glass of water, placed in front of a small press meet podium in a Lalgudi hall in Trichy district. The microphone heads are in sharp focus, with a background of blurred chairs and the shoulders of reporters seen from behind. Daylight from a side window lights the table evenly, afternoon, no visible text on any object. Camera slightly high, 35 mm, shallow depth of field to isolate the microphones as the detail that shows a public statement being made. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamalar.com/news/tamil-nadu-news/arogara-fund-for-human-beings-hindu-people-s-party-strongly-condemns/4379102",
+   "published": "2026-11-17T21:37:02+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 20 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences; hl1 (the first headline on screen) must name the place 'லால்குடி', e.g. 'லால்குடி: ...' or 'லால்குடி-இல் ...' - viewers share news of their own area",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 2 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794935201/trichy360/zdehfidrbpwd6ud2b3eg.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794935204/trichy360/d8eap71flwtaotnoxhan.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "திருச்சியில் இருந்து சுபாங் நகருக்கு நேரடி விமான சேவை",
+   "english_headline": "Direct flight from Trichy to Subang, Malaysia, from 16 December by Batik Air",
+   "category": "Roads & Transport",
+   "location": "Trichy, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "விமான சேவை",
+    "loc": "திருச்சி",
+    "hl1": "திருச்சியில் இருந்து சுபாங் நகருக்கு",
+    "hl2": "டிச. 16 முதல் நேரடி சேவை",
+    "slides": [
+     {
+      "title": "என்ன புதிய சேவை?",
+      "lines": [
+       "திருச்சி – சுபாங் நேரடி விமான சேவை",
+       "மலேஷியாவின் சுபாங் நகருக்கு <b>டிச. 16</b> முதல்",
+       "'பட்டிக் ஏர் மலேஷியா' நிறுவனம் அறிவிப்பு"
+      ]
+     },
+     {
+      "title": "ஏன் இந்தச் சேவை?",
+      "lines": [
+       "இப்போது திருச்சியில் இருந்து கோலாலம்பூருக்கு மட்டுமே நேரடி",
+       "கோலாலம்பூர் நகர மையத்துக்கு அருகில் சுபாங் விமான நிலையம்",
+       "பயணியர் நீண்ட நாட்களாகக் கோரிக்கை வைத்து வந்தனர்"
+      ]
+     },
+     {
+      "title": "டிக்கெட் விவரம்",
+      "lines": [
+       "டிக்கெட் முன்பதிவு ஏற்கெனவே தொடங்கியுள்ளது",
+       "பயணம் செய்ய விரும்புவோர் முன்பதிவு செய்யலாம்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சியிலிருந்து மலேஷியாவின் சுபாங் நகருக்கு நேரடி விமான சேவை தொடங்குகிறது. டிசம்பர் 16ஆம் தேதி முதல் இந்தச் சேவை இயக்கப்படும். பட்டிக் ஏர் மலேஷியா நிறுவனம் இதை அறிவித்துள்ளது. தற்போது திருச்சியிலிருந்து கோலாலம்பூருக்கு மட்டுமே நேரடி விமானங்கள் இயக்கப்படுகின்றன. கோலாலம்பூர் நகர மையத்துக்கு மிக அருகில் சுபாங் விமான நிலையம் உள்ளது. இதனால் நேரடி சேவை வேண்டும் என்று பயணியர் தொடர்ந்து கோரிக்கை விடுத்து வந்தனர். அவர்களின் கோரிக்கையை ஏற்று இந்தச் சேவை தொடங்கப்படுகிறது. இதற்கான டிக்கெட் முன்பதிவும் தொடங்கப்பட்டுள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "✈️ திருச்சியில் இருந்து சுபாங் நகருக்கு நேரடி விமான சேவை – டிச. 16 முதல்\n\n📰 முழு விவரம்:\nதிருச்சியில் இருந்து மலேஷியாவின் சுபாங் நகருக்கு டிசம்பர் 16ஆம் தேதி முதல் நேரடி விமான சேவை தொடங்குகிறது. 'பட்டிக் ஏர் மலேஷியா' நிறுவனம் இதை அறிவித்துள்ளது.\nதற்போது திருச்சியிலிருந்து கோலாலம்பூருக்கு மட்டுமே நேரடி விமானங்கள் இயக்கப்படுகின்றன. கோலாலம்பூர் நகர மையத்துக்கு மிக அருகில் உள்ள சுபாங் விமான நிலையத்துக்கு நேரடி சேவை வேண்டும் என்று பயணியர் தொடர்ந்து கோரிக்கை விடுத்து வந்தனர். அதை ஏற்று இந்தச் சேவை தொடங்கப்படுகிறது.\n\n✈️ வழித்தடம்: திருச்சி – சுபாங் (மலேஷியா)\n🗓️ தொடக்கம்: டிசம்பர் 16 முதல்\n🏢 நிறுவனம்: பட்டிக் ஏர் மலேஷியா\n🎫 டிக்கெட் முன்பதிவு தொடங்கப்பட்டுள்ளது\n\nTrichy to Subang direct flight from 16 Dec | Trichy news\n📍 திருச்சி, திருச்சி மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Trichy",
+   "prompts": "A Batik Air passenger jet stands on the apron at Tiruchirappalli airport in Trichy, its boarding stairs and ground-handling vehicles around it, ready for the new direct service to Subang, Malaysia. The setting is the open tarmac in front of the low-rise airport terminal of Trichy, with its glass frontage, a row of parked airport tractors and baggage carts, and a distant view of the green hills and the Rockfort area of the city beyond the runway fence. Several airport staff in uniform walk near the aircraft's nose and wing; a few passengers with trolley bags stand on the apron far away, seen from behind. The plane is a twin-aisle airliner with its livery facing the camera, but no readable logos or letters are visible. The time is bright morning daylight with clear sky, and the aircraft casts a sharp shadow across the concrete. Camera: eye level, about 35 mm, wide enough to show the terminal, the aircraft and the open apron together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of the check-in counter area inside Tiruchirappalli airport terminal, where passengers book the new direct Trichy to Subang flight. On a polished counter sits a tray with boarding passes and a small stack of travel documents, a passport and a printed ticket folder, slightly out of focus, with a computer monitor showing only blurred blue screen glow. Behind the counter, an airline staff member in a neat uniform with a cropped view of shoulders and hands types on the keyboard, seen from behind. Queued passengers with roller suitcases and shoulder bags stand at a distance, slightly blurred. The lighting is soft fluorescent ceiling light mixed with daylight from large glass windows, showing a clean tiled floor and a row of empty stanchion queue posts. Camera: close-up at about 35 mm, shallow depth of field, eye level. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamalar.com/news/tamil-nadu-news/direct-flights-to-trichy-subang/4379025",
+   "published": "2026-11-17T20:36:29+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794935210/trichy360/uq93ol4vonpyylajdcvs.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794935212/trichy360/t0mklhfxzan9y6qeqzep.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "தமிழகத்தில் தாமரை மலர்ந்தே தீரும்: தமிழிசை செளந்தரராஜன் திருச்சியில் பேட்டி",
+   "english_headline": "Tamilisai Soundararajan in Trichy: lotus will bloom in Tamil Nadu; says Congress will betray; questions CM Vijay on Kaveri and women officers' complaints",
+   "category": "Government & Services",
+   "location": "Trichy airport, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "அரசியல்",
+    "loc": "திருச்சி விமான நிலையம்",
+    "hl1": "தமிழகத்தில் தாமரை மலர்ந்தே தீரும்",
+    "hl2": "தமிழிசை திருச்சியில் பேட்டி",
+    "slides": [
+     {
+      "title": "என்ன சொன்னார்?",
+      "lines": [
+       "தமிழக பாஜக முன்னாள் தலைவர் தமிழிசை செளந்தரராஜன் பேட்டி",
+       "திருச்சி விமான நிலையத்தில் செய்தியாளர்களைச் சந்தித்தார்",
+       "எஸ்ஐஆர் இல்லையென்றால் விஜய் முதலமைச்சராக இல்லை என்றார்"
+      ]
+     },
+     {
+      "title": "காங்கிரஸ் குறித்து",
+      "lines": [
+       "காங்கிரஸ் நிச்சயமாக முதுகில் குத்தும் என்றார்",
+       "தமிழகத்தில் தாமரை மலர்ந்தே தீரும் என்றார்",
+       "தமிழக வெற்றி கழகத்தையும், திமுகவையும் எதிர்க்கிறோம்"
+      ]
+     },
+     {
+      "title": "அரசு மீது",
+      "lines": [
+       "பெண் அதிகாரிகள் குறுஞ்செய்தி மூலம் தாக்கப்பட்டதாகக் கூறினார்",
+       "பாலியல் புகார்கள் அதிகரிக்கும் நிலையில் முதல்வர் மௌனமாக",
+       "டெல்டா மாவட்டம் பாலைவனமாக ஆகிக்கொண்டிருக்கிறது என்றார்"
+      ]
+     },
+     {
+      "title": "காவிரி விவகாரம்",
+      "lines": [
+       "15 நாட்களுக்கு ஒரு முறை 3000 கன அடி நீர் தர வேண்டும்",
+       "காவிரி நீர் தமிழகத்துக்கும் உரிமை உள்ளது என்றார்",
+       "கர்நாடகாவை எதிர்த்து புத்தக விழாவை புறக்கணித்திருக்க"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "தமிழகத்தில் தாமரை மலர்ந்தே தீரும் என்று தமிழிசை செளந்தரராஜன் திருச்சியில் கூறினார். தமிழக பாஜக முன்னாள் தலைவரான அவர், திருச்சி விமான நிலையத்தில் செய்தியாளர்களைச் சந்தித்தபோது இதைத் தெரிவித்தார். எஸ்ஐஆர் இல்லையென்றால் இன்று விஜய் முதலமைச்சராக இல்லை என்று அவர் கூறினார். நிச்சயமாக காங்கிரஸ் முதுகில் குத்தும் என்றும் அவர் தெரிவித்தார். பெண் அதிகாரிகள் குறுஞ்செய்தி மூலம் தாக்கப்பட்டதாகவும், முதல்வர் சட்டமன்ற உறுப்பினர்வை அழைத்து விசாரித்திருக்க வேண்டும் என்றும் அவர் கூறினார். பாலியல் புகார்கள் அதிகரித்து வரும் நிலையில் முதல்வர் மௌனமாக இருப்பதாக அவர் குற்றம் சாட்டினார். காவிரி நீர் குறித்து, 15 நாட்களுக்கு ஒரு முறை 3000 கன அடி நீர் கொடுக்க வேண்டும் என்றும், இதுவரை கொடுக்கவில்லை என்றும் அவர் தெரிவித்தார். டெல்டா மாவட்டம் பாலைவனமாக ஆகிக்கொண்டிருப்பதாகவும் அவர் கூறினார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🗳️ திருச்சி விமான நிலையத்தில் தமிழிசை: தமிழகத்தில் தாமரை மலர்ந்தே தீரும்\n\n📰 முழு விவரம்:\nதமிழக பாஜக முன்னாள் தலைவர் தமிழிசை செளந்தரராஜன் திருச்சி விமான நிலையத்தில் செய்தியாளர்களைச் சந்தித்தார். எஸ்ஐஆர் இல்லையென்றால் இன்று விஜய் முதலமைச்சராக இல்லை என்றும், நிச்சயமாக காங்கிரஸ் முதுகில் குத்தும் என்றும் அவர் கூறினார்.\nபெண் அதிகாரிகள் குறுஞ்செய்தி மூலம் தாக்கப்பட்டதாகவும், பாலியல் புகார்கள் அதிகரிக்கும் நிலையில் முதல்வர் மௌனமாக இருப்பதாகவும் அவர் குற்றம் சாட்டினார்.\nகாவிரி நீர் குறித்து, 15 நாட்களுக்கு ஒரு முறை 3000 கன அடி நீர் கொடுக்க வேண்டும் என்றும், இதுவரை கொடுக்கவில்லை என்றும் தெரிவித்தார். தமிழக வெற்றி கழகத்தையும், திமுகவையும் எதிர்ப்பதாகவும் கூறினார்.\n📍 இடம்: திருச்சி விமான நிலையம்\n🗓️ நாள்: 17 நவம்பர் 2026\n\nTamilisai Soundararajan Trichy press meet: lotus will bloom in TN | Trichy news\n📍 திருச்சி மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Politics",
+   "prompts": "A group of reporters with microphones and notepads crowds around a woman in a saree at Trichy airport arrivals hall, the press meet of Tamil Nadu BJP leader Tamilisai Soundararajan taking place. The woman stands at a small podium with a bank of microphones, speaking to the press about Kaveri water, Congress and the Chief Minister. Behind her a plain backdrop and a few BJP party workers in white shirts stand near the wall. The airport is a modern terminal with glass panels, departure gates, and luggage trolleys in the distance. Journalists in shirts and trousers, some holding cameras and phones, press forward. Daylight comes through the high glass roof. Camera at eye level, 35 mm, wide enough to show the reporters, the podium and the terminal interior, people shown from behind or far away. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a cluster of microphones with foam covers attached to a press podium at Trichy airport, the stand slightly out of focus with a blurred row of reporters' hands and notepads behind it. The podium surface holds a few folded papers and a glass of water. Behind the mics, the edge of a plain press backdrop and a few distant airport passengers with rolling suitcases move through the terminal. Soft daylight from the glass roof falls across the podium. Camera slightly high, 35 mm, shallow focus on the microphones, no readable text or logos. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://tamil.oneindia.com/news/trichirappalli/tamilisai-predicts-bjp-s-lotus-will-bloom-in-tamil-nadu-targets-congress-and-tvk-846181.html",
+   "published": "2026-11-17T20:14:22+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script has 94 words; need 100-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794935239/trichy360/hwocbojjfjvxbw9yywqt.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794935242/trichy360/trpnwscbkvypvz4jpzv2.jpg"
    ]
   }
  ]
