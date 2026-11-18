@@ -1,24 +1,24 @@
 {
- "updated": "2026-11-18T08:06+05:30",
- "posts_measured": 63,
+ "updated": "2026-11-18T10:10+05:30",
+ "posts_measured": 67,
  "topic_weight": {
   "accident": 1.5,
   "crime": 1.5,
-  "power_cut": -0.18,
+  "power_cut": -0.22,
   "education": -0.5,
-  "politics": -0.43,
-  "temple": -0.5
+  "politics": -0.41,
+  "temple": 0.1
  },
  "topic_n": {
   "accident": 7,
-  "crime": 15,
+  "crime": 16,
   "power_cut": 4,
   "civic": 2,
   "education": 4,
-  "politics": 12,
+  "politics": 13,
   "sports_culture": 2,
   "weather": 1,
-  "temple": 3,
+  "temple": 5,
   "poultry_agri": 1
  },
  "best_hours_ist": [
@@ -28,19 +28,19 @@
   7
  ],
  "top_openings": [
-  "🚨 சோமரசம்பேட்டை அருகே விவசாயி கொலை வழக்கில் 10 பேர் கைது",
   "🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை",
   "🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை",
-  "🚨 சமயபுரம் அருகே கொடூர விபத்து: கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி"
+  "🚨 சமயபுரம் அருகே கொடூர விபத்து: கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி",
+  "பைக், கன்றுக்குட்டி, பள்ளிச் சுவர்... ஒரே கார், அடுத்தடுத்து மோதல்! 🚨"
  ],
  "avg_watch_s": 7.9,
  "best_topics": [
   "accident",
   "crime",
-  "power_cut"
+  "temple"
  ],
  "weak_topics": [
   "education",
-  "temple"
+  "politics"
  ]
 }
