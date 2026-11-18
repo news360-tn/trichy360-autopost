@@ -1,57 +1,8 @@
-17:16:21 round 2026-11-18_17: news published 18 Nov 10:10 -> 18 Nov 17:16 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-17:16:21 insights 2026-11-18T17:16+05:30 (69 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': -0.18, 'education': -0.5, 'politics': -0.42, 'temple': -0.14}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-17:18:59 79 links on the two papers' Trichy pages
-17:19:47 skipped: not Trichy district=46, published before this window=17, already posted=10, shop offer / advertisement=1, no title=1, only a headline=1
-17:19:47 list: 3 new + 0 earlier news not posted yet
-17:19:47    1. [விபத்து] விபத்து, தீ தடுப்பில் திருச்சி டிஎஸ்பி! (தினமணி)
-17:19:47    2. [பொது] “தவெக அரசின் 6 மாத ஆட்சி மக்கள் விரும்பும் திசையில் செல்லவில்லை” - மு. (இந்து தமிழ்)
-17:19:47    3. [நீதிமன்றம்] தமிழகத்தில் புதிதாக டாஸ்மாக் கடைகளை திறக்கக் கூடாது: உயர் நீதிமன்றம் உ (இந்து தமிழ்)
-17:19:47 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-18_17
-17:19:49 a round time was skipped by GitHub since the last round - this round writes 8 (its own 5 + the skipped round's)
-17:19:49 round 2026-11-18_17 (at least 8, up to 3 more of well-watched topics): 3 news to choose from (0 from earlier rounds), ranked by this page's insights
-17:19:49   PICK   1.  16.0 [accident +1.50 page] விபத்து, தீ தடுப்பில் திருச்சி டிஎஸ்பி!
-17:19:49   PICK   2.   5.5 [other +0.00 pattern] “தவெக அரசின் 6 மாத ஆட்சி மக்கள் விரும்பும் திசையில் செல்லவில
-17:19:49   PICK   3.   3.0 [other +0.00 pattern] தமிழகத்தில் புதிதாக டாஸ்மாக் கடைகளை திறக்கக் கூடாது: உயர் நீ
-17:19:49 decided: automatic: top 8 of 3 by insights -> 3 news to write and post
-PICK_URLS=https://www.dinamani.com/latest-news/sirappu-seithigal/2026/Nov/18/trichy-d-srinivasa-prasad-dsp-takes-charge-of-accident-and-fire-prevention https://www.hindutamil.in/news/tamilnadu/muveerapandian-says-tvk-government-has-not-moved-in-the-direction-desired-by-the-people https://www.hindutamil.in/news/tamilnadu/no-new-tasmac-shops-to-be-opened-in-tamil-nadu-high-court-order
-17:28:07 3 listed news now in the Sheet
-17:28:17 instagram duplicate check trichy: 50 recent posts read
-17:28:17 verify 2026-11-18_17: 0 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-17:28:17    NOT POSTED C4c14d46: queued RN-76 (Queued) - தமிழகத்தில் புதிதாக டாஸ்மாக் கடைகளை திறக்கக் கூடாது: உயர் நீ
-17:28:17    NOT POSTED Cb6624b1: queued RN-77 (Queued) - “தவெக அரசின் 6 மாத ஆட்சி மக்கள் விரும்பும் திசையில் செல்லவில
-17:28:17    NOT POSTED Ccd76b54: queued RN-78 (Queued) - விபத்து, தீ தடுப்பில் திருச்சி டிஎஸ்பி!
-17:33:24 instagram duplicate check trichy: 50 recent posts read
-17:33:24 verify 2026-11-18_17: 0 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-17:33:24    NOT POSTED C4c14d46: queued RN-76 (Queued) - தமிழகத்தில் புதிதாக டாஸ்மாக் கடைகளை திறக்கக் கூடாது: உயர் நீ
-17:33:24    NOT POSTED Cb6624b1: queued RN-77 (Queued) - “தவெக அரசின் 6 மாத ஆட்சி மக்கள் விரும்பும் திசையில் செல்லவில
-17:33:24    NOT POSTED Ccd76b54: queued RN-78 (Queued) - விபத்து, தீ தடுப்பில் திருச்சி டிஎஸ்பி!
-17:38:32 instagram duplicate check trichy: 50 recent posts read
-17:38:32 verify 2026-11-18_17: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-17:38:32    NOT POSTED Cb6624b1: queued RN-77 (Queued) - “தவெக அரசின் 6 மாத ஆட்சி மக்கள் விரும்பும் திசையில் செல்லவில
-17:38:32    NOT POSTED Ccd76b54: queued RN-78 (Queued) - விபத்து, தீ தடுப்பில் திருச்சி டிஎஸ்பி!
-17:43:39 instagram duplicate check trichy: 50 recent posts read
-17:43:39 verify 2026-11-18_17: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-17:43:39    NOT POSTED Cb6624b1: queued RN-77 (Queued) - “தவெக அரசின் 6 மாத ஆட்சி மக்கள் விரும்பும் திசையில் செல்லவில
-17:43:39    NOT POSTED Ccd76b54: queued RN-78 (Queued) - விபத்து, தீ தடுப்பில் திருச்சி டிஎஸ்பி!
-17:48:46 instagram duplicate check trichy: 50 recent posts read
-17:48:46 verify 2026-11-18_17: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-17:48:46    NOT POSTED Cb6624b1: queued RN-77 (Queued) - “தவெக அரசின் 6 மாத ஆட்சி மக்கள் விரும்பும் திசையில் செல்லவில
-17:48:46    NOT POSTED Ccd76b54: queued RN-78 (Queued) - விபத்து, தீ தடுப்பில் திருச்சி டிஎஸ்பி!
-17:53:54 instagram duplicate check trichy: 50 recent posts read
-17:53:54 verify 2026-11-18_17: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-17:53:54    NOT POSTED Cb6624b1: queued RN-77 (Queued) - “தவெக அரசின் 6 மாத ஆட்சி மக்கள் விரும்பும் திசையில் செல்லவில
-17:53:54    NOT POSTED Ccd76b54: queued RN-78 (Queued) - விபத்து, தீ தடுப்பில் திருச்சி டிஎஸ்பி!
-17:59:01 instagram duplicate check trichy: 50 recent posts read
-17:59:01 verify 2026-11-18_17: 2 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-17:59:01    NOT POSTED Ccd76b54: queued RN-78 (Queued) - விபத்து, தீ தடுப்பில் திருச்சி டிஎஸ்பி!
-18:04:08 instagram duplicate check trichy: 50 recent posts read
-18:04:08 verify 2026-11-18_17: 2 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-18:04:08    NOT POSTED Ccd76b54: queued RN-78 (Queued) - விபத்து, தீ தடுப்பில் திருச்சி டிஎஸ்பி!
-18:09:16 instagram duplicate check trichy: 50 recent posts read
-18:09:16 verify 2026-11-18_17: 2 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-18:09:16    NOT POSTED Ccd76b54: queued RN-78 (Queued) - விபத்து, தீ தடுப்பில் திருச்சி டிஎஸ்பி!
-18:14:24 instagram duplicate check trichy: 50 recent posts read
-18:14:24 verify 2026-11-18_17: 2 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-18:14:24    NOT POSTED Ccd76b54: queued RN-78 (Queued) - விபத்து, தீ தடுப்பில் திருச்சி டிஎஸ்பி!
-18:19:29 verify 2026-11-18_17: 3 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+22:10:22 round 2026-11-18_22: news published 18 Nov 17:16 -> 18 Nov 22:10 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+22:10:22 insights 2026-11-18T22:10+05:30 (72 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': -0.0, 'education': -0.5, 'politics': -0.31, 'temple': -0.11}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+22:12:21 65 links on the two papers' Trichy pages
+22:13:35 skipped: not Trichy district=36, published before this window=17, already posted=10, shop offer / advertisement=1
+22:13:35 list: 1 new + 0 earlier news not posted yet
+22:13:35    1. [பொது] தி.மு.க.,விடம் பெற்ற நிதியை அக்கட்சியினரே செலவிட்டனர்: இ.கம்யூ., வீரபா (தினமலர்)
+22:13:35 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-18_22
