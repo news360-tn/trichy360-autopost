@@ -11,7 +11,8 @@
    "category": "பொது",
    "score": 1.57,
    "power_cut": false,
-   "listed_at": "2026-11-18T07:17:45.305326+05:30"
+   "listed_at": "2026-11-18T07:17:45.305326+05:30",
+   "picked_at": "2026-11-18T10:11:26.074893+05:30"
   },
   "C04726af": {
    "id": "C04726af",
@@ -23,7 +24,8 @@
    "category": "மின்தடை",
    "score": 12.78,
    "power_cut": true,
-   "listed_at": "2026-11-18T10:10:10.417392+05:30"
+   "listed_at": "2026-11-18T10:10:10.417392+05:30",
+   "picked_at": "2026-11-18T10:11:26.074889+05:30"
   },
   "Cc9e82aa": {
    "id": "Cc9e82aa",
@@ -35,7 +37,8 @@
    "category": "பொது",
    "score": 3.0,
    "power_cut": false,
-   "listed_at": "2026-11-18T10:10:10.417392+05:30"
+   "listed_at": "2026-11-18T10:10:10.417392+05:30",
+   "picked_at": "2026-11-18T10:11:26.074891+05:30"
   }
  },
  "rounds": {
@@ -615,8 +618,20 @@
    ],
    "sent": false,
    "deadline": "2026-11-18T11:10:10.417392+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 5 of 3 by insights + 1 power cut",
+    "ids": [
+     "C04726af",
+     "Cc9e82aa",
+     "C6e948ca"
+    ],
+    "at": "2026-11-18T10:11:26.074879+05:30"
+   },
+   "written": [
+    "C04726af",
+    "C6e948ca",
+    "Cc9e82aa"
+   ]
   }
  },
  "retry": {}
