@@ -3,114 +3,71 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/அரசுப்-பேருந்து-ஓட்டுநரிடம்-இணைய-வழியில்-ரூ138-லட்சம்-மோசடி",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/10-people-in-farmer-s-murder-case-arrested/4379222",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/நாடாளுமன்றக்-கூட்டத்தை-நடத்தஅரசியல்-கணக்குப்-பாா்க்கிறது-பாஜக-முஸ்லிம்-லீக்-குற்றச்சாட்டு",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/மாா்க்சிஸ்ட்-கம்யூனிஸ்ட்-கட்சியினா்-ஆா்ப்பாட்டம்-23",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/சமயபுரம்-மாரியம்மன்-கோயில்-உண்டியல்-காணிக்கை-ரூ-9274-லட்சம்",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/%E0%AE%95%E0%AE%BE%E0%AE%BE%E0%AF%8D%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AF%88-%E0%AE%AE%E0%AE%BE%E0%AE%A4%E0%AE%AE%E0%AF%8D-%E0%AE%AA%E0%AE%BF%E0%AE%B1%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%E0%AE%90%E0%AE%AF%E0%AE%AA%E0%AF%8D%E0%AE%AA-%E0%AE%AA%E0%AE%95%E0%AF%8D%E0%AE%A4%E0%AE%BE%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%AE%E0%AE%BE%E0%AE%B2%E0%AF%88-%E0%AE%85%E0%AE%A3%E0%AE%BF%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81-%E0%AE%B5%E0%AE%BF%E0%AE%B0%E0%AE%A4%E0%AE%AE%E0%AF%8D-%E0%AE%A4%E0%AF%8A%E0%AE%9F%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%BF%E0%AE%A9%E0%AE%BE%E0%AF%8D-%E0%AE%95%E0%AF%8B%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%AA%E0%AE%95%E0%AF%8D%E0%AE%A4%E0%AE%BE%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%95%E0%AF%82%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/the-integrityfairness-of-sir-must-be-explained-to-the-people-nainar-nagendran",
-  "candidate filter: collected=7",
-  "to write: 7 Trichy district candidates (max 7 stories)",
-  "round: top 7 of 7 candidates",
-  "candidates waiting: 7 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
+  "manual link added: https://www.dailythanthi.com/news/tamilnadu/no-more-power-cuts-during-temple-chariot-processions-underground-power-cables-laid-at-malaikottai-and-samayapuram-at-a-cost-of-rs-76-crore",
+  "manual link added: https://tamil.oneindia.com/news/trichirappalli/aadhav-arjuna-inspected-police-station-is-bad-move-said-nainar-nagendran-846243.html",
+  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/library-procurement-scam-bjp-doubts-minister/4379201",
+  "candidate filter: collected=3",
+  "to write: 3 Trichy district candidates (max 3 stories)",
+  "round: top 3 of 3 candidates",
+  "candidates waiting: 3 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/library-procu",
+  "try (N) manual=True: https://tamil.oneindia.com/news/trichirappalli/aadhav-arjuna",
+  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/no-more-power-cu",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})",
   "posting job started at once",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/10-people-in-",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 10})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 12})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 14})",
-  "candidate loop ended: left 0, tried={'N': 7}, done={'N': 7}, time left 75 min",
-  "filed: 7 Trichy district stories (target 7), reels only",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
+  "NOT filed (N) தேரோட்டத்தின்போது இனி மின்தடை கிடையாது! - மலைக்கோட: duplicate after write",
+  "candidate loop ended: left 0, tried={'N': 3}, done={'N': 2}, time left 76 min",
+  "filed: 2 Trichy district stories (target 3), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":7,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":3,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing ",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
+  "ok gemini/gemini-3-flash-preview (13s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok gemini/gemini-3-flash-preview (12s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "ok groq/qwen/qwen3.8-27b (4s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "switching away from groq/openai/gpt-oss-120b for 10 min",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "switching away from groq/openai/gpt-oss-120b for 10 min",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
@@ -119,454 +76,136 @@
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "சமயபுரம் மாரியம்மன் கோயிலில் உண்டியல் காணிக்கை ரூ.92.74 லட்சம்",
-   "english_headline": "Samayapuram Mariamman temple hundi collection Rs 92.74 lakh",
-   "category": "Temples & Events",
-   "location": "Samayapuram, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "கோயில் காணிக்கை",
-    "loc": "சமயபுரம், திருச்சி",
-    "hl1": "சமயபுரம் கோயில் உண்டியலில் ரூ.92.74",
-    "hl2": "தங்கம், வெள்ளியும் காணிக்கை",
-    "slides": [
-     {
-      "title": "எவ்வளவு காணிக்கை?",
-      "lines": [
-       "சமயபுரம் மாரியம்மன் கோயில் உண்டியலில் <b>ரூ.92,74,518</b> ரொக்கம்",
-       "செவ்வாய்க்கிழமை உண்டியல் எண்ணப்பட்டது",
-       "இதற்கு முன் அக். <b>28</b> ஆம் தேதி உண்டியல் எண்ணப்பட்டது"
-      ]
-     },
-     {
-      "title": "என்ன காணிக்கை?",
-      "lines": [
-       "<b>1 கிலோ 338 கிராம்</b> தங்கம்",
-       "<b>1 கிலோ 932 கிராம்</b> வெள்ளி",
-       "வெளிநாட்டுப் பணத்தாள்கள் <b>124</b>, நாணயங்கள் <b>520</b>"
-      ]
-     },
-     {
-      "title": "வேறு காணிக்கைகள்",
-      "lines": [
-       "பித்தளைப் பொருட்கள், பட்டுப்புடவைகள் காணிக்கையாகக் கிடைத்தன",
-       "இந்து சமய அறநிலையத் துறை அதிகாரிகள் முன்னிலையில்",
-       "கோயில் பணியாளர்கள், தன்னார்வலர்கள் பணியில் ஈடுபட்டனர்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "சமயபுரம் மாரியம்மன் கோயில் உண்டியலில் ரூ.92 லட்சத்து 74 ஆயிரத்துக்கும் மேல் காணிக்கை கிடைத்துள்ளது. திருச்சி மாவட்டம் சமயபுரம் மாரியம்மன் கோயிலில் செவ்வாய்க்கிழமை உண்டியல் காணிக்கை எண்ணப்பட்டது. ரொக்கமாக ரூ.92,74,518 கிடைத்தது. ஒரு கிலோ 338 கிராம் தங்கமும், ஒரு கிலோ 932 கிராம் வெள்ளியும் காணிக்கையாகக் கிடைத்தன. வெளிநாட்டுப் பணத்தாள்கள் 124, வெளிநாட்டு நாணயங்கள் 520 கிடைத்தன. பித்தளைப் பொருட்கள், பட்டுப்புடவைகளும் காணிக்கையாக வந்தன. இந்து சமய அறநிலையத் துறை திருச்சி தக்கார் இணை ஆணையர் சு. ஞானசேகரன், கோயில் இணை ஆணையர் எம். சூரியநாராயணன் ஆகியோர் முன்னிலையில் பணி நடைபெற்றது. கோயில் பணியாளர்களும் தன்னார்வலர்களும் எண்ணும் பணியில் ஈடுபட்டனர். இதற்கு முன்பு அக்டோபர் 28ஆம் தேதி உண்டியல் எண்ணப்பட்டது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🙏 சமயபுரம் மாரியம்மன் கோயில் உண்டியலில் ரூ.92.74 லட்சம் காணிக்கை\n\n📰 முழு விவரம்:\nசமயபுரம் மாரியம்மன் கோயிலில் செவ்வாய்க்கிழமை உண்டியல் காணிக்கை எண்ணப்பட்டது. ரொக்கமாக ரூ.92,74,518 கிடைத்தது. இந்து சமய அறநிலையத் துறை திருச்சி தக்கார் / இணை ஆணையர் சு. ஞானசேகரன், கோயில் இணை ஆணையர் எம். சூரியநாராயணன் ஆகியோர் முன்னிலையில் கோயில் பணியாளர்கள், தன்னார்வலர்கள் எண்ணும் பணியில் ஈடுபட்டனர்.\n💰 ரொக்கம்: ரூ.92,74,518\n🥇 தங்கம்: 1 கிலோ 338 கிராம்\n🥈 வெள்ளி: 1 கிலோ 932 கிராம்\n💵 வெளிநாட்டுப் பணத்தாள்கள்: 124, வெளிநாட்டு நாணயங்கள்: 520\n🧺 பித்தளைப் பொருட்கள், பட்டுப்புடவைகளும் காணிக்கையாகக் கிடைத்தன.\n📅 இதற்கு முன்பு அக். 28ஆம் தேதி உண்டியல் எண்ணப்பட்டது.\n\nSamayapuram Mariamman temple hundi collection Rs 92.74 lakh | Trichy news\n📍 சமயபுரம், திருச்சி மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Samayapuram",
-   "prompts": "Inside the counting hall of Samayapuram Mariamman temple in Trichy district, temple staff and volunteers sit on mats and chairs around a long table piled with hundi offerings, counting currency notes and sorting coins during a daytime collection count. Several people in plain cotton shirts and veshti or salwar, with a few women in sarees, are seen from behind or in profile, their faces turned toward the table. Along the table are heaps of Indian rupee notes in bundles, stacks of coins, small piles of gold and silver ornaments, brass vessels and folded silk sarees placed as offerings. Two government officials in formal shirts sit at the head of the table, supervising, seen at a distance. The space is a traditional Tamil temple hall with plain white walls, a tiled floor, tube lights overhead and daylight coming through an open doorway with a glimpse of a gopuram outside. Shot at eye level with a 35 mm lens, wide enough to show the whole table and the people working around it. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of the day's hundi offering haul on a table in the counting hall of Samayapuram Mariamman temple: neat bundles of rupee notes, a small heap of foreign currency notes and foreign coins, and a pile of gold and silver jewellery laid out beside brass articles and a folded silk saree. Hands of temple staff, seen only from the wrist down, sort the items on the wooden table. The background is softly blurred, showing a tiled floor and a counter edge, with daylight from a nearby doorway lighting the scene. Taken at slightly high angle with a 35 mm lens, shallow depth of field, no visible text or labels. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/சமயபுரம்-மாரியம்மன்-கோயில்-உண்டியல்-காணிக்கை-ரூ-9274-லட்சம்",
-   "published": "2026-11-17T18:34:00.000Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script has numbers without their meaning (124); write what each number is: '15 வயது', '30 பாட்டில்கள்', 'அக்டோபர் 26ஆம் தேதி'",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794966846/trichy360/fz31ifdnjsfs5dyzlvud.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794966852/trichy360/wo3l6flfwjsnt4mgw38i.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சியில் பாஜக மாநில நிர்வாகிகள் கூட்டம் - எஸ்ஐஆர் விவகாரத்தில் அறிவுறுத்தல்",
-   "english_headline": "BJP state executives meet in Trichy; Nainar Nagarajen directs on SIR issue",
+   "tamil_headline": "நூலக கொள்முதல் முறைகேடில் அமைச்சர் மீதே சந்தேகம்: பா.ஜ.",
+   "english_headline": "BJP state chief Nainar Nagendran says suspicion falls on Minister Rajmohan in library book procurement irregularities",
    "category": "Government & Services",
-   "location": "Trichy city, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
+   "location": "Trichy, Trichy district",
+   "importance": "High",
+   "scope": "",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "அரசியல்",
-    "loc": "திருச்சி மாநகர்",
-    "hl1": "திருச்சியில் பாஜக மாநில நிர்வாகிகள்",
-    "hl2": "எஸ்ஐஆர் விவகாரத்தில்",
-    "slides": [
-     {
-      "title": "கூட்டம்",
-      "lines": [
-       "திருச்சி மாநகர் மாவட்ட பாஜக அலுவலகத்தில் கூட்டம் நடைபெற்றது",
-       "ஜனநாயகத்தைக் காப்போம் என்ற தலைப்பில் கூட்டம் அமைந்தது",
-       "செவ்வாய்க்கிழமை இரவு நடைபெற்றது"
-      ]
-     },
-     {
-      "title": "அறிவுறுத்தல்",
-      "lines": [
-       "நயினார் நாகேந்திரன் நிர்வாகிகளுக்கு அறிவுறுத்தல்",
-       "எஸ்ஐஆர் நோர்மைத் தன்மையை மக்களிடம் விளக்க வேண்டும்",
-       "கையேடு ஒன்று நிர்வாகிகளுக்கு வழங்கப்பட்டது"
-      ]
-     },
-     {
-      "title": "பங்கேற்பு",
-      "lines": [
-       "விஷ்ணுவாத்தன் ரெட்டி சிறப்பு விருந்தினராக பங்கேற்றார்",
-       "தமிழிசை சௌந்தரராஜன், பொன். ராதாகிருஷ்ணன் ஆகியோர் கலந்து",
-       "அடுத்த 1 வாரத்தில் மாவட்ட நிர்வாகிகள் மக்களை சந்திக்க"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சி மாநகரில் பாஜக மாநில நிர்வாகிகள் கூட்டம் நடைபெற்றது. ஜனநாயகத்தைக் காப்போம் என்ற தலைப்பில் இது அமைந்தது. செவ்வாய்க்கிழமை மாவட்ட பாஜக அலுவலகத்தில் கூட்டம் நடந்தது. பாஜக மாநில தலைவர் நயினார் நாகேந்திரன் கூட்டத்திற்கு தலைமை வகித்தார். எஸ்ஐஆர் பணிகள் நோர்மையாக நடந்துள்ளன என அவர் தெரிவித்தார். மக்களிடம் இந்த நோர்மைத் தன்மையை விளக்க வேண்டும் என நிர்வாகிகளுக்கு அவர் அறிவுறுத்தினார். இதற்காக ஒரு கையேடு தயாரிக்கப்பட்டுள்ளது. அடுத்த 1 வாரத்தில் மாவட்ட நிர்வாகிகள் செல்வாக்குமிக்கவர்களை சந்திக்க வேண்டும். அவர்களுக்கு இந்த கையேட்டை வழங்க வேண்டும் என அவர் கூறினார். விஷ்ணுவாத்தன் ரெட்டி சிறப்பு விருந்தினராக பங்கேற்றார். தமிழிசை சௌந்தரராஜன், பொன். ராதாகிருஷ்ணன் ஆகியோர் கூட்டத்தில் கலந்து கொண்டனர். அனைத்து நிர்வாகிகளுக்கும் கையேடு வழங்கப்பட்டது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🏛️ திருச்சியில் பாஜக மாநில நிர்வாகிகள் கூட்டம் - எஸ்ஐஆர் விவகாரத்தில் அறிவுறுத்தல்\n\n📰 முழு விவரம்:\nதிருச்சி மாநகர் மாவட்ட பாஜக அலுவலகத்தில் செவ்வாய்க்கிழமை மாநில நிர்வாகிகள் கூட்டம் நடைபெற்றது. ஜனநாயகத்தைக் காப்போம் - கும்பல் ஆதிக்கத்தை ஒழிப்போம் என்ற தலைப்பில் கூட்டம் அமைந்தது. பாஜக மாநில தலைவர் நயினார் நாகேந்திரன் கூட்டத்திற்கு தலைமை வகித்து பேசினார். எஸ்ஐஆர் பணிகள் நோர்மையாக நடந்துள்ளன என அவர் தெரிவித்தார். மக்களிடம் இந்த நோர்மைத் தன்மையை விளக்க வேண்டும் என நிர்வாகிகளுக்கு அவர் அறிவுறுத்தினார். அடுத்த 1 வாரத்தில் மாவட்ட நிர்வாகிகள் செல்வாக்குமிக்கவர்களை சந்தித்து கையேட்டை வழங்க வேண்டும் என அவர் கூறினார். விஷ்ணுவாத்தன் ரெட்டி சிறப்பு விருந்தினராக பங்கேற்றார். தமிழிசை சௌந்தரராஜன், பொன். ராதாகிருஷ்ணன், போஜராஜன், வி.பி. துரைசாமி, கே.டி. ராகவன், கார்த்திகேயன் ஆகியோர் கூட்டத்தில் கலந்து கொண்டனர். அனைத்து நிர்வாகிகளுக்கும் கையேடு வழங்கப்பட்டது.\n\n📍 இடம்: திருச்சி மாநகர் மாவட்ட பாஜக அலுவலகம்\n🗓️ நாள்: செவ்வாய்க்கிழமை\nℹ️ மக்கள் கவனத்திற்கு: எஸ்ஐஆர் விவகாரத்தில் நோர்மைத் தன்மையை விளக்கும் கையேடு நிர்வாகிகளுக்கு வழங்கப்பட்டுள்ளது\n\nBJP state executives meet in Trichy | Trichy news\n📍 Trichy city, Trichy | 17 Nov 2026\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Politics",
-   "prompts": "Inside a party office hall in Tiruchirappalli (Trichy) city, Tamil Nadu, a state BJP meeting is underway on a Tuesday daytime. Several dozen party executives and district office-bearers sit in rows of white plastic chairs on a plain tiled floor, men in white shirts and veshti or trousers and a few women in sarees, seen mostly from behind and far away. At the front, a raised table and dais hold a microphone on a stand and a few leaders in shirts and shawls, shown small and slightly blurred in the distance. A wall behind the dais is plain painted, with no readable text. Overhead tube lights and a ceiling fan light the room evenly, with a few open windows letting in daylight. The atmosphere is a formal organisational meeting. Camera at eye level, 35 mm lens, wide enough to show the full hall and the seated rows. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up on a stack of freshly printed handbooks on a plain wooden table in a Tamil Nadu party office in Trichy city, daylight from a nearby window falling across the pages. A few hands of party workers, seen only from the wrist down in plain shirt sleeves, reach to pick up copies to take away. The booklets have plain cream covers with no readable text, logos or labels, and a few copies lie fanned out beside the stack. Behind, a blurred row of chairs and a fan are visible. Camera slightly high, 35 mm, shallow depth of field to focus on the booklets and hands. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/the-integrityfairness-of-sir-must-be-explained-to-the-people-nainar-nagendran",
-   "published": "2026-11-17T18:33:00.000Z",
-   "verification": "DRAFT (groq/qwen/qwen3.8-27b) - NOT CLEAN, held from posting - problems: reel_script has 88 words; need 92-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)",
-   "note": "free-model draft groq/qwen/qwen3.8-27b, 1 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794966861/trichy360/pcw9ljk3axzooteh1sxo.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794966866/trichy360/rj1nbeenwlhyiadhrwxf.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சி மாவட்டம் முழுவதும் ஐயப்ப பக்தர்கள் மாலை அணிந்து விரதம் தொடங்கினர்",
-   "english_headline": "Ayyappa devotees begin Karthigai vratham across Trichy district; temples crowded from dawn",
-   "category": "Temples & Events",
-   "location": "Trichy city temples (Malaikottai, Ucchi Pillayar, Cantonment Ayyappan temple), Trichy district",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "கோயில் நிகழ்வு",
-    "loc": "திருச்சி மாவட்டம்",
-    "hl1": "திருச்சியில் ஐயப்ப பக்தர்கள் விரதம்",
-    "hl2": "கோயில்களில் நிரம்பி வழிந்த",
-    "slides": [
-     {
-      "title": "எப்போது?",
-      "lines": [
-       "கார்த்திகை முதல் நாள் நவ. 17 (செவ்வாய்க்கிழமை)",
-       "மாலை அணிந்து விரதம் தொடங்கினர்",
-       "ஆயிரக்கணக்கான பக்தர்கள் பங்கேற்பு"
-      ]
-     },
-     {
-      "title": "எந்தக் கோயில்கள்?",
-      "lines": [
-       "திருச்சி மலைக்கோட்டை மாணிக்க விநாயகர் கோயில்",
-       "உச்சிப்பிள்ளையார் கோயில், கன்டோன்மென்ட் ஐயப்பன் கோயில்",
-       "அதிகாலை முதலே பக்தர்கள் கூட்டம்"
-      ]
-     },
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "குருசாமி கையால் துளசிமணி மாலை அணிந்தனர்",
-       "குருசாமி இல்லாதவர்கள் அர்ச்சகரை குருவாக ஏற்றனர்",
-       "போலீஸார் கோயில் வாயிலில் பாதுகாப்புப் பணி"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சியில் ஆயிரக்கணக்கான ஐயப்ப பக்தர்கள் நவம்பர் 17ஆம் தேதி மாலை அணிந்து விரதத்தைத் தொடங்கினர். கார்த்திகை மாதம் பிறந்ததை முன்னிட்டு மாவட்டம் முழுவதும் உள்ள ஐயப்பன், விநாயகர், முருகன் கோயில்களில் இந்த நிகழ்வு நடைபெற்றது. திருச்சி மலைக்கோட்டை மாணிக்க விநாயகர் கோயில், உச்சிப்பிள்ளையார் கோயில், கன்டோன்மென்ட் ஐயப்பன் கோயில் ஆகியவற்றில் அதிகாலை முதலே பக்தர்கள் கூட்டம் நிரம்பி வழிந்தது. குருசாமி கையால் துளசிமணி மாலை அணிந்து பக்தர்கள் விரதத்தைத் தொடங்கினர். குருசாமி இல்லாதவர்கள் அருகிலுள்ள கோயில் அர்ச்சகரை குருவாக ஏற்று மாலை அணிந்து கொண்டனர். திருச்சி ஐயப்பன் கோயிலில் அதிகாலையே நடை திறக்கப்பட்டு சிறப்பு அபிஷேகம் மற்றும் அலங்காரம் செய்யப்பட்டது. பக்தர்களும் பொதுமக்களும் திரளாக வந்ததால் காலை முதல் இரவு வரை கூட்டம் அதிகரித்தது. கோயில் வாயிலில் போலீஸார், போக்குவரத்து போலீஸார், ஊர்க்காவல் படையினர் சுழற்சி முறையில் பாதுகாப்புப் பணியில் ஈடுபட்டனர். கார்த்திகை விரதம் தொடங்கியுள்ளதால் காய்கறி, பூக்களின் விலை உயரக்கூடும் என எதிர்பார்க்கப்படுகிறது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🙏 திருச்சியில் ஐயப்ப பக்தர்கள் மாலை அணிந்து விரதம் தொடக்கம்\n\n📰 முழு விவரம்:\nகார்த்திகை மாதம் பிறந்ததை முன்னிட்டு நவ. 17 (செவ்வாய்க்கிழமை) மாலை, திருச்சி மாவட்டம் முழுவதும் ஆயிரக்கணக்கான ஐயப்ப பக்தர்கள் மாலை அணிந்து ஒரு மண்டல விரதத்தைத் தொடங்கினர். ஐயப்பன், விநாயகர், முருகன் கோயில்களில் இந்த நிகழ்வு நடைபெற்றது.\n🛕 திருச்சி மலைக்கோட்டை மாணிக்க விநாயகர் கோயில், உச்சிப்பிள்ளையார் கோயில், கன்டோன்மென்ட் ஐயப்பன் கோயில்களில் அதிகாலை முதலே பக்தர்கள் கூட்டம் நிரம்பி வழிந்தது.\n🙏 குருசாமி கையால் துளசிமணி மாலை அணிந்து விரதத்தைத் தொடங்கினர். குருசாமி இல்லாதவர்கள் அருகிலுள்ள கோயில் அர்ச்சகரை குருவாக ஏற்று மாலை அணிந்தனர்.\n👮 கோயில் வாயிலில் போலீஸார், போக்குவரத்து போலீஸார், ஊர்க்காவல் படையினர் பாதுகாப்புப் பணியில் ஈடுபட்டனர்.\n🛍️ கார்த்திகை மாத பிறப்பை முன்னிட்டு சந்தனமாலை, ருத்ராட்ச மாலை, துளசிமாலை உள்ளிட்ட 12 வகை மாலைகள் விற்பனை விறுவிறுப்பாக நடைபெறுகிறது. கருப்பு, நீலம், காவி வேஷ்டிகள் விற்பனையும் அதிகரித்துள்ளது.\n🥬 விரதம் தொடங்கியுள்ளதால் காய்கறி, பூக்களின் விலை உயரும் என எதிர்பார்க்கப்படுகிறது.\n\nAyyappa devotees begin Karthigai vratham Trichy | Trichy news\n📍 திருச்சி மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Ayyappan",
-   "prompts": "A long queue of Ayyappa devotees in black and saffron veshtis waits outside the Cantonment Ayyappan temple in Trichy city as the early morning crowd fills the temple premises. A guru swami in a black veshti places a tulsi-bead garland around a devotee's neck while others wait their turn behind him. The setting is a Tamil Nadu temple compound with a painted gopuram-style gateway, stone floor, and devotees sitting and standing in rows. Several Tamil Nadu police constables in khaki stand near the gate keeping the line orderly, and a few home guards in uniform are visible at a distance. Some men wear black and blue veshtis, a few women in cotton sarees stand among them, and the crowd is seen from behind and far away. Early morning, soft daylight on the temple walls, marigold garlands and lamps near the entrance. Camera at eye level, 35 mm lens, wide enough to show the temple gate, the queue, and the crowd spilling across the compound. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a tray of tulsi and rudraksha mala beads and folded black, blue and saffron veshtis laid out on a cloth shop counter in Trichy's bazaar, with a few strands of red tulsi garland beside them. Blurred shopkeeper's hands in the background arrange more garlands, and a row of hanging veshtis is visible behind. The lighting is warm from shop bulbs with daylight through the shop front. Camera at a slightly high angle, 35 mm lens, shallow depth of field so the beads and cloth are sharp and the background people are soft and unidentifiable. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/%E0%AE%95%E0%AE%BE%E0%AE%BE%E0%AF%8D%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AF%88-%E0%AE%AE%E0%AE%BE%E0%AE%A4%E0%AE%AE%E0%AF%8D-%E0%AE%AA%E0%AE%BF%E0%AE%B1%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%E0%AE%90%E0%AE%AF%E0%AE%AA%E0%AF%8D%E0%AE%AA-%E0%AE%AA%E0%AE%95%E0%AF%8D%E0%AE%A4%E0%AE%BE%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%AE%E0%AE%BE%E0%AE%B2%E0%AF%88-%E0%AE%85%E0%AE%A3%E0%AE%BF%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81-%E0%AE%B5%E0%AE%BF%E0%AE%B0%E0%AE%A4%E0%AE%AE%E0%AF%8D-%E0%AE%A4%E0%AF%8A%E0%AE%9F%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%BF%E0%AE%A9%E0%AE%BE%E0%AF%8D-%E0%AE%95%E0%AF%8B%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%AA%E0%AE%95%E0%AF%8D%E0%AE%A4%E0%AE%BE%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%95%E0%AF%82%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D",
-   "published": "2026-11-17T18:33:00.000Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: slides_spec.loc 'திருச்சி மாவட்டம்' is only the district: write the town / village / area the article names (people share news of their own area)",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794966880/trichy360/paaqi2nb2kyqmfsxnr14.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794966885/trichy360/t2zoj6eerhp5vkkzhapf.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சியில் மாநகராட்சி அலுவலகங்கள் முன் மார்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினர் ஆர்ப்பாட்டம்",
-   "english_headline": "CPI(M) cadres protest in front of Trichy corporation zonal offices demanding release of local body funds",
-   "category": "Civic Issues",
-   "location": "Trichy city, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "ஆர்ப்பாட்டம்",
-    "loc": "திருச்சி மாநகராட்சி",
-    "hl1": "திருச்சியில் கட்சியினர் ஆர்ப்பாட்டம்",
-    "hl2": "உள்ளாட்சி நிதி கோரிக்கை",
-    "slides": [
-     {
-      "title": "எங்கே, எப்போது?",
-      "lines": [
-       "செவ்வாய்க்கிழமை, திருச்சி மாநகராட்சி கோட்ட அலுவலகங்கள் முன்",
-       "மார்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினர் ஆர்ப்பாட்டம்",
-       "4ஆவது மண்டல அலுவலகம் முன் (டி.வி.எஸ். டோல்கேட் அருகே)"
-      ]
-     },
-     {
-      "title": "முக்கிய",
-      "lines": [
-       "உள்ளாட்சிகளுக்கு ஒதுக்கிய நிதியை மத்திய அரசு உடனே வழங்க",
-       "பட்ஜெட்டில் அறிவித்த <b>ரூ. 29 ஆயிரம் கோடி</b>",
-       "<b>6 மாத</b> திட்டப் பணிகள் முடக்கப்படக் கூடாது"
-      ]
-     },
-     {
-      "title": "பகுதி வாரியாக",
-      "lines": [
-       "பொன்மலை, அபிஷேகபுரம் பகுதிகளில் சாலை, தெருவிளக்கு, குடிநீர்",
-       "பாலக்கரை, மலைக்கோட்டை, காட்டூர் பகுதிகளிலும் ஆர்ப்பாட்டம்",
-       "சர்வீஸ் சாலை ஆக்கிரமிப்புகளை அகற்ற வேண்டும்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சி மாநகராட்சி அலுவலகங்கள் முன் மார்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினர் செவ்வாய்க்கிழமை ஆர்ப்பாட்டம் நடத்தினர். தமிழகத்தின் உள்ளாட்சி அமைப்புகளுக்கு ஒதுக்கப்பட்ட நிதியை மத்திய அரசு உடனடியாக வழங்க வேண்டும் என்று அவர்கள் வலியுறுத்தினர். பட்ஜெட்டில் அறிவிக்கப்பட்ட ரூ. 29 ஆயிரம் கோடி உள்ளாட்சி நிதியை விடுவிக்க வேண்டும் என்பது முக்கியக் கோரிக்கை. தேர்ந்தெடுக்கப்பட்ட மக்கள் பிரதிநிதிகளின் அதிகாரத்தைப் பறிக்கக் கூடாது என்றும், 6 மாதமாகத் திட்டமிடப்பட்ட பணிகளை முடக்கக் கூடாது என்றும் கோரினர். பொன்மலை, அபிஷேகபுரம் பகுதிகளில் சாலை வசதி, தெருவிளக்கு, குடிநீர், புதைவடிகால் இணைப்புகளை ஏற்படுத்த வேண்டும் என்றும் வலியுறுத்தப்பட்டது. பொன்மலை ஜி.கார்னர் முதல் டி வி எஸ் டோல்கேட் வரையிலான சர்வீஸ் சாலை ஆக்கிரமிப்புகளை அகற்ற வேண்டும் என முழக்கங்கள் எழுப்பப்பட்டன. பாலக்கரை, மலைக்கோட்டை, காட்டூர் பகுதிகளிலும் இதேபோல ஆர்ப்பாட்டம் நடைபெற்றது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "📢 திருச்சியில் மாநகராட்சி அலுவலகங்கள் முன் கட்சியினர் ஆர்ப்பாட்டம்\n\n📰 முழு விவரம்:\nதமிழகத்தின் உள்ளாட்சி அமைப்புகளுக்கு ஒதுக்கப்பட்ட நிதியை மத்திய அரசு உடனடியாக வழங்க வேண்டும் என வலியுறுத்தி, திருச்சி மாநகராட்சி கோட்ட அலுவலகங்கள் முன் மார்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினர் செவ்வாய்க்கிழமை ஆர்ப்பாட்டம் நடத்தினர்.\nபட்ஜெட்டில் அறிவிக்கப்பட்ட உள்ளாட்சி நிதி ரூ. 29 ஆயிரம் கோடியை விடுவிக்க வேண்டும் என்பது முக்கிய கோரிக்கை.\nதேர்ந்தெடுக்கப்பட்ட மக்கள் பிரதிநிதிகளின் அதிகாரத்தைப் பறிக்கக் கூடாது என்றும், 6 மாத காலமாகத் திட்டமிடப்பட்ட பணிகளை முடக்கக் கூடாது என்றும் கோரிக்கை வைக்கப்பட்டது.\n4ஆவது மண்டல அலுவலகம் முன் (டி.வி.எஸ். டோல்கேட் அருகே) பொன்மலை, அபிஷேகபுரம் பகுதிக் குழுக்கள் சார்பில் ஆர்ப்பாட்டம் நடைபெற்றது. அபிஷேகபுரம் பகுதிச் செயலர் ஆர். சதாசிவம் தலைமை வகித்தார்; மாநகர் மாவட்டச் செயலர் கோவி. வெற்றிச்செல்வம் உள்ளிட்ட பலர் கலந்துகொண்டனர்.\nபொன்மலை (44, 45, 46, 47, 48, 49, 61, 65 வார்டுகள்), அபிஷேகபுரம் (57, 58, 62, 63, 64 வார்டுகள்) பகுதிகளில் சாலை வசதி, தெருவிளக்கு, குடிநீர், புதைவடிகால் இணைப்புகளை ஏற்படுத்த வேண்டும். மாநகராட்சியின் அனைத்து வார்டுகளுக்கும் நிதி ஒதுக்க வேண்டும்.\nபொன்மலை ஜி.கார்னர் முதல் டி.வி.எஸ். டோல்கேட் வரையிலான சர்வீஸ் சாலை ஆக்கிரமிப்புகளை அகற்ற வேண்டும் என முழக்கங்கள் எழுப்பப்பட்டன.\nபாலக்கரை, மலைக்கோட்டை பகுதிக் குழுக்கள் சார்பில் மண்டல அலுவலகம் - 2 (பாலக்கரை அருகில்) முன் மலைக்கோட்டை பகுதிச் செயலர் ராமர் தலைமையிலும், காட்டூர் பகுதிக் குழு சார்பில் அரியமங்கலம் கோட்ட அலுவலகம் முன் நவநீதகிருஷ்ணன் தலைமையிலும் ஆர்ப்பாட்டம் நடைபெற்றது. திரளான கட்சி நிர்வாகிகள் பங்கேற்றனர்.\n\nCPI(M) protest Trichy corporation offices | Trichy news\n📍 திருச்சி மாநகராட்சி, திருச்சி மாவட்டம் | 18 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
-   "prompts": "A crowd of CPI(M) party cadres gathers on a busy road in front of a Trichy Corporation zonal office building in Trichy city, Tamil Nadu, raising slogans and demanding release of local body funds. The office is a multi-storey government building with a plain facade and a service road running alongside it near the TVS Tollgate area. Dozens of men in shirts and veshti or trousers, some with red party flags, stand in a loose group on the pavement and the road edge, while a few leaders stand at the front facing the building, seen from behind and at a distance. Two-wheelers, an autorickshaw and a town bus pass on the main road beside them, and Tamil Nadu corporation staff stand at the office gate. It is a bright Tuesday daytime scene under clear sky with flat, even light. The camera is at eye level, shot with a 35 mm lens wide enough to show the office building, the road and the crowd together, with all faces turned away or blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up detail of a pile of rain-soaked garbage and a potholed stretch of service road outside a Trichy corporation zonal office, the civic problem the protesters are demanding be fixed. The rough tarmac has a deep pothole filled with muddy water, with encroaching stalls and a broken, uneven edge of the service road visible beside it. A few protesters' red party flags lean against a roadside railing in the blurred background, and the legs and sandals of demonstrators standing on the pavement are seen far away. Daylight, mid-morning, under an overcast sky, with soft natural light. The camera is low and close, slightly high angle, using a 35 mm lens, focusing on the pothole and the flooded road surface while keeping the background people out of focus and facing away. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/மாா்க்சிஸ்ட்-கம்யூனிஸ்ட்-கட்சியினா்-ஆா்ப்பாட்டம்-23",
-   "published": "2026-11-17T18:34:00.000Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script has 94 words; need 97-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794966903/trichy360/lhmroxpnxw0jzmzwb2so.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794966908/trichy360/lqfdl4bsuskri0dgqkxt.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "நாடாளுமன்றக் கூட்டத்தை அரசியல் கணக்குக்காக நடத்துவதாக முஸ்லிம் லீக் குற்றச்சாட்டு",
-   "english_headline": "Indian Union Muslim League alleges BJP is planning Parliament sessions for political gain, citing delimitation bill failure",
-   "category": "Government & Services",
-   "location": "தேசிய அளவு (National level, Parliament, Delhi)",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "அரசியல்",
-    "loc": "தேசிய அளவு",
-    "hl1": "தேசிய அளவு: அரசியல் கணக்குக்காக",
-    "hl2": "முஸ்லிம் லீக் குற்றச்சாட்டு",
+    "cat": "அரசு செய்தி",
+    "loc": "திருச்சி",
+    "hl1": "திருச்சி: நூலக முறைகேடில் அமைச்சர் மீது",
+    "hl2": "பா.ஜ. தலைவர் குற்றச்சாட்டு",
     "slides": [
      {
       "title": "என்ன",
       "lines": [
-       "பாஜக அரசு அரசியல் கணக்கு பார்ப்பதாக கே. நவாஸ் கனி எம்.பி.",
-       "இந்திய யூனியன் முஸ்லிம் லீக் தேசிய செயலர்",
-       "இது அவர் வெளியிட்ட அறிக்கையில் கூறப்பட்டது"
+       "நூலகங்களுக்கு புத்தகங்கள் கொள்முதல் முறைகேட்டில் அமைச்சர்",
+       "பா.ஜ. தமிழக தலைவர் நயினார் நாகேந்திரன் திருச்சியில்",
+       "அரசியல்வாதிகளுக்கு தொடர்பு என்று அமைச்சர் கூறுவதாக"
       ]
      },
      {
-      "title": "மழைக்காலக்",
+      "title": "வழக்கு நிலை",
       "lines": [
-       "தொகுதி மறுவரையறை மசோதாவை நிறைவேற்ற பாஜகவால் முடியவில்லை",
-       "பெரும்பான்மை இல்லாததால் அந்த மசோதா தோல்வியடைந்தது",
-       "மழைக்காலக் கூட்டத்தொடர் முறையாக முடித்து வைக்கப்படவில்லை"
+       "ஒரு மாதத்திற்கு முன்பே இது குறித்து கூறப்பட்டதாக தெரிவிப்பு",
+       "இப்போதுதான் <b>எஃப்.ஐ.ஆர்.</b> பதிவு செய்யப்பட்டுள்ளது",
+       "தாமதம் சந்தேகத்தை ஏற்படுத்துவதாக கூறப்பட்டுள்ளது"
       ]
      },
      {
-      "title": "குளிர்காலக்",
+      "title": "பிற கருத்துகள்",
       "lines": [
-       "வழக்கமாக டிசம்பர் மாதத்தில் நடைபெறும்",
-       "அதற்கான அதிகாரப்பூர்வ அறிவிப்பு இதுவரை வெளியாகவில்லை",
-       "தோல்வியை ஏற்காமல் அதே கூட்டத்தின் பெயரில் மசோதாவை நிறைவேற்ற"
-      ]
-     },
-     {
-      "title": "கோரிக்கை",
-      "lines": [
-       "தொகுதி மறுவரையறையை மேலும் 25 ஆண்டுகளுக்கு நீட்டிக்க",
-       "மாநிலங்களின் உரிமைகள், கூட்டாட்சித் தத்துவம் பாதுகாக்கப்பட",
-       "ஜனநாயகத்துக்கு உரிய மதிப்பளிக்க வேண்டும் என வலியுறுத்தல்"
+       "காவிரி நீர் <b>67 டி.எம்.சி.</b> தமிழகத்திற்கு வரவில்லை என",
+       "இதனால் 2 லட்சம் ஏக்கர் பயிர்கள் கருகியதாக கூறப்பட்டுள்ளது",
+       "நீதிபதி கருத்து குறித்த விமர்சனங்களும் பேசப்பட்டன"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "நாடாளுமன்றக் கூட்டத்தை அரசியல் கணக்குக்காக நடத்துவதாக பாஜக அரசு மீது குற்றச்சாட்டு எழுந்துள்ளது. இந்திய யூனியன் முஸ்லிம் லீக் கட்சியின் தேசிய செயலர் கே. நவாஸ் கனி நாடாளுமன்ற உறுப்பினர் இந்தக் குற்றச்சாட்டை முன்வைத்துள்ளார். மழைக்காலக் கூட்டத்தொடரில் தொகுதி மறுவரையறை மசோதாவை பாஜகவால் நிறைவேற்ற முடியவில்லை. பெரும்பான்மை இல்லாததால் அந்த மசோதா தோல்வியடைந்தது. அந்தத் தோல்வியை ஏற்காமல், அதே கூட்டத்தின் பெயரில் மசோதாவை நிறைவேற்ற அரசு முயல்வதாக அவர் கூறியுள்ளார். வழக்கமாக டிசம்பர் மாதம் நடைபெறும் குளிர்காலக் கூட்டத்தொடருக்கான அதிகாரப்பூர்வ அறிவிப்பும் இதுவரை வெளியாகவில்லை. மழைக்காலக் கூட்டத்தொடரும் முறையாக முடித்து வைக்கப்படவில்லை. தொகுதி மறுவரையறையை மேலும் 25 ஆண்டுகளுக்கு நீட்டிக்க வேண்டும் என்றும், மாநிலங்களின் உரிமைகள் மற்றும் கூட்டாட்சித் தத்துவத்தைப் பாதுகாக்க வேண்டும் என்றும் அவர் வலியுறுத்தியுள்ளார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🏛️ தேசிய அளவு: நாடாளுமன்றக் கூட்டத்தை அரசியல் கணக்குக்காக நடத்துவதாக முஸ்லிம் லீக் குற்றச்சாட்டு\n\n📰 முழு விவரம்:\nஇந்திய யூனியன் முஸ்லிம் லீக் கட்சியின் தேசிய செயலர் கே. நவாஸ் கனி எம்.பி., பாஜக அரசு நாடாளுமன்றக் கூட்டத்தை அரசியல் கணக்குப் பார்த்து நடத்துவதாகக் குற்றம் சாட்டியுள்ளார்.\nமழைக்காலக் கூட்டத்தொடரில் தொகுதி மறுவரையறை மசோதாவை நிறைவேற்ற முடியாமல் போனதாகவும், பெரும்பான்மை இல்லாததால் அது தோல்வியடைந்ததாகவும் அவர் கூறினார்.\nஅந்தத் தோல்வியை ஏற்காமல் அதே கூட்டத்தின் பெயரில் மசோதாவை நிறைவேற்ற அரசு முயல்வதாக அவர் குற்றம் சாட்டினார்.\nவழக்கமாக டிசம்பர் மாதம் நடைபெறும் குளிர்காலக் கூட்டத்தொடருக்கான அதிகாரப்பூர்வ அறிவிப்பு இதுவரை வெளியாகவில்லை; மழைக்காலக் கூட்டத்தொடரும் முறையாக முடித்து வைக்கப்படவில்லை.\n🗳️ தொகுதி மறுவரையறையை மேலும் 25 ஆண்டுகளுக்கு நீட்டிக்க வேண்டும்; மாநிலங்களின் உரிமைகள், கூட்டாட்சித் தத்துவம் பாதுகாக்கப்பட வேண்டும் என அவர் வலியுறுத்தியுள்ளார்.\n\nIUML alleges BJP politicising Parliament sessions | National news\n📍 தேசிய அளவு | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #இந்தியா #அரசியல்",
-   "prompts": "A Tamil Nadu-style press statement is being read out in a bustling press room at the Parliament House complex in New Delhi, with a group of journalists with notepads and microphones gathered around a Member of Parliament seated at a long table, seen from behind and at a distance. The place is a large government hall in the Parliament House complex: white colonnaded walls, high ceilings, wooden benches and a tall window letting in soft daylight. Several men in kurta-pyjama and formal shirts, and a few women in sarees, stand or sit near the table; one holds a printed press release with the paper facing away from the camera, so no readable text appears. A stack of printed statements, a water glass and a few microphones sit on the table, while a faint Indian tricolour hangs on a pillar in the background. Daytime, cool winter light from the windows suggests the winter season. Camera at eye level, 35 mm, wide enough to show the whole hall and the seated group. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a printed press statement lying on a polished wooden table in a Parliament House committee room, with a pair of reading glasses and a microphone placed beside it. The paper is angled away so that no words or letters are readable; only its white sheets and a rolled stack of printed copies are visible. Behind the table, out of focus, a pale wall with a framed national emblem and a tricolour flag shows the official government setting of New Delhi. Soft natural light from a tall window falls across the wooden surface, giving a calm, serious mood. A small glass of water and a notepad with a pen complete the scene. Camera close and slightly high, 35 mm, shallow depth of field keeping the statement sheets sharp and the background softly blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/நாடாளுமன்றக்-கூட்டத்தை-நடத்தஅரசியல்-கணக்குப்-பாா்க்கிறது-பாஜக-முஸ்லிம்-லீக்-குற்றச்சாட்டு",
-   "published": "2026-11-17T18:49:00.000Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: not grounded: location 'அளவு' is not in the article; reel_script sentence 1 (heard in the first 3 seconds) must name the place 'தேசிய அளவு' and the news itself, e.g. 'தேசிய அளவு-இல் ... 3 பேர் கைது.' - viewers decide in 3 seconds whether the news is about their area",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 2 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794966926/trichy360/sg9inqwnrzgcnm4wvftj.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794966930/trichy360/m0u7kldmzdqayieancnk.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "சோமரசம்பேட்டை அருகே விவசாயி கொலை வழக்கில் 10 பேர் கைது",
-   "english_headline": "10 arrested in murder case of farmer near Somarasampettai, Trichy",
-   "category": "Crime & Safety",
-   "location": "Somarasampettai, Trichy district",
-   "importance": "High",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "குற்றம்",
-    "loc": "சோமரசம்பேட்டை",
-    "hl1": "சோமரசம்பேட்டை அருகே கொலை: 10 பேர் கைது",
-    "hl2": "முன்விரோதத்தில் நடந்த கொலை",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "போதாவூரைச் சேர்ந்த விவசாயி பாண்டியன் (46 வயது), வெட்டிக் கொலை",
-       "கடந்த <b>15ம் தேதி</b> இரவு பைக்கில் சென்றபோது சம்பவம்",
-       "இனாம்புலியூர் தோட்டத்துக்குச் சென்றபோது நடந்தது"
-      ]
-     },
-     {
-      "title": "யார் காரணம்?",
-      "lines": [
-       "இன்பராஜ் (22 வயது), உடன் முன்விரோதம் இருந்தது",
-       "இன்பராஜ் தனது 10க்கும் மேற்பட்ட கூட்டாளிகளுடன் வெட்டினார",
-       "இரண்டு சிறார்களும் இந்த கொலையில் தொடர்புடையவர்கள்"
-      ]
-     },
-     {
-      "title": "கைது நடவடிக்கை",
-      "lines": [
-       "சோமரசம்பேட்டை போலீசார் வழக்குப் பதிவு செய்தனர்",
-       "<b>10 பேர்</b> நேற்று கைது செய்யப்பட்டனர்",
-       "இரண்டு சிறார்கள் இளஞ்சிறார் நீதிக்குழுமத்தில்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "சோமரசம்பேட்டை அருகே விவசாயி கொலை வழக்கில் 10 பேர் போலீசாரால் கைது செய்யப்பட்டனர். போதாவூரைச் சேர்ந்த விவசாயி பாண்டியன், 46 வயதில் வெட்டிக் கொலை செய்யப்பட்டார். கடந்த 15ஆம் தேதி இரவு, பாண்டியன் பைக்கில் போதாவூரிலிருந்து இனாம்புலியூரில் உள்ள தோட்டத்துக்குச் சென்றார். அப்போது இன்பராஜ் (22 வயது), தனது 10க்கும் மேற்பட்ட கூட்டாளிகளுடன் சேர்ந்து பாண்டியனை வெட்டிக் கொலை செய்தார். இருவருக்கும் இடையே முன்விரோதம் இருந்ததாகத் தெரிகிறது. இந்த வழக்கில் சோமரசம்பேட்டை போலீசார் வழக்குப் பதிவு செய்தனர். நேற்று இன்பராஜ் உட்பட 10 பேரை போலீசார் கைது செய்தனர். கொலையில் தொடர்புடைய இரண்டு சிறார்கள் இளஞ்சிறார் நீதிக்குழுமத்தின் முன் ஆஜர்படுத்தப்பட உள்ளனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 சோமரசம்பேட்டை அருகே விவசாயி கொலை வழக்கில் 10 பேர் கைது\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம் சோமரசம்பேட்டை அருகே போதாவூரைச் சேர்ந்த விவசாயி பாண்டியன் (46 வயது), வெட்டிக் கொலை செய்யப்பட்டார்.\nஇவருக்கும் அதே ஊரைச் சேர்ந்த இன்பராஜ் (22 வயது), என்பவருக்கும் இடையே முன்விரோதம் இருந்துள்ளது.\nகடந்த 15ஆம் தேதி இரவு பாண்டியன் பைக்கில் போதாவூரிலிருந்து இனாம்புலியூரில் உள்ள தோட்டத்துக்குச் சென்றபோது, இன்பராஜ் தனது 10க்கும் மேற்பட்ட கூட்டாளிகளுடன் சேர்ந்து அவரை வெட்டிக் கொலை செய்தார்.\nஇந்தச் சம்பவம் தொடர்பாக வழக்குப் பதிவு செய்த சோமரசம்பேட்டை போலீசார், நேற்று இன்பராஜ் உட்பட 10 பேரைக் கைது செய்தனர்.\nகைது செய்யப்பட்டவர்கள்: இன்பராஜ் (22 வயது), கருணேஷ் (18 வயது), செல்வேந்திரன் (21 வயது), பிரதீஷ் (23 வயது), மணிகண்டன் (21 வயது), கவுதம் (23 வயது), ஈஸ்வர் (20 வயது), வசந்தகுமார் (27 வயது), வினோத்குமார் (23 வயது), ஆகாஷ், 18.\nஇந்தக் கொலையில் தொடர்புடைய இரண்டு சிறார்கள் இளஞ்சிறார் நீதிக்குழுமத்தின் முன் ஆஜர்படுத்தப்பட உள்ளனர்.\n\nSomarasampettai farmer murder, 10 arrested | Trichy news\n📍 சோமரசம்பேட்டை, திருச்சி மாவட்டம் | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Somarasampettai #குற்றம் #TrichyNews",
-   "prompts": "A row of police in khaki stand beside a police jeep as ten men in plain shirts and trousers sit on the ground in a line, seen from behind at a police station yard near Somarasampettai, Trichy district. The yard is a dusty compound with a low brick compound wall, a few parked two-wheelers, and a neem tree casting shade. Some of the arrested men have their heads lowered and hands folded, but no one is injured or shown in distress. Behind the group, a constable holds a notebook, and a second officer stands at the gate. The scene is in bright daylight after a morning arrest, with soft shadows under the tree. Camera: eye level, slightly high, 35 mm lens, wide enough to show the whole line of men, the police jeep and the compound wall, all faces turned away or blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close view of a bike's front handle and seat on a dusty rural road at the edge of banana and paddy fields near Injampuliyur, Trichy district, placed as evidence after the attack. A stretch of cracked mud road runs between a low concrete culvert and a line of palm trees, with a few scattered dry leaves and a faint dark stain on the road surface. Behind the bike, a police constable in khaki stands at a distance, his back to the camera, and a second officer marks the spot with a small wooden peg. The light is clear morning sun, low and warm, with long shadows across the road. Camera: low angle at roadside level, 35 mm lens, shallow focus on the bike handle with the field and officers blurred behind. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-news/10-people-in-farmer-s-murder-case-arrested/4379222",
-   "published": "2026-11-17T23:22:29+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: slide 1 line 1 longer than 60 characters",
+   "reel_script": "திருச்சியில் நூலக புத்தக கொள்முதல் முறைகேட்டில் அமைச்சர் ராஜ்மோகன் மீதே சந்தேகம் உள்ளதாக பா ஜ தமிழக தலைவர் நயினார் நாகேந்திரன் குற்றம் சாட்டியுள்ளார். நூலகங்களுக்கு புத்தகங்கள் கொள்முதல் செய்ததில் நடந்த முறைகேடுகளில் அரசியல்வாதிகளுக்கு தொடர்பு இருப்பதாக அமைச்சர் ராஜ்மோகன் கூறுவதாக அவர் தெரிவித்தார். இது குறித்து ஒரு மாதத்திற்கு முன்பே தாம் கூறியதாகவும், இப்போதுதான் எஃப் ஐ ஆர் பதிவு செய்யப்பட்டுள்ளதாகவும் அவர் கூறினார். இந்த தாமதமே சந்தேகத்தை ஏற்படுத்துவதாகவும், முன்னதாகவே வழக்குப் பதிவு செய்து விசாரணை நடத்தியிருக்க வேண்டும் என்றும் அவர் வலியுறுத்தினார். மேலும், கடந்த நவம்பர் 4ஆம் தேதி வரை தமிழகத்திற்கு வந்து சேர்ந்திருக்க வேண்டிய 67 டி எம் சி காவிரி நீர் வரவில்லை என்றும் அவர் குற்றம் சாட்டினார். இதனால் இரண்டு லட்சம் ஏக்கர் பயிர்கள் தண்ணீர் இன்றி கருகியதாகவும், இதற்கு முதல்வரே முழு பொறுப்பு என்றும் அவர் தெரிவித்தார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 திருச்சி: நூலக புத்தக கொள்முதல் முறைகேட்டில் அமைச்சர் மீது சந்தேகம் - பா.ஜ. குற்றச்சாட்டு\n\n📰 முழு விவரம்:\nநூலகங்களுக்கு புத்தகங்கள் கொள்முதல் செய்ததில் நடந்த முறைகேடுகளில் அமைச்சர் ராஜ்மோகன் மீதே சந்தேகம் உள்ளதாக பா.ஜ. தமிழக தலைவர் நயினார் நாகேந்திரன் திருச்சியில் தெரிவித்தார்.\nஅரசியல்வாதிகளுக்கு தொடர்பு இருப்பதாக அமைச்சர் கூறுவதாகவும், இது குறித்து ஒரு மாதத்திற்கு முன்பே தாம் கூறியதாகவும் அவர் தெரிவித்தார்.\nஇப்போதுதான் எஃப்.ஐ.ஆர். பதிவு செய்யப்பட்டுள்ளது; இந்தத் தாமதமே சந்தேகத்தை ஏற்படுத்துவதாக அவர் கூறினார்.\nகடந்த நவம்பர் 4ஆம் தேதி வரை தமிழகத்திற்கு வர வேண்டிய 67 டி.எம்.சி. காவிரி நீர் வரவில்லை என்றும், இதனால் 2 லட்சம் ஏக்கர் பயிர்கள் கருகியதாகவும் அவர் குற்றம் சாட்டினார்.\n\nTrichy library book procurement irregularity, BJP alleges | Trichy news\n📍 திருச்சி | 18 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Tamilnadu",
+   "prompts": "A group of reporters with microphones and recorders crowds around a press-meet table in a government hall in Trichy city, where a political leader in a white shirt and veshti stands speaking to the media. Seen from behind and at a distance, the reporters hold up phones and notepads while BJP party workers in white shirts stand near the wall of a modest Tamil Nadu government office hall. Stacks of library books lie on a side table at the edge of the frame, and a few cameramen with tripods stand beside the crowd. Daylight streams through tall windows, with a portrait-free wall behind. The scene feels like a political press meet about a state library procurement issue. Camera at eye level, 35 mm, wide enough to show the hall and the crowd, the people seen from behind or slightly blurred, no readable text or faces. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up detail of a neat stack of hardbound library books on a wooden table, spines turned away from the camera so no text is readable, beside a bundle of official documents tied with a red string and a cluster of microphones with foam covers. A few press recorders and a steel water tumbler sit on the table. In the soft background, out-of-focus reporters and party workers stand in a government hall in Trichy city. Daylight from a side window lights the scene evenly. The camera is slightly high, 50 mm, shallow depth of field, focused on the books and documents, suggesting the library procurement irregularity inquiry. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamalar.com/news/tamil-nadu-news/library-procurement-scam-bjp-doubts-minister/4379201",
+   "published": "2026-11-18T01:21:01+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 18 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
    "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794966938/trichy360/iycxalhvtbutqsmq1jom.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794966943/trichy360/wqjttveutuaxyt16x9qa.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794977003/trichy360/al8qenziaqfoyedpsdbv.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794977024/trichy360/uccf1xhutlvv0fhjvz5x.jpg"
    ]
   },
   {
-   "tamil_headline": "திருச்சியில் அரசுப் பேருந்து ஓட்டுநரிடம் இணையவழியில் ரூ.1.38 லட்சம் மோசடி",
-   "english_headline": "Trichy govt bus driver loses Rs 1.38 lakh in online fraud after downloading app from Facebook ad",
-   "category": "Crime & Safety",
-   "location": "Thiruvanaikkaval, Trichy city, Trichy district",
+   "tamil_headline": "நயினார் நாகேந்திரன்: ஆதவ் அர்ஜுனாவின் காவல் நிலைய ஆய்வு மோசமான நடைமுறை",
+   "english_headline": "Nainar Nagendran criticises minister Aadhav Arjuna's police station inspection in Trichy",
+   "category": "Government & Services",
+   "location": "Trichy, Trichy district",
    "importance": "Medium",
-   "scope": "local",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "இணைய மோசடி",
-    "loc": "திருவானைக்காவல், திருச்சி",
-    "hl1": "திருச்சியில் பேருந்து ஓட்டுநரிடம்",
-    "hl2": "பேஸ்புக் விளம்பரத்தால்",
+    "cat": "அரசியல் செய்தி",
+    "loc": "திருச்சி",
+    "hl1": "திருச்சியில் ஆதவ் அர்ஜுனா ஆய்வு சர்ச்சை",
+    "hl2": "நயினார் நாகேந்திரன் கடும்",
     "slides": [
      {
       "title": "என்ன நடந்தது?",
       "lines": [
-       "திருவானைக்காவல் அரசுப் பேருந்து ஓட்டுநர் பாலசுப்பிரமணியன்",
-       "நவம்பர் 10 அன்று பேஸ்புக்கில் குறைந்த விலை மளிகை விளம்பரம்",
-       "விளம்பர இணைப்பில் சென்று செயலியைப் பதிவிறக்கம் செய்தார்"
+       "அமைச்சர் ஆதவ் அர்ஜுனா அயனாவரம் காவல் நிலையத்தை ஆய்வு",
+       "இது பெரும் சர்ச்சையாகியுள்ளது",
+       "திருச்சியில் பாஜக மாநிலத்தலைவர் நயினார் நாகேந்திரன் இதை"
       ]
      },
      {
-      "title": "பணம்",
+      "title": "நயினார் கூறியது",
       "lines": [
-       "பின்னர் கைப்பேசி செயலிழந்தது",
-       "நவம்பர் 11 முதல் 13 வரை வங்கிக் கணக்கிலிருந்து <b>ரூ.1.38",
-       "அப்போதுதான் அது மோசடி இணையதளம் எனத் தெரிந்தது"
+       "இதுவரை எந்த அமைச்சரும் காவல் நிலையத்துக்குச் சென்றதில்லை",
+       "பெண் காவலரிடம் எத்தனை <b>எப்ஐஆர்</b> ஆகியுள்ளது எனக் கேட்டார்",
+       "இரவு நேரத்தில் எஸ்பியை வீட்டுக்கு"
       ]
      },
      {
-      "title": "போலீஸ் நடவடிக்கை",
+      "title": "பிற",
       "lines": [
-       "தேசிய சைபர் குற்றப் பிரிவில் இணையவழியில் புகார்",
-       "திருச்சி மாநகர குற்றப் பிரிவு போலீஸார் வழக்குப் பதிந்து"
+       "தீபாவளி அன்று தமிழகத்தில் <b>15 படுகொலைகள்</b> நடந்தன",
+       "செஞ்சியில் குழந்தை மாயமாகி இன்னும் கண்டறியப்படவில்லை",
+       "கடலூர் மாவட்டத்தில் ஒரே நாளில் <b>15 பேர்</b> மாயம்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சியில் அரசுப் பேருந்து ஓட்டுநரிடம் இணையவழியில் 1 லட்சத்து 38 ஆயிரம் ரூபாய் மோசடி செய்யப்பட்டுள்ளது. திருவானைக்காவல் பகுதியைச் சேர்ந்த பாலசுப்பிரமணியன் அரசுப் பேருந்து ஓட்டுநர். நவம்பர் 10ஆம் தேதி அவர் கைப்பேசியில் பேஸ்புக் பார்த்துக்கொண்டிருந்தபோது, குறைந்த விலையில் மளிகைப் பொருட்கள் விற்பனை தொடர்பான விளம்பரம் வந்தது. அந்த விளம்பரத்தில் இருந்த இணைப்பிற்குச் சென்ற அவர், அதில் குறிப்பிடப்பட்டிருந்த செயலியைப் பதிவிறக்கம் செய்தார். அதன் பிறகு அவருடைய கைப்பேசி செயலிழந்தது. நவம்பர் 11 முதல் 13ஆம் தேதி வரை அவருடைய வங்கிக் கணக்கிலிருந்து ரூ.1.38 லட்சம் எடுக்கப்பட்டிருந்தது தெரியவந்தது. அப்போதுதான் அது மோசடி இணையதளம் என்பது அவருக்குத் தெரியவந்தது. தேசிய சைபர் குற்றப் பிரிவில் இணையவழியில் பாலசுப்பிரமணியன் அளித்த புகாரின் பேரில், திருச்சி மாநகர குற்றப் பிரிவு போலீஸார் வழக்குப் பதிந்து விசாரிக்கின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருவானைக்காவலில் பேஸ்புக் விளம்பரத்தால் அரசுப் பேருந்து ஓட்டுநர் ரூ.1.38 லட்சம் இழப்பு\n\n📰 முழு விவரம்:\nதிருச்சி திருவானைக்காவல் பகுதியைச் சேர்ந்த அரசுப் பேருந்து ஓட்டுநர் பாலசுப்பிரமணியன் இணையவழியில் ரூ.1.38 லட்சம் மோசடிக்கு ஆளானார். நவம்பர் 10ஆம் தேதி பேஸ்புக்கில் குறைந்த விலை மளிகைப் பொருள் விளம்பரத்தின் இணைப்பிற்குச் சென்று, அதில் குறிப்பிடப்பட்டிருந்த செயலியைப் பதிவிறக்கம் செய்தார். பின்னர் அவருடைய கைப்பேசி செயலிழந்தது. நவம்பர் 11 முதல் 13ஆம் தேதி வரை அவருடைய வங்கிக் கணக்கிலிருந்து ரூ.1.38 லட்சம் எடுக்கப்பட்டிருந்தது. அப்போதுதான் அது மோசடி இணையதளம் என்பது தெரியவந்தது.\n📍 இடம்: திருவானைக்காவல், திருச்சி\n🗓️ நாள்: நவம்பர் 10 முதல் 13 வரை\n👮 நடவடிக்கை: தேசிய சைபர் குற்றப் பிரிவில் இணையவழியில் புகார் அளிக்கப்பட்டது; திருச்சி மாநகர குற்றப் பிரிவு போலீஸார் வழக்குப் பதிந்து விசாரிக்கின்றனர்.\n\nTrichy online fraud Facebook ad bus driver | Trichy news\n📍 திருவானைக்காவல், திருச்சி | 17 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Thiruvanaikkaval",
-   "prompts": "A man in a government bus driver's uniform sits on a plastic chair in a modest home courtyard in Thiruvanaikkaval, Trichy city, holding a smartphone in both hands, screen glowing, while a warning-style red alert shape is implied only by lighting, not text. Seen from slightly behind and to the side, his face turned away from the camera. Behind him is a typical Tamil Nadu house with a tiled veranda, a steel water pot and a potted tulsi plant, and a narrow lane with two-wheelers parked outside the gate. Daylight, soft overcast light through the veranda. The phone screen is the bright focus, showing an abstract shopping-app style interface with no readable text. A bank passbook lies closed on a low table beside him, suggesting money loss. Camera at eye level, 35 mm, wide enough to show the veranda, the lane and the two-wheelers. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a smartphone resting on a wooden table, screen showing a colourful but unreadable shopping-style app interface with no text or logos, beside a folded bank passbook and a stack of loose rupee notes partly under the phone's edge. Background is slightly blurred: a sunlit wooden cot and a steel tumbler. Shallow depth of field, soft daylight from a window, a small crack of warm light on the table. No faces, no readable text on the passbook. The detail shows the phone and money tied together, telling the story of an app download leading to bank withdrawals. Camera 35 mm macro-style, slightly high angle. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/அரசுப்-பேருந்து-ஓட்டுநரிடம்-இணைய-வழியில்-ரூ138-லட்சம்-மோசடி",
-   "published": "2026-11-17T18:34:00.000Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
+   "reel_script": "திருச்சியில் அமைச்சர் ஆதவ் அர்ஜுனாவின் காவல் நிலைய ஆய்வு பெரும் சர்ச்சையாகியுள்ளது. பாஜக மாநிலத்தலைவர் நயினார் நாகேந்திரன் திருச்சியில் செய்தியாளர்களைச் சந்தித்து இதைக் கடுமையாக விமர்சித்தார். இதுவரை எந்த அமைச்சரும் காவல் நிலையத்துக்குச் சென்று ஆய்வு செய்ததில்லை என்று அவர் கூறினார். ஆதவ் அர்ஜுனா அயனாவரம் காவல் நிலையத்தில் பெண் காவலரிடம் எத்தனை எப்ஐஆர் பதிவாகியுள்ளது எனக் கேட்டார் என்றும், இரவு நேரத்தில் எஸ்பியை வீட்டுக்கு வரச் சொன்னார் என்றும் நயினார் நாகேந்திரன் குற்றம் சாட்டினார். தீபாவளி அன்று மட்டும் தமிழகத்தில் 15 படுகொலைகள் நடந்ததாகவும் அவர் தெரிவித்தார். செஞ்சியில் குழந்தை மாயமாகி நீண்ட நாட்களாகியும் இன்னும் கண்டறியப்படவில்லை என்றும், கடலூர் மாவட்டத்தில் ஒரே நாளில் 15 பேர் மாயமானதாகவும் அவர் கூறினார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🏛️ திருச்சியில் ஆதவ் அர்ஜுனாவின் காவல் நிலைய ஆய்வுக்கு நயினார் நாகேந்திரன் கடும் விமர்சனம்\n\n📰 முழு விவரம்:\nஅமைச்சர் ஆதவ் அர்ஜுனா அயனாவரம் காவல் நிலையத்தை ஆய்வு செய்தது சர்ச்சையாகியுள்ளது. திருச்சியில் செய்தியாளர்களைச் சந்தித்த பாஜக மாநிலத்தலைவர் நயினார் நாகேந்திரன், இதுவரை எந்த அமைச்சரும் காவல் நிலையத்துக்குச் சென்று ஆய்வு செய்ததில்லை என்று கூறினார். பெண் காவலரிடம் எத்தனை எப்ஐஆர் ஆகியுள்ளது எனக் கேட்டதையும், கான்ஸ்டபிள் சல்யூட் அடித்ததையும் அவர் விமர்சித்தார்.\n🌙 ஒரு அமைச்சர் இரவு நேரத்தில் எஸ்பியை வீட்டுக்கு வரச் சொன்னதாகவும் அவர் குற்றம் சாட்டினார்.\n🔫 தீபாவளி அன்று மட்டும் தமிழகத்தில் 15 படுகொலைகள் நடந்ததாகவும் அவர் கூறினார்.\n👶 செஞ்சியில் குழந்தை மாயமாகி இன்னும் கண்டறியப்படவில்லை. கடலூர் மாவட்டத்தில் ஒரே நாளில் 15 பேர் மாயமாகியுள்ளனர்.\n\nNainar Nagendran criticises Aadhav Arjuna police station visit | Trichy news\n📍 திருச்சி | 18 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Politics",
+   "prompts": "A group of reporters with microphones and a press camera crowd around a senior politician speaking at a press meet in Trichy city, seen from behind and at a distance, in a hall with a plain wall and a table of microphones. The politician wears a white shirt and veshti, his face not shown, one hand raised as he speaks. Among the reporters are men in shirts and a few women with bags, notepads in hand. Behind them, a wall-mounted fan and a few plastic chairs. The politician's remarks are about a minister's surprise inspection of a police station, so the focus is the press conference itself, with a khaki-uniformed police constable visible at the back of the hall. Daylight through open windows, a Tamil Nadu morning atmosphere. Shot at eye level, 35 mm, wide enough to show the room and the crowd. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up detail of a police station desk in Trichy city: a stack of paper case files and an open register on a wooden table, a mobile phone lying beside them, its screen dark. A pair of khaki sleeves of a woman police constable rests at the edge of the frame, her hand near the papers, and a metal chair pulled back. A ceiling fan turns above, a tube light glows, and the wall behind is painted a plain cream colour. The scene suggests a review of FIR records during a surprise inspection. Daylight from a window at the side, soft and even. Camera at slightly high angle, 35 mm, focused on the files and phone. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://tamil.oneindia.com/news/trichirappalli/aadhav-arjuna-inspected-police-station-is-bad-move-said-nainar-nagendran-846243.html",
+   "published": "2026-11-18T09:25:27+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script has 87 words; need 100-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block); caption misses facts of the article (put every one in 📰 முழு விவரம்): 7 ('அதில் 7 பேர் குழந்தைகள், பெண்கள்.')",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 2 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794966960/trichy360/vfmvy1dqmuleltqxjroh.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794966965/trichy360/ajyxde85mfgtekxrsfjt.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794977033/trichy360/ahrusjkhxa4tpx2teqxd.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1794977067/trichy360/wxlsewswk212nmdwnl7v.jpg"
    ]
   }
  ]
