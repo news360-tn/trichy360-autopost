@@ -18,7 +18,7 @@ import rasi_festivals as festivals, rasi_sources as sources, rasi_writer as writ
 
 PAGE = os.environ.get("PAGE", "rasipuram")
 DRY = os.environ.get("DRY_RUN", "") in ("1", "true", "yes")
-START_AT = os.environ.get("START_AT", "07:31")      # owner 31 Oct: collect sharply at 7:31 AM
+START_AT = os.environ.get("START_AT", "06:40")      # owner 18 Nov: the Tamil sites publish today's rasipalan by about 06:30      # owner 31 Oct: collect sharply at 7:31 AM
 # owner 1 Nov: never miss a day - post as soon as the sources have it. 2 sources wanted; after ONE_SOURCE_AT one source is enough;
 # trying continues until GIVE_UP_AT (only then the run fails and GitHub e-mails the owner)
 ONE_SOURCE_AT = os.environ.get("ONE_SOURCE_AT", "09:30")

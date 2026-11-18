@@ -26,6 +26,11 @@ DRY = os.environ.get("DRY_RUN", "") in ("1", "true", "yes")
 START_AT = os.environ.get("START_AT", "09:40")
 SILVER_WAIT_UNTIL = os.environ.get("SILVER_WAIT_UNTIL", "11:30")
 GIVE_UP_AT = os.environ.get("GIVE_UP_AT", "13:00")
+# owner 18 Nov: MJDTA publishes the rate twice a day, 9:30 AM and 3:30 PM. GOLD_MODE=pm checks from PM_START until PM_UNTIL and posts
+# a 'மாலை விலை மாற்றம்' update only when 2 rate pages show a 22K (or silver) rate different from this morning's post.
+MODE = os.environ.get("GOLD_MODE", "am").strip().lower() or "am"
+PM_START = os.environ.get("PM_START", "15:40")
+PM_UNTIL = os.environ.get("PM_UNTIL", "16:45")
 FORCE_DATE = os.environ.get("GOLD_DATE", "")      # testing only (dry runs): YYYY-MM-DD the pages still show
 HISTORY = HERE / "state" / "history.json"
 STATE_DIR = HERE / "state"
@@ -215,8 +220,124 @@ def already_posted(page, day, token=None):
     return ""
 
 
+def pm_path(page):
+    return STATE_DIR / f"pmcheck_{page}.json"
+
+
+def pm_done(page, day):
+    try:
+        return json.loads(pm_path(page).read_text(encoding="utf-8")).get("date") == day.isoformat()
+    except Exception:
+        return False
+
+
+def pm_caption(p, day, r):
+    lines = [f"📢 மாலை விலை மாற்றம் | {date_ta(day)}", "",
+             f"🟡 22K தங்கம் (1 கிராம்): ₹{render.inr(r['g22'])} (காலை விலையைவிட {change_text(r['g22'] - r['g22_prev'], '')})",
+             f"🟡 24K தங்கம் (1 கிராம்): ₹{render.inr(r['g24'])} (காலை விலையைவிட {change_text(r['g24'] - r['g24_prev'], '')})"]
+    if r.get("silver"):
+        lines.append(f"⚪ வெள்ளி (1 கிராம்): ₹{render.inr(r['silver'])} (காலை விலையைவிட {change_text(r['silver'] - r['silver_prev'], '')})")
+    lines += ["", "சென்னை சந்தை விலை (தமிழ்நாடு) - மதியம் 3:30 மணி நிலவரம். ஜிஎஸ்டி, செய்கூலி, சேதாரம் தனி.", "",
+              f"தினமும் தங்கம், வெள்ளி விலை அறிய Follow செய்யுங்கள் 🙏 @{p['handle']}", "",
+              f"#தங்கம்விலை #GoldRate #SilverRate #GoldPriceToday #{p['town']} {p['tag']}"]
+    return "\n".join(lines)
+
+
+def pm_rates(hist, day, am, gold, silver):
+    """the afternoon slides: today's afternoon rate against this morning's posted rate"""
+    g22 = gold["g22"] if gold else am["g22"]
+    g24 = gold["g24"] if gold else am["g24"]
+    r = {"date": date_ta(day), "g22": g22, "g24": g24, "g22_prev": am["g22"], "g24_prev": am["g24"], "vs": "காலை விலையைவிட",
+         "kick": "மாலை நிலவரம்", "week22": week(hist, day, "g22", g22)}
+    if am.get("silver"):
+        s = silver["silver"] if silver else am["silver"]
+        r.update({"silver": s, "silver_prev": am["silver"], "weeksilver": week(hist, day, "silver", s)})
+    return r
+
+
+def pm_changed(am, gold, silver):
+    return bool((gold and gold["g22"] != am["g22"]) or (silver and am.get("silver") and silver["silver"] != am["silver"]))
+
+
+def pm_main(pages, day):
+    hist = load_history()
+    row = next((h for h in hist if h["date"] == day.isoformat()), None)
+    if not row:
+        log("no morning rate saved for today - afternoon check skipped")
+        return 0
+    am = {"g22": row.get("g22_am", row["g22"]), "g24": row.get("g24_am", row["g24"]), "silver": row.get("silver_am", row.get("silver"))}
+    pages = [pg for pg in pages if DRY or (already_posted(pg, day) and not pm_done(pg, day))]
+    if not pages:
+        log("afternoon check: nothing to do (no morning post today, or already checked)")
+        return 0
+    log(f"afternoon gold check for {', '.join(pages)} - morning 22K ₹{am['g22']}, silver ₹{am.get('silver')}{' (DRY RUN)' if DRY else ''}")
+    tokens = {}
+    if not DRY:
+        for pg in pages:
+            try:
+                tokens[pg] = bridge_get("token", page=pg)["token"]
+            except Exception as e:
+                log(f"{pg}: no Instagram token - skipped ({str(e)[:120]})")
+        pages = [pg for pg in pages if pg in tokens]
+    start = clock(PM_START, day)
+    if not FORCE_DATE and datetime.now(IST) < start:
+        wait = (start - datetime.now(IST)).total_seconds()
+        log(f"waiting {int(wait)} s until {PM_START} (MJDTA fixes the afternoon rate at 3:30 PM)")
+        time.sleep(max(0, wait))
+    while True:
+        got = sources.collect(day, log)
+        gold, silver = got["gold"], got["silver"]
+        if pm_changed(am, gold, silver):
+            break
+        if FORCE_DATE or datetime.now(IST) >= clock(PM_UNTIL, day):
+            log(f"no afternoon change by {PM_UNTIL} - nothing posted")
+            if not DRY:
+                for pg in pages:
+                    pm_path(pg).write_text(json.dumps({"date": day.isoformat(), "changed": False}), encoding="utf-8")
+            return 0
+        log("afternoon rate not changed (yet) - trying again in 5 minutes")
+        time.sleep(300)
+    r = pm_rates(hist, day, am, gold, silver)
+    log(f"AFTERNOON CHANGE: 22K ₹{am['g22']} -> ₹{r['g22']}" + (f", silver ₹{am.get('silver')} -> ₹{r.get('silver')}" if r.get("silver") else ""))
+    if not DRY:      # tomorrow compares with today's last rate; the morning rate is kept as *_am
+        row.setdefault("g22_am", am["g22"]); row.setdefault("g24_am", am["g24"])
+        if am.get("silver"):
+            row.setdefault("silver_am", am["silver"])
+        row.update({"g22": r["g22"], "g24": r["g24"]})
+        if r.get("silver"):
+            row["silver"] = r["silver"]
+        HISTORY.write_text(json.dumps(hist, ensure_ascii=False, indent=1), encoding="utf-8")
+    for pg in pages:
+        p = dict(PAGES[pg], logo=ROOT / "kit" / f"logo_{pg}.png")
+        out = ROOT / "out" / "goldrate" / f"{pg}_pm"
+        jpgs = render.render(p, r, out, log)
+        cap = pm_caption(p, day, r)
+        (out / "caption.txt").write_text(cap, encoding="utf-8")
+        log(f"{pg} caption:\n{cap}")
+        if DRY:
+            log(f"DRY RUN: {pg} afternoon slides in {out} - not posted")
+            continue
+        try:
+            urls = [upload(j) for j in jpgs]
+            mid, link = publish(tokens[pg], urls, cap)
+            log(f"{pg}: AFTERNOON UPDATE POSTED {link}")
+            pm_path(pg).write_text(json.dumps({"date": day.isoformat(), "changed": True, "media_id": mid, "permalink": link,
+                                               "posted_at": datetime.now(IST).isoformat()}, ensure_ascii=False), encoding="utf-8")
+            try:
+                sys.path.insert(0, str(ROOT / "poster"))
+                import facebook
+                facebook.share(pg, f"goldrate-pm-{day.isoformat()}", "photos", urls, cap, p["tag"], always=True, story=False)
+            except Exception as e:
+                log("Facebook step skipped:", str(e)[:150])
+        except Exception as e:
+            log(f"{pg}: NOT POSTED - {str(e)[:300]}")
+    return 0
+
+
 def main():
     pages = [p for p in os.environ.get("GOLD_PAGES", "namakkal rasipuram").split() if p in PAGES]
+    if MODE == "pm":
+        return pm_main(pages, date.fromisoformat(FORCE_DATE) if FORCE_DATE else datetime.now(IST).date())
     now = datetime.now(IST)
     day = date.fromisoformat(FORCE_DATE) if FORCE_DATE else now.date()
     log(f"gold & silver rate for {', '.join(pages)} - {date_ta(day)}{' (DRY RUN)' if DRY else ''}")

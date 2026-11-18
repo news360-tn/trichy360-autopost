@@ -240,16 +240,24 @@ jobs:
             for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep 5; done
           fi
 
-  again:      # owner 16 Nov: GitHub skipped most scheduled 5-minute runs - while news is still waiting, a live run starts the next one
+  again:      # owner 16 Nov: GitHub skips most scheduled runs - a live run starts the next one (owner 18 Nov: always, the whole day),
+              # and its watchdog starts rasipalan (6:40), gold (9:40), the afternoon gold check (15:40) and an overdue news round
     needs: [check, post]
-    if: always() && needs.check.outputs.more == '1' && github.event_name != 'pull_request'
+    if: always() && github.event_name != 'pull_request'
     runs-on: ubuntu-24.04
-    timeout-minutes: 12
+    timeout-minutes: 14
     steps:
-      - name: Start the next live posting check in 6 minutes
+      - name: Get the watchdog
+        if: env.DRY_RUN == '' && env.PREBUILD == ''
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: poster/watchdog.py
+          sparse-checkout-cone-mode: false
+      - name: Wait, run the watchdog, start the next live posting check
         if: env.DRY_RUN == '' && env.PREBUILD == ''
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          sleep 360
+          if [ "${{ needs.check.outputs.more }}" = "1" ]; then sleep 360; else sleep 420; fi
+          python3 poster/watchdog.py || echo "watchdog failed (posting goes on)"
           gh api -X POST "repos/${{ github.repository }}/actions/workflows/post.yml/dispatches" -f ref=main -F "inputs[dry_run]=false" || echo "next run not started (the 5-minute schedule still runs)"

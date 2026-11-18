@@ -7,6 +7,7 @@ on:
     - cron: "5 4 * * *"       # 09:35 IST - waits until 09:40
     - cron: "30 5 * * *"      # 11:00 IST backup
     - cron: "0 7 * * *"       # 12:30 IST last backup
+    - cron: "5 10 * * *"      # 15:35 IST - owner 18 Nov: afternoon check (MJDTA rate at 3:30 PM), posts only when the rate changed
   workflow_dispatch:
     inputs:
       dry:
@@ -15,6 +16,9 @@ on:
       date:
         description: "test only (dry): YYYY-MM-DD the rate pages still show"
         default: ""
+      mode:
+        description: "am = morning post, pm = afternoon change check (posts only when the 3:30 PM rate changed)"
+        default: "am"
 permissions:
   contents: write
 concurrency:
@@ -28,6 +32,7 @@ jobs:
       GOLD_PAGES: "trichy"
       DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry || '' }}
       GOLD_DATE: ${{ github.event_name == 'workflow_dispatch' && inputs.date || '' }}
+      GOLD_MODE: ${{ (github.event_name == 'workflow_dispatch' && inputs.mode) || (github.event.schedule == '5 10 * * *' && 'pm') || 'am' }}
       BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
       BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
       CLOUDINARY_CLOUD: ${{ secrets.CLOUDINARY_CLOUD }}

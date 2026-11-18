@@ -169,7 +169,7 @@ def slide(p, r, kind):
     body = f"""<div class="bokeh"></div><div class="deco">{deco}</div>
 <div class="top"><img src="file://{Path(p['logo']).resolve()}"><div class="brand">{p['name1']}<b>360</b></div><div class="vbar"></div>
  <div class="date">{CAL}{r['date']}</div></div>
-<div class="kick">{p['town']}<em>●</em>காலை நிலவரம்</div>
+<div class="kick">{p['town']}<em>●</em>{r.get('kick', 'காலை நிலவரம்')}</div>
 <div class="title" style="font-size:{tsize}px">{title}</div><div class="uline"></div>
 <div class="head {cls}">{head}</div>
 <div class="cards">{cards}</div>
