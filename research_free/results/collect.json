@@ -3,130 +3,197 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/dmk-spent-funds-received-by-party-cpi-veerapandian/4379956",
-  "candidate filter: collected=1",
-  "to write: 1 Trichy district candidates (max 1 stories)",
-  "round: top 1 of 1 candidates",
-  "candidates waiting: 1 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/dmk-spent-fun",
+  "manual link added: https://www.dinakaran.com/district/trichy_191126_1",
+  "manual link added: https://www.dinakaran.com/district/trichy_191126_3",
+  "candidate filter: collected=2",
+  "to write: 2 Trichy district candidates (max 2 stories)",
+  "round: top 2 of 2 candidates",
+  "candidates waiting: 2 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dinakaran.com/district/trichy_191126_3",
+  "try (N) manual=True: https://www.dinakaran.com/district/trichy_191126_1",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 72 min",
-  "filed: 1 Trichy district stories (target 1), reels only",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
+  "candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 78 min",
+  "filed: 2 Trichy district stories (target 2), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":2,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (24s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (14s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
-  "ok groq/openai/gpt-oss-120b (4s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok groq/qwen/qwen3.8-27b (4s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok groq/openai/gpt-oss-120b (5s)",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok groq/openai/gpt-oss-120b (5s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "ok groq/openai/gpt-oss-120b (6s)",
-  "gemini model list failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models?pageSize=200",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok groq/openai/gpt-oss-120b (2s)",
-  "gemini model list failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models?pageSize=200"
+  "ok gemini/gemini-3-flash-preview (10s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "ok groq/qwen/qwen3.8-27b (3s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/qwen/qwen3.8-27b (0s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/qwen/qwen3.8-27b (1s)"
  ],
  "stories": [
   {
-   "tamil_headline": "தி.மு.க. நிதியை அக்கட்சியினரே செலவிட்டனர்: இ.கம்யூ. வீரபாண்டியன் தகவல்",
-   "english_headline": "CPI state secretary Veerapandian says party funds from DMK were spent by DMK members themselves; CPI takes funds only from workers",
-   "category": "Government & Services",
-   "location": "Trichy city, Trichy district",
-   "importance": "Medium",
-   "scope": "district",
+   "tamil_headline": "திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது",
+   "english_headline": "Rowdy arrested for selling drug tablets in Trichy Gandhi Market area; 8 tablets seized",
+   "category": "Crime & Safety",
+   "location": "Trichy Gandhi Market area, Trichy district",
+   "importance": "High",
+   "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "அரசியல் செய்தி",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சியில் இ.கம்யூ. வீரபாண்டியன்",
-    "hl2": "தொழிலாளர் நிதி மட்டுமே",
+    "cat": "போதை மாத்திரை",
+    "loc": "திருச்சி காந்தி மார்க்கெட்",
+    "hl1": "திருச்சி காந்தி மார்க்கெட்: போதை",
+    "hl2": "8 மாத்திரைகள் பறிமுதல்",
     "slides": [
      {
-      "title": "என்ன கூறினார்?",
+      "title": "என்ன நடந்தது?",
       "lines": [
-       "பெரு முதலாளிகளிடம் நிதி வாங்குவதில்லை",
-       "தி.மு.க.விடம் பெற்ற நிதியை தி.மு.க.வினரே செலவிட்டனர்",
-       "தொழிலாளர் வர்க்கத்திடம் மட்டுமே நிதி பெறுகிறோம்"
+       "திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்பதாக",
+       "நேற்றுமுன்தினம் போலீசார் சோதனை நடத்தினர்",
+       "கல்பாளையம் அருகே போதை மாத்திரை விற்ற ஒருவர் கைது"
       ]
      },
      {
-      "title": "பிற கருத்துகள்",
+      "title": "யார் கைது?",
       "lines": [
-       "மேகதாதுவில் அணை கட்டுவதற்கு கண்டனம் தெரிவிக்கப்பட்டது",
-       "டில்லி சென்ற தமிழக அமைச்சர்கள் மத்திய அரசிடம் நிதி பெற",
-       "சட்டம்-ஒழுங்கை பாதுகாக்க கூடுதல் கவனம் தேவை"
+       "வரகனேரி ரம்பக்கார தெருவைச் சேர்ந்த ரவுடி",
+       "சிவக்குமார், <b>24 வயது</b>",
+       "போதை மாத்திரை விற்றதற்காக கைது செய்யப்பட்டார்"
       ]
      },
      {
-      "title": "மறியல் போராட்டம்",
+      "title": "பறிமுதல்",
       "lines": [
-       "விலைவாசி உயர்வு, வேலையில்லா திண்டாட்டம் பிரச்னைகளுக்காக",
-       "<b>டிச. 1, 2, 3</b> ஆகிய தேதிகளில் நாடு முழுதும் மறியல்",
-       "முழக்கம்: \"மாற்றம் அவசியம்\""
-      ]
-     },
-     {
-      "title": "நீதிபதி விமர்சனம்",
-      "lines": [
-       "உயர் நீதிமன்ற மதுரை கிளை நீதிபதி ஜி.ஆர்.சுவாமிநாதன்",
-       "இந்த விமர்சனம் கண்டிக்கத்தக்கது என வீரபாண்டியன் கூறினார்"
+       "அவரிடமிருந்து <b>8 போதை மாத்திரைகள்</b> பறிமுதல்",
+       "போலீசார் விசாரணை நடத்தி வருகின்றனர்",
+       "போதைப் பொருள் விற்பனை குறித்த தகவலை காவல்துறைக்கு"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சியில் இ.கம்யூ. கட்சியின் மாநில செயலர் வீரபாண்டியன் தி மு க விடம் பெற்ற நிதியை அந்தக் கட்சியினரே செலவிட்டதாகக் கூறினார். இ.கம்யூ. கட்சி தொழிலாளர் வர்க்கத்திடம் மட்டுமே நிதி பெறுவதாகவும், பெரு முதலாளிகளிடம் நிதி வாங்குவதில்லை என்றும் அவர் தெரிவித்தார். மேகதாதுவில் அணை கட்டியே தீருவோம் என கர்நாடக முதல்வர் சிவகுமார் பேசியது கண்டனத்துக்குரியது என்றார். டில்லி சென்றுள்ள தமிழக அமைச்சர்கள் தமிழகத்துக்கு உரிய நிதியை மத்திய அரசிடம் பெற்று வர வேண்டும் என வலியுறுத்தினார். தமிழகம் முழுவதும் சட்டம்-ஒழுங்கைப் பாதுகாக்க அரசு கூடுதல் கவனம் செலுத்த வேண்டும் என்றார். விலைவாசி உயர்வு, வேலையில்லா திண்டாட்டம், மாநில உரிமைகள் பாதுகாப்பு ஆகிய பிரச்னைகளுக்காக டிசம்பர் 1, 2, 3 ஆகிய தேதிகளில் நாடு முழுதும் மறியல் போராட்டம் நடத்தப்படும் என்றும் கூறினார். உயர் நீதிமன்ற மதுரை கிளை நீதிபதி ஜி ஆர் சுவாமிநாதன், பொதுவெளியில் கம்யூனிஸ்ட் நாடாளுமன்ற உறுப்பினர் வெங்கடேசனை விமர்சித்தது கண்டிக்கத்தக்கது என்றும் அவர் கூறினார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🗳️ திருச்சியில் இ.கம்யூ. வீரபாண்டியன் பேட்டி: தி.மு.க. நிதி குறித்து விளக்கம்\n\n📰 முழு விவரம்:\nதிருச்சியில் நேற்று இ.கம்யூ. கட்சியின் மாநில செயலர் வீரபாண்டியன் பேட்டி அளித்தார். கட்சி தொழிலாளர் வர்க்கத்திடம் மட்டுமே நிதி பெறுவதாகவும், பெரு முதலாளிகளிடம் நிதி வாங்குவதில்லை என்றும் அவர் கூறினார். தி.மு.க.விடம் பெற்ற நிதியை தி.மு.க.வினரே செலவிட்டதாகவும் தெரிவித்தார்.\n🌊 மேகதாதுவில் அணை கட்டுவோம் என கர்நாடக முதல்வர் சிவகுமார் பேசியது கண்டனத்துக்குரியது என்றார்.\n🏛️ டில்லி சென்றுள்ள தமிழக அமைச்சர்கள் மத்திய அரசிடம் நிதி பெற வேண்டும் என வலியுறுத்தினார்.\n👮 தமிழகம் முழுவதும் சட்டம்-ஒழுங்கைப் பாதுகாக்க அரசு கூடுதல் கவனம் செலுத்த வேண்டும்.\n✊ விலைவாசி உயர்வு, வேலையில்லா திண்டாட்டம், மாநில உரிமைகள் பாதுகாப்பு ஆகிய பிரச்னைகளுக்காக டிச. 1, 2, 3 ஆகிய தேதிகளில் நாடு முழுதும் மறியல் போராட்டம் நடத்தப்படும்.\n⚖️ உயர் நீதிமன்ற மதுரை கிளை நீதிபதி ஜி.ஆர்.சுவாமிநாதன், பொதுவெளியில் கம்யூனிஸ்ட் எம்.பி. வெங்கடேசனை விமர்சித்தது கண்டிக்கத்தக்கது என்றார்.\n\nCPI Veerapandian Trichy press meet on party funds | Trichy news\n📍 திருச்சி, திருச்சி மாவட்டம் | 18 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
-   "prompts": "A CPI state secretary stands at a podium delivering a statement that party funds come only from workers, not from big capitalists. The scene is set inside a modest conference hall in Trichy city, with plain walls, a few rows of chairs and large windows showing the city’s skyline. Veerapandian is seen from behind, wearing a dark suit, his hands on the podium, while a small group of journalists sit in the foreground, their backs to the camera, holding notepads and pens. A microphone on a stand and a low table with several sealed envelopes lie in front of the podium. Daylight filters through the windows, casting even illumination; the shot is taken at eye level with a 35 mm lens, framing the speaker and the audience. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up view captures the tabletop in front of the podium, focusing on a stack of sealed white envelopes tied with red ribbons, symbolising the party’s funds. Beside the envelopes lies a plain black folder partially open, its contents blurred but suggesting financial documents. A silver microphone stand and a glass of water are also visible, adding context to the interview setting. The background shows the faint outline of the conference hall’s wooden paneling, but the emphasis remains on the sealed envelopes that convey the story of funding. The image is taken slightly high, using a 35 mm lens to isolate the objects while keeping the hall’s ambience softly in focus. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-news/dmk-spent-funds-received-by-party-cpi-veerapandian/4379956",
-   "published": "2026-11-18T21:56:02+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 0 validator problem(s)",
+   "reel_script": "திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது செய்யப்பட்டார். திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்கப்படுவதாக போலீசாருக்குத் தகவல் கிடைத்தது. அந்தத் தகவலின்பேரில் நேற்றுமுன்தினம் போலீசார் சோதனை நடத்தினர். அப்போது கல்பாளையம் அருகே போதை மாத்திரை விற்ற வரகனேரி ரம்பக்கார தெருவைச் சேர்ந்த ரவுடி சிவக்குமார், 24 வயது, கைது செய்யப்பட்டார். அவரிடமிருந்து 8 போதை மாத்திரைகள் பறிமுதல் செய்யப்பட்டன. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது\n\n📰 முழு விவரம்:\nதிருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்கப்படுவதாக போலீசாருக்குத் தகவல் கிடைத்தது. அதன்பேரில் நேற்றுமுன்தினம் போலீசார் சோதனை நடத்தினர். அப்போது கல்பாளையம் அருகே போதை மாத்திரை விற்ற வரகனேரி ரம்பக்கார தெருவைச் சேர்ந்த ரவுடி சிவக்குமார் (24 வயது) கைது செய்யப்பட்டார். அவரிடமிருந்து 8 போதை மாத்திரைகள் பறிமுதல் செய்யப்பட்டன.\n\n📍 இடம்: திருச்சி காந்தி மார்க்கெட் பகுதி, கல்பாளையம் அருகே\n🗓️ நாள்: நவம்பர் 17, 2026 (நேற்றுமுன்தினம்)\n👮 நடவடிக்கை: போலீசார் சோதனை நடத்தி ரவுடி சிவக்குமாரை கைது செய்தனர்; 8 போதை மாத்திரைகள் பறிமுதல்\n\nTrichy drug tablet seller rowdy arrested | Trichy news\n📍 திருச்சி மாவட்டம் | 19 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
+   "prompts": "A group of Tamil Nadu police in khaki uniforms stands beside a police jeep on a busy street in the Gandhi Market area of Trichy city, where a rowdy suspect has just been detained for selling drug tablets. Seen from a distance, the officers are checking the situation while the arrested man, seen only from behind with his back turned and hands held, is standing between two constables. Around them are small shops with shutters half open, a few two-wheelers parked at the roadside, an autorickshaw passing, and some onlookers and market vendors watching from a safe distance. It is broad daylight with flat, even light and a dusty market street atmosphere. Camera: eye level or slightly high, 35 mm lens, wide enough to show the market street and the police vehicle. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a small heap of eight seized drug tablets lying on a clean police table or a plain sheet of paper in an official police setting, with a khaki-uniformed police sleeve and hand visible at the edge of the frame as the officer sorts the evidence. The tablets are small, round and pale, shown in sharp focus with a shallow depth of field, and the background is softly blurred to suggest a police station table or a police vehicle bonnet in daylight. No readable labels, text or brand names are visible. Light is natural and soft from a window or open daylight. Camera: close macro-style shot, 50 mm lens, eye level, tight framing on the tablets and the officer's hand. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinakaran.com/district/trichy_191126_1",
+   "published": "2026-11-19T02:11:16+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script has 55 words; need 60-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795020584/trichy360/acsm67jewrmfev630ohd.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795020650/trichy360/sx0ygsjycxuugetrb7nw.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795035999/trichy360/lminn3iojsf2wi6psmv6.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795036006/trichy360/b1xvfz6o0rn8lhgz4orm.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "திருச்சியில் பலூன் விலை உயர்வைக் கண்டித்து வியாபாரிகள் ஆர்ப்பாட்டம்",
+   "english_headline": "Trichy balloon traders protest against price hike of balloons",
+   "category": "Business & Prices",
+   "location": "Trichy Central Bus Stand area, Trichy district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "வியாபாரிகள் போராட்டம்",
+    "loc": "திருச்சி மத்திய பேருந்து நிலையம்",
+    "hl1": "திருச்சியில் பலூன் விலை உயர்வுக்கு",
+    "hl2": "வியாபாரிகள் ஆர்ப்பாட்டம்",
+    "slides": [
+     {
+      "title": "என்ன நடந்தது?",
+      "lines": [
+       "பலூன் விலை உயர்வைக் கண்டித்து ஆர்ப்பாட்டம்",
+       "தமிழ்நாடு பலூன் டெக்கரேட்டர்கள் அசோசியேசன் ஏற்பாடு",
+       "நேற்று நடைபெற்றது"
+      ]
+     },
+     {
+      "title": "எங்கே நடந்தது?",
+      "lines": [
+       "திருச்சி மத்திய பேருந்து நிலையம் அருகில்",
+       "மாநில தலைவர் மணிகண்டன் தலைமை வகித்தார்",
+       "திருச்சி மாவட்டத்தைச் சேர்ந்த ஏராளமான வியாபாரிகள் பங்கேற்பு"
+      ]
+     },
+     {
+      "title": "முக்கியக்",
+      "lines": [
+       "பலூன் உற்பத்தி விலை <b>6 சதவீதம்</b> உயர்வைத் திரும்பப் பெற",
+       "வியாபாரிகள் பலூன்களை நேரடியாக கொள்முதல் செய்ய வழி வேண்டும்",
+       "பலூன் வியாபாரிகளுக்கு நல வாரியம் அமைக்க வேண்டும்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "பலூன் விலை உயருக்கு எதிராக திருச்சியில் வியாபாரிகள் ஆர்ப்பாட்டம் நடத்தினர். நேற்று திருச்சி மத்திய பேருந்து நிலையம் அருகில் தமிழ்நாடு பலூன் டெக்கரேட்டர்கள் அசோசியேசன் சார்பில் ஆர்ப்பாட்டம் நடைபெற்றது. மாநில தலைவர் மணிகண்டன் தலைமை வகித்தார். பலூன் உற்பத்தி விலையை 6 சதவீதம் உயர்த்தியதைத் திரும்பப் பெற வேண்டும் என்று வலியுறுத்தப்பட்டது. வியாபாரிகள் பலூன்களை நேரடியாக கொள்முதல் செய்ய வழிவகை செய்ய வேண்டும் என்றும் கோரிக்கை வைக்கப்பட்டது. பலூன் வியாபாரிகளுக்கு தமிழக அரசு சார்பில் நல வாரியம் தொடங்கி நலத்திட்டங்களை செயல்படுத்த வேண்டும் என்றும் கேட்டுக்கொள்ளப்பட்டது. திருச்சி மாவட்டத்தைச் சேர்ந்த ஏராளமான பலூன் வியாபாரிகள் இதில் கலந்துகொண்டனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🎈 திருச்சியில் பலூன் விலை உயர்வைக் கண்டித்து வியாபாரிகள் ஆர்ப்பாட்டம்\n\n📰 முழு விவரம்:\nதமிழ்நாடு பலூன் டெக்கரேட்டர்கள் அசோசியேசன் சார்பில் திருச்சி மத்திய பேருந்து நிலையம் அருகில் நேற்று ஆர்ப்பாட்டம் நடைபெற்றது. மாநில தலைவர் மணிகண்டன் தலைமை வகித்தார். பலூன் உற்பத்தி விலையை 6 சதவீதம் உயர்த்தியதைத் திரும்பப் பெற வேண்டும், வியாபாரிகள் பலூன்களை நேரடியாக கொள்முதல் செய்ய வழிவகை செய்ய வேண்டும், பலூன் வியாபாரிகளுக்கு தமிழக அரசு சார்பில் நல வாரியம் தொடங்க வேண்டும் என்பன உள்ளிட்ட கோரிக்கைகள் வலியுறுத்தப்பட்டன. திருச்சி மாவட்டத்தைச் சேர்ந்த ஏராளமான பலூன் வியாபாரிகள் கலந்துகொண்டனர்.\n\n📍 இடம்: திருச்சி மத்திய பேருந்து நிலையம் அருகில்\n🗓️ நாள்: நவம்பர் 18\n🎤 தலைமை: மாநில தலைவர் மணிகண்டன்\n\nTrichy balloon traders protest price hike | Trichy news\n📍 திருச்சி, திருச்சி மாவட்டம் | 19 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
+   "prompts": "A group of balloon traders stands in a tight cluster on the pavement near the Trichy Central Bus Stand, holding up colorful balloons and placards to protest a price hike. The location is the busy sidewalk adjacent to the bus stand, with the concrete structure of the bus terminal visible in the background. The traders, men in shirts and trousers, are seen from behind and the side, facing away from the camera towards the street. They hold bundles of uninflated and inflated balloons in various bright colors. The scene captures the collective action of the association members demanding a reversal of the 6% cost increase. Daylight illuminates the scene, casting soft shadows on the pavement. The camera is at eye level, 35 mm, wide enough to show the group and the bus stand context without focusing on individual faces. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up view of a large pile of colorful, uninflated balloons stacked on a wooden table or cart, representing the goods being traded. The balloons are in shades of red, yellow, blue, and green, tightly packed together. In the blurred background, the legs of traders in trousers and the edge of the Trichy Central Bus Stand pavement are visible. This detail shot emphasizes the product at the center of the dispute over the 6% price hike. The lighting is natural daylight, highlighting the texture and sheen of the rubber balloons. The camera is slightly high, looking down at the pile, 35 mm, ensuring the focus remains on the objects rather than any people, with no readable text or logos visible on the balloons. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinakaran.com/district/trichy_191126_3",
+   "published": "2026-11-19T02:11:50+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: numbers not found in the article: 6",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795036016/trichy360/gchucadubwrouh8qkpoc.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795036019/trichy360/nd0jmyco4b1s9kun7ll2.jpg"
    ]
   }
  ]
