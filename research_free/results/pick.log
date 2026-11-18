@@ -13,3 +13,159 @@
 07:21:36    8. [பொது] நூலக கொள்முதல் முறைகேடில் அமைச்சர் மீதே சந்தேகம்: பா.ஜ., (தினமலர்)
 07:21:36 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
 ROUND=2026-11-18_07
+07:21:38 a round time was skipped by GitHub since the last round - this round writes 7 (its own 5 + the skipped round's)
+07:21:38 round 2026-11-18_07 (at least 7, up to 3 more of well-watched topics): 8 news to choose from (0 from earlier rounds), ranked by this page's insights
+07:21:38   PICK   1.  16.5 [crime +1.50 page] அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+07:21:38   PICK   2.  16.5 [crime +1.50 page] விவசாயி கொலை வழக்கில் 10 பேர் கைது
+07:21:38   PICK   3.  14.5 [crime +1.50 page] நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+07:21:38   PICK   4.   5.8 [politics -0.43 page] மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+07:21:38   PICK   5.   3.7 [temple -0.10 pattern] சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+07:21:38   PICK   6.   2.7 [temple -0.10 pattern] காா்த்திகை மாதம் பிறப்பு: ஐயப்ப பக்தா்கள் மாலை அணிந்து விரதம
+07:21:38   PICK   7.   1.5 [other +0.00 pattern] எஸ்ஐஆா்-இன் நோ்மைத் தன்மையை மக்களிடம் விளக்க வேண்டும்: நயின
+07:21:38          8.  -0.2 [politics -0.43 page] நூலக கொள்முதல் முறைகேடில் அமைச்சர் மீதே சந்தேகம்: பா.ஜ.,
+07:21:38 decided: automatic: top 7 of 8 by insights -> 7 news to write and post
+PICK_URLS=https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/அரசுப்-பேருந்து-ஓட்டுநரிடம்-இணைய-வழியில்-ரூ138-லட்சம்-மோசடி https://www.dinamalar.com/news/tamil-nadu-news/10-people-in-farmer-s-murder-case-arrested/4379222 https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/நாடாளுமன்றக்-கூட்டத்தை-நடத்தஅரசியல்-கணக்குப்-பாா்க்கிறது-பாஜக-முஸ்லிம்-லீக்-குற்றச்சாட்டு https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/மாா்க்சிஸ்ட்-கம்யூனிஸ்ட்-கட்சியினா்-ஆா்ப்பாட்டம்-23 https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/சமயபுரம்-மாரியம்மன்-கோயில்-உண்டியல்-காணிக்கை-ரூ-9274-லட்சம் https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/%E0%AE%95%E0%AE%BE%E0%AE%BE%E0%AF%8D%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AF%88-%E0%AE%AE%E0%AE%BE%E0%AE%A4%E0%AE%AE%E0%AF%8D-%E0%AE%AA%E0%AE%BF%E0%AE%B1%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%E0%AE%90%E0%AE%AF%E0%AE%AA%E0%AF%8D%E0%AE%AA-%E0%AE%AA%E0%AE%95%E0%AF%8D%E0%AE%A4%E0%AE%BE%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%AE%E0%AE%BE%E0%AE%B2%E0%AF%88-%E0%AE%85%E0%AE%A3%E0%AE%BF%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81-%E0%AE%B5%E0%AE%BF%E0%AE%B0%E0%AE%A4%E0%AE%AE%E0%AF%8D-%E0%AE%A4%E0%AF%8A%E0%AE%9F%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%BF%E0%AE%A9%E0%AE%BE%E0%AF%8D-%E0%AE%95%E0%AF%8B%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%AA%E0%AE%95%E0%AF%8D%E0%AE%A4%E0%AE%BE%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%95%E0%AF%82%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/17/the-integrityfairness-of-sir-must-be-explained-to-the-people-nainar-nagendran
+07:26:12 7 listed news now in the Sheet
+07:26:20 instagram duplicate check trichy: 50 recent posts read
+07:26:20 verify 2026-11-18_07: 0 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+07:26:20    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+07:26:20    NOT POSTED C041f849: queued RN-67 (Queued) - சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+07:26:20    NOT POSTED C1871e7e: queued RN-68 (Queued) - எஸ்ஐஆா்-இன் நோ்மைத் தன்மையை மக்களிடம் விளக்க வேண்டும்: நயின
+07:26:20    NOT POSTED C5560d3a: queued RN-69 (Queued) - காா்த்திகை மாதம் பிறப்பு: ஐயப்ப பக்தா்கள் மாலை அணிந்து விரதம
+07:26:20    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+07:26:20    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+07:26:20    NOT POSTED Ce3c4dce: queued RN-72 (Queued) - விவசாயி கொலை வழக்கில் 10 பேர் கைது
+07:31:28 instagram duplicate check trichy: 50 recent posts read
+07:31:28 verify 2026-11-18_07: 0 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+07:31:28    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+07:31:28    NOT POSTED C041f849: queued RN-67 (Queued) - சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+07:31:28    NOT POSTED C1871e7e: queued RN-68 (Queued) - எஸ்ஐஆா்-இன் நோ்மைத் தன்மையை மக்களிடம் விளக்க வேண்டும்: நயின
+07:31:28    NOT POSTED C5560d3a: queued RN-69 (Queued) - காா்த்திகை மாதம் பிறப்பு: ஐயப்ப பக்தா்கள் மாலை அணிந்து விரதம
+07:31:28    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+07:31:28    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+07:31:28    NOT POSTED Ce3c4dce: queued RN-72 (Queued) - விவசாயி கொலை வழக்கில் 10 பேர் கைது
+07:36:35 instagram duplicate check trichy: 50 recent posts read
+07:36:36 verify 2026-11-18_07: 1 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+07:36:36    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+07:36:36    NOT POSTED C041f849: queued RN-67 (Queued) - சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+07:36:36    NOT POSTED C5560d3a: queued RN-69 (Queued) - காா்த்திகை மாதம் பிறப்பு: ஐயப்ப பக்தா்கள் மாலை அணிந்து விரதம
+07:36:36    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+07:36:36    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+07:36:36    NOT POSTED Ce3c4dce: queued RN-72 (Queued) - விவசாயி கொலை வழக்கில் 10 பேர் கைது
+07:41:43 instagram duplicate check trichy: 50 recent posts read
+07:41:43 verify 2026-11-18_07: 1 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+07:41:43    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+07:41:43    NOT POSTED C041f849: queued RN-67 (Queued) - சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+07:41:43    NOT POSTED C5560d3a: queued RN-69 (Queued) - காா்த்திகை மாதம் பிறப்பு: ஐயப்ப பக்தா்கள் மாலை அணிந்து விரதம
+07:41:43    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+07:41:43    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+07:41:43    NOT POSTED Ce3c4dce: queued RN-72 (Queued) - விவசாயி கொலை வழக்கில் 10 பேர் கைது
+07:46:50 instagram duplicate check trichy: 50 recent posts read
+07:46:50 verify 2026-11-18_07: 1 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+07:46:50    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+07:46:50    NOT POSTED C041f849: queued RN-67 (Queued) - சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+07:46:50    NOT POSTED C5560d3a: queued RN-69 (Queued) - காா்த்திகை மாதம் பிறப்பு: ஐயப்ப பக்தா்கள் மாலை அணிந்து விரதம
+07:46:50    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+07:46:50    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+07:46:50    NOT POSTED Ce3c4dce: queued RN-72 (Queued) - விவசாயி கொலை வழக்கில் 10 பேர் கைது
+07:51:58 instagram duplicate check trichy: 50 recent posts read
+07:51:59 verify 2026-11-18_07: 2 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+07:51:59    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+07:51:59    NOT POSTED C041f849: queued RN-67 (Queued) - சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+07:51:59    NOT POSTED C5560d3a: queued RN-69 (Queued) - காா்த்திகை மாதம் பிறப்பு: ஐயப்ப பக்தா்கள் மாலை அணிந்து விரதம
+07:51:59    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+07:51:59    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+07:57:06 instagram duplicate check trichy: 50 recent posts read
+07:57:06 verify 2026-11-18_07: 2 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+07:57:06    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+07:57:06    NOT POSTED C041f849: queued RN-67 (Queued) - சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+07:57:06    NOT POSTED C5560d3a: queued RN-69 (Queued) - காா்த்திகை மாதம் பிறப்பு: ஐயப்ப பக்தா்கள் மாலை அணிந்து விரதம
+07:57:06    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+07:57:06    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+08:02:15 instagram duplicate check trichy: 50 recent posts read
+08:02:15 verify 2026-11-18_07: 2 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+08:02:15    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+08:02:15    NOT POSTED C041f849: queued RN-67 (Queued) - சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+08:02:15    NOT POSTED C5560d3a: queued RN-69 (Queued) - காா்த்திகை மாதம் பிறப்பு: ஐயப்ப பக்தா்கள் மாலை அணிந்து விரதம
+08:02:15    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+08:02:15    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+08:07:23 instagram duplicate check trichy: 50 recent posts read
+08:07:23 verify 2026-11-18_07: 2 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+08:07:23    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+08:07:23    NOT POSTED C041f849: queued RN-67 (Queued) - சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+08:07:23    NOT POSTED C5560d3a: queued RN-69 (Queued) - காா்த்திகை மாதம் பிறப்பு: ஐயப்ப பக்தா்கள் மாலை அணிந்து விரதம
+08:07:23    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+08:07:23    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+08:12:31 instagram duplicate check trichy: 50 recent posts read
+08:12:31 verify 2026-11-18_07: 3 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+08:12:31    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+08:12:31    NOT POSTED C041f849: queued RN-67 (Queued) - சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+08:12:31    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+08:12:31    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+08:17:39 instagram duplicate check trichy: 50 recent posts read
+08:17:39 verify 2026-11-18_07: 3 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+08:17:39    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+08:17:39    NOT POSTED C041f849: queued RN-67 (Queued) - சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+08:17:39    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+08:17:39    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+08:22:46 instagram duplicate check trichy: 50 recent posts read
+08:22:46 verify 2026-11-18_07: 3 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+08:22:46    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+08:22:46    NOT POSTED C041f849: queued RN-67 (Queued) - சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+08:22:46    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+08:22:46    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+08:27:53 instagram duplicate check trichy: 50 recent posts read
+08:27:53 verify 2026-11-18_07: 3 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+08:27:53    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+08:27:53    NOT POSTED C041f849: queued RN-67 (Queued) - சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+08:27:53    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+08:27:53    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+08:33:00 instagram duplicate check trichy: 50 recent posts read
+08:33:00 verify 2026-11-18_07: 3 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+08:33:00    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+08:33:00    NOT POSTED C041f849: queued RN-67 (Queued) - சமயபுரம் மாரியம்மன் கோயில் உண்டியல் காணிக்கை ரூ. 92.74 லட்சம
+08:33:00    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+08:33:00    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+08:38:08 instagram duplicate check trichy: 50 recent posts read
+08:38:08 verify 2026-11-18_07: 4 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+08:38:08    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+08:38:08    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+08:38:08    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+08:43:16 instagram duplicate check trichy: 50 recent posts read
+08:43:16 verify 2026-11-18_07: 4 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+08:43:16    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+08:43:16    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+08:43:16    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+08:48:24 instagram duplicate check trichy: 50 recent posts read
+08:48:24 verify 2026-11-18_07: 4 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+08:48:24    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+08:48:24    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+08:48:24    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+08:53:32 instagram duplicate check trichy: 50 recent posts read
+08:53:32 verify 2026-11-18_07: 4 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+08:53:32    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+08:53:32    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+08:53:32    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+08:58:38 instagram duplicate check trichy: 50 recent posts read
+08:58:38 verify 2026-11-18_07: 4 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+08:58:38    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+08:58:38    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+08:58:38    NOT POSTED C9e1a631: queued RN-70 (Queued) - மாா்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சியினா் ஆா்ப்பாட்டம்
+09:03:45 instagram duplicate check trichy: 50 recent posts read
+09:03:45 verify 2026-11-18_07: 5 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+09:03:45    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+09:03:45    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+09:08:53 instagram duplicate check trichy: 50 recent posts read
+09:08:53 verify 2026-11-18_07: 5 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+09:08:53    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+09:08:53    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+09:14:01 instagram duplicate check trichy: 50 recent posts read
+09:14:01 verify 2026-11-18_07: 5 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+09:14:01    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+09:14:01    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+09:19:09 instagram duplicate check trichy: 50 recent posts read
+09:19:09 verify 2026-11-18_07: 5 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+09:19:09    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
+09:19:09    NOT POSTED C6f5c40c: queued RN-73 (Queued) - அரசுப் பேருந்து ஓட்டுநரிடம் இணைய வழியில் ரூ.1.38 லட்சம் மோசட
+09:24:16 verify 2026-11-18_07: 6 of 7 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+09:24:16    SKIPPED C3ef5a78: skipped RN-71: held: fact-check problems - not grounded: location 'அளவு' is not in the article - நாடாளுமன்றக் கூட்டத்தை நடத்த அரசியல் கணக்குப் பாா்க்கிறது பா
