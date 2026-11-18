@@ -3,302 +3,130 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamani.com/latest-news/sirappu-seithigal/2026/Nov/18/trichy-d-srinivasa-prasad-dsp-takes-charge-of-accident-and-fire-prevention",
-  "manual link added: https://www.hindutamil.in/news/tamilnadu/muveerapandian-says-tvk-government-has-not-moved-in-the-direction-desired-by-the-people",
-  "manual link added: https://www.hindutamil.in/news/tamilnadu/no-new-tasmac-shops-to-be-opened-in-tamil-nadu-high-court-order",
-  "candidate filter: collected=3",
-  "to write: 3 Trichy district candidates (max 3 stories)",
-  "round: top 3 of 3 candidates",
-  "candidates waiting: 3 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.hindutamil.in/news/tamilnadu/no-new-tasmac-shops",
-  "try (N) manual=True: https://www.hindutamil.in/news/tamilnadu/muveerapandian-says",
-  "try (N) manual=True: https://www.dinamani.com/latest-news/sirappu-seithigal/2026/",
+  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/dmk-spent-funds-received-by-party-cpi-veerapandian/4379956",
+  "candidate filter: collected=1",
+  "to write: 1 Trichy district candidates (max 1 stories)",
+  "round: top 1 of 1 candidates",
+  "candidates waiting: 1 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/dmk-spent-fun",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})",
-  "candidate loop ended: left 0, tried={'N': 3}, done={'N': 3}, time left 71 min",
-  "filed: 3 Trichy district stories (target 3), reels only",
+  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 72 min",
+  "filed: 1 Trichy district stories (target 1), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":3,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "switching away from gemini/gemini-3.6-flash for 10 min",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "switching away from gemini/gemini-3.6-flash for 10 min",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "switching away from gemini/gemini-3.5-flash for 10 min",
-  "ok gemini/gemini-3-flash-preview (12s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3.6-flash (44s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (11s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing ",
-  "ok gemini/gemini-3-flash-preview (14s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
   "poor answer - skipped for 30 min: gemini/gemini-3.5-flash",
+  "ok gemini/gemini-3-flash-preview (24s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok gemini/gemini-3-flash-preview (14s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (13s)",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "dead for this round: gemini/gemini-3-flash-preview",
+  "ok groq/openai/gpt-oss-120b (4s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
-  "ok gemini/gemini-3-flash-preview (17s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok gemini/gemini-3-flash-preview (16s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
   "ok groq/qwen/qwen3.8-27b (4s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "ok anthropic/claude-haiku-5-5",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok groq/openai/gpt-oss-120b (5s)",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "ok groq/openai/gpt-oss-120b (5s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "ok groq/openai/gpt-oss-120b (6s)",
+  "gemini model list failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models?pageSize=200",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok groq/qwen/qwen3.8-27b (3s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5"
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "ok groq/openai/gpt-oss-120b (2s)",
+  "gemini model list failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models?pageSize=200"
  ],
  "stories": [
   {
-   "tamil_headline": "தமிழகத்தில் புதிதாக டாஸ்மாக் கடைகளை திறக்கக் கூடாது: உயர் நீதிமன்றம் உத்தரவு",
-   "english_headline": "Madras High Court bars opening new TASMAC liquor shops across Tamil Nadu, citing too many existing shops and public interest",
-   "category": "Government & Services",
-   "location": "Madurai bench, Madras High Court - Tamil Nadu statewide order; Nallampillai village, Trichy district",
-   "importance": "High",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "அரசு உத்தரவு",
-    "loc": "தமிழ்நாடு",
-    "hl1": "தமிழகத்தில் புதிய",
-    "hl2": "உயர் நீதிமன்றம் உத்தரவு",
-    "slides": [
-     {
-      "title": "என்ன உத்தரவு?",
-      "lines": [
-       "தமிழகத்தில் புதிதாக டாஸ்மாக் கடைகள் திறக்கக் கூடாது",
-       "ஏற்கெனவே அதிக டாஸ்மாக் கடைகள் இயங்குவதால் உத்தரவு",
-       "உயர் நீதிமன்ற மதுரை அமர்வு இன்று பிறப்பித்தது"
-      ]
-     },
-     {
-      "title": "எந்த மனு?",
-      "lines": [
-       "திருச்சி நவக்கிணத்துப்பட்டி மணிகண்டன் மனு தாக்கல்",
-       "நல்லம்பிள்ளை கிராமம் நவகிநத்துப்பட்டியில் புதிய கடை திறக்க",
-       "கடை திறந்தால் பிரச்சனை, சட்டம்-ஒழுங்கு பாதிக்கும் என மனு"
-      ]
-     },
-     {
-      "title": "நீதிபதிகள் கருத்து",
-      "lines": [
-       "நீதிபதிகள் வேல்முருகன், ராமகிருஷ்ணன் அமர்வு விசாரித்தது",
-       "புதிய கடை தேவையில்லை என நீதிபதிகள் தெரிவித்தனர்",
-       "பொது நலனை கருத்தில் கொண்டு உத்தரவு"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "தமிழகத்தில் புதிதாக டாஸ்மாக் கடைகளைத் திறக்கக் கூடாது என உயர் நீதிமன்றம் உத்தரவிட்டுள்ளது. ஏற்கெனவே தமிழகத்தில் அதிக டாஸ்மாக் கடைகள் இயங்கி வருவதால் புதிய கடைகள் தேவையில்லை என நீதிபதிகள் தெரிவித்தனர். உயர் நீதிமன்ற மதுரை அமர்வு இன்று இந்த உத்தரவைப் பிறப்பித்தது. திருச்சி நவக்கிணத்துப்பட்டியைச் சேர்ந்த மணிகண்டன் இந்த வழக்கில் மனு தாக்கல் செய்திருந்தார். திருச்சி நல்லம்பிள்ளை கிராமம் நவகிநத்துப்பட்டியில் புதிய டாஸ்மாக் கடை திறக்க நடவடிக்கை எடுக்கப்பட்டு வருவதாக அவர் மனுவில் கூறியிருந்தார். கடை திறந்தால் கிராமத்தில் பல்வேறு பிரச்சனைகள் வரும், சட்டம்-ஒழுங்கு பாதிக்கப்படும் என்றும் அவர் குறிப்பிட்டிருந்தார். நீதிபதிகள் வேல்முருகன், ராமகிருஷ்ணன் அமர்வு இந்த மனுவை விசாரித்தது. பொது நலனை கருத்தில் கொண்டு தமிழகத்தில் புதிய டாஸ்மாக் கடைகளைத் திறக்கக் கூடாது என நீதிபதிகள் உத்தரவிட்டனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 தமிழகத்தில் புதிய டாஸ்மாக் கடைகளுக்குத் தடை: உயர் நீதிமன்றம் உத்தரவு\n\n📰 முழு விவரம்:\nதமிழகத்தில் ஏற்கெனவே அதிக டாஸ்மாக் கடைகள் இயங்குவதால், புதிதாக டாஸ்மாக் கடைகள் திறக்கக் கூடாது என உயர் நீதிமன்ற மதுரை அமர்வு உத்தரவிட்டுள்ளது.\nதிருச்சி நவக்கிணத்துப்பட்டியைச் சேர்ந்த மணிகண்டன் இந்த வழக்கில் மனு தாக்கல் செய்திருந்தார். திருச்சி நல்லம்பிள்ளை கிராமம் நவகிநத்துப்பட்டியில் புதிய டாஸ்மாக் கடை திறக்க நடவடிக்கை எடுக்கப்பட்டு வருவதாக அவர் மனுவில் கூறியிருந்தார்.\nகடை திறந்தால் கிராமத்தில் பல்வேறு பிரச்சனைகள் வரும், சட்டம்-ஒழுங்கு பாதிக்கப்படும் என்றும் அவர் குறிப்பிட்டிருந்தார்.\nநீதிபதிகள் வேல்முருகன், ராமகிருஷ்ணன் அமர்வு இன்று மனுவை விசாரித்தது. தமிழகத்தில் ஏற்கெனவே அதிகமான டாஸ்மாக் கடைகள் இயங்குவதால் புதிய கடை திறக்கத் தேவையில்லை என நீதிபதிகள் தெரிவித்தனர்.\nபொது நலனை கருத்தில் கொண்டு தமிழகத்தில் புதிதாக டாஸ்மாக் கடைகளைத் திறக்கக் கூடாது என நீதிபதிகள் உத்தரவிட்டனர்.\n\nMadras High Court bars new TASMAC shops in Tamil Nadu | Trichy news\n📍 மதுரை அமர்வு, தமிழ்நாடு | 18 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #TamilNadu",
-   "prompts": "A wide, calm interior of the Madurai bench of the Madras High Court in daylight, with a raised wooden judges' bench at the far end and two judges seated behind it in black robes, seen from the back of the courtroom at eye level. In the foreground, lawyers in black coats and white bands sit on wooden benches, their backs to the camera, with open legal files and papers on the tables. Tall windows let in natural light, and ceiling fans hang above. The ambient mood is formal, with no visible text, names or signboards. Camera: 35 mm, eye level, wide enough to show the full courtroom and the judges' bench, with the lawyers blurred in the foreground. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up detail of a stack of official court files and a bound petition document lying on a wooden table in the Madras High Court, with a black lawyer's robe folded beside them and a brass water jug and glass in the background. Soft daylight falls across the paper pages and the worn wood grain. No readable text is visible on the pages, which are kept blurred and turned away. Camera: 50 mm, slightly high angle, shallow depth of field, showing the paper and the courtroom table as the symbol of the court ruling. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.hindutamil.in/news/tamilnadu/no-new-tasmac-shops-to-be-opened-in-tamil-nadu-high-court-order",
-   "published": "2026-11-18T09:42:37Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 6 ('பொது நலனை கருத்தில் கொண்டு தமிழகத்தில் புதிதாக டாஸ்மாக் கடைக')",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795002835/trichy360/ze7sgpludpmceajrj7ku.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795002900/trichy360/p1495my9eyvf1fmvp2w3.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "தவெக அரசின் 6 மாத ஆட்சி மக்கள் விரும்பும் திசையில் செல்லவில்லை: மு.வீரபாண்டியன் விமர்சனம்",
-   "english_headline": "CPI state secretary M. Veerapandian says TVK government's 6-month rule is not moving in the direction people want",
+   "tamil_headline": "தி.மு.க. நிதியை அக்கட்சியினரே செலவிட்டனர்: இ.கம்யூ. வீரபாண்டியன் தகவல்",
+   "english_headline": "CPI state secretary Veerapandian says party funds from DMK were spent by DMK members themselves; CPI takes funds only from workers",
    "category": "Government & Services",
    "location": "Trichy city, Trichy district",
-   "importance": "High",
+   "importance": "Medium",
    "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "அரசியல் கருத்து",
+    "cat": "அரசியல் செய்தி",
     "loc": "திருச்சி",
-    "hl1": "திருச்சி: தவெக அரசு மக்கள் விரும்பும்",
-    "hl2": "வீரபாண்டியன் விமர்சனம்",
+    "hl1": "திருச்சியில் இ.கம்யூ. வீரபாண்டியன்",
+    "hl2": "தொழிலாளர் நிதி மட்டுமே",
     "slides": [
      {
-      "title": "என்ன சொன்னார்?",
+      "title": "என்ன கூறினார்?",
       "lines": [
-       "தவெக அரசின் 6 மாத ஆட்சி மக்கள் விரும்பும் திசையில்",
-       "மாநில உரிமை, விலைவாசி, சட்டம் ஒழுங்கு குறித்து முதல்வர் பேச",
-       "இந்திய கம்யூனிஸ்ட் மாநில செயலாளர் <b>மு.வீரபாண்டியன்</b>"
+       "பெரு முதலாளிகளிடம் நிதி வாங்குவதில்லை",
+       "தி.மு.க.விடம் பெற்ற நிதியை தி.மு.க.வினரே செலவிட்டனர்",
+       "தொழிலாளர் வர்க்கத்திடம் மட்டுமே நிதி பெறுகிறோம்"
       ]
      },
      {
-      "title": "முக்கிய",
+      "title": "பிற கருத்துகள்",
       "lines": [
-       "உச்ச நீதிமன்றக் கிளையைத் தமிழகத்தில் தொடங்க வேண்டும்",
-       "90 ஆயிரம் வழக்குகள் திரும்பப் பெறப்பட்டதை வரவேற்கிறோம்",
-       "திருச்சி நுண்ணறிவுப் பிரிவு உதவி ஆணையர் பணியிடம் உடனடியாக"
+       "மேகதாதுவில் அணை கட்டுவதற்கு கண்டனம் தெரிவிக்கப்பட்டது",
+       "டில்லி சென்ற தமிழக அமைச்சர்கள் மத்திய அரசிடம் நிதி பெற",
+       "சட்டம்-ஒழுங்கை பாதுகாக்க கூடுதல் கவனம் தேவை"
       ]
      },
      {
-      "title": "போராட்ட அறிவிப்பு",
+      "title": "மறியல் போராட்டம்",
       "lines": [
-       "விலைவாசி, வேலையின்மைக்கு எதிராக நாடு முழுவதும் மறியல்",
-       "போராட்டம்: <b>டிசம்பர் 1, 2, 3</b> ஆகிய தேதிகளில்",
-       "\"மாற்றம் அவசியம்\" என்ற முழக்கத்தோடு நடைபெறும்"
+       "விலைவாசி உயர்வு, வேலையில்லா திண்டாட்டம் பிரச்னைகளுக்காக",
+       "<b>டிச. 1, 2, 3</b> ஆகிய தேதிகளில் நாடு முழுதும் மறியல்",
+       "முழக்கம்: \"மாற்றம் அவசியம்\""
+      ]
+     },
+     {
+      "title": "நீதிபதி விமர்சனம்",
+      "lines": [
+       "உயர் நீதிமன்ற மதுரை கிளை நீதிபதி ஜி.ஆர்.சுவாமிநாதன்",
+       "இந்த விமர்சனம் கண்டிக்கத்தக்கது என வீரபாண்டியன் கூறினார்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சியில் தவெக அரசின் 6 மாத ஆட்சி மக்கள் விரும்பும் திசையில் செல்லவில்லை என்று இந்திய கம்யூனிஸ்ட் மாநிலச் செயலாளர் மு.வீரபாண்டியன் விமர்சித்துள்ளார். இதையடுத்து, மாநில உரிமைகளைப் பாதுகாப்பது, விலைவாசி உயர்வு, சட்டம் ஒழுங்குப் பிரச்சினை ஆகியவை குறித்து தமிழக முதல்வர் வாய் திறந்து பேச வேண்டும் என்று அவர் வலியுறுத்தினார். இந்நிலையில், திருச்சியில் செய்தியாளர்களைச் சந்தித்துப் பேசிய அவர், உச்ச நீதிமன்றக் கிளையைத் தமிழகத்தில் தொடங்க வேண்டும் என்றார். மேலும், விவசாயிகள், ஆசிரியர்கள் போராட்டத்தின்போது போடப்பட்ட 90 ஆயிரம் வழக்குகள் திரும்பப் பெறப்பட்டதை இந்திய கம்யூனிஸ்ட் கட்சி வரவேற்கிறது. இதனால், திருச்சி மாநகரக் காவல் துறையில் நுண்ணறிவுப் பிரிவு உதவி ஆணையர் பணியிடம் காலியாக உள்ளது; அதை உடனடியாக நிரப்ப வேண்டும் என்றும் அவர் கோரினார். இறுதியாக, விலைவாசி உயர்வு, வேலையில்லாத் திண்டாட்டம் ஆகியவற்றுக்கு எதிராக டிசம்பர் 1, 2, 3 ஆகிய தேதிகளில் நாடு முழுவதும் மறியல் போராட்டம் நடத்தப்படும் என்று கட்சி அறிவித்துள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🗳️ திருச்சியில் தவெக அரசு மக்கள் விரும்பும் திசையில் இல்லை: வீரபாண்டியன் விமர்சனம்\n\n📰 முழு விவரம்:\nதவெக அரசின் 6 மாத ஆட்சி மக்கள் விரும்பும் திசையில் செல்லவில்லை என இந்திய கம்யூனிஸ்ட் கட்சியின் மாநிலச் செயலாளர் மு.வீரபாண்டியன் விமர்சித்துள்ளார். மாநில உரிமைகள், விலைவாசி உயர்வு, சட்டம் ஒழுங்குப் பிரச்சினை குறித்து தமிழக முதல்வர் வாய் திறந்து பேச வேண்டும் என்றார்.\nதிருச்சியில் செய்தியாளர்களைச் சந்தித்த அவர், உச்ச நீதிமன்றக் கிளையைத் தமிழகத்தில் தொடங்க வேண்டும் என்றும், கர்நாடக முதல்வர் டி.கே. சிவக்குமாரின் மேகேதாட்டு அணை பேச்சுக்குக் கண்டனமும் தெரிவித்தார்.\nவிவசாயிகள், ஆசிரியர்கள் போராட்டத்தின்போது போடப்பட்ட 90 ஆயிரம் வழக்குகள் திரும்பப் பெறப்பட்டதை கட்சி வரவேற்கிறது.\n👮 திருச்சி மாநகரக் காவல் துறையில் நுண்ணறிவுப் பிரிவு உதவி ஆணையர் பணியிடம் காலியாக உள்ளதால் உடனடியாக நிரப்ப வேண்டும் என்று கோரிக்கை.\n📅 விலைவாசி உயர்வு, வேலையில்லாத் திண்டாட்டத்துக்கு எதிராக டிசம்பர் 1, 2, 3 ஆகிய தேதிகளில் நாடு முழுவதும் மறியல் போராட்டம் நடைபெறும் என கட்சி அறிவித்துள்ளது.\n\nTrichy CPI leader says TVK govt not on people's path | Trichy news\n📍 திருச்சி, திருச்சி மாவட்டம் | 18 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
-   "prompts": "A CPI state leader speaks into a bunch of microphones at a press meet in a hall in Trichy city, facing a row of reporters with notebooks and cameras. Red CPI flags hang on the wall behind the table, and a few party cadres in white shirts and veshti stand near the back. Seen from behind the press row, the reporters lean forward while the speaker gestures, as if making a serious point about the government's first six months. The hall has ceiling fans, plain plastered walls and a wooden table with water bottles and microphones. Daylight comes through open windows, suggesting a mid-morning hour, with no visible weather change. The camera is at eye level, shot with a 35 mm lens wide enough to show the whole room, people and table, with no readable text or banners. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a wooden press-meet table in Trichy city with a bundle of microphones, a stack of notebooks and a steel tumbler of water, with a red CPI flag folded beside them. In the blurred background, a few reporters' shoulders and cadres in white shirts can be seen, all seen from behind. The table shows the signs of a press conference about state rights, price rise and law and order. Soft daylight from a window falls across the table surface. The camera sits slightly above the table at around 35 mm, focusing on the microphones and flag so the viewer instantly recognises a party press meet, without any readable text, logos or identifiable faces. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.hindutamil.in/news/tamilnadu/muveerapandian-says-tvk-government-has-not-moved-in-the-direction-desired-by-the-people",
-   "published": "2026-11-18T07:18:40Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 16 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
-   "note": "free-model draft anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b, 12 attempt(s), 1 validator problem(s)",
+   "reel_script": "திருச்சியில் இ.கம்யூ. கட்சியின் மாநில செயலர் வீரபாண்டியன் தி மு க விடம் பெற்ற நிதியை அந்தக் கட்சியினரே செலவிட்டதாகக் கூறினார். இ.கம்யூ. கட்சி தொழிலாளர் வர்க்கத்திடம் மட்டுமே நிதி பெறுவதாகவும், பெரு முதலாளிகளிடம் நிதி வாங்குவதில்லை என்றும் அவர் தெரிவித்தார். மேகதாதுவில் அணை கட்டியே தீருவோம் என கர்நாடக முதல்வர் சிவகுமார் பேசியது கண்டனத்துக்குரியது என்றார். டில்லி சென்றுள்ள தமிழக அமைச்சர்கள் தமிழகத்துக்கு உரிய நிதியை மத்திய அரசிடம் பெற்று வர வேண்டும் என வலியுறுத்தினார். தமிழகம் முழுவதும் சட்டம்-ஒழுங்கைப் பாதுகாக்க அரசு கூடுதல் கவனம் செலுத்த வேண்டும் என்றார். விலைவாசி உயர்வு, வேலையில்லா திண்டாட்டம், மாநில உரிமைகள் பாதுகாப்பு ஆகிய பிரச்னைகளுக்காக டிசம்பர் 1, 2, 3 ஆகிய தேதிகளில் நாடு முழுதும் மறியல் போராட்டம் நடத்தப்படும் என்றும் கூறினார். உயர் நீதிமன்ற மதுரை கிளை நீதிபதி ஜி ஆர் சுவாமிநாதன், பொதுவெளியில் கம்யூனிஸ்ட் நாடாளுமன்ற உறுப்பினர் வெங்கடேசனை விமர்சித்தது கண்டிக்கத்தக்கது என்றும் அவர் கூறினார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🗳️ திருச்சியில் இ.கம்யூ. வீரபாண்டியன் பேட்டி: தி.மு.க. நிதி குறித்து விளக்கம்\n\n📰 முழு விவரம்:\nதிருச்சியில் நேற்று இ.கம்யூ. கட்சியின் மாநில செயலர் வீரபாண்டியன் பேட்டி அளித்தார். கட்சி தொழிலாளர் வர்க்கத்திடம் மட்டுமே நிதி பெறுவதாகவும், பெரு முதலாளிகளிடம் நிதி வாங்குவதில்லை என்றும் அவர் கூறினார். தி.மு.க.விடம் பெற்ற நிதியை தி.மு.க.வினரே செலவிட்டதாகவும் தெரிவித்தார்.\n🌊 மேகதாதுவில் அணை கட்டுவோம் என கர்நாடக முதல்வர் சிவகுமார் பேசியது கண்டனத்துக்குரியது என்றார்.\n🏛️ டில்லி சென்றுள்ள தமிழக அமைச்சர்கள் மத்திய அரசிடம் நிதி பெற வேண்டும் என வலியுறுத்தினார்.\n👮 தமிழகம் முழுவதும் சட்டம்-ஒழுங்கைப் பாதுகாக்க அரசு கூடுதல் கவனம் செலுத்த வேண்டும்.\n✊ விலைவாசி உயர்வு, வேலையில்லா திண்டாட்டம், மாநில உரிமைகள் பாதுகாப்பு ஆகிய பிரச்னைகளுக்காக டிச. 1, 2, 3 ஆகிய தேதிகளில் நாடு முழுதும் மறியல் போராட்டம் நடத்தப்படும்.\n⚖️ உயர் நீதிமன்ற மதுரை கிளை நீதிபதி ஜி.ஆர்.சுவாமிநாதன், பொதுவெளியில் கம்யூனிஸ்ட் எம்.பி. வெங்கடேசனை விமர்சித்தது கண்டிக்கத்தக்கது என்றார்.\n\nCPI Veerapandian Trichy press meet on party funds | Trichy news\n📍 திருச்சி, திருச்சி மாவட்டம் | 18 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
+   "prompts": "A CPI state secretary stands at a podium delivering a statement that party funds come only from workers, not from big capitalists. The scene is set inside a modest conference hall in Trichy city, with plain walls, a few rows of chairs and large windows showing the city’s skyline. Veerapandian is seen from behind, wearing a dark suit, his hands on the podium, while a small group of journalists sit in the foreground, their backs to the camera, holding notepads and pens. A microphone on a stand and a low table with several sealed envelopes lie in front of the podium. Daylight filters through the windows, casting even illumination; the shot is taken at eye level with a 35 mm lens, framing the speaker and the audience. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up view captures the tabletop in front of the podium, focusing on a stack of sealed white envelopes tied with red ribbons, symbolising the party’s funds. Beside the envelopes lies a plain black folder partially open, its contents blurred but suggesting financial documents. A silver microphone stand and a glass of water are also visible, adding context to the interview setting. The background shows the faint outline of the conference hall’s wooden paneling, but the emphasis remains on the sealed envelopes that convey the story of funding. The image is taken slightly high, using a 35 mm lens to isolate the objects while keeping the hall’s ambience softly in focus. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamalar.com/news/tamil-nadu-news/dmk-spent-funds-received-by-party-cpi-veerapandian/4379956",
+   "published": "2026-11-18T21:56:02+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795002969/trichy360/be6vxyesj25gednt7afs.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795003050/trichy360/oizalz8snreecjx4t2yo.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சியில் ஓய்வில்லா முதலுதவி சேவை: 41 ஆண்டுகளாக மக்கள் உயிர் காக்கும் சீனிவாச பிரசாத்",
-   "english_headline": "Trichy's D Srinivasa Prasad (DSP) has served 41 years in first aid, accident and fire prevention",
-   "category": "Health",
-   "location": "Thiruvarangam, Trichy district",
-   "importance": "Low",
-   "scope": "",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "சமூக சேவை",
-    "loc": "திருவரங்கம், திருச்சி",
-    "hl1": "41 ஆண்டுகளாக உயிர் காக்கும் முதலுதவி",
-    "hl2": "சீனிவாச பிரசாத், 66 வயது",
-    "slides": [
-     {
-      "title": "யார் இவர்?",
-      "lines": [
-       "திருவரங்கத்தைச் சேர்ந்த டி. சீனிவாச பிரசாத், 66 வயது",
-       "சித்த மருத்துவர், ஓவியர், கர்நாடக இசை பயின்றவர்",
-       "தீ, விபத்து தடுப்பு விழிப்புணர்வு பிரசாரகர்"
-      ]
-     },
-     {
-      "title": "எப்படி",
-      "lines": [
-       "25 வயதில் முதலுதவி சேவையைத் தொடங்கினார்",
-       "1985இல் ரயில்வே கலாசி பணி கிடைத்தது",
-       "ரயில்வேயில் கடற்படை சாரணர் இயக்கம் தொடங்கினார்"
-      ]
-     },
-     {
-      "title": "சேவை என்ன?",
-      "lines": [
-       "மிதிவண்டி, மொபட் மூலம் விபத்தில் காயமடைந்தோருக்கு முதலுதவி",
-       "தினமும் 40 கி.மீ. சாலையில் சுற்றி சேவை அளிக்கிறார்",
-       "பள்ளி, கல்லூரிகளில் தீ, விபத்து தடுப்பு விழிப்புணர்வு"
-      ]
-     },
-     {
-      "title": "அங்கீகாரம்",
-      "lines": [
-       "புதுச்சேரி முதல்வர் ரங்கசாமி நேரில் பாராட்டினார்",
-       "1986 அலகாபாத் கும்பமேளா, 1997 தஞ்சை பெரிய கோயில்",
-       "சென்னை விருது: நல் சமாரியன் விருது"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சி திருவரங்கத்தைச் சேர்ந்த டி. சீனிவாச பிரசாத், 41 ஆண்டுகளாக முதலுதவி சேவை செய்து வருகிறார். 66 வயதான இவர் சித்த மருத்துவர், ஓவியர் மற்றும் கர்நாடக இசை பயின்றவர். 25 வயதில் உயிர் காக்கும் முதலுதவி சேவையைத் தொடங்கினார். 12ஆம் வகுப்பு வரை படித்த இவருக்கு 1985இல் ரயில்வேயில் கலாசி பணி கிடைத்தது. பள்ளியில் சாரணர் பயிற்சி பெற்றிருந்ததால், ரயில்வேயில் கடற்படை சாரணர் இயக்கம் என்ற பெயரில் சேவையைத் தொடங்கினார். விபத்தில் காயமடைந்தவர்களுக்கு மிதிவண்டி மற்றும் மொபட் மூலம் முதலுதவி அளிக்கிறார். தினமும் 40 கிலோமீட்டர் சாலையில் சுற்றி சேவை செய்கிறார். 1986இல் அலகாபாத் திரிவேணி சங்கமம் நெரிசலிலும், 1997இல் தஞ்சாவூர் பெரிய கோயில் தீ விபத்திலும் மீட்புப் பணியாற்றினார். புதுச்சேரி முதல்வர் ரங்கசாமி நேரில் அழைத்து இவரைப் பாராட்டினார். பள்ளி, கல்லூரிகளில் தீ மற்றும் விபத்து தடுப்பு குறித்து விழிப்புணர்வு உரையாற்றுகிறார். ரயில்வேயில் முதுநிலை தொழில்நுட்பநராக ஓய்வு பெற்ற இவர், இறுதி மூச்சு வரை சேவை செய்வேன் என்கிறார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🩺 41 ஆண்டுகளாக திருச்சியில் உயிர் காக்கும் முதலுதவி சேவை\n\n📰 முழு விவரம்:\nதிருவரங்கத்தைச் சேர்ந்த டி. சீனிவாச பிரசாத், 66 வயது, 25 வயதில் முதலுதவி சேவையைத் தொடங்கி 41 ஆண்டுகளாக இடைவிடாது செயல்பட்டு வருகிறார். 1985இல் ரயில்வே கலாசி பணி கிடைத்தது; பின்னர் ரயில்வேயில் கடற்படை சாரணர் இயக்கம் என்ற பெயரில் சிறிய குழுவை அமைத்தார்.\n🚲 விபத்தில் காயமடைந்தோருக்கு மிதிவண்டி, வெளி மாவட்டங்களுக்கு மொபட்டில் சென்று முதலுதவி அளிக்கிறார். தினமும் 40 கி.மீ. சாலையில் சுற்றி சேவை செய்கிறார்.\n🌍 1986இல் அலகாபாத் திரிவேணி சங்கமம் நெரிசலிலும், 1997இல் தஞ்சாவூர் பெரிய கோயில் தீ விபத்திலும் மீட்புப் பணியாற்றினார்.\n🏅 புதுச்சேரி முதல்வர் ரங்கசாமி நேரில் அழைத்து பாராட்டினார். சென்னையில் நல் சமாரியன் விருது பெற்றார்.\n🪔 ரயில்வேயில் முதுநிலை தொழில்நுட்பநராக ஓய்வு பெற்றார். தீபாவளி நேரத்தில் பட்டாசு விபத்து தடுப்பு விழிப்புணர்வையும் மேற்கொள்கிறார்.\n\nTrichy first aid volunteer 41 years | Trichy news\n📍 திருவரங்கம், திருச்சி மாவட்டம் | 18 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Srirangam #திருச்சி #TrichyNews",
-   "prompts": "An elderly man in a white shirt and veshti, a bicycle parked beside him, kneels on the roadside in Thiruvarangam tending to a wound on the arm of a young man, while a moped with a fire extinguisher and a first-aid box tied to its carrier stands nearby. The setting is a narrow street near the Srirangam temple area of Trichy, with low tiled houses, a few two-wheelers parked along the edge, and a temple gopuram faintly visible in the distance. Onlookers, shown only from behind, stand a few steps away, and a passing autorickshaw is blurred in the background. The man giving aid is seen from a slight side angle so his face is not clearly visible. The light is soft daytime sunlight, with a clear sky. Shot at eye level with a 35 mm lens, wide enough to show the street and the temple tower. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a moped's rear carrier and a red fire extinguisher, a green first-aid box with a white cross-free plain design, a bundle of herbal leaves, and small glass bottles of herbal ointment set out on a wooden bench beside a bicycle. Behind the objects, a blurred Trichy roadside with a whitewashed wall and a few parked two-wheelers. Bright daytime light falls across the items, with a soft shadow. Shot slightly above at a 35 mm equivalent, shallow depth of field, so the medicines and fire extinguisher are sharp while the background softens. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/latest-news/sirappu-seithigal/2026/Nov/18/trichy-d-srinivasa-prasad-dsp-takes-charge-of-accident-and-fire-prevention",
-   "published": "2026-11-18T11:03:46.138Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: hl1 (the first headline on screen) must name the place 'திருவரங்கம்', e.g. 'திருவரங்கம்: ...' or 'திருவரங்கம்-இல் ...' - viewers share news of their own area; caption misses facts of the article (put every one in 📰 முழு விவரம்): 12 ('திருவரங்கம் அரசு மேல்நிலைப் பள்ளியில் 12-ஆம் வகுப்பு வரை பயி'); 17 ('தனது மகன் 17 வயதிலேயே மரத்திலிருந்து விழுந்து உயிரிழக்க நேரி'); 12 ('பன்முகத் திறன்களை தன்னகத்தே கொண்டிருந்தாலும் உயிர் காக்கும் ')",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 2 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795003058/trichy360/xifswropjzxnwost3mr7.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795003080/trichy360/frogxsub0qxwndrrbkfp.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795020584/trichy360/acsm67jewrmfev630ohd.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795020650/trichy360/sx0ygsjycxuugetrb7nw.jpg"
    ]
   }
  ]
