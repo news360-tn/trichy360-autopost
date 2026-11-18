@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-18T10:10+05:30",
- "posts_measured": 67,
+ "updated": "2026-11-18T17:16+05:30",
+ "posts_measured": 69,
  "topic_weight": {
   "accident": 1.5,
   "crime": 1.5,
-  "power_cut": -0.22,
+  "power_cut": -0.18,
   "education": -0.5,
-  "politics": -0.41,
-  "temple": 0.1
+  "politics": -0.42,
+  "temple": -0.14
  },
  "topic_n": {
   "accident": 7,
-  "crime": 16,
+  "crime": 17,
   "power_cut": 4,
   "civic": 2,
   "education": 4,
-  "politics": 13,
+  "politics": 14,
   "sports_culture": 2,
   "weather": 1,
   "temple": 5,
@@ -31,9 +31,9 @@
   "🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை",
   "🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை",
   "🚨 சமயபுரம் அருகே கொடூர விபத்து: கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி",
-  "பைக், கன்றுக்குட்டி, பள்ளிச் சுவர்... ஒரே கார், அடுத்தடுத்து மோதல்! 🚨"
+  "🗳️ திருச்சி கிழக்கில் 20-ந்தேதி முதலமைச்சர் விஜய் ரோடு-ஷோ"
  ],
- "avg_watch_s": 7.9,
+ "avg_watch_s": 7.8,
  "best_topics": [
   "accident",
   "crime",

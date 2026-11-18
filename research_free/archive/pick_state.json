@@ -1,20 +1,6 @@
 {
- "last_end": "2026-11-18T10:10:10.417392+05:30",
+ "last_end": "2026-11-18T17:16:21.515768+05:30",
  "pool": {
-  "C6e948ca": {
-   "id": "C6e948ca",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-news/library-procurement-scam-bjp-doubts-minister/4379201",
-   "title": "நூலக கொள்முதல் முறைகேடில் அமைச்சர் மீதே சந்தேகம்: பா.ஜ.,",
-   "summary": "திருச்சி: ‘‘நூலகங்களுக்கு புத்தகங்கள் கொள்முதல் செய்ததில் நடந்த முறைகேடுகளில், அமைச்சர் ராஜ்மோகன் மீதே சந்தேகம் உள்ளது,’’ என, பா.ஜ., தமிழக தலைவர் நயினார் நாகேந்திரன் தெரிவித்தார்.",
-   "source": "தினமலர்",
-   "published": "2026-11-18T01:21:01+05:30",
-   "category": "பொது",
-   "score": 1.57,
-   "power_cut": false,
-   "listed_at": "2026-11-18T07:17:45.305326+05:30",
-   "picked_at": "2026-11-18T10:11:26.074893+05:30",
-   "posted": true
-  },
   "C04726af": {
    "id": "C04726af",
    "url": "https://www.dailythanthi.com/news/tamilnadu/no-more-power-cuts-during-temple-chariot-processions-underground-power-cables-laid-at-malaikottai-and-samayapuram-at-a-cost-of-rs-76-crore",
@@ -29,54 +15,44 @@
    "picked_at": "2026-11-18T10:11:26.074889+05:30",
    "refused": "not filed: duplicate after write"
   },
-  "Cc9e82aa": {
-   "id": "Cc9e82aa",
-   "url": "https://tamil.oneindia.com/news/trichirappalli/aadhav-arjuna-inspected-police-station-is-bad-move-said-nainar-nagendran-846243.html",
-   "title": "ஆதவ் அர்ஜுனா ரொம்ப மோசம்.. நாங்களும் அமைச்சரா இருந்தோம்.. இப்படி இல்லப்பா.. நயினார் நாகேந்திரன்",
-   "summary": "திருச்சி: சட்டமன்ற தேர்தலில் திமுக, அதிமுகவை தோற்கடித்து தவெக ஆட்சிக்கு வந்தது. தவெக ஆட்சிக்கு வருவதை தடுக்க திமுக அதிமுக முயற்சித்ததாக தவெக குற்றம் சாட்டியது.",
-   "source": "ஒன்இந்தியா",
-   "published": "2026-11-18T09:25:27+05:30",
+  "Ccd76b54": {
+   "id": "Ccd76b54",
+   "url": "https://www.dinamani.com/latest-news/sirappu-seithigal/2026/Nov/18/trichy-d-srinivasa-prasad-dsp-takes-charge-of-accident-and-fire-prevention",
+   "title": "விபத்து, தீ தடுப்பில் திருச்சி டிஎஸ்பி!",
+   "summary": "சித்த மருத்துவர், அக்குபஞ்சர் சிகிச்சை கற்றவர், ஓவியர், கைவினைக் கலைஞர், கர்நாடக இசை பயின்றவர், முதலுதவி சிகிச்சை அளிப்பவர், தீ தடுப்பு, வாகன விபத்து தடுப்பு விழிப்புணர்வு பிரசாரகர் என பன்முகம் கொண்டவர் டி.",
+   "source": "தினமணி",
+   "published": "2026-11-18T11:03:46.138Z",
+   "category": "விபத்து",
+   "score": 11.5,
+   "power_cut": false,
+   "listed_at": "2026-11-18T17:16:21.515768+05:30"
+  },
+  "Cb6624b1": {
+   "id": "Cb6624b1",
+   "url": "https://www.hindutamil.in/news/tamilnadu/muveerapandian-says-tvk-government-has-not-moved-in-the-direction-desired-by-the-people",
+   "title": "“தவெக அரசின் 6 மாத ஆட்சி மக்கள் விரும்பும் திசையில் செல்லவில்லை” - மு.வீரபாண்டியன் விமர்சனம்",
+   "summary": "திருச்சி: “தவெக அரசின் 6 மாத கால ஆட்சி மக்கள் விரும்பும் திசையில் செல்லவில்லை. மாநில உரிமைகளைப் பாதுகாப்பது, விலைவாசி உயர்வு, சட்டம் - ஒழுங்குப் பிரச்சினை ஆகியவை குறித்துத் தமிழக முதல்வர் வாய் திறந்து பேச வேண்டும்” என...",
+   "source": "இந்து தமிழ்",
+   "published": "2026-11-18T07:18:40Z",
    "category": "பொது",
+   "score": 6.0,
+   "power_cut": false,
+   "listed_at": "2026-11-18T17:16:21.515768+05:30"
+  },
+  "C4c14d46": {
+   "id": "C4c14d46",
+   "url": "https://www.hindutamil.in/news/tamilnadu/no-new-tasmac-shops-to-be-opened-in-tamil-nadu-high-court-order",
+   "title": "தமிழகத்தில் புதிதாக டாஸ்மாக் கடைகளை திறக்கக் கூடாது: உயர் நீதிமன்றம் உத்தரவு",
+   "summary": "மதுரை: தமிழகத்தில் ஏற்கெனவே அதிக டாஸ்மாக் கடைகள் இருப்பதால், புதிதாக டாஸ்மாக் கடைகள் திறக்க கூடாது என உயர் நீதிமன்ற மதுரை அமர்வு உத்தரவிட்டுள்ளது.திருச்சி நவக்கிணத்துப்பட்டியைச் சேர்ந்த மணிகண்டன் உயர் நீதிமன்ற மதுரை அ...",
+   "source": "இந்து தமிழ்",
+   "published": "2026-11-18T09:42:37Z",
+   "category": "நீதிமன்றம்",
    "score": 3.0,
    "power_cut": false,
-   "listed_at": "2026-11-18T10:10:10.417392+05:30",
-   "picked_at": "2026-11-18T10:11:26.074891+05:30",
-   "posted": true
+   "listed_at": "2026-11-18T17:16:21.515768+05:30"
   }
  },
  "rounds": {
-  "2026-11-14_09": {
-   "window": [
-    "2026-11-14T05:37:33.147655+05:30",
-    "2026-11-14T09:56:15.073445+05:30"
-   ],
-   "ids": [
-    "C5a91d09",
-    "C63c2d78",
-    "C0f2b2de",
-    "Cf7bc6fd",
-    "C7726b21",
-    "C0250c52",
-    "C6ed44a5",
-    "C4a80545"
-   ],
-   "sent": false,
-   "deadline": "2026-11-14T10:56:15.073445+05:30",
-   "decided": {
-    "how": "no submit by 10:56 AM - automatic top 3",
-    "ids": [
-     "C5a91d09",
-     "C63c2d78",
-     "C0f2b2de"
-    ],
-    "at": "2026-11-14T09:59:25.998459+05:30"
-   },
-   "written": [
-    "C0f2b2de",
-    "C5a91d09",
-    "C63c2d78"
-   ]
-  },
   "2026-11-14_13": {
    "window": [
     "2026-11-14T09:56:15.073445+05:30",
@@ -638,6 +614,21 @@
    "refused": {
     "C04726af": "not filed: duplicate after write"
    }
+  },
+  "2026-11-18_17": {
+   "window": [
+    "2026-11-18T10:10:10.417392+05:30",
+    "2026-11-18T17:16:21.515768+05:30"
+   ],
+   "ids": [
+    "Ccd76b54",
+    "Cb6624b1",
+    "C4c14d46"
+   ],
+   "sent": false,
+   "deadline": "2026-11-18T18:16:21.515768+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}
