@@ -1,23 +1,10 @@
-22:10:22 round 2026-11-18_22: news published 18 Nov 17:16 -> 18 Nov 22:10 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-22:10:22 insights 2026-11-18T22:10+05:30 (72 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': -0.0, 'education': -0.5, 'politics': -0.31, 'temple': -0.11}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-22:12:21 65 links on the two papers' Trichy pages
-22:13:35 skipped: not Trichy district=36, published before this window=17, already posted=10, shop offer / advertisement=1
-22:13:35 list: 1 new + 0 earlier news not posted yet
-22:13:35    1. [பொது] தி.மு.க.,விடம் பெற்ற நிதியை அக்கட்சியினரே செலவிட்டனர்: இ.கம்யூ., வீரபா (தினமலர்)
-22:13:35 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-18_22
-22:13:37 round 2026-11-18_22 (at least 4, up to 3 more of well-watched topics): 1 news to choose from (0 from earlier rounds), ranked by this page's insights
-22:13:37   PICK   1.   1.8 [politics -0.31 page] தி.மு.க.,விடம் பெற்ற நிதியை அக்கட்சியினரே செலவிட்டனர்: இ.கம்
-22:13:37 decided: automatic: top 4 of 1 by insights -> 1 news to write and post
-PICK_URLS=https://www.dinamalar.com/news/tamil-nadu-news/dmk-spent-funds-received-by-party-cpi-veerapandian/4379956
-22:20:58 1 listed news now in the Sheet
-22:21:10 instagram duplicate check trichy: 50 recent posts read
-22:21:10 verify 2026-11-18_22: 0 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-22:21:10    NOT POSTED C70c12f5: queued RN-79 (Queued) - தி.மு.க.,விடம் பெற்ற நிதியை அக்கட்சியினரே செலவிட்டனர்: இ.கம்
-22:26:19 instagram duplicate check trichy: 50 recent posts read
-22:26:19 verify 2026-11-18_22: 0 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-22:26:19    NOT POSTED C70c12f5: queued RN-79 (Queued) - தி.மு.க.,விடம் பெற்ற நிதியை அக்கட்சியினரே செலவிட்டனர்: இ.கம்
-22:31:27 instagram duplicate check trichy: 50 recent posts read
-22:31:27 verify 2026-11-18_22: 0 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-22:31:27    NOT POSTED C70c12f5: queued RN-79 (Queued) - தி.மு.க.,விடம் பெற்ற நிதியை அக்கட்சியினரே செலவிட்டனர்: இ.கம்
-22:36:36 verify 2026-11-18_22: 1 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+02:32:58 round 2026-11-19_02: news published 18 Nov 22:10 -> 19 Nov 02:32 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+02:32:58 insights 2026-11-19T02:32+05:30 (73 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': 0.01, 'education': -0.5, 'politics': -0.32, 'temple': -0.12}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+02:33:48 43 links on the two papers' Trichy pages
+02:34:59 skipped: published before this window=16, not Trichy district=12, already posted=11, shop offer / advertisement=1
+02:34:59 list: 3 new + 0 earlier news not posted yet
+02:34:59    1. [குற்றம்] போதை மாத்திரை விற்ற ரவுடி கைது - Dinakaran (தினகரன்)
+02:34:59    2. [விலை] திருச்சியில் பலூன்கள் விலை உயர்வை கண்டித்து ஆர்ப்பாட்டம் - Dinakaran (தினகரன்)
+02:34:59    3. [பொது] முதல்வர் வருகையை முன்னிட்டு திருச்சி மாநகரில் தூய்மைபணி தீவிரம் - Dina (தினகரன்)
+02:34:59 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-19_02

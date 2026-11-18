@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-18T22:10+05:30",
- "posts_measured": 72,
+ "updated": "2026-11-19T02:32+05:30",
+ "posts_measured": 73,
  "topic_weight": {
   "accident": 1.5,
   "crime": 1.5,
-  "power_cut": -0.0,
+  "power_cut": 0.01,
   "education": -0.5,
-  "politics": -0.31,
-  "temple": -0.11
+  "politics": -0.32,
+  "temple": -0.12
  },
  "topic_n": {
   "accident": 7,
@@ -15,7 +15,7 @@
   "power_cut": 4,
   "civic": 2,
   "education": 4,
-  "politics": 15,
+  "politics": 16,
   "sports_culture": 2,
   "weather": 1,
   "temple": 5,
