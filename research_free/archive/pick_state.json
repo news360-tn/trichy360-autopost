@@ -24,7 +24,8 @@
    "score": 10.01,
    "power_cut": false,
    "listed_at": "2026-11-19T18:29:57.028221+05:30",
-   "picked_at": "2026-11-19T18:34:10.173117+05:30"
+   "picked_at": "2026-11-19T18:34:10.173117+05:30",
+   "posted": true
   },
   "C0bd23e2": {
    "id": "C0bd23e2",
@@ -40,7 +41,8 @@
     "https://www.dailythanthi.com/news/tamilnadu/3195-special-buses-to-operate-for-the-weekend"
    ],
    "listed_at": "2026-11-19T18:29:57.028221+05:30",
-   "picked_at": "2026-11-19T18:34:10.173125+05:30"
+   "picked_at": "2026-11-19T18:34:10.173125+05:30",
+   "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
   },
   "C9c31f4e": {
    "id": "C9c31f4e",
@@ -53,7 +55,8 @@
    "score": 5.59,
    "power_cut": false,
    "listed_at": "2026-11-19T18:29:57.028221+05:30",
-   "picked_at": "2026-11-19T18:34:10.173127+05:30"
+   "picked_at": "2026-11-19T18:34:10.173127+05:30",
+   "posted": true
   },
   "Ce3c1dfc": {
    "id": "Ce3c1dfc",
@@ -78,7 +81,8 @@
    "score": 3.2800000000000002,
    "power_cut": false,
    "listed_at": "2026-11-19T18:29:57.028221+05:30",
-   "picked_at": "2026-11-19T18:34:10.173128+05:30"
+   "picked_at": "2026-11-19T18:34:10.173128+05:30",
+   "posted": true
   }
  },
  "rounds": {
@@ -612,7 +616,10 @@
     "C0fdf910",
     "C56c0af3",
     "C9c31f4e"
-   ]
+   ],
+   "refused": {
+    "C0bd23e2": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
+   }
   }
  },
  "retry": {}
