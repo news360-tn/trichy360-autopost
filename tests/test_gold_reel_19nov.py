@@ -21,19 +21,19 @@ def rates(silver=True):
 
 def test_script_reads_rates_and_changes():
     lines = gold_reel.script(G.PAGES[next(iter(G.PAGES))], rates())
-    assert "இன்றைய தங்கம் விலை" in lines[0]
-    assert "11610" in lines[1] and "250 ரூபாய் குறைந்துள்ளது" in lines[1]
-    assert "12666" in lines[2]
-    assert "172" in lines[3] and "6 ரூபாய் குறைந்துள்ளது" in lines[3]
+    assert lines[0].startswith("இன்று தங்கம் விலை") and "250 ரூபாய் குறைந்தது" in lines[0]
+    assert "11610" in lines[1] and "12666" in lines[2]
+    assert "172" in lines[3] and "6 ரூபாய் குறைவு" in lines[3]
     assert "பின்தொடருங்கள்" in lines[-1]
+    assert all(len(x) < 70 for x in lines)      # short lines - the reel must be quick
 
 
 def test_script_without_silver_and_no_change():
     r = rates(silver=False)
     r["g22_prev"] = r["g22"]
     lines = gold_reel.script(G.PAGES[next(iter(G.PAGES))], r)
-    assert len(lines) == 4 and "மாற்றம் இல்லை" in lines[1]
-    assert not any("வெள்ளி ஒரு கிராம்" in x for x in lines)
+    assert len(lines) == 4 and "மாற்றம் இல்லை" in lines[0]
+    assert not any("வெள்ளி" in x for x in lines)
 
 
 def test_hook_words():
@@ -127,3 +127,4 @@ def test_modern_scenes_match_voice_lines():
         assert len(gold_reel.scene_list(r)) == len(gold_reel.script(p, r))
     html = gold_reel.scene_html(dict(p, logo=None), rates(), "g22", 1, 5)
     assert "11,610" in html and "92,880" in html      # 1 சவரன் = 8 கிராம்
+    assert "#FFC93C" in html      # the bright gold poster design
