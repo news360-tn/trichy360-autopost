@@ -81,6 +81,7 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-19 | `f7538d3` | tests: install pytest and run the suite with pytest (gold reel tests were red since 19 Nov); insights: retry the save when another job saved at the same moment; README: page is live |
 | 2026-11-19 | `de29510` | Gold reel: new bright poster design and faster pace (short lines, quicker voice, fast cuts) |
 | 2026-11-19 | `bbabc18` | pick: written and posted |
 | 2026-11-19 | `611982a` | pick: picked news saved |
@@ -110,5 +111,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-18 | `a48be4b` | pick: picked news saved |
 | 2026-11-18 | `3bf97bb` | pick: list sent |
 | 2026-11-18 | `fe9881d` | schedule: rasipalan 6:40 AM, gold 9:40 AM (MJDTA 9:30), afternoon gold change post after MJDTA's 3:30 PM rate, watchdog in the posting job starts them (and an overdue news round) when GitHub skips the schedule |
-| 2026-11-18 | `8477c95` | pick: written and posted |
 <!-- recent-changes:end -->
