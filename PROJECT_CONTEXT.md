@@ -81,6 +81,8 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-19 | `c7cc3b4` | Gold reel: modern theme - full-screen scenes (hook, 22K, 24K, silver, follow) changing with each spoken line |
+| 2026-11-19 | `85234fa` | powercut: notices written |
 | 2026-11-19 | `2256cf7` | Gold & silver rate also as a reel, posted after the carousel (never twice; a reel problem never touches the carousel) |
 | 2026-11-19 | `621f051` | powercut: notices written |
 | 2026-11-19 | `5cdc5f9` | pick: written and posted |
@@ -109,6 +111,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-18 | `e10886f` | pick: list sent |
 | 2026-11-18 | `a341ad6` | goldrate posted |
 | 2026-11-18 | `cc6e425` | rasipalan posted |
-| 2026-11-18 | `64261e2` | powercut: notices written |
-| 2026-11-18 | `69b222b` | powercut: notices written |
 <!-- recent-changes:end -->
