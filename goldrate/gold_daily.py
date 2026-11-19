@@ -73,8 +73,16 @@ def bridge_get(action, **params):
 
 def ig(method, path, token, **params):
     params["access_token"] = token
-    r = requests.request(method, f"{IG}/{path}", params=params if method == "GET" else None, data=params if method == "POST" else None, timeout=120)
-    d = r.json()
+    for attempt in range(6):
+        r = requests.request(method, f"{IG}/{path}", params=params if method == "GET" else None, data=params if method == "POST" else None, timeout=120)
+        d = r.json()
+        # 19 Nov: Instagram sometimes answers 9007 "media is not ready for publishing" just after the container said FINISHED.
+        # Nothing was posted then, so waiting and publishing again is safe (never a double post).
+        err = d.get("error") if isinstance(d.get("error"), dict) else {}
+        if path.endswith("/media_publish") and err.get("code") == 9007 and attempt < 5:
+            time.sleep(10)
+            continue
+        break
     if r.status_code >= 400 or "error" in d:
         raise RuntimeError(f"Instagram {path}: {d.get('error', d)}")
     return d
@@ -93,9 +101,14 @@ def wait_ready(cid, token, minutes=6):
 
 
 def upload(path):
-    with open(path, "rb") as f:
-        r = requests.post(f"https://api.cloudinary.com/v1_1/{os.environ['CLOUDINARY_CLOUD']}/image/upload",
-                          data={"upload_preset": os.environ["CLOUDINARY_PRESET"], "folder": "goldrate"}, files={"file": f}, timeout=300)
+    for attempt in range(3):      # 19 Nov: Cloudinary sometimes refuses once (400 / 5xx) - try again and log its reason
+        with open(path, "rb") as f:
+            r = requests.post(f"https://api.cloudinary.com/v1_1/{os.environ['CLOUDINARY_CLOUD']}/image/upload",
+                              data={"upload_preset": os.environ["CLOUDINARY_PRESET"], "folder": "goldrate"}, files={"file": f}, timeout=300)
+        if r.ok:
+            break
+        print(f"cloudinary upload {r.status_code} (try {attempt + 1}/3): {r.text[:300]}", flush=True)
+        time.sleep(10 * (attempt + 1))
     r.raise_for_status()
     return r.json()["secure_url"]
 
@@ -145,9 +158,14 @@ def reel_done(page, day, token=None):
 
 
 def upload_video(path):
-    with open(path, "rb") as f:
-        r = requests.post(f"https://api.cloudinary.com/v1_1/{os.environ['CLOUDINARY_CLOUD']}/video/upload",
-                          data={"upload_preset": os.environ["CLOUDINARY_PRESET"], "folder": "goldrate"}, files={"file": f}, timeout=600)
+    for attempt in range(3):      # 19 Nov: Cloudinary sometimes refuses once (400 / 5xx) - try again and log its reason
+        with open(path, "rb") as f:
+            r = requests.post(f"https://api.cloudinary.com/v1_1/{os.environ['CLOUDINARY_CLOUD']}/video/upload",
+                              data={"upload_preset": os.environ["CLOUDINARY_PRESET"], "folder": "goldrate"}, files={"file": f}, timeout=600)
+        if r.ok:
+            break
+        print(f"cloudinary upload {r.status_code} (try {attempt + 1}/3): {r.text[:300]}", flush=True)
+        time.sleep(10 * (attempt + 1))
     r.raise_for_status()
     return r.json()["secure_url"]
 
