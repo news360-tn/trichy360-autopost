@@ -3,296 +3,137 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/18/air-horns-confiscated-from-vehicles-rs-1-lakh-fine-imposed",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/18/action-taken-under-the-goondas-act-against-person-smuggling-ration-rice",
-  "manual link added: https://www.dinakaran.com/district/trichy_191126_2",
-  "candidate filter: collected=3",
-  "to write: 3 Trichy district candidates (max 3 stories)",
-  "round: top 3 of 3 candidates",
-  "candidates waiting: 3 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinakaran.com/district/trichy_191126_2",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "manual link added: https://www.dailythanthi.com/news/tamilnadu/chief-minister-vijay-to-visit-trichy-tomorrow-a-grand-16-km-long-roadshow",
+  "candidate filter: collected=1",
+  "to write: 1 Trichy district candidates (max 1 stories)",
+  "round: top 1 of 1 candidates",
+  "candidates waiting: 1 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/chief-minister-v",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})",
-  "candidate loop ended: left 0, tried={'N': 3}, done={'N': 3}, time left 75 min",
-  "filed: 3 Trichy district stories (target 3), reels only",
+  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 72 min",
+  "filed: 1 Trichy district stories (target 1), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":3,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "ok gemini/gemini-3.6-flash (48s)",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "switching away from gemini/gemini-3.6-flash for 10 min",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "switching away from gemini/gemini-3.5-flash for 10 min",
+  "ok gemini/gemini-3-flash-preview (10s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (10s)",
+  "ok gemini/gemini-3-flash-preview (14s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
-  "ok gemini/gemini-3-flash-preview (10s)",
+  "ok gemini/gemini-3-flash-preview (26s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (6s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "dead for this round: gemini/gemini-3-flash-preview",
-  "ok groq/openai/gpt-oss-120b (7s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.5-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "ok groq/qwen/qwen3.8-27b (4s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
   "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
+  "ok groq/openai/gpt-oss-120b (4s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "ok groq/qwen/qwen3.8-27b (4s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/openai/gpt-oss-120b (4s)",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/openai/gpt-oss-120b (5s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5"
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
  ],
  "stories": [
   {
-   "tamil_headline": "முதல்வர் வருகையை முன்னிட்டு திருச்சியில் தூய்மைப் பணி தீவிரம்",
-   "english_headline": "Cleaning work intensifies in Trichy city ahead of Chief Minister's visit on 20 Nov",
-   "category": "Civic Issues",
+   "tamil_headline": "நாளை திருச்சியில் முதல்-அமைச்சர் விஜய்: 16 கி.மீ. ரோடுஷோ, நலத்திட்ட உதவிகள்",
+   "english_headline": "CM Vijay to visit Trichy tomorrow: 16 km roadshow and welfare aid distribution",
+   "category": "Government & Services",
    "location": "Trichy city, Trichy district",
    "importance": "High",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "நகர் தூய்மைப் பணி",
-    "loc": "திருச்சி மாநகர்",
-    "hl1": "திருச்சி மாநகரில் தூய்மைப் பணி தீவிரம்",
-    "hl2": "நாளை முதல்வர் வருகை",
-    "slides": [
-     {
-      "title": "எப்போது?",
-      "lines": [
-       "தமிழக முதலமைச்சர் <b>நாளை (நவ.20)</b> திருச்சி வருகிறார்",
-       "அதற்கு முன் தூய்மைப் பணிகள் தீவிரம்",
-       "மாநகரின் பல்வேறு பகுதிகளில் பணிகள் நடைபெறுகின்றன"
-      ]
-     },
-     {
-      "title": "என்ன பணி?",
-      "lines": [
-       "முதலமைச்சர் பயணிக்கும் சாலைகளில் குப்பை அகற்றம்",
-       "சாலையோரங்கள் சுத்தம் செய்யப்படுகின்றன",
-       "சுவர்களுக்கு வண்ணம் தீட்டும் பணியும் நடக்கிறது"
-      ]
-     },
-     {
-      "title": "எந்த இடங்கள்?",
-      "lines": [
-       "சாலையோரத் தடுப்புகள், பொது இடங்கள் சீரமைக்கப்படுகின்றன",
-       "திருச்சி விமான நிலையம் முதல் அரசு மருத்துவமனை வரை",
-       "<b>8 கிலோ மீட்டர்</b> தொலைவுக்கு தற்காலிகத் தடுப்புகள் அமைப்பு"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சி மாநகரில் தூய்மைப் பணிகள் தீவிரமாக நடைபெற்று வருகின்றன. தமிழக முதலமைச்சர் நாளை நவம்பர் 20ஆம் தேதி திருச்சிக்கு வருகை தர உள்ளார். இதையொட்டி மாநகரின் பல்வேறு பகுதிகளில் தூய்மைப் பணிகளும் அழகுபடுத்தும் பணிகளும் நடைபெறுகின்றன. முதலமைச்சர் பயணிக்கவுள்ள சாலைகள் மற்றும் முக்கியப் பகுதிகளில் குப்பைகள் அகற்றப்படுகின்றன. சாலையோரங்கள் சுத்தம் செய்யப்படுகின்றன. சுவர்களுக்கு வண்ணம் தீட்டும் பணியும் மேற்கொள்ளப்படுகிறது. சாலையோரத் தடுப்புகள் மற்றும் பொது இடங்களை சீரமைக்கும் பணிகளும் நடைபெறுகின்றன. முக்கியச் சாலைகள் புதுப்பொலிவு பெறும் வகையில் மாநகராட்சி மற்றும் தொடர்புடைய துறை அதிகாரிகள் பணிகளைத் தீவிரப்படுத்தியுள்ளனர். திருச்சி விமான நிலையம் முதல் திருச்சி அரசு மருத்துவமனை வரை 8 கிலோ மீட்டர் தொலைவுக்கு தற்காலிகத் தடுப்புகள் அமைக்கும் பணி நடைபெறுகிறது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🧹 முதலமைச்சர் வருகையை முன்னிட்டு திருச்சி மாநகரில் தூய்மைப் பணி தீவிரம்\n\n📰 முழு விவரம்:\nதமிழக முதலமைச்சர் விஜய் நாளை (நவ. 20) திருச்சிக்கு வருகை தர உள்ள நிலையில், மாநகரின் பல்வேறு பகுதிகளில் தூய்மைப் பணிகளும் அழகுபடுத்தும் பணிகளும் தீவிரமாக நடைபெறுகின்றன.\nமுதலமைச்சர் பயணிக்கவுள்ள சாலைகள் மற்றும் முக்கியப் பகுதிகளில் குப்பைகளை அகற்றுதல், சாலையோரங்களைச் சுத்தம் செய்தல், சுவர்களுக்கு வண்ணம் தீட்டுதல் ஆகிய பணிகள் மேற்கொள்ளப்பட்டு வருகின்றன.\nசாலையோரத் தடுப்புகள் மற்றும் பொது இடங்களை சீரமைக்கும் பணிகளும் நடைபெறுகின்றன.\nமாநகராட்சி மற்றும் தொடர்புடைய துறை அதிகாரிகள் முக்கியச் சாலைகள் புதுப்பொலிவு பெறும் வகையில் பணிகளைத் தீவிரப்படுத்தியுள்ளனர்.\nதிருச்சி விமான நிலையம் முதல் திருச்சி அரசு மருத்துவமனை வரை 8 கிலோ மீட்டர் தொலைவுக்கு தற்காலிகத் தடுப்புகள் அமைக்கும் பணி மேற்கொள்ளப்பட்டு வருகிறது.\n\nTrichy city cleaning drive ahead of CM visit on 20 Nov | Trichy news\n📍 திருச்சி மாநகர், திருச்சி மாவட்டம் | 19 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
-   "prompts": "Corporation sanitary workers in uniform sweep a wide city road in Trichy while another worker brushes fresh paint onto a roadside compound wall. Along the footpath, black garbage bags and a small heap of swept leaves and dust are being loaded into a corporation tipper vehicle. Behind them, a row of two-wheelers and a town bus waits at the edge of the carriageway, and a few shopkeepers stand at the doorways of Thillai Nagar-style shops watching. Several new orange and white traffic cones and temporary metal barriers line the kerb, marking the stretch being prepared for the Chief Minister's route. The workers wear green and white uniforms, some with cloth masks, and move in small groups. It is bright daylight with a clear sky and warm, dusty light. Camera: eye level, 35 mm, wide enough to show the road, the wall and the parked vehicles. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a freshly painted roadside wall and a row of temporary metal barriers on a Trichy city footpath, with a corporation worker's paint roller and a bucket of white paint in the foreground. The wall is half white and half still grey with fading old paint, showing the transition as the cleaning progresses. Beside it lies a broom, a pile of swept dry leaves and a heap of black garbage bags waiting to be collected. Behind the barrier, the blurred figure of a worker in a green uniform bends over the kerb, seen from behind, while a two-wheeler is parked at the edge of the road. Harsh daylight falls across the surfaces and the cracked pavement tiles. Camera: slightly high angle, 50 mm, shallow depth of field so that the background road stays softly out of focus. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinakaran.com/district/trichy_191126_2",
-   "published": "2026-11-19T02:11:36+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 0 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795051686/trichy360/cbykbwcafh5w3hjj1rld.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795051689/trichy360/irdvrg2xnknsz6qzj3sz.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சியில் ரேஷன் அரிசி கடத்தியவர் மீது குண்டர் சட்டத்தில் நடவடிக்கை",
-   "english_headline": "Man who smuggled 18 tonnes of ration rice in Trichy booked under Goondas Act",
-   "category": "Crime & Safety",
-   "location": "Trichy, Trichy district",
-   "importance": "Medium",
    "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "குற்றம்",
+    "cat": "முதல்-அமைச்சர் வருகை",
     "loc": "திருச்சி",
-    "hl1": "திருச்சி: ரேஷன் அரிசி கடத்தியவர் மீது",
-    "hl2": "18 டன் ரேஷன் அரிசி",
+    "hl1": "நாளை திருச்சியில் முதல்-அமைச்சர் விஜய்",
+    "hl2": "16 கி.மீ. ரோடுஷோ",
     "slides": [
      {
-      "title": "என்ன நடந்தது?",
+      "title": "எப்போது வருகை?",
       "lines": [
-       "கடந்த அக்டோபரில் <b>18 டன்</b> ரேஷன் அரிசி கடத்தல்",
-       "குடிமைப்பொருள் வழங்கல் போலீசார் சோதனையில் பிடிபட்டது",
-       "மதுரை, கீழத்தோப்பைச் சேர்ந்த க. பாலகிருஷ்ணன் கைது"
+       "நாளை (வெள்ளிக்கிழமை) <b>காலை 10 மணி</b> அளவில் வருகை",
+       "சென்னையில் இருந்து தனி விமானம் மூலம் திருச்சி விமான நிலையம்",
+       "அமைச்சர்கள், அதிகாரிகள் வரவேற்பு அளிக்கின்றனர்"
       ]
      },
      {
-      "title": "குண்டர் சட்டம்",
+      "title": "எங்கெல்லாம்",
       "lines": [
-       "பாலகிருஷ்ணன் மீது குண்டர் தடுப்புச் சட்டத்தில் நடவடிக்கை",
-       "திருச்சி மண்டல காவல் கண்காணிப்பாளர் முத்தமிழ் பரிந்துரை",
-       "மாவட்ட ஆட்சியர் பிரத்திக் தாயள் உத்தரவு"
+       "புத்தூர் அண்ணல் மகாத்மா காந்தி அரசு மருத்துவமனை",
+       "ரூ.134 கோடியில் கட்டப்பட்ட 6 தளக் கட்டிடம் திறப்பு",
+       "600 நோயாளிகள் சிகிச்சை பெறும் வசதி"
       ]
      },
      {
-      "title": "உத்தரவு எப்போது?",
+      "title": "நலத்திட்ட உதவிகள்",
       "lines": [
-       "புதன்கிழமை மாவட்ட ஆட்சியர் உத்தரவிட்டார்",
-       "ரேஷன் பொருள் கடத்தலுக்கு கடும் நடவடிக்கை"
+       "காஜாமலை ரேஸ்கோர்ஸ் சாலை அரசு ஓட்டலில் அரசு விழா",
+       "பயனாளிகளுக்கு நலத்திட்ட உதவிகள் வழங்குகிறார்",
+       "நிறைவுற்ற பணிகள் தொடக்கம், புதிய பணிகளுக்கு அடிக்கல்"
+      ]
+     },
+     {
+      "title": "ரோடுஷோ &",
+      "lines": [
+       "விமான நிலையம் முதல் அரசு மருத்துவமனை, ஓட்டல் வரை <b>16",
+       "திருச்சி மாநகர போலீஸ் கமிஷனர் தலைமையில் பாதுகாப்பு ஏற்பாடு",
+       "மதியம் <b>1 மணி</b> அளவில் சென்னைக்குப் புறப்பாடு"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சியில் 18 டன் ரேஷன் அரிசி கடத்திய நபர் மீது குண்டர் தடுப்புச் சட்டத்தில் நடவடிக்கை எடுக்கப்பட்டுள்ளது. கடந்த அக்டோபர் மாதம் குடிமைப்பொருள் வழங்கல் மற்றும் குற்றப் புலனாய்வுப் பிரிவு போலீசார் நடத்திய சோதனையில் இந்தக் கடத்தல் பிடிபட்டது. அப்போது மதுரை, கீழத்தோப்பைச் சேர்ந்த க. பாலகிருஷ்ணன் கைது செய்யப்பட்டார். இதையடுத்து திருச்சி மண்டல குடிமைப்பொருள் வழங்கல் மற்றும் குற்றப் புலனாய்வுப் பிரிவு காவல் கண்காணிப்பாளர் முத்தமிழ் அவர் மீது குண்டர் தடுப்புச் சட்டத்தின் கீழ் நடவடிக்கை எடுக்குமாறு பரிந்துரைத்தார். அதன்பேரில், மாவட்ட ஆட்சியர் பிரத்திக் தாயள் புதன்கிழமை உத்தரவிட்டார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சியில் 18 டன் ரேஷன் அரிசி கடத்தியவர் மீது குண்டர் சட்டம்\n\n📰 முழு விவரம்:\nகடந்த அக்டோபரில் திருச்சியில் நடந்த சோதனையில் 18 டன் ரேஷன் அரிசி கடத்தப்பட்டது கண்டறியப்பட்டது. குடிமைப்பொருள் வழங்கல் மற்றும் குற்றப் புலனாய்வுப் பிரிவு போலீசார் மதுரை, கீழத்தோப்பைச் சேர்ந்த க. பாலகிருஷ்ணனை கைது செய்தனர்.\nஇதையடுத்து, திருச்சி மண்டல குடிமைப்பொருள் வழங்கல் மற்றும் குற்றப் புலனாய்வுப் பிரிவு காவல் கண்காணிப்பாளர் முத்தமிழ் அவர் மீது குண்டர் தடுப்புச் சட்டத்தின் கீழ் நடவடிக்கை எடுக்க பரிந்துரைத்தார்.\nஅதன்பேரில், மாவட்ட ஆட்சியர் பிரத்திக் தாயள் புதன்கிழமை உத்தரவிட்டார்.\n\n👮 நடவடிக்கை: குண்டர் தடுப்புச் சட்டத்தின் கீழ் பாலகிருஷ்ணன் மீது நடவடிக்கை\n\nTrichy ration rice smuggling Goondas Act | Trichy news\n📍 திருச்சி, திருச்சி மாவட்டம் | 18 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
-   "prompts": "A row of white rice gunny sacks stacked high in a Trichy police yard, with a Tamil Nadu police jeep parked nearby and two police officers in khaki uniform standing at a distance, seen from behind. The stacks represent the roughly 18 tonnes of ration rice seized from a smuggling lorry in October. The setting is a dusty open compound beside a low brick government office in Trichy city, with a few palm-sized concrete pillars and a tiled roof edge in the background. A small cluster of people wearing shirts and trousers stands far off, faces not visible. The scene is in daylight with soft overcast light, and a single goods lorry is partly visible at the edge of the frame. Camera is at eye level, 35 mm, wide enough to show the stacked sacks, the parked police vehicle and the government building. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of several torn and loosely tied white rice sacks piled on a concrete floor, with loose raw rice grains spilled across the ground in the foreground. Behind them, a blue steel rack or wooden crate holds more sacks, and a khaki-uniformed police officer's boots are visible at the edge of the frame. The grains are pale and uniform, the sacks dusty from transport. The light is daytime, diffused from an open shed in Trichy city. No text, labels or logos are visible on the sacks. Camera is slightly high, 35 mm, focused on the spilled rice and the sacks to tell the story of the seized ration rice. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/18/action-taken-under-the-goondas-act-against-person-smuggling-ration-rice",
-   "published": "2026-11-18T22:28:52.820Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795051697/trichy360/sdoojc4lynse8qqmlvuk.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795051700/trichy360/nmlcbafzumriq68qug1y.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சியில் காற்று ஒலிப்பான்கள் பறிமுதல்: ரூ. 1 லட்சம் அபராதம்",
-   "english_headline": "Air horns seized from vehicles in Trichy city, Rs 1 lakh fine imposed",
-   "category": "Crime & Safety",
-   "location": "Trichy city (Central Bus Stand and Mannarpuram areas), Trichy district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "போக்குவரத்து நடவடிக்கை",
-    "loc": "திருச்சி மாநகர்",
-    "hl1": "திருச்சியில் காற்று ஒலிப்பான்கள்",
-    "hl2": "10 வாகனங்களுக்கு ரூ. 1",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "திருச்சி மாநகரில் விதிமீறிய <b>காற்று ஒலிப்பான்கள்</b> பறிமுதல்",
-       "போக்குவரத்துத் துறையினர் புதன்கிழமை சோதனை நடத்தினர்",
-       "அதிக ஒலி எழுப்பும் ஏர் ஹாரன்களால் ஒலி மாசு, காது பிரச்னை"
-      ]
-     },
-     {
-      "title": "எங்கே சோதனை?",
-      "lines": [
-       "திருச்சி மத்தியப் பேருந்து நிலையம், மன்னார்புரம் பகுதிகள்",
-       "திருச்சி மேற்கு வட்டாரப் போக்குவரத்து அலுவலர் பி.",
-       "50க்கும் மேற்பட்ட தனியார் பேருந்துகள், கல்லூரி வாகனங்கள்"
-      ]
-     },
-     {
-      "title": "எத்தனை வாகனங்கள்?",
-      "lines": [
-       "7 தனியார் பேருந்துகள், ஒரு கல்லூரி வாகனம், ஒரு மில் வாகனம்",
-       "ஒவ்வொரு வாகனத்திற்கும் <b>ரூ. 10,000</b> அபராதம்",
-       "மொத்தம் <b>ரூ. 1 லட்சம்</b> அபராதம் விதிக்கப்பட்டது"
-      ]
-     },
-     {
-      "title": "எச்சரிக்கை",
-      "lines": [
-       "காற்று ஒலிப்பான்களைப் பயன்படுத்தினால் கடும் நடவடிக்கை",
-       "வாகன ஓட்டுநர்கள் விதிகளைப் பின்பற்ற வேண்டும்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சி மாநகரில் விதிமீறிய காற்று ஒலிப்பான்களைப் பயன்படுத்திய வாகனங்களுக்கு ரூ. 1 லட்சம் அபராதம் விதிக்கப்பட்டது. புதன்கிழமை போக்குவரத்துத் துறையினர் திருச்சி மத்தியப் பேருந்து நிலையம், மன்னார்புரம் பகுதிகளில் திடீர் சோதனை நடத்தினர். திருச்சி மேற்கு வட்டாரப் போக்குவரத்து அலுவலர் பி. முருகானந்தம் தலைமையில் இந்தச் சோதனை நடைபெற்றது. தனியார் பேருந்துகள், லாரிகள் உள்ளிட்ட வாகனங்களில் அதிக ஒலி எழுப்பும் ஏர் ஹாரன்கள் பயன்படுத்தப்படுவதாகவும், இதனால் ஒலி மாசு ஏற்பட்டு பொதுமக்களுக்கு காது பிரச்னைகள் ஏற்படுவதாகவும் புகார்கள் வந்தன. 50க்கும் மேற்பட்ட தனியார் பேருந்துகள், கல்லூரி வாகனங்கள், லாரிகள் ஆய்வு செய்யப்பட்டன. 7 தனியார் பேருந்துகள், ஒரு கல்லூரி வாகனம், ஒரு மில் வாகனம், ஒரு லாரி ஆகியவற்றில் இருந்த காற்று ஒலிப்பான்கள் பறிமுதல் செய்யப்பட்டன. அந்த 10 வாகனங்களுக்கும் தலா ரூ. 10,000 வீதம் மொத்தம் ரூ. 1 லட்சம் அபராதம் விதிக்கப்பட்டது. காற்று ஒலிப்பான்களைப் பயன்படுத்தினால் கடும் நடவடிக்கை எடுக்கப்படும் என்று அதிகாரிகள் எச்சரித்தனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சி மாநகரில் விதிமீறிய காற்று ஒலிப்பான்கள் பறிமுதல், ரூ. 1 லட்சம் அபராதம்\n\n📰 முழு விவரம்:\nதிருச்சி மாநகரில் தனியார் பேருந்துகள், லாரிகள் உள்ளிட்ட வாகனங்களில் அளவுக்கு அதிக ஒலி எழுப்பும் ஏர் ஹாரன்கள் பயன்படுத்தப்படுவதாகப் புகார்கள் வந்தன. இதனால் ஒலி மாசு ஏற்பட்டு பொதுமக்களுக்குக் காது பிரச்னைகள் ஏற்படுவதாகக் கூறப்பட்டது.\nஇதையடுத்து, திருச்சி மேற்கு வட்டாரப் போக்குவரத்து அலுவலர் பி. முருகானந்தம் தலைமையிலான அதிகாரிகள் புதன்கிழமை திருச்சி மத்தியப் பேருந்து நிலையம், மன்னார்புரம் பகுதிகளில் திடீர் சோதனை நடத்தினர்.\n50க்கும் மேற்பட்ட தனியார் பேருந்துகள், கல்லூரி வாகனங்கள், லாரிகள் ஆய்வு செய்யப்பட்டன. அதில் 7 தனியார் பேருந்துகள், ஒரு கல்லூரி வாகனம், ஒரு மில் வாகனம், ஒரு லாரி ஆகியவற்றில் இருந்த அதிக ஒலி எழுப்பும் காற்று ஒலிப்பான்கள் பறிமுதல் செய்யப்பட்டன.\nஅந்த 10 வாகனங்களுக்கும் தலா ரூ. 10,000 வீதம், மொத்தம் ரூ. 1 லட்சம் அபராதம் விதிக்கப்பட்டது.\n🔊 காற்று ஒலிப்பான்களைப் பயன்படுத்தினால் கடும் நடவடிக்கை எடுக்கப்படும் என அதிகாரிகள் எச்சரித்தனர்.\n\nTrichy air horn seizure, Rs 1 lakh fine | Trichy news\n📍 திருச்சி மாநகர் | 19 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Trichy360News",
-   "prompts": "Officials of the Tamil Nadu transport department in khaki shirts and trousers stand beside a row of private buses at the Trichy Central Bus Stand, one officer holding a clipboard while a mechanic lifts the bonnet of a white-and-red private bus. Behind them, a college van and a grey lorry wait in the line, and the concrete platform is busy with commuters seen from behind carrying bags. Overhead, a row of bus shelter roofs and a Trichy city bus stop sit under bright daylight with a hazy noon sky. The air horns are not visible in the frame, but the officers' attention and the stopped vehicles tell the story. Shot at eye level, 35 mm, wide enough to show the bus stand and the line of stopped vehicles. People are seen from behind or far away, faces not visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a pile of seized air horns, metal trumpet-shaped horns with black rubber tubing and wiring, placed on a wooden table or a bus floor mat in a government office. A gloved hand in khaki sleeve rests beside the pile, with a blurred row of private bus tyres and a hand-written ledger out of focus behind. The metal shines under overhead tube light and early afternoon daylight coming through a window. Shot at a slightly high angle, 35 mm, tight on the seized horns with the bus interior or yard shown softly in the background. No readable text or labels visible. The scene conveys the seizure of illegal noise-making equipment from Trichy city buses and lorries. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/18/air-horns-confiscated-from-vehicles-rs-1-lakh-fine-imposed",
-   "published": "2026-11-18T22:31:21.601Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: known issue repeated_words: the same sentence is read twice - rewrite so it does not happen again",
+   "reel_script": "நாளை திருச்சியில் முதல்-அமைச்சர் விஜய் 16 கிலோமீட்டர் தூரத்துக்கு ரோடுஷோ நடத்துகிறார். முதல்-அமைச்சர் விஜய் நாளை வெள்ளிக்கிழமை காலை 10 மணி அளவில் சென்னையில் இருந்து தனி விமானம் மூலம் திருச்சி வருகிறார். விமான நிலையத்தில் அமைச்சர்கள் மற்றும் அதிகாரிகள் வரவேற்பு அளிக்கின்றனர். அதன்பின் புத்தூர் அண்ணல் மகாத்மா காந்தி அரசு மருத்துவமனைக்குச் செல்கிறார். அங்கு ரூ.134 கோடி திட்ட மதிப்பீட்டில் 6 தளங்களாகக் கட்டப்பட்டுள்ள புதிய கட்டிடத்தை அவர் திறந்து வைக்கிறார். இந்தக் கட்டிடத்தில் 600 நோயாளிகள் சிகிச்சை பெறும் வகையில் படுக்கை வசதிகள் உள்ளன. பின்னர் பச்சிளம் குழந்தைகள் வார்டுக்குச் சென்று, தாய்மாமன் சீர் திட்டத்தின் கீழ் புதிதாகப் பிறந்த குழந்தைகளுக்குத் தங்க மோதிரம் அணிவிக்கிறார். அதன்பின் காஜாமலை ரேஸ்கோர்ஸ் சாலையில் உள்ள தமிழ்நாடு சுற்றுலா வளர்ச்சிக் கழக அரசு ஓட்டலில் நடைபெறும் அரசு விழாவில் பங்கேற்று, பயனாளிகளுக்கு நலத்திட்ட உதவிகளை வழங்குகிறார். மாவட்டத்தில் நிறைவுற்ற பணிகளைத் தொடங்கி வைத்து, புதிய திட்டப்பணிகளுக்கு அடிக்கல்லும் நாட்டுகிறார். விமான நிலையத்தில் இருந்து அரசு மருத்துவமனைக்கும், அங்கிருந்து ஓட்டலுக்கும் செல்லும்போது சுமார் 16 கிலோமீட்டர் தூரத்துக்கு ரோடுஷோ நடைபெறுகிறது. இதற்காக சாலையோரத் தடுப்புகள் அமைக்கும் பணிகள் தொடங்கியுள்ளன. திருச்சி மாநகர போலீஸ் கமிஷனர் ரூபேஷ்குமார் மீனா தலைமையில் விரிவான பாதுகாப்பு ஏற்பாடுகள் செய்யப்பட்டுள்ளன. மதியம் 1 மணி அளவில் அவர் தனி விமானம் மூலம் சென்னைக்குப் புறப்படுகிறார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 நாளை திருச்சியில் முதல்-அமைச்சர் விஜய்: 16 கி.மீ. ரோடுஷோ, நலத்திட்ட உதவிகள்\n\n📰 முழு விவரம்:\nதமிழக முதல்-அமைச்சர் விஜய் நாளை (வெள்ளிக்கிழமை) காலை 10 மணி அளவில் சென்னையில் இருந்து தனி விமானம் மூலம் திருச்சி வருகிறார். விமான நிலையத்தில் அமைச்சர்கள் மற்றும் அதிகாரிகள் அவருக்கு வரவேற்பு அளிக்கின்றனர். பின்னர் சாலை மார்க்கமாக புத்தூர் அண்ணல் மகாத்மா காந்தி அரசு மருத்துவமனைக்குச் செல்கிறார். அங்கு ரூ.134 கோடி திட்ட மதிப்பீட்டில் 6 தளங்களாகக் கட்டப்பட்டுள்ள புதிய கட்டிடத்தைத் திறந்து வைக்கிறார். இதில் 600 நோயாளிகள் சிகிச்சை பெறும் வகையில் படுக்கை வசதிகள் உள்ளன. பச்சிளம் குழந்தைகள் வார்டில் தாய்மாமன் சீர் திட்டத்தின் கீழ் புதிதாகப் பிறந்த குழந்தைகளுக்குத் தங்க மோதிரம் அணிவிக்கிறார்.\n🎉 காஜாமலை ரேஸ்கோர்ஸ் சாலையில் உள்ள தமிழ்நாடு சுற்றுலா வளர்ச்சிக் கழக அரசு ஓட்டலில் நடைபெறும் அரசு விழாவில் பயனாளிகளுக்கு நலத்திட்ட உதவிகளை வழங்குகிறார். நிறைவுற்ற பணிகளைத் தொடங்கி வைத்து, புதிய திட்டப்பணிகளுக்கு அடிக்கல்லும் நாட்டுகிறார்.\n🛣️ விமான நிலையத்திலிருந்து அரசு மருத்துவமனை, அங்கிருந்து ஓட்டல் வரை சுமார் 16 கி.மீ. தூரத்துக்கு பிரமாண்ட ரோடுஷோ நடைபெறுகிறது. இதற்காக சாலையோரத் தடுப்புகள் அமைக்கும் பணிகள் தொடங்கியுள்ளன.\n👮 திருச்சி மாநகர போலீஸ் கமிஷனர் ரூபேஷ்குமார் மீனா தலைமையில் விரிவான பாதுகாப்பு ஏற்பாடுகள் செய்யப்பட்டுள்ளன.\n✈️ மதியம் 1 மணி அளவில் தனி விமானம் மூலம் சென்னைக்குப் புறப்பட்டுச் செல்கிறார்.\n\nCM Vijay Trichy visit tomorrow, 16 km roadshow | Trichy news\n📍 திருச்சி மாவட்டம் | 20 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
+   "prompts": "Along a wide Trichy city road, a long line of metal roadside barriers stands in place as police in khaki stand guard and a van carrying the Chief Minister moves slowly through the middle of the road. Crowds of men in shirts and veshti and women in sarees line the footpaths behind the barriers, seen from behind and at a distance, some holding up their hands. The road is lined with shops and a government office building with a flat facade. Two-wheelers and autorickshaws are held back at the edge of the road. It is bright morning daylight, with a clear sky. Camera at eye level, slightly high, 35 mm lens, wide enough to show the full stretch of the road, the barriers, the police and the crowd. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a row of metal roadside barriers placed along a Trichy city road, with a khaki-uniformed Tamil Nadu police constable standing behind them, seen from the side and far away. Behind the barrier, a few women in sarees and men in shirts wait on the footpath, seen from behind. A parked two-wheeler and an autorickshaw sit near the edge of the road. Tall roadside trees and a plain concrete government building stand in the background. It is morning daylight with soft sunlight and no rain. Camera at eye level, 35 mm lens, shallow depth of field so the barriers are sharp and the crowd is slightly blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dailythanthi.com/news/tamilnadu/chief-minister-vijay-to-visit-trichy-tomorrow-a-grand-16-km-long-roadshow",
+   "published": "2026-11-19T06:14:39Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: fact-check: Slide 4 contains an incomplete/unclear Tamil sentence – the line \"விமான நிலையம் முதல் அரசு மருத்துவமனை, ஓட்டல் வரை <b>16\" is truncated and lacks the distance unit, making it grammatically incorrect and ambiguous.",
    "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795051705/trichy360/mpfgvro1aas3ef3gxvng.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795051708/trichy360/o60mfj6fdjbehdle5rlw.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795078307/trichy360/jnmn4utjjsxoslte1mxa.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795078342/trichy360/ew09qxk75pn9sn0gra8c.jpg"
    ]
   }
  ]
