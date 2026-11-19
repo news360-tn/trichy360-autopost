@@ -1,12 +1,14 @@
-# coimbatore360-autopost - project context
+# trichy360-autopost - project context
 
-Automatic Coimbatore-district news reels for the Instagram page **கோயம்புத்தூர் 360** (`@coimbatore360_official`, placeholder; hashtag `#Coimbatore360`;
-`post_to` value in the Sheet: `Coimbatore 360`). A separate, fully independent copy of the Namakkal project `news360-autopost`:
+Automatic Trichy_360-district news reels for the Instagram page **திருச்சி_360** (`@trichy360.official`, placeholder; hashtag `#Trichy_360`;
+`post_to` value in the Sheet: `Trichy_360`). A separate, fully independent copy of the Namakkal project `news360-autopost`:
 own GitHub repository, own Google account / Sheet / Apps Script, own Instagram token, own Cloudinary account and own free API keys.
 Namakkal 360 / Rasipuram 360 are never touched. Same file structure and function names as Namakkal, so Namakkal fixes can be
 ported by diff. Everything runs on GitHub Actions; the Google Sheet (through the Apps Script bridge) is the working store.
 
-**Status: not live** (no `LIVE` file, no `research_free/ENABLED`). See the owner setup checklist in `README.md`.
+**Status: live** (the `LIVE` file is present and posting runs on GitHub Actions; checked 19 Nov 2026). News is collected by `pick.yml`.
+Note: this file was first copied from Coimbatore 360 - where a line below still names Coimbatore places, sources or schedules,
+the code and workflow files of this repo are what actually runs.
 
 ## How it works (end to end)
 
@@ -27,7 +29,7 @@ daily        insights.yml       Instagram insights -> learned topic weights (wri
 | Area | Rule |
 |---|---|
 | News scope | Only Coimbatore-district news, published today or yesterday (Coimbatore city, Pollachi, Mettupalayam, Sulur, Annur, Valparai, Kinathukadavu, Madukkarai, Perur, Thondamuthur, Anaimalai, Karamadai ...). Tiruppur, Nilgiris, Erode, Palakkad and every other district are not ours, even when close. "Avinashi Road" is a Coimbatore city road: a headline that also names a Coimbatore place is ours |
-| One page | Only கோயம்புத்தூர் 360. No second page, no collaborator, no Rasipuram routing |
+| One page | Only திருச்சி_360. No second page, no collaborator, no Rasipuram routing |
 | Priority | power cut (TNEB) > crime > accident > civic > the rest |
 | Never miss news | Everything eligible is queued and written; duplicates and other-district news are skipped; nothing eligible is dropped |
 | Daily cap | 50 reels a day (Instagram's limit) (`DAILY_CAP` in post.yml, also in the collector / writer); urgent news first |
@@ -39,7 +41,7 @@ daily        insights.yml       Instagram insights -> learned topic weights (wri
 | Writing | Free LLM chain only; Claude backup OFF (`CLAUDE_MAX_CALLS=0`, no `ANTHROPIC_API_KEY`) |
 | Reel language | Formal news Tamil, no slang; everyday Tamil Nadu words in voice, subtitles and cards (பஸ், டூவீலர், போலீசார், கலெக்டர் ...); dates always with the month |
 | Website | Off for now (later). `poster/website.py` does nothing without `WEBSITE_INGEST_KEY`; workflows do not pass it |
-| Separation | Own accounts and keys, so Namakkal's free API limits are never used; bridge e-mails tagged `COIMBATORE360` |
+| Separation | Own accounts and keys, so Namakkal's free API limits are never used; bridge e-mails tagged `TRICHY360` |
 | Privacy | Personal project; bot commits as `news360-bot`; no office account, office email or Claude lines in commits |
 
 ## Main files
@@ -52,17 +54,17 @@ daily        insights.yml       Instagram insights -> learned topic weights (wri
 | `poster/freshness.py` | stale / duplicate / power-cut timing rules |
 | `poster/config.json` | voice (Valluvar), prime time, design switches |
 | `reel/reel4.py` | reel renderer (one image, camera moves, voice, opening, dates) |
-| `apps_script/Code.gs` | Google Sheet bridge for the Coimbatore 360 account (set the `..._HERE` values; redeploy after changes) |
+| `apps_script/Code.gs` | Google Sheet bridge for the Trichy_360 account (set the `..._HERE` values; redeploy after changes) |
 | `tests/test_regressions.py` | regression tests (run before every push) |
 
 ## Sheet bridge (apps_script/Code.gs)
 
-- Page key `coimbatore`, label `கோயம்புத்தூர் 360`, `post_to` `Coimbatore 360`, token property `IG_TOKEN_COIMBATORE` (refreshed weekly).
+- Page key `trichy`, label `திருச்சி_360`, `post_to` `Trichy_360`, token property `IG_TOKEN_TRICHY` (refreshed weekly).
 - Columns: same 31 as Namakkal; column 25 `spare_link` (unused), column 26 `coimbatore_link` (carousel link, unused while reel only),
   27 `reel_link`.
 - GET actions: `queue`, `posted_rows`, `token`, `voice`, `recent`, `ping`, `autoPending`.
   POST actions: `posted`, `error`, `addStories`, `archiveNews`, `reoffer`, `setImages`, `repost`.
-- E-mail subjects: `COIMBATORE360 STORY`, `COIMBATORE360 REEL`, `[COIMBATORE360 IMAGES NEEDED]` ...
+- E-mail subjects: `TRICHY360 STORY`, `TRICHY360 REEL`, `[TRICHY360 IMAGES NEEDED]` ...
 
 ## Secrets (GitHub -> Settings -> Secrets -> Actions; values never in the repo)
 
