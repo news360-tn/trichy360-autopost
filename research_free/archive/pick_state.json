@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-19T09:56:53.196566+05:30",
+ "last_end": "2026-11-19T14:11:47.440789+05:30",
  "pool": {
   "C83cbaf8": {
    "id": "C83cbaf8",
@@ -12,48 +12,21 @@
    "score": 12.5,
    "power_cut": false,
    "listed_at": "2026-11-19T06:51:57.216033+05:30"
+  },
+  "C7cabb35": {
+   "id": "C7cabb35",
+   "url": "https://www.dailythanthi.com/news/tamilnadu/chief-minister-vijay-to-visit-trichy-tomorrow-a-grand-16-km-long-roadshow",
+   "title": "முதல்-அமைச்சர் விஜய் நாளை திருச்சி பயணம்: 16 கி.மீ. தூரம் பிரமாண்ட 'ரோடுஷோ'",
+   "summary": "திருச்சி, முதல்-அமைச்சர் விஜய் திருச்சிக்கு நாளை (வெள்ளிக்கிழமை) வருகிறார். அவர் பிரமாண்ட 'ரோடுஷோ'வில் பங் கேற்பதுடன் நலத்திட்ட உதவிகளும் வழங்குகிறார்..முதல்-அமைச்சர் வருகைதமிழக முதல்-அமைச்சர் விஜய் நாளை (வெள்ளிக்கிழம...",
+   "source": "தினத்தந்தி",
+   "published": "2026-11-19T06:14:39Z",
+   "category": "பொது",
+   "score": 2.63,
+   "power_cut": false,
+   "listed_at": "2026-11-19T14:11:47.440789+05:30"
   }
  },
  "rounds": {
-  "2026-11-15_05": {
-   "window": [
-    "2026-11-15T01:34:15.844315+05:30",
-    "2026-11-15T05:34:43.985602+05:30"
-   ],
-   "ids": [
-    "C6b91b94",
-    "Cffa0aa0",
-    "C90aebf9",
-    "C4a80545",
-    "C6d4c5e1",
-    "Cb956c7f",
-    "C93cbff6",
-    "C05b10cf"
-   ],
-   "sent": false,
-   "deadline": "2026-11-15T06:34:43.985602+05:30",
-   "decided": {
-    "how": "automatic: top 5 of 8 by insights",
-    "ids": [
-     "C6b91b94",
-     "Cffa0aa0",
-     "C90aebf9",
-     "C93cbff6",
-     "C05b10cf"
-    ],
-    "at": "2026-11-15T05:35:44.586519+05:30"
-   },
-   "written": [
-    "C05b10cf",
-    "C6b91b94",
-    "C90aebf9",
-    "C93cbff6",
-    "Cffa0aa0"
-   ],
-   "refused": {
-    "Cffa0aa0": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
-   }
-  },
   "2026-11-15_09": {
    "window": [
     "2026-11-15T05:34:43.985602+05:30",
@@ -557,6 +530,20 @@
     "ids": [],
     "at": "2026-11-19T09:58:12.394819+05:30"
    },
+   "written": []
+  },
+  "2026-11-19_14": {
+   "window": [
+    "2026-11-19T09:56:53.196566+05:30",
+    "2026-11-19T14:11:47.440789+05:30"
+   ],
+   "ids": [
+    "C7cabb35",
+    "C83cbaf8"
+   ],
+   "sent": false,
+   "deadline": "2026-11-19T15:11:47.440789+05:30",
+   "decided": null,
    "written": []
   }
  },
