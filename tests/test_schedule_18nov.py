@@ -31,9 +31,15 @@ class Watchdog(unittest.TestCase):
         self.assertEqual(W.decide(ist(9, 45), True, False, OLD, [("completed", ist(9, 20))], "", None), [])      # tried 25 min ago
         self.assertEqual(W.decide(ist(9, 45), True, False, OLD, None, "", None), [])      # GitHub did not answer: never blind
 
-    def test_overdue_round_only(self):
-        self.assertEqual(W.decide(ist(14, 0), True, True, OLD, OLD, "pick.yml", [("completed", ist(10, 0))], True), [])
-        self.assertEqual(W.decide(ist(14, 30), True, True, OLD, OLD, "pick.yml", [("completed", ist(10, 0))], True), ["pick.yml"])
+    def test_overdue_round_only(self):      # owner 19 Nov: rounds 04:00 / 08:30 / 13:00 / 16:30 / 18:30, never restarted at night
+        run = lambda h, m: [("completed", ist(h, m))]
+        self.assertEqual(W.decide(ist(13, 10), True, True, OLD, OLD, "pick.yml", run(8, 35), True), [])      # 13:00 not 25 min late yet
+        self.assertEqual(W.decide(ist(13, 40), True, True, OLD, OLD, "pick.yml", run(8, 35), True), ["pick.yml"])      # 13:00 missed
+        self.assertEqual(W.decide(ist(13, 40), True, True, OLD, OLD, "pick.yml", run(13, 5), True), [])      # 13:00 ran
+        self.assertEqual(W.decide(ist(19, 5), True, True, OLD, OLD, "pick.yml", run(16, 40), True), ["pick.yml"])      # 18:30 missed
+        self.assertEqual(W.decide(ist(22, 0), True, True, OLD, OLD, "pick.yml", run(16, 40), True), [])      # never at night
+        self.assertEqual(W.decide(ist(4, 40), True, True, OLD, OLD, "pick.yml", [("completed", ist(18, 35) - d.timedelta(days=1))], True),
+                         ["pick.yml"])      # the 04:00 round missed
 
 
 class Times(unittest.TestCase):

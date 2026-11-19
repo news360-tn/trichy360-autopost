@@ -78,6 +78,20 @@ def start(wf, *inputs):
     print(("started " if r.returncode == 0 else "could not start ") + wf, (r.stderr or "").strip()[:200])
 
 
+ROUNDS = ((4, 0), (8, 30), (13, 0), (16, 30), (18, 30))      # owner 19 Nov: the collection rounds (IST), fitted to the posting windows
+
+
+def round_overdue(now, round_runs):
+    """a scheduled round passed 25+ min ago (within the last 2 h) and no round started since: GitHub skipped / delayed it.
+    Never at night: after 20:30 nothing is restarted until the 04:00 round."""
+    ist = now.astimezone(IST)
+    due = [ist.replace(hour=h, minute=m, second=0, microsecond=0) for h, m in ROUNDS]
+    due = [x for x in due if x + d.timedelta(minutes=25) <= ist]
+    if not due or ist - due[-1] > d.timedelta(hours=2):
+        return False
+    return not busy(round_runs, now, int((ist - due[-1]).total_seconds() // 60) + 10)
+
+
 def decide(now, rasi, gold, rasi_runs, gold_runs, round_wf, round_runs, pm=None):
     """pure decision (tested): which jobs to start now. rasi / gold / pm: posted_today() result; *_runs: runs()"""
     ist = now.astimezone(IST)
@@ -89,7 +103,7 @@ def decide(now, rasi, gold, rasi_runs, gold_runs, round_wf, round_runs, pm=None)
         todo.append("goldrate.yml")
     elif gold is True and pm is not True and 15 * 60 + 40 <= hm < 18 * 60 and not busy(gold_runs, now, 45):
         todo.append("goldrate.yml pm")
-    if round_wf and round_runs and not busy(round_runs, now, 255):
+    if round_wf and round_runs and round_overdue(now, round_runs):
         todo.append(round_wf)
     return todo
 
