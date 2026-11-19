@@ -1,19 +1,19 @@
-02:21:43 SKIP RN-4 stale: published 12 Nov, older than yesterday
-02:21:43 SKIP RN-19 stale: published 14 Nov, older than yesterday
-02:21:43 SKIP RN-22 stale: published 14 Nov, older than yesterday
-02:21:43 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-02:21:43 SKIP RN-29 stale: published 14 Nov, older than yesterday
-02:21:43 SKIP RN-42 held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact-check: The reel_script states the body was found in the well belonging to Manivanna
-02:21:43 SKIP RN-45 held: fact-check problems - numbers not found in the article: 7
-02:21:43 SKIP RN-71 held: fact-check problems - not grounded: location 'அளவு' is not in the article
-02:21:46 story catch-up trichy: quota 15/50, 40 recent posts, 3 live stories, owner ids ['17841462048887226', '28956510467350700']
-02:21:46 8 stories in the queue, ready to post: 0
-02:21:46   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-02:21:46    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 163.1 ready= False set_started= True
-02:21:46    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 132.4 ready= False set_started= True
-02:21:46    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 128.7 ready= False set_started= True
-02:21:46    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 128.7 ready= False set_started= True
-02:21:46    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 124.6 ready= False set_started= True
-02:21:46    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 92.5 ready= False set_started= True
-02:21:46    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 92.5 ready= False set_started= True
-02:21:46    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 42.9 ready= False set_started= True
+02:29:29 SKIP RN-4 stale: published 12 Nov, older than yesterday
+02:29:29 SKIP RN-19 stale: published 14 Nov, older than yesterday
+02:29:29 SKIP RN-22 stale: published 14 Nov, older than yesterday
+02:29:29 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+02:29:29 SKIP RN-29 stale: published 14 Nov, older than yesterday
+02:29:29 SKIP RN-42 held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact-check: The reel_script states the body was found in the well belonging to Manivanna
+02:29:29 SKIP RN-45 held: fact-check problems - numbers not found in the article: 7
+02:29:29 SKIP RN-71 held: fact-check problems - not grounded: location 'அளவு' is not in the article
+02:29:33 story catch-up trichy: quota 15/50, 40 recent posts, 3 live stories, owner ids ['17841462048887226', '28956510467350700']
+02:29:33 8 stories in the queue, ready to post: 0
+02:29:33   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+02:29:33    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 163.2 ready= False set_started= True
+02:29:33    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 132.5 ready= False set_started= True
+02:29:33    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 128.8 ready= False set_started= True
+02:29:33    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 128.8 ready= False set_started= True
+02:29:33    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 124.8 ready= False set_started= True
+02:29:33    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 92.6 ready= False set_started= True
+02:29:33    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 92.6 ready= False set_started= True
+02:29:33    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 43.1 ready= False set_started= True
