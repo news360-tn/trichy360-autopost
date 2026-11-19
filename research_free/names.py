@@ -27,6 +27,7 @@ ROLES = [
     (r"(?<![A-Za-z])DRO(?![A-Za-z])", "மாவட்ட வருவாய் அலுவலர்"),
     (r"டி" + D + r"என்" + D + r"இ" + D + r"பி\s?\.?,?|(?<![A-Za-z])TNEB(?![A-Za-z])", "மின்சார வாரியம்"),
     (r"(?<![A-Za-z])TNSTC(?![A-Za-z])", "அரசுப் போக்குவரத்துக் கழகம்"),
+    (r"(?<=\d)\s?எம்" + D + r"எம்\s?\.?,?", " மில்லிமீட்டர்"),      # 19 Nov: '300 எம்.எம். குழாய்' (the English mm)
     (r"மி" + D + r"மீ\s?\.?,?", "மில்லிமீட்டர்"),
     (r"செ" + D + r"மீ\s?\.?,?", "சென்டிமீட்டர்"),
     (r"கி" + D + r"கி\s?\.?,?", "கிலோகிராம்"),
@@ -69,14 +70,28 @@ LATIN = {"A": "ஏ", "B": "பி", "C": "சி", "D": "டி", "E": "இ", "F
          "N": "என்", "O": "ஓ", "P": "பி", "Q": "க்யூ", "R": "ஆர்", "S": "எஸ்", "T": "டி", "U": "யு", "V": "வி", "W": "டபிள்யூ", "X": "எக்ஸ்", "Y": "ஒய்", "Z": "இசட்"}
 
 
+# 19 Nov (from Kovai Minnal, owner 19 Nov: "the ai voice read தவெக as a full word"): party short names written WITHOUT dots are
+# read letter by letter like the dotted ones (தி.மு.க.) - VOICE only, the screen and caption keep the paper's spelling. Longest first.
+PARTIES = [("அமமுக", "அ ம மு க"), ("அதிமுக", "அ தி மு க"), ("தேமுதிக", "தே மு தி க"), ("மதிமுக", "ம தி மு க"), ("திமுக", "தி மு க"),
+           ("தவெக", "த வெ க"), ("தவாக", "த வா க"), ("பாஜக", "பா ஜ க"), ("பாமக", "பா ம க"), ("விசிக", "வி சி க"), ("நாதக", "நா த க")]
+
+
 def spoken(text):
     text = full_places(text)
     for pat, full in ROLES:
         text = re.sub(pat, full, text)
+    for short, letters in PARTIES:      # a word start only: திமுகவினர் -> தி மு க வினர் (never inside another word)
+        text = re.sub(r"(?<![\u0B80-\u0BFF])" + short, letters + " ", text)
+        text = text.replace(letters + "  ", letters + " ")
+    text = re.sub(r"(?<=[\u0B80-\u0BFF]) (?=[,.;:!?])", "", text)
+    # 19 Nov: 'L&T' was read 'T' (the voice drops '&' and single English letters); '4 X 400 மீட்டர்' lost its X
+    text = re.sub(r"(?<![A-Za-z])([A-Z])\s?&\s?([A-Z])(?![A-Za-z])", lambda m: f"{LATIN[m.group(1)]} அண்ட் {LATIN[m.group(2)]}", text)
+    text = re.sub(r"(?<=\d)\s?[xX×]\s?(?=\d)", " இன்டு ", text)
     # any other abbreviation is read letter by letter: TNPSC -> டி என் பி எஸ் சி, ஐ.பி.எஸ். -> ஐ பி எஸ், தி.மு.க. -> தி மு க
     text = re.sub(r"(?<![A-Za-z])[A-Z]{2,7}(?![A-Za-z])", lambda m: " ".join(LATIN[c] for c in m.group()), text)
     L = r"[அ-ஹ](?:[\u0bbe-\u0bcc]|[அ-ஹ]\u0bcd|\u0bcd)?"      # one spoken letter: ஐ, பி, எஸ், எம், தி, க
-    text = re.sub(r"(?<![அ-ஹ\u0bbe-\u0bcd])((?:" + L + r"\s?\.\s?){2,}" + L + r")\.?",
+    # 19 Nov: two-letter initials too (ஆர்.வி. ஜெயக்குமார், கே.கே. நகர் were read with a stop after every letter)
+    text = re.sub(r"(?<![அ-ஹ\u0bbe-\u0bcd])((?:" + L + r"\s?\.\s?){1,}" + L + r")\.?",
                   lambda m: " ".join(x.strip() for x in m.group(1).split(".") if x.strip()), text)
     for a, b in (("ர்வும்", "ரும்"), ("ர்வின்", "ரின்"), ("ர்வுக்கு", "ருக்கு")):      # the ending that followed the abbreviation (ஆர்.டி.ஓ.,வும்)
         text = text.replace(a, b)

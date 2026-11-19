@@ -130,8 +130,10 @@ def publish(token, urls, cap):
     return mid, link
 
 
-# ---------- owner 19 Nov: the same rate as a REEL too (carousels reach few people) ----------
+# ---------- owner 19 Nov: the same rate as a REEL too (carousels reach few people) - in the Kovai Minnal reel pattern with our 360
+# brand (gold_reel.py + gold360_render.py: 10 s, today's price from the first frame, music only) ----------
 REEL = os.environ.get("GOLD_REEL", "1") not in ("0", "false", "no")
+CAROUSEL = os.environ.get("GOLD_CAROUSEL", "0") in ("1", "true", "yes")      # owner 19 Nov: gold & silver rate - REELS ONLY on every page
 REEL_UNTIL = os.environ.get("GOLD_REEL_UNTIL", "15:15")      # a late catch-up never shows the morning rate after the 3:30 PM change
 
 
@@ -172,35 +174,64 @@ def upload_video(path):
 
 def publish_reel(token, url, cap):
     uid = ig("GET", "me", token, fields="user_id")["user_id"]
-    cid = ig("POST", f"{uid}/media", token, media_type="REELS", video_url=url, caption=cap, share_to_feed="true")["id"]
+    import gold_reel      # the cover: the gold screen fully built (not the first frame)
+    cid = ig("POST", f"{uid}/media", token, media_type="REELS", video_url=url, caption=cap, share_to_feed="true",
+             thumb_offset=str(gold_reel.COVER_MS))["id"]
     wait_ready(cid, token, 15)
     mid = ig("POST", f"{uid}/media_publish", token, creation_id=cid)["id"]
     return mid, ig("GET", mid, token, fields="permalink").get("permalink", "")
+
+
+def page_cfg(pg, token=None):
+    """the page's slide / reel settings (PAGES + its logo). owner 19 Nov: the "Follow @..." line shows the page's REAL Instagram
+    username when its token can read it - PAGES holds placeholder handles for the new pages. Never raises."""
+    p = dict(PAGES[pg], logo=ROOT / "kit" / f"logo_{pg}.png")
+    if token and not DRY:
+        try:
+            name = (ig("GET", "me", token, fields="username") or {}).get("username")
+            if name:
+                p["handle"] = name
+        except Exception as e:
+            log(f"{pg}: Instagram username not read - the saved handle is used ({str(e)[:120]})")
+    return p
 
 
 def reel_caption(cap):
     return "🎬 " + cap
 
 
-def post_reel(pg, p, r, jpgs, cap, out, token, day):
-    """make + post today's reel; any problem is only logged (the carousel and the news posts are never touched)"""
+def post_reel(pg, p, r, jpgs, cap, out, token, day, pm=False):
+    """make + post today's reel; any problem is only logged (the news posts are never touched). -> (media id, permalink) or None.
+    pm: the 3:30 PM change update (its own once-a-day check, pm_done; the morning reel does not block it)"""
     if not REEL:
-        return
+        return None
     try:
         import gold_reel
         mp4, _ = gold_reel.make(p, r, jpgs, out, log)
         if DRY:
             log(f"DRY RUN: {pg} reel {mp4} - not posted")
-            return
-        if reel_done(pg, day, token):
+            return None
+        if not pm and reel_done(pg, day, token):
             log(f"{pg}: reel already posted today")
-            return
-        mid, link = publish_reel(token, upload_video(mp4), reel_caption(cap))
-        log(f"{pg}: REEL POSTED {link}")
-        reel_path(pg).write_text(json.dumps({"date": day.isoformat(), "media_id": mid, "permalink": link,
-                                             "posted_at": datetime.now(IST).isoformat()}, ensure_ascii=False), encoding="utf-8")
+            return None
+        url = upload_video(mp4)
+        mid, link = publish_reel(token, url, reel_caption(cap))
+        log(f"{pg}: {'AFTERNOON ' if pm else ''}REEL POSTED {link}")
+        if not pm:
+            reel_path(pg).write_text(json.dumps({"date": day.isoformat(), "media_id": mid, "permalink": link,
+                                                 "posted_at": datetime.now(IST).isoformat()}, ensure_ascii=False), encoding="utf-8")
+        if not CAROUSEL:      # reels only: the reel goes to the page's Facebook page too (when it is set up)
+            try:
+                sys.path.insert(0, str(ROOT / "poster"))
+                import facebook
+                facebook.share(pg, f"goldrate-{'pm-' if pm else ''}reel-{day.isoformat()}", "reel", [url], cap, p.get("tag", ""),
+                               always=True, story=False)
+            except Exception as e:
+                log("Facebook step skipped:", str(e)[:150])
+        return mid, link
     except Exception as e:
         log(f"{pg}: reel NOT POSTED - {str(e)[:300]}")
+        return None
 
 
 def reel_catchup(pages, day, tokens):
@@ -217,7 +248,7 @@ def reel_catchup(pages, day, tokens):
     r = rates_for_slides(hist, day, gold, {"silver": sv} if sv else None)
     for pg in pages:
         log(f"{pg}: carousel already posted, reel not yet - making the reel")
-        p = dict(PAGES[pg], logo=ROOT / "kit" / f"logo_{pg}.png")
+        p = page_cfg(pg, tokens.get(pg))
         out = ROOT / "out" / "goldrate" / pg
         jpgs = render.render(p, r, out, log)
         post_reel(pg, p, r, jpgs, caption(p, day, r), out, tokens[pg], day)
@@ -300,7 +331,7 @@ def caption(p, day, r):
         lines.append(f"⚪ வெள்ளி (1 கிராம்): ₹{render.inr(r['silver'])} ({change_text(r['silver'] - r['silver_prev'], '')})")
     lines += ["", "சென்னை சந்தை விலை (தமிழ்நாடு). ஜிஎஸ்டி, செய்கூலி, சேதாரம் தனி; கடைகளுக்கு ஏற்ப விலை சற்று மாறலாம்.", "",
               f"தினமும் காலை தங்கம், வெள்ளி விலை அறிய Follow செய்யுங்கள் 🙏 @{p['handle']}", "",
-              f"#தங்கம்விலை #GoldRate #SilverRate #GoldPriceToday #{p['town']} {p['tag']}"]
+              f"#தங்கம்விலை #GoldRate #SilverRate #{p['town']} {p['tag']}"]      # owner 19 Nov: at most 5 hashtags
     return "\n".join(lines)
 
 
@@ -345,7 +376,7 @@ def pm_caption(p, day, r):
         lines.append(f"⚪ வெள்ளி (1 கிராம்): ₹{render.inr(r['silver'])} (காலை விலையைவிட {change_text(r['silver'] - r['silver_prev'], '')})")
     lines += ["", "சென்னை சந்தை விலை (தமிழ்நாடு) - மதியம் 3:30 மணி நிலவரம். ஜிஎஸ்டி, செய்கூலி, சேதாரம் தனி.", "",
               f"தினமும் தங்கம், வெள்ளி விலை அறிய Follow செய்யுங்கள் 🙏 @{p['handle']}", "",
-              f"#தங்கம்விலை #GoldRate #SilverRate #GoldPriceToday #{p['town']} {p['tag']}"]
+              f"#தங்கம்விலை #GoldRate #SilverRate #{p['town']} {p['tag']}"]      # owner 19 Nov: at most 5 hashtags
     return "\n".join(lines)
 
 
@@ -414,10 +445,19 @@ def pm_main(pages, day):
             row["silver"] = r["silver"]
         HISTORY.write_text(json.dumps(hist, ensure_ascii=False, indent=1), encoding="utf-8")
     for pg in pages:
-        p = dict(PAGES[pg], logo=ROOT / "kit" / f"logo_{pg}.png")
+        p = page_cfg(pg, tokens.get(pg))
         out = ROOT / "out" / "goldrate" / f"{pg}_pm"
-        jpgs = render.render(p, r, out, log)
         cap = pm_caption(p, day, r)
+        if not CAROUSEL:      # owner 19 Nov: reels only - the afternoon change is a reel too
+            out.mkdir(parents=True, exist_ok=True)
+            (out / "caption.txt").write_text(cap, encoding="utf-8")
+            got = post_reel(pg, p, r, [], cap, out, None if DRY else tokens[pg], day, pm=True)
+            if got:
+                pm_path(pg).write_text(json.dumps({"date": day.isoformat(), "changed": True, "media_id": got[0], "permalink": got[1],
+                                                   "kind": "reel", "posted_at": datetime.now(IST).isoformat()}, ensure_ascii=False),
+                                       encoding="utf-8")
+            continue
+        jpgs = render.render(p, r, out, log)
         (out / "caption.txt").write_text(cap, encoding="utf-8")
         log(f"{pg} caption:\n{cap}")
         if DRY:
@@ -488,10 +528,25 @@ def main():
     if not DRY:
         save_today(hist, day, gold, silver)
     for pg in todo:
-        p = dict(PAGES[pg], logo=ROOT / "kit" / f"logo_{pg}.png")
+        p = page_cfg(pg, tokens.get(pg))
         out = ROOT / "out" / "goldrate" / pg
-        jpgs = render.render(p, r, out, log)
         cap = caption(p, day, r)
+        if not CAROUSEL:      # owner 19 Nov: gold & silver rate - the REEL is the day's post (no carousel)
+            out.mkdir(parents=True, exist_ok=True)
+            (out / "caption.txt").write_text(cap, encoding="utf-8")
+            log(f"{pg} caption:\n{cap}")
+            if DRY:
+                post_reel(pg, p, r, [], cap, out, None, day)
+                continue
+            if already_posted(pg, day, tokens[pg]):
+                log(f"{pg}: posted meanwhile - stop")
+                continue
+            got = post_reel(pg, p, r, [], cap, out, tokens[pg], day)
+            if got:      # the day's post is saved: the watchdog and the 3:30 PM check read this file
+                state_path(pg).write_text(json.dumps({"date": day.isoformat(), "media_id": got[0], "permalink": got[1], "kind": "reel",
+                                                      "posted_at": datetime.now(IST).isoformat()}, ensure_ascii=False), encoding="utf-8")
+            continue
+        jpgs = render.render(p, r, out, log)
         (out / "caption.txt").write_text(cap, encoding="utf-8")
         log(f"{pg} caption:\n{cap}")
         if DRY:

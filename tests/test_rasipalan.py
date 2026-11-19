@@ -140,16 +140,19 @@ class DateLinks1Nov(unittest.TestCase):
 
 
 class NeverMiss(unittest.TestCase):
-    """owner 1 Nov: never miss a day - one source is enough after 9:30, trying until 12:30, backups through the morning"""
+    """owner 19 Nov: rasipalan must be posted before 9 AM - 2 sources wanted, one is enough from 8:00, the job gives up at 9:00;
+    runs 6:35 / 7:15 / 7:45 / 8:20 and the watchdog only before 8:40"""
     def test_rules(self):
         from pathlib import Path
         root = Path(__file__).resolve().parent.parent
         src = (root / "rasipalan" / "rasi_daily.py").read_text(encoding="utf-8")
-        for s in ('ONE_SOURCE_AT = os.environ.get("ONE_SOURCE_AT", "09:30")', 'GIVE_UP_AT = os.environ.get("GIVE_UP_AT", "12:30")'):
+        for s in ('ONE_SOURCE_AT = os.environ.get("ONE_SOURCE_AT", "08:00")', 'GIVE_UP_AT = os.environ.get("GIVE_UP_AT", "09:00")'):
             self.assertIn(s, src)
         wf = (root / ".github" / "workflows" / "rasipalan.yml").read_text(encoding="utf-8")
-        for s in ('"5 1 * * *"', '"15 2 * * *"', '"15 4 * * *"', '"15 6 * * *"', "timeout-minutes: 340"):
+        for s in ('"5 1 * * *"', '"45 1 * * *"', '"15 2 * * *"', '"50 2 * * *"', "timeout-minutes: 340"):
             self.assertIn(s, wf)
+        self.assertNotIn('"15 4 * * *"', wf)
+        self.assertNotIn('"15 6 * * *"', wf)
 
 
 class NallaNeram(unittest.TestCase):

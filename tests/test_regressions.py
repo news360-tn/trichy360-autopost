@@ -474,42 +474,40 @@ class SinglePage(unittest.TestCase):
 
 
 class PrimeTime(unittest.TestCase):
-    """owner 13 Nov: news collected every 4 hours waits for its posting START (08:00 / 12:00 / 18:00 IST), then all of it is posted -
-    no end time, nothing skipped; only power cuts post at once"""
+    """owner 19 Nov: news posts in the best-performing windows (05:00-12:00, 15:00-18:00 IST) - when a window opens every ready news posts
+    at once, news written inside a window posts at once, news written outside waits for the next window; power cuts post at once;
+    nothing is dropped (a news waiting 18 h posts anyway)"""
     def at(self, h, m=0, day=0):
         return datetime.datetime.combine(TODAY, datetime.time(h, m), IST) + datetime.timedelta(days=day)
 
     def row(self, title, h, m=0):
         return {"story_id": "RN-T", "headline_ta": title, "headline_en": "", "category": "", "researched": self.at(h, m).strftime("%d %b %Y, %H:%M")}
 
-    def wait(self, row, now, waited=1.0, enabled=True):
-        pt = dict(json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["prime_time"], enabled=enabled)
+    def wait(self, row, now, waited=1.0):
+        pt = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["prime_time"]
         with mock.patch.object(post, "age_hours", return_value=waited), mock.patch.dict(post.CONFIG, {"prime_time": pt}):
             return post.prime_wait(row, now)
 
-    def test_owner_posts_at_once(self):
-        """owner 13 Nov 22:51: no posting start times - every eligible story posts as soon as it is ready (rule switched OFF)"""
+    def test_windows_switched_on(self):
         pt = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["prime_time"]
-        self.assertFalse(pt["enabled"])
-        for filed, now in (((21, 30), (23, 0)), ((13, 50), (15, 0)), ((5, 40), (6, 0))):
-            self.assertEqual("", post.prime_wait(self.row("கோவில் கும்பாபிஷேக விழா", *filed), self.at(*now)))
+        self.assertTrue(pt["enabled"])
+        self.assertEqual(pt["windows"], [["05:00", "12:00"], ["15:00", "18:00"]])
+        self.assertFalse(pt["starts"])
 
-    def test_each_batch_waits_for_its_start_then_no_end_time(self):
+    def test_inside_a_window_at_once_outside_waits(self):
         news = "கோவில் கும்பாபிஷேக விழா"
-        for filed, now, expect in (((5, 40), (7, 0), "08:00"), ((5, 40), (8, 0), ""), ((5, 40), (23, 0), ""),      # no end time
-                                   ((10, 20), (11, 0), "12:00"), ((10, 20), (12, 5), ""), ((13, 50), (16, 0), "18:00"),
-                                   ((17, 40), (17, 50), "18:00"), ((21, 30), (23, 0), "08:00"), ((8, 30), (8, 40), "")):      # 05:00 batch written late
-            got = self.wait(self.row(news, *filed), self.at(*now))
+        for now, expect in (((5, 0), ""), ((9, 30), ""), ((11, 59), ""), ((12, 0), "15:00"), ((14, 30), "15:00"), ((15, 0), ""),
+                            ((17, 59), ""), ((18, 0), "05:00"), ((23, 0), "05:00"), ((1, 0), "05:00")):
+            got = self.wait(self.row(news, 0, 30), self.at(*now))
             if expect:
-                self.assertIn(expect, got, (filed, now))
+                self.assertIn(expect, got, now)
             else:
-                self.assertEqual("", got, (filed, now))
-        self.assertEqual("", self.wait(self.row(news, 21, 30), self.at(8, 0, day=1)))      # the night's news goes out at 08:00 next day
+                self.assertEqual("", got, now)
 
     def test_only_power_cut_posts_at_once(self):
         self.assertEqual("", self.wait(self.row("காளப்பநாயக்கன்பட்டி பகுதியில் நாளை மின் தடை", 21, 30), self.at(23)))
         for title in ("தனியார் பேருந்து மோதி தொழிலாளி உயிரிழப்பு", "கனமழை எச்சரிக்கை", "ஆட்சியர் அறிவிப்பு: சிறப்பு முகாம்"):
-            self.assertIn("posting start", self.wait(self.row(title, 13, 50), self.at(15)), title)
+            self.assertIn("prime time", self.wait(self.row(title, 13, 50), self.at(13, 55)), title)
 
     def test_never_dropped_after_long_wait(self):
         self.assertEqual("", self.wait(self.row("கோவில் கும்பாபிஷேக விழா", 21, 30), self.at(3, day=1), waited=19))
@@ -587,9 +585,11 @@ class FullDetail(unittest.TestCase):
         return [x for x in validate.validate(d, art) if x.startswith("reel_script has")]
 
     def test_short_reel_of_long_article_is_rewritten(self):
-        self.assertTrue(self.length_problems(70, 300))
-        self.assertFalse(self.length_problems(100, 300))      # owner 31 Oct: a long article needs ~100 words, never forced to 130+
-        self.assertFalse(self.length_problems(135, 300))      # owner 31 Oct: at most 90 s / 160 words (29 Oct: 60 s / 105); the caption keeps the rest
+        # 19 Nov trial (new pages): 60-90 words (about 35-45 s) - 60-80 word reels reached the most people; the caption keeps the rest
+        self.assertTrue(self.length_problems(55, 300))
+        self.assertFalse(self.length_problems(70, 300))
+        self.assertTrue(self.length_problems(100, 300))
+        self.assertTrue(self.length_problems(135, 300))
 
     def test_short_article_keeps_a_short_reel(self):
         self.assertFalse(self.length_problems(70, 80))
@@ -599,10 +599,10 @@ class FullDetail(unittest.TestCase):
 
     def test_examples_are_full_detail(self):
         for e in json.loads((ROOT / "research_free" / "examples.json").read_text(encoding="utf-8")):
-            self.assertGreaterEqual(len(e["output"]["reel_script"].split()), 80)
+            self.assertTrue(60 <= len(e["output"]["reel_script"].split()) <= 95)      # the writer copies the examples' length
 
     def test_reel_max_seconds(self):
-        self.assertEqual(json.loads((ROOT / "poster" / "config.json").read_text())["reel_max_seconds"], 88)      # owner 29 Oct
+        self.assertEqual(json.loads((ROOT / "poster" / "config.json").read_text())["reel_max_seconds"], 60)      # owner 19 Nov: a news reel is at most 60 s
         self.assertIn("fit_max(work, len(texts), lead, gap, max_seconds(spec))", (ROOT / "reel" / "reel4.py").read_text(encoding="utf-8"))
 
 class Proofread(unittest.TestCase):
@@ -866,7 +866,7 @@ class ReviewFixes2Nov(unittest.TestCase):
         src = (ROOT / "poster" / "post.py").read_text(encoding="utf-8")
         i = src.index("mid, link, collab_ok, why = publish_reel(token, url, caption, collab, cover_url)")
         seg = src[i:i + 1200]
-        self.assertLess(seg.index('bridge_post("posted"'), seg.index("first_comment(token, mid, sid, 1)"))
+        self.assertLess(seg.index('bridge_post("posted"'), seg.index("first_comment(token, mid, sid, row)"))
         self.assertIn("NOT posted again", src)
 
     def test_story_room_reads_the_quota_fresh(self):
@@ -898,10 +898,11 @@ class ReviewFixes2Nov(unittest.TestCase):
         rules = (ROOT / "research_free" / "rules.md").read_text(encoding="utf-8")
         self.assertNotIn('say "விவரம் இன்னும் தெரியவரவில்லை"', rules)
         self.assertNotIn("Say the KEY facts once each", rules)
-        self.assertIn("Tell EVERY fact of the article once each", rules)
+        self.assertIn("the reel tells the KEY facts once each", rules)      # 19 Nov trial; the caption holds the WHOLE story
+        self.assertIn('"📰 முழு விவரம்:" block holds the WHOLE story', rules)
         self.assertNotIn("ராஜா\", \"14 வயதான கவுசிக்", rules)
         run_py = (ROOT / "research_free" / "run.py").read_text(encoding="utf-8")
-        self.assertIn("70-160 words: the reel is at most 90 seconds", run_py)
+        self.assertIn("60-90 words, about 35-45 seconds", run_py)      # 19 Nov trial
         self.assertNotIn("the reel is at most 60 seconds", run_py)
 
     def test_event_cache_is_thread_safe_and_followers_tracked(self):
@@ -944,13 +945,17 @@ class SpacedPostingMatrix(unittest.TestCase):
         os.unlink(out.name)
         return json.loads(txt.split("matrix=", 1)[1].split("\n")[0])["include"]
 
-    def test_one_per_page_and_urgent_news_never_waits(self):
-        inc = self.run_check(1e9)
-        self.assertEqual([(x["story"], x["slot"]) for x in inc], [("RN-1", 0), ("RN-3", 6)])      # RN-2 waits for the next run
+    def test_no_gap_every_ready_news_at_once(self):      # owner 19 Nov: spacing_min 0 - no gap, no stagger
+        self.assertEqual(json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["posting"]["spacing_min"], 0)
+        for since in (1e9, 5.0, 0.0):
+            inc = self.run_check(since)
+            self.assertEqual([(x["story"], x["slot"]) for x in inc], [("RN-1", 0), ("RN-2", 0), ("RN-3", 0)], since)
 
-    def test_nothing_but_urgent_news_inside_the_gap(self):
-        inc = self.run_check(5.0)
-        self.assertEqual([(x["story"], x["slot"]) for x in inc], [("RN-3", 0)])
+    def test_old_gap_still_works_when_set(self):
+        from unittest import mock
+        with mock.patch.dict(post.CONFIG, {"posting": {"spacing_min": 12}}):
+            self.assertEqual([(x["story"], x["slot"]) for x in self.run_check(1e9)], [("RN-1", 0), ("RN-3", 6)])
+            self.assertEqual([(x["story"], x["slot"]) for x in self.run_check(5.0)], [("RN-3", 0)])
 
 
 
@@ -1336,7 +1341,9 @@ class CommentRepliesNeedOwner11Nov(unittest.TestCase):
         self.assertEqual(cap.split("\n")[-1], "📰 Source: தினமலர் (10 நவம்பர் 2026): https://www.dinamalar.com/news/x/1")
         self.assertEqual(cap.count("Source:"), 1)
         self.assertNotIn("Source:", post.final_caption(dict(row, source="https://unknown.example/x")))
-        self.assertFalse(hasattr(post, "source_comment"))
+        # owner 19 Nov (was 11 Nov: no source comment): the caption keeps its source line above AND the page's own first comment gives
+        # the source + news date automatically (post.SOURCE_COMMENT)
+        self.assertTrue(post.source_comment(row).startswith("📰 News Source: தினமலர் - https://www.dinamalar.com/news/x/1\n📅 News Date: 10 நவம்பர் 2026\n"))
 
 
 class PowercutRefusalRemembered11Nov(unittest.TestCase):
@@ -1732,8 +1739,9 @@ class ReachPlan29Oct(unittest.TestCase):
 
     def test_switches_and_picture_rule(self):
         c = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))
-        self.assertEqual(88, c["reel_max_seconds"])      # owner 31 Oct: 90 s (88 = under the 90 s check)
-        self.assertEqual(160, c["reach"]["script_max_words"])
+        self.assertEqual(60, c["reel_max_seconds"])      # owner 19 Nov: at most 60 s (power cuts keep power_cut.max_seconds)
+        self.assertEqual(90, c["reach"]["script_max_words"])      # 19 Nov trial (was 160)
+        self.assertEqual(160, c["power_cut"]["script_max_words"])      # a power cut still reads every area
         self.assertIn("no brand names", collect.IMG_TEMPLATE)
 
 
@@ -2050,8 +2058,8 @@ class PowerCutRules(unittest.TestCase):
         ns = from_file(ROOT / "reel" / "reel4.py", {"max_seconds"})
         self.assertEqual(88, ns["max_seconds"]({"cat": "மின் தடை", "mini": "மணப்பாறையில் நாளை மின் தடை", "hook": ["", ""]}))
         self.assertEqual(88, ns["max_seconds"]({"cat": "Civic Issues", "mini": "லால்குடியில் நாளை மின்தடை", "hook": ["", ""]}))
-        self.assertEqual(88, ns["max_seconds"]({"cat": "Crime & Safety", "mini": "திருச்சியில் திருட்டு: 2 பேர் கைது", "hook": ["", ""]}))
-        self.assertEqual(88, ns["max_seconds"]())      # owner 31 Oct: every reel up to 90 s
+        self.assertEqual(60, ns["max_seconds"]({"cat": "Crime & Safety", "mini": "திருச்சியில் திருட்டு: 2 பேர் கைது", "hook": ["", ""]}))      # owner 19 Nov: other news at most 60 s; power cuts keep 88
+        self.assertEqual(60, ns["max_seconds"]())      # owner 19 Nov: a news reel at most 60 s (was 90 s, 31 Oct)
 
     def test_power_cut_script_may_be_longer(self):
         import validate
@@ -2063,7 +2071,7 @@ class PowerCutRules(unittest.TestCase):
             d["reel_script"] = " ".join(["தகவல்"] * 140) + " " + validate.LAST
         words = lambda d: [x for x in validate.validate(d, art) if x.startswith("reel_script has")]
         self.assertFalse(words(pc))      # 140 words + every area: allowed for a power cut
-        self.assertFalse(words(other))   # owner 31 Oct: every reel may use 160 words now (was 105)
+        self.assertTrue(words(other))    # 19 Nov trial: other news at most 90 words (was 160)
         pc["reel_script"] = " ".join(["தகவல்"] * 100) + " " + validate.LAST
         self.assertFalse(words(pc))      # not forced longer than the normal minimum (owner 31 Oct: at most ~100 words required)
 

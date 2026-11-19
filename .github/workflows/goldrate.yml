@@ -1,5 +1,6 @@
 name: goldrate
-# owner 14 Nov: daily gold & silver rate carousel (2 slides) + owner 19 Nov: the same rate as a reel (posted after the carousel) on every page of this repo, posted as soon as today's rate is confirmed.
+# owner 14 Nov: daily gold & silver rate on every page of this repo, posted as soon as today's rate is confirmed. owner 19 Nov: REELS ONLY
+# (the 360 clock-style reel, goldrate/gold_reel.py; GOLD_CAROUSEL=1 would bring the old carousel back).
 # The Chennai jewellers' association fixes the rate at 9:30 AM IST; the job starts 9:40 and checks every 5 minutes. It posts only when
 # 2 rate pages show today's date and the same rate. Backups at 11:00 AM and 12:30 PM (a run skips a page already posted today).
 on:

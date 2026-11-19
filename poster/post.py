@@ -284,6 +284,8 @@ def _skip_reason_base(row):
         ki = known_issues.problems(fixed)
         if ki:
             return f"known issue {ki[0][0]}: {ki[0][1]}"
+    if link_hold(row):      # owner 19 Nov: a sensitive news only with its source link (an owner pick too - add the link to post it)
+        return link_hold(row)
     if owner_picked(row):
         return ""
     f = filed_at(row)
@@ -595,18 +597,25 @@ def source_names(row):
     return out[:2]
 
 
+def news_day(row):
+    """the news date in Tamil ("18 நவம்பர் 2026") from the paper's publish time, in India time - '' when unknown (never guessed).
+    owner 19 Nov: a publish time stamped in UTC ("...Z") showed the day before for news published between 00:00 and 05:30 IST"""
+    try:
+        d = datetime.fromisoformat(str(row.get("published") or "").replace("Z", "+00:00"))
+    except Exception:
+        return ""
+    if d.tzinfo:
+        d = d.astimezone(IST)
+    return f"{d.day} {TAMIL_MONTHS[d.month - 1]} {d.year}"
+
+
 def source_credit(row):
     """(short for the reel header, full line for the end card / caption) - ('', '') when the source site is unknown"""
     names = source_names(row)
     if not names:
         return "", ""
     pre = "மின்வாரிய அறிவிப்பு • " if is_shutdown(row) and "மின்வாரியம்" not in names else ""
-    day = ""
-    try:
-        d = datetime.fromisoformat(str(row.get("published") or "").replace("Z", "+00:00"))
-        day = f"{d.day} {TAMIL_MONTHS[d.month - 1]} {d.year}"
-    except Exception:
-        pass
+    day = news_day(row)
     full = pre + ", ".join(names) + (f" ({day})" if day else "")
     short = {"The New Indian Express": "Indian Express", "Times of India": "TOI", "நியூஸ்18 தமிழ்": "நியூஸ்18", "நியூஸ்7 தமிழ்": "நியூஸ்7"}
     return short.get(names[0], names[0]), full      # the reel header has little room - the end card / caption carry the full name
@@ -733,6 +742,48 @@ _KEY_FACT = re.compile(r"\d|கைது|வழக்கு|உயிரிழ|�
                        r"நேரம்|மணி|தேதி|ரூ\.|லட்சம்|கோடி|ஆயிரம்")
 
 
+_ONE_LETTER = r"[அ-ஹ](?:[\u0bbe-\u0bcc]|[அ-ஹ]\u0bcd|\u0bcd)?"
+_INITIALS = re.compile(r"^\(?(?:" + _ONE_LETTER + r"\.){1,}$")      # 'ஆர்.வி.', 'எம்.எம்.', 'அக்.' - the dot is not a sentence end
+
+
+def split_sentences(txt):
+    """19 Nov: the sentences of a script. A dot after Tamil initials / short forms (ஆர்.வி. ஜெயக்குமார், 300 எம்.எம். குழாய், கே.கே. நகர்)
+    no longer ends the sentence - the voice stopped in the middle of a name and the next card started with the surname."""
+    out, cur = [], ""
+    for part in re.split(r"(?<=[.!?\u0964])\s+", (txt or "").strip()):
+        part = part.strip()
+        if not part:
+            continue
+        cur = f"{cur} {part}" if cur else part
+        if _INITIALS.match(cur.split()[-1]):
+            continue      # joined with the next part
+        out.append(cur)
+        cur = ""
+    if cur:
+        out.append(cur)
+    return out
+
+
+_REL_DAYS = (("நேற்று முன்தினம்", -2), ("நாளை மறுநாள்", 2), ("நேற்று", -1), ("இன்று", 0), ("நாளை", 1))
+
+
+def fix_relative_days(text, written, today=None):
+    """19 Nov: a reel posted on a LATER day than it was written must not say இன்று / நேற்று / நாளை about the writing day (the audit
+    found 'நேற்று' in a reel written on 12 Nov and posted on 15 Nov). Those words then become the date ('நவம்பர் 12ஆம் தேதி'),
+    which stays right for everyone who watches the reel later. Same day: unchanged."""
+    today = today or datetime.now(IST).date()
+    if not text or not written or today <= written:
+        return text
+    for word, k in _REL_DAYS:
+        d = written + timedelta(days=k)
+        text = re.sub(r"(?<![\u0B80-\u0BFF])" + word + r"(?![\u0B80-\u0BFF])", f"{TAMIL_MONTHS[d.month - 1]} {d.day}ஆம் தேதி", text)
+    return text
+
+
+# 19 Nov: a sentence that only says the news caused a stir carries no fact - it is not read (the writer's rules already forbid it)
+FILLER_ONLY = re.compile(r"^(?:இந்த(?:ச்)?|இச்)\s*சம்பவ[ம்த்][^.]*?(?:பரபரப்ப|அதிர்ச்சி|சோகத்த)[^.]*\.?$")
+
+
 def shorten_script_detail(txt, ratio):
     """owner 2 Nov (review): a reel over 90 s loses the LEAST informative sentences first (no number, no outcome, no time/place fact),
     never the first one (the one-line story); returns (script, dropped sentences in story order)"""
@@ -773,7 +824,7 @@ def shorten_script(txt, ratio):
     """owner 28 Oct: a reel longer than 90 s is shortened, never skipped. Keeps the first sentence (the one-line story),
     then the next sentences in order while they fit in ratio x the original length; the follow line stays last.
     Always keeps at least 2 news sentences (+ the follow line), so reel_spec still has its 3 sentences."""
-    sents = [s.strip() for s in re.split(r"(?<=[.!?\u0964])\s+", (txt or "").strip()) if s.strip()]
+    sents = split_sentences(txt)
     follow = [s for s in sents[-1:] if "பின்தொடரு" in s or "Follow" in s]
     body = sents[:-1] if follow else sents
     if len(body) <= 2:
@@ -792,7 +843,9 @@ def shorten_script(txt, ratio):
 
 def reel_spec(row, spec, images):
     txt = (row.get("reel_script") or "").strip()
-    sentences = [s.strip() for s in re.split(r"(?<=[.!?।])\s+", txt) if s.strip()]
+    sentences = split_sentences(txt)
+    if len(sentences) > 4:
+        sentences = [s for s in sentences if not FILLER_ONLY.match(s)]
     if len(sentences) < 3:
         raise RuntimeError(f"{row['story_id']}: reel script needs at least 3 sentences")
     # every reel ends with the same follow line (spoken in English by the system)
@@ -818,6 +871,11 @@ def reel_spec(row, spec, images):
             used.add(bj)
         sents.append({"say": sent, "caption": sent, "fact": best if i >= 1 else ""})
     hook = [(spec.get("hl1") or "").strip(), (spec.get("hl2") or "").strip()]
+    written = (filed_at(row) or datetime.now(IST)).date()      # 19 Nov: இன்று / நேற்று / நாளை as dates when posted on a later day
+    for s in sents:
+        for k in ("say", "caption", "fact"):
+            s[k] = fix_relative_days(s[k], written)
+    hook = [fix_relative_days(h, written) for h in hook]
     return {"v": 3, "story": row["story_id"], "date": spec["date"], "cat": (spec.get("cat") or "").strip(),
             "location": (spec.get("loc") or "திருச்சி")[:60], "voice": "male", "hook": hook,
             "mini": (row.get("headline_ta") or "").strip(), "source": source_credit(row)[0], "source_full": source_credit(row)[1],
@@ -1084,23 +1142,184 @@ def publish_reel(token, video_url, caption, collab, cover_url=""):
     return mid, ig("GET", mid, token, fields="permalink").get("permalink", ""), collab_ok, why
 
 
-FIRST_COMMENTS = [
-    "இந்த செய்தி உங்களுக்கு பயனுள்ளதா? தேவைப்படும் நண்பர்களுக்கு Share செய்யுங்கள் 🙏",
-    "உங்கள் பகுதியில் இதன் நிலை என்ன? கமெண்டில் சொல்லுங்கள் 👇",
-    SAVE_LINE,
-]
+# owner 19 Nov: viewers called some news fake and families were hurt - the page's OWN first comment on every news post gives the source
+# (paper + article link) and the news date, a line for its kind of news (owner 19 Nov: every category has its own line) and that a
+# correction / objection can come by DM. Made automatically from each news (no owner approval); it never asks people to comment.
+# No source -> no comment (never guessed).
+_TA = "஀-௿"
+# someone died (Tamil headline only - English headlines add words such as "murders" to political statements)
+_DEATH_TA = re.compile(rf"உயிரிழ|உயிர்\s*இழ|உயிர்ப்?\s*பலி|பலியா|பலி(?![{_TA}])|மரண|இறந்த|இறப்பு|காலமான|மறைவால்|மறைவுக்கு|மறைந்தார்|சடல|"
+                       r"தற்கொலை|சாவு|மூளைச்சாவு|கொலை(?!\s*(?:மிரட்ட|முயற்சி|வெறி))|உடல்\s*(?:மிதந்த|மீட்பு|கண்டெடுப்பு|கண்டுபிடிப்பு)")
+# an accident - counted only when people are in it (a shop fire with only goods burnt is not); "frequent accidents" on a road is a civic story
+_ACCIDENT_TA = re.compile(r"(?<!அடிக்கடி )விபத்தில்|விபத்துக்குள்ளா|(?<!அடிக்கடி )விபத்து\s*(?:[:;,!|\-–—]|$)|(?<!பிரதமர் )(?<!நரேந்திர )மோதி(?!ர)|"
+                          r"மோதல்|கவிழ்ந்|(?:கடைக்குள்|வீட்டுக்குள்|பள்ளத்தில்|கால்வாயில்|குளத்தில்)\s*பாய்ந்த|தவறி\s*விழு|மின்சாரம்\s*தாக்கி|"
+                          r"வெடித்து|வெடி\s*விபத்து|தீப்பிடித்து|தீக்காய|"
+                          r"(?:கிணற்றில்|தொட்டியில்|குளத்தில்|ஆற்றில்|கால்வாயில்|பள்ளத்தில்|குண்டத்தில்|மாடியிலிருந்து|மாடியில்\s*இருந்து)\s*(?:தவறி\s*)?விழு")
+_INJURY = re.compile(r"காய|பலி|உயிர்|சிகிச்சை|மருத்துவமனை")
+_ANIMAL = re.compile(rf"யானை|சிறுத்தை|புலி(?![{_TA}])|கரடி(?![{_TA}])|கரடிகள்|மாடு|பசு(?![{_TA}])|பசுக்கள்|எருமை|ஆடு(?![{_TA}])|ஆடுகள்|"
+                     rf"நாய்|மயில்(?![{_TA}])|மயில்கள்|மான்(?![{_TA}])|மான்கள்|காட்டெருமை|குரங்கு(?![{_TA}])|குரங்குகள்|கால்நடை")
+_PERSON = re.compile(rf"பேர்|நபர்|மாணவ|பெண்|ஆண்(?![{_TA}])|சிறுவன்|சிறுவர்|சிறுமி|முதியவர்|மூதாட்டி|இளைஞர்|வாலிபர்|குழந்தை|கணவ|மனைவி|"
+                     r"தொழிலாளி|தொழிலாளர்|விவசாயி|டிரைவர்|ஓட்டுநர்|பயணி|தாய்|தந்தை|மகன்|மகள்|போலீஸ்|காவலர்|ஊழியர்|ஆசிரியர்|தொழிலதிபர்")
+# someone arrested / booked / accused / in a court case (a missing-person report is not)
+_ACCUSED_TA = re.compile(r"கைது|பிடிபட்டனர்|பிடிபட்டார்|பிடிபட்டான்|வழக்கு|குற்றம்\s*சாட்ட|குற்றஞ்சாட்ட|போக்சோ|சஸ்பெண்ட்|பணியிடை\s*நீக்க|சிறையில்|சிறைக்கு|ஜாமீன்|"
+                         r"மோசடி|லஞ்ச|தலைமறைவ|குண்டர்\s*(?:தடுப்பு|சட்ட)")
+_ACCUSED_EN = re.compile(r"\b(?:arrest(?:ed|s)?|booked\s+(?:for|under|on)|held\s+(?:for|with)|accused|pocso|jailed|nabbed|detained|absconding)\b",
+                         re.I)
+_CONVICTED = re.compile(r"\d+\s*(?:ஆண்டு|ஆண்டுகள்|மாதம்|மாத)\s*(?:கடுங்காவல்\s*)?(?:சிறை|தண்டனை)|ஆயுள்\s*(?:சிறை|தண்டனை)|மரண\s*தண்டனை|"
+                        r"தண்டனை\s*விதி|அபராதம்\s*விதி|\b(?:convicted|sentenced|life\s+imprisonment)\b", re.I)
+_SEXUAL = re.compile(r"பாலியல்|போக்சோ|பலாத்கார|\b(?:pocso|sexual(?:ly)?|rape[ds]?|molest(?:ed|ation)?)\b", re.I)
+_POLITICS_TA = re.compile(r"திமுக|அதிமுக|தவெக|பாஜக|காங்கிரஸ்|பாமக|நாதக|விசிக|மதிமுக|தேமுதிக|அமமுக|கம்யூனிஸ்ட்|கட்சி|தேர்தல்|வேட்பாளர்|"
+                          r"வாக்குப்பதிவு")
+_POLITICS_EN = re.compile(r"\b(?:dmk|aiadmk|tvk|bjp|pmk|ntk|vck|mdmk|dmdk|ammk|congress|bypolls?|by-elections?|elections?|polls?)\b", re.I)
+_JOBS = re.compile(r"வேலை\s*வாய்ப்பு\s*முகாம்|வேலைவாய்ப்பு\s*முகாம்|காலிப்\s*பணி|காலிப்பணி|பணியிடங்கள்|ஆட்சேர்ப்பு|"
+                   r"\b(?:job\s*fair|recruitment|vacanc(?:y|ies))\b", re.I)
+# a notice people act on: a camp, a scheme, applications, a deadline, free / subsidised items, a new rule
+_GOVT = re.compile(r"முகாம்|விண்ணப்ப|திட்டம்|திட்டத்தி|உதவித்தொகை|கடைசி\s*(?:நாள்|தேதி)|இலவச|மானிய|பதிவு\s*செய்ய|டோக்கன்|ரேஷன்|"
+                   r"கட்டாயம்|குறைதீர்")
+_WILD = re.compile(rf"யானை|சிறுத்தை|புலி(?![{_TA}])|கரடி(?![{_TA}])|கரடிகள்|காட்டெருமை|காட்டுப்\s*பன்றி|மலைப்பாம்பு|பாம்பு|முதலை|"
+                   r"\b(?:elephants?|leopards?|tigers?|bison|gaur|wild\s*boars?|pythons?|snakes?|crocodiles?)\b", re.I)
+_FIRE = re.compile(r"தீ\s*விபத்து|தீப்பிடித்து|தீ\s*பற்றி|வீட்டில்\s*தீ|எரிந்து\s*(?:நாசம்|சேதம்|சாம்பல்)")
+_CATEGORY_KIND = ((("wildlife", "forest"), "wildlife"), (("water", "irrigation", "dam"), "weather_agri"),
+                  (("tourism", "entertainment", "cinema", "சுற்றுலா"), "events"),
+                  (("crime", "safety", "குற்ற"), "safety"), (("government", "service", "அரசு"), "admin"), (("education", "கல்வி"), "education"),
+                  (("health", "சுகாதார", "மருத்துவ"), "health"), (("weather", "agri", "வானிலை", "விவசாய"), "weather_agri"),
+                  (("business", "price", "வணிக", "விலை"), "business"), (("civic",), "civic"), (("road", "transport", "போக்குவரத்து"), "roads"),
+                  (("temple", "event", "கோவில்", "கோயில்"), "events"))
 
 
-def first_comment(token, media_id, sid, k=0):
-    """the page's own first comment (a question / share prompt, no hashtags) to start the conversation. Never raises."""
+def comment_kind(row):
+    """owner 19 Nov (every category gets its own line): {"kind", "not_guilty", "no_follow", "needs_link"} of a news.
+    The Tamil headline's words decide first - a power cut, a death / an accident with people, someone convicted / accused, politics,
+    jobs, a notice to act on - then the writer's category; "other" = the owner's own line.
+    no_follow: a death / accident or sexual-offence news has no "Follow" line. needs_link: a death / accident / crime / court /
+    missing-person / sexual-offence news is posted ONLY with its source link (owner 19 Nov)."""
+    head = str(row.get("headline_ta") or "")
+    ta = re.sub(rf"(?<=[{_TA}])\.", "", head)      # அ.தி.மு.க. -> அதிமுக (the headline only: a caption line can add other words)
+    en = str(row.get("headline_en") or "")
+    cat = str(row.get("category") or "")
+    sexual = bool(_SEXUAL.search(ta + " " + en))
+    out = {"kind": "other", "not_guilty": False, "no_follow": sexual, "needs_link": sexual}
+    if "மின் தடை" in cat or "shutdown" in cat.lower() or POWER_CUT.search(head + " " + en):
+        return dict(out, kind="power_cut")
+    convicted = bool(_CONVICTED.search(ta + " " + en))
+    accused = bool(_ACCUSED_TA.search(ta) or _ACCUSED_EN.search(en))
+    people = not (_ANIMAL.search(ta) and not _PERSON.search(ta))      # an animal's death alone is not a family's loss
+    if people and (_DEATH_TA.search(ta) or (_ACCIDENT_TA.search(ta) and (_INJURY.search(ta) or _PERSON.search(ta)))):
+        return dict(out, kind="death", not_guilty=accused and not convicted, no_follow=True, needs_link=True)
+    if convicted:
+        return dict(out, kind="court", needs_link=True)
+    if accused:
+        return dict(out, kind="crime", needs_link=True)
+    if _POLITICS_TA.search(ta) or _POLITICS_EN.search(en):
+        return dict(out, kind="politics")
+    if _JOBS.search(ta + " " + en):
+        return dict(out, kind="jobs")
+    if _GOVT.search(ta):
+        return dict(out, kind="govt")
+    if _WILD.search(ta + " " + en):
+        return dict(out, kind="wildlife")
+    if _FIRE.search(ta + " " + en):
+        return dict(out, kind="fire")
+    low = cat.lower()
+    kind = next((k for keys, k in _CATEGORY_KIND if any(w in low for w in keys)), "other")
+    if kind == "safety" and _ANIMAL.search(ta) and not _PERSON.search(ta):
+        kind = "other"      # a cow rescued from a well: the owner's own line, not the police line
+    return dict(out, kind=kind, needs_link=out["needs_link"] or kind == "safety")
+
+
+SOURCE_COMMENT = ("📰 News Source: {source}\n"
+                  "📅 News Date: {date}\n\n"
+                  "{purpose}\n\n"
+                  "செய்தி தொடர்பான திருத்தம், விளக்கம் அல்லது பகிர்வில் ஆட்சேபனை இருந்தால் எங்கள் DM மூலம் தெரிவிக்கலாம்.\n\n"
+                  "📌 Note: தகவல்கள் கிடைத்த செய்தி ஆதாரத்தின் அடிப்படையில் பகிரப்பட்டுள்ளன.\n"
+                  "🙏 நமது ஊர் செய்திகளுக்கு Follow செய்யுங்கள்.")
+COMMENT_PURPOSE = {      # owner 19 Nov: one line per kind of news (comment_kind); "other" is the owner's own line
+    "other": "இந்த செய்தி பொதுமக்களின் தகவல் மற்றும் விழிப்புணர்வுக்காக மட்டுமே மூல ஆதாரத்தின் அடிப்படையில் பகிரப்பட்டுள்ளது. "
+             "உள்ளூர் செய்திகளை மக்களிடம் கொண்டு சேர்ப்பதே எங்கள் நோக்கம்.",
+    "death": "இந்த செய்தி பொதுமக்களின் விழிப்புணர்வுக்காக மட்டுமே மூல ஆதாரத்தின் அடிப்படையில் பகிரப்பட்டுள்ளது. "
+             "பாதிக்கப்பட்ட குடும்பத்தினரின் உணர்வுகளை நாங்கள் மதிக்கிறோம்.",
+    "crime": "இந்த செய்தி மூல ஆதாரத்தின் அடிப்படையில் விழிப்புணர்வுக்காக மட்டுமே பகிரப்பட்டுள்ளது. "
+             "நீதிமன்றத்தில் நிரூபிக்கப்படும் வரை குற்றம் சாட்டப்பட்டவர்கள் குற்றவாளிகள் அல்ல.",
+    "court": "இந்த செய்தி நீதிமன்றத் தீர்ப்பு குறித்து மூல ஆதாரத்தின் அடிப்படையில் விழிப்புணர்வுக்காக மட்டுமே பகிரப்பட்டுள்ளது. "
+             "தீர்ப்பு, மேல்முறையீடு போன்ற தொடர் சட்ட நடைமுறைகளுக்கு உட்பட்டது.",
+    "safety": "இந்த செய்தி மூல ஆதாரத்தின் அடிப்படையில் விழிப்புணர்வுக்காக மட்டுமே பகிரப்பட்டுள்ளது. "
+              "இது தொடர்பான தகவல் தெரிந்தால் அருகிலுள்ள காவல் நிலையத்தைத் தொடர்புகொள்ளுங்கள்.",
+    "power_cut": "மின் தடை நேரமும் பகுதிகளும் மின்வாரிய அறிவிப்பின் அடிப்படையில் பகிரப்பட்டுள்ளன. பணிகளைப் பொறுத்து நேரம் மாறலாம், "
+                 "சந்தேகம் இருந்தால் உங்கள் பகுதி மின்வாரிய அலுவலகத்தைத் தொடர்புகொள்ளுங்கள்.",
+    "politics": "இந்த செய்தி மூல ஆதாரத்தின் அடிப்படையில் தகவலுக்காக மட்டுமே பகிரப்பட்டுள்ளது. "
+                "நாங்கள் எந்தக் கட்சிக்கும் ஆதரவாகவோ எதிராகவோ செயல்படவில்லை.",
+    "jobs": "இந்த தகவல் மூல ஆதாரத்தின் அடிப்படையில் பகிரப்பட்டுள்ளது. விண்ணப்பிக்கும் முன் தகுதி, கடைசி தேதியை அதிகாரப்பூர்வ அறிவிப்பில் "
+            "சரிபாருங்கள். வேலை தருவதாகச் சொல்லிப் பணம் கேட்பவர்களிடம் எச்சரிக்கையாக இருங்கள்.",
+    "govt": "இந்த தகவல் மூல ஆதாரத்தின் அடிப்படையில் பகிரப்பட்டுள்ளது. "
+            "தேதி, விண்ணப்பம் போன்ற விவரங்களை அதிகாரப்பூர்வ அறிவிப்பில் உறுதி செய்துகொள்ளுங்கள்.",
+    "admin": "இந்த செய்தி மூல ஆதாரத்தின் அடிப்படையில் பகிரப்பட்டுள்ளது. உள்ளூர் நிர்வாகத் தகவல்களை மக்களிடம் கொண்டு சேர்ப்பதே எங்கள் நோக்கம்.",
+    "education": "இந்த தகவல் மூல ஆதாரத்தின் அடிப்படையில் பகிரப்பட்டுள்ளது. "
+                 "மாணவர்களுக்கும் பெற்றோருக்கும் பயனுள்ள தகவல்களைக் கொண்டு சேர்ப்பதே எங்கள் நோக்கம்.",
+    "health": "இந்த தகவல் மூல ஆதாரத்தின் அடிப்படையில் விழிப்புணர்வுக்காக மட்டுமே பகிரப்பட்டுள்ளது. மருத்துவ ஆலோசனைக்கு மருத்துவரை அணுகுங்கள்.",
+    "weather_agri": "இந்த தகவல் மூல ஆதாரத்தின் அடிப்படையில் பகிரப்பட்டுள்ளது. "
+                    "வானிலை, விவசாயம் தொடர்பான அதிகாரப்பூர்வ அறிவிப்புகளையும் கவனியுங்கள்.",
+    "business": "இந்த தகவல் மூல ஆதாரத்தின் அடிப்படையில் பகிரப்பட்டுள்ளது. விலை, சந்தை நிலவரங்கள் இடத்துக்கும் நேரத்துக்கும் ஏற்ப மாறலாம்.",
+    "civic": "இந்த செய்தி மூல ஆதாரத்தின் அடிப்படையில் பகிரப்பட்டுள்ளது. "
+             "மக்களின் பிரச்சினைகள் அதிகாரிகளின் கவனத்துக்குச் செல்வதே எங்கள் நோக்கம்.",
+    "roads": "இந்த தகவல் மூல ஆதாரத்தின் அடிப்படையில் பகிரப்பட்டுள்ளது. பயணத்துக்கு முன் சமீபத்திய நிலவரத்தை உறுதி செய்துகொள்ளுங்கள்.",
+    "events": "இந்த தகவல் மூல ஆதாரத்தின் அடிப்படையில் பகிரப்பட்டுள்ளது. நம் ஊர் நிகழ்வுகளை மக்களிடம் கொண்டு சேர்ப்பதே எங்கள் நோக்கம்.",
+    "wildlife": "இந்த தகவல் மூல ஆதாரத்தின் அடிப்படையில் விழிப்புணர்வுக்காக மட்டுமே பகிரப்பட்டுள்ளது. "
+                "வனவிலங்குகள் நடமாட்டம் தெரிந்தால் வனத்துறைக்குத் தகவல் தெரிவியுங்கள்.",
+    "fire": "இந்த செய்தி மூல ஆதாரத்தின் அடிப்படையில் விழிப்புணர்வுக்காக மட்டுமே பகிரப்பட்டுள்ளது. தீ விபத்து ஏற்பட்டால் உடனே 101 எண்ணை அழைக்கவும்.",
+}
+NOT_GUILTY = "நீதிமன்றத்தில் நிரூபிக்கப்படும் வரை குற்றம் சாட்டப்பட்டவர்கள் குற்றவாளிகள் அல்ல."      # a death with someone accused (not convicted)
+COMMENT_MAX = 2000      # Instagram allows 2,200 characters in a comment
+
+
+def source_comment(row):
+    """the first comment for this news: "<paper> - <article link>", the news date and the line for its kind of news ('' when the source
+    is unknown). A paper not in SOURCE_NAMES is shown by its link only; an unknown date leaves its line out; a death / accident or
+    sexual-offence news has no "Follow" line."""
+    link = str(row.get("source") or "").strip()
+    link = link if re.fullmatch(r"https?://\S+", link) else ""
+    names = source_names(row)
+    paper = (("மின்வாரிய அறிவிப்பு • " if is_shutdown(row) and "மின்வாரியம்" not in names else "") + ", ".join(names)) if names else ""
+    src = " - ".join(x for x in (paper, link) if x)
+    if not src:
+        return ""
+    k = comment_kind(row)
+    purpose = COMMENT_PURPOSE.get(k["kind"], COMMENT_PURPOSE["other"]) + (" " + NOT_GUILTY if k["not_guilty"] else "")
+    day = news_day(row)
+    msg = "\n".join(l for l in SOURCE_COMMENT.format(source=src, date=day, purpose=purpose).split("\n")
+                    if not (l.startswith("📅") and not day) and not (l.startswith("🙏") and k["no_follow"]))
+    if len(msg) > COMMENT_MAX and paper:      # a very long link: the paper's name is kept, the link left out
+        msg = msg.replace(src, paper, 1)
+    return msg if len(msg) <= COMMENT_MAX else ""
+
+
+def is_source_comment(text):
+    """True for the page's own automatic source comment (comments.py never treats it as a viewer's comment)"""
+    t = str(text or "").lstrip()
+    return t.startswith("📰 News Source:") and "DM மூலம் தெரிவிக்கலாம்" in t
+
+
+def link_hold(row):
+    """owner 19 Nov: a sensitive news (death / accident / crime / court / missing person / sexual offence) goes out ONLY with its source
+    link. '' = fine. The owner's own ready reels are posted as they are."""
+    if is_ready_reel(row) or not comment_kind(row)["needs_link"] or re.fullmatch(r"https?://\S+", str(row.get("source") or "").strip()):
+        return ""
+    return "held: sensitive news without its source link (owner 19 Nov) - add the article link in the source column to post it"
+
+
+def first_comment(token, media_id, sid, row):
+    """owner 19 Nov: the source comment above, posted by the page right after the news post is recorded - automatically, no approval.
+    Never raises: a comment problem never touches the post."""
     try:
-        if not CONFIG.get("first_comment", False) or not media_id:
+        if not CONFIG.get("first_comment", False) or not media_id or not row:
             return
-        msg = FIRST_COMMENTS[(sum(map(ord, sid)) + k) % len(FIRST_COMMENTS)]
+        msg = source_comment(row)
+        if not msg:
+            log("source comment not added: the news source is not known", sid)
+            return
         ig("POST", f"{media_id}/comments", token, message=msg)
-        log("first comment added", media_id)
+        log("source comment added", sid, media_id)
     except Exception as e:
-        log("first comment not added (post itself is fine):", e)
+        log("source comment not added (post itself is fine):", str(e)[:300])
 
 
 def _story_room():
@@ -1730,9 +1949,9 @@ def run_story_page(row, page):
                 mid, link, collab_ok, why = publish_carousel(token, urls, caption, collab, (row.get('headline_en') or '')[:200] + ' - ' + PAGE_EN + ' news')
                 log("carousel posted", sid, link)
                 USED[PAGE] = USED.get(PAGE, 0) + 1
-                first_comment(token, mid, sid, 0)
                 bridge_post("posted", {"row": row["row"], "page": PAGE, "kind": "carousel", "permalink": link, "media_id": mid,
                                        "media_urls": urls, "caption": caption, "slides": len(urls), "collab": collab_ok, "checks": note})
+                first_comment(token, mid, sid, row)      # owner 19 Nov: the source comment, after the post is recorded (as for reels)
                 done.append(("carousel", link))
                 try:
                     if media.get("story"):
@@ -1772,7 +1991,7 @@ def run_story_page(row, page):
                 bridge_post("posted", {"row": row["row"], "page": PAGE, "kind": "reel", "permalink": link, "media_id": mid,
                                        "media_urls": [url], "caption": caption, "voice": voice, "collab": collab_ok, "checks": note})
                 done.append(("reel", link))
-                first_comment(token, mid, sid, 1)
+                first_comment(token, mid, sid, row)
                 publish_story(token, url, "video", row)
                 try:      # website OFF for now: website.send does nothing without WEBSITE_INGEST_KEY (a website problem never stops posting)
                     import website
@@ -2016,12 +2235,13 @@ def main():
                             continue
                         if not pg:
                             continue
-                        busy = [p for p in pg if p in slots or minutes_since_last_post(p) < spacing]
+                        # owner 19 Nov: spacing_min 0 = no gap - every ready news of the window posts at once
+                        busy = [] if spacing <= 0 else [p for p in pg if p in slots or minutes_since_last_post(p) < spacing]
                         if busy and not is_urgent(r):
                             waiting.append(r["story_id"])
                             log("  ", r["story_id"], f"waits for the {spacing:.0f}-minute gap after the last post on {busy}")
                             continue
-                        k = max([slots.get(p, -1) for p in pg]) + 1      # urgent news of one run: 6 minutes apart
+                        k = 0 if spacing <= 0 else max([slots.get(p, -1) for p in pg]) + 1      # urgent news of one run: 6 minutes apart
                         ids.append((r["story_id"], k * 6))
                         for p in pg:
                             slots[p] = k

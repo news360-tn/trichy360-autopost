@@ -16,6 +16,8 @@ class Watchdog(unittest.TestCase):
         self.assertEqual(W.decide(ist(6, 30), False, None, OLD, OLD, "", None), [])
         self.assertEqual(W.decide(ist(6, 50), False, None, OLD, OLD, "", None), ["rasipalan.yml"])
         self.assertEqual(W.decide(ist(6, 50), True, None, OLD, OLD, "", None), [])          # posted: nothing
+        self.assertEqual(W.decide(ist(8, 35), False, None, OLD, OLD, "", None), ["rasipalan.yml"])
+        self.assertEqual(W.decide(ist(8, 45), False, None, OLD, OLD, "", None), [])      # owner 19 Nov: never started after 8:40
 
     def test_gold_from_9_40_and_afternoon_from_15_40(self):
         self.assertEqual(W.decide(ist(9, 30), True, False, OLD, OLD, "", None), [])

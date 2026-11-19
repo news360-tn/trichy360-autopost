@@ -85,6 +85,8 @@ def run(page):
             read += 1
             if str(cm.get("id")) in seen or not (cm.get("text") or "").strip() or (cm.get("username") or "") == own:
                 continue
+            if post.is_source_comment(cm.get("text")):
+                continue      # owner 19 Nov: the page's own automatic source comment - never a viewer's comment, never e-mailed
             if any((x.get("username") or "") == own for x in ((cm.get("replies") or {}).get("data") or [])):
                 continue      # the page already answered it (by hand in the app) - never offered again
             if not re.search(r"[A-Za-z\u0B80-\u0BFF]{2,}", cm["text"]):

@@ -212,7 +212,7 @@ class EndToEndOwnerPick(unittest.TestCase):
         try:
             st = pick.picked_status(rnd, rows)
             self.assertEqual(list(st.values()).count("posted"), 1)
-            self.assertTrue(all(v.startswith("queued") for k, v in st.items() if v != "posted"), st)
+            self.assertTrue(all(v.startswith(("queued", "waiting")) for k, v in st.items() if v != "posted"), st)      # owner 19 Nov: posting windows
             self.assertEqual(pick.picked_status(rnd, rows[:1])[pick.pid(urls[2])], "not written")
         finally:
             post.ALL_ROWS, post._PICKED = old_all, None
@@ -229,7 +229,7 @@ class EndToEndOwnerPick(unittest.TestCase):
         finally:
             pick.pid, pick._never_posted = old
         self.assertTrue(st["a1"].startswith("skipped RN-141: held"))
-        self.assertTrue(st["a2"].startswith("queued RN-144"))      # still waiting: the run keeps checking / fails if never posted
+        self.assertTrue(st["a2"].startswith(("queued RN-144", "waiting RN-144")))      # still waiting (owner 19 Nov: outside a posting window it says "waiting")
 
     def test_never_posted_uses_the_posting_rule(self):
         row = {"story_id": "RN-141", "verification": "NOT CLEAN problems: numbers not found in the article: 1000",

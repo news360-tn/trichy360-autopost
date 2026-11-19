@@ -21,8 +21,8 @@ DRY = os.environ.get("DRY_RUN", "") in ("1", "true", "yes")
 START_AT = os.environ.get("START_AT", "06:40")      # owner 18 Nov: the Tamil sites publish today's rasipalan by about 06:30      # owner 31 Oct: collect sharply at 7:31 AM
 # owner 1 Nov: never miss a day - post as soon as the sources have it. 2 sources wanted; after ONE_SOURCE_AT one source is enough;
 # trying continues until GIVE_UP_AT (only then the run fails and GitHub e-mails the owner)
-ONE_SOURCE_AT = os.environ.get("ONE_SOURCE_AT", "09:30")
-GIVE_UP_AT = os.environ.get("GIVE_UP_AT", "12:30")
+ONE_SOURCE_AT = os.environ.get("ONE_SOURCE_AT", "08:00")      # owner 19 Nov: rasipalan must be posted before 9 AM
+GIVE_UP_AT = os.environ.get("GIVE_UP_AT", "09:00")
 MIN_SOURCES = int(os.environ.get("MIN_SOURCES", "2"))
 REPOST = os.environ.get("REPOST", "") == "1"      # by hand: today's post was deleted by the owner - post it again (state file ignored)
 FORCE_DATE = os.environ.get("RASI_DATE", "")      # testing only: YYYY-MM-DD

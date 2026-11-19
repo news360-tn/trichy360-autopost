@@ -83,7 +83,7 @@ def decide(now, rasi, gold, rasi_runs, gold_runs, round_wf, round_runs, pm=None)
     ist = now.astimezone(IST)
     hm = ist.hour * 60 + ist.minute
     todo = []
-    if rasi is False and 6 * 60 + 43 <= hm < 22 * 60 and not busy(rasi_runs, now, 40):
+    if rasi is False and 6 * 60 + 43 <= hm < 8 * 60 + 40 and not busy(rasi_runs, now, 40):      # owner 19 Nov: before 9 AM only
         todo.append("rasipalan.yml")
     if gold is False and 9 * 60 + 40 <= hm < 21 * 60 and not busy(gold_runs, now, 45):
         todo.append("goldrate.yml")
