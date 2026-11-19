@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T06:51+05:30",
+ "updated": "2026-11-19T07:30+05:30",
  "posts_measured": 75,
  "topic_weight": {
   "accident": 1.5,
@@ -7,7 +7,7 @@
   "power_cut": -0.02,
   "education": -0.5,
   "politics": -0.34,
-  "temple": -0.17
+  "temple": -0.18
  },
  "topic_n": {
   "accident": 7,
