@@ -3,322 +3,110 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.maalaimalar.com/news/tamilnadu/baby-girl-placed-in-a-bag-and-abandoned-by-the-roadside",
-  "manual link added: https://www.dinakaran.com/news/weekend-state-transport-corporation-special-bus-services/amp",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/chief-minister-vijays-trichy-programmes-cancelled/4380508",
-  "manual link added: https://www.dinakaran.com/news/farmers-protest-themselves-cauvery-riverbed/amp",
-  "candidate filter: collected=4",
-  "to write: 4 Trichy district candidates (max 4 stories)",
-  "round: top 4 of 4 candidates",
-  "candidates waiting: 4 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinakaran.com/news/farmers-protest-themselves-ca",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/chief-ministe",
-  "try (N) manual=True: https://www.dinakaran.com/news/weekend-state-transport-corpo",
+  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/gambling-accused-files-police-complaint/4380968",
+  "candidate filter: collected=1",
+  "to write: 1 Trichy district candidates (max 1 stories)",
+  "round: top 1 of 1 candidates",
+  "candidates waiting: 1 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/gambling-accu",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "try (N) manual=True: https://www.maalaimalar.com/news/tamilnadu/baby-girl-placed-",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
-  "NOT filed (N) வார இறுதி நாட்களை முன்னிட்டு அரசு போக்குவரத்துக் க: not Trichy district news (the story's first lines name another place and no Trichy place)",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})",
-  "candidate loop ended: left 0, tried={'N': 4}, done={'N': 3}, time left 75 min",
-  "filed: 3 Trichy district stories (target 4), reels only",
+  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 75 min",
+  "filed: 1 Trichy district stories (target 1), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":4,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
   "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
-  "ok gemini/gemini-3-flash-preview (11s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (12s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (10s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.5-flash (37s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok gemini/gemini-3-flash-preview (11s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (13s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (12s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "ok gemini/gemini-3-flash-preview (15s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (31s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (14s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (13s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (7s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
-  "ok gemini/gemini-3-flash-preview (12s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok groq/openai/gpt-oss-120b (3s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok groq/qwen/qwen3.8-27b (5s)",
+  "ok groq/openai/gpt-oss-120b (7s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "ok groq/qwen/qwen3.8-27b (3s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5"
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
  ],
  "stories": [
   {
-   "tamil_headline": "முதல்வர் விஜயின் நாளைய திருச்சி பயணம் ரத்து: தவெக எம்எல்ஏ வி.எஸ்.பாபு மறைவால் அறிவிப்பு",
-   "english_headline": "Chief Minister Vijay's Trichy visit cancelled following the demise of TVK MLA V.S. Babu",
-   "category": "Government & Services",
-   "location": "Trichy city, Trichy district",
-   "importance": "High",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "நிகழ்ச்சி ரத்து",
-    "loc": "திருச்சி",
-    "hl1": "முதல்வர் விஜயின் திருச்சி பயணம் ரத்து",
-    "hl2": "எம்எல்ஏ மறைவால் அறிவிப்பு",
-    "slides": [
-     {
-      "title": "பயணம் ரத்து",
-      "lines": [
-       "முதல்வர் விஜயின் நாளைய திருச்சி பயணம் ரத்து",
-       "தவெக எம்எல்ஏ <b>வி.எஸ்.பாபு</b> மறைவால் அறிவிப்பு",
-       "நாளைய அனைத்து அரசு நிகழ்ச்சிகளும் ரத்து"
-      ]
-     },
-     {
-      "title": "என்ன நிகழ்ச்சி?",
-      "lines": [
-       "திருச்சி அரசு மருத்துவக் கல்லூரி மருத்துவமனை",
-       "<b>ரூ.134 கோடி</b>யில் கட்டப்பட்ட விரிவான சிகிச்சைக் கட்டடம்",
-       "நாளை திறந்து வைக்க திட்டமிடப்பட்டிருந்தது"
-      ]
-     },
-     {
-      "title": "நலத்திட்டங்கள்",
-      "lines": [
-       "அரசு நிகழ்ச்சிகளில் பங்கேற்கத் திட்டம்",
-       "மக்களுக்கு நலத்திட்ட உதவிகள் வழங்கத் திட்டம்",
-       "நிகழ்ச்சிகள் ரத்து என அதிகாரப்பூர்வ அறிவிப்பு"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "முதல்வர் விஜயின் நாளைய திருச்சி பயணம் மற்றும் அனைத்து நிகழ்ச்சிகளும் ரத்து செய்யப்பட்டுள்ளன. திருச்சி அரசு மருத்துவக் கல்லூரி மருத்துவமனையில் 134 கோடி ரூபாய் மதிப்பீட்டில் கட்டப்பட்ட விரிவான மருத்துவ சிகிச்சை கட்டடத்தை முதல்வர் விஜய் நாளை திறந்து வைக்க இருந்தார். மேலும் அரசு நிகழ்ச்சிகளில் பங்கேற்று நலத்திட்ட உதவிகளை வழங்கவும் திட்டமிடப்பட்டிருந்தது. இந்நிலையில், தவெக சட்டமன்ற உறுப்பினர் வி எஸ் பாபு மறைவு காரணமாக, முதல்வர் விஜயின் திருச்சி பயணம் உள்ளிட்ட நாளைய அனைத்து நிகழ்ச்சிகளும் ரத்து செய்யப்படுவதாக அறிவிக்கப்பட்டுள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 முதல்வர் விஜயின் நாளைய திருச்சி பயணம் ரத்து - தவெக எம்எல்ஏ வி.எஸ்.பாபு மறைவால் அறிவிப்பு\n\n📰 முழு விவரம்:\nமுதல்வர் விஜய் நாளை திருச்சி சென்று, அரசு மருத்துவக் கல்லூரி மருத்துவமனையில் 134 கோடி ரூபாய் மதிப்பீட்டில் கட்டப்பட்ட விரிவான மருத்துவ சிகிச்சை கட்டடத்தை திறந்து வைக்க இருந்தார். மேலும் அரசு நிகழ்ச்சிகளில் பங்கேற்று நலத்திட்ட உதவிகளை வழங்கவும் திட்டமிடப்பட்டிருந்தது.\n\nஇந்நிலையில், தவெக சட்டமன்ற உறுப்பினர் வி.எஸ்.பாபு மறைந்ததன் காரணமாக, முதல்வர் விஜயின் திருச்சி பயணம் உள்ளிட்ட நாளைய அனைத்து நிகழ்ச்சிகளும் ரத்து செய்யப்படுவதாக அறிவிக்கப்பட்டுள்ளது.\n\n📍 இடம்: திருச்சி அரசு மருத்துவக் கல்லூரி மருத்துவமனை\n🗓️ திட்டம்: ரூ.134 கோடி புதிய கட்டட திறப்பு விழா ரத்து\n\nமுக்கிய தகவலுக்கு Share செய்யுங்கள்.\n\nCM Vijay Trichy visit cancelled TVK MLA VS Babu | Trichy news\n📍 திருச்சி | 19 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Government #TrichyNews #திருச்சி",
-   "prompts": "A group of government officials in khaki stand solemnly before the main gate of the Government Medical College Hospital, the venue where Chief Minister Vijay was to inaugurate a new 134‑crore medical treatment building, their posture and the closed gate indicating the ceremony has been cancelled. The scene is set at the hospital’s entrance courtyard, with the modern concrete façade of the new building visible behind the officials. No vehicles are in view, focusing on the officials and the gate. The light is bright daylight, typical of a public building in Trichy, with clear sky. Shot from eye level with a 35 mm lens, wide enough to capture the gate, officials and the building’s front. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up of the newly completed medical treatment building at the Government Medical College Hospital, showing its sleek, multi‑storey concrete façade, large glass windows and a modest canopy, all indicating a high‑cost (134 crore) government project. The building stands in front of the hospital’s main entrance, with a few potted plants and a metal railing, but no readable signage. The shot is taken in daylight, under clear weather, with even illumination on the structure. The camera is positioned slightly high, using a 35 mm lens to frame the building’s front elevation, emphasizing the scale and modern design that was to be opened by the chief minister. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-news/chief-minister-vijays-trichy-programmes-cancelled/4380508",
-   "published": "2026-11-19T17:30:00+05:30",
-   "verification": "DRAFT (gemini/gemini-3.5-flash) - fact-check: no problems found",
-   "note": "free-model draft gemini/gemini-3.5-flash, 1 attempt(s), 0 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795093652/trichy360/iypd92pfxxpjzrdfkj1m.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795093655/trichy360/mihwhsckztgqh27sdve7.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சி காவிரிப் பாலம் அருகே விவசாயிகள் ஆற்று மணலில் புதைந்து நூதனப் போராட்டம்",
-   "english_headline": "Farmers bury themselves in Cauvery sand near Trichy bridge to protest Mekedatu dam plan",
-   "category": "Civic Issues",
-   "location": "Trichy Cauvery bridge area, Trichy district",
-   "importance": "High",
+   "tamil_headline": "சூதாட்டத்தில் கைதானவர் போலீஸ் மீது புகார்",
+   "english_headline": "Gambling arrestee protests, alleges police kept his cash",
+   "category": "Crime & Safety",
+   "location": "Trichy city, near Trichy airport, Trichy district",
+   "importance": "Medium",
    "scope": "",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "போராட்டம்",
-    "loc": "திருச்சி காவிரி பாலம்",
-    "hl1": "திருச்சியில் விவசாயிகள் மணலில் புதைந்து",
-    "hl2": "மேகதாது அணைக்கு எதிர்ப்பு",
+    "cat": "போலீஸ் புகார்",
+    "loc": "திருச்சி",
+    "hl1": "பறிமுதல் பணத்தை போலீஸ் வைத்ததாக மறியல்",
+    "hl2": "கே.கே.நகர் போலீஸ் வழக்கு",
     "slides": [
      {
       "title": "என்ன நடந்தது?",
       "lines": [
-       "திருச்சி காவிரி பாலம் அருகே விவசாயிகள் ஆற்று மணலில்",
-       "தேசிய தென்னிந்திய நதிகள் இணைப்பு விவசாயிகள் சங்கத் தலைவர்",
-       "மேகதாதுவில் அணை கட்டும் முயற்சியை எதிர்த்து இன்று காலை"
+       "சூதாட்டத்தில் கைதான துரைராஜ் மறியலில் ஈடுபட்டார்",
+       "திருச்சி மாவட்ட நீதிமன்ற சாலையில் நேற்று மதியம்",
+       "போலீசார் அவரை அங்கிருந்து அப்புறப்படுத்தினர்"
       ]
      },
      {
-      "title": "ஏன் போராட்டம்?",
+      "title": "கைது பின்னணி",
       "lines": [
-       "மேகதாதுவில் அணை கட்ட கர்நாடக அரசு முயற்சிப்பதே காரணம்",
-       "அணை கட்டியே தீருவோம் என குமாரசாமி பேசியதைக் கண்டித்து",
-       "முன்னாள் முதல்வர் குமாரசாமி கருத்தால் விவசாயிகள் கோபம்"
+       "திருச்சி விமான நிலையம் அருகே தனியார் விடுதியில் சூதாட்டம்",
+       "கே.கே.நகர் போலீசார் <b>12 பேரை</b> கைது செய்தனர்",
+       "<b>68 ஆயிரம் ரூபாய்</b>, கார், பைக் பறிமுதல்"
       ]
      },
      {
-      "title": "விவசாயிகளின்",
+      "title": "துரைராஜின்",
       "lines": [
-       "ஒன்றிய, மாநில அரசுகள் உடனடியாக நடவடிக்கை எடுக்க வேண்டும்",
-       "மேகதாது அணை முயற்சியைக் கைவிட கர்நாடக அரசுக்கு அழுத்தம் தர",
-       "1892ஆம் ஆண்டுக்கு முன் கர்நாடகாவில் 90 ஆயிரம் ஏக்கர்"
-      ]
-     },
-     {
-      "title": "பாதிப்பு என்ன?",
-      "lines": [
-       "1974க்குப் பின் கர்நாடகா 5 அணைகள் கட்டியதால் தமிழகத்தில்",
-       "மேகதாது அணை கட்டினால் ஒரு போக சாகுபடி 5 லட்சம்",
-       "காவிரி டெல்டா மாவட்டங்கள் பாலைவனமாக மாறும் அபாயம்"
+       "முள்ளிப்பட்டியைச் சேர்ந்த துரைராஜ் வயது <b>45</b>",
+       "கைது செய்தபோது <b>90 ஆயிரம் ரூபாய்</b> இருந்ததாகக் கூறினார்",
+       "ஆடு வாங்கவைத்திருந்த பணத்தை போலீசார்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சி காவிரி பாலம் அருகே விவசாயிகள் ஆற்று மணலில் புதைந்து போராட்டம் நடத்தினர். தேசிய தென்னிந்திய நதிகள் இணைப்பு விவசாயிகள் சங்கத் தலைவர் அய்யாக்கண்ணு தலைமையில் இன்று காலை இந்தப் போராட்டம் நடைபெற்றது. மேகதாதுவில் அணை கட்ட கர்நாடக அரசு முயற்சித்து வருவதை எதிர்த்து இந்தப் போராட்டம் நடந்தது. அணை கட்டியே தீருவோம் என முன்னாள் கர்நாடக முதல்வர் குமாரசாமி பேசியதைக் கண்டித்தும் விவசாயிகள் குரல் எழுப்பினர். தமிழக விவசாயிகளைக் காப்பாற்ற ஒன்றிய, மாநில அரசுகள் உடனடியாக நடவடிக்கை எடுக்க வேண்டும் என அவர்கள் கோரினர். மேகதாது அணை முயற்சியைக் கைவிட கர்நாடக அரசுக்கு அழுத்தம் தர வேண்டும் என்றும் கோஷமிட்டனர். 1892ஆம் ஆண்டுக்கு முன் கர்நாடகாவில் 90 ஆயிரம் ஏக்கர் மட்டுமே சாகுபடி செய்யப்பட்டது. 1974ஆம் ஆண்டுக்குப் பின் கர்நாடக அரசு 5 அணைகள் கட்டியதால் தமிழகத்தில் ஒரு போக சாகுபடி 10 லட்சம் ஏக்கராகக் குறைந்தது. மேகதாது அணை கட்டினால் இது 5 லட்சம் ஏக்கராகக் குறையும் அபாயம் உள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சி காவிரி பாலம் அருகே விவசாயிகள் மணலில் புதைந்து போராட்டம்\n\n📰 முழு விவரம்:\nமேகதாதுவில் அணை கட்ட கர்நாடக அரசு முயற்சித்து வருவதைக் கண்டித்து, தேசிய தென்னிந்திய நதிகள் இணைப்பு விவசாயிகள் சங்கத் தலைவர் அய்யாக்கண்ணு தலைமையில் விவசாயிகள் இன்று காலை திருச்சி காவிரி பாலம் அருகே ஆற்று மணலில் புதைந்து நூதனப் போராட்டம் நடத்தினர். அணை கட்டியே தீருவோம் என முன்னாள் கர்நாடக முதல்வர் குமாரசாமி பேசியதையும் அவர்கள் கண்டித்தனர். 1892ஆம் ஆண்டுக்கு முன் கர்நாடகாவில் 90 ஆயிரம் ஏக்கர் மட்டுமே சாகுபடி செய்யப்பட்டது. 1974ஆம் ஆண்டுக்குப் பின் 5 அணைகள் கட்டப்பட்டதால் தமிழகத்தில் ஒரு போக சாகுபடி 10 லட்சம் ஏக்கராகக் குறைந்தது. மேகதாது அணை கட்டினால் இது 5 லட்சம் ஏக்கராகக் குறையும் அபாயம் உள்ளது; காவிரி டெல்டா மாவட்டங்கள் பாலைவனமாக மாறும் என அய்யாக்கண்ணு எச்சரித்தார்.\n\nTrichy farmers protest Mekedatu dam at Cauvery bridge | Trichy news\n📍 திருச்சி காவிரி பாலம், திருச்சி மாவட்டம் | 19 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Cauvery",
-   "prompts": "A large group of farmers in shirts and veshti lie half-buried in the pale sand of the Cauvery riverbed beside a bridge in Trichy city, staging a protest against the Mekedatu dam plan. The sand banks stretch wide across the dry river channel, with the bridge's concrete pillars and arches rising in the background and the Cauvery's shallow water glinting further away. Several dozen farmers sit or lie buried up to their waists and chests, their upper bodies emerging from the sand, while others stand around them holding raised fists and placards from behind. Trichy's river bridge, distant town buses and a few two-wheelers can be glimpsed on the far road, with thin palm trees and banana fields along the riverbank. It is morning, in soft daylight with a clear sky. Shot at eye level with a 35 mm lens, wide enough to show the riverbed, the bridge and the crowd together, with people seen from behind or far away. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of farmers' bodies half-buried in wet, grainy Cauvery river sand, with only their shoulders, arms and heads visible above the mound. The sand is pale golden-brown with ripples from the flowing water nearby, and small pebbles scattered on the surface. In the background, slightly out of focus, a few other protesters sit in the sand and a bridge pillar stands against the sky. Morning light falls softly across the sand, casting gentle shadows, and the scene is shot at ground level with a 35 mm lens to emphasise the sand burying the protesters' bodies. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinakaran.com/news/farmers-protest-themselves-cauvery-riverbed/amp",
-   "published": "2026-11-19T15:04:12+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 35 ('அப்போது தமிழகத்தில் 35 லட்சம் ஏக்கரில் 3 போகம் நெல், கரும்பு'); 3 ('அப்போது தமிழகத்தில் 35 லட்சம் ஏக்கரில் 3 போகம் நெல், கரும்பு'); 30 ('இதன்படி தமிழகத்தில் மேட்டூர் அணை கட்டப்பட்டு, 30 லட்சம் ஏக்க'); 50 ('இதன்படி தமிழகத்தில் மேட்டூர் அணை கட்டப்பட்டு, 30 லட்சம் ஏக்க'); 25 ('இதன்படி தமிழகத்தில் மேட்டூர் அணை கட்டப்பட்டு, 30 லட்சம் ஏக்க')",
+   "reel_script": "திருச்சியில் சூதாட்டத்தில் கைதானவர் போலீசார் மீது புகார் கூறி மறியலில் ஈடுபட்டார். திருச்சி விமான நிலையம் அருகே தனியார் விடுதியில் சூதாட்டத்தில் ஈடுபட்ட 12 பேரை கே கே நகர் போலீசார் கைது செய்தனர். அவர்களிடமிருந்து 68 ஆயிரம் ரூபாய், கார், பைக் உள்ளிட்டவை பறிமுதல் செய்யப்பட்டதாக போலீசார் வழக்கு பதிவு செய்துள்ளனர். இந்நிலையில், கைதான முள்ளிப்பட்டியைச் சேர்ந்த 45 வயது துரைராஜ் நேற்று மதியம் திருச்சி மாவட்ட நீதிமன்ற சாலையில் மறியலில் ஈடுபட்டார். போலீசார் அவரை அங்கிருந்து அப்புறப்படுத்தி விசாரித்தனர். கைது செய்யப்பட்டபோது தன்னிடம் 90 ஆயிரம் ரூபாய் இருந்ததாகவும், ஆடு வாங்க வைத்திருந்த அந்தப் பணத்தை போலீசார் பறித்துக்கொண்டு வழக்கில் காட்டவில்லை என்றும் துரைராஜ் குற்றம் சாட்டினார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 திருச்சியில் பறிமுதல் பணத்தை போலீஸ் வைத்ததாக மறியல்\n\n📰 முழு விவரம்:\nதிருச்சி விமான நிலையம் அருகே தனியார் விடுதியில் சூதாட்டத்தில் ஈடுபட்ட 12 பேரை கே.கே.நகர் போலீசார் கைது செய்தனர். அவர்களிடமிருந்து 68 ஆயிரம் ரூபாய், கார், பைக் உள்ளிட்டவை பறிமுதல் செய்யப்பட்டதாக போலீசார் வழக்கு பதிவு செய்துள்ளனர்.\nகைதான முள்ளிப்பட்டியைச் சேர்ந்த 45 வயது துரைராஜ் நேற்று மதியம் திருச்சி மாவட்ட நீதிமன்ற சாலையில் மறியலில் ஈடுபட்டார். போலீசார் அவரை அங்கிருந்து அப்புறப்படுத்தி விசாரித்தனர்.\nகைது செய்தபோது தன்னிடம் 90 ஆயிரம் ரூபாய் இருந்ததாகவும், ஆடு வாங்க வைத்திருந்த அந்தப் பணத்தை போலீசார் பறித்து வழக்கில் காட்டாமல் வைத்துக்கொண்டதாகவும் துரைராஜ் குற்றம் சாட்டினார்.\n📍 இடம்: திருச்சி மாவட்ட நீதிமன்ற சாலை\n🗓️ நாள்: 19 நவம்பர் 2026 (நேற்று மதியம்)\n\nTrichy gambling arrest, man protests police seized cash | Trichy news\n📍 திருச்சி, திருச்சி மாவட்டம் | 19 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
+   "prompts": "A middle-aged man in a plain shirt and veshti sits on the tarmac of a busy road in front of the Trichy district court, blocking the traffic as a few police in khaki stand around him in the afternoon sun. The place is a wide Trichy city road lined with low court buildings, shops and parked two-wheelers and autorickshaws, with a few town buses waiting at the junction. Onlookers stand on the pavement at a distance, seen from behind, some holding phones, while a small line of stopped autorickshaws and a bike wait in the traffic jam. The protester is seen from the back, his hands raised in protest, his posture showing a dispute rather than violence. It is midday with bright, hard daylight and a clear sky. Camera at eye level, 35 mm lens, wide enough to show the court road, the police and the stalled vehicles. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up on a police table or the handover tray at a Trichy police station counter where a stack of Indian rupee notes, a small pile of bundled cash, lies beside a seized two-wheeler key and a car key on a plain wooden table. A khaki-uniformed police officer's sleeve and hand are visible at the edge of the frame, a register open beside the money, while the background is slightly blurred with the faded wall of a station office. The light is soft afternoon daylight from a window, showing the textures of worn paper notes and metal keys. The image conveys the seized cash that the protester disputes, with no readable text, no faces and no signboards. Camera at eye level, 50 mm close-up, shallow depth of field. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamalar.com/news/tamil-nadu-news/gambling-accused-files-police-complaint/4380968",
+   "published": "2026-11-19T21:36:54+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: hl1 (the first headline on screen) must name the place 'திருச்சி', e.g. 'திருச்சி: ...' or 'திருச்சி-இல் ...' - viewers share news of their own area",
    "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795093703/trichy360/uz7hyirkmfglyysh1fjs.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795093706/trichy360/tklitf12mbjlwta83fjw.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "முசிறி அருகே பையில் வைத்து சாலையோரம் வீசப்பட்ட பச்சிளம் பெண் குழந்தை உயிருடன் மீட்பு",
-   "english_headline": "Newborn baby girl found alive in a bag thrown on roadside near Musiri, police probe",
-   "category": "Crime & Safety",
-   "location": "Karuppu Kovil Kottam area near Musiri, Trichy district",
-   "importance": "High",
-   "scope": "",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "குற்றம்",
-    "loc": "முசிறி, திருச்சி மாவட்டம்",
-    "hl1": "முசிறி அருகே பையில் வீசப்பட்ட பச்சிளம்",
-    "hl2": "உயிருடன் மீட்பு",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "முசிறி அருகே கருப்பு கோவில் கொட்டம் பகுதியில் சாலையோரம் ஒரு",
-       "பைக்குள் இருந்து குழந்தையின் அழுகுரல் கேட்டது",
-       "பிறந்து <b>2 மணி நேரமே</b> ஆன பெண் குழந்தை"
-      ]
-     },
-     {
-      "title": "மீட்பு",
-      "lines": [
-       "பொதுமக்கள் பையைத் திறந்து பார்த்து குழந்தை உயிருடன்",
-       "108 ஆம்புலன்சுக்கு பொதுமக்கள் தகவல் கொடுத்தனர்",
-       "ஆம்புலன்ஸ் ஊழியர்கள் குழந்தையை மீட்டு முசிறி அரசு"
-      ]
-     },
-     {
-      "title": "தற்போதைய நிலை",
-      "lines": [
-       "மருத்துவமனையில் டாக்டர்கள் தீவிர சிகிச்சை அளித்து",
-       "குழந்தை நல்ல நிலையில் இருப்பதாக மருத்துவமனை வட்டாரம்",
-       "குழந்தையை சமூகப் பாதுகாப்புத் துறையிடம் ஒப்படைக்க நடவடிக்கை"
-      ]
-     },
-     {
-      "title": "போலீஸ் விசாரணை",
-      "lines": [
-       "குழந்தையை வீசிச் சென்ற தாய் யார் என்று முசிறி போலீசார்",
-       "கள்ளக்காதலில் பிறந்ததால் வீசப்பட்டதா என்பதும் விசாரணையில்",
-       "வழக்குப்பதிவு செய்து தீவிர விசாரணை நடக்கிறது"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "முசிறி அருகே பிறந்து 2 மணி நேரமே ஆன பெண் குழந்தை பையில் வைத்து சாலையோரம் வீசப்பட்டது. திருச்சி மாவட்டம் முசிறி அருகே உள்ள கருப்பு கோவில் கொட்டம் பகுதியில் சாலையோரத்தில் ஒரு பை கிடந்தது. பைக்குள் இருந்து குழந்தையின் அழுகுரல் கேட்டதால் அப்பகுதி பொதுமக்கள் பையைத் திறந்து பார்த்தனர். குழந்தை உயிருடன் இருந்தது. பொதுமக்கள் உடனடியாக 108 ஆம்புலன்சுக்கு தகவல் கொடுத்தனர். ஆம்புலன்ஸ் ஊழியர்கள் குழந்தையை மீட்டு முசிறி அரசு மருத்துவமனையில் சேர்த்தனர். டாக்டர்கள் தொடர்ந்து தீவிர சிகிச்சை அளித்து கண்காணித்து வருகின்றனர். பெண் சிசு நல்ல நிலையில் இருப்பதாக மருத்துவமனை வட்டாரம் தெரிவித்துள்ளது. மீட்கப்பட்ட குழந்தையை திருச்சி மாவட்ட சமூகப் பாதுகாப்புத் துறை மற்றும் மாவட்ட குழந்தைகள் பாதுகாப்புப் பிரிவு அதிகாரிகளிடம் ஒப்படைக்க நடவடிக்கை எடுக்கப்பட்டு வருகிறது. குழந்தையை வீசிச் சென்ற தாய் யார், கள்ளக்காதலில் பிறந்ததால் வீசப்பட்டதா என்பது குறித்து முசிறி போலீசார் வழக்குப்பதிவு செய்து தீவிர விசாரணை நடத்தி வருகின்றனர். இந்தச் சம்பவம் அப்பகுதியில் பெரும் பரபரப்பையும் வேதனையையும் ஏற்படுத்தியுள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 முசிறி அருகே பையில் வீசப்பட்ட பச்சிளம் பெண் குழந்தை உயிருடன் மீட்பு\n\n📰 முழு விவரம்:\nமுசிறி அருகே கருப்பு கோவில் கொட்டம் பகுதியில் சாலையோரம் கிடந்த பையில் இருந்து குழந்தையின் அழுகுரல் கேட்டது. பொதுமக்கள் பையைத் திறந்தபோது, பிறந்து சுமார் 2 மணி நேரமே ஆன பெண் குழந்தை உயிருடன் இருந்தது.\n108 ஆம்புலன்ஸ் ஊழியர்கள் குழந்தையை மீட்டு முசிறி அரசு மருத்துவமனையில் சேர்த்தனர். டாக்டர்கள் தீவிர சிகிச்சை அளித்து கண்காணிக்கின்றனர். குழந்தை நல்ல நிலையில் இருப்பதாக மருத்துவமனை வட்டாரம் தெரிவித்துள்ளது.\nகுழந்தையை வீசிச் சென்ற தாய் யார், கள்ளக்காதலில் பிறந்ததால் வீசப்பட்டதா என்பது குறித்து முசிறி போலீசார் வழக்குப்பதிவு செய்து தீவிர விசாரணை நடத்துகின்றனர்.\n📍 இடம்: கருப்பு கோவில் கொட்டம், முசிறி அருகே, திருச்சி மாவட்டம்\n🕘 நேரம்: பிறந்து சுமார் 2 மணி நேரமே ஆன குழந்தை\n👮 நடவடிக்கை: போலீசார் வழக்குப்பதிவு செய்து விசாரணை\nℹ️ குழந்தையை சமூகப் பாதுகாப்புத் துறையிடம் ஒப்படைக்க நடவடிக்கை எடுக்கப்பட்டு வருகிறது.\n\nNewborn girl found alive in bag near Musiri, police probe | Trichy news\n📍 முசிறி, திருச்சி மாவட்டம் | 19 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Musiri #TrichyNews #திருச்சி",
-   "prompts": "A roadside bag lies on the edge of a rural road near Musiri in Trichy district, with a few local villagers standing at a distance looking towards it while a Tamil Nadu 108 ambulance pulls up on the tarred road nearby. The place is an open village stretch on the outskirts of the town, with dry roadside grass, a few trees, and low houses set back behind a compound wall in the background. Two or three men in shirts and veshti stand seen from behind and far away, and one woman in a cotton saree holds the end of her pallu, all watching quietly; the ambulance crew in plain uniform is opening its rear doors. The bag is a plain cloth bundle on the road shoulder, the only point of focus in the scene. The time is early morning with soft daylight, a clear sky and no rain, and the road is empty of traffic. Shot at eye level on a 35 mm lens, wide enough to show the road, the ambulance and the crowd, with no faces visible and no text on the vehicle. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a plain cloth bag lying on the dusty shoulder of a village road near Musiri, its mouth partly open and its folds slightly crumpled, with a few dry leaves and roadside gravel around it. Behind it, out of focus, the edge of the tarred road and a green roadside hedge catch the early morning light. A pair of hands in plain sleeves of a local man, seen from behind and blurred, is just reaching toward the bag to lift it carefully, which conveys the rescue without showing any baby. The bag is the only sharp object in the frame, with no visible contents and no text, labels or logos on it. The light is soft daylight from the side, the sky is clear and it is dry weather. Shot at a low angle on a 35 mm lens, about one metre away, to isolate the bag against the roadside. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.maalaimalar.com/news/tamilnadu/baby-girl-placed-in-a-bag-and-abandoned-by-the-roadside",
-   "published": "2026-11-19T11:12:48Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795093719/trichy360/l7pt6eqmwd0mc9mdsnzw.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795093724/trichy360/x9txjk1rwndihz4e9avs.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795107016/trichy360/uenyucxrqxrxwjwwaalr.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795107020/trichy360/kyldruyetn9fzwuyjjar.jpg"
    ]
   }
  ]
