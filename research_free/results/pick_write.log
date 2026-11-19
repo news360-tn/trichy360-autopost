@@ -1,13 +1,12 @@
-writing [N]: திருச்சியில் பலூன்கள் விலை உயர்வை கண்டித்து ஆர்ப்பாட்டம் - D
-writing [N]: போதை மாத்திரை விற்ற ரவுடி கைது - Dinakaran
+writing [N]: ரேஷன் அரிசி கடத்தியவா்மீது குண்டா் சட்டத்தில் நடவடிக்கை
+writing [N]: வாகனங்களில் காற்று ஒலிப்பான்கள் பறிமுதல்: ரூ. 1 லட்சம் அபராத
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
+writing [N]: முதல்வர் வருகையை முன்னிட்டு திருச்சி மாநகரில் தூய்மைபணி தீவி
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
   "error": {
     "code": 503,
@@ -17,134 +16,196 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+ok gemini/gemini-3.6-flash (48s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.5-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
+ok gemini/gemini-3-flash-preview (10s)
+attempt 2 gemini/gemini-3-flash-preview: 1 problems
+  hl1 (the first headline on screen) must name the place 'திருச்சி', e.g. 'திருச்சி: ...' or 'திருச்சி-இல் ...' - viewers share news of their own area
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+ok gemini/gemini-3-flash-preview (10s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3-flash-preview (6s)
+factcheck by gemini/gemini-3-flash-preview: 2 problems
+  The year 2026 in the caption is not mentioned in the article
+  The mention of traffic changes in the caption is an invented detail not found in the article
+attempt 1 gemini/gemini-3-flash-preview: 2 problems
+  fact-check: The year 2026 in the caption is not mentioned in the article
+  fact-check: The mention of traffic changes in the caption is an invented detail not found in the article
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, plea
 dead for this round: gemini/gemini-3-flash-preview
-ok groq/openai/gpt-oss-120b (6s)
-attempt 1 groq/openai/gpt-oss-120b: 3 problems
+ok groq/openai/gpt-oss-120b (7s)
+attempt 2 groq/openai/gpt-oss-120b: 3 problems
   missing key: reel_script
   missing key: caption
   missing key: scenes
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-ok gemini/gemini-3-flash-preview (10s)
-attempt 1 gemini/gemini-3-flash-preview: 1 problems
-  numbers not found in the article: 6
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.5-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 switching away from groq/openai/gpt-oss-120b for 10 min
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-switching away from groq/openai/gpt-oss-120b for 10 min
-ok groq/qwen/qwen3.8-27b (3s)
+ok groq/qwen/qwen3.8-27b (4s)
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-ok anthropic/claude-haiku-5-5
-claude rewrite 1 anthropic/claude-haiku-5-5: 1 problems
-  hl1 (the first headline on screen) must name the place 'திருச்சி காந்தி மார்க்கெட்', e.g. 'திருச்சி காந்தி மார்க்கெட்: ...' or 'திருச்சி காந்தி மார்க்கெட்-இல் ...' - viewers share news of their own area
-ok anthropic/claude-haiku-5-5
-claude rewrite 2 anthropic/claude-haiku-5-5: 1 problems
-  reel_script has 55 words; need 60-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+switching away from groq/openai/gpt-oss-120b for 10 min
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3-flash-preview
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
 free fact-check unavailable, using Claude: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model 
 ok anthropic/claude-haiku-5-5
-claude answer not JSON (Expecting ',' delimiter: line 1 column 2792 (char 2791)); stop_reason=end_turn blocks=['text'] usage={'input_tokens': 855, 'cache_creation_input_tokens': 0, 'cache_read_input_tokens': 13103, 'cache_creation': {'ephemeral_5m_input_tokens': 0, 'ephemeral_1h_input_tokens': 0}, 'output_tokens': 1792, 'output_tokens_details': {'thinking_tokens': 0}, 'service_tier': 'standard', 'inference_geo': 'global', 'speed': 'standard'} head='{"tamil_headline": "திருச்சி காந்தி மார்க்கெட் அருகே போதை மாத்திரை விற்ற ரவுடி கைது", "english_headline": "Rowdy arrested for selling drug tablets near Trichy Gandhi Market; 8 tablets seized", "catego'
-claude rewrite failed: Expecting ',' delimiter: line 1 column 2792 (char 2791)
+factcheck by anthropic/claude-haiku-5-5: 2 problems
+  The caption's 'மக்கள் கவனத்திற்கு' line claims road works may cause traffic delays, which is not stated in the article.
+  The reel_script says the Chief Minister is arriving on 'நவம்பர் 20' as a date, but the article says 'நாளை (நவ.20)', so the date is consistent; however the reel_script's slides say 'சாலைகளில் குப்பைகளை அகற்றி வருகிறார்கள்' (workers are removing garbage), which is consistent with the article.
+attempt 3 groq/qwen/qwen3.8-27b: 2 problems
+  fact-check: The caption's 'மக்கள் கவனத்திற்கு' line claims road works may cause traffic delays, which is not stated in the article.
+  fact-check: The reel_script says the Chief Minister is arriving on 'நவம்பர் 20' as a date, but the article says 'நாளை (நவ.20)', so the date is consistent; however the reel_script's slides say 'சாலைகளில் குப்பைகளை அகற்றி வருகிறார்கள்' (workers are removing garbage), which is consistent with the article.
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-ok anthropic/claude-haiku-5-5
-factcheck by anthropic/claude-haiku-5-5: 4 problems
-  The article says the balloon production price was raised by 6 percent; the draft's reel_script and slides omit the percentage, which is an important figure, so the claim is incomplete rather than wrong.
-  The caption's date line 'நேற்று (நவம்பர் 18)' states the date as November 18, but the article is dated November 19 and says 'நேற்று' (yesterday), so the event date is inferred and not stated in the article.
-  The caption's 'நடவடிக்கை' line says 'கோரிக்கைகளை வலியுறுத்தி ஆர்ப்பாட்டம் நடத்தினர்' which is acceptable, but the slides spec line 'உற்பத்தி விலை உயர்வை திரும்ப பெற வேண்டும்' and 'நேரடியாக கொள்முதல் செய்ய வழிவகை வேண்டும்' are grammatically awkward and do not read as clear Tamil sentences.
-  The reel_script says the demand was to 'திரும்ப பெற' the production price raise, but the article says the 6 percent raise should be withdrawn; the draft omits the 6 percent amount, which mismatches the article's specific claim.
-attempt 2 groq/qwen/qwen3.8-27b: 4 problems
-  fact-check: The article says the balloon production price was raised by 6 percent; the draft's reel_script and slides omit the percentage, which is an important figure, so the claim is incomplete rather than wrong.
-  fact-check: The caption's date line 'நேற்று (நவம்பர் 18)' states the date as November 18, but the article is dated November 19 and says 'நேற்று' (yesterday), so the event date is inferred and not stated in the article.
-  fact-check: The caption's 'நடவடிக்கை' line says 'கோரிக்கைகளை வலியுறுத்தி ஆர்ப்பாட்டம் நடத்தினர்' which is acceptable, but the slides spec line 'உற்பத்தி விலை உயர்வை திரும்ப பெற வேண்டும்' and 'நேரடியாக கொள்முதல் செய்ய வழிவகை வேண்டும்' are grammatically awkward and do not read as clear Tamil sentences.
-  fact-check: The reel_script says the demand was to 'திரும்ப பெற' the production price raise, but the article says the 6 percent raise should be withdrawn; the draft omits the 6 percent amount, which mismatches the article's specific claim.
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+switching away from groq/qwen/qwen3.8-27b for 10 min
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` 
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 ok anthropic/claude-haiku-5-5
-claude rewrite 1 anthropic/claude-haiku-5-5: 1 problems
-  numbers not found in the article: 6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
-proofread skipped: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7a2whq2ef48ntxcv5v5635b` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1482. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
-
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+free fact-check unavailable, using Claude: no free model answered: None
+ok anthropic/claude-haiku-5-5
+claude rewrite 1 anthropic/claude-haiku-5-5: 1 problems
+  sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+ok anthropic/claude-haiku-5-5
+factcheck by anthropic/claude-haiku-5-5: 4 problems
+  Reel_script says 'திருச்சி மாநகரில்' (in Trichy city) for the seizures, which matches the article; no issue there. However, the reel_script and slides say the officers 'பி. முருகானந்தம் தலைமையிலான' conducted inspections, which matches. The main problem: the reel_script and slides say the seized air horns were 'விதிமீறிய' and the caption says 'வாகனங்களில் சட்டவிதிகளை மீறி வைக்கப்பட்டிருந்த', which is acceptable. Real issue: the caption's first paragraph says the air horns were seized and 'போக்குவரத்துத் துறையினர் ரூ. 1 லட்சம் அபராதம் விதித்தனர்' – consistent. The slide 'எத்தனை வாகனங்கள்?' line reads '7 தனியார் பேருந்துகள், ஒரு கல்லூரி வாகனம், ஒரு மில்' and omits the lorry, which is a missing fact, but the slide line is truncated rather than wrong.
+  Slide 2 line 1 says '50க்கும் மேற்பட்ட தனியார் பேருந்துகள், கல்லூரி' which wrongly attributes the 50+ inspected vehicles only to private buses and college vehicles, omitting lorries, which the article says were also inspected (50+ private buses, college vehicles, lorries).
+  The reel_script states the penalty was 'மொத்தம் ரூ. 1 லட்சம்' and per vehicle Rs 10,000 each; the article says Rs 10,000 per vehicle for the 10 vehicles, which matches the total, so no error there.
+  The reel_script omits the lorry from the list of vehicles where horns were seized, which is an important detail of the article (the full breakdown of seized vehicles is incomplete in the reel_script, which lists only 'அதிக ஒலி எழுப்பும் காற்று ஒலிப்பான்கள்' without the vehicle breakdown).
+claude rewrite 1 anthropic/claude-haiku-5-5: 4 problems
+  fact-check: Reel_script says 'திருச்சி மாநகரில்' (in Trichy city) for the seizures, which matches the article; no issue there. However, the reel_script and slides say the officers 'பி. முருகானந்தம் தலைமையிலான' conducted inspections, which matches. The main problem: the reel_script and slides say the seized air horns were 'விதிமீறிய' and the caption says 'வாகனங்களில் சட்டவிதிகளை மீறி வைக்கப்பட்டிருந்த', which is acceptable. Real issue: the caption's first paragraph says the air horns were seized and 'போக்குவரத்துத் துறையினர் ரூ. 1 லட்சம் அபராதம் விதித்தனர்' – consistent. The slide 'எத்தனை வாகனங்கள்?' line reads '7 தனியார் பேருந்துகள், ஒரு கல்லூரி வாகனம், ஒரு மில்' and omits the lorry, which is a missing fact, but the slide line is truncated rather than wrong.
+  fact-check: Slide 2 line 1 says '50க்கும் மேற்பட்ட தனியார் பேருந்துகள், கல்லூரி' which wrongly attributes the 50+ inspected vehicles only to private buses and college vehicles, omitting lorries, which the article says were also inspected (50+ private buses, college vehicles, lorries).
+  fact-check: The reel_script states the penalty was 'மொத்தம் ரூ. 1 லட்சம்' and per vehicle Rs 10,000 each; the article says Rs 10,000 per vehicle for the 10 vehicles, which matches the total, so no error there.
+  fact-check: The reel_script omits the lorry from the list of vehicles where horns were seized, which is an important detail of the article (the full breakdown of seized vehicles is incomplete in the reel_script, which lists only 'அதிக ஒலி எழுப்பும் காற்று ஒலிப்பான்கள்' without the vehicle breakdown).
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+free fact-check unavailable, using Claude: no free model answered: None
+ok anthropic/claude-haiku-5-5
+factcheck by anthropic/claude-haiku-5-5: 0 problems
+claude rewrite 1 anthropic/claude-haiku-5-5: 0 problems
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+proofread skipped: no free model answered: None
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 ok anthropic/claude-haiku-5-5
 claude rewrite 2 anthropic/claude-haiku-5-5: 1 problems
-  numbers not found in the article: 6
+  hl1 (the first headline on screen) must name the place 'திருச்சி', e.g. 'திருச்சி: ...' or 'திருச்சி-இல் ...' - viewers share news of their own area
 ok anthropic/claude-haiku-5-5
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-real photo: vision check unavailable: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:ge
-real photo: vision check out of free quota
-ok anthropic/claude-haiku-5-5
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok groq/qwen/qwen3.8-27b (0s)
-factcheck by groq/qwen/qwen3.8-27b: 2 problems
-  The draft omits the specific percentage of the price hike (6%) mentioned in the article ('ஆறு சதவீதம்'), stating only that the price was increased.
-  The reel_script and caption generalize the demand to 'revert the balloon price hike' instead of the specific demand to 'revert the 6% increase in balloon production price' as stated in the article.
-claude rewrite 3 anthropic/claude-haiku-5-5: 2 problems
-  fact-check: The draft omits the specific percentage of the price hike (6%) mentioned in the article ('ஆறு சதவீதம்'), stating only that the price was increased.
-  fact-check: The reel_script and caption generalize the demand to 'revert the balloon price hike' instead of the specific demand to 'revert the 6% increase in balloon production price' as stated in the article.
+ok anthropic/claude-haiku-5-5
+claude rewrite 2 anthropic/claude-haiku-5-5: 1 problems
+  known issue repeated_words: the same sentence is read twice - rewrite so it does not happen again
+ok anthropic/claude-haiku-5-5
+claude rewrite 3 anthropic/claude-haiku-5-5: 1 problems
+  sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
-proofread skipped: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7a2whq2ef48ntxcv5v5635b` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1924. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
-
+proofread skipped: no free model answered: None
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok groq/qwen/qwen3.8-27b (1s)
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+ok anthropic/claude-haiku-5-5
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+free fact-check unavailable, using Claude: no free model answered: None
+ok anthropic/claude-haiku-5-5
+factcheck by anthropic/claude-haiku-5-5: 6 problems
+  slides_spec slide 3 lists '1 கல்லூரி வாகனம்' (one college vehicle) under the 7 private buses, but the article says 7 private buses, one college vehicle, one mill vehicle and one lorry were seized; the mill vehicle and lorry are omitted from the slide's list, and the 7 buses and 1 college vehicle are mixed into one line
+  slides_spec slide 3 says the fine was imposed on each vehicle and totals Rs 1 lakh, but the 'அபராதம்' line for '7 தனியார் பேருந்துகள், 1 கல்லூரி வாகனம்' implies only those vehicles were fined, while the article fined all 10 seized vehicles (7 buses, 1 college vehicle, 1 mill vehicle, 1 lorry), so the vehicle count for the fine is inconsistent
+  reel_script omits the fact that the seized air horns were from private buses, college vehicles, a mill vehicle and a lorry, and omits the 'வாகனங்களில் ரூ. 10 ஆயிரம் தலா' per-vehicle basis as an important detail mixed into sentences
+  slides_spec slide 1 line 'திருச்சி மாநகரில் சட்ட விதிகளை மீறிய <b>காற்று' is an unfinished sentence fragment that breaks mid-phrase and has no clear meaning in Tamil
+  slides_spec slide 2 line '<b>50</b>க்கும் மேற்பட்ட தனியார் பேருந்துகள், கல்லூரி' is cut off mid-phrase and ungrammatical
+  caption describes the 'வாகனங்களில் வைக்கப்பட்டிருந்த' air horns as seized and fined but the caption's 'மக்கள் கவனத்திற்கு' warning is consistent; however the caption's 📍-style summary lists '🚌 பறிமுதல்' correctly, so no additional issue there
+claude rewrite 3 anthropic/claude-haiku-5-5: 6 problems
+  fact-check: slides_spec slide 3 lists '1 கல்லூரி வாகனம்' (one college vehicle) under the 7 private buses, but the article says 7 private buses, one college vehicle, one mill vehicle and one lorry were seized; the mill vehicle and lorry are omitted from the slide's list, and the 7 buses and 1 college vehicle are mixed into one line
+  fact-check: slides_spec slide 3 says the fine was imposed on each vehicle and totals Rs 1 lakh, but the 'அபராதம்' line for '7 தனியார் பேருந்துகள், 1 கல்லூரி வாகனம்' implies only those vehicles were fined, while the article fined all 10 seized vehicles (7 buses, 1 college vehicle, 1 mill vehicle, 1 lorry), so the vehicle count for the fine is inconsistent
+  fact-check: reel_script omits the fact that the seized air horns were from private buses, college vehicles, a mill vehicle and a lorry, and omits the 'வாகனங்களில் ரூ. 10 ஆயிரம் தலா' per-vehicle basis as an important detail mixed into sentences
+  fact-check: slides_spec slide 1 line 'திருச்சி மாநகரில் சட்ட விதிகளை மீறிய <b>காற்று' is an unfinished sentence fragment that breaks mid-phrase and has no clear meaning in Tamil
+  fact-check: slides_spec slide 2 line '<b>50</b>க்கும் மேற்பட்ட தனியார் பேருந்துகள், கல்லூரி' is cut off mid-phrase and ungrammatical
+  fact-check: caption describes the 'வாகனங்களில் வைக்கப்பட்டிருந்த' air horns as seized and fined but the caption's 'மக்கள் கவனத்திற்கு' warning is consistent; however the caption's 📍-style summary lists '🚌 பறிமுதல்' correctly, so no additional issue there
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+proofread skipped: no free model answered: None
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok anthropic/claude-haiku-5-5
+real photo: vision check unavailable: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:ge
+real photo: vision check out of free quota
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 2 for 'Rowdy arrested for selling drug tablets '
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-0236","first":"RN-80"}
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 2 for 'Cleaning work intensifies in Trichy city'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-0658","first":"RN-82"}
 posting job started at once
+real photo skipped (photo uploaded 2026-09-20 (older than the news)): https://media.dinamani.com/dinamani/2026-09-20/4r2g94s1/Court-judge-judicial-ANI-edi.jpg
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 2 for 'Man who smuggled 18 tonnes of ration ric'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-0658","first":"RN-83"}
 real photo: vision check resting (free quota busy)
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 2 for 'Trichy balloon traders protest against p'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-0237","first":"RN-81"}
+images made: 2 for 'Air horns seized from vehicles in Trichy'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-0658","first":"RN-84"}
 earlier stories still waiting for images: []
 instagram check: 50 recent posts read from the page
 pick round: only the picked links are written (research_free/pick.py)
-manual link added: https://www.dinakaran.com/district/trichy_191126_1
-manual link added: https://www.dinakaran.com/district/trichy_191126_3
-candidate filter: collected=2
-to write: 2 Trichy district candidates (max 2 stories)
-round: top 2 of 2 candidates
-candidates waiting: 2 Trichy; time left 79 min
-try (N) manual=True: https://www.dinakaran.com/district/trichy_191126_3
-try (N) manual=True: https://www.dinakaran.com/district/trichy_191126_1
+manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/18/air-horns-confiscated-from-vehicles-rs-1-lakh-fine-imposed
+manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/18/action-taken-under-the-goondas-act-against-person-smuggling-ration-rice
+manual link added: https://www.dinakaran.com/district/trichy_191126_2
+candidate filter: collected=3
+to write: 3 Trichy district candidates (max 3 stories)
+round: top 3 of 3 candidates
+candidates waiting: 3 Trichy; time left 79 min
+try (N) manual=True: https://www.dinakaran.com/district/trichy_191126_2
+try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/
+try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/
 auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})
 posting job started at once
 auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})
-candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 78 min
-filed: 2 Trichy district stories (target 2), reels only
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})
+candidate loop ended: left 0, tried={'N': 3}, done={'N': 3}, time left 75 min
+filed: 3 Trichy district stories (target 3), reels only
 queue: 0 news waiting to be written
-All News sheet: {"ok":true,"added":2,"updated":0} 
-stories: 2
+All News sheet: {"ok":true,"added":3,"updated":0} 
+stories: 3
