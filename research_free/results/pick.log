@@ -10,3 +10,18 @@
 04:28:56    5. [பொது] விஎஸ் பாபு மறைவு: முதல் அமைச்சர் விஜய்யின் திருச்சி பயணம் ரத்து (தினத்தந்தி) (earlier)
 04:28:56 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
 ROUND=2026-11-20_04
+04:28:58    not picked automatically (suicide / obituary - only when the owner ticks it): விஎஸ் பாபு மறைவு: முதல் அமைச்சர் விஜய்யின் திருச்சி பயணம் ரத்து
+04:28:58 round 2026-11-20_04 (at least 7, up to 3 more of well-watched topics): 4 news to choose from (0 from earlier rounds), ranked by this page's insights
+04:28:58   PICK   1.  17.0 [crime +1.50 page] ஓய்வு பெற்ற அரசு ஊழியரிடம் ரூ. 49 லட்சம் மோசடி
+04:28:58   PICK   2.  17.0 [crime +1.50 page] பொக்லைன் இயந்திரத்தில் பேட்டரிகள் திருடிய 4 போ் கைது
+04:28:58   PICK   3.   3.3 [poultry_agri -0.30 pattern] மேக்கேதாட்டு அணை கட்ட எதிா்ப்பு: காவிரி ஆற்று மணலில் புதைந்த
+04:28:58   PICK   4.   3.0 [other +0.00 pattern] வண்ணத்துப்பூச்சி பூங்காவில் ‘டாா்க் பிராண்ட் புஷ்பிரவுன்’ பு
+04:28:58 decided: automatic: top 7 of 4 by insights -> 4 news to write and post
+PICK_URLS=https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/19/ஓய்வு-பெற்ற-அரசு-ஊழியரிடம்-ரூ-49-லட்சம்-மோசடி https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/19/பொக்லைன்-இயந்திரத்தில்-பேட்டரிகள்-திருடிய-4-போ்-கைது https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/19/protest-against-the-construction-of-the-mekedatu-dam-farmers-stage-a-unique-demonstration-by-burying-themselves-in-the-sand-of-the-cauvery-riverbed https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/19/new-species-dark-brand-bushbrown-recorded-at-the-butterfly-park
+04:31:41 4 listed news now in the Sheet
+04:31:52 instagram duplicate check trichy: 50 recent posts read
+04:31:52 verify 2026-11-20_04: 0 of 4 picked news posted, 1 skipped on purpose, 3 waiting for their posting start
+04:31:52    WAITING C20a194b: waiting RN-90: waits for prime time (06:00 IST) - வண்ணத்துப்பூச்சி பூங்காவில் ‘டாா்க் பிராண்ட் புஷ்பிரவுன்’ பு
+04:31:52    WAITING C27d9358: waiting RN-93: waits for prime time (06:00 IST) - ஓய்வு பெற்ற அரசு ஊழியரிடம் ரூ. 49 லட்சம் மோசடி
+04:31:52    WAITING Cddfcb34: waiting RN-91: waits for prime time (06:00 IST) - மேக்கேதாட்டு அணை கட்ட எதிா்ப்பு: காவிரி ஆற்று மணலில் புதைந்த
+04:31:52    SKIPPED C5619c50: skipped RN-92: held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the ar - பொக்லைன் இயந்திரத்தில் பேட்டரிகள் திருடிய 4 போ் கைது
