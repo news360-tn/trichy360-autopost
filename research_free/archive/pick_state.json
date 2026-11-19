@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-19T18:29:57.028221+05:30",
+ "last_end": "2026-11-19T22:13:21.953276+05:30",
  "pool": {
   "C83cbaf8": {
    "id": "C83cbaf8",
@@ -12,20 +12,6 @@
    "score": 12.5,
    "power_cut": false,
    "listed_at": "2026-11-19T06:51:57.216033+05:30"
-  },
-  "C0fdf910": {
-   "id": "C0fdf910",
-   "url": "https://www.maalaimalar.com/news/tamilnadu/baby-girl-placed-in-a-bag-and-abandoned-by-the-roadside",
-   "title": "பச்சிளம் பெண் குழந்தை பையில் வைத்து சாலையோரம் வீச்சு",
-   "summary": "பச்சிளம் பெண் குழந்தையை பையில் வைத்து சாலையோரத்தில் வீசிச் சென்ற கல்நெஞ்சம் படைத்த தாய் யார்? கள்ளக்காதலில் பிறந்ததால் குழந்தை வீசப்பட்டதா? என்பது குறித்து முசிறி போலீசார் வழக்குப்பதிவு செய்து தீவிர விசாரணை நடத்தி வரு...",
-   "source": "மாலைமலர்",
-   "published": "2026-11-19T11:12:48Z",
-   "category": "சாலை",
-   "score": 10.01,
-   "power_cut": false,
-   "listed_at": "2026-11-19T18:29:57.028221+05:30",
-   "picked_at": "2026-11-19T18:34:10.173117+05:30",
-   "posted": true
   },
   "C0bd23e2": {
    "id": "C0bd23e2",
@@ -44,20 +30,6 @@
    "picked_at": "2026-11-19T18:34:10.173125+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
   },
-  "C9c31f4e": {
-   "id": "C9c31f4e",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-news/chief-minister-vijays-trichy-programmes-cancelled/4380508",
-   "title": "முதல்வர் விஜயின் திருச்சி நிகழ்ச்சிகள் ரத்து",
-   "summary": "சென்னை:முதல்வர் விஜய், நாளை திருச்சி செல்ல உள்ளதாக அறிவிக்கப்பட்டது. அங்கு, அரசு மருத்துவ கல்லூரி மருத்துவமனையில், 134 கோடி ரூபாயில் கட்டப்பட்ட விரிவான மருத்துவ சிகிச்சை கட்டடத்தை திறந்து வைக்க இருந்தார்.",
-   "source": "தினமலர்",
-   "published": "2026-11-19T17:30:00+05:30",
-   "category": "பொது",
-   "score": 5.59,
-   "power_cut": false,
-   "listed_at": "2026-11-19T18:29:57.028221+05:30",
-   "picked_at": "2026-11-19T18:34:10.173127+05:30",
-   "posted": true
-  },
   "Ce3c1dfc": {
    "id": "Ce3c1dfc",
    "url": "https://www.dailythanthi.com/news/tamilnadu/death-of-vs-babu-chief-minister-vijays-trichy-visit-cancelled",
@@ -70,33 +42,20 @@
    "power_cut": false,
    "listed_at": "2026-11-19T18:29:57.028221+05:30"
   },
-  "C56c0af3": {
-   "id": "C56c0af3",
-   "url": "https://www.dinakaran.com/news/farmers-protest-themselves-cauvery-riverbed/amp",
-   "title": "காவிரி மணலில் புதைந்து விவசாயிகள் போராட்டம்; திருச்சியில் பரபரப்பபு",
-   "summary": "திருச்சி: மேகதாதுவில் அணை கட்ட கர்நாடக அரசு முயற்சித்து வருகிறது. இதற்கு தமிழக கட்சிகள் கண்டனம் தெரிவித்து வருகின்றன. இந்நிலையில் அணை கட்டியே தீருவோம் என கர்நாடக முன்னாள் பிரதமர் தேவகவுடாவின் மகனும், முன்னாள் கர்நாடக ...",
-   "source": "தினகரன்",
-   "published": "2026-11-19T15:04:12+05:30",
+  "C42af116": {
+   "id": "C42af116",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-news/gambling-accused-files-police-complaint/4380968",
+   "title": "சூதாட்டத்தில் கைதானவர் போலீஸ் மீது புகார்",
+   "summary": "திருச்சி: திருச்சியில், சூதாட்டத்தில் ஈடுபட்டதாக கைதானவர், பறிமுதல் செய்த பணத்தை போலீசார் வைத்துக் கொண்டதாக கூறி மறியலில் செய்தார். சூதாட்டத்தில் கைப்பற்றிய பணத்தை போலீசார் மோசடி செய்ததாகக் கூறி, சூதாட்டத்தில் பிடிபட்...",
+   "source": "தினமலர்",
+   "published": "2026-11-19T21:36:54+05:30",
    "category": "பொது",
-   "score": 3.2800000000000002,
+   "score": 12.5,
    "power_cut": false,
-   "listed_at": "2026-11-19T18:29:57.028221+05:30",
-   "picked_at": "2026-11-19T18:34:10.173128+05:30",
-   "posted": true
+   "listed_at": "2026-11-19T22:13:21.953276+05:30"
   }
  },
  "rounds": {
-  "2026-11-15_13": {
-   "window": [
-    "2026-11-15T09:58:32.885227+05:30",
-    "2026-11-15T13:54:20.445621+05:30"
-   ],
-   "ids": [],
-   "sent": false,
-   "deadline": "2026-11-15T14:54:20.445621+05:30",
-   "decided": null,
-   "written": []
-  },
   "2026-11-15_17": {
    "window": [
     "2026-11-15T13:54:20.445621+05:30",
@@ -620,6 +579,21 @@
    "refused": {
     "C0bd23e2": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
    }
+  },
+  "2026-11-19_22": {
+   "window": [
+    "2026-11-19T18:29:57.028221+05:30",
+    "2026-11-19T22:13:21.953276+05:30"
+   ],
+   "ids": [
+    "C42af116",
+    "C83cbaf8",
+    "Ce3c1dfc"
+   ],
+   "sent": false,
+   "deadline": "2026-11-19T23:13:21.953276+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}
