@@ -1,23 +1,5 @@
 {
  "seen": {
-  "https://tamil.samayam.com/tamil-nadu/news/power-outage-in-tamilnadu-on-november-16-2026-due-to-maintenance-work/articleshow/135853681.cms#district-section": {
-   "at": "2026-11-15T16:53:56.221788+05:30",
-   "power_cut": false,
-   "why": "not this district",
-   "title": "தமிழகத்தில் நாளை (16-11-2026) மின்தடை அறிவிப்பு! ஏரியாக்கள் லிஸ்ட் இதோ!"
-  },
-  "https://tamil.abplive.com/news/tirunelveli/tirunelveli-tenkasi-power-outage-on-november-17-will-your-area-be-affected-279779/amp#district-section": {
-   "at": "2026-11-15T17:28:04.748694+05:30",
-   "power_cut": false,
-   "why": "not this district",
-   "title": "திருநெல்வேலி, தென்காசி: நவம்பர் 17 அன்று மின்தடை! உங்கள் பகுதி பாதிக்கப்படுமா?"
-  },
-  "https://tamil.samayam.com/tamil-nadu/news/virudhunagar-collectorate-power-outage-minister-event-je-suspended/articleshow/135856525.cms#district-section": {
-   "at": "2026-11-15T19:09:17.511641+05:30",
-   "power_cut": false,
-   "why": "not this district",
-   "title": "விருதுநகர் ஆட்சியர் அலுவலகத்தில் அமைச்சர் பங்கேற்ற நிகழ்வின்போது திடீர் மின்தடை: மின்வாரிய இளநிலை பொறியாளர் (JE) அதிரடி சஸ்பெண்ட்!"
-  },
   "https://www.dinamani.com/all-editions/edition-trichy/tanjore/2026/Nov/15/%E0%AE%86%E0%AE%9F%E0%AF%81%E0%AE%A4%E0%AF%81%E0%AE%B1%E0%AF%88-%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%88-%E0%AE%AE%E0%AE%BF%E0%AE%A9%E0%AF%8D%E0%AE%A4%E0%AE%9F%E0%AF%88-2": {
    "at": "2026-11-16T00:54:54.921192+05:30",
    "power_cut": false,
@@ -857,6 +839,72 @@
    "power_cut": false,
    "why": "not this district",
    "title": "Mayiladuthurai Power Shutdown : மயிலாடுதுறை மாவட்ட மக்களே உஷார்! இன்று (நவ.19) பகல் நேரத்தில் மின்சாரம் துண்டிப்பு - உங்கள் ஊர் இந்தப் பட்டியலில் இருக்கா?"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-madurai/power-outage-today-nov-20/4380458": {
+   "at": "2026-11-19T22:57:07.336556+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "நாளை (நவ.,20) மின்தடை"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-cuddalore/tomorrows-power-outage/4380584": {
+   "at": "2026-11-19T22:57:07.336556+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "நாளை மறுதினம்(நவ.21) மின் நிறுத்தம்"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-dindigul/tomorrow-nov-21-power-outage-1-00-am---1-00-pm/4380452": {
+   "at": "2026-11-19T22:57:07.336556+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "நாளை மறுதினம் (நவ.21) மின் தடை: (காலை 9:00 – மதியம் 2:00 மணி)"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-theni/power-outage-by-low-capacity-wires-at-veterinary-college/4380541": {
+   "at": "2026-11-19T22:57:07.336556+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "கால்நடை மருத்துவ கல்லூரியில் குறைந்த திறன் ஒயர்களால் மின்தடை"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-tiruppur/today-s-power-outage/4380560": {
+   "at": "2026-11-19T22:57:07.336556+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "நாளை(நவ.20) மின் நிறுத்தம்"
+  },
+  "https://tamil.abplive.com/news/tamil-nadu/tamilnadu-power-shutdown-20-12-2026-kovai-thanjavur-power-cut-areas-affected-280133/amp#district-section": {
+   "at": "2026-11-19T22:57:07.336556+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "Tamilnadu Power Cut: தமிழகத்தில் நாளை (20-11-2026) எங்கெல்லாம் பவர் கட் ? - மின் வாரியம் வெளியிட்ட லிஸ்ட்"
+  },
+  "https://tamil.abplive.com/news/tamil-nadu/tamilnadu-power-shutdown-20-12-2026-kovai-thanjavur-power-cut-areas-affected-280133#district-section": {
+   "at": "2026-11-19T22:57:07.336556+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "Tamilnadu Power Cut: தமிழகத்தில் நாளை (20-11-2026) எங்கெல்லாம் பவர் கட் ? - மின் வாரியம் வெளியிட்ட லிஸ்ட்"
+  },
+  "https://tamil.abplive.com/news/thanjavur/power-outage-in-thanjavur-district-on-20-11-26-power-outage-in-28-villages-across-thanjavur-district-tomorrow-check-if-your-area-is-included-tnn-280111#district-section": {
+   "at": "2026-11-19T22:57:07.336556+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "Power outage in Thanjavur district on 20.11.26: தஞ்சாவூர் மாவட்டத்தில் நாளை 28 கிராமங்களில் மின்தடை: உங்க ஏரியா இருக்கா செக் பண்ணிக்கோங்க"
+  },
+  "https://tamil.abplive.com/news/coimbatore/coimbatore-power-cut-20-11-2026-know-timings-areas-affected-by-power-shutdown-280103/amp#district-section": {
+   "at": "2026-11-19T22:57:07.336556+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "coimbatore power cut: கோவையில் நாளை (20-11-2026) எங்கெல்லாம் கரண்ட் இருக்காது? - மின்வாரியம் வெளியிட்ட"
+  },
+  "https://tamil.abplive.com/news/chennai/chennai-power-cut-areas-19-11-2026-check-power-shutdown-280059/amp#district-section": {
+   "at": "2026-11-19T22:57:07.336556+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "Chennai Power Cut: சென்னையில் நாளை காலை 10 முதல் மாலை 3 மணி வரை மின்தடை.. உங்க ஏரியா இருக்கா"
+  },
+  "https://tamil.abplive.com/news/coimbatore/coimbatore-power-cut-20-11-2026-know-timings-areas-affected-by-power-shutdown-280103#district-section": {
+   "at": "2026-11-19T22:57:07.336556+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "coimbatore power cut: கோவையில் நாளை (20-11-2026) எங்கெல்லாம் கரண்ட் இருக்காது? - மின்வாரியம் வெளியிட்ட லிஸ்ட்"
   }
  },
  "done": {
@@ -887,10 +935,6 @@
  },
  "retried": {},
  "refused": {
-  "C9190013": {
-   "why": "not filed: duplicate after write",
-   "at": "2026-11-17T14:07:44.290981+05:30"
-  },
   "C04726af": {
    "why": "not filed: duplicate after write",
    "at": "2026-11-18T13:15:51.306681+05:30"
