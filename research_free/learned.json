@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-19T02:32+05:30",
- "posts_measured": 73,
+ "updated": "2026-11-19T06:51+05:30",
+ "posts_measured": 75,
  "topic_weight": {
   "accident": 1.5,
   "crime": 1.5,
-  "power_cut": 0.01,
+  "power_cut": -0.02,
   "education": -0.5,
-  "politics": -0.32,
-  "temple": -0.12
+  "politics": -0.34,
+  "temple": -0.17
  },
  "topic_n": {
   "accident": 7,
-  "crime": 17,
+  "crime": 18,
   "power_cut": 4,
   "civic": 2,
   "education": 4,
@@ -19,7 +19,7 @@
   "sports_culture": 2,
   "weather": 1,
   "temple": 5,
-  "poultry_agri": 1
+  "poultry_agri": 2
  },
  "best_hours_ist": [
   2,
@@ -33,7 +33,7 @@
   "🚨 சமயபுரம் அருகே கொடூர விபத்து: கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி",
   "🗳️ திருச்சி கிழக்கில் 20-ந்தேதி முதலமைச்சர் விஜய் ரோடு-ஷோ"
  ],
- "avg_watch_s": 7.7,
+ "avg_watch_s": 7.6,
  "best_topics": [
   "accident",
   "crime",

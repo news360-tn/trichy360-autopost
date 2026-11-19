@@ -1,41 +1,11 @@
-02:32:58 round 2026-11-19_02: news published 18 Nov 22:10 -> 19 Nov 02:32 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-02:32:58 insights 2026-11-19T02:32+05:30 (73 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': 0.01, 'education': -0.5, 'politics': -0.32, 'temple': -0.12}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-02:33:48 43 links on the two papers' Trichy pages
-02:34:59 skipped: published before this window=16, not Trichy district=12, already posted=11, shop offer / advertisement=1
-02:34:59 list: 3 new + 0 earlier news not posted yet
-02:34:59    1. [குற்றம்] போதை மாத்திரை விற்ற ரவுடி கைது - Dinakaran (தினகரன்)
-02:34:59    2. [விலை] திருச்சியில் பலூன்கள் விலை உயர்வை கண்டித்து ஆர்ப்பாட்டம் - Dinakaran (தினகரன்)
-02:34:59    3. [பொது] முதல்வர் வருகையை முன்னிட்டு திருச்சி மாநகரில் தூய்மைபணி தீவிரம் - Dina (தினகரன்)
-02:34:59 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-19_02
-02:35:01 round 2026-11-19_02 (at least 2, up to 3 more of well-watched topics): 3 news to choose from (0 from earlier rounds), ranked by this page's insights
-02:35:01   PICK   1.  17.0 [crime +1.50 page] போதை மாத்திரை விற்ற ரவுடி கைது - Dinakaran
-02:35:01   PICK   2.   6.1 [poultry_agri -0.30 pattern] திருச்சியில் பலூன்கள் விலை உயர்வை கண்டித்து ஆர்ப்பாட்டம் - D
-02:35:01          3.   4.7 [politics -0.32 page] முதல்வர் வருகையை முன்னிட்டு திருச்சி மாநகரில் தூய்மைபணி தீவி
-02:35:01 decided: automatic: top 2 of 3 by insights -> 2 news to write and post
-PICK_URLS=https://www.dinakaran.com/district/trichy_191126_1 https://www.dinakaran.com/district/trichy_191126_3
-02:37:06 2 listed news now in the Sheet
-02:37:17 instagram duplicate check trichy: 50 recent posts read
-02:37:18 verify 2026-11-19_02: 0 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-02:37:18    NOT POSTED C0bd6af7: queued RN-81 (Queued) - திருச்சியில் பலூன்கள் விலை உயர்வை கண்டித்து ஆர்ப்பாட்டம் - D
-02:37:18    NOT POSTED C1b08ab2: queued RN-80 (Queued) - போதை மாத்திரை விற்ற ரவுடி கைது - Dinakaran
-02:42:26 instagram duplicate check trichy: 50 recent posts read
-02:42:26 verify 2026-11-19_02: 0 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-02:42:26    NOT POSTED C0bd6af7: queued RN-81 (Queued) - திருச்சியில் பலூன்கள் விலை உயர்வை கண்டித்து ஆர்ப்பாட்டம் - D
-02:42:26    NOT POSTED C1b08ab2: queued RN-80 (Queued) - போதை மாத்திரை விற்ற ரவுடி கைது - Dinakaran
-02:47:37 instagram duplicate check trichy: 50 recent posts read
-02:47:37 verify 2026-11-19_02: 1 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-02:47:37    NOT POSTED C0bd6af7: queued RN-81 (Queued) - திருச்சியில் பலூன்கள் விலை உயர்வை கண்டித்து ஆர்ப்பாட்டம் - D
-02:52:45 instagram duplicate check trichy: 50 recent posts read
-02:52:45 verify 2026-11-19_02: 1 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-02:52:45    NOT POSTED C0bd6af7: queued RN-81 (Queued) - திருச்சியில் பலூன்கள் விலை உயர்வை கண்டித்து ஆர்ப்பாட்டம் - D
-02:57:53 instagram duplicate check trichy: 50 recent posts read
-02:57:53 verify 2026-11-19_02: 1 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-02:57:53    NOT POSTED C0bd6af7: queued RN-81 (Queued) - திருச்சியில் பலூன்கள் விலை உயர்வை கண்டித்து ஆர்ப்பாட்டம் - D
-03:03:02 instagram duplicate check trichy: 50 recent posts read
-03:03:02 verify 2026-11-19_02: 1 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-03:03:02    NOT POSTED C0bd6af7: queued RN-81 (Queued) - திருச்சியில் பலூன்கள் விலை உயர்வை கண்டித்து ஆர்ப்பாட்டம் - D
-03:08:09 instagram duplicate check trichy: 50 recent posts read
-03:08:09 verify 2026-11-19_02: 1 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-03:08:09    NOT POSTED C0bd6af7: queued RN-81 (Queued) - திருச்சியில் பலூன்கள் விலை உயர்வை கண்டித்து ஆர்ப்பாட்டம் - D
-03:13:15 verify 2026-11-19_02: 2 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+06:51:57 round 2026-11-19_06: news published 19 Nov 02:32 -> 19 Nov 06:51 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+06:51:57 insights 2026-11-19T06:51+05:30 (75 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': -0.02, 'education': -0.5, 'politics': -0.34, 'temple': -0.17}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+06:52:51 45 links on the two papers' Trichy pages
+06:54:05 skipped: published before this window=15, not Trichy district=15, already posted=6, same event already posted=2, shop offer / advertisement=1
+06:54:05 list: 3 new + 1 earlier news not posted yet
+06:54:05    1. [குற்றம்] தனியாா் கல்லூரி மாணவா் தூக்கிட்டுத் தற்கொலை (தினமணி)
+06:54:05    2. [குற்றம்] வாகனங்களில் காற்று ஒலிப்பான்கள் பறிமுதல்: ரூ. 1 லட்சம் அபராதம் (தினமணி)
+06:54:05    3. [குற்றம்] ரேஷன் அரிசி கடத்தியவா்மீது குண்டா் சட்டத்தில் நடவடிக்கை (தினமணி)
+06:54:05    4. [பொது] முதல்வர் வருகையை முன்னிட்டு திருச்சி மாநகரில் தூய்மைபணி தீவிரம் - Dina (தினகரன்) (earlier)
+06:54:05 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-19_06
