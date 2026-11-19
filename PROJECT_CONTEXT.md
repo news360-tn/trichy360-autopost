@@ -83,6 +83,7 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-19 | `c91c589` | Posting time first: news posts 06:00-12:00 and 15:00-21:00 IST; collection fitted to it (04:00, 08:30, 13:00, 16:30, 18:30) |
 | 2026-11-19 | `bd17f41` | 19 Nov owner changes: reel length / wording, source first comment, 360 gold reel, posting windows, rasipalan before 9 AM |
 | 2026-11-19 | `87351b7` | powercut: notices written |
 | 2026-11-19 | `b981314` | powercut: notices written |
@@ -112,5 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-19 | `5cdc5f9` | pick: written and posted |
 | 2026-11-19 | `d7934e9` | pick: picked news saved |
 | 2026-11-19 | `bc438c8` | pick: list sent |
-| 2026-11-19 | `bea8c7e` | goldrate posted |
 <!-- recent-changes:end -->
