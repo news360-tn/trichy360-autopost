@@ -1,5 +1,5 @@
 """owner 19 Nov: the daily gold & silver rate also as a REEL (carousels reach few people). Made from the same 2 slides as the carousel:
-a 9:16 frame per slide (hook line on top, the slide, Follow line at the bottom), slow zoom, Tamil voice (Valluvar) reading today's
+owner 19 Nov 'modern theme': full-screen scenes (hook, 22K, 24K, silver, follow), one per spoken line, slide transitions, Tamil voice (Valluvar) reading today's
 rate and the change, soft music. Posted AFTER the carousel, separately: a reel problem never touches the carousel or the news posts.
 make(page, rates, slide_jpgs, outdir, log) -> (mp4 path, spoken script)"""
 import json
@@ -54,49 +54,148 @@ def hook(r, kind):
     return ("வெள்ளி விலை " + (f"₹{abs(d)} {word}" if d else "மாற்றமில்லை"), "ஒரு கிராம்", d)
 
 
-def frame_html(p, r, kind, slide):
+def sparkline(points, color, w=860, h=200):
+    """the week as a smooth line with a soft fill and a glowing last point"""
+    vals = [v for _, v in points] if points and isinstance(points[0], (list, tuple)) else list(points or [])
+    if len(vals) < 2:
+        return ""
+    lo, hi = min(vals), max(vals)
+    span = (hi - lo) or 1
+    xs = [20 + i * (w - 40) / (len(vals) - 1) for i in range(len(vals))]
+    ys = [h - 30 - (v - lo) / span * (h - 70) for v in vals]
+    line = " ".join(f"{'M' if i == 0 else 'L'}{x:.1f},{y:.1f}" for i, (x, y) in enumerate(zip(xs, ys)))
+    area = line + f" L{xs[-1]:.1f},{h} L{xs[0]:.1f},{h} Z"
+    dots = "".join(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="6" fill="rgba(255,255,255,.55)"/>' for x, y in zip(xs[:-1], ys[:-1]))
+    return (f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}"><defs><linearGradient id="f" x1="0" y1="0" x2="0" y2="1">'
+            f'<stop offset="0" stop-color="{color}" stop-opacity=".45"/><stop offset="1" stop-color="{color}" stop-opacity="0"/></linearGradient></defs>'
+            f'<path d="{area}" fill="url(#f)"/><path d="{line}" fill="none" stroke="{color}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>'
+            f'{dots}<circle cx="{xs[-1]:.1f}" cy="{ys[-1]:.1f}" r="22" fill="{color}" opacity=".25"/><circle cx="{xs[-1]:.1f}" cy="{ys[-1]:.1f}" r="11" fill="{color}"/></svg>')
+
+
+def chip(d, unit=""):
+    if d < 0:
+        return f'<span class="chip down">▼ ₹{abs(d):,}{unit} குறைவு</span>'
+    if d > 0:
+        return f'<span class="chip up">▲ ₹{d:,}{unit} உயர்வு</span>'
+    return '<span class="chip same">● மாற்றமில்லை</span>'
+
+
+def inr(n):
     import gold_render as render
-    big, small, d = hook(r, kind)
-    col = "#2ECC71" if d < 0 else "#FF5A5A" if d > 0 else "#F2C14E"
-    arrow = "▼" if d < 0 else "▲" if d > 0 else "●"
-    bg = ("radial-gradient(90% 60% at 80% 15%,#3A1408 0%,#140808 45%,#07070B 100%)" if kind == "gold"
-          else "radial-gradient(90% 60% at 80% 15%,#16325E 0%,#0A1428 50%,#050A16 100%)")
-    fonts = render.ff("NST", "noto-sans-tamil", [700, 800, 900]) + render.ff("CT", "catamaran", [800, 900])
-    when = "இன்று மாலை" if r.get("kick") == "மாலை நிலவரம்" else "இன்று"
+    return render.inr(n)
+
+
+def scene_list(r):
+    """one scene per spoken line (script order)"""
+    out = ["hook", "g22", "g24"]
+    if r.get("silver"):
+        out.append("silver")
+    return out + ["outro"]
+
+
+def scene_html(p, r, kind, i, n):
+    import gold_render as render
+    fonts = render.ff("NST", "noto-sans-tamil", [500, 700, 800, 900]) + render.ff("CT", "catamaran", [700, 800, 900])
+    silver = kind == "silver"
+    acc, acc2 = ("#E9EEF6", "#9FB3CF") if silver else ("#FFD66B", "#F2A93B")
+    glow = "rgba(140,170,220,.35)" if silver else "rgba(255,180,60,.32)"
+    pm = r.get("kick") == "மாலை நிலவரம்"
+    logo = f'<img class="logo" src="file://{Path(p["logo"]).resolve()}">' if p.get("logo") and Path(p["logo"]).exists() else ""
+    bars = "".join(f'<i class="{"on" if k <= i else ""}"></i>' for k in range(n))
+    head = (f'<div class="bars">{bars}</div><div class="top">{logo}<div class="brand">{p["name1"]}<b>360</b></div>'
+            f'<div class="date">{"மாலை • " if pm else ""}{r["date"]}</div></div>')
+    if kind == "hook":
+        d = r["g22"] - r["g22_prev"]
+        word = "குறைந்தது" if d < 0 else "உயர்ந்தது" if d > 0 else "மாற்றமில்லை"
+        col = "#3BE08C" if d < 0 else "#FF5D5D" if d > 0 else acc
+        arrow = "↓" if d < 0 else "↑" if d > 0 else "→"
+        body = f"""<div class="center">
+<div class="eyebrow">{"இன்று மாலை" if pm else "இன்றைய"} விலை நிலவரம்</div>
+<div class="title">தங்கம்<br><span class="grad">விலை</span></div>
+<div class="delta" style="color:{col}"><span class="arr" style="background:{col}22;border-color:{col}66">{arrow}</span>{"₹" + f"{abs(d):,}" if d else ""}</div>
+<div class="word" style="color:{col}">{word}</div>
+<div class="sub">22K • ஒரு கிராமுக்கு • {r["vs"]}</div></div>"""
+    elif kind in ("g22", "g24", "silver"):
+        if kind == "silver":
+            v, prev, lab, k = r["silver"], r["silver_prev"], "வெள்ளி", "1 கிராம்"
+            extra = (f'<div class="row"><div class="mini"><span>1 கிலோ</span><b>₹{inr(v * 1000)}</b></div>'
+                     f'<div class="mini"><span>கிலோவுக்கு</span>{chip((v - prev) * 1000)}</div></div>')
+            chart = sparkline(r.get("weeksilver") or [], acc)
+        else:
+            v, prev = r[kind], r[kind + "_prev"]
+            lab, k = "தங்கம்", ("22 கேரட்" if kind == "g22" else "24 கேரட்") + " • 1 கிராம்"
+            extra = (f'<div class="row"><div class="mini"><span>1 சவரன் (8 கிராம்)</span><b>₹{inr(v * 8)}</b></div>'
+                     f'<div class="mini"><span>சவரனுக்கு</span>{chip((v - prev) * 8)}</div></div>')
+            chart = sparkline(r.get("week22") or [], acc) if kind == "g22" else ""
+        body = f"""<div class="card">
+<div class="label"><span class="dot"></span>{lab}<em>{k}</em></div>
+<div class="price"><small>₹</small>{inr(v)}</div>
+<div class="vs">{r["vs"]} {chip(v - prev)}</div>
+{extra}
+{f'<div class="chart"><div class="ct">கடந்த 7 நாட்கள்</div>{chart}</div>' if chart else ''}
+</div>"""
+    else:
+        body = f"""<div class="center">
+{logo.replace('class="logo"', 'class="biglogo"')}
+<div class="eyebrow">தினமும் காலை 9:40 மணிக்கு</div>
+<div class="title small">தங்கம், வெள்ளி<br><span class="grad">விலை நிலவரம்</span></div>
+<div class="follow">Follow <b>@{p["handle"]}</b></div></div>"""
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>{fonts}
-*{{margin:0;padding:0;box-sizing:border-box}} body{{width:{W}px;height:{H}px;background:{bg};font-family:CT,NST,sans-serif;color:#fff;overflow:hidden}}
-.top{{position:absolute;top:150px;left:0;right:0;text-align:center}}
-.when{{display:inline-block;font:800 40px CT,NST;letter-spacing:1px;color:#111;background:#FFD23F;padding:8px 30px;border-radius:40px}}
-.big{{margin-top:22px;font:900 70px/1.1 CT,NST;color:{col};text-shadow:0 6px 24px rgba(0,0,0,.6)}}
-.big b{{font-size:64px;margin-right:12px}}
-.small{{margin-top:6px;font:700 36px NST;color:#E8E8E8}}
-.slide{{position:absolute;top:490px;left:40px;width:1000px;height:1250px;border-radius:28px;overflow:hidden;
- box-shadow:0 20px 60px rgba(0,0,0,.65);border:3px solid rgba(255,210,63,.55)}}
-.slide img{{width:100%;height:100%;object-fit:cover}}
-</style></head><body>
-<div class="top"><div class="when">{when} • {r['date']}</div>
-<div class="big"><b>{arrow}</b>{big}</div><div class="small">{small} • @{p['handle']}</div></div>
-<div class="slide"><img src="file://{Path(slide).resolve()}"></div>
-</body></html>"""
+*{{margin:0;padding:0;box-sizing:border-box}}
+body{{width:{W}px;height:{H}px;overflow:hidden;color:#fff;font-family:NST,CT,sans-serif;
+ background:radial-gradient(70% 45% at 85% 8%,{glow},transparent 70%),radial-gradient(60% 40% at 0% 95%,{"rgba(80,110,170,.25)" if silver else "rgba(200,90,30,.22)"},transparent 70%),#0B0B10}}
+body:before{{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:60px 60px;mask:linear-gradient(#000,transparent 75%)}}
+.bars{{position:absolute;top:70px;left:60px;right:60px;display:flex;gap:10px}}
+.bars i{{flex:1;height:7px;border-radius:7px;background:rgba(255,255,255,.18)}} .bars i.on{{background:linear-gradient(90deg,{acc},{acc2})}}
+.top{{position:absolute;top:110px;left:60px;right:60px;display:flex;align-items:center;gap:18px}}
+.logo{{width:84px;height:84px;border-radius:50%;object-fit:cover;border:3px solid rgba(255,255,255,.25)}}
+.brand{{font:900 46px CT,NST;letter-spacing:.5px}} .brand b{{color:{acc};margin-left:4px}}
+.date{{margin-left:auto;font:700 30px NST,CT;padding:12px 24px;border-radius:40px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16)}}
+.center{{position:absolute;top:260px;bottom:360px;left:70px;right:70px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}}
+.eyebrow{{font:800 40px NST;color:{acc};letter-spacing:1px;text-transform:uppercase}}
+.title{{margin-top:14px;font:900 168px/1.02 NST,CT;letter-spacing:-2px}} .title.small{{font-size:96px;letter-spacing:-1px}}
+.grad{{background:linear-gradient(100deg,{acc} 10%,{acc2} 90%);-webkit-background-clip:text;color:transparent}}
+.delta{{margin-top:44px;font:900 190px/1 CT,NST;display:flex;align-items:center;gap:30px;letter-spacing:-4px}}
+.arr{{width:150px;height:150px;border-radius:40px;border:3px solid;display:flex;align-items:center;justify-content:center;font-size:110px;letter-spacing:0}}
+.word{{margin-top:10px;font:900 84px NST}}
+.sub{{margin-top:26px;white-space:nowrap;font:700 34px NST;color:rgba(255,255,255,.7)}}
+.card{{position:absolute;top:calc(50% - 30px);transform:translateY(-50%);left:50px;right:50px;padding:56px 56px 44px;border-radius:48px;background:linear-gradient(160deg,rgba(255,255,255,.10),rgba(255,255,255,.03));
+ border:1.5px solid rgba(255,255,255,.16);box-shadow:0 40px 90px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.18)}}
+.label{{display:flex;align-items:center;gap:18px;font:900 64px NST}} .label em{{font:700 36px NST;font-style:normal;color:rgba(255,255,255,.65);margin-left:6px}}
+.dot{{width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,{acc},{acc2});box-shadow:0 0 30px {acc}}}
+.price{{margin-top:22px;font:900 210px/1 CT;letter-spacing:-6px;background:linear-gradient(180deg,#fff 30%,{acc} 120%);-webkit-background-clip:text;color:transparent}}
+.price small{{font-size:120px;margin-right:10px;vertical-align:28px}}
+.vs{{margin-top:22px;white-space:nowrap;display:flex;align-items:center;gap:18px;font:700 34px NST;color:rgba(255,255,255,.7)}}
+.chip{{font:800 36px NST,CT;padding:10px 24px;border-radius:40px;color:#fff;white-space:nowrap}}
+.chip.down{{background:rgba(40,200,120,.18);color:#4CF0A0;border:1.5px solid rgba(76,240,160,.45)}}
+.chip.up{{background:rgba(255,80,80,.16);color:#FF7A7A;border:1.5px solid rgba(255,122,122,.45)}}
+.chip.same{{background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.25)}}
+.row{{margin-top:40px;display:flex;gap:22px}}
+.mini{{flex:1;padding:26px 30px;border-radius:30px;background:rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.10);display:flex;flex-direction:column;gap:12px;align-items:flex-start}}
+.mini span{{white-space:nowrap;font:700 28px NST;color:rgba(255,255,255,.62)}} .mini b{{font:900 62px CT}}
+.chart{{margin-top:34px}} .ct{{font:700 30px NST;color:rgba(255,255,255,.6);margin-bottom:6px}}
+.biglogo{{width:220px;height:220px;border-radius:50%;object-fit:cover;border:5px solid {acc};box-shadow:0 0 80px {glow};margin-bottom:46px}}
+.follow{{margin-top:56px;font:800 54px CT,NST;padding:26px 48px;border-radius:70px;color:#111;background:linear-gradient(100deg,{acc},{acc2})}}
+.follow b{{font-weight:900}}
+</style></head><body>{head}{body}</body></html>"""
 
 
-def frames(p, r, jpgs, outdir, log):
+def scenes(p, r, outdir, log):
     from playwright.sync_api import sync_playwright
-    out = []
-    kinds = ["gold", "silver"][:len(jpgs)]
+    kinds, out = scene_list(r), []
     with sync_playwright() as pw:
         b = pw.chromium.launch()
         pg = b.new_page(viewport={"width": W, "height": H})
-        for kind, j in zip(kinds, jpgs):
-            h = outdir / f"reel_{kind}.html"
-            h.write_text(frame_html(p, r, kind, j), encoding="utf-8")
+        for i, kind in enumerate(kinds):
+            h = outdir / f"reel_{i}_{kind}.html"
+            h.write_text(scene_html(p, r, kind, i, len(kinds)), encoding="utf-8")
             pg.goto(f"file://{h.resolve()}")
-            pg.wait_for_timeout(900)
-            png = outdir / f"reel_{kind}.png"
+            pg.wait_for_timeout(700)
+            png = outdir / f"reel_{i}_{kind}.png"
             pg.screenshot(path=str(png))
             out.append(png)
-            log("reel frame", png.name)
         b.close()
+    log(f"reel scenes: {', '.join(kinds)}")
     return out
 
 
@@ -131,34 +230,31 @@ def dur(path):
 
 
 def make(p, r, jpgs, outdir, log=print):
+    """owner 19 Nov 'use modern theme': full-screen scenes (hook, 22K, 24K, silver, follow) that change with each spoken line.
+    jpgs (the carousel slides) are no longer needed here - kept in the call for compatibility."""
     outdir = Path(outdir)
     work = outdir / "reel_work"
     work.mkdir(parents=True, exist_ok=True)
     ff = ffmpeg()
     lines = script(p, r)
-    pngs = frames(p, r, jpgs, outdir, log)
+    pngs = scenes(p, r, outdir, log)
+    assert len(pngs) == len(lines), (len(pngs), len(lines))
     vs = voice(lines, work, log)
-    GAP = 0.35
-    # voice track: lines with short gaps, 0.4 s lead-in
-    lst = work / "voice.txt"
-    sil = work / "gap.wav"
-    subprocess.run([ff, "-y", "-loglevel", "error", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", str(GAP), str(sil)], check=True)
-    lead = work / "lead.wav"
-    subprocess.run([ff, "-y", "-loglevel", "error", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", "0.4", str(lead)], check=True)
+    GAP, LEAD, TAIL, T = 0.35, 0.4, 1.2, 0.35
+    sil, lead = work / "gap.wav", work / "lead.wav"
+    for f, t in ((sil, GAP), (lead, LEAD)):
+        subprocess.run([ff, "-y", "-loglevel", "error", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", str(t), str(f)], check=True)
     parts = [lead]
     for i, (w, _) in enumerate(vs):
-        parts.append(w)
-        if i < len(vs) - 1:
-            parts.append(sil)
+        parts += [w] + ([sil] if i < len(vs) - 1 else [])
+    lst = work / "voice.txt"
     lst.write_text("".join(f"file '{x.resolve()}'\n" for x in parts))
     vo = work / "voice.wav"
     subprocess.run([ff, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(vo)], check=True)
-    total = dur(vo) + 1.0
-    # gold frame while lines 0-2 are read, silver frame for the rest
-    n_gold = 3 if len(pngs) > 1 else len(vs)
-    t_gold = 0.4 + sum(s for _, s in vs[:n_gold]) + GAP * n_gold - GAP / 2
-    t_gold = min(t_gold, total) if len(pngs) > 1 else total
-    t_silver = max(1.0, total - t_gold)
+    durs = [s + GAP for _, s in vs]
+    durs[0] += LEAD
+    durs[-1] += TAIL - GAP
+    total = sum(durs)
     music = work / "music.wav"
     try:
         sys.path.insert(0, str(ROOT / "reel"))
@@ -167,18 +263,19 @@ def make(p, r, jpgs, outdir, log=print):
     except Exception as e:
         log("music skipped:", str(e)[:120])
         music = None
-    mp4 = outdir / "gold_reel.mp4"
     inputs, fc = [], []
-    durs = [t_gold] + ([t_silver] if len(pngs) > 1 else [])
-    for i, (png, t) in enumerate(zip(pngs, durs)):
-        n = int(round((t + (0.5 if i < len(pngs) - 1 else 0)) * FPS))
+    moves = ["x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'", "x='0':y='ih/2-(ih/zoom/2)'", "x='iw-iw/zoom':y='ih/2-(ih/zoom/2)'"]
+    for i, (png, d) in enumerate(zip(pngs, durs)):
+        n = int(round((d + (T if i < len(pngs) - 1 else 0)) * FPS))
         inputs += ["-i", str(png)]
-        fc.append(f"[{i}:v]scale=1188:2112,zoompan=z='min(1+0.0006*on,1.08)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s={W}x{H}:fps={FPS},"
-                  f"format=yuv420p,setsar=1[v{i}]")
-    if len(pngs) > 1:
-        fc.append(f"[v0][v1]xfade=transition=fade:duration=0.5:offset={t_gold:.3f}[v]")
-    else:
-        fc.append("[v0]copy[v]")
+        fc.append(f"[{i}:v]scale=1188:2112,zoompan=z='min(1+0.0007*on,1.06)':{moves[i % 3]}:d={n}:s={W}x{H}:fps={FPS},format=yuv420p,setsar=1[s{i}]")
+    prev, off = "s0", 0.0
+    trans = ["slideup", "smoothleft", "smoothleft", "smoothleft", "fade"]
+    for i in range(1, len(pngs)):
+        off += durs[i - 1]
+        fc.append(f"[{prev}][s{i}]xfade=transition={trans[min(i, len(trans) - 1)] if i < len(pngs) - 1 else 'fade'}:duration={T}:offset={off:.3f}[x{i}]")
+        prev = f"x{i}"
+    fc.append(f"[{prev}]copy[v]")
     a = len(pngs)
     inputs += ["-i", str(vo)]
     if music:
@@ -186,6 +283,7 @@ def make(p, r, jpgs, outdir, log=print):
         fc.append(f"[{a + 1}:a]volume=0.16[m];[{a}:a]apad[vv];[vv][m]amix=inputs=2:duration=longest:normalize=0,atrim=0:{total:.3f}[a]")
     else:
         fc.append(f"[{a}:a]apad,atrim=0:{total:.3f}[a]")
+    mp4 = outdir / "gold_reel.mp4"
     subprocess.run([ff, "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(fc), "-map", "[v]", "-map", "[a]",
                     "-t", f"{total:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-r", str(FPS),
                     "-c:a", "aac", "-b:a", "160k", "-ar", "44100", "-movflags", "+faststart", str(mp4)], check=True)

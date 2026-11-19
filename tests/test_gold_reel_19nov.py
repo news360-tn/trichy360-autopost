@@ -118,3 +118,12 @@ def test_catchup_stops_after_afternoon(monkeypatch):
 def test_workflow_installs_voice_and_ffmpeg():
     y = (ROOT / ".github" / "workflows" / "goldrate.yml").read_text()
     assert "edge-tts" in y and "imageio-ffmpeg" in y and "numpy" in y
+
+
+def test_modern_scenes_match_voice_lines():
+    p = G.PAGES[next(iter(G.PAGES))]
+    for silver in (True, False):
+        r = rates(silver)
+        assert len(gold_reel.scene_list(r)) == len(gold_reel.script(p, r))
+    html = gold_reel.scene_html(dict(p, logo=None), rates(), "g22", 1, 5)
+    assert "11,610" in html and "92,880" in html      # 1 சவரன் = 8 கிராம்
