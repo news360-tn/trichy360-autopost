@@ -1,0 +1,28 @@
+{
+ "2026-11-20": {
+  "trichy": {
+   "reach": 30854,
+   "reach_by_follow_type": {
+    "FOLLOWER": 1161,
+    "NON_FOLLOWER": 29754
+   },
+   "follower_cities": {
+    "Tiruchirappalli, Tamil Nadu": 557,
+    "Chennai, Tamil Nadu": 72,
+    "Kulittalai, Tamil Nadu": 66,
+    "Madurai, Tamil Nadu": 53,
+    "Coimbatore, Tamil Nadu": 40,
+    "Lalgudi, Tamil Nadu": 27,
+    "Palladam, Tamil Nadu": 21,
+    "Manapparai, Tamil Nadu": 18,
+    "Tirupur, Tamil Nadu": 17,
+    "Kulattur, Tamil Nadu": 16,
+    "Turaiyur, Tamil Nadu": 15,
+    "Perundurai, Tamil Nadu": 14,
+    "Singapore, Singapore": 14,
+    "Mannachanallur, Tamil Nadu": 13,
+    "Namakkal, Tamil Nadu": 11
+   }
+  }
+ }
+}
