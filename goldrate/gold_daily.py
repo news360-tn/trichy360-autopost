@@ -117,6 +117,94 @@ def publish(token, urls, cap):
     return mid, link
 
 
+# ---------- owner 19 Nov: the same rate as a REEL too (carousels reach few people) ----------
+REEL = os.environ.get("GOLD_REEL", "1") not in ("0", "false", "no")
+REEL_UNTIL = os.environ.get("GOLD_REEL_UNTIL", "15:15")      # a late catch-up never shows the morning rate after the 3:30 PM change
+
+
+def reel_path(page):
+    return STATE_DIR / f"reel_{page}.json"
+
+
+def reel_done(page, day, token=None):
+    try:
+        st = json.loads(reel_path(page).read_text(encoding="utf-8"))
+        if st.get("date") == day.isoformat():
+            return f"state file: {st.get('permalink')}"
+    except Exception:
+        pass
+    if token:      # never twice: Instagram may already have today's reel (state file lost)
+        try:
+            uid = ig("GET", "me", token, fields="user_id")["user_id"]
+            for m in ig("GET", f"{uid}/media", token, fields="caption,permalink,media_product_type", limit=15).get("data", []):
+                if m.get("media_product_type") == "REELS" and f"தங்கம், வெள்ளி விலை | {date_ta(day)}" in (m.get("caption") or ""):
+                    return f"Instagram already has today's reel {m.get('permalink')}"
+        except Exception as e:
+            log("could not read recent reels:", str(e)[:150])
+    return ""
+
+
+def upload_video(path):
+    with open(path, "rb") as f:
+        r = requests.post(f"https://api.cloudinary.com/v1_1/{os.environ['CLOUDINARY_CLOUD']}/video/upload",
+                          data={"upload_preset": os.environ["CLOUDINARY_PRESET"], "folder": "goldrate"}, files={"file": f}, timeout=600)
+    r.raise_for_status()
+    return r.json()["secure_url"]
+
+
+def publish_reel(token, url, cap):
+    uid = ig("GET", "me", token, fields="user_id")["user_id"]
+    cid = ig("POST", f"{uid}/media", token, media_type="REELS", video_url=url, caption=cap, share_to_feed="true")["id"]
+    wait_ready(cid, token, 15)
+    mid = ig("POST", f"{uid}/media_publish", token, creation_id=cid)["id"]
+    return mid, ig("GET", mid, token, fields="permalink").get("permalink", "")
+
+
+def reel_caption(cap):
+    return "🎬 " + cap
+
+
+def post_reel(pg, p, r, jpgs, cap, out, token, day):
+    """make + post today's reel; any problem is only logged (the carousel and the news posts are never touched)"""
+    if not REEL:
+        return
+    try:
+        import gold_reel
+        mp4, _ = gold_reel.make(p, r, jpgs, out, log)
+        if DRY:
+            log(f"DRY RUN: {pg} reel {mp4} - not posted")
+            return
+        if reel_done(pg, day, token):
+            log(f"{pg}: reel already posted today")
+            return
+        mid, link = publish_reel(token, upload_video(mp4), reel_caption(cap))
+        log(f"{pg}: REEL POSTED {link}")
+        reel_path(pg).write_text(json.dumps({"date": day.isoformat(), "media_id": mid, "permalink": link,
+                                             "posted_at": datetime.now(IST).isoformat()}, ensure_ascii=False), encoding="utf-8")
+    except Exception as e:
+        log(f"{pg}: reel NOT POSTED - {str(e)[:300]}")
+
+
+def reel_catchup(pages, day, tokens):
+    """carousel posted earlier today but its reel was not (failed, or the reel came later): make only the reel from today's saved rate"""
+    if not REEL or DRY or (not FORCE_DATE and datetime.now(IST) >= clock(REEL_UNTIL, day)):
+        return
+    pages = [pg for pg in pages if not reel_done(pg, day, tokens.get(pg))]
+    hist = load_history()
+    row = next((h for h in hist if h["date"] == day.isoformat()), None)
+    if not pages or not row or not row.get("g22"):
+        return
+    gold = {"g22": row.get("g22_am", row["g22"]), "g24": row.get("g24_am", row["g24"])}
+    sv = row.get("silver_am", row.get("silver"))
+    r = rates_for_slides(hist, day, gold, {"silver": sv} if sv else None)
+    for pg in pages:
+        log(f"{pg}: carousel already posted, reel not yet - making the reel")
+        p = dict(PAGES[pg], logo=ROOT / "kit" / f"logo_{pg}.png")
+        out = ROOT / "out" / "goldrate" / pg
+        jpgs = render.render(p, r, out, log)
+        post_reel(pg, p, r, jpgs, caption(p, day, r), out, tokens[pg], day)
+
+
 # ---------- history: one row per day {"date", "g22", "g24", "silver"} ----------
 def load_history():
     try:
@@ -331,6 +419,8 @@ def pm_main(pages, day):
                 log("Facebook step skipped:", str(e)[:150])
         except Exception as e:
             log(f"{pg}: NOT POSTED - {str(e)[:300]}")
+            continue
+        post_reel(pg, p, r, jpgs, cap, out, tokens[pg], day)      # owner 19 Nov: the reel, after (and apart from) the carousel
     return 0
 
 
@@ -352,6 +442,7 @@ def main():
     todo = [pg for pg in pages if not (DRY is False and already_posted(pg, day, tokens.get(pg)))]
     for pg in set(pages) - set(todo):
         log(f"{pg}: already posted today - {already_posted(pg, day, tokens.get(pg))}")
+    reel_catchup([pg for pg in pages if pg not in todo], day, tokens)
     if not todo:
         return 0
     start = clock(START_AT, day)
@@ -387,6 +478,7 @@ def main():
         log(f"{pg} caption:\n{cap}")
         if DRY:
             log(f"DRY RUN: {pg} slides in {out} - not posted")
+            post_reel(pg, p, r, jpgs, cap, out, None, day)
             continue
         try:
             if already_posted(pg, day, tokens[pg]):

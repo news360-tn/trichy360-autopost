@@ -1,5 +1,5 @@
 name: goldrate
-# owner 14 Nov: daily gold & silver rate carousel (2 slides) on every page of this repo, posted as soon as today's rate is confirmed.
+# owner 14 Nov: daily gold & silver rate carousel (2 slides) + owner 19 Nov: the same rate as a reel (posted after the carousel) on every page of this repo, posted as soon as today's rate is confirmed.
 # The Chennai jewellers' association fixes the rate at 9:30 AM IST; the job starts 9:40 and checks every 5 minutes. It posts only when
 # 2 rate pages show today's date and the same rate. Backups at 11:00 AM and 12:30 PM (a run skips a page already posted today).
 on:
@@ -52,7 +52,7 @@ jobs:
       - name: Install
         timeout-minutes: 15
         run: |
-          pip install -q requests==2.32.5 pillow==11.3.0 playwright==1.56.0
+          pip install -q requests==2.32.5 pillow==11.3.0 playwright==1.56.0 edge-tts==7.2.3 imageio-ffmpeg==0.6.0 numpy
           python -m playwright install chromium
           python -c "from playwright.sync_api import sync_playwright as s; p=s().start(); p.chromium.launch().close(); p.stop()" ||
             sudo "$(command -v python)" -m playwright install-deps chromium
