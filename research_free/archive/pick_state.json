@@ -23,7 +23,8 @@
    "category": "சாலை",
    "score": 10.01,
    "power_cut": false,
-   "listed_at": "2026-11-19T18:29:57.028221+05:30"
+   "listed_at": "2026-11-19T18:29:57.028221+05:30",
+   "picked_at": "2026-11-19T18:34:10.173117+05:30"
   },
   "C0bd23e2": {
    "id": "C0bd23e2",
@@ -38,7 +39,8 @@
    "alts": [
     "https://www.dailythanthi.com/news/tamilnadu/3195-special-buses-to-operate-for-the-weekend"
    ],
-   "listed_at": "2026-11-19T18:29:57.028221+05:30"
+   "listed_at": "2026-11-19T18:29:57.028221+05:30",
+   "picked_at": "2026-11-19T18:34:10.173125+05:30"
   },
   "C9c31f4e": {
    "id": "C9c31f4e",
@@ -50,7 +52,8 @@
    "category": "பொது",
    "score": 5.59,
    "power_cut": false,
-   "listed_at": "2026-11-19T18:29:57.028221+05:30"
+   "listed_at": "2026-11-19T18:29:57.028221+05:30",
+   "picked_at": "2026-11-19T18:34:10.173127+05:30"
   },
   "Ce3c1dfc": {
    "id": "Ce3c1dfc",
@@ -74,7 +77,8 @@
    "category": "பொது",
    "score": 3.2800000000000002,
    "power_cut": false,
-   "listed_at": "2026-11-19T18:29:57.028221+05:30"
+   "listed_at": "2026-11-19T18:29:57.028221+05:30",
+   "picked_at": "2026-11-19T18:34:10.173128+05:30"
   }
  },
  "rounds": {
@@ -593,8 +597,22 @@
    ],
    "sent": false,
    "deadline": "2026-11-19T19:29:57.028221+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 5 of 4 by insights",
+    "ids": [
+     "C0fdf910",
+     "C0bd23e2",
+     "C9c31f4e",
+     "C56c0af3"
+    ],
+    "at": "2026-11-19T18:34:10.173106+05:30"
+   },
+   "written": [
+    "C0bd23e2",
+    "C0fdf910",
+    "C56c0af3",
+    "C9c31f4e"
+   ]
   }
  },
  "retry": {}
