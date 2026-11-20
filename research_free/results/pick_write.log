@@ -1,0 +1,206 @@
+writing [N]: திருச்சி மணப்பாறை அரிசி ஆலை.. ரூ.3 கோடி சொகுசு பங்களா, மில்.
+writing [N]: திருப்பதி தேவஸ்தானத்திலிருந்து ஸ்ரீரங்கம் அரங்கநாதர் மற்றும்
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (42s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (48s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  sentence 1 (one-line story) has 14 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3,710 ('ரேஷன் அரிசிக்காக 3,710 டன் நெல்லை என்ன செய்தார்கள்?'); 27 ('மருது செட்டியாரின் மகனான இவர், கடந்த 27.10.2022 முதல் தமிழ்ந'); 10 ('மருது செட்டியாரின் மகனான இவர், கடந்த 27.10.2022 முதல் தமிழ்ந'); 15 ('நெல் கிடைத்த 15 நாட்களுக்குள் அதற்குரிய அரிசியை நுகர்பொருள் '); 9 ('கடந்த செப்டம்பர் 9 மற்றும் அக்டோபர் 10 ஆகிய தேதிகளில் இந்த ஆ'); 10 ('கடந்த செப்டம்பர் 9 மற்றும் அக்டோபர் 10 ஆகிய தேதிகளில் இந்த ஆ')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.5-flash
+ok gemini/gemini-3-flash-preview (12s)
+attempt 2 gemini/gemini-3-flash-preview: 2 problems
+  sentence 1 (one-line story) has 14 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3,710 ('ரேஷன் அரிசிக்காக 3,710 டன் நெல்லை என்ன செய்தார்கள்?'); 27 ('மருது செட்டியாரின் மகனான இவர், கடந்த 27.10.2022 முதல் தமிழ்ந'); 47 ('ரேஷன் கடைகளில் பொதுமக்களுக்கு விநியோகம் செய்வதற்காக அரிசியாக'); 28 ('ரேஷன் கடைகளில் பொதுமக்களுக்கு விநியோகம் செய்வதற்காக அரிசியாக'); 24 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப'); 916 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (14s)
+attempt 3 gemini/gemini-3-flash-preview: 2 problems
+  numbers not found in the article: 222024916
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3,710 ('ரேஷன் அரிசிக்காக 3,710 டன் நெல்லை என்ன செய்தார்கள்?'); 15 ('நெல் கிடைத்த 15 நாட்களுக்குள் அதற்குரிய அரிசியை நுகர்பொருள் '); 24 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப'); 916 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப'); 316 ('பாரதிய நியாய சன்ஹிதா சட்டத்தின் 316(2), 316(5), 318(4) பிரிவ'); 2 ('பாரதிய நியாய சன்ஹிதா சட்டத்தின் 316(2), 316(5), 318(4) பிரிவ')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+ok gemini/gemini-3-flash-preview (13s)
+attempt 4 gemini/gemini-3-flash-preview: 3 problems
+  sentence 1 (one-line story) has 16 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+  numbers not found in the article: 222024916
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 27 ('மருது செட்டியாரின் மகனான இவர், கடந்த 27.10.2022 முதல் தமிழ்ந'); 3,700 ('இந்த அரிசிதான் ரேஷன் கடைகள் மூலம் பொதுமக்களுக்கு விநியோகம் ச'); 3,700 ('இதனால் அதிர்ச்சியடைந்த அதிகாரிகள் உடனடியாக விசாரணையைத் தொடங்'); 24 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப'); 916 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (13s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (12s)
+attempt 5 gemini/gemini-3-flash-preview: 3 problems
+  caption needs 5 hashtags (Instagram max), has 6
+  numbers not found in the article: 222024916, 24916
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3,710 ('ரேஷன் அரிசிக்காக 3,710 டன் நெல்லை என்ன செய்தார்கள்?'); 15 ('நெல் கிடைத்த 15 நாட்களுக்குள் அதற்குரிய அரிசியை நுகர்பொருள் '); 24 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப'); 916 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப'); 316 ('பாரதிய நியாய சன்ஹிதா சட்டத்தின் 316(2), 316(5), 318(4) பிரிவ'); 2 ('பாரதிய நியாய சன்ஹிதா சட்டத்தின் 316(2), 316(5), 318(4) பிரிவ')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (9s)
+factcheck by gemini/gemini-3-flash-preview: 2 problems
+  The detail about many devotees having darshan (ஏராளமான பக்தர்கள் தரிசனம்) is an invented detail not found in the article.
+  The date 20 November 2026 is factually inconsistent with the Vaikasi Ekadasi festival mentioned in the article, as Vaikasi occurs in May/June.
+attempt 2 gemini/gemini-3-flash-preview: 2 problems
+  fact-check: The detail about many devotees having darshan (ஏராளமான பக்தர்கள் தரிசனம்) is an invented detail not found in the article.
+  fact-check: The date 20 November 2026 is factually inconsistent with the Vaikasi Ekadasi festival mentioned in the article, as Vaikasi occurs in May/June.
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (13s)
+attempt 6 gemini/gemini-3-flash-preview: 3 problems
+  sentence 1 (one-line story) has 16 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+  numbers not found in the article: 222024916
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 27 ('மருது செட்டியாரின் மகனான இவர், கடந்த 27.10.2022 முதல் தமிழ்ந'); 47 ('ரேஷன் கடைகளில் பொதுமக்களுக்கு விநியோகம் செய்வதற்காக அரிசியாக'); 28 ('ரேஷன் கடைகளில் பொதுமக்களுக்கு விநியோகம் செய்வதற்காக அரிசியாக'); 24 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப'); 916 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3-flash-preview (21s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3-flash-preview (17s)
+attempt 7 gemini/gemini-3-flash-preview: 2 problems
+  numbers not found in the article: 222024916
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3,700 ('இந்த அரிசிதான் ரேஷன் கடைகள் மூலம் பொதுமக்களுக்கு விநியோகம் ச'); 15 ('நெல் கிடைத்த 15 நாட்களுக்குள் அதற்குரிய அரிசியை நுகர்பொருள் '); 3,700 ('இதனால் அதிர்ச்சியடைந்த அதிகாரிகள் உடனடியாக விசாரணையைத் தொடங்'); 24 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப'); 916 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப'); 316 ('பாரதிய நியாய சன்ஹிதா சட்டத்தின் 316(2), 316(5), 318(4) பிரிவ')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (6s)
+factcheck by gemini/gemini-3-flash-preview: 2 problems
+  The draft incorrectly states the date as November 20th in the reel script and caption, which contradicts the article's mention of Vaikasi Ekadashi (a festival occurring in May or June).
+  The caption mentions the year 2026, which is an invented detail not present in the article.
+attempt 3 gemini/gemini-3-flash-preview: 2 problems
+  fact-check: The draft incorrectly states the date as November 20th in the reel script and caption, which contradicts the article's mention of Vaikasi Ekadashi (a festival occurring in May or June).
+  fact-check: The caption mentions the year 2026, which is an invented detail not present in the article.
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+ok gemini/gemini-3-flash-preview (13s)
+attempt 8 gemini/gemini-3-flash-preview: 3 problems
+  sentence 1 (one-line story) has 16 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+  numbers not found in the article: 222024916
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3,710 ('ரேஷன் அரிசிக்காக 3,710 டன் நெல்லை என்ன செய்தார்கள்?'); 27 ('மருது செட்டியாரின் மகனான இவர், கடந்த 27.10.2022 முதல் தமிழ்ந'); 47 ('ரேஷன் கடைகளில் பொதுமக்களுக்கு விநியோகம் செய்வதற்காக அரிசியாக'); 28 ('ரேஷன் கடைகளில் பொதுமக்களுக்கு விநியோகம் செய்வதற்காக அரிசியாக'); 24 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப'); 916 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing 
+switching away from gemini/gemini-3-flash-preview for 10 min
+ok groq/openai/gpt-oss-120b (7s)
+attempt 4 groq/openai/gpt-oss-120b: 3 problems
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+ok gemini/gemini-3-flash-preview (21s)
+attempt 9 gemini/gemini-3-flash-preview: 2 problems
+  numbers not found in the article: 222024916
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3,700 ('இந்த அரிசிதான் ரேஷன் கடைகள் மூலம் பொதுமக்களுக்கு விநியோகம் ச'); 15 ('நெல் கிடைத்த 15 நாட்களுக்குள் அதற்குரிய அரிசியை நுகர்பொருள் '); 9 ('கடந்த செப்டம்பர் 9 மற்றும் அக்டோபர் 10 ஆகிய தேதிகளில் இந்த ஆ'); 3,700 ('இதனால் அதிர்ச்சியடைந்த அதிகாரிகள் உடனடியாக விசாரணையைத் தொடங்'); 24 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப'); 916 ('இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+switching away from groq/openai/gpt-oss-120b for 10 min
+ok groq/qwen/qwen3.8-27b (3s)
+attempt 5 groq/qwen/qwen3.8-27b: 1 problems
+  not grounded: location 'கோயில்' is not in the article
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+switching away from groq/openai/gpt-oss-120b for 10 min
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+switching away from groq/qwen/qwen3.8-27b for 10 min
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` 
+ok anthropic/claude-haiku-5-5
+claude rewrite 1 anthropic/claude-haiku-5-5: 1 problems
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3,710 ('ரேஷன் அரிசிக்காக 3,710 டன் நெல்லை என்ன செய்தார்கள்?'); 59 ('இந்த ஆலையை சண்முகம் (59) என்பவர் நடத்தி வந்தார்.'); 27 ('மருது செட்டியாரின் மகனான இவர், கடந்த 27.10.2022 முதல் தமிழ்ந'); 47 ('ரேஷன் கடைகளில் பொதுமக்களுக்கு விநியோகம் செய்வதற்காக அரிசியாக'); 28 ('ரேஷன் கடைகளில் பொதுமக்களுக்கு விநியோகம் செய்வதற்காக அரிசியாக'); 316 ('பாரதிய நியாய சன்ஹிதா சட்டத்தின் 316(2), 316(5), 318(4) பிரிவ')
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+free fact-check unavailable, using Claude: no free model answered: None
+ok anthropic/claude-haiku-5-5
+factcheck by anthropic/claude-haiku-5-5: 0 problems
+claude rewrite 1 anthropic/claude-haiku-5-5: 0 problems
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+proofread skipped: no free model answered: None
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+ok anthropic/claude-haiku-5-5
+claude rewrite 2 anthropic/claude-haiku-5-5: 3 problems
+  reel_script has 184 words; need 100-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
+  reel_script has numbers without their meaning ((4); write what each number is: '15 வயது', '30 பாட்டில்கள்', 'அக்டோபர் 26ஆம் தேதி'
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3,700 ('இந்த அரிசிதான் ரேஷன் கடைகள் மூலம் பொதுமக்களுக்கு விநியோகம் ச'); 3,700 ('இதனால் அதிர்ச்சியடைந்த அதிகாரிகள் உடனடியாக விசாரணையைத் தொடங்')
+ok anthropic/claude-haiku-5-5
+claude rewrite 3 anthropic/claude-haiku-5-5: 2 problems
+  sentence 1 (one-line story) has 17 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3,710 ('ரேஷன் அரிசிக்காக 3,710 டன் நெல்லை என்ன செய்தார்கள்?'); 27 ('மருது செட்டியாரின் மகனான இவர், கடந்த 27.10.2022 முதல் தமிழ்ந'); 316 ('பாரதிய நியாய சன்ஹிதா சட்டத்தின் 316(2), 316(5), 318(4) பிரிவ'); 2 ('பாரதிய நியாய சன்ஹிதா சட்டத்தின் 316(2), 316(5), 318(4) பிரிவ'); 5 ('பாரதிய நியாய சன்ஹிதா சட்டத்தின் 316(2), 316(5), 318(4) பிரிவ'); 318 ('பாரதிய நியாய சன்ஹிதா சட்டத்தின் 316(2), 316(5), 318(4) பிரிவ')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+proofread skipped: no free model answered: None
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok anthropic/claude-haiku-5-5
+real photo used (1192x667, sharpness 72.2, The photograph depicts temple priests and officials carrying): https://img-cdn.publive.online/fit-in/1200x675/polimer-news/media/media_files/2026/11/20/v
+real photo skipped (photo uploaded 2026-04-22 (older than the news)): https://static-cdn.publive.online/polimer-news/media/media_files/2026/04/22/apple-2026-04-
+real photo skipped (photo uploaded 2026-03-09 (older than the news)): https://static-cdn.publive.online/polimer-news/media/media_files/2026/03/09/live-tv-1-2026
+real photos used for 'Tirupati Devasthanam offers silk garment' (Polimer News)
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-1334","first":"RN-96"}
+posting job started at once
+real photo used (1192x667, sharpness 24.2, The photo shows the mugshot photograph of one of the arreste): https://imagesvs.oneindia.com/ta/img/2026/11/couplecaughtinrationricecase-20011795150918.j
+real photo: 1 watermark / logo mark(s) removed
+real photo used (1192x591, sharpness 25.1, The photographs show one of the key individuals arrested in ): https://imagesvs.oneindia.com/webp/ta/img/2026/11/couplecaughtinrationricecase-20011795150
+real photos used for 'Manapparai ration rice fraud: 3 members ' (Oneindia Tamil)
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-1335","first":"RN-97"}
+earlier stories still waiting for images: []
+instagram check: 50 recent posts read from the page
+pick round: only the picked links are written (research_free/pick.py)
+manual link added: https://tamil.oneindia.com/news/trichirappalli/trichy-manapparai-rice-mill-scam-rs-3-crore-bungalow-couple-caught-in-ration-rice-case-846779.html
+manual link added: https://www.polimernews.com/districtnews/tirupati-devasthanam-honours-srirangam-ranganathar-and-thayar-with-traditional-robes-12825991
+candidate filter: collected=2
+to write: 2 Trichy district candidates (max 2 stories)
+round: top 2 of 2 candidates
+candidates waiting: 2 Trichy; time left 79 min
+try (N) manual=True: https://www.polimernews.com/districtnews/tirupati-devasthana
+try (N) manual=True: https://tamil.oneindia.com/news/trichirappalli/trichy-manapp
+real photo from the source (Polimer News) for 'Tirupati Devasthanam offers silk garment'
+auto images: 1 of 1 stories ({})
+posting job started at once
+real photo from the source (Oneindia Tamil) for 'Manapparai ration rice fraud: 3 members '
+auto images: 1 of 1 stories ({})
+candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 72 min
+filed: 2 Trichy district stories (target 2), reels only
+queue: 0 news waiting to be written
+All News sheet: {"ok":true,"added":2,"updated":0} 
+stories: 2
