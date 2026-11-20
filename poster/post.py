@@ -2098,8 +2098,9 @@ def share_facebook(sid, kind, media, caption, dry=False, row=None):
     try:
         import facebook
         src = str((row or {}).get("source") or "").strip()
+        com = source_comment(row) if row and CONFIG.get("first_comment", False) else ""      # owner 20 Nov: the Instagram first comment
         return facebook.share(PAGE, sid, kind, media, caption, TAG, dry=dry, rank=fb_rank(row) if row else None,
-                              source_link=src if src.startswith("http") else "")
+                              source_link=src if src.startswith("http") else "", comment=com)
     except Exception as e:
         log("Facebook step skipped:", str(e)[:150])
         return ""

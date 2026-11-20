@@ -1267,6 +1267,15 @@ class FacebookTopNewsOnly11Nov(unittest.TestCase):
         self.assertIn("🔗 https://www.dinamalar.com/news/x/1", calls[1][1]["description"])
         self.assertEqual(self.fb.state("t", "RN-1", "reel")["source_in"], "text")
 
+    def test_the_instagram_source_comment_is_used_on_facebook(self):
+        calls = []
+        self.fb.publish_reel = lambda pid, tok, url, cap: ("v", "l")
+        self.fb._call = lambda method, path, tok, **d: calls.append((path, d)) or {}
+        msg = "📰 News Source: தினமலர் - https://www.dinamalar.com/news/x/1\n\nசெய்தி தொடர்பான திருத்தம் ... DM மூலம் தெரிவிக்கலாம்."
+        self.fb.share("t", "RN-9", "reel", ["https://v/9.mp4"], "செய்தி\n\n#a #b #c", "#T360", rank=None,
+                      source_link="https://www.dinamalar.com/news/x/1", comment=msg)
+        self.assertEqual(calls[0], ("v/comments", {"message": msg}))
+
 
 class NewsSourceShown11Nov(unittest.TestCase):
     """11 Nov: viewers called news 'fake' - every news names its paper + publish date (reel header, end card, captions);

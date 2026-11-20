@@ -310,13 +310,17 @@ def with_link(cap, link):
     return cap.replace("\n\n#", f"\n🔗 {link}\n\n#", 1) if "\n\n#" in cap else cap + f"\n🔗 {link}"
 
 
-def source_comment(page_id, tok, obj, kind, caption, link):
-    """the article link as the post's first comment; if Facebook refuses, it is added to the post text instead. -> where it went"""
+def source_comment(page_id, tok, obj, kind, caption, link, comment=""):
+    """the first comment: the SAME source comment as on Instagram (post.source_comment: paper + link, news date, the line for the kind of
+    news, the DM line; no Follow line on a death) - or just the link when that text is not known. If Facebook refuses the comment, the
+    link is added to the post text instead (never lost). -> where it went"""
     try:
-        _call("POST", f"{obj}/comments", tok, message=f"📰 செய்தி ஆதாரம் / Source: {link}")
+        _call("POST", f"{obj}/comments", tok, message=comment or f"📰 News Source: {link}")
         return "comment"
     except Exception as e:
-        log("source link not added as a comment - added to the post text instead:", str(e)[:150])
+        log("source comment not added - the link goes into the post text instead:", str(e)[:150])
+    if not link:
+        return ""
     try:
         _call("POST", obj, tok, **{("description" if kind == "reel" else "message"): with_link(caption, link)})
         return "text"
@@ -325,7 +329,7 @@ def source_comment(page_id, tok, obj, kind, caption, link):
         return ""
 
 
-def _attempt(page, sid, kind, media, caption, prev, story=True, link=""):
+def _attempt(page, sid, kind, media, caption, prev, story=True, link="", comment=""):
     src = link
     pid, tok = creds(page)
     tries = int(prev.get("tries", 0)) + 1
@@ -340,15 +344,15 @@ def _attempt(page, sid, kind, media, caption, prev, story=True, link=""):
             _pause(page, e)
             _save(page, sid, kind, {"status": "skipped", "why": "Facebook limited the page: " + str(e)[:300], "media": media})
             return ""
-        _save(page, sid, kind, {"status": "failed", "tries": tries, "error": str(e)[:400], "media": media, "caption": caption, "link": src,
+        _save(page, sid, kind, {"status": "failed", "tries": tries, "error": str(e)[:400], "media": media, "caption": caption, "link": src, "comment": comment,
                                 "first_try": prev.get("first_try") or _now().isoformat(timespec="seconds")})
         log(f"NOT posted to Facebook ({page} {sid} {kind}, try {tries}/{MAX_TRIES}; Instagram is fine):", str(e)[:250])
         return ""
     rec = {"status": "posted", "tries": tries, "id": obj, "link": link, "media": media, "posted_at": _now().isoformat(timespec="seconds")}
     _save(page, sid, kind, rec)
     log(f"posted to Facebook ({page} {sid} {kind}):", link)
-    if src:      # owner 20 Nov: the article link in the first comment (more reach than a link in the text)
-        rec["source_in"] = source_comment(pid, tok, obj, kind, caption, src)
+    if src or comment:      # owner 20 Nov: the Instagram source comment as the first comment (more reach than a link in the text)
+        rec["source_in"] = source_comment(pid, tok, obj, kind, caption, src, comment)
         _save(page, sid, kind, rec)
     if story:      # the Facebook story of the same post (a story problem never changes the post record to failed)
         try:
@@ -361,7 +365,7 @@ def _attempt(page, sid, kind, media, caption, prev, story=True, link=""):
     return link
 
 
-def share(page, sid, kind, media, caption, page_tag, dry=False, tags=None, story=True, rank=None, always=False, source_link=""):
+def share(page, sid, kind, media, caption, page_tag, dry=False, tags=None, story=True, rank=None, always=False, source_link="", comment=""):
     """kind 'reel' (media = [video url]) or 'photos' (media = image urls). Called right after the Instagram post is published.
     Never raises. Returns the Facebook link or ''."""
     try:
@@ -377,8 +381,8 @@ def share(page, sid, kind, media, caption, page_tag, dry=False, tags=None, story
             return prev.get("link", "")
         cap = fb_caption(caption, page_tag, tags)
         src = source_link if source_link and source_link not in cap else ""      # owner 11 Nov: the article, so readers can check the news
-        if src and not LINK_IN_COMMENT:
-            cap, src = with_link(cap, src), ""
+        if not LINK_IN_COMMENT:
+            cap, src, comment = with_link(cap, src), "", ""
         why = gate(page, rank, always)
         if why:
             if not dry:
@@ -392,7 +396,7 @@ def share(page, sid, kind, media, caption, page_tag, dry=False, tags=None, story
             _save(page, sid, kind, {"status": "skipped", "why": f"Facebook daily reel limit {REEL_CAP} reached", "media": media})
             log(f"Facebook daily reel limit {REEL_CAP} reached for {page} - {sid} stays Instagram only")
             return ""
-        return _attempt(page, sid, kind, media, cap, prev, story, src)
+        return _attempt(page, sid, kind, media, cap, prev, story, src, comment)
     except Exception as e:      # never let Facebook break the Instagram run
         log("Facebook step skipped:", str(e)[:200])
         return ""
@@ -415,7 +419,7 @@ def retry_failed(limit=2):
             if not creds(page) or paused(page) or (kind == "reel" and posted_last_day(page, "reel") >= REEL_CAP):
                 continue
             log(f"trying Facebook again: {page} {sid} {kind} (try {int(d.get('tries', 0)) + 1}/{MAX_TRIES})")
-            _attempt(page, sid, kind, d["media"], d["caption"], d, link=d.get("link", ""))
+            _attempt(page, sid, kind, d["media"], d["caption"], d, link=d.get("link", ""), comment=d.get("comment", ""))
             done += 1
         except Exception as e:
             log("retry skipped for", f.name, str(e)[:150])
