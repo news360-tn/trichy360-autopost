@@ -83,6 +83,7 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-20 | `26d099b` | Promotion ads (owner-approved only, bottom of the reel during the news) and twice-a-day YouTube details e-mail |
 | 2026-11-20 | `b34d989` | Fix: reels again made with reel4 (config reel_design back to v4) |
 | 2026-11-20 | `0740462` | pick: written and posted |
 | 2026-11-20 | `29c6501` | pick: picked news saved |
@@ -112,5 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-20 | `aaed653` | pick: list sent |
 | 2026-11-20 | `464d3f4` | pick: written and posted |
 | 2026-11-20 | `a400e14` | pick: picked news saved |
-| 2026-11-20 | `85334cd` | pick: picked news saved |
 <!-- recent-changes:end -->
