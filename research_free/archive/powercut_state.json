@@ -929,6 +929,24 @@
    "power_cut": false,
    "why": "not this district",
    "title": "Mayiladuthurai Power Shutdown : மயிலாடுதுறை மாவட்ட மக்களே உஷார்! இன்று (நவ.19) பகல் நேரத்தில் மின்சாரம்"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/father-son-killed-as-truck-rams-into-truck/4377013": {
+   "at": "2026-11-20T13:23:00.124010+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/300-kg-tobacco-products-seized/4377006": {
+   "at": "2026-11-20T13:23:00.124010+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "300 கிலோ புகையிலை பொருட்கள் பறிமுதல்"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-viluppuram/power-outage-of-tomorrow-on-the-27th/4358958": {
+   "at": "2026-11-20T13:23:00.124010+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "நாளைய மின் நிறுத்தம் 27ம் தேதி"
   }
  },
  "done": {
@@ -967,9 +985,9 @@
  },
  "retried": {},
  "refused": {
-  "C04726af": {
-   "why": "not filed: duplicate after write",
-   "at": "2026-11-18T13:15:51.306681+05:30"
+  "C8d48dea": {
+   "why": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)",
+   "at": "2026-11-20T13:25:38.058670+05:30"
   }
  }
 }
