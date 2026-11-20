@@ -83,6 +83,11 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-20 | `7dd8813` | Posting loop: start the next posting run with 3 tries |
+| 2026-11-20 | `a4a0bf9` | pick: written and posted |
+| 2026-11-20 | `f65c677` | pick: picked news saved |
+| 2026-11-20 | `91689ca` | pick: picked news saved |
+| 2026-11-20 | `02eec61` | pick: list sent |
 | 2026-11-20 | `797948a` | Cloudinary clean-up every 6 hours; red run + e-mail when the login is refused, usage unreadable or 80% used |
 | 2026-11-20 | `c261889` | pick: written and posted |
 | 2026-11-20 | `27eadc2` | pick: picked news saved |
@@ -108,9 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-19 | `c91c589` | Posting time first: news posts 06:00-12:00 and 15:00-21:00 IST; collection fitted to it (04:00, 08:30, 13:00, 16:30, 18:30) |
 | 2026-11-19 | `bd17f41` | 19 Nov owner changes: reel length / wording, source first comment, 360 gold reel, posting windows, rasipalan before 9 AM |
 | 2026-11-19 | `87351b7` | powercut: notices written |
-| 2026-11-19 | `b981314` | powercut: notices written |
-| 2026-11-19 | `5c0ce41` | pick: written and posted |
-| 2026-11-19 | `6c783e6` | pick: picked news saved |
-| 2026-11-19 | `6ded33a` | pick: picked news saved |
-| 2026-11-19 | `771c8a3` | pick: list sent |
 <!-- recent-changes:end -->
