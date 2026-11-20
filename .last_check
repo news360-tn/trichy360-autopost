@@ -1,27 +1,27 @@
-22:04:30 SKIP RN-4 stale: published 12 Nov, older than yesterday
-22:04:30 SKIP RN-19 stale: published 14 Nov, older than yesterday
-22:04:30 SKIP RN-22 stale: published 14 Nov, older than yesterday
-22:04:30 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-22:04:30 SKIP RN-29 stale: published 14 Nov, older than yesterday
-22:04:30 SKIP RN-42 stale: published 16 Nov, older than yesterday
-22:04:30 SKIP RN-45 stale: published 16 Nov, older than yesterday
-22:04:30 SKIP RN-71 held: fact-check problems - not grounded: location 'அளவு' is not in the article
-22:04:30 SKIP RN-92 held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
+22:19:24 SKIP RN-4 stale: published 12 Nov, older than yesterday
+22:19:24 SKIP RN-19 stale: published 14 Nov, older than yesterday
+22:19:24 SKIP RN-22 stale: published 14 Nov, older than yesterday
+22:19:24 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+22:19:24 SKIP RN-29 stale: published 14 Nov, older than yesterday
+22:19:24 SKIP RN-42 stale: published 16 Nov, older than yesterday
+22:19:24 SKIP RN-45 stale: published 16 Nov, older than yesterday
+22:19:25 SKIP RN-71 held: fact-check problems - not grounded: location 'அளவு' is not in the article
+22:19:25 SKIP RN-92 held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
 ::warning title=Held from posting RN-92::held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
-22:04:33 story catch-up trichy: quota 19/50, 40 recent posts, 5 live stories, owner ids ['17841462048887226', '28956510467350700']
-22:04:33 10 stories in the queue, ready to post: 1
-22:04:33   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-22:04:33    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 182.8 ready= False set_started= True
-22:04:33    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 152.1 ready= False set_started= True
-22:04:33    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 148.4 ready= False set_started= True
-22:04:33    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 148.4 ready= False set_started= True
-22:04:33    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 144.3 ready= False set_started= True
-22:04:33    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 112.2 ready= False set_started= True
-22:04:33    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 112.2 ready= False set_started= True
-22:04:33    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 62.7 ready= False set_started= True
-22:04:33    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 17.6 ready= False set_started= True
-22:04:33    RN-102 review= 'Auto' images= 197 spec= 696 pages= ['trichy'] links= '' '' age_h= 0.1 ready= True set_started= True
-22:04:35 publishing quota trichy: 19/50
-22:04:37 instagram duplicate check trichy: 50 recent posts read
-22:04:37    RN-102 waits for prime time (06:00 IST)
-22:04:37 prebuilding ahead of the set start: ['RN-102']
+22:19:27 story catch-up trichy: quota 19/50, 40 recent posts, 5 live stories, owner ids ['17841462048887226', '28956510467350700']
+22:19:27 11 stories in the queue, ready to post: 2
+22:19:27   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+22:19:27    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 183.1 ready= False set_started= True
+22:19:27    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 152.3 ready= False set_started= True
+22:19:27    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 148.6 ready= False set_started= True
+22:19:27    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 148.6 ready= False set_started= True
+22:19:27    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 144.6 ready= False set_started= True
+22:19:27    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 112.4 ready= False set_started= True
+22:19:27    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 112.4 ready= False set_started= True
+22:19:27    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 62.9 ready= False set_started= True
+22:19:27    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 17.8 ready= False set_started= True
+22:19:27    RN-102 review= 'Auto' images= 197 spec= 696 pages= ['trichy'] links= '' '' age_h= 0.4 ready= True set_started= True
+22:19:27    RN-103 review= 'Auto' images= 197 spec= 901 pages= ['trichy'] links= '' '' age_h= 0.2 ready= True set_started= True
+22:19:29 publishing quota trichy: 19/50
+22:19:30 instagram duplicate check trichy: 50 recent posts read
+22:19:30    RN-102 waits for prime time (06:00 IST)
