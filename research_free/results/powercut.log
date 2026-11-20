@@ -1,3 +1,27 @@
-22:35:07   not this district: coimbatore power cut: கோவையில் நாளை (21-11-2026) எங்கெல்லாம் மின் தடை? <https://tamil.abplive.com/news/coimbatore/coimbatore-power-cut-21-11-2026-know-timings-areas-affected-by-power-shutdown-280204/amp#district-section>
-22:35:07 skipped: could not open=9, not this district=1
-22:35:07 no new power-cut notice
+04:22:11 from_google 'திருச்சி மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:22:53 from_google 'திருச்சி மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:23:32 from_google 'திருச்சிராப்பள்ளி மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:24:09 from_google 'திருச்சிராப்பள்ளி மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:24:49 from_google 'நாளைய மின்தடை திருச்சி' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:25:28 from_google 'நாளைய மின்தடை திருச்சி' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:26:12 from_google 'மணப்பாறை மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:26:52 from_google 'மணப்பாறை மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:27:31 from_google 'ஸ்ரீரங்கம் மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:28:12 from_google 'ஸ்ரீரங்கம் மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:28:58 from_google 'லால்குடி மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:29:36 from_google 'லால்குடி மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:30:15 from_google 'முசிறி மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:30:54 from_google 'முசிறி மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:31:35 from_google 'துறையூர் மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:32:06 from_google 'துறையூர் மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:32:51 from_google 'திருச்சி மின் நிறுத்தம்' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:33:35 from_google 'திருச்சி மின் நிறுத்தம்' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:34:15 from_google 'தமிழகத்தில் நாளை மின்தடை' tamil.news18.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:34:55 from_google 'தமிழகத்தில் நாளை மின்தடை' tamil.abplive.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:35:38 from_google 'தமிழகத்தில் நாளை மின்தடை' tamil.samayam.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:36:16 from_google 'தமிழ்நாட்டில் நாளை மின்தடை பகுதிகள்' tamil.news18.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:37:00 from_google 'தமிழ்நாட்டில் நாளை மின்தடை பகுதிகள்' tamil.abplive.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:37:39 from_google 'தமிழ்நாட்டில் நாளை மின்தடை பகுதிகள்' tamil.samayam.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+04:37:42   other district: இன்றைய மின்தடை: கடலூர் <https://www.dinamalar.com/news/tamil-nadu-district-news-cuddalore/today-s-power-outage-cuddalore/4382019>
+04:37:42 skipped: not a power cut=5, could not open=2, other district=1
+04:37:42 no new power-cut notice

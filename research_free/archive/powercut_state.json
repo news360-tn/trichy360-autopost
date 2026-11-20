@@ -1,184 +1,10 @@
 {
  "seen": {
-  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/15/%E0%AE%9A%E0%AE%AE%E0%AE%AF%E0%AE%AA%E0%AF%81%E0%AE%B0%E0%AE%AE%E0%AF%8D-%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%88-%E0%AE%AE%E0%AE%BF%E0%AE%A9%E0%AF%8D-%E0%AE%A4%E0%AE%9F%E0%AF%88-3": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": true,
-   "why": "",
-   "title": "சமயபுரம் பகுதிகளில் நாளை மின் தடை"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-theni/tomorrow-nov-18-resistor/4377963": {
-   "at": "2026-11-16T22:39:16.850461+05:30",
-   "power_cut": false,
-   "why": "other district",
-   "title": "நாளை மறுதினம் (நவ.18), மின்தடை"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-dindigul/power-outage-today-nov-17-morning-1000---1-00-pm/4377765": {
-   "at": "2026-11-16T22:39:16.850461+05:30",
-   "power_cut": false,
-   "why": "other district",
-   "title": "நாளை (நவ.17) மின்தடை(காலை 10:00 – மதியம் 3:00 மணி)"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-virudhunagar/tomorrow-nov-18---power-outage-morning-1000---1-00-pm/4377625": {
-   "at": "2026-11-16T22:39:16.850461+05:30",
-   "power_cut": false,
-   "why": "other district",
-   "title": "நாளை மறுதினம் (நவ. 18-) மின்தடை (காலை 10:00-மதியம் 3:00 மணி)"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-dindigul/tomorrow-nov-18-power-outage-1-00-am---1-00-pm/4377571": {
-   "at": "2026-11-16T22:39:16.850461+05:30",
-   "power_cut": false,
-   "why": "other district",
-   "title": "நாளை மறுதினம் (நவ.18) மின்தடை (காலை 9:00 – மதியம் 2:00 மணி)"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-madurai/today-tomorrow-is-also-a-resistor/4377609": {
-   "at": "2026-11-16T22:39:16.850461+05:30",
-   "power_cut": false,
-   "why": "other district",
-   "title": "நவ. 17, 18 ல் மின்தடை"
-  },
-  "https://www.dinamalar.com/amp/news/tamil-nadu-district-news-madurai/tomorrow-nov-17-resistance/4376906": {
-   "at": "2026-11-16T22:39:16.850461+05:30",
-   "power_cut": false,
-   "why": "other district",
-   "title": "நாளை மறுதினம் (நவ.17) மின்தடை"
-  },
-  "https://www.dinamalar.com/amp/news/tamil-nadu-district-news-kallakurichi/todays-power-outage/4377627": {
-   "at": "2026-11-16T22:39:16.850461+05:30",
-   "power_cut": false,
-   "why": "other district",
-   "title": "நாளைய(நவ.17) மின் நிறுத்தம்"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-kallakurichi/todays-power-outage/4377627": {
-   "at": "2026-11-16T22:39:16.850461+05:30",
-   "power_cut": false,
-   "why": "other district",
-   "title": "நாளைய(நவ.17) மின் நிறுத்தம்"
-  },
-  "https://tamil.abplive.com/news/tamil-nadu/tamilnadu-power-shutdown-17-11-2026-vellore-karur-kovai-power-cut-areas-affected-279880#district-section": {
-   "at": "2026-11-16T22:39:16.850461+05:30",
-   "power_cut": true,
-   "why": "",
-   "title": "திருச்சி மாவட்டத்தில் நாளை (17-11-2026) மின்தடை: குட்டி அம்பலக்ரன் பட்டி, தென்றல் நகர், உஸ்மான் அலி நகர், வசந்தா நகர்"
-  },
-  "https://tamil.abplive.com/news/thoothukudi/attention-residents-of-thoothukudi-a-7-hour-power-outage-is-scheduled-for-tomorrow-here-is-the-full-list-of-affected-areas-279875#district-section": {
-   "at": "2026-11-16T22:39:16.850461+05:30",
-   "power_cut": false,
-   "why": "not this district",
-   "title": "தூத்துக்குடி மக்களே உஷார்! நாளை 7 மணி நேரம் மின்தடை – முழு பகுதிகள் பட்டியல்!"
-  },
-  "https://tamil.abplive.com/news/trichy/trichy-power-cut-17-11-2026-know-timings-areas-affected-by-power-shutdown-279854/amp#district-section": {
-   "at": "2026-11-16T22:39:16.850461+05:30",
-   "power_cut": true,
-   "why": "",
-   "title": "திருச்சி மாவட்டத்தில் நாளை (17-11-2026) மின்தடை: பல்வேறு பகுதிகளில் (நவம்பர் 17, 2026, செவ்வாய்க்கிழமை) மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெற உள்ளதால், காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம"
-  },
-  "https://tamil.abplive.com/news/coimbatore/coimbatore-power-cut-17-11-2026-know-timings-areas-affected-by-power-shutdown-279848/amp#district-section": {
-   "at": "2026-11-16T22:39:16.850461+05:30",
-   "power_cut": false,
-   "why": "not this district",
-   "title": "coimbatore power cut: கோவையில் நாளை (17-11-2026) எங்கெல்லாம் கரண்ட் இருக்காது? - மின்வாரியம் வெளியிட்ட"
-  },
-  "https://tamil.abplive.com/news/chennai/chennai-power-cut-17-11-2026-check-areas-power-shutdown-scheduled-on-november-17th-279861/amp#district-section": {
-   "at": "2026-11-16T22:39:16.850461+05:30",
-   "power_cut": false,
-   "why": "not this district",
-   "title": "Chennai Power Cut: அட கடவுளே... சென்னையில் நாளை (17.11.2026) ஒரே நேரத்தில் இவ்வளவு இடங்களில் மின்தடையா?"
-  },
-  "https://tamil.abplive.com/news/coimbatore/coimbatore-power-cut-17-11-2026-know-timings-areas-affected-by-power-shutdown-279848#district-section": {
-   "at": "2026-11-16T22:39:16.850461+05:30",
-   "power_cut": false,
-   "why": "not this district",
-   "title": "coimbatore power cut: கோவையில் நாளை (17-11-2026) எங்கெல்லாம் கரண்ட் இருக்காது? - மின்வாரியம் வெளியிட்ட லிஸ்ட்"
-  },
   "https://tamil.abplive.com/news/trichy/trichy-power-cut-17-11-2026-know-timings-areas-affected-by-power-shutdown-279854#district-section": {
    "at": "2026-11-18T13:11:49.279071+05:30",
    "power_cut": true,
    "why": "cut day 2026-11-17 has passed",
    "title": "திருச்சி மாவட்டத்தில் நாளை (17-11-2026) மின்தடை: பல்வேறு பகுதிகளில் (நவம்பர் 17, 2026, செவ்வாய்க்கிழமை) மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெற உள்ளதால், காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம"
-  },
-  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/10/துறையூா்-பகுதியில்-இன்று-நவ11-மின்தடை": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": true,
-   "why": "cut day 2026-11-11 has passed",
-   "title": "துறையூா் பகுதியில் இன்று (நவ.11) மின்தடை"
-  },
-  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/10/அதவத்தூா்-துவாக்குடியில்-இன்று-மின்தடை": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": true,
-   "why": "cut day 2026-11-11 has passed",
-   "title": "அதவத்தூா், துவாக்குடியில் இன்று மின்தடை"
-  },
-  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/09/சிறுகனூா்-பகுதிகளில்-நவ11-இல்-மின்-தடை": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": true,
-   "why": "cut day 2026-11-11 has passed",
-   "title": "சிறுகனூா் பகுதிகளில் நவ.11-இல் மின் தடை"
-  },
-  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/09/%E0%AE%AA%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BE%E0%AE%A8%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%88-%E0%AE%AE%E0%AE%BF%E0%AE%A9%E0%AF%8D-%E0%AE%A8%E0%AE%BF%E0%AE%B1%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%AE%E0%AF%8D-2": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": false,
-   "why": "other district",
-   "title": "புத்தாநத்தத்தில் நாளை மின் நிறுத்தம்"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/1510-books-in-fake-author-s-name-removed/4373252": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": false,
-   "why": "not a power cut",
-   "title": "போலி எழுத்தாளர் பெயரில் இருந்த 1,510 புத்தகங்கள் அகற்றம்"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/6-people-in-trichy-double-murder-case-arrested/4372757": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": false,
-   "why": "not a power cut",
-   "title": "திருச்சி இரட்டை கொலை வழக்கில் 6 பேர் கைது"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/headmaster-suspended-for-selling-free-textbooks/4371633": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": false,
-   "why": "not a power cut",
-   "title": "இலவச பாட புத்தகங்களை விற்ற தலைமையாசிரியை சஸ்பெண்ட்"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/people-gather-in-the-streets-of-trichy-shops/4371196": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": false,
-   "why": "not a power cut",
-   "title": "திருச்சி கடை வீதிகளில் குவிந்த மக்கள்"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/headmaster-who-sold-free-textbooks-for-weight/4370410": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": false,
-   "why": "not a power cut",
-   "title": "விலையில்லா பாடப்புத்தகங்களை எடைக்கு விற்ற தலைமையாசிரியை"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/rs-two-more-arrested-in-615-million-fraud-case/4368791": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": false,
-   "why": "not a power cut",
-   "title": "ரூ.6.15 கோடி மோசடி வழக்கில் மேலும் இருவர் சிக்கினர்"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/divya-seshadri-s-interview-with-kalpu-muruganantham-police-didn-t-arrest-him-but-accused-him-of-sexual-harassment/4368790": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": false,
-   "why": "not a power cut",
-   "title": "கருப்பு முருகானந்தத்தை கைது செய்யாத போலீசார் பாலியல் புகார் கூறிய திவ்யா சேஷாத்ரி பேட்டி"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/divorced-wife-passionate-husband-suicide/4368789": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": false,
-   "why": "not a power cut",
-   "title": "மனைவி பிரிந்த ஏக்கம் கணவன் தற்கொலை"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-coimbatore/power-outage-coimbatore/4373353": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": false,
-   "why": "other district",
-   "title": "நாளைய(நவ.12) மின்தடை: கோயம்புத்தூர்"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-dindigul/power-outage-today/4335909": {
-   "at": "2026-11-16T23:17:32.154018+05:30",
-   "power_cut": false,
-   "why": "other district",
-   "title": "மரிச்சிலம்பு, பூலாம்பட்டியில் மின்தடை"
   },
   "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/16/ரேஷனுக்கு-வழங்க-வேண்டிய-ரூ22-கோடி-அரிசி-கையாடல்-தனியாா்-அரிசி-ஆலை-உரிமையாளா்-மனைவி-மகன்-கைது": {
    "at": "2026-11-17T13:36:28.699445+05:30",
@@ -995,25 +821,45 @@
    "power_cut": false,
    "why": "not this district",
    "title": "coimbatore power cut: கோவையில் நாளை (21-11-2026) எங்கெல்லாம் மின் தடை? - மின்வாரியம் வெளியிட்ட லிஸ்ட்"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/20/new-flight-service-between-trichy-and-subang-to-begin-on-december-16": {
+   "at": "2026-11-21T04:21:26.525484+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "திருச்சி-சுபாங் இடையே டிசம்பா் 16 முதல் புதிய விமான சேவை"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/20/karthigai-deepam-festival-special-train-between-tiruchirappalli-and-vellore-cantonment": {
+   "at": "2026-11-21T04:21:26.525484+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "காா்த்திகை தீபத் திருவிழா: திருச்சி-வேலூா் கண்டோன்மென்ட் இடையே சிறப்பு ரயில்"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/20/special-voter-list-camps-to-be-held-for-3-days-at-2789-polling-stations-in-the-district": {
+   "at": "2026-11-21T04:21:26.525484+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "மாவட்டத்தின் 2,789 வாக்குச் சாவடிகளில் 3 நாள்கள் வாக்காளா் பட்டியல் சிறப்பு முகாம்"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/20/drinking-water-supply-to-be-suspended-in-city-areas-tomorrow": {
+   "at": "2026-11-21T04:21:26.525484+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "மாநகரப் பகுதிகளில் நாளை குடிநீா் நிறுத்தம்"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/20/award-presentation-for-outstanding-educators": {
+   "at": "2026-11-21T04:21:26.525484+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "சிறந்த கல்வியாளா்களுக்கான விருது அளிப்பு"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-cuddalore/today-s-power-outage-cuddalore/4382019": {
+   "at": "2026-11-21T04:21:26.525484+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "இன்றைய மின்தடை: கடலூர்"
   }
  },
  "done": {
-  "Ca1363b1": {
-   "id": "Ca1363b1",
-   "url": "https://tamil.abplive.com/news/tamil-nadu/tamilnadu-power-shutdown-17-11-2026-vellore-karur-kovai-power-cut-areas-affected-279880#district-section",
-   "title": "திருச்சி மாவட்டத்தில் நாளை (17-11-2026) மின்தடை: குட்டி அம்பலக்ரன் பட்டி, தென்றல் நகர், உஸ்மான் அலி நகர், வசந்தா நகர்",
-   "published": "2026-11-16T20:48:34+05:30",
-   "cut_day": "2026-11-17",
-   "at": "2026-11-16T22:39:16.850461+05:30"
-  },
-  "C8d45a1d": {
-   "id": "C8d45a1d",
-   "url": "https://tamil.abplive.com/news/trichy/trichy-power-cut-17-11-2026-know-timings-areas-affected-by-power-shutdown-279854/amp#district-section",
-   "title": "திருச்சி மாவட்டத்தில் நாளை (17-11-2026) மின்தடை: பல்வேறு பகுதிகளில் (நவம்பர் 17, 2026, செவ்வாய்க்கிழமை) மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெற உள்ளதால், காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம",
-   "published": "2026-11-16T15:22:21+05:30",
-   "cut_day": "2026-11-17",
-   "at": "2026-11-16T22:39:16.850461+05:30"
-  },
   "C9190013": {
    "id": "C9190013",
    "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/16/%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF-%E0%AE%AE%E0%AE%BE%E0%AE%B5%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%A9%E0%AF%8D-%E0%AE%87%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%88%E0%AE%AF-%E0%AE%AE%E0%AE%BF%E0%AE%A9%E0%AF%8D%E0%AE%A4%E0%AE%9F%E0%AF%88",
