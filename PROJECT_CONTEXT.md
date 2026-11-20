@@ -83,6 +83,13 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-20 | `797948a` | Cloudinary clean-up every 6 hours; red run + e-mail when the login is refused, usage unreadable or 80% used |
+| 2026-11-20 | `c261889` | pick: written and posted |
+| 2026-11-20 | `27eadc2` | pick: picked news saved |
+| 2026-11-20 | `0dfd31e` | pick: picked news saved |
+| 2026-11-20 | `18ab528` | pick: list sent |
+| 2026-11-20 | `a6aa665` | powercut: notices written |
+| 2026-11-20 | `fab22d5` | powercut: notices written |
 | 2026-11-20 | `6c7aded` | News reels: 360 clock branding layer (logo progress ring, opening ring, clock-hand picture change, end-card ring) |
 | 2026-11-20 | `ac13d7d` | goldrate posted |
 | 2026-11-20 | `0196f79` | pick: written and posted |
@@ -106,11 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-19 | `6c783e6` | pick: picked news saved |
 | 2026-11-19 | `6ded33a` | pick: picked news saved |
 | 2026-11-19 | `771c8a3` | pick: list sent |
-| 2026-11-19 | `545968a` | pick: written and posted |
-| 2026-11-19 | `54ac958` | pick: picked news saved |
-| 2026-11-19 | `2a06b7c` | pick: picked news saved |
-| 2026-11-19 | `1867a8d` | pick: list sent |
-| 2026-11-19 | `8707704` | rasipalan + goldrate: publish again when Instagram says 'media not ready' (9007, nothing posted - Erode 19 Nov); Cloudinary upload tried 3 times with its reason in the log (Rasipuram rasipalan posted 18:43 on 18 Nov after 3 refusals) |
-| 2026-11-19 | `540d5be` | PROJECT_CONTEXT.md: wording ('<district>-district news') |
-| 2026-11-19 | `38491aa` | PROJECT_CONTEXT.md: page names with a space (Salem 360 style), not an underscore |
 <!-- recent-changes:end -->
