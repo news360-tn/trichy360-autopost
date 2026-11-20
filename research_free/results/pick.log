@@ -1,30 +1,8 @@
-09:00:27 round 2026-11-20_09: news published 20 Nov 04:26 -> 20 Nov 09:00 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-09:00:27 insights 2026-11-20T09:00+05:30 (86 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': -0.17, 'civic': -0.02, 'education': -0.5, 'politics': -0.4, 'temple': -0.32, 'poultry_agri': 0.25}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது']
-09:01:17 42 links on the two papers' Trichy pages
-09:02:03 skipped: published before this window=13, not Trichy district=11, already posted=10, shop offer / advertisement=1, same event already posted=1
-09:02:03 list: 2 new + 1 earlier news not posted yet
-09:02:03    1. [குற்றம்] ரூ.700 கோடி மதிப்பிலான 71 கிலோ ஹெராயின் பறிமுதல்: இலங்கைக்கு கடத்த திட (இந்து தமிழ்)
-09:02:03    2. [பொது] மின்வாரிய அலுவலகத்துக்குள் புகுந்த பாம்பு: ஊழியர்கள் அலறியடித்து ஓட்டம (தினத்தந்தி)
-09:02:03    3. [பொது] விஎஸ் பாபு மறைவு: முதல் அமைச்சர் விஜய்யின் திருச்சி பயணம் ரத்து (தினத்தந்தி) (earlier)
-09:02:03 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+09:17:33 round 2026-11-20_09: news published 20 Nov 09:00 -> 20 Nov 09:17 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+09:17:33 insights 2026-11-20T09:17+05:30 (86 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': -0.17, 'civic': -0.02, 'education': -0.5, 'politics': -0.4, 'temple': -0.34, 'poultry_agri': 0.25}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது']
+09:17:46 30 links on the two papers' Trichy pages
+09:18:37 skipped: already posted=14, published before this window=13, not Trichy district=1, shop offer / advertisement=1, same event already posted=1
+09:18:37 list: 0 new + 1 earlier news not posted yet
+09:18:37    1. [பொது] விஎஸ் பாபு மறைவு: முதல் அமைச்சர் விஜய்யின் திருச்சி பயணம் ரத்து (தினத்தந்தி) (earlier)
+09:18:37 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
 ROUND=2026-11-20_09
-09:02:05    not picked automatically (suicide / obituary - only when the owner ticks it): விஎஸ் பாபு மறைவு: முதல் அமைச்சர் விஜய்யின் திருச்சி பயணம் ரத்து
-09:02:05 round 2026-11-20_09 (at least 5, up to 3 more of well-watched topics): 2 news to choose from (0 from earlier rounds), ranked by this page's insights
-09:02:05   PICK   1.  11.0 [other +0.00 pattern] ரூ.700 கோடி மதிப்பிலான 71 கிலோ ஹெராயின் பறிமுதல்: இலங்கைக்கு
-09:02:05   PICK   2.   5.0 [other +0.00 pattern] மின்வாரிய அலுவலகத்துக்குள் புகுந்த பாம்பு: ஊழியர்கள் அலறியடி
-09:02:05 decided: automatic: top 5 of 2 by insights -> 2 news to write and post
-PICK_URLS=https://www.hindutamil.in/news/crime/71-kg-of-heroin-worth-rs-700-crore-seized https://www.dailythanthi.com/news/tamilnadu/snake-enters-electricity-board-office-staff-flee-in-a-panic
-09:04:51 1 picked news refused by the writer - not offered again
-09:04:51 1 listed news now in the Sheet
-09:05:02 instagram duplicate check trichy: 50 recent posts read
-09:05:02 verify 2026-11-20_09: 0 of 2 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-09:05:02    SKIPPED C8d48dea: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - மின்வாரிய அலுவலகத்துக்குள் புகுந்த பாம்பு: ஊழியர்கள் அலறியடி
-09:05:02    NOT POSTED C6852955: queued RN-94 (Queued) - ரூ.700 கோடி மதிப்பிலான 71 கிலோ ஹெராயின் பறிமுதல்: இலங்கைக்கு
-09:10:08 instagram duplicate check trichy: 50 recent posts read
-09:10:08 verify 2026-11-20_09: 0 of 2 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-09:10:08    SKIPPED C8d48dea: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - மின்வாரிய அலுவலகத்துக்குள் புகுந்த பாம்பு: ஊழியர்கள் அலறியடி
-09:10:08    NOT POSTED C6852955: queued RN-94 (Queued) - ரூ.700 கோடி மதிப்பிலான 71 கிலோ ஹெராயின் பறிமுதல்: இலங்கைக்கு
-09:15:15 instagram duplicate check trichy: 50 recent posts read
-09:15:15 verify 2026-11-20_09: 0 of 2 picked news posted, 2 skipped on purpose, 0 waiting for their posting start
-09:15:15    SKIPPED C6852955: skipped RN-94: already on Instagram (2026-11-20T03:45:01+0000) - ரூ.700 கோடி மதிப்பிலான 71 கிலோ ஹெராயின் பறிமுதல்: இலங்கைக்கு
-09:15:15    SKIPPED C8d48dea: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - மின்வாரிய அலுவலகத்துக்குள் புகுந்த பாம்பு: ஊழியர்கள் அலறியடி
