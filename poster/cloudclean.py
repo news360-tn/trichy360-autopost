@@ -21,6 +21,8 @@ FOLDER = "trichy360"
 KEEP_H = float(os.environ.get("CLOUDINARY_KEEP_HOURS", "48") or 48)      # owner 12 Nov: keep the last 48 h only
 FULL_KEEP_H = float(os.environ.get("CLOUDINARY_FULL_KEEP_HOURS", "48") or 48)
 CLEAN_AT = float(os.environ.get("CLOUDINARY_CLEAN_AT", "50") or 50)
+ALERT_AT = float(os.environ.get("CLOUDINARY_ALERT_AT", "80") or 80)      # owner 20 Nov: warn (red run + e-mail) before the account is disabled
+PROBLEMS = []      # owner 20 Nov: what made this run unable to keep the account small (--alert turns them into a red run)
 API = "https://api.cloudinary.com/v1_1/{}/"
 
 
@@ -102,7 +104,11 @@ def run(force=False, dry=False, now=None):
         pct = used_percent(cloud, auth)
     except Exception as e:
         log(f"usage not read ({type(e).__name__}) - normal clean-up only")
+        PROBLEMS.append(f"usage not read ({type(e).__name__}: {str(e)[:120]}) - check CLOUDINARY_API_KEY / CLOUDINARY_API_SECRET "
+                        "are from the same account as CLOUDINARY_CLOUD")
         pct = 0.0
+    if pct >= ALERT_AT:
+        PROBLEMS.append(f"{pct:.0f}% of the monthly credits used - the account is disabled at 100%")
     full = pct >= CLEAN_AT
     log(f"{pct:.0f}% of the monthly credits used" + (f" (>= {CLEAN_AT:.0f}%: reels older than {FULL_KEEP_H:.0f} h are deleted too)" if full else ""))
     total, freed = 0, 0
@@ -116,10 +122,15 @@ def run(force=False, dry=False, now=None):
             log(f"{kind}: {len(files)} files in {FOLDER}, {n} {'would be ' if dry else ''}deleted")
         except Exception as e:
             log(f"{kind}: clean-up skipped ({type(e).__name__}: {str(e)[:120]})")
+            PROBLEMS.append(f"{kind}: clean-up skipped ({type(e).__name__}: {str(e)[:120]})")
     log(f"{total} files, about {freed / 1e6:.0f} MB {'would be ' if dry else ''}freed")
     return total
 
 
 if __name__ == "__main__":
     run(force="--force" in sys.argv, dry="--dry" in sys.argv)
+    if "--alert" in sys.argv and PROBLEMS:      # owner 20 Nov: the scheduled clean-up turns red (GitHub e-mails the owner)
+        for p in PROBLEMS:
+            print(f"::error title=Cloudinary clean-up problem::{p}")
+        sys.exit(1)
     sys.exit(0)      # never fails the posting run
