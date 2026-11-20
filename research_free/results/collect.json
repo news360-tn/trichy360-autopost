@@ -3,116 +3,373 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/furniture-shopper-escapes-with-rs-1-crore-fraud/4381856",
-  "candidate filter: collected=1",
-  "to write: 1 Trichy district candidates (max 1 stories)",
-  "round: top 1 of 1 candidates",
-  "candidates waiting: 1 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/furniture-sho",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/20/drinking-water-supply-to-be-suspended-in-city-areas-tomorrow",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/20/special-voter-list-camps-to-be-held-for-3-days-at-2789-polling-stations-in-the-district",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/20/new-flight-service-between-trichy-and-subang-to-begin-on-december-16",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/20/karthigai-deepam-production-of-earthen-lamps-intensifies-in-the-district",
+  "candidate filter: collected=4",
+  "to write: 4 Trichy district candidates (max 4 stories)",
+  "round: top 4 of 4 candidates",
+  "candidates waiting: 4 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 74 min",
-  "filed: 1 Trichy district stories (target 1), reels only",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})",
+  "candidate loop ended: left 0, tried={'N': 4}, done={'N': 4}, time left 77 min",
+  "filed: 4 Trichy district stories (target 4), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":4,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (11s)",
+  "ok gemini/gemini-3-flash-preview (10s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
-  "ok groq/openai/gpt-oss-120b (7s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "ok groq/qwen/qwen3.8-27b (3s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok groq/openai/gpt-oss-120b (3s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok groq/openai/gpt-oss-120b (6s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "ok gemini/gemini-3.6-flash (30s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok gemini/gemini-3.6-flash (50s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok groq/qwen/qwen3.8-27b (4s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "பர்னிச்சர் கடையில் முதலீடு என்ற பெயரில் ரூ.25 கோடி மோசடி",
-   "english_headline": "Rs 25 crore fraud in Trichy: furniture shop owner Sameer Ali vanishes after collecting investments from 100+ people",
-   "category": "Crime & Safety",
-   "location": "K.K. Nagar, Trichy city, Trichy district",
-   "importance": "High",
-   "scope": "",
+   "tamil_headline": "திருச்சி–சுபாங் இடையே டிசம்பர் 16 முதல் புதிய விமான சேவை",
+   "english_headline": "New Trichy–Subang flights from December 16",
+   "category": "Roads & Transport",
+   "location": "Tiruchirappalli International Airport, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "மோசடி",
-    "loc": "திருச்சி கே.கே.நகர்",
-    "hl1": "திருச்சியில் ரூ.25 கோடி மோசடி",
-    "hl2": "கடைக்காரர் தலைமறைவு",
+    "cat": "விமான சேவை",
+    "loc": "திருச்சி விமான நிலையம்",
+    "hl1": "திருச்சி–சுபாங் புதிய விமான சேவை",
+    "hl2": "டிசம்பர் 16 முதல் தொடக்கம்",
     "slides": [
      {
-      "title": "என்ன நடந்தது?",
+      "title": "எப்போது தொடக்கம்?",
       "lines": [
-       "பர்னிச்சர் கடையில் முதலீடு செய்தால் அதிக லாபம் என ஆசை",
-       "சமீர் அலி, <b>35 வயது</b>, மீது போலீஸ் கமிஷனரிடம் புகார்",
-       "கே.கே.நகரில் 'மன்சில் கார்ட்' பர்னிச்சர் கடை நடத்தியவர்"
+       "படிக் விமான நிறுவனம் சார்பில் சேவை",
+       "டிசம்பர் <b>16</b> ஆம் தேதி முதல் தொடக்கம்",
+       "மலேசியாவின் சுபாங் சுல்தான் அப்துல் அசிஷ் ஷா விமான நிலையம்"
       ]
      },
      {
-      "title": "எவ்வளவு பணம்?",
+      "title": "எந்த நாட்கள்?",
       "lines": [
-       "100க்கும் மேற்பட்டோர் முதலீடு செய்தனர்",
-       "கடந்த மே மாதம் முதல் பணம் வசூல்",
-       "மொத்தம் <b>ரூ.25 கோடி</b> வரை வசூலித்தார்"
+       "திருச்சியிலிருந்து: திங்கள், வியாழன், ஞாயிறு",
+       "சுபாங்கிலிருந்து: புதன், சனி, ஞாயிறு",
+       "வாரத்தில் குறிப்பிட்ட நாட்களில் மட்டும்"
       ]
      },
      {
-      "title": "இப்போது நிலைமை",
+      "title": "நேர விவரம்",
       "lines": [
-       "சில நாட்களுக்கு முன் சமீர் அலி தலைமறைவு",
-       "குடும்பத்தினர் 'எங்களுக்குத் தெரியாது' என்கின்றனர்",
-       "கேரளாவில் இருக்கலாம் என புகாரில் குறிப்பிடப்பட்டுள்ளது"
+       "திருச்சியில் அதிகாலை <b>12.10</b> மணிக்குப் புறப்படும்",
+       "சுபாங்கில் காலை <b>6.30</b> மணிக்கு வந்தடையும்",
+       "சுபாங்கில் இரவு <b>10</b> மணிக்குப் புறப்பட்டு திருச்சிக்கு"
+      ]
+     },
+     {
+      "title": "சுற்றுலாவுக்கு",
+      "lines": [
+       "திருச்சி–மலேசியா சுற்றுலா மேம்படும்",
+       "திருச்சியுடன் இணைந்த 9ஆவது சர்வதேச விமான நிலையம்",
+       "விமான நிலைய அதிகாரிகள் தகவல்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சியில் ரூ.25 கோடி மோசடி செய்து, பர்னிச்சர் கடைக்காரர் தலைமறைவாகிவிட்டார். திருச்சி கே கே நகரில் 'மன்சில் கார்ட்' என்ற பர்னிச்சர் கடையை நடத்திய சமீர் அலி, 35 வயது, மீது மோசடி புகார் அளிக்கப்பட்டுள்ளது. கடையில் முதலீடு செய்தால் மொத்த வியாபாரம் மூலம் அதிக லாபம் தருவதாக அவர் ஆசை காட்டினார். நம்பிய 100க்கும் மேற்பட்டோர், கடந்த மே மாதம் முதல் அவரிடம் பணம் முதலீடு செய்தனர். சுமார் ரூ.25 கோடி வரை வசூலித்த சமீர் அலி, சில நாட்களுக்கு முன் தலைமறைவானார். ஏமாற்றப்பட்டவர்கள் திருச்சி மாநகர போலீஸ் கமிஷனர் அலுவலகத்தில் புகார் அளித்தனர். அவரது குடும்பத்தினரிடம் கேட்டால் 'எங்களுக்குத் தெரியாது' என்கின்றனர். சமீர் அலி கேரளாவில் இருக்கலாம் என புகாரில் குறிப்பிட்டுள்ளதாக ஏமாற்றப்பட்டவர்கள் கூறினர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சியில் பர்னிச்சர் கடை முதலீட்டில் ரூ.25 கோடி மோசடி, உரிமையாளர் தலைமறைவு\n\n📰 முழு விவரம்:\nதிருச்சி கே.கே.நகர் பகுதியில் 'மன்சில் கார்ட்' என்ற பர்னிச்சர் கடையை நடத்திய சமீர் அலி (35 வயது), கடையில் முதலீடு செய்தால் மொத்த வியாபாரம் மூலம் அதிக லாபம் தருவதாகக் கூறினார். நம்பிய 100க்கும் மேற்பட்டோர் கடந்த மே மாதம் முதல் முதலீடு செய்தனர். ரூ.25 கோடி வரை வசூலித்த அவர், சில நாட்களுக்கு முன் தலைமறைவானார். ஏமாற்றப்பட்டவர்கள் திருச்சி மாநகர போலீஸ் கமிஷனர் அலுவலகத்தில் புகார் அளித்தனர். அவரது குடும்பத்தினர் 'எங்களுக்குத் தெரியாது' என்கின்றனர்; சமீர் அலி கேரளாவில் இருக்கலாம் என புகாரில் குறிப்பிட்டுள்ளனர்.\n\n📍 இடம்: கே.கே.நகர், திருச்சி மாநகரம்\n👮 நடவடிக்கை: திருச்சி மாநகர போலீஸ் கமிஷனரிடம் புகார்\n\nTrichy furniture shop Rs 25 crore fraud | Trichy news\n📍 திருச்சி மாவட்டம் | 20 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
-   "prompts": "A group of people, customers and friends who invested money, stand together outside the commissioner's office in Trichy city, holding folders and papers, while a Tamil Nadu police constable in khaki stands at the gate. The setting is a government office compound with a low concrete wall, a few parked two-wheelers and a private car, and a row of trees along the road in the mid-day daylight. Several men in shirts and trousers and women in sarees and salwar stand in a loose group, seen from behind and from a distance, some holding plastic files of documents. The scene reflects a fraud complaint from K.K. Nagar where Rs 25 crore was collected from over 100 investors. Eye-level camera, 35 mm lens, wide enough to show the office gate, the road, the waiting crowd and the parked vehicles, soft natural light, no readable signboards or text. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a stack of paper investment receipts and a plastic document folder lying on a wooden table, with a few pens and a calculator beside them, in a Tamil Nadu police office with a khaki-uniformed officer's sleeve visible at the edge of the frame. The paper pages show only blank printed forms with no readable text, representing the complaint records of the victims of a Rs 25 crore furniture investment fraud in Trichy. Behind the table, a slightly blurred wooden furniture item, a sofa or cabinet, hints at the furniture business at the centre of the case. Warm indoor light from a tube light, soft focus background, 35 mm close-up at a slight high angle, no faces visible, no text or logos legible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-news/furniture-shopper-escapes-with-rs-1-crore-fraud/4381856",
-   "published": "2026-11-20T21:17:01+05:30",
+   "reel_script": "திருச்சியிலிருந்து மலேசியாவின் சுபாங் நகருக்கு புதிய விமான சேவை தொடங்குகிறது. இந்த சேவை டிசம்பர் 16ஆம் தேதி முதல் தொடங்குகிறது. படிக் விமான நிறுவனம் சார்பில் இந்த விமானம் இயக்கப்படுகிறது. திருச்சி பன்னாட்டு விமான நிலையத்திலிருந்து சுபாங் சுல்தான் அப்துல் அசிஷ் ஷா விமான நிலையத்துக்கு இந்த சேவை இருக்கும். திருச்சியிலிருந்து திங்கள், வியாழன், ஞாயிற்றுக்கிழமைகளில் விமானம் புறப்படும். சுபாங்கிலிருந்து புதன், சனி, ஞாயிற்றுக்கிழமைகளில் விமானம் புறப்படும். திருச்சியில் அதிகாலை 12.10 மணிக்குப் புறப்பட்டு, சுபாங்கை அந்நாட்டு நேரப்படி காலை 6.30 மணிக்கு சென்றடையும். சுபாங்கிலிருந்து அந்நாட்டு நேரப்படி இரவு 10 மணிக்குப் புறப்பட்டு, திருச்சியை இரவு 11.10 மணிக்கு வந்தடையும். ஏற்கெனவே திருச்சியிலிருந்து துபை, அபுதாபி, ஷார்ஜா, மஸ்கட், கோலாலம்பூர், சிங்கப்பூர், கொழும்பு, யாழ்ப்பாணம் ஆகிய 8 விமான நிலையங்களுக்கு சர்வதேச சேவை உள்ளது. தற்போது சுபாங் விமான நிலையம் இணைவதால் திருச்சியுடன் இணைந்த விமான நிலையங்கள் 9ஆக உயர்ந்துள்ளன. இந்த சேவை திருச்சி–மலேசியா இடையேயான சுற்றுலாவை மேம்படுத்தும் என்று திருச்சி விமான நிலைய அதிகாரிகள் தெரிவித்துள்ளனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "✈️ திருச்சி–சுபாங் இடையே டிசம்பர் 16 முதல் புதிய விமான சேவை\n\n📰 முழு விவரம்:\nதிருச்சி பன்னாட்டு விமான நிலையத்திலிருந்து மலேசியாவின் சுபாங் சுல்தான் அப்துல் அசிஷ் ஷா விமான நிலையத்துக்கு படிக் விமான நிறுவனம் சார்பில் புதிய விமான சேவை டிசம்பர் 16 ஆம் தேதி தொடங்குகிறது.\nதிருச்சியிலிருந்து திங்கள், வியாழன், ஞாயிற்றுக்கிழமைகளிலும், சுபாங்கிலிருந்து புதன், சனி, ஞாயிற்றுக்கிழமைகளிலும் சேவை இருக்கும்.\nதிருச்சியில் அதிகாலை 12.10 மணிக்குப் புறப்பட்டு, சுபாங்கை அந்நாட்டு நேரப்படி காலை 6.30 மணிக்கு சென்றடையும். சுபாங்கிலிருந்து அந்நாட்டு நேரப்படி இரவு 10 மணிக்குப் புறப்பட்டு, திருச்சியை இரவு 11.10 மணிக்கு வந்தடையும்.\nஏற்கெனவே திருச்சியிலிருந்து 8 விமான நிலையங்களுக்கு சர்வதேச சேவை உள்ளது. சுபாங் இணைவதால் இது 9 ஆக உயர்ந்துள்ளது.\nஇந்த சேவை திருச்சி–மலேசியா இடையேயான சுற்றுலாவை மேம்படுத்தும் என விமான நிலைய அதிகாரிகள் தெரிவித்துள்ளனர்.\n\nTrichy–Subang flight from Dec 16 | Trichy news\n📍 திருச்சி விமான நிலையம், திருச்சி மாவட்டம் | 21 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #TrichyAirport",
+   "prompts": "A passenger aircraft stands parked on the apron of Tiruchirappalli International Airport as the first flight to Subang in Malaysia is readied for its 16 December launch. In the foreground, a ground crew member in a reflective vest walks beside the aircraft, while a fuel tanker and baggage trolleys are parked nearby. The airport apron is open and wide, with the terminal building visible behind the aircraft and the tall control tower standing against the sky. A few travellers in shirts, trousers and sarees stand far off near the terminal glass, seen from behind or in soft focus, with their small luggage bags beside them. The scene is set at dusk, with a warm orange light fading into deep blue, and the apron lights are just beginning to glow. The aircraft's wings and fuselage catch the last light, and the runway lines stretch out into the distance. Camera at eye level, 35 mm lens, wide enough to show the full apron, the terminal and the aircraft together in a calm, ordered Trichy airport setting. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close view of the airport check-in counter area inside Tiruchirappalli International Airport, where passengers are being registered for the new Trichy to Subang flight. On the counter, a boarding pass printout, a small stack of passports and a weighing scale for luggage are placed in front of an airline staff member in a neat uniform, seen from behind. Two travellers stand at the counter with a few suitcases and a cloth bag, and a line of passengers waits behind a steel queue barrier. The floor is polished tile and the ceiling lights are bright white, giving a clean, modern look typical of a regional airport terminal. It is late evening with the outside windows dark, reflecting the indoor lights. Camera slightly high, 35 mm lens, focused on the counter and the luggage with the queue softly blurred behind, showing the everyday start of the new air service. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/20/new-flight-service-between-trichy-and-subang-to-begin-on-december-16",
+   "published": "2026-11-20T22:47:35.734Z",
    "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
    "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795191951/trichy360/kpqyet04v2jdkicib6wr.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795192016/trichy360/vmbj5mnl1bbbbdyglz7s.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795215512/trichy360/nvgyc1oerbtkunucugwz.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795215516/trichy360/dbpnil2j50b5swtpjgiy.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "கார்த்திகை தீபம்: திருவானைக்காவல் அருகே அகல் விளக்குகள் தயாரிப்பு தீவிரம்",
+   "english_headline": "Karthigai Deepam: clay lamp making intensifies near Thiruvanaikoil, Trichy, ahead of 24 Nov festival",
+   "category": "Temples & Events",
+   "location": "Melakondayampettai and Keezha Kondayampettai near Thiruvanaikoil, Trichy district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "கார்த்திகை தீபம்",
+    "loc": "திருவானைக்காவல், திருச்சி",
+    "hl1": "திருவானைக்காவல் அருகே தயாரிப்பு தீவிரம்",
+    "hl2": "நவ. 24 கார்த்திகை தீபம்",
+    "slides": [
+     {
+      "title": "எங்கே, எப்போது?",
+      "lines": [
+       "திருவானைக்காவல் அருகே மேல, கீழ கொண்டயம்பேட்டையில் தயாரிப்பு",
+       "கார்த்திகை தீபம் <b>நவ. 24</b> அன்று கொண்டாடப்படுகிறது",
+       "மண்பாண்ட தொழிலாளர்கள் தீவிரமாக ஈடுபட்டுள்ளனர்"
+      ]
+     },
+     {
+      "title": "ஆர்டர்கள் அதிகம்",
+      "lines": [
+       "சில்லறை வியாபாரிகளிடமிருந்து கூடுதல் ஆர்டர்கள்",
+       "50 முதல் 250 மில்லி எண்ணெய் கொள்ளளவு விளக்குகள்",
+       "ஒரு முகம், பஞ்சமுகம், பாவை விளக்குகள் தயாரிப்பு"
+      ]
+     },
+     {
+      "title": "விலை, சிரமம்",
+      "lines": [
+       "அளவுக்கு ஏற்ப ரூ.3 முதல் ரூ.50 வரை விற்பனை",
+       "மழை, களிமண் கிடைக்காமை, வெயிலில் காயவைக்க முடியாமை சிரமம்",
+       "அரசின் வாழ்வாதார உதவி கோரிக்கை"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருவானைக்காவல் அருகே அகல் விளக்குகள் தயாரிப்புப் பணி தீவிரமாக நடைபெறுகிறது. கார்த்திகை தீபத்தை முன்னிட்டு, மேல கொண்டயம்பேட்டை மற்றும் கீழ கொண்டயம்பேட்டை பகுதிகளில் மண்பாண்ட தொழிலாளர்கள் விளக்குகளைத் தயாரித்து வருகின்றனர். இந்த ஆண்டு கார்த்திகை தீபம் நவம்பர் 24ஆம் தேதி கொண்டாடப்படவுள்ளது. சில்லறை வியாபாரிகளிடமிருந்து வழக்கத்தைவிடக் கூடுதல் ஆர்டர்கள் வந்துள்ளன. 50 முதல் 250 மில்லி எண்ணெய் கொள்ளளவு கொண்ட விளக்குகள் தயாரிக்கப்படுகின்றன. ஒரு முகம், பஞ்சமுகம், பாவை விளக்கு என பல வகைகள் உள்ளன. விளக்குகளின் அளவுக்கு ஏற்ப ரூ.3 முதல் ரூ.50 வரை விலை வைத்து விற்பனை செய்யப்படுகிறது. கடந்த மாத இறுதியிலும், இந்த மாத தொடக்கத்திலும் மழையால் உற்பத்தி பாதிக்கப்பட்டது. களிமண் கிடைப்பதில் சிரமம் உள்ளது. தயாரித்த விளக்குகளை வெயிலில் காயவைக்க முடியவில்லை. திருக்கோயில்களில் கட்டுப்பாடின்றி அகல்விளக்கு ஏற்ற அனுமதித்தால், ஆண்டு முழுவதும் உற்பத்தி செய்யலாம் என்று தொழிலாளர் ஒருவர் தெரிவித்தார். இந்தத் தொழிலில் வருமானம் போதவில்லை என்றும், மழைக் காலங்களிலும் வேலையில்லாத நாட்களிலும் மீனவர்களுக்கு வழங்குவதுபோல் அரசு வாழ்வாதாரத்துக்கு உதவ வேண்டும் என்றும் மற்றொரு தொழிலாளி கோரிக்கை வைத்துள்ளார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🪔 திருவானைக்காவல் அருகே கார்த்திகை தீபத்துக்கு அகல் விளக்குகள் தயாரிப்பு தீவிரம்\n\n📰 முழு விவரம்:\nகார்த்திகை தீபத்துக்காக திருவானைக்காவல் அருகே மேல கொண்டயம்பேட்டை, கீழ கொண்டயம்பேட்டை பகுதிகளில் மண்பாண்ட தொழிலாளர்கள் அகல் விளக்குகளைத் தயாரித்து வருகின்றனர். இந்த ஆண்டு கார்த்திகை தீபம் நவம்பர் 24ஆம் தேதி கொண்டாடப்படவுள்ளது.\nசில்லறை வியாபாரிகளிடமிருந்து வழக்கத்தைவிடக் கூடுதல் ஆர்டர்கள் வந்துள்ளன. எண்ணெய் கொள்ளளவு 50 முதல் 250 மில்லி வரையிலான விளக்குகள் தயாரிக்கப்படுகின்றன. ஒரு முகம், பஞ்சமுகம், பாவை விளக்கு என பல வகைகளும் உற்பத்தி செய்யப்படுகின்றன.\nவிளக்குகளின் அளவுக்கு ஏற்ப ரூ.3 முதல் ரூ.50 வரை விலை வைத்து விற்பனை செய்யப்படுகிறது.\nகடந்த மாத இறுதியிலும், இந்த மாத தொடக்கத்திலும் பெய்த மழையால் உற்பத்தி பாதிக்கப்பட்டது. களிமண் கிடைப்பதில் சிரமம் உள்ளது. தயாரித்த விளக்குகளை வெயிலில் காயவைக்க முடியவில்லை.\n🙏 திருக்கோயில்களில் கட்டுப்பாடின்றி அகல் விளக்கு ஏற்ற அனுமதித்தால், ஆண்டு முழுவதும் உற்பத்தி செய்யலாம் என தொழிலாளர் தெரிவித்தார்.\n📢 இந்தத் தொழிலில் வருமானம் போதவில்லை. மழைக் காலங்களிலும் வேலையில்லாத நாட்களிலும் மீனவர்களுக்கு வழங்குவதுபோல் அரசு வாழ்வாதார உதவி வழங்க வேண்டும் என்று மற்றொரு தொழிலாளி கோரினார்.\n\nKarthigai Deepam clay lamps Thiruvanaikoil | Trichy news\n📍 திருவானைக்காவல், திருச்சி மாவட்டம் | 21 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thiruvanaikoil #கார்த்திகைதீபம் #TrichyNews",
+   "prompts": "Several potter workers in a clay yard at Melakondayampettai near Thiruvanaikoil, Trichy, shape and stack rows of freshly made clay lamps for the upcoming Karthigai Deepam festival. Two men in shirts and veshti and a woman in a cotton saree sit on low stools at a long bare-ground workspace, their backs partly turned, hands working wet terracotta clay on a wooden board. Around them lie hundreds of unpainted agal vilakku in different sizes, some small single-wick lamps and a few five-face lamps, arranged in neat rows across mats and low wooden racks to dry. Mounds of reddish-brown clay sit in heaps at one side, and a few plastic buckets of water stand nearby. Low single-storey mud-brick sheds with tin roofs form the background, with a row of coconut palms and a faint trace of the Cauvery's green riverside beyond. It is bright daylight with soft overcast light after recent rain, damp patches on the ground. Shot at eye level, 35 mm, wide enough to show the whole yard and the workers from behind or far away. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a row of freshly made terracotta agal vilakku lamps laid out on a dry mat in the sun near Thiruvanaikoil, Trichy. The lamps are of varying sizes, the front ones showing the shallow bowl and pinched wick spout, with a few five-face lamps and a pavai-style lamp among them, their reddish-brown surfaces still slightly damp and dusty. Beside them sit a small heap of wet clay and a wooden shaping tool resting on a flat board. Behind the lamps, out of focus, a potter's hands are visible at work on another batch, and the soft ground of the clay yard shows faint footprints. The light is natural daylight, diffused after recent rain, with a warm earthy tone. Macro-style detail shot at low angle, 35 mm, shallow depth of field, no readable text or labels. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/20/karthigai-deepam-production-of-earthen-lamps-intensifies-in-the-district",
+   "published": "2026-11-20T22:55:27.792Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795215563/trichy360/d1nfdastqlaf6syfyoqm.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795215568/trichy360/mvcwlykqeqcjzibpobos.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "திருச்சி மாவட்டம்: 2,789 வாக்குச் சாவடிகளில் 3 நாள்கள் வாக்காளர் பட்டியல் சிறப்பு முகாம்",
+   "english_headline": "Special voter list camps at 2,789 polling stations in Trichy district on Nov 21, 22 and 29",
+   "category": "Government & Services",
+   "location": "Trichy, Trichy district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "வாக்காளர் முகாம்",
+    "loc": "திருச்சி மாவட்டம்",
+    "hl1": "திருச்சியில் வாக்காளர் பட்டியல் முகாம்",
+    "hl2": "நவ. 21, 22, 29 ஆகிய 3",
+    "slides": [
+     {
+      "title": "எப்போது, எங்கே?",
+      "lines": [
+       "திருச்சியின் <b>2,789</b> வாக்குச் சாவடிகளில் முகாம்",
+       "நவம்பர் <b>21, 22, 29</b> ஆகிய 3 நாள்கள் நடைபெறும்",
+       "மாவட்ட ஆட்சியர் <b>பிரத்திக் தாயள்</b> தகவல்"
+      ]
+     },
+     {
+      "title": "என்ன படிவம்?",
+      "lines": [
+       "பெயர் சேர்க்க படிவம் <b>6</b> சமர்ப்பிக்கலாம்",
+       "பெயர் நீக்கம் செய்ய படிவம் <b>7</b> தரலாம்",
+       "திருத்தம், இடமாற்றத்திற்கு படிவம் <b>8</b>"
+      ]
+     },
+     {
+      "title": "முக்கிய தகவல்கள்",
+      "lines": [
+       "<b>01.01.2027</b> தேதியை அடிப்படையாகக் கொண்டது",
+       "<b>12.11.2026</b> வரைவு வாக்காளர் பட்டியல் அடிப்படை",
+       "அரசியல் கட்சியினர் முகவர்களை அனுப்ப கோரிக்கை"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சி மாவட்டத்தின் 2,789 வாக்குச் சாவடிகளில் சிறப்பு வாக்காளர் பட்டியல் முகாம் தொடங்குகிறது. நவம்பர் 21, 22 மற்றும் 29 ஆகிய 3 நாள்கள் இந்த சிறப்பு முகாம்கள் நடைபெறும் என ஆட்சியர் பிரத்திக் தாயள் தெரிவித்துள்ளார். திருச்சி மாவட்டத்தில் உள்ள 9 சட்டமன்றத் தொகுதிகளுக்கு உட்பட்ட அனைத்து வாக்குச் சாவடிகளிலும் இந்த முகாம்கள் நடைபெறுகின்றன. கடந்த 12.11.2026 அன்று வெளியிடப்பட்ட வரைவு வாக்காளர் பட்டியலின் அடிப்படையில் சேர்க்கை மற்றும் திருத்தங்கள் மேற்கொள்ளப்படும். புதிதாக பெயர் சேர்க்க படிவம் 6-ஐ பூர்த்தி செய்து வழங்கலாம். பெயர் நீக்கம் செய்ய படிவம் 7-ஐயும், திருத்தம் மற்றும் முகவரி மாற்றத்திற்கு படிவம் 8-ஐயும் சமர்ப்பிக்கலாம். தேர்தல் ஆணையத்தின் உத்தரவுப்படி 01.01.2027ஆம் தேதியை தகுதி நாளாக கொண்டு இந்த திருத்தப் பணிகள் நடைபெறுகின்றன. அரசியல் கட்சியினர் தங்கள் வாக்குச் சாவடி முகவர்களை அனுப்பி உதவ வேண்டும் என ஆட்சியர் கேட்டுக்கொண்டுள்ளார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🗳️ திருச்சி மாவட்டத்தில் 2,789 வாக்குச் சாவடிகளில் சிறப்பு வாக்காளர் முகாம்: நவ. 21, 22, 29 நாள்களில் நடைபெறுகிறது\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டத்தில் உள்ள 9 சட்டமன்றத் தொகுதிகளுக்குட்பட்ட 2,789 வாக்குச் சாவடிகளிலும் நவம்பர் 21, நவம்பர் 22 மற்றும் நவம்பர் 29 ஆகிய 3 நாள்களில் வாக்காளர் பட்டியல் சிறப்பு முகாம் நடைபெறவுள்ளது என ஆட்சியர் பிரத்திக் தாயள் தெரிவித்துள்ளார். 12.11.2026 அன்று வெளியிடப்பட்ட வரைவு வாக்காளர் பட்டியலின் அடிப்படையில் பெயர் சேர்க்க படிவம் 6, நீக்கத்திற்கு படிவம் 7, திருத்தம் மற்றும் இடமாற்றத்திற்கு படிவம் 8 ஆகியவற்றை உரிய ஆவணங்களுடன் சமர்ப்பிக்கலாம். 01.01.2027 தகுதி நாளாகக் கொண்டு இந்த சிறப்பு சுருக்கமுறை திருத்தம் மேற்கொள்ளப்படுகிறது.\n🗓️ முகாம் நாள்கள்: நவம்பர் 21, நவம்பர் 22, நவம்பர் 29\n📍 இடம்: அனைத்து 2,789 வாக்குச் சாவடி மையங்கள்\n📝 படிவங்கள்: பெயர் சேர்க்கை (படிவம் 6), பெயர் நீக்கம் (படிவம் 7), திருத்தம்/இடமாற்றம் (படிவம் 8)\nℹ️ மக்கள் கவனத்திற்கு: தகுதியுள்ள இளம் வாக்காளர்கள் மற்றும் திருத்தம் செய்ய விரும்புவோர் உரிய ஆவணங்களுடன் முகாம்களை பயன்படுத்திக் கொள்ளலாம்.\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்.\n\nTrichy voter list special camp dates form 6 7 8 | Trichy news\n📍 திருச்சி மாவட்டம் | 21 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #வாக்காளர்முகாம் #திருச்சி",
+   "prompts": "A booth level officer sits at a folding table inside a government school classroom turned polling station in Trichy city, with a small queue of voters waiting on a bench in the hall. Seen from the back of the room at eye level, the officer wears a cotton saree and a lanyard ID, while two men in shirts and trousers and a woman in a salwar suit wait quietly in line near the doorway. A few party booth agents stand near the wall in plain shirts, and the room is lit by daylight from tall windows. Stacks of voter registration forms and a printed voter roll lie open on the table in front of the officer. Trichy city streets with two-wheelers parked outside the school gate can be glimpsed through the door. The camera sits at eye level, about 35 mm, wide enough to show the classroom, the table and the queue of people. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a table at a polling station camp in Trichy: a neat stack of voter registration forms numbered for Form 6, Form 7 and Form 8 lies beside a pen and a voter roll booklet, with a voter's hand in a plain cotton sleeve placing a filled form on top. Daylight from a window falls across the paper and the wooden desk. A few supporting documents are placed in a folder at the edge of the frame. The shot is tight and focused on the forms and the hand, with the background softly blurred showing the hall of a Trichy school building and people waiting behind at a distance. No readable text is shown on the forms, the camera sits slightly high at 35 mm. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/20/special-voter-list-camps-to-be-held-for-3-days-at-2789-polling-stations-in-the-district",
+   "published": "2026-11-20T22:42:43.253Z",
+   "verification": "DRAFT (gemini/gemini-3.6-flash) - NOT CLEAN, held from posting - problems: slides_spec.loc 'திருச்சி மாவட்டம்' is only the district: write the town / village / area the article names (people share news of their own area); caption misses facts of the article (put every one in 📰 முழு விவரம்): 100 ('இதன் ஒரு பகுதியாக, திருச்சி மாவட்டத்தில் உள்ள 9 சட்டப் பேரவை')",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 2 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795215574/trichy360/tyvhiwggq0dqnczb0wt8.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795215577/trichy360/pzf2awhppoudewwwhmr4.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "திருச்சி மாநகரில் ஞாயிறு (நவ. 21) ஒரு நாள் குடிநீர் நிறுத்தம்",
+   "english_headline": "One-day drinking water cut in Trichy city on Sunday 21 Nov due to Srirangam substation maintenance",
+   "category": "Civic Issues",
+   "location": "Trichy city corporation areas, Trichy district",
+   "importance": "High",
+   "scope": "",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "குடிநீர் நிறுத்தம்",
+    "loc": "திருச்சி மாநகரம்",
+    "hl1": "திருச்சி மாநகரில் குடிநீர் நிறுத்தம்",
+    "hl2": "நவ. 21, காலை 9 – பிற்பகல் 2",
+    "slides": [
+     {
+      "title": "எப்போது?",
+      "lines": [
+       "ஞாயிற்றுக்கிழமை <b>21 நவம்பர்</b> ஒரு நாள் மட்டும்",
+       "காலை <b>9 மணி</b> முதல் பிற்பகல் <b>2 மணி</b> வரை மின் பராமரிப்பு",
+       "திங்கள்கிழமை (நவ. 23) முதல் வழக்கம்போல் குடிநீர்"
+      ]
+     },
+     {
+      "title": "ஏன் நிறுத்தம்?",
+      "lines": [
+       "ஸ்ரீரங்கம் துணை மின் நிலையத்தில் மாதாந்திர மின் பராமரிப்பு",
+       "கொள்ளிடம் ஆளவந்தான் படித்துறை, பொது தரை மட்ட",
+       "அதனால் குடிநீர் விநியோகம் இருக்காது"
+      ]
+     },
+     {
+      "title": "எந்தப் பகுதிகள்?",
+      "lines": [
+       "மத்திய சிறைச்சாலை, சுந்தராஜநகர், ஜே.கே.நகர், செம்பட்டு",
+       "காஜாமலை, கிராப்பட்டி, பஞ்சப்பூர், அரியமங்கலம்",
+       "திருவானைக்காவல், விறகுப்பேட்டை, தென்றல் நகர் உட்பட பல"
+      ]
+     },
+     {
+      "title": "மக்களுக்கு",
+      "lines": [
+       "குடிநீரை சிக்கனமாகப் பயன்படுத்துங்கள்",
+       "முன்கூட்டியே தண்ணீரைச் சேமித்து வையுங்கள்",
+       "திருச்சி மாநகராட்சி ஆணையர் வேண்டுகோள்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சி மாநகராட்சிப் பகுதிகளில் ஞாயிற்றுக்கிழமை ஒரு நாள் குடிநீர் நிறுத்தம் செய்யப்படுகிறது. நவம்பர் 21ஆம் தேதி காலை 9 மணி முதல் பிற்பகல் 2 மணி வரை ஸ்ரீரங்கம் துணை மின் நிலையத்தில் மாதாந்திர மின் பராமரிப்புப் பணி நடைபெறுகிறது. இதனால் கொள்ளிடம் ஆளவந்தான் படித்துறை மற்றும் பொது தரை மட்ட நீர்தேக்கத் தொட்டி நீரேற்று நிலையங்களுக்கு மின்சாரம் தடைபடும். அதனால் மத்திய சிறைச்சாலை, சுந்தராஜநகர், ஜே கே நகர், செம்பட்டு, காஜாமலை, கிராப்பட்டி, பஞ்சப்பூர், அரியமங்கலம், திருவானைக்காவல் உள்ளிட்ட பல பகுதிகளில் அமைந்துள்ள மேல்நிலை நீர்த்தேக்கத் தொட்டிகளில் குடிநீர் விநியோகம் இருக்காது. திங்கள்கிழமை நவம்பர் 23ஆம் தேதி முதல் வழக்கம்போல் குடிநீர் விநியோகம் செய்யப்படும். பொதுமக்கள் குடிநீரை சிக்கனமாகப் பயன்படுத்துமாறு மாநகராட்சி ஆணையர் நே பொன்மணி வேண்டுகோள் விடுத்துள்ளார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚰 திருச்சி மாநகரில் ஞாயிறு (நவ. 21) ஒரு நாள் குடிநீர் நிறுத்தம்\n\n📰 முழு விவரம்:\nஸ்ரீரங்கம் துணை மின் நிலையத்தில் மாதாந்திர மின் பராமரிப்புப் பணி நடைபெறுவதால், திருச்சி மாநகராட்சிக்குள்பட்ட நீரேற்று நிலையங்களுக்கு மின்சாரம் தடைபடும். அதனால் ஞாயிற்றுக்கிழமை (நவ. 21) ஒரு நாள் மட்டும் குடிநீர் விநியோகம் இருக்காது.\n🕘 நேரம்: காலை 9 மணி முதல் பிற்பகல் 2 மணி வரை மின் பராமரிப்பு\n🏘️ பாதிக்கப்படும் பகுதிகள்: மத்திய சிறைச்சாலை, சுந்தராஜநகர், ஜே.கே.நகர், செம்பட்டு, காஜாமலை, கிராப்பட்டி, ரெங்கா நகர், பஞ்சப்பூர், அம்மன் நகர், அரியமங்கலம் கிராமம், திருவானைக்காவல், தேவதானம், விறகுப்பேட்டை, சங்கிலியாண்டபுரம் உள்ளிட்ட பல பகுதிகள்\n📅 திங்கள்கிழமை (நவ. 23) முதல் வழக்கம்போல் குடிநீர் விநியோகம் செய்யப்படும்.\nℹ️ மக்கள் கவனத்திற்கு: குடிநீரை சிக்கனமாகப் பயன்படுத்துங்கள் என மாநகராட்சி ஆணையர் நே. பொன்மணி வேண்டுகோள் விடுத்துள்ளார்.\n\nTrichy city drinking water cut Sunday | Trichy news\n📍 திருச்சி மாநகரம் | 21 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Srirangam #குடிநீர் #TrichyNews",
+   "prompts": "A TNEB lineman in a blue uniform works on a transformer at a substation in Srirangam, Trichy, on a Sunday morning, while a corporation worker stands nearby. The setting is a fenced electricity substation with concrete poles, overhead high-tension wires and metal transformers, set among ordinary Trichy residential streets of low tiled houses and small shops, with a few two-wheelers parked along the boundary wall. Behind them, an overhead water storage tank on a concrete tower stands against a clear daylight sky. The lineman, seen from behind, wears a blue shirt and trousers; the corporation worker wears a khaki uniform. The shot shows the morning maintenance work in progress, with the sun bright over the Srirangam area. Shot at eye level or slightly high, 35 mm, wide enough to show the substation, the wires, and the water tank together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a concrete overhead water storage tank on a tall tower in a Trichy city neighbourhood, with its pipes and valve visible at the base. The tank is the detail that tells the story of the water supply being cut for the day. Nearby, a clay water pot and a steel vessel sit empty on a low concrete step, hinting that residents are waiting for water. Beside the tower, a bundle of water pipes and a metal valve rest on dusty ground, with a few tiled roofs of nearby houses in the background. The light is soft morning sunlight on a Sunday, with no people in focus; any person is far in the background and seen from behind. Shot at eye level, 35 mm, close enough to show the tank and valve clearly. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/20/drinking-water-supply-to-be-suspended-in-city-areas-tomorrow",
+   "published": "2026-11-20T22:39:33.045Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script has 92 words; need 100-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795215593/trichy360/m9jcx2ui7ufadebvsj2b.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795215597/trichy360/sp8bw3ixlpgpgdja2r4c.jpg"
    ]
   }
  ]
