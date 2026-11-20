@@ -57,6 +57,20 @@ def _obj(d):
 MAX_ATTEMPTS = 10      # owner: a wrong draft is rewritten up to 10 times (with the exact problems listed) before the story is dropped; the round time budget still applies
 
 
+def hl1_finished(best):
+    """owner 20 Nov: the writer could not make hl1 short enough in any try - shorten it at a natural break (validate.finish_phrase),
+    never in the middle of a phrase, and drop that one problem"""
+    from validate import finish_phrase
+    d, model, errs, attempt = best
+    sp = d.get("slides_spec") if isinstance(d, dict) else None
+    if isinstance(sp, dict) and len(str(sp.get("hl1") or "")) > 40:
+        old = sp["hl1"]
+        sp["hl1"] = finish_phrase(old, 40)
+        print(f"hl1 shortened at a natural break: {old!r} -> {sp['hl1']!r}")
+        errs = [e for e in (errs or []) if not str(e).startswith("hl1 is ")]
+    return d, model, errs, attempt
+
+
 def write(art, today):
     errors, best = None, None
     for attempt in range(1, MAX_ATTEMPTS + 1):
@@ -100,6 +114,7 @@ def write(art, today):
                 break
     if best is None:
         raise RuntimeError("no usable answer from the models")
+    best = hl1_finished(best)
     return proofread(best, art)
 
 
@@ -143,7 +158,7 @@ PROOF = """You are a senior Tamil news editor and proofreader for the Instagram 
 You get a JSON draft. Return the SAME JSON object (same keys, same structure, same facts, same numbers) with ONLY these fixes:
 1. Correct Tamil spelling, sandhi (புணர்ச்சி), grammar and place names in every Tamil text.
 2. reel_script: make it read like ONE continuous story by a professional Tamil TV news reader: smooth connecting words between sentences (மேலும், இதனால், இதையடுத்து, இந்நிலையில்), no abrupt jumps, no repeated facts, first sentence = the hook. Keep the key facts of the draft (70-160 words: the reel is at most 90 seconds - keep EVERY fact of the draft, never drop one to make it shorter) and give every detail the article has (who, exact place, when, how, numbers, action, what next). Keep EVERY number, date, time, amount and age exactly as the digits written in the draft (10.30 மணி, ரூ.5.70, 65 வயது, 26ஆம் தேதி) - never turn them into words and never change them. No English letters. English words that people say in Tamil must be written in Tamil script so a Tamil voice pronounces them (மொபைல், ஆன்லைன், பஸ்). Keep the last sentence exactly: மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.
-3. slides_spec texts and caption: natural modern Tamil, no half-English sentences except fixed words (Follow, Share, Save). Keep the character limits (hl1 40, hl2 28, title 18, lines 60).
+3. slides_spec texts and caption: natural modern Tamil, no half-English sentences except fixed words (Follow, Share, Save). Keep the character limits (hl1 40, hl2 28, title 18, lines 60). hl1 is ONE COMPLETE phrase that ends with its key word (what happened: கொள்ளை / கைது / மின்தடை / விழா) - to make it fit, choose fewer words; never stop it in the middle (owner 20 Nov).
 4. "scenes" stays exactly as it is: the TWO English image prompts (do not add, split or translate them).
 Never add facts. Never remove the follow line or hashtags. Output ONLY the JSON object."""
 

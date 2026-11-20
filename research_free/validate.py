@@ -181,6 +181,40 @@ def _cut(text, n):
     return c
 
 
+def finish_phrase(text, n=40):
+    """owner 20 Nov: shorten a too-long opening headline WITHOUT leaving it half-said ('...வீட்டில் பெரும்').
+    Keeps the place (first word) and the action at the end (the last 2 words, else the last word: கொள்ளை / கைது செய்யப்பட்டனர் /
+    மின் தடை) and drops describing words in between - never a number or the 2 words after it ('3 பேர் கைது', '90% இருதய அடைப்பு').
+    Only if that cannot fit: the part before a colon, then the old word-boundary cut."""
+    t = re.sub(r"\s+", " ", (text or "").strip())
+    if len(t) <= n:
+        return t
+    w = t.split(" ")
+    for k in (2, 1):
+        if len(w) < k + 2:
+            continue
+        head, tail = w[:-k], w[-k:]
+        keep = set()
+        for i, x in enumerate(head):
+            if re.search(r"\d", x):
+                keep.update({i, i + 1, i + 2})      # the number and its 2 words ("90% இருதய அடைப்பு", "25 வீடுகள் சேதம்")
+        i = len(head) - 1
+        while i >= 1 and len(" ".join(head + tail)) > n:
+            if i not in keep:
+                head.pop(i)
+            i -= 1
+        c = (" ".join(head).rstrip(" ,;:-–") + " " + " ".join(tail)).strip()
+        if len(c) <= n and len(head) >= 1:
+            return c
+    i = t.find(":")
+    if 0 < i:
+        c = t[:t.rfind(",", i, n + 1)] if "," in t[i:n + 1] else ""
+        c = c.strip(" ,:-–")
+        if 12 <= len(c) <= n and not DANGLING.search(c):
+            return c
+    return _cut(t, n)
+
+
 def autofix(d):
     """Small mechanical repairs of a draft, done BEFORE the checks, so a fine story is not thrown away for a length or a label.
     It never adds or changes a fact: it only shortens lines at a word boundary, fixes the version number and the page label."""
@@ -189,7 +223,7 @@ def autofix(d):
     sp = d.get("slides_spec")
     if isinstance(sp, dict):
         sp["v"] = 3
-        sp["hl1"] = _cut(sp.get("hl1", ""), 40)
+        sp["hl1"] = re.sub(r"\s+", " ", str(sp.get("hl1") or "").strip())      # owner 20 Nov: never cut here - a long hl1 goes back to the writer
         loc_ = str(sp.get("loc") or "")
         town = loc_.split(",")[0].strip()
         if town and place_words(town) and not NO_PLACE.search(loc_) and not district_only(loc_) \
@@ -339,7 +373,8 @@ def validate(d, article, today_digits=("2026",)):
     if not 3 <= len(sl) <= 4:
         p.append("slides must have 3 or 4 items")
     if len(sp.get("hl1", "")) > 40:
-        p.append("hl1 longer than 40 characters")
+        p.append(f"hl1 is {len(sp.get('hl1', ''))} characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends "
+                 "with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle")
     if len(sp.get("hl2", "")) > 28:
         p.append("hl2 longer than 28 characters")
     for i, s in enumerate(sl, 1):
