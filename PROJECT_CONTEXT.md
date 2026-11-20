@@ -83,6 +83,9 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-20 | `7167105` | Daily rasipalan as a reel in the 360 gold-reel pattern (music only); carousel only if the reel fails |
+| 2026-11-20 | `1bf7166` | Reels without a picture: a designed background by news type, never the page logo |
+| 2026-11-20 | `8f6d14c` | stories shared |
 | 2026-11-20 | `5122d82` | Every news reel goes to the story again (stories_urgent_only false) |
 | 2026-11-20 | `1e677e1` | powercut: notices written |
 | 2026-11-20 | `1f833d3` | powercut: notices written |
@@ -110,7 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-20 | `c261889` | pick: written and posted |
 | 2026-11-20 | `27eadc2` | pick: picked news saved |
 | 2026-11-20 | `0dfd31e` | pick: picked news saved |
-| 2026-11-20 | `18ab528` | pick: list sent |
-| 2026-11-20 | `a6aa665` | powercut: notices written |
-| 2026-11-20 | `fab22d5` | powercut: notices written |
 <!-- recent-changes:end -->
