@@ -3,240 +3,393 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://tamil.oneindia.com/news/trichirappalli/trichy-manapparai-rice-mill-scam-rs-3-crore-bungalow-couple-caught-in-ration-rice-case-846779.html",
-  "manual link added: https://www.polimernews.com/districtnews/tirupati-devasthanam-honours-srirangam-ranganathar-and-thayar-with-traditional-robes-12825991",
-  "candidate filter: collected=2",
-  "to write: 2 Trichy district candidates (max 2 stories)",
-  "round: top 2 of 2 candidates",
-  "candidates waiting: 2 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.polimernews.com/districtnews/tirupati-devasthana",
-  "try (N) manual=True: https://tamil.oneindia.com/news/trichirappalli/trichy-manapp",
-  "real photo from the source (Polimer News) for 'Tirupati Devasthanam offers silk garment'",
-  "auto images: 1 of 1 stories ({})",
+  "manual link added: https://www.dailythanthi.com/news/tamilnadu/848-people-arrested-for-smuggling-ration-rice-and-subsidized-fertilizer-in-5-districts-including-trichy-and-karur",
+  "manual link added: https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-woman-death",
+  "manual link added: https://www.dailythanthi.com/news/tamilnadu/special-trains-karthigai-deepam-thiruvannamalai",
+  "manual link added: https://www.dailythanthi.com/news/tamilnadu/changes-in-train-services-passing-through-trichy-2",
+  "candidate filter: collected=4",
+  "to write: 4 Trichy district candidates (max 4 stories)",
+  "round: top 4 of 4 candidates",
+  "candidates waiting: 4 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/changes-in-train",
+  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/special-trains-k",
+  "try (N) manual=True: https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-woma",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "real photo from the source (Oneindia Tamil) for 'Manapparai ration rice fraud: 3 members '",
-  "auto images: 1 of 1 stories ({})",
-  "candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 72 min",
-  "filed: 2 Trichy district stories (target 2), reels only",
+  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/848-people-arres",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})",
+  "candidate loop ended: left 0, tried={'N': 4}, done={'N': 4}, time left 75 min",
+  "filed: 4 Trichy district stories (target 4), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":2,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":4,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.6-flash (42s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.6-flash (48s)",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (29s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "ok gemini/gemini-3.6-flash (30s)",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
+  "ok gemini/gemini-3.6-flash (33s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (38s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
+  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (12s)",
+  "ok gemini/gemini-3-flash-preview (15s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3-flash-preview (14s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "dead for this round: gemini/gemini-3-flash-preview",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "ok gemini/gemini-3-flash-preview (14s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
-  "ok gemini/gemini-3-flash-preview (13s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (13s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (12s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (9s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (13s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (21s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (17s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (6s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "ok gemini/gemini-3-flash-preview (13s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing ",
-  "switching away from gemini/gemini-3-flash-preview for 10 min",
-  "ok groq/openai/gpt-oss-120b (7s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok gemini/gemini-3-flash-preview (21s)",
+  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "ok gemini/gemini-3.5-flash (50s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
   "ok groq/qwen/qwen3.8-27b (3s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "switching away from groq/openai/gpt-oss-120b for 10 min",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generati",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "ஸ்ரீரங்கம் அரங்கநாதருக்கு திருப்பதி தேவஸ்தானத்திலிருந்து வஸ்திர மரியாதை",
-   "english_headline": "Tirupati Devasthanam offers silk garments to Srirangam Ranganathar and Thayar on Vaikasi Ekadasi",
-   "category": "Temples & Events",
-   "location": "Srirangam, Trichy district",
-   "importance": "Medium",
+   "tamil_headline": "கார்த்திகை தீபத் திருவிழா: தாம்பரம், செங்கோட்டை, திருச்சியிலிருந்து திருவண்ணாமலைக்கு சிறப்பு ரெயில்",
+   "english_headline": "Karthigai Deepam festival: special trains from Tambaram, Sengottai and Trichy to Tiruvannamalai",
+   "category": "Roads & Transport",
+   "location": "Tambaram, Sengottai and Trichy to Tiruvannamalai, Tiruvannamalai district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "சிறப்பு ரெயில்",
+    "loc": "திருச்சி",
+    "hl1": "திருச்சியிலிருந்து திருவண்ணாமலைக்கு",
+    "hl2": "நவம்பர் 23 முதல் 25 வரை",
+    "slides": [
+     {
+      "title": "எந்த ரெயில்?",
+      "lines": [
+       "கார்த்திகை தீபத் திருவிழாவுக்காக சிறப்பு ரெயில்கள்",
+       "தாம்பரம், செங்கோட்டை, திருச்சியிலிருந்து திருவண்ணாமலைக்கு",
+       "தெற்கு ரெயில்வே அறிவிப்பு"
+      ]
+     },
+     {
+      "title": "திருச்சி - வேலூர்",
+      "lines": [
+       "நவம்பர் <b>23, 24, 25</b> தேதிகளில் காலை 8 மணிக்கு",
+       "மதியம் 2.50 மணிக்கு வேலூர் கண்டோன்மெண்ட் சென்றடையும்",
+       "திரும்பும் ரெயில்: இரவு 11 மணிக்கு வேலூரிலிருந்து"
+      ]
+     },
+     {
+      "title": "நிறுத்தங்கள்",
+      "lines": [
+       "திருச்சி ரெயிலில் மணப்பாறை, திருச்சி, ஸ்ரீரங்கம்",
+       "திருச்சி - வேலூர் ரெயில் திருவெறும்பூர், தஞ்சாவூர்",
+       "20 பெட்டிகள் கொண்ட ரெயில்"
+      ]
+     },
+     {
+      "title": "முன்பதிவு",
+      "lines": [
+       "முன்பதிவு நாளை (நவம்பர் 21) காலை 8 மணிக்குத் தொடங்குகிறது",
+       "இரு வழித்தடங்களிலும் டிக்கெட் முன்பதிவு செய்யலாம்",
+       "பயணிகள் முன்கூட்டியே முன்பதிவு செய்யுங்கள்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "கார்த்திகை தீபத் திருவிழாவுக்காக திருச்சியிலிருந்து திருவண்ணாமலைக்கு சிறப்பு ரெயில்கள் இயக்கப்படுகின்றன. திருச்சி - வேலூர் கண்டோன்மெண்ட் சிறப்பு ரெயில், நவம்பர் 23, 24, 25 ஆகிய தேதிகளில் காலை 8 மணிக்கு திருச்சியிலிருந்து புறப்படும். அன்று மதியம் 2.50 மணிக்கு வேலூர் கண்டோன்மெண்டை சென்றடையும். திரும்பும் ரெயில் நவம்பர் 23, 24, 25 ஆகிய தேதிகளில் இரவு 11 மணிக்கு வேலூரிலிருந்து புறப்பட்டு, மறுநாள் காலை 7.20 மணிக்கு திருச்சியை சென்றடையும். இந்த ரெயில் 20 பெட்டிகளைக் கொண்டது. திருவெறும்பூர், பூதலூர், தஞ்சாவூர், கும்பகோணம், மயிலாடுதுறை, சிதம்பரம், விழுப்புரம், திருவண்ணாமலை உள்ளிட்ட நிலையங்களில் நின்று செல்லும். செங்கோட்டையிலிருந்து நவம்பர் 23ஆம் தேதி இரவு 8.45 மணிக்கு புறப்படும் ரெயில், மறுநாள் காலை 7.30 மணிக்கு திருவண்ணாமலையை சென்றடையும். இந்த ரெயில் மணப்பாறை, திருச்சி, ஸ்ரீரங்கம் நிலையங்களில் நின்று செல்லும். முன்பதிவு நாளை நவம்பர் 21ஆம் தேதி காலை 8 மணிக்குத் தொடங்குகிறது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚆 திருச்சியிலிருந்து திருவண்ணாமலைக்கு கார்த்திகை தீப சிறப்பு ரெயில்\n\n📰 முழு விவரம்:\nகார்த்திகை தீபத் திருவிழாவையொட்டி தாம்பரம், செங்கோட்டை, திருச்சியிலிருந்து திருவண்ணாமலைக்கு சிறப்பு ரெயில்கள் இயக்கப்படுகின்றன என தெற்கு ரெயில்வே அறிவித்துள்ளது.\nதிருச்சி - வேலூர் கண்டோன்மெண்ட் சிறப்பு ரெயில் நவம்பர் 23, 24, 25 ஆகிய தேதிகளில் காலை 8 மணிக்குத் திருச்சியிலிருந்து புறப்பட்டு மதியம் 2.50 மணிக்கு வேலூர் கண்டோன்மெண்டை அடையும்.\nதிரும்பும் ரெயில் நவம்பர் 23, 24, 25 ஆகிய தேதிகளில் இரவு 11 மணிக்கு வேலூரிலிருந்து புறப்பட்டு மறுநாள் காலை 7.20 மணிக்குத் திருச்சியை அடையும்.\nஇந்த ரெயில் 20 பெட்டிகளைக் கொண்டது. திருவெறும்பூர், பூதலூர், தஞ்சாவூர், கும்பகோணம், மயிலாடுதுறை, சிதம்பரம், விழுப்புரம், திருவண்ணாமலை உள்ளிட்ட நிலையங்களில் நின்று செல்லும்.\nசெங்கோட்டையிலிருந்து நவம்பர் 23ஆம் தேதி இரவு 8.45 மணிக்குப் புறப்படும் ரெயில் மறுநாள் காலை 7.30 மணிக்குத் திருவண்ணாமலையை அடையும்; இது மணப்பாறை, திருச்சி, ஸ்ரீரங்கம் நிலையங்களிலும் நிற்கும்.\n📝 முன்பதிவு: நவம்பர் 21ஆம் தேதி காலை 8 மணிக்குத் தொடங்குகிறது.\n\nTiruchi to Tiruvannamalai Karthigai Deepam special train | Trichy news\n📍 திருச்சி, திருச்சி மாவட்டம் | 20 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Tiruvannamalai",
+   "prompts": "A long multi-coach Indian Railways passenger train stands at a platform of Trichy Junction railway station in Tiruchirappalli, Tamil Nadu, ready to depart for Tiruvannamalai for the Karthigai Deepam festival. Seen from a low platform angle at early morning, the train has about twenty coaches in the blue-and-silver livery of Southern Railway with its windows lit. Along the platform, a crowd of passengers with rolling suitcases, cloth bags and steel tiffin carriers walks toward the coaches; men wear shirts and veshti, women wear sarees and carry bags, seen from behind or far away. Railway staff in uniform stand near the engine. Overhead station roof and yellow platform lamps, pale dawn light, no readable signboards or text. Camera at eye level, 35 mm lens, wide enough to show the train's full length and the platform. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a railway platform ticket counter window and a folded paper train timetable and reservation chart on a wooden ledge at Trichy Junction railway station, with a passenger's hand holding a printed ticket and a few steel water bottles nearby. Shallow depth of field, soft blurred figures of waiting passengers in the background, sarees and shirts seen from behind. Warm morning light from a tube light and daylight through the station hall. No legible text, numbers or logos visible; the paper is blank or blurred. Camera at slightly high eye level, 35 mm lens, focus on the ticket and timetable. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dailythanthi.com/news/tamilnadu/special-trains-karthigai-deepam-thiruvannamalai",
+   "published": "2026-11-20T09:43:28Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 55 ('இது தொடர்பாக, தெற்கு ரெயில்வே வெளியிட்டுள்ள செய்திக்குறிப்பி'); 06017 ('இது தொடர்பாக, தெற்கு ரெயில்வே வெளியிட்டுள்ள செய்திக்குறிப்பி'); 4 ('இது தொடர்பாக, தெற்கு ரெயில்வே வெளியிட்டுள்ள செய்திக்குறிப்பி'); 40 ('இது தொடர்பாக, தெற்கு ரெயில்வே வெளியிட்டுள்ள செய்திக்குறிப்பி'); 10 ('மறுமார்க்கத்தில், திருவண்ணாமலையில் இருந்து நவம்பர் 24-ந்தேதி'); 06018 ('மறுமார்க்கத்தில், திருவண்ணாமலையில் இருந்து நவம்பர் 24-ந்தேதி')",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795171467/trichy360/qym2lrj4bvyklqkvifpa.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795171474/trichy360/g4ekezszw22ozqo5c0or.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "மண்ணச்சநல்லூரில் காய்ச்சலால் கல்லூரி மாணவி உயிரிழப்பு",
+   "english_headline": "College student dies from fever in Mannasnanallur, Trichy",
+   "category": "Health",
+   "location": "Mannasnanallur, Trichy district",
+   "importance": "High",
    "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "கோயில் நிகழ்வு",
-    "loc": "ஸ்ரீரங்கம்",
-    "hl1": "ஸ்ரீரங்கத்தில் வஸ்திர மரியாதை",
-    "hl2": "வைகாசி ஏகாதசி சிறப்பு",
+    "cat": "சுகாதார எச்சரிக்கை",
+    "loc": "மண்ணச்சநல்லூர், திருச்சி",
+    "hl1": "மண்ணச்சநல்லூரில் காய்ச்சலால் மாணவி",
+    "hl2": "சுற்றுப்புறத்தில் பலர்",
     "slides": [
      {
-      "title": "என்ன நிகழ்வு?",
+      "title": "உயிரிழப்பு",
       "lines": [
-       "ஸ்ரீரங்கம் அரங்கநாத சுவாமிக்கு வஸ்திர மரியாதை",
-       "தாயாருக்கும் வஸ்திர மரியாதை வழங்கப்பட்டது",
-       "வைகாசி ஏகாதசியை முன்னிட்டு இன்று நடந்தது"
+       "மண்ணச்சநல்லூர் பூனாம்பாளையத்தில் <b>1</b> மாணவி உயிரிழந்தார்",
+       "பி.டெக் 3ஆம் ஆண்டு படித்து வந்தார்",
+       "சமயபுரம் சுங்கச்சாவடி அருகே உள்ள கல்லூரியில் படித்தார்"
       ]
      },
      {
-      "title": "யார் கொண்டு",
+      "title": "காரணம்",
       "lines": [
-       "திருப்பதி தேவஸ்தானக் குழுவினர் வருகை",
-       "பட்டு வஸ்திரங்கள், பட்டுப் புடவைகள் கொண்டு வந்தனர்",
-       "மாலைகள், மங்களப் பொருட்களும் எடுத்து வந்தனர்"
+       "கடந்த சில நாட்களாக தொடர் காய்ச்சல் ஏற்பட்டது",
+       "பனியும் சுகாதார சீர்கேடும் காரணம் என தெரிகிறது",
+       "திருச்சியில் உள்ள தனியார் மருத்துவமனையில் சிகிச்சை பெற்றார்"
       ]
      },
      {
-      "title": "ஊர்வலம், பூஜை",
+      "title": "பாதிப்பு",
       "lines": [
-       "மேளதாளங்கள் முழங்க ஊர்வலமாக எடுத்துச் சென்றனர்",
-       "பெருமாள், தாயாருக்குச் சாத்தப்பட்டது",
-       "சிறப்பு பூஜைகள் நடைபெற்றன"
+       "மண்ணச்சநல்லூர், திருப்பைஞ்சீலி பகுதிகளில் பலருக்கு காய்ச்சல்",
+       "ஆண்கள், பெண்கள் என அனைவரும் பாதிக்கப்பட்டுள்ளனர்",
+       "அரசு மற்றும் தனியார் மருத்துவமனைகளில் சிகிச்சை பெறுகின்றனர்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "ஸ்ரீரங்கம் அரங்கநாத சுவாமி மற்றும் தாயாருக்கு திருப்பதி தேவஸ்தானத்திலிருந்து பாரம்பரிய வஸ்திர மரியாதை வழங்கப்பட்டது. வைகாசி ஏகாதசியை முன்னிட்டு இன்று இந்த மரியாதை நடைபெற்றது. ஸ்ரீரங்கத்துக்கு வருகை தந்த திருப்பதி தேவஸ்தானக் குழுவினர் பட்டு வஸ்திரங்கள் மற்றும் பட்டுப் புடவைகளைக் கொண்டு வந்தனர். மாலைகள் உள்ளிட்ட மங்களப் பொருட்களும் அவர்களுடன் இருந்தன. மேளதாளங்கள் முழங்க இவற்றை ஊர்வலமாக எடுத்துச் சென்றனர். பின்னர் பெருமாள் மற்றும் தாயாருக்குச் சாத்தப்பட்டது. அதைத் தொடர்ந்து சிறப்பு பூஜைகள் நடைபெற்றன. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🙏 ஸ்ரீரங்கத்தில் வைகாசி ஏகாதசியை முன்னிட்டு வஸ்திர மரியாதை\n\n📰 முழு விவரம்:\nதிருப்பதி தேவஸ்தானத்திலிருந்து ஸ்ரீரங்கம் அரங்கநாத சுவாமி மற்றும் தாயாருக்கு இன்று பாரம்பரிய வஸ்திர மரியாதை வழங்கப்பட்டது. ஸ்ரீரங்கம் வருகை தந்த திருப்பதி தேவஸ்தானக் குழுவினர் பட்டு வஸ்திரங்கள், பட்டுப் புடவைகள், மாலைகள் உள்ளிட்ட மங்களப் பொருட்களை மேளதாளங்கள் முழங்க ஊர்வலமாக எடுத்துச் சென்றனர். பெருமாள் மற்றும் தாயாருக்குச் சாத்தப்பட்ட பின்னர் சிறப்பு பூஜைகள் நடைபெற்றன.\n\nSrirangam silk garments Tirupati Devasthanam Vaikasi Ekadasi | Trichy news\n📍 ஸ்ரீரங்கம், திருச்சி மாவட்டம் | 20 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Srirangam #TrichyNews #திருச்சி",
-   "prompts": "A Tirupati Devasthanam delegation carries silk vastras, silk sarees and flower garlands in a festive procession through the Srirangam Ranganathaswamy temple precinct, with drummers playing melam ahead of them. The setting is the temple's stone-paved outer corridor in Srirangam, Trichy, with tall gopurams rising in the background and carved pillars lining the walkway. Men in white veshti and shirts and women in silk sarees walk in the procession, seen from behind or from a distance, while temple priests in traditional dhotis stand near the entrance. Silk garments folded over trays and brass plates of garlands are held aloft. It is bright daylight with warm sunlight falling on the gopuram and stone floor. Shot at eye level, 35 mm, wide enough to show the temple architecture and the procession. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a brass tray piled with folded silk vastras and bright silk sarees, with fresh flower garlands draped over the top, placed on the stone floor at the Srirangam temple entrance. Behind the tray, the carved stone pillars and a glimpse of the temple corridor are visible, with a few devotees' feet and the hem of a priest's dhoti at the edge of the frame. Drum sticks and a brass lamp rest beside the tray as hints of the melam procession. The silk is rich in gold-bordered red, green and maroon tones, catching soft daylight. Shot close up at a slightly high angle, 35 mm, with a shallow depth of field keeping the tray sharp and the background softly blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.polimernews.com/districtnews/tirupati-devasthanam-honours-srirangam-ranganathar-and-thayar-with-traditional-robes-12825991",
-   "published": "2026-11-20T13:14:09+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 0 validator problem(s)",
+   "reel_script": "மண்ணச்சநல்லூரில் காய்ச்சலால் கல்லூரி மாணவி உயிரிழந்தார். பூனாம்பாளையத்தை சேர்ந்த லோகவாணி பி டெக் 3ஆம் ஆண்டு படித்து வந்தார். கடந்த சில நாட்களாக அவருக்கு காய்ச்சல் ஏற்பட்டது. திருச்சியில் உள்ள தனியார் மருத்துவமனையில் சிகிச்சை பெற்று வந்தார். மீண்டும் காய்ச்சல் ஏற்பட்டதால் பெற்றோர் மருத்துவமனைக்கு அழைத்துச் சென்றனர். அங்கு சிகிச்சை பலனின்றி அவர் உயிரிழந்தார். மண்ணச்சநல்லூர், திருப்பைஞ்சீலி பகுதிகளில் பலருக்கு காய்ச்சல் ஏற்பட்டு வருகிறது. பனியும் சுகாதார சீர்கேடும் காரணம் என தெரிகிறது. பாதிக்கப்பட்டவர்கள் மருத்துவமனைகளில் சிகிச்சை பெற்று வருகின்றனர். இந்தச் சம்பவம் அப்பகுதி மக்களிடையே பெரும் சோகத்தை ஏற்படுத்தியுள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 மண்ணச்சநல்லூரில் காய்ச்சலால் கல்லூரி மாணவி உயிரிழப்பு - சுற்றுப்புறத்தில் பலர் பாதிப்பு\n\n📰 முழு விவரம்:\nமண்ணச்சநல்லூர் அருகே உள்ள பூனாம்பாளையத்தை சேர்ந்த லோகவாணி என்பவர் சமயபுரம் சுங்கச்சாவடி அருகே உள்ள ஒரு தனியார் கல்லூரியில் பி.டெக் 3ஆம் ஆண்டு படித்து வந்தார். கடந்த சில நாட்களாக அவருக்கு காய்ச்சல் ஏற்பட்டது. திருச்சியில் உள்ள ஒரு தனியார் மருத்துவமனையில் சிகிச்சை பெற்று வந்தார். மீண்டும் காய்ச்சல் ஏற்பட்டதால் பெற்றோர் மருத்துவமனைக்கு அழைத்துச் சென்றனர். அங்கு சிகிச்சை பலனின்றி அவர் உயிரிழந்தார். மண்ணச்சநல்லூர், திருப்பைஞ்சீலி உள்ளிட்ட பகுதிகளில் கடந்த சில நாட்களாக பலருக்கு காய்ச்சல் ஏற்பட்டு வருகிறது. பனியும் சுகாதார சீர்கேடும் காரணம் என தெரிகிறது.\n\n📍 இடம்: மண்ணச்சநல்லூர், பூனாம்பாளையம், திருச்சி மாவட்டம்\n👮 நடவடிக்கை: பாதிக்கப்பட்டவர்கள் அரசு மற்றும் தனியார் மருத்துவமனைகளில் சிகிச்சை பெற்று வருகின்றனர்\nℹ️ மக்கள் கவனத்திற்கு: காய்ச்சல் ஏற்பட்டால் உடனடியாக மருத்துவமனைக்கு செல்லுங்கள்\n\nCollege student dies from fever in Mannasnanallur, Trichy district | Trichy news\n📍 Mannasnanallur, Trichy | 20 Nov 2026\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Mannasnanallur #TrichyNews #திருச்சி",
+   "prompts": "A hospital ward in Trichy city where a row of fever patients lie on beds with saline drips, while a grieving family sits quietly beside a bed in a corner. The setting is a private hospital ward with pale green walls, metal drip stands with IV bottles, plastic chairs and a ceiling fan overhead. The people are seen from behind or far away: a woman in a cotton saree and a man in a half-sleeved shirt and trousers sit with their heads lowered, and a nurse in a white uniform walks past carrying a tray. The light is soft daylight from a window at the end of the ward, with a faint cold, misty feel suggesting the winter season. The camera is at eye level with a 35 mm lens, wide enough to show the entire ward and the many patients resting. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a hospital bed's metal railing and a drip stand holding a clear saline bottle with its tube hanging down to a folded white blanket, with a small wooden table beside it holding a steel tumbler of water and a few medicine strips. In the background, slightly blurred, a family member in a cotton saree sits on a plastic chair with her shoulders bowed. Soft daylight comes through a window in the morning, lighting the cold, clean white sheets and the quiet, sombre mood. The camera is slightly high at about 35 mm, focusing on the drip and bed details while keeping the lowered figure in the background. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-woman-death",
+   "published": "2026-11-20T09:25:57Z",
+   "verification": "DRAFT (groq/qwen/qwen3.8-27b) - NOT CLEAN, held from posting - problems: reel_script has 71 words; need 72-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)",
+   "note": "free-model draft groq/qwen/qwen3.8-27b, 3 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795161839/trichy360/mecwq6t5xuupj16hzndy.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795161840/trichy360/ybmml4laxiri3nadvru4.jpg"
-   ],
-   "real_photo": "Polimer News"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795171490/trichy360/zzq8qixyuzrd1fqpiote.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795171494/trichy360/obxbvn4x2lvetvbr8rjg.jpg"
+   ]
   },
   {
-   "tamil_headline": "மணப்பாறையில் ரேஷன் அரிசி மோசடி: ஒரே குடும்பத்தைச் சேர்ந்த 3 பேர் கைது",
-   "english_headline": "Manapparai ration rice fraud: 3 members of one family, including a rice mill owner, arrested",
-   "category": "Crime & Safety",
-   "location": "Manapparai, Trichy district",
+   "tamil_headline": "திருச்சி வழியாக செல்லும் 6 ரயில்களின் பாதையில் மாற்றம்: டிசம்பர் மாத தேதிகள் விவரம்",
+   "english_headline": "Route changes for 6 express trains via Trichy in December due to Renigunta yard work",
+   "category": "Roads & Transport",
+   "location": "Trichy Junction, Trichy district",
    "importance": "High",
-   "scope": "",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "ரேஷன் அரிசி மோசடி",
-    "loc": "மணப்பாறை",
-    "hl1": "மணப்பாறையில் ரேஷன் அரிசி மோசடி: 3 பேர்",
-    "hl2": "ரூ.22 கோடி இழப்பு",
+    "cat": "ரயில் மாற்றம்",
+    "loc": "திருச்சி சந்திப்பு",
+    "hl1": "திருச்சி ரயில்கள் பாதை மாற்றம்",
+    "hl2": "டிசம்பர் மாத தேதிகள் விவரம்",
     "slides": [
      {
-      "title": "என்ன நடந்தது?",
+      "title": "ஏன் மாற்றம்?",
       "lines": [
-       "மணப்பாறையில் ஸ்ரீ குமரன் மாடர்ன் ரைஸ் மில்லில் மோசடி",
-       "அரசு தந்த <b>3,700 டன்</b> நெல்லுக்கு அரிசி திரும்பத் தரவில்லை",
-       "அரிசி ஆலை உரிமையாளர் குடும்பம் அரிசியை கள்ளச்சந்தையில்"
+       "ரேணிகுண்டா ரயில் நிலைய யார்டில் பராமரிப்புப் பணி",
+       "தண்டவாள மறுசீரமைப்பு மற்றும் மின்னணு இன்டர்லாக்கிங் பணி",
+       "இதனால் <b>6 எக்ஸ்பிரஸ்</b> ரயில்கள் மாற்றுப் பாதையில் செல்லும்"
       ]
      },
      {
-      "title": "எப்படி",
+      "title": "ரயில்கள் விவரம்",
       "lines": [
-       "செப்டம்பர் <b>9</b> மற்றும் அக்டோபர் <b>10</b> ஆகிய",
-       "ஆலையில் அரிசி இருப்பும் இல்லை",
-       "நெல் கிடைத்த 15 நாட்களுக்குள் அரிசி ஒப்படைக்க வேண்டும்"
+       "திருநெல்வேலி - கத்ரா எக்ஸ்பிரஸ்: <b>டிசம்பர் 14, 21</b>",
+       "ஐதராபாத் - கன்னியாகுமரி: <b>டிசம்பர் 9, 16, 23</b>",
+       "கன்னியாகுமரி - ஐதராபாத்: <b>டிசம்பர் 11, 18, 25</b>"
       ]
      },
      {
-      "title": "இழப்பு எவ்வளவு?",
+      "title": "திருச்சி ரயில்",
       "lines": [
-       "அரசுக்கு <b>ரூ.22 கோடியே 20 லட்சம்</b> இழப்பு",
-       "கேரள வியாபாரிகளுக்கு அரிசி விற்கப்பட்டது",
-       "முறைகேடாக பெற்ற பணத்தில் ரூ.3 கோடி சொகுசு பங்களா"
+       "திருச்சி - சார்லப்பள்ளி எக்ஸ்பிரஸ்: <b>டிசம்பர் 9, 16, 23</b>",
+       "சார்லப்பள்ளி - திருச்சி எக்ஸ்பிரஸ்: <b>டிசம்பர் 15, 22</b>",
+       "மும்பை - மதுரை எக்ஸ்பிரஸ்: <b>டிசம்பர் 9, 16, 23</b>"
       ]
      },
      {
-      "title": "கைது",
+      "title": "மாற்றுப் பாதை",
       "lines": [
-       "ஒரே குடும்பத்தைச் சேர்ந்த 3 பேர் கைது",
-       "நுகர்பொருள் வாணிபக் கழக மண்டல மேலாளர் புகார்",
-       "3 பேரும் தற்போது சிறையில் அடைக்கப்பட்டுள்ளனர்"
+       "சித்தூர், திருப்பதி, ரேணிகுண்டா நிறுத்தங்கள் ரத்து",
+       "அரக்கோணம், பெரம்பூர், காட்பாடி வழியாக இயக்கப்படும்",
+       "பயணிகள் ரயில் நேரத்தை சரிபார்த்துக்கொள்ளுங்கள்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "மணப்பாறையில் ரேஷன் அரிசி மோசடியில் ஒரே குடும்பத்தைச் சேர்ந்த 3 பேர் கைது செய்யப்பட்டுள்ளனர். மணப்பாறையில் ஸ்ரீ குமரன் மாடர்ன் ரைஸ் மில் என்ற அரிசி ஆலையை சண்முகம் நடத்தி வந்தார். அரசு இந்த ஆலைக்கு 2025ஆம் ஆண்டில் மட்டும் சுமார் 3,700 டன் நெல் வழங்கியது. இந்த நெல்லை அரிசியாக மாற்றி ரேஷன் கடைகள் மூலம் மக்களுக்கு விநியோகிக்க வேண்டும். நெல் கிடைத்த 15 நாட்களுக்குள் அரிசியை ஒப்படைக்க வேண்டும் என்பது ஒப்பந்த விதி. செப்டம்பர் 9 மற்றும் அக்டோபர் 10 ஆகிய தேதிகளில் அதிகாரிகள் ஆய்வு செய்தனர். அப்போது அரிசி ஒப்படைக்கப்படவில்லை என்பதும், ஆலையில் அரிசி இருப்பு இல்லை என்பதும் தெரியவந்தது. விசாரணையில், சண்முகம், மனைவி வனிதா, மகன் ரெங்கராஜன் ஆகிய மூவரும் சேர்ந்து நெல்லை விற்று பணத்தை முறைகேடாகப் பயன்படுத்தியது தெரியவந்தது. அந்த அரிசி கேரள வியாபாரிகளுக்கும் விற்கப்பட்டது. இதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப்பு ஏற்பட்டுள்ளது. முறைகேடாகப் பெற்ற பணத்தில் ரூ.3 கோடி மதிப்புள்ள சொகுசு பங்களாவும் கட்டப்பட்டுள்ளது. நுகர்பொருள் வாணிபக் கழக திருச்சி மண்டல மேலாளர் புகார் அளித்ததையடுத்து, மணப்பாறை போலீசார் வழக்குப் பதிவு செய்தனர். மூவரும் கைது செய்யப்பட்டு தற்போது சிறையில் அடைக்கப்பட்டுள்ளனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 மணப்பாறையில் ரேஷன் அரிசி மோசடி: ஒரே குடும்பத்தைச் சேர்ந்த 3 பேர் கைது\n\n📰 முழு விவரம்:\nமணப்பாறையில் ஸ்ரீ குமரன் மாடர்ன் ரைஸ் மில் என்ற அரிசி ஆலையை நடத்தி வந்த சண்முகம், அவரது மனைவி வனிதா, மகன் ரெங்கராஜன் ஆகிய மூவரும் கைது செய்யப்பட்டுள்ளனர்.\nஅரசு 2025ஆம் ஆண்டில் மட்டும் சுமார் 3,700 டன் நெல் வழங்கியது. இந்த நெல்லை அரிசியாக மாற்றி ரேஷன் கடைகள் மூலம் மக்களுக்கு விநியோகிக்க வேண்டும்.\nநெல் கிடைத்த 15 நாட்களுக்குள் அரிசியை ஒப்படைக்க வேண்டும் என்பது ஒப்பந்த விதி. ஆனால் செப்டம்பர் 9, அக்டோபர் 10 ஆகிய தேதிகளில் நடந்த ஆய்வில் அரிசி ஒப்படைக்கப்படவில்லை, ஆலையிலும் அரிசி இருப்பு இல்லை என தெரியவந்தது.\nநெல்லை அரைத்து ஒப்படைக்காமல் விற்று பணத்தை முறைகேடாகப் பயன்படுத்தியதும், அந்த அரிசி கேரள வியாபாரிகளுக்கு கள்ளச்சந்தையில் விற்கப்பட்டதும் விசாரணையில் தெரியவந்துள்ளது.\nஇதனால் அரசுக்கு ரூ.22 கோடியே 20 லட்சத்து 24 ஆயிரத்து 916 இழப்பு ஏற்பட்டுள்ளது. முறைகேடாகப் பெற்ற பணத்தில் சுமார் ரூ.3 கோடி மதிப்புள்ள சொகுசு பங்களாவும் கட்டப்பட்டுள்ளது.\nநுகர்பொருள் வாணிபக் கழகத்தின் திருச்சி மண்டல மேலாளர் அளித்த புகாரின்பேரில் மணப்பாறை போலீசார் வழக்குப்பதிவு செய்தனர். மூவரும் தற்போது சிறையில் அடைக்கப்பட்டுள்ளனர்.\n\nManapparai ration rice fraud, 3 arrested | Trichy news\n📍 மணப்பாறை, திருச்சி மாவட்டம் | 20 நவம்பர் 2026\n\nஅரசின் உணவுப் பொருட்கள் மக்களைச் சென்றடைகிறதா என்பதை அனைவரும் கண்காணிக்க வேண்டிய நேரம் இது. Share செய்யுங்கள்.\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Manapparai #TrichyNews #திருச்சி",
-   "prompts": "A row of police in khaki stand guard as a rice mill owner, handcuffed and seen from behind, is led out of a rice milling plant in Manapparai, Trichy district. The setting is a dusty industrial yard beside a rice mill with stacked gunny sacks of paddy and rice bags piled near the shed entrance. Two other family members, a middle-aged woman in a saree and a young man in a shirt and trousers, walk between the officers, seen from behind and at a distance. A police jeep with its door open waits in the yard, and a few corporation workers and onlookers watch from the gate. It is daylight with a clear sky and hazy warm light. The camera is at eye level, 35 mm, wide enough to show the mill building, the sacks, the police and the arrested trio together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of stacked gunny sacks of paddy grain inside the godown of a rice mill in Manapparai, Trichy district, the sacks slightly open to show the golden husked grain spilling onto a concrete floor. Behind them, rows of empty and partly filled rice bags sit on wooden pallets, with a rusted weighing scale and a stack of paper ledgers on a wooden table, the documents kept out of focus so no text is readable. Dusty daylight falls through a high shed window, lighting the grain and dust in the air. A pair of police shoes in khaki trousers is just visible at the edge of the frame. The camera is at a low-to-medium angle, 35 mm, close enough to show the paddy sacks clearly as the evidence of the diverted government grain. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://tamil.oneindia.com/news/trichirappalli/trichy-manapparai-rice-mill-scam-rs-3-crore-bungalow-couple-caught-in-ration-rice-case-846779.html",
-   "published": "2026-11-20T10:33:10+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 3,710 ('ரேஷன் அரிசிக்காக 3,710 டன் நெல்லை என்ன செய்தார்கள்?'); 59 ('இந்த ஆலையை சண்முகம் (59) என்பவர் நடத்தி வந்தார்.'); 27 ('மருது செட்டியாரின் மகனான இவர், கடந்த 27.10.2022 முதல் தமிழ்ந'); 47 ('ரேஷன் கடைகளில் பொதுமக்களுக்கு விநியோகம் செய்வதற்காக அரிசியாக'); 28 ('ரேஷன் கடைகளில் பொதுமக்களுக்கு விநியோகம் செய்வதற்காக அரிசியாக'); 316 ('பாரதிய நியாய சன்ஹிதா சட்டத்தின் 316(2), 316(5), 318(4) பிரிவ')",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
+   "reel_script": "திருச்சி வழியாக செல்லும் 6 எக்ஸ்பிரஸ் ரயில்களின் பாதையில் டிசம்பர் மாதம் மாற்றம் செய்யப்பட்டுள்ளது. குண்டக்கல் ரயில்வே கோட்டம் ரேணிகுண்டா ரயில் நிலைய யார்டில் தண்டவாள மறுசீரமைப்புப் பணிகள் நடப்பதால் இந்த மாற்றம் செய்யப்பட்டுள்ளது. திருநெல்வேலி - கத்ரா எக்ஸ்பிரஸ் ரயில் டிசம்பர் 14 மற்றும் 21ஆம் தேதிகளில் சித்தூர், திருப்பதி வழியாகச் செல்லாமல் காட்பாடி, பெரம்பூர் வழியாகச் செல்லும். ஐதராபாத் - கன்னியாகுமரி எக்ஸ்பிரஸ் ரயில் டிசம்பர் 9, 16, 23 ஆகிய தேதிகளில் அரக்கோணம், காட்பாடி வழியாகத் திருப்பி விடப்படும். கன்னியாகுமரி - ஐதராபாத் எக்ஸ்பிரஸ் ரயில் டிசம்பர் 11, 18, 25 ஆகிய தேதிகளில் மாற்றுப் பாதையில் இயக்கப்படும். சார்லப்பள்ளி - திருச்சி எக்ஸ்பிரஸ் ரயில் டிசம்பர் 15, 22 ஆகிய தேதிகளில் பெரம்பூர், அரக்கோணம் வழியாக வரும். திருச்சி - சார்லப்பள்ளி எக்ஸ்பிரஸ் ரயில் டிசம்பர் 9, 16, 23 ஆகிய தேதிகளில் காட்பாடி, கூடூர் வழியாக இயக்கப்படும். மும்பை - மதுரை எக்ஸ்பிரஸ் ரயில் டிசம்பர் 9, 16, 23 ஆகிய தேதிகளில் கடப்பா, ரேணிகுண்டா வழியாகச் செல்லாது. இந்த ரயில் தர்மாவரம், கிருஷ்ணராஜபுரம் வழியாக இயக்கப்படும் என்று ரயில்வே நிர்வாகம் தெரிவித்துள்ளது. பயணிகள் ரயில் நேரத்தை முன்கூட்டியே சரிபார்த்துக்கொள்ளுங்கள். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚂 திருச்சி வழியாக செல்லும் 6 ரயில்கள் பாதை மாற்றம் - டிசம்பர் மாத தேதிகள் விவரம்\n\n📰 முழு விவரம்:\nகுண்டக்கல் ரயில்வே கோட்டத்திற்கு உட்பட்ட ரேணிகுண்டா ரயில் நிலைய யார்டில் தண்டவாள மறுசீரமைப்பு மற்றும் மின்னணு இன்டர்லாக்கிங் பணிகள் நடைபெறுகின்றன. இதன் காரணமாக திருச்சி வழியாகச் செல்லும் 6 எக்ஸ்பிரஸ் ரயில்களின் பாதையில் மாற்றம் செய்யப்பட்டுள்ளது.\n\n🗓️ ரயில்கள் மற்றும் தேதிகள்:\n1️⃣ திருநெல்வேலி - கத்ரா எக்ஸ்பிரஸ் (16787): டிசம்பர் 14, 21\n2️⃣ ஐதராபாத் - கன்னியாகுமரி எக்ஸ்பிரஸ் (17069): டிசம்பர் 9, 16, 23\n3️⃣ கன்னியாகுமரி - ஐதராபாத் எக்ஸ்பிரஸ் (17070): டிசம்பர் 11, 18, 25\n4️⃣ சார்லப்பள்ளி - திருச்சி எக்ஸ்பிரஸ் (17077): டிசம்பர் 15, 22\n5️⃣ திருச்சி - சார்லப்பள்ளி எக்ஸ்பிரஸ் (17078): டிசம்பர் 9, 16, 23\n6️⃣ மும்பை - மதுரை எக்ஸ்பிரஸ் (22101): டிசம்பர் 9, 16, 23\n\n🔄 இந்த ரயில்கள் சித்தூர், ரேணிகுண்டா, திருப்பதி, கடப்பா ஆகிய நிறுத்தங்களைத் தவிர்த்து அரக்கோணம், பெரம்பூர், காட்பாடி, தர்மாவரம் வழியாகத் திருப்பி விடப்படும் என ரயில்வே நிர்வாகம் அறிவித்துள்ளது.\n\nℹ️ மக்கள் கவனத்திற்கு: டிசம்பர் மாதத்தில் பயணம் செய்யத் திட்டமிட்டுள்ள பயணிகள் ரயில் நேரத்தை முன்கூட்டியே சரிபார்த்துக்கொள்ளுங்கள்.\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்.\n\nTrichy train route changes December | Renigunta yard work news\n📍 திருச்சி சந்திப்பு, திருச்சி | 20 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyJunction #TrichyNews #திருச்சி",
+   "prompts": "A long passenger express train pulls into Trichy Junction railway station platform in daylight, its carriages running along the rail tracks as it passes through the city. The station is a busy, open-air platform in Tiruchirappalli, with overhead canopy roofs, electric poles and a row of steel rails stretching into the distance. Passengers in shirts, trousers, sarees and salwar stand on the platform with their bags and wait for the train, seen from behind or far away, some carrying luggage trolleys. Railway staff in uniform walk along the platform edge. Across the tracks, distant rail yard signals and a few parked railway wagons are visible under a clear morning sky. Camera: eye level, slightly high, 35 mm lens, wide enough to show the platform, the tracks and the train together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of steel railway tracks at Trichy Junction, where the rails curve and join through wooden sleepers and gravel ballast, with a red-and-white railway signal post standing beside them. The rails gleam in daylight and show the wear of heavy train traffic. Part of a platform edge and a yellow safety line appear at the frame's edge, with a few passengers' feet visible from behind, waiting. The background is blurred, showing the railway yard and distant overhead electric wires. The image emphasises the tracks that are being re-aligned and the route change. Camera: low angle, 50 mm lens, shallow depth of field, soft daylight. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dailythanthi.com/news/tamilnadu/changes-in-train-services-passing-through-trichy-2",
+   "published": "2026-11-20T09:12:59Z",
+   "verification": "DRAFT (gemini/gemini-3-flash-preview) - NOT CLEAN, held from posting - problems: numbers not found in the article: 6",
+   "note": "free-model draft gemini/gemini-3-flash-preview, 4 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795161947/trichy360/z96jc11q39134pm3ruyt.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795161947/trichy360/updodjidvhkl3xfntoja.jpg"
-   ],
-   "real_photo": "Oneindia Tamil"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795171501/trichy360/dyvrsfc3mqttixiqme3v.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795171505/trichy360/zjkjwrbgf0iubtn5v1cp.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "ரேஷன் அரிசி, மானிய உரம் கடத்தல்: 5 மாவட்டங்களில் 848 பேர் கைது",
+   "english_headline": "848 arrested in 5 districts including Trichy for smuggling ration rice and subsidised fertiliser this year",
+   "category": "Crime & Safety",
+   "location": "Trichy district (Trichy, Karur, Pudukkottai, Perambalur, Ariyalur districts)",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "குற்றம்",
+    "loc": "திருச்சி மாவட்டம்",
+    "hl1": "ரேஷன் அரிசி கடத்தல்: 848 பேர் கைது",
+    "hl2": "5 மாவட்டங்களில் நடவடிக்கை",
+    "slides": [
+     {
+      "title": "எத்தனை பேர் கைது?",
+      "lines": [
+       "நடப்பாண்டில் <b>848 பேர்</b> கைது",
+       "ரேஷன் அரிசி, மானிய உரம் கடத்தல் வழக்கு",
+       "5 மாவட்டங்களில் போலீசார் நடவடிக்கை"
+      ]
+     },
+     {
+      "title": "திருச்சியில்",
+      "lines": [
+       "ஜனவரி முதல் அக்டோபர் வரை <b>313 வழக்குகள்</b>",
+       "<b>319 பேர்</b> கைது",
+       "<b>115,695 டன்</b> ரேஷன் அரிசி பறிமுதல்"
+      ]
+     },
+     {
+      "title": "பறிமுதல் விவரம்",
+      "lines": [
+       "68 வாகனங்கள், 177 கியாஸ் சிலிண்டர்கள் பறிமுதல்",
+       "கரூரில் 321 பேர், பெரம்பலூரில் 200 பேர் கைது",
+       "4 பேர் குண்டர் தடுப்புச் சட்டத்தில் சிறையில்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "ரேஷன் அரிசி, மானிய உரம் கடத்திய 848 பேர் 5 மாவட்டங்களில் கைது செய்யப்பட்டுள்ளனர். திருச்சி, கரூர், புதுக்கோட்டை, பெரம்பலூர், அரியலூர் மாவட்டங்களில் குடிமைப்பொருள் வழங்கல் குற்றப்புலனாய்வு பிரிவு போலீசார் இந்த நடவடிக்கை எடுத்தனர். அரசின் பொது வினியோகத் திட்டத்தின் அரிசி, மண்எண்ணெய், மானிய விலை உரம் ஆகியவற்றை சிலர் வாங்கிப் பதுக்கி, கேரளா, கர்நாடகா, ஆந்திராவுக்குக் கடத்தி அதிக விலைக்கு விற்றனர். திருச்சி மாவட்டத்தில் ஜனவரி முதல் அக்டோபர் வரை 313 வழக்குகள் பதிவு செய்யப்பட்டு 319 பேர் கைது செய்யப்பட்டனர். 115,695 டன் ரேஷன் அரிசி, 14.175 டன் மானிய உரம் பறிமுதல் செய்யப்பட்டன. 68 வாகனங்களும் 177 கியாஸ் சிலிண்டர்களும் பறிமுதல் செய்யப்பட்டன. கரூரில் 321 பேர், பெரம்பலூரில் 200 பேர் கைது செய்யப்பட்டனர். திருச்சி மாவட்டத்தில் 4 பேரும், கரூர் மாவட்டத்தில் 2 பேரும் குண்டர் தடுப்புச் சட்டத்தில் சிறையில் அடைக்கப்பட்டுள்ளனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 ரேஷன் அரிசி, மானிய உரம் கடத்தல்: 5 மாவட்டங்களில் 848 பேர் கைது\n\n📰 முழு விவரம்:\nகரூர், புதுக்கோட்டை, பெரம்பலூர், அரியலூர், திருச்சி மாவட்டங்களில் நடப்பாண்டில் ரேஷன் அரிசி, மானிய விலை உரம் போன்றவற்றைக் கடத்தி விற்ற 848 பேரை குடிமைப்பொருள் வழங்கல் குற்றப்புலனாய்வு பிரிவு போலீசார் கைது செய்துள்ளனர்.\nஅரசின் பொது வினியோகத் திட்டத்தின் அரிசி, மண்எண்ணெய், கோதுமை, துவரம்பருப்பு, மானிய விலை உரம் ஆகியவற்றை சிலர் குறைந்த விலைக்கு வாங்கிப் பதுக்கி, கேரளா, கர்நாடகா, ஆந்திராவுக்குக் கடத்தி அதிக விலைக்கு விற்று வருகின்றனர்.\nமானிய விலை சமையல் கியாஸ் சிலிண்டர்களையும் பதுக்கி வர்த்தக ரீதியாகப் பயன்படுத்துகின்றனர். இதைத் தடுக்க மாநிலம் முழுவதும் போலீசார் தொடர் ரோந்து மேற்கொள்கின்றனர்.\nதிருச்சி மண்டல குடிமைப்பொருள் வழங்கல் குற்றப்புலனாய்வு பிரிவு எஸ்.பி. முத்தமிழ் உத்தரவின்பேரில், திருச்சி சரக துணை எஸ்.பி. வின்சென்ட் மேற்பார்வையில், இன்ஸ்பெக்டர் அரங்கநாதன் தலைமையிலான போலீசார் ரகசியத் தகவல், சந்தேகப்படும் இடங்களில் அதிரடி சோதனை நடத்துகின்றனர்.\n🔸 திருச்சி: ஜனவரி முதல் அக்டோபர் வரை 313 வழக்குகள், 319 பேர் கைது, 115,695 டன் ரேஷன் அரிசி, 14.175 டன் மானிய உரம், 68 வாகனங்கள், 177 கியாஸ் சிலிண்டர்கள் பறிமுதல்.\n🔸 பெரம்பலூர்: 176 வழக்குகள், 200 பேர் கைது, 21.820 டன் அரிசி, உரம், 18 வாகனங்கள், 12 கியாஸ் சிலிண்டர்கள் பறிமுதல்.\n🔸 அரியலூர்: 135 வழக்குகள், 3 பேர் கைது, 5 டன் அரிசி, 4 இருசக்கர வாகனங்கள், 3 சரக்கு வாகனங்கள் பறிமுதல்.\n🔸 கரூர்: 264 வழக்குகள், 321 பேர் கைது, 58.720 டன் அரிசி, 38.115 டன் மானிய உரம், 30 வாகனங்கள், 364 கியாஸ் சிலிண்டர்கள் பறிமுதல்.\n🔸 புதுக்கோட்டை: 302 வழக்குகள், 5 பேர் கைது, 35 டன் ரேஷன் அரிசி பறிமுதல்.\nதிருச்சி மாவட்டத்தில் 4 பேரும், கரூரில் 2 பேரும் தொடர் குற்றங்களுக்காக குண்டர் தடுப்புச் சட்டத்தில் சிறையில் அடைக்கப்பட்டுள்ளனர்.\n\nRation rice smuggling 848 arrested Trichy Karur | Trichy news\n📍 திருச்சி மாவட்டம் | 20 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
+   "prompts": "Civil Supplies CID police in khaki stand beside a goods lorry and a row of seized white-and-blue ration rice sacks stacked on the roadside of a Trichy district checkpoint, with a few stacked fertiliser bags nearby. A police inspector and two constables, seen from behind and at a distance, inspect the load while two two-wheelers are parked to one side. The setting is a dusty road edge in a semi-urban Trichy outskirts area with paddy fields and a low concrete compound wall behind. Several other seized goods vehicles and stacked rice sacks fill the background. Daylight, clear sky, late morning. Camera at eye level, 35 mm lens, wide enough to show the road, the vehicles and the piled sacks clearly, no readable text or logos. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of stacked seized gas cylinders and subsidised fertiliser bags piled on the floor of a police yard in Trichy district. Rows of orange and grey LPG gas cylinders stand together with a few torn sacks of urea fertiliser in front, and a khaki-uniformed police boot or hand rests on the pile at the edge of the frame. Behind, the blurred shape of a goods vehicle and a shuttered godown wall. Daylight, soft overcast light. Camera slightly high, 50 mm lens, shallow focus on the cylinders and sacks, no readable labels or markings. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dailythanthi.com/news/tamilnadu/848-people-arrested-for-smuggling-ration-rice-and-subsidized-fertilizer-in-5-districts-including-trichy-and-karur",
+   "published": "2026-11-20T09:43:18Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: slides_spec.loc 'திருச்சி மாவட்டம்' is only the district: write the town / village / area the article names (people share news of their own area); caption misses facts of the article (put every one in 📰 முழு விவரம்): 16 ('மேலும் கடத்தலுக்கு பயன்படுத்தியதாக 68 வாகனங்கள் பறிமுதல் செய'); 22 ('இவர்களிடம் இருந்து 58.720 டன் ரேஷன் அரிசி, 38.115 டன் மானிய ')",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 2 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795171523/trichy360/byb7xrcyeuj8nndsaes9.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795171527/trichy360/jknhtdmlutphxpwsomro.jpg"
+   ]
   }
  ]
 }
