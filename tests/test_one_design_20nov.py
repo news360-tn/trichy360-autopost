@@ -13,9 +13,10 @@ sys.path.insert(0, str(ROOT / "reel"))
 class OneDesign(unittest.TestCase):
     def test_the_earlier_design_is_on(self):
         cfg = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))
-        self.assertEqual(cfg["reel_design"], "classic")
+        self.assertEqual(cfg["reel_design"], "v4")      # 20 Nov: this key picks reel4.py for the posting job - never change it
+        self.assertEqual(cfg["reel_look"], "classic")
         import design360
-        with mock.patch.dict(os.environ, {"REEL_DESIGN": ""}):
+        with mock.patch.dict(os.environ, {"REEL_LOOK": ""}):
             self.assertFalse(design360.on())
 
     def test_source_and_date_in_the_header(self):

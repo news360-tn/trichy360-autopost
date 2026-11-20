@@ -8,7 +8,7 @@ Owner decisions 20 Nov: Tamil; the yellow band and the supporting lines follow t
 summary or end card; no ad bar until a real sponsor exists; no image-disclosure label; the 360 clock branding is laid over it
 (clock360.add); footer "[newspaper] Source: <paper>  [calendar] <date>"; text never overlaps or is cut (fitAll measures every text:
 the headline steps down from 70px only when it does not fit 2 lines, the band text from 38px, the supporting lines are cut by
-measurement into 2-line pieces). REEL_DESIGN=classic (or poster/config.json "reel_design": "classic") brings the earlier design back.
+measurement into 2-line pieces). poster/config.json "reel_look": "handoff" (or REEL_LOOK=handoff) switches it on; "classic" (the default) is the earlier look.
   page(spec, shots, sents, caps, end_t, total, page, outro) -> html with window.renderAt(t), window.fitAll(), window.DUR"""
 import html as _h
 import json
@@ -94,14 +94,15 @@ window.DUR=D.total;
 
 
 def on():
-    """the handoff design is on unless REEL_DESIGN / poster/config.json "reel_design" says "classic" """
-    v = os.environ.get("REEL_DESIGN", "")
+    """the handoff look is on only when REEL_LOOK / poster/config.json "reel_look" says "handoff" (owner 20 Nov: "classic" is the default;
+    never the "reel_design" key - that one picks reel4.py for the posting job and must stay "v4")"""
+    v = os.environ.get("REEL_LOOK", "")
     if not v:
         try:
-            v = json.loads((HERE.parent / "poster" / "config.json").read_text(encoding="utf-8")).get("reel_design", "")
+            v = json.loads((HERE.parent / "poster" / "config.json").read_text(encoding="utf-8")).get("reel_look", "")
         except Exception:
             v = ""
-    return str(v or "handoff").lower() != "classic"
+    return str(v or "classic").lower() == "handoff"
 
 
 def screen(t):

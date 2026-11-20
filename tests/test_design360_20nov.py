@@ -27,9 +27,9 @@ OUTRO = {"a": 19.0, "b": 22.0, "text": "மேலும் செய்திக
 
 class Design360(unittest.TestCase):
     def test_on_unless_classic(self):      # owner 20 Nov (final): config says classic; REEL_DESIGN=handoff switches it on
-        with mock.patch.dict(os.environ, {"REEL_DESIGN": "handoff"}):
+        with mock.patch.dict(os.environ, {"REEL_LOOK": "handoff"}):
             self.assertTrue(D.on())
-        with mock.patch.dict(os.environ, {"REEL_DESIGN": "classic"}):
+        with mock.patch.dict(os.environ, {"REEL_LOOK": "classic"}):
             self.assertFalse(D.on())
 
     def test_band_follows_the_facts(self):      # no fact yet: the hook's 2nd line; a sentence without a fact keeps the last one

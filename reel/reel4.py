@@ -23,7 +23,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import reel as R
 import reel3 as V3
 import clock360      # owner 20 Nov: the 360 clock branding layer over every news reel (never fails the reel)
-import design360      # owner 20 Nov: the design team's reel design (REEL_DESIGN=classic: the earlier design)
+import design360      # owner 20 Nov: the design team's reel look (off; poster/config.json reel_look: handoff switches it on)
 from digits import to_digits
 
 def E(s):
