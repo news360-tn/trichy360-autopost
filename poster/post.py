@@ -728,7 +728,7 @@ def fetch_images(row, work):
     urls = json.loads(row["images"])[:int((CONFIG.get("free_images") or {}).get("pictures_per_reel", 1))]      # owner 30 Oct: 2 per reel
     work.mkdir(parents=True, exist_ok=True)
     if urls and urls[0] == "NOIMAGE":
-        return plain_background(work, 1)
+        return plain_background(work, 1, row)
     out = []
     for i, u in enumerate(urls, 1):
         r = requests.get(u, timeout=120)
@@ -2207,24 +2207,12 @@ def auto_images():
             bridge_post("setImages", {"row": r["row"], "story_id": r["story_id"], "images": ["NOIMAGE"]})
 
 
-def plain_background(work, n):
-    """a plain branded background for a reel made without pictures (one file, used for every scene)"""
-    from PIL import Image as _I, ImageDraw as _D
+def plain_background(work, n, row=None):
+    """owner 20 Nov: a reel with no picture gets a designed, realistic background (poster/newsbg.py: night-city lights coloured by the
+    kind of news) - never the page logo. One file, used for every scene."""
+    import newsbg
     work.mkdir(parents=True, exist_ok=True)
-    im = _I.new("RGB", (1080, 1920), (14, 22, 36))
-    d = _D.Draw(im)
-    for y in range(1920):           # soft vertical gradient
-        t = y / 1920
-        d.line([(0, y), (1080, y)], fill=(int(14 + 20 * t), int(22 + 30 * t), int(36 + 40 * t)))
-    try:      # owner 29 Oct: no free picture -> the page logo, large and soft, so the reel still looks like ours
-        lg = _I.open(LOGO).convert("RGBA").resize((760, 760))
-        lg.putalpha(lg.getchannel("A").point(lambda v: int(v * 0.35)))
-        im.paste(lg, (160, 560), lg)
-    except Exception:
-        pass
-    dst = work / "plain_bg.jpg"
-    im.save(dst, "JPEG", quality=95)
-    return [dst] * n
+    return [newsbg.make(row, work / "plain_bg.jpg")] * n
 
 
 def main():
