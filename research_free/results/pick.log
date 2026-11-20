@@ -1,15 +1,13 @@
-02:23:25 round 2026-11-21_02: news published 21 Nov 00:26 -> 21 Nov 02:23 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-02:23:25 insights 2026-11-21T02:23+05:30 (96 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': 0.61, 'civic': -0.02, 'education': -0.5, 'politics': -0.4, 'temple': -0.38, 'poultry_agri': 0.39}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது']
-02:23:39 31 links on the two papers' Trichy pages
-02:24:14 skipped: already posted=14, published before this window=12, same event already posted=2, not Trichy district=2, shop offer / advertisement=1
-02:24:14 list: 0 new + 2 earlier news not posted yet
-02:24:14    1. [குற்றம்] திருச்சி மலைக்கோட்டை மீது ஏறி தற்கொலைக்கு முயன்றவர் மீட்பு (தினமலர்) (earlier)
-02:24:14    2. [குற்றம்] உச்சிப்பிள்ளையார் கோவில் பாறையில் ஏறி வாலிபர் தற்கொலை மிரட்டல் (மாலைமலர்) (earlier)
-02:24:14 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-21_02
-02:24:16    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சி மலைக்கோட்டை மீது ஏறி தற்கொலைக்கு முயன்றவர் மீட்பு
-02:24:16    not picked automatically (suicide / obituary - only when the owner ticks it): உச்சிப்பிள்ளையார் கோவில் பாறையில் ஏறி வாலிபர் தற்கொலை மிரட்டல்
-02:24:16 round 2026-11-21_02 (at least 4, up to 3 more of well-watched topics): 0 news to choose from (0 from earlier rounds), ranked by this page's insights
-02:24:16 decided: automatic: top 4 of 0 by insights -> 0 news to write and post
-PICK_URLS=
-02:24:21 verify 2026-11-21_02: 0 of 0 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+04:26:25 round 2026-11-21_04: news published 21 Nov 02:23 -> 21 Nov 04:26 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+04:26:25 insights 2026-11-21T04:26+05:30 (96 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': 0.59, 'civic': -0.02, 'education': -0.5, 'politics': -0.4, 'temple': -0.39, 'poultry_agri': 0.39}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+04:26:44 33 links on the two papers' Trichy pages
+04:27:21 skipped: published before this window=12, already posted=11, not Trichy district=4, same event already posted=1, shop offer / advertisement=1
+04:27:21 list: 4 new + 2 earlier news not posted yet
+04:27:21    1. [பொது] மாநகரப் பகுதிகளில் நாளை குடிநீா் நிறுத்தம் (தினமணி)
+04:27:21    2. [பொது] மாவட்டத்தின் 2,789 வாக்குச் சாவடிகளில் 3 நாள்கள் வாக்காளா் பட்டியல் சி (தினமணி)
+04:27:21    3. [பொது] திருச்சி-சுபாங் இடையே டிசம்பா் 16 முதல் புதிய விமான சேவை (தினமணி)
+04:27:21    4. [பொது] காா்த்திகை தீபம்: மாவட்டத்தில் அகல் விளக்குகள் தாயரிக்கும் பணி தீவிரம் (தினமணி)
+04:27:21    5. [குற்றம்] திருச்சி மலைக்கோட்டை மீது ஏறி தற்கொலைக்கு முயன்றவர் மீட்பு (தினமலர்) (earlier)
+04:27:21    6. [குற்றம்] உச்சிப்பிள்ளையார் கோவில் பாறையில் ஏறி வாலிபர் தற்கொலை மிரட்டல் (மாலைமலர்) (earlier)
+04:27:21 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-21_04
