@@ -83,6 +83,7 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-20 | `2bff160` | Writer: the opening headline (hl1) is always a complete phrase |
 | 2026-11-20 | `93c96df` | News reels: the design team's design (Tamil) with the 360 clock branding on every page |
 | 2026-11-20 | `5dfb451` | pick: written and posted |
 | 2026-11-20 | `bc34291` | pick: list sent |
@@ -112,5 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-20 | `e70c3c5` | rasipalan posted |
 | 2026-11-19 | `eccfd72` | pick: written and posted |
 | 2026-11-19 | `419a72d` | pick: picked news saved |
-| 2026-11-19 | `d8b6e32` | pick: picked news saved |
 <!-- recent-changes:end -->
