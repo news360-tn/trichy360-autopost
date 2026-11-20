@@ -40,7 +40,7 @@
     ]
   },
   "reel_punch": false,
-  "reel_max_seconds": 60,
+  "reel_max_seconds": 88,
   "power_cut": {
     "note": "owner 30 Oct: a power-cut reel reads EVERY area, so it may run to max_seconds (88 = 2 s under verify.py's 90 s check) with up to script_max_words; all other reels keep reel_max_seconds / reach.script_max_words. {} = normal limits",
     "max_seconds": 88,
@@ -53,7 +53,7 @@
   "reel_punch_note": "owner 27 Oct (change 1): every reel opens with a spoken punch line (yellow number + headline) while the big headline is on screen",
   "reach": {
     "note": "owner 29 Oct (views plan): each switch can be turned off here without code changes",
-    "script_max_words": 90,
+    "script_max_words": 160,
     "caption_full_details": true,
     "english_search_line": true,
     "hashtag_pattern": true,
@@ -112,8 +112,7 @@
         }
       }
     },
-    "hashtag_note": "owner 2 Nov: 5 tags, all from these fixed lists (never the writer's own tags): page + area + town (place_tags; a village maps to its town tag) + local topic (rain / power cut, else the page's news tag) + the Tamil place tag. A Rasipuram reel never carries a Namakkal page tag; no #TamilNews / #TamilNadu style tags",
-    "script_max_words_note": "19 Nov trial (new pages): 60-90 words (about 35-45 s) for normal news - 60-80 word reels reached the most people; power cuts keep power_cut.script_max_words (160, every area)"
+    "hashtag_note": "owner 2 Nov: 5 tags, all from these fixed lists (never the writer's own tags): page + area + town (place_tags; a village maps to its town tag) + local topic (rain / power cut, else the page's news tag) + the Tamil place tag. A Rasipuram reel never carries a Namakkal page tag; no #TamilNews / #TamilNadu style tags"
   },
   "free_images": {
     "note": "owner 13 Nov (new pages): 2 pictures per reel - the news article's own photos first (vision-checked: this news, a real photo, not a file photo); one usable photo -> the second picture is a closer crop of it; none -> 2 AI pictures from the free services (FAL only when all fail)",
@@ -149,7 +148,6 @@
   "stories_urgent_only_note": "owner 14 Nov (plan A): the Instagram story share only for power cuts / urgent (High) news - 24 news a day then use about 26 of Instagram's 50 posts. false = every post gets its story again",
   "reel_style": "A",
   "reel_style_note": "owner 13 Nov 23:10: A = the Namakkal 360 design (same as Namakkal / Coimbatore) on this page; the premium look P below is switched off. Was: P = premium story panel (photo top 60 %, emerald panel with the headline and captions, champagne gold, ivory cards, serif headline, no black; district map + town pin, word-by-word headline, count-up numbers, one news-type layer, smooth loop, light sound effects). A = the earlier look.",
-  "reel_max_seconds_note": "owner 19 Nov: a news reel is at most 60 seconds (the voice is read up to 1.2x faster to fit; the writer keeps 60-90 words). Power cuts keep power_cut.max_seconds (every area is read)",
   "posting": {
     "spacing_min": 0,
     "note": "owner 19 Nov: no gap between news posts - inside a posting window every ready news posts at once"

@@ -684,7 +684,36 @@ def final_caption(row):
         if len(cap) + len(line) + 2 > 2200:      # Instagram caption limit: the link is dropped before the caption is cut
             line = f"📰 Source: {src_full}"
         cap = cap.rstrip() + "\n\n" + line
-    return cap
+    return fit_caption(cap)
+
+
+CAPTION_LIMIT = 2190      # Instagram refuses a caption over 2,200 (counted in UTF-16 units: an emoji counts 2)
+
+
+def ig_len(text):
+    return len(text.encode("utf-16-le")) // 2
+
+
+def fit_caption(cap, limit=CAPTION_LIMIT):
+    """20 Nov (Erode RN-163, a power-cut list: 2,356 characters, Instagram refused the reel 3 times): the long text is cut at its last
+    whole item / sentence and ends with "…"; the English search line, the hashtags and the source line always stay"""
+    if ig_len(cap) <= limit:
+        return cap
+    lines = cap.split("\n")
+    j = next((i for i, l in enumerate(lines) if l.strip().startswith("#")), len(lines))      # the hashtags and everything after stay
+    while j > 0 and (not lines[j - 1].strip() or (re.search(r"[A-Za-z]{3,}", lines[j - 1]) and not re.search(r"[\u0B80-\u0BFF]", lines[j - 1]))):
+        j -= 1      # the English search line just above the hashtags stays too
+    body = "\n".join(lines[:j]).rstrip()
+    tail = "\n".join(lines[j:]).strip("\n")
+    room = limit - ig_len(tail) - 3
+    cut = body
+    while cut and ig_len(cut) > room:
+        cut = cut[:max(0, len(cut) - max(1, ig_len(cut) - room))]
+    k = max(cut.rfind(", "), cut.rfind(". "), cut.rfind("\n"))
+    if k > len(cut) * 0.6:
+        cut = cut[:k]
+    cut = cut.rstrip(" ,.\n") + "…"
+    return (cut + "\n\n" + tail) if tail else cut
 
 
 # ---------------------------------------------------------------- images

@@ -585,11 +585,9 @@ class FullDetail(unittest.TestCase):
         return [x for x in validate.validate(d, art) if x.startswith("reel_script has")]
 
     def test_short_reel_of_long_article_is_rewritten(self):
-        # 19 Nov trial (new pages): 60-90 words (about 35-45 s) - 60-80 word reels reached the most people; the caption keeps the rest
-        self.assertTrue(self.length_problems(55, 300))
-        self.assertFalse(self.length_problems(70, 300))
-        self.assertTrue(self.length_problems(100, 300))
-        self.assertTrue(self.length_problems(135, 300))
+        self.assertTrue(self.length_problems(70, 300))
+        self.assertFalse(self.length_problems(100, 300))      # owner 31 Oct: a long article needs ~100 words, never forced to 130+
+        self.assertFalse(self.length_problems(135, 300))      # owner 31 Oct: at most 90 s / 160 words (29 Oct: 60 s / 105); the caption keeps the rest
 
     def test_short_article_keeps_a_short_reel(self):
         self.assertFalse(self.length_problems(70, 80))
@@ -599,10 +597,10 @@ class FullDetail(unittest.TestCase):
 
     def test_examples_are_full_detail(self):
         for e in json.loads((ROOT / "research_free" / "examples.json").read_text(encoding="utf-8")):
-            self.assertTrue(60 <= len(e["output"]["reel_script"].split()) <= 95)      # the writer copies the examples' length
+            self.assertGreaterEqual(len(e["output"]["reel_script"].split()), 80)
 
     def test_reel_max_seconds(self):
-        self.assertEqual(json.loads((ROOT / "poster" / "config.json").read_text())["reel_max_seconds"], 60)      # owner 19 Nov: a news reel is at most 60 s
+        self.assertEqual(json.loads((ROOT / "poster" / "config.json").read_text())["reel_max_seconds"], 88)      # owner 29 Oct
         self.assertIn("fit_max(work, len(texts), lead, gap, max_seconds(spec))", (ROOT / "reel" / "reel4.py").read_text(encoding="utf-8"))
 
 class Proofread(unittest.TestCase):
@@ -898,11 +896,10 @@ class ReviewFixes2Nov(unittest.TestCase):
         rules = (ROOT / "research_free" / "rules.md").read_text(encoding="utf-8")
         self.assertNotIn('say "விவரம் இன்னும் தெரியவரவில்லை"', rules)
         self.assertNotIn("Say the KEY facts once each", rules)
-        self.assertIn("the reel tells the KEY facts once each", rules)      # 19 Nov trial; the caption holds the WHOLE story
-        self.assertIn('"📰 முழு விவரம்:" block holds the WHOLE story', rules)
+        self.assertIn("Tell EVERY fact of the article once each", rules)
         self.assertNotIn("ராஜா\", \"14 வயதான கவுசிக்", rules)
         run_py = (ROOT / "research_free" / "run.py").read_text(encoding="utf-8")
-        self.assertIn("60-90 words, about 35-45 seconds", run_py)      # 19 Nov trial
+        self.assertIn("70-160 words: the reel is at most 90 seconds", run_py)
         self.assertNotIn("the reel is at most 60 seconds", run_py)
 
     def test_event_cache_is_thread_safe_and_followers_tracked(self):
@@ -1739,9 +1736,8 @@ class ReachPlan29Oct(unittest.TestCase):
 
     def test_switches_and_picture_rule(self):
         c = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))
-        self.assertEqual(60, c["reel_max_seconds"])      # owner 19 Nov: at most 60 s (power cuts keep power_cut.max_seconds)
-        self.assertEqual(90, c["reach"]["script_max_words"])      # 19 Nov trial (was 160)
-        self.assertEqual(160, c["power_cut"]["script_max_words"])      # a power cut still reads every area
+        self.assertEqual(88, c["reel_max_seconds"])      # owner 31 Oct: 90 s (88 = under the 90 s check)
+        self.assertEqual(160, c["reach"]["script_max_words"])
         self.assertIn("no brand names", collect.IMG_TEMPLATE)
 
 
@@ -2058,8 +2054,8 @@ class PowerCutRules(unittest.TestCase):
         ns = from_file(ROOT / "reel" / "reel4.py", {"max_seconds"})
         self.assertEqual(88, ns["max_seconds"]({"cat": "மின் தடை", "mini": "மணப்பாறையில் நாளை மின் தடை", "hook": ["", ""]}))
         self.assertEqual(88, ns["max_seconds"]({"cat": "Civic Issues", "mini": "லால்குடியில் நாளை மின்தடை", "hook": ["", ""]}))
-        self.assertEqual(60, ns["max_seconds"]({"cat": "Crime & Safety", "mini": "திருச்சியில் திருட்டு: 2 பேர் கைது", "hook": ["", ""]}))      # owner 19 Nov: other news at most 60 s; power cuts keep 88
-        self.assertEqual(60, ns["max_seconds"]())      # owner 19 Nov: a news reel at most 60 s (was 90 s, 31 Oct)
+        self.assertEqual(88, ns["max_seconds"]({"cat": "Crime & Safety", "mini": "திருச்சியில் திருட்டு: 2 பேர் கைது", "hook": ["", ""]}))
+        self.assertEqual(88, ns["max_seconds"]())      # owner 31 Oct: every reel up to 90 s
 
     def test_power_cut_script_may_be_longer(self):
         import validate
@@ -2071,7 +2067,7 @@ class PowerCutRules(unittest.TestCase):
             d["reel_script"] = " ".join(["தகவல்"] * 140) + " " + validate.LAST
         words = lambda d: [x for x in validate.validate(d, art) if x.startswith("reel_script has")]
         self.assertFalse(words(pc))      # 140 words + every area: allowed for a power cut
-        self.assertTrue(words(other))    # 19 Nov trial: other news at most 90 words (was 160)
+        self.assertFalse(words(other))   # owner 31 Oct: every reel may use 160 words now (was 105)
         pc["reel_script"] = " ".join(["தகவல்"] * 100) + " " + validate.LAST
         self.assertFalse(words(pc))      # not forced longer than the normal minimum (owner 31 Oct: at most ~100 words required)
 
