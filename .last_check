@@ -1,22 +1,22 @@
-07:10:03 SKIP RN-4 stale: published 12 Nov, older than yesterday
-07:10:03 SKIP RN-19 stale: published 14 Nov, older than yesterday
-07:10:03 SKIP RN-22 stale: published 14 Nov, older than yesterday
-07:10:03 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-07:10:03 SKIP RN-29 stale: published 14 Nov, older than yesterday
-07:10:03 SKIP RN-42 held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact-check: The reel_script states the body was found in the well belonging to Manivanna
-07:10:03 SKIP RN-45 held: fact-check problems - numbers not found in the article: 7
-07:10:03 SKIP RN-71 held: fact-check problems - not grounded: location 'அளவு' is not in the article
-07:10:03 SKIP RN-92 held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
+07:17:40 SKIP RN-4 stale: published 12 Nov, older than yesterday
+07:17:40 SKIP RN-19 stale: published 14 Nov, older than yesterday
+07:17:40 SKIP RN-22 stale: published 14 Nov, older than yesterday
+07:17:40 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+07:17:40 SKIP RN-29 stale: published 14 Nov, older than yesterday
+07:17:40 SKIP RN-42 held: fact-check problems - fact-check: The draft says the 8th (அக்டோபர் மாதம் 8ஆம் தேதி in reel_script; 'அக்டோபர்' is an invented detail.; fact-check: The reel_script states the body was found in the well belonging to Manivanna
+07:17:41 SKIP RN-45 held: fact-check problems - numbers not found in the article: 7
+07:17:41 SKIP RN-71 held: fact-check problems - not grounded: location 'அளவு' is not in the article
+07:17:41 SKIP RN-92 held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
 ::warning title=Held from posting RN-92::held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
-07:10:05 story catch-up trichy: quota 18/50, 40 recent posts, 4 live stories, owner ids ['17841462048887226', '28956510467350700']
-07:10:05 9 stories in the queue, ready to post: 0
-07:10:05   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-07:10:05    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 167.9 ready= False set_started= True
-07:10:05    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 137.2 ready= False set_started= True
-07:10:05    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 133.5 ready= False set_started= True
-07:10:05    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 133.5 ready= False set_started= True
-07:10:05    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 129.4 ready= False set_started= True
-07:10:05    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 97.3 ready= False set_started= True
-07:10:05    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 97.3 ready= False set_started= True
-07:10:05    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 47.8 ready= False set_started= True
-07:10:05    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 2.7 ready= False set_started= True
+07:17:44 story catch-up trichy: quota 18/50, 40 recent posts, 4 live stories, owner ids ['17841462048887226', '28956510467350700']
+07:17:44 9 stories in the queue, ready to post: 0
+07:17:44   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+07:17:44    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 168.0 ready= False set_started= True
+07:17:44    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 137.3 ready= False set_started= True
+07:17:44    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 133.6 ready= False set_started= True
+07:17:44    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 133.6 ready= False set_started= True
+07:17:44    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 129.6 ready= False set_started= True
+07:17:44    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 97.4 ready= False set_started= True
+07:17:44    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 97.4 ready= False set_started= True
+07:17:44    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 47.9 ready= False set_started= True
+07:17:44    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 2.8 ready= False set_started= True
