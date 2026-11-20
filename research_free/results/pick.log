@@ -1,10 +1,8 @@
-16:59:41 round 2026-11-20_16: news published 20 Nov 16:08 -> 20 Nov 16:59 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-16:59:41 insights 2026-11-20T16:59+05:30 (95 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': 0.08, 'civic': -0.1, 'education': -0.5, 'politics': -0.46, 'temple': -0.39, 'poultry_agri': 0.44}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது']
-16:59:57 31 links on the two papers' Trichy pages
-17:00:52 skipped: already posted=14, published before this window=13, not Trichy district=2, shop offer / advertisement=1, same event already posted=1
-17:00:52 list: 0 new + 0 earlier news not posted yet
-17:00:52 no news in this window - no e-mail
-ROUND=2026-11-20_16
-17:00:54 no list this round - nothing to post
-PICK_URLS=
-17:00:55 verify: no decided round
+18:56:31 round 2026-11-20_18: news published 20 Nov 16:59 -> 20 Nov 18:56 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+18:56:31 insights 2026-11-20T18:56+05:30 (95 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': 0.3, 'civic': 0.11, 'education': -0.5, 'politics': -0.3, 'temple': -0.23, 'poultry_agri': 0.66}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது']
+18:57:10 41 links on the two papers' Trichy pages
+18:57:52 skipped: already posted=14, published before this window=13, not Trichy district=11, shop offer / advertisement=1, same event already posted=1
+18:57:52 list: 1 new + 0 earlier news not posted yet
+18:57:52    1. [குற்றம்] உச்சிப்பிள்ளையார் கோவில் பாறையில் ஏறி வாலிபர் தற்கொலை மிரட்டல் (மாலைமலர்)
+18:57:52 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-20_18

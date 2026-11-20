@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-20T16:59+05:30",
+ "updated": "2026-11-20T18:56+05:30",
  "posts_measured": 95,
  "topic_weight": {
   "accident": 1.5,
   "crime": 1.5,
-  "power_cut": 0.08,
-  "civic": -0.1,
+  "power_cut": 0.3,
+  "civic": 0.11,
   "education": -0.5,
-  "politics": -0.46,
-  "temple": -0.39,
-  "poultry_agri": 0.44
+  "politics": -0.3,
+  "temple": -0.23,
+  "poultry_agri": 0.66
  },
  "topic_n": {
   "accident": 7,
@@ -35,7 +35,7 @@
   "🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை",
   "🚨 சமயபுரம் அருகே கொடூர விபத்து: கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி"
  ],
- "avg_watch_s": 7.8,
+ "avg_watch_s": 7.7,
  "best_topics": [
   "accident",
   "crime",
