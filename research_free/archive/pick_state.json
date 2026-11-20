@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-20T13:26:22.588969+05:30",
+ "last_end": "2026-11-20T16:08:52.964173+05:30",
  "pool": {
   "C0bd23e2": {
    "id": "C0bd23e2",
@@ -44,79 +44,56 @@
    "picked_at": "2026-11-20T09:02:05.062935+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
   },
-  "C2a80908": {
-   "id": "C2a80908",
-   "url": "https://tamil.oneindia.com/news/trichirappalli/trichy-manapparai-rice-mill-scam-rs-3-crore-bungalow-couple-caught-in-ration-rice-case-846779.html",
-   "title": "திருச்சி மணப்பாறை அரிசி ஆலை.. ரூ.3 கோடி சொகுசு பங்களா, மில்.. ரேஷன் அரிசியில் ஜோடி சிக்கியது எப்படி?",
-   "summary": "திருச்சி: திருச்சி மாவட்டத்தில், தமிழக அரசு தந்த ரேஷன் அரிசியை ஒரே குடும்பத்தை சேர்ந்தவர்களே கையாடல் செய்துள்ளனர்.. கள்ளச்சந்தையில் விற்பனை செய்ததாக அரிசி ஆலை உரிமையாளர் உள்ளிட்ட ஒரே குடும்பத்தைச் சேர்ந்த 3 பேர் கைது ...",
-   "source": "ஒன்இந்தியா",
-   "published": "2026-11-20T10:33:10+05:30",
-   "category": "பொது",
-   "score": 10.0,
+  "C9ad4928": {
+   "id": "C9ad4928",
+   "url": "https://www.dailythanthi.com/news/tamilnadu/848-people-arrested-for-smuggling-ration-rice-and-subsidized-fertilizer-in-5-districts-including-trichy-and-karur",
+   "title": "திருச்சி, கரூர் உள்ளிட்ட 5 மாவட்டங்களில் ரேஷன் அரிசி, மானிய உரம் கடத்தியதாக 848 பேர் கைது",
+   "summary": "கரூர், கரூர், புதுக்கோட்டை, பெரம்பலூர், அரியலூர், திருச்சி மாவட்டங்களில் நடப்பாண்டில் ரேஷன் அரிசி, மானிய விலை உரம் போன்றவற்றை கடத்தி விற்பனை செய்ததாக 848 பேரை குடிமைப்பொருள் வழங்கல் குற்றப்புலனாய்வு பிரிவு போலீசார் கை...",
+   "source": "தினத்தந்தி",
+   "published": "2026-11-20T09:43:18Z",
+   "category": "குற்றம்",
+   "score": 12.5,
    "power_cut": false,
-   "listed_at": "2026-11-20T13:26:22.588969+05:30",
-   "picked_at": "2026-11-20T13:28:44.636286+05:30",
-   "posted": true
+   "listed_at": "2026-11-20T16:08:52.964173+05:30"
   },
-  "Caf91ed8": {
-   "id": "Caf91ed8",
-   "url": "https://www.polimernews.com/districtnews/tirupati-devasthanam-honours-srirangam-ranganathar-and-thayar-with-traditional-robes-12825991",
-   "title": "திருப்பதி தேவஸ்தானத்திலிருந்து ஸ்ரீரங்கம் அரங்கநாதர் மற்றும் தாயாருக்கு வஸ்திர மரியாதை..",
-   "summary": "திருப்பதி தேவஸ்தானத்திலிருந்து ஸ்ரீரங்கம் அரங்கநாத சுவாமி மற்றும் தாயாருக்கு வைகாசி ஏகாதசியை முன்னிட்டு இன்று பாரம்பரிய வஸ்திர மரியாதை வழங்கப்பட்டது.",
-   "source": "பாலிமர்",
-   "published": "2026-11-20T13:14:09+05:30",
+  "Cebb81e4": {
+   "id": "Cebb81e4",
+   "url": "https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-woman-death",
+   "title": "திருச்சி அருகே மர்ம காய்ச்சலுக்கு கல்லூரி மாணவி பலி",
+   "summary": "லோகவாணி காய்ச்சல் காரணமாக உயிரிழந்த சம்பவம் அவரது குடும்பத்தினர் மட்டுமின்றி அப்பகுதி மக்களிடையே பெரும் சோகத்தை ஏற்படுத்தி உள்ளது..திருச்சி மாவட்டம், மண்ணச்சநல்லூர், திருப்பைஞ்சீலி உள்ளிட்ட சுற்று வட்டார பகுதிகளில் கட...",
+   "source": "மாலைமலர்",
+   "published": "2026-11-20T09:25:57Z",
+   "category": "விபத்து",
+   "score": 9.5,
+   "power_cut": false,
+   "listed_at": "2026-11-20T16:08:52.964173+05:30"
+  },
+  "C081b7aa": {
+   "id": "C081b7aa",
+   "url": "https://www.dailythanthi.com/news/tamilnadu/special-trains-karthigai-deepam-thiruvannamalai",
+   "title": "கார்த்திகை தீபத் திருவிழா: தாம்பரம், செங்கோட்டை, திருச்சியில் இருந்து திருவண்ணாமலைக்கு சிறப்பு ரெயில்",
+   "summary": "இது தொடர்பாக, தெற்கு ரெயில்வே வெளியிட்டுள்ள செய்திக்குறிப்பில் கூறப்பட்டுள்ளதாவது:- .தாம்பரம் - திருவண்ணாமலைதாம்பரத்தில் இருந்து நவம்பர் 23-ந்தேதி (திங்கட்கிழமை) இரவு 11.55 மணிக்கு புறப்படும் சிறப்பு ரெயில் (வண்டி எண்...",
+   "source": "தினத்தந்தி",
+   "published": "2026-11-20T09:43:28Z",
+   "category": "பொது",
+   "score": 4.59,
+   "power_cut": false,
+   "listed_at": "2026-11-20T16:08:52.964173+05:30"
+  },
+  "Ceec4bb7": {
+   "id": "Ceec4bb7",
+   "url": "https://www.dailythanthi.com/news/tamilnadu/changes-in-train-services-passing-through-trichy-2",
+   "title": "திருச்சி வழியாக செல்லும் ரெயில்களின் சேவையில் மாற்றம்",
+   "summary": "திருச்சி, திருச்சி வழியாக செல்லும் ரெயில்களின் சேவையில் மாற்றம் செய்யப்பட்டுள்ளது.ரெயில்கள் சேவையில் மாற்றம்குண்டக்கல் ரெயில்வே கோட்டத்திற்கு உட்பட்ட கூடூர்- ரேணிகுண்டா திருப்பதி வழித்தடத்தில் ரேணிகுண்டா ரெயில் நிலைய ...",
+   "source": "தினத்தந்தி",
+   "published": "2026-11-20T09:12:59Z",
    "category": "பொது",
    "score": 3.0,
    "power_cut": false,
-   "listed_at": "2026-11-20T13:26:22.588969+05:30",
-   "picked_at": "2026-11-20T13:28:44.636289+05:30",
-   "posted": true
+   "listed_at": "2026-11-20T16:08:52.964173+05:30"
   }
  },
  "rounds": {
-  "2026-11-16_16": {
-   "window": [
-    "2026-11-16T05:47:28.501347+05:30",
-    "2026-11-16T16:15:32.237898+05:30"
-   ],
-   "ids": [
-    "Cc4d0699",
-    "Cd7633b3",
-    "C4cc55c1",
-    "C98339eb",
-    "C262b6eb",
-    "C9688710",
-    "C6861251"
-   ],
-   "sent": false,
-   "deadline": "2026-11-16T17:15:32.237898+05:30",
-   "decided": {
-    "how": "automatic: top 8 of 7 by insights",
-    "ids": [
-     "Cc4d0699",
-     "Cd7633b3",
-     "C4cc55c1",
-     "C6861251",
-     "C98339eb",
-     "C262b6eb",
-     "C9688710"
-    ],
-    "at": "2026-11-16T16:20:54.625309+05:30"
-   },
-   "written": [
-    "C262b6eb",
-    "C4cc55c1",
-    "C6861251",
-    "C9688710",
-    "C98339eb",
-    "Cc4d0699",
-    "Cd7633b3"
-   ],
-   "refused": {
-    "C262b6eb": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)",
-    "Cc4d0699": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
-   }
-  },
   "2026-11-16_17": {
    "window": [
     "2026-11-16T16:15:32.237898+05:30",
@@ -619,6 +596,23 @@
     "C2a80908",
     "Caf91ed8"
    ]
+  },
+  "2026-11-20_16": {
+   "window": [
+    "2026-11-20T13:26:22.588969+05:30",
+    "2026-11-20T16:08:52.964173+05:30"
+   ],
+   "ids": [
+    "C9ad4928",
+    "Cebb81e4",
+    "C081b7aa",
+    "Ceec4bb7",
+    "Ce3c1dfc"
+   ],
+   "sent": false,
+   "deadline": "2026-11-20T17:08:52.964173+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}
