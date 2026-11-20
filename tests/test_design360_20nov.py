@@ -26,8 +26,8 @@ OUTRO = {"a": 19.0, "b": 22.0, "text": "மேலும் செய்திக
 
 
 class Design360(unittest.TestCase):
-    def test_on_unless_classic(self):
-        with mock.patch.dict(os.environ, {"REEL_DESIGN": ""}):
+    def test_on_unless_classic(self):      # owner 20 Nov (final): config says classic; REEL_DESIGN=handoff switches it on
+        with mock.patch.dict(os.environ, {"REEL_DESIGN": "handoff"}):
             self.assertTrue(D.on())
         with mock.patch.dict(os.environ, {"REEL_DESIGN": "classic"}):
             self.assertFalse(D.on())

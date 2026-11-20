@@ -91,8 +91,11 @@ body{font-family:'NST','CT',sans-serif;color:#fff;position:relative}
 #end .e4{font:800 44px 'NST','CT';color:#fff;background:rgba(0,0,0,.35);padding:12px 30px 6px;border-radius:16px}
 #end .e3{font:800 50px 'CT','NST';color:var(--yellow)}
 #end .e5{font:700 36px 'NST','CT';color:#fff;background:rgba(0,0,0,.45);padding:10px 26px 4px;border-radius:14px}      /* owner 11 Nov: news source */
-#hdr .src{font:800 26px 'NST','CT';color:#fff;background:rgba(255,255,255,.18);padding:4px 12px 0;border-radius:8px;white-space:nowrap;max-width:300px;overflow:hidden;text-overflow:ellipsis}
+#hdr .src{font:800 26px 'NST','CT';color:#fff;background:rgba(255,255,255,.18);padding:4px 12px 0;border-radius:8px;white-space:nowrap;max-width:820px;overflow:hidden;text-overflow:ellipsis}
 #hdr .sub{flex-wrap:nowrap}
+#hdr .sub .dt,#hdr .src{display:inline-flex;align-items:center;gap:8px}      /* owner 20 Nov: 📅 date, then 📰 Source: paper on its own line */
+#hdr .src{margin-top:8px}
+#hdr .sub .ic,#hdr .src .ic{width:.9em;height:.9em;color:#FFD233;fill:#FFD233;flex:none;display:block}
 #end .send{display:flex;align-items:center;gap:24px;background:#fff;color:var(--navy);padding:22px 40px 16px;border-radius:28px;font:900 58px/1.2 'CT','NST';box-shadow:0 14px 40px rgba(0,0,0,.5)}
 #end .send .ic{font-size:64px;color:var(--acc);flex:none;margin-top:-6px}
 #end .fol{display:flex;align-items:center;gap:18px;background:var(--acc);font:900 52px 'CT','NST';padding:16px 44px 10px;border-radius:999px}
@@ -656,6 +659,14 @@ def plan_shots(n_img, content_end, snaps):
     return shots
 
 
+def head_icon(name):
+    """owner 20 Nov: the 📰 / 📅 marks drawn as icons (an emoji font is not on every render machine); nothing if missing"""
+    try:
+        return R.icon(name)
+    except BaseException:
+        return ""
+
+
 def build_html(spec, shots, sents, caps, hook_end, end_t, total, page):
     logo = f"file://{R.KIT.resolve() / page['logo']}"
     foot = f"file://{(Path(__file__).resolve().parent / 'assets' / page.get('footer', 'footer_trichy.png')).as_posix()}"
@@ -698,7 +709,7 @@ def build_html(spec, shots, sents, caps, hook_end, end_t, total, page):
 <div id="stage">{imgs}</div><div id="shade"></div><div id="flash"></div>
 <img id="plogo" src="{logo}">
 <div id="hdr"><div><div class="nm">{page['name']}</div>
-<div class="sub"><span class="tag">{E(spec.get('cat', ''))}</span><span>{E(spec['date'])}</span>{('<span class="src">📰 ' + E(spec['source']) + '</span>') if spec.get('source') else ''}</div></div></div>
+<div class="sub"><span class="tag">{E(spec.get('cat', ''))}</span><span class="dt">{head_icon('calendar-days')}{E(spec['date'])}</span></div>{('<div class="src">' + head_icon('newspaper') + 'Source: ' + E(spec['source']) + '</div>') if spec.get('source') else ''}</div></div>
 <img id="foot" src="{foot}">
 <div id="pin">{R.icon('location-dot')}<span>{E(spec.get('location', ''))}</span></div>
 <div id="hook"><div class="h1">{E(hook[0])}</div><div class="h2">{E(hook[1])}</div></div>
