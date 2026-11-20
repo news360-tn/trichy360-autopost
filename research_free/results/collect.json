@@ -3,371 +3,159 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/19/ஓய்வு-பெற்ற-அரசு-ஊழியரிடம்-ரூ-49-லட்சம்-மோசடி",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/19/பொக்லைன்-இயந்திரத்தில்-பேட்டரிகள்-திருடிய-4-போ்-கைது",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/19/protest-against-the-construction-of-the-mekedatu-dam-farmers-stage-a-unique-demonstration-by-burying-themselves-in-the-sand-of-the-cauvery-riverbed",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/19/new-species-dark-brand-bushbrown-recorded-at-the-butterfly-park",
-  "candidate filter: collected=4",
-  "to write: 4 Trichy district candidates (max 4 stories)",
-  "round: top 4 of 4 candidates",
-  "candidates waiting: 4 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "manual link added: https://www.hindutamil.in/news/crime/71-kg-of-heroin-worth-rs-700-crore-seized",
+  "manual link added: https://www.dailythanthi.com/news/tamilnadu/snake-enters-electricity-board-office-staff-flee-in-a-panic",
+  "candidate filter: collected=2",
+  "to write: 2 Trichy district candidates (max 2 stories)",
+  "round: top 2 of 2 candidates",
+  "candidates waiting: 2 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/snake-enters-ele",
+  "try (N) manual=True: https://www.hindutamil.in/news/crime/71-kg-of-heroin-worth-r",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 7})",
-  "candidate loop ended: left 0, tried={'N': 4}, done={'N': 4}, time left 77 min",
-  "filed: 4 Trichy district stories (target 4), reels only",
+  "NOT filed (N) மின்வாரிய அலுவலகத்துக்குள் புகுந்த பாம்பு: ஊழியர்க: not Trichy district news (the story's first lines name another place and no Trichy place)",
+  "candidate loop ended: left 0, tried={'N': 2}, done={'N': 1}, time left 77 min",
+  "filed: 1 Trichy district stories (target 2), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":4,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":2,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
+  "ok gemini/gemini-3.5-flash (13s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (9s)",
+  "ok gemini/gemini-3.6-flash (19s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (5s)",
+  "ok gemini/gemini-3-flash-preview (12s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
-  "ok gemini/gemini-3.6-flash (18s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok gemini/gemini-3.6-flash (23s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok groq/qwen/qwen3.8-27b (4s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/openai/gpt-oss-120b (2s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "ok groq/qwen/qwen3.8-27b (4s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok groq/openai/gpt-oss-120b (2s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok groq/qwen/qwen3.8-27b (0s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "ok anthropic/claude-haiku-5-5",
+  "ok groq/qwen/qwen3.8-27b (3s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "ஸ்ரீரங்கம் வண்ணத்துப்பூச்சி பூங்காவில் புதிய இனம் பதிவு",
-   "english_headline": "New butterfly species 'Dark Brand Bushbrown' recorded at Srirangam butterfly park",
-   "category": "Temples & Events",
-   "location": "Srirangam, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "இயற்கை",
-    "loc": "ஸ்ரீரங்கம்",
-    "hl1": "ஸ்ரீரங்கம் பூங்காவில் புதிய",
-    "hl2": "டார்க் பிராண்ட் புஷ்பிரவுன்",
-    "slides": [
-     {
-      "title": "புதிய இனம்",
-      "lines": [
-       "ஸ்ரீரங்கம் வண்ணத்துப்பூச்சி பூங்காவில் புதிய இனம் பதிவு",
-       "‘டார்க் பிராண்ட் புஷ்பிரவுன்’ என்ற வண்ணத்துப்பூச்சி",
-       "இந்தப் பூங்கா மேலணை காப்புக் காட்டில் அமைந்துள்ளது"
-      ]
-     },
-     {
-      "title": "பூங்காவின்",
-      "lines": [
-       "<b>5</b> குடும்பங்களைச் சேர்ந்த <b>131</b> வகை வண்ணத்துப்பூச்சிகள்",
-       "<b>112</b> வகை பறவை இனங்கள் பதிவு",
-       "வனத்துறை இவற்றைக் கண்டறிந்துள்ளது"
-      ]
-     },
-     {
-      "title": "இனத்தின் அடையாளம்",
-      "lines": [
-       "இறக்கை விரிவு சுமார் <b>40-45 மி.மீ.</b>",
-       "இறக்கைகளின் மேல்புறம் அடர் சாம்பல் கலந்த பழுப்பு",
-       "கண் போன்ற வட்டப் புள்ளிகள் ஓரத்தில் வரிசையாக இருக்கும்"
-      ]
-     },
-     {
-      "title": "பாதுகாப்பு",
-      "lines": [
-       "பதிவுகள் உள்ளூர் உயிரினங்களை ஆவணப்படுத்த உதவுகின்றன",
-       "இயற்கை வாழிடங்களைப் பாதுகாப்பதன் அவசியத்தை உணர்த்துகின்றன",
-       "திருச்சி மாவட்ட வனத்துறை தகவல்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "ஸ்ரீரங்கம் வண்ணத்துப்பூச்சி பூங்காவில் புதிய இனம் பதிவாகியுள்ளது. இதன் பெயர் ‘டார்க் பிராண்ட் புஷ்பிரவுன்’. ஸ்ரீரங்கம் மேலணை காப்புக் காட்டில் அமைந்துள்ள இந்தப் பூங்காவில் 5 குடும்பங்களைச் சேர்ந்த 131 வகை வண்ணத்துப்பூச்சிகள் வனத்துறையால் கண்டறியப்பட்டுள்ளன. 112 வகை பறவை இனங்களும் பதிவாகியுள்ளன. இந்த வண்ணத்துப்பூச்சி சுமார் 40-45 மில்லிமீட்டர் இறக்கை விரிவு கொண்ட நடுத்தர அளவிலானது. இறக்கைகளின் மேல்புறம் அடர் சாம்பல் கலந்த பழுப்பு நிறத்தில் இருக்கும். ஓரங்களில் கண் போன்ற வட்டப் புள்ளிகள் வரிசையாக அமைந்திருக்கும். பருவநிலைக்கு ஏற்ப இதன் தோற்றம் மாறும். இத்தகைய பதிவுகள் உள்ளூர் உயிரினங்களை ஆவணப்படுத்தவும், இயற்கை வாழிடங்களைப் பாதுகாக்கும் அவசியத்தை உணர்த்தவும் உதவுகின்றன என திருச்சி மாவட்ட வனத்துறை தெரிவித்துள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🦋 ஸ்ரீரங்கம் வண்ணத்துப்பூச்சி பூங்காவில் புதிய இனம் பதிவு\n\n📰 முழு விவரம்:\nஸ்ரீரங்கம் வண்ணத்துப் பூச்சி பூங்காவில் ‘டார்க் பிராண்ட் புஷ்பிரவுன்’ என்ற புதிய வகை வண்ணத்துப்பூச்சி இனம் பதிவு செய்யப்பட்டுள்ளது.\nஸ்ரீரங்கம் மேலணை காப்புக் காட்டில் அமைந்துள்ள இந்தப் பூங்காவில் 5 குடும்பங்களைச் சேர்ந்த 131 வகை வண்ணத்துப்பூச்சி இனங்கள் வனத்துறையால் கண்டறியப்பட்டுள்ளன. 112 வகை பறவை இனங்களும் பதிவாகியுள்ளன.\nஇந்த வண்ணத்துப்பூச்சி சுமார் 40-45 மி.மீ. இறக்கை விரிவு கொண்ட நடுத்தர அளவிலானது. இறக்கைகளின் மேல்புறம் அடர் சாம்பல் கலந்த பழுப்பு நிறத்தில் இருக்கும். அடிப்புறம் சற்று வெளிர் பழுப்பு நிறம். ஓரங்களில் கண் போன்ற வட்டப் புள்ளிகள் வரிசையாக இருக்கும்.\nமழைக்காலத்தில் இறக்கைகள் அதிக அடர் நிறத்திலும், புள்ளிகள் தெளிவாகவும் தெரியும். வடகாலத்தில் நிறம், புள்ளிகளில் மாற்றம் ஏற்படும். பெண் வண்ணத்துப்பூச்சிகள் ஆண்களைவிடச் சற்றுப் பெரியதாகவும் வெளிர் நிறத்திலும் இருக்கும்.\nஈரப்பதமுள்ள அடர்ந்த காடுகள், புல்வெளிப் பகுதிகள் இதன் வாழிடங்கள். இதே போன்ற தோற்றமுள்ள பிற புஷ்பிரவுன் வகைகளும் உள்ளதால், இறக்கைப் புள்ளிகள் மற்றும் நுண்ணிய அடையாளங்களை உன்னிப்பாகக் கவனித்தே துல்லியமாக வேறுபடுத்த முடியும்.\nஇத்தகைய பதிவுகள் வண்ணத்துப்பூச்சிகளின் பன்முகத்தன்மையை அறிய, உள்ளூர் உயிரினங்களை முறையாக ஆவணப்படுத்த, அவற்றைப் பாதுகாப்பதன் அவசியம் குறித்த விழிப்புணர்வை ஏற்படுத்த உதவுகின்றன என திருச்சி மாவட்ட வனத்துறை தெரிவித்துள்ளது.\n\nSrirangam butterfly park new species recorded | Trichy news\n📍 ஸ்ரீரங்கம், திருச்சி மாவட்டம் | 19 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Srirangam #திருச்சி #TrichyNews",
-   "prompts": "A forest department field officer in a khaki uniform stands on a narrow path inside a dense green tropical butterfly park in Srirangam, seen from behind and slightly to the side, gently pointing towards a lush flowering bush where a medium-sized brown butterfly with eye-like circular spots rests on a leaf. The setting is the moist forest reserve edge along the Cauvery at Srirangam, with tall trees, broad leaves, thick grass and a wooden walkway or shaded path running through the greenery, the bright tropical foliage giving a sense of humid, natural habitat. Two other people, a woman in a cotton saree and a young man in a shirt and trousers, stand a short distance back, also seen from behind, looking toward the bush with binoculars or a small notebook. The scene is in soft daylight filtering through the tree canopy, with mild rainy-season greenness and no visible sky glare. Camera at eye level, about 35 mm, wide enough to show the forest path, the trees around and the people within the frame. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up detail of a medium-sized dark brown butterfly with greyish-brown upper wings resting on a green leaf in the forest of the Srirangam butterfly park. The wings show a row of distinct circular eye-like spots along the outer edges, and the paler brown underside is partly visible. Behind the subject, out of focus, are green leaves, grass blades and a few dew-covered stems, with soft daylight filtering through the tree canopy. A pair of gloved hands in khaki sleeves, belonging to a forest officer seen from behind, hovers at the lower edge of the frame with a small magnifier or a notebook, indicating careful identification. Shot at close range with shallow depth of field, around 35 mm equivalent, eye level, the butterfly sharply in focus and the forest background softly blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/19/new-species-dark-brand-bushbrown-recorded-at-the-butterfly-park",
-   "published": "2026-11-19T21:42:03.307Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 0 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795129219/trichy360/ggvm0yb5j7kkl5fn3fcd.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795129224/trichy360/qy2qzplvtofnw3j8ryt7.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சியில் காவிரி ஆற்று மணலில் புதைந்து விவசாயிகள் நூதனப் போராட்டம்: மேக்கேதாட்டு அணையைத் தடுக்க வலியுறுத்தல்",
-   "english_headline": "Farmers bury themselves in Cauvery river sand in Trichy to protest against Mekedatu dam construction",
-   "category": "Weather & Agriculture",
-   "location": "Odathurai, Trichy district",
-   "importance": "High",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "விவசாயிகள் போராட்டம்",
-    "loc": "ஓடத்துறை, திருச்சி",
-    "hl1": "திருச்சியில் மணலில் புதைந்து போராட்டம்",
-    "hl2": "மேக்கேதாட்டு அணை எதிர்ப்பு",
-    "slides": [
-     {
-      "title": "நூதனப் போராட்டம்",
-      "lines": [
-       "<b>வியாழக்கிழமை</b> அதிகாலை போராட்டம் தொடக்கம்",
-       "திருச்சி <b>ஓடத்துறை</b> காவிரி மணலில் போராட்டம்",
-       "தேசிய தென்னிந்திய நதிகள் இணைப்பு விவசாயிகள் சங்கம்"
-      ]
-     },
-     {
-      "title": "என்ன கோரிக்கை?",
-      "lines": [
-       "<b>மேக்கேதாட்டு</b> அணை கட்டுவதை தடுத்து நிறுத்த வலியுறுத்தல்",
-       "கர்நாடக முதல்வர் உச்ச நீதிமன்ற உத்தரவை மதிக்கவில்லை என",
-       "<b>அய்யாக்கண்ணு</b> தலைமையில் மேல்சட்டை இன்றி போராட்டம்"
-      ]
-     },
-     {
-      "title": "பேச்சுவார்த்தை",
-      "lines": [
-       "வருவாய்த் துறை, காவல்துறையினர் வந்து பேச்சு நடத்தினர்",
-       "கோரிக்கையை மத்திய அரசிடம் கொண்டு செல்வதாக உறுதி",
-       "உறுதியை ஏற்று பிற்பகலில் போராட்டம் வாபஸ்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சி ஓடத்துறை அருகே மேக்கேதாட்டு அணையை எதிர்க்க வலியுறுத்தி விவசாயிகள் காவிரி ஆற்று மணலில் புதைந்து நூதனப் போராட்டம் நடத்தினர். தேசிய தென்னிந்திய நதிகள் இணைப்பு விவசாயிகள் சங்கத் தலைவர் அய்யாக்கண்ணு தலைமையில் வியாழக்கிழமை அதிகாலை இந்தப் போராட்டம் தொடங்கியது. விவசாயிகள் மேல்சட்டை அணியாமல் காவிரி ஆற்றின் மணலில் புதைந்து தங்கள் எதிர்ப்பைப் பதிவிட்டனர். மேக்கேதாட்டு அணை விவகாரத்தில் கர்நாடக முதல்வர் உச்ச நீதிமன்ற உத்தரவை மதிக்கவில்லை என்று விவசாயிகள் குற்றம்சாட்டினர். தகவலறிந்து வந்த வருவாய்த் துறை மற்றும் மாநகரக் காவல்துறையினர் விவசாயிகளுடன் பேச்சுவார்த்தை நடத்தினர். கோரிக்கையை மத்திய அரசுக்குக் கொண்டு செல்வதாக அதிகாரிகள் உறுதியளித்தனர். இதையேற்று விவசாயிகள் பிற்பகலில் போராட்டத்தைக் கைவிட்டு ஆற்றிலிருந்து வெளியேறினர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சியில் ஆற்று மணலில் புதைந்து விவசாயிகள் நூதனப் போராட்டம் - மேக்கேதாட்டு அணை கட்டுவதற்கு எதிர்ப்பு!\n\n📰 முழு விவரம்:\nதிருச்சி ஓடத்துறை அருகே சிங்கப்பெருமாள் கோயில் பின்புறம் காவிரி ஆற்று மணலில் விவசாயிகள் வியாழக்கிழமை நூதனப் போராட்டத்தில் ஈடுபட்டனர். தேசிய தென்னிந்திய நதிகள் இணைப்பு விவசாயிகள் சங்கத் தலைவர் அய்யாக்கண்ணு தலைமையில் விவசாயிகள் மேல்சட்டை அணியாமல் அதிகாலையிலேயே ஆற்று மணலில் புதைந்து போராட்டம் நடத்தினர்.\n\nமேக்கேதாட்டு அணை கட்டும் விவகாரத்தில் கர்நாடக முதல்வர் உச்ச நீதிமன்ற உத்தரவை மதிக்கவில்லை என்றும், தமிழக விவசாயிகளைக் காப்பாற்ற மத்திய அரசின் கவனத்தை ஈர்க்கவுமே இந்தப் போராட்டம் நடத்தப்பட்டதாகத் தெரிவிக்கப்பட்டது. தகவலறிந்து வந்த வருவாய்த் துறை அலுவலர்கள் மற்றும் மாநகரக் காவல்துறையினர் விவசாயிகளுடன் பேச்சுவார்த்தை நடத்தினர். கோரிக்கையை மத்திய அரசுக்குக் கொண்டு செல்வதாக அதிகாரிகள் உறுதியளித்ததை அடுத்து, பிற்பகலில் விவசாயிகள் போராட்டத்தைக் கைவிட்டனர்.\n\n📍 இடம்: ஓடத்துறை, திருச்சி மாவட்டம்\n🗓️ நாள்: 19 நவம்பர் 2026\n🌾 காரணம்: மேக்கேதாட்டு அணை கட்டுவதைத் தடுக்க வலியுறுத்தல்\n👮 நடவடிக்கை: அதிகாரிகள் பேச்சுவார்த்தை நடத்தியதை அடுத்து போராட்டம் வாபஸ்\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்.\n\nTrichy farmers river sand protest Mekedatu dam | Trichy news\n📍 Odathurai, Trichy | 19 November 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Mekedatu #TrichyNews #திருச்சி",
-   "prompts": "A group of bare-chested farmers lie half-buried in the wet sand of the Cauvery riverbed near Odathurai in Trichy, their bodies covered up to the chest in pale grey-brown sand as they stage their protest against the Mekedatu dam. The setting is a wide open riverbed with a shallow channel of brown water running past, low sandbanks and scattered dry shrubs, with the back wall and tower of an old temple compound visible on the far bank, typical of the Cauvery stretch near Trichy. A few farmers in white veshti sit upright beside the buried men, and a pair of Tamil Nadu police in khaki stand on the sandy bank at a distance, watching. It is early morning with soft daylight and a pale sky, no harsh shadows. Camera at eye level, about 35 mm, wide enough to show the whole riverbed and the temple wall in the background, the farmers seen from behind or far away with no faces visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/19/protest-against-the-construction-of-the-mekedatu-dam-farmers-stage-a-unique-demonstration-by-burying-themselves-in-the-sand-of-the-cauvery-riverbed",
-   "published": "2026-11-19T21:38:43.442Z",
-   "verification": "DRAFT (gemini/gemini-3.6-flash) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 15 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
-   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795129245/trichy360/l1qthzajbvg9bu3xjr7n.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "பொக்லைன் இயந்திரத்தில் பேட்டரிகள் திருடிய 4 பேர் அரியமங்கலத்தில் கைது",
-   "english_headline": "Four arrested in Ariyamangalam for stealing batteries from a backhoe loader",
+   "tamil_headline": "சென்னை - திருச்சி வழியாக இலங்கைக்குக் கடத்த இருந்த ரூ.700 கோடி ஹெராயின் பறிமுதல்",
+   "english_headline": "71 kg heroin worth Rs.700 crore seized in Chennai, meant to be smuggled to Sri Lanka via Trichy; two arrested",
    "category": "Crime & Safety",
-   "location": "Ariyamangalam, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "திருட்டு கைது",
-    "loc": "அரியமங்கலம், திருச்சி",
-    "hl1": "பொக்லைன் பேட்டரி திருடிய 4 பேர் கைது",
-    "hl2": "அரியமங்கலத்தில் இரண்டு",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "அரியமங்கலத்தில் பொக்லைன் இயந்திரத்தில் இருந்து பேட்டரிகள்",
-       "நவம்பர் <b>9</b>ஆம் தேதி வீட்டுக்கு அருகே நிறுத்தியிருந்த",
-       "இரண்டு பேட்டரிகளை மர்ம நபர்கள் திருடிச் சென்றனர்"
-      ]
-     },
-     {
-      "title": "யார் கைது?",
-      "lines": [
-       "புகார் அளித்தவர் வெங்கடேசன் (52 வயது)",
-       "அரியமங்கலம் காவல் நிலையத்தில் வழக்குப் பதிவு",
-       "கொண்டையம்பேட்டை, அரியமங்கலம் பகுதியைச் சேர்ந்த <b>4 பேர்</b> கைது"
-      ]
-     },
-     {
-      "title": "மீட்பு",
-      "lines": [
-       "கைதானவர்கள் வயது <b>19 முதல் 22</b> வரை",
-       "திருடிய <b>இரண்டு பேட்டரிகள்</b> பறிமுதல்",
-       "புதன்கிழமை போலீசார் நடவடிக்கை"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "அரியமங்கலத்தில் பொக்லைன் இயந்திரத்தில் பேட்டரிகளைத் திருடிய 4 பேரை போலீசார் கைது செய்துள்ளனர். திருச்சி அரியமங்கலத்தைச் சேர்ந்த வெங்கடேசன் (52 வயது) பொக்லைன் இயந்திரங்களை வாடகைக்கு விட்டு வருகிறார். நவம்பர் 9ஆம் தேதி அவரது வீட்டுக்கு அருகே நிறுத்தியிருந்த பொக்லைன் இயந்திரத்தில் இருந்த இரண்டு பேட்டரிகளை மர்ம நபர்கள் திருடிச் சென்றனர். இதுகுறித்து அரியமங்கலம் காவல் நிலையத்தில் வெங்கடேசன் புகார் அளித்தார். போலீசார் வழக்குப் பதிந்து விசாரித்தனர். விசாரணையில் கொண்டையம்பேட்டையைச் சேர்ந்த விக்னேஷ்வரன் (19 வயது), மதுபாலன் (19 வயது), அரியமங்கலத்தைச் சேர்ந்த சஞ்சய் (22 வயது), பூபதி (19 வயது) ஆகியோர் திருடியது தெரியவந்தது. புதன்கிழமை நால்வரையும் கைது செய்த போலீசார், திருடப்பட்ட இரண்டு பேட்டரிகளையும் பறிமுதல் செய்தனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 அரியமங்கலத்தில் பொக்லைன் பேட்டரி திருடிய 4 பேர் கைது\n\n📰 முழு விவரம்:\nதிருச்சி அரியமங்கலத்தைச் சேர்ந்த வெங்கடேசன் (52 வயது) பொக்லைன் இயந்திரங்களை வாடகைக்கு விட்டு வருகிறார். நவம்பர் 9ஆம் தேதி அவரது வீட்டுக்கு அருகே நிறுத்தியிருந்த பொக்லைன் இயந்திரத்தில் இருந்த இரண்டு பேட்டரிகள் மர்ம நபர்களால் திருடப்பட்டன.\nஅரியமங்கலம் காவல் நிலையத்தில் வெங்கடேசன் அளித்த புகாரின் பேரில் போலீசார் வழக்குப் பதிந்து விசாரித்தனர்.\nவிசாரணையில் கொண்டையம்பேட்டையைச் சேர்ந்த அ. விக்னேஷ்வரன் (19 வயது), தெ. மதுபாலன் (19 வயது), அரியமங்கலத்தைச் சேர்ந்த வெ. சஞ்சய் (22 வயது), மு. பூபதி (19 வயது) ஆகியோர் திருடியது தெரியவந்தது.\nபுதன்கிழமை நான்கு பேரையும் கைது செய்த போலீசார், திருடப்பட்ட இரண்டு பேட்டரிகளையும் பறிமுதல் செய்தனர்.\n\nTrichy Ariyamangalam battery theft 4 arrested | Trichy news\n📍 அரியமங்கலம், திருச்சி மாவட்டம் | 20 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Ariyamangalam #TrichyNews #திருச்சி",
-   "prompts": "A Tamil Nadu police constable in khaki uniform stands beside a parked yellow backhoe loader on a quiet residential street in Ariyamangalam, Trichy city, with its engine bonnet raised and an empty battery compartment exposed. Behind it, two-storey concrete houses with tiled and flat roofs line the narrow lane, and a few two-wheelers are parked along the kerb. Four young men, around nineteen to twenty-two years old, in plain shirts and trousers, stand with their backs turned or far away near a white police jeep, hands held in front of them, flanked by two more officers in khaki. Daylight falls evenly across the road, with a clear sky and dry tarmac. The camera is at eye level, 35 mm lens, wide enough to show the machine, the houses and the police vehicle together, faces turned away or too distant to identify. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up on a table or the ground in a police station yard: two recovered heavy black automotive batteries sit side by side, their terminals and filler caps clearly visible, beside a folded cloth and a coil of cable. Out of focus behind them, the sleeve of a khaki uniform and the edge of a metal bench are visible, with a patch of daylight from an open doorway. The surfaces are dusty and slightly scuffed, showing wear from use. Late-morning natural light, neutral tones, shallow depth of field. The camera is slightly high, 50 mm lens, framing the two batteries as the main subject, with no readable labels, logos or text visible on them. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/19/பொக்லைன்-இயந்திரத்தில்-பேட்டரிகள்-திருடிய-4-போ்-கைது",
-   "published": "2026-11-19T21:41:09.290Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam (\"அரியமங்கலத்தில் கைது\"), but the article only says the theft occurred there and does not state where the arrests took place.",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795129254/trichy360/knzhezgq1lmdtwdiwpdo.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795129265/trichy360/lztu47n26mnbmvqq91uf.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "ஓய்வு பெற்ற அரசு ஊழியரிடம் ரூ.49 லட்சம் மோசடி",
-   "english_headline": "Retired government employee in Trichy loses Rs 49 lakh in online trading investment scam",
-   "category": "Crime & Safety",
-   "location": "Trichy city, Trichy district",
+   "location": "Chennai, Madhavaram area - smuggling route via Trichy to the coast; Trichy district",
    "importance": "High",
    "scope": "",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "சைபர் மோசடி",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சியில் ஓய்வு பெற்றவரிடம் ரூ.49",
-    "hl2": "இணைய வர்த்தக மோசடி",
+    "cat": "போதைப் பொருள்",
+    "loc": "சென்னை - திருச்சி வழி",
+    "hl1": "சென்னை - திருச்சி வழி: ரூ.700 கோடி",
+    "hl2": "இருவர் கைது",
     "slides": [
      {
       "title": "என்ன நடந்தது?",
       "lines": [
-       "திருச்சியில் 61 வயது ஓய்வுபெற்ற அரசு பெண் ஊழியர்",
-       "இணைய வர்த்தகத்தில் அதிக லாபம் தருவதாகக் கூறி <b>ரூ.49",
-       "போலீசார் புதன்கிழமை வழக்குப் பதிந்து விசாரிக்கின்றனர்"
+       "இலங்கைக்குக் கடத்த இருந்த <b>71.24 கிலோ</b> ஹெராயின் பறிமுதல்",
+       "மதிப்பு <b>ரூ.700 கோடிக்கு</b> மேல்",
+       "சென்னையிலிருந்து திருச்சி வழியாக கடல் மார்க்கமாக கடத்த"
       ]
      },
      {
-      "title": "எப்படி ஏமாற்றினர்?",
+      "title": "எப்படிச்",
       "lines": [
-       "பேஸ்புக்கில் மத்திய நிதியமைச்சர் பேசுவதுபோல ஒரு",
-       "அந்த இணையதளத்தில் தன் விவரங்களைப் பதிவேற்றினார்",
-       "மர்ம நபர் நிதித்துறை முதலீட்டு ஆலோசகர் எனக் கூறி அழைத்தார்"
+       "மாதவரம் ரவுண்டானா அருகே ஐஸ்கிரீம் வாகனம் தடுத்து",
+       "வாகனத்தில் வந்த <b>2 பேர்</b> முன்னுக்குப் பின் முரணாகப் பதில்",
+       "ஐஸ்கிரீம் பெட்டியில் <b>69 பொட்டலங்களில்</b> ஹெராயின்"
       ]
      },
      {
-      "title": "பணம் எவ்வளவு?",
+      "title": "கைது",
       "lines": [
-       "ஜூலை <b>2</b> முதல் அக்டோபர் <b>30</b> வரை பல தவணைகளில் பணம் செலுத்தினார்",
-       "மொத்தம் <b>ரூ.49 லட்சம்</b> முதலீடு செய்தார்",
-       "பணத்தை எடுக்க முடியாதபோது ஏமாற்றப்பட்டது தெரியவந்தது"
+       "அரும்பாக்கம் ஷபியூக் அகமது (<b>45 வயது</b>)",
+       "மாத்தூர் அப்துல் சுகூர் (<b>39 வயது</b>)",
+       "ஐஸ்கிரீம் வாகனமும் பறிமுதல்"
       ]
      },
      {
-      "title": "புகார் எங்கே?",
+      "title": "விசாரணை நிலவரம்",
       "lines": [
-       "தேசிய சைபர் குற்றப் பிரிவு இணையதளத்தில் புகார் அளித்தார்",
-       "திருச்சி மாநகர சைபர் குற்றப் பிரிவு போலீசார் விசாரணை",
-       "இணைய முதலீட்டு விளம்பரங்களை நம்ப வேண்டாம்"
+       "மத்திய வருவாய் புலனாய்வுப் பிரிவு தீவிர விசாரணை",
+       "யாரிடம் ஒப்படைக்கத் திட்டமிட்டனர் என்பது விசாரணையில்",
+       "கடத்தல் பின்னணியில் உள்ள முக்கியப் புள்ளிகள் குறித்தும்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சியில் ஓய்வு பெற்ற அரசு ஊழியர் ஒருவரிடம் ரூ.49 லட்சம் மோசடி நடந்துள்ளது. 61 வயது மூதாட்டியும் அவருடைய கணவரும் ஓய்வு பெற்ற அரசு ஊழியர்கள். ஜூலை 2ஆம் தேதி பேஸ்புக்கில் மத்திய நிதியமைச்சர் பேசுவதுபோல ஒரு வீடியோவை மூதாட்டி பார்த்தார். இணைய வர்த்தகத்தில் முதலீடு செய்தால் அதிக லாபம் கிடைக்கும் என்று அந்த வீடியோ கூறியது. வீடியோவில் உள்ள இணையதளத்தில் தன் விவரங்களைப் பதிவேற்றினார். அதன்பின் மத்திய நிதித்துறை முதலீட்டு ஆலோசகர் என்று கூறிக்கொண்ட ஒருவர் அவரை அழைத்தார். அவர் கூறியபடி ஜூலை 2ஆம் தேதி முதல் அக்டோபர் 30ஆம் தேதி வரை பல தவணைகளில் ரூ.49 லட்சத்தை முதலீடு செய்தார். முதலீடு செய்த பணத்தை எடுக்க முயன்றபோது எடுக்க முடியவில்லை. அப்போதுதான் தான் ஏமாற்றப்பட்டது அவருக்குத் தெரியவந்தது. தேசிய சைபர் குற்றப் பிரிவு இணையதளத்தில் புகார் அளித்தார். திருச்சி மாநகர சைபர் குற்றப் பிரிவு போலீசார் புதன்கிழமை வழக்குப் பதிந்து விசாரணை நடத்துகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சியில் ஓய்வு பெற்ற அரசு ஊழியரிடம் ரூ.49 லட்சம் மோசடி\n\n📰 முழு விவரம்:\nதிருச்சியைச் சேர்ந்த 61 வயது ஓய்வுபெற்ற அரசு பெண் ஊழியர் இணைய வர்த்தகத்தில் முதலீடு செய்தால் அதிக லாபம் கிடைக்கும் என்று கூறி ரூ.49 லட்சம் மோசடி செய்யப்பட்டார்.\nபேஸ்புக்கில் மத்திய நிதியமைச்சர் பேசுவதுபோல இருந்த ஒரு வீடியோவைப் பார்த்த அவர், அதில் இருந்த இணையதளத்தில் தன் விவரங்களைப் பதிவேற்றினார்.\nஅதன்பின் மத்திய நிதித்துறை முதலீட்டு ஆலோசகர் என்று கூறிய மர்ம நபர் அவரை அழைத்தார்.\nஜூலை 2ஆம் தேதி முதல் அக்டோபர் 30ஆம் தேதி வரை பல தவணைகளில் ரூ.49 லட்சத்தை முதலீடு செய்தார்.\nபணத்தை எடுக்க முயன்றபோது முடியாமல் போனதால்தான் ஏமாற்றப்பட்டது தெரியவந்தது.\nதேசிய சைபர் குற்றப் பிரிவு இணையதளத்தில் புகார் அளித்தார். திருச்சி மாநகர சைபர் குற்றப் பிரிவு போலீசார் புதன்கிழமை வழக்குப் பதிந்து விசாரணை நடத்துகின்றனர்.\n\nTrichy retired govt employee loses Rs 49 lakh in online trading scam | Trichy news\n📍 திருச்சி மாநகரம், திருச்சி மாவட்டம் | 20 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #CyberFraud",
-   "prompts": "An elderly retired woman in a cotton saree sits on a sofa in a modest Trichy house, seen from behind and slightly to the side, holding a mobile phone with a worried posture while her retired husband in a white shirt and veshti stands beside her looking at the screen. The room is a typical middle-class Tamil Nadu home with a wooden almirah, a steel cupboard and a ceiling fan, in soft daylight through a window. Her phone shows a blurred financial-looking screen with no readable text, and a stack of bank passbooks and papers lies on the centre table. The scene conveys a family realising a loss after an online investment scam. Camera at eye level, 35 mm, wide enough to show the room, shot in natural daylight. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a mobile phone and a folded stack of bank passbooks and cash bundles resting on a wooden table in a Trichy home, with a pair of reading glasses placed beside them. The phone screen glows with an abstract, unreadable investment chart with rising and falling green and red lines, but no text or logos are visible. Soft daylight from a nearby window lights the scene, with a blurred steel tumbler and a sari fold in the background. The detail shot conveys money lost through an online trading app. Camera slightly high, 35 mm, shallow depth of field. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/19/ஓய்வு-பெற்ற-அரசு-ஊழியரிடம்-ரூ-49-லட்சம்-மோசடி",
-   "published": "2026-11-19T21:37:26.971Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script has 110 words; need 70-90 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)",
+   "reel_script": "சென்னையிலிருந்து திருச்சி வழியாக இலங்கைக்குக் கடத்த இருந்த ரூ.700 கோடி மதிப்புள்ள ஹெராயின் பறிமுதல் செய்யப்பட்டுள்ளது. மத்திய வருவாய் புலனாய்வுப் பிரிவு அதிகாரிகள் 71.24 கிலோ ஹெராயினைப் பறிமுதல் செய்தனர். கடல் மார்க்கமாகக் கடத்துவதற்கு திட்டமிடப்பட்டிருந்தது. ரகசியத் தகவலின் அடிப்படையில், மாதவரம் பகுதியில் அதிகாரிகள் கண்காணிப்பில் ஈடுபட்டனர். நடமாடும் ஐஸ்கிரீம் வாகனம் மூலம் ஹெராயின் கடத்தப்படுவதாகத் தகவல் கிடைத்தது. கடந்த செவ்வாய்க்கிழமை மாதவரம் ரவுண்டானா வழியாக வந்த அந்த வாகனத்தை அதிகாரிகள் தடுத்து நிறுத்தினர். வாகனத்தில் வந்த 2 பேர் முன்னுக்குப் பின் முரணாகப் பதில் அளித்தனர். சோதனையில், ஐஸ்கிரீம் வைக்கும் பகுதியில் 69 பொட்டலங்களில் ஹெராயின் மறைத்து வைக்கப்பட்டிருந்தது தெரிய வந்தது. கைது செய்யப்பட்ட அரும்பாக்கத்தைச் சேர்ந்த ஷபியூக் அகமது, மாத்தூரைச் சேர்ந்த அப்துல் சுகூர் ஆகியோர் விசாரிக்கப்படுகின்றனர். ஹெராயின் எங்கிருந்து வாங்கப்பட்டது என்பதும், இலங்கையில் யாரிடம் ஒப்படைக்கத் திட்டமிட்டனர் என்பதும் விசாரணையில் உள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 சென்னை - திருச்சி வழி: இலங்கைக்குக் கடத்த இருந்த ரூ.700 கோடி ஹெராயின் பறிமுதல்\n\n📰 முழு விவரம்:\nசென்னையிலிருந்து திருச்சி வழியாக கடல் மார்க்கமாக இலங்கைக்குக் கடத்த இருந்த 71.24 கிலோ ஹெராயினை மத்திய வருவாய் புலனாய்வுப் பிரிவு அதிகாரிகள் பறிமுதல் செய்தனர். மதிப்பு ரூ.700 கோடிக்கும் மேல்.\nமாதவரம் ரவுண்டானா வழியாக வந்த நடமாடும் ஐஸ்கிரீம் வாகனத்தை அதிகாரிகள் தடுத்து நிறுத்தினர். வாகனத்தில் வந்த 2 பேர் முன்னுக்குப் பின் முரணாகப் பதில் அளித்ததால் சோதனை நடத்தப்பட்டது. ஐஸ்கிரீம் வைக்கும் பகுதியில் மாவு போன்ற பொருள் 69 பொட்டலங்களாக மறைத்து வைக்கப்பட்டிருந்தது. பரிசோதனையில் அது ஹெராயின் என உறுதியானது.\nஅரும்பாக்கத்தைச் சேர்ந்த ஷபியூக் அகமது (45 வயது), மாத்தூரைச் சேர்ந்த அப்துல் சுகூர் (39 வயது) ஆகிய இருவரும் கைது செய்யப்பட்டனர். ஐஸ்கிரீம் வாகனமும் பறிமுதல் செய்யப்பட்டது.\n🔍 ஹெராயின் எங்கிருந்து வாங்கப்பட்டது, இலங்கையில் யாரிடம் ஒப்படைக்கத் திட்டமிடப்பட்டது, பின்னணியில் உள்ள முக்கியப் புள்ளிகள் யார் என்பது குறித்து மத்திய வருவாய் புலனாய்வுப் பிரிவு தீவிர விசாரணை நடத்துகிறது.\n\nChennai Trichy route heroin seizure Rs 700 crore | Trichy news\n📍 சென்னை - திருச்சி வழி, திருச்சி மாவட்டம் | 20 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #போதைப்பொருள் #திருச்சி",
+   "prompts": "Police officers in khaki cordon off a busy Madhavaram roundabout in Chennai, stopping an ice‑cream van that had been driving through the area; the roundabout is a paved, multi‑lane intersection surrounded by low‑rise shops and a small industrial ice‑cream factory in the background; a line of police officers stands behind the van, seen from behind, while two male suspects are led away, their backs to the camera, hands cuffed; the ice‑cream van, a typical mobile vendor vehicle, is parked with its side doors open, revealing the interior cargo area; scattered on the floor are dozens of small cloth packets (potli) stacked like flour sacks, the seized heroin; daylight, clear sky, typical Chennai afternoon; shot at eye level with a 35 mm lens, wide enough to capture the roundabout and the halted vehicle. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up view of the cargo area of the seized ice‑cream van, focusing on the seized heroin packets; the interior of the van’s metal shelving is visible, lined with rows of 69 small cloth packets (potli) that look like flour bags, each tied and stacked neatly; the packets are the central object, clearly showing the bulk of the contraband; in the blurred background, the back of a police officer’s khaki uniform and the edge of the van’s door are visible, indicating the seizure context; the setting is inside the van, under fluorescent interior lighting, giving a neutral white illumination; shot from a slightly high angle with a 35 mm lens to capture the detail of the packets while keeping the surrounding context recognizable. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.hindutamil.in/news/crime/71-kg-of-heroin-worth-rs-700-crore-seized",
+   "published": "2026-11-20T00:41:18Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 137 ('என்பது குறித்து மத்திய வருவாய் புலனாய்வுப் பிரிவு அதிகாரிகள்')",
    "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795129277/trichy360/fzjl0aj5qny4c2muv2q0.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795129294/trichy360/h3ancougbnzh3f3cukuo.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795145644/trichy360/squdqtfanitymid0s0tk.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795145653/trichy360/wevcvzblrgmnwgujstkj.jpg"
    ]
   }
  ]
