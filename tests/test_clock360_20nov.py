@@ -26,7 +26,9 @@ class Clock360(unittest.TestCase):
         self.assertIn('<img id="plogo" src="x">', out)      # the design is untouched
 
     def test_unexpected_page_unchanged(self):
-        for bad in (PAGE.replace('id="plogo"', 'id="x"'), PAGE.replace('<div id="end">', "<div>"),
+        no_end = clock360.add(PAGE.replace('<div id="end">', "<div>"))      # owner 20 Nov: a design without an end card gets it too
+        self.assertIn('id="cklogo"', no_end)
+        for bad in (PAGE.replace('id="plogo"', 'id="x"'),
                     PAGE.replace("window.renderAt", "window.r"), "", PAGE.replace("</style>", "</style><style></style>")):
             self.assertEqual(clock360.add(bad), bad)
         self.assertEqual(clock360.add(None), None)
@@ -38,7 +40,7 @@ class Clock360(unittest.TestCase):
 
     def test_wired_into_news_reel(self):
         src = (ROOT / "reel" / "reel4.py").read_text(encoding="utf-8")
-        self.assertIn("page.write_text(clock360.add(build_html(spec, shots, sents, caps, hook_end, end_t, total, R.PAGE)))", src)
+        self.assertIn("page.write_text(clock360.add(new_page or build_html(spec, shots, sents, caps, hook_end, end_t, total, R.PAGE)))", src)
 
 
 if __name__ == "__main__":

@@ -42,7 +42,7 @@ function arc(c, q){c.style.strokeDasharray=C; c.style.strokeDashoffset=(C*(1-q))
 window.renderAt=function(t){old(t);
  try{
   const lg=document.getElementById('plogo'), ck=document.getElementById('cklogo');
-  if(lg&&ck){ck.style.visibility=t<D.end_t?'visible':'hidden'; fit(ck, lg, 16); arc(ck.querySelector('.pr'), cl(t/D.end_t));
+  if(lg&&ck){ck.style.visibility=(t<D.end_t||!document.getElementById('end'))?'visible':'hidden'; /* no end card: the full ring stays */ fit(ck, lg, 16); arc(ck.querySelector('.pr'), cl(t/D.end_t));
     const op=ck.querySelector('.op'); arc(op, eo(cl(t/0.7))); op.style.opacity=t<0.7?1:cl(1-(t-0.7)/0.35);}
   const hand=document.getElementById('ckhand'), piv=document.getElementById('ckpiv'); let hv=false;
   if(D.shots&&D.shots.length&&!D.single){
@@ -74,10 +74,14 @@ def add(page_html):
     try:
         if not on() or 'id="cklogo"' in page_html:
             return page_html
-        if any(page_html.count(x) != 1 for x in ("</style>", '<div id="end">', "</body>")) or 'id="plogo"' not in page_html \
-                or "window.renderAt" not in page_html:
+        if any(page_html.count(x) != 1 for x in ("</style>", "</body>")) or 'id="plogo"' not in page_html \
+                or "window.renderAt" not in page_html or page_html.count('<div id="end">') > 1:
             return page_html
-        return (page_html.replace("</style>", CSS + "</style>", 1).replace('<div id="end">', HTML + '\n<div id="end">', 1)
-                .replace("</body>", JS + "</body>", 1))
+        page_html = page_html.replace("</style>", CSS + "</style>", 1)
+        if '<div id="end">' in page_html:
+            page_html = page_html.replace('<div id="end">', HTML + '\n<div id="end">', 1)
+        else:      # owner 20 Nov: a design without an end card (design360) - the layer goes on top
+            page_html = page_html.replace("</body>", HTML + "\n</body>", 1)
+        return page_html.replace("</body>", JS + "</body>", 1)
     except Exception:
         return page_html

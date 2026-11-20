@@ -23,6 +23,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import reel as R
 import reel3 as V3
 import clock360      # owner 20 Nov: the 360 clock branding layer over every news reel (never fails the reel)
+import design360      # owner 20 Nov: the design team's reel design (REEL_DESIGN=classic: the earlier design)
 from digits import to_digits
 
 def E(s):
@@ -891,7 +892,14 @@ def main(spec_path, out_mp4, page_key="trichy"):
     hook_end = max(2.6, min(6.0, ends[0] + 0.3))      # the hook stays while the one-line story is spoken
     V3.build_audio(work, starts, shots, [dict(s, fact="") for s in sents], total)
     page = work / "reel4.html"
-    page.write_text(clock360.add(build_html(spec, shots, sents, caps, hook_end, end_t, total, R.PAGE)))
+    new_page = None
+    if design360.on():      # owner 20 Nov: the design team's design on every page; the earlier design if it cannot be made
+        try:
+            new_page = design360.page(spec, shots, sents, caps, end_t, total, R.PAGE,
+                                      {"a": starts[-1], "b": ends[-1], "text": outro.get("say", "")})
+        except Exception as e:
+            print("new design not made, the earlier design is used:", str(e)[:200])
+    page.write_text(clock360.add(new_page or build_html(spec, shots, sents, caps, hook_end, end_t, total, R.PAGE)))
     if reel_style(spec) == "P":      # owner 13 Nov: light sound effects under the voice (premium look only)
         try:
             premium_sfx(work, spec, sents, hook_end, end_t)
@@ -914,7 +922,7 @@ def main(spec_path, out_mp4, page_key="trichy"):
             if f % 150 == 0:
                 print(f"frame {f}/{nframes}", flush=True)
         pg.evaluate("renderAt(0.9)")
-        pg.evaluate("document.getElementById('cap').style.display='none';document.getElementById('hook').style.opacity=1;")
+        pg.evaluate("var c=document.getElementById('cap');if(c)c.style.display='none';var h=document.getElementById('hook');if(h)h.style.opacity=1;")
         pg.screenshot(path=str(Path(out_mp4).with_name(Path(out_mp4).stem + "_cover.jpg")), type="jpeg", quality=95)
         b.close()
     enc.stdin.close()
