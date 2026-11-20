@@ -34,10 +34,15 @@ WAIT_READY_S = int(os.environ.get("FB_WAIT_S", "300") or 300)
 FB_TAGS = 3              # Facebook: town + topic + page tag (many hashtags do not help there)
 # owner 11 Nov: from 7 Nov Facebook refused most reels (error 368 "we limit how often you can post") - new pages, 13-17 API reels a day.
 # Facebook now gets only the TOP news (urgent, or a topic the page's insights rank best), few a day, spaced; a 368 pauses the page 24 h.
-TOP_PER_DAY = int(os.environ.get("FB_TOP_PER_DAY", "5") or 5)
-GAP_MIN = int(os.environ.get("FB_GAP_MIN", "120") or 120)
+TOP_PER_DAY = int(os.environ.get("FB_TOP_PER_DAY", "18") or 18)      # owner 20 Nov: 15-20 news a day per Facebook page (Facebook allows 30 API reels)
+TOP_ONLY = os.environ.get("FB_TOP_ONLY", "0") == "1"      # owner 20 Nov: every news goes (1 = only the top news, as from 11 Nov)
+GAP_MIN = int(os.environ.get("FB_GAP_MIN", "45") or 45)      # owner 20 Nov: 18 a day fit in the day with 45 min between posts
 MIN_WEIGHT = float(os.environ.get("FB_MIN_WEIGHT", "0.4") or 0.4)
 PAUSE_HOURS = 24
+# owner 20 Nov (more Facebook views): the article link goes in the FIRST COMMENT, not the post text (Facebook shows posts with an outside
+# link to fewer people); if the comment is refused (no pages_manage_engagement yet) the link goes into the text as before.
+# Hashtags stay at FB_TAGS = 3 (town + topic + page): Facebook allows ~30, but 1-3 relevant tags reach the most people.
+LINK_IN_COMMENT = os.environ.get("FB_LINK_IN_COMMENT", "1") != "0"
 
 
 def log(*a):
@@ -127,6 +132,8 @@ def top_news(rank):
     """rank = {"urgent": bool, "weight": insights topic weight, "best": topic is among the page's best topics, "topic": name}"""
     if not rank:
         return True, "no rank given"
+    if not TOP_ONLY:
+        return True, "every news goes to Facebook (owner 20 Nov)"
     if rank.get("urgent"):
         return True, "urgent"
     if rank.get("best"):
@@ -296,7 +303,30 @@ def story_photo(page_id, token, image_url="", photo_id=""):
     return r.get("post_id") or photo_id
 
 
-def _attempt(page, sid, kind, media, caption, prev, story=True):
+def with_link(cap, link):
+    """the 11 Nov way: the article link in the post text, just above the hashtags"""
+    if not link or link in cap:
+        return cap
+    return cap.replace("\n\n#", f"\n🔗 {link}\n\n#", 1) if "\n\n#" in cap else cap + f"\n🔗 {link}"
+
+
+def source_comment(page_id, tok, obj, kind, caption, link):
+    """the article link as the post's first comment; if Facebook refuses, it is added to the post text instead. -> where it went"""
+    try:
+        _call("POST", f"{obj}/comments", tok, message=f"📰 செய்தி ஆதாரம் / Source: {link}")
+        return "comment"
+    except Exception as e:
+        log("source link not added as a comment - added to the post text instead:", str(e)[:150])
+    try:
+        _call("POST", obj, tok, **{("description" if kind == "reel" else "message"): with_link(caption, link)})
+        return "text"
+    except Exception as e:
+        log("source link not added:", str(e)[:150])
+        return ""
+
+
+def _attempt(page, sid, kind, media, caption, prev, story=True, link=""):
+    src = link
     pid, tok = creds(page)
     tries = int(prev.get("tries", 0)) + 1
     try:
@@ -310,13 +340,16 @@ def _attempt(page, sid, kind, media, caption, prev, story=True):
             _pause(page, e)
             _save(page, sid, kind, {"status": "skipped", "why": "Facebook limited the page: " + str(e)[:300], "media": media})
             return ""
-        _save(page, sid, kind, {"status": "failed", "tries": tries, "error": str(e)[:400], "media": media, "caption": caption,
+        _save(page, sid, kind, {"status": "failed", "tries": tries, "error": str(e)[:400], "media": media, "caption": caption, "link": src,
                                 "first_try": prev.get("first_try") or _now().isoformat(timespec="seconds")})
         log(f"NOT posted to Facebook ({page} {sid} {kind}, try {tries}/{MAX_TRIES}; Instagram is fine):", str(e)[:250])
         return ""
     rec = {"status": "posted", "tries": tries, "id": obj, "link": link, "media": media, "posted_at": _now().isoformat(timespec="seconds")}
     _save(page, sid, kind, rec)
     log(f"posted to Facebook ({page} {sid} {kind}):", link)
+    if src:      # owner 20 Nov: the article link in the first comment (more reach than a link in the text)
+        rec["source_in"] = source_comment(pid, tok, obj, kind, caption, src)
+        _save(page, sid, kind, rec)
     if story:      # the Facebook story of the same post (a story problem never changes the post record to failed)
         try:
             rec["fb_story"] = story_video(pid, tok, media[0]) if kind == "reel" else story_photo(pid, tok, image_url=media[0])
@@ -343,8 +376,9 @@ def share(page, sid, kind, media, caption, page_tag, dry=False, tags=None, story
             log(f"already on Facebook ({page} {sid} {kind}) - not posted again:", prev.get("link"))
             return prev.get("link", "")
         cap = fb_caption(caption, page_tag, tags)
-        if source_link and source_link not in cap:      # owner 11 Nov: Facebook allows links - the article itself, so readers can check the news
-            cap = cap.replace("\n\n#", f"\n🔗 {source_link}\n\n#", 1) if "\n\n#" in cap else cap + f"\n🔗 {source_link}"
+        src = source_link if source_link and source_link not in cap else ""      # owner 11 Nov: the article, so readers can check the news
+        if src and not LINK_IN_COMMENT:
+            cap, src = with_link(cap, src), ""
         why = gate(page, rank, always)
         if why:
             if not dry:
@@ -358,7 +392,7 @@ def share(page, sid, kind, media, caption, page_tag, dry=False, tags=None, story
             _save(page, sid, kind, {"status": "skipped", "why": f"Facebook daily reel limit {REEL_CAP} reached", "media": media})
             log(f"Facebook daily reel limit {REEL_CAP} reached for {page} - {sid} stays Instagram only")
             return ""
-        return _attempt(page, sid, kind, media, cap, prev, story)
+        return _attempt(page, sid, kind, media, cap, prev, story, src)
     except Exception as e:      # never let Facebook break the Instagram run
         log("Facebook step skipped:", str(e)[:200])
         return ""
@@ -381,7 +415,7 @@ def retry_failed(limit=2):
             if not creds(page) or paused(page) or (kind == "reel" and posted_last_day(page, "reel") >= REEL_CAP):
                 continue
             log(f"trying Facebook again: {page} {sid} {kind} (try {int(d.get('tries', 0)) + 1}/{MAX_TRIES})")
-            _attempt(page, sid, kind, d["media"], d["caption"], d)
+            _attempt(page, sid, kind, d["media"], d["caption"], d, link=d.get("link", ""))
             done += 1
         except Exception as e:
             log("retry skipped for", f.name, str(e)[:150])

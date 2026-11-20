@@ -1217,6 +1217,7 @@ class FacebookTopNewsOnly11Nov(unittest.TestCase):
         return self.fb.share("t", sid, "reel", [f"https://v/{sid}.mp4"], "செய்தி\n\n#a #b #c", "#T360", rank=rank, **kw)
 
     def test_only_top_news(self):
+        self.fb.TOP_ONLY = True      # owner 20 Nov: off by default now (every news goes); the switch still works
         self.assertEqual(self.share("RN-1", {"urgent": False, "topic": "education", "weight": -0.5, "best": False}), "")
         self.assertEqual(self.fb.state("t", "RN-1", "reel")["status"], "skipped")
         self.assertTrue(self.share("RN-2", {"urgent": False, "topic": "crime", "weight": 1.5, "best": True}))
@@ -1225,7 +1226,7 @@ class FacebookTopNewsOnly11Nov(unittest.TestCase):
     def test_spacing_and_daily_limit_but_urgent_goes(self):
         top = {"urgent": False, "topic": "crime", "weight": 1.5, "best": True}
         self.assertTrue(self.share("RN-1", top))
-        self.assertEqual(self.share("RN-2", top), "")      # less than 2 h after the last Facebook post
+        self.assertEqual(self.share("RN-2", top), "")      # less than 45 min after the last Facebook post
         self.assertTrue(self.share("RN-3", {"urgent": True, "topic": "power_cut", "weight": 1.5, "best": True}))      # a power cut never waits
 
     def test_368_pauses_the_page_and_is_not_retried(self):
@@ -1243,11 +1244,28 @@ class FacebookTopNewsOnly11Nov(unittest.TestCase):
         self.assertEqual(self.calls, [])
 
     def test_article_link_in_facebook_caption(self):
-        seen = []
+        seen, calls = [], []
         self.fb.publish_reel = lambda pid, tok, url, cap: seen.append(cap) or ("v", "l")
+        self.fb._call = lambda method, path, tok, **d: calls.append((path, d)) or {}
         self.share("RN-1", None, source_link="https://www.dinamalar.com/news/x/1")
-        self.assertIn("🔗 https://www.dinamalar.com/news/x/1", seen[0])
+        self.assertNotIn("dinamalar", seen[0])      # owner 20 Nov: the link is the first comment, not in the text
         self.assertTrue(seen[0].rstrip().endswith("#T360"))
+        self.assertEqual(calls[0][0], "v/comments")
+        self.assertIn("https://www.dinamalar.com/news/x/1", calls[0][1]["message"])
+
+    def test_link_goes_to_the_text_when_the_comment_is_refused(self):
+        calls = []
+        def call(method, path, tok, **d):
+            calls.append((path, d))
+            if path.endswith("/comments"):
+                raise RuntimeError("Facebook comments: 403 (#200) permission")
+            return {}
+        self.fb.publish_reel = lambda pid, tok, url, cap: ("v", "l")
+        self.fb._call = call
+        self.share("RN-1", None, source_link="https://www.dinamalar.com/news/x/1")
+        self.assertEqual(calls[1][0], "v")
+        self.assertIn("🔗 https://www.dinamalar.com/news/x/1", calls[1][1]["description"])
+        self.assertEqual(self.fb.state("t", "RN-1", "reel")["source_in"], "text")
 
 
 class NewsSourceShown11Nov(unittest.TestCase):
