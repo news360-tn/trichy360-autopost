@@ -49,7 +49,8 @@
    "category": "குற்றம்",
    "score": 12.5,
    "power_cut": false,
-   "listed_at": "2026-11-20T21:49:01.891036+05:30"
+   "listed_at": "2026-11-20T21:49:01.891036+05:30",
+   "picked_at": "2026-11-20T21:51:32.650590+05:30"
   }
  },
  "rounds": {
@@ -554,8 +555,16 @@
    ],
    "sent": false,
    "deadline": "2026-11-20T22:49:01.891036+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 4 of 1 by insights",
+    "ids": [
+     "C5e64eaa"
+    ],
+    "at": "2026-11-20T21:51:32.650578+05:30"
+   },
+   "written": [
+    "C5e64eaa"
+   ]
   }
  },
  "retry": {}
