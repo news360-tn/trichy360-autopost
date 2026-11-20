@@ -83,6 +83,13 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-20 | `5122d82` | Every news reel goes to the story again (stories_urgent_only false) |
+| 2026-11-20 | `1e677e1` | powercut: notices written |
+| 2026-11-20 | `1f833d3` | powercut: notices written |
+| 2026-11-20 | `c7e3f16` | pick: written and posted |
+| 2026-11-20 | `fb99072` | pick: picked news saved |
+| 2026-11-20 | `c6c5b6e` | pick: picked news saved |
+| 2026-11-20 | `ff9aa26` | pick: list sent |
 | 2026-11-20 | `26d099b` | Promotion ads (owner-approved only, bottom of the reel during the news) and twice-a-day YouTube details e-mail |
 | 2026-11-20 | `b34d989` | Fix: reels again made with reel4 (config reel_design back to v4) |
 | 2026-11-20 | `0740462` | pick: written and posted |
@@ -106,11 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-20 | `18ab528` | pick: list sent |
 | 2026-11-20 | `a6aa665` | powercut: notices written |
 | 2026-11-20 | `fab22d5` | powercut: notices written |
-| 2026-11-20 | `6c7aded` | News reels: 360 clock branding layer (logo progress ring, opening ring, clock-hand picture change, end-card ring) |
-| 2026-11-20 | `ac13d7d` | goldrate posted |
-| 2026-11-20 | `0196f79` | pick: written and posted |
-| 2026-11-20 | `235c288` | pick: picked news saved |
-| 2026-11-20 | `aaed653` | pick: list sent |
-| 2026-11-20 | `464d3f4` | pick: written and posted |
-| 2026-11-20 | `a400e14` | pick: picked news saved |
 <!-- recent-changes:end -->
