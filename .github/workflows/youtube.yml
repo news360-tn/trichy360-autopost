@@ -1,0 +1,28 @@
+name: youtube details
+# owner 20 Nov: ONE e-mail per page, twice a day, with the news reels to upload on the page's YouTube channel (10 a day per page):
+# title, description (📰 Source, 📅 date), tags, a suggested time and the download link. Sent through the Promo Hub.
+on:
+  schedule:
+    - cron: "35 6 * * *"      # 12:05 IST - the morning reels
+    - cron: "35 15 * * *"     # 21:05 IST - the evening reels
+  workflow_dispatch:
+    inputs:
+      slot: {description: "am (midday e-mail) or pm (night e-mail)", default: "pm", required: true}
+permissions:
+  contents: read
+env:
+  PROMO_URL: ${{ secrets.PROMO_URL || 'https://script.google.com/macros/s/AKfycbxwMsz3A3kYGIRzrqJ7SS2Yfu-d0kR2zv4DBp8iWS3N3Ax3QEJ6KQxN69XtCTi2qvVF/exec' }}
+  PROMO_KEY: ${{ secrets.PROMO_KEY }}
+  BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
+  BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
+jobs:
+  email:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install -q requests==2.32.5 pillow==11.3.0
+      - name: E-mail the YouTube details
+        run: python poster/youtube.py ${{ inputs.slot }}

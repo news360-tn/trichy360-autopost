@@ -1,0 +1,47 @@
+name: promo samples
+# owner 20 Nov: a new promotion request (Google Form) or the owner's REJECTED points -> a sample reel e-mailed by the Promo Hub
+# (the page's latest posted news reel with the ad laid over it). Only approved promotions ever reach the posted reels (post.py).
+on:
+  schedule:
+    - cron: "10,40 0-16 * * *"      # every 30 minutes, 05:40-22:10 IST
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency: {group: promo-samples, cancel-in-progress: false}
+env:
+  PROMO_URL: ${{ secrets.PROMO_URL || 'https://script.google.com/macros/s/AKfycbxwMsz3A3kYGIRzrqJ7SS2Yfu-d0kR2zv4DBp8iWS3N3Ax3QEJ6KQxN69XtCTi2qvVF/exec' }}
+  PROMO_KEY: ${{ secrets.PROMO_KEY }}
+  BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
+  BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
+  CLOUDINARY_CLOUD: ${{ secrets.CLOUDINARY_CLOUD }}
+  CLOUDINARY_PRESET: ${{ secrets.CLOUDINARY_PRESET }}
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+jobs:
+  samples:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Anything to do?
+        id: todo
+        run: |
+          [ -n "$PROMO_URL" ] && [ -n "$PROMO_KEY" ] || { echo "PROMO_URL / PROMO_KEY not set - nothing to do"; echo "go=0" >> $GITHUB_OUTPUT; exit 0; }
+          n=$(curl -sfL --max-time 90 "$PROMO_URL?action=promos&key=$PROMO_KEY" | python3 -c "import json,sys; d=json.load(sys.stdin); print(sum(1 for p in d.get('promos', []) if p.get('status') in ('sample_needed', 'changes')))" || echo 0)
+          echo "requests waiting for a sample: $n"; echo "go=$([ "$n" -gt 0 ] && echo 1 || echo 0)" >> $GITHUB_OUTPUT
+      - uses: actions/checkout@v4
+        if: steps.todo.outputs.go == '1'
+      - uses: actions/setup-python@v5
+        if: steps.todo.outputs.go == '1'
+        with: {python-version: "3.11"}
+      - uses: actions/setup-node@v4
+        if: steps.todo.outputs.go == '1'
+        with: {node-version: "20"}
+      - name: Install
+        if: steps.todo.outputs.go == '1'
+        run: |
+          command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg; }
+          pip install -q -r poster/requirements.txt
+          python -m playwright install --with-deps chromium
+          (cd kit && npm install --no-audit --no-fund)
+      - name: Make and e-mail the samples
+        if: steps.todo.outputs.go == '1'
+        run: python poster/promo.py samples

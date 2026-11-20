@@ -254,7 +254,7 @@ function posted_(b) {
       appendNote_(sh, b.row, sh.getRange(b.row, C.notes).getValue(), 'Doc update failed: ' + err);
     }
   }
-  GmailApp.sendEmail(OWNER_EMAIL, '[TRICHY360 POSTED] ' + label + ' ' + kindLabel + ' – ' + r.headline_ta,
+  if (!b.quiet) GmailApp.sendEmail(OWNER_EMAIL, '[TRICHY360 POSTED] ' + label + ' ' + kindLabel + ' – ' + r.headline_ta,
     emailBody_(r, b, label, kindLabel, time, false));
   props_().deleteProperty('ERR_' + b.row + '_' + b.page + '_' + b.kind);
   return { ok: true };

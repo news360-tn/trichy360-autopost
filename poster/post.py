@@ -621,6 +621,12 @@ def source_credit(row):
     return short.get(names[0], names[0]), full      # the reel header has little room - the end card / caption carry the full name
 
 
+def posted_quiet():
+    """owner 20 Nov: no e-mail per posted reel once the twice-a-day YouTube details e-mail runs (config posted_email "digest" and the
+    Promo Hub set up) - Gmail's daily limit was reached with ~200 e-mails a day. Problem e-mails stay instant."""
+    return CONFIG.get("posted_email") == "digest" and bool(os.environ.get("PROMO_URL") and os.environ.get("PROMO_KEY"))
+
+
 def final_caption(row):
     sys.path.insert(0, str(REEL))
     from digits import to_digits
@@ -918,6 +924,14 @@ def render_reel(row, spec, images, work, voice_file=None):
     env = dict(os.environ)
     if voice_file:
         env["VOICE_FILE"] = str(voice_file)
+    if PROMO_NOW:      # owner 20 Nov: the approved sponsor ad (reel/promo360.py: bottom, during the news only)
+        try:
+            import promo
+            pj = work / "promo.json"
+            pj.write_text(json.dumps(promo.reel_promo(PROMO_NOW, work), ensure_ascii=False), encoding="utf-8")
+            env["PROMO_JSON"] = str(pj)
+        except Exception as e:
+            log("promotion not added to the reel:", str(e)[:150])
     mp4 = work / f"{row['story_id']}_reel.mp4"
     design = "reel4.py" if CONFIG.get("reel_design") == "v4" else "reel3.py"      # v4: full-detail design (safe zone, 5W cards, summary, send CTA)
     subprocess.run([sys.executable, str(REEL / design), str(work / "reel.json"), str(mp4), PAGE], check=True, env=env)
@@ -1017,6 +1031,7 @@ def ig_account(token):
     return me.get("user_id") or me.get("id"), me.get("username")
 
 
+PROMO_NOW = None      # owner 20 Nov: the approved promotion whose ad goes on the reel being made (poster/promo.py)
 LOC_ID = ""   # Instagram location (place) id for the story being posted; set in run_story
 
 
@@ -1849,6 +1864,16 @@ def run_story_page(row, page):
     collab = bool(COLLAB)      # always False for Trichy 360 (no collaborator page)
     log(f"posting on {LABEL[PAGE]} with the {PAGE} logo" + (f", {LABEL[COLLAB]} invited as collaborator" if COLLAB else ""))
     caption = final_caption(row)
+    global PROMO_NOW
+    PROMO_NOW = None
+    try:      # owner 20 Nov: an APPROVED promotion for this page today puts its ad on this reel (no hub / no promotion: nothing changes)
+        import promo
+        PROMO_NOW = promo.active_for(PAGE)
+        if PROMO_NOW:
+            caption = fit_caption(promo.with_line(caption, PROMO_NOW))      # the caption says it is an ad; its own cache key too
+            log(f"promotion {PROMO_NOW.get('id')} ({PROMO_NOW.get('brand')}): its ad goes on this reel")
+    except Exception as e:
+        log("promotion check skipped:", str(e)[:150])
     work = OUT / sid
     key = cache_key(row, spec, caption)
     cached = None if PREBUILD else load_cache(sid, key)
@@ -2016,9 +2041,13 @@ def run_story_page(row, page):
                 mid, link, collab_ok, why = publish_reel(token, url, caption, collab, cover_url)
                 published = True
                 log("reel posted", sid, link)
+                if PROMO_NOW:      # owner 20 Nov: counted for the promotion's reels-a-day limit
+                    import promo
+                    promo.mark_used(PROMO_NOW, PAGE, sid)
                 USED[PAGE] = USED.get(PAGE, 0) + 1
                 bridge_post("posted", {"row": row["row"], "page": PAGE, "kind": "reel", "permalink": link, "media_id": mid,
-                                       "media_urls": [url], "caption": caption, "voice": voice, "collab": collab_ok, "checks": note})
+                                       "media_urls": [url], "caption": caption, "voice": voice, "collab": collab_ok, "checks": note,
+                                       "quiet": posted_quiet()})
                 done.append(("reel", link))
                 first_comment(token, mid, sid, row)
                 publish_story(token, url, "video", row)
