@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-20T09:17:33.412138+05:30",
+ "last_end": "2026-11-20T13:26:22.588969+05:30",
  "pool": {
   "C0bd23e2": {
    "id": "C0bd23e2",
@@ -43,48 +43,33 @@
    "listed_at": "2026-11-20T09:00:27.779030+05:30",
    "picked_at": "2026-11-20T09:02:05.062935+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
+  },
+  "C2a80908": {
+   "id": "C2a80908",
+   "url": "https://tamil.oneindia.com/news/trichirappalli/trichy-manapparai-rice-mill-scam-rs-3-crore-bungalow-couple-caught-in-ration-rice-case-846779.html",
+   "title": "திருச்சி மணப்பாறை அரிசி ஆலை.. ரூ.3 கோடி சொகுசு பங்களா, மில்.. ரேஷன் அரிசியில் ஜோடி சிக்கியது எப்படி?",
+   "summary": "திருச்சி: திருச்சி மாவட்டத்தில், தமிழக அரசு தந்த ரேஷன் அரிசியை ஒரே குடும்பத்தை சேர்ந்தவர்களே கையாடல் செய்துள்ளனர்.. கள்ளச்சந்தையில் விற்பனை செய்ததாக அரிசி ஆலை உரிமையாளர் உள்ளிட்ட ஒரே குடும்பத்தைச் சேர்ந்த 3 பேர் கைது ...",
+   "source": "ஒன்இந்தியா",
+   "published": "2026-11-20T10:33:10+05:30",
+   "category": "பொது",
+   "score": 10.0,
+   "power_cut": false,
+   "listed_at": "2026-11-20T13:26:22.588969+05:30"
+  },
+  "Caf91ed8": {
+   "id": "Caf91ed8",
+   "url": "https://www.polimernews.com/districtnews/tirupati-devasthanam-honours-srirangam-ranganathar-and-thayar-with-traditional-robes-12825991",
+   "title": "திருப்பதி தேவஸ்தானத்திலிருந்து ஸ்ரீரங்கம் அரங்கநாதர் மற்றும் தாயாருக்கு வஸ்திர மரியாதை..",
+   "summary": "திருப்பதி தேவஸ்தானத்திலிருந்து ஸ்ரீரங்கம் அரங்கநாத சுவாமி மற்றும் தாயாருக்கு வைகாசி ஏகாதசியை முன்னிட்டு இன்று பாரம்பரிய வஸ்திர மரியாதை வழங்கப்பட்டது.",
+   "source": "பாலிமர்",
+   "published": "2026-11-20T13:14:09+05:30",
+   "category": "பொது",
+   "score": 3.0,
+   "power_cut": false,
+   "listed_at": "2026-11-20T13:26:22.588969+05:30"
   }
  },
  "rounds": {
-  "2026-11-16_05": {
-   "window": [
-    "2026-11-16T01:59:48.626869+05:30",
-    "2026-11-16T05:47:28.501347+05:30"
-   ],
-   "ids": [
-    "C9151425",
-    "C6d9cf9a",
-    "C370b893",
-    "C51d93af",
-    "C04d16fe",
-    "Cbd49946"
-   ],
-   "sent": false,
-   "deadline": "2026-11-16T06:47:28.501347+05:30",
-   "decided": {
-    "how": "automatic: top 5 of 6 by insights + 1 power cut",
-    "ids": [
-     "C9151425",
-     "C6d9cf9a",
-     "C51d93af",
-     "C370b893",
-     "Cbd49946",
-     "C04d16fe"
-    ],
-    "at": "2026-11-16T05:50:09.810743+05:30"
-   },
-   "written": [
-    "C04d16fe",
-    "C370b893",
-    "C51d93af",
-    "C6d9cf9a",
-    "C9151425",
-    "Cbd49946"
-   ],
-   "refused": {
-    "Cbd49946": "not filed: duplicate after write"
-   }
-  },
   "2026-11-16_16": {
    "window": [
     "2026-11-16T05:47:28.501347+05:30",
@@ -604,6 +589,21 @@
     "ids": [],
     "at": "2026-11-20T09:18:39.390586+05:30"
    },
+   "written": []
+  },
+  "2026-11-20_13": {
+   "window": [
+    "2026-11-20T09:17:33.412138+05:30",
+    "2026-11-20T13:26:22.588969+05:30"
+   ],
+   "ids": [
+    "C2a80908",
+    "Caf91ed8",
+    "Ce3c1dfc"
+   ],
+   "sent": false,
+   "deadline": "2026-11-20T14:26:22.588969+05:30",
+   "decided": null,
    "written": []
   }
  },

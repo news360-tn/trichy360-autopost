@@ -1,13 +1,10 @@
-09:17:33 round 2026-11-20_09: news published 20 Nov 09:00 -> 20 Nov 09:17 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-09:17:33 insights 2026-11-20T09:17+05:30 (86 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': -0.17, 'civic': -0.02, 'education': -0.5, 'politics': -0.4, 'temple': -0.34, 'poultry_agri': 0.25}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது']
-09:17:46 30 links on the two papers' Trichy pages
-09:18:37 skipped: already posted=14, published before this window=13, not Trichy district=1, shop offer / advertisement=1, same event already posted=1
-09:18:37 list: 0 new + 1 earlier news not posted yet
-09:18:37    1. [பொது] விஎஸ் பாபு மறைவு: முதல் அமைச்சர் விஜய்யின் திருச்சி பயணம் ரத்து (தினத்தந்தி) (earlier)
-09:18:37 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-20_09
-09:18:39    not picked automatically (suicide / obituary - only when the owner ticks it): விஎஸ் பாபு மறைவு: முதல் அமைச்சர் விஜய்யின் திருச்சி பயணம் ரத்து
-09:18:39 round 2026-11-20_09 (at least 5, up to 3 more of well-watched topics): 0 news to choose from (0 from earlier rounds), ranked by this page's insights
-09:18:39 decided: automatic: top 5 of 0 by insights -> 0 news to write and post
-PICK_URLS=
-09:18:44 verify 2026-11-20_09: 0 of 0 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+13:26:22 round 2026-11-20_13: news published 20 Nov 09:17 -> 20 Nov 13:26 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+13:26:22 insights 2026-11-20T13:26+05:30 (88 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': -0.2, 'civic': -0.05, 'education': -0.5, 'politics': -0.42, 'temple': -0.4, 'poultry_agri': 0.68}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது']
+13:27:50 53 links on the two papers' Trichy pages
+13:28:42 skipped: not Trichy district=21, already posted=14, published before this window=13, shop offer / advertisement=1, same event already posted=1, no title=1
+13:28:42 list: 2 new + 1 earlier news not posted yet
+13:28:42    1. [பொது] திருச்சி மணப்பாறை அரிசி ஆலை.. ரூ.3 கோடி சொகுசு பங்களா, மில்.. ரேஷன் அர (ஒன்இந்தியா)
+13:28:42    2. [பொது] திருப்பதி தேவஸ்தானத்திலிருந்து ஸ்ரீரங்கம் அரங்கநாதர் மற்றும் தாயாருக்க (பாலிமர்)
+13:28:42    3. [பொது] விஎஸ் பாபு மறைவு: முதல் அமைச்சர் விஜய்யின் திருச்சி பயணம் ரத்து (தினத்தந்தி) (earlier)
+13:28:42 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-20_13
