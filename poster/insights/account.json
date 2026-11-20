@@ -24,5 +24,31 @@
     "Namakkal, Tamil Nadu": 11
    }
   }
+ },
+ "2026-11-21": {
+  "trichy": {
+   "reach": 36440,
+   "reach_by_follow_type": {
+    "FOLLOWER": 1148,
+    "NON_FOLLOWER": 35598
+   },
+   "follower_cities": {
+    "Tiruchirappalli, Tamil Nadu": 630,
+    "Chennai, Tamil Nadu": 82,
+    "Kulittalai, Tamil Nadu": 71,
+    "Madurai, Tamil Nadu": 63,
+    "Coimbatore, Tamil Nadu": 44,
+    "Lalgudi, Tamil Nadu": 31,
+    "Palladam, Tamil Nadu": 21,
+    "Manapparai, Tamil Nadu": 19,
+    "Tirupur, Tamil Nadu": 19,
+    "Kulattur, Tamil Nadu": 18,
+    "Turaiyur, Tamil Nadu": 18,
+    "Perundurai, Tamil Nadu": 17,
+    "Mannachanallur, Tamil Nadu": 16,
+    "Singapore, Singapore": 14,
+    "Tuticorin, Tamil Nadu": 12
+   }
+  }
  }
 }
