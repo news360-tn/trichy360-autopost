@@ -1,30 +1,30 @@
-00:56:35 SKIP RN-4 stale: published 12 Nov, older than yesterday
-00:56:35 SKIP RN-19 stale: published 14 Nov, older than yesterday
-00:56:35 SKIP RN-22 stale: published 14 Nov, older than yesterday
-00:56:35 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-00:56:35 SKIP RN-29 stale: published 14 Nov, older than yesterday
-00:56:35 SKIP RN-42 stale: published 16 Nov, older than yesterday
-00:56:35 SKIP RN-45 stale: published 16 Nov, older than yesterday
-00:56:36 SKIP RN-71 held: fact-check problems - not grounded: location 'அளவு' is not in the article
-00:56:36 SKIP RN-92 held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
+01:06:23 SKIP RN-4 stale: published 12 Nov, older than yesterday
+01:06:23 SKIP RN-19 stale: published 14 Nov, older than yesterday
+01:06:23 SKIP RN-22 stale: published 14 Nov, older than yesterday
+01:06:23 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+01:06:23 SKIP RN-29 stale: published 14 Nov, older than yesterday
+01:06:23 SKIP RN-42 stale: published 16 Nov, older than yesterday
+01:06:23 SKIP RN-45 stale: published 16 Nov, older than yesterday
+01:06:23 SKIP RN-71 held: fact-check problems - not grounded: location 'அளவு' is not in the article
+01:06:23 SKIP RN-92 held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
 ::warning title=Held from posting RN-92::held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
-00:56:38 story catch-up trichy: quota 24/50, 40 recent posts, 10 live stories, owner ids ['17841462048887226', '28956510467350700']
-00:57:12 story catch-up trichy: post 17926115817223143 not shared (Instagram 17841462048887226/media_publish: {'message': 'Fatal', 'type': 'OAuthException', 'code': -1, 'error_subcode': 2207032, 'is_transient': False,) - tried again next run
-00:58:17 story catch-up trichy: post 17895958914684740 not shared (Instagram 17841462048887226/media_publish: {'message': 'Fatal', 'type': 'OAuthException', 'code': -1, 'error_subcode': 2207032, 'is_transient': False,) - tried again next run
-00:58:51 story catch-up trichy: post 18121877051076357 not shared (Instagram 17841462048887226/media_publish: {'message': 'Fatal', 'type': 'OAuthException', 'code': -1, 'error_subcode': 2207032, 'is_transient': False,) - tried again next run
-00:59:26 story catch-up trichy: post 18205036612376275 not shared (Instagram 17841462048887226/media_publish: {'message': 'Fatal', 'type': 'OAuthException', 'code': -1, 'error_subcode': 2207032, 'is_transient': False,) - tried again next run
-00:59:26 10 stories in the queue, ready to post: 1
-00:59:26   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-00:59:26    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 185.7 ready= False set_started= True
-00:59:26    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 155.0 ready= False set_started= True
-00:59:26    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 151.3 ready= False set_started= True
-00:59:26    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 151.3 ready= False set_started= True
-00:59:26    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 147.3 ready= False set_started= True
-00:59:26    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 115.1 ready= False set_started= True
-00:59:26    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 115.1 ready= False set_started= True
-00:59:26    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 65.6 ready= False set_started= True
-00:59:26    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 20.5 ready= False set_started= True
-00:59:26    RN-102 review= 'Auto' images= 197 spec= 696 pages= ['trichy'] links= '' '' age_h= 3.1 ready= True set_started= True
-00:59:28 publishing quota trichy: 24/50
-00:59:29 instagram duplicate check trichy: 50 recent posts read
-00:59:29    RN-102 waits for prime time (06:00 IST)
+01:06:26 story catch-up trichy: quota 24/50, 40 recent posts, 10 live stories, owner ids ['17841462048887226', '28956510467350700']
+01:07:00 story catch-up trichy: post 17926115817223143 not shared (Instagram 17841462048887226/media_publish: {'message': 'Fatal', 'type': 'OAuthException', 'code': -1, 'error_subcode': 2207032, 'is_transient': False,) - tried again next run
+01:07:55 story catch-up trichy: post 17895958914684740 not shared (Instagram 17841462048887226/media_publish: {'message': 'Fatal', 'type': 'OAuthException', 'code': -1, 'error_subcode': 2207032, 'is_transient': False,) - tried again next run
+01:08:30 story catch-up trichy: post 18121877051076357 not shared (Instagram 17841462048887226/media_publish: {'message': 'Fatal', 'type': 'OAuthException', 'code': -1, 'error_subcode': 2207032, 'is_transient': False,) - tried again next run
+01:09:05 story catch-up trichy: post 18205036612376275 not shared (Instagram 17841462048887226/media_publish: {'message': 'Fatal', 'type': 'OAuthException', 'code': -1, 'error_subcode': 2207032, 'is_transient': False,) - tried again next run
+01:09:05 10 stories in the queue, ready to post: 1
+01:09:05   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+01:09:05    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 185.9 ready= False set_started= True
+01:09:05    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 155.2 ready= False set_started= True
+01:09:05    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 151.5 ready= False set_started= True
+01:09:05    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 151.5 ready= False set_started= True
+01:09:05    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 147.4 ready= False set_started= True
+01:09:05    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 115.3 ready= False set_started= True
+01:09:05    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 115.3 ready= False set_started= True
+01:09:05    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 65.7 ready= False set_started= True
+01:09:05    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 20.6 ready= False set_started= True
+01:09:05    RN-102 review= 'Auto' images= 197 spec= 696 pages= ['trichy'] links= '' '' age_h= 3.2 ready= True set_started= True
+01:09:07 publishing quota trichy: 24/50
+01:09:09 instagram duplicate check trichy: 50 recent posts read
+01:09:09    RN-102 waits for prime time (06:00 IST)
