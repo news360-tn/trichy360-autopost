@@ -1,35 +1,6 @@
 {
- "last_end": "2026-11-20T16:08:52.964173+05:30",
+ "last_end": "2026-11-20T16:59:41.248458+05:30",
  "pool": {
-  "C0bd23e2": {
-   "id": "C0bd23e2",
-   "url": "https://www.dinakaran.com/news/weekend-state-transport-corporation-special-bus-services/amp",
-   "title": "வார இறுதி நாட்களை முன்னிட்டு அரசு போக்குவரத்துக் கழகங்கள் மூலம் 3,195 சிறப்பு பேருந்துகள் இயக்கம்!!",
-   "summary": "சென்னை: வார இறுதி நாட்களை முன்னிட்டு தமிழ்நாடு அரசு போக்குவரத்துக் கழகங்கள் மூலம் 3,195 சிறப்பு பேருந்துகள் இயக்கப்படவுள்ளது.இதுதொடர்பாக வெளியிடப்பட்டுள்ள செய்திக்குறிப்பில்;சென்னை கிளாம்பாக்கத்திலிருந்து திருவண்ணாமலை...",
-   "source": "தினகரன் + தினத்தந்தி",
-   "published": "2026-11-19T16:11:50+05:30",
-   "category": "போக்குவரத்து",
-   "score": 7.01,
-   "power_cut": false,
-   "alts": [
-    "https://www.dailythanthi.com/news/tamilnadu/3195-special-buses-to-operate-for-the-weekend"
-   ],
-   "listed_at": "2026-11-19T18:29:57.028221+05:30",
-   "picked_at": "2026-11-19T18:34:10.173125+05:30",
-   "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
-  },
-  "Ce3c1dfc": {
-   "id": "Ce3c1dfc",
-   "url": "https://www.dailythanthi.com/news/tamilnadu/death-of-vs-babu-chief-minister-vijays-trichy-visit-cancelled",
-   "title": "விஎஸ் பாபு மறைவு: முதல் அமைச்சர் விஜய்யின் திருச்சி பயணம் ரத்து",
-   "summary": "தமிழக முதல்-அமைச்சர் விஜய் நாளை காலை திருச்சி செல்ல திட்டமிட்டு இருந்தார். சென்னையில் இருந்து தனி விமானம் மூலம் திருச்சிக்கு சென்று, அங்கிருந்து சாலை மார்க்கமாக வேனில் திருச்சி புத்தூர் பகுதியில் உள்ள அண்ணல் மகாத்மா க...",
-   "source": "தினத்தந்தி",
-   "published": "2026-11-19T11:00:21Z",
-   "category": "பொது",
-   "score": 4.59,
-   "power_cut": false,
-   "listed_at": "2026-11-19T18:29:57.028221+05:30"
-  },
   "C8d48dea": {
    "id": "C8d48dea",
    "url": "https://www.dailythanthi.com/news/tamilnadu/snake-enters-electricity-board-office-staff-flee-in-a-panic",
@@ -43,62 +14,6 @@
    "listed_at": "2026-11-20T09:00:27.779030+05:30",
    "picked_at": "2026-11-20T09:02:05.062935+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
-  },
-  "C9ad4928": {
-   "id": "C9ad4928",
-   "url": "https://www.dailythanthi.com/news/tamilnadu/848-people-arrested-for-smuggling-ration-rice-and-subsidized-fertilizer-in-5-districts-including-trichy-and-karur",
-   "title": "திருச்சி, கரூர் உள்ளிட்ட 5 மாவட்டங்களில் ரேஷன் அரிசி, மானிய உரம் கடத்தியதாக 848 பேர் கைது",
-   "summary": "கரூர், கரூர், புதுக்கோட்டை, பெரம்பலூர், அரியலூர், திருச்சி மாவட்டங்களில் நடப்பாண்டில் ரேஷன் அரிசி, மானிய விலை உரம் போன்றவற்றை கடத்தி விற்பனை செய்ததாக 848 பேரை குடிமைப்பொருள் வழங்கல் குற்றப்புலனாய்வு பிரிவு போலீசார் கை...",
-   "source": "தினத்தந்தி",
-   "published": "2026-11-20T09:43:18Z",
-   "category": "குற்றம்",
-   "score": 12.5,
-   "power_cut": false,
-   "listed_at": "2026-11-20T16:08:52.964173+05:30",
-   "picked_at": "2026-11-20T16:10:52.324653+05:30",
-   "posted": true
-  },
-  "Cebb81e4": {
-   "id": "Cebb81e4",
-   "url": "https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-woman-death",
-   "title": "திருச்சி அருகே மர்ம காய்ச்சலுக்கு கல்லூரி மாணவி பலி",
-   "summary": "லோகவாணி காய்ச்சல் காரணமாக உயிரிழந்த சம்பவம் அவரது குடும்பத்தினர் மட்டுமின்றி அப்பகுதி மக்களிடையே பெரும் சோகத்தை ஏற்படுத்தி உள்ளது..திருச்சி மாவட்டம், மண்ணச்சநல்லூர், திருப்பைஞ்சீலி உள்ளிட்ட சுற்று வட்டார பகுதிகளில் கட...",
-   "source": "மாலைமலர்",
-   "published": "2026-11-20T09:25:57Z",
-   "category": "விபத்து",
-   "score": 9.5,
-   "power_cut": false,
-   "listed_at": "2026-11-20T16:08:52.964173+05:30",
-   "picked_at": "2026-11-20T16:10:52.324655+05:30",
-   "posted": true
-  },
-  "C081b7aa": {
-   "id": "C081b7aa",
-   "url": "https://www.dailythanthi.com/news/tamilnadu/special-trains-karthigai-deepam-thiruvannamalai",
-   "title": "கார்த்திகை தீபத் திருவிழா: தாம்பரம், செங்கோட்டை, திருச்சியில் இருந்து திருவண்ணாமலைக்கு சிறப்பு ரெயில்",
-   "summary": "இது தொடர்பாக, தெற்கு ரெயில்வே வெளியிட்டுள்ள செய்திக்குறிப்பில் கூறப்பட்டுள்ளதாவது:- .தாம்பரம் - திருவண்ணாமலைதாம்பரத்தில் இருந்து நவம்பர் 23-ந்தேதி (திங்கட்கிழமை) இரவு 11.55 மணிக்கு புறப்படும் சிறப்பு ரெயில் (வண்டி எண்...",
-   "source": "தினத்தந்தி",
-   "published": "2026-11-20T09:43:28Z",
-   "category": "பொது",
-   "score": 4.59,
-   "power_cut": false,
-   "listed_at": "2026-11-20T16:08:52.964173+05:30",
-   "picked_at": "2026-11-20T16:10:52.324662+05:30",
-   "posted": true
-  },
-  "Ceec4bb7": {
-   "id": "Ceec4bb7",
-   "url": "https://www.dailythanthi.com/news/tamilnadu/changes-in-train-services-passing-through-trichy-2",
-   "title": "திருச்சி வழியாக செல்லும் ரெயில்களின் சேவையில் மாற்றம்",
-   "summary": "திருச்சி, திருச்சி வழியாக செல்லும் ரெயில்களின் சேவையில் மாற்றம் செய்யப்பட்டுள்ளது.ரெயில்கள் சேவையில் மாற்றம்குண்டக்கல் ரெயில்வே கோட்டத்திற்கு உட்பட்ட கூடூர்- ரேணிகுண்டா திருப்பதி வழித்தடத்தில் ரேணிகுண்டா ரெயில் நிலைய ...",
-   "source": "தினத்தந்தி",
-   "published": "2026-11-20T09:12:59Z",
-   "category": "பொது",
-   "score": 3.0,
-   "power_cut": false,
-   "listed_at": "2026-11-20T16:08:52.964173+05:30",
-   "picked_at": "2026-11-20T16:10:52.324663+05:30",
-   "posted": true
   }
  },
  "rounds": {
@@ -607,34 +522,14 @@
   },
   "2026-11-20_16": {
    "window": [
-    "2026-11-20T13:26:22.588969+05:30",
-    "2026-11-20T16:08:52.964173+05:30"
+    "2026-11-20T16:08:52.964173+05:30",
+    "2026-11-20T16:59:41.248458+05:30"
    ],
-   "ids": [
-    "C9ad4928",
-    "Cebb81e4",
-    "C081b7aa",
-    "Ceec4bb7",
-    "Ce3c1dfc"
-   ],
+   "ids": [],
    "sent": false,
-   "deadline": "2026-11-20T17:08:52.964173+05:30",
-   "decided": {
-    "how": "automatic: top 4 of 4 by insights",
-    "ids": [
-     "C9ad4928",
-     "Cebb81e4",
-     "C081b7aa",
-     "Ceec4bb7"
-    ],
-    "at": "2026-11-20T16:10:52.324644+05:30"
-   },
-   "written": [
-    "C081b7aa",
-    "C9ad4928",
-    "Cebb81e4",
-    "Ceec4bb7"
-   ]
+   "deadline": "2026-11-20T17:59:41.248458+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}

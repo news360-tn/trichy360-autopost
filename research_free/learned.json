@@ -1,26 +1,26 @@
 {
- "updated": "2026-11-20T16:08+05:30",
- "posts_measured": 89,
+ "updated": "2026-11-20T16:59+05:30",
+ "posts_measured": 95,
  "topic_weight": {
   "accident": 1.5,
   "crime": 1.5,
-  "power_cut": 0.12,
-  "civic": -0.06,
+  "power_cut": 0.08,
+  "civic": -0.1,
   "education": -0.5,
-  "politics": -0.43,
-  "temple": -0.41,
-  "poultry_agri": 0.5
+  "politics": -0.46,
+  "temple": -0.39,
+  "poultry_agri": 0.44
  },
  "topic_n": {
   "accident": 7,
-  "crime": 21,
+  "crime": 23,
   "power_cut": 5,
   "civic": 3,
-  "education": 4,
+  "education": 5,
   "politics": 18,
   "sports_culture": 2,
   "weather": 1,
-  "temple": 8,
+  "temple": 9,
   "poultry_agri": 4
  },
  "best_hours_ist": [
@@ -35,7 +35,7 @@
   "🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை",
   "🚨 சமயபுரம் அருகே கொடூர விபத்து: கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி"
  ],
- "avg_watch_s": 8.0,
+ "avg_watch_s": 7.8,
  "best_topics": [
   "accident",
   "crime",
