@@ -142,7 +142,7 @@ jobs:
         run: |
           echo "${{ needs.check.outputs.waiting }} stories wait only for the gap"
           sleep 660
-          gh workflow run post.yml -R "$GITHUB_REPOSITORY" -f dry_run=false -f prebuild=false && echo "next posting run started"
+          for i in 1 2 3; do gh workflow run post.yml -R "$GITHUB_REPOSITORY" -f dry_run=false -f prebuild=false && { echo "next posting run started"; break; }; [ $i = 3 ] && echo "::warning::next run not started after 3 tries"; sleep $((i*20)); done      # owner 20 Nov: 3 tries
 
   post:
     needs: check
@@ -260,4 +260,5 @@ jobs:
         run: |
           if [ "${{ needs.check.outputs.more }}" = "1" ]; then sleep 360; else sleep 420; fi
           python3 poster/watchdog.py || echo "watchdog failed (posting goes on)"
-          gh api -X POST "repos/${{ github.repository }}/actions/workflows/post.yml/dispatches" -f ref=main -F "inputs[dry_run]=false" || echo "next run not started (the 5-minute schedule still runs)"
+          # owner 20 Nov: tried 3 times - one GitHub error (HTTP 500, Trichy 20 Nov 14:09) must not stop the posting loop
+          for i in 1 2 3; do gh api -X POST "repos/${{ github.repository }}/actions/workflows/post.yml/dispatches" -f ref=main -F "inputs[dry_run]=false" && { echo "next posting run started"; break; }; [ $i = 3 ] && echo "::warning::next run not started after 3 tries (the 5-minute schedule still runs)"; sleep $((i*20)); done
