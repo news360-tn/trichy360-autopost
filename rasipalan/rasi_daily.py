@@ -17,6 +17,7 @@ import rasi_panchang as P      # noqa: E402
 import rasi_festivals as festivals, rasi_sources as sources, rasi_writer as writer, rasi_render as render      # noqa: E402
 
 PAGE = os.environ.get("PAGE", "rasipuram")
+REEL = os.environ.get("RASI_REEL", "1") != "0"      # owner 20 Nov: the rasipalan goes out as a REEL (the carousel only when the reel fails)
 DRY = os.environ.get("DRY_RUN", "") in ("1", "true", "yes")
 START_AT = os.environ.get("START_AT", "06:40")      # owner 18 Nov: the Tamil sites publish today's rasipalan by about 06:30      # owner 31 Oct: collect sharply at 7:31 AM
 # owner 1 Nov: never miss a day - post as soon as the sources have it. 2 sources wanted; after ONE_SOURCE_AT one source is enough;
@@ -93,6 +94,55 @@ def upload(path):
         time.sleep(10 * (attempt + 1))
     r.raise_for_status()
     return r.json()["secure_url"]
+
+
+def upload_video(path):
+    """the rasipalan reel -> Cloudinary (this page's own folder: the 6-hourly clean-up removes it after 48 h)"""
+    for attempt in range(3):
+        with open(path, "rb") as f:
+            r = requests.post(f"https://api.cloudinary.com/v1_1/{os.environ['CLOUDINARY_CLOUD']}/video/upload",
+                              data={"upload_preset": os.environ["CLOUDINARY_PRESET"], "folder": "trichy360"}, files={"file": f}, timeout=600)
+        if r.ok:
+            break
+        print(f"cloudinary video upload {r.status_code} (try {attempt + 1}/3): {r.text[:300]}", flush=True)
+        time.sleep(10 * (attempt + 1))
+    r.raise_for_status()
+    return r.json()["secure_url"]
+
+
+def reel_cfg(cfg, token):
+    """the reel's page settings: town, name (without " 360"), the page's real Instagram username, the logo"""
+    p = {"town": cfg["town"], "name1": cfg["brand"].replace(" 360", "").strip(), "logo": ROOT / "kit" / cfg["logo"],
+         "handle": cfg.get("handle") or cfg["brand"].replace(" ", "").lower()}
+    if token:
+        try:
+            p["handle"] = ig("GET", "me", token, fields="username").get("username") or p["handle"]
+        except Exception as e:
+            log("Instagram username not read for the reel:", str(e)[:120])
+    return p
+
+
+def reel_caption(cap):
+    return cap.replace("👉 ஸ்வைப் செய்து உங்கள் ராசியின் முழு பலனைப் பாருங்கள்.", "👉 உங்கள் ராசியின் முழு பலனை Reel-ல் பாருங்கள்.")
+
+
+def publish_reel(token, url, cap, collab):
+    import rasi_reel
+    uid = ig("GET", "me", token, fields="user_id")["user_id"]
+    prm = dict(media_type="REELS", video_url=url, caption=cap, share_to_feed="true", thumb_offset=str(rasi_reel.COVER_MS))
+    collab_ok = False
+    if collab:
+        try:
+            cid = ig("POST", f"{uid}/media", token, collaborators=json.dumps([collab]), **prm)["id"]
+            collab_ok = True
+        except RuntimeError as e:
+            log("collaborator refused, posting without it:", str(e)[:200])
+            cid = ig("POST", f"{uid}/media", token, **prm)["id"]
+    else:
+        cid = ig("POST", f"{uid}/media", token, **prm)["id"]
+    wait_ready(cid, token, 15)
+    mid = ig("POST", f"{uid}/media_publish", token, creation_id=cid)["id"]
+    return mid, ig("GET", mid, token, fields="permalink").get("permalink", ""), collab_ok
 
 
 def clock(hhmm, day):
@@ -242,14 +292,32 @@ def main():
     (OUT / "content.json").write_text(json.dumps({"sources": [g["url"] for g in got], "festival": fest, "notes": notes, "rasis": rs,
                                                   "panchang": p}, ensure_ascii=False, indent=1), encoding="utf-8")
     log("caption:\n" + cap)
-    if DRY:
-        log(f"DRY RUN: {len(jpgs)} slides in {OUT} - not posted")
-        return 0
-    if already_posted(day, p, token):      # another run finished meanwhile
-        log("already posted meanwhile - stop")
-        return 0
-    urls = [upload(j) for j in jpgs]
-    mid, link, collab_ok = publish(token, urls, cap, cfg["collab"])
+    reel = None      # owner 20 Nov: the REEL first; the carousel only when the reel could not be made or posted (a day is never missed)
+    if REEL:
+        try:
+            import rasi_reel
+            mp4 = rasi_reel.make(reel_cfg(cfg, token), ctx, OUT / "reel", log)
+            if DRY:
+                log(f"DRY RUN: the reel {mp4} (and {len(jpgs)} backup carousel slides) in {OUT} - not posted")
+                return 0
+            if already_posted(day, p, token):      # another run finished meanwhile
+                log("already posted meanwhile - stop")
+                return 0
+            vurl = upload_video(mp4)
+            mid, link, collab_ok = publish_reel(token, vurl, reel_caption(cap), cfg["collab"])
+            reel = (vurl, reel_caption(cap))
+            log("the rasipalan went out as a REEL")
+        except Exception as e:
+            log("rasipalan REEL not posted - the carousel goes out instead:", str(e)[:300])
+    if not reel:
+        if DRY:
+            log(f"DRY RUN: {len(jpgs)} slides in {OUT} - not posted")
+            return 0
+        if already_posted(day, p, token):      # another run finished meanwhile (or the reel was published after all)
+            log("already posted meanwhile - stop")
+            return 0
+        urls = [upload(j) for j in jpgs]
+        mid, link, collab_ok = publish(token, urls, cap, cfg["collab"])
     log(f"POSTED {link} (collaborator {'invited' if collab_ok else 'none'})")
     STATE.parent.mkdir(parents=True, exist_ok=True)
     STATE.write_text(json.dumps({"date": day.isoformat(), "media_id": mid, "permalink": link, "posted_at": datetime.now(P.IST).isoformat(),
@@ -259,7 +327,10 @@ def main():
     try:      # owner 2 Nov: the same carousel + a story also go to the page's Facebook page (never touches the Instagram post)
         sys.path.insert(0, str(ROOT / "poster"))
         import facebook
-        facebook.share(PAGE, f"rasipalan-{day.isoformat()}", "photos", urls, cap, cfg["tags"][-1], tags=cfg["tags"][:2], always=True)      # owner 11 Nov: the daily rasipalan always goes to Facebook
+        if reel:      # owner 20 Nov: the reel goes to Facebook as a reel
+            facebook.share(PAGE, f"rasipalan-{day.isoformat()}", "reel", [reel[0]], reel[1], cfg["tags"][-1], tags=cfg["tags"][:2], always=True)      # owner 11 Nov: the daily rasipalan always goes to Facebook
+        else:
+            facebook.share(PAGE, f"rasipalan-{day.isoformat()}", "photos", urls, cap, cfg["tags"][-1], tags=cfg["tags"][:2], always=True)      # owner 11 Nov: the daily rasipalan always goes to Facebook
     except Exception as e:
         log("Facebook step skipped:", str(e)[:150])
     return 0

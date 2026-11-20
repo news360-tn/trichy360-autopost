@@ -60,7 +60,7 @@ jobs:
       - name: Install
         timeout-minutes: 15
         run: |
-          pip install -q requests==2.32.5 pillow==11.3.0 playwright==1.56.0 pyswisseph==2.10.3.2
+          pip install -q requests==2.32.5 pillow==11.3.0 playwright==1.56.0 pyswisseph==2.10.3.2 imageio-ffmpeg==0.6.0 numpy      # owner 20 Nov: the rasipalan reel (video + music)
           python -m playwright install chromium
           python -c "from playwright.sync_api import sync_playwright as s; p=s().start(); p.chromium.launch().close(); p.stop()" ||
             sudo "$(command -v python)" -m playwright install-deps chromium
