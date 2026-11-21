@@ -83,6 +83,12 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-21 | `44191b3` | YouTube: news reels uploaded automatically as Shorts (only with the page's keys) |
+| 2026-11-21 | `6cf7a80` | pick: picked news saved |
+| 2026-11-21 | `f08309a` | pick: picked news saved |
+| 2026-11-21 | `b172bd1` | pick: list sent |
+| 2026-11-21 | `cde62ad` | pick: written and posted |
+| 2026-11-21 | `8c977fc` | powercut: notices written |
 | 2026-11-21 | `2f8eb8d` | Facebook: every news that is on Instagram also goes to Facebook |
 | 2026-11-21 | `844fe09` | powercut: notices written |
 | 2026-11-21 | `c628605` | pick: picked news saved |
@@ -107,10 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-21 | `9299366` | goldrate posted |
 | 2026-11-21 | `6c5b548` | pick: picked news saved |
 | 2026-11-21 | `5efa4a9` | pick: picked news saved |
-| 2026-11-21 | `2dc116d` | pick: list sent |
-| 2026-11-21 | `56287ef` | Keep 20 of Instagram's 50 daily posts for news: stories stop at 30 (news was waiting at 48/50) |
-| 2026-11-21 | `25768f5` | Stop posting bursts: 10 min between news posts; an Instagram block pauses the page 6 h (news waits) instead of retrying every run |
-| 2026-11-20 | `c2c0939` | powercut: notices written |
-| 2026-11-20 | `0085e97` | pick: written and posted |
-| 2026-11-20 | `cc90d03` | pick: picked news saved |
 <!-- recent-changes:end -->
