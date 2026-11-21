@@ -1,30 +1,6 @@
 {
- "last_end": "2026-11-21T16:33:34.539664+05:30",
+ "last_end": "2026-11-21T20:31:34.690739+05:30",
  "pool": {
-  "C7d7d371": {
-   "id": "C7d7d371",
-   "url": "https://www.maalaimalar.com/news/tamilnadu/young-man-climbs-a-rock-and-threatens-suicide",
-   "title": "உச்சிப்பிள்ளையார் கோவில் பாறையில் ஏறி வாலிபர் தற்கொலை மிரட்டல்",
-   "summary": "தீயணைப்பு படை வீரர்கள் வரவழைக்கப்பட்டனர். அவர்கள் கயிறு மூலம் அவரை மீட்க முயற்சி மேற்கொண்டனர். ஆனால் கயிறை பிடித்து மேலே வர மறுத்து விட்டார்..திருச்சி மலைக்கோட்டை உச்சிப்பிள்ளையார் கோவில் மிகவும் பிரசித்தி பெற்றது.",
-   "source": "மாலைமலர்",
-   "published": "2026-11-20T11:46:58Z",
-   "category": "குற்றம்",
-   "score": 12.5,
-   "power_cut": false,
-   "listed_at": "2026-11-20T18:56:31.526778+05:30"
-  },
-  "C1f4c953": {
-   "id": "C1f4c953",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-news/man-climbs-trichy-hill-fort-attempts-suicide-rescued/4381758",
-   "title": "திருச்சி மலைக்கோட்டை மீது ஏறி தற்கொலைக்கு முயன்றவர் மீட்பு",
-   "summary": "திருச்சி: திருச்சி மலைக்கோட்டை மீது ஏறி, நேற்று (நவ.,19) இரவு தற்கொலைக்கு முயன்ற செந்தில்குமார், 47, என்பவரை, போலீசார் மீட்டனர். திருச்சியில், 273 அடி உயரம் உள்ள மலைக்கோட்டை குன்றில் தாயுமானவர் கோவிலும், குன்றின் உச்ச...",
-   "source": "தினமலர்",
-   "published": "2026-11-20T20:19:03+05:30",
-   "category": "குற்றம்",
-   "score": 13.5,
-   "power_cut": false,
-   "listed_at": "2026-11-20T21:49:01.891036+05:30"
-  },
   "C50888a2": {
    "id": "C50888a2",
    "url": "https://www.hindutamil.in/news/spirituals/tirupati-temple-presents-sacred-vestments-to-srirangam-ranganathaswamy-temple",
@@ -39,20 +15,6 @@
    "picked_at": "2026-11-21T08:53:48.998130+05:30",
    "refused": "not filed: duplicate after write"
   },
-  "C5a946ff": {
-   "id": "C5a946ff",
-   "url": "https://www.dinakaran.com/news/for-heavy-rain-in-districts-of-tamil-nadu-on-nov-23-and-26/amp",
-   "title": "நவ.23 முதல் 26 வரை தமிழகத்தின் பல்வேறு மாவட்டங்களில் கனமழைக்கு வாய்ப்பு!",
-   "summary": "தமிழகத்தில் நவம்பர் 23 முதல் 26ம் தேதி வரை பல்வேறு மாவட்டங்களில் கனமழை பெய்ய வாய்ப்புள்ளதாக வானிலை ஆய்வு மையம் தெரிவித்துள்ளது. நவ.23ல் 8 மாவட்டங்களிலும், நவ.24ல் சென்னை உள்ளிட்ட 18 மாவட்டங்களிலும், நவ.25ல் திண்டுக்கல...",
-   "source": "தினகரன்",
-   "published": "2026-11-21T13:05:09+05:30",
-   "category": "மழை / வானிலை",
-   "score": 11.0,
-   "power_cut": false,
-   "listed_at": "2026-11-21T16:33:34.539664+05:30",
-   "picked_at": "2026-11-21T16:36:29.347362+05:30",
-   "posted": true
-  },
   "Cf168af9": {
    "id": "Cf168af9",
    "url": "https://www.dailythanthi.com/devotional/on-behalf-of-tirupati-devasthanam-silk-robes-were-offered-to-srirangam-renganathar",
@@ -66,36 +28,33 @@
    "listed_at": "2026-11-21T16:33:34.539664+05:30",
    "picked_at": "2026-11-21T16:36:29.347363+05:30",
    "refused": "not filed: duplicate after write"
+  },
+  "Caa7a7eb": {
+   "id": "Caa7a7eb",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-news/special-train-to-shirdi-announced/4382458",
+   "title": "ஷீரடி செல்ல சிறப்பு ரயில் அறிவிப்பு",
+   "summary": "சென்னை: புத்தாண்டு விடுமுறையையொட்டி, மதுரை கூடல்நகரில் இருந்து, சென்னை எழும்பூர் வழியாக, மந்திராலயம், ஷீரடி சாய்பாபா தரிசனத்திற்கு, ஆன்மிக சிறப்பு ரயில் இயக்கப்பட உள்ளது.",
+   "source": "தினமலர்",
+   "published": "2026-11-21T18:27:06+05:30",
+   "category": "ரயில்",
+   "score": 10.0,
+   "power_cut": false,
+   "listed_at": "2026-11-21T20:31:34.690739+05:30"
+  },
+  "C8a00caa": {
+   "id": "C8a00caa",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-news/distribution-of-rice-with-beetles-in-ration-shop/4382582",
+   "title": "ரேஷன் கடையில் வண்டுகளுடன் அரிசி வினியோகம்",
+   "summary": "திருச்சி: திருச்சி, அரியமங்கலம், சீனிவாசன் நகரில் உள்ள அமராவதி ரேஷன் கடையில், சில நாட்களாக, வண்டு மொய்க்கும் அரிசி வினியோகம் செய்வதாக புகார்கள் எழுந்தன.",
+   "source": "தினமலர்",
+   "published": "2026-11-21T19:40:02+05:30",
+   "category": "பொது",
+   "score": 7.0,
+   "power_cut": false,
+   "listed_at": "2026-11-21T20:31:34.690739+05:30"
   }
  },
  "rounds": {
-  "2026-11-18_17": {
-   "window": [
-    "2026-11-18T10:10:10.417392+05:30",
-    "2026-11-18T17:16:21.515768+05:30"
-   ],
-   "ids": [
-    "Ccd76b54",
-    "Cb6624b1",
-    "C4c14d46"
-   ],
-   "sent": false,
-   "deadline": "2026-11-18T18:16:21.515768+05:30",
-   "decided": {
-    "how": "automatic: top 8 of 3 by insights",
-    "ids": [
-     "Ccd76b54",
-     "Cb6624b1",
-     "C4c14d46"
-    ],
-    "at": "2026-11-18T17:19:49.371260+05:30"
-   },
-   "written": [
-    "C4c14d46",
-    "Cb6624b1",
-    "Ccd76b54"
-   ]
-  },
   "2026-11-18_22": {
    "window": [
     "2026-11-18T17:16:21.515768+05:30",
@@ -537,6 +496,20 @@
    "refused": {
     "Cf168af9": "not filed: duplicate after write"
    }
+  },
+  "2026-11-21_20": {
+   "window": [
+    "2026-11-21T16:33:34.539664+05:30",
+    "2026-11-21T20:31:34.690739+05:30"
+   ],
+   "ids": [
+    "Caa7a7eb",
+    "C8a00caa"
+   ],
+   "sent": false,
+   "deadline": "2026-11-21T21:31:34.690739+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}
