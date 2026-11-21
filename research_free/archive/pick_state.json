@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-21T20:31:34.690739+05:30",
+ "last_end": "2026-11-21T23:13:11.754242+05:30",
  "pool": {
   "C50888a2": {
    "id": "C50888a2",
@@ -29,57 +29,20 @@
    "picked_at": "2026-11-21T16:36:29.347363+05:30",
    "refused": "not filed: duplicate after write"
   },
-  "Caa7a7eb": {
-   "id": "Caa7a7eb",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-news/special-train-to-shirdi-announced/4382458",
-   "title": "ஷீரடி செல்ல சிறப்பு ரயில் அறிவிப்பு",
-   "summary": "சென்னை: புத்தாண்டு விடுமுறையையொட்டி, மதுரை கூடல்நகரில் இருந்து, சென்னை எழும்பூர் வழியாக, மந்திராலயம், ஷீரடி சாய்பாபா தரிசனத்திற்கு, ஆன்மிக சிறப்பு ரயில் இயக்கப்பட உள்ளது.",
+  "Cca79a79": {
+   "id": "Cca79a79",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/file-a-case-against-the-deputy-speaker-and-call-for-an-inquiry-the-victim-petitioned-the-police/4382799",
+   "title": "துணை சபாநாயகர் மீது வழக்கு போட்டுவிட்டு விசாரணைக்கு அழையுங்கள்; பாதிக்கப்பட்டவர் போலீசிடம் மனு",
+   "summary": "திருச்சி மாவட்டம், துறையூரை சேர்ந்தவர் கார்த்திக்குமார், 49. இவரை, கடந்த 8ம் தேதி இரவு, துணை சபாநாயகர், அவருடைய மகன் மற்றும் நண்பர்கள் சேர்ந்து தாக்கியதாக, போலீசில் புகார் அளித்தார்.",
    "source": "தினமலர்",
-   "published": "2026-11-21T18:27:06+05:30",
-   "category": "ரயில்",
+   "published": "2026-11-21T22:10:00+05:30",
+   "category": "பொது",
    "score": 10.0,
    "power_cut": false,
-   "listed_at": "2026-11-21T20:31:34.690739+05:30",
-   "picked_at": "2026-11-21T20:34:52.049901+05:30",
-   "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
-  },
-  "C8a00caa": {
-   "id": "C8a00caa",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-news/distribution-of-rice-with-beetles-in-ration-shop/4382582",
-   "title": "ரேஷன் கடையில் வண்டுகளுடன் அரிசி வினியோகம்",
-   "summary": "திருச்சி: திருச்சி, அரியமங்கலம், சீனிவாசன் நகரில் உள்ள அமராவதி ரேஷன் கடையில், சில நாட்களாக, வண்டு மொய்க்கும் அரிசி வினியோகம் செய்வதாக புகார்கள் எழுந்தன.",
-   "source": "தினமலர்",
-   "published": "2026-11-21T19:40:02+05:30",
-   "category": "பொது",
-   "score": 7.0,
-   "power_cut": false,
-   "listed_at": "2026-11-21T20:31:34.690739+05:30",
-   "picked_at": "2026-11-21T20:34:52.049906+05:30",
-   "posted": true
+   "listed_at": "2026-11-21T23:13:11.754242+05:30"
   }
  },
  "rounds": {
-  "2026-11-18_22": {
-   "window": [
-    "2026-11-18T17:16:21.515768+05:30",
-    "2026-11-18T22:10:22.877930+05:30"
-   ],
-   "ids": [
-    "C70c12f5"
-   ],
-   "sent": false,
-   "deadline": "2026-11-18T23:10:22.877930+05:30",
-   "decided": {
-    "how": "automatic: top 4 of 1 by insights",
-    "ids": [
-     "C70c12f5"
-    ],
-    "at": "2026-11-18T22:13:37.525380+05:30"
-   },
-   "written": [
-    "C70c12f5"
-   ]
-  },
   "2026-11-19_02": {
    "window": [
     "2026-11-18T22:10:22.877930+05:30",
@@ -527,6 +490,19 @@
    "refused": {
     "Caa7a7eb": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
    }
+  },
+  "2026-11-21_23": {
+   "window": [
+    "2026-11-21T20:31:34.690739+05:30",
+    "2026-11-21T23:13:11.754242+05:30"
+   ],
+   "ids": [
+    "Cca79a79"
+   ],
+   "sent": false,
+   "deadline": "2026-11-22T00:13:11.754242+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}
