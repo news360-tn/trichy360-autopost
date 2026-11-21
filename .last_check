@@ -1,35 +1,35 @@
-09:50:08 SKIP RN-4 stale: published 12 Nov, older than yesterday
-09:50:08 SKIP RN-19 stale: published 14 Nov, older than yesterday
-09:50:08 SKIP RN-22 stale: published 14 Nov, older than yesterday
-09:50:08 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-09:50:08 SKIP RN-29 stale: published 14 Nov, older than yesterday
-09:50:08 SKIP RN-42 stale: published 16 Nov, older than yesterday
-09:50:08 SKIP RN-45 stale: published 16 Nov, older than yesterday
-09:50:09 SKIP RN-71 held: fact-check problems - not grounded: location 'அளவு' is not in the article
-09:50:09 SKIP RN-92 held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
-09:50:11 story catch-up trichy: quota 22/50, 40 recent posts, 9 live stories, owner ids ['17841462048887226', '28956510467350700']
-09:50:44 story catch-up trichy: post 17926115817223143 not shared (Instagram 17841462048887226/media_publish: {'message': 'Application request limit reached', 'type': 'OAuthException', 'is_transient': False, 'code': 4) - tried again next run
-09:51:18 story catch-up trichy: post 17895958914684740 not shared (Instagram 17841462048887226/media_publish: {'message': 'Application request limit reached', 'type': 'OAuthException', 'is_transient': False, 'code': 4) - tried again next run
-09:51:51 story catch-up trichy: post 18121877051076357 not shared (Instagram 17841462048887226/media_publish: {'message': 'Application request limit reached', 'type': 'OAuthException', 'is_transient': False, 'code': 4) - tried again next run
-09:52:25 story catch-up trichy: post 18205036612376275 not shared (Instagram 17841462048887226/media_publish: {'message': 'Application request limit reached', 'type': 'OAuthException', 'is_transient': False, 'code': 4) - tried again next run
-09:52:59 story catch-up trichy: post 18350616109287336 not shared (Instagram 17841462048887226/media_publish: {'message': 'Application request limit reached', 'type': 'OAuthException', 'is_transient': False, 'code': 4) - tried again next run
-09:54:34 story catch-up trichy: post 18099458789138838 not shared (Instagram 17841462048887226/media_publish: {'message': 'Application request limit reached', 'type': 'OAuthException', 'is_transient': False, 'code': 4) - tried again next run
-09:55:07 story catch-up trichy: post 17925862404451980 not shared (Instagram 17841462048887226/media_publish: {'message': 'Application request limit reached', 'type': 'OAuthException', 'is_transient': False, 'code': 4) - tried again next run
-09:55:07 11 stories in the queue, ready to post: 2
-09:55:07   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-09:55:07    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 194.7 ready= False set_started= True
-09:55:07    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 163.9 ready= False set_started= True
-09:55:07    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 160.2 ready= False set_started= True
-09:55:07    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 160.2 ready= False set_started= True
-09:55:07    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 156.2 ready= False set_started= True
-09:55:07    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 124.0 ready= False set_started= True
-09:55:07    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 124.0 ready= False set_started= True
-09:55:07    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 74.5 ready= False set_started= True
-09:55:07    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 29.4 ready= False set_started= True
-09:55:07    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 1.0 ready= True set_started= True
-09:55:07    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 1.0 ready= True set_started= True
-09:55:07 Instagram blocked publishing on trichy - paused until 2026-11-21T08:30 UTC
-09:55:07 Instagram 24-hour limit reached for ['trichy'] - their stories wait (nothing is dropped)
-09:55:09 instagram duplicate check trichy: 50 recent posts read
-09:55:09    RN-108 skipped: already on Instagram ['trichy']
-09:55:09    RN-109 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
+10:02:01 SKIP RN-4 stale: published 12 Nov, older than yesterday
+10:02:01 SKIP RN-19 stale: published 14 Nov, older than yesterday
+10:02:01 SKIP RN-22 stale: published 14 Nov, older than yesterday
+10:02:01 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+10:02:01 SKIP RN-29 stale: published 14 Nov, older than yesterday
+10:02:01 SKIP RN-42 stale: published 16 Nov, older than yesterday
+10:02:01 SKIP RN-45 stale: published 16 Nov, older than yesterday
+10:02:01 SKIP RN-71 held: fact-check problems - not grounded: location 'அளவு' is not in the article
+10:02:01 SKIP RN-92 held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
+10:02:03 story catch-up trichy: quota 22/50, 40 recent posts, 9 live stories, owner ids ['17841462048887226', '28956510467350700']
+10:02:37 story catch-up trichy: post 17926115817223143 not shared (Instagram 17841462048887226/media_publish: {'message': 'Application request limit reached', 'type': 'OAuthException', 'is_transient': False, 'code': 4) - tried again next run
+10:04:02 story catch-up trichy: post 17895958914684740 not shared (Instagram 17841462048887226/media_publish: {'message': 'Application request limit reached', 'type': 'OAuthException', 'is_transient': False, 'code': 4) - tried again next run
+10:04:35 story catch-up trichy: post 18121877051076357 not shared (Instagram 17841462048887226/media_publish: {'message': 'Application request limit reached', 'type': 'OAuthException', 'is_transient': False, 'code': 4) - tried again next run
+10:05:29 story catch-up trichy: post 18205036612376275 not shared (Instagram 17841462048887226/media_publish: {'message': 'Application request limit reached', 'type': 'OAuthException', 'is_transient': False, 'code': 4) - tried again next run
+10:06:03 story catch-up trichy: post 18350616109287336 not shared (Instagram 17841462048887226/media_publish: {'message': 'Application request limit reached', 'type': 'OAuthException', 'is_transient': False, 'code': 4) - tried again next run
+10:06:58 story catch-up trichy: post 18099458789138838 not shared (Instagram 17841462048887226/media_publish: {'message': 'Application request limit reached', 'type': 'OAuthException', 'is_transient': False, 'code': 4) - tried again next run
+10:07:32 story catch-up trichy: post 17925862404451980 not shared (Instagram 17841462048887226/media_publish: {'message': 'Application request limit reached', 'type': 'OAuthException', 'is_transient': False, 'code': 4) - tried again next run
+10:07:32 11 stories in the queue, ready to post: 2
+10:07:32   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+10:07:32    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 194.9 ready= False set_started= True
+10:07:32    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 164.1 ready= False set_started= True
+10:07:32    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 160.4 ready= False set_started= True
+10:07:32    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 160.4 ready= False set_started= True
+10:07:32    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 156.4 ready= False set_started= True
+10:07:32    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 124.2 ready= False set_started= True
+10:07:32    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 124.2 ready= False set_started= True
+10:07:32    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 74.7 ready= False set_started= True
+10:07:32    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 29.6 ready= False set_started= True
+10:07:32    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 1.2 ready= True set_started= True
+10:07:32    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 1.2 ready= True set_started= True
+10:07:32 Instagram blocked publishing on trichy - paused until 2026-11-21T08:30 UTC
+10:07:32 Instagram 24-hour limit reached for ['trichy'] - their stories wait (nothing is dropped)
+10:07:34 instagram duplicate check trichy: 50 recent posts read
+10:07:34    RN-108 skipped: already on Instagram ['trichy']
+10:07:34    RN-109 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
