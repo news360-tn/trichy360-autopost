@@ -1,4 +1,5 @@
 {
- "until": "2026-11-21T08:30:25+00:00",
- "why": "21 Nov 07:46 IST: Instagram action is blocked (2207051) after 5 reels in 3 minutes"
+ "until": "2026-11-21T17:32:49+00:00",
+ "kind": "create",
+ "why": "Instagram 17841462048887226/media: {'message': 'User is performing too many actions', 'type': 'OAuthException', 'is_transient': False, 'code': 9, 'error_subcode': 2207069, 'error_user_title': 'Media Creation Limit Exceeded', 'error_user_msg': 'You reached maximum number of posts that is allowed to b"
 }
