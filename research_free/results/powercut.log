@@ -1,27 +1,23 @@
-04:22:11 from_google 'திருச்சி மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:22:53 from_google 'திருச்சி மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:23:32 from_google 'திருச்சிராப்பள்ளி மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:24:09 from_google 'திருச்சிராப்பள்ளி மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:24:49 from_google 'நாளைய மின்தடை திருச்சி' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:25:28 from_google 'நாளைய மின்தடை திருச்சி' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:26:12 from_google 'மணப்பாறை மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:26:52 from_google 'மணப்பாறை மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:27:31 from_google 'ஸ்ரீரங்கம் மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:28:12 from_google 'ஸ்ரீரங்கம் மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:28:58 from_google 'லால்குடி மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:29:36 from_google 'லால்குடி மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:30:15 from_google 'முசிறி மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:30:54 from_google 'முசிறி மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:31:35 from_google 'துறையூர் மின்தடை' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:32:06 from_google 'துறையூர் மின்தடை' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:32:51 from_google 'திருச்சி மின் நிறுத்தம்' dinamani.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:33:35 from_google 'திருச்சி மின் நிறுத்தம்' dinamalar.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:34:15 from_google 'தமிழகத்தில் நாளை மின்தடை' tamil.news18.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:34:55 from_google 'தமிழகத்தில் நாளை மின்தடை' tamil.abplive.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:35:38 from_google 'தமிழகத்தில் நாளை மின்தடை' tamil.samayam.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:36:16 from_google 'தமிழ்நாட்டில் நாளை மின்தடை பகுதிகள்' tamil.news18.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:37:00 from_google 'தமிழ்நாட்டில் நாளை மின்தடை பகுதிகள்' tamil.abplive.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:37:39 from_google 'தமிழ்நாட்டில் நாளை மின்தடை பகுதிகள்' tamil.samayam.com failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-04:37:42   other district: இன்றைய மின்தடை: கடலூர் <https://www.dinamalar.com/news/tamil-nadu-district-news-cuddalore/today-s-power-outage-cuddalore/4382019>
-04:37:42 skipped: not a power cut=5, could not open=2, other district=1
-04:37:42 no new power-cut notice
+12:57:28   other district: நாளைய மின்தடை: காங்கயம், சிவன்மலை, ஆலாம்பாடி, மடத்துக்குளம் <https://www.dinamani.com/all-editions/edition-coimbatore/tiruppur/2026/Nov/19/%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%88%E0%AE%AF-%E0%AE%AE%E0%AE%BF%E0%AE%A9%E0%AF%8D%E0%AE%A4%E0%AE%9F%E0%AF%88-%E0%AE%95%E0%AE%BE%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%AF%E0%AE%AE%E0%AF%8D-%E0%AE%9A%E0%AE%BF%E0%AE%B5%E0%AE%A9%E0%AF%8D%E0%AE%AE%E0%AE%B2%E0%AF%88-%E0%AE%86%E0%AE%B2%E0%AE%BE%E0%AE%AE%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%9F%E0%AE%BF-%E0%AE%AE%E0%AE%9F%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81%E0%AE%B3%E0%AE%AE%E0%AF%8D>
+12:57:29   other district: நல்லமனாா்கோட்டை பகுதியில் நாளை மின் தடை <https://www.dinamani.com/all-editions/edition-madurai/dindigul/2026/Nov/19/%E0%AE%A8%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%AE%E0%AE%A9%E0%AE%BE%E0%AE%BE%E0%AF%8D%E0%AE%95%E0%AF%8B%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AF%88-%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%A4%E0%AE%BF%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%88-%E0%AE%AE%E0%AE%BF%E0%AE%A9%E0%AF%8D-%E0%AE%A4%E0%AE%9F%E0%AF%88>
+12:57:29   not this district: தென்காசி, செங்கோட்டையில் இன்று மின் நிறுத்தம் <https://www.dinamani.com/tenkasi/2026/Nov/20/tennnkaaci-cengkoottttaiyil-innnrru-minnn-nirruttm>
+12:57:29   other district: புத்தாநத்தத்தில் நாளை மின் நிறுத்தம் <https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/09/%E0%AE%AA%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BE%E0%AE%A8%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%88-%E0%AE%AE%E0%AE%BF%E0%AE%A9%E0%AF%8D-%E0%AE%A8%E0%AE%BF%E0%AE%B1%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%AE%E0%AF%8D-2>
+12:58:19   other district: இன்று மின் நிறுத்தம் ரத்து <https://www.dinamalar.com/news/tamil-nadu-district-news-namakkal/todays-power-outage-cancelled/4382055>
+12:58:22   not this district: இன்றைய மின் தடை: பெங்களூரு <https://www.dinamalar.com/news/bengaluru/today-s-power-outage-bangalore/4381899>
+12:58:25   other district: அச்சிறுபாக்கம், ஒரத்தி உள்ளிட்ட பகுதிகளில் இன்று மின்தடை <https://www.dinamalar.com/news/tamil-nadu-district-news-chengalpattu/power-outages-in-areas-including-achchirupakkam-oratti-today/4381839>
+12:58:27   not this district: இன்றைய மின் தடை: பெங்களூரு <https://www.dinamalar.com/news/bengaluru/today-s-power-outage-bangalore/4380788>
+12:58:30   other district: இன்றைய மின்தடை <https://www.dinamalar.com/news/tamil-nadu-district-news-thiruvallur/today-s-power-supply/4381470>
+12:58:32   other district: இன்று மின்தடை ரத்து <https://www.dinamalar.com/news/tamil-nadu-district-news-dindigul/cancellation-of-power-outage-today/4381690>
+12:58:34   other district: கஸ்பாபேட்டை, கொடுமுடி இன்றைய மின்தடை ரத்து <https://www.dinamalar.com/news/tamil-nadu-district-news-erode/kasabpet-koodumudi-todays-power-outage-cancelled/4382061>
+12:58:37   other district: இன்றைய மின் தடை: திருவள்ளூர் <https://www.dinamalar.com/news/tamil-nadu-district-news-thiruvallur/today-s-power-outage-thiruvallur/4381240>
+12:58:38   other district: இன்றைய மின்தடை ரத்து <https://www.dinamalar.com/news/tamil-nadu-district-news-madurai/todays-power-outage-canceled/4381364>
+12:58:41   other district: இன்று மின் தடை <https://www.dinamalar.com/amp/news/tamil-nadu-district-news-sivagangai/today-s-power-outages/4381464>
+12:58:42   other district: இன்று மின் நிறுத்தம் (21 ம் தேதி) <https://www.dinamalar.com/amp/news/tamil-nadu-district-news-tiruppur/power-outage-today-21st/4381573>
+12:58:44   other district: நாளைய(நவ.12) மின்தடை: கோயம்புத்தூர் <https://www.dinamalar.com/news/tamil-nadu-district-news-coimbatore/power-outage-coimbatore/4373353>
+12:58:47   other district: மரிச்சிலம்பு, பூலாம்பட்டியில் மின்தடை <https://www.dinamalar.com/news/tamil-nadu-district-news-dindigul/power-outage-today/4335909>
+12:58:49   other district: இன்று மின் நிறுத்தம் ரத்து <https://www.dinamalar.com/amp/news/tamil-nadu-district-news-namakkal/todays-power-outage-cancelled/4382055>
+12:58:52   not this district: இன்றைய மின் தடை: பெங்களூரு <https://www.dinamalar.com/amp/news/bengaluru/today-s-power-outage-bangalore/4381899>
+12:58:55   other district: இன்றைய மின் தடை: திருவள்ளூர் <https://www.dinamalar.com/amp/news/tamil-nadu-district-news-thiruvallur/today-s-power-outage-thiruvallur/4381240>
+12:58:57   not this district: Villupuram Power Cut : விழுப்புரத்தில் நாளை மின்சாரம் இருக்காது! 40-க் <https://tamil.abplive.com/news/villupuram/villupuram-power-cut-november-21-2026-areas-list-280211/amp#district-section>
+12:58:57 skipped: other district=16, could not open=11, not this district=5, not a power cut=3, cut day 2026-11-11 has passed=1, already written / posted=1
+12:58:57 no new power-cut notice
