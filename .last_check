@@ -1,32 +1,32 @@
-22:06:06 SKIP RN-4 stale: published 12 Nov, older than yesterday
-22:06:06 SKIP RN-19 stale: published 14 Nov, older than yesterday
-22:06:06 SKIP RN-22 stale: published 14 Nov, older than yesterday
-22:06:06 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-22:06:06 SKIP RN-29 stale: published 14 Nov, older than yesterday
-22:06:06 SKIP RN-42 stale: published 16 Nov, older than yesterday
-22:06:06 SKIP RN-45 stale: published 16 Nov, older than yesterday
-22:06:06 SKIP RN-71 stale: published 18 Nov, older than yesterday
-22:06:06 SKIP RN-92 held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
-22:06:06 story catch-up trichy waits: Instagram's limit on new posts (too many made in 24 h) on trichy - paused until 2026-11-21T17:38 UTC
-22:06:06 13 stories in the queue, ready to post: 4
-22:06:06   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-22:06:06    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 206.9 ready= False set_started= True
-22:06:06    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 176.1 ready= False set_started= True
-22:06:06    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 172.4 ready= False set_started= True
-22:06:06    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 172.4 ready= False set_started= True
-22:06:06    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 168.4 ready= False set_started= True
-22:06:06    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 136.2 ready= False set_started= True
-22:06:06    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 136.2 ready= False set_started= True
-22:06:06    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 86.7 ready= False set_started= True
-22:06:06    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 41.6 ready= False set_started= True
-22:06:06    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 13.2 ready= True set_started= True
-22:06:06    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 13.2 ready= True set_started= True
-22:06:06    RN-110 review= 'Auto' images= 197 spec= 662 pages= ['trichy'] links= '' '' age_h= 5.4 ready= True set_started= True
-22:06:06    RN-111 review= 'Auto' images= 197 spec= 733 pages= ['trichy'] links= '' '' age_h= 1.5 ready= True set_started= True
-22:06:06 Instagram's limit on new posts (too many made in 24 h) on trichy - paused until 2026-11-21T17:38 UTC
-22:06:06 Instagram 24-hour limit reached for ['trichy'] - their stories wait (nothing is dropped)
-22:06:08 instagram duplicate check trichy: 50 recent posts read
-22:06:08    RN-108 skipped: already on Instagram ['trichy']
-22:06:08    RN-109 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
-22:06:08    RN-110 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
-22:06:08    RN-111 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
+22:12:54 SKIP RN-4 stale: published 12 Nov, older than yesterday
+22:12:54 SKIP RN-19 stale: published 14 Nov, older than yesterday
+22:12:54 SKIP RN-22 stale: published 14 Nov, older than yesterday
+22:12:54 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+22:12:54 SKIP RN-29 stale: published 14 Nov, older than yesterday
+22:12:54 SKIP RN-42 stale: published 16 Nov, older than yesterday
+22:12:54 SKIP RN-45 stale: published 16 Nov, older than yesterday
+22:12:54 SKIP RN-71 stale: published 18 Nov, older than yesterday
+22:12:54 SKIP RN-92 held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
+22:12:54 story catch-up trichy waits: Instagram's limit on new posts (too many made in 24 h) on trichy - paused until 2026-11-21T17:38 UTC
+22:12:54 13 stories in the queue, ready to post: 4
+22:12:54   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+22:12:54    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 207.0 ready= False set_started= True
+22:12:54    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 176.2 ready= False set_started= True
+22:12:54    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 172.5 ready= False set_started= True
+22:12:54    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 172.5 ready= False set_started= True
+22:12:54    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 168.5 ready= False set_started= True
+22:12:54    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 136.3 ready= False set_started= True
+22:12:54    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 136.3 ready= False set_started= True
+22:12:54    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 86.8 ready= False set_started= True
+22:12:54    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 41.7 ready= False set_started= True
+22:12:54    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 13.3 ready= True set_started= True
+22:12:54    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 13.3 ready= True set_started= True
+22:12:54    RN-110 review= 'Auto' images= 197 spec= 662 pages= ['trichy'] links= '' '' age_h= 5.5 ready= True set_started= True
+22:12:54    RN-111 review= 'Auto' images= 197 spec= 733 pages= ['trichy'] links= '' '' age_h= 1.6 ready= True set_started= True
+22:12:54 Instagram's limit on new posts (too many made in 24 h) on trichy - paused until 2026-11-21T17:38 UTC
+22:12:54 Instagram 24-hour limit reached for ['trichy'] - their stories wait (nothing is dropped)
+22:12:55 instagram duplicate check trichy: 50 recent posts read
+22:12:56    RN-108 skipped: already on Instagram ['trichy']
+22:12:56    RN-109 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
+22:12:56    RN-110 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
+22:12:56    RN-111 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
