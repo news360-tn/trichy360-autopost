@@ -42,6 +42,10 @@ env:
   SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}      # owner 30 Oct: free writers (skipped until the key is set)
   FB_PAGE_ID_TRICHY: ${{ secrets.FB_PAGE_ID_TRICHY }}      # owner 2 Nov: the same posts also go to the Facebook page
   FB_TOKEN_TRICHY: ${{ secrets.FB_TOKEN_TRICHY }}
+  # owner 21 Nov: YouTube auto upload - a page uploads only when its 3 YT_* secrets exist
+  YT_CLIENT_ID_TRICHY: ${{ secrets.YT_CLIENT_ID_TRICHY }}
+  YT_CLIENT_SECRET_TRICHY: ${{ secrets.YT_CLIENT_SECRET_TRICHY }}
+  YT_REFRESH_TOKEN_TRICHY: ${{ secrets.YT_REFRESH_TOKEN_TRICHY }}
   DAILY_CAP: "44"   # owner 31 Oct: no daily limit of our own - only Instagram's 50 a day (reels + stories); owner 2 Nov (review): the last 6 are kept for urgent news / power cuts
   CITY_ONLY: "0"      # owner 31 Oct: the whole district (top 3 per round decides)
   POST_MAX_AGE_DAYS: "1"      # owner 13 Nov: today's and yesterday's news - the night's news waits for 08:00 and is never skipped
@@ -80,7 +84,7 @@ jobs:
           git config user.name "news360-bot"; git config user.email "news360-bot@users.noreply.github.com"
           if grep -q "ready to post: [1-9]" .last_check || [ "$(date -u +%M)" -lt 5 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then git add -f .last_check && git commit -qm "check log" && { for i in 1 2 3 4; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true; fi
           # owner 1 Nov: the list of posts already shared to the story (never twice) is saved after every check
-          [ -f poster/story_shared.json ] && git add -f poster/story_shared.json; for f in poster/prebuilt/_ig_paused_*.json poster/prebuilt/_direct_*.json; do [ -f "$f" ] && git add -f "$f"; done; [ -d poster/fb_posted ] && git add -f poster/fb_posted; git diff --cached --quiet || { git commit -qm "stories shared / Instagram pause" && { for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true; }      # owner 21 Nov: a pause made by the story catch-up is kept too
+          [ -f poster/story_shared.json ] && git add -f poster/story_shared.json; for f in poster/prebuilt/_ig_paused_*.json poster/prebuilt/_direct_*.json; do [ -f "$f" ] && git add -f "$f"; done; [ -d poster/fb_posted ] && git add -f poster/fb_posted; [ -d poster/yt_uploaded ] && git add -f poster/yt_uploaded; git diff --cached --quiet || { git commit -qm "stories shared / Instagram pause" && { for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true; }      # owner 21 Nov: a pause made by the story catch-up is kept too
           echo "waiting=$(grep -cE 'waits for the [0-9]+-minute gap' .last_check 2>/dev/null || true)" >> "$GITHUB_OUTPUT"      # owner 21 Nov: any gap length
           if [ "${CHECK_RC:-0}" != "0" ]; then echo "::error::post.py check crashed (exit $CHECK_RC) - nothing was posted in this run"; exit 1; fi
       - name: Facebook - try failed posts again (at most 2 more times, within 24 h)

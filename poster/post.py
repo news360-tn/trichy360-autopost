@@ -2502,6 +2502,11 @@ def main():
     if mode == "check":
         story_catchup()      # owner 1 Nov: no post without its story
         facebook_catchup()      # owner 21 Nov: every news that is on Instagram also goes to Facebook
+        try:      # owner 21 Nov: the day's best news reels also go to the page's YouTube channel (only with its YT_* keys)
+            import ytupload
+            ytupload.catchup(sys.modules[__name__])
+        except Exception as e:
+            log("YouTube upload skipped:", str(e)[:150])
         log(f"{len(rows)} stories in the queue, ready to post: {n}")
         if rows:
             log("  keys:", sorted(rows[0].keys()))
