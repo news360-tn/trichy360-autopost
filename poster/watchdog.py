@@ -4,6 +4,9 @@ The posting job keeps itself running all day (a live run starts the next one), s
   gold rate  from 09:40 IST until today's post is saved (MJDTA fixes the rate at 9:30 AM)
   afternoon gold check  from 15:40 IST (MJDTA fixes it again at 3:30 PM) until today's afternoon check is saved
   news round when the last collection round started more than 4 h 15 min ago
+  YouTube details e-mail (owner 21 Nov: GitHub skipped every one - no "posted" e-mail came) from 12:30 / 21:30 IST when that
+    e-mail did not run since 12:05 / 21:05
+  Cloudinary clean-up when it has not run for 6 h 30 min (GitHub skipped 3 of its 4 runs a day)
 It never posts anything itself, and never starts a job that is queued, running, or was started in the last 40-45 minutes.
 python poster/watchdog.py   (needs GH_TOKEN and GITHUB_REPOSITORY; DRY=1 prints what it would start)"""
 import datetime as d
@@ -92,11 +95,53 @@ def round_overdue(now, round_runs):
     return not busy(round_runs, now, int((ist - due[-1]).total_seconds() // 60) + 10)
 
 
-def decide(now, rasi, gold, rasi_runs, gold_runs, round_wf, round_runs, pm=None):
+def page_names():
+    name = REPO.split("/")[-1]
+    return ("namakkal", "rasipuram") if name.startswith("news360") else (name.split("360")[0],)
+
+
+def all_paused(now):
+    """owner 21 Nov: True when every page of this repo has its Instagram posting paused (a block / limit) - no rasipalan / gold restart"""
+    pages = page_names()
+    for pg in pages:
+        try:
+            until = d.datetime.fromisoformat(json.loads(raw(f"poster/prebuilt/_ig_paused_{pg}.json") or "{}").get("until", ""))
+        except (ValueError, TypeError):
+            return False
+        if until <= now:
+            return False
+    return bool(pages)
+
+
+YT_SLOTS = (("am", 12, 5, 180), ("pm", 21, 5, 170))      # owner 21 Nov: the YouTube details e-mails (12:05 / 21:05 IST), minutes they may wait
+
+
+def yt_due(now, yt_runs):
+    """'am' / 'pm' when that e-mail's time passed 25+ min ago (at most ~3 h ago) and no e-mail run started since it; else ''"""
+    if yt_runs is None:
+        return ""
+    ist = now.astimezone(IST)
+    for slot, h, m, window in YT_SLOTS:
+        t = ist.replace(hour=h, minute=m, second=0, microsecond=0)
+        if t + d.timedelta(minutes=25) <= ist < t + d.timedelta(minutes=window):
+            if any(st in BUSY or x >= t for st, x in yt_runs):
+                return ""
+            return slot
+    return ""
+
+
+def clean_due(now, clean_runs, minutes=390):
+    """the Cloudinary clean-up has not started for 6 h 30 min (its schedule is every 6 hours)"""
+    return clean_runs is not None and not busy(clean_runs, now, minutes)
+
+
+def decide(now, rasi, gold, rasi_runs, gold_runs, round_wf, round_runs, pm=None, yt_runs=None, clean_runs=None, paused=False):
     """pure decision (tested): which jobs to start now. rasi / gold / pm: posted_today() result; *_runs: runs()"""
     ist = now.astimezone(IST)
     hm = ist.hour * 60 + ist.minute
     todo = []
+    if paused:      # owner 21 Nov: Instagram paused this page - no rasipalan / gold try now (it would make the limit longer)
+        rasi = gold = pm = None
     if rasi is False and 6 * 60 + 43 <= hm < 8 * 60 + 40 and not busy(rasi_runs, now, 40):      # owner 19 Nov: before 9 AM only
         todo.append("rasipalan.yml")
     if gold is False and 9 * 60 + 40 <= hm < 21 * 60 and not busy(gold_runs, now, 45):
@@ -105,6 +150,11 @@ def decide(now, rasi, gold, rasi_runs, gold_runs, round_wf, round_runs, pm=None)
         todo.append("goldrate.yml pm")
     if round_wf and round_runs and round_overdue(now, round_runs):
         todo.append(round_wf)
+    slot = yt_due(now, yt_runs)
+    if slot:
+        todo.append("youtube.yml " + slot)
+    if clean_due(now, clean_runs):
+        todo.append("cloudclean.yml")
     return todo
 
 
@@ -115,7 +165,8 @@ def main():
     gold = posted_today("goldrate/state", "posted_", today)
     pm = posted_today("goldrate/state", "pmcheck_", today)
     round_wf = "pick.yml" if runs("pick.yml") is not None else ("research_free.yml" if names("research_free/ENABLED") is not None or raw("research_free/ENABLED") is not None else "")
-    todo = decide(now, rasi, gold, runs("rasipalan.yml"), runs("goldrate.yml"), round_wf, runs(round_wf) if round_wf else None, pm)
+    todo = decide(now, rasi, gold, runs("rasipalan.yml"), runs("goldrate.yml"), round_wf, runs(round_wf) if round_wf else None, pm,
+                  runs("youtube.yml"), runs("cloudclean.yml"), all_paused(now))
     print(f"watchdog {now.astimezone(IST):%H:%M} IST: rasipalan posted={rasi} gold posted={gold} afternoon check={pm} round={round_wf}"
           f" -> {todo or 'nothing due'}")
     for wf in todo:
@@ -129,6 +180,10 @@ def main():
             start(wf, "dry=0", "resume=0")
         elif wf == "research_free.yml":
             start(wf, "dry=false")
+        elif wf.startswith("youtube.yml"):
+            start("youtube.yml", "slot=" + wf.split()[1])
+        elif wf == "cloudclean.yml":
+            start(wf, "dry=false", "keep_hours=48")
 
 
 if __name__ == "__main__":

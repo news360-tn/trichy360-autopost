@@ -14,7 +14,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
-import localmedia      # owner 12 Nov: direct reel upload (OFF unless DIRECT_UPLOAD=1)
+import localmedia      # owner 21 Nov: reels / stories sent as FILES (no Cloudinary) wherever Meta allows it
+import igdirect       # owner 21 Nov: the Instagram file upload (Instagram API with Facebook login)
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -967,9 +968,12 @@ def upload(path, kind):
         r = requests.post(url, data={"upload_preset": PRESET, "folder": "trichy360"}, files={"file": f}, timeout=600)
     r.raise_for_status()
     link = r.json()["secure_url"]
-    if kind == "video" and localmedia.enabled():
-        localmedia.remember(link, path)      # the direct upload sends this file instead of the link
+    if kind == "video":
+        localmedia.remember(link, path)      # owner 21 Nov: Facebook gets the file, not the link
     return link
+
+
+localmedia.set_uploader(lambda path, kind: upload(path, kind))      # owner 21 Nov: Cloudinary only when a file could not go directly
 
 
 def cache_key(row, spec, caption):
@@ -1018,7 +1022,13 @@ def save_cache(sid, key, media, checks):
         log("cache not saved:", e)
 
 
+VIA_FB = [False]      # owner 21 Nov: True while a reel / story goes to Instagram as a FILE (Instagram API with Facebook login)
+LAST_CONTAINER = {}      # owner 21 Nov: the last container Instagram made - a file upload's address ("uri") comes with it
+
+
 def ig_url(path):
+    if VIA_FB[0]:
+        return f"{igdirect.facebook.GRAPH}/{igdirect.facebook.VER}/{path}"
     return f"{IG_HOST}/{IG_VER + '/' if IG_VER else ''}{path}"
 
 
@@ -1108,7 +1118,15 @@ def create_with_collab(uid, token, params, collab):
         base["location_id"] = LOC_ID
 
     def attempt(extra, p):
-        return ig("POST", f"{uid}/media", token, **extra, **p)["id"]
+        try:
+            r = ig("POST", f"{uid}/media", token, **extra, **p)
+            LAST_CONTAINER.clear()
+            LAST_CONTAINER.update(r)
+            return r["id"]
+        except RuntimeError as e:
+            if ig_limit_kind(e):      # owner 21 Nov: a limit is never tried again at once without the collaborator / location
+                raise IgLimit(str(e)) from None
+            raise
 
     for use_loc in ([True, False] if LOC_ID else [False]):
         p = dict(base) if use_loc else dict(params)
@@ -1153,52 +1171,83 @@ def publish_carousel(token, urls, caption, collab, alt=""):
     return mid, ig("GET", mid, token, fields="permalink").get("permalink", ""), collab_ok, why
 
 
-IG_RUPLOAD = "https://rupload.facebook.com/ig-api-upload/{}/{}"
+class IgLimit(Exception):
+    """owner 21 Nov: Instagram refused because of a limit - never tried again at once in another way (without the cover / collaborator)"""
 
 
-def _ig_direct(uid, token, prm, path, collab):
-    """owner 12 Nov: Instagram container with upload_type=resumable, then the FILE is sent (no Cloudinary download).
-    Raises on any problem - the caller then uses the old video_url method."""
-    global IG_VER
-    p = {k: v for k, v in prm.items() if k != "video_url"}
+def _ig_direct(d, prm, path, collab, page=None):
+    """owner 21 Nov: the reel / story goes to Instagram as a FILE - the container is made with upload_type=resumable on the Instagram
+    API with Facebook login (the only way Meta allows a file; the Instagram login said "video_url is required"), the file is sent to
+    rupload.facebook.com and Instagram processes it. No Cloudinary. Raises on any problem before publishing (the caller uses the link)."""
+    ig_id, tok = d
+    p = {k: v for k, v in prm.items() if k not in ("video_url", "cover_url")}
     p["upload_type"] = "resumable"
-    ver = IG_VER or os.environ.get("IG_UPLOAD_VER", "v26.0")
-    old_ver = IG_VER
-    IG_VER = ver      # 12 Nov (Salem RN-1): the unversioned API said "video_url is required" - resumable needs a versioned call
     try:
-        cid, collab_ok, why = create_with_collab(uid, token, p, collab)
-    finally:
-        IG_VER = old_ver
-    localmedia.send(IG_RUPLOAD.format(ver, cid), token, path)
+        VIA_FB[0] = True
+        try:
+            cid, collab_ok, why = create_with_collab(ig_id, tok, p, collab)
+        finally:
+            VIA_FB[0] = False
+        uri = str(LAST_CONTAINER.get("uri") or "") if str(LAST_CONTAINER.get("id")) == str(cid) else ""
+        localmedia.send(uri if uri.startswith("https://rupload.facebook.com/") else igdirect.upload_url(cid), tok, path)
+        VIA_FB[0] = True
+        try:
+            wait_ready(cid, tok, 15)
+        finally:
+            VIA_FB[0] = False
+    except Exception as e:
+        if igdirect.is_permission_error(e) and not ig_limit_kind(e):
+            igdirect.off(page or PAGE, e)
+        raise
     return cid, collab_ok, why
+
+
+def _publish_direct(d, cid, link=True):
+    """publish a container made by _ig_direct (graph.facebook.com); (media id, permalink)"""
+    VIA_FB[0] = True
+    try:
+        mid = ig("POST", f"{d[0]}/media_publish", d[1], creation_id=cid)["id"]
+        url = ""
+        if link:
+            try:
+                url = ig("GET", mid, d[1], fields="permalink").get("permalink", "")
+            except Exception:
+                url = ""
+    finally:
+        VIA_FB[0] = False
+    return mid, url
+
+
+COVER_AT_MS = 900      # owner 21 Nov: a file has no cover link - Instagram takes the cover frame at 0.9 s (reel4.py's cover moment)
 
 
 def publish_reel(token, video_url, caption, collab, cover_url=""):
     uid, _ = ig_account(token)
-    prm = dict(media_type="REELS", video_url=video_url, caption=caption, share_to_feed="true")
-    if cover_url:
-        prm["cover_url"] = cover_url   # chosen cover photo (sharp frame with the hook headline)
-    path = localmedia.get(video_url)      # None unless DIRECT_UPLOAD=1 (then: the file, made here or downloaded once)
-    if path:
+    prm = dict(media_type="REELS", caption=caption, share_to_feed="true")
+    path = localmedia.get(video_url)      # this job's own file; None for a reel made in an earlier run (it goes by its link)
+    d = igdirect.ready(PAGE, uid) if path else None
+    if d:      # owner 21 Nov: the file goes straight to Instagram - no Cloudinary
         cid = None
         try:
-            cid, collab_ok, why = _ig_direct(uid, token, prm, path, collab)
-            wait_ready(cid, token, 15)
+            cid, collab_ok, why = _ig_direct(d, dict(prm, thumb_offset=str(COVER_AT_MS)), path, collab)
         except Exception as e:
+            if ig_limit_kind(e):
+                raise      # owner 21 Nov: a limit waits - never a second try by the link at once
             log("direct upload not used - posting with the link as before:", str(e)[:200])
-            cid = None
         if cid:      # the file is on Instagram: publish it; from here on NO fallback (a reel is never posted twice)
-            mid = ig("POST", f"{uid}/media_publish", token, creation_id=cid)["id"]
-            log("reel sent as a file (direct upload)")
-            try:
-                link = ig("GET", mid, token, fields="permalink").get("permalink", "")
-            except Exception:
-                link = ""
+            mid, link = _publish_direct(d, cid)
+            log("reel sent as a file (direct upload, no Cloudinary)")
             return mid, link, collab_ok, why
+    prm = dict(media_type="REELS", video_url=localmedia.hosted(video_url, "video"), caption=caption, share_to_feed="true")
+    if cover_url:
+        try:
+            prm["cover_url"] = localmedia.hosted(cover_url, "image")   # chosen cover photo (sharp frame with the hook headline)
+        except Exception as e:
+            log("cover not uploaded - Instagram picks a frame:", str(e)[:120])
     try:
         cid, collab_ok, why = create_with_collab(uid, token, prm, collab)
     except RuntimeError as e:
-        if not cover_url:
+        if not prm.get("cover_url"):
             raise
         log("reel refused with the cover, posting with Instagram's own cover:", e)
         prm.pop("cover_url", None)
@@ -1389,11 +1438,14 @@ def first_comment(token, media_id, sid, row):
                 log("source comment added", sid, media_id)
                 return
             except Exception as e:
-                if attempt == 2 or not is_transient(e):
+                if attempt == 2 or not is_transient(e) or ig_limit_kind(e):
                     raise
                 log("source comment refused once - trying again:", str(e)[:150])
                 time.sleep(8)
     except Exception as e:
+        k = ig_limit_kind(e)
+        if k in ("block", "rate"):      # owner 21 Nov: too many requests - the page slows down
+            ig_pause(PAGE, e, k)
         log("source comment not added (post itself is fine):", str(e)[:300])
 
 
@@ -1434,23 +1486,32 @@ def publish_story(token, media_url, kind, row=None):
             return ""
         uid, _ = ig_account(token)
         prm = dict(media_type="STORIES")
-        prm["video_url" if kind == "video" else "image_url"] = media_url
-        cid = None
-        path = localmedia.get(media_url) if kind == "video" else None      # None unless DIRECT_UPLOAD=1
-        if path:
+        path = localmedia.get(media_url) if kind == "video" else None      # this job's own file
+        d = igdirect.ready(PAGE, uid) if path else None
+        if d:      # owner 21 Nov: the file goes straight to Instagram - no Cloudinary
+            cid = None
             try:
-                cid = _ig_direct(uid, token, prm, path, False)[0]
+                cid = _ig_direct(d, prm, path, False)[0]
             except Exception as e:
+                if ig_limit_kind(e):
+                    raise
                 log("story: direct upload not used - the link is used:", str(e)[:150])
-                cid = None
-        if not cid:
-            cid = ig("POST", f"{uid}/media", token, **prm)["id"]
+            if cid:
+                mid = _publish_direct(d, cid, link=False)[0]
+                USED[PAGE] = USED.get(PAGE, 0) + 1
+                log("story posted", kind, mid, "(sent as a file)")
+                return mid
+        prm["video_url" if kind == "video" else "image_url"] = localmedia.hosted(media_url, kind)
+        cid = ig("POST", f"{uid}/media", token, **prm)["id"]
         wait_ready(cid, token, 10)
         mid = ig("POST", f"{uid}/media_publish", token, creation_id=cid)["id"]
         USED[PAGE] = USED.get(PAGE, 0) + 1
         log("story posted", kind, mid)
         return mid
     except Exception as e:
+        k = ig_limit_kind(e)
+        if k in ("block", "create", "rate"):      # owner 21 Nov: a limit pauses the page (never tried every run)
+            ig_pause(PAGE, e, k)
         log("story not posted (post itself is fine - the story catch-up tries again):", e)
         return ""
 
@@ -1482,8 +1543,13 @@ def story_catchup(max_new=6):
         shared = {}
     cut = (datetime.now(timezone.utc) - timedelta(days=2)).isoformat()
     shared = {k: v for k, v in shared.items() if v.get("at", "") >= cut}
+    tries_max = int(CONFIG.get("story_catchup_tries", 2))      # owner 21 Nov: a story that fails twice is given up (no endless tries)
     for pg in LABEL:
         try:
+            why = ig_paused(pg)
+            if why:      # owner 21 Nov: a paused page makes no story either
+                log(f"story catch-up {pg} waits: {why}")
+                continue
             token = bridge_get("token", page=pg)["token"]
             uid, _ = ig_account(token)
             me = ig("GET", "me", token, fields="id,user_id")
@@ -1526,24 +1592,42 @@ def story_catchup(max_new=6):
                     break
                 tries += 1
                 try:
-                    if kind == "video":      # 1 Nov: Instagram refuses its own CDN video link for a story - the file is hosted again first
-                        import tempfile
-                        tmp = Path(tempfile.mkdtemp()) / "story.mp4"
-                        rr = requests.get(url, timeout=180)
-                        rr.raise_for_status()
-                        tmp.write_bytes(rr.content)
-                        url = upload(tmp, "video")
                     prm = dict(media_type="STORIES")
-                    prm["video_url" if kind == "video" else "image_url"] = url
-                    cid = ig("POST", f"{uid}/media", token, **prm)["id"]
-                    wait_ready(cid, token, 8)
-                    sid = ig("POST", f"{uid}/media_publish", token, creation_id=cid)["id"]
+                    d = path = None
+                    if kind == "video":      # 1 Nov: Instagram refuses its own CDN video link for a story - the file is sent again
+                        path = localmedia.download(url, "story.mp4")
+                        if not path:
+                            raise RuntimeError("the post's video could not be read")
+                        d = igdirect.ready(pg, uid)
+                        if not d:      # no Facebook token for this page yet: hosted again on Cloudinary, as before
+                            url = upload(Path(path), "video")
+                    if d:      # owner 21 Nov: straight to Instagram as a file - no Cloudinary
+                        cid = _ig_direct(d, prm, path, False, page=pg)[0]
+                        sid = _publish_direct(d, cid, link=False)[0]
+                    else:
+                        prm["video_url" if kind == "video" else "image_url"] = url
+                        cid = ig("POST", f"{uid}/media", token, **prm)["id"]
+                        wait_ready(cid, token, 8)
+                        sid = ig("POST", f"{uid}/media_publish", token, creation_id=cid)["id"]
                     used += 1
                     made += 1
                     shared[m.get("id")] = shared[tkey] = {"story": sid, "page": pg, "at": now.isoformat()}
                     log(f"story catch-up {pg}: story {sid} for the post of {t:%d %b %H:%M} UTC ({m.get('media_type')})")
                 except Exception as e:
-                    log(f"story catch-up {pg}: post {m.get('id')} not shared ({str(e)[:150]}) - tried again next run")
+                    k = ig_limit_kind(e)
+                    if k:      # owner 21 Nov (Trichy): a limit stops the catch-up - no more tries this run, the page pauses
+                        if k != "quota":
+                            ig_pause(pg, e, k)
+                        log(f"story catch-up {pg}: Instagram limit ({k}) - no more story tries now:", str(e)[:150])
+                        break
+                    fk = f"f:{m.get('id')}"
+                    n = int((shared.get(fk) or {}).get("n", 0)) + 1
+                    shared[fk] = {"n": n, "page": pg, "at": now.isoformat()}
+                    if n >= tries_max:      # owner 21 Nov: never tried every run (Trichy 20-21 Nov: 400+ tries made Instagram stop the page)
+                        shared[m.get("id")] = shared[tkey] = {"story": "", "failed": str(e)[:150], "page": pg, "at": now.isoformat()}
+                        log(f"story catch-up {pg}: post {m.get('id')} not shared ({str(e)[:150]}) - tried {n} times, given up")
+                    else:
+                        log(f"story catch-up {pg}: post {m.get('id')} not shared ({str(e)[:150]}) - tried again in a later run ({n}/{tries_max})")
         except Exception as e:
             log(f"story catch-up {pg} skipped:", str(e)[:200])
     try:
@@ -1630,26 +1714,47 @@ def ig_pause_file(page):
     return CACHE / f"_ig_paused_{page}.json"      # in poster/prebuilt: committed by the posting job, read by every later run
 
 
+PAUSE_WHY = {"block": "Instagram blocked publishing", "create": "Instagram's limit on new posts (too many made in 24 h)",
+             "rate": "Instagram asked to slow down (too many requests)"}
+
+
 def ig_paused(page):
-    """'' or why this page's Instagram publishing is paused (owner 21 Nov: Instagram blocked the account's publishing)"""
+    """'' or why this page's Instagram publishing is paused (owner 21 Nov: a block, or one of Instagram's limits)"""
     try:
         d = json.loads(ig_pause_file(page).read_text(encoding="utf-8"))
         if datetime.fromisoformat(d["until"]) > datetime.now(timezone.utc):
-            return f"Instagram blocked publishing on {page} - paused until {d['until'][:16]} UTC"
+            return f"{PAUSE_WHY.get(d.get('kind') or 'block', 'Instagram limit')} on {page} - paused until {d['until'][:16]} UTC"
     except Exception:
         pass
     return ""
 
 
-def ig_pause(page, e):
-    """owner 21 Nov (Trichy: 5 reels in 3 minutes, then 'action is blocked' 2207051): trying again every few minutes makes the block
-    longer - this page's posting waits config ig_block_pause_hours (6); its news is posted after that, nothing is lost"""
+def ig_pause(page, e, kind="block"):
+    """owner 21 Nov (Trichy: 5 reels in 3 minutes, then 'action is blocked' 2207051; later 400+ story tries, then 'Media Creation Limit
+    Exceeded' 2207069): trying again every few minutes makes a block / limit longer - this page's Instagram posting waits
+    (block: config ig_block_pause_hours 6; too many posts made: ig_create_pause_hours 6; too many requests: ig_rate_pause_min 60).
+    Its news is posted after that, nothing is lost. A longer pause that is already running is never shortened."""
     try:
-        hours = float(CONFIG.get("ig_block_pause_hours", 6))
-        until = (datetime.now(timezone.utc) + timedelta(hours=hours)).isoformat(timespec="seconds")
+        if kind == "rate":
+            hours = float(CONFIG.get("ig_rate_pause_min", 60)) / 60
+        elif kind == "create":
+            hours = float(CONFIG.get("ig_create_pause_hours", 6))
+        else:
+            hours = float(CONFIG.get("ig_block_pause_hours", 6))
+        until_dt = datetime.now(timezone.utc) + timedelta(hours=hours)
+        try:
+            old = json.loads(ig_pause_file(page).read_text(encoding="utf-8"))
+            if datetime.fromisoformat(old["until"]) >= until_dt:
+                LIMIT[page] = True
+                return
+        except Exception:
+            pass
+        until = until_dt.isoformat(timespec="seconds")
         CACHE.mkdir(parents=True, exist_ok=True)
-        ig_pause_file(page).write_text(json.dumps({"until": until, "why": str(e)[:300]}, indent=1), encoding="utf-8")
-        log(f"BLOCKED: Instagram blocked publishing on {page} - its posting pauses {hours:g} h (until {until[:16]} UTC), news waits")
+        ig_pause_file(page).write_text(json.dumps({"until": until, "kind": kind, "why": str(e)[:300]}, indent=1), encoding="utf-8")
+        LIMIT[page] = True
+        word = "BLOCKED" if kind == "block" else "PAUSED"
+        log(f"{word}: {PAUSE_WHY.get(kind, 'Instagram limit')} on {page} - its posting pauses {hours:g} h (until {until[:16]} UTC), news waits")
     except Exception as x:
         log("pause not saved:", str(x)[:150])
 
@@ -1659,12 +1764,29 @@ def is_blocked(e):
     return "2207051" in t or "action is blocked" in t
 
 
-def is_limit_error(e):
+def ig_limit_kind(e):
+    """owner 21 Nov (Trichy 20-21 Nov: the story catch-up tried every run - 'Fatal', then 'Application request limit reached', then
+    'Media Creation Limit Exceeded' 2207069 from 10:30 IST, after which no reel could be made): which Instagram limit refused this.
+    '' not a limit | 'block' publishing blocked (2207051) | 'create' too many posts made in 24 h (2207069) |
+    'quota' the 50 posts of 24 h are used (2207042) | 'rate' too many requests (code 4 / 9 / 17 / 32 / 613, 80002)"""
     t = str(e).lower()
-    if is_blocked(e):      # owner 21 Nov: a block waits like the daily limit (never "tried again in the next run" every 8 minutes)
-        ig_pause(PAGE, e)
-        return True
-    return "2207042" in t or "publish limit" in t or "publishing limit" in t or "maximum number of" in t and "posts" in t
+    if "2207051" in t or "action is blocked" in t:
+        return "block"
+    if "2207069" in t or "media creation limit" in t or "allowed to be created" in t:
+        return "create"
+    if "2207042" in t or "publish limit" in t or "publishing limit" in t or ("maximum number of" in t and "posts" in t):
+        return "quota"
+    if ("request limit reached" in t or "too many calls" in t or "too many actions" in t or "80002" in t
+            or any(f"'code': {c}," in t for c in (4, 9, 17, 32, 613))):
+        return "rate"
+    return ""
+
+
+def is_limit_error(e):
+    k = ig_limit_kind(e)
+    if k in ("block", "create", "rate"):      # owner 21 Nov: these wait like the daily limit (never "tried again in the next run" every few minutes)
+        ig_pause(PAGE, e, k)
+    return bool(k)
 
 
 def is_transient(e):
@@ -1953,6 +2075,9 @@ def run_story_page(row, page):
     work = OUT / sid
     key = cache_key(row, spec, caption)
     cached = None if PREBUILD else load_cache(sid, key)
+    if PREBUILD and igdirect.ready(PAGE):      # owner 21 Nov: a page that sends files makes its reel right before posting
+        log("prebuild skipped:", sid, "- this page sends its reels to Instagram as files (no Cloudinary copy is made ahead)")
+        return []
     if cached:
         log("prebuilt carousel + reel found - publishing without rebuilding")
     images = [] if cached else fetch_images(row, work)
@@ -2038,12 +2163,16 @@ def run_story_page(row, page):
                 except Exception as e:
                     log("story image not made (post itself is fine):", e)
             if need_reel and mp4:
-                media["reel"] = upload(mp4, "video")
-                try:
-                    media["cover"] = upload(reel_cover, "image") if reel_cover else ""
-                except Exception as e:
-                    log("cover upload failed:", e)
-            if media["reel"] and (media["carousel"] or not need_carousel):
+                if not DRY and igdirect.ready(PAGE):      # owner 21 Nov: the file goes straight to Instagram / Facebook - no Cloudinary
+                    media["reel"] = localmedia.ref(mp4)
+                    media["cover"] = localmedia.ref(reel_cover) if reel_cover else ""      # uploaded only if the file cannot go directly
+                else:
+                    media["reel"] = upload(mp4, "video")
+                    try:
+                        media["cover"] = upload(reel_cover, "image") if reel_cover else ""
+                    except Exception as e:
+                        log("cover upload failed:", e)
+            if str(media["reel"]).startswith("http") and (media["carousel"] or not need_carousel):
                 save_cache(sid, key, dict(media, caption=caption), checks)      # owner 2 Nov: the caption that goes with THIS reel
         except Exception as e:
             return fail(row, "carousel", f"Upload failed: {e}")
@@ -2122,7 +2251,7 @@ def run_story_page(row, page):
                     promo.mark_used(PROMO_NOW, PAGE, sid)
                 USED[PAGE] = USED.get(PAGE, 0) + 1
                 bridge_post("posted", {"row": row["row"], "page": PAGE, "kind": "reel", "permalink": link, "media_id": mid,
-                                       "media_urls": [url], "caption": caption, "voice": voice, "collab": collab_ok, "checks": note,
+                                       "media_urls": [localmedia.shown(url) or link], "caption": caption, "voice": voice, "collab": collab_ok, "checks": note,
                                        "quiet": posted_quiet()})
                 done.append(("reel", link))
                 first_comment(token, mid, sid, row)
@@ -2375,7 +2504,7 @@ def main():
                     ids = [i for i, _ in ids]
                     # stories whose set has not started yet: make the carousel/reel ahead, so they go out the moment it starts
                     urgent = set(ids)
-                    pre = [r["story_id"] for r in rows if ready(r) and r["story_id"] not in urgent and (not set_started(r) or r["story_id"] in waiting) and not all(cache_path(r["story_id"], p).exists() for p in pages_of(r) if not page_done(r, p))][:12]      # waiting reels are made ahead, so they go out the minute prime time starts
+                    pre = [r["story_id"] for r in rows if ready(r) and r["story_id"] not in urgent and (not set_started(r) or r["story_id"] in waiting) and not all(cache_path(r["story_id"], p).exists() for p in pages_of(r) if not page_done(r, p)) and not all(igdirect.cached_ok(p) for p in pages_of(r) if not page_done(r, p))][:12]      # waiting reels are made ahead, so they go out the minute prime time starts
                     inc += [{"story": i, "slot": 0, "prebuild": "1"} for i in pre]
                     if pre:
                         log("prebuilding ahead of the set start:", pre)

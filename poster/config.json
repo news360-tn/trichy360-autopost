@@ -157,6 +157,10 @@
   "posted_email": "digest",
   "posted_email_note": "owner 20 Nov: once the Promo Hub is set up (PROMO_URL), no e-mail per posted reel - the twice-a-day YouTube details e-mail per page lists them (Gmail's daily limit). \"each\" brings the per-reel e-mail back.",
   "ig_block_pause_hours": 6,
+  "ig_create_pause_hours": 6,
+  "ig_rate_pause_min": 60,
+  "story_catchup_tries": 2,
+  "ig_limits_note": "owner 21 Nov (Trichy 20-21 Nov: the story catch-up tried the same stories every run - 400+ tries - and Instagram then refused every new post from 10:30 IST, Media Creation Limit 2207069): 'too many posts made' pauses the page ig_create_pause_hours, 'too many requests' ig_rate_pause_min, and a story that fails story_catchup_tries times is given up. Nothing is lost - the news posts after the pause.",
   "ig_block_pause_note": "owner 21 Nov: when Instagram says 'action is blocked' (2207051), the page's posting waits this many hours instead of trying every few minutes (that makes the block longer); its news is posted afterwards",
   "story_reserve_note": "owner 21 Nov: stories stop when 30 of Instagram's 50 posts a day are used - the last 20 are kept for NEWS (with a story for every news, stories filled the limit and Coimbatore's news waited at 48/50). A story that has to wait is posted later by the story catch-up."
 }

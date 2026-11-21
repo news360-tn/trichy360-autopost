@@ -482,8 +482,23 @@ def pm_main(pages, day):
     return 0
 
 
+def ig_paused_page(pg):
+    """owner 21 Nov: the posting job paused this page after an Instagram block / limit (poster/prebuilt/_ig_paused_<page>.json)"""
+    import json as _json
+    from datetime import datetime as _dt, timezone as _tz
+    try:
+        d = _json.loads((ROOT / "poster" / "prebuilt" / f"_ig_paused_{pg}.json").read_text(encoding="utf-8"))
+        return _dt.fromisoformat(d["until"]) > _dt.now(_tz.utc)
+    except Exception:
+        return False
+
+
 def main():
     pages = [p for p in os.environ.get("GOLD_PAGES", "namakkal rasipuram").split() if p in PAGES]
+    held = [pg for pg in pages if ig_paused_page(pg)]
+    if held and not DRY:      # owner 21 Nov: a paused page is not tried (that makes the block / limit longer)
+        log(f"Instagram posting is paused on {', '.join(held)} (a block / limit) - no gold post there now; it is started again after the pause")
+        pages = [pg for pg in pages if pg not in held]
     if MODE == "pm":
         return pm_main(pages, date.fromisoformat(FORCE_DATE) if FORCE_DATE else datetime.now(IST).date())
     now = datetime.now(IST)

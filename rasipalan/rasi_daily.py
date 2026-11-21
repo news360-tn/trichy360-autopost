@@ -236,8 +236,22 @@ def accept_collab(mid):
         log("collaboration not accepted automatically (accept it in the Namakkal 360 app):", str(e)[:200])
 
 
+def ig_paused_page(pg):
+    """owner 21 Nov: the posting job paused this page after an Instagram block / limit (poster/prebuilt/_ig_paused_<page>.json)"""
+    import json as _json
+    from datetime import datetime as _dt, timezone as _tz
+    try:
+        d = _json.loads((ROOT / "poster" / "prebuilt" / f"_ig_paused_{pg}.json").read_text(encoding="utf-8"))
+        return _dt.fromisoformat(d["until"]) > _dt.now(_tz.utc)
+    except Exception:
+        return False
+
+
 def main():
     cfg = PAGES[PAGE]
+    if not DRY and ig_paused_page(PAGE):      # owner 21 Nov: a paused page is not tried (that makes the block / limit longer)
+        log(f"Instagram posting is paused on {PAGE} (a block / limit) - no rasipalan try now; it is started again after the pause")
+        return 0
     now = datetime.now(P.IST)
     day = datetime.fromisoformat(FORCE_DATE).date() if FORCE_DATE else now.date()
     p = P.compute(day, PAGE)

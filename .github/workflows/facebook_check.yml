@@ -16,3 +16,5 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.11"}
       - run: pip install -q requests==2.32.5 && python poster/facebook.py status trichy | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Instagram files (owner 21 Nov - no Cloudinary)
+        run: python poster/igdirect.py trichy | tee -a "$GITHUB_STEP_SUMMARY"

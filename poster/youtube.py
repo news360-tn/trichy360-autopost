@@ -3,8 +3,8 @@ Twice a day (youtube.yml: 12:05 and 21:05 IST) ONE e-mail per page, through the 
   the news reels posted on the page's Instagram since the last e-mail (gold rate and rasipalan left out), at most 10 a day per page
   (the most useful first: power cuts and alerts, then camps / jobs / schemes, then the rest, newest first) - the midday e-mail at most
   5, the night e-mail the rest of the 10. For each reel: YouTube title, description (with 📰 Source and 📅 date), tags, a suggested
-  upload time and the video download link (Cloudinary - kept 2 days, download within 1 day; Instagram's own link when the
-  Cloudinary copy is not found).
+  upload time and the video download link (owner 21 Nov "do not use Cloudinary": Instagram's own video link - download
+  within 1 day).
 Usage: python poster/youtube.py [am|pm]   (no argument: decided by the time)"""
 import html as _h
 import json
@@ -77,18 +77,7 @@ def details(m, page, uname):
 
 
 def download_link(post, cap):
-    """the Cloudinary copy of this reel (from the ready-made files), as a download link; '' when not found"""
-    first = (cap or "").split("\n")[0].strip()
-    try:
-        for f in sorted(post.CACHE.glob("*.json"), key=lambda p: p.stat().st_mtime, reverse=True)[:400]:
-            try:
-                d = json.loads(f.read_text(encoding="utf-8"))
-            except Exception:
-                continue
-            if d.get("reel") and str(d.get("caption") or "").split("\n")[0].strip() == first:
-                return d["reel"].replace("/upload/", "/upload/fl_attachment/", 1)
-    except Exception:
-        pass
+    """owner 21 Nov ("do not use Cloudinary"): no Cloudinary download link any more - the e-mail gives Instagram's own video link"""
     return ""
 
 
@@ -108,7 +97,7 @@ def email(page, label, uname, slot, chosen, now):
     tms = times(slot, len(chosen), now)
     part = "midday" if slot == "am" else "night"
     subject = f"[YouTube] {label} - {len(chosen)} reels to upload - {now.astimezone(IST):%d %b} ({part})"
-    blocks, text = [], [subject, "Download within 1 day (the video link is kept 2 days).", ""]
+    blocks, text = [], [subject, "Download within 1 day (Instagram's own video link).", ""]
     for i, (m, d, link) in enumerate(chosen, 1):
         dl = link or m.get("media_url") or m.get("permalink") or ""
         blocks.append(

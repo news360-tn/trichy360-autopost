@@ -48,7 +48,7 @@ env:
   DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '' }}
   PREBUILD: ${{ github.event_name == 'workflow_dispatch' && inputs.prebuild && '1' || '' }}
   PAUSED: ${{ vars.PAUSED }}
-  DIRECT_UPLOAD: "0"      # owner 21 Nov (safe method): trial OFF - Instagram refused the file on every reel ("video_url is required"), the reel went by its Cloudinary link anyway, and the trial downloaded each reel from Cloudinary once more first
+  DIRECT_UPLOAD: "auto"      # owner 21 Nov ("do not use Cloudinary"): reels and stories go to Instagram / Facebook as FILES once the page's Facebook token (FB_PAGE_ID_* / FB_TOKEN_*, with instagram_basic + instagram_content_publish) is set - until then the Cloudinary link as before. "0" switches it off.
 
 jobs:
   check:
@@ -80,7 +80,7 @@ jobs:
           git config user.name "news360-bot"; git config user.email "news360-bot@users.noreply.github.com"
           if grep -q "ready to post: [1-9]" .last_check || [ "$(date -u +%M)" -lt 5 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then git add -f .last_check && git commit -qm "check log" && { for i in 1 2 3 4; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true; fi
           # owner 1 Nov: the list of posts already shared to the story (never twice) is saved after every check
-          if [ -f poster/story_shared.json ]; then git add -f poster/story_shared.json && git commit -qm "stories shared" && { for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true; fi
+          [ -f poster/story_shared.json ] && git add -f poster/story_shared.json; for f in poster/prebuilt/_ig_paused_*.json poster/prebuilt/_direct_*.json; do [ -f "$f" ] && git add -f "$f"; done; git diff --cached --quiet || { git commit -qm "stories shared / Instagram pause" && { for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true; }      # owner 21 Nov: a pause made by the story catch-up is kept too
           echo "waiting=$(grep -cE 'waits for the [0-9]+-minute gap' .last_check 2>/dev/null || true)" >> "$GITHUB_OUTPUT"      # owner 21 Nov: any gap length
           if [ "${CHECK_RC:-0}" != "0" ]; then echo "::error::post.py check crashed (exit $CHECK_RC) - nothing was posted in this run"; exit 1; fi
       - name: Facebook - try failed posts again (at most 2 more times, within 24 h)

@@ -21,7 +21,7 @@ from pathlib import Path
 
 import requests
 
-import localmedia      # owner 12 Nov: direct reel upload (OFF unless DIRECT_UPLOAD=1)
+import localmedia      # owner 21 Nov: reels / stories sent as FILES (no Cloudinary)
 
 HERE = Path(__file__).resolve().parent
 STATE = HERE / "fb_posted"
@@ -212,17 +212,17 @@ def _call(method, path, token, **data):
 
 
 def _hosted_upload(token, vid, video_url, upload_url=""):
-    """Facebook fetches the already-hosted (Cloudinary) video itself - nothing is downloaded here"""
+    """owner 21 Nov: the video FILE is sent when this job has it (no Cloudinary); otherwise Facebook fetches the hosted link itself"""
     up = upload_url or f"https://rupload.facebook.com/video-upload/{VER}/{vid}"
-    path = localmedia.get(video_url)      # None unless DIRECT_UPLOAD=1
+    path = localmedia.get(video_url)      # this job's own file
     if path:
         try:
             localmedia.send(up, token, path)
-            log("video sent as a file (direct upload)")
+            log("video sent as a file (direct upload, no Cloudinary)")
             return
         except Exception as e:
             log("direct upload not used - Facebook fetches the link as before:", str(e)[:150])
-    r = requests.post(up, headers={"Authorization": "OAuth " + token, "file_url": video_url}, timeout=180)
+    r = requests.post(up, headers={"Authorization": "OAuth " + token, "file_url": localmedia.hosted(video_url, "video")}, timeout=180)
     if r.status_code != 200:
         raise RuntimeError("Facebook upload: " + _err(r))
     try:
@@ -416,6 +416,10 @@ def retry_failed(limit=2):
             if dt.datetime.fromisoformat(d.get("first_try") or d.get("updated")) < cut:
                 continue
             page, sid, kind = d["page"], d["story"], d.get("kind", "reel")
+            if any(localmedia.is_ref(x) for x in d.get("media") or []):      # owner 21 Nov: it went as a file - no copy is left to try again
+                d.update(status="skipped", why="sent as a file (no Cloudinary copy) - not tried again")
+                f.write_text(json.dumps(d, indent=1, ensure_ascii=False), encoding="utf-8")
+                continue
             if not creds(page) or paused(page) or (kind == "reel" and posted_last_day(page, "reel") >= REEL_CAP):
                 continue
             log(f"trying Facebook again: {page} {sid} {kind} (try {int(d.get('tries', 0)) + 1}/{MAX_TRIES})")
