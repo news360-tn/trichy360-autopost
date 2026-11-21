@@ -1,25 +1,7 @@
-02:08:10 round 2026-11-22_02: news published 21 Nov 23:13 -> 22 Nov 02:08 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-02:08:10 insights 2026-11-22T02:08+05:30 (101 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': 0.05, 'civic': 0.14, 'education': -0.5, 'politics': -0.5, 'temple': -0.5, 'poultry_agri': 0.07}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-02:08:50 41 links on the two papers' Trichy pages
-02:10:02 skipped: published before this window=12, already posted=12, not Trichy district=9, same event already posted=1, shop offer / advertisement=1
-02:10:02 list: 4 new + 0 earlier news not posted yet
-02:10:02    1. [மின்தடை] கல்லக்குடி பகுதிகளில் நாளை மின்தடை (தினமணி)
-02:10:02    2. [குற்றம்] பேருந்தில் பெண்ணிடம் 16 பவுன் நகைகள் திருட்டு (தினமணி)
-02:10:02    3. [ரயில்] இருமுடி, தைப்பூசத் திருவிழா: மேல்மருவத்தூரில் 114 ரயில்கள் நின்று செல் (தினமணி)
-02:10:02    4. [பொது] மேல்நிலை நீா்த்தேக்க தொட்டியை சீரமைக்க பொதுமக்கள் கோரிக்கை (தினமணி)
-02:10:02 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-22_02
-02:10:04 round 2026-11-22_02 (at least 5, up to 3 more of well-watched topics): 4 news to choose from (0 from earlier rounds), ranked by this page's insights
-02:10:04   PICK   1.  12.2 [power_cut +0.05 page] கல்லக்குடி பகுதிகளில் நாளை மின்தடை
-02:10:04   PICK   2.  18.0 [crime +1.50 page] பேருந்தில் பெண்ணிடம் 16 பவுன் நகைகள் திருட்டு
-02:10:04   PICK   3.   4.0 [temple -0.50 page] இருமுடி, தைப்பூசத் திருவிழா: மேல்மருவத்தூரில் 114 ரயில்கள் ந
-02:10:04   PICK   4.   3.0 [other +0.00 pattern] மேல்நிலை நீா்த்தேக்க தொட்டியை சீரமைக்க பொதுமக்கள் கோரிக்கை
-02:10:04 decided: automatic: top 5 of 4 by insights + 1 power cut -> 4 news to write and post
-PICK_URLS=https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/power-outage-in-kallakudi-areas-tomorrow https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/பேருந்தில்-பெண்ணிடம்-16-பவுன்-நகைகள்-திருட்டு https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/irumudi-and-thaipusam-festival-114-trains-to-halt-at-melmaruvathur https://www.dinamani.com/all-editions/edition-trichy/pudukottai/2026/Nov/21/%E0%AE%AE%E0%AF%87%E0%AE%B2%E0%AF%8D%E0%AE%A8%E0%AE%BF%E0%AE%B2%E0%AF%88-%E0%AE%A8%E0%AF%80%E0%AE%BE%E0%AF%8D%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%87%E0%AE%95%E0%AF%8D%E0%AE%95-%E0%AE%A4%E0%AF%8A%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%BF%E0%AE%AF%E0%AF%88%E0%AE%9A%E0%AF%80%E0%AE%B0%E0%AE%AE%E0%AF%88%E0%AE%95%E0%AF%8D%E0%AE%95-%E0%AE%AA%E0%AF%8A%E0%AE%A4%E0%AF%81%E0%AE%AE%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%95%E0%AF%8B%E0%AE%B0%E0%AE%BF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%88
-02:12:04 4 listed news now in the Sheet
-02:12:15 instagram duplicate check trichy: 50 recent posts read
-02:12:15 verify 2026-11-22_02: 0 of 4 picked news posted, 2 skipped on purpose, 2 waiting for their posting start
-02:12:15    WAITING C47521ff: waiting RN-114: night: nothing is posted 00:00-05:00 IST (owner 21 Nov) - இருமுடி, தைப்பூசத் திருவிழா: மேல்மருவத்தூரில் 114 ரயில்கள் ந
-02:12:15    WAITING Cb84e6c5: waiting RN-113: night: nothing is posted 00:00-05:00 IST (owner 21 Nov) - மேல்நிலை நீா்த்தேக்க தொட்டியை சீரமைக்க பொதுமக்கள் கோரிக்கை
-02:12:15    SKIPPED C5d1f18f: skipped RN-116: held: fact-check problems - numbers not found in the article: 45 - கல்லக்குடி பகுதிகளில் நாளை மின்தடை
-02:12:15    SKIPPED C84eb844: skipped RN-115: held: fact-check problems - not grounded: location 'நகர்' is not in the article - பேருந்தில் பெண்ணிடம் 16 பவுன் நகைகள் திருட்டு
+04:28:47 round 2026-11-22_04: news published 22 Nov 02:08 -> 22 Nov 04:28 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+04:28:47 insights 2026-11-22T04:28+05:30 (101 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': 0.05, 'civic': 0.14, 'education': -0.5, 'politics': -0.5, 'temple': -0.5, 'poultry_agri': 0.07}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+04:29:11 34 links on the two papers' Trichy pages
+04:30:18 skipped: already posted=13, published before this window=11, not Trichy district=5, same event already posted=1, shop offer / advertisement=1
+04:30:18 list: 0 new + 0 earlier news not posted yet
+04:30:18 no news in this window - no e-mail
+ROUND=2026-11-22_04
