@@ -1,26 +1,26 @@
-15:24:34 SKIP RN-4 stale: published 12 Nov, older than yesterday
-15:24:34 SKIP RN-19 stale: published 14 Nov, older than yesterday
-15:24:34 SKIP RN-22 stale: published 14 Nov, older than yesterday
-15:24:34 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-15:24:34 SKIP RN-29 stale: published 14 Nov, older than yesterday
-15:24:34 SKIP RN-42 stale: published 16 Nov, older than yesterday
-15:24:34 SKIP RN-45 stale: published 16 Nov, older than yesterday
-15:24:34 SKIP RN-71 stale: published 18 Nov, older than yesterday
-15:24:34 SKIP RN-92 held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
-15:24:37 story catch-up trichy: quota 20/50, 40 recent posts, 8 live stories, owner ids ['17841462048887226', '28956510467350700']
-15:24:37 11 stories in the queue, ready to post: 2
-15:24:37   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-15:24:37    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 200.2 ready= False set_started= True
-15:24:37    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 169.4 ready= False set_started= True
-15:24:37    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 165.7 ready= False set_started= True
-15:24:37    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 165.7 ready= False set_started= True
-15:24:37    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 161.7 ready= False set_started= True
-15:24:37    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 129.5 ready= False set_started= True
-15:24:37    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 129.5 ready= False set_started= True
-15:24:37    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 80.0 ready= False set_started= True
-15:24:37    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 34.9 ready= False set_started= True
-15:24:37    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 6.5 ready= True set_started= True
-15:24:37    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 6.5 ready= True set_started= True
-15:24:38 publishing quota trichy: 20/50
-15:24:39 instagram duplicate check trichy: 50 recent posts read
-15:24:40    RN-108 skipped: already on Instagram ['trichy']
+15:32:59 SKIP RN-4 stale: published 12 Nov, older than yesterday
+15:32:59 SKIP RN-19 stale: published 14 Nov, older than yesterday
+15:32:59 SKIP RN-22 stale: published 14 Nov, older than yesterday
+15:32:59 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+15:32:59 SKIP RN-29 stale: published 14 Nov, older than yesterday
+15:32:59 SKIP RN-42 stale: published 16 Nov, older than yesterday
+15:32:59 SKIP RN-45 stale: published 16 Nov, older than yesterday
+15:32:59 SKIP RN-71 stale: published 18 Nov, older than yesterday
+15:32:59 SKIP RN-92 held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
+15:33:01 story catch-up trichy: quota 20/50, 40 recent posts, 8 live stories, owner ids ['17841462048887226', '28956510467350700']
+15:33:01 11 stories in the queue, ready to post: 2
+15:33:01   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+15:33:01    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 200.3 ready= False set_started= True
+15:33:01    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 169.6 ready= False set_started= True
+15:33:01    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 165.9 ready= False set_started= True
+15:33:01    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 165.9 ready= False set_started= True
+15:33:01    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 161.8 ready= False set_started= True
+15:33:01    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 129.7 ready= False set_started= True
+15:33:01    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 129.7 ready= False set_started= True
+15:33:01    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 80.1 ready= False set_started= True
+15:33:01    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 35.0 ready= False set_started= True
+15:33:01    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 6.6 ready= True set_started= True
+15:33:01    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 6.6 ready= True set_started= True
+15:33:02 publishing quota trichy: 20/50
+15:33:03 instagram duplicate check trichy: 50 recent posts read
+15:33:03    RN-108 skipped: already on Instagram ['trichy']
