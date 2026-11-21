@@ -48,7 +48,7 @@ env:
   DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '' }}
   PREBUILD: ${{ github.event_name == 'workflow_dispatch' && inputs.prebuild && '1' || '' }}
   PAUSED: ${{ vars.PAUSED }}
-  DIRECT_UPLOAD: "1"      # owner 12 Nov: TRIAL on the new pages - reels sent as files, not Cloudinary links (falls back to the link)
+  DIRECT_UPLOAD: "0"      # owner 21 Nov (safe method): trial OFF - Instagram refused the file on every reel ("video_url is required"), the reel went by its Cloudinary link anyway, and the trial downloaded each reel from Cloudinary once more first
 
 jobs:
   check:

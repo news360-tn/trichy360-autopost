@@ -88,4 +88,4 @@ class StoryPlanA(unittest.TestCase):
                 mock.patch.object(post, "ig") as ig, mock.patch.object(post, "is_urgent", side_effect=lambda r: r.get("u")):
             self.assertEqual(post.publish_story("t", "https://x/v.mp4", "video", {"u": False}), "")
             ig.assert_not_called()
-        self.assertFalse(post.CONFIG.get("stories_urgent_only"))      # owner 20 Nov: every news reel gets its story again
+        self.assertTrue(post.CONFIG.get("stories_urgent_only"))      # owner 21 Nov: urgent news only again (Instagram-safe)

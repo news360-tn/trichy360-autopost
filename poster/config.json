@@ -144,8 +144,8 @@
   },
   "story_reserve": 20,
   "post_stories": true,
-  "stories_urgent_only": false,
-  "stories_urgent_only_note": "owner 20 Nov: EVERY news reel goes to the story again (14 Nov plan A had kept it for power cuts / urgent news only). Instagram's 50 posts a day: the last story_reserve posts stay for news - a story that has to wait is posted later by the story catch-up. true = urgent news only",
+  "stories_urgent_only": true,
+  "stories_urgent_only_note": "owner 21 Nov (Instagram-safe): the story share only for power cuts / urgent news again, as Kovai and Chennai Minnal do - a story for every news took pages to 48/50 of Instagram's daily posts (blocks come near the limit) and doubled the Cloudinary downloads. false = every news gets its story",
   "reel_style": "A",
   "reel_style_note": "owner 13 Nov 23:10: A = the Namakkal 360 design (same as Namakkal / Coimbatore) on this page; the premium look P below is switched off. Was: P = premium story panel (photo top 60 %, emerald panel with the headline and captions, champagne gold, ivory cards, serif headline, no black; district map + town pin, word-by-word headline, count-up numbers, one news-type layer, smooth loop, light sound effects). A = the earlier look.",
   "posting": {
