@@ -731,8 +731,15 @@ def fetch_images(row, work):
         return plain_background(work, 1, row)
     out = []
     for i, u in enumerate(urls, 1):
-        r = requests.get(u, timeout=120)
-        r.raise_for_status()
+        try:
+            r = requests.get(u, timeout=120)
+            r.raise_for_status()
+        except requests.HTTPError as e:      # owner 21 Nov (Coimbatore RN-502: a picture on the old, disabled Cloudinary account blocked the page)
+            code = e.response.status_code if e.response is not None else 0
+            if code in (401, 403, 404, 410):
+                log(f"picture {i} cannot be downloaded ({code}) - left out; the reel is made without it")
+                continue
+            raise
         raw = work / f"raw{i}"
         raw.write_bytes(r.content)
         im = Image.open(raw).convert("RGB")
@@ -751,6 +758,9 @@ def fetch_images(row, work):
         im.save(dst, "JPEG", quality=96, subsampling=0)
         raw.unlink()
         out.append(dst)
+    if not out:      # owner 21 Nov: no picture could be downloaded - the designed background, never a blocked page
+        log("no picture could be downloaded - the reel is made on the designed background")
+        return plain_background(work, 1, row)
     return out
 
 
