@@ -236,6 +236,7 @@ jobs:
           if [ -n "$(ls poster/prebuilt 2>/dev/null)" ]; then
             git add -f poster/prebuilt && git commit -qm "prebuilt ${{ matrix.story }}" || true
           fi
+          if [ -n "$(ls poster/posted 2>/dev/null)" ]; then git add -f poster/posted && git commit -qm "posted ${{ matrix.story }}" || true; fi      # owner 21 Nov: read by the posted report
           # owner 2 Nov: the Facebook record (posted / failed) - a post is never sent to Facebook twice
           if [ -n "$(ls poster/fb_posted 2>/dev/null)" ]; then git add -f poster/fb_posted && git commit -qm "facebook ${{ matrix.story }}" || true; fi
           if [ -n "$(git log origin/main..HEAD --oneline 2>/dev/null)" ]; then

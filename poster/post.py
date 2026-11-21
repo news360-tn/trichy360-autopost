@@ -1421,6 +1421,27 @@ def link_hold(row):
     return "held: no source link (owner 21 Nov: only news with its source link is posted) - add the article link in the source column to post it"
 
 
+POSTED_DIR = ROOT / "poster" / "posted"      # owner 21 Nov: one small record per posted news (the posted report reads them)
+
+
+def record_posted(sid, row, link, kind="reel"):
+    """owner 21 Nov ("news posted e-mail not received - I don't know if news is posted"): every posted news leaves a tiny file
+    poster/posted/<UTC time>-<page>-<story>.json (committed by post.yml); news360's posted_report.py e-mails ONE report for all
+    pages 4 times a day. Files older than 3 days are removed. Never raises."""
+    try:
+        now = datetime.now(timezone.utc)
+        POSTED_DIR.mkdir(parents=True, exist_ok=True)
+        cut = (now - timedelta(days=3)).strftime("%Y%m%d")
+        for f in POSTED_DIR.glob("*.json"):
+            if f.name[:8] < cut:
+                f.unlink()
+        rec = {"page": PAGE, "story": sid, "kind": kind, "headline": str((row or {}).get("headline_ta") or "")[:200], "link": link or "",
+               "at": now.isoformat(timespec="seconds")}
+        (POSTED_DIR / f"{now:%Y%m%d-%H%M%S}-{PAGE}-{sid}.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
+    except Exception as e:
+        log("posted record not saved:", str(e)[:120])
+
+
 def first_comment(token, media_id, sid, row):
     """owner 19 Nov: the source comment above, posted by the page right after the news post is recorded - automatically, no approval.
     owner 21 Nov: every news reel has it - only news with its source link is posted (link_hold); a refused comment is tried once more.
@@ -1946,6 +1967,7 @@ def run_ready_reel(row, page):
         COLLAB = collab_page(row, PAGE)
         mid, link, collab_ok, why = publish_reel(token, url, caption, bool(COLLAB), "")
         log("ready reel posted", sid, link)
+        record_posted(sid, row, link, "ready reel")      # owner 21 Nov: for the posted report
         try:
             publish_story(token, url, "video", row)
         except Exception as e:
@@ -2246,6 +2268,7 @@ def run_story_page(row, page):
                 mid, link, collab_ok, why = publish_reel(token, url, caption, collab, cover_url)
                 published = True
                 log("reel posted", sid, link)
+                record_posted(sid, row, link)      # owner 21 Nov: for the posted report
                 if PROMO_NOW:      # owner 20 Nov: counted for the promotion's reels-a-day limit
                     import promo
                     promo.mark_used(PROMO_NOW, PAGE, sid)

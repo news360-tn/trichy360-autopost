@@ -130,12 +130,27 @@ def yt_due(now, yt_runs):
     return ""
 
 
+REPORT_SLOTS = ((9, 0), (13, 0), (18, 0), (22, 0))      # owner 21 Nov: the posted report for all pages (news360 posted_report.yml)
+
+
+def report_due(now, rep_runs):
+    """True when a report time passed 25+ min ago (at most 2 h ago) and no report run started since it"""
+    if rep_runs is None:
+        return False
+    ist = now.astimezone(IST)
+    for h, m in REPORT_SLOTS:
+        t = ist.replace(hour=h, minute=m, second=0, microsecond=0)
+        if t + d.timedelta(minutes=25) <= ist < t + d.timedelta(hours=2):
+            return not any(st in BUSY or x >= t for st, x in rep_runs)
+    return False
+
+
 def clean_due(now, clean_runs, minutes=390):
     """the Cloudinary clean-up has not started for 6 h 30 min (its schedule is every 6 hours)"""
     return clean_runs is not None and not busy(clean_runs, now, minutes)
 
 
-def decide(now, rasi, gold, rasi_runs, gold_runs, round_wf, round_runs, pm=None, yt_runs=None, clean_runs=None, paused=False):
+def decide(now, rasi, gold, rasi_runs, gold_runs, round_wf, round_runs, pm=None, yt_runs=None, clean_runs=None, paused=False, rep_runs=None):
     """pure decision (tested): which jobs to start now. rasi / gold / pm: posted_today() result; *_runs: runs()"""
     ist = now.astimezone(IST)
     hm = ist.hour * 60 + ist.minute
@@ -155,6 +170,8 @@ def decide(now, rasi, gold, rasi_runs, gold_runs, round_wf, round_runs, pm=None,
         todo.append("youtube.yml " + slot)
     if clean_due(now, clean_runs):
         todo.append("cloudclean.yml")
+    if report_due(now, rep_runs):
+        todo.append("posted_report.yml")
     return todo
 
 
@@ -166,7 +183,7 @@ def main():
     pm = posted_today("goldrate/state", "pmcheck_", today)
     round_wf = "pick.yml" if runs("pick.yml") is not None else ("research_free.yml" if names("research_free/ENABLED") is not None or raw("research_free/ENABLED") is not None else "")
     todo = decide(now, rasi, gold, runs("rasipalan.yml"), runs("goldrate.yml"), round_wf, runs(round_wf) if round_wf else None, pm,
-                  runs("youtube.yml"), runs("cloudclean.yml"), all_paused(now))
+                  runs("youtube.yml"), runs("cloudclean.yml"), all_paused(now), runs("posted_report.yml"))
     print(f"watchdog {now.astimezone(IST):%H:%M} IST: rasipalan posted={rasi} gold posted={gold} afternoon check={pm} round={round_wf}"
           f" -> {todo or 'nothing due'}")
     for wf in todo:
@@ -184,6 +201,8 @@ def main():
             start("youtube.yml", "slot=" + wf.split()[1])
         elif wf == "cloudclean.yml":
             start(wf, "dry=false", "keep_hours=48")
+        elif wf == "posted_report.yml":
+            start(wf)
 
 
 if __name__ == "__main__":
