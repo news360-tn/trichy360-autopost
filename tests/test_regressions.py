@@ -942,8 +942,13 @@ class SpacedPostingMatrix(unittest.TestCase):
         os.unlink(out.name)
         return json.loads(txt.split("matrix=", 1)[1].split("\n")[0])["include"]
 
-    def test_no_gap_every_ready_news_at_once(self):      # owner 19 Nov: spacing_min 0 - no gap, no stagger
-        self.assertEqual(json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["posting"]["spacing_min"], 0)
+    def test_no_gap_every_ready_news_at_once(self):      # owner 19 Nov: spacing_min 0 - no gap, no stagger (kept working when set)
+        from unittest import mock
+        self.assertEqual(json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["posting"]["spacing_min"], 10)      # owner 21 Nov
+        with mock.patch.dict(post.CONFIG, {"posting": {"spacing_min": 0}}):
+            self.no_gap()
+
+    def no_gap(self):
         for since in (1e9, 5.0, 0.0):
             inc = self.run_check(since)
             self.assertEqual([(x["story"], x["slot"]) for x in inc], [("RN-1", 0), ("RN-2", 0), ("RN-3", 0)], since)

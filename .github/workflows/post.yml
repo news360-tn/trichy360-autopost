@@ -81,7 +81,7 @@ jobs:
           if grep -q "ready to post: [1-9]" .last_check || [ "$(date -u +%M)" -lt 5 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then git add -f .last_check && git commit -qm "check log" && { for i in 1 2 3 4; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true; fi
           # owner 1 Nov: the list of posts already shared to the story (never twice) is saved after every check
           if [ -f poster/story_shared.json ]; then git add -f poster/story_shared.json && git commit -qm "stories shared" && { for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true; fi
-          echo "waiting=$(grep -c 'waits for the 12-minute gap' .last_check 2>/dev/null || true)" >> "$GITHUB_OUTPUT"
+          echo "waiting=$(grep -cE 'waits for the [0-9]+-minute gap' .last_check 2>/dev/null || true)" >> "$GITHUB_OUTPUT"      # owner 21 Nov: any gap length
           if [ "${CHECK_RC:-0}" != "0" ]; then echo "::error::post.py check crashed (exit $CHECK_RC) - nothing was posted in this run"; exit 1; fi
       - name: Facebook - try failed posts again (at most 2 more times, within 24 h)
         if: always() && env.BRIDGE_URL != '' && env.DRY_RUN == ''
@@ -140,10 +140,10 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - name: Wait for the 12-minute gap, then start the next posting run
+      - name: Wait for the gap (config posting.spacing_min, 10 min), then start the next posting run
         run: |
           echo "${{ needs.check.outputs.waiting }} stories wait only for the gap"
-          sleep 660
+          sleep 540      # owner 21 Nov: 10-minute gap (the check itself takes about a minute)
           for i in 1 2 3; do gh workflow run post.yml -R "$GITHUB_REPOSITORY" -f dry_run=false -f prebuild=false && { echo "next posting run started"; break; }; [ $i = 3 ] && echo "::warning::next run not started after 3 tries"; sleep $((i*20)); done      # owner 20 Nov: 3 tries
 
   post:

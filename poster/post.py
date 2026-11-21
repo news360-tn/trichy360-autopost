@@ -1592,8 +1592,44 @@ USED = {}
 LIMIT = {}      # page -> True once Instagram's 24-hour publishing limit (50 posts per account) is reached
 
 
+def ig_pause_file(page):
+    return CACHE / f"_ig_paused_{page}.json"      # in poster/prebuilt: committed by the posting job, read by every later run
+
+
+def ig_paused(page):
+    """'' or why this page's Instagram publishing is paused (owner 21 Nov: Instagram blocked the account's publishing)"""
+    try:
+        d = json.loads(ig_pause_file(page).read_text(encoding="utf-8"))
+        if datetime.fromisoformat(d["until"]) > datetime.now(timezone.utc):
+            return f"Instagram blocked publishing on {page} - paused until {d['until'][:16]} UTC"
+    except Exception:
+        pass
+    return ""
+
+
+def ig_pause(page, e):
+    """owner 21 Nov (Trichy: 5 reels in 3 minutes, then 'action is blocked' 2207051): trying again every few minutes makes the block
+    longer - this page's posting waits config ig_block_pause_hours (6); its news is posted after that, nothing is lost"""
+    try:
+        hours = float(CONFIG.get("ig_block_pause_hours", 6))
+        until = (datetime.now(timezone.utc) + timedelta(hours=hours)).isoformat(timespec="seconds")
+        CACHE.mkdir(parents=True, exist_ok=True)
+        ig_pause_file(page).write_text(json.dumps({"until": until, "why": str(e)[:300]}, indent=1), encoding="utf-8")
+        log(f"BLOCKED: Instagram blocked publishing on {page} - its posting pauses {hours:g} h (until {until[:16]} UTC), news waits")
+    except Exception as x:
+        log("pause not saved:", str(x)[:150])
+
+
+def is_blocked(e):
+    t = str(e).lower()
+    return "2207051" in t or "action is blocked" in t
+
+
 def is_limit_error(e):
     t = str(e).lower()
+    if is_blocked(e):      # owner 21 Nov: a block waits like the daily limit (never "tried again in the next run" every 8 minutes)
+        ig_pause(PAGE, e)
+        return True
     return "2207042" in t or "publish limit" in t or "publishing limit" in t or "maximum number of" in t and "posts" in t
 
 
@@ -1609,6 +1645,11 @@ def limit_reached(page):
     nothing is marked failed)."""
     if page in LIMIT:
         return LIMIT[page]
+    why = ig_paused(page)
+    if why:      # owner 21 Nov: the page's Instagram publishing is paused after a block
+        log(why)
+        LIMIT[page] = True
+        return True
     LIMIT[page] = False
     if DRY:
         return False
