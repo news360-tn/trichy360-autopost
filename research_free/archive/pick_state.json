@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-21T23:13:11.754242+05:30",
+ "last_end": "2026-11-22T02:08:10.181130+05:30",
  "pool": {
   "C50888a2": {
    "id": "C50888a2",
@@ -29,47 +29,59 @@
    "picked_at": "2026-11-21T16:36:29.347363+05:30",
    "refused": "not filed: duplicate after write"
   },
-  "Cca79a79": {
-   "id": "Cca79a79",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/file-a-case-against-the-deputy-speaker-and-call-for-an-inquiry-the-victim-petitioned-the-police/4382799",
-   "title": "துணை சபாநாயகர் மீது வழக்கு போட்டுவிட்டு விசாரணைக்கு அழையுங்கள்; பாதிக்கப்பட்டவர் போலீசிடம் மனு",
-   "summary": "திருச்சி மாவட்டம், துறையூரை சேர்ந்தவர் கார்த்திக்குமார், 49. இவரை, கடந்த 8ம் தேதி இரவு, துணை சபாநாயகர், அவருடைய மகன் மற்றும் நண்பர்கள் சேர்ந்து தாக்கியதாக, போலீசில் புகார் அளித்தார்.",
-   "source": "தினமலர்",
-   "published": "2026-11-21T22:10:00+05:30",
-   "category": "பொது",
-   "score": 10.0,
+  "C5d1f18f": {
+   "id": "C5d1f18f",
+   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/power-outage-in-kallakudi-areas-tomorrow",
+   "title": "கல்லக்குடி பகுதிகளில் நாளை மின்தடை",
+   "summary": "பராமரிப்புப் பணிகள் காரணமாக திருச்சி மாவட்டம் கல்லக்குடி உள்ளிட்ட பகுதிகளில் திங்கள்கிழமை (நவ. 23) மின்தடை செய்யப்படுகிறது..இதுகுறித்து திருச்சி மாவட்ட மின்வாரியம் வெளியிட்ட செய்திக்குறிப்பு: கல்லக்குடி துணை மின்நிலைய...",
+   "source": "தினமணி",
+   "published": "2026-11-21T19:08:24.803Z",
+   "category": "மின்தடை",
+   "score": 12.05,
+   "power_cut": true,
+   "listed_at": "2026-11-22T02:08:10.181130+05:30"
+  },
+  "C84eb844": {
+   "id": "C84eb844",
+   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/பேருந்தில்-பெண்ணிடம்-16-பவுன்-நகைகள்-திருட்டு",
+   "title": "பேருந்தில் பெண்ணிடம் 16 பவுன் நகைகள் திருட்டு",
+   "summary": "பேருந்தில் திருச்சி பெண்ணிடம் 16 பவுன் நகையை நூதன முறையில் திருடிய 3 பெண்களை போலீஸாா் தேடி வருகின்றனா்..திருச்சி கே.கே. காலனி 3 ஆவது தெருவைச் சோ்ந்த ரமேஷ் மனைவி சுரேகா (46).",
+   "source": "தினமணி",
+   "published": "2026-11-21T19:06:02.509Z",
+   "category": "குற்றம்",
+   "score": 13.5,
    "power_cut": false,
-   "listed_at": "2026-11-21T23:13:11.754242+05:30",
-   "picked_at": "2026-11-21T23:14:46.675206+05:30",
-   "posted": true
+   "alts": [
+    "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/%E0%AE%AA%E0%AF%87%E0%AE%B0%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%AA%E0%AF%86%E0%AE%A3%E0%AF%8D%E0%AE%A3%E0%AE%BF%E0%AE%9F%E0%AE%AE%E0%AF%8D-16-%E0%AE%AA%E0%AE%B5%E0%AF%81%E0%AE%A9%E0%AF%8D-%E0%AE%A8%E0%AE%95%E0%AF%88%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AF%81"
+   ],
+   "listed_at": "2026-11-22T02:08:10.181130+05:30"
+  },
+  "C47521ff": {
+   "id": "C47521ff",
+   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/irumudi-and-thaipusam-festival-114-trains-to-halt-at-melmaruvathur",
+   "title": "இருமுடி, தைப்பூசத் திருவிழா: மேல்மருவத்தூரில் 114 ரயில்கள் நின்று செல்லும்!",
+   "summary": "இருமுடி, தைப்பூசத் திருவிழாவை முன்னிட்டு மேல்மருவத்தூா் ரயில் நிலையத்தில் 114 ரயில்கள் நின்று செல்லும்..இதன்படி, சென்னை எழும்பூா் - திருச்சி விரைவு ரயில், சென்னை எழும்பூா் - மதுரை விரைவு ரயில், சென்னை எழும்பூா் - செங்...",
+   "source": "தினமணி",
+   "published": "2026-11-21T19:02:34.721Z",
+   "category": "ரயில்",
+   "score": 5.5,
+   "power_cut": false,
+   "listed_at": "2026-11-22T02:08:10.181130+05:30"
+  },
+  "Cb84e6c5": {
+   "id": "Cb84e6c5",
+   "url": "https://www.dinamani.com/all-editions/edition-trichy/pudukottai/2026/Nov/21/%E0%AE%AE%E0%AF%87%E0%AE%B2%E0%AF%8D%E0%AE%A8%E0%AE%BF%E0%AE%B2%E0%AF%88-%E0%AE%A8%E0%AF%80%E0%AE%BE%E0%AF%8D%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%87%E0%AE%95%E0%AF%8D%E0%AE%95-%E0%AE%A4%E0%AF%8A%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%BF%E0%AE%AF%E0%AF%88%E0%AE%9A%E0%AF%80%E0%AE%B0%E0%AE%AE%E0%AF%88%E0%AE%95%E0%AF%8D%E0%AE%95-%E0%AE%AA%E0%AF%8A%E0%AE%A4%E0%AF%81%E0%AE%AE%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%95%E0%AF%8B%E0%AE%B0%E0%AE%BF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%88",
+   "title": "மேல்நிலை நீா்த்தேக்க தொட்டியை சீரமைக்க பொதுமக்கள் கோரிக்கை",
+   "summary": "விராலிமலை அடுத்துள்ள மருதம்பட்டியில் சிதிலமடைந்து வரும் மேல்நிலை நீா்த்தேக்க தொட்டியை சீரமைக்க வேண்டும் என பொதுமக்கள் கோரிக்கை விடுத்துள்ளனா்..விராலிமலை ஒன்றியம், மருதம்பட்டி ஊராட்சியில் நூற்றுக்கும் மேற்பட்ட குடும்பங...",
+   "source": "தினமணி",
+   "published": "2026-11-21T19:08:39.206Z",
+   "category": "பொது",
+   "score": 3.0,
+   "power_cut": false,
+   "listed_at": "2026-11-22T02:08:10.181130+05:30"
   }
  },
  "rounds": {
-  "2026-11-19_02": {
-   "window": [
-    "2026-11-18T22:10:22.877930+05:30",
-    "2026-11-19T02:32:58.883337+05:30"
-   ],
-   "ids": [
-    "C1b08ab2",
-    "C0bd6af7",
-    "C1a99b90"
-   ],
-   "sent": false,
-   "deadline": "2026-11-19T03:32:58.883337+05:30",
-   "decided": {
-    "how": "automatic: top 2 of 3 by insights",
-    "ids": [
-     "C1b08ab2",
-     "C0bd6af7"
-    ],
-    "at": "2026-11-19T02:35:01.567597+05:30"
-   },
-   "written": [
-    "C0bd6af7",
-    "C1b08ab2"
-   ]
-  },
   "2026-11-19_06": {
    "window": [
     "2026-11-19T02:32:58.883337+05:30",
@@ -513,6 +525,22 @@
    "written": [
     "Cca79a79"
    ]
+  },
+  "2026-11-22_02": {
+   "window": [
+    "2026-11-21T23:13:11.754242+05:30",
+    "2026-11-22T02:08:10.181130+05:30"
+   ],
+   "ids": [
+    "C5d1f18f",
+    "C84eb844",
+    "C47521ff",
+    "Cb84e6c5"
+   ],
+   "sent": false,
+   "deadline": "2026-11-22T03:08:10.181130+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}

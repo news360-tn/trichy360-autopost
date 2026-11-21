@@ -50,5 +50,31 @@
     "Tuticorin, Tamil Nadu": 12
    }
   }
+ },
+ "2026-11-22": {
+  "trichy": {
+   "reach": 28234,
+   "reach_by_follow_type": {
+    "FOLLOWER": 1001,
+    "NON_FOLLOWER": 27381
+   },
+   "follower_cities": {
+    "Tiruchirappalli, Tamil Nadu": 805,
+    "Chennai, Tamil Nadu": 115,
+    "Kulittalai, Tamil Nadu": 106,
+    "Lalgudi, Tamil Nadu": 40,
+    "Musiri, Tamil Nadu": 35,
+    "Tuticorin, Tamil Nadu": 33,
+    "Madurai, Tamil Nadu": 32,
+    "Manapparai, Tamil Nadu": 27,
+    "Karur, Tamil Nadu": 22,
+    "Mannachanallur, Tamil Nadu": 22,
+    "Coimbatore, Tamil Nadu": 21,
+    "Tiruchengodu, Tamil Nadu": 21,
+    "Turaiyur, Tamil Nadu": 19,
+    "Palladam, Tamil Nadu": 15,
+    "Tirupur, Tamil Nadu": 15
+   }
+  }
  }
 }
