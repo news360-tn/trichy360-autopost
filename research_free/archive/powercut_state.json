@@ -847,7 +847,7 @@
    "title": "இன்றைய மின் தடை: திருவள்ளூர்"
   },
   "https://tamil.abplive.com/news/trichy/trichy-power-cut-21-11-2026-know-timings-areas-affected-by-power-shutdown-280205/amp#district-section": {
-   "at": "2026-11-21T21:10:35.714957+05:30",
+   "at": "2026-11-21T21:44:01.781311+05:30",
    "power_cut": true,
    "why": "power cut ends today at 15:00 - too late to post",
    "title": "திருச்சி மாவட்டத்தில் நாளை (21-11-2026) மின்தடை: பல்வேறு பகுதிகளில் (நவம்பர் 21, 2026, சனிக்கிழமை) மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெற உள்ளதால், காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம் தடை"
@@ -899,6 +899,48 @@
    "power_cut": false,
    "why": "other district",
    "title": "24ம் தேதி மின் நிறுத்தம்"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/power-outage-today-inthanganagar-and-balakrishnampatti-areas": {
+   "at": "2026-11-21T21:44:01.781311+05:30",
+   "power_cut": true,
+   "why": "cut day 2026-11-13 has passed",
+   "title": "தங்கநகா், பாலகிருஷ்ணம்பட்டி பகுதிகளில் இன்று மின்தடை"
+  },
+  "https://www.dinamani.com/all-editions/edition-coimbatore/coimbatore/2026/Nov/10/நாளைய-மின்தடை-பீளமேடு-முத்துக்கவுண்டன்புதூா்": {
+   "at": "2026-11-21T21:44:01.781311+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "நாளைய மின்தடை: பீளமேடு, முத்துக்கவுண்டன்புதூா்"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/10/திருச்சியில்-நாளை-மின்தடை": {
+   "at": "2026-11-21T21:44:01.781311+05:30",
+   "power_cut": true,
+   "why": "cut day 2026-11-12 has passed",
+   "title": "திருச்சியில் நாளை மின்தடை"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/10-years-for-man-who-raped-woman/4374571": {
+   "at": "2026-11-21T21:44:01.781311+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "பெண்ணை பலாத்காரம் செய்தவருக்கு 10 ஆண்டு"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/man-stabbed-to-death-at-police-station-gate/4374557": {
+   "at": "2026-11-21T21:44:01.781311+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "போலீஸ் ஸ்டேஷன் வாசலில் கழுத்தறுத்து கொண்டவரால் பரபரப்பு"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/federation-for-crop-loan-waiver-announces-protest-in-front-of-central-co-operative-bank-on-november-25/4374556": {
+   "at": "2026-11-21T21:44:01.781311+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "நவ., 25ல் மத்திய கூட்டுறவு வங்கி முன் போராட்டம் பயிர் கடன் தள்ளுபடிக்கான கூட்டமைப்பு அறிவிப்பு"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/driver-killed-as-truck-overturns/4374510": {
+   "at": "2026-11-21T21:44:01.781311+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி"
   }
  },
  "done": {
