@@ -36,7 +36,8 @@
    "score": 4.53,
    "power_cut": false,
    "listed_at": "2026-11-21T08:50:38.505122+05:30",
-   "picked_at": "2026-11-21T08:53:48.998128+05:30"
+   "picked_at": "2026-11-21T08:53:48.998128+05:30",
+   "posted": true
   },
   "C50888a2": {
    "id": "C50888a2",
@@ -49,7 +50,8 @@
    "score": 4.51,
    "power_cut": false,
    "listed_at": "2026-11-21T08:50:38.505122+05:30",
-   "picked_at": "2026-11-21T08:53:48.998130+05:30"
+   "picked_at": "2026-11-21T08:53:48.998130+05:30",
+   "refused": "not filed: duplicate after write"
   },
   "Cbd3c1d6": {
    "id": "Cbd3c1d6",
@@ -62,7 +64,8 @@
    "score": 2.5300000000000002,
    "power_cut": false,
    "listed_at": "2026-11-21T08:50:38.505122+05:30",
-   "picked_at": "2026-11-21T08:53:48.998149+05:30"
+   "picked_at": "2026-11-21T08:53:48.998149+05:30",
+   "posted": true
   }
  },
  "rounds": {
@@ -553,7 +556,10 @@
     "C15ca9cc",
     "C50888a2",
     "Cbd3c1d6"
-   ]
+   ],
+   "refused": {
+    "C50888a2": "not filed: duplicate after write"
+   }
   }
  },
  "retry": {}
