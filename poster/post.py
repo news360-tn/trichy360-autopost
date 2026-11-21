@@ -2284,7 +2284,7 @@ def run_story_page(row, page):
                     website.send(row, link)
                 except Exception as e:
                     log("website step skipped:", str(e)[:150])
-                fb = share_facebook(sid, "reel", [url], caption, row=row)
+                fb = share_facebook(sid, "reel", [url], caption, row=row, ig_media=mid)      # owner 21 Nov: waits if the gap is not over
                 if fb:
                     done.append(("facebook", fb))
         except Exception as e:
@@ -2320,7 +2320,43 @@ def fb_rank(row):
         return None
 
 
-def share_facebook(sid, kind, media, caption, dry=False, row=None):
+def facebook_catchup():
+    """owner 21 Nov ("Facebook also posts all the news Instagram posts"): a news that came within the Facebook gap waits
+    (poster/fb_posted status 'waiting'); here, in every posting check, the oldest one per page goes out once the gap has passed -
+    its video is read back from the Instagram post (no Cloudinary) and sent to Facebook as a file. Never raises."""
+    if DRY or quiet_now():
+        return
+    try:
+        import facebook
+    except Exception:
+        return
+    for pg in LABEL:
+        try:
+            if not facebook.creds(pg):
+                continue
+            d = facebook.next_waiting(pg)
+            if not d:
+                continue
+            why = facebook.gate(pg, None)
+            if why:
+                log(f"Facebook catch-up {pg}: {d.get('story')} still waits ({why})")
+                continue
+            token = bridge_get("token", page=pg)["token"]
+            url = (ig("GET", d["ig_media"], token, fields="media_url") or {}).get("media_url")
+            path = localmedia.download(url, "facebook.mp4") if url else None
+            if not path:
+                d["tries"] = int(d.get("tries", 0)) + 1
+                facebook._save(pg, d["story"], d.get("kind", "reel"), d)
+                log(f"Facebook catch-up {pg}: the video of {d.get('story')} could not be read (try {d['tries']})")
+                continue
+            log(f"Facebook catch-up {pg}: {d.get('story')} goes to Facebook now (waited since {str(d.get('waiting_since'))[:16]} UTC)")
+            facebook._attempt(pg, d["story"], d.get("kind", "reel"), [localmedia.ref(path)], d.get("caption", ""), d,
+                              d.get("with_story", True), d.get("link", ""), d.get("comment", ""))
+        except Exception as e:
+            log(f"Facebook catch-up {pg} skipped:", str(e)[:200])
+
+
+def share_facebook(sid, kind, media, caption, dry=False, row=None, ig_media=""):
     """owner 2 Nov: Instagram posts also go to this page's Facebook page with a story; owner 11 Nov: only the top news (fb_rank),
     with the article link. kind 'reel' or 'photos'. Never raises - Instagram is never touched."""
     try:
@@ -2328,7 +2364,7 @@ def share_facebook(sid, kind, media, caption, dry=False, row=None):
         src = str((row or {}).get("source") or "").strip()
         com = source_comment(row) if row and CONFIG.get("first_comment", False) else ""      # owner 20 Nov: the Instagram first comment
         return facebook.share(PAGE, sid, kind, media, caption, TAG, dry=dry, rank=fb_rank(row) if row else None,
-                              source_link=src if src.startswith("http") else "", comment=com)
+                              source_link=src if src.startswith("http") else "", comment=com, ig_media=ig_media)
     except Exception as e:
         log("Facebook step skipped:", str(e)[:150])
         return ""
@@ -2465,6 +2501,7 @@ def main():
         n = len(pick_all(rows))
     if mode == "check":
         story_catchup()      # owner 1 Nov: no post without its story
+        facebook_catchup()      # owner 21 Nov: every news that is on Instagram also goes to Facebook
         log(f"{len(rows)} stories in the queue, ready to post: {n}")
         if rows:
             log("  keys:", sorted(rows[0].keys()))

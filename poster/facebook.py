@@ -34,9 +34,9 @@ WAIT_READY_S = int(os.environ.get("FB_WAIT_S", "300") or 300)
 FB_TAGS = 3              # Facebook: town + topic + page tag (many hashtags do not help there)
 # owner 11 Nov: from 7 Nov Facebook refused most reels (error 368 "we limit how often you can post") - new pages, 13-17 API reels a day.
 # Facebook now gets only the TOP news (urgent, or a topic the page's insights rank best), few a day, spaced; a 368 pauses the page 24 h.
-TOP_PER_DAY = int(os.environ.get("FB_TOP_PER_DAY", "18") or 18)      # owner 20 Nov: 15-20 news a day per Facebook page (Facebook allows 30 API reels)
+TOP_PER_DAY = int(os.environ.get("FB_TOP_PER_DAY", "25") or 25)      # owner 21 Nov: every news on Facebook too - up to 25 a day      # owner 20 Nov: 15-20 news a day per Facebook page (Facebook allows 30 API reels)
 TOP_ONLY = os.environ.get("FB_TOP_ONLY", "0") == "1"      # owner 20 Nov: every news goes (1 = only the top news, as from 11 Nov)
-GAP_MIN = int(os.environ.get("FB_GAP_MIN", "45") or 45)      # owner 20 Nov: 18 a day fit in the day with 45 min between posts
+GAP_MIN = int(os.environ.get("FB_GAP_MIN", "30") or 30)      # owner 21 Nov: 30 min (a news that comes sooner WAITS, it is not dropped)      # owner 20 Nov: 18 a day fit in the day with 45 min between posts
 MIN_WEIGHT = float(os.environ.get("FB_MIN_WEIGHT", "0.4") or 0.4)
 PAUSE_HOURS = 24
 # owner 20 Nov (more Facebook views): the article link goes in the FIRST COMMENT, not the post text (Facebook shows posts with an outside
@@ -159,6 +159,35 @@ def gate(page, rank, always=False):
     if last and (_now() - last).total_seconds() < GAP_MIN * 60 and not (rank or {}).get("urgent"):
         return f"less than {GAP_MIN} min since the last Facebook post"
     return ""
+
+
+WAIT_HOURS = 24      # owner 21 Nov: a news waits for Facebook at most 24 hours (older news is not worth posting)
+
+
+def wait_reason(why):
+    """the gate said 'not now' (gap / day's limit / page paused) - the news waits instead of being dropped"""
+    w = str(why or "")
+    return w.startswith("less than") or "limit" in w or "paused" in w or "limited" in w
+
+
+def next_waiting(page):
+    """the oldest news waiting for this page's Facebook; waiting news older than WAIT_HOURS are given up"""
+    best, cut = None, _now() - dt.timedelta(hours=WAIT_HOURS)
+    for f in sorted(STATE.glob(f"{page}-*.json")) if STATE.exists() else []:
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+            if d.get("status") != "waiting":
+                continue
+            since = dt.datetime.fromisoformat(d.get("waiting_since") or d.get("updated"))
+        except Exception:
+            continue
+        if since < cut or int(d.get("tries", 0)) >= MAX_TRIES:
+            d.update(status="skipped", why="waited too long for Facebook (more than 24 h or 3 tries)")
+            f.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+            continue
+        if best is None or since < best[0]:
+            best = (since, d)
+    return best[1] if best else None
 
 
 def fb_caption(cap, page_tag, tags=None):
@@ -365,7 +394,8 @@ def _attempt(page, sid, kind, media, caption, prev, story=True, link="", comment
     return link
 
 
-def share(page, sid, kind, media, caption, page_tag, dry=False, tags=None, story=True, rank=None, always=False, source_link="", comment=""):
+def share(page, sid, kind, media, caption, page_tag, dry=False, tags=None, story=True, rank=None, always=False, source_link="", comment="",
+          ig_media=""):
     """kind 'reel' (media = [video url]) or 'photos' (media = image urls). Called right after the Instagram post is published.
     Never raises. Returns the Facebook link or ''."""
     try:
@@ -384,6 +414,12 @@ def share(page, sid, kind, media, caption, page_tag, dry=False, tags=None, story
         if not LINK_IN_COMMENT:
             cap, src, comment = with_link(cap, src), "", ""
         why = gate(page, rank, always)
+        if why and not dry and kind == "reel" and ig_media and wait_reason(why):
+            # owner 21 Nov: every news goes to Facebook too - it waits and post.py's facebook_catchup() posts it when the gap allows
+            _save(page, sid, kind, {"status": "waiting", "why": why, "ig_media": ig_media, "caption": cap, "link": src, "comment": comment,
+                                    "with_story": story, "waiting_since": _now().isoformat(timespec="seconds")})
+            log(f"Facebook: {sid} waits ({why}) - posted when the gap allows")
+            return ""
         if why:
             if not dry:
                 _save(page, sid, kind, {"status": "skipped", "why": why, "media": media})
