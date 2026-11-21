@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-21T08:50:38.505122+05:30",
+ "last_end": "2026-11-21T12:39:29.812250+05:30",
  "pool": {
   "C7d7d371": {
    "id": "C7d7d371",
@@ -25,20 +25,6 @@
    "power_cut": false,
    "listed_at": "2026-11-20T21:49:01.891036+05:30"
   },
-  "C15ca9cc": {
-   "id": "C15ca9cc",
-   "url": "https://www.dinamani.com/tamilnadu/2026/Nov/21/cm-vijay-to-visit-trichy-on-nov-23",
-   "title": "நவ. 23-இல் திருச்சி செல்கிறார் முதல்வர் விஜய்?",
-   "summary": "திருச்சி புத்துார் அரசு மருத்துவமனை வளாகத்தில் கட்டப்பட்டுள்ள புதிய மருத்துவ கட்டடத்தின் திறப்பு விழா மற்றும் அரசு நலத் திட்ட உதவிகள் வழங்கும் விழாவைத் தொடக்கி வைக்கவும் முதல்வர் விஜய் நவ.",
-   "source": "தினமணி",
-   "published": "2026-11-21T02:01:15.360Z",
-   "category": "பொது",
-   "score": 4.53,
-   "power_cut": false,
-   "listed_at": "2026-11-21T08:50:38.505122+05:30",
-   "picked_at": "2026-11-21T08:53:48.998128+05:30",
-   "posted": true
-  },
   "C50888a2": {
    "id": "C50888a2",
    "url": "https://www.hindutamil.in/news/spirituals/tirupati-temple-presents-sacred-vestments-to-srirangam-ranganathaswamy-temple",
@@ -52,63 +38,9 @@
    "listed_at": "2026-11-21T08:50:38.505122+05:30",
    "picked_at": "2026-11-21T08:53:48.998130+05:30",
    "refused": "not filed: duplicate after write"
-  },
-  "Cbd3c1d6": {
-   "id": "Cbd3c1d6",
-   "url": "https://www.dailythanthi.com/news/tamilnadu/chief-minister-vijay-trichy-visit",
-   "title": "முதல்-அமைச்சர் விஜய் நாளை மறுதினம் திருச்சி பயணம்",
-   "summary": "சென்னை,முதல்-அமைச்சர் விஜய் நாளை மறுதினம் திருச்சிக்கு பயணம் மேற்கொள்ள உள்ளார். .முதல்-அமைச்சர் விஜய் நேற்று திருச்சிக்கு செல்ல திட்டமிட்டிருந்தார்.",
-   "source": "தினத்தந்தி",
-   "published": "2026-11-21T02:50:49Z",
-   "category": "பொது",
-   "score": 2.5300000000000002,
-   "power_cut": false,
-   "listed_at": "2026-11-21T08:50:38.505122+05:30",
-   "picked_at": "2026-11-21T08:53:48.998149+05:30",
-   "posted": true
   }
  },
  "rounds": {
-  "2026-11-18_07": {
-   "window": [
-    "2026-11-17T22:30:09.518078+05:30",
-    "2026-11-18T07:17:45.305326+05:30"
-   ],
-   "ids": [
-    "C6f5c40c",
-    "Ce3c4dce",
-    "C3ef5a78",
-    "C9e1a631",
-    "C041f849",
-    "C5560d3a",
-    "C1871e7e",
-    "C6e948ca"
-   ],
-   "sent": false,
-   "deadline": "2026-11-18T08:17:45.305326+05:30",
-   "decided": {
-    "how": "automatic: top 7 of 8 by insights",
-    "ids": [
-     "C6f5c40c",
-     "Ce3c4dce",
-     "C3ef5a78",
-     "C9e1a631",
-     "C041f849",
-     "C5560d3a",
-     "C1871e7e"
-    ],
-    "at": "2026-11-18T07:21:38.646698+05:30"
-   },
-   "written": [
-    "C041f849",
-    "C1871e7e",
-    "C3ef5a78",
-    "C5560d3a",
-    "C6f5c40c",
-    "C9e1a631",
-    "Ce3c4dce"
-   ]
-  },
   "2026-11-18_10": {
    "window": [
     "2026-11-18T07:17:45.305326+05:30",
@@ -560,6 +492,20 @@
    "refused": {
     "C50888a2": "not filed: duplicate after write"
    }
+  },
+  "2026-11-21_12": {
+   "window": [
+    "2026-11-21T08:50:38.505122+05:30",
+    "2026-11-21T12:39:29.812250+05:30"
+   ],
+   "ids": [
+    "C1f4c953",
+    "C7d7d371"
+   ],
+   "sent": false,
+   "deadline": "2026-11-21T13:39:29.812250+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}
