@@ -1072,6 +1072,12 @@ def main():
         queues[AREA] = pcs + [q for q in queues[AREA] if q not in pcs]
         target = {AREA: MAX_STORIES + len(pcs)}
         log.append(f"round: top {MAX_STORIES} of {len(queues[AREA])} candidates" + (f" + {len(pcs)} power cut(s)" if pcs else ""))
+    capped = TODAY[0] >= DAILY_CAP      # owner 21 Nov: the day's maximum stops this round (all of it, or the rest of it)
+    room = DAILY_CAP - TODAY[0]      # owner 21 Nov: at most 30-35 news a day - a round never takes the day past the maximum
+    if 0 < room < target[AREA]:
+        capped = True
+        target[AREA] = max(room, len([q for q in queues[AREA] if _fr().is_power_cut(q["title"])]))      # power cuts always go
+        log.append(f"daily maximum {DAILY_CAP}: {TODAY[0]} written today - this round writes at most {target[AREA]}")
     if TODAY[0] >= DAILY_CAP:
         log.append(f"daily cap: {TODAY[0]} stories already written today (cap {DAILY_CAP}) - only main / important news is written now")
     if os.environ.get("WRITE_STORIES", "1") == "0" or TODAY[0] >= DAILY_CAP:      # archive-only round: collect and store everything, write nothing, send no email
@@ -1131,6 +1137,8 @@ def main():
                         break
         except Exception as e:
             return {"skip": f"could not open the article: {str(e)[:60]}", "log": f"skip ({area}) could not open: {n['title'][:50]} [{n['url'][:60]}] {str(e)[:80]}"}
+        if not re.fullmatch(r"https?://\S+", str(url or "").strip()):      # owner 21 Nov: only news with its source link is written (and posted)
+            return {"skip": "no source link", "s": "notext", "log": f"skip ({area}) no source link: {(art.get('title') or n.get('title') or '')[:50]}"}
         if url in seen_src or any(r.get("source") == url for r in recent):
             return {"skip": "already filed", "s": "dup", "log": f"skip ({area}) already filed: {art['title'][:50]}"}
         bw = len(body_words(art))
@@ -1282,6 +1290,10 @@ def main():
         # the writer goes on at once (after this run has saved the queue - both share one concurrency group, so it starts when this one ends);
         # a writer round that could not write anything does not restart itself (no loop) - its 20-minute schedule tries again
         trigger_workflow("write_stories.yml", None, log)
+    if PICK_ONLY and capped:      # owner 21 Nov: a picked news the day's maximum stopped is 'not written' on purpose - the round check
+        for n in news:            # (pick.py verify) counts it as skipped, not as a failure (no red run, no e-mail)
+            if n["status"] == "collected" and n.get("manual"):
+                n["status"] = f"not written: the day's maximum of {DAILY_CAP} news was reached"
     for n in news:
         if n["status"] == "collected":
             n["status"] = "queued for writing" if MODE == "collect" else "collected (not in this round's top)"

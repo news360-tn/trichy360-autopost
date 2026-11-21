@@ -140,10 +140,10 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - name: Wait for the gap (config posting.spacing_min, 10 min), then start the next posting run
+      - name: Wait for the gap (config posting.spacing_min, 5 min), then start the next posting run
         run: |
           echo "${{ needs.check.outputs.waiting }} stories wait only for the gap"
-          sleep 540      # owner 21 Nov: 10-minute gap (the check itself takes about a minute)
+          sleep 240      # owner 21 Nov: 5-minute gap (the check itself takes about a minute)
           for i in 1 2 3; do gh workflow run post.yml -R "$GITHUB_REPOSITORY" -f dry_run=false -f prebuild=false && { echo "next posting run started"; break; }; [ $i = 3 ] && echo "::warning::next run not started after 3 tries"; sleep $((i*20)); done      # owner 20 Nov: 3 tries
 
   post:

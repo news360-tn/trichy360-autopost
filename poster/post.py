@@ -135,10 +135,22 @@ def in_prime_time(now=None):
     return any(a <= hm < b for a, b in (CONFIG.get("prime_time") or {}).get("windows", []))
 
 
+def quiet_now(now=None):
+    """owner 21 Nov: nothing is posted on Instagram from 00:00 to 05:00 IST (config prime_time.quiet_ist) - not even power cuts"""
+    q = (CONFIG.get("prime_time") or {}).get("quiet_ist") or []
+    if len(q) != 2:
+        return ""
+    hm = (now or datetime.now(IST)).strftime("%H:%M")
+    return f"night: nothing is posted {q[0]}-{q[1]} IST (owner 21 Nov)" if q[0] <= hm < q[1] else ""
+
+
 def prime_wait(row, now=None):
     """'' = post now. Otherwise why this reel waits. owner 13 Nov: news is collected every 4 hours; a story waits for the first posting
     START time (config prime_time.starts) after it was filed, then posts with all the other waiting news - there is NO end time and
     nothing is skipped. Only power cuts post at once; a story that has waited max_wait_hours goes out whatever the hour."""
+    night = quiet_now(now)
+    if night:      # owner 21 Nov: before every other rule
+        return night
     pt = CONFIG.get("prime_time") or {}
     if not pt.get("enabled"):
         return ""
@@ -284,7 +296,7 @@ def _skip_reason_base(row):
         ki = known_issues.problems(fixed)
         if ki:
             return f"known issue {ki[0][0]}: {ki[0][1]}"
-    if link_hold(row):      # owner 19 Nov: a sensitive news only with its source link (an owner pick too - add the link to post it)
+    if link_hold(row):      # owner 21 Nov: every news only with its source link (an owner pick too - add the link to post it)
         return link_hold(row)
     if owner_picked(row):
         return ""
@@ -1353,15 +1365,16 @@ def is_source_comment(text):
 
 
 def link_hold(row):
-    """owner 19 Nov: a sensitive news (death / accident / crime / court / missing person / sexual offence) goes out ONLY with its source
-    link. '' = fine. The owner's own ready reels are posted as they are."""
-    if is_ready_reel(row) or not comment_kind(row)["needs_link"] or re.fullmatch(r"https?://\S+", str(row.get("source") or "").strip()):
+    """owner 21 Nov: ONLY news with its source link is posted (19 Nov: only sensitive news needed it) - so every news reel carries the
+    source comment with the article link. '' = fine. The owner's own ready reels are posted as they are."""
+    if is_ready_reel(row) or re.fullmatch(r"https?://\S+", str(row.get("source") or "").strip()):
         return ""
-    return "held: sensitive news without its source link (owner 19 Nov) - add the article link in the source column to post it"
+    return "held: no source link (owner 21 Nov: only news with its source link is posted) - add the article link in the source column to post it"
 
 
 def first_comment(token, media_id, sid, row):
     """owner 19 Nov: the source comment above, posted by the page right after the news post is recorded - automatically, no approval.
+    owner 21 Nov: every news reel has it - only news with its source link is posted (link_hold); a refused comment is tried once more.
     Never raises: a comment problem never touches the post."""
     try:
         if not CONFIG.get("first_comment", False) or not media_id or not row:
@@ -1370,8 +1383,16 @@ def first_comment(token, media_id, sid, row):
         if not msg:
             log("source comment not added: the news source is not known", sid)
             return
-        ig("POST", f"{media_id}/comments", token, message=msg)
-        log("source comment added", sid, media_id)
+        for attempt in (1, 2):
+            try:
+                ig("POST", f"{media_id}/comments", token, message=msg)
+                log("source comment added", sid, media_id)
+                return
+            except Exception as e:
+                if attempt == 2 or not is_transient(e):
+                    raise
+                log("source comment refused once - trying again:", str(e)[:150])
+                time.sleep(8)
     except Exception as e:
         log("source comment not added (post itself is fine):", str(e)[:300])
 
@@ -1450,6 +1471,9 @@ def story_catchup(max_new=6):
     leaves room for news posts). Never raises."""
     if DRY or not CONFIG.get("post_stories", True):
         log("story catch-up off (test run or post_stories false)")
+        return
+    if quiet_now():      # owner 21 Nov: no Instagram posts at night, stories included
+        log("story catch-up waits:", quiet_now())
         return
     reserve = int(CONFIG.get("story_reserve", 5))
     try:
@@ -1807,6 +1831,7 @@ def run_ready_reel(row, page):
         share_facebook(sid, "reel", [url], caption, row=row)
         bridge_post("posted", {"row": row["row"], "page": PAGE, "kind": "reel", "permalink": link, "media_id": mid, "media_urls": [url],
                                "caption": caption, "voice": "ready-made", "collab": False, "checks": "ready reel posted as received (owner verified; no duplicate check)"})
+        first_comment(token, mid, sid, row)      # owner 21 Nov: the owner's own reel gets the source comment too (when its source is known)
         return [("reel", link)]
     except Exception as e:
         if is_limit_error(e):

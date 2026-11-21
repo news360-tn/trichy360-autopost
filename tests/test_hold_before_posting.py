@@ -7,6 +7,14 @@ import post
 class HoldBeforePosting(unittest.TestCase):
     """owner 2 Nov (RN-272): a draft with fact-check problems, or an unknown location, is never posted"""
 
+    def setUp(self):      # owner 21 Nov: the source-link rule (tested in test_source_link_21nov.py) is set aside here - these rows test the other holds
+        from unittest import mock
+        self._link = mock.patch.object(post, "link_hold", return_value="")
+        self._link.start()
+
+    def tearDown(self):
+        self._link.stop()
+
     def row(self, **kw):
         base = dict(verification="DRAFT (m) - fact-check: no problems found", location="Tiruchengode town, Namakkal district", caption="x", reel_script="y",
                     source="", published="", headline_ta="", category="", notes="", batch="", review="Auto")

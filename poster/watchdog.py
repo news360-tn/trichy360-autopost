@@ -78,12 +78,12 @@ def start(wf, *inputs):
     print(("started " if r.returncode == 0 else "could not start ") + wf, (r.stderr or "").strip()[:200])
 
 
-ROUNDS = ((4, 0), (8, 30), (13, 0), (16, 30), (18, 30))      # owner 19 Nov: the collection rounds (IST), fitted to the posting windows
+ROUNDS = ((4, 0), (8, 0), (12, 0), (16, 0), (20, 0))      # owner 21 Nov: the collection rounds (IST), every 4 hours (pick.yml / research_free.yml)
 
 
 def round_overdue(now, round_runs):
     """a scheduled round passed 25+ min ago (within the last 2 h) and no round started since: GitHub skipped / delayed it.
-    Never at night: after 20:30 nothing is restarted until the 04:00 round."""
+    Never at night: after 22:00 nothing is restarted until the 04:00 round (nothing is posted 00:00-05:00 anyway)."""
     ist = now.astimezone(IST)
     due = [ist.replace(hour=h, minute=m, second=0, microsecond=0) for h, m in ROUNDS]
     due = [x for x in due if x + d.timedelta(minutes=25) <= ist]

@@ -27,16 +27,16 @@
     "grace_min": 60,
     "max_wait_hours": 18,
     "immediate": "power_cut",
-    "note": "owner 19 Nov: posting time first (best reach; 19 Nov data, views against each page's median: 06-09 1.02, 09-12 1.12, 12-15 0.84, 15-18 1.02, 18-21 0.92, 21-24 0.80). News posts in 06:00-12:00 and 15:00-21:00 IST; collection is fitted to them (04:00, 08:30, 13:00, 16:30, 18:30) so every window opens with news ready and every news posts the same day. When a window opens every ready news posts at once, news written inside a window posts at once, news written outside waits for the next window (made ahead). Nothing is dropped; power cuts post at once; a news waiting 18 h posts anyway.",
+    "note": "owner 21 Nov: NO best-time waiting - a news reel posts as soon as it is ready, any time from 05:00 to midnight (5 minutes apart). Nothing is posted on Instagram from 00:00 to 05:00 IST (quiet_ist), not even power cuts or stories; news ready at night posts from 05:00.",
     "windows": [
       [
-        "06:00",
-        "12:00"
-      ],
-      [
-        "15:00",
-        "21:00"
+        "05:00",
+        "24:00"
       ]
+    ],
+    "quiet_ist": [
+      "00:00",
+      "05:00"
     ]
   },
   "reel_punch": false,
@@ -149,8 +149,8 @@
   "reel_style": "A",
   "reel_style_note": "owner 13 Nov 23:10: A = the Namakkal 360 design (same as Namakkal / Coimbatore) on this page; the premium look P below is switched off. Was: P = premium story panel (photo top 60 %, emerald panel with the headline and captions, champagne gold, ivory cards, serif headline, no black; district map + town pin, word-by-word headline, count-up numbers, one news-type layer, smooth loop, light sound effects). A = the earlier look.",
   "posting": {
-    "spacing_min": 10,
-    "note": "owner 21 Nov: 10 minutes between news posts on a page (19 Nov's 0 = every ready news at once: Trichy posted 5 reels in 3 minutes and Instagram blocked it; Namakkal put 7 reels on Facebook in 2 minutes). Urgent news still goes first."
+    "spacing_min": 5,
+    "note": "owner 21 Nov: 5 minutes between news posts on a page (19 Nov's 0 = every ready news at once: Trichy posted 5 reels in 3 minutes and Instagram blocked it). Urgent news still goes first."
   },
   "reel_look": "classic",
   "reel_look_note": "owner 20 Nov (final decision): ONE look on every page - the earlier, proven reel4 look (big hook, big captions, fact cards, FOLLOW end card) with '📅 date  📰 Source: paper' in the header and the 360 clock branding. \"handoff\" switches on the design team's look (reel/design360.py), kept in the code. (reel_design must stay \"v4\": it picks reel4.py.)",

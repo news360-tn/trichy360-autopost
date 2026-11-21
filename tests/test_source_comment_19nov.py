@@ -144,11 +144,11 @@ class SensitiveNewsNeedsItsLink(unittest.TestCase):
                      "கோவையில் 4 கிலோ நகை கொள்ளை: மூவருக்கு தலா 7 ஆண்டு சிறை", "ராசிபுரம் அருகே பள்ளி மாணவி மாயம்: போலீசார் தேடுதல்",
                      "சேலத்தில் 11 வயது சிறுமிக்குப் பாலியல் தொல்லை: தொழிலாளி போக்சோ சட்டத்தில் கைது"):
             with self.subTest(head=head):
-                self.assertTrue(post.link_hold(row(head, "Crime & Safety", "", source="")).startswith("held: sensitive news"))
+                self.assertTrue(post.link_hold(row(head, "Crime & Safety", "", source="")).startswith("held: no source link"))      # owner 21 Nov: every news
                 self.assertEqual(post.link_hold(row(head, "Crime & Safety", "")), "")      # with its link it posts
 
     def test_other_news_and_owner_reels_not_held(self):
-        self.assertEqual(post.link_hold(row("முட்டை விலை 20 காசுகள் குறைந்து ரூ. 6.50-ஆக நிர்ணயம்", "Business & Prices", "", source="")), "")
+        self.assertIn("no source link", post.link_hold(row("முட்டை விலை 20 காசுகள் குறைந்து ரூ. 6.50-ஆக நிர்ணயம்", "Business & Prices", "", source="")))      # owner 21 Nov: every news needs its link
         with mock.patch.object(post, "is_ready_reel", return_value=True):
             self.assertEqual(post.link_hold(row("வாடிப்பட்டி அருகே கார்-லாரி மோதல்: 2 பேர் உயிரிழப்பு", "Crime & Safety", "", source="")), "")
 
@@ -179,7 +179,7 @@ class FirstCommentPosting(unittest.TestCase):
         self.assertIs(json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["first_comment"], True)
         src = (ROOT / "poster" / "post.py").read_text(encoding="utf-8")
         self.assertNotIn("FIRST_COMMENTS", src)      # the old prompts asked people to comment (owner: never)
-        self.assertEqual(src.count("first_comment(token, mid, sid, row)"), 2)
+        self.assertEqual(src.count("first_comment(token, mid, sid, row)"), 3)      # carousel, reel and (owner 21 Nov) the owner's ready reel
         for publish in ("= publish_carousel(token, urls, caption, collab", "= publish_reel(token, url, caption, collab, cover_url)"):
             seg = src[src.index(publish):][:1500]
             self.assertLess(seg.index('bridge_post("posted"'), seg.index("first_comment(token, mid, sid, row)"))
