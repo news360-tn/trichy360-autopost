@@ -83,6 +83,16 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-21 | `25768f5` | Stop posting bursts: 10 min between news posts; an Instagram block pauses the page 6 h (news waits) instead of retrying every run |
+| 2026-11-20 | `c2c0939` | powercut: notices written |
+| 2026-11-20 | `0085e97` | pick: written and posted |
+| 2026-11-20 | `cc90d03` | pick: picked news saved |
+| 2026-11-20 | `3b7f720` | pick: picked news saved |
+| 2026-11-20 | `a0e42be` | pick: list sent |
+| 2026-11-20 | `495017c` | pick: written and posted |
+| 2026-11-20 | `6fb3695` | pick: picked news saved |
+| 2026-11-20 | `e10c6ee` | pick: list sent |
+| 2026-11-20 | `b0efd17` | pick: written and posted |
 | 2026-11-20 | `8a1fa50` | Facebook first comment = the same source comment as Instagram (link into the text if Facebook refuses the comment) |
 | 2026-11-20 | `f50c9ab` | pick: picked news saved |
 | 2026-11-20 | `9c7cd42` | pick: list sent |
@@ -103,14 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-20 | `29c6501` | pick: picked news saved |
 | 2026-11-20 | `75b0c1c` | pick: list sent |
 | 2026-11-20 | `d03357f` | News reels: one design on every page - the earlier, proven design with the source and date shown clearly |
-| 2026-11-20 | `2bff160` | Writer: the opening headline (hl1) is always a complete phrase |
-| 2026-11-20 | `93c96df` | News reels: the design team's design (Tamil) with the 360 clock branding on every page |
-| 2026-11-20 | `5dfb451` | pick: written and posted |
-| 2026-11-20 | `bc34291` | pick: list sent |
-| 2026-11-20 | `d2cc668` | goldrate posted |
-| 2026-11-20 | `7dd8813` | Posting loop: start the next posting run with 3 tries |
-| 2026-11-20 | `a4a0bf9` | pick: written and posted |
-| 2026-11-20 | `f65c677` | pick: picked news saved |
-| 2026-11-20 | `91689ca` | pick: picked news saved |
-| 2026-11-20 | `02eec61` | pick: list sent |
 <!-- recent-changes:end -->
