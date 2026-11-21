@@ -1003,7 +1003,7 @@
    "title": "இன்றைய மின் தடை: திருவள்ளூர்"
   },
   "https://tamil.abplive.com/news/trichy/trichy-power-cut-21-11-2026-know-timings-areas-affected-by-power-shutdown-280205/amp#district-section": {
-   "at": "2026-11-21T12:54:03.966882+05:30",
+   "at": "2026-11-21T13:16:34.915043+05:30",
    "power_cut": true,
    "why": "",
    "title": "திருச்சி மாவட்டத்தில் நாளை (21-11-2026) மின்தடை: பல்வேறு பகுதிகளில் (நவம்பர் 21, 2026, சனிக்கிழமை) மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெற உள்ளதால், காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம் தடை"
@@ -1013,6 +1013,12 @@
    "power_cut": false,
    "why": "not this district",
    "title": "Villupuram Power Cut : விழுப்புரத்தில் நாளை மின்சாரம் இருக்காது! 40-க்கும் மேற்பட்ட பகுதிகளுக்கு"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-theni/power-cut-by-substandard-wires-at-veterinary-college/4382023": {
+   "at": "2026-11-21T13:16:34.915043+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "கால்நடை மருத்துவ கல்லூரியில் தரம் குறைந்த ஒயர்களால் மின்தடை"
   }
  },
  "done": {
