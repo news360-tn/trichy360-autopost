@@ -50,7 +50,8 @@
    "score": 11.0,
    "power_cut": false,
    "listed_at": "2026-11-21T16:33:34.539664+05:30",
-   "picked_at": "2026-11-21T16:36:29.347362+05:30"
+   "picked_at": "2026-11-21T16:36:29.347362+05:30",
+   "posted": true
   },
   "Cf168af9": {
    "id": "Cf168af9",
@@ -63,7 +64,8 @@
    "score": 9.0,
    "power_cut": false,
    "listed_at": "2026-11-21T16:33:34.539664+05:30",
-   "picked_at": "2026-11-21T16:36:29.347363+05:30"
+   "picked_at": "2026-11-21T16:36:29.347363+05:30",
+   "refused": "not filed: duplicate after write"
   }
  },
  "rounds": {
@@ -531,7 +533,10 @@
    "written": [
     "C5a946ff",
     "Cf168af9"
-   ]
+   ],
+   "refused": {
+    "Cf168af9": "not filed: duplicate after write"
+   }
   }
  },
  "retry": {}
