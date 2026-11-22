@@ -15,7 +15,8 @@
     "https://www.dinamalar.com/news/tamil-nadu-news/5-killed-as-omni-van-hits-tree-near-musiri/4383164"
    ],
    "listed_at": "2026-11-22T20:19:33.583398+05:30",
-   "picked_at": "2026-11-22T20:22:22.150194+05:30"
+   "picked_at": "2026-11-22T20:22:22.150194+05:30",
+   "refused": "not filed: duplicate after write"
   },
   "C234018f": {
    "id": "C234018f",
@@ -31,7 +32,8 @@
     "https://www.maalaimalar.com/news/tamilnadu/tragic-accident-in-trichy-as-car-crashes-into-a-roadside-tree-8-people-dead"
    ],
    "listed_at": "2026-11-22T20:19:33.583398+05:30",
-   "picked_at": "2026-11-22T20:22:22.150196+05:30"
+   "picked_at": "2026-11-22T20:22:22.150196+05:30",
+   "refused": "not filed: duplicate after write"
   },
   "C5c448f4": {
    "id": "C5c448f4",
@@ -44,7 +46,8 @@
    "score": 11.5,
    "power_cut": false,
    "listed_at": "2026-11-22T20:19:33.583398+05:30",
-   "picked_at": "2026-11-22T20:22:22.150204+05:30"
+   "picked_at": "2026-11-22T20:22:22.150204+05:30",
+   "posted": true
   },
   "C67ea807": {
    "id": "C67ea807",
@@ -57,7 +60,8 @@
    "score": 11.0,
    "power_cut": false,
    "listed_at": "2026-11-22T20:19:33.583398+05:30",
-   "picked_at": "2026-11-22T20:22:22.150205+05:30"
+   "picked_at": "2026-11-22T20:22:22.150205+05:30",
+   "posted": true
   },
   "C1ddb5cc": {
    "id": "C1ddb5cc",
@@ -70,7 +74,8 @@
    "score": 10.0,
    "power_cut": false,
    "listed_at": "2026-11-22T20:19:33.583398+05:30",
-   "picked_at": "2026-11-22T20:22:22.150207+05:30"
+   "picked_at": "2026-11-22T20:22:22.150207+05:30",
+   "posted": true
   }
  },
  "rounds": {
@@ -491,7 +496,11 @@
     "C5c448f4",
     "C67ea807",
     "Cff2ab8a"
-   ]
+   ],
+   "refused": {
+    "C234018f": "not filed: duplicate after write",
+    "Cff2ab8a": "not filed: duplicate after write"
+   }
   }
  },
  "retry": {}
