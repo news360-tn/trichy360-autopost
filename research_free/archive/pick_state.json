@@ -14,7 +14,8 @@
    "alts": [
     "https://www.dinamalar.com/news/tamil-nadu-news/5-killed-as-omni-van-hits-tree-near-musiri/4383164"
    ],
-   "listed_at": "2026-11-22T20:19:33.583398+05:30"
+   "listed_at": "2026-11-22T20:19:33.583398+05:30",
+   "picked_at": "2026-11-22T20:22:22.150194+05:30"
   },
   "C234018f": {
    "id": "C234018f",
@@ -29,7 +30,8 @@
    "alts": [
     "https://www.maalaimalar.com/news/tamilnadu/tragic-accident-in-trichy-as-car-crashes-into-a-roadside-tree-8-people-dead"
    ],
-   "listed_at": "2026-11-22T20:19:33.583398+05:30"
+   "listed_at": "2026-11-22T20:19:33.583398+05:30",
+   "picked_at": "2026-11-22T20:22:22.150196+05:30"
   },
   "C5c448f4": {
    "id": "C5c448f4",
@@ -41,7 +43,8 @@
    "category": "விபத்து",
    "score": 11.5,
    "power_cut": false,
-   "listed_at": "2026-11-22T20:19:33.583398+05:30"
+   "listed_at": "2026-11-22T20:19:33.583398+05:30",
+   "picked_at": "2026-11-22T20:22:22.150204+05:30"
   },
   "C67ea807": {
    "id": "C67ea807",
@@ -53,7 +56,8 @@
    "category": "குற்றம்",
    "score": 11.0,
    "power_cut": false,
-   "listed_at": "2026-11-22T20:19:33.583398+05:30"
+   "listed_at": "2026-11-22T20:19:33.583398+05:30",
+   "picked_at": "2026-11-22T20:22:22.150205+05:30"
   },
   "C1ddb5cc": {
    "id": "C1ddb5cc",
@@ -65,7 +69,8 @@
    "category": "பொது",
    "score": 10.0,
    "power_cut": false,
-   "listed_at": "2026-11-22T20:19:33.583398+05:30"
+   "listed_at": "2026-11-22T20:19:33.583398+05:30",
+   "picked_at": "2026-11-22T20:22:22.150207+05:30"
   }
  },
  "rounds": {
@@ -469,8 +474,24 @@
    ],
    "sent": false,
    "deadline": "2026-11-22T21:19:33.583398+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 5 of 5 by insights",
+    "ids": [
+     "Cff2ab8a",
+     "C234018f",
+     "C5c448f4",
+     "C67ea807",
+     "C1ddb5cc"
+    ],
+    "at": "2026-11-22T20:22:22.150182+05:30"
+   },
+   "written": [
+    "C1ddb5cc",
+    "C234018f",
+    "C5c448f4",
+    "C67ea807",
+    "Cff2ab8a"
+   ]
   }
  },
  "retry": {}
