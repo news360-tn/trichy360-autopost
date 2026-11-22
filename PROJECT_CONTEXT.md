@@ -83,6 +83,11 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-22 | `42b3dcf` | Manual post e-mail: attach a 720p copy of the reel (the full reel was too large) |
+| 2026-11-22 | `561c270` | manual post e-mail RN-110 |
+| 2026-11-22 | `3ef5e0f` | manual post e-mail RN-109 |
+| 2026-11-22 | `65a3fe0` | manual post e-mail RN-114 |
+| 2026-11-22 | `43c5bbd` | stories shared / Instagram pause |
 | 2026-11-22 | `85333fe` | Manual post e-mail: news a page cannot post goes to the owner, one by one |
 | 2026-11-22 | `af826ec` | pick: written and posted |
 | 2026-11-22 | `bd1e4ef` | pick: list sent |
@@ -108,9 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-21 | `c2a435c` | pick: list sent |
 | 2026-11-21 | `0745f4b` | pick: written and posted |
 | 2026-11-21 | `d6ebf37` | Posted report: one e-mail for all pages, 4 times a day |
-| 2026-11-21 | `d4dc754` | Instagram-safe limits, file upload without Cloudinary, skipped e-mails restarted |
-| 2026-11-21 | `830beec` | pick: picked news saved |
-| 2026-11-21 | `fab9240` | pick: picked news saved |
-| 2026-11-21 | `e1ae894` | pick: list sent |
-| 2026-11-21 | `6aa9c59` | Instagram-safe: stories only for power cuts / urgent news again (as Kovai and Chennai Minnal); direct-upload trial off |
 <!-- recent-changes:end -->
