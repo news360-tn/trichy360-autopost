@@ -1,55 +1,12 @@
 {
- "updated": "2026-11-22T18:25:56+00:00",
- "day": "2026-11-22",
- "ready": 7,
+ "updated": "2026-11-22T18:32:57+00:00",
+ "day": "2026-11-23",
+ "ready": 2,
  "pages": {
   "trichy": {
    "label": "திருச்சி 360",
    "instagram": {
-    "posted": [
-     {
-      "id": "RN-117",
-      "head": "திருச்சி கிழக்கு உட்பட தமிழகத்தில் 6 சட்டசபைத் தொகுதிகள் காலி: கொளத்தூர் தொகுதியும் பட்டியலில் சேர்க்கை",
-      "link": "https://www.instagram.com/reel/DgCkFZWh4_I/",
-      "at": "2026-11-22T10:13:43+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-118",
-      "head": "சமயபுரம் அருகே குளவி கொட்டியதில் 5 வயது சிறுமி உயிரிழப்பு",
-      "link": "https://www.instagram.com/reel/DgCl1jkB5kA/",
-      "at": "2026-11-22T10:29:21+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-121",
-      "head": "துறையூரில் சிறுமிக்கு பாலியல் தொல்லை: கார் டிரைவர் மீது போக்சோ வழக்கு",
-      "link": "https://www.instagram.com/reel/DgDFO20RQ_H/",
-      "at": "2026-11-22T15:03:33+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-120",
-      "head": "முசிறி அருகே மரத்தில் கார் மோதி 5 பேர் உயிரிழப்பு",
-      "link": "https://www.instagram.com/reel/DgDFd4WKn7V/",
-      "at": "2026-11-22T15:05:18+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-119",
-      "head": "ராமேஸ்வரத்திலிருந்து காரில் கடத்திய 7.50 கிலோ தங்கம் பறிமுதல்: 3 பேர் கைது",
-      "link": "https://www.instagram.com/reel/DgDHTsQJ3EV/",
-      "at": "2026-11-22T15:21:38+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-122",
-      "head": "திருச்சி மாவட்டத்தின் பல்வேறு பகுதிகளில் நாளை மின்தடை",
-      "link": "https://www.instagram.com/reel/DgDKDF5pSba/",
-      "at": "2026-11-22T15:46:06+00:00",
-      "kind": "reel"
-     }
-    ],
+    "posted": [],
     "paused": "",
     "quota": ""
    },
@@ -59,52 +16,15 @@
     "share": [],
     "paused": ""
    },
-   "manual_post": [
-    {
-     "id": "RN-109",
-     "why": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC",
-     "sent": "2026-11-22T04:22:19+00:00",
-     "video": true
-    },
-    {
-     "id": "RN-110",
-     "why": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC",
-     "sent": "2026-11-22T04:22:44+00:00",
-     "video": true
-    },
-    {
-     "id": "RN-114",
-     "why": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC",
-     "sent": "2026-11-22T04:22:49+00:00",
-     "video": true
-    },
-    {
-     "id": "RN-111",
-     "why": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC",
-     "sent": "2026-11-22T03:29:35+00:00",
-     "video": true
-    },
-    {
-     "id": "RN-112",
-     "why": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC",
-     "sent": "2026-11-22T03:28:52+00:00",
-     "video": true
-    },
-    {
-     "id": "RN-113",
-     "why": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC",
-     "sent": "2026-11-22T03:27:23+00:00",
-     "video": true
-    }
-   ],
+   "manual_post": [],
    "daily": {
     "gold": {
-     "posted": true,
-     "link": "https://www.instagram.com/reel/DgCJhcXhsqk/"
+     "posted": false,
+     "link": ""
     },
     "rasipalan": {
-     "posted": true,
-     "link": "https://www.instagram.com/reel/DgCVF2DOGrF/"
+     "posted": false,
+     "link": ""
     }
    },
    "youtube": {
