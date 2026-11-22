@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-22T12:25:59.599579+05:30",
+ "last_end": "2026-11-22T15:29:10.980579+05:30",
  "pool": {
   "Cf168af9": {
    "id": "Cf168af9",
@@ -14,44 +14,33 @@
    "listed_at": "2026-11-21T16:33:34.539664+05:30",
    "picked_at": "2026-11-21T16:36:29.347363+05:30",
    "refused": "not filed: duplicate after write"
+  },
+  "Ccdb6983": {
+   "id": "Ccdb6983",
+   "url": "https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-kolavi-bit-child-death",
+   "title": "திருச்சி அருகே குளவி கொட்டியதில் 5 வயது சிறுமி பலி",
+   "summary": "திருச்சி அருகே குளவி கொட்டியதில் 5 வயது சிறுமி பலியான சம்பவம் அப்பகுதியில் சோகத்தை ஏற்படுத்தியுள்ளது..திருச்சி மாவட்டம் சமயபுரம் அருகே உள்ள நெய்குப்பையை சேர்ந்தவர் பூபதி.",
+   "source": "மாலைமலர்",
+   "published": "2026-11-22T09:42:46Z",
+   "category": "விபத்து",
+   "score": 11.5,
+   "power_cut": false,
+   "listed_at": "2026-11-22T15:29:10.980579+05:30"
+  },
+  "C7c7d4ab": {
+   "id": "C7c7d4ab",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-news/kolathur-constituency-declared-vacant-total-number-increased-to-6/4383053",
+   "title": "கொளத்தூர் தொகுதி காலியானதாக அறிவிப்பு; மொத்த எண்ணிக்கை 6 ஆக அதிகரிப்பு",
+   "summary": "-நமது நிருபர்- தவெக எம்எல்ஏ விஎஸ்பாபுவின் மறைவை தொடர்ந்து கொளத்தூர் சட்ட சபை தொகுதி காலியானதாக தமிழக சட்டசபை செயலகம் அறிவித்துள்ளது. தமிழகத்தில் காலியான சட்டசபை தொகுதிகளில் எண்ணிக்கை 6 ஆக உயர்த்துள்ளது.",
+   "source": "தினமலர்",
+   "published": "2026-11-22T13:27:00+05:30",
+   "category": "பொது",
+   "score": 7.0,
+   "power_cut": false,
+   "listed_at": "2026-11-22T15:29:10.980579+05:30"
   }
  },
  "rounds": {
-  "2026-11-19_18": {
-   "window": [
-    "2026-11-19T14:11:47.440789+05:30",
-    "2026-11-19T18:29:57.028221+05:30"
-   ],
-   "ids": [
-    "C0fdf910",
-    "C0bd23e2",
-    "C9c31f4e",
-    "Ce3c1dfc",
-    "C56c0af3",
-    "C83cbaf8"
-   ],
-   "sent": false,
-   "deadline": "2026-11-19T19:29:57.028221+05:30",
-   "decided": {
-    "how": "automatic: top 5 of 4 by insights",
-    "ids": [
-     "C0fdf910",
-     "C0bd23e2",
-     "C9c31f4e",
-     "C56c0af3"
-    ],
-    "at": "2026-11-19T18:34:10.173106+05:30"
-   },
-   "written": [
-    "C0bd23e2",
-    "C0fdf910",
-    "C56c0af3",
-    "C9c31f4e"
-   ],
-   "refused": {
-    "C0bd23e2": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
-   }
-  },
   "2026-11-19_22": {
    "window": [
     "2026-11-19T18:29:57.028221+05:30",
@@ -454,6 +443,20 @@
    "ids": [],
    "sent": false,
    "deadline": "2026-11-22T13:25:59.599579+05:30",
+   "decided": null,
+   "written": []
+  },
+  "2026-11-22_15": {
+   "window": [
+    "2026-11-22T12:25:59.599579+05:30",
+    "2026-11-22T15:29:10.980579+05:30"
+   ],
+   "ids": [
+    "Ccdb6983",
+    "C7c7d4ab"
+   ],
+   "sent": false,
+   "deadline": "2026-11-22T16:29:10.980579+05:30",
    "decided": null,
    "written": []
   }
