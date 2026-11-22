@@ -483,11 +483,36 @@ def status(pages):
             print(f"{page}: token/page problem - {str(e)[:200]}")
 
 
+def recent(pages, n=10):
+    """owner 22 Nov: the page's latest Facebook posts and reels (time IST, first words, link) - read only, never prints a token"""
+    ist = dt.timezone(dt.timedelta(hours=5, minutes=30))
+    for page in pages:
+        c = creds(page)
+        if not c:
+            print(f"{page}: NOT set up")
+            continue
+        seen = {}
+        for edge, text in (("posts", "message"), ("videos", "description")):
+            try:
+                for x in (_call("GET", f"{c[0]}/{edge}", c[1], fields=f"created_time,{text},permalink_url", limit=n) or {}).get("data", []):
+                    t = dt.datetime.strptime(x["created_time"][:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=dt.timezone.utc).astimezone(ist)
+                    link = x.get("permalink_url") or ""
+                    link = link if link.startswith("http") else "https://www.facebook.com" + link
+                    seen.setdefault(link, (t, (x.get(text) or "").split("\n")[0][:70]))
+            except Exception as e:
+                print(f"{page}: {edge} not read - {str(e)[:150]}")
+        print(f"{page}: latest Facebook posts")
+        for link, (t, head) in sorted(seen.items(), key=lambda kv: kv[1][0], reverse=True)[:n]:
+            print(f"  {t:%d %b %I:%M %p}  {head}  {link}")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
     if cmd == "retry":
         retry_failed()
     elif cmd == "status":
         status(sys.argv[2:])
+    elif cmd == "recent":
+        recent(sys.argv[2:])
     else:
-        print("usage: facebook.py retry | status <page> [<page>...]")
+        print("usage: facebook.py retry | status <page> [<page>...] | recent <page> [<page>...]")
