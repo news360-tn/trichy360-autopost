@@ -40,8 +40,20 @@
   "at": "2026-11-20T17:26:11.456825+00:00"
  },
  "f:17972958273008860": {
-  "n": 1,
+  "n": 2,
   "page": "trichy",
-  "at": "2026-11-22T16:10:37.119315+00:00"
+  "at": "2026-11-22T16:17:58.766799+00:00"
+ },
+ "17972958273008860": {
+  "story": "",
+  "failed": "Instagram 17841462048887226/media_publish: {'message': 'Fatal', 'code': -1, 'type': 'OAuthException', 'error_subcode': 2207032, 'is_transient': False,",
+  "page": "trichy",
+  "at": "2026-11-22T16:17:58.766799+00:00"
+ },
+ "t:trichy:2026-11-22T15:45": {
+  "story": "",
+  "failed": "Instagram 17841462048887226/media_publish: {'message': 'Fatal', 'code': -1, 'type': 'OAuthException', 'error_subcode': 2207032, 'is_transient': False,",
+  "page": "trichy",
+  "at": "2026-11-22T16:17:58.766799+00:00"
  }
 }
