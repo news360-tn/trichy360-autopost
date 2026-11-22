@@ -83,6 +83,7 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-22 | `61472be` | Facebook check: list each page's latest Facebook posts (read only) |
 | 2026-11-22 | `1f0e5b9` | Facebook share e-mail: news on Instagram but not on Facebook after 3 hours |
 | 2026-11-22 | `fdbdb41` | manual post e-mail RN-114 |
 | 2026-11-22 | `5b45564` | manual post e-mail RN-110 |
@@ -112,5 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-21 | `44191b3` | YouTube: news reels uploaded automatically as Shorts (only with the page's keys) |
 | 2026-11-21 | `6cf7a80` | pick: picked news saved |
 | 2026-11-21 | `f08309a` | pick: picked news saved |
-| 2026-11-21 | `b172bd1` | pick: list sent |
 <!-- recent-changes:end -->
