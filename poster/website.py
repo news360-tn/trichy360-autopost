@@ -1,11 +1,11 @@
-"""Trichy 360 website (OFF for now - no site yet): when switched on, every posted story is sent there with all its details.
+"""Trichy 360 website (the shared 7-district site, /trichy): when switched on, every posted story is sent there with all its details.
 
     send(row, reel_link)          called by the posting job right after a reel is posted
     python poster/website.py backfill [--from RN-1]   one-time: all posted stories from the Sheet, oldest first
 
 The website files each story under its taluk / town / news type itself. A website problem never stops Instagram posting:
-send() only logs and returns False. Needs WEBSITE_INGEST_KEY (GitHub secret) AND WEBSITE_URL; without them send() does nothing at all
-(no translation, no network call) - the workflows do not pass them."""
+send() only logs and returns False. Needs the GitHub secret WEBSITE_INGEST_KEY (the same key as the site's INGEST_KEY); without it send() does nothing at all
+(no translation, no network call). WEBSITE_URL is optional."""
 import datetime, json, os, re, sys, time
 from pathlib import Path
 
@@ -13,7 +13,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "research_free"))
-URL = (os.environ.get("WEBSITE_URL") or "").rstrip("/")      # no Trichy 360 site yet
+URL = (os.environ.get("WEBSITE_URL") or "https://www.namakkal360.workers.dev").rstrip("/")      # owner 22 Nov: the shared 7-district site (trichy page)
 IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
 MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
 
@@ -75,6 +75,7 @@ def payload(row, reel_link="", en=None):
         "location": row.get("location", ""), "category": row.get("category", ""), "images": images_of(row),
         "reel_link": reel_link or row.get("reel_link", "") or row.get("trichy_link", ""),
         "source": row.get("source", ""), "published": row.get("published", ""), "filed_at": filed_iso(row),
+        "district": "trichy",      # owner 22 Nov: one website for all 7 districts (www.namakkal360.workers.dev/trichy)
     }
 
 

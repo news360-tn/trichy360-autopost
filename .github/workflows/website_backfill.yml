@@ -1,6 +1,6 @@
 name: website-backfill
-# Trichy 360: THE WEBSITE IS OFF FOR NOW. Manual run only (no schedule). WEBSITE_INGEST_KEY is not passed, so
-# poster/website.py does nothing. When a Trichy website exists: add the secret WEBSITE_INGEST_KEY, pass it below
+# Trichy 360: sends every story already posted on Instagram to the shared 7-district website (www.namakkal360.workers.dev/trichy).
+# Manual run only. Needs the secret WEBSITE_INGEST_KEY (same key as the site's INGEST_KEY); without it nothing is sent.
 # (env), then this sends every story already posted on Instagram to the website, oldest first, with its English version.
 on:
   workflow_dispatch:
@@ -22,6 +22,7 @@ jobs:
         env:
           BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
           BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
+          WEBSITE_INGEST_KEY: ${{ secrets.WEBSITE_INGEST_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}      # owner 30 Oct: free writers (skipped until the key is set)
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}

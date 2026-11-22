@@ -163,6 +163,7 @@ jobs:
       TA_MODEL: ${{ github.workspace }}/reel/models/ta
       SLOT_MIN: ${{ matrix.slot }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      WEBSITE_INGEST_KEY: ${{ secrets.WEBSITE_INGEST_KEY }}      # owner 22 Nov: posted stories also go to the 7-district website (nothing happens until the secret is added)
       SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}      # owner 30 Oct: free writers (skipped until the key is set)
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
