@@ -76,5 +76,31 @@
     "Tirupur, Tamil Nadu": 15
    }
   }
+ },
+ "2026-11-23": {
+  "trichy": {
+   "reach": 28323,
+   "reach_by_follow_type": {
+    "FOLLOWER": 975,
+    "NON_FOLLOWER": 27377
+   },
+   "follower_cities": {
+    "Tiruchirappalli, Tamil Nadu": 855,
+    "Chennai, Tamil Nadu": 128,
+    "Kulittalai, Tamil Nadu": 104,
+    "Musiri, Tamil Nadu": 42,
+    "Tuticorin, Tamil Nadu": 41,
+    "Lalgudi, Tamil Nadu": 40,
+    "Madurai, Tamil Nadu": 30,
+    "Manapparai, Tamil Nadu": 28,
+    "Karur, Tamil Nadu": 25,
+    "Mannachanallur, Tamil Nadu": 23,
+    "Turaiyur, Tamil Nadu": 21,
+    "Coimbatore, Tamil Nadu": 20,
+    "Tiruchengodu, Tamil Nadu": 20,
+    "Krishnagiri, Tamil Nadu": 18,
+    "Singapore, Singapore": 15
+   }
+  }
  }
 }
