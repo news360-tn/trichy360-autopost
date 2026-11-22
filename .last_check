@@ -1,44 +1,44 @@
-09:14:10 SKIP RN-4 stale: published 12 Nov, older than yesterday
-09:14:10 SKIP RN-19 stale: published 14 Nov, older than yesterday
-09:14:10 SKIP RN-22 stale: published 14 Nov, older than yesterday
-09:14:10 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-09:14:10 SKIP RN-29 stale: published 14 Nov, older than yesterday
-09:14:10 SKIP RN-42 stale: published 16 Nov, older than yesterday
-09:14:10 SKIP RN-45 stale: published 16 Nov, older than yesterday
-09:14:10 SKIP RN-71 stale: published 18 Nov, older than yesterday
-09:14:10 SKIP RN-92 held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
-09:14:11 SKIP RN-115 held: fact-check problems - not grounded: location 'நகர்' is not in the article
+09:20:59 SKIP RN-4 stale: published 12 Nov, older than yesterday
+09:20:59 SKIP RN-19 stale: published 14 Nov, older than yesterday
+09:20:59 SKIP RN-22 stale: published 14 Nov, older than yesterday
+09:20:59 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+09:20:59 SKIP RN-29 stale: published 14 Nov, older than yesterday
+09:20:59 SKIP RN-42 stale: published 16 Nov, older than yesterday
+09:20:59 SKIP RN-45 stale: published 16 Nov, older than yesterday
+09:20:59 SKIP RN-71 stale: published 18 Nov, older than yesterday
+09:20:59 SKIP RN-92 held: fact-check problems - fact-check: Headline and slides_spec state the arrests happened in Ariyamangalam ("அரியமங்கலத்தில் கைது"), but the article only says the theft occurred there and does not state where the arrests took 
+09:20:59 SKIP RN-115 held: fact-check problems - not grounded: location 'நகர்' is not in the article
 ::warning title=Held from posting RN-115::held: fact-check problems - not grounded: location 'நகர்' is not in the article
-09:14:11 SKIP RN-116 held: fact-check problems - numbers not found in the article: 45
+09:20:59 SKIP RN-116 held: fact-check problems - numbers not found in the article: 45
 ::warning title=Held from posting RN-116::held: fact-check problems - numbers not found in the article: 45
-09:14:11 story catch-up trichy waits: Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC
-09:14:11 18 stories in the queue, ready to post: 7
-09:14:11   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-09:14:11    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 218.0 ready= False set_started= True
-09:14:11    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 187.2 ready= False set_started= True
-09:14:11    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 183.6 ready= False set_started= True
-09:14:11    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 183.5 ready= False set_started= True
-09:14:11    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 179.5 ready= False set_started= True
-09:14:11    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 147.4 ready= False set_started= True
-09:14:11    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 147.3 ready= False set_started= True
-09:14:11    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 97.8 ready= False set_started= True
-09:14:11    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 52.7 ready= False set_started= True
-09:14:11    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 24.3 ready= True set_started= True
-09:14:11    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 24.3 ready= True set_started= True
-09:14:11    RN-110 review= 'Auto' images= 197 spec= 662 pages= ['trichy'] links= '' '' age_h= 16.6 ready= True set_started= True
-09:14:11    RN-111 review= 'Auto' images= 197 spec= 733 pages= ['trichy'] links= '' '' age_h= 12.6 ready= True set_started= True
-09:14:11    RN-112 review= 'Auto' images= 99 spec= 503 pages= ['trichy'] links= '' '' age_h= 9.9 ready= True set_started= True
-09:14:11    RN-113 review= 'Auto' images= 197 spec= 685 pages= ['trichy'] links= '' '' age_h= 7.1 ready= True set_started= True
-09:14:11    RN-114 review= 'Auto' images= 197 spec= 817 pages= ['trichy'] links= '' '' age_h= 7.1 ready= True set_started= True
-09:14:11    RN-115 review= 'Auto' images= 197 spec= 753 pages= ['trichy'] links= '' '' age_h= 7.1 ready= False set_started= True
-09:14:11    RN-116 review= 'Auto' images= 197 spec= 670 pages= ['trichy'] links= '' '' age_h= 7.1 ready= False set_started= True
-09:14:11 Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC
-09:14:11 Instagram 24-hour limit reached for ['trichy'] - their stories wait (nothing is dropped)
-09:14:12 instagram duplicate check trichy: 50 recent posts read
-09:14:12    RN-108 skipped: already on Instagram ['trichy']
-09:14:12    RN-109 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
-09:14:12    RN-110 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
-09:14:12    RN-114 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
-09:14:12    RN-111 skipped: already on Instagram ['trichy']
-09:14:12    RN-112 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
-09:14:12    RN-113 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
+09:20:59 story catch-up trichy waits: Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC
+09:20:59 18 stories in the queue, ready to post: 7
+09:20:59   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+09:20:59    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 218.1 ready= False set_started= True
+09:20:59    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 187.3 ready= False set_started= True
+09:20:59    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 183.7 ready= False set_started= True
+09:20:59    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 183.6 ready= False set_started= True
+09:20:59    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 179.6 ready= False set_started= True
+09:20:59    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 147.5 ready= False set_started= True
+09:20:59    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 147.4 ready= False set_started= True
+09:20:59    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 97.9 ready= False set_started= True
+09:20:59    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 52.8 ready= False set_started= True
+09:20:59    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 24.4 ready= True set_started= True
+09:20:59    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 24.4 ready= True set_started= True
+09:20:59    RN-110 review= 'Auto' images= 197 spec= 662 pages= ['trichy'] links= '' '' age_h= 16.7 ready= True set_started= True
+09:20:59    RN-111 review= 'Auto' images= 197 spec= 733 pages= ['trichy'] links= '' '' age_h= 12.7 ready= True set_started= True
+09:20:59    RN-112 review= 'Auto' images= 99 spec= 503 pages= ['trichy'] links= '' '' age_h= 10.0 ready= True set_started= True
+09:20:59    RN-113 review= 'Auto' images= 197 spec= 685 pages= ['trichy'] links= '' '' age_h= 7.2 ready= True set_started= True
+09:20:59    RN-114 review= 'Auto' images= 197 spec= 817 pages= ['trichy'] links= '' '' age_h= 7.2 ready= True set_started= True
+09:20:59    RN-115 review= 'Auto' images= 197 spec= 753 pages= ['trichy'] links= '' '' age_h= 7.2 ready= False set_started= True
+09:20:59    RN-116 review= 'Auto' images= 197 spec= 670 pages= ['trichy'] links= '' '' age_h= 7.2 ready= False set_started= True
+09:20:59 Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC
+09:20:59 Instagram 24-hour limit reached for ['trichy'] - their stories wait (nothing is dropped)
+09:21:01 instagram duplicate check trichy: 50 recent posts read
+09:21:01    RN-108 skipped: already on Instagram ['trichy']
+09:21:01    RN-109 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
+09:21:01    RN-110 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
+09:21:01    RN-114 waits: Instagram's 24-hour post limit is (almost) used on ['trichy']
+09:21:01    RN-111 skipped: already on Instagram ['trichy']
+09:21:01    RN-112 skipped: already on Instagram ['trichy']
+09:21:01    RN-113 skipped: already on Instagram ['trichy']
