@@ -483,7 +483,7 @@ def status(pages):
             print(f"{page}: token/page problem - {str(e)[:200]}")
 
 
-def recent(pages, n=10):
+def recent(pages, n=20):      # owner 22 Nov: 20 (10 missed earlier shares)
     """owner 22 Nov: the page's latest Facebook posts and reels (time IST, first words, link) - read only, never prints a token"""
     ist = dt.timezone(dt.timedelta(hours=5, minutes=30))
     for page in pages:
