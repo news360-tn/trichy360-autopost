@@ -1,13 +1,9 @@
-03:25:45 round 2026-11-23_03: news published 23 Nov 02:18 -> 23 Nov 03:25 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-03:25:45 insights 2026-11-23T03:25+05:30 (115 reels): topic weights {'accident': 1.5, 'crime': 1.44, 'power_cut': 0.1, 'civic': 0.05, 'education': -0.5, 'politics': -0.04, 'temple': -0.5, 'poultry_agri': -0.02}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-03:26:03 33 links on the two papers' Trichy pages
-03:26:55 skipped: already posted=17, published before this window=11, not Trichy district=3, same event already posted=1
-03:26:55 list: 0 new + 1 earlier news not posted yet
-03:26:55    1. [விபத்து] 8 உயிரை காவு வாங்கிய கோர விபத்து.. காதணி விழாவுக்கு சென்ற போது நிகழ்ந் (ஒன்இந்தியா) (earlier)
-03:26:55 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-23_03
-03:26:57    not picked automatically (suicide / obituary - only when the owner ticks it): 8 உயிரை காவு வாங்கிய கோர விபத்து.. காதணி விழாவுக்கு சென்ற போது நிகழ்ந்
-03:26:57 round 2026-11-23_03 (at least 3, up to 3 more of well-watched topics): 0 news to choose from (0 from earlier rounds), ranked by this page's insights
-03:26:57 decided: automatic: top 3 of 0 by insights -> 0 news to write and post
-PICK_URLS=
-03:27:01 verify 2026-11-23_03: 0 of 0 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+04:31:45 round 2026-11-23_04: news published 23 Nov 03:25 -> 23 Nov 04:31 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+04:31:45 insights 2026-11-23T04:31+05:30 (115 reels): topic weights {'accident': 1.5, 'crime': 1.43, 'power_cut': 0.09, 'civic': 0.05, 'education': -0.5, 'politics': -0.04, 'temple': -0.5, 'poultry_agri': -0.02}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+04:32:20 35 links on the two papers' Trichy pages
+04:33:07 skipped: already posted=15, published before this window=11, not Trichy district=5, same event already posted=1
+04:33:07 list: 1 new + 1 earlier news not posted yet
+04:33:07    1. [விபத்து] திருச்சி: விபத்தில் இளைஞர் பலி! (தினமணி)
+04:33:07    2. [விபத்து] 8 உயிரை காவு வாங்கிய கோர விபத்து.. காதணி விழாவுக்கு சென்ற போது நிகழ்ந் (ஒன்இந்தியா) (earlier)
+04:33:07 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-23_04
