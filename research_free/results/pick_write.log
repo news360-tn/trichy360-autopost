@@ -1,0 +1,130 @@
+writing [N]: திருச்சி அருகே குளவி கொட்டியதில் 5 வயது சிறுமி பலி
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: கொளத்தூர் தொகுதி காலியானதாக அறிவிப்பு; மொத்த எண்ணிக்கை 6 ஆக 
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3.6-flash (14s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 7 ('இவருக்கு திருமணமாகி மனைவி மற்றும் 7 வயதில் ஒரு மகனும், 5 வயத')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (14s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (11s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (3s)
+factcheck by gemini/gemini-3.6-flash: 0 problems
+attempt 2 gemini/gemini-3.6-flash: 0 problems
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (21s)
+attempt 2 gemini/gemini-3.6-flash: 1 problems
+  hl1 is 45 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (13s)
+proofread rejected (3 problems)
+  hl2 longer than 28 characters
+  reel_script has 59 words; need 60-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
+  reel_script sentence 1 (heard in the first 3 seconds) must name the place 'திருச்சி கிழக்கு' and the news itself, e.g. 'திருச்சி கிழக்கு-இல் ... 3 பேர் கைது.' - viewers decide in 3 seconds whether the news is about their area
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3.6-flash (11s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+real photo not this news (The photo shows the Tamil Nadu Secretariat building, which is a generic stock ph): https://images.dinamalar.com/data/large_2025/Tamil_News_lrg_4383053.jpg?im=Resiz
+ok gemini/gemini-3.6-flash (36s)
+attempt 3 gemini/gemini-3.6-flash: 1 problems
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 7 ('இவருக்கு திருமணமாகி மனைவி மற்றும் 7 வயதில் ஒரு மகனும், 5 வயத')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+image match: False The image shows people outside a building with garbled text on the sign and does not depict any news event or setting re
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+image match: False The image is AI-generated with garbled text on the signboard and distorted details, and does not depict any real event, 
+image match: False The image shows a generic stock photo of a person dropping a paper into a ballot box and does not show any specific indi
+ok gemini/gemini-3.5-flash (43s)
+attempt 4 gemini/gemini-3.5-flash: 1 problems
+  hl1 is 45 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+image match: False The photo shows a metal box, stamp pad, and ledger on a desk, which is unrelated to the news story about vacant Assembly
+images made: 2 for '6 Assembly seats vacant in Tamil Nadu in'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261122-1534","first":"RN-117"}
+posting job started at once
+ok gemini/gemini-3.5-flash (46s)
+attempt 5 gemini/gemini-3.5-flash: 1 problems
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 7 ('இவருக்கு திருமணமாகி மனைவி மற்றும் 7 வயதில் ஒரு மகனும், 5 வயத')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.5-flash
+fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3-flash-preview
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+ok groq/qwen/qwen3.8-27b (4s)
+attempt 6 groq/qwen/qwen3.8-27b: 2 problems
+  hl1 is 54 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
+  reel_script sentence 1 (heard in the first 3 seconds) must name the place 'நெய்குப்பை' and the news itself, e.g. 'நெய்குப்பை-இல் ... 3 பேர் கைது.' - viewers decide in 3 seconds whether the news is about their area
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+switching away from groq/qwen/qwen3.8-27b for 10 min
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+free models unavailable: no free model answered: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your p
+ok anthropic/claude-haiku-5-5
+claude rewrite 1 anthropic/claude-haiku-5-5: 1 problems
+  hl1 is 45 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
+ok anthropic/claude-haiku-5-5
+claude rewrite 2 anthropic/claude-haiku-5-5: 1 problems
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 7 ('இவருக்கு திருமணமாகி மனைவி மற்றும் 7 வயதில் ஒரு மகனும், 5 வயத')
+ok anthropic/claude-haiku-5-5
+claude rewrite 3 anthropic/claude-haiku-5-5: 1 problems
+  hl1 is 45 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
+hl1 shortened at a natural break: 'சமயபுரம் அருகே குளவி கொட்டி சிறுமி உயிரிழப்பு' -> 'சமயபுரம் அருகே குளவி சிறுமி உயிரிழப்பு'
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok groq/openai/gpt-oss-120b (5s)
+proofread rejected (2 problems)
+  slide 2 line 1 longer than 60 characters
+  slide 2 line 2 longer than 60 characters
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok groq/openai/gpt-oss-120b (3s)
+real photo: vision check unavailable: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:ge
+real photo not this news (The image is a generic stock photograph of a child's hand, commonly used as an i): https://cf-images.assettype.com/maalai-malar%2F2026-11-22%2Fgjhuxfae%2Fgirldeath
+real photo: vision check out of free quota
+image match: False The image is an AI-generated scene featuring surreal elements like a giant wasp, rather than an authentic news photograp
+image match: False The image appears to be an AI-generated scene featuring surreal insect figures rather than a real news photograph relate
+image match: False The image is a macro photograph of a wasp on a leaf, rather than showing the news event, the 5-year-old girl, or the loc
+image match: False The image is a macro/artistic close-up depiction of a wasp on a leaf in a miniature garden setup, not a news photograph 
+images made: 2 for '5-year-old girl dies after wasp sting ne'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261122-1538","first":"RN-118"}
+earlier stories still waiting for images: []
+instagram check: 50 recent posts read from the page
+pick round: only the picked links are written (research_free/pick.py)
+manual link added: https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-kolavi-bit-child-death
+manual link added: https://www.dinamalar.com/news/tamil-nadu-news/kolathur-constituency-declared-vacant-total-number-increased-to-6/4383053
+candidate filter: collected=2
+to write: 2 Trichy district candidates (max 2 stories)
+round: top 2 of 2 candidates
+candidates waiting: 2 Trichy; time left 79 min
+try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/kolathur-cons
+try (N) manual=True: https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-kola
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})
+posting job started at once
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})
+candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 72 min
+filed: 2 Trichy district stories (target 2), reels only
+queue: 0 news waiting to be written
+All News sheet: {"ok":true,"added":2,"updated":0} 
+stories: 2

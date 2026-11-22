@@ -3,343 +3,194 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/power-outage-in-kallakudi-areas-tomorrow",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/பேருந்தில்-பெண்ணிடம்-16-பவுன்-நகைகள்-திருட்டு",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/irumudi-and-thaipusam-festival-114-trains-to-halt-at-melmaruvathur",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/pudukottai/2026/Nov/21/%E0%AE%AE%E0%AF%87%E0%AE%B2%E0%AF%8D%E0%AE%A8%E0%AE%BF%E0%AE%B2%E0%AF%88-%E0%AE%A8%E0%AF%80%E0%AE%BE%E0%AF%8D%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%87%E0%AE%95%E0%AF%8D%E0%AE%95-%E0%AE%A4%E0%AF%8A%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%BF%E0%AE%AF%E0%AF%88%E0%AE%9A%E0%AF%80%E0%AE%B0%E0%AE%AE%E0%AF%88%E0%AE%95%E0%AF%8D%E0%AE%95-%E0%AE%AA%E0%AF%8A%E0%AE%A4%E0%AF%81%E0%AE%AE%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%95%E0%AF%8B%E0%AE%B0%E0%AE%BF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%88",
-  "candidate filter: collected=4",
-  "to write: 4 Trichy district candidates (max 4 stories)",
-  "round: top 4 of 4 candidates",
-  "candidates waiting: 4 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/pudukot",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
-  "posting job started at once",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "manual link added: https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-kolavi-bit-child-death",
+  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/kolathur-constituency-declared-vacant-total-number-increased-to-6/4383053",
+  "candidate filter: collected=2",
+  "to write: 2 Trichy district candidates (max 2 stories)",
+  "round: top 2 of 2 candidates",
+  "candidates waiting: 2 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/kolathur-cons",
+  "try (N) manual=True: https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-kola",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})",
+  "posting job started at once",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})",
-  "candidate loop ended: left 0, tried={'N': 4}, done={'N': 4}, time left 78 min",
-  "filed: 4 Trichy district stories (target 4), reels only",
+  "candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 72 min",
+  "filed: 2 Trichy district stories (target 2), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":4,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":2,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (10s)",
-  "ok gemini/gemini-3-flash-preview (10s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "dead for this round: gemini/gemini-3-flash-preview",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "dead for this round: gemini/gemini-3-flash-preview",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok gemini/gemini-3.6-flash (19s)",
+  "ok gemini/gemini-3.6-flash (14s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "ok gemini/gemini-3.6-flash (14s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (11s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (3s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (21s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (13s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (11s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "ok gemini/gemini-3.6-flash (36s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
+  "ok gemini/gemini-3.5-flash (43s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.5-flash (46s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
+  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
   "ok groq/qwen/qwen3.8-27b (4s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/openai/gpt-oss-120b (5s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5"
+  "ok groq/openai/gpt-oss-120b (3s)"
  ],
  "stories": [
   {
-   "tamil_headline": "விராலிமலை அருகே மருதம்பட்டியில் மேல்நிலை நீர்த்தேக்கத் தொட்டி சீரமைக்கக் கோரிக்கை",
-   "english_headline": "Villagers in Marudhampatti near Viralimalai demand repair of the cracked overhead water tank",
-   "category": "Civic Issues",
-   "location": "Marudhampatti, Viralimalai union, Pudukkottai district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "பொதுப் பிரச்சினை",
-    "loc": "மருதம்பட்டி, விராலிமலை",
-    "hl1": "மருதம்பட்டியில் சீரமைக்கக் கோரிக்கை",
-    "hl2": "தொட்டியின் தூண்களில் விரிசல்",
-    "slides": [
-     {
-      "title": "என்ன பிரச்சினை?",
-      "lines": [
-       "மருதம்பட்டி ஊராட்சியில் மேல்நிலை நீர்த்தேக்கத் தொட்டி",
-       "தொட்டியின் தூண்களில் விரிசல் ஏற்பட்டுள்ளது",
-       "தொட்டி கட்டப்பட்டு பல ஆண்டுகள் ஆகின்றன"
-      ]
-     },
-     {
-      "title": "யார் பாதிப்பு?",
-      "lines": [
-       "நூற்றுக்கும் மேற்பட்ட குடும்பங்கள் இங்கு உள்ளன",
-       "இந்தத் தொட்டி மூலம் இவர்களுக்குக் குடிநீர் வழங்கப்படுகிறது",
-       "அப்பகுதி மக்கள் அச்சத்துடன் சென்று வருகின்றனர்"
-      ]
-     },
-     {
-      "title": "மக்கள் கோரிக்கை",
-      "lines": [
-       "தொட்டியின் உறுதித்தன்மையை ஆய்வு செய்ய வேண்டும்",
-       "தொட்டியைச் சீரமைக்க வேண்டும் என மக்கள் கோரிக்கை"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "விராலிமலை அருகே மருதம்பட்டியில் மேல்நிலை நீர்த்தேக்கத் தொட்டியின் தூண்களில் விரிசல் ஏற்பட்டுள்ளது. இதனால் அப்பகுதி மக்கள் அச்சத்துடனேயே சென்று வருகின்றனர். மருதம்பட்டி ஊராட்சியில் நூற்றுக்கும் மேற்பட்ட குடும்பங்கள் உள்ளன. இந்தக் குடும்பங்களுக்கு இத்தொட்டி மூலம்தான் குடிநீர் விநியோகிக்கப்படுகிறது. இந்தத் தொட்டி கட்டப்பட்டு பல ஆண்டுகள் ஆகின்றன. சிதிலமடைந்து வரும் இந்தத் தொட்டியைச் சீரமைக்க வேண்டும் என்று பொதுமக்கள் கோரிக்கை விடுத்துள்ளனர். தொட்டியின் உறுதித்தன்மையை ஆய்வு செய்து, தொட்டியைச் சீரமைக்க வேண்டும் என்பதே அவர்களின் கோரிக்கை. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🏚️ விராலிமலை அருகே மருதம்பட்டியில் குடிநீர்த் தொட்டி சீரமைக்கக் கோரிக்கை\n\n📰 முழு விவரம்:\nவிராலிமலை ஒன்றியம், மருதம்பட்டி ஊராட்சியில் மேல்நிலை நீர்த்தேக்கத் தொட்டியின் தூண்களில் விரிசல் ஏற்பட்டுள்ளது.\nநூற்றுக்கும் மேற்பட்ட குடும்பங்களுக்கு இந்தத் தொட்டி மூலம் குடிநீர் விநியோகிக்கப்படுகிறது.\nஇந்தத் தொட்டி கட்டப்பட்டு பல ஆண்டுகள் ஆகின்றன. சிதிலமடைந்து வரும் நிலையில் அப்பகுதி மக்கள் அச்சத்துடனேயே சென்று வருகின்றனர்.\nதொட்டியின் உறுதித்தன்மையை ஆய்வு செய்து, தொட்டியைச் சீரமைக்க வேண்டும் என்று பொதுமக்கள் கோரிக்கை விடுத்துள்ளனர்.\n\nMarudhampatti water tank cracks, villagers demand repair | Trichy news\n📍 விராலிமலை, புதுக்கோட்டை மாவட்டம் | 21 நவம்பர் 2026\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Viralimalai",
-   "prompts": "A tall concrete overhead water storage tank stands on several thick pillars in Marudhampatti village near Viralimalai, Pudukkottai district, Tamil Nadu, an old structure that has been in use for many years. Its supporting pillars show visible cracks running down the concrete, and the tank looks weathered and aged above them. The place is an open village street with low tiled and concrete houses on either side, a few coconut palms and dry scrubland behind, with a dirt road in front of the tank. Two or three villagers stand at a safe distance, seen from behind, looking up at the tank with concern; one woman in a cotton saree holds an empty brass water pot on her hip. A couple of plastic water pots lie near a tap stand at the base. The time is mid-morning in bright daylight with a clear sky and soft shadows falling on the pillars. The camera is at eye level, shot on a 35 mm lens from a slight distance, wide enough to show the tank, the cracked pillars, the houses and the villagers together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up detail of the cracked concrete pillar of the overhead water tank in Marudhampatti village, Viralimalai, Pudukkottai district. A long, visible crack runs vertically down the weathered grey concrete, with flaking plaster and exposed rust-stained reinforcement at its edges, showing the structure is deteriorating. The base of the pillar meets packed earth and a few dry leaves, with a rusted metal water pipe running alongside it. Behind the pillar, slightly out of focus, a villager's bare feet and the hem of a cotton veshti are visible, keeping their distance from the structure. Bright daylight from the side reveals the texture of the cracks and the age of the concrete. The camera is low, at about knee height, using a 35 mm lens to keep the crack sharp and the background softly blurred, so the danger and neglect of the structure come through clearly. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/pudukottai/2026/Nov/21/%E0%AE%AE%E0%AF%87%E0%AE%B2%E0%AF%8D%E0%AE%A8%E0%AE%BF%E0%AE%B2%E0%AF%88-%E0%AE%A8%E0%AF%80%E0%AE%BE%E0%AF%8D%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%87%E0%AE%95%E0%AF%8D%E0%AE%95-%E0%AE%A4%E0%AF%8A%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%BF%E0%AE%AF%E0%AF%88%E0%AE%9A%E0%AF%80%E0%AE%B0%E0%AE%AE%E0%AF%88%E0%AE%95%E0%AF%8D%E0%AE%95-%E0%AE%AA%E0%AF%8A%E0%AE%A4%E0%AF%81%E0%AE%AE%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%95%E0%AF%8B%E0%AE%B0%E0%AE%BF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%88",
-   "published": "2026-11-21T19:08:39.206Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 0 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795293669/trichy360/zqmeyjffw1nns4jey71o.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795293672/trichy360/rnh7brkwzvrly4hovmcr.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "மேல்மருவத்தூரில் 114 ரயில்கள் நின்று செல்லும்: டிச. 4 முதல் டிச. 31 வரை",
-   "english_headline": "114 trains to halt at Melmaruvathur station from 4 to 31 December for Irumudi and Thaipusam festival",
-   "category": "Roads & Transport",
-   "location": "Melmaruvathur railway station, Chengalpattu district",
+   "tamil_headline": "திருச்சி கிழக்கு உட்பட தமிழகத்தில் 6 சட்டசபை தொகுதிகள் காலி: கொளத்தூர் தொகுதியும் பட்டியலில் சேர்க்கை",
+   "english_headline": "6 Assembly seats vacant in Tamil Nadu including Trichy East as Kolathur added after TVK MLA VS Babu passes away",
+   "category": "Government & Services",
+   "location": "Trichy East, Trichy district",
    "importance": "High",
    "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "ரயில் அறிவிப்பு",
-    "loc": "மேல்மருவத்தூர்",
-    "hl1": "மேல்மருவத்தூரில் 114 ரயில்கள் நிற்கும்",
-    "hl2": "டிச. 4 முதல் டிச. 31 வரை",
+    "cat": "சட்டசபை செய்தி",
+    "loc": "திருச்சி கிழக்கு",
+    "hl1": "திருச்சி கிழக்கு உட்பட 6 தொகுதிகள் காலி",
+    "hl2": "காலியான தொகுதிகள் 6 ஆனது",
     "slides": [
      {
-      "title": "எப்போது?",
+      "title": "கொளத்தூர் தொகுதி",
       "lines": [
-       "டிச. <b>4</b> முதல் டிச. <b>31</b> வரை",
-       "தற்காலிகமாக ரயில்கள் நின்று செல்லும்",
-       "இருமுடி, தைப்பூசத் திருவிழாவை முன்னிட்டு"
+       "தவெக எம்எல்ஏ வி.எஸ்.பாபு மறைந்தார்",
+       "கொளத்தூர் தொகுதி காலியானதாக அறிவிப்பு",
+       "தமிழக சட்டசபை செயலகம் அதிகாரப்பூர்வ தகவல்"
       ]
      },
      {
-      "title": "எத்தனை ரயில்கள்?",
+      "title": "காலித் தொகுதிகள்",
       "lines": [
-       "மொத்தம் <b>114 ரயில்கள்</b>",
-       "57 விரைவு ரயில்கள் ஒரு மார்க்கத்தில்",
-       "மறுமார்க்கமாகச் செல்லும் 57 ரயில்களும் நிற்கும்"
+       "<b>திருச்சி கிழக்கு</b>, பெருந்துறை",
+       "விராலிமலை, அம்பாசமுத்திரம்",
+       "கரூர் மற்றும் கொளத்தூர்"
       ]
      },
      {
-      "title": "எவ்வளவு நேரம்?",
+      "title": "மொத்தம் 6",
       "lines": [
-       "ஒவ்வொரு ரயிலும் <b>2 நிமிடங்கள்</b> நிற்கும்",
-       "மேல்மருவத்தூர் ரயில் நிலையத்தில் மட்டும்",
-       "திருச்சி கோட்ட ரயில்வே நிர்வாகம் தகவல்"
-      ]
-     },
-     {
-      "title": "என்ன செய்யலாம்?",
-      "lines": [
-       "பயணிகள் ரயில் நேரத்தை முன்கூட்டியே சரிபாருங்கள்",
-       "ரயில் நிலையத்துக்கு நேரத்தோடு செல்லுங்கள்",
-       "பயணத் திட்டத்தை முன்பே தயார் செய்யுங்கள்"
+       "மொத்தம் <b>6</b> சட்டசபை தொகுதிகள் காலியாக உள்ளன",
+       "விரைவில் தேர்தல் தேதி அறிவிக்கப்படும் எதிர்பார்ப்பு",
+       "தேர்தல் ஆணைய அறிவிப்புக்குப் பின் பிரசாரம் சூடுபிடிக்கும்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "மேல்மருவத்தூர் ரயில் நிலையத்தில் 114 ரயில்கள் நின்று செல்லும். இருமுடி, தைப்பூசத் திருவிழாவை முன்னிட்டு இந்த ஏற்பாடு செய்யப்பட்டுள்ளது. சென்னை எழும்பூர், திருச்சி, மதுரை, ராமேசுவரம், நாகர்கோவில், கொல்லம் உள்ளிட்ட ஊர்களுக்குச் செல்லும் 57 விரைவு ரயில்கள் நிற்கும். மறுமார்க்கமாகச் செல்லும் 57 ரயில்களும் நிற்கும். ஒவ்வொரு ரயிலும் 2 நிமிடங்கள் மேல்மருவத்தூரில் நிற்கும். இந்த நிறுத்தம் டிசம்பர் 4 முதல் டிசம்பர் 31 வரை தற்காலிகமாக அமலில் இருக்கும். இத்தகவலை திருச்சி கோட்ட ரயில்வே நிர்வாகம் தெரிவித்துள்ளது. பயணிகள் தங்கள் ரயில் நேரத்தை முன்கூட்டியே சரிபார்த்துக்கொள்ளுங்கள். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚆 மேல்மருவத்தூரில் 114 ரயில்கள் நின்று செல்லும்: டிச. 4 முதல் டிச. 31 வரை\n\n📰 முழு விவரம்:\nஇருமுடி, தைப்பூசத் திருவிழாவை முன்னிட்டு மேல்மருவத்தூர் ரயில் நிலையத்தில் 114 ரயில்கள் நின்று செல்லும். சென்னை எழும்பூர் - திருச்சி, சென்னை எழும்பூர் - மதுரை, தாம்பரம் - ராமேசுவரம், சென்னை எழும்பூர் - கொல்லம் உள்ளிட்ட 57 விரைவு ரயில்கள் ஒரு மார்க்கத்தில் நிற்கும். மறுமார்க்கமாகச் செல்லும் 57 ரயில்களும் நிற்கும்.\n📍 இடம்: மேல்மருவத்தூர் ரயில் நிலையம்\n🗓️ நாள்: டிசம்பர் 4 முதல் டிசம்பர் 31 வரை\n🕘 நேரம்: ஒவ்வொரு ரயிலும் 2 நிமிடங்கள் நிற்கும்\nℹ️ மக்கள் கவனத்திற்கு: இது தற்காலிக ஏற்பாடு. பயணிகள் ரயில் நேரத்தை முன்கூட்டியே சரிபார்த்துக்கொள்ளுங்கள்.\n\nMelmaruvathur 114 trains halt Dec 4-31 | Trichy news\n📍 மேல்மருவத்தூர், செங்கல்பட்டு மாவட்டம் | 21 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Melmaruvathur #TrichyNews #திருச்சி",
-   "prompts": "A long express train slows and stops at a small railway platform at Melmaruvathur station as a crowd of devotees, some carrying Irumudi bundles on their heads, wait with their bags to board. The platform is a simple raised concrete platform beside steel railway tracks, with a modest station building and a few railway staff in uniform standing at a distance. Several passengers are seen from behind, men in veshti and shirts, women in sarees, and a few children in traditional festival clothing, all gathered near the coach doors. The train is a multi-coach express in its standard colours, with its doors opening for the short two-minute halt. Early morning light in December, with a soft pale sky and cool air. Camera at eye level, slightly high, 35 mm lens, wide enough to show the platform, the train and the tracks stretching into the distance. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a railway track and platform edge at Melmaruvathur station, with a pair of steel rails glinting in the early light and a yellow safety line painted along the concrete platform edge. Bundles of traditional Irumudi, cloth bags tied with saffron and red cloth, rest on the platform beside a worn bench, held by the hands of a devotee seen only from behind. Dust and small stones lie along the rails, and a faint trace of the arriving train is visible at the far end of the track. The scene is calm and empty of crowds, showing the station as it prepares for the festival rush. Early morning, pale December daylight, cool and dry. Camera at low eye level, 35 mm lens, shallow depth of field keeping the rails and bundles sharp while the background softly blurs. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/irumudi-and-thaipusam-festival-114-trains-to-halt-at-melmaruvathur",
-   "published": "2026-11-21T19:02:34.721Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script has 69 words; need 100-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
+   "reel_script": "திருச்சி கிழக்கு உட்பட தமிழகத்தில் 6 சட்டசபை தொகுதிகள் காலியாக உள்ளன. த வெ க சட்டமன்ற உறுப்பினர் வி எஸ் பாபு மறைந்தார். இதைத் தொடர்ந்து கொளத்தூர் சட்டசபை தொகுதி காலியானதாக தமிழக சட்டசபை செயலகம் அறிவித்துள்ளது. இதனால் தமிழகத்தில் காலியாக உள்ள சட்டசபை தொகுதிகளின் எண்ணிக்கை 6 ஆக உயர்ந்துள்ளது. திருச்சி கிழக்கு, பெருந்துறை, விராலிமலை, அம்பாசமுத்திரம், கரூர் மற்றும் கொளத்தூர் ஆகிய 6 தொகுதிகள் தற்போது காலியாக உள்ளன. இந்தத் தொகுதிகளுக்கு விரைவில் தேர்தல் ஆணையம் தேர்தல் அறிவிப்பை வெளியிடும் என்று எதிர்பார்க்கப்படுகிறது. தேர்தல் தேதி அறிவிக்கப்பட்ட பிறகு அரசியல் பிரசாரம் சூடுபிடிக்கும். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🗳️ திருச்சி கிழக்கு உட்பட தமிழகத்தில் 6 சட்டசபை தொகுதிகள் காலி: தேர்தல் ஆணைய அறிவிப்பு விரைவில் எதிர்பார்ப்பு\n\n📰 முழு விவரம்:\nதவெக சட்டமன்ற உறுப்பினர் வி.எஸ்.பாபுவின் மறைவைத் தொடர்ந்து, கொளத்தூர் சட்டசபை தொகுதி காலியானதாக தமிழக சட்டசபை செயலகம் அறிவித்துள்ளது. இதன் மூலம் தமிழகத்தில் காலியாக உள்ள சட்டசபை தொகுதிகளின் எண்ணிக்கை 6 ஆக உயர்ந்துள்ளது.\n\n📍 காலியாக உள்ள 6 தொகுதிகள்:\n1. திருச்சி கிழக்கு\n2. பெருந்துறை\n3. விராலிமலை\n4. அம்பாசமுத்திரம்\n5. கரூர்\n6. கொளத்தூர்\n\n📢 இந்தத் தொகுதிகளுக்கு விரைவில் தேர்தல் ஆணையம் தேர்தல் தேதியை அறிவிக்கும் என எதிர்பார்க்கப்படுகிறது. தேர்தல் தேதி அறிவிக்கப்பட்ட பின் பிரசாரம் தீவிரமடையும்.\n\n6 TN Assembly seats vacant Trichy East Kolathur | Trichy news\n📍 திருச்சி கிழக்கு, திருச்சி மாவட்டம் | 22 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyEast #TrichyNews #திருச்சி",
+   "prompts": "A wide exterior view of a government revenue administrative office building representing the Trichy East constituency in Trichy city during bright daylight. Local residents, including men in white shirts with veshtis and women in colourful sarees, gather in small groups in the open courtyard outside the porch. A few two-wheelers are parked along the compound wall under leafy neem trees. Officials in formal shirts walk across the shaded entrance hall carrying paper folders. The bright morning sunlight illuminates the dusty courtyard and concrete structures of the local administrative center. The camera is set at eye level with a 35 mm lens, capturing the wide scene of citizens and the government venue without showing any recognisable faces or readable text. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA detail shot inside a local government election desk room in Trichy East, focusing on a sealed metallic ballot box and thick administrative register books resting on a wooden table. Beside the ledgers lie an unbranded blue stamp ink pad and wooden administrative seals. Soft indoor daylight streams from a nearby window, reflecting gently off the painted metal surface of the box. An administrative worker dressed in a plain light blue shirt is visible from behind, placing a folder onto the table. The camera is positioned at a slightly high angle with a 35 mm lens, keeping the ballot box and administrative tools in sharp focus while ensuring all writing remains completely blurred and illegible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamalar.com/news/tamil-nadu-news/kolathur-constituency-declared-vacant-total-number-increased-to-6/4383053",
+   "published": "2026-11-22T13:27:00+05:30",
+   "verification": "DRAFT (gemini/gemini-3.6-flash) - fact-check: no problems found",
+   "note": "free-model draft gemini/gemini-3.6-flash, 2 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795293682/trichy360/w2kjykecpf5liharnh50.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795293700/trichy360/y9swsrmrwlcuthnvdcw8.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795341824/trichy360/tsfm1318etrue6gfqjyo.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795341861/trichy360/dqzvfd4xgkrhsswypi9h.jpg"
    ]
   },
   {
-   "tamil_headline": "பேருந்தில் பெண்ணிடம் 16 பவுன் நகைகள் திருட்டு: 3 பெண்கள் தேடப்படுகின்றனர்",
-   "english_headline": "16 sovereigns of gold stolen from a woman on a bus; police searching for 3 women",
+   "tamil_headline": "சமயபுரம் அருகே குளவி கொட்டியதில் 5 வயது சிறுமி உயிரிழப்பு",
+   "english_headline": "5-year-old girl dies after wasp sting near Samayapuram, Trichy district",
    "category": "Crime & Safety",
-   "location": "K.K. Nagar, Trichy; Kambam, Theni district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "திருட்டு",
-    "loc": "திருச்சி கே.கே. நகர்",
-    "hl1": "பேருந்தில் பெண்ணிடம் 16 பவுன் திருட்டு",
-    "hl2": "3 பெண்கள் தேடப்படுகின்றனர்",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "திருச்சி கே.கே. நகரைச் சேர்ந்த சுரேகா, <b>16 பவுன்</b> தங்க",
-       "திண்டுக்கல் செல்லும் பேருந்தில் இந்தத் திருட்டு நடந்தது",
-       "<b>19</b>ஆம் தேதி பயணத்தின்போது நடந்ததாகக் கூறப்படுகிறது"
-      ]
-     },
-     {
-      "title": "எப்படித்",
-      "lines": [
-       "சுரேகா அருகில் அமர்ந்த பெண் கீழே நாணயம் போட்டார்",
-       "நாணயத்தை எடுக்குமாறு கூறி அவரை குனிய வைத்தார்",
-       "அந்த நேரத்தில் <b>3 பெண்கள்</b> வடமதுரையில் இறங்கிச் சென்றனர்"
-      ]
-     },
-     {
-      "title": "பிறகு என்ன?",
-      "lines": [
-       "கம்பத்தில் உள்ள சகோதரர் வீட்டுக்குச் சென்ற பிறகே திருட்டு",
-       "கணவர் ரமேஷ் அளித்த புகாரில் வழக்குப் பதிவு",
-       "3 பெண்களையும் போலீசார் தேடி வருகின்றனர்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சியில் பேருந்தில் பயணித்த பெண்ணிடம் 16 பவுன் தங்க நகைகள் திருடப்பட்டுள்ளன. திருச்சி கே கே நகரைச் சேர்ந்த சுரேகா, 46 வயது பெண். அவர் கடந்த 19ஆம் தேதி தேனி மாவட்டம் கம்பத்தில் உள்ள தனது சகோதரர் வீட்டுக்குச் சென்றார். மன்னார்புரத்திலிருந்து திண்டுக்கல் செல்லும் பேருந்தில் அவர் பயணம் செய்தார். அதே பேருந்தில் வையம்பட்டியைச் சேர்ந்த அடையாளம் தெரியாத 3 பெண்கள் ஏறியதாகக் கூறப்படுகிறது. சுரேகா அருகில் அமர்ந்திருந்த பெண் ஒருவர் கீழே நாணயம் ஒன்றைப் போட்டு அதை எடுக்குமாறு கூறினார். சுரேகா குனிந்து நாணயத்தை எடுத்த நேரத்தில், அந்த 3 பெண்களும் வடமதுரையில் இறங்கிச் சென்றனர். சுரேகா திண்டுக்கல் பேருந்து நிலையத்தில் இறங்கி, குமுளி பேருந்து மூலம் கம்பத்தில் உள்ள சகோதரர் வீட்டுக்குச் சென்றார். அங்கு சென்ற பிறகுதான், தனது பையிலிருந்த 16 பவுன் தங்க நகைகள் திருடப்பட்டதை அவர் அறிந்தார். இது குறித்து சுரேகாவின் கணவர் ரமேஷ் அளித்த புகாரின் பேரில் கே கே நகர் போலீசார் வழக்குப் பதிவு செய்து, 3 பெண்களையும் தேடி வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சி பேருந்தில் பெண்ணிடம் 16 பவுன் நகை திருட்டு: 3 பெண்கள் தேடப்படுகின்றனர்\n\n📰 முழு விவரம்:\nதிருச்சி கே.கே. நகர் எஸ்.எம்.இ.எஸ்.இ. காலனியைச் சேர்ந்த சுரேகா (46 வயது), கடந்த 19ஆம் தேதி தேனி மாவட்டம் கம்பத்தில் உள்ள சகோதரர் வீட்டுக்குச் செல்ல மன்னார்புரத்திலிருந்து திண்டுக்கல் செல்லும் பேருந்தில் ஏறினார். அதே பேருந்தில் வையம்பட்டியைச் சேர்ந்த அடையாளம் தெரியாத 3 பெண்களும் ஏறியதாகக் கூறப்படுகிறது.\nசுரேகா அருகில் அமர்ந்திருந்த பெண் கீழே நாணயம் போட்டு அதை எடுக்கக் கூறியபோது, அவர் குனிந்த நேரத்தில் அந்த 3 பெண்களும் வடமதுரையில் இறங்கிச் சென்றனர். பின்னர் சுரேகா வெள்ளிக்கிழமை திண்டுக்கல் பேருந்து நிலையத்தில் இறங்கி, குமுளி பேருந்து மூலம் கம்பத்தில் உள்ள சகோதரர் வீட்டுக்குச் சென்றார்.\nஅங்கு சென்ற பிறகுதான், பையிலிருந்த 16 பவுன் தங்க நகைகள் திருடப்பட்டதை அவர் அறிந்தார். கணவர் ரமேஷ் அளித்த புகாரின் பேரில் கே.கே. நகர் போலீசார் வழக்குப் பதிவு செய்து 3 பெண்களையும் தேடுகின்றனர்.\n\nTrichy bus gold theft, 16 sovereigns | Trichy news\n📍 திருச்சி கே.கே. நகர், திருச்சி மாவட்டம் | 21 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
-   "prompts": "A middle-aged woman in a cotton saree sits by a bus window, clutching a handbag on her lap, as a mofussil bus runs along a Trichy highway in daylight. Inside the bus, passengers sit on worn seats; the glimpse of a crowded aisle suggests a long-distance journey toward Dindigul. Three women in sarees and a dupatta-clad figure sit or stand a few rows away, one of them seen from behind leaning slightly forward, as if reaching for something near the floor. The bus interior has faded green seats, metal handrails and a dirty glass window with daylight coming through. Time is daytime, with soft natural light and no visible sign of weather. Camera: eye level or slightly high, 35 mm, wide enough to show the bus interior and the woman's bag and the women seated nearby, all people seen from behind or in soft focus. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a woman's handbag open on a seat of a bus, with a small pile of gold jewellery, a bangle and a chain partly visible inside the zip pocket, while a single silver coin rests on the floor of the bus nearby. The bag's fabric is dark red with a metal zip, and the seat beside it is worn and patterned. Only hands from a sleeve of a saree are visible at the edge of frame, and no face is shown. The lighting is natural daylight from a bus window, giving a warm glow on the gold. Time of day is daytime with no weather visible. Camera: close-up at a low angle, 50 mm, shallow depth of field so the bag and coin are sharp and the background bus seats softly blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/பேருந்தில்-பெண்ணிடம்-16-பவுன்-நகைகள்-திருட்டு",
-   "published": "2026-11-21T19:06:02.509Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: not grounded: location 'நகர்' is not in the article",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795293705/trichy360/k9ypveyfhzfxqxudmtcn.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795293708/trichy360/keay1g09mczhgmifvdeg.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "கல்லக்குடி பகுதிகளில் நாளை மின்தடை: காலை 10 முதல் பிற்பகல் 3 மணி வரை",
-   "english_headline": "Power cut tomorrow in Kallakudi area from 10 AM to 3 PM for substation maintenance",
-   "category": "மின் தடை",
-   "location": "Kallakudi, Trichy district",
+   "location": "Neykuppai near Samayapuram, Trichy district",
    "importance": "High",
    "scope": "",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "மின் தடை",
-    "loc": "கல்லக்குடி",
-    "hl1": "கல்லக்குடியில் நாளை மின்தடை",
-    "hl2": "காலை 10 – பிற்பகல் 3 வரை",
+    "cat": "சோகச் செய்தி",
+    "loc": "சமயபுரம், திருச்சி",
+    "hl1": "சமயபுரம் அருகே குளவி சிறுமி உயிரிழப்பு",
+    "hl2": "5 வயது அன்சிகா",
     "slides": [
      {
-      "title": "எப்போது?",
+      "title": "என்ன நடந்தது?",
       "lines": [
-       "திங்கள்கிழமை (<b>நவ. 23</b>)",
-       "காலை <b>10 மணி</b> முதல் பிற்பகல் <b>3 மணி</b> வரை",
-       "கல்லக்குடி துணை மின்நிலைய பராமரிப்புப் பணி"
+       "சமயபுரம் அருகே நெய்குப்பையில் சம்பவம்",
+       "குளவி கொட்டியதில் <b>5 வயது</b> சிறுமி அன்சிகா உயிரிழப்பு",
+       "வீட்டில் விளையாடிக் கொண்டிருந்தபோது குளவி கொட்டியது"
       ]
      },
      {
-      "title": "எந்தப் பகுதிகள்?",
+      "title": "சிகிச்சை விவரம்",
       "lines": [
-       "கல்லக்குடி, வடுகர்பேட்டை, பளிங்காநத்தம்",
-       "ஆமரசூர், தாப்பாய், வரகுப்பை, புள்ளம்பாடி",
-       "உள்ளிட்ட <b>45</b> பகுதிகளில் மின்சாரம் இருக்காது"
+       "குடும்பத்தினர் மீட்டு புதூர் உத்தமனூர் அரசு ஆரம்ப சுகாதார",
+       "முதலுதவிக்குப் பின் திருச்சி அரசு மருத்துவமனைக்கு",
+       "சிகிச்சை பலனின்றி உயிரிழந்தார்"
       ]
      },
      {
-      "title": "பொதுமக்களுக்கு",
+      "title": "குடும்பம், போலீஸ்",
       "lines": [
-       "மின்தடை நேரத்துக்கு முன் தேவையான பணிகளை முடியுங்கள்",
-       "மொபைல் சார்ஜ், குடிநீரை முன்பே தயார் செய்யுங்கள்",
-       "திருச்சி மாவட்ட மின்வாரியம் தகவல் தெரிவித்துள்ளது"
+       "தந்தை பூபதி விவசாயக் கூலி வேலை செய்து வருகிறார்",
+       "<b>7 வயது</b> மகனும் உள்ளார்",
+       "புகாரின் பேரில் சமயபுரம் போலீசார் விசாரணை நடத்துகின்றனர்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "கல்லக்குடி பகுதியில் நாளை 5 மணி நேரம் மின்தடை. திங்கள்கிழமை நவம்பர் 23ஆம் தேதி காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம் இருக்காது. கல்லக்குடி துணை மின்நிலையத்தில் பராமரிப்புப் பணிகள் நடைபெறுவதால் இந்த மின்தடை செய்யப்படுகிறது. கல்லக்குடி, வடுகர்பேட்டை, பளிங்காநத்தம், ஆமரசூர், தாப்பாய், புள்ளம்பாடி உள்ளிட்ட 45 பகுதிகள் பாதிக்கப்படும். பகுதிகளின் முழுப் பட்டியலும் செய்திக்குறிப்பில் உள்ளது. இந்தத் தகவலைத் திருச்சி மாவட்ட மின்வாரியம் வெளியிட்டுள்ளது. பொதுமக்கள் மின்தடைக்கு முன் தேவையான பணிகளை முடித்துக்கொள்ளுங்கள். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "⚡ கல்லக்குடியில் நாளை மின்தடை: காலை 10 – பிற்பகல் 3 மணி வரை\n\n📰 முழு விவரம்:\nகல்லக்குடி துணை மின்நிலைய பராமரிப்புப் பணிகளுக்காக நவ. 23, திங்கள்கிழமை காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம் நிறுத்தப்படுகிறது.\n🏘️ பகுதிகள்: கல்லக்குடி, வடுகர்பேட்டை, பளிங்காநத்தம், மேலரசூர், மால்வாய், சரடமங்கலம், எம். கண்ணனூர், ஒரத்தூர், சாத்தப்பாடி, சிலுவைப்பட்டி, ஆமரசூர், தாப்பாய், வரகுப்பை, சிறுகளப்பூர், அழுந்தலைப்பூர், கருடமங்கலம், வந்தலைக்கூடலூர், சிறுவயலூர், காணக்கிளியநல்லூர், பெருவளப்பூர், வெங்கடாஜலபுரம், கோவண்டாக்குறிச்சி, புதூர்பாளையம், தங்கச்சாலை, திண்ணகுளம், வாண்ராப்பாளையம், கொள்ளுமேடு, முள்ளால், விநாயகபுரம், ஆலம்பாக்கம், விரகாலூர், ஆலம்பாடி மேட்டூர், நத்தம், மாங்குடி, டி. கல்விக்குடி, கே.வி. பேட்டை, ஆலங்குடிமகாஜனம், செம்பரை, திண்ணியம், செங்கரையூர், கோமாகுடி, அரியூர், கல்லகம், கீழரசூர், புள்ளம்பாடி\n📢 இந்தத் தகவலை திருச்சி மாவட்ட மின்வாரியம் வெளியிட்டுள்ளது.\n🔋 மொபைல் சார்ஜ், குடிநீரை முன்கூட்டியே தயார் செய்துகொள்ளுங்கள்.\n\nKallakudi power cut tomorrow 10 AM to 3 PM | Trichy news\n📍 கல்லக்குடி, திருச்சி மாவட்டம் | 23 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Kallakudi #மின்தடை #TrichyPowerCut",
-   "prompts": "A TNEB lineman in a blue uniform and safety helmet stands on a ladder beside a concrete pole, working on a transformer at the Kallakudi substation in Trichy district during daytime maintenance. Behind him stands a substation fenced with steel gates and rows of high-tension wires, with a dry paddy field and a few palm trees stretching toward the Cauvery river plains. A second worker on the ground, seen from behind, holds a tool bag, and a small village road with a parked two-wheeler lies to one side. The bright late-morning sun casts short shadows across the concrete yard. Shot at eye level, 35 mm lens, wide enough to show the substation, the poles and the open fields around it. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a large grey transformer mounted on a concrete pole at the Kallakudi substation, its switches and insulators visible, with a red warning board on the pole turned away from the camera so no text is readable. Stripped copper wires and a yellow insulated tool rest on a wooden crate in the foreground, while a pair of TNEB workers' gloves lie beside them. Behind the transformer, blurred banana trees and a village house roof mark the rural setting near Kallakudi. Bright daylight, slightly high angle, 35 mm lens focused on the transformer and tools. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/power-outage-in-kallakudi-areas-tomorrow",
-   "published": "2026-11-21T19:08:24.803Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: numbers not found in the article: 45",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
+   "reel_script": "சமயபுரம் அருகே குளவி கொட்டியதில் 5 வயது சிறுமி உயிரிழந்தார். திருச்சி மாவட்டம் சமயபுரம் அருகே உள்ள நெய்குப்பையைச் சேர்ந்த பூபதி விவசாயம் செய்து வருகிறார். அவருக்குத் திருமணமாகி மனைவியும், 7 வயது மகனும், 5 வயது மகள் அன்சிகாவும் உள்ளனர். சம்பவத்தன்று வீட்டில் விளையாடிக் கொண்டிருந்த அன்சிகாவை ஒரு குளவி கொட்டியது. வலியால் அலறித் துடித்த அவரைக் குடும்பத்தினர் மீட்டு, புதூர் உத்தமனூரில் உள்ள அரசு ஆரம்ப சுகாதார நிலையத்தில் சேர்த்தனர். அங்கு முதலுதவி சிகிச்சை அளிக்கப்பட்டது. பின்னர் மேல் சிகிச்சைக்காக திருச்சி அரசு மருத்துவமனையில் அனுமதிக்கப்பட்டார். ஆனால் சிகிச்சை பலனின்றி அன்சிகா உயிரிழந்தார். இதுகுறித்த புகாரின் பேரில் சமயபுரம் போலீசார் விசாரணை நடத்தி வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 சமயபுரம் அருகே குளவி கொட்டி 5 வயது சிறுமி உயிரிழப்பு\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம் சமயபுரம் அருகே உள்ள நெய்குப்பையைச் சேர்ந்த பூபதி விவசாயம் செய்து வருகிறார். அவருக்கு மனைவியும், 7 வயதில் ஒரு மகனும், 5 வயதில் அன்சிகா என்ற மகளும் உள்ளனர்.\nசம்பவத்தன்று வீட்டில் விளையாடிக் கொண்டிருந்த அன்சிகாவை ஒரு குளவி கொட்டியது. வலியால் அலறித் துடித்த அவரைக் குடும்பத்தினர் மீட்டு, புதூர் உத்தமனூரில் உள்ள அரசு ஆரம்ப சுகாதார நிலையத்தில் சேர்த்தனர். அங்கு முதலுதவி சிகிச்சை அளிக்கப்பட்ட பின், மேல் சிகிச்சைக்காக திருச்சி அரசு மருத்துவமனையில் அனுமதிக்கப்பட்டார்.\nசிகிச்சை பலனின்றி அன்சிகா உயிரிழந்தார். இதுகுறித்த புகாரின் பேரில் சமயபுரம் போலீசார் விசாரணை நடத்தி வருகின்றனர்.\n\n📍 இடம்: நெய்குப்பை, சமயபுரம் அருகே, திருச்சி மாவட்டம்\n👮 நடவடிக்கை: புகாரின் பேரில் சமயபுரம் போலீசார் விசாரணை\n\nSamayapuram wasp sting girl dies | Trichy news\n📍 சமயபுரம், திருச்சி மாவட்டம் | 22 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Samayapuram #TrichyNews #திருச்சி",
+   "prompts": "A 5‑year‑old girl playing in the courtyard is suddenly stung by a wasp. The scene is set in a typical rural house courtyard in Neykuppai, with mud walls, a thatched roof and a few palm trees framing the space. The girl is seen from behind in a bright dress, while her father, mother and 7‑year‑old brother stand a few metres away, hands raised in alarm, wearing simple shirts and a sari. On the ground lies a wooden toy and a mud pot; a yellow‑black wasp hovers near the girl’s hand. Bright daylight casts clear shadows, suggesting a clear sky. The camera is at eye level with a 35 mm lens, a medium‑wide frame that captures the house wall, the family and the insect. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up shows a yellow‑black wasp perched on a leaf beside a small wooden toy, its stinger clearly visible. The detail is taken in the same courtyard, where low‑lying grass and a few potted plants typical of Neykuppai homes surround the scene. No people are visible; only the insect and the objects are in focus. Alongside the wasp are a wooden toy, a clay pot and a few fallen mango leaves, emphasizing the domestic setting. Daylight provides soft, even illumination with gentle shadows. The camera is positioned slightly high, using a 35 mm lens for a tight, macro‑style frame that isolates the wasp and the toy. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.maalaimalar.com/news/tamilnadu/tiruchi-near-kolavi-bit-child-death",
+   "published": "2026-11-22T09:42:46Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795293713/trichy360/vw27lofobdzihz4ezcrt.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795293717/trichy360/xoa50ewbbzckyciabuyd.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795342109/trichy360/vwvkhummky6vs1exng9m.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795342129/trichy360/q6njdvrrsfbaegajakym.jpg"
    ]
   }
  ]
