@@ -83,6 +83,15 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-22 | `1f0e5b9` | Facebook share e-mail: news on Instagram but not on Facebook after 3 hours |
+| 2026-11-22 | `fdbdb41` | manual post e-mail RN-114 |
+| 2026-11-22 | `5b45564` | manual post e-mail RN-110 |
+| 2026-11-22 | `ccaed76` | manual post e-mail RN-109 |
+| 2026-11-22 | `3ad962e` | stories shared / Instagram pause |
+| 2026-11-22 | `8bf1fce` | manual post e-mail RN-111 |
+| 2026-11-22 | `f04b3d7` | manual post e-mail RN-112 |
+| 2026-11-22 | `b9a0115` | manual post e-mail RN-113 |
+| 2026-11-22 | `b0909d6` | stories shared / Instagram pause |
 | 2026-11-22 | `42b3dcf` | Manual post e-mail: attach a 720p copy of the reel (the full reel was too large) |
 | 2026-11-22 | `561c270` | manual post e-mail RN-110 |
 | 2026-11-22 | `3ef5e0f` | manual post e-mail RN-109 |
@@ -104,13 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-21 | `6cf7a80` | pick: picked news saved |
 | 2026-11-21 | `f08309a` | pick: picked news saved |
 | 2026-11-21 | `b172bd1` | pick: list sent |
-| 2026-11-21 | `cde62ad` | pick: written and posted |
-| 2026-11-21 | `8c977fc` | powercut: notices written |
-| 2026-11-21 | `2f8eb8d` | Facebook: every news that is on Instagram also goes to Facebook |
-| 2026-11-21 | `844fe09` | powercut: notices written |
-| 2026-11-21 | `c628605` | pick: picked news saved |
-| 2026-11-21 | `df04f31` | pick: picked news saved |
-| 2026-11-21 | `c2a435c` | pick: list sent |
-| 2026-11-21 | `0745f4b` | pick: written and posted |
-| 2026-11-21 | `d6ebf37` | Posted report: one e-mail for all pages, 4 times a day |
 <!-- recent-changes:end -->
