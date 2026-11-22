@@ -83,6 +83,18 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-22 | `85333fe` | Manual post e-mail: news a page cannot post goes to the owner, one by one |
+| 2026-11-22 | `af826ec` | pick: written and posted |
+| 2026-11-22 | `bd1e4ef` | pick: list sent |
+| 2026-11-21 | `54ce90c` | pick: written and posted |
+| 2026-11-21 | `10cb1ba` | pick: list sent |
+| 2026-11-21 | `12b2bd4` | powercut: notices written |
+| 2026-11-21 | `4e68ea6` | powercut: notices written |
+| 2026-11-21 | `0351fda` | pick: written and posted |
+| 2026-11-21 | `82f085c` | pick: picked news saved |
+| 2026-11-21 | `6e73fb6` | pick: picked news saved |
+| 2026-11-21 | `da509b5` | pick: list sent |
+| 2026-11-21 | `3a84099` | pick: written and posted |
 | 2026-11-21 | `44191b3` | YouTube: news reels uploaded automatically as Shorts (only with the page's keys) |
 | 2026-11-21 | `6cf7a80` | pick: picked news saved |
 | 2026-11-21 | `f08309a` | pick: picked news saved |
@@ -101,16 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-21 | `fab9240` | pick: picked news saved |
 | 2026-11-21 | `e1ae894` | pick: list sent |
 | 2026-11-21 | `6aa9c59` | Instagram-safe: stories only for power cuts / urgent news again (as Kovai and Chennai Minnal); direct-upload trial off |
-| 2026-11-21 | `3baf333` | powercut: notices written |
-| 2026-11-21 | `16c14e5` | powercut: notices written |
-| 2026-11-21 | `817bc4e` | pick: written and posted |
-| 2026-11-21 | `aee3f3c` | pick: picked news saved |
-| 2026-11-21 | `fd4766d` | pick: list sent |
-| 2026-11-21 | `09f49aa` | Post news as soon as it is ready; only news with a source link; collect every 4 hours, max 35 a day |
-| 2026-11-21 | `60baaa1` | pick: written and posted |
-| 2026-11-21 | `033d23a` | A news picture that cannot be downloaded (old Cloudinary account, 401/404) is left out - the reel uses the designed background, the page is never blocked |
-| 2026-11-21 | `d4119aa` | goldrate posted |
-| 2026-11-21 | `9299366` | goldrate posted |
-| 2026-11-21 | `6c5b548` | pick: picked news saved |
-| 2026-11-21 | `5efa4a9` | pick: picked news saved |
 <!-- recent-changes:end -->
