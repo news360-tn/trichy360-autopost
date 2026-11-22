@@ -1,10 +1,12 @@
-16:33:42 round 2026-11-22_16: news published 22 Nov 15:29 -> 22 Nov 16:33 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-16:33:42 insights 2026-11-22T16:33+05:30 (111 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': 0.1, 'civic': -0.12, 'education': -0.5, 'politics': 0.12, 'temple': -0.5, 'poultry_agri': 0.14}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-16:34:02 34 links on the two papers' Trichy pages
-16:34:58 skipped: already posted=16, published before this window=11, not Trichy district=5, same event already posted=1, shop offer / advertisement=1
-16:34:58 list: 0 new + 0 earlier news not posted yet
-16:34:58 no news in this window - no e-mail
-ROUND=2026-11-22_16
-16:35:00 no list this round - nothing to post
-PICK_URLS=
-16:35:01 verify: no decided round
+20:19:33 round 2026-11-22_20: news published 22 Nov 16:33 -> 22 Nov 20:19 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+20:19:33 insights 2026-11-22T20:19+05:30 (111 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': 0.1, 'civic': -0.12, 'education': -0.5, 'politics': 0.11, 'temple': -0.5, 'poultry_agri': 0.14}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+20:21:06 68 links on the two papers' Trichy pages
+20:22:20 skipped: not Trichy district=33, already posted=16, published before this window=10, same event already posted=1, shop offer / advertisement=1
+20:22:20 list: 5 new + 0 earlier news not posted yet
+20:22:20    1. [விபத்து] முசிறி அருகே மரம் மீது வேன் மோதல்: 8 பேர் பலி (தினமலர்)
+20:22:20    2. [விபத்து] திருச்சி துறையூர் அருகே ஆம்னி வேன் மரத்தில் மோதி விபத்து! 7 பேர் பலி!  (ஒன்இந்தியா + மாலைமலர்)
+20:22:20    3. [விபத்து] திருச்சி மாவட்டம் முசிறி அருகே சாலையோர மரத்தின் மீது கார் மோதியதில் 5  (தினகரன்)
+20:22:20    4. [குற்றம்] ராமேஸ்வரத்திலிருந்து கார் மூலம் கடத்தப்பட்ட 7.5 கிலோ தங்கம் பறிமுதல் (இந்து தமிழ்)
+20:22:20    5. [பொது] சிறுமிக்கு தொல்லை டிரைவர் மீது வழக்கு (தினமலர்)
+20:22:20 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-22_20
