@@ -1,24 +1,8 @@
-22:30:55 round 2026-11-22_22: news published 22 Nov 20:19 -> 22 Nov 22:30 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-22:30:55 insights 2026-11-22T22:30+05:30 (115 reels): topic weights {'accident': 1.5, 'crime': 1.45, 'power_cut': 0.12, 'civic': 0.0, 'education': -0.5, 'politics': -0.04, 'temple': -0.5, 'poultry_agri': -0.02}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-22:40:21 from_google dinamalar.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-22:40:21 from_google dinamani.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-22:40:21 from_google dinamalar.com 'திருச்சிராப்பள்ளி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-22:40:21 from_google dinamani.com 'திருச்சிராப்பள்ளி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-22:40:21 from_google dinamalar.com 'மணப்பாறை' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-22:40:21 from_google dinamani.com 'மணப்பாறை' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-22:40:21 from_google dinamalar.com 'ஸ்ரீரங்கம்' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-22:40:21 from_google dinamani.com 'ஸ்ரீரங்கம்' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-22:40:21 from_google tamil.oneindia.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-22:40:21 from_google dinakaran.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-22:40:21 from_google dailythanthi.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-22:40:21 from_google maalaimalar.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-22:40:21 from_google hindutamil.in 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-22:40:21 from_google polimernews.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-22:40:21 30 links on the two papers' Trichy pages
-22:41:07 skipped: already posted=16, published before this window=10, same event already posted=1, not Trichy district=1, shop offer / advertisement=1
-22:41:07 list: 0 new + 0 earlier news not posted yet
-22:41:07 no news in this window - no e-mail
-ROUND=2026-11-22_22
-22:41:09 no list this round - nothing to post
-PICK_URLS=
-22:41:09 verify: no decided round
+23:26:56 round 2026-11-22_23: news published 22 Nov 22:30 -> 22 Nov 23:26 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+23:26:56 insights 2026-11-22T23:26+05:30 (115 reels): topic weights {'accident': 1.5, 'crime': 1.47, 'power_cut': 0.14, 'civic': 0.08, 'education': -0.5, 'politics': -0.02, 'temple': -0.5, 'poultry_agri': 0.0}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+23:28:21 57 links on the two papers' Trichy pages
+23:29:46 skipped: not Trichy district=27, already posted=16, published before this window=10, same event already posted=1, shop offer / advertisement=1
+23:29:46 list: 1 new + 0 earlier news not posted yet
+23:29:46    1. [விபத்து] 8 உயிரை காவு வாங்கிய கோர விபத்து.. காதணி விழாவுக்கு சென்ற போது நிகழ்ந் (ஒன்இந்தியா)
+23:29:46 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-22_23
