@@ -83,6 +83,21 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-22 | `a302449` | Facebook: one post every 60 minutes, at most 15 a day per page, most important news first; after the 15 the rest goes to the owner's e-mail at once (share from Instagram) |
+| 2026-11-22 | `7ad7bcc` | stories shared / Instagram pause |
+| 2026-11-22 | `a2955f9` | pick: written and posted |
+| 2026-11-22 | `c8cfa12` | facebook RN-119 |
+| 2026-11-22 | `f3f6a96` | posted RN-119 |
+| 2026-11-22 | `a1a069f` | stories shared / Instagram pause |
+| 2026-11-22 | `2a86b38` | facebook RN-120 |
+| 2026-11-22 | `f5aec6a` | posted RN-120 |
+| 2026-11-22 | `bfb1b82` | facebook RN-121 |
+| 2026-11-22 | `2ffd915` | posted RN-121 |
+| 2026-11-22 | `092eb7f` | stories shared / Instagram pause |
+| 2026-11-22 | `29ceeee` | pick: picked news saved |
+| 2026-11-22 | `cd24491` | pick: picked news saved |
+| 2026-11-22 | `2a13b88` | pick: list sent |
+| 2026-11-22 | `4e7c106` | stories shared / Instagram pause |
 | 2026-11-22 | `d26f5e1` | Daily plan: 30 of today's published news + yesterday's pending news + urgent news after the 30; news older than yesterday never posted |
 | 2026-11-22 | `2e0cc87` | stories shared / Instagram pause |
 | 2026-11-22 | `8135a97` | stories shared / Instagram pause |
@@ -98,19 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-22 | `b45089b` | stories shared / Instagram pause |
 | 2026-11-22 | `a05190c` | stories shared / Instagram pause |
 | 2026-11-22 | `faa97fa` | stories shared / Instagram pause |
-| 2026-11-22 | `891f801` | stories shared / Instagram pause |
-| 2026-11-22 | `278dcd0` | stories shared / Instagram pause |
-| 2026-11-22 | `8f42420` | stories shared / Instagram pause |
-| 2026-11-22 | `6b49ace` | stories shared / Instagram pause |
-| 2026-11-22 | `67f6da6` | stories shared / Instagram pause |
-| 2026-11-22 | `72e28ce` | stories shared / Instagram pause |
-| 2026-11-22 | `4d76ea5` | stories shared / Instagram pause |
-| 2026-11-22 | `736dfe0` | stories shared / Instagram pause |
-| 2026-11-22 | `a4f07f7` | stories shared / Instagram pause |
-| 2026-11-22 | `3250d71` | stories shared / Instagram pause |
-| 2026-11-22 | `cbae59d` | stories shared / Instagram pause |
-| 2026-11-22 | `7f6f91d` | stories shared / Instagram pause |
-| 2026-11-22 | `b914e64` | stories shared / Instagram pause |
-| 2026-11-22 | `638811a` | stories shared / Instagram pause |
-| 2026-11-22 | `c8cb350` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
