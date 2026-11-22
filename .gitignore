@@ -4,3 +4,4 @@ out/
 *_work/
 __pycache__/
 .env
+poster/manual_sent.json

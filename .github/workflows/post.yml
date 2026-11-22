@@ -84,7 +84,7 @@ jobs:
           git config user.name "news360-bot"; git config user.email "news360-bot@users.noreply.github.com"
           if grep -q "ready to post: [1-9]" .last_check || [ "$(date -u +%M)" -lt 5 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then git add -f .last_check && git commit -qm "check log" && { for i in 1 2 3 4; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true; fi
           # owner 1 Nov: the list of posts already shared to the story (never twice) is saved after every check
-          [ -f poster/story_shared.json ] && git add -f poster/story_shared.json; for f in poster/prebuilt/_ig_paused_*.json poster/prebuilt/_direct_*.json; do [ -f "$f" ] && git add -f "$f"; done; [ -d poster/fb_posted ] && git add -f poster/fb_posted; [ -d poster/yt_uploaded ] && git add -f poster/yt_uploaded; git diff --cached --quiet || { git commit -qm "stories shared / Instagram pause" && { for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true; }      # owner 21 Nov: a pause made by the story catch-up is kept too
+          [ -f poster/story_shared.json ] && git add -f poster/story_shared.json; for f in poster/prebuilt/_ig_paused_*.json poster/prebuilt/_direct_*.json; do [ -f "$f" ] && git add -f "$f"; done; [ -d poster/fb_posted ] && git add -f poster/fb_posted; [ -f poster/manual_sent.json ] && git add -f poster/manual_sent.json; [ -d poster/yt_uploaded ] && git add -f poster/yt_uploaded; git diff --cached --quiet || { git commit -qm "stories shared / Instagram pause" && { for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*3)); done; } || true; }      # owner 21 Nov: a pause made by the story catch-up is kept too
           echo "waiting=$(grep -cE 'waits for the [0-9]+-minute gap' .last_check 2>/dev/null || true)" >> "$GITHUB_OUTPUT"      # owner 21 Nov: any gap length
           if [ "${CHECK_RC:-0}" != "0" ]; then echo "::error::post.py check crashed (exit $CHECK_RC) - nothing was posted in this run"; exit 1; fi
       - name: Facebook - try failed posts again (at most 2 more times, within 24 h)
@@ -170,6 +170,8 @@ jobs:
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}      # owner 29 Oct: paid Claude ONLY when every free model failed / is out of quota
       ANTHROPIC_MODEL: claude-haiku-5-5      # owner 29 Oct: newest Haiku (older one only as automatic fallback)
+      MANUAL: ${{ matrix.manual || '' }}      # owner 22 Nov: e-mail the reel for a manual post instead of posting
+      MANUAL_PAGE: ${{ matrix.page || '' }}
       PREBUILD: ${{ matrix.prebuild || (github.event_name == 'workflow_dispatch' && inputs.prebuild && '1' || '') }}
     steps:
       - uses: actions/checkout@v4
@@ -240,6 +242,7 @@ jobs:
           if [ -n "$(ls poster/prebuilt 2>/dev/null)" ]; then
             git add -f poster/prebuilt && git commit -qm "prebuilt ${{ matrix.story }}" || true
           fi
+          if [ -f poster/manual_sent.json ]; then git add -f poster/manual_sent.json && git commit -qm "manual post e-mail ${{ matrix.story }}" || true; fi      # owner 22 Nov
           if [ -n "$(ls poster/posted 2>/dev/null)" ]; then git add -f poster/posted && git commit -qm "posted ${{ matrix.story }}" || true; fi      # owner 21 Nov: read by the posted report
           # owner 2 Nov: the Facebook record (posted / failed) - a post is never sent to Facebook twice
           if [ -n "$(ls poster/fb_posted 2>/dev/null)" ]; then git add -f poster/fb_posted && git commit -qm "facebook ${{ matrix.story }}" || true; fi

@@ -1914,6 +1914,98 @@ def ig_duplicate(row, page):
     return ""
 
 
+MANUAL = os.environ.get("MANUAL", "") == "1"      # owner 22 Nov: this job e-mails the reel for a manual post instead of posting
+MANUAL_PAGE = os.environ.get("MANUAL_PAGE", "").strip()
+MANUAL_FILE = ROOT / "poster" / "manual_sent.json"      # page:story -> first seen ready / queued / sent (committed)
+MANUAL_AFTER_H = 3      # a ready news not posted after 3 hours goes to the owner's e-mail
+MANUAL_DAY_MAX = 20     # at most 20 such e-mails a day (Gmail's daily sending limit is about 100)
+
+
+def manual_state():
+    try:
+        return json.loads(MANUAL_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def manual_save(st):
+    try:
+        cut = (datetime.now(timezone.utc) - timedelta(days=3)).isoformat()
+        st = {k: v for k, v in st.items() if str(v.get("first", "")) >= cut}
+        MANUAL_FILE.write_text(json.dumps(st, ensure_ascii=False, indent=1), encoding="utf-8")
+    except Exception as e:
+        log("manual-post list not saved:", str(e)[:120])
+
+
+def manual_due(rows, posting_now, now=None):
+    """owner 22 Nov: ready news a page cannot post - Instagram paused / limit reached, or still not posted 3 hours after it was ready.
+    [(story, page)] to e-mail now (at most 4 per run, 20 a day, each news once)."""
+    if DRY or PREBUILD or quiet_now():
+        return []
+    now = now or datetime.now(timezone.utc)
+    day = now.astimezone(IST).strftime("%Y-%m-%d")
+    st = manual_state()
+    sent_today = sum(1 for v in st.values() if v.get("day") == day)
+    out = []
+    for r in pick_all(rows):
+        sid = r.get("story_id")
+        for p in pages_of(r):
+            if page_done(r, p) or sid in posting_now:
+                continue
+            v = st.setdefault(f"{p}:{sid}", {"first": now.isoformat(timespec="seconds")})
+            if v.get("sent") or int(v.get("tries", 0)) >= 3:
+                continue
+            if v.get("queued") and now - datetime.fromisoformat(v["queued"]) < timedelta(minutes=60):
+                continue      # its e-mail job is running
+            why = ig_paused(p) or ("Instagram's 24-hour post limit is reached" if LIMIT.get(p) else "")
+            if not why and now - datetime.fromisoformat(v["first"]) >= timedelta(hours=MANUAL_AFTER_H):
+                why = f"ready for more than {MANUAL_AFTER_H} hours and still not posted"
+            if why and sent_today + len(out) < MANUAL_DAY_MAX and len(out) < 4:
+                v.update(queued=now.isoformat(timespec="seconds"), why=why)
+                out.append((sid, p))
+    manual_save(st)
+    if out:
+        log("manual post e-mail (the page cannot post them):", [f"{p}:{s}" for s, p in out])
+    return out
+
+
+def manual_email(row, sid, media, caption):
+    """the reel file attached + caption with hashtags + first comment, to the owner's e-mail (Promo Hub). Never posts anything."""
+    import base64
+    import html as _h
+    import promo
+    st = manual_state()
+    key = f"{PAGE}:{sid}"
+    v = st.setdefault(key, {"first": datetime.now(timezone.utc).isoformat(timespec="seconds")})
+    try:
+        reel = media.get("reel") or ""
+        path = localmedia.get(reel) or (localmedia.download(reel, f"{sid}.mp4") if str(reel).startswith("http") else None)
+        name = f"{PAGE.title()} 360"
+        com = source_comment(row) if CONFIG.get("first_comment", False) else ""
+        src = str(row.get("source") or "").strip()
+        head = str(row.get("headline_ta") or sid)
+        attach, note = None, "the reel video is attached to this e-mail"
+        if path and os.path.getsize(path) <= 18 * 1024 * 1024:
+            attach = {"name": f"{PAGE}_{sid}.mp4", "type": "video/mp4", "data": base64.b64encode(Path(path).read_bytes()).decode()}
+        else:
+            note = "the reel video could not be attached (" + ("too large" if path else "not built") + ")"
+        text = (f"Please post this news on {name} by hand - the page could not post it: {v.get('why') or 'not posted'}.\n\n"
+                f"1. Video: {note}.\n\n2. Caption (copy all, hashtags included):\n\n{caption}\n\n"
+                + (f"3. First comment (post it right after the reel):\n\n{com}\n\n" if com else "")
+                + (f"Source: {src}\n" if src else "")
+                + "\nAfter you post it, the automatic posting sees it on Instagram and will not post it again.")
+        promo.hub_post("digest", {"subject": f"[{name} MANUAL POST] {sid} - {head}"[:180], "text": text,
+                                  "html": "<pre style='white-space:pre-wrap;font-family:Arial,sans-serif;font-size:14px'>" + _h.escape(text) + "</pre>",
+                                  "attachment": attach})
+        v.update(sent=datetime.now(timezone.utc).isoformat(timespec="seconds"), day=datetime.now(IST).strftime("%Y-%m-%d"))
+        log("MANUAL POST e-mail sent:", PAGE, sid, "-", note)
+    except Exception as e:
+        v["tries"] = int(v.get("tries", 0)) + 1
+        log("manual post e-mail not sent (tried again later):", str(e)[:200])
+    manual_save(st)
+    return [("manual", sid)]
+
+
 def run_story(row):
     """every page named in post_to gets its own carousel + reel (own logo and follow line), one page after the other"""
     done = []
@@ -1929,10 +2021,12 @@ def run_story(row):
         if dup:
             log("SKIP instagram duplicate:", row.get("story_id"), pg, "already posted", dup)
             continue
-        if limit_reached(pg):
+        if MANUAL and MANUAL_PAGE and pg != MANUAL_PAGE:      # owner 22 Nov: the manual-post e-mail is for this page only
+            continue
+        if limit_reached(pg) and not MANUAL:
             log("LIMIT: 24-hour Instagram post limit reached for", pg, "- ", row.get("story_id"), "waits")
             continue
-        if limit_reached(pg) is False and USED.get(pg, 0) >= SOFT_CAP and not is_urgent(row):
+        if not MANUAL and limit_reached(pg) is False and USED.get(pg, 0) >= SOFT_CAP and not is_urgent(row):
             log(f"CAP: {pg} already has {USED[pg]} posts in 24 h (cap {SOFT_CAP}) - only important news now,", row.get("story_id"), "waits")
             continue
         done += run_story_page(row, pg) or []
@@ -2185,7 +2279,7 @@ def run_story_page(row, page):
                 except Exception as e:
                     log("story image not made (post itself is fine):", e)
             if need_reel and mp4:
-                if not DRY and igdirect.ready(PAGE):      # owner 21 Nov: the file goes straight to Instagram / Facebook - no Cloudinary
+                if not DRY and (MANUAL or igdirect.ready(PAGE)):      # owner 21 Nov: the file goes straight to Instagram / Facebook - no Cloudinary
                     media["reel"] = localmedia.ref(mp4)
                     media["cover"] = localmedia.ref(reel_cover) if reel_cover else ""      # uploaded only if the file cannot go directly
                 else:
@@ -2201,6 +2295,8 @@ def run_story_page(row, page):
     if PREBUILD:
         log("PREBUILT (not posted):", sid, "carousel", len(media["carousel"]), "slides, reel", bool(media["reel"]))
         return [("prebuilt", sid)]
+    if MANUAL:      # owner 22 Nov: the page cannot post - the reel, caption and first comment go to the owner's e-mail instead
+        return manual_email(row, sid, media, caption)
 
     # stagger: stories of one run are published SLOT_MIN minutes apart (account reach is better than a burst of posts)
     try:
@@ -2566,6 +2662,11 @@ def main():
                         if len(ids) >= 12:
                             break
                     inc = [{"story": i, "slot": sl, "prebuild": ""} for i, sl in ids]
+                    try:      # owner 22 Nov: news a page cannot post go to the owner's e-mail, one by one, for a manual post
+                        inc += [{"story": s, "slot": 0, "prebuild": "", "manual": "1", "page": p}
+                                for s, p in manual_due(rows, {i for i, _ in ids})]
+                    except Exception as e:
+                        log("manual post list skipped:", str(e)[:150])
                     ids = [i for i, _ in ids]
                     # stories whose set has not started yet: make the carousel/reel ahead, so they go out the moment it starts
                     urgent = set(ids)
