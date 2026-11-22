@@ -2445,6 +2445,70 @@ def fb_rank(row):
         return None
 
 
+def dashboard_status(ready_n=None):
+    """owner 22 Nov: one small file per repo for the owner's private dashboard - what is posted today on Instagram / Facebook /
+    YouTube, what waits and why, the manual to-do (manual-post and Facebook-share e-mails), gold rate and rasipalan. Never raises."""
+    try:
+        import facebook
+        now = datetime.now(timezone.utc)
+        day = now.astimezone(IST).strftime("%Y-%m-%d")
+        day_utc = (now.astimezone(IST).replace(hour=0, minute=0, second=0, microsecond=0)).astimezone(timezone.utc).strftime("%Y%m%d-%H%M%S")
+        out = {"updated": now.isoformat(timespec="seconds"), "day": day, "ready": ready_n, "pages": {}}
+        man = manual_state()
+        for pg in LABEL:
+            posted = []
+            for f in sorted(POSTED_DIR.glob(f"*-{pg}-*.json")) if POSTED_DIR.exists() else []:
+                if f.name[:15] >= day_utc:
+                    try:
+                        r = json.loads(f.read_text(encoding="utf-8"))
+                        posted.append({"id": r.get("story"), "head": r.get("headline", "")[:120], "link": r.get("link", ""), "at": r.get("at", ""),
+                                       "kind": r.get("kind", "reel")})
+                    except Exception:
+                        pass
+            fb = {"posted": 0, "waiting": 0, "share": [], "paused": ""}
+            if facebook.creds(pg):
+                fb["paused"] = facebook.paused(pg)
+                for f in facebook.STATE.glob(f"{pg}-*.json") if facebook.STATE.exists() else []:
+                    try:
+                        d = json.loads(f.read_text(encoding="utf-8"))
+                    except Exception:
+                        continue
+                    if str(d.get("updated", "")) < (now - timedelta(hours=24)).isoformat():
+                        continue
+                    stt = d.get("status")
+                    if stt == "posted" and str(d.get("posted_at", "")) >= day_utc[:8]:
+                        fb["posted"] += 1
+                    elif stt == "waiting":
+                        fb["waiting"] += 1
+                    elif stt == "manual":
+                        fb["share"].append({"id": d.get("story"), "head": str(d.get("caption") or "").split("\n")[0][:120],
+                                            "link": d.get("ig_link", ""), "emailed": d.get("emailed", "")})
+            else:
+                fb["paused"] = "no Facebook token"
+            todo = [{"id": k.split(":", 1)[1], "why": v.get("why", ""), "sent": v.get("sent", ""), "video": v.get("video", True)}
+                    for k, v in man.items() if k.startswith(pg + ":") and v.get("sent") and v.get("day") == day]
+            daily = {}
+            for key, path in (("gold", ROOT / "goldrate" / "state" / f"posted_{pg}.json"), ("rasipalan", ROOT / "rasipalan" / "state" / f"{pg}.json")):
+                try:
+                    d = json.loads(path.read_text(encoding="utf-8"))
+                    daily[key] = {"posted": d.get("date") == day, "link": d.get("permalink", "") if d.get("date") == day else ""}
+                except Exception:
+                    daily[key] = None
+            yt = {"uploads": [], "keys": False}
+            try:
+                import ytupload
+                yt["keys"] = bool(ytupload.keys(pg))
+                yt["uploads"] = [u for u in ytupload._state(pg).get("uploads", []) if u.get("day") == day]
+            except Exception:
+                pass
+            out["pages"][pg] = {"label": LABEL[pg], "instagram": {"posted": posted, "paused": ig_paused(pg),
+                                                                  "quota": f"{USED.get(pg)}/{TOTAL.get(pg)}" if pg in TOTAL else ""},
+                                "facebook": fb, "manual_post": todo, "daily": daily, "youtube": yt}
+        (ROOT / "poster" / "dashboard_status.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    except Exception as e:
+        log("dashboard status not written:", str(e)[:200])
+
+
 def facebook_share_email(now=None):
     """owner 22 Nov ("Instagram posted, Facebook not - send me the link, I share it from Instagram"): a news that is on Instagram but
     still not on Facebook after 3 hours (waiting for the gap / Facebook limited the page / failed) goes to the owner's e-mail with
@@ -2492,7 +2556,7 @@ def facebook_share_email(now=None):
                     continue
                 head = str(d.get("caption") or d.get("story") or "").split("\n")[0][:120]
                 items.append((head, link))
-                d.update(status="manual", why="e-mailed to the owner to share from Instagram", emailed=now.isoformat(timespec="seconds"))
+                d.update(status="manual", why="e-mailed to the owner to share from Instagram", emailed=now.isoformat(timespec="seconds"), ig_link=link)
                 f.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
             if not items:
                 continue
@@ -2704,6 +2768,7 @@ def main():
         except Exception as e:
             log("YouTube upload skipped:", str(e)[:150])
         log(f"{len(rows)} stories in the queue, ready to post: {n}")
+        dashboard_status(n)      # owner 22 Nov: the owner's private dashboard reads poster/dashboard_status.json
         if rows:
             log("  keys:", sorted(rows[0].keys()))
         for r in rows:

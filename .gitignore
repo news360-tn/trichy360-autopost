@@ -5,3 +5,4 @@ out/
 __pycache__/
 .env
 poster/manual_sent.json
+poster/dashboard_status.json
