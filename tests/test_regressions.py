@@ -2271,8 +2271,8 @@ class RoundsTopThree(unittest.TestCase):
         wf = (self.WF / "pick.yml").read_text(encoding="utf-8")
         times = sorted(((int(h) * 60 + int(m) + 330) % 1440) / 60 for m, hs in re.findall(r'cron: "(\d+) ([\d,]+) \* \* \*"', wf)
                        for h in hs.split(","))
-        self.assertEqual([4, 8, 12, 16, 20], times)      # owner 21 Nov: collection every 4 hours (04:00-20:00 IST)
-        self.assertIn('PICK_ROUND_TOP: "4=7,8=6,12=6,16=6,20=5"', wf)      # owner 21 Nov: 7 + 6 + 6 + 6 + 5 = 30 a day (max 35)
+        self.assertEqual([4, 8, 12, 16, 20, 22], times)      # owner 21 Nov: collection every 4 hours (04:00-20:00 IST)
+        self.assertIn('PICK_ROUND_TOP: "4=7,8=6,12=6,16=6,20=5,22=3"', wf)      # owner 21 Nov: 7 + 6 + 6 + 6 + 5 = 30 a day (max 35)
         self.assertIn('PICK_EMAIL: "0"', wf)      # "do not ask me to confirm"
 
     def test_each_round_writes_top_3_of_the_whole_district(self):

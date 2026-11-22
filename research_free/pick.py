@@ -33,6 +33,15 @@ INSIGHT_RANK = os.environ.get("PICK_INSIGHT_RANK", "1") == "1"      # 0 = the ea
 # this page (insight weight >= EXTRA_WEIGHT) beyond the count, at most EXTRA_MAX more a round (Instagram's 50 posts a day stay safe)
 EXTRA_WEIGHT = float(os.environ.get("PICK_EXTRA_WEIGHT", "0.5"))
 EXTRA_MAX = int(os.environ.get("PICK_EXTRA_MAX", "3"))
+# owner 22 Nov: "min 15 to max 35 news as that day published - not yesterday's news": only news published TODAY (IST) is listed,
+# kept as a leftover or written; and EVERY such news of a round is written (most important first) - the writer's DAILY_CAP 35 is the maximum
+SAME_DAY = os.environ.get("PICK_SAME_DAY", "1") == "1"
+PICK_ALL = os.environ.get("PICK_ALL", "1") == "1"
+
+
+def same_day(pt, ref):
+    """True when the news was published on ref's day (IST) or later; an unknown time counts as today"""
+    return pt is None or ref is None or pt.astimezone(IST).date() >= ref.astimezone(IST).date()
 AD = re.compile(r"தள்ளுபடி|ஆஃபர்|ஆபர்|அள்ளுங்க|அள்ளுவோம்|விற்பனை தொடக்கம்|ஷோரூம்|புதிய கிளை திறப்பு|சிறப்பு விற்பனை")      # advertorials, not news
 DRY = os.environ.get("PICK_DRY", "") in ("1", "true", "yes")
 # owner 2 Nov: "do not ask me to confirm" - no e-mail; every round's top news (PICK_AUTO_TOP, 8 + 6 + 6 = 20 a day) is written at once.
@@ -387,6 +396,9 @@ def cmd_collect():
             continue
         if pt and pt > t_end + datetime.timedelta(minutes=5):
             continue
+        if SAME_DAY and not same_day(pt, t_end) and not item.get("power_cut"):      # owner 22 Nov: yesterday's news is never posted today (a power-cut notice still is)
+            reasons["published before today"] = reasons.get("published before today", 0) + 1
+            continue
         new.append(item)
     log("skipped: " + ", ".join(f"{k}={v}" for k, v in sorted(reasons.items(), key=lambda x: -x[1])))
     new = merge_same(new)
@@ -394,7 +406,8 @@ def cmd_collect():
     left = []
     for k, it in list(pool.items()):
         pt = when(it.get("published")) or when(it.get("listed_at"))
-        if it.get("posted") or it.get("written") or (pt and (t_end - pt).total_seconds() > LEFT_HOURS * 3600):
+        if it.get("posted") or it.get("written") or (pt and (t_end - pt).total_seconds() > LEFT_HOURS * 3600) \
+                or (SAME_DAY and not it.get("power_cut") and not same_day(pt, t_end)):      # owner 22 Nov: a leftover from yesterday is dropped
             pool.pop(k)
             continue
         if is_posted(it["url"], it["title"], recent):
@@ -500,10 +513,19 @@ def cmd_decide():
         items = [x for x in items if not auto_ok(x)]
         for t_, why_ in left_out:
             log(f"   not picked automatically ({why_}): {t_[:70]}")
+        if SAME_DAY:      # owner 22 Nov: only today's news (a list made before midnight is not written after it)
+            old_ = [x for x in items if not x.get("power_cut") and not same_day(when(x.get("published")), at)]
+            for x in old_:
+                log(f"   not picked (published before today): {x['title'][:70]}")
+            items = [x for x in items if x not in old_]
         power = [x for x in items if x.get("power_cut")]      # a power cut is always written, on top of the round's count
         rest = [x for x in items if not x.get("power_cut")]
         extra = [x for x in rest[top:] if sc[x["id"]][2] >= EXTRA_WEIGHT][:EXTRA_MAX]      # more news people watch, beyond the count
-        pick_ = power + rest[:top] + extra
+        if PICK_ALL:      # owner 22 Nov: every news of today is written (15-35 a day); the writer stops at DAILY_CAP
+            extra = []
+            pick_ = power + rest
+        else:
+            pick_ = power + rest[:top] + extra
         pick_ids = {x["id"] for x in pick_}
         log(f"round {rid} (at least {top}, up to {EXTRA_MAX} more of well-watched topics): {len(items)} news to choose from ({sum(1 for x in items if x.get('leftover'))} from earlier rounds), "
             f"ranked by this page's insights")

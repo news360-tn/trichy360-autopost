@@ -88,7 +88,7 @@ class DailyMaximumAndRounds(unittest.TestCase):
         import watchdog
         wf = ROOT / ".github" / "workflows" / ("pick.yml" if (ROOT / ".github" / "workflows" / "pick.yml").exists() else "research_free.yml")
         self.assertEqual(ist_hours(wf.read_text(encoding="utf-8")), [h + m / 60 for h, m in watchdog.ROUNDS])
-        self.assertEqual(watchdog.ROUNDS, ((4, 0), (8, 0), (12, 0), (16, 0), (20, 0)))
+        self.assertEqual(watchdog.ROUNDS, ((4, 0), (8, 0), (12, 0), (16, 0), (20, 0), (22, 0)))
 
     def test_pick_counts_follow_the_rounds(self):
         wf = ROOT / ".github" / "workflows" / "pick.yml"
@@ -96,7 +96,7 @@ class DailyMaximumAndRounds(unittest.TestCase):
             self.skipTest("this repository collects with research_free.yml")
         top = re.search(r'PICK_ROUND_TOP: "([^"]+)"', wf.read_text(encoding="utf-8")).group(1)
         slots = [tuple(map(int, x.split("="))) for x in top.split(",")]
-        self.assertEqual([h for h, _ in slots], [4, 8, 12, 16, 20])
+        self.assertEqual([h for h, _ in slots], [4, 8, 12, 16, 20, 22])
         self.assertLessEqual(sum(n for _, n in slots), 35)
         self.assertIn('DAILY_CAP: "35"', wf.read_text(encoding="utf-8"))
 

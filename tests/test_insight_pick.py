@@ -42,6 +42,8 @@ class InsightWeights(unittest.TestCase):
         self.assertEqual(learned.reach_weight("கோயில் திருவிழா", d), (1.2, "temple", "page"))
 
 
+@mock.patch.object(pick, "SAME_DAY", False)      # owner 22 Nov defaults (same-day only, every news written) are tested in
+@mock.patch.object(pick, "PICK_ALL", False)      # test_pick_same_day_22nov.py; these check the per-round count mechanism
 class InsightPick(unittest.TestCase):
     def setUp(self):
         self.d = tempfile.TemporaryDirectory()

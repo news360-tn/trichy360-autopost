@@ -12,6 +12,7 @@ on:
     - cron: "30 6 * * *"       # 12:00 IST
     - cron: "30 10 * * *"      # 16:00 IST
     - cron: "30 14 * * *"      # 20:00 IST (nothing posts 00:00-05:00, so no midnight round)
+    - cron: "30 16 * * *"      # 22:00 IST (owner 22 Nov: news of the late evening still goes out the same day)
   workflow_dispatch:
     inputs:
       dry:
@@ -35,7 +36,7 @@ jobs:
       BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
       BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
       CITY_ONLY: "0"
-      PICK_ROUND_TOP: "4=7,8=6,12=6,16=6,20=5"      # owner 21 Nov: rounds every 4 hours: 04:00 7, 08:00 6, 12:00 6, 16:00 6, 20:00 5 = 30 a day (+ well-watched extras, never past DAILY_CAP 35)
+      PICK_ROUND_TOP: "4=7,8=6,12=6,16=6,20=5,22=3"      # owner 21 Nov: rounds every 4 hours: 04:00 7, 08:00 6, 12:00 6, 16:00 6, 20:00 5 = 30 a day (+ well-watched extras, never past DAILY_CAP 35)
       PICK_EMAIL: "0"      # owner 2 Nov: "do not ask me to confirm" - no list e-mail, the top news are written at once
       PICK_WAIT_MIN: "60"
       PICK_REQUIRE_EMAIL: "0"

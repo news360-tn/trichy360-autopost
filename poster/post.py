@@ -405,6 +405,25 @@ def is_ready_reel(row):
         return False
 
 
+def published_before_today(row, now=None):
+    """owner 22 Nov ("not a yesterday published news posted today"): True when the news' own published date (IST) is before today.
+    No / unreadable date: False (posted as before)."""
+    if re.search(r"மின்\s*தடை|power", str(row.get("category") or ""), re.I):
+        return False      # a power-cut notice from yesterday is about today's cut: still posted
+    p = str(row.get("published") or "").strip()
+    if not re.match(r"\d{4}-\d{2}-\d{2}", p):
+        return False
+    try:
+        t = datetime.fromisoformat(p.replace("Z", "+00:00"))
+        d = (t.astimezone(IST) if t.tzinfo else t).date()
+    except Exception:
+        try:
+            d = datetime.strptime(p[:10], "%Y-%m-%d").date()
+        except Exception:
+            return False
+    return d < (now or datetime.now(IST)).astimezone(IST).date()
+
+
 def ready(row):
     if (row.get("review") or "").strip().lower() == "hold":
         return False
@@ -424,6 +443,11 @@ def ready(row):
     # a story that already went out on one page is only carried over to its other page while it is still fresh (same day);
     # an older one is never posted again later (stale news, e.g. yesterday's power cut)
     if any(page_done(row, p) or row.get(p + "_link") for p in pg) and age_hours(row) > 20:
+        return False
+    if not is_ready_reel(row) and published_before_today(row):      # owner 22 Nov: yesterday's news is never posted today
+        if row.get("story_id") not in _SKIPPED:
+            _SKIPPED.add(row.get("story_id"))
+            log("SKIP", row.get("story_id"), "published before today - only the same day's news is posted")
         return False
     return True      # a story with its images is never dropped for age or time of day: it posts as soon as its set has started
 

@@ -1,0 +1,32 @@
+"""owner 22 Nov: the pick lists and writes ONLY today's news, and writes every one of them (the writer's DAILY_CAP 35 is the maximum)."""
+import sys
+import unittest
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "research_free"))
+import pick      # noqa: E402
+
+IST = timezone(timedelta(hours=5, minutes=30))
+
+
+class PickSameDay(unittest.TestCase):
+    def test_same_day(self):
+        ref = datetime(2026, 11, 22, 4, 0, tzinfo=IST)
+        self.assertFalse(pick.same_day(datetime(2026, 11, 21, 23, 50, tzinfo=IST), ref))
+        self.assertTrue(pick.same_day(datetime(2026, 11, 22, 0, 10, tzinfo=IST), ref))
+        self.assertTrue(pick.same_day(None, ref))
+
+    def test_defaults_on(self):
+        self.assertTrue(pick.SAME_DAY)
+        self.assertTrue(pick.PICK_ALL)
+        src = (ROOT / "research_free" / "pick.py").read_text(encoding="utf-8")
+        self.assertIn("pick_ = power + rest\n", src)
+        wf = (ROOT / ".github" / "workflows" / "pick.yml").read_text(encoding="utf-8")
+        self.assertIn('DAILY_CAP: "35"', wf)
+        self.assertIn('cron: "30 16 * * *"', wf)
+
+
+if __name__ == "__main__":
+    unittest.main()
