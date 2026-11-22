@@ -1,10 +1,7 @@
-04:28:47 round 2026-11-22_04: news published 22 Nov 02:08 -> 22 Nov 04:28 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-04:28:47 insights 2026-11-22T04:28+05:30 (101 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': 0.05, 'civic': 0.14, 'education': -0.5, 'politics': -0.5, 'temple': -0.5, 'poultry_agri': 0.07}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-04:29:11 34 links on the two papers' Trichy pages
-04:30:18 skipped: already posted=13, published before this window=11, not Trichy district=5, same event already posted=1, shop offer / advertisement=1
-04:30:18 list: 0 new + 0 earlier news not posted yet
-04:30:18 no news in this window - no e-mail
-ROUND=2026-11-22_04
-04:30:19 no list this round - nothing to post
-PICK_URLS=
-04:30:20 verify: no decided round
+07:58:31 round 2026-11-22_07: news published 22 Nov 04:28 -> 22 Nov 07:58 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+07:58:31 insights 2026-11-22T07:58+05:30 (101 reels): topic weights {'accident': 1.5, 'crime': 1.5, 'power_cut': 0.06, 'civic': 0.17, 'education': -0.5, 'politics': -0.47, 'temple': -0.5, 'poultry_agri': 0.1}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+07:59:01 36 links on the two papers' Trichy pages
+07:59:44 skipped: already posted=16, published before this window=11, not Trichy district=7, same event already posted=1, shop offer / advertisement=1
+07:59:44 list: 0 new + 0 earlier news not posted yet
+07:59:44 no news in this window - no e-mail
+ROUND=2026-11-22_07

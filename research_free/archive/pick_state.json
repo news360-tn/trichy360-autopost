@@ -1,20 +1,6 @@
 {
- "last_end": "2026-11-22T04:28:47.123714+05:30",
+ "last_end": "2026-11-22T07:58:31.788523+05:30",
  "pool": {
-  "C50888a2": {
-   "id": "C50888a2",
-   "url": "https://www.hindutamil.in/news/spirituals/tirupati-temple-presents-sacred-vestments-to-srirangam-ranganathaswamy-temple",
-   "title": "கைசிக ஏகாதசி: திருப்பதி கோயில் சார்பில் ஸ்ரீரங்கம் ரங்கநாதர் கோயிலுக்கு வஸ்திர பகுமான மரியாதை",
-   "summary": "திருச்சி: ஸ்ரீரங்​கம் கோயிலுக்கு திருப்​பதி திரு​மலை வெங்​கடாஜலபதி கோயில் சார்​பில் வஸ்திர பகுமான மரியாதைகள் நேற்று வழங்​கப்​பட்​டன.பூலோக வைகுண்​டம் என அழைக்​கப்​படும் ஸ்ரீரங்​கம் ரங்​கநாதர் கோயிலுக்​கும், திருப்​பதி ...",
-   "source": "இந்து தமிழ்",
-   "published": "2026-11-21T01:15:30Z",
-   "category": "ஆன்மிகம்",
-   "score": 4.51,
-   "power_cut": false,
-   "listed_at": "2026-11-21T08:50:38.505122+05:30",
-   "picked_at": "2026-11-21T08:53:48.998130+05:30",
-   "refused": "not filed: duplicate after write"
-  },
   "Cf168af9": {
    "id": "Cf168af9",
    "url": "https://www.dailythanthi.com/devotional/on-behalf-of-tirupati-devasthanam-silk-robes-were-offered-to-srirangam-renganathar",
@@ -31,23 +17,6 @@
   }
  },
  "rounds": {
-  "2026-11-19_09": {
-   "window": [
-    "2026-11-19T06:51:57.216033+05:30",
-    "2026-11-19T09:56:53.196566+05:30"
-   ],
-   "ids": [
-    "C83cbaf8"
-   ],
-   "sent": false,
-   "deadline": "2026-11-19T10:56:53.196566+05:30",
-   "decided": {
-    "how": "automatic: top 5 of 0 by insights",
-    "ids": [],
-    "at": "2026-11-19T09:58:12.394819+05:30"
-   },
-   "written": []
-  },
   "2026-11-19_14": {
    "window": [
     "2026-11-19T09:56:53.196566+05:30",
@@ -485,6 +454,17 @@
    "ids": [],
    "sent": false,
    "deadline": "2026-11-22T05:28:47.123714+05:30",
+   "decided": null,
+   "written": []
+  },
+  "2026-11-22_07": {
+   "window": [
+    "2026-11-22T04:28:47.123714+05:30",
+    "2026-11-22T07:58:31.788523+05:30"
+   ],
+   "ids": [],
+   "sent": false,
+   "deadline": "2026-11-22T08:58:31.788523+05:30",
    "decided": null,
    "written": []
   }
