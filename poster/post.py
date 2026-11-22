@@ -1942,6 +1942,8 @@ def manual_due(rows, posting_now, now=None):
     [(story, page)] to e-mail now (at most 4 per run, 20 a day, each news once)."""
     if DRY or PREBUILD or quiet_now():
         return []
+    if os.environ.get("GITHUB_ACTIONS") != "true" and MANUAL_FILE == ROOT / "poster" / "manual_sent.json":
+        return []      # only the posting job keeps this list (a local test run never touches it)
     now = now or datetime.now(timezone.utc)
     day = now.astimezone(IST).strftime("%Y-%m-%d")
     st = manual_state()
@@ -1953,7 +1955,9 @@ def manual_due(rows, posting_now, now=None):
             if page_done(r, p) or sid in posting_now:
                 continue
             v = st.setdefault(f"{p}:{sid}", {"first": now.isoformat(timespec="seconds")})
-            if v.get("sent") or int(v.get("tries", 0)) >= 3:
+            if v.get("sent") and (v.get("video", True) or v.get("resent")):      # owner 22 Nov: sent without its video - once more
+                continue
+            if int(v.get("tries", 0)) >= 3:
                 continue
             if v.get("queued") and now - datetime.fromisoformat(v["queued"]) < timedelta(minutes=60):
                 continue      # its e-mail job is running
@@ -1967,6 +1971,29 @@ def manual_due(rows, posting_now, now=None):
     if out:
         log("manual post e-mail (the page cannot post them):", [f"{p}:{s}" for s, p in out])
     return out
+
+
+def email_copy(path, limit=15 * 1024 * 1024):
+    """owner 22 Nov: a full-quality reel is too big for an e-mail - a 720p copy that fits (same picture and sound); None if it cannot"""
+    import shutil
+    if not path or not os.path.exists(path):
+        return None
+    if os.path.getsize(path) <= limit:
+        return path
+    ff = shutil.which("ffmpeg")
+    if not ff:
+        return None
+    for crf in (28, 32, 36):
+        out = Path(path).with_name(Path(path).stem + f"_email{crf}.mp4")
+        try:
+            subprocess.run([ff, "-y", "-loglevel", "error", "-i", str(path), "-vf", "scale=720:-2", "-c:v", "libx264", "-preset", "veryfast",
+                            "-crf", str(crf), "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", str(out)], check=True, timeout=600)
+        except Exception as e:
+            log("e-mail copy of the reel not made:", str(e)[:150])
+            return None
+        if out.exists() and os.path.getsize(out) <= limit:
+            return str(out)
+    return None
 
 
 def manual_email(row, sid, media, caption):
@@ -1985,8 +2012,9 @@ def manual_email(row, sid, media, caption):
         src = str(row.get("source") or "").strip()
         head = str(row.get("headline_ta") or sid)
         attach, note = None, "the reel video is attached to this e-mail"
-        if path and os.path.getsize(path) <= 18 * 1024 * 1024:
-            attach = {"name": f"{PAGE}_{sid}.mp4", "type": "video/mp4", "data": base64.b64encode(Path(path).read_bytes()).decode()}
+        small = email_copy(path)      # owner 22 Nov: a 720p copy - the full reel is too big for an e-mail
+        if small:
+            attach = {"name": f"{PAGE}_{sid}.mp4", "type": "video/mp4", "data": base64.b64encode(Path(small).read_bytes()).decode()}
         else:
             note = "the reel video could not be attached (" + ("too large" if path else "not built") + ")"
         text = (f"Please post this news on {name} by hand - the page could not post it: {v.get('why') or 'not posted'}.\n\n"
@@ -1997,7 +2025,8 @@ def manual_email(row, sid, media, caption):
         promo.hub_post("digest", {"subject": f"[{name} MANUAL POST] {sid} - {head}"[:180], "text": text,
                                   "html": "<pre style='white-space:pre-wrap;font-family:Arial,sans-serif;font-size:14px'>" + _h.escape(text) + "</pre>",
                                   "attachment": attach})
-        v.update(sent=datetime.now(timezone.utc).isoformat(timespec="seconds"), day=datetime.now(IST).strftime("%Y-%m-%d"))
+        v.update(sent=datetime.now(timezone.utc).isoformat(timespec="seconds"), day=datetime.now(IST).strftime("%Y-%m-%d"),
+                 video=bool(attach), resent=bool(v.get("sent")))
         log("MANUAL POST e-mail sent:", PAGE, sid, "-", note)
     except Exception as e:
         v["tries"] = int(v.get("tries", 0)) + 1

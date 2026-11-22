@@ -63,6 +63,22 @@ class ManualPost(unittest.TestCase):
         with mock.patch.object(post, "ig_paused", return_value="paused"), mock.patch.object(post, "pages_of", return_value=["trichy"]):
             self.assertEqual(post.manual_due([ROW], set(), NOW), [])      # sent once - never again
 
+    def test_a_big_reel_gets_a_small_copy_for_the_e_mail(self):
+        f = self.d / "r.mp4"
+        f.write_bytes(b"0" * 100)
+        self.assertEqual(post.email_copy(str(f)), str(f))      # small enough: sent as it is
+        self.assertIsNone(post.email_copy(None))
+        with mock.patch.object(post.os.path, "getsize", return_value=40 * 1024 * 1024), mock.patch("shutil.which", return_value=None):
+            self.assertIsNone(post.email_copy(str(f)))      # too big and no ffmpeg: "could not be attached"
+
+    def test_sent_without_video_is_sent_once_more(self):
+        post.manual_save({"x:RN-9": {"first": NOW.isoformat(), "sent": NOW.isoformat(), "video": False, "day": "2026-11-22"}})
+        with mock.patch.object(post, "ig_paused", return_value="paused"):
+            self.assertEqual(post.manual_due([ROW], set(), NOW), [("RN-9", "x")])
+        post.manual_save({"x:RN-9": {"first": NOW.isoformat(), "sent": NOW.isoformat(), "video": False, "resent": True}})
+        with mock.patch.object(post, "ig_paused", return_value="paused"):
+            self.assertEqual(post.manual_due([ROW], set(), NOW), [])
+
     def test_wired_in(self):
         src = (ROOT / "poster" / "post.py").read_text(encoding="utf-8")
         self.assertIn("return manual_email(row, sid, media, caption)", src)
