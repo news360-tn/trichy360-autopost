@@ -374,6 +374,7 @@ def _attempt(page, sid, kind, media, caption, prev, story=True, link="", comment
             _save(page, sid, kind, {"status": "skipped", "why": "Facebook limited the page: " + str(e)[:300], "media": media})
             return ""
         _save(page, sid, kind, {"status": "failed", "tries": tries, "error": str(e)[:400], "media": media, "caption": caption, "link": src, "comment": comment,
+                                "ig_media": prev.get("ig_media", ""),      # owner 22 Nov: for the share-from-Instagram e-mail
                                 "first_try": prev.get("first_try") or _now().isoformat(timespec="seconds")})
         log(f"NOT posted to Facebook ({page} {sid} {kind}, try {tries}/{MAX_TRIES}; Instagram is fine):", str(e)[:250])
         return ""
@@ -432,6 +433,8 @@ def share(page, sid, kind, media, caption, page_tag, dry=False, tags=None, story
             _save(page, sid, kind, {"status": "skipped", "why": f"Facebook daily reel limit {REEL_CAP} reached", "media": media})
             log(f"Facebook daily reel limit {REEL_CAP} reached for {page} - {sid} stays Instagram only")
             return ""
+        if ig_media:
+            prev = dict(prev, ig_media=ig_media)      # owner 22 Nov: kept with a failed post (the share-from-Instagram e-mail)
         return _attempt(page, sid, kind, media, cap, prev, story, src, comment)
     except Exception as e:      # never let Facebook break the Instagram run
         log("Facebook step skipped:", str(e)[:200])

@@ -2445,6 +2445,76 @@ def fb_rank(row):
         return None
 
 
+def facebook_share_email(now=None):
+    """owner 22 Nov ("Instagram posted, Facebook not - send me the link, I share it from Instagram"): a news that is on Instagram but
+    still not on Facebook after 3 hours (waiting for the gap / Facebook limited the page / failed) goes to the owner's e-mail with
+    its Instagram link and the steps; from then on it is the owner's (status 'manual' - never posted to Facebook automatically).
+    ONE e-mail per page, at most every 3 hours, never at night. Never raises."""
+    if DRY or quiet_now():
+        return
+    try:
+        import facebook
+        import promo
+    except Exception:
+        return
+    now = now or datetime.now(timezone.utc)
+    for pg in LABEL:
+        try:
+            if not facebook.creds(pg) or not facebook.STATE.exists():
+                continue
+            mark = facebook.STATE / f"_share_email_{pg}.json"
+            try:
+                last = datetime.fromisoformat(json.loads(mark.read_text(encoding="utf-8"))["at"])
+                if now - last < timedelta(hours=3):
+                    continue
+            except Exception:
+                pass
+            due = []
+            for f in sorted(facebook.STATE.glob(f"{pg}-*.json")):
+                try:
+                    d = json.loads(f.read_text(encoding="utf-8"))
+                    since = datetime.fromisoformat(d.get("waiting_since") or d.get("first_try") or d.get("updated"))
+                except Exception:
+                    continue
+                stuck = d.get("status") == "waiting" or (d.get("status") == "failed" and int(d.get("tries", 0)) >= facebook.MAX_TRIES)
+                if stuck and d.get("ig_media") and timedelta(hours=3) <= now - since <= timedelta(hours=24):
+                    due.append((f, d))
+            if not due:
+                continue
+            token = bridge_get("token", page=pg)["token"]
+            items = []
+            for f, d in due[:15]:
+                try:
+                    link = ig("GET", d["ig_media"], token, fields="permalink").get("permalink", "")
+                except Exception:
+                    link = ""
+                if not link:
+                    continue
+                head = str(d.get("caption") or d.get("story") or "").split("\n")[0][:120]
+                items.append((head, link))
+                d.update(status="manual", why="e-mailed to the owner to share from Instagram", emailed=now.isoformat(timespec="seconds"))
+                f.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+            if not items:
+                continue
+            name = f"{pg.title()} 360"
+            steps = ("How to share each one to Facebook (1 minute each):\n"
+                     "1. Open the Instagram link below in the Instagram app (on the " + name + " account).\n"
+                     "2. Tap the 3 dots (...) on the reel.\n"
+                     "3. Tap 'Share to' / 'Share to Facebook' and choose the " + name + " Facebook page.\n"
+                     "4. Tap Share. (Space them out - a few minutes between each.)\n")
+            lines = [f"{i}. {h}\n   {l}" for i, (h, l) in enumerate(items, 1)]
+            text = (f"These {len(items)} news are on {name} Instagram but not on its Facebook page "
+                    f"(Facebook was waiting or limited the page).\n\n{steps}\n" + "\n".join(lines)
+                    + "\n\nThe automatic Facebook posting will not post these again.")
+            import html as _h
+            promo.hub_post("digest", {"subject": f"[{name} FACEBOOK SHARE] {len(items)} news to share from Instagram", "text": text,
+                                      "html": "<pre style='white-space:pre-wrap;font-family:Arial,sans-serif;font-size:14px'>" + _h.escape(text) + "</pre>"})
+            mark.write_text(json.dumps({"at": now.isoformat(timespec="seconds"), "count": len(items)}), encoding="utf-8")
+            log(f"Facebook share e-mail {pg}: {len(items)} news (Instagram links) sent to the owner")
+        except Exception as e:
+            log(f"Facebook share e-mail {pg} skipped:", str(e)[:200])
+
+
 def facebook_catchup():
     """owner 21 Nov ("Facebook also posts all the news Instagram posts"): a news that came within the Facebook gap waits
     (poster/fb_posted status 'waiting'); here, in every posting check, the oldest one per page goes out once the gap has passed -
@@ -2627,6 +2697,7 @@ def main():
     if mode == "check":
         story_catchup()      # owner 1 Nov: no post without its story
         facebook_catchup()      # owner 21 Nov: every news that is on Instagram also goes to Facebook
+        facebook_share_email()      # owner 22 Nov: still not on Facebook after 3 h - the Instagram link to the owner
         try:      # owner 21 Nov: the day's best news reels also go to the page's YouTube channel (only with its YT_* keys)
             import ytupload
             ytupload.catchup(sys.modules[__name__])
