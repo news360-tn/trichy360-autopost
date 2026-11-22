@@ -153,6 +153,13 @@ def candidates(log_lines, since=None):
                     items += got[:25]      # the newest 25 of a search (each Google link costs a decode)
                 except Exception as e:
                     log_lines.append(f"{fn.__name__} {dom} '{q}' failed: {str(e)[:80]}")
+                    if fn is allnews.from_google and allnews.from_bing not in fns:      # owner 22 Nov: Google busy (503) - Bing for that paper
+                        try:
+                            got = [x for x in allnews.from_bing(f"{q} site:{dom}") if dom in (x.get("site", "") + x.get("url", ""))
+                                   and not (since and when(x.get("published")) and when(x.get("published")) < since)]
+                            items += sorted(got, key=lambda x: str(x.get("published") or ""), reverse=True)[:25]
+                        except Exception as e2:
+                            log_lines.append(f"from_bing {dom} '{q}' failed too: {str(e2)[:80]}")
     seen, out = set(), []
     for it in items:
         u = it["url"]

@@ -2472,6 +2472,8 @@ def fb_rank(row):
 def dashboard_status(ready_n=None):
     """owner 22 Nov: one small file per repo for the owner's private dashboard - what is posted today on Instagram / Facebook /
     YouTube, what waits and why, the manual to-do (manual-post and Facebook-share e-mails), gold rate and rasipalan. Never raises."""
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return      # 22 Nov: only the posting job writes it (a local test run must not overwrite the real file)
     try:
         import facebook
         now = datetime.now(timezone.utc)
