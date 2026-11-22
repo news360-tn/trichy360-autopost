@@ -3,95 +3,99 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/5-killed-as-omni-van-hits-tree-near-musiri/4383164",
-  "manual link added: https://tamil.oneindia.com/news/trichirappalli/5-died-as-omni-van-rammed-into-a-tree-near-thuraiyur-847409.html",
-  "manual link added: https://www.dinakaran.com/news/5-killed-accident-omnivan-tree-trichy/amp",
-  "manual link added: https://www.hindutamil.in/news/tamilnadu/75-kg-of-gold-smuggled-by-car-from-rameswaram-seized",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/a-case-has-been-registered-against-the-driver-of-the-car-for-harassing-the-girl/4383394",
-  "candidate filter: collected=5",
-  "to write: 5 Trichy district candidates (max 5 stories)",
-  "round: top 5 of 5 candidates",
-  "candidates waiting: 5 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/a-case-has-be",
-  "try (N) manual=True: https://www.hindutamil.in/news/tamilnadu/75-kg-of-gold-smugg",
-  "try (N) manual=True: https://www.dinakaran.com/news/5-killed-accident-omnivan-tre",
+  "manual link added: https://pukaarpetti.dailythanthi.com/amp/others/news-68856",
+  "manual link added: https://pukaarpetti.dailythanthi.com/transportation/news-68855",
+  "manual link added: https://pukaarpetti.dailythanthi.com/transportation/news-68859",
+  "manual link added: https://pukaarpetti.dailythanthi.com/road/news-68870",
+  "candidate filter: collected=4",
+  "to write: 4 Trichy district candidates (max 4 stories)",
+  "round: top 4 of 4 candidates",
+  "candidates waiting: 4 Trichy; time left 79 min",
+  "try (N) manual=True: https://pukaarpetti.dailythanthi.com/road/news-68870",
+  "try (N) manual=True: https://pukaarpetti.dailythanthi.com/transportation/news-688",
+  "try (N) manual=True: https://pukaarpetti.dailythanthi.com/transportation/news-688",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "try (N) manual=True: https://tamil.oneindia.com/news/trichirappalli/5-died-as-omn",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-district-news-tric",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})",
-  "NOT filed (N) திருச்சி துறையூர் அருகே ஆம்னி வேன் மரத்தில் மோதி வ: duplicate after write",
-  "NOT filed (N) முசிறி அருகே  மரம் மீது வேன் மோதல்: 8 பேர் பலி: duplicate after write",
-  "candidate loop ended: left 0, tried={'N': 5}, done={'N': 3}, time left 75 min",
-  "filed: 3 Trichy district stories (target 5), reels only",
+  "try (N) manual=True: https://pukaarpetti.dailythanthi.com/amp/others/news-68856",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 7})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})",
+  "candidate loop ended: left 0, tried={'N': 4}, done={'N': 4}, time left 76 min",
+  "filed: 4 Trichy district stories (target 4), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":5,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":4,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (18s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "ok gemini/gemini-3.6-flash (53s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3.5-flash (54s)",
+  "ok gemini/gemini-3.6-flash (27s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3-flash-preview (10s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (39s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3-flash-preview (14s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3-flash-preview (12s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3-flash-preview (12s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3-flash-preview (4s)",
   "ok gemini/gemini-3-flash-preview (9s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (11s)",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "dead for this round: gemini/gemini-3-flash-preview",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (9s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (29s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/openai/gpt-oss-120b (3s)",
   "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
   "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
-  "ok gemini/gemini-3-flash-preview (11s)",
+  "ok groq/openai/gpt-oss-120b (3s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "ok groq/openai/gpt-oss-120b (6s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_gener",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
   "ok groq/qwen/qwen3.8-27b (3s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok groq/openai/gpt-oss-120b (3s)",
+  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "ok anthropic/claude-haiku-5-5",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
@@ -101,218 +105,237 @@
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "ராமேஸ்வரத்திலிருந்து காரில் கடத்திய 7.50 கிலோ தங்கம் பறிமுதல்: 3 பேர் கைது",
-   "english_headline": "7.50 kg gold smuggled by car from Rameswaram seized; 3 arrested",
-   "category": "Crime & Safety",
-   "location": "Samayapuram, Trichy district",
+   "tamil_headline": "திருச்செந்தூரில் உடைந்த பாதாள சாக்கடை மூடி: விபத்து ஏற்படும் முன் சீரமைக்க மக்கள் கோரிக்கை",
+   "english_headline": "Damaged underground sewage manhole lid in Tiruchendur Veeraraghavapuram street poses accident risk",
+   "category": "Civic Issues",
+   "location": "Veeraraghavapuram street, Tiruchendur, Trichy district",
    "importance": "Medium",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "தங்கம் பறிமுதல்",
-    "loc": "சமயபுரம், திருச்சி",
-    "hl1": "சமயபுரம் அருகே 7.50 கிலோ தங்கம் பறிமுதல்",
-    "hl2": "3 பேர் கைது",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "ராமேஸ்வரத்திலிருந்து காரில் கடத்திய <b>7.50 கிலோ</b> தங்கம்",
-       "திருச்சி சுங்கத்துறை டி.ஆர்.ஐ. அதிகாரிகள் நேற்று இரவு",
-       "<b>3 பேர்</b> கைது செய்யப்பட்டு விசாரணை நடக்கிறது"
-      ]
-     },
-     {
-      "title": "எங்கே, எப்படி?",
-      "lines": [
-       "சமயபுரம் டோல்பிளாசா அருகே கண்காணிப்பில் பிடிபட்டது",
-       "ராமேஸ்வரத்திலிருந்து சென்னைக்குக் காரில் கடத்தப்பட்டது",
-       "காரில் வந்த 3 பேரும் முன்னுக்குப்பின் முரணாகத் தகவல்"
-      ]
-     },
-     {
-      "title": "மதிப்பு எவ்வளவு?",
-      "lines": [
-       "தங்கத்தின் மதிப்பு சுமார் <b>ரூ.8.50 கோடி</b> இருக்கும்",
-       "டி.ஆர்.ஐ. அதிகாரிகள் தொடர்ந்து விசாரணை நடத்துகின்றனர்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "சமயபுரம் அருகே ராமேஸ்வரத்திலிருந்து காரில் கடத்தப்பட்ட 7.50 கிலோ தங்கம் பறிமுதல் செய்யப்பட்டது. திருச்சி சுங்கத்துறை மத்திய வருவாய் புலனாய்வு இயக்குனரக அதிகாரிகள் நேற்று இரவு இந்த நடவடிக்கையை மேற்கொண்டனர். ராமேஸ்வரத்திலிருந்து சென்னைக்குக் காரில் தங்கம் கடத்தப்படுவதாக ரகசியத் தகவல் கிடைத்தது. அதன் அடிப்படையில் அதிகாரிகள் சமயபுரம் டோல்பிளாசா அருகே கண்காணிப்புப் பணியில் ஈடுபட்டனர். காரில் வந்த 3 பேரிடம் விசாரித்தபோது அவர்கள் முன்னுக்குப்பின் முரணாகத் தகவல் தெரிவித்தனர். காரில் சோதனை நடத்தியபோது 7.50 கிலோ தங்கம் இருந்தது கண்டுபிடிக்கப்பட்டது. தங்கத்தின் மதிப்பு சுமார் 8.50 கோடி ரூபாய் இருக்கும் எனக் கூறப்படுகிறது. 3 பேரும் கைது செய்யப்பட்டு அதிகாரிகள் விசாரணை நடத்தி வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 சமயபுரம் அருகே 7.50 கிலோ தங்கம் பறிமுதல்: 3 பேர் கைது\n\n📰 முழு விவரம்:\nராமேஸ்வரத்திலிருந்து காரில் கடத்தப்பட்ட 7.50 கிலோ தங்கத்தை திருச்சி சுங்கத்துறை மத்திய வருவாய் புலனாய்வு இயக்குனரக (டி.ஆர்.ஐ.) அதிகாரிகள் நேற்று இரவு பறிமுதல் செய்தனர். இதில் 3 பேர் கைது செய்யப்பட்டு விசாரணை நடைபெற்று வருகிறது.\nராமேஸ்வரத்திலிருந்து சென்னைக்குக் காரில் தங்கம் கடத்தப்படுவதாக ரகசியத் தகவல் கிடைத்ததையடுத்து, சமயபுரம் டோல்பிளாசா அருகே அதிகாரிகள் கண்காணிப்பில் ஈடுபட்டனர். காரில் வந்த 3 பேரிடம் விசாரித்தபோது முன்னுக்குப்பின் முரணாகத் தகவல் தெரிவித்தனர். சோதனையில் 7.50 கிலோ தங்கம் கண்டுபிடிக்கப்பட்டது.\n💰 மதிப்பு: சுமார் ரூ.8.50 கோடி என கூறப்படுகிறது.\n\n📍 இடம்: சமயபுரம் டோல்பிளாசா அருகே, திருச்சி\n🗓️ நாள்: நவம்பர் 21, 2026 (நேற்று இரவு)\n👮 நடவடிக்கை: டி.ஆர்.ஐ. அதிகாரிகள் தங்கத்தைப் பறிமுதல் செய்து 3 பேரைக் கைது செய்தனர்.\n\nஇதனுடன், ‘தவெக ஆட்சியில் தமிழகம் 6 ஆண்டுகள் பின்னோக்கிச் சென்றுவிட்டது’ என ஆர்.பி.உதயகுமார் குற்றம் சாட்டியுள்ளார்.\n\nRameswaram gold smuggling seized Samayapuram | Trichy news\n📍 சமயபுரம், திருச்சி மாவட்டம் | 22 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Samayapuram #TrichyNews #திருச்சி",
-   "prompts": "A row of DRI customs officers in plain clothes and a few men in police khaki stand beside a white-coloured car pulled over at the side of a highway toll plaza at night, near the Samayapuram toll booths on the Trichy-Chennai road. Three men in shirts and trousers stand with their hands held in front of them, seen from behind and at a distance, while officers open the car's rear doors with torches lighting the scene. The toll plaza has concrete barrier islands, a row of toll lanes with cabins, and a few trucks and buses waiting in the lanes beyond. Sodium street lamps cast an orange glow over the wet asphalt, and the night sky is dark above the flat Trichy countryside. The camera is at eye level, shot 35 mm and wide enough to show the toll plaza, the car and the officers, with no readable signboards or number plates visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a dark wooden table under a bright white light inside a customs office, with 7.50 kg of gold seized from the car laid out in neat piles of gold bars and small packets of gold jewellery, in a warm yellow metallic sheen. Beside the gold, a few evidence bags and a plain notebook lie open on the table, and the sleeve of a khaki uniform rests at the edge of the frame. Blurred figures of officers in the background, seen from behind and out of focus. The light is cool and even from above, with shadows falling sharply beneath the gold. The camera is slightly high, 35 mm, tight enough to show the gold clearly as the story's key object. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.hindutamil.in/news/tamilnadu/75-kg-of-gold-smuggled-by-car-from-rameswaram-seized",
-   "published": "2026-11-22T11:51:39Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 5 ('.‘தவெக ஆட்சியில் தமிழகம் 6 ஆண்டுகள் பின்னோக்கி சென்று விட்டத')",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795359337/trichy360/b5xahgwxf1hv5rgsrxad.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795359339/trichy360/t6t9nguicb2one6rtfpt.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "முசிறி அருகே மரத்தில் கார் மோதி 5 பேர் உயிரிழப்பு",
-   "english_headline": "Five killed as car hits roadside tree near Musiri, Trichy district",
-   "category": "Roads & Transport",
-   "location": "Jambunathapuram near Musiri, Trichy district",
-   "importance": "High",
    "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "சாலை விபத்து",
-    "loc": "ஜம்புநாதபுரம், முசிறி",
-    "hl1": "முசிறி அருகே கார் விபத்தில் 5 பேர் பலி",
-    "hl2": "3 பேர் மருத்துவமனையில்",
+    "cat": "சுகாதார சீர்கேடு",
+    "loc": "திருச்செந்தூர்",
+    "hl1": "திருச்செந்தூரில் சாக்கடை மூடி சேதம்",
+    "hl2": "விரைவில் சீரமைக்க கோரிக்கை",
     "slides": [
      {
-      "title": "என்ன நடந்தது?",
+      "title": "சேதமடைந்த மூடி",
       "lines": [
-       "துறையூர் செல்லும் நெடுஞ்சாலையில் கார் விபத்து",
-       "சாலையோர மரத்தின் மீது கார் மோதியது",
-       "இடம்: ஜம்புநாதபுரம் அருகே"
+       "<b>வீரராகவபுரம் தெரு</b> பகுதியில் கழிவுநீர் தொட்டி மூடி சேதம்",
+       "மத்திய பகுதியில் உடைந்த நிலையில் உள்ளது"
       ]
      },
      {
-      "title": "எத்தனை பேர்?",
+      "title": "விபத்து அபாயம்",
       "lines": [
-       "<b>5 பேர்</b> உயிரிழந்தனர்",
-       "விபத்தில் காயமடைந்த <b>3 பேர்</b> மருத்துவமனைக்கு அனுப்பப்பட்டனர்"
+       "வாகனங்கள் செல்லும்போது <b>மேலும் உடைகிறது</b>",
+       "வாகன ஓட்டிகளுக்கு பெரிய விபத்து அபாயம்"
       ]
      },
      {
-      "title": "அடுத்து என்ன?",
+      "title": "சீரமைக்க கோரிக்கை",
       "lines": [
-       "காவல் துறையினர் விசாரணை நடத்தி வருகின்றனர்",
-       "மேலும் விவரங்களுக்கு காவல் துறையின் அறிவிப்பைப் பாருங்கள்"
+       "அசம்பாவிதம் நடக்கும் முன் <b>சரிசெய்ய கோரிக்கை</b>",
+       "உடனடி நடவடிக்கை எடுக்க மக்கள் எதிர்பார்ப்பு"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "முசிறி அருகே சாலையோர மரத்தின் மீது கார் மோதியதில் 5 பேர் உயிரிழந்தனர். துறையூர் செல்லும் நெடுஞ்சாலையில் ஜம்புநாதபுரம் அருகே இந்த விபத்து நேரிட்டது. விபத்தில் காயமடைந்த 3 பேர் மருத்துவமனைக்கு அனுப்பி வைக்கப்பட்டனர். இந்த விபத்து குறித்து காவல் துறையினர் விசாரணை மேற்கொண்டு வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 முசிறி அருகே சாலையோர மரத்தில் கார் மோதி 5 பேர் உயிரிழப்பு\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம் முசிறி அருகே சாலையோர மரத்தின் மீது கார் மோதியதில் 5 பேர் உயிரிழந்தனர்.\nதுறையூர் செல்லும் நெடுஞ்சாலையில் ஜம்புநாதபுரம் அருகே நேரிட்ட இந்த விபத்தில் 5 பேர் உயிரிழந்தனர்.\nவிபத்தில் காயமடைந்த 3 பேர் மருத்துவமனைக்கு அனுப்பி வைக்கப்பட்டனர்.\nகாவல் துறையினர் விசாரணை மேற்கொண்டு வருகின்றனர்.\n\n📍 இடம்: ஜம்புநாதபுரம், முசிறி அருகே, துறையூர் நெடுஞ்சாலை\n🗓️ நாள்: 22 நவம்பர் 2026\n👮 நடவடிக்கை: காவல் துறையினர் விசாரணை\n\nTrichy car accident near Musiri, 5 dead | Trichy news\n📍 ஜம்புநாதபுரம், முசிறி, திருச்சி மாவட்டம் | 22 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Musiri #TrichyNews #திருச்சி",
-   "prompts": "A badly damaged small car, its front crushed inward, rests against the thick trunk of a roadside tree on a rural highway near Musiri in Trichy district. The two-lane tarmac road runs toward Thuraiyur, lined with tall shade trees, a low boundary wall and green paddy fields stretching behind. Tamil Nadu police in khaki stand at a safe distance near the road edge, and two or three onlookers in shirts and trousers watch from the roadside, seen from behind and far away. Scattered broken glass and debris glint on the asphalt in front of the car. It is bright daylight with a clear sky and dry road. Shot at eye level with a 35 mm lens, wide enough to show the entire highway stretch, the tree, the car and the open fields around the road. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of the crushed front of a small car, its bonnet folded and headlight shattered, pressed against the bark of a roadside tree on the Musiri to Thuraiyur highway. Shards of broken glass and loose debris lie on the grey tarmac beside the wheel, with a strip of police tape fluttering slightly on a nearby post. Behind the vehicle, the blurred trunk and leaves of the tree and the edge of a green paddy field fill the frame. No people are visible in focus. It is daylight with a soft, even light and a dry road. Shot at a low angle with a 50 mm lens to emphasise the impact damage and the tree that stopped the car. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinakaran.com/news/5-killed-accident-omnivan-tree-trichy/amp",
-   "published": "2026-11-22T16:54:49+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script has 40 words; need 60-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
+   "reel_script": "திருச்செந்தூர் வீரராகவபுரம் தெரு பகுதியில் பாதாள சாக்கடை மூடி உடைந்ததால் விபத்து அபாயம் ஏற்பட்டுள்ளது. வீரராகவபுரம் தெரு மத்திய பகுதியில் உள்ள பாதாள சாக்கடை கழிவுநீர் தொட்டியின் மூடி சேதமடைந்த நிலையில் உள்ளது. வாகனங்கள் மூடியின் மேல் செல்லும்போது சாக்கடை மூடி மேலும் உடைந்து வருகிறது. இதனால் வாகனங்கள் செல்லும் போது பெரிய விபத்து உருவாகும் அபாயகரமான சூழல் நிலவுகிறது. அசம்பாவிதம் மற்றும் விபத்து எதுவும் ஏற்படும் முன்னதாக இந்த பாதாள சாக்கடை மூடி சரிசெய்யப்படுமா என்று மக்கள் கேள்வி எழுப்பியுள்ளனர். கழிவுநீர் தொட்டி மூடியை உடனடியாகச் சீரமைக்க நடவடிக்கை எடுக்க வேண்டும் என்பதே மக்களின் கோரிக்கையாக உள்ளது. விபத்து நடக்கும் முன்பே சீரமைப்புப் பணிகளை மேற்கொள்ள வேண்டும் என மக்கள் விரும்புகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 திருச்செந்தூரில் உடைந்த பாதாள சாக்கடை மூடி: விபத்து அபாயம்\n\n📰 முழு விவரம்:\nதிருச்செந்தூர் வீரராகவபுரம் தெரு மத்திய பகுதியில் பாதாள சாக்கடை கழிவுநீர் தொட்டியின் மூடி உடைந்த நிலையில் உள்ளது. வாகனங்கள் அதன் மேல் செல்லும்போது இந்த மூடி மேலும் உடைந்து வருகிறது. இதனால் அந்த வழியாகச் செல்லும் வாகனங்களுக்குப் பெரிய விபத்து ஏற்படும் அபாயம் நிலவுகிறது. அசம்பாவிதம் எதுவும் நடக்கும் முன்பே இந்த பாதாள சாக்கடை மூடியை உடனடியாகச் சரி செய்ய வேண்டும் என மக்கள் கோரிக்கை விடுத்துள்ளனர்.\n\n📍 இடம்: வீரராகவபுரம் தெரு மத்திய பகுதி, திருச்செந்தூர்\n⚠️ பிரச்சனை: பாதாள சாக்கடை கழிவுநீர் தொட்டி மூடி சேதம்\n🚗 நிலைமை: வாகனங்கள் செல்லும்போது மேலும் உடைகிறது\nℹ️ மக்கள் கவனத்திற்கு: விபத்து ஏற்படும் முன் மூடியை சீரமைக்க கோரிக்கை\n\nபாதிக்கப்படும் வாகன ஓட்டிகளுக்கு Share செய்யுங்கள்\n\nTiruchendur damaged manhole sewage cover news | Trichy news\n📍 வீரராகவபுரம் தெரு, திருச்செந்தூர் | 23 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Tiruchendur #TrichyNews #திருச்சி",
+   "prompts": "A broken concrete manhole lid sits dangerously in the middle of the asphalt road on Veeraraghavapuram street in Tiruchendur. The street is lined with typical Trichy residential houses with flat roofs. A few local residents, including a man in a white shirt and veshti and a woman in a saree, are seen from behind standing at a safe distance on the side of the road. A parked two-wheeler is visible near a house entrance. The scene is captured in bright daylight with clear skies. The camera is at a slightly high angle using a 35mm lens to show the hazard in the context of the narrow street. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up shot focuses on the damaged manhole lid in the center of the road. The concrete lid is cracked into several pieces with a visible hole exposing the dark sewage pit underneath. The surrounding asphalt of the street is worn. In the blurred background, the wheels of a passing two-wheeler can be seen avoiding the hole. The lighting is bright midday sun, highlighting the jagged edges of the broken concrete. The camera is positioned at a high angle looking directly down at the damaged infrastructure to emphasize the risk to commuters. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://pukaarpetti.dailythanthi.com/road/news-68870",
+   "published": "2026-11-23T01:05:05+05:30",
+   "verification": "DRAFT (gemini/gemini-3.6-flash) - fact-check: no problems found",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795359347/trichy360/wab3lpnjhncfoqdakism.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795359349/trichy360/svwbuphvnamx5obj2sxe.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795380840/trichy360/zwbitj8byoreufwlasdq.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795380859/trichy360/shovlej68fceymfzq4q4.jpg"
    ]
   },
   {
-   "tamil_headline": "துறையூரில் சிறுமிக்கு பாலியல் தொல்லை: கார் டிரைவர் மீது போக்சோ வழக்கு",
-   "english_headline": "Car driver booked under POCSO for sexually harassing a 12-year-old girl in Thuraiyur",
-   "category": "Crime & Safety",
-   "location": "Thuraiyur, Trichy district",
-   "importance": "High",
+   "tamil_headline": "திருச்சி மேலசிந்தாமணியில் 10 மாதங்களாக கிடப்பில் உள்ள பாலப் பணி: பொதுமக்கள் அவதி",
+   "english_headline": "Kottai Vaikkal bridge construction in Melachinthamani, Trichy halted for 10 months; residents demand quick action",
+   "category": "Civic Issues",
+   "location": "Melachinthamani, Ward 12, Trichy city, Trichy district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "பாலப் பணி",
+    "loc": "மேலசிந்தாமணி, திருச்சி",
+    "hl1": "மேலசிந்தாமணியில் பாலப் பணி நிறுத்தம்",
+    "hl2": "10 மாதங்களாக மக்கள் அவதி",
+    "slides": [
+     {
+      "title": "பாலப் பணி",
+      "lines": [
+       "திருச்சி <b>மேலசிந்தாமணி</b> 12-வது வார்டு பகுதி",
+       "கோட்டை வாய்க்கால் பாலப் பணி <b>10 மாதங்களாக</b> நிறுத்தம்",
+       "அண்ணாசாலை செல்ல நீண்ட தூரம் சுற்றும் நிலை"
+      ]
+     },
+     {
+      "title": "மக்கள் அவதி",
+      "lines": [
+       "பாதை வசதி இல்லாமல் மக்கள் தீவிர சிரமம்",
+       "இந்தப் பகுதியில் விபத்து அபாயமும் அதிகரிப்பு"
+      ]
+     },
+     {
+      "title": "கோரிக்கை",
+      "lines": [
+       "பாலப் பணியை விரைந்து தொடங்க மக்கள் கோரிக்கை",
+       "பணிகளை முடிக்க அதிகாரிகள் நடவடிக்கை தேவை"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சி மேலசிந்தாமணி 12-வது வார்டில் கோட்டை வாய்க்கால் பாலப் பணிகள் 10 மாதங்களாக நிறுத்தப்பட்டுள்ளன. மேலசிந்தாமணி பகுதியில் நடைபெற்று வந்த இந்த பாலப் பணிகள் திடீரென முடங்கியுள்ளன. இதனால் அப்பகுதி மக்கள் அண்ணாசாலை உள்ளிட்ட இடங்களுக்குச் செல்ல நீண்ட தூரம் சுற்றிச் செல்ல வேண்டிய நிலை ஏற்பட்டுள்ளது. பாதை வசதி இல்லாததால் பொதுமக்கள் தினமும் தீவிர சிரமத்தைச் சந்தித்து வருகின்றனர். மேலும் இந்தப் பகுதியில் விபத்து அபாயமும் நிலவி வருகிறது. எனவே கிடப்பில் போடப்பட்டுள்ள கோட்டை வாய்க்கால் பாலப் பணியை அதிகாரிகள் விரைந்து தொடங்க நடவடிக்கை எடுக்க வேண்டும். பாலப் பணிகளை உடனே முடித்து மக்கள் பயன்பாட்டுக்குக் கொண்டுவர அப்பகுதி பொதுமக்கள் வலியுறுத்தியுள்ளனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🏗️ திருச்சியில் 10 மாதங்களாக முடங்கிய பாலப் பணி: மக்கள் அவதி!\n\n📰 முழு விவரம்:\nதிருச்சி மேலசிந்தாமணி 12-வது வார்டு கோட்டை வாய்க்கால் பகுதியில் நடைபெற்று வந்த பாலப் பணிகள் 10 மாதங்களாக நிறுத்தப்பட்டுள்ளன. இதனால் அப்பகுதி மக்கள் அண்ணாசாலை உள்ளிட்ட பகுதிகளுக்குச் செல்ல நீண்ட தூரம் சுற்றிச் செல்ல வேண்டிய நிலை ஏற்பட்டுள்ளது. பாதை வசதியின்றி பொதுமக்கள் சிரமப்படுவதுடன், விபத்து அபாயமும் நிலவுகிறது. எனவே நிறுத்தப்பட்டுள்ள கோட்டை வாய்க்கால் பாலப் பணியை அதிகாரிகள் விரைந்து தொடங்கி முடிக்க நடவடிக்கை எடுக்க வேண்டும் என மக்கள் வலியுறுத்தியுள்ளனர்.\n\n📍 இடம்: மேலசிந்தாமணி 12-வது வார்டு, கோட்டை வாய்க்கால், திருச்சி\n⚠️ பிரச்சனை: 10 மாதங்களாக நிறுத்தப்பட்ட பாலப் பணிகள்\n🛣️ பாதிப்பு: அண்ணாசாலை செல்ல சுற்றிச் செல்லும் நிலை, விபத்து அபாயம்\n🗣️ கோரிக்கை: பாலப் பணியை விரைந்து தொடங்க அதிகாரிகள் நடவடிக்கை எடுக்க வேண்டும்\n\nஉங்களது பகுதி நண்பர்களுடன் Share செய்யுங்கள்!\n\nMelachinthamani Trichy bridge construction halted for 10 months | Trichy news\n📍 மேலசிந்தாமணி, திருச்சி மாவட்டம் | 23 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Melachinthamani #TrichyNews #திருச்சி",
+   "prompts": "A partially built bridge spanning the Kottai Vaikkal waterway lies idle, with the concrete deck ending abruptly and no workers or machinery active, clearly showing that construction has been stopped. The scene is set at the Kottai Vaikkal bridge site in Melachinthamani, Ward 12 of Trichy, a typical river‑crossing location with the water below and surrounding embankments. In the background, a few residents can be seen from behind, walking along the nearby footpath, their backs turned as they discuss the long detour they must now take to reach Annasala. The unfinished bridge structure dominates the frame, the missing segment of the deck exposing the gap. Daylight, clear weather, with the camera positioned at eye level using a 35 mm lens to capture the whole site. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up view focuses on the broken end of the bridge deck where the concrete slab stops short, revealing the jagged edge and the empty space where the roadway should continue. The shot is taken at the same Kottai Vaikkal bridge location, highlighting the exact point of interruption that has left traffic stalled for ten months. In the foreground, a rusted steel rebar and a pile of construction bags lie abandoned, underscoring the halt. The background shows the river’s surface and a faint hint of the surrounding embankment, with daylight illuminating the scene. The camera is slightly elevated, using a 35 mm lens to frame the detail tightly while keeping the context of the bridge evident. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://pukaarpetti.dailythanthi.com/transportation/news-68859",
+   "published": "2026-11-22T23:34:15+05:30",
+   "verification": "DRAFT (gemini/gemini-3.6-flash) - fact-check: no problems found",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795380884/trichy360/uql2ihonjxth21xdxdp9.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795380910/trichy360/khm6hujvibpj2wnae8oa.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "குண்டூர் அருகே ஆபத்தான கேபிள் கம்பம்: விபத்து அபாயம்",
+   "english_headline": "Dangerous cable pole near Kundur MIET, Ayyanar Nagar 7th street poses accident risk",
+   "category": "Civic Issues",
+   "location": "Ayyanar Nagar 7th Street near Kundur MIET, Trichy district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "ஆபத்து எச்சரிக்கை",
+    "loc": "குண்டூர், திருச்சி",
+    "hl1": "குண்டூரில் ஆபத்தான கேபிள் கம்பம்",
+    "hl2": "விபத்து அபாயம்",
+    "slides": [
+     {
+      "title": "எங்கே?",
+      "lines": [
+       "குண்டூர் எம்.ஐ.இ.டி. அருகே",
+       "அய்யனார் நகர் 7-வது தெரு",
+       "ஆபத்தான நிலையில் கேபிள் கம்பம்"
+      ]
+     },
+     {
+      "title": "என்ன ஆபத்து?",
+      "lines": [
+       "அவ்வழியாகச் செல்லும் பொதுமக்களுக்கு அச்சுறுத்தல்",
+       "விபத்து ஏற்படும் அபாயம் உள்ளது",
+       "இந்த வழியில் செல்வோர் கவனமாக இருங்கள்"
+      ]
+     },
+     {
+      "title": "என்ன நடவடிக்கை?",
+      "lines": [
+       "கம்பத்தை அகற்ற அல்லது சீரமைக்க வேண்டும்",
+       "சம்பந்தப்பட்ட அதிகாரிகள் விரைந்து நடவடிக்கை எடுக்க வேண்டும்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "குண்டூர் அருகே அய்யனார் நகர் 7-வது தெருவில் ஆபத்தான நிலையில் கேபிள் கம்பம் உள்ளது. குண்டூர் எம் ஐ இ டி அருகே உள்ள இந்த கம்பத்தால் அவ்வழியாகச் செல்லும் பொதுமக்களுக்கு அச்சுறுத்தல் ஏற்படுகிறது. விபத்து ஏற்படும் அபாயமும் உள்ளது. எனவே ஆபத்தான கேபிள் கம்பத்தை அகற்ற அல்லது சீரமைக்க சம்பந்தப்பட்ட அதிகாரிகள் விரைந்து நடவடிக்கை எடுக்க வேண்டும். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 குண்டூர் அருகே ஆபத்தான கேபிள் கம்பம்: விபத்து அபாயம்\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம், குண்டூர் எம்.ஐ.இ.டி. அருகே அய்யனார் நகர் 7-வது தெருவில் ஆபத்தான நிலையில் கேபிள் கம்பம் உள்ளது.\nஇதனால் அவ்வழியாகச் செல்லும் பொதுமக்களுக்கு அச்சுறுத்தல் ஏற்படுவதுடன், விபத்து ஏற்படும் அபாயமும் உள்ளது.\nஎனவே, ஆபத்தான கேபிள் கம்பத்தை அகற்ற அல்லது சீரமைக்க சம்பந்தப்பட்ட அதிகாரிகள் விரைந்து நடவடிக்கை எடுக்க வேண்டும்.\n\n📍 இடம்: அய்யனார் நகர் 7-வது தெரு, குண்டூர் எம்.ஐ.இ.டி. அருகே\nℹ️ மக்கள் கவனத்திற்கு: அவ்வழியே செல்லும்போது கவனமாக இருங்கள்.\n\nKundur cable pole danger, accident risk | Trichy news\n📍 குண்டூர், திருச்சி மாவட்டம் | 23 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
+   "prompts": "A tilted concrete cable pole with loose, sagging cables leans dangerously over a narrow residential street in Ayyanar Nagar, Trichy, near the Kundur MIET engineering college area. Two residents walk past at the far end of the lane, seen from behind, one carrying a cloth bag and the other holding an umbrella. Small single-storey houses with tiled and concrete roofs line both sides, and a few two-wheelers are parked at the roadside. The concrete base of the pole shows cracks and crumbling, with bare wires drooping close to the road where pedestrians walk. The scene is in daylight under an overcast sky, with soft even light. Shot at eye level with a 35 mm lens, wide enough to show the full lane, the leaning pole in the foreground, and the houses and passers-by behind it. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of the base of a cracked, crumbling concrete cable pole on a Trichy residential street, with the bottom section tilted and exposed reinforcement rods visible through broken concrete. Loose cables hang low just above the rough, uneven road surface and a patch of rainwater sits in the adjoining drain. Part of a tiled house wall and a parked two-wheeler's tyre are visible at the edge of the frame, and a pair of slippers lies on the road nearby. Daylight, slightly diffused, with no people in focus. Shot at low eye level with a 50 mm lens to emphasise the danger of the leaning pole and its proximity to the walkway. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://pukaarpetti.dailythanthi.com/amp/others/news-68856",
+   "published": "2026-11-22T23:32:11+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script has 49 words; need 60-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795380925/trichy360/irtp0nng5z3hrnjtavhr.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795380931/trichy360/ckldafcpymvezyeac9xo.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "துறையூர் கண்ணனூர் அய்யம்பாளையத்தில் ஆற்றைக் கடக்க புதிய பாலம் வேண்டும்",
+   "english_headline": "Kannanur Ayyampalayam in Thuraiyur demands a new bridge over the river",
+   "category": "Roads & Transport",
+   "location": "Kannanur Ayyampalayam village, Thuraiyur taluk, Trichy district",
+   "importance": "Medium",
    "scope": "",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "போக்சோ வழக்கு",
-    "loc": "துறையூர்",
-    "hl1": "துறையூரில் சிறுமிக்கு பாலியல் தொல்லை",
-    "hl2": "டிரைவர் மீது போக்சோ வழக்கு",
+    "cat": "பாலம் கோரிக்கை",
+    "loc": "கண்ணனூர் அய்யம்பாளையம், துறையூர்",
+    "hl1": "துறையூர் அருகே பாலம் கோரிக்கை",
+    "hl2": "மழைக்காலத்தில் பெரும் சிரமம்",
     "slides": [
      {
-      "title": "என்ன நடந்தது?",
+      "title": "எங்கே?",
       "lines": [
-       "துறையூரில் <b>12 வயது</b> சிறுமிக்கு பாலியல் தொல்லை",
-       "கார் டிரைவர் அருண்குமார், <b>31</b> மீது வழக்கு",
-       "போக்சோ சட்டத்தில் வழக்கு பதியப்பட்டது"
+       "கண்ணனூர் அய்யம்பாளையம் கிராமம், துறையூர் வட்டம்",
+       "மாரியம்மன் கோவிலில் இருந்து கிழக்கே செல்லும் சாலையில் ஆறு",
+       "திருச்சி மாவட்டம்"
       ]
      },
      {
-      "title": "எப்போது நடந்தது?",
+      "title": "யார்",
       "lines": [
-       "கடந்த <b>20ஆம் தேதி</b> வீட்டில் தனியாக இருந்தபோது",
-       "பக்கத்து வீட்டில் வசிக்கும் டிரைவர் இச்செயலில் ஈடுபட்டார்",
-       "சிறுமியின் தாய் <b>30 வயது</b> பெண்"
+       "விவசாயிகள், மாணவர்கள், முதியவர்கள்",
+       "கால்நடைகளும் ஆற்றைக் கடக்க வேண்டிய நிலை",
+       "மக்கள் கடக்க முடியாமல் சிரமப்படுகின்றனர்"
       ]
      },
      {
-      "title": "போலீசாரின்",
+      "title": "என்ன கோரிக்கை?",
       "lines": [
-       "புகாரின்படி முசிறி மகளிர் போலீசார் வழக்குப் பதிவு",
-       "தலைமறைவான அருண்குமாரைப் போலீசார் தேடி வருகின்றனர்",
-       "குடும்பத்தில் <b>7ஆம் வகுப்பு</b> மகளும், <b>4ஆம் வகுப்பு</b> மகனும்"
+       "<b>மழைக்காலங்களில்</b> ஆற்றில் வெள்ளம் பெருக்கெடுத்து ஓடுகிறது",
+       "அப்பகுதியில் புதிய பாலம் அமைக்க வேண்டும்",
+       "சம்பந்தப்பட்ட அதிகாரிகள் நடவடிக்கை எடுக்க வேண்டும்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "துறையூரில் 12 வயது சிறுமிக்கு பாலியல் தொல்லை கொடுத்த கார் டிரைவர் மீது போக்சோ வழக்கு பதியப்பட்டுள்ளது. பக்கத்து வீட்டில் வசிக்கும் கார் டிரைவர் அருண்குமார் (31 வயது), கடந்த 20ஆம் தேதி வீட்டில் தனியாக இருந்த சிறுமிக்கு இந்தத் தொல்லையைக் கொடுத்துள்ளார். சிறுமியின் தாய் 30 வயது பெண். அவருக்கு 7ஆம் வகுப்பு படிக்கும் 12 வயது மகளும், 4ஆம் வகுப்பு படிக்கும் மகனும் உள்ளனர். புகாரின்படி முசிறி மகளிர் போலீசார் போக்சோ சட்டத்தில் வழக்குப் பதிவு செய்தனர். தலைமறைவான அருண்குமாரை போலீசார் தேடி வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 துறையூரில் சிறுமிக்கு பாலியல் தொல்லை: டிரைவர் மீது போக்சோ வழக்கு\n\n📰 முழு விவரம்:\nதுறையூரில் 12 வயது சிறுமிக்கு பாலியல் தொல்லை கொடுத்ததாக கார் டிரைவர் அருண்குமார் (31 வயது), மீது போக்சோ சட்டத்தில் வழக்குப் பதியப்பட்டுள்ளது.\nபக்கத்து வீட்டில் வசிக்கும் அருண்குமார், கடந்த 20ஆம் தேதி வீட்டில் தனியாக இருந்த சிறுமிக்கு தொல்லை கொடுத்துள்ளார்.\nசிறுமியின் தாய் 30 வயது பெண்; அவருக்கு 7ஆம் வகுப்பு படிக்கும் 12 வயது மகளும், 4ஆம் வகுப்பு படிக்கும் 4 வயது மகனும் உள்ளனர்.\nபுகாரின்படி முசிறி மகளிர் போலீசார் வழக்குப் பதிந்து, தலைமறைவான அருண்குமாரை தேடி வருகின்றனர்.\n📍 இடம்: துறையூர், திருச்சி மாவட்டம்\n🗓️ நாள்: கடந்த 20ஆம் தேதி\n👮 நடவடிக்கை: போக்சோ சட்டத்தில் வழக்குப் பதிவு, குற்றவாளியைத் தேடும் பணி\n\nThuraiyur POCSO case against car driver | Trichy news\n📍 துறையூர், திருச்சி மாவட்டம் | 22 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thuraiyur #TrichyNews #திருச்சி",
-   "prompts": "A pair of women police officers in khaki uniform stand at the gate of a modest tiled-roof house on a quiet residential street in Thuraiyur town, Trichy district, Tamil Nadu. Seen from behind at a distance, one officer holds a clipboard while the other looks toward the doorway. The house has a low compound wall, a green iron gate, and a veranda with a plastic chair. Narrow concrete road, a few parked two-wheelers and a bicycle along the wall, potted plants by the entrance. Late morning daylight, clear sky, mild humidity. Camera at eye level, 35 mm lens, wide enough to show the full house frontage and the street so the setting reads as an official police visit to a home. No faces visible, no readable signboards. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a folded official complaint file lying on a wooden table beside a closed black police-issue notebook and a ballpoint pen, inside a small room with a whitewashed wall and a ceiling fan above. The corner of an open file shows typed Tamil text kept blurred and unreadable, with a faint hint of a police khaki sleeve at the edge of the frame. Soft natural light from a barred window falls across the paper, casting gentle shadows. Shallow depth of field, camera slightly high, 50 mm macro-style framing, focus on the file, no readable words or logos. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-news/a-case-has-been-registered-against-the-driver-of-the-car-for-harassing-the-girl/4383394",
-   "published": "2026-11-22T19:02:30+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
+   "reel_script": "துறையூர் அருகே ஆற்றைக் கடக்க முடியாமல் கிராம மக்கள் தவிக்கின்றனர். திருச்சி மாவட்டம், துறையூர் வட்டம், கண்ணனூர் அய்யம்பாளையம் கிராமத்தில் மாரியம்மன் கோவிலில் இருந்து கிழக்கே செல்லும் சாலையில் ஆறு உள்ளது. இந்த ஆற்றைக் கடந்து விவசாயிகள், மாணவர்கள், முதியவர்கள் மற்றும் கால்நடைகள் செல்ல வேண்டிய நிலை உள்ளது. மழைக்காலங்களில் ஆற்றில் வெள்ளம் பெருக்கெடுத்து ஓடுவதால் பொதுமக்கள் கடந்து செல்ல முடியாமல் சிரமப்படுகின்றனர். இதையடுத்து, அப்பகுதியில் புதிய பாலம் அமைக்க வேண்டும் என்று கிராம மக்கள் கோரிக்கை விடுத்துள்ளனர். சம்பந்தப்பட்ட அதிகாரிகள் இதில் நடவடிக்கை எடுக்க வேண்டும் என எதிர்பார்க்கப்படுகிறது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🌉 துறையூர் அருகே ஆற்றைக் கடக்க புதிய பாலம் வேண்டும் கோரிக்கை\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம், துறையூர் வட்டம், கண்ணனூர் அய்யம்பாளையம் கிராமத்தில் மாரியம்மன் கோவிலில் இருந்து கிழக்கே செல்லும் சாலையில் ஆறு உள்ளது.\nஇந்த ஆற்றைக் கடந்து விவசாயிகள், மாணவர்கள், முதியவர்கள் மற்றும் கால்நடைகள் செல்ல வேண்டிய நிலை உள்ளது.\nமழைக்காலங்களில் ஆற்றில் வெள்ளம் பெருக்கெடுத்து ஓடுவதால் பொதுமக்கள் கடந்து செல்ல முடியாமல் சிரமப்படுகின்றனர்.\nஎனவே, அப்பகுதியில் புதிய பாலம் அமைக்க சம்பந்தப்பட்ட அதிகாரிகள் நடவடிக்கை எடுக்க வேண்டும் என கோரிக்கை எழுந்துள்ளது.\n📍 இடம்: கண்ணனூர் அய்யம்பாளையம், துறையூர் வட்டம், திருச்சி மாவட்டம்\n🌉 கோரிக்கை: ஆற்றின் மீது புதிய பாலம்\n\nThuraiyur village demands new bridge over river | Trichy news\n📍 கண்ணனூர் அய்யம்பாளையம், திருச்சி மாவட்டம்\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thuraiyur #TrichyNews #திருச்சி",
+   "prompts": "A group of villagers, including a farmer with a cattle, a schoolgirl in a Tamil Nadu school uniform and an elderly man with a walking stick, stand at the edge of a village road where it ends abruptly at a river in Kannanur Ayyampalayam village, Thuraiyur taluk, Trichy district. The river runs wide and brown across the frame, its water swollen and fast-moving after rain, with muddy banks and a few scattered boulders on the bank. The villagers are seen from behind, looking out at the flowing water, the schoolgirl holding her bag close and the farmer gently holding a rope tied to a cow. On the far bank, a dirt track continues into green paddy fields and a few coconut palms. There is no bridge in sight, only the broken end of the road and a cement stub where a bridge once might have been. The scene is bright daylight under overcast monsoon skies, with damp earth and puddles on the road. Camera at eye level, 35 mm lens, wide enough to show the road, the river, the people and the fields. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://pukaarpetti.dailythanthi.com/transportation/news-68855",
+   "published": "2026-11-22T23:31:04+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795359354/trichy360/uyjqrzanctlkdn4fmky9.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795359357/trichy360/drrn3uvrnn6dmhah3shx.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795380943/trichy360/yf8u33pegczybyzih1le.jpg"
    ]
   }
  ]
