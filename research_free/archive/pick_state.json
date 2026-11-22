@@ -60,7 +60,8 @@
    "alts": [
     "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/22/%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF-%E0%AE%B5%E0%AE%BF%E0%AE%AA%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%87%E0%AE%B3%E0%AF%88%E0%AE%9E%E0%AE%B0%E0%AF%8D-%E0%AE%AA%E0%AE%B2%E0%AE%BF"
    ],
-   "listed_at": "2026-11-23T04:31:45.405733+05:30"
+   "listed_at": "2026-11-23T04:31:45.405733+05:30",
+   "picked_at": "2026-11-23T04:33:09.813669+05:30"
   }
  },
  "rounds": {
@@ -481,8 +482,16 @@
    ],
    "sent": false,
    "deadline": "2026-11-23T05:31:45.405733+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 7 of 1 by insights",
+    "ids": [
+     "C0498332"
+    ],
+    "at": "2026-11-23T04:33:09.813658+05:30"
+   },
+   "written": [
+    "C0498332"
+   ]
   }
  },
  "retry": {}
