@@ -2555,7 +2555,7 @@ def facebook_share_email(now=None):
             mark = facebook.STATE / f"_share_email_{pg}.json"
             try:
                 last = datetime.fromisoformat(json.loads(mark.read_text(encoding="utf-8"))["at"])
-                if now - last < timedelta(hours=3):
+                if now - last < timedelta(hours=1 if facebook.day_full(pg) else 3):      # owner 22 Nov: day's 15 done - every hour
                     continue
             except Exception:
                 pass
@@ -2567,7 +2567,8 @@ def facebook_share_email(now=None):
                 except Exception:
                     continue
                 stuck = d.get("status") == "waiting" or (d.get("status") == "failed" and int(d.get("tries", 0)) >= facebook.MAX_TRIES)
-                if stuck and d.get("ig_media") and timedelta(hours=3) <= now - since <= timedelta(hours=24):
+                full = facebook.day_full(pg)      # owner 22 Nov: once the day's 15 are on Facebook, the rest goes to the e-mail at once
+                if stuck and d.get("ig_media") and (full or timedelta(hours=3) <= now - since) and now - since <= timedelta(hours=24):
                     due.append((f, d))
             if not due:
                 continue
@@ -2594,7 +2595,7 @@ def facebook_share_email(now=None):
                      "4. Tap Share. (Space them out - a few minutes between each.)\n")
             lines = [f"{i}. {h}\n   {l}" for i, (h, l) in enumerate(items, 1)]
             text = (f"These {len(items)} news are on {name} Instagram but not on its Facebook page "
-                    f"(Facebook was waiting or limited the page).\n\n{steps}\n" + "\n".join(lines)
+                    f"(the day's {facebook.TOP_PER_DAY} Facebook posts are done, or Facebook was waiting / limited the page).\n\n{steps}\n" + "\n".join(lines)
                     + "\n\nThe automatic Facebook posting will not post these again.")
             import html as _h
             promo.hub_post("digest", {"subject": f"[{name} FACEBOOK SHARE] {len(items)} news to share from Instagram", "text": text,
@@ -2622,7 +2623,7 @@ def facebook_catchup():
             d = facebook.next_waiting(pg)
             if not d:
                 continue
-            why = facebook.gate(pg, None)
+            why = facebook.gate(pg, d.get("rank"))      # owner 22 Nov: the waiting news' own priority (urgent may pass the gap)
             if why:
                 log(f"Facebook catch-up {pg}: {d.get('story')} still waits ({why})")
                 continue

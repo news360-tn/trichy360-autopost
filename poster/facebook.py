@@ -143,6 +143,11 @@ def top_news(rank):
     return False, f"not a top news on this page's insights ({rank.get('topic')} {rank.get('weight')})"
 
 
+def day_full(page):
+    """owner 22 Nov: this page has posted its TOP_PER_DAY Facebook news in the last 24 hours"""
+    return posted_last_day(page, "reel") + posted_last_day(page, "photos") >= TOP_PER_DAY
+
+
 def gate(page, rank, always=False):
     """'' when this post may go to Facebook now, else why not (owner 11 Nov: top news only, few a day, spaced)"""
     why = paused(page)
@@ -153,7 +158,7 @@ def gate(page, rank, always=False):
     ok, why = top_news(rank)
     if not ok:
         return why
-    if posted_last_day(page, "reel") + posted_last_day(page, "photos") >= TOP_PER_DAY and not (rank or {}).get("urgent"):
+    if day_full(page):      # owner 22 Nov: the day's 15 are a hard limit (urgent news too) - the rest goes to the owner's e-mail
         return f"Facebook top-news limit {TOP_PER_DAY} a day reached"
     last = _last_posted(page)
     if last and (_now() - last).total_seconds() < GAP_MIN * 60 and not (rank or {}).get("urgent"):
@@ -170,8 +175,15 @@ def wait_reason(why):
     return w.startswith("less than") or "limit" in w or "paused" in w or "limited" in w
 
 
+def priority(rank):
+    """owner 22 Nov ("Facebook priority based"): urgent news first, then this page's best topics, then the topic weight"""
+    r = rank or {}
+    return (bool(r.get("urgent")), bool(r.get("best")), float(r.get("weight") or 0))
+
+
 def next_waiting(page):
-    """the oldest news waiting for this page's Facebook; waiting news older than WAIT_HOURS are given up"""
+    """the MOST IMPORTANT news waiting for this page's Facebook (owner 22 Nov: priority, then the oldest);
+    waiting news older than WAIT_HOURS are given up"""
     best, cut = None, _now() - dt.timedelta(hours=WAIT_HOURS)
     for f in sorted(STATE.glob(f"{page}-*.json")) if STATE.exists() else []:
         try:
@@ -185,8 +197,9 @@ def next_waiting(page):
             d.update(status="skipped", why="waited too long for Facebook (more than 24 h or 3 tries)")
             f.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
             continue
-        if best is None or since < best[0]:
-            best = (since, d)
+        key = (priority(d.get("rank")), -since.timestamp())
+        if best is None or key > best[0]:
+            best = (key, d)
     return best[1] if best else None
 
 
@@ -418,9 +431,17 @@ def share(page, sid, kind, media, caption, page_tag, dry=False, tags=None, story
         if why and not dry and kind == "reel" and ig_media and wait_reason(why):
             # owner 21 Nov: every news goes to Facebook too - it waits and post.py's facebook_catchup() posts it when the gap allows
             _save(page, sid, kind, {"status": "waiting", "why": why, "ig_media": ig_media, "caption": cap, "link": src, "comment": comment,
-                                    "with_story": story, "waiting_since": _now().isoformat(timespec="seconds")})
+                                    "with_story": story, "waiting_since": _now().isoformat(timespec="seconds"), "rank": rank})
             log(f"Facebook: {sid} waits ({why}) - posted when the gap allows")
             return ""
+        if not why and not dry and not always and kind == "reel" and ig_media and not (rank or {}).get("urgent"):
+            w = next_waiting(page)      # owner 22 Nov: a more important news is waiting - it goes first, this one waits its turn
+            if w and priority(w.get("rank")) > priority(rank):
+                _save(page, sid, kind, {"status": "waiting", "why": f"a more important news ({w.get('story')}) goes to Facebook first",
+                                        "ig_media": ig_media, "caption": cap, "link": src, "comment": comment, "with_story": story,
+                                        "waiting_since": _now().isoformat(timespec="seconds"), "rank": rank})
+                log(f"Facebook: {sid} waits - the more important {w.get('story')} goes first")
+                return ""
         if why:
             if not dry:
                 _save(page, sid, kind, {"status": "skipped", "why": why, "media": media})
