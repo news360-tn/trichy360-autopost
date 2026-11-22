@@ -105,7 +105,7 @@ jobs:
           WRITE_WORKERS: "3"
           BUDGET_MIN: "80"
           FRESH_DAYS: "1"
-          DAILY_CAP: "35"          # owner 21 Nov: at most 30-35 news written a day (power cuts / main news still go after it)
+          DAILY_CAP: "30"          # owner 22 Nov: 30 of TODAY's published news a day; yesterday's pending news and urgent news go on top
         run: |
           save_state() {      # 5 Nov (RN-188): post runs read pick_state.json from main - save the picked ids BEFORE posting, or a picked
                               # news published yesterday is skipped as 'stale' until this job ends 2.5 hours later

@@ -98,7 +98,7 @@ class DailyMaximumAndRounds(unittest.TestCase):
         slots = [tuple(map(int, x.split("="))) for x in top.split(",")]
         self.assertEqual([h for h, _ in slots], [4, 8, 12, 16, 20, 22])
         self.assertLessEqual(sum(n for _, n in slots), 35)
-        self.assertIn('DAILY_CAP: "35"', wf.read_text(encoding="utf-8"))
+        self.assertIn('DAILY_CAP: "30"', wf.read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":

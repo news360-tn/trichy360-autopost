@@ -35,7 +35,7 @@ EXTRA_WEIGHT = float(os.environ.get("PICK_EXTRA_WEIGHT", "0.5"))
 EXTRA_MAX = int(os.environ.get("PICK_EXTRA_MAX", "3"))
 # owner 22 Nov: "min 15 to max 35 news as that day published - not yesterday's news": only news published TODAY (IST) is listed,
 # kept as a leftover or written; and EVERY such news of a round is written (most important first) - the writer's DAILY_CAP 35 is the maximum
-SAME_DAY = os.environ.get("PICK_SAME_DAY", "1") == "1"
+SAME_DAY = os.environ.get("PICK_SAME_DAY", "0") == "1"      # owner 22 Nov evening: yesterday's pending news is posted too (off)
 PICK_ALL = os.environ.get("PICK_ALL", "1") == "1"
 
 

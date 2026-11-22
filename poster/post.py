@@ -406,8 +406,8 @@ def is_ready_reel(row):
 
 
 def published_before_today(row, now=None):
-    """owner 22 Nov ("not a yesterday published news posted today"): True when the news' own published date (IST) is before today.
-    No / unreadable date: False (posted as before)."""
+    """owner 22 Nov: True when the news' own published date (IST) is before YESTERDAY - today's news and yesterday's pending news are
+    posted (yesterday's outside the day's 30); older news never. No / unreadable date: False (posted as before)."""
     if re.search(r"மின்\s*தடை|power", str(row.get("category") or ""), re.I):
         return False      # a power-cut notice from yesterday is about today's cut: still posted
     p = str(row.get("published") or "").strip()
@@ -421,7 +421,7 @@ def published_before_today(row, now=None):
             d = datetime.strptime(p[:10], "%Y-%m-%d").date()
         except Exception:
             return False
-    return d < (now or datetime.now(IST)).astimezone(IST).date()
+    return d < (now or datetime.now(IST)).astimezone(IST).date() - timedelta(days=1)
 
 
 def ready(row):
@@ -444,10 +444,10 @@ def ready(row):
     # an older one is never posted again later (stale news, e.g. yesterday's power cut)
     if any(page_done(row, p) or row.get(p + "_link") for p in pg) and age_hours(row) > 20:
         return False
-    if not is_ready_reel(row) and published_before_today(row):      # owner 22 Nov: yesterday's news is never posted today
+    if not is_ready_reel(row) and published_before_today(row):      # owner 22 Nov: news older than yesterday is never posted
         if row.get("story_id") not in _SKIPPED:
             _SKIPPED.add(row.get("story_id"))
-            log("SKIP", row.get("story_id"), "published before today - only the same day's news is posted")
+            log("SKIP", row.get("story_id"), "published before yesterday - only today's and yesterday's pending news is posted")
         return False
     return True      # a story with its images is never dropped for age or time of day: it posts as soon as its set has started
 
