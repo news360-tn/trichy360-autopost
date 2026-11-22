@@ -1,0 +1,73 @@
+{
+ "updated": "2026-11-22T06:00:00+00:00",
+ "day": "2026-11-22",
+ "ready": 7,
+ "pages": {
+  "trichy": {
+   "label": "திருச்சி 360",
+   "instagram": {
+    "posted": [],
+    "paused": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC",
+    "quota": ""
+   },
+   "facebook": {
+    "posted": 0,
+    "waiting": 0,
+    "share": [],
+    "paused": ""
+   },
+   "manual_post": [
+    {
+     "id": "RN-109",
+     "why": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC",
+     "sent": "2026-11-22T04:22:19+00:00",
+     "video": true
+    },
+    {
+     "id": "RN-110",
+     "why": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC",
+     "sent": "2026-11-22T04:22:44+00:00",
+     "video": true
+    },
+    {
+     "id": "RN-114",
+     "why": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC",
+     "sent": "2026-11-22T04:22:49+00:00",
+     "video": true
+    },
+    {
+     "id": "RN-111",
+     "why": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC",
+     "sent": "2026-11-22T03:29:35+00:00",
+     "video": true
+    },
+    {
+     "id": "RN-112",
+     "why": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC",
+     "sent": "2026-11-22T03:28:52+00:00",
+     "video": true
+    },
+    {
+     "id": "RN-113",
+     "why": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC",
+     "sent": "2026-11-22T03:27:23+00:00",
+     "video": true
+    }
+   ],
+   "daily": {
+    "gold": {
+     "posted": false,
+     "link": ""
+    },
+    "rasipalan": {
+     "posted": false,
+     "link": ""
+    }
+   },
+   "youtube": {
+    "uploads": [],
+    "keys": false
+   }
+  }
+ }
+}
