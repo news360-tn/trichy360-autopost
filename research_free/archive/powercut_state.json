@@ -697,7 +697,7 @@
    "title": "தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி"
   },
   "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/power-outage-in-kallakudi-areas-tomorrow": {
-   "at": "2026-11-22T20:57:55.556934+05:30",
+   "at": "2026-11-22T21:19:13.240118+05:30",
    "power_cut": true,
    "why": "",
    "title": "கல்லக்குடி பகுதிகளில் நாளை மின்தடை"
@@ -839,6 +839,12 @@
    "power_cut": false,
    "why": "not this district",
    "title": "coimbatore power cut: கோவையில் நாளை (11-11-2026) எங்கெல்லாம் பவர் கட்? - மின்வாரியம் வெளியிட்ட லிஸ்ட்"
+  },
+  "https://tamil.abplive.com/news/trichy/trichy-power-cut-17-11-2026-know-timings-areas-affected-by-power-shutdown-279854#district-section": {
+   "at": "2026-11-22T21:19:13.240118+05:30",
+   "power_cut": true,
+   "why": "cut day 2026-11-17 has passed",
+   "title": "திருச்சி மாவட்டத்தில் நாளை (17-11-2026) மின்தடை: பல்வேறு பகுதிகளில் (நவம்பர் 17, 2026, செவ்வாய்க்கிழமை) மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெற உள்ளதால், காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம"
   }
  },
  "done": {
@@ -876,6 +882,14 @@
   "Cf168af9": {
    "why": "not filed: duplicate after write",
    "at": "2026-11-21T21:13:48.842739+05:30"
+  },
+  "C234018f": {
+   "why": "not filed: duplicate after write",
+   "at": "2026-11-22T21:21:38.290458+05:30"
+  },
+  "Cff2ab8a": {
+   "why": "not filed: duplicate after write",
+   "at": "2026-11-22T21:21:38.290458+05:30"
   }
  }
 }
