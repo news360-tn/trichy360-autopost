@@ -83,34 +83,34 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
-| 2026-11-22 | `aef1938` | Website: each posted story goes to the shared 7-district site with its district (only when the WEBSITE_INGEST_KEY secret is set; posting is not affected) |
-| 2026-11-22 | `54c0372` | stories shared / Instagram pause |
-| 2026-11-22 | `0dda7ea` | Dashboard status file for the owner's private dashboard |
-| 2026-11-22 | `2d6a39c` | stories shared / Instagram pause |
-| 2026-11-22 | `cb5c6b2` | Facebook check: list the last 20 Facebook posts (was 10) |
-| 2026-11-22 | `61472be` | Facebook check: list each page's latest Facebook posts (read only) |
-| 2026-11-22 | `1f0e5b9` | Facebook share e-mail: news on Instagram but not on Facebook after 3 hours |
-| 2026-11-22 | `fdbdb41` | manual post e-mail RN-114 |
-| 2026-11-22 | `5b45564` | manual post e-mail RN-110 |
-| 2026-11-22 | `ccaed76` | manual post e-mail RN-109 |
-| 2026-11-22 | `3ad962e` | stories shared / Instagram pause |
-| 2026-11-22 | `8bf1fce` | manual post e-mail RN-111 |
-| 2026-11-22 | `f04b3d7` | manual post e-mail RN-112 |
-| 2026-11-22 | `b9a0115` | manual post e-mail RN-113 |
-| 2026-11-22 | `b0909d6` | stories shared / Instagram pause |
-| 2026-11-22 | `42b3dcf` | Manual post e-mail: attach a 720p copy of the reel (the full reel was too large) |
-| 2026-11-22 | `561c270` | manual post e-mail RN-110 |
-| 2026-11-22 | `3ef5e0f` | manual post e-mail RN-109 |
-| 2026-11-22 | `65a3fe0` | manual post e-mail RN-114 |
-| 2026-11-22 | `43c5bbd` | stories shared / Instagram pause |
-| 2026-11-22 | `85333fe` | Manual post e-mail: news a page cannot post goes to the owner, one by one |
-| 2026-11-22 | `af826ec` | pick: written and posted |
-| 2026-11-22 | `bd1e4ef` | pick: list sent |
-| 2026-11-21 | `54ce90c` | pick: written and posted |
-| 2026-11-21 | `10cb1ba` | pick: list sent |
-| 2026-11-21 | `12b2bd4` | powercut: notices written |
-| 2026-11-21 | `4e68ea6` | powercut: notices written |
-| 2026-11-21 | `0351fda` | pick: written and posted |
-| 2026-11-21 | `82f085c` | pick: picked news saved |
-| 2026-11-21 | `6e73fb6` | pick: picked news saved |
+| 2026-11-22 | `2c781ba` | stories shared / Instagram pause |
+| 2026-11-22 | `1568aa4` | Same-day news only, 15-35 a day: every news published today is written (max 35), yesterday's news is never posted, 22:00 round added; Namakkal writer split fix |
+| 2026-11-22 | `50e0ad8` | stories shared / Instagram pause |
+| 2026-11-22 | `7a3d07e` | facebook RN-118 |
+| 2026-11-22 | `d234389` | posted RN-118 |
+| 2026-11-22 | `4ffcbe8` | pick: written and posted |
+| 2026-11-22 | `e03d12c` | stories shared / Instagram pause |
+| 2026-11-22 | `a31c03f` | facebook RN-117 |
+| 2026-11-22 | `8eb1a48` | posted RN-117 |
+| 2026-11-22 | `4c77a74` | pick: picked news saved |
+| 2026-11-22 | `880a0d7` | stories shared / Instagram pause |
+| 2026-11-22 | `1cdb1a8` | pick: picked news saved |
+| 2026-11-22 | `e4bfafb` | pick: list sent |
+| 2026-11-22 | `37f79c2` | stories shared / Instagram pause |
+| 2026-11-22 | `a8150ee` | stories shared / Instagram pause |
+| 2026-11-22 | `63215ac` | stories shared / Instagram pause |
+| 2026-11-22 | `394f3c9` | stories shared / Instagram pause |
+| 2026-11-22 | `3292e14` | stories shared / Instagram pause |
+| 2026-11-22 | `636e506` | stories shared / Instagram pause |
+| 2026-11-22 | `14cae73` | stories shared / Instagram pause |
+| 2026-11-22 | `6feec3a` | stories shared / Instagram pause |
+| 2026-11-22 | `752043e` | stories shared / Instagram pause |
+| 2026-11-22 | `4415e54` | stories shared / Instagram pause |
+| 2026-11-22 | `b234914` | stories shared / Instagram pause |
+| 2026-11-22 | `28c8a8b` | stories shared / Instagram pause |
+| 2026-11-22 | `01e4f39` | stories shared / Instagram pause |
+| 2026-11-22 | `9052a95` | stories shared / Instagram pause |
+| 2026-11-22 | `fa2321c` | stories shared / Instagram pause |
+| 2026-11-22 | `93bf677` | stories shared / Instagram pause |
+| 2026-11-22 | `2009979` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
