@@ -83,6 +83,8 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-22 | `aef1938` | Website: each posted story goes to the shared 7-district site with its district (only when the WEBSITE_INGEST_KEY secret is set; posting is not affected) |
+| 2026-11-22 | `54c0372` | stories shared / Instagram pause |
 | 2026-11-22 | `0dda7ea` | Dashboard status file for the owner's private dashboard |
 | 2026-11-22 | `2d6a39c` | stories shared / Instagram pause |
 | 2026-11-22 | `cb5c6b2` | Facebook check: list the last 20 Facebook posts (was 10) |
@@ -111,6 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-21 | `0351fda` | pick: written and posted |
 | 2026-11-21 | `82f085c` | pick: picked news saved |
 | 2026-11-21 | `6e73fb6` | pick: picked news saved |
-| 2026-11-21 | `da509b5` | pick: list sent |
-| 2026-11-21 | `3a84099` | pick: written and posted |
 <!-- recent-changes:end -->
