@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T06:20:19+00:00",
+ "updated": "2026-11-22T06:27:03+00:00",
  "day": "2026-11-22",
  "ready": 7,
  "pages": {
@@ -56,8 +56,8 @@
    ],
    "daily": {
     "gold": {
-     "posted": false,
-     "link": ""
+     "posted": true,
+     "link": "https://www.instagram.com/reel/DgCJhcXhsqk/"
     },
     "rasipalan": {
      "posted": false,
