@@ -41,6 +41,10 @@
  "trichy:RN-113": {
   "first": "2026-11-22T03:11:49+00:00",
   "queued": "2026-11-22T03:23:05+00:00",
-  "why": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC"
+  "why": "Instagram blocked publishing on trichy - paused until 2026-11-22T06:14 UTC",
+  "sent": "2026-11-22T03:27:23+00:00",
+  "day": "2026-11-22",
+  "video": true,
+  "resent": false
  }
 }
