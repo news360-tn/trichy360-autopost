@@ -1760,7 +1760,19 @@ def ig_pause_file(page):
 
 
 PAUSE_WHY = {"block": "Instagram blocked publishing", "create": "Instagram's limit on new posts (too many made in 24 h)",
-             "rate": "Instagram asked to slow down (too many requests)"}
+             "rate": "Instagram asked to slow down (too many requests)",
+             "retry": "Instagram had a temporary error - posting again after 10 minutes"}
+
+
+def ig_pause_kind(page):
+    """the kind of this page's running pause ('' when none): block / create / rate / retry"""
+    try:
+        d = json.loads(ig_pause_file(page).read_text(encoding="utf-8"))
+        if datetime.fromisoformat(d["until"]) > datetime.now(timezone.utc):
+            return d.get("kind") or "block"
+    except Exception:
+        pass
+    return ""
 
 
 def ig_paused(page):
@@ -1780,7 +1792,9 @@ def ig_pause(page, e, kind="block"):
     (block: config ig_block_pause_hours 6; too many posts made: ig_create_pause_hours 6; too many requests: ig_rate_pause_min 60).
     Its news is posted after that, nothing is lost. A longer pause that is already running is never shortened."""
     try:
-        if kind == "rate":
+        if kind == "retry":      # owner 23 Nov: a temporary error - wait 10 minutes, then post again
+            hours = float(CONFIG.get("ig_retry_wait_min", 10)) / 60
+        elif kind == "rate":
             hours = float(CONFIG.get("ig_rate_pause_min", 60)) / 60
         elif kind == "create":
             hours = float(CONFIG.get("ig_create_pause_hours", 6))
@@ -1985,7 +1999,7 @@ def manual_due(rows, posting_now, now=None):
                 continue
             if v.get("queued") and now - datetime.fromisoformat(v["queued"]) < timedelta(minutes=60):
                 continue      # its e-mail job is running
-            why = ig_paused(p) or ("Instagram's 24-hour post limit is reached" if LIMIT.get(p) else "")
+            why = ("" if ig_pause_kind(p) == "retry" else ig_paused(p)) or ("Instagram's 24-hour post limit is reached" if LIMIT.get(p) else "")      # owner 23 Nov: a 10-minute wait is no reason for a manual e-mail
             if not why and now - datetime.fromisoformat(v["first"]) >= timedelta(hours=MANUAL_AFTER_H):
                 why = f"ready for more than {MANUAL_AFTER_H} hours and still not posted"
             if why and sent_today + len(out) < MANUAL_DAY_MAX and len(out) < 4:
@@ -2396,7 +2410,8 @@ def run_story_page(row, page):
                 LIMIT[PAGE] = True
                 log("LIMIT: Instagram post limit hit while posting carousel", sid, "- waits, not a failure")
             elif is_transient(e):
-                log("TEMPORARY Instagram problem while posting carousel", sid, "- tried again in the next run, not a failure:", str(e)[:200])
+                log("TEMPORARY Instagram problem while posting carousel", sid, "- posted again after 10 minutes, not a failure:", str(e)[:200])
+                ig_pause(PAGE, e, "retry")
             else:
                 log("ERROR carousel", sid, e)
                 bridge_post("error", {"row": row["row"], "page": PAGE, "kind": "carousel", "error": str(e)[:900]})
@@ -2444,7 +2459,8 @@ def run_story_page(row, page):
                 LIMIT[PAGE] = True
                 log("LIMIT: Instagram post limit hit while posting reel", sid, "- waits, not a failure")
             elif is_transient(e):
-                log("TEMPORARY Instagram problem while posting reel", sid, "- tried again in the next run, not a failure:", str(e)[:200])
+                log("TEMPORARY Instagram problem while posting reel", sid, "- posted again after 10 minutes, not a failure:", str(e)[:200])
+                ig_pause(PAGE, e, "retry")      # owner 23 Nov: a temporary error waits 10 minutes, then the news posts
             else:
                 log("ERROR reel", sid, e)
                 bridge_post("error", {"row": row["row"], "page": PAGE, "kind": "reel", "error": str(e)[:900]})

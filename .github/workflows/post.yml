@@ -271,7 +271,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if [ "${{ needs.check.outputs.more }}" = "1" ]; then sleep 360; else sleep 420; fi
+          if [ "${{ needs.check.outputs.more }}" = "1" ]; then sleep 120; else sleep 420; fi      # owner 23 Nov: more news ready - the next one about 5 minutes after this post (the 5-minute gap is kept by the check)
           python3 poster/watchdog.py || echo "watchdog failed (posting goes on)"
           # owner 20 Nov: tried 3 times - one GitHub error (HTTP 500, Trichy 20 Nov 14:09) must not stop the posting loop
           for i in 1 2 3; do gh api -X POST "repos/${{ github.repository }}/actions/workflows/post.yml/dispatches" -f ref=main -F "inputs[dry_run]=false" && { echo "next posting run started"; break; }; [ $i = 3 ] && echo "::warning::next run not started after 3 tries (the 5-minute schedule still runs)"; sleep $((i*20)); done
