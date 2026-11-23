@@ -2939,6 +2939,8 @@ def _number_in_article(n, art):
         forms |= {f"{v // 100000} லட்சம்", f"{v // 100000}லட்சம்"} | ({"லட்சம்"} if v == 100000 else set())
     if v in _TA_SMALL:
         forms |= set(_TA_SMALL[v])
+    if n in {g.replace(",", "") for g in re.findall(r"\d[\d,]*\d|\d", art)}:
+        return True      # owner 23 Nov: Indian grouping '29,86,950' is 2986950 (RN-785 was held for it)
     return any(f in art for f in forms)
 
 

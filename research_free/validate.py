@@ -63,6 +63,12 @@ def _initial(w):
     return w[:2] if len(w) > 1 and "\u0bbe" <= w[1] <= "\u0bcd" else w[:1]
 
 
+# owner 23 Nov: common words of a location are not a place - "திருப்பூர் நகரம்", "பஸ் நிலையம்", "உழவர் சந்தை", "கோவை ரோடு" were held
+# because the article writes "நகர்", "பேருந்து நிலையம்" etc. Only the real place word is checked against the article.
+GENERIC_LOC = {"நகரம்", "நகர்", "நகரில்", "ரோடு", "சாலை", "நிலையம்", "உழவர்", "சந்தை", "பகுதி", "பகுதிகள்", "தெரு", "காலனி", "கிராமம்",
+               "ஊராட்சி", "நகராட்சி", "மாநகராட்சி", "பேரூராட்சி", "பஸ்", "பேருந்து", "அருகே", "அருகில்", "மாவட்டம்", "வட்டம்", "தாலுகா"}
+
+
 def _initials(article):
     """{('ப', stem of 'வேலுார்')} for every 'ப.வேலுார்' in the article (owner 2 Nov, RN-284: 'பரமத்தி வேலூர்' was 'not in the article')"""
     return {(m.group(1), _stem(m.group(2))) for m in re.finditer(r"(?<![\u0B80-\u0BFF])([\u0B85-\u0BB9][\u0BBE-\u0BCD]?)\.\s*([\u0B80-\u0BFF]{3,})", article or "")}
@@ -151,7 +157,7 @@ def grounding_problems(d, article):
     for i, w in enumerate(loc_words):
         if len(w) < 4 or (i + 1 < len(loc_words) and (_initial(w), _stem(loc_words[i + 1])) in inits):
             continue      # 'பரமத்தி வேலூர்' when the article writes 'ப.வேலுார்'
-        if _stem(w) not in stems and w not in ("மாவட்டம்", "திருச்சி", "திருச்சிராப்பள்ளி"):
+        if _stem(w) not in stems and w not in GENERIC_LOC and w not in ("மாவட்டம்", "திருச்சி", "திருச்சிராப்பள்ளி"):
             out.append(f"not grounded: location '{w}' is not in the article")
     # 2) most words of the reel script and slides must come from the article
     body = LAST

@@ -427,6 +427,12 @@ def cmd_collect():
                                                   and not (allnews.has_place(it["title"]) or allnews.has_place(it.get("summary", "")[:300]))):
             pool.pop(k)
             continue
+        if str(it.get("refused") or "").startswith("not written: the day's maximum") and \
+                (when(it.get("picked_at")) or t_end).astimezone(IST).date() < t_end.astimezone(IST).date():
+            # owner 23 Nov: held back only by YESTERDAY's maximum - today it is a pending news again (yesterday's pending news is posted)
+            it.pop("refused", None)
+            it.pop("picked_at", None)
+            log(f"held back by yesterday's daily maximum - offered again today: {it.get('title', '')[:60]}")
         if it.get("refused"):
             continue      # owner 4 Nov: the writer said no (e.g. duplicate after write) - kept in the pool so it is not "new" again
         pk = when(it.get("picked_at"))
