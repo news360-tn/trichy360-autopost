@@ -3,205 +3,110 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dailythanthi.com/news/tamilnadu/pamban-77kg-cannabis-seized-two-arrested",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/husband-stabs-wife-to-death-arrested/4384336",
-  "candidate filter: collected=2",
-  "to write: 2 Trichy district candidates (max 2 stories)",
-  "round: top 2 of 2 candidates",
-  "candidates waiting: 2 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/husband-stabs",
-  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/pamban-77kg-cann",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/23/திருச்சி-விமான-நிலையத்தில்-தங்கம்-பறிமுதல்-இருவா்-கைது",
+  "candidate filter: collected=1",
+  "to write: 1 Trichy district candidates (max 1 stories)",
+  "round: top 1 of 1 candidates",
+  "candidates waiting: 1 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
   "posting job started at once",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})",
-  "candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 76 min",
-  "filed: 2 Trichy district stories (target 2), reels only",
+  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 74 min",
+  "filed: 1 Trichy district stories (target 1), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":2,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
+  "fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.5-flash",
+  "ok gemini/gemini-3-flash-preview (10s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3-flash-preview (12s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.6-flash (14s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3.6-flash (17s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.6-flash (15s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "ok gemini/gemini-3.6-flash (20s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3.5-flash (12s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3.5-flash (14s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing ",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing ",
-  "switching away from gemini/gemini-3-flash-preview for 10 min",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "dead for this round: gemini/gemini-3-flash-preview",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok groq/qwen/qwen3.8-27b (3s)",
+  "ok groq/qwen/qwen3.8-27b (7s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/openai/gpt-oss-120b (6s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5"
+  "ok groq/openai/gpt-oss-120b (3s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
  ],
  "stories": [
   {
-   "tamil_headline": "பாம்பன் அருகே 77 கிலோ கஞ்சா பறிமுதல், இருவர் கைது",
-   "english_headline": "77 kg ganja seized near Pamban, two arrested",
+   "tamil_headline": "திருச்சி விமான நிலையத்தில் தங்கம் பறிமுதல்: இருவர் கைது",
+   "english_headline": "Two arrested at Trichy airport with 698 gm gold smuggled from Singapore",
    "category": "Crime & Safety",
-   "location": "Pamban, Ramanathapuram district",
-   "importance": "High",
-   "scope": "",
+   "location": "Trichy International Airport, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "போதைப்பொருள் பறிமுதல்",
-    "loc": "பாம்பன், ராமநாதபுரம்",
-    "hl1": "பாம்பன் <b>77 கிலோ</b> கஞ்சா பறிமுதல்",
-    "hl2": "இருவர் கைது",
+    "cat": "தங்கக் கடத்தல்",
+    "loc": "திருச்சி விமான நிலையம்",
+    "hl1": "விமான நிலையத்தில் தங்கம் கடத்தல்",
+    "hl2": "<b>698 கிராம்</b> தங்கம்",
     "slides": [
      {
       "title": "என்ன நடந்தது?",
       "lines": [
-       "பாம்பன் அருகே படகில் கஞ்சா கடத்தல்",
-       "இந்திய கடலோர காவல் படை சோதனை நடத்தியது",
-       "ஒரு படகும், அதில் இருந்த <b>இருவரும்</b> பிடிபட்டனர்"
+       "சிங்கப்பூரில் இருந்து தங்கம் கடத்தி வந்த <b>இருவர்</b> கைது",
+       "திருச்சி பன்னாட்டு விமான நிலையத்தில் சுங்கத் துறையினர்",
+       "<b>698 கிராம்</b> 24 கேரட் தங்கம் பறிமுதல்"
       ]
      },
      {
-      "title": "எவ்வளவு கஞ்சா?",
+      "title": "எப்படி கடத்தினர்?",
       "lines": [
-       "படகிலிருந்து <b>77 கிலோ</b> கஞ்சா பறிமுதல்",
-       "ரகசியத் தகவலின் அடிப்படையில் சோதனை",
-       "நேற்று நடந்த நடவடிக்கை"
+       "கடந்த சனிக்கிழமை வந்த இண்டிகோ விமானத்தில் கடத்தல்",
+       "<b>2 பயணிகள்</b> துளையிடும் கருவியில் தங்கத்தை பசை வடிவில்",
+       "சுங்கத் துறையினர் சோதனையில் சிக்கினர்"
       ]
      },
      {
-      "title": "அடுத்து என்ன?",
+      "title": "மதிப்பு",
       "lines": [
-       "போதைப்பொருள், படகு, நபர்கள் மண்டபத்திற்கு கொண்டு வரப்பட்டனர்",
-       "சுங்கத்துறையின் மத்திய புலனாய்வுப் பிரிவிடம்",
-       "சட்ட நடவடிக்கைகள் தொடரும்"
+       "பறிமுதல் செய்யப்பட்ட தங்கத்தின் மதிப்பு <b>ரூ.87.64 லட்சம்</b>",
+       "இது குறித்து சுங்கத் துறையினர் தொடர்ந்து விசாரிக்கின்றனர்",
+       "மேலும் தகவல்களுக்கு பின்தொடருங்கள்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "பாம்பன் அருகே 77 கிலோ கஞ்சா பறிமுதல். இந்திய கடலோர காவல் படையினர் இந்த நடவடிக்கையை மேற்கொண்டனர். பாம்பன் அருகே படகில் கஞ்சா கடத்தப்படுவதாக ரகசியத் தகவல் கிடைத்தது. அதன் அடிப்படையில் மண்டபத்தில் உள்ள கடலோர காவல் படையினர், திருச்சியில் உள்ள சுங்கத்துறையின் மத்திய புலனாய்வுப் பிரிவுடன் இணைந்து நேற்று சோதனை நடத்தினர். அங்கிருந்த ஒரு படகையும், அதில் இருந்த இருவரையும் மடக்கிப் பிடித்தனர். அந்தப் படகிலிருந்து சுமார் 77 கிலோ கஞ்சா பறிமுதல் செய்யப்பட்டது. பறிமுதல் செய்யப்பட்ட போதைப்பொருள், படகு மற்றும் பிடிபட்ட நபர்கள் மண்டபத்திற்குக் கொண்டு வரப்பட்டனர். பின்னர் சட்ட நடவடிக்கைகளுக்காக சுங்கத்துறையின் மத்திய புலனாய்வுப் பிரிவிடம் ஒப்படைக்கப்பட்டனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 பாம்பன் அருகே 77 கிலோ கஞ்சா பறிமுதல், இருவர் கைது\n\n📰 முழு விவரம்:\nராமநாதபுரம் மாவட்டம் பாம்பன் அருகே இந்திய கடலோர காவல் படையினர் 77 கிலோ கஞ்சாவை பறிமுதல் செய்தனர். படகில் கஞ்சா கடத்தப்படுவதாக ரகசியத் தகவல் கிடைத்ததையடுத்து, மண்டபத்தில் உள்ள கடலோர காவல் படையினர் திருச்சியில் உள்ள சுங்கத்துறையின் மத்திய புலனாய்வுப் பிரிவுடன் இணைந்து நேற்று சோதனை நடத்தினர். ஒரு படகும், அதில் இருந்த இருவரும் மடக்கிப் பிடிக்கப்பட்டனர். பறிமுதல் செய்யப்பட்ட போதைப்பொருள், படகு, பிடிபட்ட நபர்கள் மண்டபத்திற்குக் கொண்டு வரப்பட்டு, சட்ட நடவடிக்கைகளுக்காக சுங்கத்துறையின் மத்திய புலனாய்வுப் பிரிவிடம் ஒப்படைக்கப்பட்டனர்.\n📍 இடம்: பாம்பன் அருகே, ராமநாதபுரம் மாவட்டம்\n🗓️ நாள்: நேற்று (நவம்பர் 22)\n👮 நடவடிக்கை: 77 கிலோ கஞ்சா பறிமுதல், இருவர் கைது\n\nPamban 77 kg ganja seized, two arrested | Ramanathapuram news\n📍 பாம்பன், ராமநாதபுரம் மாவட்டம் | 23 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Pamban #கஞ்சா #TrichyNews",
-   "prompts": "Indian Coast Guard personnel in navy-blue uniform stand on the deck of a grey patrol boat moored at the Pamban coastline in Ramanathapuram district, as two men in plain shirts and veshti sit subdued on the boat's bench, seen from behind and far away. Behind them the Pamban rail bridge arches over the calm blue sea, with small fishing boats and a few palm trees on the sandy shore. The seized boat is the central element of the scene, its wooden hull tied to the jetty. Daylight, clear sky, soft sea breeze. Camera at eye level, 35 mm lens, wide enough to show the boat, the sea and the bridge in the background. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of several large packets of seized ganja, wrapped in dark plastic and stacked neatly on a metal tray or the wet wooden deck of a fishing boat at the Pamban harbour, Ramanathapuram district. Beside the packets lie coils of rope and a few plastic crates, with the blue sea and a small piece of the coast visible in soft focus behind. Coast guard boots in navy-blue uniform are partly visible at the edge of the frame. Bright daylight, sea spray on the deck. Camera slightly high, 35 mm lens, shallow depth of field focusing on the packets. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dailythanthi.com/news/tamilnadu/pamban-77kg-cannabis-seized-two-arrested",
-   "published": "2026-11-23T12:42:01Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 0 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795446166/trichy360/cire8osnuvslfx6oeuyo.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795446175/trichy360/y8yglregnqy5igstk6w4.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி கைது",
-   "english_headline": "Wife arrested for killing husband with grinding stone on his head in Trichy",
-   "category": "Crime & Safety",
-   "location": "Annanagar near Trichy airport, Trichy district",
-   "importance": "High",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "குற்றச் செய்தி",
-    "loc": "திருச்சி விமான நிலையம் அருகே",
-    "hl1": "திருச்சியில் கணவனை கொன்ற மனைவி கைது",
-    "hl2": "தலையில் அம்மிக்கல் போட்டு",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "செந்தில்குமார், <b>49</b>, தலையில் அம்மிக்கல் போட்டு கொலை",
-       "கொலை செய்தவர் அவரது மனைவி கலாராணி, <b>44</b>",
-       "போலீசார் கலாராணியை கைது செய்தனர்"
-      ]
-     },
-     {
-      "title": "எங்கே நடந்தது?",
-      "lines": [
-       "திருச்சி விமான நிலையம் அருகே அண்ணாநகர்",
-       "இரண்டு மகன்கள் உள்ள குடும்பம்",
-       "கஞ்சா வியாபாரி செந்தில்குமார்"
-      ]
-     },
-     {
-      "title": "எப்படி நடந்தது?",
-      "lines": [
-       "கஞ்சா போதையில் வந்து மனைவியிடம் தினமும் சண்டை",
-       "நவ.<b>22</b> இரவு கழுத்தை நெரித்து கொலை மிரட்டல்",
-       "நள்ளிரவு <b>1:30</b> மணிக்கு தூங்கியபோது தாக்குதல்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சி விமான நிலையம் அருகே அண்ணாநகரில் கணவனை தலையில் அம்மிக்கல் போட்டு கொன்ற மனைவி கைது செய்யப்பட்டார். கொல்லப்பட்டவர் செந்தில்குமார், 49 வயது. கொலை செய்தவர் அவரது மனைவி கலாராணி, 44 வயது. செந்தில்குமார் கஞ்சா வியாபாரி. அவர் தினமும் போதையில் வீட்டுக்கு வந்து மனைவியிடம் சண்டை போட்டு வந்தார். நவம்பர் 22ஆம் தேதி இரவு, கஞ்சா போதையில் வீட்டுக்கு வந்த செந்தில்குமார், கலாராணியின் கழுத்தை நெரித்து கொலை செய்துவிடுவேன் என்று மிரட்டினார். விரக்தி அடைந்த கலாராணி, நள்ளிரவு 1 மணி 30 நிமிடத்துக்கு தூங்கிக் கொண்டிருந்த செந்தில்குமாரின் தலையில் அம்மிக்கல்லை போட்டார். படுகாயமடைந்த செந்தில்குமார் உயிரிழந்தார். விமான நிலைய போலீசார் வழக்குப் பதிவு செய்து கலாராணியை கைது செய்தனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சி விமான நிலையம் அருகே கணவனை கொன்ற மனைவி கைது\n\n📰 முழு விவரம்:\nதிருச்சி விமான நிலையம் அருகே அண்ணாநகரில் வசிக்கும் கஞ்சா வியாபாரி செந்தில்குமார் (49 வயது), தலையில் அம்மிக்கல் போட்டு கொலை செய்யப்பட்டார்.\nஅவரது மனைவி கலாராணி (44 வயது), போலீசாரால் கைது செய்யப்பட்டார்.\nசெந்தில்குமார் தினமும் போதையில் வீட்டுக்கு வந்து மனைவியிடம் சண்டை போட்டு வந்தார்.\nநவ. 22 இரவு, கஞ்சா போதையில் வீட்டுக்கு வந்த அவர், கலாராணியின் கழுத்தை நெரித்து கொலை மிரட்டல் விடுத்தார்.\nநள்ளிரவு 1:30 மணியளவில் தூங்கிக் கொண்டிருந்த செந்தில்குமாரின் தலையில் கலாராணி அம்மிக்கல்லை போட்டார். படுகாயமடைந்த அவர் உயிரிழந்தார்.\n👮 நடவடிக்கை: விமான நிலைய போலீசார் வழக்குப் பதிவு செய்து கலாராணியை கைது செய்தனர்.\n\nTrichy airport wife arrested husband murder | Trichy news\n📍 அண்ணாநகர், திருச்சி விமான நிலையம் அருகே | 23 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Crime",
-   "prompts": "A Tamil Nadu police constable in khaki uniform stands at the gate of a modest two-storey house in an Annanagar residential lane near Trichy airport, while a woman in a plain cotton saree is led away with her hands held in front of her by a female constable. It is night, around 2 am, and the street is lit only by a single yellow streetlight and the house's doorway lamp. Two young boys in school shirts stand far back near the doorway, seen from behind, held by a relative. Parked on the lane is a two-wheeler and an empty autorickshaw. The house has tiled roof and concrete walls with a metal grill window. Shot at eye level, 35 mm, wide enough to show the whole house, the lane, and the police vehicle parked outside. Faces are not visible; everyone is seen from behind or at a distance, slightly blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a heavy grey stone grinding stone (ammikal) lying on the cool red-oxide tiled floor of a small Tamil home, with a plain white bedsheet and a rolled mat nearby, and a khaki-sleeved police hand in the corner of the frame holding a clear plastic evidence bag. The floor shows a faint dark stain, kept subtle. A dim bulb light from above and a sliver of night from an open window. The room looks modest, with a steel vessel and a hanging calendar blank of text. Shot at low angle, 50 mm, shallow depth of field focusing on the stone, the background softly blurred. No faces visible, no readable text anywhere. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-news/husband-stabs-wife-to-death-arrested/4384336",
-   "published": "2026-11-23T19:27:02+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
+   "reel_script": "திருச்சி விமான நிலையத்தில் சிங்கப்பூரில் இருந்து தங்கம் கடத்தி வந்த இருவர் கைது செய்யப்பட்டனர். கடந்த சனிக்கிழமை சிங்கப்பூரில் இருந்து திருச்சி பன்னாட்டு விமான நிலையத்துக்கு வந்த இண்டிகோ விமானத்தில் தங்கம் கடத்தி வரப்படுவதாக சுங்கத் துறையினருக்குத் தகவல் கிடைத்தது. அதன்படி சுங்கத் துறையின் வான் நுண்ணறிவுப் பிரிவு அலுவலர்கள் அந்த விமானத்தில் வந்த பயணிகள் மற்றும் அவர்களுடைய உடைமைகளில் சோதனை மேற்கொண்டனர். அப்போது இரண்டு பயணிகள் துளையிடும் கருவியில் தங்கத்தை பசை வடிவில் மறைத்து கடத்தி வந்தது தெரியவந்தது. இருவரையும் கைது செய்த சுங்கத் துறையினர், ரூ.87.64 லட்சம் மதிப்பிலான 698 கிராம் 24 கேரட் தங்கத்தைப் பறிமுதல் செய்தனர். இது குறித்து சுங்கத் துறையினர் தொடர்ந்து விசாரிக்கின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 திருச்சி விமான நிலையத்தில் 698 கிராம் தங்கம் பறிமுதல்: இருவர் கைது\n\n📰 முழு விவரம்:\nசிங்கப்பூரில் இருந்து தங்கம் கடத்தி வந்த இருவரை திருச்சி பன்னாட்டு விமான நிலையத்தில் சுங்கத் துறையினர் கைது செய்தனர். கடந்த சனிக்கிழமை சிங்கப்பூரில் இருந்து வந்த இண்டிகோ விமானத்தில் தங்கம் கடத்தப்படுவதாகத் தகவல் கிடைத்தது. சுங்கத் துறையின் வான் நுண்ணறிவுப் பிரிவு அலுவலர்கள் பயணிகள் மற்றும் அவர்களுடைய உடைமைகளில் சோதனை மேற்கொண்டனர். இரண்டு பயணிகள் துளையிடும் கருவியில் தங்கத்தை பசை வடிவில் மறைத்துக் கடத்தி வந்தது தெரியவந்தது. பறிமுதல் செய்யப்பட்ட 698 கிராம் 24 கேரட் தங்கத்தின் மதிப்பு ரூ.87.64 லட்சம்.\n📍 இடம்: திருச்சி பன்னாட்டு விமான நிலையம்\n👮 நடவடிக்கை: இருவர் கைது; தங்கம் பறிமுதல்; சுங்கத் துறையினர் தொடர்ந்து விசாரணை\n\nTrichy airport gold smuggling, two arrested | Trichy news\n📍 திருச்சி விமான நிலையம், திருச்சி மாவட்டம் | 23 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Airport",
+   "prompts": "Customs officers in khaki uniforms escort two male travelers in civilian clothes away from the arrival hall, handcuffing them. The scene is set in the spacious arrival corridor of Trichy International Airport, with glass walls showing the runway outside and rows of seating. From behind, the two suspects walk side‑by‑side, heads down, while three customs officers stand ahead, one holding a clipboard, another gesturing, the third holding a metal‑detector wand. Near the side of the corridor a metal‑detector arch stands; beside it a portable drilling machine sits on a trolley, its open casing revealing a small pile of gold nuggets. Daylight streams through the high windows, bright but softened by the interior lighting; weather not visible. Shot from eye level, slightly to the left, using a 35 mm lens, wide enough to capture the corridor and the officers. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up shows a compact drilling machine opened to reveal a hidden compartment filled with gleaming gold nuggets. The machine rests on a metal trolley near the customs inspection desk inside the Trichy International Airport arrivals area. In the blurred background, a customs officer in khaki leans over the trolley, his hands out of frame, while the two suspects stand a short distance away, turned away. The drilling machine, silver‑metallic, has its casing split; the gold nuggets, about 698 g total, sparkle; a clipboard and a sealed evidence bag sit beside them. Indoor fluorescent lighting casts a neutral white light, no shadows; daylight is visible through windows. Shot at eye level, tight framing, 35 mm lens, focusing on the machine and gold with shallow depth of field. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/23/திருச்சி-விமான-நிலையத்தில்-தங்கம்-பறிமுதல்-இருவா்-கைது",
+   "published": "2026-11-23T22:35:20.877Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 2 ('இதையடுத்து, சுங்கத் துறையின் வான் நுண்ணறிவுப் பிரிவு அலுவலா்')",
    "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795446200/trichy360/c8iywzjwpdugmro4wyfx.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795446209/trichy360/zpvjmravbj58bckucuxs.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795475283/trichy360/nfzrke1cnjrmzkyh1wq8.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795475316/trichy360/znqmsgv5lavh6u7m4c0r.jpg"
    ]
   }
  ]
