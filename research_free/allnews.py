@@ -609,3 +609,14 @@ def written_elsewhere(headline, script):
     if first2 and other_district(first2):
         return "not Trichy district news (the story's first lines name another place and no Trichy place)"
     return ""
+
+
+# owner 23 Nov: towns of OTHER Tamil Nadu districts that came through as ours ("திருச்செந்தூர்" - Thoothukudi district - was posted as
+# Trichy news, RN-123). A headline that names one of these and no place of this page's district is not our news.
+SOUTH_AND_OTHER_TOWNS = ["திருச்செந்தூர்", "தூத்துக்குடி", "கோவில்பட்டி", "திருநெல்வேலி", "நெல்லை", "நாகர்கோவில்", "கன்னியாகுமரி", "ராமேஸ்வரம்",
+                         "காரைக்குடி", "சிவகங்கை", "விருதுநகர்", "சிவகாசி", "திண்டுக்கல்", "கொடைக்கானல்", "கும்பகோணம்", "மயிலாடுதுறை", "நாகப்பட்டினம்",
+                         "வேளாங்கண்ணி", "திருவண்ணாமலை", "விழுப்புரம்", "கள்ளக்குறிச்சி", "பெரம்பலூர்", "அரியலூர்", "புதுக்கோட்டை", "தருமபுரி",
+                         "கிருஷ்ணகிரி", "ஓசூர்", "தஞ்சாவூர்", "திருவாரூர்", "மதுரை", "சென்னை"]
+OTHER_PLACES += [w for w in SOUTH_AND_OTHER_TOWNS if w not in OTHER_PLACES]
+OTHER_EN += [w for w in ("tiruchendur", "kovilpatti", "nagercoil", "rameswaram", "karaikudi", "sivakasi", "kumbakonam", "tiruvannamalai",
+                         "villupuram", "pudukkottai", "perambalur", "ariyalur") if w not in OTHER_EN]
