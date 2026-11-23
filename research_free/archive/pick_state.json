@@ -93,7 +93,8 @@
    "category": "விபத்து",
    "score": 11.21,
    "power_cut": false,
-   "listed_at": "2026-11-23T12:31:38.896714+05:30"
+   "listed_at": "2026-11-23T12:31:38.896714+05:30",
+   "picked_at": "2026-11-23T12:38:08.362907+05:30"
   },
   "Cb076610": {
    "id": "Cb076610",
@@ -540,8 +541,16 @@
    ],
    "sent": false,
    "deadline": "2026-11-23T13:31:38.896714+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 6 of 1 by insights",
+    "ids": [
+     "C45654f0"
+    ],
+    "at": "2026-11-23T12:38:08.362894+05:30"
+   },
+   "written": [
+    "C45654f0"
+   ]
   }
  },
  "retry": {}
