@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-23T20:27:04.260586+05:30",
+ "last_end": "2026-11-23T22:26:00.961893+05:30",
  "pool": {
   "C1c5af13": {
    "id": "C1c5af13",
@@ -60,69 +60,9 @@
    "score": 9.0,
    "power_cut": false,
    "listed_at": "2026-11-23T12:31:38.896714+05:30"
-  },
-  "C3241f33": {
-   "id": "C3241f33",
-   "url": "https://www.maalaimalar.com/news/tamilnadu/tiruchirappalli-near-husband-murder-case-police-inquiry",
-   "title": "திருச்சியில் தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி",
-   "summary": "குடிபோதையில் தகராறு செய்த கணவரை தலையில் அம்மிக்கல்லை போட்டு மனைவி கொலை செய்த சம்பவம் திருச்சியில் பெரும் பரபரப்பை ஏற்படுத்தி உள்ளது..திருச்சி ஏர்போர்ட் கரிகாலன் அண்ணாநகர் பகுதியை சேர்ந்தவர் செந்தில்குமார் (வயது 49), க...",
-   "source": "மாலைமலர்",
-   "published": "2026-11-23T09:56:54Z",
-   "category": "பொது",
-   "score": 10.0,
-   "power_cut": false,
-   "listed_at": "2026-11-23T16:28:30.841413+05:30",
-   "picked_at": "2026-11-23T16:31:27.689495+05:30",
-   "refused": "not filed: duplicate after write"
-  },
-  "Ca740ae6": {
-   "id": "Ca740ae6",
-   "url": "https://www.dailythanthi.com/news/tamilnadu/pamban-77kg-cannabis-seized-two-arrested",
-   "title": "பாம்பன் அருகே 77 கிலோ கஞ்சா பறிமுதல் - இருவர் கைது",
-   "summary": "ராமநாதபுரம்,ராமநாதபுரம் மாவட்டம் பாம்பன் அருகே இந்திய கடலோர காவல் படையினர் 77 கிலோ கஞ்சாவை பறிமுதல் செய்தனர்..பாம்பன் அருகே படகில் கஞ்சா கடத்துவதாக இந்திய கடலோர காவல் படைக்கு ரகசிய தகவல் கிடைத்தது.",
-   "source": "தினத்தந்தி",
-   "published": "2026-11-23T12:42:01Z",
-   "category": "குற்றம்",
-   "score": 12.5,
-   "power_cut": false,
-   "listed_at": "2026-11-23T20:27:04.260586+05:30",
-   "picked_at": "2026-11-23T20:30:07.026964+05:30",
-   "posted": true
-  },
-  "Cbeea5d6": {
-   "id": "Cbeea5d6",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-news/husband-stabs-wife-to-death-arrested/4384336",
-   "title": "தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி கைது",
-   "summary": "திருச்சி: திருச்சியில், செந்தில்குமார், 49, என்பவர் தலையில் அம்மிக்கல்லை போட்டு கொன்ற, அவரது மனைவி கலாராணி, 44, என்பவரை போலீசார் கைது செய்தனர்.",
-   "source": "தினமலர்",
-   "published": "2026-11-23T19:27:02+05:30",
-   "category": "குற்றம்",
-   "score": 12.5,
-   "power_cut": false,
-   "listed_at": "2026-11-23T20:27:04.260586+05:30",
-   "picked_at": "2026-11-23T20:30:07.026967+05:30",
-   "posted": true
   }
  },
  "rounds": {
-  "2026-11-21_12": {
-   "window": [
-    "2026-11-21T08:50:38.505122+05:30",
-    "2026-11-21T12:39:29.812250+05:30"
-   ],
-   "ids": [
-    "C1f4c953",
-    "C7d7d371"
-   ],
-   "sent": false,
-   "deadline": "2026-11-21T13:39:29.812250+05:30",
-   "decided": {
-    "how": "automatic: top 6 of 0 by insights",
-    "ids": [],
-    "at": "2026-11-21T12:42:14.779460+05:30"
-   },
-   "written": []
-  },
   "2026-11-21_16": {
    "window": [
     "2026-11-21T12:39:29.812250+05:30",
@@ -546,7 +486,39 @@
     "Ca740ae6",
     "Cbeea5d6"
    ]
+  },
+  "2026-11-23_22": {
+   "window": [
+    "2026-11-23T20:27:04.260586+05:30",
+    "2026-11-23T22:26:00.961893+05:30"
+   ],
+   "ids": [
+    "C1c5af13",
+    "C830e3ec",
+    "C5d8787f",
+    "C2d0242d",
+    "Cb076610"
+   ],
+   "sent": false,
+   "deadline": "2026-11-23T23:26:00.961893+05:30",
+   "decided": null,
+   "written": []
   }
  },
- "retry": {}
+ "retry": {
+  "https://tamil.news18.com/tamil-nadu/wife-kills-husband-with-grinding-stone-in-trichy-nw-kpk-ws-l-2260399.html": {
+   "it": {
+    "key": "CBMirgFBVV95cUxOcXRURFo2TFVxbnNBVkd6cG9GY3BpclgteWJLU2tVMEdHVHlsRjNxOURNS1UwZ0hmX214Tm9UaVJMNXJQZHo2OWcxVmtXcUxTUUR6V00zeVZTazB3Z191RHhfb3V0clFNR09YRDFUdG5CRFBtdWF4d3M5NnNwQy1ZY19lVjJLR213S0NkSVNBM1dKOEJPUF9MMVhleHBTN2Y2ZVppQjNJUDJMY014eXc",
+    "url": "https://tamil.news18.com/tamil-nadu/wife-kills-husband-with-grinding-stone-in-trichy-nw-kpk-ws-l-2260399.html",
+    "title": "மதுபோதையில் தகராறு: கணவனுக்கு மனைவி செய்த கொடூரம்.. திருச்சியில் பகீர் சம்பவம்!",
+    "site": "https://tamil.news18.com",
+    "source": "News18 Tamil",
+    "published": "2026-11-23T20:48:00+05:30",
+    "via": "google",
+    "query": "திருச்சி",
+    "snippet": " மதுபோதையில் தகராறு: கணவனுக்கு மனைவி செய்த கொடூரம்.. திருச்சியில் பகீர் சம்பவம்!    News18 Tamil "
+   },
+   "first": "2026-11-23T22:26:00.961893+05:30"
+  }
+ }
 }
