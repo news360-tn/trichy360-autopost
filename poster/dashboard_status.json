@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-23T00:27:17+00:00",
+ "updated": "2026-11-23T00:39:54+00:00",
  "day": "2026-11-23",
- "ready": 3,
+ "ready": 2,
  "pages": {
   "trichy": {
    "label": "திருச்சி 360",
@@ -34,6 +34,13 @@
       "link": "https://www.instagram.com/reel/DgEE8FdBJgg/",
       "at": "2026-11-23T00:20:23+00:00",
       "kind": "reel"
+     },
+     {
+      "id": "RN-127",
+      "head": "திருச்சியில் விபத்தில் இளைஞர் பலி",
+      "link": "https://www.instagram.com/reel/DgEGcqFyoT_/",
+      "at": "2026-11-23T00:33:05+00:00",
+      "kind": "reel"
      }
     ],
     "paused": "",
@@ -41,7 +48,7 @@
    },
    "facebook": {
     "posted": 0,
-    "waiting": 3,
+    "waiting": 4,
     "share": [],
     "paused": ""
    },
