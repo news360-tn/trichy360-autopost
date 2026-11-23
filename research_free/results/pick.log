@@ -1,20 +1,14 @@
-03:37:56 round 2026-11-24_03: news published 24 Nov 00:10 -> 24 Nov 03:37 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி - Trichy)
-03:37:56 insights 2026-11-24T03:37+05:30 (129 reels): topic weights {'accident': 0.72, 'crime': 1.5, 'power_cut': 0.07, 'civic': 0.15, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.2}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-03:38:24 open search 'திருச்சி' (from_google): 0 links from our outlets
-03:38:24 37 links on the two papers' Trichy pages
-03:39:27 skipped: already posted=16, published before this window=11, not Trichy district=7, same event already posted=2, could not open (403 Client Error: Forbidden for url: https://tamil)=1
-03:39:27 list: 0 new + 4 earlier news not posted yet
-03:39:27    1. [விபத்து] திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல (தினத்தந்தி) (earlier)
-03:39:27    2. [விபத்து] திருச்சி விபத்தில் உயிரிழந்தவர்களுக்கு பிரதமர் மோடி இரங்கல்; உயிரிழந்த (மாலைமலர்) (earlier)
-03:39:27    3. [விபத்து] திருச்சியில் சாலை விபத்தில் 8 பேர் பலி - முதலமைச்சர் விஜய் இரங்கல் (மாலைமலர்) (earlier)
-03:39:27    4. [பொது] முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்! (தினகரன்) (earlier)
-03:39:27 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-24_03
-03:39:29    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல
-03:39:29    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சி விபத்தில் உயிரிழந்தவர்களுக்கு பிரதமர் மோடி இரங்கல்; உயிரிழந்த
-03:39:29    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சியில் சாலை விபத்தில் 8 பேர் பலி - முதலமைச்சர் விஜய் இரங்கல்
-03:39:29    not picked automatically (suicide / obituary - only when the owner ticks it): முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்!
-03:39:29 round 2026-11-24_03 (at least 3, up to 3 more of well-watched topics): 0 news to choose from (0 from earlier rounds), ranked by this page's insights
-03:39:29 decided: automatic: top 3 of 0 by insights -> 0 news to write and post
-PICK_URLS=
-03:39:35 verify 2026-11-24_03: 0 of 0 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+04:31:02 round 2026-11-24_04: news published 24 Nov 03:37 -> 24 Nov 04:31 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி - Trichy)
+04:31:02 insights 2026-11-24T04:31+05:30 (129 reels): topic weights {'accident': 0.75, 'crime': 1.5, 'power_cut': 0.09, 'civic': 0.18, 'education': -0.5, 'politics': -0.26, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.2}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+04:31:53 open search from_google 'திருச்சி' failed: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?
+04:31:53 open search 'திருச்சி' (from_bing): 0 links from our outlets
+04:31:53 36 links on the two papers' Trichy pages
+04:32:50 skipped: already posted=14, published before this window=11, not Trichy district=6, same event already posted=3, could not open (403 Client Error: Forbidden for url: https://tamil)=1
+04:32:50 list: 1 new + 4 earlier news not posted yet
+04:32:50    1. [குற்றம்] திருச்சி விமான நிலையத்தில் தங்கம் பறிமுதல்: இருவா் கைது (தினமணி)
+04:32:50    2. [விபத்து] திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல (தினத்தந்தி) (earlier)
+04:32:50    3. [விபத்து] திருச்சி விபத்தில் உயிரிழந்தவர்களுக்கு பிரதமர் மோடி இரங்கல்; உயிரிழந்த (மாலைமலர்) (earlier)
+04:32:50    4. [விபத்து] திருச்சியில் சாலை விபத்தில் 8 பேர் பலி - முதலமைச்சர் விஜய் இரங்கல் (மாலைமலர்) (earlier)
+04:32:50    5. [பொது] முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்! (தினகரன்) (earlier)
+04:32:50 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-24_04
