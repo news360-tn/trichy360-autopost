@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-23T08:26+05:30",
- "posts_measured": 121,
+ "updated": "2026-11-23T12:31+05:30",
+ "posts_measured": 123,
  "topic_weight": {
-  "accident": 0.61,
+  "accident": 1.21,
   "crime": 1.5,
-  "power_cut": 0.08,
-  "civic": 0.04,
+  "power_cut": 0.1,
+  "civic": 0.17,
   "education": -0.5,
-  "politics": -0.04,
+  "politics": -0.02,
   "weather": -0.5,
   "temple": -0.5,
-  "poultry_agri": -0.02
+  "poultry_agri": -0.18
  },
  "topic_n": {
-  "accident": 13,
+  "accident": 14,
   "crime": 26,
   "power_cut": 7,
   "civic": 5,
@@ -22,7 +22,7 @@
   "sports_culture": 2,
   "weather": 3,
   "temple": 10,
-  "poultry_agri": 5
+  "poultry_agri": 6
  },
  "best_hours_ist": [
   2,
@@ -36,11 +36,11 @@
   "🚨 திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது",
   "🚨 சமயபுரம் அருகே கொடூர விபத்து: கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி"
  ],
- "avg_watch_s": 7.7,
+ "avg_watch_s": 7.8,
  "best_topics": [
   "crime",
   "accident",
-  "power_cut"
+  "civic"
  ],
  "weak_topics": [
   "education",
