@@ -83,6 +83,21 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-23 | `b196f88` | YouTube: daily cap 30 (uploads have their own 100-a-day allowance) |
+| 2026-11-23 | `2adae84` | facebook RN-130 |
+| 2026-11-23 | `b2598b4` | posted RN-130 |
+| 2026-11-23 | `ceb1c12` | goldrate posted |
+| 2026-11-23 | `3d3842f` | pick: picked news saved |
+| 2026-11-23 | `a6b0c0e` | stories shared / Instagram pause |
+| 2026-11-23 | `5b5b576` | stories shared / Instagram pause |
+| 2026-11-23 | `48a61cb` | pick: picked news saved |
+| 2026-11-23 | `087390e` | pick: list sent |
+| 2026-11-23 | `e90d066` | stories shared / Instagram pause |
+| 2026-11-23 | `cd973e3` | stories shared / Instagram pause |
+| 2026-11-23 | `1e6a9ea` | stories shared / Instagram pause |
+| 2026-11-23 | `e8fa9a6` | facebook RN-115 |
+| 2026-11-23 | `005e0b4` | posted RN-115 |
+| 2026-11-23 | `a8a6be3` | stories shared / Instagram pause |
 | 2026-11-23 | `08f7b55` | Yesterday's pending news (held only by the daily maximum) is offered again; common place words (நகரம், ரோடு, நிலையம் ...) no longer hold a news; Indian number grouping (29,86,950) is understood |
 | 2026-11-23 | `281bba4` | stories shared / Instagram pause |
 | 2026-11-23 | `3bf1c84` | stories shared / Instagram pause |
@@ -98,19 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-23 | `4cd68bf` | stories shared / Instagram pause |
 | 2026-11-23 | `dda28da` | stories shared / Instagram pause |
 | 2026-11-23 | `40035dc` | stories shared / Instagram pause |
-| 2026-11-23 | `b1f41e3` | stories shared / Instagram pause |
-| 2026-11-23 | `209e8cb` | stories shared / Instagram pause |
-| 2026-11-23 | `4ba09cd` | stories shared / Instagram pause |
-| 2026-11-23 | `ab7e403` | powercut: notices written |
-| 2026-11-23 | `670a354` | stories shared / Instagram pause |
-| 2026-11-23 | `f0ee8d2` | stories shared / Instagram pause |
-| 2026-11-23 | `f68da1f` | powercut: notices written |
-| 2026-11-23 | `ed07c78` | stories shared / Instagram pause |
-| 2026-11-23 | `8172e9e` | stories shared / Instagram pause |
-| 2026-11-23 | `0ce1a32` | stories shared / Instagram pause |
-| 2026-11-23 | `ef4981d` | stories shared / Instagram pause |
-| 2026-11-23 | `fe39b05` | stories shared / Instagram pause |
-| 2026-11-23 | `4695b90` | stories shared / Instagram pause |
-| 2026-11-23 | `7f73cfd` | facebook RN-129 |
-| 2026-11-23 | `eeb80ec` | posted RN-129 |
 <!-- recent-changes:end -->
