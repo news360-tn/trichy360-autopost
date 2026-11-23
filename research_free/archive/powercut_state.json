@@ -541,7 +541,7 @@
    "title": "தூங்கிய டிரைவர் மீது பால் வேன் ஏறி பலி"
   },
   "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/21/power-outage-in-kallakudi-areas-tomorrow": {
-   "at": "2026-11-23T13:22:18.384987+05:30",
+   "at": "2026-11-23T13:50:28.712267+05:30",
    "power_cut": true,
    "why": "",
    "title": "கல்லக்குடி பகுதிகளில் நாளை மின்தடை"
@@ -767,6 +767,24 @@
    "power_cut": false,
    "why": "not a power cut",
    "title": "திருச்சி: விபத்தில் இளைஞர் பலி!"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/pudukottai/2026/Nov/22/power-outage-in-vadakadu-area-tomorrow-4": {
+   "at": "2026-11-23T13:50:28.712267+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "வடகாடு பகுதியில் நாளை மின்தடை"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/10/%E0%AE%A4%E0%AF%81%E0%AE%B1%E0%AF%88%E0%AE%AF%E0%AF%82%E0%AE%BE%E0%AF%8D-%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%A4%E0%AE%BF%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%87%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81-%E0%AE%A8%E0%AE%B511-%E0%AE%AE%E0%AE%BF%E0%AE%A9%E0%AF%8D%E0%AE%A4%E0%AE%9F%E0%AF%88": {
+   "at": "2026-11-23T13:50:28.712267+05:30",
+   "power_cut": true,
+   "why": "cut day 2026-11-11 has passed",
+   "title": "துறையூா் பகுதியில் இன்று (நவ.11) மின்தடை"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-salem/5-trapped-in-electric-lift-at-collector-s-office/4374572": {
+   "at": "2026-11-23T13:50:28.712267+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "கலெக்டர் ஆபீசில் மின்தடை லிப்டில் சிக்கி 5 பேர் தவிப்பு"
   }
  },
  "done": {
