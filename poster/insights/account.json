@@ -102,5 +102,31 @@
     "Singapore, Singapore": 15
    }
   }
+ },
+ "2026-11-24": {
+  "trichy": {
+   "reach": 32054,
+   "reach_by_follow_type": {
+    "FOLLOWER": 1202,
+    "NON_FOLLOWER": 30791
+   },
+   "follower_cities": {
+    "Tiruchirappalli, Tamil Nadu": 881,
+    "Chennai, Tamil Nadu": 127,
+    "Kulittalai, Tamil Nadu": 104,
+    "Musiri, Tamil Nadu": 46,
+    "Lalgudi, Tamil Nadu": 45,
+    "Tuticorin, Tamil Nadu": 39,
+    "Madurai, Tamil Nadu": 35,
+    "Manapparai, Tamil Nadu": 29,
+    "Karur, Tamil Nadu": 27,
+    "Mannachanallur, Tamil Nadu": 24,
+    "Coimbatore, Tamil Nadu": 23,
+    "Turaiyur, Tamil Nadu": 23,
+    "Tiruchengodu, Tamil Nadu": 21,
+    "Salem, Tamil Nadu": 18,
+    "Kumbakonam, Tamil Nadu": 18
+   }
+  }
  }
 }
