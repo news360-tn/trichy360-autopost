@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:39:54+00:00",
+ "updated": "2026-11-23T00:47:35+00:00",
  "day": "2026-11-23",
  "ready": 2,
  "pages": {
@@ -48,7 +48,7 @@
    },
    "facebook": {
     "posted": 0,
-    "waiting": 4,
+    "waiting": 3,
     "share": [],
     "paused": ""
    },
