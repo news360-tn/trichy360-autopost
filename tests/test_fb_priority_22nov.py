@@ -41,7 +41,7 @@ class FacebookPriority(unittest.TestCase):
         self.assertEqual(facebook.next_waiting("x")["story"], "RN-4")
 
     def test_day_full_is_a_hard_limit(self):
-        with mock.patch.object(facebook, "posted_last_day", side_effect=lambda pg, k: 15 if k == "reel" else 0), \
+        with mock.patch.object(facebook, "news_posted_today", return_value=15), \
                 mock.patch.object(facebook, "TOP_PER_DAY", 15), mock.patch.object(facebook, "paused", return_value=""), \
                 mock.patch.object(facebook, "top_news", return_value=(True, "")):
             self.assertTrue(facebook.day_full("x"))
@@ -52,6 +52,17 @@ class FacebookPriority(unittest.TestCase):
         self.assertIn('FB_GAP_MIN: "60"', wf)
         self.assertIn('FB_TOP_PER_DAY: "15"', wf)
         self.assertEqual(wf.count("FB_TOP_PER_DAY"), 1)
+
+
+class FifteenPerCalendarDay(unittest.TestCase):
+    def test_yesterday_and_daily_posts_do_not_count(self):
+        d = Path(tempfile.mkdtemp())
+        with mock.patch.object(facebook, "STATE", d), mock.patch.object(facebook, "_now", return_value=NOW):      # 11:30 IST
+            facebook._save("x", "RN-1", "reel", {"status": "posted", "posted_at": "2026-11-22T05:00:00+00:00"})      # today 10:30 IST
+            facebook._save("x", "RN-2", "reel", {"status": "posted", "posted_at": "2026-11-21T17:00:00+00:00"})      # yesterday 22:30 IST
+            facebook._save("x", "rasipalan-2026-11-22", "reel", {"status": "posted", "posted_at": "2026-11-22T01:00:00+00:00"})
+            facebook._save("x", "goldrate-reel-2026-11-22", "reel", {"status": "posted", "posted_at": "2026-11-22T04:00:00+00:00"})
+            self.assertEqual(facebook.news_posted_today("x"), 1)
 
 
 class AfterFifteenToEmail(unittest.TestCase):

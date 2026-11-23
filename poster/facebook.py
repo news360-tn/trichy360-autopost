@@ -143,9 +143,27 @@ def top_news(rank):
     return False, f"not a top news on this page's insights ({rank.get('topic')} {rank.get('weight')})"
 
 
+def news_posted_today(page, now=None):
+    """owner 23 Nov: Facebook NEWS posts of TODAY (IST calendar day) - yesterday evening's posts and the daily rasipalan / gold rate
+    do not use one of the day's 15"""
+    ist = dt.timezone(dt.timedelta(hours=5, minutes=30))
+    today = (now or _now()).astimezone(ist).date()
+    n = 0
+    for f in STATE.glob(f"{page}-*.json") if STATE.exists() else []:
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+            sid = str(d.get("story") or f.name)
+            if d.get("status") == "posted" and not sid.startswith(("rasipalan", "goldrate")) and \
+                    dt.datetime.fromisoformat(d.get("posted_at", "")).astimezone(ist).date() == today:
+                n += 1
+        except Exception:
+            pass
+    return n
+
+
 def day_full(page):
-    """owner 22 Nov: this page has posted its TOP_PER_DAY Facebook news in the last 24 hours"""
-    return posted_last_day(page, "reel") + posted_last_day(page, "photos") >= TOP_PER_DAY
+    """owner 22 Nov: this page has posted its TOP_PER_DAY Facebook news TODAY (owner 23 Nov: the calendar day, not the last 24 hours)"""
+    return news_posted_today(page) >= TOP_PER_DAY
 
 
 def gate(page, rank, always=False):

@@ -205,6 +205,8 @@ def check_article(it, recent):
         return None, "not Trichy district"
     if allnews.other_district(title):
         return None, "other district"
+    if allnews.outside_district(title):      # owner 23 Nov: state-wide news ("11 மாவட்டங்களுக்கு மழை") was picked as ours
+        return None, "state-wide / other district"
     # 1 Nov: a Dinamalar page of another district / state section (puducherry, tamil-nadu-news, premium-news ...) is taken only when
     # its headline or first lines name a Trichy-district place ("போதையில் தகராறு 18 பேர்" was Puducherry news)
     if "dinamalar.com" in it["url"] and "district-news-trichirappalli" not in it["url"] \
