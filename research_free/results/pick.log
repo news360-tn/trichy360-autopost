@@ -1,32 +1,15 @@
-12:31:38 round 2026-11-23_12: news published 23 Nov 08:26 -> 23 Nov 12:31 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-12:31:38 insights 2026-11-23T12:31+05:30 (123 reels): topic weights {'accident': 1.21, 'crime': 1.5, 'power_cut': 0.1, 'civic': 0.17, 'education': -0.5, 'politics': -0.02, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.18}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-12:34:06 67 links on the two papers' Trichy pages
-12:38:06 skipped: not Trichy district=33, already posted=17, published before this window=11, same event already posted=1, no title=1
-12:38:06 list: 3 new + 3 earlier news not posted yet
-12:38:06    1. [விபத்து] திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல (தினத்தந்தி)
-12:38:06    2. [விபத்து] திண்டிவனம் அருகே ஆம்னி பேருந்து வேன் மீது மோதி விபத்து: 2 பேர் உயிரி*ப (தினகரன்)
-12:38:06    3. [பொது] முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்! (தினகரன்)
-12:38:06    4. [விபத்து] 8 உயிரை காவு வாங்கிய கோர விபத்து.. காதணி விழாவுக்கு சென்ற போது நிகழ்ந் (ஒன்இந்தியா) (earlier)
-12:38:06    5. [விபத்து] திருச்சி விபத்தில் உயிரிழந்தவர்களுக்கு பிரதமர் மோடி இரங்கல்; உயிரிழந்த (மாலைமலர்) (earlier)
-12:38:06    6. [விபத்து] திருச்சியில் சாலை விபத்தில் 8 பேர் பலி - முதலமைச்சர் விஜய் இரங்கல் (மாலைமலர்) (earlier)
-12:38:06 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-23_12
-12:38:08    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல
-12:38:08    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சி விபத்தில் உயிரிழந்தவர்களுக்கு பிரதமர் மோடி இரங்கல்; உயிரிழந்த
-12:38:08    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சியில் சாலை விபத்தில் 8 பேர் பலி - முதலமைச்சர் விஜய் இரங்கல்
-12:38:08    not picked automatically (suicide / obituary - only when the owner ticks it): 8 உயிரை காவு வாங்கிய கோர விபத்து.. காதணி விழாவுக்கு சென்ற போது நிகழ்ந்
-12:38:08    not picked automatically (suicide / obituary - only when the owner ticks it): முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்!
-12:38:08 round 2026-11-23_12 (at least 6, up to 3 more of well-watched topics): 1 news to choose from (0 from earlier rounds), ranked by this page's insights
-12:38:08   PICK   1.  14.8 [accident +1.21 page] திண்டிவனம் அருகே ஆம்னி பேருந்து வேன் மீது மோதி விபத்து: 2 பே
-12:38:08 decided: automatic: top 6 of 1 by insights -> 1 news to write and post
-PICK_URLS=https://www.dinakaran.com/news/omni-bus-van-collide-tindivanam-2-dead
-12:42:30 1 listed news now in the Sheet
-12:42:39 instagram duplicate check trichy: 50 recent posts read
-12:42:39 verify 2026-11-23_12: 0 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-12:42:39    NOT POSTED C45654f0: queued RN-129 (Queued) - திண்டிவனம் அருகே ஆம்னி பேருந்து வேன் மீது மோதி விபத்து: 2 பே
-12:47:45 instagram duplicate check trichy: 50 recent posts read
-12:47:45 verify 2026-11-23_12: 0 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-12:47:45    NOT POSTED C45654f0: queued RN-129 (Queued) - திண்டிவனம் அருகே ஆம்னி பேருந்து வேன் மீது மோதி விபத்து: 2 பே
-12:52:52 instagram duplicate check trichy: 50 recent posts read
-12:52:52 verify 2026-11-23_12: 0 of 1 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-12:52:52    SKIPPED C45654f0: skipped RN-129: already on Instagram (2026-11-23T07:22:41+0000) - திண்டிவனம் அருகே ஆம்னி பேருந்து வேன் மீது மோதி விபத்து: 2 பே
+16:28:30 round 2026-11-23_16: news published 23 Nov 12:31 -> 23 Nov 16:28 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+16:28:30 insights 2026-11-23T16:28+05:30 (125 reels): topic weights {'accident': 0.75, 'crime': 1.5, 'power_cut': 0.12, 'civic': 0.19, 'education': -0.5, 'politics': 0.0, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.16}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+16:30:21 70 links on the two papers' Trichy pages
+16:31:25 skipped: not Trichy district=37, already posted=16, published before this window=11, same event already posted=1, no title=1
+16:31:25 list: 3 new + 5 earlier news not posted yet
+16:31:25    1. [குற்றம்] குடும்பப் பிரச்சினை: தூங்கிக்கொண்டிருந்த கணவனின் தலையில் அம்மிக்கல்லை  (தினத்தந்தி)
+16:31:25    2. [பொது] திருச்சியில் தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி (மாலைமலர்)
+16:31:25    3. [பொது] பெருவளை வாய்க்காலில் தண்ணீர் திறக்கக் கோரி விவசாயிகள் போராட்டம்: கண்கள (தினகரன்)
+16:31:25    4. [விபத்து] 8 உயிரை காவு வாங்கிய கோர விபத்து.. காதணி விழாவுக்கு சென்ற போது நிகழ்ந் (ஒன்இந்தியா) (earlier)
+16:31:25    5. [விபத்து] திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல (தினத்தந்தி) (earlier)
+16:31:25    6. [விபத்து] திருச்சி விபத்தில் உயிரிழந்தவர்களுக்கு பிரதமர் மோடி இரங்கல்; உயிரிழந்த (மாலைமலர்) (earlier)
+16:31:25    7. [விபத்து] திருச்சியில் சாலை விபத்தில் 8 பேர் பலி - முதலமைச்சர் விஜய் இரங்கல் (மாலைமலர்) (earlier)
+16:31:25    8. [பொது] முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்! (தினகரன்) (earlier)
+16:31:25 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-23_16
