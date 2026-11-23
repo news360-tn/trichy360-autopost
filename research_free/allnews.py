@@ -156,7 +156,7 @@ def local_ok(url, title):
 
 def other_district(title):
     """headline names another district / town / the whole state and no Trichy-district place"""
-    t = _no_city_roads(title)
+    t = re.sub(r"பழனி\s*ச?சாமி", " ", _no_city_roads(title))      # owner 23 Nov: Palaniswami is a person (EPS, K.C. Palaniswami), not the town Palani
     low = t.lower()
     return not has_place(t) and (any(f in t for w in OTHER_PLACES for f in _forms(w)) or any(w in t for w in STATE_WIDE)
                                  or any(re.search(r"\b" + w + r"\b", low) for w in OTHER_EN))
@@ -621,3 +621,16 @@ SOUTH_AND_OTHER_TOWNS = ["திருச்செந்தூர்", "தூ�
 OTHER_PLACES += [w for w in SOUTH_AND_OTHER_TOWNS if w not in OTHER_PLACES]
 OTHER_EN += [w for w in ("tiruchendur", "kovilpatti", "nagercoil", "rameswaram", "karaikudi", "sivakasi", "kumbakonam", "tiruvannamalai",
                          "villupuram", "pudukkottai", "perambalur", "ariyalur", "tindivanam", "gingee", "chidambaram", "neyveli", "panruti", "vriddhachalam", "chengalpattu", "ambur", "vaniyambadi") if w not in OTHER_EN]
+
+# owner 23 Nov: the main towns of the 7 neighbouring districts we cover (Pugalur news - Karur district - went out on Salem 360). A headline
+# that names one of these and no place of this page's district is another page's news. This page's own towns are left out (has_place).
+NEIGHBOUR_TOWNS = ["நாமக்கல்", "ராசிபுரம்", "திருச்செங்கோடு", "குமாரபாளையம்", "பள்ளிப்பாளையம்", "பரமத்தி வேலூர்", "மோகனூர்", "சேந்தமங்கலம்",
+                   "கொல்லிமலை", "எலச்சிபாளையம்", "வெண்ணந்தூர்", "நாமகிரிப்பேட்டை", "மல்லசமுத்திரம்",
+                   "சேலம்", "ஆத்தூர்", "மேட்டூர்", "ஓமலூர்", "சங்ககிரி", "வாழப்பாடி", "தாரமங்கலம்", "ஏற்காடு", "கெங்கவல்லி", "தலைவாசல்", "பனமரத்துப்பட்டி",
+                   "ஈரோடு", "கோபிசெட்டிபாளையம்", "சத்தியமங்கலம்", "அந்தியூர்", "பெருந்துறை", "சென்னிமலை", "கொடுமுடி", "தாளவாடி", "பவானிசாகர்", "மொடக்குறிச்சி",
+                   "கரூர்", "குளித்தலை", "அரவக்குறிச்சி", "கிருஷ்ணராயபுரம்", "புகழூர்", "புகளூர்", "தவிட்டுப்பாளையம்", "வேலாயுதம்பாளையம்", "பள்ளப்பட்டி",
+                   "மாயனூர்", "தோகைமலை", "லாலாபேட்டை",
+                   "திருப்பூர்", "அவிநாசி", "பல்லடம்", "உடுமலை", "தாராபுரம்", "காங்கேயம்", "வெள்ளக்கோவில்", "மடத்துக்குளம்", "ஊத்துக்குளி",
+                   "கோவை", "கோயம்புத்தூர்", "பொள்ளாச்சி", "மேட்டுப்பாளையம்", "சூலூர்", "அன்னூர்", "வால்பாறை", "கிணத்துக்கடவு", "காரமடை",
+                   "திருச்சி", "திருச்சிராப்பள்ளி", "ஸ்ரீரங்கம்", "மணப்பாறை", "துறையூர்", "முசிறி", "லால்குடி", "மண்ணச்சநல்லூர்", "தொட்டியம்", "சமயபுரம்", "திருவெறும்பூர்"]
+OTHER_PLACES += [w for w in NEIGHBOUR_TOWNS if w not in OTHER_PLACES and not has_place(w)]

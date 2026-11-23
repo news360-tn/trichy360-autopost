@@ -286,6 +286,22 @@ def owner_picked(row):
     return any("C" + hashlib.sha1(x.encode()).hexdigest()[:7] in _PICKED for x in forms)
 
 
+def picked_wrong_district(row):
+    """owner 23 Nov: a picked news (the automatic round pick or the owner's tick) skips the freshness / duplicate checks, but NEVER the
+    district check - news of another district picked before a filter fix went out (Rasipuram and Kallakurichi news on Salem 360)"""
+    head = row.get("headline_ta") or ""
+    if not head:
+        return ""
+    try:
+        sys.path.insert(0, str(ROOT / "research_free"))
+        import allnews
+        if allnews.other_district(head):
+            return "not this district's news (the headline names another district / town)"
+    except Exception:
+        return ""
+    return ""
+
+
 def _skip_reason_base(row):
     """'' = fine to post. Otherwise why this story must not go out: its announced date has passed (power cut, job fair, 'today' news ...),
     or the same news was already posted under another story id."""
@@ -300,7 +316,7 @@ def _skip_reason_base(row):
     if link_hold(row):      # owner 21 Nov: every news only with its source link (an owner pick too - add the link to post it)
         return link_hold(row)
     if owner_picked(row):
-        return ""
+        return picked_wrong_district(row)      # owner 23 Nov: the district check is never skipped
     f = filed_at(row)
     same_day = bool(f and f.date() == datetime.now(IST).date())      # filed today: it goes out today, whatever the clock says
     nd = freshness.news_date(row.get("published"), row.get("source"), f)
@@ -620,7 +636,8 @@ SOURCE_NAMES = [("dinamalar.com", "தினமலர்"), ("dinamani.com", "�
                 ("sunnews.in", "சன் நியூஸ்"), ("news7tamil.live", "நியூஸ்7 தமிழ்"), ("kalaignarseithigal.com", "கலைஞர் செய்திகள்"),
                 ("thehindu.com", "The Hindu"), ("timesofindia", "Times of India"), ("dtnext.in", "DT Next"),
                 ("newindianexpress.com", "The New Indian Express"),
-                ("abplive.com", "ABP நாடு"), ("samayam.com", "சமயம் தமிழ்"),      # owner 13 Nov: the state-wide power-cut lists
+                ("abplive.com", "ABP நாடு"), ("samayam.com", "சமயம் தமிழ்"),
+                ("thanthitv.com", "தந்தி டிவி"), ("tamil.indianexpress.com", "இந்தியன் எக்ஸ்பிரஸ் தமிழ்"),      # owner 23 Nov: new outlets      # owner 13 Nov: the state-wide power-cut lists
                 ("tnebltd", "மின்வாரியம்"), ("tangedco", "மின்வாரியம்"), ("tnpdcl", "மின்வாரியம்")]
 
 

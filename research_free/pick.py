@@ -48,7 +48,12 @@ DRY = os.environ.get("PICK_DRY", "") in ("1", "true", "yes")
 EMAIL = os.environ.get("PICK_EMAIL", "0") == "1"
 # owner 2 Nov: more than two papers - every Tamil outlet the collector already trusts for Trichy
 OUTLETS = {"tamil.oneindia.com": "ஒன்இந்தியா", "dinamalar.com": "தினமலர்", "dinamani.com": "தினமணி", "dinakaran.com": "தினகரன்", "dailythanthi.com": "தினத்தந்தி",
-           "maalaimalar.com": "மாலைமலர்", "hindutamil.in": "இந்து தமிழ்", "polimernews.com": "பாலிமர்"}
+           "maalaimalar.com": "மாலைமலர்", "hindutamil.in": "இந்து தமிழ்", "polimernews.com": "பாலிமர்",
+           # owner 23 Nov: more trusted Tamil outlets - important district news (a petrol-bunk murder, a child killed by wasps, a new
+           # Trichy-Malaysia flight) came only from these; found by ONE open Google News search a round (OPEN_OUTLETS), not one search each
+           "vikatan.com": "விகடன்", "tamil.abplive.com": "ஏபிபி நாடு", "tamil.news18.com": "நியூஸ்18 தமிழ்",
+           "tamil.indianexpress.com": "இந்தியன் எக்ஸ்பிரஸ் தமிழ்", "puthiyathalaimurai.com": "புதிய தலைமுறை", "thanthitv.com": "தந்தி டிவி"}
+OPEN_OUTLETS = ("vikatan.com", "tamil.abplive.com", "tamil.news18.com", "tamil.indianexpress.com", "puthiyathalaimurai.com", "thanthitv.com")
 
 
 def log(*a):
@@ -142,7 +147,7 @@ def candidates(log_lines, since=None):
     both = (allnews.from_google, allnews.from_bing)
     searches = [(q, d, both) for q in ("திருச்சி", "திருச்சிராப்பள்ளி", "மணப்பாறை", "ஸ்ரீரங்கம்") for d in ("dinamalar.com", "dinamani.com")]
     # owner 2 Nov: the other Tamil outlets - one Google search each (a round must stay a few minutes, not half an hour)
-    searches += [("திருச்சி", d, (allnews.from_google,)) for d in OUTLETS if d not in ("dinamalar.com", "dinamani.com")]
+    searches += [("திருச்சி", d, (allnews.from_google,)) for d in OUTLETS if d not in ("dinamalar.com", "dinamani.com") and d not in OPEN_OUTLETS]
     for q, dom, fns in searches:
         if True:
             for fn in fns:
@@ -160,6 +165,17 @@ def candidates(log_lines, since=None):
                             items += sorted(got, key=lambda x: str(x.get("published") or ""), reverse=True)[:25]
                         except Exception as e2:
                             log_lines.append(f"from_bing {dom} '{q}' failed too: {str(e2)[:80]}")
+    # owner 23 Nov: one open Google News search for the whole district (every outlet), kept only for our trusted Tamil outlets - the
+    # district pages miss news (Dinakaran's Trichy page still showed 19 Nov news on 23 Nov) and the new outlets have no district page
+    for fn in (allnews.from_google, allnews.from_bing):
+        try:
+            got = [x for x in fn("திருச்சி") if any(d in (x.get("site", "") + " " + x.get("url", "")) for d in OUTLETS)
+                   and not (since and when(x.get("published")) and when(x.get("published")) < since)]
+            items += sorted(got, key=lambda x: str(x.get("published") or ""), reverse=True)[:40]
+            log_lines.append(f"open search 'திருச்சி' ({fn.__name__}): {len(got)} links from our outlets")
+            break      # Google answered - Bing only when Google is busy
+        except Exception as e:
+            log_lines.append(f"open search {fn.__name__} 'திருச்சி' failed: {str(e)[:80]}")
     seen, out = set(), []
     for it in items:
         u = it["url"]
