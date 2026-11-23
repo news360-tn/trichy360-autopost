@@ -83,6 +83,10 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-23 | `08e3989` | Posting: next reel about 5 minutes after the last (5-minute gap kept); a temporary Instagram error waits 10 minutes, then posts (no manual e-mail for it) |
+| 2026-11-23 | `ccfb8b5` | stories shared / Instagram pause |
+| 2026-11-23 | `db64698` | stories shared / Instagram pause |
+| 2026-11-23 | `9b8fcc5` | stories shared / Instagram pause |
 | 2026-11-23 | `4459710` | District filter: Tindivanam, Gingee, Chidambaram, Neyveli and nearby towns are other-district news |
 | 2026-11-23 | `9b02fa8` | stories shared / Instagram pause |
 | 2026-11-23 | `4944739` | pick: written and posted |
@@ -109,8 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-23 | `3bf1c84` | stories shared / Instagram pause |
 | 2026-11-23 | `ce61a35` | stories shared / Instagram pause |
 | 2026-11-23 | `86e87a2` | stories shared / Instagram pause |
-| 2026-11-23 | `b41a4b3` | stories shared / Instagram pause |
-| 2026-11-23 | `178c689` | stories shared / Instagram pause |
-| 2026-11-23 | `4fb3a98` | stories shared / Instagram pause |
-| 2026-11-23 | `2192475` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
