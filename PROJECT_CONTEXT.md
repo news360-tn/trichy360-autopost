@@ -83,6 +83,14 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-23 | `a4c2a5f` | Facebook 15 a day counts today's news only (not the last 24 h, not rasipalan / gold); picking rejects state-wide news; Thiruparankundram is outside |
+| 2026-11-23 | `46ff845` | stories shared / Instagram pause |
+| 2026-11-23 | `c3e6054` | pick: picked news saved |
+| 2026-11-23 | `071297c` | pick: list sent |
+| 2026-11-23 | `49098ea` | stories shared / Instagram pause |
+| 2026-11-23 | `4fe62fc` | stories shared / Instagram pause |
+| 2026-11-23 | `884557b` | stories shared / Instagram pause |
+| 2026-11-23 | `d5ecb95` | stories shared / Instagram pause |
 | 2026-11-23 | `975e081` | District filter: towns of other Tamil Nadu districts (Tiruchendur, Thoothukudi, Kovilpatti ...) are not our news |
 | 2026-11-23 | `1216e39` | stories shared / Instagram pause |
 | 2026-11-23 | `77176f8` | stories shared / Instagram pause |
@@ -105,12 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-23 | `78a1fd4` | stories shared / Instagram pause |
 | 2026-11-23 | `4d2482b` | stories shared / Instagram pause |
 | 2026-11-23 | `5fdf583` | goldrate posted |
-| 2026-11-23 | `e6f1504` | stories shared / Instagram pause |
-| 2026-11-23 | `fe1f97e` | stories shared / Instagram pause |
-| 2026-11-23 | `3610379` | stories shared / Instagram pause |
-| 2026-11-23 | `b15c548` | stories shared / Instagram pause |
-| 2026-11-23 | `fe6907d` | stories shared / Instagram pause |
-| 2026-11-23 | `0e6bf94` | stories shared / Instagram pause |
-| 2026-11-23 | `f6fe9c2` | stories shared / Instagram pause |
-| 2026-11-23 | `8b2215c` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
