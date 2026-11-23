@@ -1,37 +1,37 @@
-01:13:42 SKIP RN-4 stale: published 12 Nov, older than yesterday
-01:13:42 SKIP RN-19 stale: published 14 Nov, older than yesterday
-01:13:42 SKIP RN-22 stale: published 14 Nov, older than yesterday
-01:13:42 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-01:13:42 SKIP RN-29 stale: published 14 Nov, older than yesterday
-01:13:42 SKIP RN-42 stale: published 16 Nov, older than yesterday
-01:13:42 SKIP RN-45 stale: published 16 Nov, older than yesterday
-01:13:42 SKIP RN-71 stale: published 18 Nov, older than yesterday
-01:13:42 SKIP RN-92 stale: published 20 Nov, older than yesterday
-01:13:42 SKIP RN-108 stale: published 21 Nov, older than yesterday
-01:13:42 SKIP RN-109 stale: published 21 Nov, older than yesterday
-01:13:42 SKIP RN-110 stale: published 21 Nov, older than yesterday
-01:13:42 SKIP RN-111 published before yesterday - only today's and yesterday's pending news is posted
-01:13:42 SKIP RN-112 published before yesterday - only today's and yesterday's pending news is posted
-01:13:42 SKIP RN-113 not this district's news (the headline names another district / town)
-01:13:42 SKIP RN-114 published before yesterday - only today's and yesterday's pending news is posted
-01:13:42 SKIP RN-116 held: fact-check problems - numbers not found in the article: 45
-01:13:42 story catch-up off (test run or post_stories false)
-01:13:42 17 stories in the queue, ready to post: 0
-01:13:42   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-01:13:42    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 258.0 ready= False set_started= True
-01:13:42    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 227.2 ready= False set_started= True
-01:13:42    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 223.5 ready= False set_started= True
-01:13:42    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 223.5 ready= False set_started= True
-01:13:42    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 219.5 ready= False set_started= True
-01:13:42    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 187.3 ready= False set_started= True
-01:13:42    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 187.3 ready= False set_started= True
-01:13:42    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 137.8 ready= False set_started= True
-01:13:42    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 92.7 ready= False set_started= True
-01:13:42    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 64.3 ready= False set_started= True
-01:13:42    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 64.3 ready= False set_started= True
-01:13:42    RN-110 review= 'Auto' images= 197 spec= 662 pages= ['trichy'] links= '' '' age_h= 56.6 ready= False set_started= True
-01:13:42    RN-111 review= 'Auto' images= 197 spec= 733 pages= ['trichy'] links= '' '' age_h= 52.6 ready= False set_started= True
-01:13:42    RN-112 review= 'Auto' images= 99 spec= 503 pages= ['trichy'] links= '' '' age_h= 49.9 ready= False set_started= True
-01:13:42    RN-113 review= 'Auto' images= 197 spec= 685 pages= ['trichy'] links= '' '' age_h= 47.0 ready= False set_started= True
-01:13:42    RN-114 review= 'Auto' images= 197 spec= 817 pages= ['trichy'] links= '' '' age_h= 47.0 ready= False set_started= True
-01:13:42    RN-116 review= 'Auto' images= 197 spec= 670 pages= ['trichy'] links= '' '' age_h= 47.0 ready= False set_started= True
+01:21:20 SKIP RN-4 stale: published 12 Nov, older than yesterday
+01:21:20 SKIP RN-19 stale: published 14 Nov, older than yesterday
+01:21:20 SKIP RN-22 stale: published 14 Nov, older than yesterday
+01:21:20 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+01:21:20 SKIP RN-29 stale: published 14 Nov, older than yesterday
+01:21:20 SKIP RN-42 stale: published 16 Nov, older than yesterday
+01:21:20 SKIP RN-45 stale: published 16 Nov, older than yesterday
+01:21:20 SKIP RN-71 stale: published 18 Nov, older than yesterday
+01:21:20 SKIP RN-92 stale: published 20 Nov, older than yesterday
+01:21:20 SKIP RN-108 stale: published 21 Nov, older than yesterday
+01:21:20 SKIP RN-109 stale: published 21 Nov, older than yesterday
+01:21:20 SKIP RN-110 stale: published 21 Nov, older than yesterday
+01:21:20 SKIP RN-111 published before yesterday - only today's and yesterday's pending news is posted
+01:21:20 SKIP RN-112 published before yesterday - only today's and yesterday's pending news is posted
+01:21:20 SKIP RN-113 not this district's news (the headline names another district / town)
+01:21:20 SKIP RN-114 published before yesterday - only today's and yesterday's pending news is posted
+01:21:21 SKIP RN-116 held: fact-check problems - numbers not found in the article: 45
+01:21:21 story catch-up off (test run or post_stories false)
+01:21:21 17 stories in the queue, ready to post: 0
+01:21:21   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+01:21:21    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 258.1 ready= False set_started= True
+01:21:21    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 227.4 ready= False set_started= True
+01:21:21    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 223.7 ready= False set_started= True
+01:21:21    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 223.7 ready= False set_started= True
+01:21:21    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 219.6 ready= False set_started= True
+01:21:21    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 187.5 ready= False set_started= True
+01:21:21    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 187.5 ready= False set_started= True
+01:21:21    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 137.9 ready= False set_started= True
+01:21:21    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 92.8 ready= False set_started= True
+01:21:21    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 64.4 ready= False set_started= True
+01:21:21    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 64.4 ready= False set_started= True
+01:21:21    RN-110 review= 'Auto' images= 197 spec= 662 pages= ['trichy'] links= '' '' age_h= 56.7 ready= False set_started= True
+01:21:21    RN-111 review= 'Auto' images= 197 spec= 733 pages= ['trichy'] links= '' '' age_h= 52.7 ready= False set_started= True
+01:21:21    RN-112 review= 'Auto' images= 99 spec= 503 pages= ['trichy'] links= '' '' age_h= 50.0 ready= False set_started= True
+01:21:21    RN-113 review= 'Auto' images= 197 spec= 685 pages= ['trichy'] links= '' '' age_h= 47.2 ready= False set_started= True
+01:21:21    RN-114 review= 'Auto' images= 197 spec= 817 pages= ['trichy'] links= '' '' age_h= 47.2 ready= False set_started= True
+01:21:21    RN-116 review= 'Auto' images= 197 spec= 670 pages= ['trichy'] links= '' '' age_h= 47.2 ready= False set_started= True
