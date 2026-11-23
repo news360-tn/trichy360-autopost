@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T02:52:23+00:00",
+ "updated": "2026-11-23T02:59:23+00:00",
  "day": "2026-11-23",
  "ready": 2,
  "pages": {
@@ -48,8 +48,15 @@
    },
    "facebook": {
     "posted": 0,
-    "waiting": 2,
-    "share": [],
+    "waiting": 1,
+    "share": [
+     {
+      "id": "RN-126",
+      "head": "🌉 துறையூர் அருகே ஆற்றைக் கடக்க புதிய பாலம் அமைக்கக் கோரிக்கை",
+      "link": "https://www.instagram.com/reel/DgECJo9hKOM/",
+      "emailed": "2026-11-23T02:59:17+00:00"
+     }
+    ],
     "paused": ""
    },
    "manual_post": [],
