@@ -1,104 +1,93 @@
-writing [N]: அந்த ஒரு வளைவில் வேன் கட்டுப்பாட்டை இழந்தது எப்படி? திருச்சி
+writing [N]: திண்டிவனம் அருகே ஆம்னி பேருந்து வேன் மீது மோதி விபத்து: 2 பே
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-ok gemini/gemini-3.6-flash (31s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  caption misses facts of the article (put every one in 📰 முழு விவரம்): 10 ('இந்த விழாவில் கலந்து கொள்வதற்காக இவர்கள் 10 பேரும் ஒரு ஆம்னி'); 4 ('விழா முடிந்ததும், நேற்று மாலை சுமார் 4 மணியளவில் அனைவரும் அத')
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+ok gemini/gemini-3.5-flash (36s)
+attempt 1 gemini/gemini-3.5-flash: 1 problems
+  sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok gemini/gemini-3.6-flash (31s)
-attempt 2 gemini/gemini-3.6-flash: 2 problems
-  sentence 1 (one-line story) has 14 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
-  caption misses facts of the article (put every one in 📰 முழு விவரம்): 50 ('உயிரிழந்தவர்களின் குடும்பத்தினருக்குப் பிரதமரின் தேசிய நிவார')
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-ok gemini/gemini-3.5-flash (19s)
-attempt 3 gemini/gemini-3.5-flash: 1 problems
-  hl1 is 46 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.5-flash
-ok gemini/gemini-3-flash-preview (12s)
-attempt 4 gemini/gemini-3-flash-preview: 2 problems
-  caption needs 5 hashtags (Instagram max), has 6
-  caption misses facts of the article (put every one in 📰 முழு விவரம்): 50 ('உயிரிழந்தவர்களின் குடும்பத்தினருக்குப் பிரதமரின் தேசிய நிவார')
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing 
+ok gemini/gemini-3-flash-preview (13s)
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, plea
 dead for this round: gemini/gemini-3-flash-preview
+ok groq/openai/gpt-oss-120b (4s)
+factcheck by groq/openai/gpt-oss-120b: 5 problems
+  Reel script adds a time claim “இன்று அதிகாலை” not stated in the article
+  Reel script attributes the cause to “கட்டுப்பாட்டை இழந்த பேருந்து”, which the article does not mention
+  Slides_spec headline hl1 uses the phrase “கோர் விபத்து”, a term not found in the article
+  Caption includes a specific incident date “23 நவம்பர் 2026”, which is not provided in the article
+  Slide text adds “விசாரணை” (investigation) by police, a detail not mentioned in the article
+attempt 2 gemini/gemini-3-flash-preview: 5 problems
+  fact-check: Reel script adds a time claim “இன்று அதிகாலை” not stated in the article
+  fact-check: Reel script attributes the cause to “கட்டுப்பாட்டை இழந்த பேருந்து”, which the article does not mention
+  fact-check: Slides_spec headline hl1 uses the phrase “கோர் விபத்து”, a term not found in the article
+  fact-check: Caption includes a specific incident date “23 நவம்பர் 2026”, which is not provided in the article
+  fact-check: Slide text adds “விசாரணை” (investigation) by police, a detail not mentioned in the article
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+ok groq/qwen/qwen3.8-27b (4s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-ok anthropic/claude-haiku-5-5
-claude rewrite 1 anthropic/claude-haiku-5-5: 1 problems
-  caption misses facts of the article (put every one in 📰 முழு விவரம்): 10 ('இந்த விழாவில் கலந்து கொள்வதற்காக இவர்கள் 10 பேரும் ஒரு ஆம்னி'); 5 ('இந்தக் கோர விபத்தில் வேன் ஓட்டுநர் ராஜேஷ், மாணிக்கம், முருகன'); 3 ('ஆனால், அங்கு சிகிச்சை பலனின்றி சக்திவேல், சுப்ரமணி மற்றும் ச')
-ok anthropic/claude-haiku-5-5
+ok groq/openai/gpt-oss-120b (3s)
+factcheck by groq/openai/gpt-oss-120b: 0 problems
+attempt 3 groq/qwen/qwen3.8-27b: 0 problems
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok groq/openai/gpt-oss-120b (6s)
-factcheck by groq/openai/gpt-oss-120b: 3 problems
-  Reel script omits President Droupadi Murmu's condolence statement from article
-  Reel script omits Chief Minister Vijay's order for high‑quality treatment of the injured
-  Reel script does not mention that the bodies of the deceased were sent for post‑mortem examination
-claude rewrite 2 anthropic/claude-haiku-5-5: 3 problems
-  fact-check: Reel script omits President Droupadi Murmu's condolence statement from article
-  fact-check: Reel script omits Chief Minister Vijay's order for high‑quality treatment of the injured
-  fact-check: Reel script does not mention that the bodies of the deceased were sent for post‑mortem examination
-ok anthropic/claude-haiku-5-5
-claude rewrite 3 anthropic/claude-haiku-5-5: 4 problems
-  reel_script has 183 words; need 100-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
-  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
-  hl1 (the first headline on screen) must name the place 'ஜம்புநாதபுரம்', e.g. 'ஜம்புநாதபுரம்: ...' or 'ஜம்புநாதபுரம்-இல் ...' - viewers share news of their own area
-  caption misses facts of the article (put every one in 📰 முழு விவரம்): 10 ('இந்த விழாவில் கலந்து கொள்வதற்காக இவர்கள் 10 பேரும் ஒரு ஆம்னி'); 5 ('இந்தக் கோர விபத்தில் வேன் ஓட்டுநர் ராஜேஷ், மாணிக்கம், முருகன'); 3 ('ஆனால், அங்கு சிகிச்சை பலனின்றி சக்திவேல், சுப்ரமணி மற்றும் ச'); 50 ('உயிரிழந்தவர்களின் குடும்பத்தினருக்குப் பிரதமரின் தேசிய நிவார')
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok groq/openai/gpt-oss-120b (6s)
-proofread rejected (3 problems)
-  missing key: reel_script
-  missing key: caption
-  missing key: scenes
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 switching away from groq/openai/gpt-oss-120b for 10 min
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+proofread skipped: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7a2whq2ef48ntxcv5v5635b` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1709. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
 ok anthropic/claude-haiku-5-5
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-real photo used (1192x667, sharpness 70.6, The photograph shows the exact accident scene described in t): https://imagesvs.oneindia.com/ta/img/2026/11/screenshot7616-64461795397285.jpg
-real photo used (1192x667, sharpness 70.2, The photograph accurately depicts the scene of the accident ): https://imagesvs.oneindia.com/webp/ta/img/2026/11/screenshot7616-64461795397285.jpg
-real photos used for '8 workers killed as van hits tree on Thu' (Oneindia Tamil)
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261123-0833","first":"RN-128"}
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+real photo: vision check unavailable: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:ge
+real photo: vision check out of free quota
+image match: False The photo shows a bus and a motorcycle rather than a van, and the image is AI-generated as evidenced by distorted detail
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match: False The image shows a close-up of a damaged vehicle cab and sacks on the ground, but there is no bus, van, or evidence of a 
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 2 for '2 dead as bus crashes into van near Tind'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261123-1242","first":"RN-129"}
 posting job started at once
 earlier stories still waiting for images: []
 instagram check: 50 recent posts read from the page
 pick round: only the picked links are written (research_free/pick.py)
-manual link added: https://tamil.oneindia.com/news/trichirappalli/trichy-horror-8-brick-furnacd-workers-killed-after-omni-van-rams-into-roadside-tree-847473.html
+manual link added: https://www.dinakaran.com/news/omni-bus-van-collide-tindivanam-2-dead
 candidate filter: collected=1
 to write: 1 Trichy district candidates (max 1 stories)
 round: top 1 of 1 candidates
 candidates waiting: 1 Trichy; time left 79 min
-try (N) manual=True: https://tamil.oneindia.com/news/trichirappalli/trichy-horror
-real photo from the source (Oneindia Tamil) for '8 workers killed as van hits tree on Thu'
-auto images: 1 of 1 stories ({})
+try (N) manual=True: https://www.dinakaran.com/news/omni-bus-van-collide-tindivan
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})
 posting job started at once
-candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 76 min
+candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 75 min
 filed: 1 Trichy district stories (target 1), reels only
 queue: 0 news waiting to be written
 All News sheet: {"ok":true,"added":1,"updated":0} 
