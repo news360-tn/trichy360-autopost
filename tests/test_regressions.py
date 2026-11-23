@@ -1069,7 +1069,8 @@ class FacebookEverything2Nov(unittest.TestCase):
         import facebook
         self.fb = facebook
         self.tmp = tempfile.mkdtemp()
-        self.old = (facebook.STATE, dict(os.environ))
+        self.old = (facebook.STATE, dict(os.environ), facebook.FB_STORIES)
+        facebook.FB_STORIES = True      # stories are off for the owner (23 Nov); this checks the mechanism
         facebook.STATE = Path(self.tmp)
         os.environ.update(FB_PAGE_ID_TRICHY="111", FB_TOKEN_TRICHY="tok")
         os.environ.pop("FB_PAGE_ID_NAMAKKAL", None)      # a page with no secrets
@@ -1077,6 +1078,7 @@ class FacebookEverything2Nov(unittest.TestCase):
 
     def tearDown(self):
         self.fb.STATE = self.old[0]
+        self.fb.FB_STORIES = self.old[2]
         os.environ.clear(); os.environ.update(self.old[1])
 
     PAGE_NAME = "trichy"

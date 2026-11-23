@@ -1761,7 +1761,7 @@ def ig_pause_file(page):
 
 PAUSE_WHY = {"block": "Instagram blocked publishing", "create": "Instagram's limit on new posts (too many made in 24 h)",
              "rate": "Instagram asked to slow down (too many requests)",
-             "retry": "Instagram had a temporary error - posting again after 10 minutes"}
+             "retry": "Instagram had a temporary error - posting again after 5 minutes"}
 
 
 def ig_pause_kind(page):
@@ -2410,7 +2410,7 @@ def run_story_page(row, page):
                 LIMIT[PAGE] = True
                 log("LIMIT: Instagram post limit hit while posting carousel", sid, "- waits, not a failure")
             elif is_transient(e):
-                log("TEMPORARY Instagram problem while posting carousel", sid, "- posted again after 10 minutes, not a failure:", str(e)[:200])
+                log("TEMPORARY Instagram problem while posting carousel", sid, "- posted again after 5 minutes, not a failure:", str(e)[:200])
                 ig_pause(PAGE, e, "retry")
             else:
                 log("ERROR carousel", sid, e)
@@ -2459,7 +2459,7 @@ def run_story_page(row, page):
                 LIMIT[PAGE] = True
                 log("LIMIT: Instagram post limit hit while posting reel", sid, "- waits, not a failure")
             elif is_transient(e):
-                log("TEMPORARY Instagram problem while posting reel", sid, "- posted again after 10 minutes, not a failure:", str(e)[:200])
+                log("TEMPORARY Instagram problem while posting reel", sid, "- posted again after 5 minutes, not a failure:", str(e)[:200])
                 ig_pause(PAGE, e, "retry")      # owner 23 Nov: a temporary error waits 10 minutes, then the news posts
             else:
                 log("ERROR reel", sid, e)

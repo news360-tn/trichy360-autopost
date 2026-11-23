@@ -143,7 +143,9 @@
     "sarvam_reasoning": "low"
   },
   "story_reserve": 20,
-  "post_stories": true,
+  "post_stories": false,
+  "post_stories_note": "owner 23 Nov: reels only - no Instagram or Facebook stories (the owner posts important ones by hand)",
+  "ig_retry_wait_min": 5,
   "stories_urgent_only": true,
   "stories_urgent_only_note": "owner 21 Nov (Instagram-safe): the story share only for power cuts / urgent news again, as Kovai and Chennai Minnal do - a story for every news took pages to 48/50 of Instagram's daily posts (blocks come near the limit) and doubled the Cloudinary downloads. false = every news gets its story",
   "reel_style": "A",

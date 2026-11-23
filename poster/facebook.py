@@ -55,6 +55,9 @@ def creds(page):
     return (pid, tok) if pid and tok else None
 
 
+FB_STORIES = os.environ.get("FB_STORIES", "0") == "1"      # owner 23 Nov: no Facebook stories (the owner posts important ones by hand)
+
+
 def _now():
     return dt.datetime.now(dt.timezone.utc)
 
@@ -390,6 +393,7 @@ def source_comment(page_id, tok, obj, kind, caption, link, comment=""):
 
 
 def _attempt(page, sid, kind, media, caption, prev, story=True, link="", comment=""):
+    story = story and FB_STORIES      # owner 23 Nov: reels only - no Facebook story
     src = link
     pid, tok = creds(page)
     tries = int(prev.get("tries", 0)) + 1

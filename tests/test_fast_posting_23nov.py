@@ -20,7 +20,7 @@ class FastPosting(unittest.TestCase):
             self.assertIn("temporary", post.ig_paused("x"))
             until = datetime.fromisoformat(__import__("json").loads((d / "_ig_paused_x.json").read_text())["until"])
             left = (until - datetime.now(timezone.utc)).total_seconds() / 60
-            self.assertTrue(9 <= left <= 10.1, left)
+            self.assertTrue(4 <= left <= 10.1, left)      # owner 23 Nov: 5 minutes (config ig_retry_wait_min)
             post.ig_pause("x", RuntimeError("blocked"), "block")      # a block is longer and replaces it
             self.assertEqual(post.ig_pause_kind("x"), "block")
             post.ig_pause("x", RuntimeError("500 again"), "retry")      # never shortens the block
