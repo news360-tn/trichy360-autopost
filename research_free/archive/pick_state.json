@@ -1,40 +1,6 @@
 {
- "last_end": "2026-11-23T16:28:30.841413+05:30",
+ "last_end": "2026-11-23T20:27:04.260586+05:30",
  "pool": {
-  "Cff2ab8a": {
-   "id": "Cff2ab8a",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/5-killed-as-omni-van-hits-tree-near-musiri/4383164",
-   "title": "முசிறி அருகே மரம் மீது வேன் மோதல்: 8 பேர் பலி",
-   "summary": "தஞ்சாவூர் மாவட்டம், திருக்காட்டுப்பள்ளியை சேர்ந்த மாணிக்கம், முருகன், சங்கிலி, ராஜேஷ், சக்திவேல், சுப்பிரமணியன் உட்பட 10 பேர் செங்கல் சூளையில் பணியாற்றுகின்றனர்.",
-   "source": "தினமலர்",
-   "published": "2026-11-22T17:10:00+05:30",
-   "category": "விபத்து",
-   "score": 12.5,
-   "power_cut": false,
-   "alts": [
-    "https://www.dinamalar.com/news/tamil-nadu-news/5-killed-as-omni-van-hits-tree-near-musiri/4383164"
-   ],
-   "listed_at": "2026-11-22T20:19:33.583398+05:30",
-   "picked_at": "2026-11-22T20:22:22.150194+05:30",
-   "refused": "not filed: duplicate after write"
-  },
-  "C234018f": {
-   "id": "C234018f",
-   "url": "https://tamil.oneindia.com/news/trichirappalli/5-died-as-omni-van-rammed-into-a-tree-near-thuraiyur-847409.html",
-   "title": "திருச்சி துறையூர் அருகே ஆம்னி வேன் மரத்தில் மோதி விபத்து! 7 பேர் பலி! மேலும் ஒருவருக்கு சிகிச்சை!",
-   "summary": "திருச்சி: திருச்சி மாவட்டம் முசிறி அருகே தேசிய நெடுஞ்சாலையில் ஆம்னி வேன் மரத்தில் மோதி விபத்துக்குள்ளானதில் 7 பேர் உயிரிழந்த சம்பவம் பெரும் சோகத்தை ஏற்படுத்தியுள்ளது.",
-   "source": "ஒன்இந்தியா + மாலைமலர்",
-   "published": "2026-11-22T18:37:20+05:30",
-   "category": "விபத்து",
-   "score": 12.5,
-   "power_cut": false,
-   "alts": [
-    "https://www.maalaimalar.com/news/tamilnadu/tragic-accident-in-trichy-as-car-crashes-into-a-roadside-tree-8-people-dead"
-   ],
-   "listed_at": "2026-11-22T20:19:33.583398+05:30",
-   "picked_at": "2026-11-22T20:22:22.150196+05:30",
-   "refused": "not filed: duplicate after write"
-  },
   "C1c5af13": {
    "id": "C1c5af13",
    "url": "https://tamil.oneindia.com/news/trichirappalli/trichy-road-accident-claims-eight-lives-pm-modi-announces-rs-2-lakh-aid-847463.html",
@@ -95,20 +61,6 @@
    "power_cut": false,
    "listed_at": "2026-11-23T12:31:38.896714+05:30"
   },
-  "Cc2921f5": {
-   "id": "Cc2921f5",
-   "url": "https://www.dailythanthi.com/news/tamilnadu/family-dispute-woman-kills-sleeping-husband-by-throwing-a-stone-at-his-head",
-   "title": "குடும்பப் பிரச்சினை: தூங்கிக்கொண்டிருந்த கணவனின் தலையில் அம்மிக்கல்லை போட்டு கொலை செய்த பெண்",
-   "summary": "திருச்சி,குடும்பப் பிரச்சினை காரணமாக தூங்கிக்கொண்டிருந்த கணவனின் தலையில் அம்மிக்கல்லை போட்டு மனைவி கொலை செய்த சம்பவம் பரபரப்பை ஏற்படுத்தி உள்ளது.",
-   "source": "தினத்தந்தி",
-   "published": "2026-11-23T09:49:55Z",
-   "category": "குற்றம்",
-   "score": 12.5,
-   "power_cut": false,
-   "listed_at": "2026-11-23T16:28:30.841413+05:30",
-   "picked_at": "2026-11-23T16:31:27.689491+05:30",
-   "posted": true
-  },
   "C3241f33": {
    "id": "C3241f33",
    "url": "https://www.maalaimalar.com/news/tamilnadu/tiruchirappalli-near-husband-murder-case-police-inquiry",
@@ -123,54 +75,32 @@
    "picked_at": "2026-11-23T16:31:27.689495+05:30",
    "refused": "not filed: duplicate after write"
   },
-  "C5bec746": {
-   "id": "C5bec746",
-   "url": "https://www.dinakaran.com/news/peruvala-canal-water-farmers-protest-eye-green-cloth-collector-office/amp",
-   "title": "பெருவளை வாய்க்காலில் தண்ணீர் திறக்கக் கோரி விவசாயிகள் போராட்டம்: கண்களில் பச்சைத் துணியைக் கட்டி ஆட்சியர் அலுவலகத்தில் முற்றுகை!",
-   "summary": "திருச்சி: திருச்சியில் காவிரி ஆற்றின் கிளை வாய்க்காலான பெருவளை வாய்க்காலில் தண்ணீர் திறக்க வலியுறுத்தி, 50-க்கும் மேற்பட்ட விவசாயிகள் மாவட்ட ஆட்சியர் அலுவலகத்தில் கண்களில் பச்சைத் துணியைக் கட்டிக்கொண்டு போராட்டத்தில் ...",
-   "source": "தினகரன்",
-   "published": "2026-11-23T14:39:47+05:30",
-   "category": "பொது",
-   "score": 9.0,
+  "Ca740ae6": {
+   "id": "Ca740ae6",
+   "url": "https://www.dailythanthi.com/news/tamilnadu/pamban-77kg-cannabis-seized-two-arrested",
+   "title": "பாம்பன் அருகே 77 கிலோ கஞ்சா பறிமுதல் - இருவர் கைது",
+   "summary": "ராமநாதபுரம்,ராமநாதபுரம் மாவட்டம் பாம்பன் அருகே இந்திய கடலோர காவல் படையினர் 77 கிலோ கஞ்சாவை பறிமுதல் செய்தனர்..பாம்பன் அருகே படகில் கஞ்சா கடத்துவதாக இந்திய கடலோர காவல் படைக்கு ரகசிய தகவல் கிடைத்தது.",
+   "source": "தினத்தந்தி",
+   "published": "2026-11-23T12:42:01Z",
+   "category": "குற்றம்",
+   "score": 12.5,
    "power_cut": false,
-   "listed_at": "2026-11-23T16:28:30.841413+05:30",
-   "picked_at": "2026-11-23T16:31:27.689498+05:30",
-   "posted": true
+   "listed_at": "2026-11-23T20:27:04.260586+05:30"
+  },
+  "Cbeea5d6": {
+   "id": "Cbeea5d6",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-news/husband-stabs-wife-to-death-arrested/4384336",
+   "title": "தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி கைது",
+   "summary": "திருச்சி: திருச்சியில், செந்தில்குமார், 49, என்பவர் தலையில் அம்மிக்கல்லை போட்டு கொன்ற, அவரது மனைவி கலாராணி, 44, என்பவரை போலீசார் கைது செய்தனர்.",
+   "source": "தினமலர்",
+   "published": "2026-11-23T19:27:02+05:30",
+   "category": "குற்றம்",
+   "score": 12.5,
+   "power_cut": false,
+   "listed_at": "2026-11-23T20:27:04.260586+05:30"
   }
  },
  "rounds": {
-  "2026-11-21_08": {
-   "window": [
-    "2026-11-21T04:26:25.271013+05:30",
-    "2026-11-21T08:50:38.505122+05:30"
-   ],
-   "ids": [
-    "C15ca9cc",
-    "C50888a2",
-    "Cbd3c1d6",
-    "C1f4c953",
-    "C7d7d371"
-   ],
-   "sent": false,
-   "deadline": "2026-11-21T09:50:38.505122+05:30",
-   "decided": {
-    "how": "automatic: top 5 of 3 by insights",
-    "ids": [
-     "C15ca9cc",
-     "C50888a2",
-     "Cbd3c1d6"
-    ],
-    "at": "2026-11-21T08:53:48.998119+05:30"
-   },
-   "written": [
-    "C15ca9cc",
-    "C50888a2",
-    "Cbd3c1d6"
-   ],
-   "refused": {
-    "C50888a2": "not filed: duplicate after write"
-   }
-  },
   "2026-11-21_12": {
    "window": [
     "2026-11-21T08:50:38.505122+05:30",
@@ -583,6 +513,25 @@
    "refused": {
     "C3241f33": "not filed: duplicate after write"
    }
+  },
+  "2026-11-23_20": {
+   "window": [
+    "2026-11-23T16:28:30.841413+05:30",
+    "2026-11-23T20:27:04.260586+05:30"
+   ],
+   "ids": [
+    "Ca740ae6",
+    "Cbeea5d6",
+    "C1c5af13",
+    "C830e3ec",
+    "C5d8787f",
+    "C2d0242d",
+    "Cb076610"
+   ],
+   "sent": false,
+   "deadline": "2026-11-23T21:27:04.260586+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}

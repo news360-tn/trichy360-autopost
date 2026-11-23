@@ -1,56 +1,14 @@
-16:28:30 round 2026-11-23_16: news published 23 Nov 12:31 -> 23 Nov 16:28 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-16:28:30 insights 2026-11-23T16:28+05:30 (125 reels): topic weights {'accident': 0.75, 'crime': 1.5, 'power_cut': 0.12, 'civic': 0.19, 'education': -0.5, 'politics': 0.0, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.16}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-16:30:21 70 links on the two papers' Trichy pages
-16:31:25 skipped: not Trichy district=37, already posted=16, published before this window=11, same event already posted=1, no title=1
-16:31:25 list: 3 new + 5 earlier news not posted yet
-16:31:25    1. [குற்றம்] குடும்பப் பிரச்சினை: தூங்கிக்கொண்டிருந்த கணவனின் தலையில் அம்மிக்கல்லை  (தினத்தந்தி)
-16:31:25    2. [பொது] திருச்சியில் தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி (மாலைமலர்)
-16:31:25    3. [பொது] பெருவளை வாய்க்காலில் தண்ணீர் திறக்கக் கோரி விவசாயிகள் போராட்டம்: கண்கள (தினகரன்)
-16:31:25    4. [விபத்து] 8 உயிரை காவு வாங்கிய கோர விபத்து.. காதணி விழாவுக்கு சென்ற போது நிகழ்ந் (ஒன்இந்தியா) (earlier)
-16:31:25    5. [விபத்து] திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல (தினத்தந்தி) (earlier)
-16:31:25    6. [விபத்து] திருச்சி விபத்தில் உயிரிழந்தவர்களுக்கு பிரதமர் மோடி இரங்கல்; உயிரிழந்த (மாலைமலர்) (earlier)
-16:31:25    7. [விபத்து] திருச்சியில் சாலை விபத்தில் 8 பேர் பலி - முதலமைச்சர் விஜய் இரங்கல் (மாலைமலர்) (earlier)
-16:31:25    8. [பொது] முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்! (தினகரன்) (earlier)
-16:31:25 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-23_16
-16:31:27    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல
-16:31:27    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சி விபத்தில் உயிரிழந்தவர்களுக்கு பிரதமர் மோடி இரங்கல்; உயிரிழந்த
-16:31:27    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சியில் சாலை விபத்தில் 8 பேர் பலி - முதலமைச்சர் விஜய் இரங்கல்
-16:31:27    not picked automatically (suicide / obituary - only when the owner ticks it): 8 உயிரை காவு வாங்கிய கோர விபத்து.. காதணி விழாவுக்கு சென்ற போது நிகழ்ந்
-16:31:27    not picked automatically (suicide / obituary - only when the owner ticks it): முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்!
-16:31:27 round 2026-11-23_16 (at least 6, up to 3 more of well-watched topics): 3 news to choose from (0 from earlier rounds), ranked by this page's insights
-16:31:27   PICK   1.  17.0 [crime +1.50 page] குடும்பப் பிரச்சினை: தூங்கிக்கொண்டிருந்த கணவனின் தலையில் அம்
-16:31:27   PICK   2.  10.0 [other +0.00 pattern] திருச்சியில் தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி
-16:31:27   PICK   3.   9.0 [politics +0.00 page] பெருவளை வாய்க்காலில் தண்ணீர் திறக்கக் கோரி விவசாயிகள் போராட்
-16:31:27 decided: automatic: top 6 of 3 by insights -> 3 news to write and post
-PICK_URLS=https://www.dailythanthi.com/news/tamilnadu/family-dispute-woman-kills-sleeping-husband-by-throwing-a-stone-at-his-head https://www.maalaimalar.com/news/tamilnadu/tiruchirappalli-near-husband-murder-case-police-inquiry https://www.dinakaran.com/news/peruvala-canal-water-farmers-protest-eye-green-cloth-collector-office/amp
-16:38:35 1 picked news refused by the writer - not offered again
-16:38:35 2 listed news now in the Sheet
-16:38:44 instagram duplicate check trichy: 50 recent posts read
-16:38:44 verify 2026-11-23_16: 0 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-16:38:44    SKIPPED C3241f33: skipped: the writer refused it - not filed: duplicate after write - திருச்சியில் தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி
-16:38:44    NOT POSTED C5bec746: queued RN-131 (Queued) - பெருவளை வாய்க்காலில் தண்ணீர் திறக்கக் கோரி விவசாயிகள் போராட்
-16:38:44    NOT POSTED Cc2921f5: queued RN-130 (Queued) - குடும்பப் பிரச்சினை: தூங்கிக்கொண்டிருந்த கணவனின் தலையில் அம்
-16:43:51 instagram duplicate check trichy: 50 recent posts read
-16:43:51 verify 2026-11-23_16: 0 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-16:43:51    SKIPPED C3241f33: skipped: the writer refused it - not filed: duplicate after write - திருச்சியில் தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி
-16:43:51    NOT POSTED C5bec746: queued RN-131 (Queued) - பெருவளை வாய்க்காலில் தண்ணீர் திறக்கக் கோரி விவசாயிகள் போராட்
-16:43:51    NOT POSTED Cc2921f5: queued RN-130 (Queued) - குடும்பப் பிரச்சினை: தூங்கிக்கொண்டிருந்த கணவனின் தலையில் அம்
-16:48:59 instagram duplicate check trichy: 50 recent posts read
-16:48:59 verify 2026-11-23_16: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-16:48:59    SKIPPED C3241f33: skipped: the writer refused it - not filed: duplicate after write - திருச்சியில் தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி
-16:48:59    NOT POSTED C5bec746: queued RN-131 (Queued) - பெருவளை வாய்க்காலில் தண்ணீர் திறக்கக் கோரி விவசாயிகள் போராட்
-16:54:06 instagram duplicate check trichy: 50 recent posts read
-16:54:06 verify 2026-11-23_16: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-16:54:06    SKIPPED C3241f33: skipped: the writer refused it - not filed: duplicate after write - திருச்சியில் தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி
-16:54:06    NOT POSTED C5bec746: queued RN-131 (Queued) - பெருவளை வாய்க்காலில் தண்ணீர் திறக்கக் கோரி விவசாயிகள் போராட்
-16:59:15 instagram duplicate check trichy: 50 recent posts read
-16:59:15 verify 2026-11-23_16: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-16:59:15    SKIPPED C3241f33: skipped: the writer refused it - not filed: duplicate after write - திருச்சியில் தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி
-16:59:15    NOT POSTED C5bec746: queued RN-131 (Queued) - பெருவளை வாய்க்காலில் தண்ணீர் திறக்கக் கோரி விவசாயிகள் போராட்
-17:04:22 instagram duplicate check trichy: 50 recent posts read
-17:04:22 verify 2026-11-23_16: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-17:04:22    SKIPPED C3241f33: skipped: the writer refused it - not filed: duplicate after write - திருச்சியில் தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி
-17:04:22    NOT POSTED C5bec746: queued RN-131 (Queued) - பெருவளை வாய்க்காலில் தண்ணீர் திறக்கக் கோரி விவசாயிகள் போராட்
-17:09:28 verify 2026-11-23_16: 2 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-17:09:28    SKIPPED C3241f33: skipped: the writer refused it - not filed: duplicate after write - திருச்சியில் தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி
+20:27:04 round 2026-11-23_20: news published 23 Nov 16:28 -> 23 Nov 20:27 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+20:27:04 insights 2026-11-23T20:27+05:30 (127 reels): topic weights {'accident': 0.86, 'crime': 1.5, 'power_cut': 0.19, 'civic': 0.27, 'education': -0.5, 'politics': -0.19, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.1}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+20:28:44 63 links on the two papers' Trichy pages
+20:30:05 skipped: not Trichy district=31, already posted=16, published before this window=11, same event already posted=1, no title=1
+20:30:05 list: 2 new + 5 earlier news not posted yet
+20:30:05    1. [குற்றம்] பாம்பன் அருகே 77 கிலோ கஞ்சா பறிமுதல் - இருவர் கைது (தினத்தந்தி)
+20:30:05    2. [குற்றம்] தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி கைது (தினமலர்)
+20:30:05    3. [விபத்து] 8 உயிரை காவு வாங்கிய கோர விபத்து.. காதணி விழாவுக்கு சென்ற போது நிகழ்ந் (ஒன்இந்தியா) (earlier)
+20:30:05    4. [விபத்து] திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல (தினத்தந்தி) (earlier)
+20:30:05    5. [விபத்து] திருச்சி விபத்தில் உயிரிழந்தவர்களுக்கு பிரதமர் மோடி இரங்கல்; உயிரிழந்த (மாலைமலர்) (earlier)
+20:30:05    6. [விபத்து] திருச்சியில் சாலை விபத்தில் 8 பேர் பலி - முதலமைச்சர் விஜய் இரங்கல் (மாலைமலர்) (earlier)
+20:30:05    7. [பொது] முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்! (தினகரன்) (earlier)
+20:30:05 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-23_20
