@@ -1,97 +1,12 @@
 {
- "updated": "2026-11-23T18:29:23+00:00",
- "day": "2026-11-23",
- "ready": 1,
+ "updated": "2026-11-23T18:32:22+00:00",
+ "day": "2026-11-24",
+ "ready": 0,
  "pages": {
   "trichy": {
    "label": "திருச்சி 360",
    "instagram": {
-    "posted": [
-     {
-      "id": "RN-123",
-      "head": "திருச்செந்தூரில் உடைந்த பாதாள சாக்கடை மூடி: விபத்து ஏற்படும் முன் சீரமைக்க மக்கள் கோரிக்கை",
-      "link": "https://www.instagram.com/reel/DgEAfv_B-Sp/",
-      "at": "2026-11-22T23:41:13+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-126",
-      "head": "துறையூர் கண்ணனூர் அய்யம்பாளையத்தில் ஆற்றைக் கடக்க புதிய பாலம் வேண்டும்",
-      "link": "https://www.instagram.com/reel/DgECJo9hKOM/",
-      "at": "2026-11-22T23:55:40+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-125",
-      "head": "குண்டூர் அருகே ஆபத்தான கேபிள் கம்பம்: விபத்து அபாயம்",
-      "link": "https://www.instagram.com/reel/DgEDbCei_oK/",
-      "at": "2026-11-23T00:06:43+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-124",
-      "head": "திருச்சி மேலசிந்தாமணியில் 10 மாதங்களாக கிடப்பில் உள்ள பாலப் பணி: பொதுமக்கள் அவதி",
-      "link": "https://www.instagram.com/reel/DgEE8FdBJgg/",
-      "at": "2026-11-23T00:20:23+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-127",
-      "head": "திருச்சியில் விபத்தில் இளைஞர் பலி",
-      "link": "https://www.instagram.com/reel/DgEGcqFyoT_/",
-      "at": "2026-11-23T00:33:05+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-128",
-      "head": "துறையூர் அருகே வேன் மரத்தில் மோதி 8 தொழிலாளர்கள் பலி",
-      "link": "https://www.instagram.com/reel/DgEZKEXvHxA/",
-      "at": "2026-11-23T03:16:58+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-129",
-      "head": "திண்டிவனம் அருகே பேருந்து-வேன் மோதல்: 2 பேர் உயிரிழப்பு",
-      "link": "https://www.instagram.com/reel/DgE1UwVBzLd/",
-      "at": "2026-11-23T07:22:49+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-115",
-      "head": "பேருந்தில் பெண்ணிடம் 16 பவுன் நகைகள் திருட்டு: 3 பெண்கள் தேடப்படுகின்றனர்",
-      "link": "https://www.instagram.com/reel/DgFLCw2p2Kn/",
-      "at": "2026-11-23T10:32:46+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-130",
-      "head": "திருச்சி விமான நிலையம் அருகே அண்ணா நகரில் கணவனை கொலை செய்த மனைவி கைது",
-      "link": "https://www.instagram.com/reel/DgFQITBqLTN/",
-      "at": "2026-11-23T11:17:29+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-131",
-      "head": "பெருவளை வாய்க்காலில் தண்ணீர் கோரி விவசாயிகள் ஆட்சியர் அலுவலகத்தில் போராட்டம்",
-      "link": "https://www.instagram.com/reel/DgFSJ4Jhum3/",
-      "at": "2026-11-23T11:35:05+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-132",
-      "head": "பாம்பன் அருகே 77 கிலோ கஞ்சா பறிமுதல், இருவர் கைது",
-      "link": "https://www.instagram.com/reel/DgFrKg-zlgM/",
-      "at": "2026-11-23T15:13:37+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-133",
-      "head": "தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி கைது",
-      "link": "https://www.instagram.com/reel/DgFrWLfRPwN/",
-      "at": "2026-11-23T15:15:10+00:00",
-      "kind": "reel"
-     }
-    ],
+    "posted": [],
     "paused": "",
     "quota": ""
    },
@@ -111,12 +26,12 @@
    "manual_post": [],
    "daily": {
     "gold": {
-     "posted": true,
-     "link": "https://www.instagram.com/reel/DgEf8uRxnNn/"
+     "posted": false,
+     "link": ""
     },
     "rasipalan": {
-     "posted": true,
-     "link": "https://www.instagram.com/reel/DgELqKTOmZX/"
+     "posted": false,
+     "link": ""
     }
    },
    "youtube": {
