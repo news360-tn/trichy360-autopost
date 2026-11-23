@@ -83,6 +83,16 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-23 | `b7d4d78` | Reels only: no Instagram or Facebook stories; wait 5 minutes after an error |
+| 2026-11-23 | `faf7c81` | stories shared / Instagram pause |
+| 2026-11-23 | `6ca6181` | stories shared / Instagram pause |
+| 2026-11-23 | `6cd3977` | stories shared / Instagram pause |
+| 2026-11-23 | `109094e` | stories shared / Instagram pause |
+| 2026-11-23 | `7f3b449` | stories shared / Instagram pause |
+| 2026-11-23 | `27b7adb` | stories shared / Instagram pause |
+| 2026-11-23 | `17b0827` | stories shared / Instagram pause |
+| 2026-11-23 | `3c6986c` | stories shared / Instagram pause |
+| 2026-11-23 | `a996bbd` | stories shared / Instagram pause |
 | 2026-11-23 | `08e3989` | Posting: next reel about 5 minutes after the last (5-minute gap kept); a temporary Instagram error waits 10 minutes, then posts (no manual e-mail for it) |
 | 2026-11-23 | `ccfb8b5` | stories shared / Instagram pause |
 | 2026-11-23 | `db64698` | stories shared / Instagram pause |
@@ -103,14 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-23 | `48a61cb` | pick: picked news saved |
 | 2026-11-23 | `087390e` | pick: list sent |
 | 2026-11-23 | `e90d066` | stories shared / Instagram pause |
-| 2026-11-23 | `cd973e3` | stories shared / Instagram pause |
-| 2026-11-23 | `1e6a9ea` | stories shared / Instagram pause |
-| 2026-11-23 | `e8fa9a6` | facebook RN-115 |
-| 2026-11-23 | `005e0b4` | posted RN-115 |
-| 2026-11-23 | `a8a6be3` | stories shared / Instagram pause |
-| 2026-11-23 | `08f7b55` | Yesterday's pending news (held only by the daily maximum) is offered again; common place words (நகரம், ரோடு, நிலையம் ...) no longer hold a news; Indian number grouping (29,86,950) is understood |
-| 2026-11-23 | `281bba4` | stories shared / Instagram pause |
-| 2026-11-23 | `3bf1c84` | stories shared / Instagram pause |
-| 2026-11-23 | `ce61a35` | stories shared / Instagram pause |
-| 2026-11-23 | `86e87a2` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
