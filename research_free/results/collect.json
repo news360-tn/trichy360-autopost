@@ -3,15 +3,16 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/22/திருச்சி-விபத்தில்-இளைஞர்-பலி",
+  "manual link added: https://tamil.oneindia.com/news/trichirappalli/trichy-horror-8-brick-furnacd-workers-killed-after-omni-van-rams-into-roadside-tree-847473.html",
   "candidate filter: collected=1",
   "to write: 1 Trichy district candidates (max 1 stories)",
   "round: top 1 of 1 candidates",
   "candidates waiting: 1 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
+  "try (N) manual=True: https://tamil.oneindia.com/news/trichirappalli/trichy-horror",
+  "real photo from the source (Oneindia Tamil) for '8 workers killed as van hits tree on Thu'",
+  "auto images: 1 of 1 stories ({})",
   "posting job started at once",
-  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 75 min",
+  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 76 min",
   "filed: 1 Trichy district stories (target 1), reels only",
   "queue: 0 news waiting to be written",
   "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
@@ -19,43 +20,36 @@
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3.6-flash (29s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "ok gemini/gemini-3.5-flash (28s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.5-flash (15s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.5-flash (18s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (15s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (11s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (17s)",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "ok gemini/gemini-3.6-flash (31s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
+  "ok gemini/gemini-3.6-flash (31s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
+  "ok gemini/gemini-3.5-flash (19s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
+  "ok gemini/gemini-3-flash-preview (12s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "dead for this round: gemini/gemini-3-flash-preview",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok groq/openai/gpt-oss-120b (2s)",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/openai/gpt-oss-120b (6s)",
+  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok groq/openai/gpt-oss-120b (5s)",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/openai/gpt-oss-120b (6s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
@@ -63,68 +57,74 @@
   "switching away from groq/openai/gpt-oss-120b for 10 min",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok groq/qwen/qwen3.8-27b (1s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
  ],
  "stories": [
   {
-   "tamil_headline": "திருச்சியில் விபத்தில் இளைஞர் பலி",
-   "english_headline": "Youth killed in road accident on Trichy-Thanjavur road",
+   "tamil_headline": "துறையூர் அருகே வேன் மரத்தில் மோதி 8 தொழிலாளர்கள் பலி",
+   "english_headline": "8 workers killed as van hits tree on Thuraiyur-Musiri road in Trichy district",
    "category": "Crime & Safety",
-   "location": "Ariyamangalam, Trichy",
-   "importance": "Medium",
-   "scope": "local",
+   "location": "Jambunathapuram police limits, Kothurpatti four-road junction, Thuraiyur-Musiri road, Trichy district",
+   "importance": "High",
+   "scope": "",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
     "cat": "சாலை விபத்து",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சியில் விபத்தில் இளைஞர் பலி",
-    "hl2": "ஈச்சர் வேன் மோதியது",
+    "loc": "துறையூர் - முசிறி சாலை",
+    "hl1": "துறையூர் அருகே வேன் விபத்தில் 8 பலி",
+    "hl2": "8 தொழிலாளர்கள் உயிரிழப்பு",
     "slides": [
      {
       "title": "என்ன நடந்தது?",
       "lines": [
-       "ஞாயிற்றுக்கிழமை பிற்பகல் சாலை விபத்து",
-       "திருச்சி - தஞ்சாவூர் சாலையில் நடந்தது",
-       "இருசக்கர வாகனம் மீது ஈச்சர் வேன் மோதியது"
+       "துறையூர் - முசிறி சாலையில் ஆம்னி வேன் விபத்து",
+       "சாலையோர வேப்ப மரத்தில் வேன் மோதியது",
+       "<b>8 தொழிலாளர்கள்</b> உயிரிழந்தனர்"
       ]
      },
      {
-      "title": "யார் இவர்?",
+      "title": "எங்கே நடந்தது?",
       "lines": [
-       "அரியமங்கலம் ரயில் நகரைச் சேர்ந்தவர்",
-       "முத்துக்குமார், <b>28 வயது</b>",
-       "இருசக்கர வாகனத்தில் சென்றபோது விபத்து"
+       "கோத்தூர்பட்டி நான்கு சாலை சந்திப்பு அருகே",
+       "ஜம்புநாதபுரம் காவல் நிலைய எல்லைக்குள்",
+       "நாமக்கல்லில் காதணி விழா முடிந்து திரும்பும்போது"
       ]
      },
      {
-      "title": "அடுத்து என்ன?",
+      "title": "எப்படி நடந்தது?",
       "lines": [
-       "கீழே விழுந்தவர் ஈச்சர் வேன் ஏறியதில் உயிரிழந்தார்",
-       "உடல் மீட்கப்பட்டு திருச்சி அரசு மருத்துவமனைக்கு",
-       "ஈச்சர் ஓட்டுநர் மீது வழக்குப் பதிவு செய்து போலீசார் விசாரணை"
+       "திருப்பத்தில் திரும்பியபோது ஓட்டுநர் கட்டுப்பாட்டை இழந்தார்",
+       "வேன் சாலையை விட்டு விலகி மரத்தில் மோதியது",
+       "அதிவேகமே காரணமாக இருக்கலாம் என போலீசார் விசாரணை"
+      ]
+     },
+     {
+      "title": "நிவாரணம்",
+      "lines": [
+       "உயிரிழந்தவர் குடும்பத்துக்கு தலா <b>2 லட்சம் ரூபாய்</b>",
+       "காயமடைந்தவர்களுக்கு தலா <b>50 ஆயிரம் ரூபாய்</b>",
+       "விபத்தில் 2 பேர் திருச்சி மருத்துவமனையில் சிகிச்சை"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சியில் சாலை விபத்தில் இளைஞர் ஒருவர் உயிரிழந்தார். ஞாயிற்றுக்கிழமை பிற்பகல் திருச்சி - தஞ்சாவூர் சாலையில் இந்த விபத்து நடந்தது. அரியமங்கலம் ரயில் நகரைச் சேர்ந்த ராகவன் மகன் முத்துக்குமார், 28 வயது, இருசக்கர வாகனத்தில் சென்றுகொண்டிருந்தார். அப்போது எதிர்த் திசையில் வந்த ஈச்சர் வேன் அவர் மீது மோதியது. கீழே விழுந்த முத்துக்குமார் மீது ஈச்சர் வேன் ஏறியதில் அவர் உயிரிழந்தார். தகவலறிந்து வந்த திருச்சி தெற்கு போக்குவரத்துப் புலனாய்வுப் பிரிவு போலீசார் அவரது உடலை மீட்டு திருச்சி அரசு மருத்துவமனைக்கு அனுப்பினர். ஈச்சர் வேன் ஓட்டுநர் மீது வழக்குப் பதிவு செய்து போலீசார் விசாரணை நடத்தி வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சியில் விபத்தில் இளைஞர் பலி: ஈச்சர் வேன் மோதியது\n\n📰 முழு விவரம்:\nஞாயிற்றுக்கிழமை பிற்பகல் திருச்சி - தஞ்சாவூர் சாலையில் இருசக்கர வாகனத்தில் சென்ற அரியமங்கலம் ரயில் நகரைச் சேர்ந்த முத்துக்குமார் (28 வயது) மீது எதிர்த் திசையில் வந்த ஈச்சர் வேன் மோதியது. கீழே விழுந்த அவர் மீது ஈச்சர் வேன் ஏறியதில் உயிரிழந்தார்.\n👮 நடவடிக்கை: திருச்சி தெற்கு போக்குவரத்துப் புலனாய்வுப் பிரிவு போலீசார் உடலை மீட்டு திருச்சி அரசு மருத்துவமனைக்கு அனுப்பி, ஈச்சர் ஓட்டுநர் மீது வழக்குப் பதிவு செய்து விசாரிக்கின்றனர்.\n\nTrichy road accident youth dies | Trichy news\n📍 திருச்சி மாவட்டம் | 23 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Ariyamangalam",
-   "prompts": "A two-wheeler lies overturned on the asphalt of the Trichy-Thanjavur highway near Ariyamangalam, its front wheel bent and handlebars twisted from the impact. An ice cream van is stopped in the oncoming lane, its side door open, with visible scuff marks on the bumper where it collided with the motorcycle. The road surface shows dark skid marks leading up to the crash site. In the background, the distinct greenery of the Ariyamangalam area lines the roadside, with a few distant buildings visible under the bright afternoon sun. The scene is static, capturing the immediate aftermath of the collision before emergency services fully arrive. The lighting is harsh daylight, casting sharp shadows from the vehicles onto the road. The camera is positioned at eye level, 35mm lens, wide enough to show both the damaged two-wheeler and the van in the same frame, emphasizing the scale of the accident on this busy arterial road. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up view of the damaged front section of the two-wheeler lying on the Trichy-Thanjavur road near Ariyamangalam. The headlight is shattered, and the front fender is crumpled, revealing the internal mechanics. Next to it, the side mirror of the ice cream van is detached and lying on the ground, its plastic casing cracked. The asphalt is stained with dark oil leaks from the motorcycle's engine. In the blurred background, the rear of the ice cream van is visible, with its white body and red stripes. The focus is sharp on the broken parts, highlighting the severity of the impact. The lighting is natural daylight, creating high contrast between the dark road and the white vehicle parts. The camera is slightly high, looking down at the debris, 35mm lens, ensuring the specific damage to the vehicles is the central subject of the image. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/22/திருச்சி-விபத்தில்-இளைஞர்-பலி",
-   "published": "2026-11-22T22:42:00.000Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 0 validator problem(s)",
+   "reel_script": "துறையூர் - முசிறி சாலையில் வேன் மரத்தில் மோதியதில் 8 தொழிலாளர்கள் உயிரிழந்தனர். நேற்று மாலை சுமார் 4 மணிக்கு இந்த விபத்து நடந்தது. தஞ்சாவூர் மாவட்டம் திருக்காட்டுப்பள்ளி பகுதியில் செங்கல் சூளையில் வேலை பார்த்த தொழிலாளர்கள் இந்த வேனில் பயணம் செய்தனர். நாமக்கல் மாவட்டம் எருமப்பட்டியில் ஒரு சக ஊழியரின் வீட்டில் நடந்த காதணி விழாவில் கலந்துகொண்டு திரும்பிக் கொண்டிருந்தனர். ஜம்புநாதபுரம் காவல் நிலைய எல்லைக்குள் கோத்தூர்பட்டி நான்கு சாலை சந்திப்பு அருகே ஒரு திருப்பத்தில் வேன் திரும்ப முயன்றபோது ஓட்டுநர் கட்டுப்பாட்டை இழந்தார். வேன் சாலையை விட்டு விலகி ஓரத்திலிருந்த பெரிய வேப்ப மரத்தில் மோதியது. வேன் ஓட்டுநர் ராஜேஷ், மாணிக்கம், முருகன், சங்கிலி மற்றும் பாவாடை ஆகிய 5 பேர் சம்பவ இடத்திலேயே உயிரிழந்தனர். காயமடைந்த 5 பேர் முசிறி அரசு மருத்துவமனைக்கு அனுப்பப்பட்டனர். அங்கு சக்திவேல், சுப்ரமணி, சீதாராமன் ஆகிய 3 பேர் சிகிச்சை பலனின்றி உயிரிழந்தனர். படுகாயமடைந்த ராமலிங்கம், ராமர் ஆகிய இருவரும் திருச்சி அரசு தலைமை மருத்துவமனையில் சிகிச்சை பெற்று வருகின்றனர். வேனை அதிவேகமாக ஓட்டியதே விபத்துக்குக் காரணம் என முதற்கட்ட விசாரணையில் கூறப்படுகிறது. போலீசார் வழக்குப் பதிவு செய்து விசாரித்து வருகின்றனர். குடியரசுத் தலைவர், பிரதமர் மோடி, முதல்வர் விஜய் ஆகியோர் இரங்கல் தெரிவித்துள்ளனர். உயிரிழந்தவர்களின் குடும்பத்துக்கு பிரதமரின் தேசிய நிவாரண நிதியிலிருந்து தலா 2 லட்சம் ரூபாய் வழங்கப்படும் என பிரதமர் அறிவித்துள்ளார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 துறையூர் - முசிறி சாலையில் வேன் விபத்து: 8 தொழிலாளர்கள் உயிரிழப்பு\n\n📰 முழு விவரம்:\nநாமக்கல் காதணி விழாவுக்குச் சென்று திரும்பிய தஞ்சாவூர் தொழிலாளர்களின் ஆம்னி வேன், துறையூர் - முசிறி சாலையில் சாலையோர வேப்ப மரத்தில் மோதியது. நேற்று மாலை சுமார் 4 மணிக்கு நடந்த இந்த விபத்தில் 8 பேர் உயிரிழந்தனர்.\nதிருப்பத்தில் திரும்பும்போது ஓட்டுநர் கட்டுப்பாட்டை இழந்ததே விபத்துக்குக் காரணம் என முதற்கட்ட விசாரணையில் கூறப்படுகிறது. வேனை அதிவேகமாக ஓட்டியதும் காரணமாக இருக்கலாம்.\nகாயமடைந்த 2 பேர் திருச்சி அரசு தலைமை மருத்துவமனையில் சிகிச்சையில் உள்ளனர்.\n\n📍 இடம்: கோத்தூர்பட்டி நான்கு சாலை சந்திப்பு அருகே, ஜம்புநாதபுரம் காவல் நிலைய எல்லை\n🗓️ நாள்: நேற்று (நவம்பர் 22)\n🕘 நேரம்: மாலை சுமார் 4 மணி\n👮 நடவடிக்கை: ஜம்புநாதபுரம் போலீசார் வழக்குப் பதிவு செய்து தீவிர விசாரணை\n💰 நிவாரணம்: உயிரிழந்தவர் குடும்பத்துக்கு தலா 2 லட்சம் ரூபாய், காயமடைந்தவர்களுக்கு தலா 50 ஆயிரம் ரூபாய் (பிரதமர் அறிவிப்பு)\n\nThuraiyur-Musiri road van accident, 8 killed | Trichy news\n📍 துறையூர் - முசிறி சாலை, திருச்சி மாவட்டம் | 23 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thuraiyur #திருச்சி #TrichyNews",
+   "prompts": "A crumpled white omni van with its front smashed in lies against a large neem tree on the roadside of the Thuraiyur-Musiri highway, while two police personnel in khaki stand at a distance and an ambulance waits on the road. The place is a two-lane rural highway bend in Trichy district, with open fields, a few dusty shoulders and a tarred road stretching away into the distance. Onlookers in shirts and sarees stand far back, seen from behind, and a fire service vehicle is parked near the curve. The mood is sombre; no injured people or bodies are visible. It is mid-afternoon in bright daylight with a clear sky. Shot at eye level or slightly high with a 35 mm lens, wide enough to show the van, the tree and the road bend together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of the damaged front of a white omni van, its crushed bonnet, shattered windshield glass and bent bumper pressed against the trunk of a roadside neem tree at a highway bend. Shards of glass and a few skid marks lie on the dusty tarred road, with a fallen branch nearby. In the soft background, a khaki-clad policeman stands far off, seen from behind, with fields and a rural road under afternoon daylight. The scene is quiet and grim, showing the force of the crash without any people or injuries in focus. Shot at eye level with a 35 mm lens, slightly shallow depth of field so the crumpled metal and tree trunk stay sharp while the distant figures blur. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://tamil.oneindia.com/news/trichirappalli/trichy-horror-8-brick-furnacd-workers-killed-after-omni-van-rams-into-roadside-tree-847473.html",
+   "published": "2026-11-23T06:58:30+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 10 ('இந்த விழாவில் கலந்து கொள்வதற்காக இவர்கள் 10 பேரும் ஒரு ஆம்னி'); 5 ('இந்தக் கோர விபத்தில் வேன் ஓட்டுநர் ராஜேஷ், மாணிக்கம், முருகன'); 3 ('ஆனால், அங்கு சிகிச்சை பலனின்றி சக்திவேல், சுப்ரமணி மற்றும் ச')",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795388861/trichy360/kkedowa3hkqfbj5rcrof.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795388867/trichy360/hmckf475y10x8eudwwjk.jpg"
-   ]
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795403003/trichy360/leddjnfdblvspoilcevz.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795403004/trichy360/kclpcgtgfhc3plqhloxg.jpg"
+   ],
+   "real_photo": "Oneindia Tamil"
   }
  ]
 }
