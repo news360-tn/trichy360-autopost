@@ -83,34 +83,34 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
-| 2026-11-23 | `b7d4d78` | Reels only: no Instagram or Facebook stories; wait 5 minutes after an error |
-| 2026-11-23 | `faf7c81` | stories shared / Instagram pause |
-| 2026-11-23 | `6ca6181` | stories shared / Instagram pause |
-| 2026-11-23 | `6cd3977` | stories shared / Instagram pause |
-| 2026-11-23 | `109094e` | stories shared / Instagram pause |
-| 2026-11-23 | `7f3b449` | stories shared / Instagram pause |
-| 2026-11-23 | `27b7adb` | stories shared / Instagram pause |
-| 2026-11-23 | `17b0827` | stories shared / Instagram pause |
-| 2026-11-23 | `3c6986c` | stories shared / Instagram pause |
-| 2026-11-23 | `a996bbd` | stories shared / Instagram pause |
-| 2026-11-23 | `08e3989` | Posting: next reel about 5 minutes after the last (5-minute gap kept); a temporary Instagram error waits 10 minutes, then posts (no manual e-mail for it) |
-| 2026-11-23 | `ccfb8b5` | stories shared / Instagram pause |
-| 2026-11-23 | `db64698` | stories shared / Instagram pause |
-| 2026-11-23 | `9b8fcc5` | stories shared / Instagram pause |
-| 2026-11-23 | `4459710` | District filter: Tindivanam, Gingee, Chidambaram, Neyveli and nearby towns are other-district news |
-| 2026-11-23 | `9b02fa8` | stories shared / Instagram pause |
-| 2026-11-23 | `4944739` | pick: written and posted |
-| 2026-11-23 | `523bb2a` | facebook RN-131 |
-| 2026-11-23 | `c9e3bb4` | posted RN-131 |
-| 2026-11-23 | `0bc2939` | stories shared / Instagram pause |
-| 2026-11-23 | `b196f88` | YouTube: daily cap 30 (uploads have their own 100-a-day allowance) |
-| 2026-11-23 | `2adae84` | facebook RN-130 |
-| 2026-11-23 | `b2598b4` | posted RN-130 |
-| 2026-11-23 | `ceb1c12` | goldrate posted |
-| 2026-11-23 | `3d3842f` | pick: picked news saved |
-| 2026-11-23 | `a6b0c0e` | stories shared / Instagram pause |
-| 2026-11-23 | `5b5b576` | stories shared / Instagram pause |
-| 2026-11-23 | `48a61cb` | pick: picked news saved |
-| 2026-11-23 | `087390e` | pick: list sent |
-| 2026-11-23 | `e90d066` | stories shared / Instagram pause |
+| 2026-11-23 | `544c947` | pick: written and posted |
+| 2026-11-23 | `f506a56` | District check before every post (picked news too), neighbour-district towns, Facebook 5-minute gap, more Tamil news outlets + one open district search per round |
+| 2026-11-23 | `a08d3e5` | facebook RN-133 |
+| 2026-11-23 | `3bc7238` | posted RN-133 |
+| 2026-11-23 | `87c536e` | facebook RN-132 |
+| 2026-11-23 | `ef813d6` | posted RN-132 |
+| 2026-11-23 | `092f483` | stories shared / Instagram pause |
+| 2026-11-23 | `5b60ffb` | pick: picked news saved |
+| 2026-11-23 | `2453005` | stories shared / Instagram pause |
+| 2026-11-23 | `79793ca` | pick: picked news saved |
+| 2026-11-23 | `dabe32a` | pick: list sent |
+| 2026-11-23 | `c9b5920` | stories shared / Instagram pause |
+| 2026-11-23 | `e1dfaae` | stories shared / Instagram pause |
+| 2026-11-23 | `11d41a7` | stories shared / Instagram pause |
+| 2026-11-23 | `4be0d1b` | stories shared / Instagram pause |
+| 2026-11-23 | `18b471e` | stories shared / Instagram pause |
+| 2026-11-23 | `db037b0` | stories shared / Instagram pause |
+| 2026-11-23 | `825fdb5` | stories shared / Instagram pause |
+| 2026-11-23 | `4ebf377` | stories shared / Instagram pause |
+| 2026-11-23 | `53ee0d0` | stories shared / Instagram pause |
+| 2026-11-23 | `643a896` | stories shared / Instagram pause |
+| 2026-11-23 | `56dd61f` | stories shared / Instagram pause |
+| 2026-11-23 | `6bb7db9` | stories shared / Instagram pause |
+| 2026-11-23 | `ac15301` | stories shared / Instagram pause |
+| 2026-11-23 | `0b28bca` | stories shared / Instagram pause |
+| 2026-11-23 | `ac1b34d` | stories shared / Instagram pause |
+| 2026-11-23 | `342a3df` | stories shared / Instagram pause |
+| 2026-11-23 | `8187e83` | stories shared / Instagram pause |
+| 2026-11-23 | `40b6adf` | stories shared / Instagram pause |
+| 2026-11-23 | `722b7b3` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
