@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-23T00:02:35+00:00",
+ "updated": "2026-11-23T00:13:31+00:00",
  "day": "2026-11-23",
- "ready": 5,
+ "ready": 4,
  "pages": {
   "trichy": {
    "label": "திருச்சி 360",
@@ -20,6 +20,13 @@
       "link": "https://www.instagram.com/reel/DgECJo9hKOM/",
       "at": "2026-11-22T23:55:40+00:00",
       "kind": "reel"
+     },
+     {
+      "id": "RN-125",
+      "head": "குண்டூர் அருகே ஆபத்தான கேபிள் கம்பம்: விபத்து அபாயம்",
+      "link": "https://www.instagram.com/reel/DgEDbCei_oK/",
+      "at": "2026-11-23T00:06:43+00:00",
+      "kind": "reel"
      }
     ],
     "paused": "",
@@ -27,7 +34,7 @@
    },
    "facebook": {
     "posted": 0,
-    "waiting": 1,
+    "waiting": 2,
     "share": [],
     "paused": ""
    },
