@@ -1,18 +1,11 @@
-04:31:45 round 2026-11-23_04: news published 23 Nov 03:25 -> 23 Nov 04:31 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
-04:31:45 insights 2026-11-23T04:31+05:30 (115 reels): topic weights {'accident': 1.5, 'crime': 1.43, 'power_cut': 0.09, 'civic': 0.05, 'education': -0.5, 'politics': -0.04, 'temple': -0.5, 'poultry_agri': -0.02}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-04:32:20 35 links on the two papers' Trichy pages
-04:33:07 skipped: already posted=15, published before this window=11, not Trichy district=5, same event already posted=1
-04:33:07 list: 1 new + 1 earlier news not posted yet
-04:33:07    1. [விபத்து] திருச்சி: விபத்தில் இளைஞர் பலி! (தினமணி)
-04:33:07    2. [விபத்து] 8 உயிரை காவு வாங்கிய கோர விபத்து.. காதணி விழாவுக்கு சென்ற போது நிகழ்ந் (ஒன்இந்தியா) (earlier)
-04:33:07 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-23_04
-04:33:09    not picked automatically (suicide / obituary - only when the owner ticks it): 8 உயிரை காவு வாங்கிய கோர விபத்து.. காதணி விழாவுக்கு சென்ற போது நிகழ்ந்
-04:33:09 round 2026-11-23_04 (at least 7, up to 3 more of well-watched topics): 1 news to choose from (0 from earlier rounds), ranked by this page's insights
-04:33:09   PICK   1.  17.0 [accident +1.50 page] திருச்சி: விபத்தில் இளைஞர் பலி!
-04:33:09 decided: automatic: top 7 of 1 by insights -> 1 news to write and post
-PICK_URLS=https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/22/திருச்சி-விபத்தில்-இளைஞர்-பலி
-04:37:56 1 listed news now in the Sheet
-04:38:05 instagram duplicate check trichy: 50 recent posts read
-04:38:05 verify 2026-11-23_04: 0 of 1 picked news posted, 0 skipped on purpose, 1 waiting for their posting start
-04:38:05    WAITING C0498332: waiting RN-127: night: nothing is posted 00:00-05:00 IST (owner 21 Nov) - திருச்சி: விபத்தில் இளைஞர் பலி!
+08:26:57 round 2026-11-23_08: news published 23 Nov 04:31 -> 23 Nov 08:26 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர் - Trichy)
+08:26:57 insights 2026-11-23T08:26+05:30 (121 reels): topic weights {'accident': 0.61, 'crime': 1.5, 'power_cut': 0.08, 'civic': 0.04, 'education': -0.5, 'politics': -0.04, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.02}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+08:28:22 63 links on the two papers' Trichy pages
+08:29:31 skipped: not Trichy district=28, already posted=16, published before this window=11, same event already posted=3
+08:29:31 list: 3 new + 1 earlier news not posted yet
+08:29:31    1. [விபத்து] திருச்சி விபத்தில் உயிரிழந்தவர்களுக்கு பிரதமர் மோடி இரங்கல்; உயிரிழந்த (மாலைமலர்)
+08:29:31    2. [விபத்து] திருச்சியில் சாலை விபத்தில் 8 பேர் பலி - முதலமைச்சர் விஜய் இரங்கல் (மாலைமலர்)
+08:29:31    3. [விபத்து] அந்த ஒரு வளைவில் வேன் கட்டுப்பாட்டை இழந்தது எப்படி? திருச்சி துறையூர்  (ஒன்இந்தியா)
+08:29:31    4. [விபத்து] 8 உயிரை காவு வாங்கிய கோர விபத்து.. காதணி விழாவுக்கு சென்ற போது நிகழ்ந் (ஒன்இந்தியா) (earlier)
+08:29:31 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-23_08
