@@ -1,20 +1,12 @@
-00:10:34 round 2026-11-24_00: news published 23 Nov 22:26 -> 24 Nov 00:10 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி - Trichy)
-00:10:34 insights 2026-11-24T00:10+05:30 (129 reels): topic weights {'accident': 0.74, 'crime': 1.49, 'power_cut': 0.09, 'civic': 0.17, 'education': -0.5, 'politics': -0.26, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.18}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-00:11:11 open search 'திருச்சி' (from_google): 0 links from our outlets
-00:11:11 35 links on the two papers' Trichy pages
-00:12:15 skipped: already posted=16, published before this window=11, not Trichy district=5, same event already posted=2, could not open (403 Client Error: Forbidden for url: https://tamil)=1
-00:12:15 list: 0 new + 4 earlier news not posted yet
-00:12:15    1. [விபத்து] திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல (தினத்தந்தி) (earlier)
-00:12:15    2. [விபத்து] திருச்சி விபத்தில் உயிரிழந்தவர்களுக்கு பிரதமர் மோடி இரங்கல்; உயிரிழந்த (மாலைமலர்) (earlier)
-00:12:15    3. [விபத்து] திருச்சியில் சாலை விபத்தில் 8 பேர் பலி - முதலமைச்சர் விஜய் இரங்கல் (மாலைமலர்) (earlier)
-00:12:15    4. [பொது] முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்! (தினகரன்) (earlier)
-00:12:15 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-24_00
-00:12:17    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல
-00:12:17    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சி விபத்தில் உயிரிழந்தவர்களுக்கு பிரதமர் மோடி இரங்கல்; உயிரிழந்த
-00:12:17    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சியில் சாலை விபத்தில் 8 பேர் பலி - முதலமைச்சர் விஜய் இரங்கல்
-00:12:17    not picked automatically (suicide / obituary - only when the owner ticks it): முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்!
-00:12:17 round 2026-11-24_00 (at least 3, up to 3 more of well-watched topics): 0 news to choose from (0 from earlier rounds), ranked by this page's insights
-00:12:17 decided: automatic: top 3 of 0 by insights -> 0 news to write and post
-PICK_URLS=
-00:12:23 verify 2026-11-24_00: 0 of 0 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+03:37:56 round 2026-11-24_03: news published 24 Nov 00:10 -> 24 Nov 03:37 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி - Trichy)
+03:37:56 insights 2026-11-24T03:37+05:30 (129 reels): topic weights {'accident': 0.72, 'crime': 1.5, 'power_cut': 0.07, 'civic': 0.15, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.2}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+03:38:24 open search 'திருச்சி' (from_google): 0 links from our outlets
+03:38:24 37 links on the two papers' Trichy pages
+03:39:27 skipped: already posted=16, published before this window=11, not Trichy district=7, same event already posted=2, could not open (403 Client Error: Forbidden for url: https://tamil)=1
+03:39:27 list: 0 new + 4 earlier news not posted yet
+03:39:27    1. [விபத்து] திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல (தினத்தந்தி) (earlier)
+03:39:27    2. [விபத்து] திருச்சி விபத்தில் உயிரிழந்தவர்களுக்கு பிரதமர் மோடி இரங்கல்; உயிரிழந்த (மாலைமலர்) (earlier)
+03:39:27    3. [விபத்து] திருச்சியில் சாலை விபத்தில் 8 பேர் பலி - முதலமைச்சர் விஜய் இரங்கல் (மாலைமலர்) (earlier)
+03:39:27    4. [பொது] முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்! (தினகரன்) (earlier)
+03:39:27 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-24_03

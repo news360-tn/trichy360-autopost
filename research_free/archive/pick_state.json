@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-24T00:10:34.905323+05:30",
+ "last_end": "2026-11-24T03:37:56.927518+05:30",
  "pool": {
   "C5d8787f": {
    "id": "C5d8787f",
@@ -51,33 +51,6 @@
   }
  },
  "rounds": {
-  "2026-11-21_20": {
-   "window": [
-    "2026-11-21T16:33:34.539664+05:30",
-    "2026-11-21T20:31:34.690739+05:30"
-   ],
-   "ids": [
-    "Caa7a7eb",
-    "C8a00caa"
-   ],
-   "sent": false,
-   "deadline": "2026-11-21T21:31:34.690739+05:30",
-   "decided": {
-    "how": "automatic: top 5 of 2 by insights",
-    "ids": [
-     "Caa7a7eb",
-     "C8a00caa"
-    ],
-    "at": "2026-11-21T20:34:52.049883+05:30"
-   },
-   "written": [
-    "C8a00caa",
-    "Caa7a7eb"
-   ],
-   "refused": {
-    "Caa7a7eb": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
-   }
-  },
   "2026-11-21_23": {
    "window": [
     "2026-11-21T20:31:34.690739+05:30",
@@ -485,6 +458,22 @@
     "ids": [],
     "at": "2026-11-24T00:12:17.012639+05:30"
    },
+   "written": []
+  },
+  "2026-11-24_03": {
+   "window": [
+    "2026-11-24T00:10:34.905323+05:30",
+    "2026-11-24T03:37:56.927518+05:30"
+   ],
+   "ids": [
+    "C830e3ec",
+    "C5d8787f",
+    "C2d0242d",
+    "Cb076610"
+   ],
+   "sent": false,
+   "deadline": "2026-11-24T04:37:56.927518+05:30",
+   "decided": null,
    "written": []
   }
  },
