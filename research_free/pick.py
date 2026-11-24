@@ -417,8 +417,14 @@ def cmd_collect():
             continue
         pt = when(item["published"])
         if pt and pt < t_start and not (it.get("_retry") and (t_end - pt).total_seconds() < LEFT_HOURS * 3600):
-            reasons["published before this window"] = reasons.get("published before this window", 0) + 1
-            continue
+            # owner 24 Nov (Tiruppur 0 news, Trichy 2): Dinamalar dates an article at its PRINT time (night) but lists it on its website hours
+            # later - so it was always "before this window" and never offered. A link never offered before (not in the pool, not posted)
+            # from the last LEFT_HOURS is offered now, once.
+            if (t_end - pt).total_seconds() < LEFT_HOURS * 3600:
+                item["late_listed"] = True
+            else:
+                reasons["published before this window"] = reasons.get("published before this window", 0) + 1
+                continue
         if pt and pt > t_end + datetime.timedelta(minutes=5):
             continue
         if SAME_DAY and not same_day(pt, t_end) and not item.get("power_cut"):      # owner 22 Nov: yesterday's news is never posted today (a power-cut notice still is)

@@ -48,11 +48,11 @@ class PickFlow(unittest.TestCase):
         m6 = datetime.datetime.combine(d, datetime.time(6, 0), IST)
         st = {"last_end": (m6 - datetime.timedelta(hours=14)).isoformat(), "pool": {}, "rounds": {}}
         pick.STATE.write_text(json.dumps(st))
-        a_old = art("https://www.dinamalar.com/a", "பழைய செய்தி", m6 - datetime.timedelta(hours=20))
+        a_old = art("https://www.dinamalar.com/a", "பழைய செய்தி", m6 - datetime.timedelta(hours=30))      # owner 24 Nov: older than 24 h (a late-listed news of the last 24 h IS offered)
         a_in = art("https://www.dinamani.com/b", "இரவு செய்தி", m6 - datetime.timedelta(hours=3))
         self.run_collect(m6, [a_old, a_in])
         items = self.sent[-1][1]["items"]
-        self.assertEqual([x["title"] for x in items], ["இரவு செய்தி"])      # published before the window: not listed
+        self.assertEqual([x["title"] for x in items], ["இரவு செய்தி"])      # published more than 24 h before: not listed
         # evening: the morning item (not posted) comes back as an earlier news; a new 6 AM-4 PM item is listed as new
         e4 = datetime.datetime.combine(d, datetime.time(16, 0), IST)
         a_new = art("https://www.dinamalar.com/c", "மதியச் செய்தி", e4 - datetime.timedelta(hours=2))
