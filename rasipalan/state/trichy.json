@@ -1,11 +1,16 @@
 {
- "date": "2026-11-23",
- "media_id": "17966016816247953",
- "permalink": "https://www.instagram.com/reel/DgELqKTOmZX/",
- "posted_at": "2026-11-23T06:48:40.727702+05:30",
- "festival": null,
+ "date": "2026-11-24",
+ "media_id": "17962971963015107",
+ "permalink": "https://www.instagram.com/reel/DgG22USKAWD/",
+ "posted_at": "2026-11-24T07:44:39.386026+05:30",
+ "festival": {
+  "name": "திருக்கார்த்திகை தீபம்",
+  "theme": "karthigai",
+  "how": "panchangam article says 'கார்த்திகை தீப'"
+ },
  "sources": [
   "TV9 Tamil",
+  "Maalaimalar",
   "Boldsky Tamil"
  ]
 }
