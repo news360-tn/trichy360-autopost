@@ -36,7 +36,8 @@
    "score": 12.09,
    "power_cut": true,
    "listed_at": "2026-11-24T07:17:57.524474+05:30",
-   "picked_at": "2026-11-24T07:19:32.633014+05:30"
+   "picked_at": "2026-11-24T07:19:32.633014+05:30",
+   "posted": true
   },
   "Ccf7ca81": {
    "id": "Ccf7ca81",
@@ -49,7 +50,8 @@
    "score": 12.09,
    "power_cut": true,
    "listed_at": "2026-11-24T07:17:57.524474+05:30",
-   "picked_at": "2026-11-24T07:19:32.633017+05:30"
+   "picked_at": "2026-11-24T07:19:32.633017+05:30",
+   "refused": "not filed: duplicate after write"
   }
  },
  "rounds": {
@@ -480,7 +482,10 @@
    "written": [
     "C1d5b115",
     "Ccf7ca81"
-   ]
+   ],
+   "refused": {
+    "Ccf7ca81": "not filed: duplicate after write"
+   }
   }
  },
  "retry": {
