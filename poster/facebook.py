@@ -229,6 +229,8 @@ def fb_caption(cap, page_tag, tags=None):
     Instagram's tag line is: area, town, topic, Tamil place, page -> Facebook keeps town + topic + page tag."""
     found, body = [], []
     for l in (cap or "").split("\n"):
+        l = re.sub(r"\s*:?\s*https?://\S+", "", l)      # owner 24 Nov: no outside link in the Facebook post text (Facebook shows such posts to far
+        #                                                fewer people) - the article link is in the first comment; "📰 Source: <paper> (<date>)" stays
         t = re.findall(r"#[^\s#]+", l)
         rest = re.sub(r"#[^\s#]+", "", l).rstrip()
         found += t
