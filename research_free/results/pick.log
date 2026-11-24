@@ -1,29 +1,8 @@
-02:15:51 round 2026-11-25_02: news published 24 Nov 23:39 -> 25 Nov 02:15 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-02:15:51 insights 2026-11-25T02:15+05:30 (138 reels): topic weights {'accident': 1.21, 'crime': 1.5, 'power_cut': 1.01, 'civic': -0.03, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.45}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-02:17:01 open search 'திருச்சி' (from_google): 0 links from our outlets
-02:17:01 74 links on the two papers' Trichy pages
-02:18:33 skipped: published before this window=24, not Trichy district=19, already posted=16, same event already posted=8, only a headline=2
-02:18:33 list: 5 new + 0 earlier news not posted yet
-02:18:33    1. [குற்றம்] இணைய லாட்டரியில் பரிசு விழுந்ததாகக் கூறி ஓய்வுபெற்ற ஆவின் ஊழியரிடம் ரூ (தினமணி)
-02:18:33    2. [குற்றம்] ஓய்வு பெற்ற தனியாா் வங்கி ஊழியரிடம் இணைய வழியில் ரூ.57.33 லட்சம் மோசடி (தினமணி)
-02:18:33    3. [விபத்து] ஸ்ரீரங்கம் கோயிலில் பக்தா் மயங்கி விழுந்து உயிரிழப்பு (தினமணி)
-02:18:33    4. [சாலை] பெண் இறப்பில் சந்தேகம்: உறவினா்கள் சாலை மறியல் (தினமணி)
-02:18:33    5. [ஆன்மிகம்] ஸ்ரீரங்கம், திருவானைக்காவல் கோயில்களில் காா்த்திகை சொக்கப்பனை (தினமணி)
-02:18:33 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-25_02
-02:18:35 round 2026-11-25_02 (at least 3, up to 3 more of well-watched topics): 5 news to choose from (0 from earlier rounds), ranked by this page's insights
-02:18:35   PICK   1.  17.0 [crime +1.50 page] இணைய லாட்டரியில் பரிசு விழுந்ததாகக் கூறி ஓய்வுபெற்ற ஆவின் ஊழ
-02:18:35   PICK   2.  17.0 [crime +1.50 page] ஓய்வு பெற்ற தனியாா் வங்கி ஊழியரிடம் இணைய வழியில் ரூ.57.33 லட
-02:18:35   PICK   3.  14.8 [accident +1.21 page] ஸ்ரீரங்கம் கோயிலில் பக்தா் மயங்கி விழுந்து உயிரிழப்பு
-02:18:35   PICK   4.   8.9 [civic -0.03 page] பெண் இறப்பில் சந்தேகம்: உறவினா்கள் சாலை மறியல்
-02:18:35   PICK   5.   4.0 [temple -0.50 page] ஸ்ரீரங்கம், திருவானைக்காவல் கோயில்களில் காா்த்திகை சொக்கப்பன
-02:18:35 decided: automatic: top 3 of 5 by insights -> 5 news to write and post
-PICK_URLS=https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/retired-aavin-employee-cheated-of-rs-338-lakh-with-fake-online-lottery-prize-claim https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/retired-private-bank-employee-duped-of-rs-5733-lakh-in-online-fraud https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/ஸ்ரீரங்கம்-கோயிலில்-பக்தா்-மயங்கி-விழுந்து-உயிரிழப்பு https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/பெண்-இறப்பில்-சந்தேகம்-உறவினா்கள்-சாலை-மறியல் https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/karthigai-chokkapanai-lit-at-srirangam-and-thiruvanaikaval-temples
-02:23:14 5 listed news now in the Sheet
-02:23:29 instagram duplicate check trichy: 50 recent posts read
-02:23:29 verify 2026-11-25_02: 0 of 5 picked news posted, 1 skipped on purpose, 4 waiting for their posting start
-02:23:29    WAITING Ce58fdcc: waiting RN-144: night: nothing is posted 00:00-05:00 IST (owner 21 Nov) - பெண் இறப்பில் சந்தேகம்: உறவினா்கள் சாலை மறியல்
-02:23:29    WAITING Cedc63ab: waiting RN-143: night: nothing is posted 00:00-05:00 IST (owner 21 Nov) - ஸ்ரீரங்கம், திருவானைக்காவல் கோயில்களில் காா்த்திகை சொக்கப்பன
-02:23:29    WAITING Cf2196ee: waiting RN-145: night: nothing is posted 00:00-05:00 IST (owner 21 Nov) - ஸ்ரீரங்கம் கோயிலில் பக்தா் மயங்கி விழுந்து உயிரிழப்பு
-02:23:29    WAITING Cfa37cfb: waiting RN-146: night: nothing is posted 00:00-05:00 IST (owner 21 Nov) - ஓய்வு பெற்ற தனியாா் வங்கி ஊழியரிடம் இணைய வழியில் ரூ.57.33 லட
-02:23:29    SKIPPED C4db5c38: skipped RN-147: held: fact-check problems - fact-check: reel_script says the victim sent money 'to the bank account given by the fraudster' — acceptable, but th - இணைய லாட்டரியில் பரிசு விழுந்ததாகக் கூறி ஓய்வுபெற்ற ஆவின் ஊழ
+04:26:25 round 2026-11-25_04: news published 25 Nov 02:15 -> 25 Nov 04:26 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+04:26:25 insights 2026-11-25T04:26+05:30 (138 reels): topic weights {'accident': 1.21, 'crime': 1.5, 'power_cut': 1.0, 'civic': -0.03, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.45}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+04:26:44 open search 'திருச்சி' (from_google): 0 links from our outlets
+04:26:44 62 links on the two papers' Trichy pages
+04:27:26 skipped: published before this window=24, already posted=16, same event already posted=8, not Trichy district=7, only a headline=2
+04:27:26 list: 0 new + 0 earlier news not posted yet
+04:27:26 no news in this window - no e-mail
+ROUND=2026-11-25_04
