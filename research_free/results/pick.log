@@ -1,16 +1,8 @@
-08:28:54 round 2026-11-24_08: news published 24 Nov 08:26 -> 24 Nov 08:28 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி - Trichy)
-08:28:54 insights 2026-11-24T08:28+05:30 (130 reels): topic weights {'accident': 0.76, 'crime': 1.5, 'power_cut': 0.1, 'civic': 0.19, 'education': -0.5, 'politics': -0.25, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.19}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-08:29:06 open search 'திருச்சி' (from_google): 0 links from our outlets
-08:29:06 31 links on the two papers' Trichy pages
-08:29:46 skipped: already posted=14, published before this window=11, same event already posted=3, not Trichy district=1, could not open (403 Client Error: Forbidden for url: https://tamil)=1
-08:29:46 list: 0 new + 2 earlier news not posted yet
-08:29:46    1. [விபத்து] திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல (தினத்தந்தி) (earlier)
-08:29:46    2. [பொது] முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்! (தினகரன்) (earlier)
-08:29:46 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-24_08
-08:29:48    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல
-08:29:48    not picked automatically (suicide / obituary - only when the owner ticks it): முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்!
-08:29:48 round 2026-11-24_08 (at least 6, up to 3 more of well-watched topics): 0 news to choose from (0 from earlier rounds), ranked by this page's insights
-08:29:48 decided: automatic: top 6 of 0 by insights -> 0 news to write and post
-PICK_URLS=
-08:29:53 verify 2026-11-24_08: 0 of 0 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+11:43:34 round 2026-11-24_11: news published 24 Nov 08:28 -> 24 Nov 11:43 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி - Trichy)
+11:43:34 insights 2026-11-24T11:43+05:30 (132 reels): topic weights {'accident': 0.76, 'crime': 1.5, 'power_cut': 0.1, 'civic': 0.19, 'education': -0.5, 'politics': -0.25, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.37}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+11:44:40 open search 'திருச்சி' (from_google): 2 links from our outlets
+11:44:40 46 links on the two papers' Trichy pages
+11:45:38 skipped: not Trichy district=15, already posted=14, published before this window=11, same event already posted=3, no title=1, could not open (403 Client Error: Forbidden for url: https://tamil)=1
+11:45:38 list: 0 new + 0 earlier news not posted yet
+11:45:38 no news in this window - no e-mail
+ROUND=2026-11-24_11
