@@ -1,0 +1,315 @@
+writing [N]: முசிறி விபத்து: மேலும் ஒருவா் உயிரிழப்பு இறந்தோா் எண்ணிக்கை 
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.6-flash for 10 min
+fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.5-flash
+ok gemini/gemini-3-flash-preview (12s)
+attempt 1 gemini/gemini-3-flash-preview: 1 problems
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 10 ('ராஜேஷ் ஓட்டினாா்..காதணி விழாவை முடித்துவிட்டு 10 பேரும் திரு')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+dead for this round: gemini/gemini-3-flash-preview
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+ok groq/qwen/qwen3.8-27b (9s)
+attempt 2 groq/qwen/qwen3.8-27b: 1 problems
+  reel_script has 81 words; need 86-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+free models unavailable: no free model answered: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your p
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/qwen/qwen3.8-27b (0s)
+factcheck by groq/qwen/qwen3.8-27b: 2 problems
+  Missing important fact: The article states the 10 people were traveling to the Kathanthi festival in Potturettipatti (Namakkal district) for the children of a worker, but the reel_script and caption omit the destination details, only mentioning they were returning from the festival.
+  Missing important fact: The article explicitly names the driver (A. Rajesh) and the deceased worker (Suresh), but the draft does not mention the driver's name or the specific context of the group's origin (Suresh's children), which are key details in the article.
+claude rewrite 1 anthropic/claude-haiku-5-5: 2 problems
+  fact-check: Missing important fact: The article states the 10 people were traveling to the Kathanthi festival in Potturettipatti (Namakkal district) for the children of a worker, but the reel_script and caption omit the destination details, only mentioning they were returning from the festival.
+  fact-check: Missing important fact: The article explicitly names the driver (A. Rajesh) and the deceased worker (Suresh), but the draft does not mention the driver's name or the specific context of the group's origin (Suresh's children), which are key details in the article.
+ok anthropic/claude-haiku-5-5
+claude rewrite 2 anthropic/claude-haiku-5-5: 2 problems
+  hl1 is 45 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 8 ('ராஜேஷ் ஓட்டினாா்..காதணி விழாவை முடித்துவிட்டு 10 பேரும் திரு')
+ok anthropic/claude-haiku-5-5
+claude rewrite 3 anthropic/claude-haiku-5-5: 2 problems
+  reel_script has 80 words; need 86-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
+  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok groq/qwen/qwen3.8-27b (11s)
+proofread by groq/qwen/qwen3.8-27b: 1 problems
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+ok groq/openai/gpt-oss-120b (2s)
+real photo skipped (photo uploaded 2026-04-26 (older than the news)): https://media.dinamani.com/dinamani/2026-04-26/ywd6xu2b/%E0%AE%AA%E0%AF%88%E0%AE%95%E0%AF%
+real photo skipped (photo uploaded 2026-04-26 (older than the news)): https://media.dinamani.com/dinamani/2026-04-26/ywd6xu2b/பைக்-மோதி-ஒடிஸா-மாநிலத்தை-சோ்ந்தவ
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models
+images made: 2 for 'Musiri van accident death toll rises to '
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261124-1158","first":"RN-136"}
+posting job started at once
+earlier stories still waiting for images: []
+instagram check: 50 recent posts read from the page
+source dinamalar list: 15 items
+source google 'திருச்சி': 57 items
+source bing 'திருச்சி': 11 items
+source google 'திருச்சிராப்பள்ளி': 13 items
+source bing 'திருச்சிராப்பள்ளி': 12 items
+source google 'ஸ்ரீரங்கம்': 4 items
+source bing 'ஸ்ரீரங்கம்': 12 items
+source google 'திருவெறும்பூர்': 2 items
+source bing 'திருவெறும்பூர்': 9 items
+source google 'லால்குடி': 2 items
+source bing 'லால்குடி': 12 items
+source google 'மணப்பாறை': 2 items
+source bing 'மணப்பாறை': 12 items
+source google 'முசிறி': 25 items
+source bing 'முசிறி': 12 items
+source google 'தொட்டியம்': 0 items
+source bing 'தொட்டியம்': 9 items
+source google 'துறையூர்': 9 items
+source bing 'துறையூர்': 12 items
+source google 'மண்ணச்சநல்லூர்': 1 items
+source bing 'மண்ணச்சநல்லூர்': 12 items
+source google 'உப்பிலியபுரம்': 1 items
+source bing 'உப்பிலியபுரம்': 5 items
+source google 'மருங்காபுரி': 0 items
+source bing 'மருங்காபுரி': 1 items
+source google 'சமயபுரம்': 7 items
+source bing 'சமயபுரம்': 12 items
+source google 'திருவானைக்காவல்': 0 items
+source bing 'திருவானைக்காவல்': 7 items
+source google 'துவாக்குடி': 0 items
+source bing 'துவாக்குடி': 5 items
+source google 'நவல்பட்டு': 0 items
+source bing 'நவல்பட்டு': 4 items
+source google 'சோமரசம்பேட்டை': 0 items
+source bing 'சோமரசம்பேட்டை': 8 items
+source google 'புள்ளம்பாடி': 1 items
+source bing 'புள்ளம்பாடி': 11 items
+source google 'திருச்சி மாவட்டம்': 45 items
+source bing 'திருச்சி மாவட்டம்': 12 items
+source google 'திருச்சி மின்தடை': 9 items
+source bing 'திருச்சி மின்தடை': 12 items
+source google 'திருச்சிராப்பள்ளி மின்தடை': 2 items
+source bing 'திருச்சிராப்பள்ளி மின்தடை': 0 items
+source google 'மணப்பாறை மின்தடை': 1 items
+source bing 'மணப்பாறை மின்தடை': 1 items
+source google 'ஸ்ரீரங்கம் மின்தடை': 0 items
+source bing 'ஸ்ரீரங்கம் மின்தடை': 4 items
+source google 'லால்குடி மின்தடை': 0 items
+source bing 'லால்குடி மின்தடை': 2 items
+source google 'திருச்சி ஆட்சியர் அறிவிப்பு': 1 items
+source bing 'திருச்சி ஆட்சியர் அறிவிப்பு': 11 items
+source google 'திருச்சி மாவட்ட நிர்வாகம்': 2 items
+source bing 'திருச்சி மாவட்ட நிர்வாகம்': 12 items
+source google 'திருச்சி வேலைவாய்ப்பு முகாம்': 1 items
+source bing 'திருச்சி வேலைவாய்ப்பு முகாம்': 2 items
+source google 'திருச்சி ஆட்சேர்ப்பு': 9 items
+source bing 'திருச்சி ஆட்சேர்ப்பு': 3 items
+source google 'திருச்சி சிறப்பு முகாம்': 8 items
+source bing 'திருச்சி சிறப்பு முகாம்': 6 items
+source google 'திருச்சி குறைதீர் கூட்டம்': 2 items
+source bing 'திருச்சி குறைதீர் கூட்டம்': 1 items
+source google 'தில்லை நகர்': 2 items
+source bing 'தில்லை நகர்': 4 items
+source google 'உறையூர்': 0 items
+source bing 'உறையூர்': 10 items
+source google 'பாலக்கரை': 0 items
+source bing 'பாலக்கரை': 6 items
+source google 'தென்னூர்': 0 items
+source bing 'தென்னூர்': 4 items
+source google 'காஜாமலை': 1 items
+source bing 'காஜாமலை': 8 items
+source google 'மலைக்கோட்டை': 1 items
+source bing 'மலைக்கோட்டை': 11 items
+source google 'திருவெறும்பூர் மின்தடை': 0 items
+source bing 'திருவெறும்பூர் மின்தடை': 0 items
+source google 'முசிறி மின்தடை': 0 items
+source bing 'முசிறி மின்தடை': 5 items
+source google 'தொட்டியம் மின்தடை': 0 items
+source bing 'தொட்டியம் மின்தடை': 2 items
+source google 'துறையூர் மின்தடை': 0 items
+source bing 'துறையூர் மின்தடை': 4 items
+source google 'மண்ணச்சநல்லூர் மின்தடை': 0 items
+source bing 'மண்ணச்சநல்லூர் மின்தடை': 0 items
+source google 'உப்பிலியபுரம் மின்தடை': 0 items
+source bing 'உப்பிலியபுரம் மின்தடை': 0 items
+source google 'மருங்காபுரி மின்தடை': 0 items
+source bing 'மருங்காபுரி மின்தடை': 0 items
+source google 'சமயபுரம் மின்தடை': 1 items
+source bing 'சமயபுரம் மின்தடை': 3 items
+source google 'திருவானைக்காவல் மின்தடை': 0 items
+source bing 'திருவானைக்காவல் மின்தடை': 0 items
+source google 'துவாக்குடி மின்தடை': 0 items
+source bing 'துவாக்குடி மின்தடை': 0 items
+source google 'நவல்பட்டு மின்தடை': 0 items
+source bing 'நவல்பட்டு மின்தடை': 0 items
+source google 'திருச்சி மின்தடை நாளை': 9 items
+source bing 'திருச்சி மின்தடை நாளை': 12 items
+source google 'திருச்சி மின்தடை பகுதிகள்': 5 items
+source bing 'திருச்சி மின்தடை பகுதிகள்': 12 items
+source google 'திருச்சி மின் நிறுத்தம்': 2 items
+source bing 'திருச்சி மின் நிறுத்தம்': 7 items
+source google தினமலர் 'திருச்சி': 100 items
+source bing தினமலர் 'திருச்சி': 12 items
+source google தினமலர் 'திருச்சிராப்பள்ளி': 5 items
+source bing தினமலர் 'திருச்சிராப்பள்ளி': 3 items
+source google தினமலர் 'மணப்பாறை': 7 items
+source bing தினமலர் 'மணப்பாறை': 12 items
+source google தினமணி 'திருச்சி': 94 items
+source bing தினமணி 'திருச்சி': 12 items
+source google தினமணி 'திருச்சிராப்பள்ளி': 5 items
+source bing தினமணி 'திருச்சிராப்பள்ளி': 12 items
+source google தினமணி 'மணப்பாறை': 2 items
+source bing தினமணி 'மணப்பாறை': 12 items
+source google தினகரன் 'திருச்சி': 100 items
+source bing தினகரன் 'திருச்சி': 12 items
+source google தினகரன் 'திருச்சிராப்பள்ளி': 7 items
+source bing தினகரன் 'திருச்சிராப்பள்ளி': 8 items
+source google தினகரன் 'மணப்பாறை': 0 items
+source bing தினகரன் 'மணப்பாறை': 3 items
+source google ஒன்இந்தியா 'திருச்சி': 100 items
+source bing ஒன்இந்தியா 'திருச்சி': 12 items
+source google ஒன்இந்தியா 'திருச்சிராப்பள்ளி': 100 items
+source bing ஒன்இந்தியா 'திருச்சிராப்பள்ளி': 12 items
+source google ஒன்இந்தியா 'மணப்பாறை': 0 items
+source bing ஒன்இந்தியா 'மணப்பாறை': 9 items
+source google தினத்தந்தி 'திருச்சி': 46 items
+source bing தினத்தந்தி 'திருச்சி': 12 items
+source google தினத்தந்தி 'திருச்சிராப்பள்ளி': 15 items
+source bing தினத்தந்தி 'திருச்சிராப்பள்ளி': 12 items
+source google தினத்தந்தி 'மணப்பாறை': 0 items
+source bing தினத்தந்தி 'மணப்பாறை': 2 items
+source google மாலைமலர் 'திருச்சி': 45 items
+source bing மாலைமலர் 'திருச்சி': 12 items
+source google மாலைமலர் 'திருச்சிராப்பள்ளி': 6 items
+source bing மாலைமலர் 'திருச்சிராப்பள்ளி': 6 items
+source google மாலைமலர் 'மணப்பாறை': 0 items
+source bing மாலைமலர் 'மணப்பாறை': 2 items
+source google தந்தி டிவி 'திருச்சி': 39 items
+source bing தந்தி டிவி 'திருச்சி': 6 items
+source google தந்தி டிவி 'திருச்சிராப்பள்ளி': 0 items
+source bing தந்தி டிவி 'திருச்சிராப்பள்ளி': 0 items
+source google தந்தி டிவி 'மணப்பாறை': 1 items
+source bing தந்தி டிவி 'மணப்பாறை': 1 items
+source google இந்து தமிழ் 'திருச்சி': 13 items
+source bing இந்து தமிழ் 'திருச்சி': 12 items
+source google இந்து தமிழ் 'திருச்சிராப்பள்ளி': 0 items
+source bing இந்து தமிழ் 'திருச்சிராப்பள்ளி': 1 items
+source google இந்து தமிழ் 'மணப்பாறை': 0 items
+source bing இந்து தமிழ் 'மணப்பாறை': 1 items
+source google பாலிமர் 'திருச்சி': 6 items
+source bing பாலிமர் 'திருச்சி': 4 items
+source google பாலிமர் 'திருச்சிராப்பள்ளி': 0 items
+source bing பாலிமர் 'திருச்சிராப்பள்ளி': 0 items
+source google பாலிமர் 'மணப்பாறை': 0 items
+source bing பாலிமர் 'மணப்பாறை': 0 items
+source google மாலை முரசு 'திருச்சி': 3 items
+source bing மாலை முரசு 'திருச்சி': 1 items
+source google மாலை முரசு 'திருச்சிராப்பள்ளி': 2 items
+source bing மாலை முரசு 'திருச்சிராப்பள்ளி': 0 items
+source google மாலை முரசு 'மணப்பாறை': 1 items
+source bing மாலை முரசு 'மணப்பாறை': 0 items
+source google நியூஸ்18 தமிழ் 'திருச்சி': 100 items
+source bing நியூஸ்18 தமிழ் 'திருச்சி': 10 items
+source google நியூஸ்18 தமிழ் 'திருச்சிராப்பள்ளி': 5 items
+source bing நியூஸ்18 தமிழ் 'திருச்சிராப்பள்ளி': 5 items
+source google நியூஸ்18 தமிழ் 'மணப்பாறை': 0 items
+source bing நியூஸ்18 தமிழ் 'மணப்பாறை': 5 items
+source google இந்தியன் எக்ஸ்பிரஸ் தமிழ் 'திருச்சி': 9 items
+source bing இந்தியன் எக்ஸ்பிரஸ் தமிழ் 'திருச்சி': 12 items
+source google இந்தியன் எக்ஸ்பிரஸ் தமிழ் 'திருச்சிராப்பள்ளி': 1 items
+source bing இந்தியன் எக்ஸ்பிரஸ் தமிழ் 'திருச்சிராப்பள்ளி': 2 items
+source google இந்தியன் எக்ஸ்பிரஸ் தமிழ் 'மணப்பாறை': 0 items
+source bing இந்தியன் எக்ஸ்பிரஸ் தமிழ் 'மணப்பாறை': 1 items
+source தினமணி திருச்சி: 5 items
+source தினகரன் திருச்சி: 10 items
+Tamil outlets only: kept 1348 of 1613 items
+all sources: 1348 items -> 797 different news
+manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/23/%E0%AE%AE%E0%AF%81%E0%AE%9A%E0%AE%BF%E0%AE%B1%E0%AE%BF-%E0%AE%B5%E0%AE%BF%E0%AE%AA%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%81-%E0%AE%AE%E0%AF%87%E0%AE%B2%E0%AF%81%E0%AE%AE%E0%AF%8D-%E0%AE%92%E0%AE%B0%E0%AF%81%E0%AE%B5%E0%AE%BE%E0%AF%8D-%E0%AE%89%E0%AE%AF%E0%AE%BF%E0%AE%B0%E0%AE%BF%E0%AE%B4%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81-%E0%AE%87%E0%AE%B1%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%8B%E0%AE%BE%E0%AF%8D-%E0%AE%8E%E0%AE%A3%E0%AF%8D%E0%AE%A3%E0%AE%BF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%88-9-%E0%AE%86%E0%AE%95-%E0%AE%89%E0%AE%AF%E0%AE%BE%E0%AF%8D%E0%AE%B5%E0%AF%81
+candidate filter: not written=378, not Trichy district news (state-wide / o=287, old=56, already filed=43, collected=21, not written=13
+to write: 21 Trichy district candidates (max 3 stories)
+round: top 3 of 21 candidates + 3 power cut(s)
+candidates waiting: 21 Trichy; time left 53 min
+try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/
+try (N) manual=False: இறந்தவரை போல் ஆள்மாறாட்டம் செய்து நிலம் விற்பனை: கணவன்-மனைவி
+try (N) manual=False: வேன் – ஆம்னி பஸ் மோதல் அய்யப்ப பக்தர், டிரைவர் பலி
+skip (N) too old (2026-11-23T19:04:02+05:30): வேன் – ஆம்னி பஸ் மோதல் அய்யப்ப பக்தர், டிரைவர் பலி
+try (N) manual=False: அரசு வேலை தருவதாக கூறி ரூ.1 கோடி மோசடி செய்த பார்மசிஸ்ட் தலை
+skip (N) too old (2026-11-20T21:16:59+05:30): அரசு வேலை தருவதாக கூறி ரூ.1 கோடி மோசடி செய்த பார்ம
+try (N) manual=False: ரேஷன் அரிசி வினியோகத்தில் 22 கோடி ரூபாய் மோசடி: ஆலை அதிபர் .
+skip (N) too old (2026-11-17T20:52:50+05:30): ரேஷன் அரிசி வினியோகத்தில் 22 கோடி ரூபாய் மோசடி: ஆல
+try (N) manual=False: விவசாயி தலை துண்டித்து கொலை திருச்சியில் கஞ்சா கும்பல் ...
+skip (N) too old (2026-11-16T18:57:03+05:30): விவசாயி தலை துண்டித்து கொலை திருச்சியில் கஞ்சா கும
+try (N) manual=False: பைக்கில் இருந்த பணத்தை திருடிச் சென்றவா் கைது
+skip (N) too old (2026-11-19T21:30:42.787Z): பைக்கில் இருந்த பணத்தை திருடிச் சென்றவா் கைது
+try (N) manual=False: பொது இடங்களில் மது குடித்த 2 பேர் கைது
+skip (N) too old (2026-11-11T07:07:00+05:30): பொது இடங்களில் மது குடித்த 2 பேர் கைது
+try (N) manual=False: கொள்ளை வழக்கில் கைதான இளைஞருக்கு குண்டா் சட்டத்தில் சிறை
+skip (N) too old (2026-11-11T20:47:20.598Z): கொள்ளை வழக்கில்
+கைதான இளைஞருக்கு 
+குண்டா் சட்டத்தி
+try (N) manual=False: லாரி டிரைவர் தற்கொலை: கைது செய்ய ஆர்ப்பாட்டம்
+skip (N) could not open: இறந்தவரை போல் ஆள்மாறாட்டம் செய்து நிலம் விற்பனை: க [https://news.google.com/rss/articles/CBMi0wFBVV95cUxNakVOd1Z] google news link not decoded (Request error in decode: Client error '429 Too Man
+try (N) manual=False: காரில் குட்கா கடத்தி வந்த இருவா் கைது: 127 கிலோ பறிமுதல்
+skip (N) could not open: லாரி டிரைவர் தற்கொலை: கைது செய்ய ஆர்ப்பாட்டம் [https://news.google.com/rss/articles/CBMivgFBVV95cUxPbE1KWG1] google news link not decoded (Request error in decode: Client error '429 Too Man
+try (N) manual=False: மணப்பாறையில் நாளை மின் நிறுத்தம்
+skip (N) too old (2026-11-14T22:15:00.000Z): காரில் குட்கா கடத்தி வந்த
+இருவா் கைது: 127 கிலோ பற
+try (N) manual=False: நாளை மறுதினம் (நவ.23) மின்தடை (காலை 9:00
+skip (N) too old (2026-11-21T17:50:02+05:30): நாளை மறுதினம் (நவ.23) மின்தடை (காலை 9:00 – மதியம் 
+try (N) manual=False: நாளைய மின்தடை: கவுண்டம்பாளையம்
+skip (N) too old (2026-11-21T19:39:55.027Z): நாளைய மின்தடை: 
+கவுண்டம்பாளையம்
+try (N) manual=False: சாலை விபத்தில் தாய், மகன் உயிரிழப்பு
+skip (N) too old (2026-11-05T22:21:02+05:30): சாலை விபத்தில் தாய், மகன் உயிரிழப்பு
+try (N) manual=False: சாலையோர பார்கிங் எமனாக ஹைவேசில் சரக்கு லாரிகள்..! உயிர் பலிக
+skip (N) could not open: சாலையோர பார்கிங் எமனாக ஹைவேசில் சரக்கு லாரிகள்..!  [https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbzczZ1J] google news link not decoded (Request error in decode: Client error '429 Too Man
+try (N) manual=False: முசிறி விபத்து: மேலும் ஒருவா் உயிரிழப்பு இறந்தோா் எண்ணிக்கை 
+skip (N) could not open: மணப்பாறையில் நாளை மின் நிறுத்தம் [https://news.google.com/rss/articles/CBMi7ANBVV95cUxQWmhhV3M] google news link not decoded (Request error in decode: Client error '429 Too Man
+try (N) manual=False: மொபட் மீது கார் மோதிய விபத்தில் மாணவர் இருவர் பலி: 6 பேர் கா
+skip (N) too old (2026-11-23T22:30:28+05:30): மொபட் மீது கார் மோதிய விபத்தில் மாணவர் இருவர் பலி:
+try (N) manual=False: பைக் மீது காா் மோதல்: பெண் உயிரிழப்பு
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})
+posting job started at once
+try (N) manual=False: தியாகதுருகம் அருகே மினி லாரி மோதி பெண் உயிரிழப்பு! கிராம மக்
+skip (N) too old (2026-11-15T22:04:09.072Z): தியாகதுருகம் அருகே மினி லாரி மோதி பெண் உயிரிழப்பு!
+try (N) manual=False: விபத்தில் இறந்த நிர்வாகிகள்; புஸ்ஸி ஆனந்த் அஞ்சலி tvk confer
+skip (N) only a headline, 0 words of text: விபத்தில் இறந்த நிர்வாகிகள்; புஸ்ஸி ஆனந்த் அஞ்சலி  [https://www.dinamalar.com/videos/general-tamil-videos/tvk-co]
+skip (N) could not open: பைக் மீது காா் மோதல்: பெண் உயிரிழப்பு [https://news.google.com/rss/articles/CBMihARBVV95cUxOaDVEekk] google news link not decoded (Request error in decode: Client error '429 Too Man
+skip (N) could not open: முசிறி விபத்து: மேலும் ஒருவா் உயிரிழப்பு இறந்தோா்  [https://news.google.com/rss/articles/CBMi2gZBVV95cUxNeGZxU2o] google news link not decoded (Request error in decode: Client error '429 Too Man
+candidate loop ended: left 0, tried={'N': 21}, done={'N': 1}, time left 49 min
+filed: 1 Trichy district stories (target 3), reels only
+queue: 6 news waiting to be written
+All News sheet: {"ok":true,"added":58,"updated":2}
+All News sheet: {"ok":true,"added":60,"updated":0}
+All News sheet: {"ok":true,"added":60,"updated":0}
+All News sheet: {"ok":true,"added":60,"updated":0}
+All News sheet: {"ok":true,"added":60,"updated":0}
+All News sheet: {"ok":true,"added":60,"updated":0}
+All News sheet: {"ok":true,"added":38,"updated":1} 
+stories: 1
