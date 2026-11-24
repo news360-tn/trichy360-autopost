@@ -108,6 +108,10 @@ def main():
         except Exception as e:
             fixed, why = None, f"failed: {str(e)[:150]}"
         if not fixed:
+            if re.search(r"all free models failed|no free model answered|^failed: ", why or ""):      # owner 24 Nov: busy AI writers are not the news's fault
+                tries[sid] -= 1
+                log(sid, "NOT fixed - the free AI writers are busy; tried again in a later run (this try is not counted):", (why or "")[:160])
+                break      # the writers are busy for the other news too - stop this run
             log(sid, "NOT fixed (try", tries[sid], "of", MAX_TRIES, "):", why)
             continue
         fixed.update(source=row["source"], story_id=sid, fixed_at=now.isoformat(timespec="seconds"), old_problems=problems_of(row)[:600])

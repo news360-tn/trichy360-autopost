@@ -4,8 +4,8 @@ name: autofix
 # poster/fixed/ and the posting job posts that corrected text. At most 2 tries per news (research_free/autofix.py).
 on:
   schedule:
-    - cron: "17,47 0-17 * * *"      # 05:47 - 23:17 IST
-    - cron: "47 23 * * *"           # 05:17 IST
+    - cron: "1,31 0-17 * * *"      # owner 24 Nov: each page at its own minutes (the free AI writers were busy when all 7 ran together)
+    - cron: "31 23 * * *"
   workflow_dispatch:
 permissions:
   contents: write
