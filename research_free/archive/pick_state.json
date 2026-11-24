@@ -35,7 +35,8 @@
    "category": "மின்தடை",
    "score": 12.09,
    "power_cut": true,
-   "listed_at": "2026-11-24T07:17:57.524474+05:30"
+   "listed_at": "2026-11-24T07:17:57.524474+05:30",
+   "picked_at": "2026-11-24T07:19:32.633014+05:30"
   },
   "Ccf7ca81": {
    "id": "Ccf7ca81",
@@ -47,7 +48,8 @@
    "category": "மின்தடை",
    "score": 12.09,
    "power_cut": true,
-   "listed_at": "2026-11-24T07:17:57.524474+05:30"
+   "listed_at": "2026-11-24T07:17:57.524474+05:30",
+   "picked_at": "2026-11-24T07:19:32.633017+05:30"
   }
  },
  "rounds": {
@@ -467,8 +469,18 @@
    ],
    "sent": false,
    "deadline": "2026-11-24T08:17:57.524474+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 7 of 2 by insights + 2 power cut",
+    "ids": [
+     "C1d5b115",
+     "Ccf7ca81"
+    ],
+    "at": "2026-11-24T07:19:32.633002+05:30"
+   },
+   "written": [
+    "C1d5b115",
+    "Ccf7ca81"
+   ]
   }
  },
  "retry": {
