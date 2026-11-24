@@ -128,5 +128,31 @@
     "Kumbakonam, Tamil Nadu": 18
    }
   }
+ },
+ "2026-11-25": {
+  "trichy": {
+   "reach": 59341,
+   "reach_by_follow_type": {
+    "NON_FOLLOWER": 57702,
+    "FOLLOWER": 1382
+   },
+   "follower_cities": {
+    "Tiruchirappalli, Tamil Nadu": 915,
+    "Chennai, Tamil Nadu": 141,
+    "Kulittalai, Tamil Nadu": 103,
+    "Lalgudi, Tamil Nadu": 80,
+    "Musiri, Tamil Nadu": 50,
+    "Tuticorin, Tamil Nadu": 42,
+    "Madurai, Tamil Nadu": 35,
+    "Manapparai, Tamil Nadu": 33,
+    "Turaiyur, Tamil Nadu": 31,
+    "Karur, Tamil Nadu": 29,
+    "Mannachanallur, Tamil Nadu": 26,
+    "Coimbatore, Tamil Nadu": 24,
+    "Tiruchengodu, Tamil Nadu": 24,
+    "Singapore, Singapore": 22,
+    "Krishnagiri, Tamil Nadu": 21
+   }
+  }
  }
 }

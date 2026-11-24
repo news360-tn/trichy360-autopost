@@ -1,11 +1,13 @@
-23:39:48 round 2026-11-24_23: news published 24 Nov 22:38 -> 24 Nov 23:39 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-23:39:48 insights 2026-11-24T23:39+05:30 (138 reels): topic weights {'accident': 1.21, 'crime': 1.5, 'power_cut': 1.09, 'civic': -0.03, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.45}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-23:40:12 open search 'திருச்சி' (from_google): 0 links from our outlets
-23:40:12 63 links on the two papers' Trichy pages
-23:41:23 skipped: published before this window=24, already posted=20, same event already posted=8, not Trichy district=8, only a headline=2
-23:41:23 list: 0 new + 0 earlier news not posted yet
-23:41:23 no news in this window - no e-mail
-ROUND=2026-11-24_23
-23:41:25 no list this round - nothing to post
-PICK_URLS=
-23:41:26 verify: no decided round
+02:15:51 round 2026-11-25_02: news published 24 Nov 23:39 -> 25 Nov 02:15 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+02:15:51 insights 2026-11-25T02:15+05:30 (138 reels): topic weights {'accident': 1.21, 'crime': 1.5, 'power_cut': 1.01, 'civic': -0.03, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.45}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+02:17:01 open search 'திருச்சி' (from_google): 0 links from our outlets
+02:17:01 74 links on the two papers' Trichy pages
+02:18:33 skipped: published before this window=24, not Trichy district=19, already posted=16, same event already posted=8, only a headline=2
+02:18:33 list: 5 new + 0 earlier news not posted yet
+02:18:33    1. [குற்றம்] இணைய லாட்டரியில் பரிசு விழுந்ததாகக் கூறி ஓய்வுபெற்ற ஆவின் ஊழியரிடம் ரூ (தினமணி)
+02:18:33    2. [குற்றம்] ஓய்வு பெற்ற தனியாா் வங்கி ஊழியரிடம் இணைய வழியில் ரூ.57.33 லட்சம் மோசடி (தினமணி)
+02:18:33    3. [விபத்து] ஸ்ரீரங்கம் கோயிலில் பக்தா் மயங்கி விழுந்து உயிரிழப்பு (தினமணி)
+02:18:33    4. [சாலை] பெண் இறப்பில் சந்தேகம்: உறவினா்கள் சாலை மறியல் (தினமணி)
+02:18:33    5. [ஆன்மிகம்] ஸ்ரீரங்கம், திருவானைக்காவல் கோயில்களில் காா்த்திகை சொக்கப்பனை (தினமணி)
+02:18:33 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-25_02
