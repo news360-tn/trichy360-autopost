@@ -25,7 +25,8 @@
    "category": "குற்றம்",
    "score": 12.5,
    "power_cut": false,
-   "listed_at": "2026-11-24T18:13:52.207755+05:30"
+   "listed_at": "2026-11-24T18:13:52.207755+05:30",
+   "picked_at": "2026-11-24T18:15:10.015128+05:30"
   },
   "C671c35c": {
    "id": "C671c35c",
@@ -37,7 +38,8 @@
    "category": "சாலை",
    "score": 8.15,
    "power_cut": false,
-   "listed_at": "2026-11-24T18:13:52.207755+05:30"
+   "listed_at": "2026-11-24T18:13:52.207755+05:30",
+   "picked_at": "2026-11-24T18:15:10.015130+05:30"
   }
  },
  "rounds": {
@@ -451,8 +453,18 @@
    ],
    "sent": false,
    "deadline": "2026-11-24T19:13:52.207755+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 6 of 2 by insights",
+    "ids": [
+     "Cf348a0a",
+     "C671c35c"
+    ],
+    "at": "2026-11-24T18:15:10.015117+05:30"
+   },
+   "written": [
+    "C671c35c",
+    "Cf348a0a"
+   ]
   }
  },
  "retry": {
