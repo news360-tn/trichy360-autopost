@@ -1,24 +1,10 @@
-07:17:57 round 2026-11-24_07: news published 24 Nov 04:31 -> 24 Nov 07:17 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி - Trichy)
-07:17:57 insights 2026-11-24T07:17+05:30 (129 reels): topic weights {'accident': 0.75, 'crime': 1.5, 'power_cut': 0.09, 'civic': 0.18, 'education': -0.5, 'politics': -0.26, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.2}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-07:18:27 open search 'திருச்சி' (from_google): 0 links from our outlets
-07:18:27 39 links on the two papers' Trichy pages
-07:19:30 skipped: already posted=12, published before this window=11, not Trichy district=9, same event already posted=3, could not open (403 Client Error: Forbidden for url: https://tamil)=1
-07:19:31 list: 2 new + 2 earlier news not posted yet
-07:19:31    1. [மின்தடை] மணப்பாறையில் நாளை மின் நிறுத்தம் (தினமணி)
-07:19:31    2. [மின்தடை] புத்தனாம்பட்டி பகுதியில் நாளை மின்தடை (தினமணி)
-07:19:31    3. [விபத்து] திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல (தினத்தந்தி) (earlier)
-07:19:31    4. [பொது] முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்! (தினகரன்) (earlier)
-07:19:31 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-24_07
-07:19:32    not picked automatically (suicide / obituary - only when the owner ticks it): திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல
-07:19:32    not picked automatically (suicide / obituary - only when the owner ticks it): முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்!
-07:19:32 round 2026-11-24_07 (at least 7, up to 3 more of well-watched topics): 2 news to choose from (0 from earlier rounds), ranked by this page's insights
-07:19:32   PICK   1.  12.4 [power_cut +0.09 page] மணப்பாறையில் நாளை மின் நிறுத்தம்
-07:19:32   PICK   2.  12.4 [power_cut +0.09 page] புத்தனாம்பட்டி பகுதியில் நாளை மின்தடை
-07:19:32 decided: automatic: top 7 of 2 by insights + 2 power cut -> 2 news to write and post
-PICK_URLS=https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/23/மணப்பாறையில்-நாளை-மின்-நிறுத்தம்-2 https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/23/புத்தனாம்பட்டி-பகுதியில்-நாளை-மின்தடை
-07:24:02 1 picked news refused by the writer - not offered again
-07:24:02 1 listed news now in the Sheet
-07:24:10 verify 2026-11-24_07: 0 of 2 picked news posted, 2 skipped on purpose, 0 waiting for their posting start
-07:24:10    SKIPPED C1d5b115: skipped RN-135: held: fact-check problems - numbers not found in the article: 6 - மணப்பாறையில் நாளை மின் நிறுத்தம்
-07:24:10    SKIPPED Ccf7ca81: skipped: the writer refused it - not filed: duplicate after write - புத்தனாம்பட்டி பகுதியில் நாளை மின்தடை
+08:26:04 round 2026-11-24_08: news published 24 Nov 07:17 -> 24 Nov 08:26 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி - Trichy)
+08:26:04 insights 2026-11-24T08:26+05:30 (130 reels): topic weights {'accident': 0.76, 'crime': 1.5, 'power_cut': 0.1, 'civic': 0.19, 'education': -0.5, 'politics': -0.25, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.19}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+08:26:22 open search 'திருச்சி' (from_google): 0 links from our outlets
+08:26:22 32 links on the two papers' Trichy pages
+08:27:00 skipped: already posted=13, published before this window=11, same event already posted=3, not Trichy district=2, could not open (403 Client Error: Forbidden for url: https://tamil)=1
+08:27:00 list: 0 new + 2 earlier news not posted yet
+08:27:00    1. [விபத்து] திருச்சி கார் விபத்தில் 8 பேர் உயிரிழப்பு - நயினார் நாகேந்திரன் இரங்கல (தினத்தந்தி) (earlier)
+08:27:00    2. [பொது] முசிறி அருகே கோர விப*து: 8 பேர் உயிரி*ப்பு - கனிமொழி எம்.பி. இரங்கல்! (தினகரன்) (earlier)
+08:27:00 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-24_08
