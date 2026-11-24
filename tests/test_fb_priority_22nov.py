@@ -50,7 +50,7 @@ class FacebookPriority(unittest.TestCase):
     def test_settings(self):
         wf = (ROOT / ".github" / "workflows" / "post.yml").read_text(encoding="utf-8")
         self.assertIn('FB_GAP_MIN: "5"', wf)      # owner 23 Nov: 5 minutes, like Instagram
-        self.assertIn('FB_TOP_PER_DAY: "30"', wf)      # owner 24 Nov: every news like Instagram (Meta's 30-a-day limit)
+        self.assertIn('FB_TOP_PER_DAY: "20"', wf)      # owner 24 Nov: 20 a day
         self.assertEqual(wf.count("FB_TOP_PER_DAY"), 1)
 
 
