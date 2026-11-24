@@ -69,7 +69,7 @@ def bridge_get(action, **params):
     # A read is safe to repeat, so slow / failed answers are retried before giving up.
     for k in range(3):
         try:
-            r = requests.get(BRIDGE_URL, params={"action": action, "key": BRIDGE_KEY, **params}, timeout=120)
+            r = requests.get(BRIDGE_URL, params={"action": action, "key": BRIDGE_KEY, **params}, timeout=120 + 60 * k)      # owner 24 Nov: a busy sheet gets 2, 3, then 4 minutes (Erode crashed 3 times on 120 s)
             if r.status_code < 500:
                 break
             err = f"HTTP {r.status_code}"
@@ -2712,7 +2712,7 @@ def facebook_share_email(now=None):
                     continue
                 stuck = d.get("status") == "waiting" or (d.get("status") == "failed" and int(d.get("tries", 0)) >= facebook.MAX_TRIES)
                 full = facebook.day_full(pg)      # owner 22 Nov: once the day's 15 are on Facebook, the rest goes to the e-mail at once
-                if stuck and d.get("ig_media") and (full or timedelta(hours=3) <= now - since) and now - since <= timedelta(hours=24):
+                if stuck and (d.get("ig_media") or d.get("ig_link")) and (full or timedelta(hours=3) <= now - since) and now - since <= timedelta(hours=24):
                     due.append((f, d))
             if not due:
                 continue
@@ -2723,9 +2723,10 @@ def facebook_share_email(now=None):
                     link = ig("GET", d["ig_media"], token, fields="permalink").get("permalink", "")
                 except Exception:
                     link = ""
+                link = link or d.get("ig_link", "")      # owner 24 Nov: a record that only knows the reel's Instagram link
                 if not link:
                     continue
-                head = str(d.get("caption") or d.get("story") or "").split("\n")[0][:120]
+                head = str(d.get("caption") or d.get("headline") or d.get("story") or "").split("\n")[0][:120]
                 items.append((head, link))
                 d.update(status="manual", why="e-mailed to the owner to share from Instagram", emailed=now.isoformat(timespec="seconds"), ig_link=link)
                 f.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")

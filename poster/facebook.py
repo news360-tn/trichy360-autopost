@@ -473,6 +473,12 @@ def share(page, sid, kind, media, caption, page_tag, dry=False, tags=None, story
             log(f"DRY RUN - not posting to Facebook ({page} {sid} {kind}, {len(media)} file(s)); caption would be:\n{cap}")
             return ""
         if kind == "reel" and posted_last_day(page, "reel") >= REEL_CAP:
+            if ig_media:      # owner 24 Nov (Coimbatore: 9 news silently skipped): it waits - posted when the 24 h limit allows, else e-mailed
+                _save(page, sid, kind, {"status": "waiting", "why": f"Facebook 24-hour reel limit {REEL_CAP} reached", "ig_media": ig_media,
+                                        "caption": cap, "link": src, "comment": comment, "with_story": story,
+                                        "waiting_since": _now().isoformat(timespec="seconds"), "rank": rank})
+                log(f"Facebook 24-hour reel limit {REEL_CAP} reached for {page} - {sid} waits (posted later, or e-mailed to the owner)")
+                return ""
             _save(page, sid, kind, {"status": "skipped", "why": f"Facebook daily reel limit {REEL_CAP} reached", "media": media})
             log(f"Facebook daily reel limit {REEL_CAP} reached for {page} - {sid} stays Instagram only")
             return ""

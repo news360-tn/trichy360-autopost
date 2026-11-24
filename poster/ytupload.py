@@ -146,5 +146,5 @@ def catchup(post, now=None):
             if "quotaExceeded" in str(e) or "uploadLimitExceeded" in str(e):      # the day's YouTube limit: no more tries today
                 st = _state(page)
                 st.setdefault("uploads", []).extend({"ig": "", "youtube": "", "day": now.astimezone(IST).strftime("%Y-%m-%d"),
-                                                     "at": now.isoformat(timespec="seconds"), "title": "limit"} for _ in range(6))
+                                                     "at": now.isoformat(timespec="seconds"), "title": "limit"} for _ in range(int(s["per_day"])))      # owner 24 Nov: the whole day's allowance (was 6 - with 20 a day it kept trying after the quota)
                 _save(page, st)

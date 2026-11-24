@@ -15,7 +15,7 @@ import post          # noqa: E402
 import ytupload      # noqa: E402
 
 IST = timezone(timedelta(hours=5, minutes=30))
-NOW = datetime(2026, 11, 21, 6, 0, tzinfo=timezone.utc)      # 11:30 IST
+NOW = datetime.now(timezone.utc).replace(hour=6, minute=0, second=0, microsecond=0)      # 11:30 IST today (owner 24 Nov: a fixed date broke after 3 days - old uploads are forgotten)
 KEYS = {"YT_CLIENT_ID_X": "id", "YT_CLIENT_SECRET_X": "sec", "YT_REFRESH_TOKEN_X": "ref"}
 
 
