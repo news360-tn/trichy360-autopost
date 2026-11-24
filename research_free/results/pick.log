@@ -1,11 +1,9 @@
-13:54:06 round 2026-11-24_13: news published 24 Nov 12:26 -> 24 Nov 13:54 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி - Trichy)
-13:54:06 insights 2026-11-24T13:54+05:30 (134 reels): topic weights {'accident': 0.68, 'crime': 1.5, 'power_cut': 0.35, 'civic': 0.17, 'education': -0.5, 'politics': -0.27, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.39}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-13:54:41 open search 'திருச்சி' (from_google): 0 links from our outlets
-13:54:41 40 links on the two papers' Trichy pages
-13:55:37 skipped: already posted=15, published before this window=11, not Trichy district=10, same event already posted=2, could not open (403 Client Error: Forbidden for url: https://tamil)=1
-13:55:37 list: 0 new + 0 earlier news not posted yet
-13:55:37 no news in this window - no e-mail
-ROUND=2026-11-24_13
-14:00:20 no list this round - nothing to post
-PICK_URLS=
-14:00:20 verify: no decided round
+16:33:09 round 2026-11-24_16: news published 24 Nov 13:54 -> 24 Nov 16:33 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி - Trichy)
+16:33:09 insights 2026-11-24T16:33+05:30 (135 reels): topic weights {'accident': 0.71, 'crime': 1.5, 'power_cut': 1.5, 'civic': 0.15, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.42}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+16:34:00 open search 'திருச்சி' (from_google): 2 links from our outlets
+16:34:00 46 links on the two papers' Trichy pages
+16:34:44 skipped: already posted=15, not Trichy district=14, published before this window=11, same event already posted=2, state-wide / other district=1, could not open (403 Client Error: Forbidden for url: https://tamil)=1
+16:34:44 list: 1 new + 0 earlier news not posted yet
+16:34:44    1. [பொது] திருச்சி வாழை ஆராய்ச்சி நிறுவனத்தில் டிகிரி தகுதிக்கு வேலை வாய்ப்பு; ர (இந்தியன் எக்ஸ்பிரஸ் தமிழ்)
+16:34:44 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-24_16
