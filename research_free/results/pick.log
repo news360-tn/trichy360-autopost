@@ -1,21 +1,9 @@
-20:29:34 round 2026-11-24_20: news published 24 Nov 18:13 -> 24 Nov 20:29 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-20:29:34 insights 2026-11-24T20:29+05:30 (137 reels): topic weights {'accident': 1.21, 'crime': 1.5, 'power_cut': 1.2, 'civic': -0.03, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.44}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-20:30:56 open search 'திருச்சி' (from_google): 1 links from our outlets
-20:30:56 56 links on the two papers' Trichy pages
-20:32:04 skipped: not Trichy district=24, already posted=15, published before this window=10, same event already posted=3, no title=1, could not open (403 Client Error: Forbidden for url: https://tamil)=1
-20:32:04 list: 1 new + 0 earlier news not posted yet
-20:32:04    1. [ஆன்மிகம்] திருச்சி உச்சிப்பிள்ளையார் கோயில் மலை மீது ஏற்றப்பட்ட தீபம்! (தினமணி)
-20:32:04 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-24_20
-20:32:06 round 2026-11-24_20 (at least 5, up to 3 more of well-watched topics): 1 news to choose from (0 from earlier rounds), ranked by this page's insights
-20:32:06   PICK   1.   3.0 [temple -0.50 page] திருச்சி உச்சிப்பிள்ளையார் கோயில் மலை மீது ஏற்றப்பட்ட தீபம்!
-20:32:06 decided: automatic: top 5 of 1 by insights -> 1 news to write and post
-PICK_URLS=https://www.dinamani.com/tamilnadu/2026/Nov/24/a-lamp-lit-atop-the-uchi-pillaiyar-temple-hill-in-trichy
-20:36:37 1 listed news now in the Sheet
-20:36:47 instagram duplicate check trichy: 50 recent posts read
-20:36:48 verify 2026-11-24_20: 0 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-20:36:48    NOT POSTED C945491d: queued RN-141 (Queued) - திருச்சி உச்சிப்பிள்ளையார் கோயில் மலை மீது ஏற்றப்பட்ட தீபம்!
-20:41:55 instagram duplicate check trichy: 50 recent posts read
-20:41:55 verify 2026-11-24_20: 0 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-20:41:55    NOT POSTED C945491d: queued RN-141 (Queued) - திருச்சி உச்சிப்பிள்ளையார் கோயில் மலை மீது ஏற்றப்பட்ட தீபம்!
-20:47:02 verify 2026-11-24_20: 1 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+22:31:14 round 2026-11-24_22: news published 24 Nov 20:29 -> 24 Nov 22:31 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+22:31:14 insights 2026-11-24T22:31+05:30 (138 reels): topic weights {'accident': 1.23, 'crime': 1.5, 'power_cut': 1.15, 'civic': -0.02, 'education': -0.5, 'politics': -0.27, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.43}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+22:32:19 open search 'திருச்சி' (from_google): 1 links from our outlets
+22:32:19 41 links on the two papers' Trichy pages
+22:33:16 skipped: already posted=15, published before this window=10, not Trichy district=10, same event already posted=3, only a headline=1
+22:33:16 list: 1 new + 0 earlier news not posted yet
+22:33:16    1. [பொது] திருச்சி மலைக்கோட்டையில் கார்த்திகை தீபம் (தினமலர்)
+22:33:16 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-24_22

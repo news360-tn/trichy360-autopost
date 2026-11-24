@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-24T20:29:34.632150+05:30",
+ "last_end": "2026-11-24T22:31:14.136635+05:30",
  "pool": {
   "Ccf7ca81": {
    "id": "Ccf7ca81",
@@ -15,39 +15,20 @@
    "picked_at": "2026-11-24T07:19:32.633017+05:30",
    "refused": "not filed: duplicate after write"
   },
-  "C945491d": {
-   "id": "C945491d",
-   "url": "https://www.dinamani.com/tamilnadu/2026/Nov/24/a-lamp-lit-atop-the-uchi-pillaiyar-temple-hill-in-trichy",
-   "title": "திருச்சி உச்சிப்பிள்ளையார் கோயில் மலை மீது ஏற்றப்பட்ட தீபம்!",
-   "summary": "திருச்சி மலைக்கோட்டை உச்சிப் பிள்ளையார் கோயில் மலை மீது இன்று (நவ. 24) மகா தீபம் ஏற்றப்பட்டது.மலைக்கோட்டை வளாகத்தில் அடிவாரத்தில் மாணிக்க விநாயகர் கோயிலும், நடுவில் தாயுமானசுவாமி கோயிலும் சிறப்பு பூஜைகள் நடத்தப்பட்டதை...",
-   "source": "தினமணி",
-   "published": "2026-11-24T13:31:12.000Z",
-   "category": "ஆன்மிகம்",
-   "score": 4.5,
+  "Cd4e9d58": {
+   "id": "Cd4e9d58",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-news/karthigai-lamp-at-trichy-hill-fort/4385383",
+   "title": "திருச்சி மலைக்கோட்டையில் கார்த்திகை தீபம்",
+   "summary": "திருச்சி: திருச்சி, மலைக்கோட்டையில், உச்சிப்பிள்ளையார் கோவில் அருகில் உள்ள கோபுரத்தில், இன்று (நவ.,24) மாலை, கார்த்திகை தீபம் ஏற்றப்பட்டது. மலைக்கோட்டையில், 273 அடி உயரத்தில், உச்சிப்பிள்ளையார் கோவிலுக்கு அருகே, 40 உய...",
+   "source": "தினமலர்",
+   "published": "2026-11-24T21:29:02+05:30",
+   "category": "பொது",
+   "score": 5.0,
    "power_cut": false,
-   "listed_at": "2026-11-24T20:29:34.632150+05:30",
-   "picked_at": "2026-11-24T20:32:06.748914+05:30",
-   "posted": true
+   "listed_at": "2026-11-24T22:31:14.136635+05:30"
   }
  },
  "rounds": {
-  "2026-11-22_23": {
-   "window": [
-    "2026-11-22T22:30:55.287136+05:30",
-    "2026-11-22T23:26:56.004589+05:30"
-   ],
-   "ids": [
-    "C1c5af13"
-   ],
-   "sent": false,
-   "deadline": "2026-11-23T00:26:56.004589+05:30",
-   "decided": {
-    "how": "automatic: top 3 of 0 by insights",
-    "ids": [],
-    "at": "2026-11-22T23:29:48.333465+05:30"
-   },
-   "written": []
-  },
   "2026-11-23_02": {
    "window": [
     "2026-11-22T23:26:56.004589+05:30",
@@ -463,22 +444,20 @@
    "written": [
     "C945491d"
    ]
+  },
+  "2026-11-24_22": {
+   "window": [
+    "2026-11-24T20:29:34.632150+05:30",
+    "2026-11-24T22:31:14.136635+05:30"
+   ],
+   "ids": [
+    "Cd4e9d58"
+   ],
+   "sent": false,
+   "deadline": "2026-11-24T23:31:14.136635+05:30",
+   "decided": null,
+   "written": []
   }
  },
- "retry": {
-  "https://tamil.news18.com/tamil-nadu/wife-kills-husband-with-grinding-stone-in-trichy-nw-kpk-ws-l-2260399.html": {
-   "it": {
-    "key": "CBMirgFBVV95cUxOcXRURFo2TFVxbnNBVkd6cG9GY3BpclgteWJLU2tVMEdHVHlsRjNxOURNS1UwZ0hmX214Tm9UaVJMNXJQZHo2OWcxVmtXcUxTUUR6V00zeVZTazB3Z191RHhfb3V0clFNR09YRDFUdG5CRFBtdWF4d3M5NnNwQy1ZY19lVjJLR213S0NkSVNBM1dKOEJPUF9MMVhleHBTN2Y2ZVppQjNJUDJMY014eXc",
-    "url": "https://tamil.news18.com/tamil-nadu/wife-kills-husband-with-grinding-stone-in-trichy-nw-kpk-ws-l-2260399.html",
-    "title": "மதுபோதையில் தகராறு: கணவனுக்கு மனைவி செய்த கொடூரம்.. திருச்சியில் பகீர் சம்பவம்!",
-    "site": "https://tamil.news18.com",
-    "source": "News18 Tamil",
-    "published": "2026-11-23T20:48:00+05:30",
-    "via": "google",
-    "query": "திருச்சி",
-    "snippet": " மதுபோதையில் தகராறு: கணவனுக்கு மனைவி செய்த கொடூரம்.. திருச்சியில் பகீர் சம்பவம்!    News18 Tamil "
-   },
-   "first": "2026-11-23T22:26:00.961893+05:30"
-  }
- }
+ "retry": {}
 }
