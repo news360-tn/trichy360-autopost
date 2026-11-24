@@ -25,7 +25,8 @@
    "category": "குற்றம்",
    "score": 12.5,
    "power_cut": false,
-   "listed_at": "2026-11-25T02:15:51.926414+05:30"
+   "listed_at": "2026-11-25T02:15:51.926414+05:30",
+   "picked_at": "2026-11-25T02:18:35.373784+05:30"
   },
   "Cfa37cfb": {
    "id": "Cfa37cfb",
@@ -37,7 +38,8 @@
    "category": "குற்றம்",
    "score": 12.5,
    "power_cut": false,
-   "listed_at": "2026-11-25T02:15:51.926414+05:30"
+   "listed_at": "2026-11-25T02:15:51.926414+05:30",
+   "picked_at": "2026-11-25T02:18:35.373787+05:30"
   },
   "Cf2196ee": {
    "id": "Cf2196ee",
@@ -49,7 +51,8 @@
    "category": "விபத்து",
    "score": 11.21,
    "power_cut": false,
-   "listed_at": "2026-11-25T02:15:51.926414+05:30"
+   "listed_at": "2026-11-25T02:15:51.926414+05:30",
+   "picked_at": "2026-11-25T02:18:35.373796+05:30"
   },
   "Ce58fdcc": {
    "id": "Ce58fdcc",
@@ -61,7 +64,8 @@
    "category": "சாலை",
    "score": 8.969999999999999,
    "power_cut": false,
-   "listed_at": "2026-11-25T02:15:51.926414+05:30"
+   "listed_at": "2026-11-25T02:15:51.926414+05:30",
+   "picked_at": "2026-11-25T02:18:35.373799+05:30"
   },
   "Cedc63ab": {
    "id": "Cedc63ab",
@@ -73,7 +77,8 @@
    "category": "ஆன்மிகம்",
    "score": 5.5,
    "power_cut": false,
-   "listed_at": "2026-11-25T02:15:51.926414+05:30"
+   "listed_at": "2026-11-25T02:15:51.926414+05:30",
+   "picked_at": "2026-11-25T02:18:35.373800+05:30"
   }
  },
  "rounds": {
@@ -481,8 +486,24 @@
    ],
    "sent": false,
    "deadline": "2026-11-25T03:15:51.926414+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 3 of 5 by insights",
+    "ids": [
+     "C4db5c38",
+     "Cfa37cfb",
+     "Cf2196ee",
+     "Ce58fdcc",
+     "Cedc63ab"
+    ],
+    "at": "2026-11-25T02:18:35.373770+05:30"
+   },
+   "written": [
+    "C4db5c38",
+    "Ce58fdcc",
+    "Cedc63ab",
+    "Cf2196ee",
+    "Cfa37cfb"
+   ]
   }
  },
  "retry": {}
