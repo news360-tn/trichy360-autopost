@@ -83,6 +83,21 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-24 | `978bd61` | Auto-fix held news (rewrite from the article, check again, post); Cloudinary fallbacks: pictures kept in the repo, reels direct then repo link; rasipalan and gold the same |
+| 2026-11-24 | `80eae43` | stories shared / Instagram pause |
+| 2026-11-24 | `5febbdc` | stories shared / Instagram pause |
+| 2026-11-24 | `7ebdfbc` | stories shared / Instagram pause |
+| 2026-11-24 | `e2495b1` | stories shared / Instagram pause |
+| 2026-11-24 | `4976203` | goldrate posted |
+| 2026-11-24 | `52792d1` | stories shared / Instagram pause |
+| 2026-11-24 | `acfef34` | stories shared / Instagram pause |
+| 2026-11-24 | `7cbfcf0` | stories shared / Instagram pause |
+| 2026-11-24 | `c2400c4` | stories shared / Instagram pause |
+| 2026-11-24 | `2e30de9` | stories shared / Instagram pause |
+| 2026-11-24 | `85cf08f` | stories shared / Instagram pause |
+| 2026-11-24 | `3da8b88` | stories shared / Instagram pause |
+| 2026-11-24 | `f91772a` | stories shared / Instagram pause |
+| 2026-11-24 | `a80f531` | stories shared / Instagram pause |
 | 2026-11-24 | `c3a74b8` | E-mail for every posted news again (posted_email each) |
 | 2026-11-24 | `416a8e5` | stories shared / Instagram pause |
 | 2026-11-24 | `bc62115` | pick: written and posted |
@@ -98,19 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-24 | `3da5f13` | Retry plan for any posting problem: 3 tries 5 minutes apart, then 2 tries 15 minutes apart, then Hold + one e-mail; 'account restricted' follows the same plan |
 | 2026-11-24 | `4167c34` | stories shared / Instagram pause |
 | 2026-11-24 | `b96f8e3` | stories shared / Instagram pause |
-| 2026-11-24 | `ca17762` | stories shared / Instagram pause |
-| 2026-11-24 | `80af25e` | stories shared / Instagram pause |
-| 2026-11-24 | `22ca0c8` | rasipalan posted |
-| 2026-11-24 | `b778be1` | stories shared / Instagram pause |
-| 2026-11-24 | `2dd2733` | stories shared / Instagram pause |
-| 2026-11-24 | `4b9bd44` | pick: written and posted |
-| 2026-11-24 | `d37fe88` | pick: picked news saved |
-| 2026-11-24 | `a12bc9c` | stories shared / Instagram pause |
-| 2026-11-24 | `58acbd8` | pick: picked news saved |
-| 2026-11-24 | `47ab038` | pick: list sent |
-| 2026-11-24 | `e61db03` | stories shared / Instagram pause |
-| 2026-11-24 | `8803223` | stories shared / Instagram pause |
-| 2026-11-24 | `7abc821` | stories shared / Instagram pause |
-| 2026-11-24 | `832fea2` | stories shared / Instagram pause |
-| 2026-11-24 | `055a4b4` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
