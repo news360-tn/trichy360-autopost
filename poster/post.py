@@ -1469,6 +1469,7 @@ def record_posted(sid, row, link, kind="reel"):
     """owner 21 Nov ("news posted e-mail not received - I don't know if news is posted"): every posted news leaves a tiny file
     poster/posted/<UTC time>-<page>-<story>.json (committed by post.yml); news360's posted_report.py e-mails ONE report for all
     pages 4 times a day. Files older than 3 days are removed. Never raises."""
+    tries_clear(sid)      # owner 24 Nov: posted - its retry count starts again from 0
     try:
         now = datetime.now(timezone.utc)
         POSTED_DIR.mkdir(parents=True, exist_ok=True)
@@ -1715,9 +1716,62 @@ def story_image(jpg, dst):
 
 
 # ---------------------------------------------------------------- main flows
+# owner 24 Nov: "any issue - retry 5 min after, max 3 times; still an issue - wait 15 min, retry 2 times" (then Hold + e-mail).
+# The posting gap itself (5 minutes) is not changed. Instagram's own limits (daily 50, blocked, too many requests) keep their waits.
+RETRY_PLAN_MIN = (5, 5, 5, 15, 15)
+
+
+def _tries_file():
+    return CACHE / f"_tries_{PAGE}.json"      # in poster/prebuilt: committed by the posting job
+
+
+def _tries_load():
+    try:
+        return json.loads(_tries_file().read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def _tries_save(st):
+    try:
+        CACHE.mkdir(parents=True, exist_ok=True)
+        _tries_file().write_text(json.dumps(st, ensure_ascii=False, indent=1), encoding="utf-8")
+    except Exception as x:
+        log("tries not saved:", str(x)[:120])
+
+
+def tries_clear(sid):
+    st = _tries_load()
+    if any(k.startswith(f"{sid}:") for k in st):
+        _tries_save({k: v for k, v in st.items() if not k.startswith(f"{sid}:")})
+
+
+def report_failure(row, kind, e):
+    """owner 24 Nov: a news that could not be posted waits 5 minutes (3 times), then 15 minutes (2 times) and is tried again; only after
+    the last try it goes on Hold and the owner gets ONE e-mail (the sheet puts a story on Hold at its 3rd error report)"""
+    sid = row.get("story_id")
+    key = f"{sid}:{kind}"
+    st = _tries_load()
+    v = st.get(key) or {"n": 0}
+    v["n"] = n = int(v.get("n", 0)) + 1
+    if n <= len(RETRY_PLAN_MIN):
+        wait = RETRY_PLAN_MIN[n - 1]
+        v.update(last=datetime.now(timezone.utc).isoformat(timespec="seconds"), error=str(e)[:300])
+        st[key] = v
+        _tries_save(st)
+        ig_pause(PAGE, e, "retry", minutes=wait)
+        log(f"NOT POSTED {sid} {kind} (try {n} of {len(RETRY_PLAN_MIN) + 1}) - tried again in {wait} minutes:", str(e)[:200])
+        return
+    st.pop(key, None)
+    _tries_save(st)
+    log(f"NOT POSTED {sid} {kind} after {n} tries - on Hold, the owner gets an e-mail:", str(e)[:200])
+    for _ in range(3):
+        bridge_post("error", {"row": row["row"], "page": PAGE, "kind": kind, "error": str(e)[:900]})
+
+
 def fail(row, kind, msg):
     log("NOT POSTED -", row["story_id"], msg)
-    bridge_post("error", {"row": row["row"], "page": PAGE, "kind": kind, "error": msg[:900]})
+    report_failure(row, kind, msg)
 
 
 def still_needed(sid, page, kind):
@@ -1776,7 +1830,7 @@ def ig_pause_file(page):
     return CACHE / f"_ig_paused_{page}.json"      # in poster/prebuilt: committed by the posting job, read by every later run
 
 
-PAUSE_WHY = {"block": "Instagram blocked publishing", "create": "Instagram's limit on new posts (too many made in 24 h)",
+PAUSE_WHY = {"restricted": "Instagram restricted this account (check the Instagram app: Settings - Account status)", "block": "Instagram blocked publishing", "create": "Instagram's limit on new posts (too many made in 24 h)",
              "rate": "Instagram asked to slow down (too many requests)",
              "retry": "Instagram had a temporary error - posting again after 5 minutes"}
 
@@ -1803,16 +1857,18 @@ def ig_paused(page):
     return ""
 
 
-def ig_pause(page, e, kind="block"):
+def ig_pause(page, e, kind="block", minutes=None):
     """owner 21 Nov (Trichy: 5 reels in 3 minutes, then 'action is blocked' 2207051; later 400+ story tries, then 'Media Creation Limit
     Exceeded' 2207069): trying again every few minutes makes a block / limit longer - this page's Instagram posting waits
     (block: config ig_block_pause_hours 6; too many posts made: ig_create_pause_hours 6; too many requests: ig_rate_pause_min 60).
     Its news is posted after that, nothing is lost. A longer pause that is already running is never shortened."""
     try:
-        if kind == "retry":      # owner 23 Nov: a temporary error - wait 10 minutes, then post again
-            hours = float(CONFIG.get("ig_retry_wait_min", 10)) / 60
+        if kind == "retry":      # owner 23 Nov: a temporary error - wait, then post again (owner 24 Nov: 5 or 15 minutes, RETRY_PLAN_MIN)
+            hours = float(minutes if minutes is not None else CONFIG.get("ig_retry_wait_min", 5)) / 60
         elif kind == "rate":
             hours = float(CONFIG.get("ig_rate_pause_min", 60)) / 60
+        elif kind == "restricted":      # owner 24 Nov: checked again every 2 hours (a restriction can lift in hours)
+            hours = float(CONFIG.get("ig_restricted_pause_hours", 2))
         elif kind == "create":
             hours = float(CONFIG.get("ig_create_pause_hours", 6))
         else:
@@ -1846,6 +1902,9 @@ def ig_limit_kind(e):
     '' not a limit | 'block' publishing blocked (2207051) | 'create' too many posts made in 24 h (2207069) |
     'quota' the 50 posts of 24 h are used (2207042) | 'rate' too many requests (code 4 / 9 / 17 / 32 / 613, 80002)"""
     t = str(e).lower()
+    if "2207050" in t or "user access is restricted" in t or "account is restricted" in t:
+        return "restricted"      # owner 24 Nov: from 05:13 IST Meta answered "The Instagram account is restricted" on 7 pages - every news
+        #                          was tried 3 times and put on Hold (18 e-mails); now the page waits and its news stays in the queue
     if "2207051" in t or "action is blocked" in t:
         return "block"
     if "2207069" in t or "media creation limit" in t or "allowed to be created" in t:
@@ -1860,6 +1919,8 @@ def ig_limit_kind(e):
 
 def is_limit_error(e):
     k = ig_limit_kind(e)
+    if k == "restricted":      # owner 24 Nov: not a limit - retried like any problem (RETRY_PLAN_MIN), then Hold
+        return False
     if k in ("block", "create", "rate"):      # owner 21 Nov: these wait like the daily limit (never "tried again in the next run" every few minutes)
         ig_pause(PAGE, e, k)
     return bool(k)
@@ -2161,7 +2222,7 @@ def run_ready_reel(row, page):
             log("LIMIT: Instagram post limit hit while posting ready reel", sid, "- waits, not a failure")
         else:
             log("ERROR ready reel", sid, e)
-            bridge_post("error", {"row": row["row"], "page": PAGE, "kind": "reel", "error": str(e)[:900]})
+            report_failure(row, "reel", e)
     return []
 
 
@@ -2427,11 +2488,11 @@ def run_story_page(row, page):
                 LIMIT[PAGE] = True
                 log("LIMIT: Instagram post limit hit while posting carousel", sid, "- waits, not a failure")
             elif is_transient(e):
-                log("TEMPORARY Instagram problem while posting carousel", sid, "- posted again after 5 minutes, not a failure:", str(e)[:200])
-                ig_pause(PAGE, e, "retry")
+                log("TEMPORARY Instagram problem while posting carousel", sid, str(e)[:200])
+                report_failure(row, "carousel", e)
             else:
                 log("ERROR carousel", sid, e)
-                bridge_post("error", {"row": row["row"], "page": PAGE, "kind": "carousel", "error": str(e)[:900]})
+                report_failure(row, "carousel", e)
     if need_reel:
         published = False
         try:
@@ -2476,11 +2537,11 @@ def run_story_page(row, page):
                 LIMIT[PAGE] = True
                 log("LIMIT: Instagram post limit hit while posting reel", sid, "- waits, not a failure")
             elif is_transient(e):
-                log("TEMPORARY Instagram problem while posting reel", sid, "- posted again after 5 minutes, not a failure:", str(e)[:200])
-                ig_pause(PAGE, e, "retry")      # owner 23 Nov: a temporary error waits 10 minutes, then the news posts
+                log("TEMPORARY Instagram problem while posting reel", sid, str(e)[:200])
+                report_failure(row, "reel", e)      # owner 23 Nov: a temporary error waits 10 minutes, then the news posts
             else:
                 log("ERROR reel", sid, e)
-                bridge_post("error", {"row": row["row"], "page": PAGE, "kind": "reel", "error": str(e)[:900]})
+                report_failure(row, "reel", e)
     return done
 
 

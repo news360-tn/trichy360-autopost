@@ -28,7 +28,8 @@ class FastPosting(unittest.TestCase):
 
     def test_wired_in(self):
         src = (ROOT / "poster" / "post.py").read_text(encoding="utf-8")
-        self.assertEqual(src.count('ig_pause(PAGE, e, "retry")'), 2)
+        self.assertEqual(src.count('ig_pause(PAGE, e, "retry", minutes=wait)'), 1)      # owner 24 Nov: through report_failure (5 / 15 min)
+        self.assertGreaterEqual(src.count('report_failure(row, "reel", e)'), 3)
         self.assertIn('"" if ig_pause_kind(p) == "retry" else ig_paused(p)', src)
         wf = (ROOT / ".github" / "workflows" / "post.yml").read_text(encoding="utf-8")
         self.assertIn('then sleep 120; else sleep 420; fi', wf)
