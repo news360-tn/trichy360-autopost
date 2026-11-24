@@ -19,6 +19,8 @@ permissions:
 concurrency:
   group: trichy-powercut
   cancel-in-progress: false
+env:
+  GH_MEDIA_TOKEN: ${{ github.token }}      # owner 24 Nov: Cloudinary refused -> the file is kept in this repository (poster/githost.py)
 jobs:
   powercut:
     runs-on: ubuntu-24.04

@@ -27,6 +27,8 @@ permissions:
 concurrency:
   group: trichy-pick
   cancel-in-progress: false
+env:
+  GH_MEDIA_TOKEN: ${{ github.token }}      # owner 24 Nov: Cloudinary refused -> the file is kept in this repository (poster/githost.py)
 jobs:
   pick:
     runs-on: ubuntu-24.04

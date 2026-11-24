@@ -83,7 +83,31 @@ def bridge_get(action, **params):
     data = r.json()
     if not data.get("ok"):
         raise RuntimeError(f"bridge {action}: {data.get('error')}")
+    if action in ("queue", "recent"):
+        apply_fixes(data.get("rows") or [])
     return data
+
+
+FIXED_DIR = ROOT / "poster" / "fixed"
+FIXED_FIELDS = ("headline_ta", "headline_en", "caption", "reel_script", "slides_spec", "location", "verification")
+
+
+def apply_fixes(rows):
+    """owner 24 Nov: a news the fact-check held is written again by research_free/autofix.py (its problems told to the writer, checked
+    again); the corrected text in poster/fixed/<story>.json replaces the sheet's text here, so the news posts with it. Never raises."""
+    try:
+        if not FIXED_DIR.exists():
+            return rows
+        for r in rows:
+            f = FIXED_DIR / f"{r.get('story_id')}.json"
+            if not f.exists():
+                continue
+            d = json.loads(f.read_text(encoding="utf-8"))
+            if d.get("source") and d["source"] == r.get("source"):
+                r.update({k: d[k] for k in FIXED_FIELDS if d.get(k)})
+    except Exception as e:
+        log("corrected texts not read:", str(e)[:120])
+    return rows
 
 
 def bridge_post(action, payload):
@@ -1004,6 +1028,15 @@ def render_reel(row, spec, images, work, voice_file=None):
 
 # ---------------------------------------------------------------- hosting + Instagram
 def upload(path, kind):
+    """owner 24 Nov: a picture Cloudinary refuses is kept in the page's GitHub repository (githost); a video raises as before -
+    publish_reel then sends the reel directly to Instagram, and the GitHub link is only the last resort"""
+    if kind == "video":
+        return upload_cloudinary(path, kind)
+    import githost
+    return githost.fallback(lambda: upload_cloudinary(path, kind), path, "image", log=log)
+
+
+def upload_cloudinary(path, kind):
     url = f"https://api.cloudinary.com/v1_1/{CLOUD}/{'video' if kind == 'video' else 'image'}/upload"
     with open(path, "rb") as f:
         r = requests.post(url, data={"upload_preset": PRESET, "folder": "trichy360"}, files={"file": f}, timeout=600)
@@ -1279,7 +1312,24 @@ def publish_reel(token, video_url, caption, collab, cover_url=""):
             mid, link = _publish_direct(d, cid)
             log("reel sent as a file (direct upload, no Cloudinary)")
             return mid, link, collab_ok, why
-    prm = dict(media_type="REELS", video_url=localmedia.hosted(video_url, "video"), caption=caption, share_to_feed="true")
+    try:
+        vurl = localmedia.hosted(video_url, "video")
+    except Exception as e:      # owner 24 Nov: Cloudinary refused the reel (credits used up / disabled) - never stop posting
+        if not path or ig_limit_kind(e):
+            raise
+        log("Cloudinary refused the reel - sending the file directly to Instagram (fresh check):", str(e)[:200])
+        d = igdirect.ready(PAGE, uid, fresh=True)
+        if d:
+            cid, collab_ok, why = _ig_direct(d, dict(prm, thumb_offset=str(COVER_AT_MS)), path, collab)
+            mid, link = _publish_direct(d, cid)
+            log("reel sent as a file (direct upload, Cloudinary not needed)")
+            return mid, link, collab_ok, why
+        import githost
+        if not githost.enabled():
+            raise
+        vurl = githost.host_file(path, "video")
+        log("direct upload not possible either - the reel goes by its GitHub link (last resort)")
+    prm = dict(media_type="REELS", video_url=vurl, caption=caption, share_to_feed="true")
     if cover_url:
         try:
             prm["cover_url"] = localmedia.hosted(cover_url, "image")   # chosen cover photo (sharp frame with the hook headline)

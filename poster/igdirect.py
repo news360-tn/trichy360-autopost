@@ -74,7 +74,7 @@ def is_permission_error(e):
                                 "not authorized", "missing permissions", "unsupported post request", "unsupported get request"))
 
 
-def ready(page, ig_uid=None):
+def ready(page, ig_uid=None, fresh=False):
     """(instagram account id, facebook token) when this page's reels and stories can go to Instagram as files; else None"""
     if not localmedia.enabled():
         return None
@@ -85,7 +85,7 @@ def ready(page, ig_uid=None):
         return None
     pid, tok = c
     key = (page, _th(tok))
-    d = _MEM.get(key) or _read(page, tok)
+    d = None if fresh else (_MEM.get(key) or _read(page, tok))      # owner 24 Nov: fresh = ask Facebook again now
     if d is None:
         try:
             r = facebook._call("GET", pid, tok, fields="instagram_business_account")

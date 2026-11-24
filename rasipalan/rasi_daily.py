@@ -84,6 +84,13 @@ def wait_ready(cid, token, minutes=6):
 
 
 def upload(path):
+    """owner 24 Nov: Cloudinary first; when it refuses, the image is kept in the page's GitHub repository (poster/githost.py)"""
+    sys.path.insert(0, str(ROOT / "poster"))
+    import githost
+    return githost.fallback(lambda: _upload_cloudinary(path), path, "image", log=lambda *a: print(*a, flush=True))
+
+
+def _upload_cloudinary(path):
     for attempt in range(3):      # 19 Nov: Cloudinary sometimes refuses once (400 / 5xx) - try again and log its reason
         with open(path, "rb") as f:
             r = requests.post(f"https://api.cloudinary.com/v1_1/{os.environ['CLOUDINARY_CLOUD']}/image/upload",
@@ -97,6 +104,13 @@ def upload(path):
 
 
 def upload_video(path):
+    """owner 24 Nov: Cloudinary first; when it refuses, the video is kept in the page's GitHub repository (poster/githost.py)"""
+    sys.path.insert(0, str(ROOT / "poster"))
+    import githost
+    return githost.fallback(lambda: _upload_video_cloudinary(path), path, "video", log=lambda *a: print(*a, flush=True))
+
+
+def _upload_video_cloudinary(path):
     """the rasipalan reel -> Cloudinary (this page's own folder: the 6-hourly clean-up removes it after 48 h)"""
     for attempt in range(3):
         with open(path, "rb") as f:

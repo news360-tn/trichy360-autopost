@@ -24,6 +24,7 @@ permissions:
   actions: write      # the watchdog restarts an overdue news collection / story writer
 
 env:
+  GH_MEDIA_TOKEN: ${{ github.token }}      # owner 24 Nov: Cloudinary refused -> the file is kept in this repository (poster/githost.py)
   BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
   BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
   PROMO_URL: ${{ secrets.PROMO_URL || 'https://script.google.com/macros/s/AKfycbxwMsz3A3kYGIRzrqJ7SS2Yfu-d0kR2zv4DBp8iWS3N3Ax3QEJ6KQxN69XtCTi2qvVF/exec' }}      # owner 20 Nov: approved promotion ads (poster/promo.py) - nothing happens without it

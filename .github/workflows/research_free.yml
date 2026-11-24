@@ -15,6 +15,8 @@ permissions:
   contents: write
   actions: write      # starts the posting job as soon as a story is saved
 concurrency: research-free-collect      # owner 29 Oct: own queue - a story-writer run can no longer replace (cancel) a waiting collection
+env:
+  GH_MEDIA_TOKEN: ${{ github.token }}      # owner 24 Nov: Cloudinary refused -> the file is kept in this repository (poster/githost.py)
 jobs:
   collect:
     runs-on: ubuntu-24.04

@@ -583,6 +583,13 @@ STYLE = ""      # the full photo style is in IMG_TEMPLATE (the old square / "dra
 
 
 def _upload_image(data):
+    """owner 24 Nov: Cloudinary first; when it refuses (credits used up / disabled) the picture is kept in the page's GitHub repository"""
+    sys.path.insert(0, str(HERE.parent / "poster"))
+    import githost
+    return githost.fallback(lambda: _upload_cloudinary(data), data, "image", "img.jpg", log=lambda *a: print(*a, flush=True))
+
+
+def _upload_cloudinary(data):
     cloud, preset = os.environ.get("CLOUDINARY_CLOUD"), os.environ.get("CLOUDINARY_PRESET")
     if not cloud or not preset:
         raise RuntimeError("Cloudinary secrets missing")
