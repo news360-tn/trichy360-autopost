@@ -1,24 +1,10 @@
-16:33:09 round 2026-11-24_16: news published 24 Nov 13:54 -> 24 Nov 16:33 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி - Trichy)
-16:33:09 insights 2026-11-24T16:33+05:30 (135 reels): topic weights {'accident': 0.71, 'crime': 1.5, 'power_cut': 1.5, 'civic': 0.15, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.42}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-16:34:00 open search 'திருச்சி' (from_google): 2 links from our outlets
-16:34:00 46 links on the two papers' Trichy pages
-16:34:44 skipped: already posted=15, not Trichy district=14, published before this window=11, same event already posted=2, state-wide / other district=1, could not open (403 Client Error: Forbidden for url: https://tamil)=1
-16:34:44 list: 1 new + 0 earlier news not posted yet
-16:34:44    1. [பொது] திருச்சி வாழை ஆராய்ச்சி நிறுவனத்தில் டிகிரி தகுதிக்கு வேலை வாய்ப்பு; ர (இந்தியன் எக்ஸ்பிரஸ் தமிழ்)
-16:34:44 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-24_16
-16:34:46 round 2026-11-24_16 (at least 6, up to 3 more of well-watched topics): 1 news to choose from (0 from earlier rounds), ranked by this page's insights
-16:34:46   PICK   1.   9.8 [jobs +0.60 pattern] திருச்சி வாழை ஆராய்ச்சி நிறுவனத்தில் டிகிரி தகுதிக்கு வேலை வ
-16:34:46 decided: automatic: top 6 of 1 by insights -> 1 news to write and post
-PICK_URLS=https://tamil.indianexpress.com/education-jobs/trichy-icar-nrcb-recruitment-2026-for-young-professional-genome-jobs-qualification-apply-online-last-date-12837595
-16:37:43 1 listed news now in the Sheet
-16:37:52 instagram duplicate check trichy: 50 recent posts read
-16:37:52 verify 2026-11-24_16: 0 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-16:37:52    NOT POSTED Cc93132e: queued RN-138 (Queued) - திருச்சி வாழை ஆராய்ச்சி நிறுவனத்தில் டிகிரி தகுதிக்கு வேலை வ
-16:42:59 instagram duplicate check trichy: 50 recent posts read
-16:42:59 verify 2026-11-24_16: 0 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-16:42:59    NOT POSTED Cc93132e: queued RN-138 (Queued) - திருச்சி வாழை ஆராய்ச்சி நிறுவனத்தில் டிகிரி தகுதிக்கு வேலை வ
-16:48:06 instagram duplicate check trichy: 50 recent posts read
-16:48:06 verify 2026-11-24_16: 0 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-16:48:06    NOT POSTED Cc93132e: queued RN-138 (Queued) - திருச்சி வாழை ஆராய்ச்சி நிறுவனத்தில் டிகிரி தகுதிக்கு வேலை வ
-16:53:13 verify 2026-11-24_16: 1 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+18:13:52 round 2026-11-24_18: news published 24 Nov 16:33 -> 24 Nov 18:13 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+18:13:52 insights 2026-11-24T18:13+05:30 (136 reels): topic weights {'accident': 0.64, 'crime': 1.5, 'power_cut': 0.18, 'civic': 0.15, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.42}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+18:14:22 open search 'திருச்சி' (from_google): 2 links from our outlets
+18:14:22 38 links on the two papers' Trichy pages
+18:15:08 skipped: already posted=15, published before this window=11, not Trichy district=5, same event already posted=2, no title=1, could not open (403 Client Error: Forbidden for url: https://tamil)=1
+18:15:08 list: 2 new + 0 earlier news not posted yet
+18:15:08    1. [குற்றம்] திருச்சியில் உச்ச நீதிமன்ற உத்தரவு நகலைக் கிழித்து போராட்டம்; ஜனநாயக த (இந்தியன் எக்ஸ்பிரஸ் தமிழ்)
+18:15:08    2. [சாலை] திருச்சியில் சாலைப் பணிகள் தடுத்து நிறுத்தம்; அதிகாரிகளுடன் பொதுமக்கள் (இந்தியன் எக்ஸ்பிரஸ் தமிழ்)
+18:15:08 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-24_18

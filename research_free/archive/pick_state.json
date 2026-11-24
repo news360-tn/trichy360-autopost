@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-24T16:33:09.783185+05:30",
+ "last_end": "2026-11-24T18:13:52.207755+05:30",
  "pool": {
   "Ccf7ca81": {
    "id": "Ccf7ca81",
@@ -15,59 +15,32 @@
    "picked_at": "2026-11-24T07:19:32.633017+05:30",
    "refused": "not filed: duplicate after write"
   },
-  "Cc93132e": {
-   "id": "Cc93132e",
-   "url": "https://tamil.indianexpress.com/education-jobs/trichy-icar-nrcb-recruitment-2026-for-young-professional-genome-jobs-qualification-apply-online-last-date-12837595",
-   "title": "திருச்சி வாழை ஆராய்ச்சி நிறுவனத்தில் டிகிரி தகுதிக்கு வேலை வாய்ப்பு; ரூ.30000 சம்பளம்; மிஸ் பண்ணாதீங்க",
-   "summary": "தமிழகத்தில், திருச்சியில் அமைந்துள்ள தேசிய வாழை ஆராய்ச்சி நிறுவனத்தில் (ICAR NRCB) இளம் நிபுணர் பணியிடத்திற்கான வேலைவாய்ப்பு அறிவிப்பு வெளியிடப்பட்டுள்ளது.",
+  "Cf348a0a": {
+   "id": "Cf348a0a",
+   "url": "https://tamil.indianexpress.com/tamilnadu/trichy-democratic-labour-front-protest-tore-supreme-court-thirupparankundram-order-copy-12837975",
+   "title": "திருச்சியில் உச்ச நீதிமன்ற உத்தரவு நகலைக் கிழித்து போராட்டம்; ஜனநாயக தொழிலாளர் முன்னணியினர் கைது",
+   "summary": "திருச்சி மாநகரத்தின் தில்லை நகர் 7-வது குறுக்குத் தெருவில், உச்ச நீதிமன்றத்தின் இடைக்கால உத்தரவு நகலைக் கிழித்து எரித்த ஜனநாயக தொழிலாளர் முன்னணியினரைக் காவல்துறையினர் தடுத்து நிறுத்தி கைது செய்தனர்.",
    "source": "இந்தியன் எக்ஸ்பிரஸ் தமிழ்",
-   "published": "2026-11-24T14:56:05+05:30",
-   "category": "பொது",
-   "score": 8.0,
+   "published": "2026-11-24T16:47:39+05:30",
+   "category": "குற்றம்",
+   "score": 12.5,
    "power_cut": false,
-   "listed_at": "2026-11-24T16:33:09.783185+05:30",
-   "picked_at": "2026-11-24T16:34:46.146308+05:30",
-   "posted": true
+   "listed_at": "2026-11-24T18:13:52.207755+05:30"
+  },
+  "C671c35c": {
+   "id": "C671c35c",
+   "url": "https://tamil.indianexpress.com/tamilnadu/trichy-residents-stop-road-works-asks-complete-sewage-plans-12837941",
+   "title": "திருச்சியில் சாலைப் பணிகள் தடுத்து நிறுத்தம்; அதிகாரிகளுடன் பொதுமக்கள் வாக்குவாதம்",
+   "summary": "பாதாள சாக்கடை பணிகளை முடிக்காமல் சாலை போடுவதற்கு திருச்சி சண்முகா நகர் நலச் சங்கத்தினர், பொதுமக்கள் எதிர்ப்பு தெரிவித்து அதிகாரிகளுடன் வாக்குவாதத்தில் ஈடுபட்டதால் பரபரப்பு நிலவியது.",
+   "source": "இந்தியன் எக்ஸ்பிரஸ் தமிழ்",
+   "published": "2026-11-24T16:36:36+05:30",
+   "category": "சாலை",
+   "score": 8.15,
+   "power_cut": false,
+   "listed_at": "2026-11-24T18:13:52.207755+05:30"
   }
  },
  "rounds": {
-  "2026-11-22_20": {
-   "window": [
-    "2026-11-22T16:33:42.015177+05:30",
-    "2026-11-22T20:19:33.583398+05:30"
-   ],
-   "ids": [
-    "Cff2ab8a",
-    "C234018f",
-    "C5c448f4",
-    "C67ea807",
-    "C1ddb5cc"
-   ],
-   "sent": false,
-   "deadline": "2026-11-22T21:19:33.583398+05:30",
-   "decided": {
-    "how": "automatic: top 5 of 5 by insights",
-    "ids": [
-     "Cff2ab8a",
-     "C234018f",
-     "C5c448f4",
-     "C67ea807",
-     "C1ddb5cc"
-    ],
-    "at": "2026-11-22T20:22:22.150182+05:30"
-   },
-   "written": [
-    "C1ddb5cc",
-    "C234018f",
-    "C5c448f4",
-    "C67ea807",
-    "Cff2ab8a"
-   ],
-   "refused": {
-    "C234018f": "not filed: duplicate after write",
-    "Cff2ab8a": "not filed: duplicate after write"
-   }
-  },
   "2026-11-22_22": {
    "window": [
     "2026-11-22T20:19:33.583398+05:30",
@@ -466,6 +439,20 @@
    "written": [
     "Cc93132e"
    ]
+  },
+  "2026-11-24_18": {
+   "window": [
+    "2026-11-24T16:33:09.783185+05:30",
+    "2026-11-24T18:13:52.207755+05:30"
+   ],
+   "ids": [
+    "Cf348a0a",
+    "C671c35c"
+   ],
+   "sent": false,
+   "deadline": "2026-11-24T19:13:52.207755+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {
