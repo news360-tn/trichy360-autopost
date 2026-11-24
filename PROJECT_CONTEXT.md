@@ -83,6 +83,18 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-24 | `c3a74b8` | E-mail for every posted news again (posted_email each) |
+| 2026-11-24 | `416a8e5` | stories shared / Instagram pause |
+| 2026-11-24 | `bc62115` | pick: written and posted |
+| 2026-11-24 | `db25433` | pick: picked news saved |
+| 2026-11-24 | `205beec` | pick: list sent |
+| 2026-11-24 | `3f40ef0` | pick: written and posted |
+| 2026-11-24 | `8a3d894` | pick: picked news saved |
+| 2026-11-24 | `cc66121` | pick: list sent |
+| 2026-11-24 | `30fb013` | stories shared / Instagram pause |
+| 2026-11-24 | `50bb28d` | facebook RN-134 |
+| 2026-11-24 | `62e0d0f` | posted RN-134 |
+| 2026-11-24 | `a139601` | stories shared / Instagram pause |
 | 2026-11-24 | `3da5f13` | Retry plan for any posting problem: 3 tries 5 minutes apart, then 2 tries 15 minutes apart, then Hold + one e-mail; 'account restricted' follows the same plan |
 | 2026-11-24 | `4167c34` | stories shared / Instagram pause |
 | 2026-11-24 | `b96f8e3` | stories shared / Instagram pause |
@@ -101,16 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-24 | `7abc821` | stories shared / Instagram pause |
 | 2026-11-24 | `832fea2` | stories shared / Instagram pause |
 | 2026-11-24 | `055a4b4` | stories shared / Instagram pause |
-| 2026-11-24 | `d56c493` | stories shared / Instagram pause |
-| 2026-11-24 | `2e8603c` | stories shared / Instagram pause |
-| 2026-11-24 | `8833052` | stories shared / Instagram pause |
-| 2026-11-24 | `336fe0d` | stories shared / Instagram pause |
-| 2026-11-24 | `4204158` | stories shared / Instagram pause |
-| 2026-11-24 | `a9b03e8` | stories shared / Instagram pause |
-| 2026-11-24 | `5d99aff` | stories shared / Instagram pause |
-| 2026-11-24 | `6cfc27b` | stories shared / Instagram pause |
-| 2026-11-24 | `509f6f0` | stories shared / Instagram pause |
-| 2026-11-23 | `f8ecb86` | stories shared / Instagram pause |
-| 2026-11-23 | `5c01085` | stories shared / Instagram pause |
-| 2026-11-23 | `e766018` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
