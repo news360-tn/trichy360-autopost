@@ -83,34 +83,34 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
-| 2026-11-24 | `cb925a2` | Facebook: 20 news a day per page (owner 24 Nov) |
-| 2026-11-24 | `d9680da` | stories shared / Instagram pause |
-| 2026-11-24 | `67f5b1a` | stories shared / Instagram pause |
-| 2026-11-24 | `00f9848` | stories shared / Instagram pause |
-| 2026-11-24 | `035861a` | stories shared / Instagram pause |
-| 2026-11-24 | `bfdbe73` | pick: written and posted |
-| 2026-11-24 | `89dcadd` | facebook RN-138 |
-| 2026-11-24 | `a417576` | posted RN-138 |
-| 2026-11-24 | `518f5eb` | goldrate posted |
-| 2026-11-24 | `b78e58b` | A self-immolation / suicide ATTEMPT where nobody died (a protest) is news and posts automatically - a death still needs the owner's tick; Samayam Tamil is a trusted outlet |
-| 2026-11-24 | `ff92424` | stories shared / Instagram pause |
-| 2026-11-24 | `8a329e0` | pick: picked news saved |
-| 2026-11-24 | `40599ab` | pick: picked news saved |
-| 2026-11-24 | `0826440` | pick: list sent |
-| 2026-11-24 | `01834bf` | stories shared / Instagram pause |
-| 2026-11-24 | `6fc5e88` | stories shared / Instagram pause |
-| 2026-11-24 | `c1db522` | stories shared / Instagram pause |
-| 2026-11-24 | `3800557` | stories shared / Instagram pause |
-| 2026-11-24 | `537751a` | powercut: notices written |
-| 2026-11-24 | `ac64103` | stories shared / Instagram pause |
-| 2026-11-24 | `f33637c` | facebook RN-137 |
-| 2026-11-24 | `498eb43` | posted RN-137 |
-| 2026-11-24 | `9521454` | stories shared / Instagram pause |
-| 2026-11-24 | `601887f` | powercut: notices written |
-| 2026-11-24 | `9fd0922` | stories shared / Instagram pause |
-| 2026-11-24 | `1fe44f5` | stories shared / Instagram pause |
-| 2026-11-24 | `c7a1f9b` | stories shared / Instagram pause |
-| 2026-11-24 | `36bd2f0` | stories shared / Instagram pause |
-| 2026-11-24 | `54420b6` | stories shared / Instagram pause |
-| 2026-11-24 | `6f95692` | stories shared / Instagram pause |
+| 2026-11-24 | `9a537cb` | More district source pages: Hindu Tamil, Vikatan, Polimer (and OneIndia where it has the district) - Trichy, Tiruppur, Salem, Erode, Karur read only 1-2 pages |
+| 2026-11-24 | `227934f` | stories shared / Instagram pause |
+| 2026-11-24 | `983a9e7` | stories shared / Instagram pause |
+| 2026-11-24 | `13a1f39` | stories shared / Instagram pause |
+| 2026-11-24 | `78283b1` | stories shared / Instagram pause |
+| 2026-11-24 | `fc0a1df` | stories shared / Instagram pause |
+| 2026-11-24 | `40ecc48` | stories shared / Instagram pause |
+| 2026-11-24 | `18793d6` | stories shared / Instagram pause |
+| 2026-11-24 | `3217dc0` | stories shared / Instagram pause |
+| 2026-11-24 | `2b27c22` | stories shared / Instagram pause |
+| 2026-11-24 | `f96cdd6` | stories shared / Instagram pause |
+| 2026-11-24 | `1095e88` | stories shared / Instagram pause |
+| 2026-11-24 | `384c9f6` | stories shared / Instagram pause |
+| 2026-11-24 | `3e9eb60` | stories shared / Instagram pause |
+| 2026-11-24 | `236eddf` | stories shared / Instagram pause |
+| 2026-11-24 | `22ba700` | pick: written and posted |
+| 2026-11-24 | `e1065a2` | facebook RN-141 |
+| 2026-11-24 | `7c91b6c` | posted RN-141 |
+| 2026-11-24 | `586e8e2` | stories shared / Instagram pause |
+| 2026-11-24 | `c98ddd3` | pick: picked news saved |
+| 2026-11-24 | `0a797c9` | pick: picked news saved |
+| 2026-11-24 | `b83a842` | pick: list sent |
+| 2026-11-24 | `283d38e` | stories shared / Instagram pause |
+| 2026-11-24 | `8c43b36` | stories shared / Instagram pause |
+| 2026-11-24 | `f9de546` | stories shared / Instagram pause |
+| 2026-11-24 | `54cee5a` | stories shared / Instagram pause |
+| 2026-11-24 | `00494f2` | stories shared / Instagram pause |
+| 2026-11-24 | `ffa2ecf` | stories shared / Instagram pause |
+| 2026-11-24 | `2ffa5b9` | stories shared / Instagram pause |
+| 2026-11-24 | `1740fd6` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
