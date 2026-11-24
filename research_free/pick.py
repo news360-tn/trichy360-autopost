@@ -52,8 +52,10 @@ OUTLETS = {"tamil.oneindia.com": "ஒன்இந்தியா", "dinamalar.co
            # owner 23 Nov: more trusted Tamil outlets - important district news (a petrol-bunk murder, a child killed by wasps, a new
            # Trichy-Malaysia flight) came only from these; found by ONE open Google News search a round (OPEN_OUTLETS), not one search each
            "vikatan.com": "விகடன்", "tamil.abplive.com": "ஏபிபி நாடு", "tamil.news18.com": "நியூஸ்18 தமிழ்",
-           "tamil.indianexpress.com": "இந்தியன் எக்ஸ்பிரஸ் தமிழ்", "puthiyathalaimurai.com": "புதிய தலைமுறை", "thanthitv.com": "தந்தி டிவி"}
-OPEN_OUTLETS = ("vikatan.com", "tamil.abplive.com", "tamil.news18.com", "tamil.indianexpress.com", "puthiyathalaimurai.com", "thanthitv.com")
+           "tamil.indianexpress.com": "இந்தியன் எக்ஸ்பிரஸ் தமிழ்", "puthiyathalaimurai.com": "புதிய தலைமுறை", "thanthitv.com": "தந்தி டிவி",
+           "tamil.samayam.com": "சமயம் தமிழ்"}      # owner 24 Nov (Times group; a Trichy airport news came only from it)
+OPEN_OUTLETS = ("vikatan.com", "tamil.abplive.com", "tamil.news18.com", "tamil.indianexpress.com", "puthiyathalaimurai.com", "thanthitv.com",
+                "tamil.samayam.com")
 
 
 def log(*a):
@@ -271,10 +273,16 @@ AUTO_SKIP = re.compile(r"தற்கொலை|தூக்கிட்டு|�
 AUTO_LOW = re.compile(r"ஆராதனை|குருபூஜை|பொன் விழா|வெள்ளி விழா|வைர விழா|கருத்தரங்க|ஷாப்பிங்|பர்ச்சேஸ்|வாங்கலாம்|மாடித்தோட்ட")
 
 
+# owner 24 Nov ("சேலம் கலெக்டர் ஆபீசில் பெண், முதியவர் தீக்குளிக்க முயற்சி" was held as a suicide news): an ATTEMPT where nobody died - mostly a
+# protest at the collector's office - is posted automatically; a death (suicide / obituary) still needs the owner's tick
+ATTEMPT_PROTEST = re.compile(r"(தீக்குளி(க்க|ப்பு)?|தற்கொலை(க்கு)?)\s*முயற்சி|தீக்குளிக்க\s*முயன்ற")
+DEATH_WORDS = re.compile(r"உயிரிழ|பலி|சாவு|மரணம்|இறந்த|காலமான|மறைவு")
+
+
 def auto_ok(it):
     """'' = may be picked automatically, else why not"""
     t = it.get("title") or ""
-    if AUTO_SKIP.search(t):
+    if AUTO_SKIP.search(t) and not (ATTEMPT_PROTEST.search(t) and not DEATH_WORDS.search(t)):      # owner 24 Nov: an attempt (nobody died) is news
         return "suicide / obituary - only when the owner ticks it"
     if AUTO_LOW.search(t):
         return "ceremony / shopping feature - only when the owner ticks it"
