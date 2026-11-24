@@ -1,43 +1,40 @@
-08:19:22 SKIP RN-4 stale: published 12 Nov, older than yesterday
-08:19:22 SKIP RN-19 stale: published 14 Nov, older than yesterday
-08:19:22 SKIP RN-22 stale: published 14 Nov, older than yesterday
-08:19:22 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-08:19:22 SKIP RN-29 stale: published 14 Nov, older than yesterday
-08:19:22 SKIP RN-42 stale: published 16 Nov, older than yesterday
-08:19:22 SKIP RN-45 stale: published 16 Nov, older than yesterday
-08:19:22 SKIP RN-71 stale: published 18 Nov, older than yesterday
-08:19:22 SKIP RN-92 stale: published 20 Nov, older than yesterday
-08:19:22 SKIP RN-108 stale: published 21 Nov, older than yesterday
-08:19:22 SKIP RN-109 stale: published 21 Nov, older than yesterday
-08:19:22 SKIP RN-110 stale: published 21 Nov, older than yesterday
-08:19:22 SKIP RN-111 stale: published 21 Nov, older than yesterday
-08:19:22 SKIP RN-112 stale: published 21 Nov, older than yesterday
-08:19:22 SKIP RN-113 stale: published 22 Nov, older than yesterday
-08:19:22 SKIP RN-114 stale: published 22 Nov, older than yesterday
-08:19:22 SKIP RN-116 stale: published 22 Nov, older than yesterday
-08:19:22 SKIP RN-135 held: fact-check problems - numbers not found in the article: 6
+08:25:54 SKIP RN-4 stale: published 12 Nov, older than yesterday
+08:25:54 SKIP RN-19 stale: published 14 Nov, older than yesterday
+08:25:54 SKIP RN-22 stale: published 14 Nov, older than yesterday
+08:25:54 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+08:25:54 SKIP RN-29 stale: published 14 Nov, older than yesterday
+08:25:54 SKIP RN-42 stale: published 16 Nov, older than yesterday
+08:25:54 SKIP RN-45 stale: published 16 Nov, older than yesterday
+08:25:54 SKIP RN-71 stale: published 18 Nov, older than yesterday
+08:25:54 SKIP RN-92 stale: published 20 Nov, older than yesterday
+08:25:54 SKIP RN-108 stale: published 21 Nov, older than yesterday
+08:25:54 SKIP RN-109 stale: published 21 Nov, older than yesterday
+08:25:54 SKIP RN-110 stale: published 21 Nov, older than yesterday
+08:25:54 SKIP RN-111 stale: published 21 Nov, older than yesterday
+08:25:54 SKIP RN-112 stale: published 21 Nov, older than yesterday
+08:25:54 SKIP RN-113 stale: published 22 Nov, older than yesterday
+08:25:54 SKIP RN-114 stale: published 22 Nov, older than yesterday
+08:25:54 SKIP RN-116 stale: published 22 Nov, older than yesterday
+08:25:54 SKIP RN-135 held: fact-check problems - numbers not found in the article: 6
 ::warning title=Held from posting RN-135::held: fact-check problems - numbers not found in the article: 6
-08:19:22 story catch-up off (test run or post_stories false)
-08:19:22 19 stories in the queue, ready to post: 1
-08:19:22   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-08:19:22    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 265.1 ready= False set_started= True
-08:19:22    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 234.3 ready= False set_started= True
-08:19:22    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 230.6 ready= False set_started= True
-08:19:22    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 230.6 ready= False set_started= True
-08:19:22    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 226.6 ready= False set_started= True
-08:19:22    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 194.4 ready= False set_started= True
-08:19:22    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 194.4 ready= False set_started= True
-08:19:22    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 144.9 ready= False set_started= True
-08:19:22    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 99.8 ready= False set_started= True
-08:19:22    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 71.4 ready= False set_started= True
-08:19:22    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 71.4 ready= False set_started= True
-08:19:22    RN-110 review= 'Auto' images= 197 spec= 662 pages= ['trichy'] links= '' '' age_h= 63.7 ready= False set_started= True
-08:19:22    RN-111 review= 'Auto' images= 197 spec= 733 pages= ['trichy'] links= '' '' age_h= 59.7 ready= False set_started= True
-08:19:22    RN-112 review= 'Auto' images= 99 spec= 503 pages= ['trichy'] links= '' '' age_h= 57.0 ready= False set_started= True
-08:19:22    RN-113 review= 'Auto' images= 197 spec= 685 pages= ['trichy'] links= '' '' age_h= 54.1 ready= False set_started= True
-08:19:22    RN-114 review= 'Auto' images= 197 spec= 817 pages= ['trichy'] links= '' '' age_h= 54.1 ready= False set_started= True
-08:19:22    RN-116 review= 'Auto' images= 197 spec= 670 pages= ['trichy'] links= '' '' age_h= 54.1 ready= False set_started= True
-08:19:22    RN-134 review= 'Auto' images= 197 spec= 748 pages= ['trichy'] links= '' '' age_h= 3.7 ready= True set_started= True
-08:19:22    RN-135 review= 'Auto' images= 197 spec= 767 pages= ['trichy'] links= '' '' age_h= 0.9 ready= False set_started= True
-08:19:24 publishing quota trichy: 11/50
-08:19:25 instagram duplicate check trichy: 50 recent posts read
+08:25:54 story catch-up off (test run or post_stories false)
+08:25:54 18 stories in the queue, ready to post: 0
+08:25:54   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+08:25:54    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 265.2 ready= False set_started= True
+08:25:54    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 234.4 ready= False set_started= True
+08:25:54    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 230.7 ready= False set_started= True
+08:25:54    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 230.7 ready= False set_started= True
+08:25:54    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 226.7 ready= False set_started= True
+08:25:54    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 194.5 ready= False set_started= True
+08:25:54    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 194.5 ready= False set_started= True
+08:25:54    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 145.0 ready= False set_started= True
+08:25:54    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 99.9 ready= False set_started= True
+08:25:54    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 71.5 ready= False set_started= True
+08:25:54    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 71.5 ready= False set_started= True
+08:25:54    RN-110 review= 'Auto' images= 197 spec= 662 pages= ['trichy'] links= '' '' age_h= 63.8 ready= False set_started= True
+08:25:54    RN-111 review= 'Auto' images= 197 spec= 733 pages= ['trichy'] links= '' '' age_h= 59.8 ready= False set_started= True
+08:25:54    RN-112 review= 'Auto' images= 99 spec= 503 pages= ['trichy'] links= '' '' age_h= 57.1 ready= False set_started= True
+08:25:54    RN-113 review= 'Auto' images= 197 spec= 685 pages= ['trichy'] links= '' '' age_h= 54.2 ready= False set_started= True
+08:25:54    RN-114 review= 'Auto' images= 197 spec= 817 pages= ['trichy'] links= '' '' age_h= 54.2 ready= False set_started= True
+08:25:54    RN-116 review= 'Auto' images= 197 spec= 670 pages= ['trichy'] links= '' '' age_h= 54.2 ready= False set_started= True
+08:25:54    RN-135 review= 'Auto' images= 197 spec= 767 pages= ['trichy'] links= '' '' age_h= 1.0 ready= False set_started= True
