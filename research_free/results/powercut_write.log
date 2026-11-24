@@ -802,3 +802,40 @@ filed: 1 Trichy district stories (target 2), reels only
 queue: 0 news waiting to be written
 All News sheet: {"ok":true,"added":1,"updated":1} 
 stories: 1
+writing [N]: புத்தனாம்பட்டி பகுதியில் நாளை மின்தடை
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.5-flash
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+dead for this round: gemini/gemini-3-flash-preview
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go
+earlier stories still waiting for images: []
+instagram check: 50 recent posts read from the page
+pick round: only the picked links are written (research_free/pick.py)
+manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/23/%E0%AE%AA%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%A9%E0%AE%BE%E0%AE%AE%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%BF-%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%A4%E0%AE%BF%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%88-%E0%AE%AE%E0%AE%BF%E0%AE%A9%E0%AF%8D%E0%AE%A4%E0%AE%9F%E0%AF%88
+candidate filter: collected=1
+to write: 1 Trichy district candidates (max 1 stories)
+round: top 1 of 1 candidates
+candidates waiting: 1 Trichy; time left 39 min
+try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/
+NOT filed (N) புத்தனாம்பட்டி பகுதியில் நாளை மின்தடை: all free models failed: no usable answer from the models
+candidate loop ended: left 0, tried={'N': 1}, done={'N': 0}, time left 39 min
+filed: 0 Trichy district stories (target 1), reels only
+queue: 0 news waiting to be written
+All News sheet: {"ok":true,"added":1,"updated":0} 
+stories: 0
