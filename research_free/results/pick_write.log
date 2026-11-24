@@ -1,4 +1,9 @@
-writing [N]: திருச்சி உச்சிப்பிள்ளையார் கோயில் மலை மீது ஏற்றப்பட்ட தீபம்!
+writing [N]: திருச்சி மலைக்கோட்டையில் கார்த்திகை தீபம்
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (12s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
@@ -18,47 +23,18 @@ fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {
     "message": "This model is currently experiencing 
 switching away from gemini/gemini-3-flash-preview for 10 min
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
-ok groq/qwen/qwen3.8-27b (7s)
-attempt 1 groq/qwen/qwen3.8-27b: 1 problems
+ok groq/qwen/qwen3.8-27b (5s)
+attempt 2 groq/qwen/qwen3.8-27b: 2 problems
   hl1 is 41 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-not available on this plan: groq/qwen/qwen3.8-27b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-ok groq/openai/gpt-oss-120b (7s)
-attempt 2 groq/openai/gpt-oss-120b: 3 problems
-  missing key: reel_script
-  missing key: caption
-  missing key: scenes
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 273 ('மலைக்கோட்டையில், 273 அடி உயரத்தில், உச்சிப்பிள்ளையார் கோவிலு')
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-free models unavailable: no free model answered: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-1
-ok anthropic/claude-haiku-5-5
-claude rewrite 1 anthropic/claude-haiku-5-5: 1 problems
-  sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
-ok anthropic/claude-haiku-5-5
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok groq/openai/gpt-oss-120b (4s)
-factcheck by groq/openai/gpt-oss-120b: 2 problems
-  Missing important fact: the article mentions a morning Parani deepam and a procession of Vinayagar and Murugan which is omitted from the reel_script
-  Missing important fact: the article mentions a deepam lit at the golden flagpole (தங்கக் கொடிமரம்) before the main deepam, which is omitted from the reel_script
-claude rewrite 2 anthropic/claude-haiku-5-5: 2 problems
-  fact-check: Missing important fact: the article mentions a morning Parani deepam and a procession of Vinayagar and Murugan which is omitted from the reel_script
-  fact-check: Missing important fact: the article mentions a deepam lit at the golden flagpole (தங்கக் கொடிமரம்) before the main deepam, which is omitted from the reel_script
-ok anthropic/claude-haiku-5-5
-claude rewrite 3 anthropic/claude-haiku-5-5: 3 problems
-  hl1 is 42 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
-  sentence 1 (one-line story) has 14 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
-  caption misses facts of the article (put every one in 📰 முழு விவரம்): 6 ('திருவண்ணாமலை அண்ணாமலையார் கோயிலின் மலை உச்சியின் மீது மாலை 6')
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+switching away from groq/qwen/qwen3.8-27b for 10 min
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-ok groq/openai/gpt-oss-120b (6s)
-proofread rejected (3 problems)
+ok groq/openai/gpt-oss-120b (8s)
+attempt 3 groq/openai/gpt-oss-120b: 3 problems
   missing key: reel_script
   missing key: caption
   missing key: scenes
@@ -67,28 +43,72 @@ groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 switching away from groq/openai/gpt-oss-120b for 10 min
+free models unavailable: no free model answered: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-
 ok anthropic/claude-haiku-5-5
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-real photo: vision check unavailable: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:
-real photo: vision check unavailable: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:ge
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+free fact-check unavailable, using Claude: no free model answered: None
+ok anthropic/claude-haiku-5-5
+factcheck by anthropic/claude-haiku-5-5: 6 problems
+  reel_script says the 273 ft height belongs to the lamp location ("இந்த தீபம் ஏற்றப்பட்டது... 273 அடி உயரத்தில்"), while the article says 273 ft is the hill's height and the tower is 40 ft; the reel also says "மலைக்கோட்டை உச்சியில் உள்ள கோபுரத்தில்" in slides_spec, which conflates the summit with the tower near Uchipillaiyar temple
+  slides_spec 'எங்கே' slide says the tower is 273 ft high ("கோபுரம் 273 அடி உயரத்தில் உள்ளது"), which contradicts the article: the tower is 40 ft and the hill is 273 ft
+  reel_script mentions 700 litres of oil and 300 m wick being placed/soaked as the lamp fuel, but the article's 700 litres is 'இலுப்பை எண்ணெய்' with the wick soaked in 'நல்லெண்ணெய்'; the reel says 'நல்லெண்ணெயில் 300 மீட்டர் திரி ஊற வைக்கப்பட்டிருந்தது' which is acceptable, but slides_spec states the 700 litres was 'பயன்படுத்தப்பட்டது' while reel says 'வைக்கப்பட்டது' - minor wording, not a factual change
+  slides_spec 'எப்போது' slide lists 'காலையில் பரணி தீபம் ஏற்றப்பட்டது' without a time; acceptable, but the reel_script's 'இன்று நவம்பர் 24ஆம் தேதி' is a date claim tied to the article's 'இன்று (நவ.,24)', which is fine
+  The caption's 'மாலை 5 மணிக்கு ... புறப்பாடு நடைபெற்றது' and reel's 'புறப்பாடாகினர்' are consistent; no issue there
+  reel_script omits the article's key fact that the lamp was lit on the tower near Uchipillaiyar temple at the summit with the kopparai (the reel does mention Uchipillaiyar temple) - no omission of a key action
+claude rewrite 1 anthropic/claude-haiku-5-5: 6 problems
+  fact-check: reel_script says the 273 ft height belongs to the lamp location ("இந்த தீபம் ஏற்றப்பட்டது... 273 அடி உயரத்தில்"), while the article says 273 ft is the hill's height and the tower is 40 ft; the reel also says "மலைக்கோட்டை உச்சியில் உள்ள கோபுரத்தில்" in slides_spec, which conflates the summit with the tower near Uchipillaiyar temple
+  fact-check: slides_spec 'எங்கே' slide says the tower is 273 ft high ("கோபுரம் 273 அடி உயரத்தில் உள்ளது"), which contradicts the article: the tower is 40 ft and the hill is 273 ft
+  fact-check: reel_script mentions 700 litres of oil and 300 m wick being placed/soaked as the lamp fuel, but the article's 700 litres is 'இலுப்பை எண்ணெய்' with the wick soaked in 'நல்லெண்ணெய்'; the reel says 'நல்லெண்ணெயில் 300 மீட்டர் திரி ஊற வைக்கப்பட்டிருந்தது' which is acceptable, but slides_spec states the 700 litres was 'பயன்படுத்தப்பட்டது' while reel says 'வைக்கப்பட்டது' - minor wording, not a factual change
+  fact-check: slides_spec 'எப்போது' slide lists 'காலையில் பரணி தீபம் ஏற்றப்பட்டது' without a time; acceptable, but the reel_script's 'இன்று நவம்பர் 24ஆம் தேதி' is a date claim tied to the article's 'இன்று (நவ.,24)', which is fine
+  fact-check: The caption's 'மாலை 5 மணிக்கு ... புறப்பாடு நடைபெற்றது' and reel's 'புறப்பாடாகினர்' are consistent; no issue there
+  fact-check: reel_script omits the article's key fact that the lamp was lit on the tower near Uchipillaiyar temple at the summit with the kopparai (the reel does mention Uchipillaiyar temple) - no omission of a key action
+ok anthropic/claude-haiku-5-5
+claude rewrite 2 anthropic/claude-haiku-5-5: 1 problems
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 273 ('மலைக்கோட்டையில், 273 அடி உயரத்தில், உச்சிப்பிள்ளையார் கோவிலு')
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+free fact-check unavailable, using Claude: no free model answered: None
+ok anthropic/claude-haiku-5-5
+factcheck by anthropic/claude-haiku-5-5: 5 problems
+  Reel script says the 40 ft tower is at the Ucchi Pillaiyar temple area, but the article says 273 ft is the hill height and the 40 ft tower is near the temple: the phrasing 'உச்சிப்பிள்ளையார் கோவிலுக்கு அருகில் உள்ள 40 அடி கோபுரத்தில்' is acceptable, but the slide line 'உச்சிப்பிள்ளையார் கோவில் அருகில்' omits the tower, and the caption's 'அருகில் உள்ள கோபுரத்தில்' is fine; however the reel script states the 'மகா தீபம்' was lit on the 273 ft hill tower, conflating the 40 ft tower with the hill summit
+  Reel script claims the 300 metre wick was soaked in 'நல்லெண்ணெய்' and the 700 litres of oil were 'இலுப்பை எண்ணெய்' - article supports this, so no issue; but the reel script says the maha deepam is lit at the 'மலைக்கோட்டை உச்சி' while the article says the lamp was lit in a கோபுரம் near the temple, a location inconsistency
+  Reel script and slide 1 say the maha deepam was lit at 6 pm, but the article only states 6 pm for the maha deepam on the hill summit; the slide 'இன்று (நவ. 24) மாலை 6 மணிக்கு மகா தீபம் ஏற்றம்' is consistent, yet the reel omits that the article says the karthigai deepam was lit at the tower near Ucchi Pillaiyar temple at the evening time
+  Reel script says 'திருக்கார்த்திகை தினமான இன்று காலை பரணி தீபம் ஏற்றப்பட்டது' but the slide headline and reel's first sentence present the flame lit 'இன்று' without clarifying the 'Bharani' lamp was at Thayumanavar sannadhi; this is present, so acceptable
+  Slides_spec hl2 is truncated and malformed: '3 நாட்கள் எரியும் <b>மகா' is an unclosed HTML tag and an incomplete phrase, which is ungrammatical and not a clear headline
+claude rewrite 3 anthropic/claude-haiku-5-5: 5 problems
+  fact-check: Reel script says the 40 ft tower is at the Ucchi Pillaiyar temple area, but the article says 273 ft is the hill height and the 40 ft tower is near the temple: the phrasing 'உச்சிப்பிள்ளையார் கோவிலுக்கு அருகில் உள்ள 40 அடி கோபுரத்தில்' is acceptable, but the slide line 'உச்சிப்பிள்ளையார் கோவில் அருகில்' omits the tower, and the caption's 'அருகில் உள்ள கோபுரத்தில்' is fine; however the reel script states the 'மகா தீபம்' was lit on the 273 ft hill tower, conflating the 40 ft tower with the hill summit
+  fact-check: Reel script claims the 300 metre wick was soaked in 'நல்லெண்ணெய்' and the 700 litres of oil were 'இலுப்பை எண்ணெய்' - article supports this, so no issue; but the reel script says the maha deepam is lit at the 'மலைக்கோட்டை உச்சி' while the article says the lamp was lit in a கோபுரம் near the temple, a location inconsistency
+  fact-check: Reel script and slide 1 say the maha deepam was lit at 6 pm, but the article only states 6 pm for the maha deepam on the hill summit; the slide 'இன்று (நவ. 24) மாலை 6 மணிக்கு மகா தீபம் ஏற்றம்' is consistent, yet the reel omits that the article says the karthigai deepam was lit at the tower near Ucchi Pillaiyar temple at the evening time
+  fact-check: Reel script says 'திருக்கார்த்திகை தினமான இன்று காலை பரணி தீபம் ஏற்றப்பட்டது' but the slide headline and reel's first sentence present the flame lit 'இன்று' without clarifying the 'Bharani' lamp was at Thayumanavar sannadhi; this is present, so acceptable
+  fact-check: Slides_spec hl2 is truncated and malformed: '3 நாட்கள் எரியும் <b>மகா' is an unclosed HTML tag and an incomplete phrase, which is ungrammatical and not a clear headline
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+proofread skipped: no free model answered: None
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+real photo: vision check unavailable: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:ge
 real photo: vision check out of free quota
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models
-images made: 2 for 'Maha Deepam lit atop Uchi Pillaiyar Temp'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261124-2036","first":"RN-141"}
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 2 for 'Karthigai Deepam lit on Trichy Rock Fort'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261124-2236","first":"RN-142"}
 posting job started at once
 earlier stories still waiting for images: []
 instagram check: 50 recent posts read from the page
 pick round: only the picked links are written (research_free/pick.py)
-manual link added: https://www.dinamani.com/tamilnadu/2026/Nov/24/a-lamp-lit-atop-the-uchi-pillaiyar-temple-hill-in-trichy
+manual link added: https://www.dinamalar.com/news/tamil-nadu-news/karthigai-lamp-at-trichy-hill-fort/4385383
 candidate filter: collected=1
 to write: 1 Trichy district candidates (max 1 stories)
 round: top 1 of 1 candidates
 candidates waiting: 1 Trichy; time left 79 min
-try (N) manual=True: https://www.dinamani.com/tamilnadu/2026/Nov/24/a-lamp-lit-at
+try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/karthigai-lam
 auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})
 posting job started at once
-candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 75 min
+candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 76 min
 filed: 1 Trichy district stories (target 1), reels only
 queue: 0 news waiting to be written
 All News sheet: {"ok":true,"added":1,"updated":0} 

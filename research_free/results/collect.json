@@ -3,20 +3,23 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamani.com/tamilnadu/2026/Nov/24/a-lamp-lit-atop-the-uchi-pillaiyar-temple-hill-in-trichy",
+  "manual link added: https://www.dinamalar.com/news/tamil-nadu-news/karthigai-lamp-at-trichy-hill-fort/4385383",
   "candidate filter: collected=1",
   "to write: 1 Trichy district candidates (max 1 stories)",
   "round: top 1 of 1 candidates",
   "candidates waiting: 1 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamani.com/tamilnadu/2026/Nov/24/a-lamp-lit-at",
+  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-news/karthigai-lam",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 75 min",
+  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 76 min",
   "filed: 1 Trichy district stories (target 1), reels only",
   "queue: 0 news waiting to be written",
   "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
  ],
  "llm": [
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (12s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
@@ -27,91 +30,98 @@
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing ",
   "switching away from gemini/gemini-3-flash-preview for 10 min",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok groq/qwen/qwen3.8-27b (7s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "not available on this plan: groq/qwen/qwen3.8-27b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok groq/openai/gpt-oss-120b (7s)",
+  "ok groq/qwen/qwen3.8-27b (5s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok groq/openai/gpt-oss-120b (4s)",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok groq/openai/gpt-oss-120b (6s)",
+  "ok groq/openai/gpt-oss-120b (8s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "switching away from groq/openai/gpt-oss-120b for 10 min",
   "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
  ],
  "stories": [
   {
-   "tamil_headline": "திருச்சி உச்சிப்பிள்ளையார் கோயில் மலை மீது மகா தீபம் ஏற்றம்",
-   "english_headline": "Maha Deepam lit atop Uchi Pillaiyar Temple hill in Trichy on Nov 24",
+   "tamil_headline": "திருச்சி மலைக்கோட்டையில் கார்த்திகை தீபம் ஏற்றம்",
+   "english_headline": "Karthigai Deepam lit on Trichy Rock Fort tower near Uchipillaiyar temple",
    "category": "Temples & Events",
-   "location": "Malaikottai, Trichy, Trichy district",
+   "location": "Rock Fort, Trichy city, Trichy district",
    "importance": "Medium",
    "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "மகா தீபம்",
-    "loc": "திருச்சி மலைக்கோட்டை",
-    "hl1": "திருச்சியில் மலை மீது மகா தீபம்",
-    "hl2": "உச்சிப்பிள்ளையார் கோயில்",
+    "cat": "கார்த்திகை தீபம்",
+    "loc": "மலைக்கோட்டை, திருச்சி",
+    "hl1": "மலைக்கோட்டையில் கார்த்திகை தீபம்",
+    "hl2": "இன்று மாலை 6 மணிக்கு மகா",
     "slides": [
      {
-      "title": "எங்கே, எப்போது?",
+      "title": "எப்போது?",
       "lines": [
-       "திருச்சி மலைக்கோட்டை உச்சிப்பிள்ளையார் கோயில் மலை மீது",
-       "இன்று <b>நவ. 24</b> மகா தீபம் ஏற்றப்பட்டது",
-       "உச்சிப்பிள்ளையார் கோயில் அருகே தீபம் ஏற்றப்பட்டது"
+       "இன்று <b>24 நவம்பர்</b>, மாலை <b>6 மணி</b>க்கு மகா தீபம்",
+       "காலையில் பரணி தீபம் ஏற்றப்பட்டது",
+       "மாலை <b>5 மணி</b>க்கு தாயுமானவர் புறப்பாடு"
       ]
      },
      {
-      "title": "பூஜைகள்",
+      "title": "எங்கே?",
       "lines": [
-       "அடிவாரத்தில் மாணிக்க விநாயகர் கோயிலில் சிறப்பு பூஜை",
-       "நடுவில் தாயுமானசுவாமி கோயிலில் சிறப்பு பூஜை",
-       "பூஜைகளுக்குப் பின் உச்சியில் தீபம் ஏற்றப்பட்டது"
+       "மலைக்கோட்டையில் உச்சிப்பிள்ளையார் கோவில் அருகே",
+       "<b>40 அடி</b> உயர கோபுரத்தில் கொப்பரை",
+       "மலைக்கோட்டை <b>273 அடி</b> உயரம்"
       ]
      },
      {
-      "title": "மலை பற்றி",
+      "title": "எவ்வளவு எண்ணெய்?",
       "lines": [
-       "மலையே மகேசன் என வணங்கப்படும் மலை",
-       "மலை உயரம் <b>2,668 அடி</b>",
-       "திருப்பரங்குன்ற மலையில் வழக்கமான இடத்தில் தீபம்"
+       "<b>700 லிட்டர்</b> இலுப்பை எண்ணெய் பயன்பாடு",
+       "நல்லெண்ணெயில் <b>300 மீட்டர்</b> திரி ஊறவைப்பு",
+       "மகா தீபம் <b>3 நாட்கள்</b> எரியும்"
+      ]
+     },
+     {
+      "title": "பக்தர்கள்",
+      "lines": [
+       "ஏராளமான பக்தர்கள் மகா தீபத்தை தரிசனம் செய்தனர்",
+       "தாயுமானவர், மட்டுவார் குழலம்மை, பஞ்சமூர்த்திகள் புறப்பாடு"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சி மலைக்கோட்டை உச்சிப்பிள்ளையார் கோயில் மலை மீது இன்று நவம்பர் 24ஆம் தேதி மகா தீபம் ஏற்றப்பட்டது. மலைக்கோட்டை வளாகத்தில் அடிவாரத்தில் மாணிக்க விநாயகர் கோயிலிலும், நடுவில் தாயுமானசுவாமி கோயிலிலும் சிறப்பு பூஜைகள் நடத்தப்பட்டன. பூஜைகளுக்குப் பின், உச்சியில் உச்சிப்பிள்ளையார் கோயில் அருகே தீபம் ஏற்றப்பட்டது. மலையே மகேசன் என வணங்கப்படும் 2,668 அடி உயரமுள்ள மலை உச்சியில் இந்த மகா தீபம் ஏற்றப்பட்டது. அதே நாளில் திருவண்ணாமலை அண்ணாமலையார் கோயில் மலை உச்சியிலும் மாலை 6 மணிக்கு மகா தீபம் ஏற்றப்பட்டது. திருப்பரங்குன்ற மலை உச்சியிலும் வழக்கமான இடத்தில் மகா தீபம் ஏற்றப்பட்டது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🔥 திருச்சி மலைக்கோட்டையில் மகா தீபம்: உச்சிப்பிள்ளையார் கோயில் மலை மீது ஏற்றம்\n\n📰 முழு விவரம்:\nதிருச்சி மலைக்கோட்டை உச்சிப்பிள்ளையார் கோயில் மலை மீது இன்று (நவ. 24) மகா தீபம் ஏற்றப்பட்டது. அடிவாரத்தில் உள்ள மாணிக்க விநாயகர் கோயிலிலும், நடுவில் உள்ள தாயுமானசுவாமி கோயிலிலும் சிறப்பு பூஜைகள் நடத்தப்பட்டன. அதைத் தொடர்ந்து உச்சியில் உச்சிப்பிள்ளையார் கோயில் அருகே தீபம் ஏற்றப்பட்டது.\n📍 இடம்: திருச்சி மலைக்கோட்டை உச்சிப்பிள்ளையார் கோயில் மலை\n🗓️ நாள்: நவ. 24\n⛰️ மலை உயரம்: 2,668 அடி\n🕔 திருவண்ணாமலை அண்ணாமலையார் கோயில் மலை உச்சியில் மாலை 6 மணிக்கு மகா தீபம் ஏற்றப்பட்டது.\n🛕 திருப்பரங்குன்ற மலை உச்சியில் வழக்கமான இடத்தில் மகா தீபம் ஏற்றப்பட்டது.\n\nTrichy Maha Deepam atop Uchi Pillaiyar hill | Trichy news\n📍 திருச்சி மலைக்கோட்டை, திருச்சி மாவட்டம் | 24 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Malaikottai",
-   "prompts": "A large ceremonial flame burns on the summit of the Rockfort hill in Trichy at dusk, lit on the rocky top beside the Uchi Pillaiyar temple mandapam. The hill rises sharply over the city, its craggy rock face dark against a deep blue evening sky with a few lights of Trichy city spread below. A small silhouetted temple structure with a pillared mandapam and a gopuram-style tower stands on the crest, the flame glowing warmly above it. A few devotees in dhotis and sarees stand far below on the temple steps and the lower terrace, seen from behind and small in the frame. Time is just after sunset, the sky still faintly lit, lamps glowing at the temple base. Camera: wide shot at eye level from the city ground, 35 mm, showing the whole hill and the lit summit with the city skyline in the foreground. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of the lit Maha Deepam flame on the hilltop beside the Uchi Pillaiyar temple, the bright orange fire rising from a large brass lamp set on the stone mandapam platform. Warm glow falls on the weathered granite pillars and the rough rock of the summit, while the surrounding sky is dark evening blue. In the soft out-of-focus background, a few small oil lamps flicker along the temple steps and a devotee in a white veshti stands far off, seen from behind. Time is night after 6 pm, light coming only from the flame and temple lamps. Camera: medium close-up, slightly low angle, 35 mm, shallow depth of field with the flame sharp and the hill edges softened. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/tamilnadu/2026/Nov/24/a-lamp-lit-atop-the-uchi-pillaiyar-temple-hill-in-trichy",
-   "published": "2026-11-24T13:31:12.000Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
+   "reel_script": "மலைக்கோட்டை உச்சியில் இன்று மாலை 6 மணிக்கு மகா தீபம் ஏற்றப்பட்டது. திருச்சி மலைக்கோட்டையில் உச்சிப்பிள்ளையார் கோவில் அருகே உள்ள கோபுரத்தில் கார்த்திகை தீபம் ஏற்றப்பட்டது. இன்று நவம்பர் 24ஆம் தேதி மாலை இந்த தீபம் ஏற்றப்பட்டது. இதற்காக 40 அடி உயரக் கோபுரத்தில் வைக்கப்பட்ட கொப்பரையில் 700 லிட்டர் இலுப்பை எண்ணெய் பயன்படுத்தப்பட்டது. நல்லெண்ணெயில் 300 மீட்டர் திரி ஊற வைக்கப்பட்டிருந்தது. இன்று காலை தாயுமானவர் சன்னதியில் பரணி தீபம் ஏற்றப்பட்டது. மாலை 5 மணிக்கு தாயுமானவர், மட்டுவார் குழலம்மை, பஞ்சமூர்த்திகள் புறப்பாடாகினர். மூன்று நாட்கள் எரியும் மகா தீபத்தை ஏராளமான பக்தர்கள் தரிசனம் செய்தனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🪔 மலைக்கோட்டையில் இன்று மாலை 6 மணிக்கு மகா தீபம் ஏற்றம்\n\n📰 முழு விவரம்:\nதிருச்சி மலைக்கோட்டையில் உச்சிப்பிள்ளையார் கோவில் அருகே உள்ள 40 அடி உயரக் கோபுரத்தில் இன்று (நவ. 24) மாலை கார்த்திகை தீபம் ஏற்றப்பட்டது.\nதீபம் ஏற்றுவதற்காக கொப்பரையில் 700 லிட்டர் இலுப்பை எண்ணெய் பயன்படுத்தப்பட்டது; நல்லெண்ணெயில் 300 மீட்டர் திரி ஊறவைக்கப்பட்டிருந்தது.\nஇன்று காலை தாயுமானவர் சன்னதியில் பரணி தீபம் ஏற்றப்பட்டது.\nமாலை 5 மணிக்கு தாயுமானவர், மட்டுவார் குழலம்மை, பஞ்சமூர்த்திகள் புறப்பாடாகினர்.\nமாலை 6 மணிக்கு மலைக்கோட்டை உச்சியில் மகா தீபம் ஏற்றப்பட்டது. மூன்று நாட்கள் எரியும் இந்த மகா தீபத்தை ஏராளமான பக்தர்கள் தரிசனம் செய்தனர்.\n📍 இடம்: மலைக்கோட்டை, திருச்சி\n🗓️ நாள்: 24 நவம்பர் 2026\n🕘 நேரம்: மாலை 6 மணி\n\nTrichy Rock Fort Karthigai Deepam lit | Trichy news\n📍 மலைக்கோட்டை, திருச்சி | 24 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Trichy #மலைக்கோட்டை #TrichyNews",
+   "prompts": "A tall, glowing Maha Deepam flame blazes from a large copper cauldron mounted on a 40-foot tower beside Uchipillaiyar temple, crowning the rocky summit of Rock Fort hill in Tiruchirappalli city. It is dusk on the evening of Karthigai, with the sky turning deep blue and the first city lights of Trichy twinkling far below. The 273-foot hill rises steeply from the flat city, its granite rock face and stone steps climbing toward the small whitewashed gopuram and temple outline at the top. Devotees stand in small groups on the hilltop terrace and the lower steps, seen from behind and far away, many in sarees, salwar and shirts with veshti, hands folded toward the flame. Tall orange fire and a column of golden light rise from the cauldron, its wick burning for three days on the 700 litres of oil. The sky is clear with a faint evening haze. Camera: eye level from the rock base at the foot of the hill, 35 mm, wide enough to show the hill, the tower and the flame together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of the great copper cauldron on top of the temple tower at Rock Fort, its rim lit from inside by the tall burning wick of the Maha Deepam. Thick golden flames and wisps of smoke rise from the brass bowl against a dark evening sky, with the ancient stone walls and small temple tower of Uchipillaiyar temple faintly visible behind it. Warm orange light spills onto the rough granite of the rock and onto a few devotees' silhouettes at the edge of the frame, seen from behind and blurred. Oil lamps and brass vessels rest near the parapet, glinting in the firelight. No text or signboards are visible. It is dusk, with the last blue light of the day in the sky. Camera: low angle from the terrace, 50 mm, shallow depth of field, the flame sharp and the background softly out of focus. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamalar.com/news/tamil-nadu-news/karthigai-lamp-at-trichy-hill-fort/4385383",
+   "published": "2026-11-24T21:29:02+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 273 ('மலைக்கோட்டையில், 273 அடி உயரத்தில், உச்சிப்பிள்ளையார் கோவிலு')",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795532780/trichy360/etety7zim2b31v0a1rtt.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795532786/trichy360/mcotdqd9bcaewroy3z5n.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795540012/trichy360/sc1nnh5kaliol06cwzwx.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795540015/trichy360/db88qhyol7lta17hkgcg.jpg"
    ]
   }
  ]
