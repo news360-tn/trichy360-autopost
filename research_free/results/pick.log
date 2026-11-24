@@ -1,11 +1,8 @@
-12:26:48 round 2026-11-24_12: news published 24 Nov 11:43 -> 24 Nov 12:26 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி - Trichy)
-12:26:48 insights 2026-11-24T12:26+05:30 (133 reels): topic weights {'accident': 0.78, 'crime': 1.5, 'power_cut': 0.03, 'civic': 0.2, 'education': -0.5, 'politics': -0.24, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.36}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-12:27:05 open search 'திருச்சி' (from_google): 0 links from our outlets
-12:27:05 32 links on the two papers' Trichy pages
-12:27:45 skipped: already posted=15, published before this window=11, same event already posted=2, not Trichy district=2, could not open (403 Client Error: Forbidden for url: https://tamil)=1
-12:27:45 list: 0 new + 0 earlier news not posted yet
-12:27:45 no news in this window - no e-mail
-ROUND=2026-11-24_12
-12:27:46 no list this round - nothing to post
-PICK_URLS=
-12:27:47 verify: no decided round
+13:54:06 round 2026-11-24_13: news published 24 Nov 12:26 -> 24 Nov 13:54 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி - Trichy)
+13:54:06 insights 2026-11-24T13:54+05:30 (134 reels): topic weights {'accident': 0.68, 'crime': 1.5, 'power_cut': 0.35, 'civic': 0.17, 'education': -0.5, 'politics': -0.27, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.39}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+13:54:41 open search 'திருச்சி' (from_google): 0 links from our outlets
+13:54:41 40 links on the two papers' Trichy pages
+13:55:37 skipped: already posted=15, published before this window=11, not Trichy district=10, same event already posted=2, could not open (403 Client Error: Forbidden for url: https://tamil)=1
+13:55:37 list: 0 new + 0 earlier news not posted yet
+13:55:37 no news in this window - no e-mail
+ROUND=2026-11-24_13
