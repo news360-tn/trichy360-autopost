@@ -1649,7 +1649,7 @@ class ResearchedOutletsOnly(unittest.TestCase):
         self.assertEqual(len(allnews.SITES), 12)
         for keep in ("https://tamil.oneindia.com/news/trichy/x-844759.html", "https://www.dinakaran.com/x/", "https://www.dinamani.com/all-editions/edition-trichy/trichy/x"):
             self.assertTrue(allnews.tamil_outlet({"via": "bing", "url": keep}), keep)
-        for drop in ("https://covaimail.com/x/", "https://www.vikatan.com/x", "https://tamil.abplive.com/x", "https://timesofindia.indiatimes.com/x"):
+        for drop in ("https://covaimail.com/x/", "https://timesofindia.indiatimes.com/x"):      # owner 24 Nov: Vikatan / ABP Nadu are trusted Tamil outlets now
             self.assertFalse(allnews.tamil_outlet({"via": "bing", "url": drop}), drop)
 
 

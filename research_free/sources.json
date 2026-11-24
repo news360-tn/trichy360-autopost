@@ -1,14 +1,32 @@
 [
-  {
-    "name": "தினமணி திருச்சி",
-    "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy",
-    "link_regex": "href=\"((?:https://www\\.dinamani\\.com)?/all-editions/edition-trichy/trichy/\\d{4}/[^\"#?]+)\"",
-    "limit": 40
-  },
-  {
-    "name": "தினகரன் திருச்சி",
-    "url": "https://www.dinakaran.com/district/tiruchirappalli/",
-    "link_regex": "((?:https://www\\.dinakaran\\.com)?/district/trichy_\\d{6}_\\d+/?)",
-    "limit": 30
-  }
+ {
+  "name": "தினமணி திருச்சி",
+  "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy",
+  "link_regex": "href=\"((?:https://www\\.dinamani\\.com)?/all-editions/edition-trichy/trichy/\\d{4}/[^\"#?]+)\"",
+  "limit": 40
+ },
+ {
+  "name": "தினகரன் திருச்சி",
+  "url": "https://www.dinakaran.com/district/tiruchirappalli/",
+  "link_regex": "((?:https://www\\.dinakaran\\.com)?/district/trichy_\\d{6}_\\d+/?)",
+  "limit": 30
+ },
+ {
+  "name": "இந்து தமிழ் திருச்சி",
+  "url": "https://www.hindutamil.in/topic/trichy",
+  "link_regex": "href=\"((?:https://www\\.hindutamil\\.in)?/news/[a-z-]+/[^\"#?]{15,})\"",
+  "limit": 30
+ },
+ {
+  "name": "விகடன் திருச்சி",
+  "url": "https://www.vikatan.com/topics/trichy",
+  "link_regex": "href=\"(https://www\\.vikatan\\.com/(?!live/|topics/)[a-z-]+/[^\"#?]{20,})\"",
+  "limit": 30
+ },
+ {
+  "name": "பாலிமர் திருச்சி",
+  "url": "https://www.polimernews.com/tags/trichy",
+  "link_regex": "href=\"((?:https://www\\.polimernews\\.com)?/districtnews/[^\"#?]+)\"",
+  "limit": 30
+ }
 ]
