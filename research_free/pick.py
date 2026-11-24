@@ -239,7 +239,7 @@ def check_article(it, recent):
         return None, low      # recipes, tips, opinion: not news (ceremonies / awards stay - the owner decides)
     if is_posted(it["url"], title, recent):
         return None, "already posted"
-    if collect.same_event_filed(dict(art, title=title), recent, days=2):
+    if collect.same_event_filed(dict(art, title=title), recent, days=2) and not collect._fr().toll_update({"title": title}):      # owner 24 Nov: a death-toll update is new news
         return None, "same event already posted"
     pub = art.get("published") or ""
     n = {"title": title, "snippet": art["text"][:400], "published": pub, "mentions": 1}

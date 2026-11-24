@@ -291,10 +291,23 @@ FOLLOW = re.compile(r"கைது|சிறை|தீர்ப்பு|மீ�
                     r"arrest|held|nabbed|sentenc|verdict|convict|rescued|recovered|seized|compensation|bail|surrender|died|dead", re.I)
 
 
+# owner 24 Nov (Trichy: "முசிறி விபத்து: மேலும் ஒருவர் உயிரிழப்பு - இறந்தோர் எண்ணிக்கை 9 ஆக உயர்வு" the day after the 8-death crash was dropped as
+# the same event): a death-toll update is new news on any day (Dinamani writes ர் as ா்)
+TOLL_UPDATE = re.compile(r"மேலும்\s*(ஒருவ(ர்|ா்)|இருவ(ர்|ா்)|\d+\s*பே(ர்|ா்))\s*(உயிரிழப்பு|பலி|சாவு|மரணம்)|"
+                         r"(உயிரிழப்பு|பலி|இறந்தோ(ர்|ா்)|உயிரிழந்தோ(ர்|ா்)|சாவு)\s*எண்ணிக்கை\s*\d*\s*(ஆக)?\s*உய(ர்|ா்)|"
+                         r"எண்ணிக்கை\s*\d+\s*ஆக\s*உய(ர்|ா்)|death toll (rises|climbs|goes up)", re.I)
+
+
+def toll_update(new):
+    return bool(TOLL_UPDATE.search((new.get("headline_ta") or "") + " " + (new.get("headline_en") or "") + " " + (new.get("title") or "")))
+
+
 def follow_up(old, new, days=2):
     """28 Oct (RN-159 '3 arrested for stealing laptops' was blocked as a duplicate of RN-42 'laptops stolen', 6 days earlier):
     a later report that brings a new development (arrest, verdict, rescue, seizure ...) about a story filed more than `days`
     days before is new news, not a duplicate"""
+    if toll_update(new) and not toll_update(old):      # owner 24 Nov: a death-toll update is always new news
+        return True
     o, n = pub_date(old.get("researched")), pub_date(new.get("researched"))
     if not o or not n or (n - o).days <= days:
         return False

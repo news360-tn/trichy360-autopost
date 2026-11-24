@@ -281,6 +281,9 @@ def _fr():
 
 
 def is_dup(art, d, recent):
+    if _fr().toll_update({"headline_ta": (d or {}).get("tamil_headline", ""), "title": art.get("title") or ""}) and \
+            not any(r.get("source") and r["source"] == art["url"] for r in recent):
+        return False      # owner 24 Nov: a death-toll update is new news (never the same article twice)
     for r in recent:
         if r.get("source") and r["source"] == art["url"]:
             return True
