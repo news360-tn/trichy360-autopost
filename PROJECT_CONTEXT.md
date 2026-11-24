@@ -83,6 +83,23 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-24 | `0f958fb` | Facebook posts every news like Instagram: daily news limit 15 -> 30 (Meta's own API reel limit per page in 24 h) |
+| 2026-11-24 | `da52ab4` | stories shared / Instagram pause |
+| 2026-11-24 | `5d849ea` | stories shared / Instagram pause |
+| 2026-11-24 | `8338257` | stories shared / Instagram pause |
+| 2026-11-24 | `7d44467` | stories shared / Instagram pause |
+| 2026-11-24 | `4633235` | stories shared / Instagram pause |
+| 2026-11-24 | `72e41ed` | stories shared / Instagram pause |
+| 2026-11-24 | `c788281` | stories shared / Instagram pause |
+| 2026-11-24 | `3ba5b93` | stories shared / Instagram pause |
+| 2026-11-24 | `f35cf39` | stories shared / Instagram pause |
+| 2026-11-24 | `4d3ff15` | pick: written and posted |
+| 2026-11-24 | `87f536a` | pick: list sent |
+| 2026-11-24 | `7769f64` | stories shared / Instagram pause |
+| 2026-11-24 | `4ccc4bf` | stories shared / Instagram pause |
+| 2026-11-24 | `0d19ca0` | stories shared / Instagram pause |
+| 2026-11-24 | `74a4f84` | facebook RN-136 |
+| 2026-11-24 | `2306da3` | posted RN-136 |
 | 2026-11-24 | `c2f0b48` | Google News links: when Google refuses the decoder (429), the same headline on Bing (same newspaper) gives the article link - news is no longer dropped |
 | 2026-11-24 | `d222d3e` | stories shared / Instagram pause |
 | 2026-11-24 | `198b9ff` | A death-toll update (மேலும் ஒருவர் உயிரிழப்பு / எண்ணிக்கை உயர்வு) is new news, not a duplicate of the first report |
@@ -96,21 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-24 | `75c718e` | Fixes: Facebook 24-hour-limit news wait or are e-mailed (never silently skipped); slow sheet reads get more time; YouTube stops for the whole day after its quota; YouTube tests use today's date |
 | 2026-11-24 | `c53020b` | stories shared / Instagram pause |
 | 2026-11-24 | `e8e3f07` | autofix: corrected held news |
-| 2026-11-24 | `3508af0` | stories shared / Instagram pause |
-| 2026-11-24 | `ea8d806` | stories shared / Instagram pause |
-| 2026-11-24 | `5893ee4` | stories shared / Instagram pause |
-| 2026-11-24 | `a797f78` | stories shared / Instagram pause |
-| 2026-11-24 | `22ec0c2` | stories shared / Instagram pause |
-| 2026-11-24 | `e007d4b` | stories shared / Instagram pause |
-| 2026-11-24 | `c264623` | stories shared / Instagram pause |
-| 2026-11-24 | `4fc2543` | stories shared / Instagram pause |
-| 2026-11-24 | `840e655` | stories shared / Instagram pause |
-| 2026-11-24 | `978bd61` | Auto-fix held news (rewrite from the article, check again, post); Cloudinary fallbacks: pictures kept in the repo, reels direct then repo link; rasipalan and gold the same |
-| 2026-11-24 | `80eae43` | stories shared / Instagram pause |
-| 2026-11-24 | `5febbdc` | stories shared / Instagram pause |
-| 2026-11-24 | `7ebdfbc` | stories shared / Instagram pause |
-| 2026-11-24 | `e2495b1` | stories shared / Instagram pause |
-| 2026-11-24 | `4976203` | goldrate posted |
-| 2026-11-24 | `52792d1` | stories shared / Instagram pause |
-| 2026-11-24 | `acfef34` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
