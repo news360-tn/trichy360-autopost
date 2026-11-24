@@ -83,6 +83,18 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-24 | `75c718e` | Fixes: Facebook 24-hour-limit news wait or are e-mailed (never silently skipped); slow sheet reads get more time; YouTube stops for the whole day after its quota; YouTube tests use today's date |
+| 2026-11-24 | `c53020b` | stories shared / Instagram pause |
+| 2026-11-24 | `e8e3f07` | autofix: corrected held news |
+| 2026-11-24 | `3508af0` | stories shared / Instagram pause |
+| 2026-11-24 | `ea8d806` | stories shared / Instagram pause |
+| 2026-11-24 | `5893ee4` | stories shared / Instagram pause |
+| 2026-11-24 | `a797f78` | stories shared / Instagram pause |
+| 2026-11-24 | `22ec0c2` | stories shared / Instagram pause |
+| 2026-11-24 | `e007d4b` | stories shared / Instagram pause |
+| 2026-11-24 | `c264623` | stories shared / Instagram pause |
+| 2026-11-24 | `4fc2543` | stories shared / Instagram pause |
+| 2026-11-24 | `840e655` | stories shared / Instagram pause |
 | 2026-11-24 | `978bd61` | Auto-fix held news (rewrite from the article, check again, post); Cloudinary fallbacks: pictures kept in the repo, reels direct then repo link; rasipalan and gold the same |
 | 2026-11-24 | `80eae43` | stories shared / Instagram pause |
 | 2026-11-24 | `5febbdc` | stories shared / Instagram pause |
@@ -101,16 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-24 | `c3a74b8` | E-mail for every posted news again (posted_email each) |
 | 2026-11-24 | `416a8e5` | stories shared / Instagram pause |
 | 2026-11-24 | `bc62115` | pick: written and posted |
-| 2026-11-24 | `db25433` | pick: picked news saved |
-| 2026-11-24 | `205beec` | pick: list sent |
-| 2026-11-24 | `3f40ef0` | pick: written and posted |
-| 2026-11-24 | `8a3d894` | pick: picked news saved |
-| 2026-11-24 | `cc66121` | pick: list sent |
-| 2026-11-24 | `30fb013` | stories shared / Instagram pause |
-| 2026-11-24 | `50bb28d` | facebook RN-134 |
-| 2026-11-24 | `62e0d0f` | posted RN-134 |
-| 2026-11-24 | `a139601` | stories shared / Instagram pause |
-| 2026-11-24 | `3da5f13` | Retry plan for any posting problem: 3 tries 5 minutes apart, then 2 tries 15 minutes apart, then Hold + one e-mail; 'account restricted' follows the same plan |
-| 2026-11-24 | `4167c34` | stories shared / Instagram pause |
-| 2026-11-24 | `b96f8e3` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
