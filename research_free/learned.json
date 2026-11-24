@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-24T18:13+05:30",
- "posts_measured": 136,
+ "updated": "2026-11-24T20:29+05:30",
+ "posts_measured": 137,
  "topic_weight": {
-  "accident": 0.64,
+  "accident": 1.21,
   "crime": 1.5,
-  "power_cut": 0.18,
-  "civic": 0.15,
+  "power_cut": 1.2,
+  "civic": -0.03,
   "education": -0.5,
   "politics": -0.28,
   "weather": -0.5,
   "temple": -0.5,
-  "poultry_agri": -0.42
+  "poultry_agri": -0.44
  },
  "topic_n": {
   "accident": 16,
   "crime": 31,
   "power_cut": 9,
-  "civic": 5,
+  "civic": 6,
   "education": 5,
   "politics": 22,
   "sports_culture": 2,
@@ -27,8 +27,8 @@
  "best_hours_ist": [
   2,
   1,
-  21,
-  11
+  11,
+  21
  ],
  "top_openings": [
   "🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை",

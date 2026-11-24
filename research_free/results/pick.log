@@ -1,26 +1,9 @@
-18:13:52 round 2026-11-24_18: news published 24 Nov 16:33 -> 24 Nov 18:13 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-18:13:52 insights 2026-11-24T18:13+05:30 (136 reels): topic weights {'accident': 0.64, 'crime': 1.5, 'power_cut': 0.18, 'civic': 0.15, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.42}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-18:14:22 open search 'திருச்சி' (from_google): 2 links from our outlets
-18:14:22 38 links on the two papers' Trichy pages
-18:15:08 skipped: already posted=15, published before this window=11, not Trichy district=5, same event already posted=2, no title=1, could not open (403 Client Error: Forbidden for url: https://tamil)=1
-18:15:08 list: 2 new + 0 earlier news not posted yet
-18:15:08    1. [குற்றம்] திருச்சியில் உச்ச நீதிமன்ற உத்தரவு நகலைக் கிழித்து போராட்டம்; ஜனநாயக த (இந்தியன் எக்ஸ்பிரஸ் தமிழ்)
-18:15:08    2. [சாலை] திருச்சியில் சாலைப் பணிகள் தடுத்து நிறுத்தம்; அதிகாரிகளுடன் பொதுமக்கள் (இந்தியன் எக்ஸ்பிரஸ் தமிழ்)
-18:15:08 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-24_18
-18:15:10 round 2026-11-24_18 (at least 6, up to 3 more of well-watched topics): 2 news to choose from (0 from earlier rounds), ranked by this page's insights
-18:15:10   PICK   1.  17.0 [crime +1.50 page] திருச்சியில் உச்ச நீதிமன்ற உத்தரவு நகலைக் கிழித்து போராட்டம்
-18:15:10   PICK   2.   8.6 [civic +0.15 page] திருச்சியில் சாலைப் பணிகள் தடுத்து நிறுத்தம்; அதிகாரிகளுடன் 
-18:15:10 decided: automatic: top 6 of 2 by insights -> 2 news to write and post
-PICK_URLS=https://tamil.indianexpress.com/tamilnadu/trichy-democratic-labour-front-protest-tore-supreme-court-thirupparankundram-order-copy-12837975 https://tamil.indianexpress.com/tamilnadu/trichy-residents-stop-road-works-asks-complete-sewage-plans-12837941
-18:18:25 2 listed news now in the Sheet
-18:18:36 instagram duplicate check trichy: 50 recent posts read
-18:18:36 verify 2026-11-24_18: 0 of 2 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-18:18:36    SKIPPED Cf348a0a: skipped RN-140: held: fact-check problems - fact-check: Slide 1 line contains a grammatical error: "ஈடுபட்டனர" should be "ஈடுபட்டனர்" - திருச்சியில் உச்ச நீதிமன்ற உத்தரவு நகலைக் கிழித்து போராட்டம்
-18:18:36    NOT POSTED C671c35c: queued RN-139 (Queued) - திருச்சியில் சாலைப் பணிகள் தடுத்து நிறுத்தம்; அதிகாரிகளுடன் 
-18:23:43 instagram duplicate check trichy: 50 recent posts read
-18:23:43 verify 2026-11-24_18: 0 of 2 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-18:23:43    SKIPPED Cf348a0a: skipped RN-140: held: fact-check problems - fact-check: Slide 1 line contains a grammatical error: "ஈடுபட்டனர" should be "ஈடுபட்டனர்" - திருச்சியில் உச்ச நீதிமன்ற உத்தரவு நகலைக் கிழித்து போராட்டம்
-18:23:43    NOT POSTED C671c35c: queued RN-139 (Queued) - திருச்சியில் சாலைப் பணிகள் தடுத்து நிறுத்தம்; அதிகாரிகளுடன் 
-18:28:49 verify 2026-11-24_18: 1 of 2 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-18:28:49    SKIPPED Cf348a0a: skipped RN-140: held: fact-check problems - fact-check: Slide 1 line contains a grammatical error: "ஈடுபட்டனர" should be "ஈடுபட்டனர்" - திருச்சியில் உச்ச நீதிமன்ற உத்தரவு நகலைக் கிழித்து போராட்டம்
+20:29:34 round 2026-11-24_20: news published 24 Nov 18:13 -> 24 Nov 20:29 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+20:29:34 insights 2026-11-24T20:29+05:30 (137 reels): topic weights {'accident': 1.21, 'crime': 1.5, 'power_cut': 1.2, 'civic': -0.03, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.44}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+20:30:56 open search 'திருச்சி' (from_google): 1 links from our outlets
+20:30:56 56 links on the two papers' Trichy pages
+20:32:04 skipped: not Trichy district=24, already posted=15, published before this window=10, same event already posted=3, no title=1, could not open (403 Client Error: Forbidden for url: https://tamil)=1
+20:32:04 list: 1 new + 0 earlier news not posted yet
+20:32:04    1. [ஆன்மிகம்] திருச்சி உச்சிப்பிள்ளையார் கோயில் மலை மீது ஏற்றப்பட்ட தீபம்! (தினமணி)
+20:32:04 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-24_20
