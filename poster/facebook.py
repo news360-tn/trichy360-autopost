@@ -555,6 +555,40 @@ def recent(pages, n=20):      # owner 22 Nov: 20 (10 missed earlier shares)
             print(f"  {t:%d %b %I:%M %p}  {head}  {link}")
 
 
+def views(pages, n=25):
+    """owner 24 Nov ("some Facebook news have 0 views"): the page's latest reels / videos - time, first words, Facebook's processing
+    status, whether published, and the play / view counts Facebook gives. Read only, never prints a token."""
+    ist = dt.timezone(dt.timedelta(hours=5, minutes=30))
+    for page in pages:
+        c = creds(page)
+        if not c:
+            print(f"{page}: NOT set up")
+            continue
+        try:
+            vids = (_call("GET", f"{c[0]}/videos", c[1], fields="created_time,description,published,status,length,permalink_url",
+                          limit=n) or {}).get("data", [])
+        except Exception as e:
+            print(f"{page}: videos not read - {str(e)[:200]}")
+            continue
+        print(f"{page}: latest {len(vids)} Facebook videos / reels")
+        for v in vids:
+            t = dt.datetime.strptime(v["created_time"][:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=dt.timezone.utc).astimezone(ist)
+            st = (v.get("status") or {})
+            got = {}
+            for m in ("fb_reels_total_plays", "blue_reels_play_count", "post_video_views", "total_video_views", "post_impressions_unique"):
+                try:
+                    d = (_call("GET", f"{v['id']}/video_insights", c[1], metric=m) or {}).get("data", [])
+                    if d:
+                        got[m] = (d[0].get("values") or [{}])[0].get("value")
+                except Exception as e:
+                    got.setdefault("_err", str(e)[:80])
+            plays = next((got[k] for k in ("fb_reels_total_plays", "blue_reels_play_count", "total_video_views", "post_video_views") if k in got), "?")
+            print(f"  {t:%d %b %I:%M %p} plays={plays} reach={got.get('post_impressions_unique', '?')} status={st.get('video_status', '?')}"
+                  f"/{(st.get('publishing_phase') or {}).get('status', '?')} published={v.get('published')} len={v.get('length')}s"
+                  f"  {(v.get('description') or '').splitlines()[0][:55] if v.get('description') else ''}"
+                  f"{'  [' + got['_err'] + ']' if '_err' in got and plays == '?' else ''}")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
     if cmd == "retry":
@@ -563,5 +597,7 @@ if __name__ == "__main__":
         status(sys.argv[2:])
     elif cmd == "recent":
         recent(sys.argv[2:])
+    elif cmd == "views":
+        views(sys.argv[2:])
     else:
         print("usage: facebook.py retry | status <page> [<page>...] | recent <page> [<page>...]")
