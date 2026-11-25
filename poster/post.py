@@ -544,10 +544,32 @@ def is_urgent(row):
     return is_shutdown(row) or (row.get("importance") or "").strip() == "High"
 
 
+def insight_weight(row, _w={}):
+    """owner 25 Nov ("priority based on insights"): how well this news's topic does on THIS page (research_free/learned.json,
+    written by poster/insights.py from the page's own Instagram views). Higher = posted earlier. 0 when unknown."""
+    try:
+        if "learned" not in _w:
+            sys.path.insert(0, str(ROOT / "research_free"))
+            import learned
+            _w["learned"] = learned
+            _w["weights"] = learned.load().get("topic_weight") or {}
+        t = _w["learned"].topic(str(row.get("headline_ta") or ""))
+        w = _w["weights"].get(t)
+        return float(w) if w is not None else float(_w["learned"].PRIOR.get(t, 0.0))
+    except Exception:
+        return 0.0
+
+
+def is_power_cut(row):
+    return is_shutdown(row) or bool(POWER_CUT.search(f"{row.get('headline_ta', '')} {row.get('headline_en', '')}"))
+
+
 def pick_all(rows):
-    """every ready story whose set has started (urgent ones always), urgent first, then the rest oldest first"""
+    """every ready story whose set has started (urgent ones always). owner 25 Nov order: power cut / shutdown news first, then
+    High news, then the topic this page's insights rank best (most views), then Medium before Low, then the oldest first"""
     c = [r for r in rows if ready(r) and (set_started(r) or is_urgent(r))]
-    c.sort(key=lambda r: (IMPORTANCE.get((r.get("importance") or "").strip(), 1), -age_hours(r)))
+    c.sort(key=lambda r: (0 if is_power_cut(r) else 1, 0 if (r.get("importance") or "").strip() == "High" else 1,
+                          -insight_weight(r), IMPORTANCE.get((r.get("importance") or "").strip(), 1), -age_hours(r)))
     return c
 
 
