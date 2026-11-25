@@ -1622,11 +1622,38 @@ def record_posted(sid, row, link, kind="reel", media_id="", caption=""):
                 f.unlink()
         rec = {"page": PAGE, "story": sid, "kind": kind, "headline": str((row or {}).get("headline_ta") or "")[:200], "link": link or "",
                "at": now.isoformat(timespec="seconds")}
+        rec["media_id"] = str(media_id or "")      # owner 25 Nov: YouTube finds the source comment of this post by it
         if combined_mode():      # owner 25 Nov: one e-mail with the Instagram, Facebook and YouTube links (poster/combined_email.py)
-            rec.update(combined=True, media_id=str(media_id or ""), caption=str(caption or "")[:2200])
+            rec.update(combined=True, caption=str(caption or "")[:2200])
         (POSTED_DIR / f"{now:%Y%m%d-%H%M%S}-{PAGE}-{sid}.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
     except Exception as e:
         log("posted record not saved:", str(e)[:120])
+
+
+def remember_comment(media_id, msg):
+    """owner 25 Nov: keep the Instagram source comment in the post's record (poster/posted) - YouTube puts it at the top of the
+    Short's description (a YouTube comment needs a permission the channels do not have yet). Never raises."""
+    try:
+        for f in sorted(POSTED_DIR.glob("*.json"), reverse=True)[:60]:
+            rec = json.loads(f.read_text(encoding="utf-8"))
+            if rec.get("media_id") == str(media_id):
+                rec["source_comment"] = str(msg)[:1500]
+                f.write_text(json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
+                return
+    except Exception as e:
+        log("source comment not kept for YouTube:", str(e)[:120])
+
+
+def comment_for(media_id):
+    """the Instagram source comment of this post ('' when not known)"""
+    try:
+        for f in sorted(POSTED_DIR.glob("*.json"), reverse=True):
+            rec = json.loads(f.read_text(encoding="utf-8"))
+            if media_id and rec.get("media_id") == str(media_id):
+                return rec.get("source_comment") or ""
+    except Exception:
+        pass
+    return ""
 
 
 def first_comment(token, media_id, sid, row):
@@ -1640,6 +1667,7 @@ def first_comment(token, media_id, sid, row):
         if not msg:
             log("source comment not added: the news source is not known", sid)
             return
+        remember_comment(media_id, msg)      # owner 25 Nov: the same source text goes on YouTube
         for attempt in (1, 2):
             try:
                 ig("POST", f"{media_id}/comments", token, message=msg)
