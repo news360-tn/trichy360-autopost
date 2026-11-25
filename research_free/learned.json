@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-26T01:30+05:30",
+ "updated": "2026-11-26T04:27+05:30",
  "posts_measured": 151,
  "topic_weight": {
   "accident": 1.5,
-  "crime": 1.36,
-  "power_cut": 1.36,
-  "civic": -0.03,
+  "crime": 1.32,
+  "power_cut": 1.24,
+  "civic": -0.06,
   "education": -0.5,
-  "politics": -0.28,
+  "politics": -0.3,
   "weather": -0.5,
   "temple": -0.5,
-  "poultry_agri": -0.46
+  "poultry_agri": -0.24
  },
  "topic_n": {
   "accident": 18,
@@ -36,7 +36,7 @@
   "🚨 திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது",
   "🚨 சோமரசம்பேட்டை அருகே பெண் இறப்பில் சந்தேகம்: உறவினர்கள் சாலை மறியல்"
  ],
- "avg_watch_s": 7.8,
+ "avg_watch_s": 7.9,
  "best_topics": [
   "accident",
   "crime",
