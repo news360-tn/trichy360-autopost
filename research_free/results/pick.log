@@ -1,46 +1,11 @@
-20:28:12 round 2026-11-25_20: news published 25 Nov 17:01 -> 25 Nov 20:28 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-20:28:12 insights 2026-11-25T20:28+05:30 (147 reels): topic weights {'accident': 1.5, 'crime': 1.45, 'power_cut': 1.38, 'civic': -0.03, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.29}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-20:29:46 open search 'திருச்சி' (from_google): 0 links from our outlets
-20:29:46 87 links on the two papers' Trichy pages
-20:30:51 skipped: not Trichy district=27, already posted=23, published before this window=21, same event already posted=8, only a headline=3, state-wide / other district=2
-20:30:51 list: 2 new + 0 earlier news not posted yet
-20:30:51    1. [பொது] வைகோ பற்றிய மீம்ஸ்.. சோசியல் மீடியாவில் எவ்வளவு வேண்டுமானாலும் என்னை அ (ஒன்இந்தியா)
-20:30:51    2. [பொது] வைகோ கோபம் கொள்வது ஏன்? - துரை வைகோ ஆவேசம் (பாலிமர்)
-20:30:51 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-25_20
-20:30:53 round 2026-11-25_20 (at least 5, up to 3 more of well-watched topics): 2 news to choose from (0 from earlier rounds), ranked by this page's insights
-20:30:53   PICK   1.   3.0 [other +0.00 pattern] வைகோ பற்றிய மீம்ஸ்.. சோசியல் மீடியாவில் எவ்வளவு வேண்டுமானாலு
-20:30:53   PICK   2.   3.0 [other +0.00 pattern] வைகோ கோபம் கொள்வது ஏன்? - துரை வைகோ ஆவேசம்
-20:30:53 decided: automatic: top 5 of 2 by insights -> 2 news to write and post
-PICK_URLS=https://tamil.oneindia.com/news/trichirappalli/go-ahead-and-bash-me-all-you-want-on-social-media-durai-vaikos-fiery-retort-848173.html https://www.polimernews.com/politicsnews/vaiko-is-84-years-old-so-he-gets-emotional-says-durai-vaiko-12840785
-20:33:51 2 listed news now in the Sheet
-20:34:01 instagram duplicate check trichy: 50 recent posts read
-20:34:02 verify 2026-11-25_20: 0 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-20:34:02    NOT POSTED C087e4ea: queued RN-152 (Queued) - வைகோ கோபம் கொள்வது ஏன்? - துரை வைகோ ஆவேசம்
-20:34:02    NOT POSTED C7c28578: queued RN-153 (Queued) - வைகோ பற்றிய மீம்ஸ்.. சோசியல் மீடியாவில் எவ்வளவு வேண்டுமானாலு
-20:39:09 instagram duplicate check trichy: 50 recent posts read
-20:39:10 verify 2026-11-25_20: 0 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-20:39:10    NOT POSTED C087e4ea: queued RN-152 (Queued) - வைகோ கோபம் கொள்வது ஏன்? - துரை வைகோ ஆவேசம்
-20:39:10    NOT POSTED C7c28578: queued RN-153 (Queued) - வைகோ பற்றிய மீம்ஸ்.. சோசியல் மீடியாவில் எவ்வளவு வேண்டுமானாலு
-20:44:17 instagram duplicate check trichy: 50 recent posts read
-20:44:17 verify 2026-11-25_20: 0 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-20:44:17    NOT POSTED C087e4ea: queued RN-152 (Queued) - வைகோ கோபம் கொள்வது ஏன்? - துரை வைகோ ஆவேசம்
-20:44:17    NOT POSTED C7c28578: queued RN-153 (Queued) - வைகோ பற்றிய மீம்ஸ்.. சோசியல் மீடியாவில் எவ்வளவு வேண்டுமானாலு
-20:49:24 instagram duplicate check trichy: 50 recent posts read
-20:49:24 verify 2026-11-25_20: 0 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-20:49:24    NOT POSTED C087e4ea: queued RN-152 (Queued) - வைகோ கோபம் கொள்வது ஏன்? - துரை வைகோ ஆவேசம்
-20:49:24    NOT POSTED C7c28578: queued RN-153 (Queued) - வைகோ பற்றிய மீம்ஸ்.. சோசியல் மீடியாவில் எவ்வளவு வேண்டுமானாலு
-20:54:31 instagram duplicate check trichy: 50 recent posts read
-20:54:31 verify 2026-11-25_20: 0 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-20:54:31    NOT POSTED C087e4ea: queued RN-152 (Queued) - வைகோ கோபம் கொள்வது ஏன்? - துரை வைகோ ஆவேசம்
-20:54:31    NOT POSTED C7c28578: queued RN-153 (Queued) - வைகோ பற்றிய மீம்ஸ்.. சோசியல் மீடியாவில் எவ்வளவு வேண்டுமானாலு
-20:59:38 instagram duplicate check trichy: 50 recent posts read
-20:59:38 verify 2026-11-25_20: 1 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-20:59:38    NOT POSTED C7c28578: queued RN-153 (Queued) - வைகோ பற்றிய மீம்ஸ்.. சோசியல் மீடியாவில் எவ்வளவு வேண்டுமானாலு
-21:04:46 instagram duplicate check trichy: 50 recent posts read
-21:04:46 verify 2026-11-25_20: 1 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-21:04:46    NOT POSTED C7c28578: queued RN-153 (Queued) - வைகோ பற்றிய மீம்ஸ்.. சோசியல் மீடியாவில் எவ்வளவு வேண்டுமானாலு
-21:09:54 instagram duplicate check trichy: 50 recent posts read
-21:09:54 verify 2026-11-25_20: 1 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-21:09:54    NOT POSTED C7c28578: queued RN-153 (Queued) - வைகோ பற்றிய மீம்ஸ்.. சோசியல் மீடியாவில் எவ்வளவு வேண்டுமானாலு
-21:15:01 verify 2026-11-25_20: 2 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+23:03:02 round 2026-11-25_23: news published 25 Nov 20:28 -> 25 Nov 23:03 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+23:03:02 insights 2026-11-25T23:03+05:30 (149 reels): topic weights {'accident': 1.5, 'crime': 1.36, 'power_cut': 1.36, 'civic': -0.03, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.34}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+23:04:08 open search 'திருச்சி' (from_google): 0 links from our outlets
+23:04:08 80 links on the two papers' Trichy pages
+23:05:09 skipped: not Trichy district=24, already posted=22, published before this window=21, same event already posted=7, only a headline=2
+23:05:09 list: 3 new + 0 earlier news not posted yet
+23:05:09    1. [குற்றம்] மனைவி மாயம் கணவர் தற்கொலை (தினமலர்)
+23:05:09    2. [நீதிமன்றம்] பேரவை துணைத் தலைவர் மீது நடவடிக்கை கோரி ‘தாக்கப்பட்டவர்’ உயர் நீதிமன்ற (இந்து தமிழ்)
+23:05:09    3. [பொது] 4 குழந்தைகளுடன் மனைவி மாயம் கணவர் போலீசில் புகார் (தினமலர்)
+23:05:09 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-25_23
