@@ -1,43 +1,9 @@
-06:27:48 round 2026-11-25_06: news published 25 Nov 05:06 -> 25 Nov 06:27 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-06:27:48 insights 2026-11-25T06:27+05:30 (142 reels): topic weights {'accident': 1.5, 'crime': 1.46, 'power_cut': 1.0, 'civic': -0.03, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.45}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-06:28:18 open search 'திருச்சி' (from_google): 1 links from our outlets
-06:28:18 66 links on the two papers' Trichy pages
-06:29:05 skipped: already posted=21, published before this window=21, not Trichy district=10, same event already posted=8, only a headline=2, state-wide / other district=1
-06:29:05 list: 3 new + 0 earlier news not posted yet
-06:29:05    1. [மழை / வானிலை] பொன்னம்பட்டி பேரூராட்சியில் மழைநீர் சேகரிப்பு விழிப்புணர்வு கூட்டம் -  (தினகரன்)
-06:29:05    2. [பொது] துவரங்குறிச்சி அருகே பழமையான சிவன் கோயிலில் 12,501 அகல் விளக்கால் உருவ (தினகரன்)
-06:29:05    3. [பொது] திருப்பரங்குன்றம் தீப விவகாரம் வீட்டுக்காவலில் முசிறி பாஜ நிர்வாகி - D (தினகரன்)
-06:29:05 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-25_06
-06:29:07 round 2026-11-25_06 (at least 7, up to 3 more of well-watched topics): 3 news to choose from (0 from earlier rounds), ranked by this page's insights
-06:29:07   PICK   1.  12.9 [weather +0.80 pattern] பொன்னம்பட்டி பேரூராட்சியில் மழைநீர் சேகரிப்பு விழிப்புணர்வு 
-06:29:07   PICK   2.   4.0 [other +0.00 pattern] துவரங்குறிச்சி அருகே பழமையான சிவன் கோயிலில் 12,501 அகல் விளக
-06:29:07   PICK   3.   3.0 [other +0.00 pattern] திருப்பரங்குன்றம் தீப விவகாரம் வீட்டுக்காவலில் முசிறி பாஜ நி
-06:29:07 decided: automatic: top 7 of 3 by insights -> 3 news to write and post
-PICK_URLS=https://www.dinakaran.com/district/trichy_251126_3 https://www.dinakaran.com/district/trichy_251126_1 https://www.dinakaran.com/district/trichy_251126_2
-06:30:38 1 picked news refused by the writer - not offered again
-06:30:38 2 listed news now in the Sheet
-06:30:46 instagram duplicate check trichy: 50 recent posts read
-06:30:46 verify 2026-11-25_06: 0 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-06:30:46    SKIPPED Cb386a51: skipped: the writer refused it - not filed: all free models failed: no usable answer from the models - திருப்பரங்குன்றம் தீப விவகாரம் வீட்டுக்காவலில் முசிறி பாஜ நி
-06:30:46    NOT POSTED Ca669c8b: queued RN-149 (Queued) - பொன்னம்பட்டி பேரூராட்சியில் மழைநீர் சேகரிப்பு விழிப்புணர்வு 
-06:30:46    NOT POSTED Cfcde8c7: queued RN-148 (Queued) - துவரங்குறிச்சி அருகே பழமையான சிவன் கோயிலில் 12,501 அகல் விளக
-06:35:54 instagram duplicate check trichy: 50 recent posts read
-06:35:54 verify 2026-11-25_06: 0 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-06:35:54    SKIPPED Cb386a51: skipped: the writer refused it - not filed: all free models failed: no usable answer from the models - திருப்பரங்குன்றம் தீப விவகாரம் வீட்டுக்காவலில் முசிறி பாஜ நி
-06:35:54    NOT POSTED Ca669c8b: queued RN-149 (Queued) - பொன்னம்பட்டி பேரூராட்சியில் மழைநீர் சேகரிப்பு விழிப்புணர்வு 
-06:35:54    NOT POSTED Cfcde8c7: queued RN-148 (Queued) - துவரங்குறிச்சி அருகே பழமையான சிவன் கோயிலில் 12,501 அகல் விளக
-06:41:04 instagram duplicate check trichy: 50 recent posts read
-06:41:04 verify 2026-11-25_06: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-06:41:04    SKIPPED Cb386a51: skipped: the writer refused it - not filed: all free models failed: no usable answer from the models - திருப்பரங்குன்றம் தீப விவகாரம் வீட்டுக்காவலில் முசிறி பாஜ நி
-06:41:04    NOT POSTED Cfcde8c7: queued RN-148 (Queued) - துவரங்குறிச்சி அருகே பழமையான சிவன் கோயிலில் 12,501 அகல் விளக
-06:46:14 instagram duplicate check trichy: 50 recent posts read
-06:46:14 verify 2026-11-25_06: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-06:46:14    SKIPPED Cb386a51: skipped: the writer refused it - not filed: all free models failed: no usable answer from the models - திருப்பரங்குன்றம் தீப விவகாரம் வீட்டுக்காவலில் முசிறி பாஜ நி
-06:46:14    NOT POSTED Cfcde8c7: queued RN-148 (Queued) - துவரங்குறிச்சி அருகே பழமையான சிவன் கோயிலில் 12,501 அகல் விளக
-06:51:22 instagram duplicate check trichy: 50 recent posts read
-06:51:22 verify 2026-11-25_06: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-06:51:22    SKIPPED Cb386a51: skipped: the writer refused it - not filed: all free models failed: no usable answer from the models - திருப்பரங்குன்றம் தீப விவகாரம் வீட்டுக்காவலில் முசிறி பாஜ நி
-06:51:22    NOT POSTED Cfcde8c7: queued RN-148 (Queued) - துவரங்குறிச்சி அருகே பழமையான சிவன் கோயிலில் 12,501 அகல் விளக
-06:56:28 verify 2026-11-25_06: 2 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-06:56:28    SKIPPED Cb386a51: skipped: the writer refused it - not filed: all free models failed: no usable answer from the models - திருப்பரங்குன்றம் தீப விவகாரம் வீட்டுக்காவலில் முசிறி பாஜ நி
+08:27:14 round 2026-11-25_08: news published 25 Nov 06:27 -> 25 Nov 08:27 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+08:27:14 insights 2026-11-25T08:27+05:30 (145 reels): topic weights {'accident': 1.5, 'crime': 1.49, 'power_cut': 1.1, 'civic': -0.01, 'education': -0.5, 'politics': -0.26, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.44}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+08:27:49 open search 'திருச்சி' (from_google): 2 links from our outlets
+08:27:49 69 links on the two papers' Trichy pages
+08:28:31 skipped: already posted=21, published before this window=21, not Trichy district=11, same event already posted=9, only a headline=2, state-wide / other district=1
+08:28:31 list: 1 new + 0 earlier news not posted yet
+08:28:31    1. [பொது] முடக்கம் செய்யறாங்க... திருவெறும்பூர் மக்கள் எழுப்பிய பெரும் குற்றச்சா (ஏபிபி நாடு)
+08:28:31 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-25_08
