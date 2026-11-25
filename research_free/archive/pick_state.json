@@ -26,7 +26,8 @@
    "score": 4.49,
    "power_cut": false,
    "listed_at": "2026-11-25T08:27:14.565170+05:30",
-   "picked_at": "2026-11-25T08:28:33.344799+05:30"
+   "picked_at": "2026-11-25T08:28:33.344799+05:30",
+   "refused": "not filed: all free models failed: no usable answer from the models"
   }
  },
  "rounds": {
@@ -417,7 +418,10 @@
    },
    "written": [
     "C5a51d2e"
-   ]
+   ],
+   "refused": {
+    "C5a51d2e": "not filed: all free models failed: no usable answer from the models"
+   }
   }
  },
  "retry": {}
