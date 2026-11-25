@@ -55,21 +55,43 @@ def when(ts):
     return datetime.strptime(ts[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc).astimezone(IST)
 
 
+TITLE_MAX = 70
+SEARCH_WORD = {"crime": "crime news", "accident": "accident news", "power_cut": "power cut", "jobs": "jobs", "weather": "weather",
+               "temple": "temple news", "politics": "politics", "civic": "news", "education": "education news", "poultry_agri": "agri news",
+               "sports_culture": "sports news"}
+
+
+def search_word(cap):
+    """owner 25 Nov: the English search word for the title, from the news topic (the same topics the insights use)"""
+    if re.search(r"ராசிபலன்", cap or ""):
+        return "rasi palan today"
+    if re.search(r"தங்கம்.{0,25}விலை|Gold rate|GoldRate", cap or "", re.I):
+        return "gold rate today"
+    try:
+        import sys as _s, os as _o
+        _s.path.insert(0, _o.path.join(_o.path.dirname(__file__), "..", "research_free"))
+        import learned
+        return SEARCH_WORD.get(learned.topic(cap or ""), "news")
+    except Exception:
+        return "news"
+
+
 def details(m, page, uname):
     """YouTube title / description / tags from the Instagram caption (it already has the headline, 📰 Source and 📅 date)"""
     cap = m.get("caption") or ""
     lines = [x.strip() for x in cap.split("\n")]
     head = re.sub(r"^[^\w஀-௿]+", "", lines[0] if lines else "").strip()
     name = PAGE_EN.get(page, page.title())
-    title = head if len(head) <= 100 - len(f" | {name} 360") else head[:100 - len(f" | {name} 360") - 1].rstrip() + "…"
-    title = f"{title} | {name} 360"
+    suffix = f" | {name} {search_word(cap)}"      # owner 25 Nov: an English search word (people search YouTube in English too)
+    room = TITLE_MAX - len(suffix)
+    title = (head if len(head) <= room else head[:room - 1].rstrip() + "…") + suffix      # owner 25 Nov: about 70 characters (Shorts feed)
     tags = [t.lstrip("#") for t in re.findall(r"#[^\s#]+", cap)][:12]
     body = [x for x in lines[1:] if x and not x.startswith("#") and not x.startswith("🤝 Sponsored")]
     src = next((x for x in body if x.startswith("📰 Source")), "")
     body = [x for x in body if x != src]
     date = when(m["timestamp"]).strftime("%d %b %Y")
-    desc = "\n".join([head, ""] + body[:12] + ["", src or "", f"📅 {date}", "",
-                      f"Follow on Instagram: @{uname}" if uname else "", f"#Shorts #{name}News #TamilNews #{name}360"]).strip()
+    desc = "\n".join([f"#{name} #TamilNews #Shorts", "", head, ""] + body[:12] + ["", src or "", f"📅 {date}", "",      # owner 25 Nov: YouTube shows the first 3 hashtags above the title
+                      f"🔔 Subscribe for daily {name} news", f"#{name}News #{name}360"]).strip()      # owner 25 Nov: keep viewers on YouTube
     for extra in (f"{name} news", "Tamil news", f"{name} 360", "Shorts"):
         if extra not in tags:
             tags.append(extra)

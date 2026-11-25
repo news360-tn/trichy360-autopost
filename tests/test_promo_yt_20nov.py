@@ -108,14 +108,14 @@ class YouTube(unittest.TestCase):
                "#Namakkal #PowerCut")
         d = youtube.details(m("2026-11-20T01:00:00", cap), "namakkal", "namakkal_360")
         self.assertTrue(d["title"].startswith("நாமக்கல்லில் நாளை மின் தடை"))
-        self.assertTrue(d["title"].endswith(" | Namakkal 360"))
-        self.assertLessEqual(len(d["title"]), 100)
+        self.assertTrue(d["title"].endswith(" | Namakkal power cut"))      # owner 25 Nov: English search word
+        self.assertLessEqual(len(d["title"]), 70)
         self.assertIn("📰 Source: தினமலர்", d["description"])
         self.assertIn("📅 20 Nov 2026", d["description"])
         self.assertNotIn("Sponsored", d["description"])
         self.assertIn("Namakkal", d["tags"])
         long = youtube.details(m("2026-11-20T01:00:00", "அ" * 150), "coimbatore", "")
-        self.assertLessEqual(len(long["title"]), 100)
+        self.assertLessEqual(len(long["title"]), 70)
 
     def test_times_never_at_night(self):
         late = datetime(2026, 11, 20, 15, 35, tzinfo=timezone.utc)      # 21:05 IST

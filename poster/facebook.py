@@ -225,9 +225,25 @@ def next_waiting(page):
     return best[1] if best else None
 
 
-def fb_caption(cap, page_tag, tags=None):
+TAMIL_TAG = {"namakkal": "#நாமக்கல்", "rasipuram": "#இராசிபுரம்", "coimbatore": "#கோவை", "erode": "#ஈரோடு", "karur": "#கரூர்",
+             "salem": "#சேலம்", "tirupur": "#திருப்பூர்", "trichy": "#திருச்சி"}      # owner 25 Nov: Tamil viewers search in Tamil too
+FB_SHORT_LINES = 3      # owner 25 Nov: Facebook shows about 125 characters before "See more" - headline + 3 short lines + source
+
+
+def _short(text):
+    """owner 25 Nov: the Facebook news caption - the headline (place + key fact) first, then the first 3 lines of the news and the
+    source line; the rest of the Instagram caption is left out (Facebook readers do not open long texts)"""
+    lines = [l for l in text.split("\n")]
+    src = [l for l in lines if l.strip().startswith("📰")]
+    rest = [l for l in lines if l.strip() and not l.strip().startswith("📰")]
+    out = rest[:1 + FB_SHORT_LINES]
+    return "\n".join(out[:1] + ([""] if len(out) > 1 else []) + out[1:] + ([""] + src[:1] if src else []))
+
+
+def fb_caption(cap, page_tag, tags=None, short=False, tamil_tag=""):
     """the Instagram caption (location line first, full news) with only 3 hashtags at the end.
-    Instagram's tag line is: area, town, topic, Tamil place, page -> Facebook keeps town + topic + page tag."""
+    Instagram's tag line is: area, town, topic, Tamil place, page -> Facebook keeps town + topic + page tag.
+    owner 25 Nov: news (short=True) gets the short Facebook text and the page's Tamil district tag as well."""
     found, body = [], []
     for l in (cap or "").split("\n"):
         l = re.sub(r"\s*:?\s*https?://\S+", "", l)      # owner 24 Nov: no outside link in the Facebook post text (Facebook shows such posts to far
@@ -246,7 +262,12 @@ def fb_caption(cap, page_tag, tags=None):
                 others.append(t)
         tags = others[1:FB_TAGS] if len(others) >= FB_TAGS else others[:FB_TAGS - 1]
     text = re.sub(r"\n{3,}", "\n\n", "\n".join(body)).strip()
-    return (text + "\n\n" + " ".join(list(tags)[:FB_TAGS - 1] + [page_tag])).strip()
+    if short:
+        text = _short(text)
+    tl = list(tags)[:FB_TAGS - 1]
+    if tamil_tag and tamil_tag.lower() not in {t.lower() for t in tl + [page_tag]}:
+        tl.append(tamil_tag)
+    return (text + "\n\n" + " ".join(tl + [page_tag])).strip()
 
 
 def _err(r):
@@ -448,7 +469,8 @@ def share(page, sid, kind, media, caption, page_tag, dry=False, tags=None, story
         if prev.get("status") == "posted":
             log(f"already on Facebook ({page} {sid} {kind}) - not posted again:", prev.get("link"))
             return prev.get("link", "")
-        cap = fb_caption(caption, page_tag, tags)
+        news = str(sid).startswith("RN-")      # owner 25 Nov: news gets the short text + Tamil tag; rasipalan / gold stay as they are
+        cap = fb_caption(caption, page_tag, tags, short=news, tamil_tag=TAMIL_TAG.get(page, "") if news else "")
         src = source_link if source_link and source_link not in cap else ""      # owner 11 Nov: the article, so readers can check the news
         if not LINK_IN_COMMENT:
             cap, src, comment = with_link(cap, src), "", ""

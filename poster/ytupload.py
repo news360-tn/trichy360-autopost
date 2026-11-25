@@ -98,7 +98,7 @@ def access_token(page):
 def upload(token, path, title, description, tags, privacy):
     """resumable upload (YouTube Data API v3 videos.insert); returns the video id"""
     meta = {"snippet": {"title": title[:100], "description": description[:4900], "tags": [t.strip() for t in tags.split(",") if t.strip()][:15],
-                        "categoryId": "25"},      # 25 = News & Politics
+                        "categoryId": "25", "defaultLanguage": "ta", "defaultAudioLanguage": "ta"},      # 25 = News & Politics; owner 25 Nov: Tamil
             "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False}}
     size = os.path.getsize(path)
     r = requests.post(UPLOAD_URL, params={"uploadType": "resumable", "part": "snippet,status"},
@@ -154,8 +154,9 @@ def catchup(post, now=None):
                 continue
             d = youtube.details(m, page, uname)
             src = post.comment_for(m.get("id")) if hasattr(post, "comment_for") else ""
-            if src:      # owner 25 Nov: the Instagram first comment (source + link) at the top of the description
-                d["description"] = (src.strip() + "\n\n" + d["description"])[:4900]
+            if src:      # owner 25 Nov: the Instagram first comment (source + link) at the top, after the 3 hashtags line
+                tagline, _, rest = d["description"].partition("\n")
+                d["description"] = (tagline + "\n\n" + src.strip() + "\n" + rest)[:4900]
             vid = upload(access_token(page), path, d["title"], d["description"], d["tags"], s["privacy"])
             st.setdefault("uploads", []).append({"ig": m["id"], "youtube": vid, "day": day, "at": now.isoformat(timespec="seconds"),
                                                  "title": d["title"], **({"daily": True} if m in daily else {})})
