@@ -83,6 +83,17 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-25 | `24c1dc5` | R2 check: manual workflow that uploads a test file and reads it back |
+| 2026-11-25 | `9423fb8` | stories shared / Instagram pause |
+| 2026-11-25 | `d58b0f1` | stories shared / Instagram pause |
+| 2026-11-25 | `88eefa2` | pick: written and posted |
+| 2026-11-25 | `37a40f3` | pick: list sent |
+| 2026-11-25 | `15f21e5` | stories shared / Instagram pause |
+| 2026-11-25 | `0073401` | stories shared / Instagram pause |
+| 2026-11-25 | `ee0effa` | stories shared / Instagram pause |
+| 2026-11-25 | `1b6ddd6` | stories shared / Instagram pause |
+| 2026-11-25 | `8d7b7dd` | stories shared / Instagram pause |
+| 2026-11-25 | `44ef590` | stories shared / Instagram pause |
 | 2026-11-25 | `9b92ce9` | Cloudflare R2 (one shared bucket news360-media) replaces Cloudinary: R2 first, then Cloudinary, then the repo; nothing changes until the R2 secrets are saved; manual-post test uses today's date |
 | 2026-11-25 | `dd34c19` | stories shared / Instagram pause |
 | 2026-11-25 | `7f6a5a9` | stories shared / Instagram pause |
@@ -102,15 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-25 | `ff06d79` | Rasipalan: each page keeps the day's 12 rasi texts; when every AI writer is busy, a page uses the text another 360 page wrote that day |
 | 2026-11-25 | `ef85fd9` | stories shared / Instagram pause |
 | 2026-11-25 | `a7543c7` | stories shared / Instagram pause |
-| 2026-11-25 | `0f7c6cd` | stories shared / Instagram pause |
-| 2026-11-25 | `6b88c22` | stories shared / Instagram pause |
-| 2026-11-25 | `e15a619` | stories shared / Instagram pause |
-| 2026-11-25 | `bd5e71a` | stories shared / Instagram pause |
-| 2026-11-25 | `731f890` | autofix: corrected held news |
-| 2026-11-25 | `22c2aed` | stories shared / Instagram pause |
-| 2026-11-25 | `214f40e` | stories shared / Instagram pause |
-| 2026-11-25 | `dbf236b` | stories shared / Instagram pause |
-| 2026-11-25 | `cc01de4` | stories shared / Instagram pause |
-| 2026-11-25 | `a6b6267` | stories shared / Instagram pause |
-| 2026-11-25 | `9a9cb57` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
