@@ -1,47 +1,47 @@
-12:48:33 SKIP RN-4 stale: published 12 Nov, older than yesterday
-12:48:33 SKIP RN-19 stale: published 14 Nov, older than yesterday
-12:48:33 SKIP RN-22 stale: published 14 Nov, older than yesterday
-12:48:33 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-12:48:33 SKIP RN-29 stale: published 14 Nov, older than yesterday
-12:48:33 SKIP RN-42 stale: published 16 Nov, older than yesterday
-12:48:33 SKIP RN-45 stale: published 16 Nov, older than yesterday
-12:48:33 SKIP RN-71 stale: published 18 Nov, older than yesterday
-12:48:33 SKIP RN-92 stale: published 20 Nov, older than yesterday
-12:48:33 SKIP RN-108 stale: published 21 Nov, older than yesterday
-12:48:33 SKIP RN-109 stale: published 21 Nov, older than yesterday
-12:48:33 SKIP RN-110 stale: published 21 Nov, older than yesterday
-12:48:33 SKIP RN-111 stale: published 21 Nov, older than yesterday
-12:48:33 SKIP RN-112 stale: published 21 Nov, older than yesterday
-12:48:33 SKIP RN-113 stale: published 22 Nov, older than yesterday
-12:48:33 SKIP RN-114 stale: published 22 Nov, older than yesterday
-12:48:33 SKIP RN-116 stale: published 22 Nov, older than yesterday
-12:48:33 SKIP RN-140 held: fact-check problems - fact-check: Slide 1 line contains a grammatical error: "ஈடுபட்டனர" should be "ஈடுபட்டனர்"
+12:51:29 SKIP RN-4 stale: published 12 Nov, older than yesterday
+12:51:29 SKIP RN-19 stale: published 14 Nov, older than yesterday
+12:51:29 SKIP RN-22 stale: published 14 Nov, older than yesterday
+12:51:29 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+12:51:29 SKIP RN-29 stale: published 14 Nov, older than yesterday
+12:51:29 SKIP RN-42 stale: published 16 Nov, older than yesterday
+12:51:29 SKIP RN-45 stale: published 16 Nov, older than yesterday
+12:51:29 SKIP RN-71 stale: published 18 Nov, older than yesterday
+12:51:29 SKIP RN-92 stale: published 20 Nov, older than yesterday
+12:51:29 SKIP RN-108 stale: published 21 Nov, older than yesterday
+12:51:29 SKIP RN-109 stale: published 21 Nov, older than yesterday
+12:51:29 SKIP RN-110 stale: published 21 Nov, older than yesterday
+12:51:29 SKIP RN-111 stale: published 21 Nov, older than yesterday
+12:51:29 SKIP RN-112 stale: published 21 Nov, older than yesterday
+12:51:29 SKIP RN-113 stale: published 22 Nov, older than yesterday
+12:51:29 SKIP RN-114 stale: published 22 Nov, older than yesterday
+12:51:29 SKIP RN-116 stale: published 22 Nov, older than yesterday
+12:51:29 SKIP RN-140 held: fact-check problems - fact-check: Slide 1 line contains a grammatical error: "ஈடுபட்டனர" should be "ஈடுபட்டனர்"
 ::warning title=Held from posting RN-140::held: fact-check problems - fact-check: Slide 1 line contains a grammatical error: "ஈடுபட்டனர" should be "ஈடுபட்டனர்"
-12:48:33 SKIP RN-147 held: fact-check problems - fact-check: reel_script says the victim sent money 'to the bank account given by the fraudster' — acceptable, but the caption adds an unsupported claim that the victim 'sent Rs 3.38 lakh' in installme
+12:51:29 SKIP RN-147 held: fact-check problems - fact-check: reel_script says the victim sent money 'to the bank account given by the fraudster' — acceptable, but the caption adds an unsupported claim that the victim 'sent Rs 3.38 lakh' in installme
 ::warning title=Held from posting RN-147::held: fact-check problems - fact-check: reel_script says the victim sent money 'to the bank account given by the fraudster' — acceptable, but the caption adds an unsupported claim that the victim 'sent Rs 3.38 lakh' in installme
-12:48:33 story catch-up off (test run or post_stories false)
-12:48:33 20 stories in the queue, ready to post: 1
-12:48:33   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-12:48:33    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 293.6 ready= False set_started= True
-12:48:33    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 262.8 ready= False set_started= True
-12:48:33    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 259.1 ready= False set_started= True
-12:48:33    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 259.1 ready= False set_started= True
-12:48:33    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 255.1 ready= False set_started= True
-12:48:33    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 222.9 ready= False set_started= True
-12:48:33    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 222.9 ready= False set_started= True
-12:48:33    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 173.4 ready= False set_started= True
-12:48:33    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 128.3 ready= False set_started= True
-12:48:33    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 99.9 ready= False set_started= True
-12:48:33    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 99.9 ready= False set_started= True
-12:48:33    RN-110 review= 'Auto' images= 197 spec= 662 pages= ['trichy'] links= '' '' age_h= 92.1 ready= False set_started= True
-12:48:33    RN-111 review= 'Auto' images= 197 spec= 733 pages= ['trichy'] links= '' '' age_h= 88.2 ready= False set_started= True
-12:48:33    RN-112 review= 'Auto' images= 99 spec= 503 pages= ['trichy'] links= '' '' age_h= 85.5 ready= False set_started= True
-12:48:33    RN-113 review= 'Auto' images= 197 spec= 685 pages= ['trichy'] links= '' '' age_h= 82.6 ready= False set_started= True
-12:48:33    RN-114 review= 'Auto' images= 197 spec= 817 pages= ['trichy'] links= '' '' age_h= 82.6 ready= False set_started= True
-12:48:33    RN-116 review= 'Auto' images= 197 spec= 670 pages= ['trichy'] links= '' '' age_h= 82.6 ready= False set_started= True
-12:48:33    RN-140 review= 'Auto' images= 197 spec= 726 pages= ['trichy'] links= '' '' age_h= 18.5 ready= False set_started= True
-12:48:33    RN-142 review= 'Auto' images= 197 spec= 799 pages= ['trichy'] links= '' '' age_h= 14.2 ready= True set_started= True
-12:48:33    RN-147 review= 'Auto' images= 197 spec= 689 pages= ['trichy'] links= '' '' age_h= 10.4 ready= False set_started= True
-12:48:34 publishing quota trichy: 12/50
-12:48:36 instagram duplicate check trichy: 50 recent posts read
-12:48:36    RN-142 skipped: already on Instagram ['trichy']
+12:51:29 story catch-up off (test run or post_stories false)
+12:51:29 20 stories in the queue, ready to post: 1
+12:51:29   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+12:51:29    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 293.6 ready= False set_started= True
+12:51:29    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 262.9 ready= False set_started= True
+12:51:29    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 259.2 ready= False set_started= True
+12:51:29    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 259.2 ready= False set_started= True
+12:51:29    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 255.1 ready= False set_started= True
+12:51:29    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 223.0 ready= False set_started= True
+12:51:29    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 223.0 ready= False set_started= True
+12:51:29    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 173.4 ready= False set_started= True
+12:51:29    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 128.3 ready= False set_started= True
+12:51:29    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 99.9 ready= False set_started= True
+12:51:29    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 99.9 ready= False set_started= True
+12:51:29    RN-110 review= 'Auto' images= 197 spec= 662 pages= ['trichy'] links= '' '' age_h= 92.2 ready= False set_started= True
+12:51:29    RN-111 review= 'Auto' images= 197 spec= 733 pages= ['trichy'] links= '' '' age_h= 88.2 ready= False set_started= True
+12:51:29    RN-112 review= 'Auto' images= 99 spec= 503 pages= ['trichy'] links= '' '' age_h= 85.5 ready= False set_started= True
+12:51:29    RN-113 review= 'Auto' images= 197 spec= 685 pages= ['trichy'] links= '' '' age_h= 82.7 ready= False set_started= True
+12:51:29    RN-114 review= 'Auto' images= 197 spec= 817 pages= ['trichy'] links= '' '' age_h= 82.7 ready= False set_started= True
+12:51:29    RN-116 review= 'Auto' images= 197 spec= 670 pages= ['trichy'] links= '' '' age_h= 82.7 ready= False set_started= True
+12:51:29    RN-140 review= 'Auto' images= 197 spec= 726 pages= ['trichy'] links= '' '' age_h= 18.6 ready= False set_started= True
+12:51:29    RN-142 review= 'Auto' images= 197 spec= 799 pages= ['trichy'] links= '' '' age_h= 14.3 ready= True set_started= True
+12:51:29    RN-147 review= 'Auto' images= 197 spec= 689 pages= ['trichy'] links= '' '' age_h= 10.5 ready= False set_started= True
+12:51:30 publishing quota trichy: 12/50
+12:51:32 instagram duplicate check trichy: 50 recent posts read
+12:51:32    RN-142 skipped: already on Instagram ['trichy']
