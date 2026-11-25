@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-25T01:15:44+00:00",
+ "updated": "2026-11-25T01:27:10+00:00",
  "day": "2026-11-25",
- "ready": 2,
+ "ready": 1,
  "pages": {
   "trichy": {
    "label": "திருச்சி 360",
@@ -41,6 +41,13 @@
       "link": "https://www.instagram.com/reel/DgJT9Qmg5CS/",
       "at": "2026-11-25T01:07:26+00:00",
       "kind": "reel"
+     },
+     {
+      "id": "RN-148",
+      "head": "துவரங்குறிச்சி அருகே 12,501 அகல் விளக்குகளால் ஜொலித்த பிரம்மாண்ட சிவலிங்கம்!",
+      "link": "https://www.instagram.com/reel/DgJVwQZM0a8/",
+      "at": "2026-11-25T01:23:31+00:00",
+      "kind": "reel"
      }
     ],
     "paused": "",
@@ -59,8 +66,8 @@
      "link": ""
     },
     "rasipalan": {
-     "posted": false,
-     "link": ""
+     "posted": true,
+     "link": "https://www.instagram.com/reel/DgJVKDrB_p0/"
     }
    },
    "youtube": {
