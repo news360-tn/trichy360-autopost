@@ -160,7 +160,7 @@
   "posted_email_note": "owner 24 Nov: an e-mail for EVERY posted news again (each). owner 20 Nov: once the Promo Hub is set up (PROMO_URL), no e-mail per posted reel - the twice-a-day YouTube details e-mail per page lists them (Gmail's daily limit). \"each\" brings the per-reel e-mail back.",
   "ig_block_pause_hours": 6,
   "ig_create_pause_hours": 6,
-  "youtube_upload": {"enabled": true, "per_day": 5, "gap_min": 90, "hours": [9, 21], "privacy": "private"},
+  "youtube_upload": {"enabled": true, "per_day": 20, "gap_min": 40, "hours": [7, 22], "privacy": "public"},
   "youtube_upload_note": "owner 21 Nov: the day's best news reels go to the page's YouTube channel as Shorts - only when its YT_CLIENT_ID_/YT_CLIENT_SECRET_/YT_REFRESH_TOKEN_<PAGE> secrets exist. One Google Cloud project per page (about 6 uploads a day each). privacy stays private until Google approves the YouTube API audit, then set public.",
   "ig_rate_pause_min": 60,
   "story_catchup_tries": 2,

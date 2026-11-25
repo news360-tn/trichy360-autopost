@@ -59,7 +59,7 @@ class YouTubeUpload(unittest.TestCase):
             up = self.run_once()
             up.assert_called_once()
             self.assertIn("மின் தடை", up.call_args.args[2])      # the power cut first (rasipalan never)
-            self.assertEqual(up.call_args.args[5], "private")      # until Google's audit
+            self.assertEqual(up.call_args.args[5], "public")      # owner 23 Nov: uploads go out public
             self.run_once(NOW + timedelta(minutes=30)).assert_not_called()      # 90 minutes apart
             up = self.run_once(NOW + timedelta(minutes=95))
             self.assertIn("சாலை", up.call_args.args[2])      # then the next one - never the same reel twice
@@ -80,7 +80,7 @@ class YouTubeUpload(unittest.TestCase):
         wf = (ROOT / ".github" / "workflows" / "post.yml").read_text(encoding="utf-8")
         self.assertIn("YT_REFRESH_TOKEN_", wf)
         self.assertIn("git add -f poster/yt_uploaded", wf)
-        self.assertEqual(json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["youtube_upload"]["privacy"], "private")
+        self.assertEqual(json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["youtube_upload"]["privacy"], "public")      # owner 23 Nov
 
 
 if __name__ == "__main__":
