@@ -3,29 +3,182 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://tamil.abplive.com/news/trichy/they-are-imposing-a-lockdown-what-is-the-reason-behind-the-major-allegation-raised-by-the-people-of-thiruverumbur-tnn-280497",
-  "candidate filter: collected=1",
-  "to write: 1 Trichy district candidates (max 1 stories)",
-  "round: top 1 of 1 candidates",
-  "candidates waiting: 1 Trichy; time left 79 min",
-  "try (N) manual=True: https://tamil.abplive.com/news/trichy/they-are-imposing-a-lo",
-  "NOT filed (N) முடக்கம் செய்யறாங்க... திருவெறும்பூர் மக்கள் எழுப்: all free models failed: no usable answer from the models",
-  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 0}, time left 79 min",
-  "filed: 0 Trichy district stories (target 1), reels only",
+  "manual link added: https://tamil.oneindia.com/news/trichirappalli/go-ahead-and-bash-me-all-you-want-on-social-media-durai-vaikos-fiery-retort-848173.html",
+  "manual link added: https://www.polimernews.com/politicsnews/vaiko-is-84-years-old-so-he-gets-emotional-says-durai-vaiko-12840785",
+  "candidate filter: collected=2",
+  "to write: 2 Trichy district candidates (max 2 stories)",
+  "round: top 2 of 2 candidates",
+  "candidates waiting: 2 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.polimernews.com/politicsnews/vaiko-is-84-years-o",
+  "try (N) manual=True: https://tamil.oneindia.com/news/trichirappalli/go-ahead-and-",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
+  "posting job started at once",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
+  "candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 77 min",
+  "filed: 2 Trichy district stories (target 2), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":2,\"updated\":0}"
  ],
  "llm": [
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (16s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (17s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (5s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "dead for this round: gemini/gemini-3-flash-preview",
+  "ok gemini/gemini-3-flash-preview (11s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3-flash-preview (9s)",
+  "ok gemini/gemini-3.6-flash (26s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7"
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "ok groq/openai/gpt-oss-120b (6s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "ok groq/qwen/qwen3.8-27b (1s)"
  ],
- "stories": []
+ "stories": [
+  {
+   "tamil_headline": "திருச்சி விமான நிலையத்தில் துரை வைகோ ஆவேசம்: 84 வயதான வைகோ பற்றி அவதூறு பரப்புவதாகக் கண்டனம்",
+   "english_headline": "Durai Vaiko slams social media slander against 84-year-old father Vaiko at Trichy airport press meet",
+   "category": "Government & Services",
+   "location": "Trichy airport, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "அரசியல்",
+    "loc": "திருச்சி விமான நிலையம்",
+    "hl1": "திருச்சியில் துரை வைகோ ஆவேசம்",
+    "hl2": "அவதூறு பரப்புவதாக கண்டனம்",
+    "slides": [
+     {
+      "title": "துரை வைகோ பேட்டி",
+      "lines": [
+       "திருச்சி விமான நிலையத்தில் துரை வைகோ செய்தியாளர் சந்திப்பு",
+       "84 வயதான தனது தந்தை வைகோ குறித்து அவதூறு எனப் பேச்சு"
+      ]
+     },
+     {
+      "title": "ஆவேசக் கண்டனம்",
+      "lines": [
+       "சமூக வலைதளங்களில் அவதூறு பரப்புவதற்குக் கடும் கண்டனம்",
+       "முடிந்தால் என்னை அடியுங்கள், நான் பதில் சொல்கிறேன் என ஆவேசம்"
+      ]
+     },
+     {
+      "title": "ரூ.200 விமர்சனம்",
+      "lines": [
+       "பதிவு போட <b>200 ரூபாய்</b> கொடுத்து அவதூறு பரப்புவதாக விமர்சனம்",
+       "திமுக முன்பு மேடையில் பேசியது போல் இப்போது பரப்பப்படுகிறது"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சி விமான நிலையத்தில் துரை வைகோ ஆவேசமாகப் பேசினார். 84 வயதான தனது தந்தை வைகோ பற்றி சமூக வலைதளங்களில் அவதூறு பரப்புவதை அவர் கடுமையாகக் கண்டித்தார். முடிந்தால் என்னை அடியுங்கள், நான் பதில் சொல்கிறேன் என அவர் சவால் விடுத்தார். தி மு க முன்பு மேடைகளில் அவதூறு பரப்பியது போல, தற்போது சமூக வலைதளங்களில் ஒரு பதிவு போடுவதற்கு 200 ரூபாய் கொடுத்து அவதூறு பரப்புவதாக அவர் கடுமையான விமர்சனத்தை முன்வைத்தார். திருச்சி விமான நிலையத்தில் செய்தியாளர்களைச் சந்தித்த போது இந்த ஆவேசக் கருத்துகளை அவர் தெரிவித்தார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🎙️ திருச்சியில் துரை வைகோ ஆவேசம்: 84 வயதான வைகோ குறித்து அவதூறு பரப்புவதாகக் கண்டனம்\n\n📰 முழு விவரம்:\nதிருச்சி விமான நிலையத்தில் துரை வைகோ செய்தியாளர்களைச் சந்தித்துப் பேசினார். அப்போது, 84 வயதான தனது தந்தை வைகோ பற்றி சமூக வலைதளங்களில் அவதூறு பரப்புவதற்குக் கடும் கண்டனம் தெரிவித்தார். முடிந்தால் என்னை அடியுங்கள், நான் பதில் சொல்கிறேன் என்றும் அவர் ஆவேசமாகப் பேசினார். திமுக முன்பு மேடை போட்டு அவதூறு பரப்பியது போல, தற்போது சமூக வலைதளங்களில் பதிவு போடுவதற்கு 200 ரூபாய் கொடுத்துத் தங்களைப் பற்றி அவதூறு பரப்புவதாகவும் அவர் விமர்சித்தார்.\n\n📍 இடம்: திருச்சி விமான நிலையம்\n🗓️ நாள்: 25 நவம்பர் 2026\n💬 கருத்து: சமூக வலைதள அவதூறுகளுக்குக் கடும் எதிர்ப்பு\n\nசெய்தியை அறிய பிறருக்கும் Share செய்யுங்கள்.\n\nDurai Vaiko press meet at Trichy airport | Trichy news\n📍 திருச்சி விமான நிலையம், திருச்சி | 25 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyAirport #TrichyNews #திருச்சி",
+   "prompts": "A politician in a white shirt and veshti addresses a group of journalists during a press meet. The scene is set at the exterior arrival area of Trichy International Airport, showing the modern glass facade and steel pillars of the terminal building. A group of about ten reporters in shirts and trousers are seen from behind, holding out microphones and mobile phones toward the speaker. The bright midday sun casts sharp shadows on the paved ground. The camera is at eye level, using a 35mm lens to capture the politician and the surrounding media scrum against the airport backdrop. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up shot focuses on a cluster of microphones held by journalists during the press briefing at Trichy airport. The background shows the blurred architectural lines of the airport terminal and a few palm trees under a clear sky. Only the hands and arms of the reporters are visible as they hold up microphones with various colored foam covers—red, blue, and yellow—without any logos or text. A single smartphone on a small handheld tripod is also visible among the recording devices. The lighting is bright and natural, typical of a sunny day in Trichy. The camera is at a close-up range with a shallow depth of field. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.polimernews.com/politicsnews/vaiko-is-84-years-old-so-he-gets-emotional-says-durai-vaiko-12840785",
+   "published": "2026-11-25T17:32:48+05:30",
+   "verification": "DRAFT (gemini/gemini-3.6-flash) - fact-check: no problems found",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261125/2608c4f91bdbf1d3.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261125/80e48c1fb347de31.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "திருச்சியில் துரை வைகோ ஆவேச பேட்டி: வைகோவை விமர்சிப்போருக்கு சவால்",
+   "english_headline": "Durai Vaiko speaks at Trichy Airport: challenges social media critics targeting 83-year-old Vaiko and speaks on state politics",
+   "category": "Government & Services",
+   "location": "Trichy Airport, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "அரசியல்",
+    "loc": "திருச்சி விமான நிலையம்",
+    "hl1": "திருச்சியில் துரை வைகோ சவால்",
+    "hl2": "வைகோவை அவமதிக்க வேண்டாம்",
+    "slides": [
+     {
+      "title": "துரை வைகோ பேட்டி",
+      "lines": [
+       "திருச்சி விமான நிலையத்தில் <b>துரை வைகோ</b> பேட்டி",
+       "83 வயதாகும் <b>வைகோவை</b> விமர்சிப்போருக்கு சவால்",
+       "என்னை விமர்சியுங்கள் என ஆவேசம்"
+      ]
+     },
+     {
+      "title": "200 ரூபாய் குற்றம்",
+      "lines": [
+       "சமூக வலைதளங்களில் விமர்சிப்போருக்கு <b>ரூ.200</b>",
+       "திமுக சார்பில் வழங்கப்படுவதாகக் குற்றம் சாட்டினார்",
+       "முதலமைச்சர் <b>ஜோசப் விஜய்யை</b>ப் பாராட்டினார்"
+      ]
+     },
+     {
+      "title": "ஐஏஎஸ், எம்எல்ஏ",
+      "lines": [
+       "கள்ளக்குறிச்சி <b>எம்.எல்.ஏ</b> புகாரில் அரசு விசாரிக்க வேண்டும்",
+       "பெண் <b>ஐ.ஏ.எஸ்</b> புகாரில் <b>4 மாத</b> தாமதம் தவறு",
+       "அரசு உடனடியாக நடவடிக்கை எடுக்க வேண்டும்"
+      ]
+     },
+     {
+      "title": "முக்கிய",
+      "lines": [
+       "<b>கோதாவரி - காவிரி</b> இணைப்பை விரைவுபடுத்த வலியுறுத்தல்",
+       "<b>கர்நாடகா</b> உச்சநீதிமன்றத் தீர்ப்பை மதிக்க வேண்டும்",
+       "<b>அரிசி</b> உள்ளிட்ட அத்தியாவசிய விலை உயர்வைக் கட்டுப்படுத்துக"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சி விமான நிலையத்தில் திருச்சி நாடாளுமன்ற உறுப்பினர் துரை வைகோ செய்தியாளர்களைச் சந்தித்துப் பேசினார். 83 வயதாகும் ம தி மு க பொதுச்செயலாளர் வைகோவை சமூக வலைதளங்களில் அவமதிப்பவர்கள், தன்னை விமர்சிக்குமாறு சவால் விடுத்தார். சமூக வலைதளங்களில் விமர்சனம் செய்பவர்களுக்கு தி மு க சார்பில் 200 ரூபாய் வழங்கப்படுவதாக அவர் குற்றம் சாட்டினார். திருப்பரங்குன்றம் மலையில் ஆகம விதிப்படி கார்த்திகை தீபம் ஏற்ற முடிவு செய்த முதலமைச்சர் சப் விஜய்யின் நிலைப்பாட்டை அவர் பாராட்டினார். தி மு க இந்த முடிவைப் பாராட்டாதது வருத்தமளிப்பதாகத் தெரிவித்த அவர், தி மு க வின் அடிப்படைக் கொள்கைகள் பேச்சளவில் மட்டுமே உள்ளதாக விமர்சித்தார். கள்ளக்குறிச்சி சட்டமன்ற உறுப்பினர்புகார் விவகாரத்தில் அரசு தாமாக முன்வந்து விசாரணை நடத்த வேண்டும் என்றார். பெண் ஐ ஏ எஸ் அதிகாரி தொடர்பான புகாரில் 4 மாத தாமதம் ஏற்பட்டது தவறு என்றும் குறிப்பிட்டார். கோதாவரி - காவிரி நதிகள் இணைப்புத் திட்டத்தை மத்திய அரசு விரைந்து செயல்படுத்த வேண்டும் என்றார். காவிரி நீர் பங்கீட்டில் உச்சநீதிமன்றத் தீர்ப்பை கர்நாடக அரசு மதிக்க வேண்டும் என்றும் தெரிவித்தார். அரிசி உள்ளிட்ட அத்தியாவசியப் பொருட்களின் விலை உயர்வைக் கட்டுப்படுத்த அரசு நடவடிக்கை எடுக்க வேண்டும் என வலியுறுத்தினார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🎙️ திருச்சியில் துரை வைகோ பேட்டி - சமூக வலைதள விமர்சனங்களுக்குப் பதில்\n\n📰 முழு விவரம்:\nதிருச்சி விமான நிலையத்தில் திருச்சி நாடாளுமன்ற உறுப்பினர் துரை வைகோ செய்தியாளர்களைச் சந்தித்தார். 83 வயதாகும் மதிமுக பொதுச்செயலாளர் வைகோவை சமூக வலைதளங்களில் அவமதிப்பவர்கள், தன்னை விமர்சிக்குமாறு சவால் விடுத்தார். சமூக வலைதளங்களில் விமர்சனம் செய்பவர்களுக்கு திமுக சார்பில் 200 ரூபாய் வழங்கப்படுவதாகவும் குற்றம் சாட்டினார்.\n\nதிருப்பரங்குன்றம் மலையில் ஆகம விதிப்படி கார்த்திகை தீபம் ஏற்ற முடிவு செய்த முதலமைச்சர் ஜோசப் விஜய்யின் நிலைப்பாட்டைப் பாராட்டிய அவர், திமுக இதனைப் பாராட்டாதது வருத்தமளிப்பதாகக் கூறினார். கள்ளக்குறிச்சி எம்.எல்.ஏ விவகாரத்தில் தாமாக முன்வந்து விசாரணை நடத்த வேண்டும் என்றும், பெண் ஐ.ஏ.எஸ் அதிகாரி விவகாரத்தில் 4 மாத தாமதம் ஏற்பட்டது தவறு என்றும் கூறினார். மேலும், கோதாவரி - காவிரி இணைப்புத் திட்டத்தை விரைவுபடுத்தவும், அரிசி விலை உயர்வைக் கட்டுப்படுத்தவும் வலியுறுத்தினார்.\n\n📍 இடம்: திருச்சி விமான நிலையம்\n🗓️ நாள்: 25 நவம்பர் 2026\n💬 செய்தி: துரை வைகோ பேட்டி\n\nDurai Vaiko press meet Trichy airport | Trichy news\n📍 திருச்சி விமான நிலையம், திருச்சி | 25 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyAirport #TrichyNews #திருச்சி",
+   "prompts": "An elderly man in a formal shirt and trousers stands at a podium addressing a group of journalists at the Trichy Airport media area. The scene captures the moment of a political press conference where the speaker is challenging social media critics. The location is the modern, bright interior of the airport's public arrival or press zone, with glass walls and airport signage visible in the blurred background. Several reporters, seen from behind or at a distance, hold up microphones and recording devices towards the speaker. The speaker is the central focus, gesturing with his hands as he speaks passionately. The lighting is bright, typical of an airport terminal during the day. The camera is positioned at eye level, 35 mm lens, framing the speaker and the immediate cluster of media personnel, ensuring the context of a formal political statement is clear without showing readable text or identifiable faces clearly. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up detail shot of a cluster of microphones and recording devices held by journalists, pointing towards an unseen speaker. The microphones are of various colors and shapes, typical of local news channels, with foam windscreens. In the soft-focus background, the blurred figure of an elderly man in a shirt is visible, indicating the source of the speech. The setting remains the Trichy Airport press area, with the sterile, bright lighting of the terminal visible. This shot emphasizes the media attention and the act of public speaking. The camera is slightly high, looking down at the microphones, 35 mm lens, capturing the texture of the microphone windscreens and the hands holding them, while keeping the background indistinct to avoid showing readable logos or faces. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://tamil.oneindia.com/news/trichirappalli/go-ahead-and-bash-me-all-you-want-on-social-media-durai-vaikos-fiery-retort-848173.html",
+   "published": "2026-11-25T17:17:38+05:30",
+   "verification": "DRAFT (gemini/gemini-3.6-flash) - NOT CLEAN, held from posting - problems: reel_script has letters of another script (조) - write only Tamil (and English names); letters of another script inside Tamil words: 조 - write every word only in Tamil letters",
+   "note": "free-model draft gemini/gemini-3.6-flash, 2 attempt(s), 2 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261125/7d922862218d32d5.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261125/54ffaa7127792d74.jpg"
+   ]
+  }
+ ]
 }
