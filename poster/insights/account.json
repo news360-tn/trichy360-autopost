@@ -154,5 +154,31 @@
     "Krishnagiri, Tamil Nadu": 21
    }
   }
+ },
+ "2026-11-26": {
+  "trichy": {
+   "reach": 74630,
+   "reach_by_follow_type": {
+    "FOLLOWER": 1969,
+    "NON_FOLLOWER": 72884
+   },
+   "follower_cities": {
+    "Tiruchirappalli, Tamil Nadu": 941,
+    "Chennai, Tamil Nadu": 146,
+    "Kulittalai, Tamil Nadu": 109,
+    "Lalgudi, Tamil Nadu": 85,
+    "Musiri, Tamil Nadu": 52,
+    "Tuticorin, Tamil Nadu": 44,
+    "Turaiyur, Tamil Nadu": 38,
+    "Madurai, Tamil Nadu": 37,
+    "Manapparai, Tamil Nadu": 36,
+    "Karur, Tamil Nadu": 31,
+    "Mannachanallur, Tamil Nadu": 27,
+    "Coimbatore, Tamil Nadu": 25,
+    "Tiruchengodu, Tamil Nadu": 24,
+    "Singapore, Singapore": 24,
+    "Salem, Tamil Nadu": 23
+   }
+  }
  }
 }

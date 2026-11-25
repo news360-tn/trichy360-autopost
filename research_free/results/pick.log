@@ -1,36 +1,9 @@
-23:03:02 round 2026-11-25_23: news published 25 Nov 20:28 -> 25 Nov 23:03 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-23:03:02 insights 2026-11-25T23:03+05:30 (149 reels): topic weights {'accident': 1.5, 'crime': 1.36, 'power_cut': 1.36, 'civic': -0.03, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.34}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-23:04:08 open search 'திருச்சி' (from_google): 0 links from our outlets
-23:04:08 80 links on the two papers' Trichy pages
-23:05:09 skipped: not Trichy district=24, already posted=22, published before this window=21, same event already posted=7, only a headline=2
-23:05:09 list: 3 new + 0 earlier news not posted yet
-23:05:09    1. [குற்றம்] மனைவி மாயம் கணவர் தற்கொலை (தினமலர்)
-23:05:09    2. [நீதிமன்றம்] பேரவை துணைத் தலைவர் மீது நடவடிக்கை கோரி ‘தாக்கப்பட்டவர்’ உயர் நீதிமன்ற (இந்து தமிழ்)
-23:05:09    3. [பொது] 4 குழந்தைகளுடன் மனைவி மாயம் கணவர் போலீசில் புகார் (தினமலர்)
-23:05:09 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-25_23
-23:05:10    not picked automatically (suicide / obituary - only when the owner ticks it): மனைவி மாயம் கணவர் தற்கொலை
-23:05:10 round 2026-11-25_23 (at least 3, up to 3 more of well-watched topics): 2 news to choose from (0 from earlier rounds), ranked by this page's insights
-23:05:10   PICK   1.   8.0 [other +0.00 pattern] பேரவை துணைத் தலைவர் மீது நடவடிக்கை கோரி ‘தாக்கப்பட்டவர்’ உயர
-23:05:10   PICK   2.   3.0 [other +0.00 pattern] 4 குழந்தைகளுடன் மனைவி மாயம் கணவர் போலீசில் புகார்
-23:05:10 decided: automatic: top 3 of 2 by insights -> 2 news to write and post
-PICK_URLS=https://www.hindutamil.in/news/tamilnadu/victim-files-case-in-high-court-seeking-action-against-deputy-speaker-of-the-legislative-assembly https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/wife-with-4-children-lodges-police-complaint-against-husband/4386107
-23:06:51 2 listed news now in the Sheet
-23:07:00 instagram duplicate check trichy: 50 recent posts read
-23:07:00 verify 2026-11-25_23: 0 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-23:07:00    NOT POSTED Cc42c100: queued RN-155 (Queued) - 4 குழந்தைகளுடன் மனைவி மாயம் கணவர் போலீசில் புகார்
-23:07:00    NOT POSTED Cf75e486: queued RN-154 (Queued) - பேரவை துணைத் தலைவர் மீது நடவடிக்கை கோரி ‘தாக்கப்பட்டவர்’ உயர
-23:12:08 instagram duplicate check trichy: 50 recent posts read
-23:12:08 verify 2026-11-25_23: 0 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-23:12:08    NOT POSTED Cc42c100: queued RN-155 (Queued) - 4 குழந்தைகளுடன் மனைவி மாயம் கணவர் போலீசில் புகார்
-23:12:08    NOT POSTED Cf75e486: queued RN-154 (Queued) - பேரவை துணைத் தலைவர் மீது நடவடிக்கை கோரி ‘தாக்கப்பட்டவர்’ உயர
-23:17:16 instagram duplicate check trichy: 50 recent posts read
-23:17:16 verify 2026-11-25_23: 1 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-23:17:16    NOT POSTED Cc42c100: queued RN-155 (Queued) - 4 குழந்தைகளுடன் மனைவி மாயம் கணவர் போலீசில் புகார்
-23:22:24 instagram duplicate check trichy: 50 recent posts read
-23:22:24 verify 2026-11-25_23: 1 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-23:22:24    NOT POSTED Cc42c100: queued RN-155 (Queued) - 4 குழந்தைகளுடன் மனைவி மாயம் கணவர் போலீசில் புகார்
-23:27:32 instagram duplicate check trichy: 50 recent posts read
-23:27:32 verify 2026-11-25_23: 1 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-23:27:32    NOT POSTED Cc42c100: queued RN-155 (Queued) - 4 குழந்தைகளுடன் மனைவி மாயம் கணவர் போலீசில் புகார்
-23:32:37 verify 2026-11-25_23: 2 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+01:30:40 round 2026-11-26_01: news published 25 Nov 23:03 -> 26 Nov 01:30 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+01:30:40 insights 2026-11-26T01:30+05:30 (151 reels): topic weights {'accident': 1.5, 'crime': 1.36, 'power_cut': 1.36, 'civic': -0.03, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.46}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+01:32:24 open search 'திருச்சி' (from_google): 0 links from our outlets
+01:32:24 75 links on the two papers' Trichy pages
+01:34:04 skipped: already posted=22, published before this window=21, not Trichy district=20, same event already posted=7, only a headline=2
+01:34:04 list: 0 new + 1 earlier news not posted yet
+01:34:04    1. [குற்றம்] மனைவி மாயம் கணவர் தற்கொலை (தினமலர்) (earlier)
+01:34:04 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-26_01
