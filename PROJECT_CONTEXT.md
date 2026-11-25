@@ -83,6 +83,8 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-25 | `c5e1b58` | YouTube: public Shorts, 20 a day, 40-minute gap, 7am-10pm IST (same as Namakkal and Coimbatore); starts once the page's YT secrets are saved |
+| 2026-11-25 | `9229e94` | stories shared / Instagram pause |
 | 2026-11-25 | `24c1dc5` | R2 check: manual workflow that uploads a test file and reads it back |
 | 2026-11-25 | `9423fb8` | stories shared / Instagram pause |
 | 2026-11-25 | `d58b0f1` | stories shared / Instagram pause |
@@ -111,6 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-25 | `77482d3` | autofix: corrected held news |
 | 2026-11-25 | `17ed91f` | stories shared / Instagram pause |
 | 2026-11-25 | `ff06d79` | Rasipalan: each page keeps the day's 12 rasi texts; when every AI writer is busy, a page uses the text another 360 page wrote that day |
-| 2026-11-25 | `ef85fd9` | stories shared / Instagram pause |
-| 2026-11-25 | `a7543c7` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
