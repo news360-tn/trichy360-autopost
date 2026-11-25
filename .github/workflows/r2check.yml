@@ -1,0 +1,44 @@
+name: r2check
+# owner 25 Nov: checks the Cloudflare R2 secrets of this page - uploads a tiny test file and reads it back from the public link.
+# Manual only. Never prints a key.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  r2check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_BUCKET: news360-media
+      R2_PUBLIC_URL: https://pub-ec316fa6a94f404c993596355ad19128.r2.dev
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q requests
+      - name: upload and read back
+        run: |
+          cd poster
+          python3 - <<'PY'
+          import os, sys, time, requests, r2host
+          miss = [k for k in ("R2_ACCOUNT_ID", "R2_ACCESS_KEY_ID", "R2_SECRET_ACCESS_KEY") if not os.environ.get(k)]
+          if miss:
+              print("R2 CHECK FAILED: secret missing:", miss); sys.exit(1)
+          data = f"r2 check {os.environ['GITHUB_REPOSITORY']} {time.time()}".encode()
+          try:
+              link = r2host.put(data, "r2check.png", "image")
+          except Exception as e:
+              print("R2 CHECK FAILED at upload:", str(e)[:300]); sys.exit(1)
+          print("uploaded:", link)
+          for i in range(6):
+              r = requests.get(link, timeout=30)
+              if r.status_code == 200 and r.content == data:
+                  print("R2 CHECK OK - upload and public link both work"); sys.exit(0)
+              time.sleep(5)
+          print("R2 CHECK FAILED at public link: HTTP", r.status_code); sys.exit(1)
+          PY
