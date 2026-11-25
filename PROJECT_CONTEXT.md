@@ -83,6 +83,8 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-25 | `b1a54ce` | YouTube: first comment (the Instagram source comment) and topic playlists after each upload - start once the channel login has the youtube.force-ssl permission; skipped quietly until then |
+| 2026-11-25 | `fe91ab2` | stories shared / Instagram pause |
 | 2026-11-25 | `8b32c10` | Platform text: Facebook news caption short (headline + 3 lines + source) with the Tamil district tag; YouTube title ~70 chars with an English search word, 3 hashtags first, Subscribe line, Tamil language |
 | 2026-11-25 | `4d19bcc` | stories shared / Instagram pause |
 | 2026-11-25 | `f356eb2` | stories shared / Instagram pause |
@@ -111,6 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-25 | `10dfbe0` | stories shared / Instagram pause |
 | 2026-11-25 | `f5018c0` | stories shared / Instagram pause |
 | 2026-11-25 | `ec58ca0` | stories shared / Instagram pause |
-| 2026-11-25 | `88755a8` | stories shared / Instagram pause |
-| 2026-11-25 | `4846948` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
