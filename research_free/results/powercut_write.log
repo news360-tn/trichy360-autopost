@@ -1039,3 +1039,113 @@ filed: 2 Trichy district stories (target 2), reels only
 queue: 0 news waiting to be written
 All News sheet: {"ok":true,"added":1,"updated":1} 
 stories: 2
+writing [N]: திருச்சி மாவட்டத்தில் நாளை (26-11-2026) மின்தடை: பல்வேறு பகு
+writing [N]: திருச்சி மாவட்டத்தில் நாளை (26-11-2026) மின்தடை: புதூர், பீம
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.5-flash
+ok gemini/gemini-3-flash-preview (21s)
+attempt 1 gemini/gemini-3-flash-preview: 3 problems
+  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+  slides_spec.loc 'திருச்சி மாவட்டம்' is only the district: write the town / village / area the article names (people share news of their own area)
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 11 ('திருச்சி மாவட்டத்தில் நாளை (26-11-2026) மின்தடை: புதூர், பீம')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3.6-flash (27s)
+attempt 1 gemini/gemini-3.6-flash: 3 problems
+  sentence 1 (one-line story) has 15 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+  slides_spec.loc 'திருச்சி மாவட்டம்' is only the district: write the town / village / area the article names (people share news of their own area)
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 11 ('திருச்சி மாவட்டத்தில் நாளை (26-11-2026) மின்தடை: பல்வேறு பகு')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3-flash-preview (14s)
+attempt 2 gemini/gemini-3-flash-preview: 4 problems
+  slide 2 line 3 is cut off mid-phrase ('பாரதி நகர், ஜி.ஹெச்.') - write a complete short phrase
+  numbers not found in the article: 50
+  reel_script sentence 1 (heard in the first 3 seconds) must name the place 'புதூர்' and the news itself, e.g. 'புதூர்-இல் ... 3 பேர் கைது.' - viewers decide in 3 seconds whether the news is about their area
+  known issue card_cut_mid_phrase: card cut off mid-phrase ('டை, பாரதி நகர், ஜி.ஹெச்.') - rewrite so it does not happen again
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (13s)
+attempt 2 gemini/gemini-3-flash-preview: 2 problems
+  caption needs 5 hashtags (Instagram max), has 6
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 11 ('திருச்சி மாவட்டத்தில் நாளை (26-11-2026) மின்தடை: பல்வேறு பகு')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+dead for this round: gemini/gemini-3-flash-preview
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+ok groq/qwen/qwen3.8-27b (5s)
+attempt 3 groq/qwen/qwen3.8-27b: 2 problems
+  sentence 1 (one-line story) has 14 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+  slides_spec.loc 'திருச்சி மாவட்டம்' is only the district: write the town / village / area the article names (people share news of their own area)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing 
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+switching away from groq/openai/gpt-oss-120b for 10 min
+free models unavailable: no free model answered: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-
+claude rewrite failed: anthropic 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+proofread skipped: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7a2whq2ef48ntxcv5v5635b` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1980. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/qwen/qwen3.8-27b (2s)
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+dead for this round: gemini/gemini-3-flash-preview
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+proofread skipped: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7a2whq2ef48ntxcv5v5635b` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1980. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+ok groq/qwen/qwen3.8-27b (2s)
+earlier stories still waiting for images: []
+instagram check: 50 recent posts read from the page
+pick round: only the picked links are written (research_free/pick.py)
+manual link added: https://tamil.abplive.com/news/tamil-nadu/tamilnadu-power-shutdown-26-11-2026-kovai-trichy-power-cut-areas-affected-280556/amp#district-section
+manual link added: https://tamil.abplive.com/news/trichy/trichy-power-cut-26-11-2026-know-timings-areas-affected-by-power-shutdown-280534/amp#district-section
+candidate filter: collected=2
+to write: 2 Trichy district candidates (max 2 stories)
+round: top 2 of 2 candidates
+candidates waiting: 2 Trichy; time left 39 min
+try (N) manual=True: https://tamil.abplive.com/news/trichy/trichy-power-cut-26-11
+try (N) manual=True: https://tamil.abplive.com/news/tamil-nadu/tamilnadu-power-sh
+NOT filed (N) திருச்சி மாவட்டத்தில் நாளை (26-11-2026) மின்தடை: ப: duplicate after write
+NOT filed (N) திருச்சி மாவட்டத்தில் நாளை (26-11-2026) மின்தடை: ப: duplicate after write
+candidate loop ended: left 0, tried={'N': 2}, done={'N': 0}, time left 38 min
+filed: 0 Trichy district stories (target 2), reels only
+queue: 0 news waiting to be written
+All News sheet: {"ok":true,"added":2,"updated":0} 
+stories: 0
