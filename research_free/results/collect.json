@@ -3,427 +3,194 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/retired-aavin-employee-cheated-of-rs-338-lakh-with-fake-online-lottery-prize-claim",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/retired-private-bank-employee-duped-of-rs-5733-lakh-in-online-fraud",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/ஸ்ரீரங்கம்-கோயிலில்-பக்தா்-மயங்கி-விழுந்து-உயிரிழப்பு",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/பெண்-இறப்பில்-சந்தேகம்-உறவினா்கள்-சாலை-மறியல்",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/karthigai-chokkapanai-lit-at-srirangam-and-thiruvanaikaval-temples",
-  "candidate filter: collected=5",
-  "to write: 5 Trichy district candidates (max 5 stories)",
-  "round: top 5 of 5 candidates",
-  "candidates waiting: 5 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
+  "manual link added: https://www.dinakaran.com/district/trichy_251126_3",
+  "manual link added: https://www.dinakaran.com/district/trichy_251126_1",
+  "manual link added: https://www.dinakaran.com/district/trichy_251126_2",
+  "candidate filter: collected=3",
+  "to write: 3 Trichy district candidates (max 3 stories)",
+  "round: top 3 of 3 candidates",
+  "candidates waiting: 3 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dinakaran.com/district/trichy_251126_2",
+  "try (N) manual=True: https://www.dinakaran.com/district/trichy_251126_1",
+  "try (N) manual=True: https://www.dinakaran.com/district/trichy_251126_3",
+  "NOT filed (N) திருப்பரங்குன்றம் தீப விவகாரம் வீட்டுக்காவலில் முச: all free models failed: no usable answer from the models",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})",
   "posting job started at once",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 9})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 12})",
-  "candidate loop ended: left 0, tried={'N': 5}, done={'N': 5}, time left 75 min",
-  "filed: 5 Trichy district stories (target 5), reels only",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
+  "candidate loop ended: left 0, tried={'N': 3}, done={'N': 2}, time left 78 min",
+  "filed: 2 Trichy district stories (target 3), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":5,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":3,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3.6-flash (30s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.6-flash (31s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing ",
-  "ok gemini/gemini-3.6-flash (35s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.6-flash (14s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (13s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "dead for this round: gemini/gemini-3-flash-preview",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
-  "ok gemini/gemini-3-flash-preview (23s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok anthropic/claude-haiku-5-5",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (51s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "ok anthropic/claude-haiku-5-5",
-  "ok groq/qwen/qwen3.8-27b (12s)",
+  "ok groq/qwen/qwen3.8-27b (3s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok gemini/gemini-3-flash-preview (13s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok groq/qwen/qwen3.8-27b (2s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "ok groq/qwen/qwen3.8-27b (3s)",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5"
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
  ],
  "stories": [
   {
-   "tamil_headline": "ஸ்ரீரங்கம், திருவானைக்காவல் கோயில்களில் கார்த்திகை சொக்கப்பனை கொளுத்தப்பட்டது",
-   "english_headline": "Karthigai Sokkapanai lit at Srirangam and Thiruvanaikaval temples; devotees gather",
+   "tamil_headline": "துவரங்குறிச்சி அருகே 12,501 அகல் விளக்குகளால் ஜொலித்த பிரம்மாண்ட சிவலிங்கம்!",
+   "english_headline": "12,501 oil lamps form a massive Lingam at the ancient Agastheeswarar Temple near Thuvarankurichi for Karthigai Deepam",
    "category": "Temples & Events",
-   "location": "Srirangam and Thiruvanaikaval, Trichy district",
+   "location": "Paluvanchi village near Thuvarankurichi, Trichy district",
    "importance": "Medium",
    "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "கோயில் விழா",
-    "loc": "ஸ்ரீரங்கம், திருவானைக்காவல்",
-    "hl1": "ஸ்ரீரங்கத்தில் சொக்கப்பனை கொளுத்தல்",
-    "hl2": "ஏராளமான பக்தர்கள் தரிசனம்",
+    "cat": "கார்த்திகை தீபம்",
+    "loc": "பளுவஞ்சி, துவரங்குறிச்சி",
+    "hl1": "துவரங்குறிச்சியில் 12,501 விளக்கு",
+    "hl2": "1000 ஆண்டு பழமையான கோயில்",
     "slides": [
      {
-      "title": "எங்கே, எப்போது?",
+      "title": "கார்த்திகை தீபம்",
       "lines": [
-       "ஸ்ரீரங்கம், திருவானைக்காவல் கோயில்களில் சொக்கப்பனை",
-       "செவ்வாய்க்கிழமை மாலை கொளுத்தப்பட்டது",
-       "கார்த்திகை தீபத் திருவிழாவையொட்டி நடந்தது"
+       "பளுவஞ்சி <b>அகத்தீஸ்வரர்</b> கோயிலில் சிறப்பு வழிபாடு",
+       "<b>12,501</b> அகல் விளக்குகளால் லிங்கம் அமைப்பு",
+       "1,000 ஆண்டுகள் பழமையான சிவாலயம்"
       ]
      },
      {
-      "title": "ஸ்ரீரங்கம் கோயில்",
+      "title": "சிறப்பு அலங்காரம்",
       "lines": [
-       "நம்பெருமாள் இரவு <b>8 மணிக்கு</b> புறப்பாடு",
-       "<b>8.30 மணிக்கு</b> சொக்கப்பனை கொளுத்தப்பட்டது",
-       "பக்தர்கள் கோவிந்தா முழக்கத்துடன் வழிபட்டனர்"
+       "8 திசை லிங்கங்களும் விளக்குகளால் வடிவம்",
+       "திருவண்ணாமலை கிரிவலப் பாதை போல அமைப்பு",
+       "காண்போரை மெய்சிலிர்க்க வைத்த காட்சி"
       ]
      },
      {
-      "title": "திருவானைக்காவல்",
+      "title": "பக்தர்கள் தரிசனம்",
       "lines": [
-       "சம்புகேசுவரர் கோயிலில் மூன்று சொக்கப்பனைகள் கொளுத்தப்பட்டன",
-       "சுவாமியும், அம்மனும் சிறப்பு அலங்காரத்தில் எழுந்தருளினர்",
-       "ஏராளமான பக்தர்கள் தரிசனம் செய்தனர்"
+       "ஏராளமான பொதுமக்கள் கலந்து கொண்டு வழிபாடு",
+       "மேற்கு நோக்கிய சிவலிங்கத்திற்குத் தீப வழிபாடு",
+       "பக்தர்கள் பரவசத்துடன் சாமி தரிசனம்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "ஸ்ரீரங்கம் மற்றும் திருவானைக்காவல் கோயில்களில் கார்த்திகை தீபத் திருவிழாவையொட்டி செவ்வாய்க்கிழமை மாலை சொக்கப்பனை கொளுத்தப்பட்டது. ஸ்ரீரங்கம் அரங்கநாத சுவாமி கோயிலில் நம்பெருமாள் இரவு 8 மணிக்கு கதிர் அலங்காரத்தில் புறப்பட்டார். இதையடுத்து 8.30 மணிக்கு கார்த்திகை கோபுரம் அருகே பனை ஓலைகளால் கட்டப்பட்ட சொக்கப்பனை தீ பந்தத்தால் கொளுத்தப்பட்டது. தீ எரியத் தொடங்கியதும் பக்தர்கள் கோவிந்தா முழக்கத்துடன் வழிபட்டனர். மேலும், திருவானைக்காவல் சம்புகேசுவரர் கோயிலில் கார்த்திகை கோபுரம், அம்மன் சந்நிதி, குபேரலிங்க சந்நிதி முன் சொக்கப்பனைகள் கொளுத்தப்பட்டன. சுவாமியும், அம்மனும் சிறப்பு அலங்காரத்தில் எழுந்தருளினர். ஏராளமான பக்தர்கள் கலந்துகொண்டு தரிசனம் செய்தனர். விழா ஏற்பாடுகளை கோயில் நிர்வாகத்தினர் செய்திருந்தனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🪔 ஸ்ரீரங்கம், திருவானைக்காவல் கோயில்களில் கார்த்திகை சொக்கப்பனை\n\n📰 முழு விவரம்:\nஸ்ரீரங்கம் அரங்கநாத சுவாமி கோயில், திருவானைக்காவல் அருள்மிகு சம்புகேசுவரர் உடனுறை அகிலாண்டேஸ்வரி கோயில்களில் கார்த்திகை தீபத் திருவிழாவையொட்டி செவ்வாய்க்கிழமை மாலை சொக்கப்பனை கொளுத்தப்பட்டது. ஏராளமான பக்தர்கள் கலந்துகொண்டு தரிசனம் செய்தனர்.\n🕘 ஸ்ரீரங்கத்தில் நம்பெருமாள் காலை 9 மணிக்கு மூலஸ்தானத்திலிருந்து புறப்பட்டு, 9.30 மணிக்கு சந்தனு மண்டபத்துக்கு வந்து சேர்ந்தார். 10.30 மணி முதல் 12.30 மணி வரை நம்பெருமாளுக்கு திருமஞ்சனம் நடைபெற்றது.\n🕕 மாலை 4.30 மணிக்கு அலங்காரம் அமுது செய்து, 5 மணிக்கு மூலஸ்தானம் சென்று சேர்ந்தார். மாலை 6 மணிக்கு ஸ்ரீ உத்தமநம்பி சுவாமிகள் இடைவிளக்கு எடுத்தல் நடைபெற்றது.\n🔥 இரவு 8 மணிக்கு கதிர் அலங்காரத்தில் புறப்பட்டு, 8.30 மணிக்கு கார்த்திகை கோபுரம் அருகே பனை ஓலைகளால் கட்டப்பட்ட சொக்கப்பனையை சுற்றி வந்து, சக்கரத்தாழ்வார் சந்நிதி முன் எழுந்தருளினார். தீ பந்தத்தால் சொக்கப்பனை கொளுத்தப்பட்டது.\n🙏 பின்னர் தாயார் சந்நிதியில் திருவந்திக்காப்பு கண்டருளி இரவு 9.15 மணிக்கு சந்தனு மண்டபத்துக்கு சென்றார். 9.45 மணிக்கு நம்பெருமாள் முன் ஸ்ரீமுகப்பட்டயம் வாசிக்கப்பட்டது. இரவு 10.15 மணிக்கு திருக்கைத்தல சேவையுடன் மூலஸ்தானத்துக்கு சென்று சேர்ந்தார்.\n🛕 திருவானைக்காவலில் செவ்வாய்க்கிழமை இரவு கார்த்திகை கோபுரம் முன் சொக்கப்பனை தீவைத்து கொளுத்தப்பட்டது. அம்மன் சந்நிதி முன், குபேரலிங்க சந்நிதி அருகே அமைக்கப்பட்டிருந்த சொக்கப்பனைகளும் கொளுத்தப்பட்டன. சிறப்பு அலங்காரத்தில் சுவாமியும், அம்மனும் பஞ்சமூர்த்திகளுடன் எழுந்தருளினர்.\n\nSokkapanai lit at Srirangam and Thiruvanaikaval temples | Trichy news\n📍 ஸ்ரீரங்கம், திருவானைக்காவல், திருச்சி மாவட்டம் | 24 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Srirangam #கார்த்திகைதீபம் #திருச்சி",
-   "prompts": "A massive Sokkapanai structure made of banana leaves burns brightly in the courtyard of the Srirangam temple. The scene is set in the evening at the historic temple complex, with the towering gopurams visible in the background against the darkening sky. A large crowd of devotees, seen from behind, stands at a safe distance, watching the flames. Men wear shirts and veshtis, while women are in sarees, all facing the fire. Temple priests in traditional dhotis and shawls stand near the structure, holding fire torches. The air is filled with the glow of the fire and the ambient light of the temple lamps. The camera is positioned at eye level, 35 mm, capturing the scale of the fire and the crowd's reverence. The focus is on the burning banana leaf structure and the silhouettes of the devotees. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up view of the base of the burning Sokkapanai at the Thiruvanaikaval temple. The camera focuses on the intricate arrangement of banana leaves and the intense orange flames consuming the lower section of the structure. In the blurred background, the silhouette of the temple gopuram is visible, illuminated by the fire's glow. A few devotees are seen from the side, their faces partially lit by the firelight, holding small oil lamps. The texture of the burning leaves and the sparks rising into the night air are clearly visible. The lighting is warm and dramatic, highlighting the contrast between the dark night and the bright fire. The camera is slightly low, emphasizing the height of the flames and the sacred nature of the ritual. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/karthigai-chokkapanai-lit-at-srirangam-and-thiruvanaikaval-temples",
-   "published": "2026-11-24T18:34:00.000Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b) - NOT CLEAN, held from posting - problems: reel_script has 77 words; need 100-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)",
-   "note": "free-model draft anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b, 12 attempt(s), 1 validator problem(s)",
+   "reel_script": "துவரங்குறிச்சி அருகே 12,501 அகல் விளக்குகளால் பிரம்மாண்ட சிவலிங்கம் உருவாக்கப்பட்டது. திருச்சி மாவட்டம் துவரங்குறிச்சி அடுத்த பளுவஞ்சியில் 1,000 ஆண்டுகளுக்கு மேல் பழமையான அகிலாண்டேஷ்வரி உடனுறை அகத்தீஸ்வரர் கோயில் உள்ளது. இங்கு கார்த்திகை தீபத் திருநாளை முன்னிட்டு சிறப்பு வழிபாடுகள் நடைபெற்றன. இந்த விழாவின் ஒரு பகுதியாக, 12,501 அகல் விளக்குகளைக் கொண்டு பிரம்மாண்டமான சிவலிங்கம் வடிவம் அமைக்கப்பட்டது. மேலும், திருவண்ணாமலை கிரிவலப் பாதையில் உள்ள 8 சிவலிங்கங்களைப் போன்றும் விளக்குகளால் வடிவம் அமைக்கப்பட்டிருந்தது கூடுதல் சிறப்பாகும். இந்த விளக்கு அலங்காரம் காண்போரை மெய்சிலிர்க்க வைக்கும் வகையில் அமைந்திருந்தது. இந்த நிகழ்வில் ஏராளமான சிவ பக்தர்கள் மற்றும் பொதுமக்கள் கலந்து கொண்டு சாமி தரிசனம் செய்தனர். மேற்கு நோக்கிய இந்த பழமையான சிவாலயத்தில் நடைபெற்ற இந்த தீபத் திருவிழா அந்தப் பகுதியில் நெகிழ்ச்சியை ஏற்படுத்தியது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🪔 துவரங்குறிச்சி அருகே 12,501 அகல் விளக்குகளால் ஜொலித்த பிரம்மாண்ட சிவலிங்கம்!\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம் துவரங்குறிச்சி அடுத்த பளுவஞ்சியில் 1,000 ஆண்டுகள் பழமையான அகிலாண்டேஷ்வரி உடனுறை அகத்தீஸ்வரர் கோயில் உள்ளது. கார்த்திகை தீபத் திருநாளை முன்னிட்டு இந்தக் கோயிலில் 12,501 அகல் விளக்குகளைக் கொண்டு பிரம்மாண்ட சிவலிங்கம் வடிவம் அமைக்கப்பட்டது. மேலும் திருவண்ணாமலை கிரிவலப் பாதையில் உள்ள 8 சிவலிங்கங்களைப் பிரதிபலிக்கும் வகையில் விளக்குகளால் அலங்காரம் செய்யப்பட்டிருந்தது. இந்தச் சிறப்பு வழிபாட்டில் ஏராளமான பக்தர்கள் கலந்துகொண்டு தரிசனம் செய்தனர்.\n\n📍 இடம்: அகத்தீஸ்வரர் கோயில், பளுவஞ்சி, துவரங்குறிச்சி, திருச்சி.\n🗓️ நாள்: 24 நவம்பர் 2026 (கார்த்திகை தீபம்)\n✨ சிறப்பு: 12,501 அகல் விளக்குகளால் ஆன லிங்கம்\n\nபக்தர்களுக்குத் தெரியப்படுத்த Share செய்யுங்கள்.\n\nThuvarankurichi temple 12501 lamps Lingam | Trichy news\n📍 Paluvanchi, Trichy | 25 November 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thuvarankurichi #KarthigaiDeepam #திருச்சி",
+   "prompts": "A wide-angle, high-angle shot of an ancient stone temple courtyard in Paluvanchi village near Thuvarankurichi, Trichy, at night. Thousands of small flickering clay oil lamps are arranged on the ground in the shape of a massive Shiva Lingam. The stone temple architecture with intricate carvings is visible in the background under the warm orange glow of the lamps. Devotees in traditional Tamil attire are standing at a distance watching in awe. Clear night sky, cinematic lighting, wide view. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up shot of the intricate lamp arrangement forming the base of the Lingam at the Agastheeswarar Temple. Dozens of small clay lamps with bright yellow flames are placed close together on the ancient stone floor. In the soft-focus background, more lamps form the shapes of smaller Lingams. The warm light reflects on the ancient grey temple stones. Authentic spiritual atmosphere, 35mm lens, sharp focus on the flames, no faces. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinakaran.com/district/trichy_251126_1",
+   "published": "2026-11-25T05:53:01+05:30",
+   "verification": "DRAFT (gemini/gemini-3-flash-preview) - NOT CLEAN, held from posting - problems: reel_script writes ages as newspaper shorthand (பகுதியாக, 12,); say it as a news reader: '12 வயது மகன் ராஜா', 'கவுசிக் (14 வயது)' -> '14 வயதான கவுசிக்'; numbers not found in the article: 1000, 8",
+   "note": "free-model draft gemini/gemini-3-flash-preview, 1 attempt(s), 2 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795553452/trichy360/hdtx6i76u0nwobuemesm.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795553461/trichy360/qlmw1z4xiijithcriisn.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795568418/trichy360/mof80hyrkssez1rs52t0.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795568422/trichy360/ho05lfezzu90qpcpnbsa.jpg"
    ]
   },
   {
-   "tamil_headline": "சோமரசம்பேட்டை அருகே பெண் இறப்பில் சந்தேகம்: உறவினர்கள் சாலை மறியல்",
-   "english_headline": "Suspicion over woman's death near Somarasampettai; relatives stage road blockade outside Trichy Government Hospital",
-   "category": "Crime & Safety",
-   "location": "Somarasampettai, Trichy district",
-   "importance": "High",
-   "scope": "",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "சந்தேக மரணம்",
-    "loc": "சோமரசம்பேட்டை",
-    "hl1": "சோமரசம்பேட்டையில் பெண் இறப்பில் சந்தேகம்",
-    "hl2": "உறவினர்கள் சாலை மறியல்",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "சோமரசம்பேட்டை அருகே இனாம்புலியூர் மேலக்காட்டில் மீனாட்சி",
-       "திங்கள்கிழமை மாலை வீட்டில் மயங்கி விழுந்ததாகக் கூறப்படுகிறது",
-       "தனியார் மருத்துவமனையில் சிகிச்சையின்போது உயிரிழந்தார்"
-      ]
-     },
-     {
-      "title": "போலீஸ் நடவடிக்கை",
-      "lines": [
-       "உடலைத் தகனம் செய்ய முயன்றதாகத் தகவல்",
-       "ஊர் மக்கள் போலீஸுக்குத் தகவல் அளித்தனர்",
-       "சந்தேக மரணம் என வழக்குப் பதிவு செய்து விசாரணை"
-      ]
-     },
-     {
-      "title": "உறவினர்கள்",
-      "lines": [
-       "வரதட்சிணை கொடுமையால் கொல்லப்பட்டதாக குற்றச்சாட்டு",
-       "கொலை வழக்குப் பதிவு செய்ய வலியுறுத்தல்",
-       "திருச்சி அரசு மருத்துவமனை முன் சாலை மறியல்"
-      ]
-     },
-     {
-      "title": "சமாதானம்",
-      "lines": [
-       "கோட்டாட்சியர் முன்னிலையில் பேச்சுவார்த்தை",
-       "உரிய நடவடிக்கை எடுப்பதாக உறுதி",
-       "பிரேத பரிசோதனைக்குப் பின் உடல் உறவினரிடம் ஒப்படைப்பு"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "சோமரசம்பேட்டை அருகே பெண் இறப்பில் சந்தேகம் எழுந்துள்ளது. மீனாட்சி என்ற 33 வயது பெண் உயிரிழந்ததால் உறவினர்கள் திருச்சி அரசு மருத்துவமனை முன் சாலை மறியலில் ஈடுபட்டனர். இனாம்புலியூர் மேலக்காடு பகுதியைச் சேர்ந்தவர் மீனாட்சி. அவரது கணவர் ராஜசேகர் விவசாயம் செய்து வருகிறார். இருவருக்கும் 2021ஆம் ஆண்டு டிசம்பர் 6ஆம் தேதி திருமணம் நடைபெற்றது. இந்தத் தம்பதிக்கு 2 குழந்தைகள் உள்ளனர். திங்கள்கிழமை மாலை வீட்டில் மீனாட்சி திடீரென மயங்கி விழுந்ததாகக் கூறப்படுகிறது. தனியார் மருத்துவமனையில் அனுமதிக்கப்பட்டு, மேல்சிகிச்சைக்காக மற்றொரு தனியார் மருத்துவமனைக்கு மாற்றப்பட்டார். அங்கு அவர் உயிரிழந்தார். போலீசாருக்குத் தெரியாமல் உடலைத் தகனம் செய்ய முயன்றதாகத் தகவல் வெளியானது. ஊர் பொதுமக்களும் உறவினர்களும் போலீசாருக்குத் தகவல் அளித்தனர். போலீசார் உடலைக் கைப்பற்றி, பிரேத பரிசோதனைக்காக திருச்சி அரசு மருத்துவமனைக்கு அனுப்பினர். சந்தேக மரணம் என வழக்குப் பதிவு செய்து போலீசார் விசாரித்து வருகின்றனர். செவ்வாய்க்கிழமை உறவினர்கள் மருத்துவமனை முன் திரண்டு சாலை மறியலில் ஈடுபட்டனர். வரதட்சிணை கொடுமையால் மீனாட்சி கொல்லப்பட்டதாகவும், கொலை வழக்குப் பதிவு செய்து கணவர் ராஜசேகர் மற்றும் உறவினர்களைக் கைது செய்ய வேண்டும் எனவும் அவர்கள் வலியுறுத்தினர். போக்குவரத்து நெரிசல் ஏற்பட்டது. காவல் ஆய்வாளர் செல்லகுமார் தலைமையிலான போலீசார் பேச்சுவார்த்தை நடத்தி போராட்டக்காரர்களைக் கலைந்து போகச் செய்தனர். திருச்சி கோட்டாட்சியர் முன்னிலையில் பேச்சுவார்த்தை நடைபெற்று, உரிய நடவடிக்கை எடுப்பதாக உறுதியளிக்கப்பட்டது. பிரேத பரிசோதனைக்குப் பின் உறவினர்கள் மீனாட்சியின் உடலைப் பெற்றுச் சென்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 சோமரசம்பேட்டை அருகே பெண் இறப்பில் சந்தேகம்: உறவினர்கள் சாலை மறியல்\n\n📰 முழு விவரம்:\nசோமரசம்பேட்டை அருகே இனாம்புலியூர் மேலக்காடு பகுதியைச் சேர்ந்த மீனாட்சி (33 வயது) உயிரிழந்ததில் சந்தேகம் எழுந்துள்ளது. திங்கள்கிழமை மாலை வீட்டில் மயங்கி விழுந்ததாகக் கூறப்படுகிறது. தனியார் மருத்துவமனையில் சிகிச்சையின்போது உயிரிழந்தார். போலீசாருக்குத் தெரியாமல் உடலைத் தகனம் செய்ய முயன்றதாகத் தகவல் வெளியானதைத் தொடர்ந்து, ஊர் பொதுமக்களும் உறவினர்களும் போலீசாருக்குத் தகவல் அளித்தனர். சந்தேக மரணம் என வழக்குப் பதிவு செய்து போலீசார் விசாரித்து வருகின்றனர். செவ்வாய்க்கிழமை திருச்சி அரசு மருத்துவமனை முன் உறவினர்கள் சாலை மறியலில் ஈடுபட்டனர். வரதட்சிணை கொடுமையால் கொல்லப்பட்டதாகக் குற்றம்சாட்டி, கொலை வழக்குப் பதிவு செய்து கணவர் ராஜசேகர் உள்ளிட்டோரைக் கைது செய்ய வலியுறுத்தினர். கோட்டாட்சியர் முன்னிலையில் பேச்சுவார்த்தை நடைபெற்று, உரிய நடவடிக்கை எடுப்பதாக உறுதியளிக்கப்பட்டது. பிரேத பரிசோதனைக்குப் பின் உடல் உறவினர்களிடம் ஒப்படைக்கப்பட்டது.\n\nSomarasampettai suspicious death, relatives block road | Trichy news\n📍 சோமரசம்பேட்டை, திருச்சி மாவட்டம் | 25 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Somarasampettai #TrichyNews #திருச்சி",
-   "prompts": "A crowd of women and men, relatives and villagers, sits on the road in front of the Trichy Government Hospital gate, blocking traffic, while khaki-uniformed Tamil Nadu police stand in a loose line at the edge of the crowd to keep order. Seen from behind and slightly elevated, the protesters wear everyday clothes: men in shirts with veshti or trousers, women in cotton sarees, some holding up plain placards whose writing is not visible. Stopped two-wheelers, an autorickshaw and a town bus wait in a jam along the road, and a few hospital visitors stand on the pavement watching. Daylight, flat midday light on the tarmac, a crowded city street near a government hospital in Tiruchirappalli. Camera at eye level, 35 mm, wide enough to show the hospital gate, the blocked road and the traffic queue behind the crowd. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose detail of a few plain placards and a bundle of dark-coloured plastic chappals and a folded cloth bag lying on the tarmac at the edge of a road blockade in front of a hospital gate, with police khaki boots and trousers visible at the frame's edge. Behind, a line of stalled two-wheelers and an autorickshaw sit in the morning light. The placards show no legible text, only blank cardboard. Daylight, slightly overcast, dusty road surface. Camera low and close at about 50 mm, shallow depth of field, focus on the placards and the road markings, with the blurred figures of protesters and police in the background. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/பெண்-இறப்பில்-சந்தேகம்-உறவினா்கள்-சாலை-மறியல்",
-   "published": "2026-11-24T19:13:00.000Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 06 ('கடந்த 06.12.2021 அன்று திருமணமான இந்தத் தம்பதிக்கு 2 குழந்தை'); 12 ('கடந்த 06.12.2021 அன்று திருமணமான இந்தத் தம்பதிக்கு 2 குழந்தை'); 2 ('கடந்த 06.12.2021 அன்று திருமணமான இந்தத் தம்பதிக்கு 2 குழந்தை')",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795553483/trichy360/q4kxy1zhqsjzvce9rodk.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795553488/trichy360/ugnug1mbxu475vkfl3yz.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "ஸ்ரீரங்கம் கோயிலில் பக்தர் மயங்கி விழுந்து உயிரிழப்பு",
-   "english_headline": "Devotee from Bengaluru collapses and dies at Srirangam temple",
-   "category": "Crime & Safety",
-   "location": "Srirangam, Trichy district",
+   "tamil_headline": "பொன்னம்பட்டி பேரூராட்சியில் மழைநீர் சேகரிப்பு விழிப்புணர்வு கூட்டம்",
+   "english_headline": "Rainwater harvesting awareness meeting held in Ponnamapatti Panchayat Union",
+   "category": "Civic Issues",
+   "location": "Ponnamapatti, Thiruchirappalli district",
    "importance": "Medium",
    "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "கோயில் சம்பவம்",
-    "loc": "ஸ்ரீரங்கம்",
-    "hl1": "ஸ்ரீரங்கம் கோயிலில் பக்தர் உயிரிழப்பு",
-    "hl2": "தரிசனத்தின்போது மயங்கி",
+    "cat": "மழைநீர் சேகரிப்பு",
+    "loc": "பொன்னம்பட்டி, துவரங்குறிச்சி",
+    "hl1": "பொன்னம்பட்டியில் சேகரிப்பு கூட்டம்",
+    "hl2": "நிலத்தடி நீர் உயரம்",
     "slides": [
      {
-      "title": "என்ன நடந்தது?",
+      "title": "கூட்டம் நடைபெற்றது",
       "lines": [
-       "பெங்களூரைச் சேர்ந்த பக்தர் மயங்கி விழுந்தார்",
-       "திங்கள்கிழமை ஸ்ரீரங்கம் கோயிலில் நடந்தது",
-       "தரிசனத்துக்காகக் காத்திருந்தபோது மயங்கினார்"
+       "பொன்னம்பட்டி பேரூராட்சி அலுவலகத்தில் கூட்டம் நடைபெற்றது",
+       "பேரூராட்சி செயல் அலுவலர் வெங்கடேசன் தலைமையில் நடைபெற்றது"
       ]
      },
      {
-      "title": "யார்?",
+      "title": "ஆலோசனை விஷயம்",
       "lines": [
-       "எஸ். ராமகிருஷ்ணன், <b>61</b> வயது",
-       "பெங்களூரு போஸ்டல் காலனியைச் சேர்ந்தவர்",
-       "நண்பர்களுடன் தரிசனத்துக்கு வந்திருந்தார்"
+       "வரவிருக்கும் மழைக்காலங்களில் மழைநீரை எவ்வாறு சேமிப்பது",
+       "நிலத்தடி நீரை உயரச் செய்வது குறித்து ஆலோசிக்கப்பட்டது"
       ]
      },
      {
-      "title": "பின்னர்?",
+      "title": "கலந்து கொண்டவர்கள்",
       "lines": [
-       "நண்பர்கள் அவரை ஸ்ரீரங்கம் அரசு",
-       "மருத்துவர்கள் ஏற்கெனவே உயிரிழந்ததாகத் தெரிவித்தனர்",
-       "ஸ்ரீரங்கம் போலீசார் வழக்குப் பதிந்து விசாரிக்கின்றனர்"
+       "பேரூராட்சி தலைவர், துணைத் தலைவர் மற்றும் மன்ற உறுப்பினர்கள்",
+       "பேரூராட்சி அலுவலக பணியாளர்கள் கூட்டத்தில் கலந்து கொண்டனர்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "ஸ்ரீரங்கம் கோயிலில் தரிசனத்துக்கு வந்த பெங்களூரு பக்தர் மயங்கி விழுந்து உயிரிழந்தார். உயிரிழந்தவர் பெங்களூரு போஸ்டல் காலனி நான்காவது குறுக்குத் தெருவைச் சேர்ந்த எஸ் ராமகிருஷ்ணன், 61 வயது. இவர் திங்கள்கிழமை பிற்பகல் நண்பர்களுடன் ஸ்ரீரங்கம் அரங்கநாத சுவாமி கோயிலுக்கு தரிசனத்துக்காக வந்திருந்தார். தரிசனத்துக்காகக் காத்திருந்தபோது ராமகிருஷ்ணன் திடீரென மயங்கி விழுந்தார். உடனிருந்த நண்பர்கள் அவரை மீட்டு ஸ்ரீரங்கம் அரசு மருத்துவமனைக்குக் கொண்டுசென்றனர். அங்கு பரிசோதித்த மருத்துவர்கள் அவர் ஏற்கெனவே உயிரிழந்துவிட்டதாகத் தெரிவித்தனர். இதுகுறித்து ஸ்ரீரங்கம் போலீசார் வழக்குப் பதிந்து விசாரிக்கின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🙏 ஸ்ரீரங்கம் கோயிலில் தரிசனத்தின்போது பக்தர் மயங்கி விழுந்து உயிரிழப்பு\n\n📰 முழு விவரம்:\nபெங்களூரு போஸ்டல் காலனி நான்காவது குறுக்குத் தெருவைச் சேர்ந்த எஸ். ராமகிருஷ்ணன் (61 வயது) திங்கள்கிழமை பிற்பகல் நண்பர்களுடன் ஸ்ரீரங்கம் அரங்கநாத சுவாமி கோயிலுக்கு தரிசனத்துக்காக வந்திருந்தார்.\nதரிசனத்துக்காகக் காத்திருந்தபோது திடீரென மயங்கி விழுந்தார்.\nஉடனிருந்த நண்பர்கள் அவரை மீட்டு ஸ்ரீரங்கம் அரசு மருத்துவமனைக்குக் கொண்டுசென்றனர். அங்கு மருத்துவர்கள் அவர் ஏற்கெனவே உயிரிழந்துவிட்டதாகத் தெரிவித்தனர்.\n\n📍 இடம்: ஸ்ரீரங்கம் அரங்கநாத சுவாமி கோயில், திருச்சி மாவட்டம்\n🗓️ நாள்: திங்கள்கிழமை\n👮 நடவடிக்கை: ஸ்ரீரங்கம் போலீசார் வழக்குப் பதிந்து விசாரிக்கின்றனர்\n\nSrirangam temple devotee dies after collapsing | Trichy news\n📍 ஸ்ரீரங்கம், திருச்சி மாவட்டம்\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Srirangam #TrichyNews #திருச்சி",
-   "prompts": "A group of devotees in a darshan queue at the Srirangam Ranganathaswamy temple in Trichy turns to help a middle-aged man in a light cotton shirt and veshti who has collapsed on the stone floor of the corridor, while two friends kneel beside him. The setting is the long pillared corridor of the temple with its carved granite columns, brass lamps hanging from the ceiling and the tall gopuram visible through an open doorway in the background. Other devotees in sarees and dhotis stand back in the queue, seen from behind and slightly blurred. Afternoon daylight filters through the entrance, with a soft warm glow on the stone. The moment shows the sudden collapse and the quick response of friends, with no visible injuries. Camera at eye level, 35 mm, wide enough to show the corridor and the crowd around the man. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a row of brass oil lamps and a stone floor at the entrance of a Srirangam temple corridor, with a few sandals and a cloth bag left on the granite slabs where devotees had been waiting. In the soft background, two men in shirts and veshtis lean over a figure lying on the ground, seen from behind and out of focus. Late afternoon light falls through the pillars, and the sense of a sudden stop in the queue is shown through the abandoned belongings. The gopuram is faintly visible through a doorway. Camera slightly high, 35 mm, shallow depth of field so the foreground objects are sharp and the people are soft and unidentifiable. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/ஸ்ரீரங்கம்-கோயிலில்-பக்தா்-மயங்கி-விழுந்து-உயிரிழப்பு",
-   "published": "2026-11-24T18:33:00.000Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 4 ('திருச்சி ஸ்ரீரங்கம் கோயிலுக்கு தரிசனத்துக்கு வந்த பெங்களூரைச')",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
+   "reel_script": "பொன்னம்பட்டி பேரூராட்சியில் மழைநீர் சேகரிப்பு விழிப்புணர்வு கூட்டம் நடைபெற்றது. நேற்று திருச்சி மாவட்டம் துவரங்குறிச்சி பொன்னம்பட்டி பேரூராட்சி அலுவலகத்தில் இந்த கூட்டம் நடைபெற்றது. பேரூராட்சி செயல் அலுவலர் வெங்கடேசன் இந்த கூட்டத்தை தலைமை வகித்தார். பேரூராட்சி இயக்குனர் உத்தரவு மற்றும் உதவி இயக்குனர் அறிவுறுத்தல் அடிப்படையில் இந்த கூட்டம் அமைந்தது. வரவிருக்கும் மழைக்காலங்களில் மழைநீரை எவ்வாறு சேமிப்பது என்பது குறித்து ஆலோசிக்கப்பட்டது. நிலத்தடி நீரை உயரச் செய்வது குறித்தும் விவாதிக்கப்பட்டது. பேரூராட்சி தலைவர் இந்த கூட்டத்தில் கலந்து கொண்டார். துணைத் தலைவர் மற்றும் மன்ற உறுப்பினர்கள் கூட்டத்தில் பங்கேற்றனர். பேரூராட்சி அலுவலக பணியாளர்களும் கூட்டத்தில் கலந்து கொண்டனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🌧️ பொன்னம்பட்டி பேரூராட்சியில் மழைநீர் சேகரிப்பு விழிப்புணர்வு கூட்டம் நடைபெற்றது\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம் துவரங்குறிச்சி பொன்னம்பட்டி பேரூராட்சி அலுவலகத்தில் மழைநீர் சேகரிப்பு குறித்தான விழிப்புணர்வு கூட்டம் நடைபெற்றது. நேற்று இந்த கூட்டம் நடைபெற்றது. பேரூராட்சி செயல் அலுவலர் வெங்கடேசன் தலைமையில் கூட்டம் நடைபெற்றது. பேரூராட்சி இயக்குனர் உத்தரவு மற்றும் உதவி இயக்குனர் அறிவுறுத்தல் அடிப்படையில் கூட்டம் அமைந்தது. வரவிருக்கும் மழைக்காலங்களில் மழைநீரை எவ்வாறு சேமிப்பது என்பது குறித்து ஆலோசிக்கப்பட்டது. நிலத்தடி நீரை உயரச் செய்வது குறித்தும் விவாதிக்கப்பட்டது. பேரூராட்சி தலைவர், துணைத் தலைவர், மன்ற உறுப்பினர்கள் மற்றும் அலுவலக பணியாளர்கள் கூட்டத்தில் கலந்து கொண்டனர்.\n\n📍 இடம்: பொன்னம்பட்டி பேரூராட்சி அலுவலகம், துவரங்குறிச்சி\n🗓️ நாள்: நேற்று\nℹ️ விஷயம்: மழைநீர் சேகரிப்பு மற்றும் நிலத்தடி நீர் உயர்வு\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்\n\nPonnamapatti rainwater harvesting meeting | Trichy news\n📍 Ponnamapatti, Trichy | 25 Nov 2026\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Ponnamapatti #TrichyNews #திருச்சி",
+   "prompts": "A group of local government officials sits around a long table in a meeting hall, engaged in a discussion about water conservation. The setting is the interior of the Ponnamapatti Panchayat Union office in Thiruchirappalli district, characterized by plain white walls and simple government office decor. Several men and women, representing the Panchayat President, Vice President, councillors, and staff, are seated on plastic chairs, facing the chairperson who is leading the session. They are dressed in formal or semi-formal attire, with men in shirts and trousers and women in sarees. The room is filled with the atmosphere of a civic administrative meeting. Daylight filters in from the windows, illuminating the faces of the attendees. The camera is positioned at eye level, using a 35 mm lens to capture the entire group and the layout of the room, ensuring the context of a local government gathering is clear without focusing on individual identities. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up view of a simple wooden table in the corner of the Panchayat Union office, where a few documents and a pen are placed, symbolizing the administrative nature of the meeting. The background is slightly blurred, showing the edge of the meeting hall with rows of empty plastic chairs and the plain wall of the government building in Ponnamapatti. The lighting is soft and natural, coming from a nearby window, highlighting the texture of the paper and the wood grain. This detail shot emphasizes the bureaucratic context of the rainwater harvesting awareness session held by the local panchayat officials. The camera is slightly high, looking down at the table, using a 35 mm lens to keep the focus sharp on the objects while maintaining the depth of the room behind them. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinakaran.com/district/trichy_251126_3",
+   "published": "2026-11-25T05:53:34+05:30",
+   "verification": "DRAFT (groq/qwen/qwen3.8-27b) - fact-check: no problems found",
+   "note": "free-model draft groq/qwen/qwen3.8-27b, 1 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795553495/trichy360/lpz5wpemkebtmms9gwau.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795553498/trichy360/qwtrjejl4u37y9a1p9kh.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சியில் பங்குச் சந்தை மோசடி: ஓய்வு பெற்ற வங்கி ஊழியர் ரூ.57.33 லட்சம் இழப்பு",
-   "english_headline": "Trichy retired bank employee loses Rs 57.33 lakh in online stock market investment fraud; cyber crime police case registered",
-   "category": "Crime & Safety",
-   "location": "Trichy city, Trichy district",
-   "importance": "High",
-   "scope": "",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "சைபர் மோசடி",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சியில் ரூ.57.33 லட்சம் மோசடி",
-    "hl2": "பங்குச் சந்தை ஆசை காட்டி",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "பங்குச் சந்தையில் அதிக லாபம் எனக் கூறி <b>ரூ.57.33 லட்சம்</b> மோசடி",
-       "திருச்சியைச் சேர்ந்த ஓய்வு பெற்ற தனியார் வங்கி ஊழியர்",
-       "இணையம் வழியாக மர்ம நபர் தொடர்பு கொண்டார்"
-      ]
-     },
-     {
-      "title": "எப்படி ஏமாற்றினர்?",
-      "lines": [
-       "செப்டம்பர் <b>23</b> முதல் நவம்பர் <b>16</b> வரை பல தவணைகளில் பணம் முதலீடு",
-       "மர்ம நபர் கூறிய இணைய முகவரி மூலம் பணம் செலுத்தப்பட்டது",
-       "பணத்தை எடுக்க முடியாதபோது மோசடி தெரிய வந்தது"
-      ]
-     },
-     {
-      "title": "போலீஸ் நடவடிக்கை",
-      "lines": [
-       "தேசிய சைபர் குற்றப் பிரிவில் இணைய வழியில் புகார்",
-       "திருச்சி மாநகர சைபர் குற்றப் பிரிவு போலீசார் வழக்குப் பதிவு",
-       "தொடர்ந்து விசாரணை நடைபெறுகிறது"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சியில் பங்குச் சந்தை முதலீடு பெயரில் ஓய்வு பெற்ற வங்கி ஊழியரிடம் ரூ.57.33 லட்சம் மோசடி நடந்துள்ளது. திருச்சியைச் சேர்ந்த ஓய்வு பெற்ற தனியார் வங்கி ஊழியர் சீனிவாசன், செப்டம்பர் 23ஆம் தேதி இணையத்தில் ஒரு விளம்பரத்தைப் பார்த்தார். அதன் பின் ஒரு மர்ம நபர் அவரைத் தொடர்பு கொண்டார். பங்குச் சந்தையில் முதலீடு செய்தால் அதிக லாபம் கிடைக்கும் என்று அந்த நபர் கூறினார். அவர் கூறிய இணைய முகவரி மூலம், செப்டம்பர் 23ஆம் தேதி முதல் நவம்பர் 16ஆம் தேதி வரை பல தவணைகளில் ரூ.57.33 லட்சம் முதலீடு செய்தார். பின்னர் முதலீடு செய்த பணத்தை எடுக்க முயன்றபோது அவரால் எடுக்க முடியவில்லை. ஆலோசனை கூறிய நபரின் எண் பயன்பாட்டில் இல்லை என்பது தெரிய வந்த பின்னரே தாம் ஏமாற்றப்பட்டதை சீனிவாசன் உணர்ந்தார். தேசிய சைபர் குற்றப் பிரிவில் இணைய வழியில் அவர் புகார் அளித்தார். அந்தப் புகாரின் பேரில் திருச்சி மாநகர சைபர் குற்றப் பிரிவு போலீசார் திங்கள்கிழமை வழக்குப் பதிவு செய்து விசாரித்து வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சியில் பங்குச் சந்தை முதலீடு பெயரில் ரூ.57.33 லட்சம் மோசடி\n\n📰 முழு விவரம்:\nபங்குச் சந்தையில் முதலீடு செய்தால் அதிக லாபம் பெறலாம் எனக் கூறி, திருச்சியைச் சேர்ந்த ஓய்வு பெற்ற தனியார் வங்கி ஊழியர் சீனிவாசனிடம் இணையம் வழியாக ரூ.57.33 லட்சம் மோசடி செய்யப்பட்டது.\nசெப்டம்பர் 23ஆம் தேதி இணையத்தில் பங்குச் சந்தை முதலீடு விளம்பரத்தைப் பார்த்த சீனிவாசனை, மர்ம நபர் ஒருவர் தொடர்பு கொண்டார்.\nஅவர் கூறிய இணைய முகவரி மூலம், செப்டம்பர் 23 முதல் நவம்பர் 16 வரை பல தவணைகளில் பணம் முதலீடு செய்யப்பட்டது.\nபணத்தை எடுக்க முயன்றபோது முடியவில்லை. ஆலோசனை கூறிய நபரின் எண் பயன்பாட்டில் இல்லை என்பது தெரிந்த பின்னரே மோசடி தெரிய வந்தது.\nதேசிய சைபர் குற்றப் பிரிவில் இணையம் வழியாக சீனிவாசன் அளித்த புகாரின் பேரில், திருச்சி மாநகர சைபர் குற்றப் பிரிவு போலீசார் திங்கள்கிழமை வழக்குப் பதிவு செய்து விசாரிக்கின்றனர்.\n\nTrichy stock market fraud Rs 57.33 lakh | Trichy news\n📍 திருச்சி | 24 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
-   "prompts": "A retired man in a white shirt and veshti sits at a wooden desk in a Trichy house, seen from behind, a mobile phone and a laptop open in front of him showing a stock trading screen with no readable text. The room is a modest Tamil Nadu home with a ceiling fan, a steel almirah and framed photos on the wall, lit by soft daylight from a window. Behind him a stack of bank passbooks and printed statements lies on the table next to a cup of filter coffee. The mood is worried and still, as if he is reviewing money that has disappeared. Camera at eye level, slightly high, 35 mm, wide enough to show the room and his posture. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a table in a Trichy cyber crime police station office: a printed complaint file, a mobile phone and a laptop lying open, with the screen glowing and showing a blurred stock chart with no readable text or numbers. Beside them a khaki-uniformed Tamil Nadu police officer's hand rests on a stack of papers, sleeves visible, the officer's face not shown. Daylight comes through a barred window, with a wall calendar and a steel filing cabinet softly blurred behind. The scene conveys a fraud case being recorded. Camera close, slightly high, 35 mm, shallow depth of field. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/retired-private-bank-employee-duped-of-rs-5733-lakh-in-online-fraud",
-   "published": "2026-11-24T20:32:00.000Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 0 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795553537/trichy360/m26gwrbborq7qm9sw2gi.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795553568/trichy360/ywvkxw04ou2sscqmj2tz.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "இணைய லாட்டரி மோசடி: ஆவின் ஓய்வுபெற்ற ஊழியரிடம் ரூ.3.38 லட்சம் இழப்பு",
-   "english_headline": "Online lottery fraud in Trichy: retired Aavin employee loses Rs 3.38 lakh after fake prize claim",
-   "category": "Crime & Safety",
-   "location": "Trichy city, Trichy district",
-   "importance": "High",
-   "scope": "",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "சைபர் மோசடி",
-    "loc": "திருச்சி",
-    "hl1": "திருச்சியில் லாட்டரி மோசடி",
-    "hl2": "ரூ.3.38 லட்சம் இழப்பு",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "லாட்டரியில் பரிசு விழுந்ததாக ஏமாற்றம்",
-       "ஓய்வுபெற்ற ஆவின் ஊழியர் <b>ரூ.3.38 லட்சம்</b> இழப்பு",
-       "சைபர் குற்றப் பிரிவு போலீசார் வழக்குப் பதிவு"
-      ]
-     },
-     {
-      "title": "எப்படி ஏமாற்றினர்?",
-      "lines": [
-       "பேஸ்புக்கில் வந்த கேரள லாட்டரி விளம்பரம்",
-       "மர்ம நபர் கூறிய எண்களில் <b>3 எண்களை</b> தேர்வு செய்தார்",
-       "<b>5ஆம் பரிசு ரூ.12 லட்சம்</b> விழுந்ததாகக் கூறினர்"
-      ]
-     },
-     {
-      "title": "பணம்",
-      "lines": [
-       "பரிசுத் தொகைக்கு கட்டணம் செலுத்த வேண்டும் என்றனர்",
-       "<b>அக்டோபர் 28</b> முதல் <b>நவம்பர் 3</b> வரை பல தவணைகளில்",
-       "பரிசுத் தொகை எதுவும் கிடைக்கவில்லை"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சியில் இணைய லாட்டரி மோசடியில் ஓய்வுபெற்ற ஆவின் ஊழியர் ரூ.3.38 லட்சம் இழந்தார். திருச்சியைச் சேர்ந்த ஓய்வுபெற்ற ஆவின் ஊழியர் லட்சுமணன் அக்டோபர் 28ஆம் தேதி பேஸ்புக் பார்த்துக்கொண்டிருந்தார். அப்போது கேரள லாட்டரி விளம்பரம் வந்தது. அதில் குறிப்பிட்டிருந்த எண்ணுக்கு அவர் தொடர்பு கொண்டார். எதிர்முனையில் பேசிய மர்ம நபர், சில லாட்டரி எண்களை அனுப்பித் தேர்வு செய்யுமாறு கூறினார். லட்சுமணன் 3 எண்களைத் தேர்வு செய்து அனுப்பினார். பின்னர், அவருக்கு 5ஆம் பரிசாக ரூ.12 லட்சம் விழுந்துள்ளதாக மர்ம நபர் தெரிவித்தார். பரிசுத் தொகையைப் பெற சில கட்டணங்களைச் செலுத்த வேண்டும் என்றும் கூறினார். இதை நம்பிய லட்சுமணன், அக்டோபர் 28 முதல் நவம்பர் 3ஆம் தேதி வரை பல தவணைகளில் ரூ.3.38 லட்சத்தை மர்ம நபர் கொடுத்த வங்கிக் கணக்கிற்குச் செலுத்தினார். ஆனால் அவருக்கு எந்தப் பரிசுத் தொகையும் கிடைக்கவில்லை. அதன் பின்னரே தான் ஏமாற்றப்பட்டது அவருக்குத் தெரியவந்தது. தேசிய சைபர் குற்றப் பிரிவில் அவர் அளித்த புகாரின் பேரில், திருச்சி மாநகர சைபர் குற்றப் பிரிவு போலீசார் திங்கள்கிழமை வழக்குப் பதிவு செய்து விசாரிக்கின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சியில் இணைய லாட்டரி மோசடி: ஓய்வுபெற்ற ஊழியரிடம் ரூ.3.38 லட்சம் பறிப்பு\n\n📰 முழு விவரம்:\nதிருச்சியைச் சேர்ந்த ஓய்வுபெற்ற ஆவின் ஊழியர் லட்சுமணன், அக்டோபர் 28ஆம் தேதி பேஸ்புக்கில் வந்த கேரள லாட்டரி விளம்பரத்தில் குறிப்பிட்ட எண்ணுக்குத் தொடர்பு கொண்டார். மர்ம நபர் கூறிய எண்களில் 3 எண்களை அனுப்பித் தேர்வு செய்தார். 5ஆம் பரிசாக ரூ.12 லட்சம் விழுந்ததாகக் கூறிய அந்த நபர், பரிசுத் தொகைக்குக் கட்டணம் செலுத்தச் சொன்னார். அதை நம்பிய லட்சுமணன், அக்டோபர் 28 முதல் நவம்பர் 3ஆம் தேதி வரை பல தவணைகளில் ரூ.3.38 லட்சம் செலுத்தினார். எந்தப் பரிசுத் தொகையும் கிடைக்கவில்லை.\n📞 தேசிய சைபர் குற்றப் பிரிவில் புகார் அளிக்கப்பட்டது.\n👮 திருச்சி மாநகர சைபர் குற்றப் பிரிவு போலீசார் திங்கள்கிழமை வழக்குப் பதிவு செய்து விசாரிக்கின்றனர்.\nℹ️ மக்கள் கவனத்திற்கு: பரிசு, லாட்டரி என்று கட்டணம் கேட்கும் அழைப்புகளை நம்ப வேண்டாம்.\n\nTrichy online lottery fraud, retired employee loses Rs 3.38 lakh | Trichy news\n📍 திருச்சி | 25 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Trichy360News",
-   "prompts": "A retired Trichy man sits at a table at home, back to the camera, looking at a mobile phone screen that shows a lottery advertisement, his hand resting beside a bank passbook and a stack of cash slips. The setting is a modest middle-class house in Trichy city with a tiled floor, a plain wall and a window letting in daylight, with a ceiling fan overhead. He wears a white shirt and a veshti, and his posture shows worry. Nearby on the table sits an old-style mobile phone and a folded bank passbook. Shot in daylight from slightly above eye level with a 35 mm lens, wide enough to show the room and the man seen from behind and slightly blurred, with no readable text on any screen or document. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a mobile phone lying on a wooden table beside a bank passbook and a pile of bank transfer slips, showing the lottery scam evidence in a Trichy home. The screen is dim and displays only an unreadable lottery advertisement with colourful blurred graphics. Behind the table, a corner of a cupboard and a plain painted wall are visible, lit by soft daylight from a window. A pen rests on the passbook and a few rupee notes lie at the edge of the frame. No readable text, letters, numbers or logos are visible. Taken at eye level with a 35 mm lens, shallow depth of field, with the phone and passbook sharp and the background softly blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/24/retired-aavin-employee-cheated-of-rs-338-lakh-with-fake-online-lottery-prize-claim",
-   "published": "2026-11-24T18:33:00.000Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: fact-check: reel_script says the victim sent money 'to the bank account given by the fraudster' — acceptable, but the caption adds an unsupported claim that the victim 'sent Rs 3.38 lakh' in installments, which matches the article; no issue there. However, the caption states the complaint was filed with the 'National Cyber Crime Division' and the police registered the case on Monday, which matches; the caption's safety line 'மக்கள் கவனத்திற்கு' is an invented advisory not in the article; fact-check: reel_script adds the claim that the victim 'did not receive any prize amount' as a sentence, which matches the article; but reel_script states the victim 'இழந்தார்' (lost) Rs 3.38 lakh in the opening line, consistent with article",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 2 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795553574/trichy360/a4jzfrryx3dakogtiq4y.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795553585/trichy360/uni0ghir5lk9oic55oyy.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795568429/trichy360/itogtjkktw88xjm6akjb.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795568431/trichy360/nvjlqph3qlcefqwpbooa.jpg"
    ]
   }
  ]
