@@ -3,181 +3,177 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://tamil.oneindia.com/news/trichirappalli/go-ahead-and-bash-me-all-you-want-on-social-media-durai-vaikos-fiery-retort-848173.html",
-  "manual link added: https://www.polimernews.com/politicsnews/vaiko-is-84-years-old-so-he-gets-emotional-says-durai-vaiko-12840785",
+  "manual link added: https://www.hindutamil.in/news/tamilnadu/victim-files-case-in-high-court-seeking-action-against-deputy-speaker-of-the-legislative-assembly",
+  "manual link added: https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/wife-with-4-children-lodges-police-complaint-against-husband/4386107",
   "candidate filter: collected=2",
   "to write: 2 Trichy district candidates (max 2 stories)",
   "round: top 2 of 2 candidates",
   "candidates waiting: 2 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.polimernews.com/politicsnews/vaiko-is-84-years-o",
-  "try (N) manual=True: https://tamil.oneindia.com/news/trichirappalli/go-ahead-and-",
+  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-district-news-tric",
+  "try (N) manual=True: https://www.hindutamil.in/news/tamilnadu/victim-files-case-i",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
-  "candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 77 min",
+  "candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 78 min",
   "filed: 2 Trichy district stories (target 2), reels only",
   "queue: 0 news waiting to be written",
   "All News sheet: {\"ok\":true,\"added\":2,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.6-flash (16s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3.6-flash (17s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3.6-flash (5s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (11s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (9s)",
-  "ok gemini/gemini-3.6-flash (26s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing ",
+  "ok gemini/gemini-3-flash-preview (8s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "dead for this round: gemini/gemini-3-flash-preview",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok groq/openai/gpt-oss-120b (6s)",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/openai/gpt-oss-120b (7s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "ok groq/qwen/qwen3.8-27b (1s)"
+  "ok groq/qwen/qwen3.8-27b (2s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing ",
+  "switching away from gemini/gemini-3-flash-preview for 10 min",
+  "ok groq/qwen/qwen3.8-27b (4s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b"
  ],
  "stories": [
   {
-   "tamil_headline": "திருச்சி விமான நிலையத்தில் துரை வைகோ ஆவேசம்: 84 வயதான வைகோ பற்றி அவதூறு பரப்புவதாகக் கண்டனம்",
-   "english_headline": "Durai Vaiko slams social media slander against 84-year-old father Vaiko at Trichy airport press meet",
-   "category": "Government & Services",
-   "location": "Trichy airport, Trichy district",
-   "importance": "Medium",
+   "tamil_headline": "பேரவை துணைத் தலைவர் மீது நடவடிக்கை கோரி வழக்கு: துறையூர் இளைஞர் உயர் நீதிமன்றத்தில் மனு",
+   "english_headline": "Case filed against Assembly Deputy Speaker: Thuraiyur man petitions High Court alleging assault and threats",
+   "category": "Crime & Safety",
+   "location": "Thuraiyur, Trichy district",
+   "importance": "High",
    "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "அரசியல்",
-    "loc": "திருச்சி விமான நிலையம்",
-    "hl1": "திருச்சியில் துரை வைகோ ஆவேசம்",
-    "hl2": "அவதூறு பரப்புவதாக கண்டனம்",
+    "cat": "நீதிமன்ற வழக்கு",
+    "loc": "துறையூர், திருச்சி",
+    "hl1": "துறையூர் எம்.எல்.ஏ நீதிமன்றத்தில் வழக்கு",
+    "hl2": "தாக்குதல்",
     "slides": [
      {
-      "title": "துரை வைகோ பேட்டி",
+      "title": "என்ன நடந்தது?",
       "lines": [
-       "திருச்சி விமான நிலையத்தில் துரை வைகோ செய்தியாளர் சந்திப்பு",
-       "84 வயதான தனது தந்தை வைகோ குறித்து அவதூறு எனப் பேச்சு"
+       "குடிநீர் கோரிக்கை வைக்கச் சென்றபோது <b>தாக்குதல்</b>",
+       "உருட்டுக் கட்டையால் தாக்கியதாகப் புகார்",
+       "<b>3 பவுன்</b> தங்கச் சங்கிலி பறிக்கப்பட்டதாக மனு"
       ]
      },
      {
-      "title": "ஆவேசக் கண்டனம்",
+      "title": "மிரட்டல் புகார்",
       "lines": [
-       "சமூக வலைதளங்களில் அவதூறு பரப்புவதற்குக் கடும் கண்டனம்",
-       "முடிந்தால் என்னை அடியுங்கள், நான் பதில் சொல்கிறேன் என ஆவேசம்"
+       "கட்டாயப்படுத்தி வீடியோ எடுத்ததாக ஆய்வாளர் மீது புகார்",
+       "பொய் வழக்கு போடுவதாக மிரட்டியதாகத் தகவல்",
+       "மண்ணச்சநல்லூர் அரசு மருத்துவமனையில் சிகிச்சை"
       ]
      },
      {
-      "title": "ரூ.200 விமர்சனம்",
+      "title": "நீதிமன்றத்தில் மனு",
       "lines": [
-       "பதிவு போட <b>200 ரூபாய்</b> கொடுத்து அவதூறு பரப்புவதாக விமர்சனம்",
-       "திமுக முன்பு மேடையில் பேசியது போல் இப்போது பரப்பப்படுகிறது"
+       "உயர் நீதிமன்ற மதுரை அமர்வில் மனு தாக்கல்",
+       "நடவடிக்கை எடுக்க திருச்சி எஸ்.பி-க்கு உத்தரவிடக் கோரிக்கை",
+       "இந்த மனு விரைவில் விசாரணைக்கு வருகிறது"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சி விமான நிலையத்தில் துரை வைகோ ஆவேசமாகப் பேசினார். 84 வயதான தனது தந்தை வைகோ பற்றி சமூக வலைதளங்களில் அவதூறு பரப்புவதை அவர் கடுமையாகக் கண்டித்தார். முடிந்தால் என்னை அடியுங்கள், நான் பதில் சொல்கிறேன் என அவர் சவால் விடுத்தார். தி மு க முன்பு மேடைகளில் அவதூறு பரப்பியது போல, தற்போது சமூக வலைதளங்களில் ஒரு பதிவு போடுவதற்கு 200 ரூபாய் கொடுத்து அவதூறு பரப்புவதாக அவர் கடுமையான விமர்சனத்தை முன்வைத்தார். திருச்சி விமான நிலையத்தில் செய்தியாளர்களைச் சந்தித்த போது இந்த ஆவேசக் கருத்துகளை அவர் தெரிவித்தார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🎙️ திருச்சியில் துரை வைகோ ஆவேசம்: 84 வயதான வைகோ குறித்து அவதூறு பரப்புவதாகக் கண்டனம்\n\n📰 முழு விவரம்:\nதிருச்சி விமான நிலையத்தில் துரை வைகோ செய்தியாளர்களைச் சந்தித்துப் பேசினார். அப்போது, 84 வயதான தனது தந்தை வைகோ பற்றி சமூக வலைதளங்களில் அவதூறு பரப்புவதற்குக் கடும் கண்டனம் தெரிவித்தார். முடிந்தால் என்னை அடியுங்கள், நான் பதில் சொல்கிறேன் என்றும் அவர் ஆவேசமாகப் பேசினார். திமுக முன்பு மேடை போட்டு அவதூறு பரப்பியது போல, தற்போது சமூக வலைதளங்களில் பதிவு போடுவதற்கு 200 ரூபாய் கொடுத்துத் தங்களைப் பற்றி அவதூறு பரப்புவதாகவும் அவர் விமர்சித்தார்.\n\n📍 இடம்: திருச்சி விமான நிலையம்\n🗓️ நாள்: 25 நவம்பர் 2026\n💬 கருத்து: சமூக வலைதள அவதூறுகளுக்குக் கடும் எதிர்ப்பு\n\nசெய்தியை அறிய பிறருக்கும் Share செய்யுங்கள்.\n\nDurai Vaiko press meet at Trichy airport | Trichy news\n📍 திருச்சி விமான நிலையம், திருச்சி | 25 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyAirport #TrichyNews #திருச்சி",
-   "prompts": "A politician in a white shirt and veshti addresses a group of journalists during a press meet. The scene is set at the exterior arrival area of Trichy International Airport, showing the modern glass facade and steel pillars of the terminal building. A group of about ten reporters in shirts and trousers are seen from behind, holding out microphones and mobile phones toward the speaker. The bright midday sun casts sharp shadows on the paved ground. The camera is at eye level, using a 35mm lens to capture the politician and the surrounding media scrum against the airport backdrop. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up shot focuses on a cluster of microphones held by journalists during the press briefing at Trichy airport. The background shows the blurred architectural lines of the airport terminal and a few palm trees under a clear sky. Only the hands and arms of the reporters are visible as they hold up microphones with various colored foam covers—red, blue, and yellow—without any logos or text. A single smartphone on a small handheld tripod is also visible among the recording devices. The lighting is bright and natural, typical of a sunny day in Trichy. The camera is at a close-up range with a shallow depth of field. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.polimernews.com/politicsnews/vaiko-is-84-years-old-so-he-gets-emotional-says-durai-vaiko-12840785",
-   "published": "2026-11-25T17:32:48+05:30",
-   "verification": "DRAFT (gemini/gemini-3.6-flash) - fact-check: no problems found",
-   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 0 validator problem(s)",
+   "reel_script": "துறையூர் சட்டமன்ற உறுப்பினரும் பேரவை துணைத் தலைவருமான ரவிசங்கர் மீது நடவடிக்கை எடுக்கக் கோரி உயர் நீதிமன்றத்தில் மனு தாக்கல் செய்யப்பட்டுள்ளது. திருச்சி மாவட்டம் துறையூரைச் சேர்ந்த கார்த்திக்குமார் இந்த மனுவைத் தாக்கல் செய்துள்ளார். கடந்த மாதம் குடிநீர் கோரிக்கை தொடர்பாக மனு அளிக்கச் சென்றபோது, பேரவை துணைத் தலைவர் தன்னை உருட்டுக் கட்டையால் தாக்கியதாக அவர் குறிப்பிட்டுள்ளார். இதில் காயமடைந்ததோடு, தான் அணிந்திருந்த 3 பவுன் தங்கச் சங்கிலியும் பறிக்கப்பட்டதாக மனுவில் கூறப்பட்டுள்ளது. மண்ணச்சநல்லூர் அரசு மருத்துவமனையில் சிகிச்சை பெற்றபோது, அடையாளம் தெரியாத நபர்கள் தாக்கியதாகப் பதிவு செய்யக் காவலர்கள் வற்புறுத்தியதாக அவர் புகார் தெரிவித்துள்ளார். மேலும், காவல் ஆய்வாளர் கிருபாநிதி தன்னை மிரட்டி, யாரும் தாக்கவில்லை என வீடியோ எடுக்க வைத்ததாகவும் கார்த்திக்குமார் கூறியுள்ளார். இது குறித்து அதிகாரிகளிடம் புகார் அளித்தும் நடவடிக்கை எடுக்காததால், தற்போது நீதிமன்றத்தை நாடியுள்ளார். பேரவை துணைத் தலைவர் மற்றும் காவல் ஆய்வாளர் மீது வழக்குப் பதிவு செய்ய திருச்சி காவல் கண்காணிப்பாளர்-க்கு உத்தரவிடக் கோரியுள்ளார். இந்த மனு விரைவில் விசாரணைக்கு வரவுள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "⚖️ பேரவை துணைத் தலைவர் மீது நடவடிக்கை கோரி வழக்கு - துறையூர் இளைஞர் உயர் நீதிமன்றத்தில் மனு\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம் துறையூரைச் சேர்ந்த கார்த்திக்குமார், பேரவை துணைத் தலைவரும் துறையூர் எம்.எல்.ஏ-வுமான ரவிசங்கர் மீது நடவடிக்கை எடுக்கக் கோரி உயர் நீதிமன்ற மதுரை அமர்வில் மனு தாக்கல் செய்துள்ளார்.\nகடந்த மாதம் குடிநீர் கோரிக்கை தொடர்பாக மனு அளிக்கச் சென்றபோது, தன்னை உருட்டுக் கட்டையால் தாக்கியதாகவும், 3 பவுன் தங்கச் சங்கிலியைப் பறித்துக்கொண்டதாகவும் கார்த்திக்குமார் மனுவில் குறிப்பிட்டுள்ளார்.\nமண்ணச்சநல்லூர் அரசு மருத்துவமனையில் சிகிச்சை பெற்றபோது, அடையாளம் தெரியாத நபர்கள் தாக்கியதாகப் பதிவு செய்யக் காவலர்கள் வற்புறுத்தியதாகவும், ஆய்வாளர் கிருபாநிதி தன்னை மிரட்டி கட்டாயப்படுத்தி வீடியோ எடுத்ததாகவும் அவர் புகார் தெரிவித்துள்ளார்.\nஇது குறித்து அதிகாரிகளிடம் புகார் அளித்தும் நடவடிக்கை எடுக்காததால், பேரவை துணைத் தலைவர் மற்றும் காவல் ஆய்வாளர் மீது வழக்குப் பதிவு செய்ய திருச்சி எஸ்.பி-க்கு உத்தரவிடக் கோரி மனு தாக்கல் செய்யப்பட்டுள்ளது.\n\n📍 இடம்: துறையூர், திருச்சி மாவட்டம்\n👮 நடவடிக்கை: உயர் நீதிமன்றத்தில் மனு தாக்கல்\n\nThuraiyur MLA Ravi Shankar case High Court Madurai | Trichy news\n📍 Thuraiyur, Trichy | 25 November 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thuraiyur #HighCourt #TrichyNews #திருச்சி",
+   "prompts": "COVER SCENE: A man in a white shirt and trousers stands at the entrance of a government building, holding a folder of documents, seen from behind. He is facing the main gate of the High Court Madurai bench, a large concrete structure with pillars and a flagpole. Two police officers in khaki uniforms stand near the gate, observing the area. The man appears to be submitting a petition. In the background, other people in casual clothes are walking towards the entrance. The scene is set in daylight with clear skies. The camera is at eye level, 35 mm, capturing the man's back and the imposing facade of the court building, emphasizing the act of filing a legal complaint. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nDETAIL SCENE: A close-up shot of a wooden stick lying on a concrete floor next to a crumpled piece of paper, representing the alleged weapon and the petition. The stick is rough and brown, showing signs of use. The paper is white with blurred text, symbolizing the legal document. In the blurred background, a gold chain is visible on a table, hinting at the stolen item. The lighting is bright, highlighting the textures of the wood and paper. The camera is slightly high, 35 mm, focusing on these objects to tell the story of the alleged assault and the subsequent legal action without showing any faces or readable text. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.hindutamil.in/news/tamilnadu/victim-files-case-in-high-court-seeking-action-against-deputy-speaker-of-the-legislative-assembly",
+   "published": "2026-11-25T16:20:56Z",
+   "verification": "DRAFT (gemini/gemini-3-flash-preview) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 16 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences; caption needs 5 hashtags (Instagram max), has 6",
+   "note": "free-model draft gemini/gemini-3-flash-preview, 1 attempt(s), 2 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261125/2608c4f91bdbf1d3.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261125/80e48c1fb347de31.jpg"
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261125/67ed7f9b8a69db3a.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261125/a61b2619ac4d6a6f.jpg"
    ]
   },
   {
-   "tamil_headline": "திருச்சியில் துரை வைகோ ஆவேச பேட்டி: வைகோவை விமர்சிப்போருக்கு சவால்",
-   "english_headline": "Durai Vaiko speaks at Trichy Airport: challenges social media critics targeting 83-year-old Vaiko and speaks on state politics",
-   "category": "Government & Services",
-   "location": "Trichy Airport, Trichy district",
+   "tamil_headline": "திருச்சி அருகே 4 குழந்தைகளுடன் மனைவி மாயம்",
+   "english_headline": "Husband files police complaint after wife and 4 children go missing near Trichy",
+   "category": "Crime & Safety",
+   "location": "Muthaiyampalayam, Thuraiyur, Trichy district",
    "importance": "Medium",
-   "scope": "district",
+   "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "அரசியல்",
-    "loc": "திருச்சி விமான நிலையம்",
-    "hl1": "திருச்சியில் துரை வைகோ சவால்",
-    "hl2": "வைகோவை அவமதிக்க வேண்டாம்",
+    "cat": "மாயம்",
+    "loc": "முத்தையம்பாளையம், துறையூர்",
+    "hl1": "முத்தையம்பாளையத்தில் மனைவி மாயம்",
+    "hl2": "4 குழந்தைகளுடன் காணாமல்",
     "slides": [
      {
-      "title": "துரை வைகோ பேட்டி",
+      "title": "மாயமானவர்கள்",
       "lines": [
-       "திருச்சி விமான நிலையத்தில் <b>துரை வைகோ</b> பேட்டி",
-       "83 வயதாகும் <b>வைகோவை</b> விமர்சிப்போருக்கு சவால்",
-       "என்னை விமர்சியுங்கள் என ஆவேசம்"
+       "34 வயது மனைவி கீதா",
+       "14, 13, 11, 10 வயது 4 குழந்தைகள்",
+       "முத்தையம்பாளையம் வீடு"
       ]
      },
      {
-      "title": "200 ரூபாய் குற்றம்",
+      "title": "சம்பவ விவரம்",
       "lines": [
-       "சமூக வலைதளங்களில் விமர்சிப்போருக்கு <b>ரூ.200</b>",
-       "திமுக சார்பில் வழங்கப்படுவதாகக் குற்றம் சாட்டினார்",
-       "முதலமைச்சர் <b>ஜோசப் விஜய்யை</b>ப் பாராட்டினார்"
+       "நவம்பர் 7ம் தேதி தொடர்பு இல்லை",
+       "மொபைல் போன் சுவிட்ச் ஆப்",
+       "வீட்டில் யாரும் இல்லை"
       ]
      },
      {
-      "title": "ஐஏஎஸ், எம்எல்ஏ",
+      "title": "போலீஸ் நடவடிக்கை",
       "lines": [
-       "கள்ளக்குறிச்சி <b>எம்.எல்.ஏ</b> புகாரில் அரசு விசாரிக்க வேண்டும்",
-       "பெண் <b>ஐ.ஏ.எஸ்</b> புகாரில் <b>4 மாத</b> தாமதம் தவறு",
-       "அரசு உடனடியாக நடவடிக்கை எடுக்க வேண்டும்"
-      ]
-     },
-     {
-      "title": "முக்கிய",
-      "lines": [
-       "<b>கோதாவரி - காவிரி</b> இணைப்பை விரைவுபடுத்த வலியுறுத்தல்",
-       "<b>கர்நாடகா</b> உச்சநீதிமன்றத் தீர்ப்பை மதிக்க வேண்டும்",
-       "<b>அரிசி</b> உள்ளிட்ட அத்தியாவசிய விலை உயர்வைக் கட்டுப்படுத்துக"
+       "துறையூர் போலீசில் புகார்",
+       "வழக்கு பதிவு செய்யப்பட்டது",
+       "தேடல் பணிகள் நடைபெறுகின்றன"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சி விமான நிலையத்தில் திருச்சி நாடாளுமன்ற உறுப்பினர் துரை வைகோ செய்தியாளர்களைச் சந்தித்துப் பேசினார். 83 வயதாகும் ம தி மு க பொதுச்செயலாளர் வைகோவை சமூக வலைதளங்களில் அவமதிப்பவர்கள், தன்னை விமர்சிக்குமாறு சவால் விடுத்தார். சமூக வலைதளங்களில் விமர்சனம் செய்பவர்களுக்கு தி மு க சார்பில் 200 ரூபாய் வழங்கப்படுவதாக அவர் குற்றம் சாட்டினார். திருப்பரங்குன்றம் மலையில் ஆகம விதிப்படி கார்த்திகை தீபம் ஏற்ற முடிவு செய்த முதலமைச்சர் சப் விஜய்யின் நிலைப்பாட்டை அவர் பாராட்டினார். தி மு க இந்த முடிவைப் பாராட்டாதது வருத்தமளிப்பதாகத் தெரிவித்த அவர், தி மு க வின் அடிப்படைக் கொள்கைகள் பேச்சளவில் மட்டுமே உள்ளதாக விமர்சித்தார். கள்ளக்குறிச்சி சட்டமன்ற உறுப்பினர்புகார் விவகாரத்தில் அரசு தாமாக முன்வந்து விசாரணை நடத்த வேண்டும் என்றார். பெண் ஐ ஏ எஸ் அதிகாரி தொடர்பான புகாரில் 4 மாத தாமதம் ஏற்பட்டது தவறு என்றும் குறிப்பிட்டார். கோதாவரி - காவிரி நதிகள் இணைப்புத் திட்டத்தை மத்திய அரசு விரைந்து செயல்படுத்த வேண்டும் என்றார். காவிரி நீர் பங்கீட்டில் உச்சநீதிமன்றத் தீர்ப்பை கர்நாடக அரசு மதிக்க வேண்டும் என்றும் தெரிவித்தார். அரிசி உள்ளிட்ட அத்தியாவசியப் பொருட்களின் விலை உயர்வைக் கட்டுப்படுத்த அரசு நடவடிக்கை எடுக்க வேண்டும் என வலியுறுத்தினார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🎙️ திருச்சியில் துரை வைகோ பேட்டி - சமூக வலைதள விமர்சனங்களுக்குப் பதில்\n\n📰 முழு விவரம்:\nதிருச்சி விமான நிலையத்தில் திருச்சி நாடாளுமன்ற உறுப்பினர் துரை வைகோ செய்தியாளர்களைச் சந்தித்தார். 83 வயதாகும் மதிமுக பொதுச்செயலாளர் வைகோவை சமூக வலைதளங்களில் அவமதிப்பவர்கள், தன்னை விமர்சிக்குமாறு சவால் விடுத்தார். சமூக வலைதளங்களில் விமர்சனம் செய்பவர்களுக்கு திமுக சார்பில் 200 ரூபாய் வழங்கப்படுவதாகவும் குற்றம் சாட்டினார்.\n\nதிருப்பரங்குன்றம் மலையில் ஆகம விதிப்படி கார்த்திகை தீபம் ஏற்ற முடிவு செய்த முதலமைச்சர் ஜோசப் விஜய்யின் நிலைப்பாட்டைப் பாராட்டிய அவர், திமுக இதனைப் பாராட்டாதது வருத்தமளிப்பதாகக் கூறினார். கள்ளக்குறிச்சி எம்.எல்.ஏ விவகாரத்தில் தாமாக முன்வந்து விசாரணை நடத்த வேண்டும் என்றும், பெண் ஐ.ஏ.எஸ் அதிகாரி விவகாரத்தில் 4 மாத தாமதம் ஏற்பட்டது தவறு என்றும் கூறினார். மேலும், கோதாவரி - காவிரி இணைப்புத் திட்டத்தை விரைவுபடுத்தவும், அரிசி விலை உயர்வைக் கட்டுப்படுத்தவும் வலியுறுத்தினார்.\n\n📍 இடம்: திருச்சி விமான நிலையம்\n🗓️ நாள்: 25 நவம்பர் 2026\n💬 செய்தி: துரை வைகோ பேட்டி\n\nDurai Vaiko press meet Trichy airport | Trichy news\n📍 திருச்சி விமான நிலையம், திருச்சி | 25 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyAirport #TrichyNews #திருச்சி",
-   "prompts": "An elderly man in a formal shirt and trousers stands at a podium addressing a group of journalists at the Trichy Airport media area. The scene captures the moment of a political press conference where the speaker is challenging social media critics. The location is the modern, bright interior of the airport's public arrival or press zone, with glass walls and airport signage visible in the blurred background. Several reporters, seen from behind or at a distance, hold up microphones and recording devices towards the speaker. The speaker is the central focus, gesturing with his hands as he speaks passionately. The lighting is bright, typical of an airport terminal during the day. The camera is positioned at eye level, 35 mm lens, framing the speaker and the immediate cluster of media personnel, ensuring the context of a formal political statement is clear without showing readable text or identifiable faces clearly. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up detail shot of a cluster of microphones and recording devices held by journalists, pointing towards an unseen speaker. The microphones are of various colors and shapes, typical of local news channels, with foam windscreens. In the soft-focus background, the blurred figure of an elderly man in a shirt is visible, indicating the source of the speech. The setting remains the Trichy Airport press area, with the sterile, bright lighting of the terminal visible. This shot emphasizes the media attention and the act of public speaking. The camera is slightly high, looking down at the microphones, 35 mm lens, capturing the texture of the microphone windscreens and the hands holding them, while keeping the background indistinct to avoid showing readable logos or faces. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://tamil.oneindia.com/news/trichirappalli/go-ahead-and-bash-me-all-you-want-on-social-media-durai-vaikos-fiery-retort-848173.html",
-   "published": "2026-11-25T17:17:38+05:30",
-   "verification": "DRAFT (gemini/gemini-3.6-flash) - NOT CLEAN, held from posting - problems: reel_script has letters of another script (조) - write only Tamil (and English names); letters of another script inside Tamil words: 조 - write every word only in Tamil letters",
-   "note": "free-model draft gemini/gemini-3.6-flash, 2 attempt(s), 2 validator problem(s)",
+   "reel_script": "திருச்சி அருகே 4 குழந்தைகளுடன் மனைவி மாயமானார். முத்தையம்பாளையத்தைச் சேர்ந்த 37 வயது அருண் துறையூர் போலீசில் புகார் அளித்தார். அவரது 34 வயது மனைவி கீதா மற்றும் 4 குழந்தைகள் காணாமல் போயுள்ளனர். குழந்தைகளின் வயதுகள் 14, 13, 11 மற்றும் 10 ஆகும். அருண் லாரி டிரைவராக வெளிமாநிலங்களில் பணிபுரிந்து வருகிறார். கடந்த சில வாரங்களுக்கு முன் மேற்கு வங்கத்துக்கு சென்றார். நவம்பர் 7ம் தேதி மனைவியை தொடர்பு கொள்ள முயன்றார். மொபைல் போன் சுவிட்ச் ஆப் செய்யப்பட்டிருந்தது. வீட்டில் மனைவியும் குழந்தைகளும் இல்லை என்பது தெரியவந்தது. ஊர் திரும்பிய அருண் பல இடங்களில் தேடினார். கண்டுபிடிக்க முடியவில்லை. துறையூர் போலீசார் வழக்கு பதிவு செய்துள்ளனர். அவர்களை தேடி வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 திருச்சி அருகே 4 குழந்தைகளுடன் மனைவி மாயம் - கணவர் போலீசில் புகார்\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம், துறையூர் அருகே உள்ள முத்தையம்பாளையத்தைச் சேர்ந்த 37 வயது அருண் துறையூர் போலீசில் புகார் அளித்துள்ளார். அவரது 34 வயது மனைவி கீதா மற்றும் 4 குழந்தைகள் மாயமானதாக புகாரில் குறிப்பிடப்பட்டுள்ளது. குழந்தைகளின் வயதுகள் 14, 13, 11 மற்றும் 10 ஆகும். அருண் லாரி டிரைவராக வெளிமாநிலங்களில் பணிபுரிந்து வருகிறார். கடந்த சில வாரங்களுக்கு முன் மேற்கு வங்கத்துக்கு சென்றார். நவம்பர் 7ம் தேதி மனைவியை தொடர்பு கொள்ள முயன்றபோது மொபைல் போன் சுவிட்ச் ஆப் செய்யப்பட்டிருந்தது. வீட்டில் மனைவியும் குழந்தைகளும் இல்லை என்பது தெரியவந்தது. ஊர் திரும்பிய அருண் பல இடங்களில் தேடினார். கண்டுபிடிக்க முடியவில்லை. துறையூர் போலீசார் வழக்கு பதிவு செய்து, அவர்களை தேடி வருகின்றனர்.\n\n📍 இடம்: முத்தையம்பாளையம், துறையூர்\n🗓️ நாள்: நவம்பர் 7ம் தேதி தொடர்பு இல்லை\n👮 நடவடிக்கை: வழக்கு பதிவு, தேடல் பணிகள்\nℹ️ மக்கள் கவனத்திற்கு: தகவல் தெரிந்தால் துறையூர் போலீசுக்கு தெரிவிக்கவும்\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்\n\nHusband files police complaint after wife and 4 children go missing near Trichy | Trichy news\n📍 Muthaiyampalayam, Thuraiyur, Trichy | 25 Nov 2026\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thuraiyur #TrichyNews #திருச்சி",
+   "prompts": "A photo-realistic wide shot of a quiet residential street in a Tamil Nadu village near Trichy during the late afternoon. The scene shows a modest brick house with a closed gate, surrounded by coconut trees and dry grass. The lighting is warm and golden, casting long shadows. The atmosphere is tense and silent, suggesting a family's sudden disappearance. No people are visible, emphasizing the emptiness of the home. The background features typical rural Tamil Nadu elements like distant hills and power lines. The focus is on the closed gate and the empty courtyard, conveying the mystery of the missing family members. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA medium shot of a police officer standing outside a rural police station in Thuraiyur, Trichy district, during the evening. The officer is wearing a standard uniform and is writing in a notebook, looking serious and focused. The police station building is a simple concrete structure with a blue signboard (no text visible). Streetlights are just turning on, casting a cool blue glow. The scene conveys the urgency of the investigation into the missing family. The background shows a quiet village road with a few parked two-wheelers. The mood is somber and professional, highlighting the police action taken in response to the complaint. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/wife-with-4-children-lodges-police-complaint-against-husband/4386107",
+   "published": "2026-11-25T19:26:36+05:30",
+   "verification": "DRAFT (groq/qwen/qwen3.8-27b) - NOT CLEAN, held from posting - problems: slide 2 line 2 is cut off mid-phrase ('ல் போன் சுவிட்ச் ஆப்') - write a complete short phrase; reel_script has numbers without their meaning (14, 13); write what each number is: '15 வயது', '30 பாட்டில்கள்', 'அக்டோபர் 26ஆம் தேதி'; reel_script sentence 1 (heard in the first 3 seconds) must name the place 'முத்தையம்பாளையம்' and the news itself, e.g. 'முத்தையம்பாளையம்-இல் ... 3 பேர் கைது.' - viewers decide in 3 seconds whether the news is about their area; known issue card_cut_mid_phrase: card cut off mid-phrase ('மொபைல் போன் சுவிட்ச் ஆப்') - rewrite so it does not happen again",
+   "note": "free-model draft groq/qwen/qwen3.8-27b, 1 attempt(s), 4 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261125/7d922862218d32d5.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261125/54ffaa7127792d74.jpg"
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261125/bc3bd5d4f0b3b5b8.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261125/063940ce40cabdc8.jpg"
    ]
   }
  ]
