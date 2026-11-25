@@ -9,7 +9,7 @@ import githost      # noqa: E402
 import r2host      # noqa: E402
 
 R2 = {"R2_ACCOUNT_ID": "0123456789abcdef0123456789abcdef", "R2_ACCESS_KEY_ID": "AKID", "R2_SECRET_ACCESS_KEY": "SECRET", "R2_BUCKET": "news360-media",
-      "R2_PUBLIC_URL": "https://pub-x.r2.dev/", "PAGE": "erode"}
+      "R2_PUBLIC_URL": "https://pub-x.r2.dev/", "PAGE": "erode", "GITHUB_REPOSITORY": ""}
 NO_R2 = {k: "" for k in R2 if k != "PAGE"}
 
 
@@ -137,6 +137,12 @@ class R2Test(unittest.TestCase):
         with mock.patch.dict(os.environ, R2), self.fake(calls, listing=listing):
             self.assertEqual(r2host.clean(24, dry=True, log=lambda *a: None)[0], 1)
         self.assertNotIn("DELETE", [c[0] for c in calls])
+
+    def test_one_folder_per_repository(self):
+        with mock.patch.dict(os.environ, {"GITHUB_REPOSITORY": "news360-tn/salem360-autopost", "PAGE": "salem"}):
+            self.assertEqual(r2host._page(), "salem360")
+        with mock.patch.dict(os.environ, {"GITHUB_REPOSITORY": "", "PAGE": "erode"}):
+            self.assertEqual(r2host._page(), "erode")
 
     def test_wrong_key_is_not_retried(self):
         calls = []

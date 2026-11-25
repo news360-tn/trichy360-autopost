@@ -55,8 +55,10 @@ MAX_FILE_MB = 100     # one file bigger than this never goes to R2
 
 
 def _page(page=None):
-    return (page or os.environ.get("PAGE") or (os.environ.get("GITHUB_REPOSITORY", "news360/x").split("/")[-1].replace("-autopost", ""))
-            or "news360").strip().lower()
+    """the page's ONE folder in the shared bucket: the repository name (salem360-autopost -> salem360), the same in every job,
+    so the clean-up finds every file (rasipalan sets PAGE=salem, posting does not - owner 25 Nov)"""
+    repo = os.environ.get("GITHUB_REPOSITORY", "").split("/")[-1].replace("-autopost", "")
+    return (page or repo or os.environ.get("PAGE") or "news360").strip().lower()
 
 
 def _limits():
