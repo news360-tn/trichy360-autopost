@@ -829,7 +829,7 @@
    "title": "Salem Power Cut: சேலத்தில் நாளை (26-11-2026) எங்கெல்லாம் பவர் கட்? - மின் வாரியம் வெளியிட்ட லிஸ்ட்"
   },
   "https://tamil.abplive.com/news/trichy/trichy-power-cut-26-11-2026-know-timings-areas-affected-by-power-shutdown-280534#district-section": {
-   "at": "2026-11-26T00:55:38.825791+05:30",
+   "at": "2026-11-26T01:07:40.894616+05:30",
    "power_cut": true,
    "why": "",
    "title": "திருச்சி மாவட்டத்தில் நாளை (26-11-2026) மின்தடை: பல்வேறு பகுதிகளில் (நவம்பர் 26, 2026, வியாழக்கிழமை) மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெற உள்ளதால், காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம் த"
@@ -839,6 +839,30 @@
    "power_cut": false,
    "why": "not this district",
    "title": "coimbatore power cut: கோவையில் நாளை (26-11-2026) எந்தெந்த இடங்களில் மின் தடை? - மின்வாரியம் வெளியிட்ட லிஸ்ட்"
+  },
+  "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/12/power-outage-today-inthanganagar-and-balakrishnampatti-areas": {
+   "at": "2026-11-26T01:07:40.894616+05:30",
+   "power_cut": true,
+   "why": "cut day 2026-11-13 has passed",
+   "title": "தங்கநகா், பாலகிருஷ்ணம்பட்டி பகுதிகளில் இன்று மின்தடை"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-viluppuram/todays-power-outage-villupuram/4386404": {
+   "at": "2026-11-26T01:07:40.894616+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "நாளைய(நவ.26) மின்தடை: விழுப்புரம்"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-dindigul/tomorrow-nov-23-power-outage-1-00-am---1-00-pm/4382373": {
+   "at": "2026-11-26T01:07:40.894616+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "நாளை மறுதினம் (நவ.23) மின்தடை (காலை 9:00 – மதியம் 2:00 மணி)"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-chennai/tomorrow-power-outage-chennai/4360075": {
+   "at": "2026-11-26T01:07:40.894616+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "நாளை மின் தடை: சென்னை"
   }
  },
  "done": {
