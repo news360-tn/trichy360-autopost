@@ -1,11 +1,10 @@
-17:01:04 round 2026-11-25_17: news published 25 Nov 16:27 -> 25 Nov 17:01 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-17:01:04 insights 2026-11-25T17:01+05:30 (147 reels): topic weights {'accident': 1.5, 'crime': 1.45, 'power_cut': 1.42, 'civic': -0.03, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.29}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-17:01:55 open search 'திருச்சி' (from_google): 0 links from our outlets
-17:01:55 66 links on the two papers' Trichy pages
-17:02:59 skipped: already posted=23, published before this window=21, not Trichy district=11, same event already posted=8, only a headline=2
-17:02:59 list: 0 new + 0 earlier news not posted yet
-17:02:59 no news in this window - no e-mail
-ROUND=2026-11-25_17
-17:03:01 no list this round - nothing to post
-PICK_URLS=
-17:03:02 verify: no decided round
+20:28:12 round 2026-11-25_20: news published 25 Nov 17:01 -> 25 Nov 20:28 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+20:28:12 insights 2026-11-25T20:28+05:30 (147 reels): topic weights {'accident': 1.5, 'crime': 1.45, 'power_cut': 1.38, 'civic': -0.03, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.29}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+20:29:46 open search 'திருச்சி' (from_google): 0 links from our outlets
+20:29:46 87 links on the two papers' Trichy pages
+20:30:51 skipped: not Trichy district=27, already posted=23, published before this window=21, same event already posted=8, only a headline=3, state-wide / other district=2
+20:30:51 list: 2 new + 0 earlier news not posted yet
+20:30:51    1. [பொது] வைகோ பற்றிய மீம்ஸ்.. சோசியல் மீடியாவில் எவ்வளவு வேண்டுமானாலும் என்னை அ (ஒன்இந்தியா)
+20:30:51    2. [பொது] வைகோ கோபம் கொள்வது ஏன்? - துரை வைகோ ஆவேசம் (பாலிமர்)
+20:30:51 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-25_20
