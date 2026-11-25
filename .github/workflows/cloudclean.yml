@@ -8,7 +8,7 @@ on:
     - cron: "40 1,7,13,19 * * *"      # every 6 hours: 07:10 / 13:10 / 19:10 / 01:10 IST
   workflow_dispatch:
     inputs:
-      keep_hours: {description: "keep files newer than this many hours", default: "48", required: true}
+      keep_hours: {description: "keep files newer than this many hours", default: "24", required: true}
       dry: {description: "dry run (count only, delete nothing)", type: boolean, default: true}
 permissions:
   contents: write      # owner 24 Nov: removes old media/ fallback files
@@ -16,8 +16,13 @@ env:
   CLOUDINARY_CLOUD: ${{ secrets.CLOUDINARY_CLOUD }}
   CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
   CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
-  CLOUDINARY_KEEP_HOURS: ${{ inputs.keep_hours || '48' }}
-  CLOUDINARY_FULL_KEEP_HOURS: ${{ inputs.keep_hours || '48' }}
+  R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}      # owner 25 Nov: Cloudflare R2 clean-up (this page's folder only)
+  R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+  R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+  R2_BUCKET: news360-media
+  R2_PUBLIC_URL: https://pub-ec316fa6a94f404c993596355ad19128.r2.dev
+  CLOUDINARY_KEEP_HOURS: ${{ inputs.keep_hours || '24' }}      # owner 25 Nov: keep 24 hours only
+  CLOUDINARY_FULL_KEEP_HOURS: ${{ inputs.keep_hours || '24' }}
 jobs:
   clean:
     runs-on: ubuntu-24.04
@@ -28,11 +33,14 @@ jobs:
         with: {python-version: "3.11"}
       - run: pip install -q requests==2.32.5
       - run: python poster/cloudclean.py --force --alert ${{ inputs.dry && '--dry' || '' }}
+      - name: Cloudflare R2 clean-up (this page's files older than 24 hours)
+        if: always()
+        run: python poster/r2host.py clean ${{ inputs.keep_hours || '24' }} ${{ inputs.dry && '--dry' || '' }}
       - name: Remove old media fallback files (media fallback clean)
         if: always()
         run: |
           [ -d media ] || exit 0
-          cut=$(date -u -d '3 days ago' +%Y%m%d); n=0
+          cut=$(date -u -d '1 day ago' +%Y%m%d)      # owner 25 Nov: only today's and yesterday's folders stay; n=0
           for d in media/*/; do x=$(basename "$d"); if [ "$x" \< "$cut" ]; then git rm -rq "$d" && n=$((n+1)); fi; done
           [ $n -gt 0 ] || exit 0
           git config user.name "news360-bot"; git config user.email "bot@users.noreply.github.com"

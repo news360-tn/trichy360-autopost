@@ -115,6 +115,29 @@ class R2Test(unittest.TestCase):
                 r2host.account_id(bad)
             self.assertNotIn(bad or "zz", str(e.exception))
 
+    def test_clean_deletes_only_this_pages_old_files(self):
+        from datetime import datetime, timedelta, timezone
+        now = datetime.now(timezone.utc)
+        old = (now - timedelta(hours=30)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+        new = (now - timedelta(hours=2)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+        listing = ("<ListBucketResult>"
+                   f"<Contents><Key>erode/20261124/a.mp4</Key><LastModified>{old}</LastModified><Size>5000000</Size></Contents>"
+                   f"<Contents><Key>erode/20261125/b.jpg</Key><LastModified>{new}</LastModified><Size>100</Size></Contents>"
+                   f"<Contents><Key>salem/20261124/c.mp4</Key><LastModified>{old}</LastModified><Size>9</Size></Contents>"
+                   "<IsTruncated>false</IsTruncated></ListBucketResult>")
+        calls = []
+        with mock.patch.dict(os.environ, R2), self.fake(calls, listing=listing):
+            deleted, kept, freed = r2host.clean(24, log=lambda *a: None)
+        self.assertEqual((deleted, kept, freed), (1, 1, 5000000))
+        dels = [u for m, u, k in calls if m == "DELETE"]
+        self.assertEqual(len(dels), 1)
+        self.assertTrue(dels[0].endswith("/news360-media/erode/20261124/a.mp4"))
+        self.assertIn("prefix=erode%2F", calls[0][1])
+        calls.clear()
+        with mock.patch.dict(os.environ, R2), self.fake(calls, listing=listing):
+            self.assertEqual(r2host.clean(24, dry=True, log=lambda *a: None)[0], 1)
+        self.assertNotIn("DELETE", [c[0] for c in calls])
+
     def test_wrong_key_is_not_retried(self):
         calls = []
         with mock.patch.dict(os.environ, R2), self.fake(calls, put_code=403):

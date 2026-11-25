@@ -150,3 +150,58 @@ def put(data, name="file.jpg", kind="image", page=None):
 def put_file(path, kind="image", page=None):
     p = Path(path)
     return put(p.read_bytes(), p.name, kind, page)
+
+
+def clean(keep_hours=24, page=None, dry=False, log=print):
+    """owner 25 Nov ("clean every 24 hrs old images and videos"): delete THIS page's R2 files older than keep_hours.
+    Only the page's own folder (<page>/...) is touched - other pages share the bucket. Deleting is free on R2.
+    Returns (deleted, kept, freed_bytes). Prints counts only."""
+    from datetime import timedelta
+    prefix = f"{_page(page)}/"
+    cut = datetime.now(timezone.utc) - timedelta(hours=float(keep_hours))
+    old, kept, token = [], 0, None
+    for _ in range(50):
+        q = {"list-type": "2", "prefix": prefix, "max-keys": "1000"}
+        if token:
+            q["continuation-token"] = token
+        r = _request("GET", query=q)
+        if r.status_code >= 300:
+            raise RuntimeError(f"R2 file list not readable (HTTP {r.status_code})")
+        for item in re.findall(r"<Contents>(.*?)</Contents>", r.text, re.S):
+            key = re.search(r"<Key>([^<]+)</Key>", item)
+            when = re.search(r"<LastModified>([^<]+)</LastModified>", item)
+            size = re.search(r"<Size>(\d+)</Size>", item)
+            if not key or not when or not key.group(1).startswith(prefix):
+                continue
+            t = datetime.fromisoformat(when.group(1).replace("Z", "+00:00"))
+            if t < cut:
+                old.append((key.group(1).replace("&amp;", "&"), int(size.group(1)) if size else 0))
+            else:
+                kept += 1
+        m = re.search(r"<NextContinuationToken>([^<]+)</NextContinuationToken>", r.text)
+        if "<IsTruncated>true</IsTruncated>" not in r.text or not m:
+            break
+        token = m.group(1)
+    deleted = freed = 0
+    for key, size in old:
+        if dry:
+            deleted += 1
+            freed += size
+            continue
+        r = _request("DELETE", key)
+        if r.status_code < 300 or r.status_code == 404:
+            deleted += 1
+            freed += size
+    log(f"R2 clean-up {prefix}: {'would delete' if dry else 'deleted'} {deleted} file(s) older than {keep_hours} h "
+        f"({freed // 1048576} MB), kept {kept}")
+    return deleted, kept, freed
+
+
+if __name__ == "__main__":      # python poster/r2host.py clean [hours] [--dry]
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == "clean":
+        if not enabled():
+            print("R2 clean-up: R2 not set up - nothing to do")
+            sys.exit(0)
+        hrs = next((a for a in sys.argv[2:] if a.replace(".", "").isdigit()), "24")
+        clean(float(hrs), dry="--dry" in sys.argv)

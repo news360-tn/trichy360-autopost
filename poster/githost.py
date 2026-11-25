@@ -12,7 +12,7 @@ from pathlib import Path
 
 import requests
 
-KEEP_DAYS = 3
+KEEP_DAYS = 1      # owner 25 Nov: old media kept 24 hours only (cloudclean.yml)
 API = "https://api.github.com/repos/{repo}/contents/{path}"
 
 
