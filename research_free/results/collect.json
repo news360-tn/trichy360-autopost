@@ -3,195 +3,29 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinakaran.com/district/trichy_251126_3",
-  "manual link added: https://www.dinakaran.com/district/trichy_251126_1",
-  "manual link added: https://www.dinakaran.com/district/trichy_251126_2",
-  "candidate filter: collected=3",
-  "to write: 3 Trichy district candidates (max 3 stories)",
-  "round: top 3 of 3 candidates",
-  "candidates waiting: 3 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinakaran.com/district/trichy_251126_2",
-  "try (N) manual=True: https://www.dinakaran.com/district/trichy_251126_1",
-  "try (N) manual=True: https://www.dinakaran.com/district/trichy_251126_3",
-  "NOT filed (N) திருப்பரங்குன்றம் தீப விவகாரம் வீட்டுக்காவலில் முச: all free models failed: no usable answer from the models",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})",
-  "posting job started at once",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
-  "candidate loop ended: left 0, tried={'N': 3}, done={'N': 2}, time left 78 min",
-  "filed: 2 Trichy district stories (target 3), reels only",
+  "manual link added: https://tamil.abplive.com/news/trichy/they-are-imposing-a-lockdown-what-is-the-reason-behind-the-major-allegation-raised-by-the-people-of-thiruverumbur-tnn-280497",
+  "candidate filter: collected=1",
+  "to write: 1 Trichy district candidates (max 1 stories)",
+  "round: top 1 of 1 candidates",
+  "candidates waiting: 1 Trichy; time left 79 min",
+  "try (N) manual=True: https://tamil.abplive.com/news/trichy/they-are-imposing-a-lo",
+  "NOT filed (N) முடக்கம் செய்யறாங்க... திருவெறும்பூர் மக்கள் எழுப்: all free models failed: no usable answer from the models",
+  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 0}, time left 79 min",
+  "filed: 0 Trichy district stories (target 1), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":3,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "dead for this round: gemini/gemini-3-flash-preview",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok groq/qwen/qwen3.8-27b (3s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "ok gemini/gemini-3-flash-preview (13s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok groq/qwen/qwen3.8-27b (3s)",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7"
  ],
- "stories": [
-  {
-   "tamil_headline": "துவரங்குறிச்சி அருகே 12,501 அகல் விளக்குகளால் ஜொலித்த பிரம்மாண்ட சிவலிங்கம்!",
-   "english_headline": "12,501 oil lamps form a massive Lingam at the ancient Agastheeswarar Temple near Thuvarankurichi for Karthigai Deepam",
-   "category": "Temples & Events",
-   "location": "Paluvanchi village near Thuvarankurichi, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "கார்த்திகை தீபம்",
-    "loc": "பளுவஞ்சி, துவரங்குறிச்சி",
-    "hl1": "துவரங்குறிச்சியில் 12,501 விளக்கு",
-    "hl2": "1000 ஆண்டு பழமையான கோயில்",
-    "slides": [
-     {
-      "title": "கார்த்திகை தீபம்",
-      "lines": [
-       "பளுவஞ்சி <b>அகத்தீஸ்வரர்</b> கோயிலில் சிறப்பு வழிபாடு",
-       "<b>12,501</b> அகல் விளக்குகளால் லிங்கம் அமைப்பு",
-       "1,000 ஆண்டுகள் பழமையான சிவாலயம்"
-      ]
-     },
-     {
-      "title": "சிறப்பு அலங்காரம்",
-      "lines": [
-       "8 திசை லிங்கங்களும் விளக்குகளால் வடிவம்",
-       "திருவண்ணாமலை கிரிவலப் பாதை போல அமைப்பு",
-       "காண்போரை மெய்சிலிர்க்க வைத்த காட்சி"
-      ]
-     },
-     {
-      "title": "பக்தர்கள் தரிசனம்",
-      "lines": [
-       "ஏராளமான பொதுமக்கள் கலந்து கொண்டு வழிபாடு",
-       "மேற்கு நோக்கிய சிவலிங்கத்திற்குத் தீப வழிபாடு",
-       "பக்தர்கள் பரவசத்துடன் சாமி தரிசனம்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "துவரங்குறிச்சி அருகே 12,501 அகல் விளக்குகளால் பிரம்மாண்ட சிவலிங்கம் உருவாக்கப்பட்டது. திருச்சி மாவட்டம் துவரங்குறிச்சி அடுத்த பளுவஞ்சியில் 1,000 ஆண்டுகளுக்கு மேல் பழமையான அகிலாண்டேஷ்வரி உடனுறை அகத்தீஸ்வரர் கோயில் உள்ளது. இங்கு கார்த்திகை தீபத் திருநாளை முன்னிட்டு சிறப்பு வழிபாடுகள் நடைபெற்றன. இந்த விழாவின் ஒரு பகுதியாக, 12,501 அகல் விளக்குகளைக் கொண்டு பிரம்மாண்டமான சிவலிங்கம் வடிவம் அமைக்கப்பட்டது. மேலும், திருவண்ணாமலை கிரிவலப் பாதையில் உள்ள 8 சிவலிங்கங்களைப் போன்றும் விளக்குகளால் வடிவம் அமைக்கப்பட்டிருந்தது கூடுதல் சிறப்பாகும். இந்த விளக்கு அலங்காரம் காண்போரை மெய்சிலிர்க்க வைக்கும் வகையில் அமைந்திருந்தது. இந்த நிகழ்வில் ஏராளமான சிவ பக்தர்கள் மற்றும் பொதுமக்கள் கலந்து கொண்டு சாமி தரிசனம் செய்தனர். மேற்கு நோக்கிய இந்த பழமையான சிவாலயத்தில் நடைபெற்ற இந்த தீபத் திருவிழா அந்தப் பகுதியில் நெகிழ்ச்சியை ஏற்படுத்தியது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🪔 துவரங்குறிச்சி அருகே 12,501 அகல் விளக்குகளால் ஜொலித்த பிரம்மாண்ட சிவலிங்கம்!\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம் துவரங்குறிச்சி அடுத்த பளுவஞ்சியில் 1,000 ஆண்டுகள் பழமையான அகிலாண்டேஷ்வரி உடனுறை அகத்தீஸ்வரர் கோயில் உள்ளது. கார்த்திகை தீபத் திருநாளை முன்னிட்டு இந்தக் கோயிலில் 12,501 அகல் விளக்குகளைக் கொண்டு பிரம்மாண்ட சிவலிங்கம் வடிவம் அமைக்கப்பட்டது. மேலும் திருவண்ணாமலை கிரிவலப் பாதையில் உள்ள 8 சிவலிங்கங்களைப் பிரதிபலிக்கும் வகையில் விளக்குகளால் அலங்காரம் செய்யப்பட்டிருந்தது. இந்தச் சிறப்பு வழிபாட்டில் ஏராளமான பக்தர்கள் கலந்துகொண்டு தரிசனம் செய்தனர்.\n\n📍 இடம்: அகத்தீஸ்வரர் கோயில், பளுவஞ்சி, துவரங்குறிச்சி, திருச்சி.\n🗓️ நாள்: 24 நவம்பர் 2026 (கார்த்திகை தீபம்)\n✨ சிறப்பு: 12,501 அகல் விளக்குகளால் ஆன லிங்கம்\n\nபக்தர்களுக்குத் தெரியப்படுத்த Share செய்யுங்கள்.\n\nThuvarankurichi temple 12501 lamps Lingam | Trichy news\n📍 Paluvanchi, Trichy | 25 November 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thuvarankurichi #KarthigaiDeepam #திருச்சி",
-   "prompts": "A wide-angle, high-angle shot of an ancient stone temple courtyard in Paluvanchi village near Thuvarankurichi, Trichy, at night. Thousands of small flickering clay oil lamps are arranged on the ground in the shape of a massive Shiva Lingam. The stone temple architecture with intricate carvings is visible in the background under the warm orange glow of the lamps. Devotees in traditional Tamil attire are standing at a distance watching in awe. Clear night sky, cinematic lighting, wide view. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up shot of the intricate lamp arrangement forming the base of the Lingam at the Agastheeswarar Temple. Dozens of small clay lamps with bright yellow flames are placed close together on the ancient stone floor. In the soft-focus background, more lamps form the shapes of smaller Lingams. The warm light reflects on the ancient grey temple stones. Authentic spiritual atmosphere, 35mm lens, sharp focus on the flames, no faces. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinakaran.com/district/trichy_251126_1",
-   "published": "2026-11-25T05:53:01+05:30",
-   "verification": "DRAFT (gemini/gemini-3-flash-preview) - NOT CLEAN, held from posting - problems: reel_script writes ages as newspaper shorthand (பகுதியாக, 12,); say it as a news reader: '12 வயது மகன் ராஜா', 'கவுசிக் (14 வயது)' -> '14 வயதான கவுசிக்'; numbers not found in the article: 1000, 8",
-   "note": "free-model draft gemini/gemini-3-flash-preview, 1 attempt(s), 2 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795568418/trichy360/mof80hyrkssez1rs52t0.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795568422/trichy360/ho05lfezzu90qpcpnbsa.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "பொன்னம்பட்டி பேரூராட்சியில் மழைநீர் சேகரிப்பு விழிப்புணர்வு கூட்டம்",
-   "english_headline": "Rainwater harvesting awareness meeting held in Ponnamapatti Panchayat Union",
-   "category": "Civic Issues",
-   "location": "Ponnamapatti, Thiruchirappalli district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "மழைநீர் சேகரிப்பு",
-    "loc": "பொன்னம்பட்டி, துவரங்குறிச்சி",
-    "hl1": "பொன்னம்பட்டியில் சேகரிப்பு கூட்டம்",
-    "hl2": "நிலத்தடி நீர் உயரம்",
-    "slides": [
-     {
-      "title": "கூட்டம் நடைபெற்றது",
-      "lines": [
-       "பொன்னம்பட்டி பேரூராட்சி அலுவலகத்தில் கூட்டம் நடைபெற்றது",
-       "பேரூராட்சி செயல் அலுவலர் வெங்கடேசன் தலைமையில் நடைபெற்றது"
-      ]
-     },
-     {
-      "title": "ஆலோசனை விஷயம்",
-      "lines": [
-       "வரவிருக்கும் மழைக்காலங்களில் மழைநீரை எவ்வாறு சேமிப்பது",
-       "நிலத்தடி நீரை உயரச் செய்வது குறித்து ஆலோசிக்கப்பட்டது"
-      ]
-     },
-     {
-      "title": "கலந்து கொண்டவர்கள்",
-      "lines": [
-       "பேரூராட்சி தலைவர், துணைத் தலைவர் மற்றும் மன்ற உறுப்பினர்கள்",
-       "பேரூராட்சி அலுவலக பணியாளர்கள் கூட்டத்தில் கலந்து கொண்டனர்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "பொன்னம்பட்டி பேரூராட்சியில் மழைநீர் சேகரிப்பு விழிப்புணர்வு கூட்டம் நடைபெற்றது. நேற்று திருச்சி மாவட்டம் துவரங்குறிச்சி பொன்னம்பட்டி பேரூராட்சி அலுவலகத்தில் இந்த கூட்டம் நடைபெற்றது. பேரூராட்சி செயல் அலுவலர் வெங்கடேசன் இந்த கூட்டத்தை தலைமை வகித்தார். பேரூராட்சி இயக்குனர் உத்தரவு மற்றும் உதவி இயக்குனர் அறிவுறுத்தல் அடிப்படையில் இந்த கூட்டம் அமைந்தது. வரவிருக்கும் மழைக்காலங்களில் மழைநீரை எவ்வாறு சேமிப்பது என்பது குறித்து ஆலோசிக்கப்பட்டது. நிலத்தடி நீரை உயரச் செய்வது குறித்தும் விவாதிக்கப்பட்டது. பேரூராட்சி தலைவர் இந்த கூட்டத்தில் கலந்து கொண்டார். துணைத் தலைவர் மற்றும் மன்ற உறுப்பினர்கள் கூட்டத்தில் பங்கேற்றனர். பேரூராட்சி அலுவலக பணியாளர்களும் கூட்டத்தில் கலந்து கொண்டனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🌧️ பொன்னம்பட்டி பேரூராட்சியில் மழைநீர் சேகரிப்பு விழிப்புணர்வு கூட்டம் நடைபெற்றது\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம் துவரங்குறிச்சி பொன்னம்பட்டி பேரூராட்சி அலுவலகத்தில் மழைநீர் சேகரிப்பு குறித்தான விழிப்புணர்வு கூட்டம் நடைபெற்றது. நேற்று இந்த கூட்டம் நடைபெற்றது. பேரூராட்சி செயல் அலுவலர் வெங்கடேசன் தலைமையில் கூட்டம் நடைபெற்றது. பேரூராட்சி இயக்குனர் உத்தரவு மற்றும் உதவி இயக்குனர் அறிவுறுத்தல் அடிப்படையில் கூட்டம் அமைந்தது. வரவிருக்கும் மழைக்காலங்களில் மழைநீரை எவ்வாறு சேமிப்பது என்பது குறித்து ஆலோசிக்கப்பட்டது. நிலத்தடி நீரை உயரச் செய்வது குறித்தும் விவாதிக்கப்பட்டது. பேரூராட்சி தலைவர், துணைத் தலைவர், மன்ற உறுப்பினர்கள் மற்றும் அலுவலக பணியாளர்கள் கூட்டத்தில் கலந்து கொண்டனர்.\n\n📍 இடம்: பொன்னம்பட்டி பேரூராட்சி அலுவலகம், துவரங்குறிச்சி\n🗓️ நாள்: நேற்று\nℹ️ விஷயம்: மழைநீர் சேகரிப்பு மற்றும் நிலத்தடி நீர் உயர்வு\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்\n\nPonnamapatti rainwater harvesting meeting | Trichy news\n📍 Ponnamapatti, Trichy | 25 Nov 2026\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Ponnamapatti #TrichyNews #திருச்சி",
-   "prompts": "A group of local government officials sits around a long table in a meeting hall, engaged in a discussion about water conservation. The setting is the interior of the Ponnamapatti Panchayat Union office in Thiruchirappalli district, characterized by plain white walls and simple government office decor. Several men and women, representing the Panchayat President, Vice President, councillors, and staff, are seated on plastic chairs, facing the chairperson who is leading the session. They are dressed in formal or semi-formal attire, with men in shirts and trousers and women in sarees. The room is filled with the atmosphere of a civic administrative meeting. Daylight filters in from the windows, illuminating the faces of the attendees. The camera is positioned at eye level, using a 35 mm lens to capture the entire group and the layout of the room, ensuring the context of a local government gathering is clear without focusing on individual identities. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up view of a simple wooden table in the corner of the Panchayat Union office, where a few documents and a pen are placed, symbolizing the administrative nature of the meeting. The background is slightly blurred, showing the edge of the meeting hall with rows of empty plastic chairs and the plain wall of the government building in Ponnamapatti. The lighting is soft and natural, coming from a nearby window, highlighting the texture of the paper and the wood grain. This detail shot emphasizes the bureaucratic context of the rainwater harvesting awareness session held by the local panchayat officials. The camera is slightly high, looking down at the table, using a 35 mm lens to keep the focus sharp on the objects while maintaining the depth of the room behind them. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinakaran.com/district/trichy_251126_3",
-   "published": "2026-11-25T05:53:34+05:30",
-   "verification": "DRAFT (groq/qwen/qwen3.8-27b) - fact-check: no problems found",
-   "note": "free-model draft groq/qwen/qwen3.8-27b, 1 attempt(s), 0 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795568429/trichy360/itogtjkktw88xjm6akjb.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795568431/trichy360/nvjlqph3qlcefqwpbooa.jpg"
-   ]
-  }
- ]
+ "stories": []
 }
