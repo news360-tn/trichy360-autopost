@@ -8,7 +8,7 @@ sys.path.insert(0, str(ROOT / "poster"))
 import githost      # noqa: E402
 import r2host      # noqa: E402
 
-R2 = {"R2_ACCOUNT_ID": "acc123", "R2_ACCESS_KEY_ID": "AKID", "R2_SECRET_ACCESS_KEY": "SECRET", "R2_BUCKET": "news360-media",
+R2 = {"R2_ACCOUNT_ID": "0123456789abcdef0123456789abcdef", "R2_ACCESS_KEY_ID": "AKID", "R2_SECRET_ACCESS_KEY": "SECRET", "R2_BUCKET": "news360-media",
       "R2_PUBLIC_URL": "https://pub-x.r2.dev/", "PAGE": "erode"}
 NO_R2 = {k: "" for k in R2 if k != "PAGE"}
 
@@ -30,7 +30,7 @@ class R2Test(unittest.TestCase):
             link = r2host.put(b"abc", "a.mp4", "video")
         url, k = calls[0]
         key = f"erode/{link.split('/erode/')[1]}"
-        self.assertTrue(url.startswith("https://acc123.r2.cloudflarestorage.com/news360-media/erode/"))
+        self.assertTrue(url.startswith("https://0123456789abcdef0123456789abcdef.r2.cloudflarestorage.com/news360-media/erode/"))
         self.assertEqual(link, "https://pub-x.r2.dev/" + key)
         self.assertTrue(link.endswith(".mp4"))
         h = k["headers"]
@@ -50,7 +50,7 @@ class R2Test(unittest.TestCase):
         h = k["headers"]
         amz, day = h["x-amz-date"], h["x-amz-date"][:8]
         path = url.split(".com", 1)[1]
-        canon = (f"PUT\n{path}\n\ncontent-type:image/jpeg\nhost:acc123.r2.cloudflarestorage.com\n"
+        canon = (f"PUT\n{path}\n\ncontent-type:image/jpeg\nhost:0123456789abcdef0123456789abcdef.r2.cloudflarestorage.com\n"
                  f"x-amz-content-sha256:{h['x-amz-content-sha256']}\nx-amz-date:{amz}\n\n"
                  f"content-type;host;x-amz-content-sha256;x-amz-date\n{h['x-amz-content-sha256']}")
         sts = f"AWS4-HMAC-SHA256\n{amz}\n{day}/auto/s3/aws4_request\n{hashlib.sha256(canon.encode()).hexdigest()}"
@@ -58,6 +58,15 @@ class R2Test(unittest.TestCase):
         for m in (day, "auto", "s3", "aws4_request"):
             kk = hmac.new(kk, m.encode(), hashlib.sha256).digest()
         self.assertIn("Signature=" + hmac.new(kk, sts.encode(), hashlib.sha256).hexdigest(), h["Authorization"])
+
+    def test_account_id_paste_mistakes(self):
+        good = "0123456789abcdef0123456789abcdef"
+        self.assertEqual(r2host.account_id(" " + good.upper() + "\n"), good)
+        self.assertEqual(r2host.account_id(f"https://{good}.r2.cloudflarestorage.com"), good)
+        for bad in ("a" * 64, "abc", ""):
+            with self.assertRaises(RuntimeError) as e:
+                r2host.account_id(bad)
+            self.assertNotIn(bad or "zz", str(e.exception))
 
     def test_wrong_key_is_not_retried(self):
         n = []

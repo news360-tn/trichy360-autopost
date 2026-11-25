@@ -9,6 +9,7 @@ so no extra library is needed. Never prints a key."""
 import hashlib
 import hmac
 import os
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
@@ -17,6 +18,19 @@ import requests
 
 TYPES = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp", ".gif": "image/gif",
          ".mp4": "video/mp4", ".mov": "video/quicktime", ".mp3": "audio/mpeg", ".m4a": "audio/mp4"}
+
+
+def account_id(v):
+    """owner 25 Nov: the Account ID is 32 letters/digits; a pasted endpoint link (https://<id>.r2.cloudflarestorage.com) or extra
+    spaces still work. Anything else raises a clear message (never shows the value)."""
+    v = (v or "").strip()
+    if re.fullmatch(r"[0-9a-fA-F]{32}", v):
+        return v.lower()
+    m = re.search(r"(?<![0-9a-fA-F])([0-9a-fA-F]{32})(?![0-9a-fA-F])", v)
+    if m:
+        return m.group(1).lower()
+    raise RuntimeError(f"R2_ACCOUNT_ID is not the 32-character Cloudflare Account ID (the saved value has {len(v)} characters) - "
+                       "update that secret with the Account ID from the R2 overview page")
 
 
 def _cfg():
@@ -42,7 +56,7 @@ def put(data, name="file.jpg", kind="image", page=None):
     ext = Path(name).suffix.lower() or (".mp4" if kind == "video" else ".jpg")
     now = datetime.now(timezone.utc)
     key = f"{page}/{now:%Y%m%d}/{hashlib.sha1(data).hexdigest()[:16]}{ext}"
-    host = f"{c['R2_ACCOUNT_ID']}.r2.cloudflarestorage.com"
+    host = f"{account_id(c['R2_ACCOUNT_ID'])}.r2.cloudflarestorage.com"
     path = "/" + quote(f"{c['R2_BUCKET']}/{key}")
     ctype = TYPES.get(ext, "application/octet-stream")
     amz = now.strftime("%Y%m%dT%H%M%SZ")
