@@ -83,6 +83,10 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-25 | `c123a84` | One e-mail per news with its Instagram, Facebook and YouTube links (sent when all three are done or after 45 minutes; max 60 a day for all pages); YouTube follows Instagram: 5-minute gap, 05:00-24:00 IST, up to 30 a day |
+| 2026-11-25 | `d963136` | stories shared / Instagram pause |
+| 2026-11-25 | `a5b6c08` | stories shared / Instagram pause |
+| 2026-11-25 | `347dcf6` | stories shared / Instagram pause |
 | 2026-11-25 | `5202f3c` | Per-post e-mail for every post, at most 60 a day for all 7 pages together (one Gmail account); later posts are in the daily summary |
 | 2026-11-25 | `c64cc5b` | stories shared / Instagram pause |
 | 2026-11-25 | `68448b0` | stories shared / Instagram pause |
@@ -109,8 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-25 | `09906f7` | R2: one folder per page (the repository name) in every job, so the 24-hour clean-up finds every file |
 | 2026-11-25 | `a16a93b` | stories shared / Instagram pause |
 | 2026-11-25 | `7447f08` | Clean-up keeps 24 hours only: Cloudflare R2 (this page's folder), Cloudinary and the media/ fallback folder |
-| 2026-11-25 | `f3c8bac` | R2 free-tier safety: at most 300 MB and 400 files per page per day, 100 MB per file; usage read from the bucket before each upload; over a limit R2 is skipped until tomorrow |
-| 2026-11-25 | `611d01d` | stories shared / Instagram pause |
-| 2026-11-25 | `183f44e` | stories shared / Instagram pause |
-| 2026-11-25 | `ac9c834` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
