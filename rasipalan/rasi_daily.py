@@ -5,7 +5,7 @@
   DRY_RUN=1 -> everything except publishing (slides kept in out/rasipalan for review)
 Environment: BRIDGE_URL, BRIDGE_KEY (page tokens), CLOUDINARY_CLOUD, CLOUDINARY_PRESET, model keys (see research_free/llm.py)."""
 import json, os, sys, time
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import requests
@@ -261,6 +261,28 @@ def ig_paused_page(pg):
         return False
 
 
+SHARE_FROM = (("news360-autopost", "namakkal"), ("erode360-autopost", "erode"), ("salem360-autopost", "salem"), ("karur360-autopost", "karur"),
+              ("tirupur360-autopost", "tirupur"), ("trichy360-autopost", "trichy"), ("coimbatore360-autopost", "coimbatore"))
+
+
+def borrowed_rasis(day):
+    """owner 24 Nov: today's 12 rasi texts already written by another 360 page (public repositories), or None"""
+    import requests
+    for repo, pg in SHARE_FROM:
+        if pg == PAGE:
+            continue
+        try:
+            r = requests.get(f"https://raw.githubusercontent.com/news360-tn/{repo}/main/rasipalan/state/rasis_{pg}_{day.isoformat()}.json", timeout=30)
+            if r.status_code == 200:
+                rs = r.json()
+                if rs:
+                    log(f"rasipalan text taken from {pg} (today's, same 12 signs)")
+                    return rs
+        except Exception:
+            continue
+    return None
+
+
 def main():
     cfg = PAGES[PAGE]
     if not DRY and ig_paused_page(PAGE):      # owner 21 Nov: a paused page is not tried (that makes the block / limit longer)
@@ -311,7 +333,20 @@ def main():
         log(why)
     if festivals.table_runs_out_soon(day):
         log("NOTE: festivals.py OFFICIAL table ends soon - add next year's Tamil Nadu Government holiday list")
-    rs = writer.write(got, p["chandrashtamam"], log)
+    try:
+        rs = writer.write(got, p["chandrashtamam"], log)
+    except Exception as e:      # owner 24 Nov ("2"): every free writer busy - the same day's rasipalan another page already wrote
+        rs = borrowed_rasis(day)
+        if not rs:
+            raise
+        log("the AI writers are busy (" + str(e)[:120] + ") - using today's rasipalan text written for another 360 page")
+    try:      # kept for the other pages (same 12 signs, same day); committed with rasipalan/state
+        (HERE / "state" / f"rasis_{PAGE}_{day.isoformat()}.json").write_text(json.dumps(rs, ensure_ascii=False, indent=1), encoding="utf-8")
+        for old in (HERE / "state").glob(f"rasis_{PAGE}_*.json"):
+            if old.stem < f"rasis_{PAGE}_{(day - timedelta(days=3)).isoformat()}":
+                old.unlink()
+    except Exception as e:
+        log("rasipalan text not kept:", str(e)[:120])
     ctx = {"p": p, "fest": fest, "rasis": rs, "logo": f"file://{ROOT / 'kit' / cfg['logo']}", "brand": cfg["brand"], "hook": hook(rs),
            "prows": render.panchang_rows(p, cfg["town"])}
     jpgs = render.render(cfg["design"], ctx, OUT)
