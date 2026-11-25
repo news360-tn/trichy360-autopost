@@ -1,17 +1,8 @@
-08:27:14 round 2026-11-25_08: news published 25 Nov 06:27 -> 25 Nov 08:27 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-08:27:14 insights 2026-11-25T08:27+05:30 (145 reels): topic weights {'accident': 1.5, 'crime': 1.49, 'power_cut': 1.1, 'civic': -0.01, 'education': -0.5, 'politics': -0.26, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.44}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-08:27:49 open search 'திருச்சி' (from_google): 2 links from our outlets
-08:27:49 69 links on the two papers' Trichy pages
-08:28:31 skipped: already posted=21, published before this window=21, not Trichy district=11, same event already posted=9, only a headline=2, state-wide / other district=1
-08:28:31 list: 1 new + 0 earlier news not posted yet
-08:28:31    1. [பொது] முடக்கம் செய்யறாங்க... திருவெறும்பூர் மக்கள் எழுப்பிய பெரும் குற்றச்சா (ஏபிபி நாடு)
-08:28:31 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-25_08
-08:28:33 round 2026-11-25_08 (at least 6, up to 3 more of well-watched topics): 1 news to choose from (0 from earlier rounds), ranked by this page's insights
-08:28:33   PICK   1.   9.0 [crime +1.49 page] முடக்கம் செய்யறாங்க... திருவெறும்பூர் மக்கள் எழுப்பிய பெரும்
-08:28:33 decided: automatic: top 6 of 1 by insights -> 1 news to write and post
-PICK_URLS=https://tamil.abplive.com/news/trichy/they-are-imposing-a-lockdown-what-is-the-reason-behind-the-major-allegation-raised-by-the-people-of-thiruverumbur-tnn-280497
-08:28:54 1 picked news refused by the writer - not offered again
-08:28:54 0 listed news now in the Sheet
-08:29:01 verify 2026-11-25_08: 0 of 1 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-08:29:01    SKIPPED C5a51d2e: skipped: the writer refused it - not filed: all free models failed: no usable answer from the models - முடக்கம் செய்யறாங்க... திருவெறும்பூர் மக்கள் எழுப்பிய பெரும்
+10:28:56 round 2026-11-25_10: news published 25 Nov 08:27 -> 25 Nov 10:28 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+10:28:56 insights 2026-11-25T10:28+05:30 (146 reels): topic weights {'accident': 1.5, 'crime': 1.48, 'power_cut': 1.12, 'civic': -0.02, 'education': -0.5, 'politics': -0.27, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.28}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+10:29:22 open search 'திருச்சி' (from_google): 0 links from our outlets
+10:29:22 64 links on the two papers' Trichy pages
+10:30:14 skipped: already posted=23, published before this window=21, not Trichy district=9, same event already posted=8, only a headline=2
+10:30:14 list: 0 new + 0 earlier news not posted yet
+10:30:14 no news in this window - no e-mail
+ROUND=2026-11-25_10
