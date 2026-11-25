@@ -1,50 +1,50 @@
-18:38:31 SKIP RN-4 stale: published 12 Nov, older than yesterday
-18:38:31 SKIP RN-19 stale: published 14 Nov, older than yesterday
-18:38:31 SKIP RN-22 stale: published 14 Nov, older than yesterday
-18:38:31 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-18:38:31 SKIP RN-29 stale: published 14 Nov, older than yesterday
-18:38:31 SKIP RN-42 stale: published 16 Nov, older than yesterday
-18:38:31 SKIP RN-45 stale: published 16 Nov, older than yesterday
-18:38:31 SKIP RN-71 stale: published 18 Nov, older than yesterday
-18:38:31 SKIP RN-92 stale: published 20 Nov, older than yesterday
-18:38:31 SKIP RN-108 stale: published 21 Nov, older than yesterday
-18:38:31 SKIP RN-109 stale: published 21 Nov, older than yesterday
-18:38:31 SKIP RN-110 stale: published 21 Nov, older than yesterday
-18:38:31 SKIP RN-111 stale: published 21 Nov, older than yesterday
-18:38:31 SKIP RN-112 stale: published 21 Nov, older than yesterday
-18:38:31 SKIP RN-113 stale: published 22 Nov, older than yesterday
-18:38:31 SKIP RN-114 stale: published 22 Nov, older than yesterday
-18:38:31 SKIP RN-116 stale: published 22 Nov, older than yesterday
-18:38:32 SKIP RN-140 held: fact-check problems - fact-check: Slide 1 line contains a grammatical error: "ஈடுபட்டனர" should be "ஈடுபட்டனர்"
-18:38:32 SKIP RN-147 held: fact-check problems - fact-check: reel_script says the victim sent money 'to the bank account given by the fraudster' — acceptable, but the caption adds an unsupported claim that the victim 'sent Rs 3.38 lakh' in installme
+18:41:14 SKIP RN-4 stale: published 12 Nov, older than yesterday
+18:41:14 SKIP RN-19 stale: published 14 Nov, older than yesterday
+18:41:14 SKIP RN-22 stale: published 14 Nov, older than yesterday
+18:41:14 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+18:41:14 SKIP RN-29 stale: published 14 Nov, older than yesterday
+18:41:14 SKIP RN-42 stale: published 16 Nov, older than yesterday
+18:41:14 SKIP RN-45 stale: published 16 Nov, older than yesterday
+18:41:14 SKIP RN-71 stale: published 18 Nov, older than yesterday
+18:41:14 SKIP RN-92 stale: published 20 Nov, older than yesterday
+18:41:14 SKIP RN-108 stale: published 21 Nov, older than yesterday
+18:41:14 SKIP RN-109 stale: published 21 Nov, older than yesterday
+18:41:14 SKIP RN-110 stale: published 21 Nov, older than yesterday
+18:41:14 SKIP RN-111 stale: published 21 Nov, older than yesterday
+18:41:14 SKIP RN-112 stale: published 21 Nov, older than yesterday
+18:41:14 SKIP RN-113 stale: published 22 Nov, older than yesterday
+18:41:14 SKIP RN-114 stale: published 22 Nov, older than yesterday
+18:41:14 SKIP RN-116 stale: published 22 Nov, older than yesterday
+18:41:14 SKIP RN-140 held: fact-check problems - fact-check: Slide 1 line contains a grammatical error: "ஈடுபட்டனர" should be "ஈடுபட்டனர்"
+18:41:15 SKIP RN-147 held: fact-check problems - fact-check: reel_script says the victim sent money 'to the bank account given by the fraudster' — acceptable, but the caption adds an unsupported claim that the victim 'sent Rs 3.38 lakh' in installme
 ::warning title=Held from posting RN-147::held: fact-check problems - fact-check: reel_script says the victim sent money 'to the bank account given by the fraudster' — acceptable, but the caption adds an unsupported claim that the victim 'sent Rs 3.38 lakh' in installme
-18:38:32 SKIP RN-151 held: fact-check problems - numbers not found in the article: 15
+18:41:15 SKIP RN-151 held: fact-check problems - numbers not found in the article: 15
 ::warning title=Held from posting RN-151::held: fact-check problems - numbers not found in the article: 15
-18:38:32 story catch-up off (test run or post_stories false)
-18:38:32   youtube upload: trichy: the channel cannot be confirmed - the login needs the extra permission (youtube.force-ssl); not uploaded until then
-18:38:32 21 stories in the queue, ready to post: 1
-18:38:32   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-18:38:32    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 299.4 ready= False set_started= True
-18:38:32    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 268.6 ready= False set_started= True
-18:38:32    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 265.0 ready= False set_started= True
-18:38:32    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 264.9 ready= False set_started= True
-18:38:32    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 260.9 ready= False set_started= True
-18:38:32    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 228.8 ready= False set_started= True
-18:38:32    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 228.7 ready= False set_started= True
-18:38:32    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 179.2 ready= False set_started= True
-18:38:32    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 134.1 ready= False set_started= True
-18:38:32    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 105.7 ready= False set_started= True
-18:38:32    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 105.7 ready= False set_started= True
-18:38:32    RN-110 review= 'Auto' images= 197 spec= 662 pages= ['trichy'] links= '' '' age_h= 98.0 ready= False set_started= True
-18:38:32    RN-111 review= 'Auto' images= 197 spec= 733 pages= ['trichy'] links= '' '' age_h= 94.0 ready= False set_started= True
-18:38:32    RN-112 review= 'Auto' images= 99 spec= 503 pages= ['trichy'] links= '' '' age_h= 91.3 ready= False set_started= True
-18:38:32    RN-113 review= 'Auto' images= 197 spec= 685 pages= ['trichy'] links= '' '' age_h= 88.5 ready= False set_started= True
-18:38:32    RN-114 review= 'Auto' images= 197 spec= 817 pages= ['trichy'] links= '' '' age_h= 88.5 ready= False set_started= True
-18:38:32    RN-116 review= 'Auto' images= 197 spec= 670 pages= ['trichy'] links= '' '' age_h= 88.5 ready= False set_started= True
-18:38:32    RN-140 review= 'Auto' images= 197 spec= 726 pages= ['trichy'] links= '' '' age_h= 24.3 ready= False set_started= True
-18:38:32    RN-142 review= 'Auto' images= 197 spec= 799 pages= ['trichy'] links= '' '' age_h= 20.0 ready= True set_started= True
-18:38:32    RN-147 review= 'Auto' images= 197 spec= 689 pages= ['trichy'] links= '' '' age_h= 16.3 ready= False set_started= True
-18:38:32    RN-151 review= 'Auto' images= 189 spec= 611 pages= ['trichy'] links= '' '' age_h= 4.1 ready= False set_started= True
-18:38:34 publishing quota trichy: 10/50
-18:38:36 instagram duplicate check trichy: 50 recent posts read
-18:38:36    RN-142 skipped: already on Instagram ['trichy']
+18:41:15 story catch-up off (test run or post_stories false)
+18:41:15   youtube upload: trichy: the channel cannot be confirmed - the login needs the extra permission (youtube.force-ssl); not uploaded until then
+18:41:15 21 stories in the queue, ready to post: 1
+18:41:15   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+18:41:15    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 299.4 ready= False set_started= True
+18:41:15    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 268.7 ready= False set_started= True
+18:41:15    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 265.0 ready= False set_started= True
+18:41:15    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 265.0 ready= False set_started= True
+18:41:15    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 261.0 ready= False set_started= True
+18:41:15    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 228.8 ready= False set_started= True
+18:41:15    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 228.8 ready= False set_started= True
+18:41:15    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 179.3 ready= False set_started= True
+18:41:15    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 134.2 ready= False set_started= True
+18:41:15    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 105.8 ready= False set_started= True
+18:41:15    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 105.8 ready= False set_started= True
+18:41:15    RN-110 review= 'Auto' images= 197 spec= 662 pages= ['trichy'] links= '' '' age_h= 98.0 ready= False set_started= True
+18:41:15    RN-111 review= 'Auto' images= 197 spec= 733 pages= ['trichy'] links= '' '' age_h= 94.1 ready= False set_started= True
+18:41:15    RN-112 review= 'Auto' images= 99 spec= 503 pages= ['trichy'] links= '' '' age_h= 91.4 ready= False set_started= True
+18:41:15    RN-113 review= 'Auto' images= 197 spec= 685 pages= ['trichy'] links= '' '' age_h= 88.5 ready= False set_started= True
+18:41:15    RN-114 review= 'Auto' images= 197 spec= 817 pages= ['trichy'] links= '' '' age_h= 88.5 ready= False set_started= True
+18:41:15    RN-116 review= 'Auto' images= 197 spec= 670 pages= ['trichy'] links= '' '' age_h= 88.5 ready= False set_started= True
+18:41:15    RN-140 review= 'Auto' images= 197 spec= 726 pages= ['trichy'] links= '' '' age_h= 24.4 ready= False set_started= True
+18:41:15    RN-142 review= 'Auto' images= 197 spec= 799 pages= ['trichy'] links= '' '' age_h= 20.1 ready= True set_started= True
+18:41:15    RN-147 review= 'Auto' images= 197 spec= 689 pages= ['trichy'] links= '' '' age_h= 16.3 ready= False set_started= True
+18:41:15    RN-151 review= 'Auto' images= 189 spec= 611 pages= ['trichy'] links= '' '' age_h= 4.2 ready= False set_started= True
+18:41:17 publishing quota trichy: 10/50
+18:41:19 instagram duplicate check trichy: 50 recent posts read
+18:41:19    RN-142 skipped: already on Instagram ['trichy']
