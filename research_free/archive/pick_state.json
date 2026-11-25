@@ -55,7 +55,8 @@
     "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/25/%E0%AE%9A%E0%AE%AE%E0%AE%AF%E0%AE%AA%E0%AF%81%E0%AE%B0%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%AA%E0%AF%8B%E0%AE%A4%E0%AF%88%E0%AE%AA%E0%AF%8D-%E0%AE%AA%E0%AF%8A%E0%AE%B0%E0%AF%81%E0%AE%B3%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%B5%E0%AE%BF%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AE%B5%E0%AE%BE%E0%AF%8D-%E0%AE%95%E0%AF%88%E0%AE%A4%E0%AF%81"
    ],
    "listed_at": "2026-11-26T04:27:43.088459+05:30",
-   "picked_at": "2026-11-26T04:29:34.307368+05:30"
+   "picked_at": "2026-11-26T04:29:34.307368+05:30",
+   "refused": "not filed: all free models failed: no usable answer from the models"
   },
   "Ca95488f": {
    "id": "Ca95488f",
@@ -71,7 +72,8 @@
     "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/25/%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF-%E0%AE%85%E0%AE%B0%E0%AF%81%E0%AE%95%E0%AF%87-%E0%AE%9A%E0%AF%81%E0%AE%B5%E0%AE%BE%E0%AF%8D-%E0%AE%87%E0%AE%9F%E0%AE%BF%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81-%E0%AE%B5%E0%AE%BF%E0%AE%B4%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81-%E0%AE%AE%E0%AF%81%E0%AE%A4%E0%AE%BF%E0%AE%AF%E0%AE%B5%E0%AE%BE%E0%AF%8D-%E0%AE%89%E0%AE%AF%E0%AE%BF%E0%AE%B0%E0%AE%BF%E0%AE%B4%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81"
    ],
    "listed_at": "2026-11-26T04:27:43.088459+05:30",
-   "picked_at": "2026-11-26T04:29:34.307370+05:30"
+   "picked_at": "2026-11-26T04:29:34.307370+05:30",
+   "refused": "not filed: all free models failed: no usable answer from the models"
   },
   "Ce280cec": {
    "id": "Ce280cec",
@@ -84,7 +86,8 @@
    "score": 11.5,
    "power_cut": false,
    "listed_at": "2026-11-26T04:27:43.088459+05:30",
-   "picked_at": "2026-11-26T04:29:34.307374+05:30"
+   "picked_at": "2026-11-26T04:29:34.307374+05:30",
+   "refused": "not filed: all free models failed: no usable answer from the models"
   },
   "C065eead": {
    "id": "C065eead",
@@ -97,7 +100,8 @@
    "score": 11.5,
    "power_cut": false,
    "listed_at": "2026-11-26T04:27:43.088459+05:30",
-   "picked_at": "2026-11-26T04:29:34.307372+05:30"
+   "picked_at": "2026-11-26T04:29:34.307372+05:30",
+   "refused": "not filed: all free models failed: no usable answer from the models"
   },
   "Cdef7dee": {
    "id": "Cdef7dee",
@@ -110,7 +114,8 @@
    "score": 6.5,
    "power_cut": false,
    "listed_at": "2026-11-26T04:27:43.088459+05:30",
-   "picked_at": "2026-11-26T04:29:34.307377+05:30"
+   "picked_at": "2026-11-26T04:29:34.307377+05:30",
+   "refused": "not filed: all free models failed: no usable answer from the models"
   },
   "C4d42d0c": {
    "id": "C4d42d0c",
@@ -123,7 +128,8 @@
    "score": 6.0,
    "power_cut": false,
    "listed_at": "2026-11-26T04:27:43.088459+05:30",
-   "picked_at": "2026-11-26T04:29:34.307375+05:30"
+   "picked_at": "2026-11-26T04:29:34.307375+05:30",
+   "refused": "not filed: all free models failed: no usable answer from the models"
   },
   "C2815a56": {
    "id": "C2815a56",
@@ -136,7 +142,8 @@
    "score": 3.0,
    "power_cut": false,
    "listed_at": "2026-11-26T04:27:43.088459+05:30",
-   "picked_at": "2026-11-26T04:29:34.307379+05:30"
+   "picked_at": "2026-11-26T04:29:34.307379+05:30",
+   "posted": true
   },
   "C5323008": {
    "id": "C5323008",
@@ -149,7 +156,8 @@
    "score": 3.0,
    "power_cut": false,
    "listed_at": "2026-11-26T04:27:43.088459+05:30",
-   "picked_at": "2026-11-26T04:29:34.307380+05:30"
+   "picked_at": "2026-11-26T04:29:34.307380+05:30",
+   "refused": "not filed: all free models failed: no usable answer from the models"
   }
  },
  "rounds": {
@@ -523,7 +531,16 @@
     "Ca95488f",
     "Cdef7dee",
     "Ce280cec"
-   ]
+   ],
+   "refused": {
+    "C5323008": "not filed: all free models failed: no usable answer from the models",
+    "Cdef7dee": "not filed: all free models failed: no usable answer from the models",
+    "C4d42d0c": "not filed: all free models failed: no usable answer from the models",
+    "Ce280cec": "not filed: all free models failed: no usable answer from the models",
+    "C065eead": "not filed: all free models failed: no usable answer from the models",
+    "Ca95488f": "not filed: all free models failed: no usable answer from the models",
+    "Ca00110d": "not filed: all free models failed: no usable answer from the models"
+   }
   }
  },
  "retry": {}
