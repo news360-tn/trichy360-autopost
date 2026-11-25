@@ -35,7 +35,8 @@ class YouTubeUpload(unittest.TestCase):
                   mock.patch.object(post, "ig_account", return_value=("U", "page360")),
                   mock.patch.object(post, "ig", side_effect=lambda *a, **k: {"data": self.feed}),
                   mock.patch.object(post.localmedia, "download", return_value=str(self.f)),
-                  mock.patch.object(ytupload, "access_token", return_value="AT")]
+                  mock.patch.object(ytupload, "access_token", return_value="AT"),
+                  mock.patch.object(ytupload, "channel_ok", return_value="")]      # owner 25 Nov: the channel check is tested in test_yt_channel_25nov
         for x in self.p:
             x.start()
 

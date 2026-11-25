@@ -163,6 +163,49 @@ def extras(page, tok, vid, comment, cap, now=None):
         log(f"{page}: comment / playlist skipped:", str(e)[:200])
 
 
+CHANNEL_NAMES = {"namakkal": ["namakkal", "நாமக்கல்"], "rasipuram": ["rasipuram", "ராசிபுரம்", "இராசிபுரம்"],
+                 "coimbatore": ["coimbatore", "kovai", "கோவை", "கோயம்புத்தூர்"], "erode": ["erode", "ஈரோடு"], "karur": ["karur", "கரூர்"],
+                 "salem": ["salem", "சேலம்"], "tirupur": ["tirupur", "tiruppur", "திருப்பூர்"], "trichy": ["trichy", "tiruchi", "திருச்சி"]}
+
+
+def channel_ok(page, tok, s, now=None):
+    """owner 25 Nov (other pages' Shorts appeared on the Namakkal channel - their logins were made on the wrong channel): with
+    "verify_channel" on, a page uploads ONLY when YouTube confirms the login's channel name is this page's (e.g. 'Karur 360').
+    Needs the login with the youtube.force-ssl permission; until then the page does not upload. Checked once a day. ('' = ok)"""
+    if not s.get("verify_channel"):
+        return ""
+    now = now or datetime.now(timezone.utc)
+    day = now.astimezone(IST).strftime("%Y-%m-%d")
+    st = _state(page)
+    v = st.get("channel_check") or {}
+    if v.get("day") == day and v.get("ok"):
+        return ""
+    if v.get("day") == day and v.get("checked_at") and (now - datetime.fromisoformat(v["checked_at"])).total_seconds() < 3600:
+        return v.get("why") or "channel not confirmed"
+    why, title = "", ""
+    try:
+        r = requests.get("https://www.googleapis.com/youtube/v3/channels", params={"part": "snippet", "mine": "true"},
+                         headers={"Authorization": "Bearer " + tok}, timeout=60)
+        if r.status_code == 200 and (r.json().get("items") or []):
+            title = r.json()["items"][0]["snippet"].get("title", "")
+            low = title.lower()
+            mine = CHANNEL_NAMES.get(page, [page])
+            others = [w for pg, ws in CHANNEL_NAMES.items() if pg != page for w in ws if not any(w in m or m in w for m in mine)]
+            if not any(w in low for w in mine) or any(w in low for w in others):
+                why = f"the login is for the channel '{title}', not this page's channel - NOT uploaded (make the login again on the right channel)"
+        elif r.status_code == 403:
+            why = "the channel cannot be confirmed - the login needs the extra permission (youtube.force-ssl); not uploaded until then"
+        else:
+            why = f"the channel could not be read ({r.status_code}) - not uploaded this hour"
+    except Exception as e:
+        why = f"the channel could not be read ({str(e)[:80]}) - not uploaded this hour"
+    st["channel_check"] = {"day": day, "ok": not why, "why": why, "title": title, "checked_at": now.isoformat(timespec="seconds")}
+    _save(page, st)
+    if not why:
+        log(f"{page}: channel confirmed: {title}")
+    return why
+
+
 def access_token(page):
     cid, sec, ref = keys(page)
     r = requests.post(TOKEN_URL, data={"client_id": cid, "client_secret": sec, "refresh_token": ref, "grant_type": "refresh_token"}, timeout=60)
@@ -209,6 +252,11 @@ def catchup(post, now=None):
             if why:
                 log(f"{page}: waits ({why})")
                 continue
+            if s.get("verify_channel"):      # owner 25 Nov: never upload to another page's channel
+                bad = channel_ok(page, access_token(page), s, now)
+                if bad:
+                    log(f"{page}: {bad}")
+                    continue
             st = _state(page)
             done = {u.get("ig") for u in st.get("uploads", [])}
             token = post.bridge_get("token", page=page)["token"]
