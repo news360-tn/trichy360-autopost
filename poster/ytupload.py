@@ -29,6 +29,9 @@ TOKEN_URL = "https://oauth2.googleapis.com/token"
 UPLOAD_URL = "https://www.googleapis.com/upload/youtube/v3/videos"
 
 
+RETRY_WAIT_MIN = 10      # owner 25 Nov: a failed upload waits 10 minutes before the next try
+
+
 def log(*a):
     print(datetime.now(IST).strftime("%H:%M:%S"), "  youtube upload:", *a, flush=True)
 
@@ -59,16 +62,25 @@ def _save(page, d):
     (STATE / f"{page}.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
-def due(page, s, now):
-    """'' when this channel may upload now, else why not"""
+def due(page, s, now, daily=False):
+    """'' when this channel may upload now, else why not. owner 25 Nov: the daily rasipalan / gold rate (daily=True) never count
+    for the day's news limit and still go when it is reached - but not after YouTube itself refused (quota / upload limit)"""
     ist = now.astimezone(IST)
     if not (s["hours"][0] <= ist.hour < s["hours"][1]):
         return "outside the upload hours"
     ups = _state(page).get("uploads", [])
     day = ist.strftime("%Y-%m-%d")
     today = [u for u in ups if u.get("day") == day]
-    if len(today) >= s["per_day"]:
-        return f"{len(today)} uploads today - the day's limit"
+    if daily:
+        if any(u.get("title") == "limit" for u in today):
+            return "YouTube's own daily limit was reached (quota) - no more uploads today"
+    else:
+        news = [u for u in today if not u.get("daily")]
+        if len(news) >= s["per_day"]:
+            return f"{len(news)} uploads today - the day's limit"
+    err = _state(page).get("failed_at")
+    if err and (now - datetime.fromisoformat(err)).total_seconds() < RETRY_WAIT_MIN * 60:
+        return f"an upload error less than {RETRY_WAIT_MIN} min ago - tried again after {RETRY_WAIT_MIN} minutes"
     last = max((u.get("at", "") for u in ups), default="")
     if last and (now - datetime.fromisoformat(last)).total_seconds() < s["gap_min"] * 60:
         return f"less than {s['gap_min']} min since the last upload"
@@ -115,6 +127,9 @@ def catchup(post, now=None):
             if not keys(page):
                 continue
             why = due(page, s, now)
+            daily_only = False
+            if "the day's limit" in why:      # owner 25 Nov: the news limit is reached - the rasipalan / gold rate may still go
+                why, daily_only = due(page, s, now, daily=True), True
             if why:
                 log(f"{page}: waits ({why})")
                 continue
@@ -124,9 +139,11 @@ def catchup(post, now=None):
             uname = post.ig_account(token)[1]
             day = now.astimezone(IST).strftime("%Y-%m-%d")
             feed = post.ig("GET", "me/media", token, fields="id,caption,media_type,permalink,timestamp,media_url", limit=40).get("data") or []
-            news = [m for m in feed if m.get("media_type") == "VIDEO" and m.get("id") not in done and m.get("timestamp")
-                    and not youtube.SKIP.search(m.get("caption") or "") and youtube.when(m["timestamp"]).strftime("%Y-%m-%d") == day]
-            best = youtube.pick(news, 1)
+            todays = [m for m in feed if m.get("media_type") == "VIDEO" and m.get("id") not in done and m.get("timestamp")
+                      and youtube.when(m["timestamp"]).strftime("%Y-%m-%d") == day]
+            daily = [m for m in todays if youtube.SKIP.search(m.get("caption") or "")]      # owner 25 Nov: rasipalan / gold rate on YouTube too, first
+            news = [m for m in todays if not youtube.SKIP.search(m.get("caption") or "")]
+            best = daily[:1] or ([] if daily_only else youtube.pick(news, 1))
             if not best:
                 log(f"{page}: no new news reel to upload")
                 continue
@@ -138,11 +155,18 @@ def catchup(post, now=None):
             d = youtube.details(m, page, uname)
             vid = upload(access_token(page), path, d["title"], d["description"], d["tags"], s["privacy"])
             st.setdefault("uploads", []).append({"ig": m["id"], "youtube": vid, "day": day, "at": now.isoformat(timespec="seconds"),
-                                                 "title": d["title"]})
+                                                 "title": d["title"], **({"daily": True} if m in daily else {})})
+            st.pop("failed_at", None)
             _save(page, st)
             log(f"{page}: uploaded to YouTube ({s['privacy']}) https://youtube.com/shorts/{vid} - {d['title'][:60]}")
         except Exception as e:
-            log(f"{page}: not uploaded (tried again in a later run):", str(e)[:250])
+            log(f"{page}: not uploaded (tried again in {RETRY_WAIT_MIN} minutes):", str(e)[:250])
+            try:      # owner 25 Nov: after an error wait 10 minutes before the next try
+                st = _state(page)
+                st["failed_at"] = now.isoformat(timespec="seconds")
+                _save(page, st)
+            except Exception:
+                pass
             if "quotaExceeded" in str(e) or "uploadLimitExceeded" in str(e):      # the day's YouTube limit: no more tries today
                 st = _state(page)
                 st.setdefault("uploads", []).extend({"ig": "", "youtube": "", "day": now.astimezone(IST).strftime("%Y-%m-%d"),

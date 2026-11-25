@@ -58,16 +58,30 @@ class YouTubeUpload(unittest.TestCase):
         with mock.patch.dict(os.environ, KEYS):
             up = self.run_once()
             up.assert_called_once()
-            self.assertIn("மின் தடை", up.call_args.args[2])      # the power cut first (rasipalan never)
+            self.assertIn("ராசிபலன்", up.call_args.args[2])      # owner 25 Nov: the daily rasipalan / gold rate go to YouTube too, first
             self.assertEqual(up.call_args.args[5], "public")      # owner 23 Nov: uploads go out public
             self.run_once(NOW + timedelta(minutes=3)).assert_not_called()      # owner 25 Nov: 5 minutes apart, like Instagram
             up = self.run_once(NOW + timedelta(minutes=10))
+            self.assertIn("மின் தடை", up.call_args.args[2])      # then the power cut (the most useful news)
+            up = self.run_once(NOW + timedelta(minutes=20))
             self.assertIn("சாலை", up.call_args.args[2])      # then the next one - never the same reel twice
-            self.run_once(NOW + timedelta(minutes=200)).assert_not_called()      # nothing new left (rasipalan is not uploaded)
+            self.run_once(NOW + timedelta(minutes=200)).assert_not_called()      # nothing new left
+
+    def test_rasipalan_does_not_count_for_the_news_limit(self):
+        s = ytupload.settings({"youtube_upload": {"per_day": 1, "gap_min": 5, "hours": [0, 24]}})
+        day = NOW.astimezone(ytupload.IST).strftime("%Y-%m-%d")
+        old = (NOW - timedelta(hours=1)).isoformat()
+        with mock.patch.object(ytupload, "_state", return_value={"uploads": [{"ig": "a", "youtube": "v", "day": day, "at": old}]}):
+            self.assertIn("limit", ytupload.due("x", s, NOW))      # the one news of the day is used
+            self.assertEqual(ytupload.due("x", s, NOW, daily=True), "")      # the rasipalan / gold rate still go
+        with mock.patch.object(ytupload, "_state", return_value={"uploads": [{"ig": "", "youtube": "", "day": day, "at": old, "title": "limit"}]}):
+            self.assertIn("quota", ytupload.due("x", s, NOW, daily=True))      # not after YouTube refused for the day
+        with mock.patch.object(ytupload, "_state", return_value={"uploads": [{"ig": "r", "youtube": "v", "day": day, "at": old, "daily": True}]}):
+            self.assertEqual(ytupload.due("x", s, NOW), "")      # a rasipalan upload leaves the news allowance free
 
     def test_day_limit_hours_and_quota(self):
         s = ytupload.settings({"youtube_upload": {"per_day": 20}})
-        self.assertEqual(s["per_day"], 20)      # owner 23 Nov: 20 a day is allowed (own 100-a-day upload allowance)
+        self.assertEqual(s["per_day"], 20)      # owner 25 Nov: 20 a day for one week, then raised
         self.assertEqual(ytupload.settings({"youtube_upload": {"per_day": 200}})["per_day"], 35)      # never more than 35 (owner 25 Nov)
         night = datetime(2026, 11, 21, 17, 0, tzinfo=timezone.utc)      # 22:30 IST
         self.assertEqual(ytupload.due("x", s, night), "outside the upload hours")
@@ -85,3 +99,14 @@ class YouTubeUpload(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class RetryWait(unittest.TestCase):
+    """owner 25 Nov: after an upload error YouTube waits 10 minutes before the next try"""
+    def test_ten_minutes_after_an_error(self):
+        now = datetime.now(timezone.utc)
+        s = ytupload.settings({"youtube_upload": {"per_day": 20, "gap_min": 5, "hours": [0, 24]}})
+        with mock.patch.object(ytupload, "_state", return_value={"uploads": [], "failed_at": (now - timedelta(minutes=6)).isoformat()}):
+            self.assertIn("error", ytupload.due("x", s, now))
+        with mock.patch.object(ytupload, "_state", return_value={"uploads": [], "failed_at": (now - timedelta(minutes=11)).isoformat()}):
+            self.assertEqual(ytupload.due("x", s, now), "")

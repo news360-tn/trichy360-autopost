@@ -1863,7 +1863,7 @@ def story_image(jpg, dst):
 # ---------------------------------------------------------------- main flows
 # owner 24 Nov: "any issue - retry 5 min after, max 3 times; still an issue - wait 15 min, retry 2 times" (then Hold + e-mail).
 # The posting gap itself (5 minutes) is not changed. Instagram's own limits (daily 50, blocked, too many requests) keep their waits.
-RETRY_PLAN_MIN = (5, 5, 5, 15, 15)
+RETRY_PLAN_MIN = (10, 10, 10, 15, 15)      # owner 25 Nov: after an error wait 10 minutes (was 5), then 2 tries 15 minutes apart, then Hold
 
 
 def _tries_file():

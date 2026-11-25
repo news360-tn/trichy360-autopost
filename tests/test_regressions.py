@@ -1138,8 +1138,11 @@ class FacebookEverything2Nov(unittest.TestCase):
         self.addCleanup(self.tearDown_fns)
         self._fake(fail=True)
         self.assertEqual(self.fb.share("trichy", "RN-4", "reel", ["v"], self.CAP, "#Trichy360"), "")
-        for _ in range(4):
-            self.fb.retry_failed()
+        self.fb.retry_failed()
+        self.assertEqual(len(self.calls), 1)      # owner 25 Nov: not again within 10 minutes of the error
+        with mock.patch.object(self.fb, "RETRY_WAIT_MIN", 0):
+            for _ in range(4):
+                self.fb.retry_failed()
         self.assertEqual(len(self.calls), 3)      # first try + 2 retries
         self.assertEqual(self.fb.state("trichy", "RN-4", "reel")["status"], "failed")
 

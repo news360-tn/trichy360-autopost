@@ -38,7 +38,7 @@ class RetryPlan24Nov(unittest.TestCase):
 
     def test_5_5_5_15_15_then_hold(self):
         row = {"row": 9, "story_id": "RN-1"}
-        for want in (5, 5, 5, 15, 15):
+        for want in (10, 10, 10, 15, 15):      # owner 25 Nov
             post.ig_pause_file(post.PAGE).unlink(missing_ok=True)
             post.report_failure(row, "reel", ERR)
             self.assertAlmostEqual(self.wait_min(), want, delta=0.2)

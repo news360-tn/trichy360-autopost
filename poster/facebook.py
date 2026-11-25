@@ -29,6 +29,7 @@ VER = os.environ.get("FB_GRAPH_VER", "v26.0")      # the version the owner's Gra
 GRAPH = "https://graph.facebook.com"
 MAX_TRIES = 3            # first try + 2 retries
 RETRY_HOURS = 24
+RETRY_WAIT_MIN = 10      # owner 25 Nov: a failed Facebook post waits 10 minutes before it is tried again
 REEL_CAP = int(os.environ.get("FB_DAILY_CAP", "30") or 30)      # Facebook allows about 30 API reels a day per page
 WAIT_READY_S = int(os.environ.get("FB_WAIT_S", "300") or 300)
 FB_TAGS = 3              # Facebook: town + topic + page tag (many hashtags do not help there)
@@ -505,6 +506,8 @@ def retry_failed(limit=2):
                 continue
             if dt.datetime.fromisoformat(d.get("first_try") or d.get("updated")) < cut:
                 continue
+            if d.get("updated") and _now() - dt.datetime.fromisoformat(d["updated"]) < dt.timedelta(minutes=RETRY_WAIT_MIN):
+                continue      # owner 25 Nov: after an error wait 10 minutes before the next try
             page, sid, kind = d["page"], d["story"], d.get("kind", "reel")
             if any(localmedia.is_ref(x) for x in d.get("media") or []):      # owner 21 Nov: it went as a file - no copy is left to try again
                 d.update(status="skipped", why="sent as a file (no Cloudinary copy) - not tried again")
