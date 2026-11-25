@@ -83,34 +83,34 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-25 | `04a5a31` | Watchdog: ignore the shared rasipalan text files (rasis_*.json) - they stopped the watchdog on every run |
+| 2026-11-25 | `5cf684e` | facebook RN-150 |
+| 2026-11-25 | `6fcd9b1` | posted RN-150 |
+| 2026-11-25 | `ad0432e` | powercut: notices written |
+| 2026-11-25 | `e280629` | stories shared / Instagram pause |
+| 2026-11-25 | `4261a4f` | stories shared / Instagram pause |
+| 2026-11-25 | `3c8581f` | stories shared / Instagram pause |
+| 2026-11-25 | `3f92e5c` | stories shared / Instagram pause |
+| 2026-11-25 | `77cc580` | stories shared / Instagram pause |
+| 2026-11-25 | `fd51838` | stories shared / Instagram pause |
+| 2026-11-25 | `446e4e7` | stories shared / Instagram pause |
+| 2026-11-25 | `953e4b8` | stories shared / Instagram pause |
+| 2026-11-25 | `5175c20` | stories shared / Instagram pause |
+| 2026-11-25 | `ae163e2` | stories shared / Instagram pause |
+| 2026-11-25 | `07fd105` | stories shared / Instagram pause |
+| 2026-11-25 | `edb50a3` | stories shared / Instagram pause |
+| 2026-11-25 | `5946952` | stories shared / Instagram pause |
+| 2026-11-25 | `04dd656` | stories shared / Instagram pause |
+| 2026-11-25 | `4e2b5da` | stories shared / Instagram pause |
+| 2026-11-25 | `255525b` | stories shared / Instagram pause |
+| 2026-11-25 | `ac8d614` | stories shared / Instagram pause |
+| 2026-11-25 | `d8bf467` | stories shared / Instagram pause |
+| 2026-11-25 | `799b5df` | stories shared / Instagram pause |
+| 2026-11-25 | `508f33f` | stories shared / Instagram pause |
 | 2026-11-25 | `c0b75a3` | R2: accept the Account ID pasted as a link or with spaces; clear message when it is another value |
 | 2026-11-25 | `0f59941` | stories shared / Instagram pause |
 | 2026-11-25 | `07e54b7` | stories shared / Instagram pause |
 | 2026-11-25 | `94d447a` | stories shared / Instagram pause |
 | 2026-11-25 | `b36f9b8` | stories shared / Instagram pause |
 | 2026-11-25 | `1f61e85` | stories shared / Instagram pause |
-| 2026-11-25 | `cd6e987` | stories shared / Instagram pause |
-| 2026-11-25 | `196c5ae` | stories shared / Instagram pause |
-| 2026-11-25 | `5a7dbe6` | stories shared / Instagram pause |
-| 2026-11-25 | `04457af` | stories shared / Instagram pause |
-| 2026-11-25 | `bddf24f` | stories shared / Instagram pause |
-| 2026-11-25 | `df6ff8f` | stories shared / Instagram pause |
-| 2026-11-25 | `2bf8c67` | stories shared / Instagram pause |
-| 2026-11-25 | `687ea71` | stories shared / Instagram pause |
-| 2026-11-25 | `6151412` | stories shared / Instagram pause |
-| 2026-11-25 | `ae3a508` | stories shared / Instagram pause |
-| 2026-11-25 | `176d8c2` | stories shared / Instagram pause |
-| 2026-11-25 | `de45496` | stories shared / Instagram pause |
-| 2026-11-25 | `599461e` | stories shared / Instagram pause |
-| 2026-11-25 | `0ac5066` | stories shared / Instagram pause |
-| 2026-11-25 | `c5e1b58` | YouTube: public Shorts, 20 a day, 40-minute gap, 7am-10pm IST (same as Namakkal and Coimbatore); starts once the page's YT secrets are saved |
-| 2026-11-25 | `9229e94` | stories shared / Instagram pause |
-| 2026-11-25 | `24c1dc5` | R2 check: manual workflow that uploads a test file and reads it back |
-| 2026-11-25 | `9423fb8` | stories shared / Instagram pause |
-| 2026-11-25 | `d58b0f1` | stories shared / Instagram pause |
-| 2026-11-25 | `88eefa2` | pick: written and posted |
-| 2026-11-25 | `37a40f3` | pick: list sent |
-| 2026-11-25 | `15f21e5` | stories shared / Instagram pause |
-| 2026-11-25 | `0073401` | stories shared / Instagram pause |
-| 2026-11-25 | `ee0effa` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
