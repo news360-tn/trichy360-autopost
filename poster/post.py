@@ -699,10 +699,61 @@ def source_credit(row):
     return short.get(names[0], names[0]), full      # the reel header has little room - the end card / caption carry the full name
 
 
+PAGE_REPOS = ("news360-autopost", "coimbatore360-autopost", "erode360-autopost", "karur360-autopost", "salem360-autopost",
+              "tirupur360-autopost", "trichy360-autopost")      # all 7 pages e-mail from ONE Gmail account (about 100 e-mails a day)
+POSTED_EMAIL_MAX = 60      # owner 25 Nov (option B): a separate e-mail per post, but at most 60 a day for ALL pages together
+_EMAILS = {}
+
+
+def _ist_day(name):
+    """poster/posted/<YYYYmmdd-HHMMSS UTC>-<page>-<story>.json -> its IST date (YYYY-mm-dd), or ''"""
+    try:
+        t = datetime.strptime(name[:15], "%Y%m%d-%H%M%S").replace(tzinfo=timezone.utc)
+        return t.astimezone(IST).strftime("%Y-%m-%d")
+    except ValueError:
+        return ""
+
+
+def posts_today_all_pages(now=None):
+    """posts recorded today (IST) by all 7 pages = per-post e-mails sent today (every post before the cap had one).
+    This page: its own folder (includes the post just made); the others: their poster/posted folder on GitHub. Unreadable -> 0."""
+    day = (now or datetime.now(timezone.utc)).astimezone(IST).strftime("%Y-%m-%d")
+    total = sum(1 for f in POSTED_DIR.glob("*.json") if _ist_day(f.name) == day) if POSTED_DIR.exists() else 0
+    me = (os.environ.get("GITHUB_REPOSITORY") or "").split("/")[-1]
+    head = {"Accept": "application/vnd.github+json"}
+    if os.environ.get("GH_MEDIA_TOKEN"):
+        head["Authorization"] = "Bearer " + os.environ["GH_MEDIA_TOKEN"]
+    for repo in PAGE_REPOS:
+        if repo == me:
+            continue
+        if (repo, day) not in _EMAILS:      # other pages are read once per run
+            try:
+                r = requests.get(f"https://api.github.com/repos/news360-tn/{repo}/contents/poster/posted", headers=head, timeout=20)
+                _EMAILS[(repo, day)] = sum(1 for x in (r.json() if r.status_code == 200 else []) if _ist_day(str(x.get("name", ""))) == day)
+            except Exception:
+                _EMAILS[(repo, day)] = 0
+        total += _EMAILS[(repo, day)]
+    return total
+
+
 def posted_quiet():
     """owner 20 Nov: no e-mail per posted reel once the twice-a-day YouTube details e-mail runs (config posted_email "digest" and the
-    Promo Hub set up) - Gmail's daily limit was reached with ~200 e-mails a day. Problem e-mails stay instant."""
-    return CONFIG.get("posted_email") == "digest" and bool(os.environ.get("PROMO_URL") and os.environ.get("PROMO_KEY"))
+    Promo Hub set up) - Gmail's daily limit was reached with ~200 e-mails a day. Problem e-mails stay instant.
+    owner 25 Nov (option B): with posted_email "each", every post has its own e-mail until 60 posts a day on ALL pages together;
+    after that the posts are only in the daily summary (00:10 IST) - so Hold / manual-post / YouTube e-mails always have room."""
+    if CONFIG.get("posted_email") == "digest" and bool(os.environ.get("PROMO_URL") and os.environ.get("PROMO_KEY")):
+        return True
+    if DRY:
+        return False
+    try:
+        n = posts_today_all_pages()
+    except Exception:
+        return False
+    if n > int(CONFIG.get("posted_email_max") or POSTED_EMAIL_MAX):
+        log(f"per-post e-mail skipped: {n - 1} posts e-mailed today on all pages (limit {CONFIG.get('posted_email_max') or POSTED_EMAIL_MAX}) "
+            "- this post is in the daily summary e-mail")
+        return True
+    return False
 
 
 def final_caption(row):
@@ -2269,7 +2320,8 @@ def run_ready_reel(row, page):
             log("story not made (post itself is fine):", e)
         share_facebook(sid, "reel", [url], caption, row=row)
         bridge_post("posted", {"row": row["row"], "page": PAGE, "kind": "reel", "permalink": link, "media_id": mid, "media_urls": [url],
-                               "caption": caption, "voice": "ready-made", "collab": False, "checks": "ready reel posted as received (owner verified; no duplicate check)"})
+                               "caption": caption, "voice": "ready-made", "collab": False, "checks": "ready reel posted as received (owner verified; no duplicate check)",
+                               "quiet": posted_quiet()})
         first_comment(token, mid, sid, row)      # owner 21 Nov: the owner's own reel gets the source comment too (when its source is known)
         return [("reel", link)]
     except Exception as e:
@@ -2528,7 +2580,8 @@ def run_story_page(row, page):
                 log("carousel posted", sid, link)
                 USED[PAGE] = USED.get(PAGE, 0) + 1
                 bridge_post("posted", {"row": row["row"], "page": PAGE, "kind": "carousel", "permalink": link, "media_id": mid,
-                                       "media_urls": urls, "caption": caption, "slides": len(urls), "collab": collab_ok, "checks": note})
+                                       "media_urls": urls, "caption": caption, "slides": len(urls), "collab": collab_ok, "checks": note,
+                                       "quiet": posted_quiet()})
                 first_comment(token, mid, sid, row)      # owner 19 Nov: the source comment, after the post is recorded (as for reels)
                 done.append(("carousel", link))
                 try:
