@@ -1,26 +1,11 @@
-05:06:20 round 2026-11-25_05: news published 25 Nov 04:26 -> 25 Nov 05:06 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-05:06:20 insights 2026-11-25T05:06+05:30 (138 reels): topic weights {'accident': 1.21, 'crime': 1.5, 'power_cut': 0.99, 'civic': -0.03, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.45}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-05:16:46 from_google dinamalar.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 from_google dinamani.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 from_google dinamalar.com 'திருச்சிராப்பள்ளி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 from_google dinamani.com 'திருச்சிராப்பள்ளி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 from_google dinamalar.com 'மணப்பாறை' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 from_google dinamani.com 'மணப்பாறை' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 from_google dinamalar.com 'ஸ்ரீரங்கம்' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 from_google dinamani.com 'ஸ்ரீரங்கம்' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 from_google tamil.oneindia.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 from_google dinakaran.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 from_google dailythanthi.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 from_google maalaimalar.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 from_google hindutamil.in 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 from_google polimernews.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 open search from_google 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-05:16:46 open search 'திருச்சி' (from_bing): 0 links from our outlets
-05:16:46 59 links on the two papers' Trichy pages
-05:17:52 skipped: published before this window=24, already posted=21, same event already posted=8, not Trichy district=4, only a headline=2
-05:17:52 list: 0 new + 0 earlier news not posted yet
-05:17:52 no news in this window - no e-mail
-ROUND=2026-11-25_05
-05:17:55 no list this round - nothing to post
-PICK_URLS=
-05:17:55 verify: no decided round
+06:27:48 round 2026-11-25_06: news published 25 Nov 05:06 -> 25 Nov 06:27 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+06:27:48 insights 2026-11-25T06:27+05:30 (142 reels): topic weights {'accident': 1.5, 'crime': 1.46, 'power_cut': 1.0, 'civic': -0.03, 'education': -0.5, 'politics': -0.28, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.45}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+06:28:18 open search 'திருச்சி' (from_google): 1 links from our outlets
+06:28:18 66 links on the two papers' Trichy pages
+06:29:05 skipped: already posted=21, published before this window=21, not Trichy district=10, same event already posted=8, only a headline=2, state-wide / other district=1
+06:29:05 list: 3 new + 0 earlier news not posted yet
+06:29:05    1. [மழை / வானிலை] பொன்னம்பட்டி பேரூராட்சியில் மழைநீர் சேகரிப்பு விழிப்புணர்வு கூட்டம் -  (தினகரன்)
+06:29:05    2. [பொது] துவரங்குறிச்சி அருகே பழமையான சிவன் கோயிலில் 12,501 அகல் விளக்கால் உருவ (தினகரன்)
+06:29:05    3. [பொது] திருப்பரங்குன்றம் தீப விவகாரம் வீட்டுக்காவலில் முசிறி பாஜ நிர்வாகி - D (தினகரன்)
+06:29:05 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-25_06
