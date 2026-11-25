@@ -113,7 +113,7 @@ class TrichyPriority(unittest.TestCase):
         self.assertNotIn('age("collect") > 160 else', (wf / "post.yml").read_text())      # the watchdog never starts a round
         for f in ("research_free.yml", "write_stories.yml"):
             self.assertIn('DAILY_CAP: "1000"', (wf / f).read_text(), f)      # owner 31 Oct 4:48 PM: no daily limit of our own
-        self.assertIn('DAILY_CAP: "44"', (wf / "post.yml").read_text())      # owner 2 Nov (review): only Instagram's 50, last 6 for urgent news
+        self.assertIn('DAILY_CAP: "35"', (wf / "post.yml").read_text())      # owner 25 Nov: at most 35 a day (urgent news after that)
         for wf in ("research_free.yml", "write_stories.yml"):
             self.assertIn('FRESH_DAYS: "1"', (ROOT / ".github" / "workflows" / wf).read_text())
 
@@ -491,13 +491,13 @@ class PrimeTime(unittest.TestCase):
     def test_windows_switched_on(self):      # owner 21 Nov: no best-time windows - any time from 05:00, quiet 00:00-05:00
         pt = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["prime_time"]
         self.assertTrue(pt["enabled"])
-        self.assertEqual(pt["windows"], [["05:00", "24:00"]])
-        self.assertEqual(pt["quiet_ist"], ["00:00", "05:00"])
+        self.assertEqual(pt["windows"], [["04:00", "24:00"]])
+        self.assertEqual(pt["quiet_ist"], ["00:00", "04:00"])
         self.assertFalse(pt["starts"])
 
     def test_inside_a_window_at_once_outside_waits(self):
         news = "கோவில் கும்பாபிஷேக விழா"
-        for now, expect in (((4, 30), "night"), ((5, 0), ""), ((9, 30), ""), ((12, 0), ""), ((14, 30), ""), ((21, 0), ""),
+        for now, expect in (((3, 30), "night"), ((4, 0), ""), ((9, 30), ""), ((12, 0), ""), ((14, 30), ""), ((21, 0), ""),
                             ((23, 59), ""), ((0, 0), "night"), ((1, 0), "night")):
             got = self.wait(self.row(news, 0, 30), self.at(*now))
             if expect:

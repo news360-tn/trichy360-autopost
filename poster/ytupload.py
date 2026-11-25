@@ -41,7 +41,7 @@ def keys(page):
 
 def settings(config):
     s = dict({"enabled": True, "per_day": 5, "gap_min": 90, "hours": [9, 21], "privacy": "private"}, **((config or {}).get("youtube_upload") or {}))
-    s["per_day"] = min(int(s["per_day"]), 30)      # owner 23 Nov: uploads now have their own 100-a-day API allowance (was 6 x 1,600 units); 30 keeps the channel safe
+    s["per_day"] = min(int(s["per_day"]), 35)      # owner 25 Nov: up to 35 a day, the same as Instagram      # owner 23 Nov: uploads now have their own 100-a-day API allowance (was 6 x 1,600 units); 30 keeps the channel safe
     return s
 
 

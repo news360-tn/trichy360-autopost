@@ -22,8 +22,8 @@ def at(h, m=0):
 class PostAnyTime(unittest.TestCase):
     def test_settings(self):
         cfg = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))
-        self.assertEqual(cfg["prime_time"]["windows"], [["05:00", "24:00"]])
-        self.assertEqual(cfg["prime_time"]["quiet_ist"], ["00:00", "05:00"])
+        self.assertEqual(cfg["prime_time"]["windows"], [["04:00", "24:00"]])
+        self.assertEqual(cfg["prime_time"]["quiet_ist"], ["00:00", "04:00"])
         self.assertEqual(cfg["posting"]["spacing_min"], 5)
 
     def test_any_time_from_5_am(self):
@@ -32,10 +32,10 @@ class PostAnyTime(unittest.TestCase):
 
     def test_nothing_at_night(self):
         with mock.patch.object(post, "age_hours", return_value=30):      # even a news that waited long
-            for h in (0, 2, 4):
+            for h in (0, 2, 3):      # owner 25 Nov: quiet 00:00-04:00 IST
                 self.assertIn("night", post.prime_wait(ROW, at(h, 30)))
                 self.assertIn("night", post.prime_wait(CUT, at(h, 30)))      # even a power cut
-        self.assertEqual(post.prime_wait(CUT, at(5, 0)), "")
+        self.assertEqual(post.prime_wait(CUT, at(4, 0)), "")
 
 
 if __name__ == "__main__":

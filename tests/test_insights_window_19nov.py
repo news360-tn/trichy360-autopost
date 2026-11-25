@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 UTC = datetime.timezone.utc
-NOW = datetime.datetime(2026, 11, 19, 12, 0, tzinfo=UTC)
+NOW = datetime.datetime.now(UTC).replace(minute=0, second=0, microsecond=0)      # owner 25 Nov: today (a fixed date drifted out of the 8-day window)
 
 
 def load():

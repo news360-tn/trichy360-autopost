@@ -68,7 +68,7 @@ class YouTubeUpload(unittest.TestCase):
     def test_day_limit_hours_and_quota(self):
         s = ytupload.settings({"youtube_upload": {"per_day": 20}})
         self.assertEqual(s["per_day"], 20)      # owner 23 Nov: 20 a day is allowed (own 100-a-day upload allowance)
-        self.assertEqual(ytupload.settings({"youtube_upload": {"per_day": 200}})["per_day"], 30)      # never more than 30
+        self.assertEqual(ytupload.settings({"youtube_upload": {"per_day": 200}})["per_day"], 35)      # never more than 35 (owner 25 Nov)
         night = datetime(2026, 11, 21, 17, 0, tzinfo=timezone.utc)      # 22:30 IST
         self.assertEqual(ytupload.due("x", s, night), "outside the upload hours")
         with mock.patch.dict(os.environ, KEYS):
