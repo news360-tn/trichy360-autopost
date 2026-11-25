@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-26T04:27:43.088459+05:30",
+ "last_end": "2026-11-26T04:48:07.376695+05:30",
  "pool": {
   "Cb386a51": {
    "id": "Cb386a51",
@@ -130,20 +130,6 @@
    "listed_at": "2026-11-26T04:27:43.088459+05:30",
    "picked_at": "2026-11-26T04:29:34.307375+05:30",
    "refused": "not filed: all free models failed: no usable answer from the models"
-  },
-  "C2815a56": {
-   "id": "C2815a56",
-   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/25/life-imprisonment-for-brothers-who-stabbed-a-youth-to-death",
-   "title": "இளைஞரைக் குத்திக் கொன்ற சகோதரா்களுக்கு ஆயுள் சிறை",
-   "summary": "இளைஞரைக் குத்திக் கொன்ற சகோதரா்கள் மூவருக்கு ஆயுள் தண்டனை விதித்து திருச்சி நீதிமன்றம் புதன்கிழமை உத்தரவிட்டது..திருச்சி மாவட்டம், காட்டுப்புத்தூா் அருகே காந்தி நகா் பகுதியைச் சோ்ந்தவா் கோ.",
-   "source": "தினமணி",
-   "published": "2026-11-25T21:07:41.721Z",
-   "category": "குற்றம்",
-   "score": 3.0,
-   "power_cut": false,
-   "listed_at": "2026-11-26T04:27:43.088459+05:30",
-   "picked_at": "2026-11-26T04:29:34.307379+05:30",
-   "posted": true
   },
   "C5323008": {
    "id": "C5323008",
@@ -492,55 +478,16 @@
   },
   "2026-11-26_04": {
    "window": [
-    "2026-11-26T01:30:40.333155+05:30",
-    "2026-11-26T04:27:43.088459+05:30"
+    "2026-11-26T04:27:43.088459+05:30",
+    "2026-11-26T04:48:07.376695+05:30"
    ],
    "ids": [
-    "Ca00110d",
-    "Ca95488f",
-    "Ce280cec",
-    "C065eead",
-    "Cdef7dee",
-    "C4d42d0c",
-    "C2815a56",
-    "C5323008",
     "C936cfee"
    ],
    "sent": false,
-   "deadline": "2026-11-26T05:27:43.088459+05:30",
-   "decided": {
-    "how": "automatic: top 7 of 8 by insights",
-    "ids": [
-     "Ca00110d",
-     "Ca95488f",
-     "C065eead",
-     "Ce280cec",
-     "C4d42d0c",
-     "Cdef7dee",
-     "C2815a56",
-     "C5323008"
-    ],
-    "at": "2026-11-26T04:29:34.307356+05:30"
-   },
-   "written": [
-    "C065eead",
-    "C2815a56",
-    "C4d42d0c",
-    "C5323008",
-    "Ca00110d",
-    "Ca95488f",
-    "Cdef7dee",
-    "Ce280cec"
-   ],
-   "refused": {
-    "C5323008": "not filed: all free models failed: no usable answer from the models",
-    "Cdef7dee": "not filed: all free models failed: no usable answer from the models",
-    "C4d42d0c": "not filed: all free models failed: no usable answer from the models",
-    "Ce280cec": "not filed: all free models failed: no usable answer from the models",
-    "C065eead": "not filed: all free models failed: no usable answer from the models",
-    "Ca95488f": "not filed: all free models failed: no usable answer from the models",
-    "Ca00110d": "not filed: all free models failed: no usable answer from the models"
-   }
+   "deadline": "2026-11-26T05:48:07.376695+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}
