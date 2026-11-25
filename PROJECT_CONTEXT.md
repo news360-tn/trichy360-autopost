@@ -83,6 +83,18 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-25 | `f3c8bac` | R2 free-tier safety: at most 300 MB and 400 files per page per day, 100 MB per file; usage read from the bucket before each upload; over a limit R2 is skipped until tomorrow |
+| 2026-11-25 | `611d01d` | stories shared / Instagram pause |
+| 2026-11-25 | `183f44e` | stories shared / Instagram pause |
+| 2026-11-25 | `ac9c834` | stories shared / Instagram pause |
+| 2026-11-25 | `19f99cf` | stories shared / Instagram pause |
+| 2026-11-25 | `1fe2b44` | stories shared / Instagram pause |
+| 2026-11-25 | `fe2df24` | stories shared / Instagram pause |
+| 2026-11-25 | `6a6e854` | stories shared / Instagram pause |
+| 2026-11-25 | `7d53d18` | powercut: notices written |
+| 2026-11-25 | `0cdbfe0` | stories shared / Instagram pause |
+| 2026-11-25 | `d099538` | stories shared / Instagram pause |
+| 2026-11-25 | `d06cf58` | stories shared / Instagram pause |
 | 2026-11-25 | `04a5a31` | Watchdog: ignore the shared rasipalan text files (rasis_*.json) - they stopped the watchdog on every run |
 | 2026-11-25 | `5cf684e` | facebook RN-150 |
 | 2026-11-25 | `6fcd9b1` | posted RN-150 |
@@ -101,16 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-25 | `edb50a3` | stories shared / Instagram pause |
 | 2026-11-25 | `5946952` | stories shared / Instagram pause |
 | 2026-11-25 | `04dd656` | stories shared / Instagram pause |
-| 2026-11-25 | `4e2b5da` | stories shared / Instagram pause |
-| 2026-11-25 | `255525b` | stories shared / Instagram pause |
-| 2026-11-25 | `ac8d614` | stories shared / Instagram pause |
-| 2026-11-25 | `d8bf467` | stories shared / Instagram pause |
-| 2026-11-25 | `799b5df` | stories shared / Instagram pause |
-| 2026-11-25 | `508f33f` | stories shared / Instagram pause |
-| 2026-11-25 | `c0b75a3` | R2: accept the Account ID pasted as a link or with spaces; clear message when it is another value |
-| 2026-11-25 | `0f59941` | stories shared / Instagram pause |
-| 2026-11-25 | `07e54b7` | stories shared / Instagram pause |
-| 2026-11-25 | `94d447a` | stories shared / Instagram pause |
-| 2026-11-25 | `b36f9b8` | stories shared / Instagram pause |
-| 2026-11-25 | `1f61e85` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
