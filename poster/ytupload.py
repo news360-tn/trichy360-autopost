@@ -87,6 +87,82 @@ def due(page, s, now, daily=False):
     return ""
 
 
+API = "https://www.googleapis.com/youtube/v3"
+PLAYLIST_TOPIC = {"power_cut": "power cut news", "accident": "accident news", "crime": "crime news", "jobs": "jobs news",
+                  "weather": "weather news", "temple": "temple news", "politics": "politics news"}
+
+
+def _playlist_name(cap):
+    """the topic playlist of a Short: rasipalan / gold rate / power cut / accident / crime / jobs / ... / other news"""
+    if re.search(r"ராசிபலன்", cap or ""):
+        return "rasi palan"
+    if re.search(r"தங்கம்.{0,25}விலை|Gold rate|GoldRate", cap or "", re.I):
+        return "gold rate"
+    try:
+        import sys as _s
+        _s.path.insert(0, str(HERE.parent / "research_free"))
+        import learned
+        return PLAYLIST_TOPIC.get(learned.topic(cap or ""), "news")
+    except Exception:
+        return "news"
+
+
+def extras(page, tok, vid, comment, cap, now=None):
+    """owner 25 Nov: after an upload - (1) the Instagram source comment as the Short's first comment, (2) the Short into its topic
+    playlist (created once per channel). Both need the channel's login WITH the youtube.force-ssl permission; with the upload-only login
+    YouTube refuses (403) and both are switched off for a day (no repeated refused calls). YouTube's API cannot PIN a comment.
+    Never raises: the upload itself is already done."""
+    now = now or datetime.now(timezone.utc)
+    st = _state(page)
+    off = st.get("extras_off_until")
+    if off and now < datetime.fromisoformat(off):
+        return
+    head = {"Authorization": "Bearer " + tok, "Content-Type": "application/json"}
+
+    def refused(r, what):
+        if r.status_code == 403 and ("insufficient" in r.text.lower() or "permission" in r.text.lower() or "scope" in r.text.lower()):
+            st["extras_off_until"] = (now + timedelta(days=1)).isoformat(timespec="seconds")
+            _save(page, st)
+            log(f"{page}: {what} not added - the channel login needs the extra YouTube permission (youtube.force-ssl); tried again tomorrow")
+            return True
+        log(f"{page}: {what} not added ({r.status_code}): {r.text[:200]}")
+        return r.status_code == 403
+    try:
+        if comment:
+            r = requests.post(f"{API}/commentThreads", params={"part": "snippet"}, headers=head, timeout=60, data=json.dumps(
+                {"snippet": {"videoId": vid, "topLevelComment": {"snippet": {"textOriginal": comment.strip()[:9000]}}}}, ensure_ascii=False).encode("utf-8"))
+            if r.status_code < 300:
+                log(f"{page}: first comment added (pin it in YouTube Studio if you want it on top)")
+            elif refused(r, "first comment"):
+                return
+        import youtube
+        name = youtube.PAGE_EN.get(page, page.title())
+        topic = _playlist_name(cap)
+        lists = st.setdefault("playlists", {})
+        pid = lists.get(topic)
+        if not pid:
+            r = requests.post(f"{API}/playlists", params={"part": "snippet,status"}, headers=head, timeout=60, data=json.dumps(
+                {"snippet": {"title": f"{name} {topic} | {name} 360", "description": f"Daily {name} {topic} - {name} 360",
+                             "defaultLanguage": "ta"}, "status": {"privacyStatus": "public"}}, ensure_ascii=False).encode("utf-8"))
+            if r.status_code >= 300:
+                refused(r, "playlist")
+                return
+            pid = lists[topic] = r.json()["id"]
+            _save(page, st)
+            log(f"{page}: playlist made: {name} {topic}")
+        r = requests.post(f"{API}/playlistItems", params={"part": "snippet"}, headers=head, timeout=60, data=json.dumps(
+            {"snippet": {"playlistId": pid, "resourceId": {"kind": "youtube#video", "videoId": vid}}}).encode("utf-8"))
+        if r.status_code < 300:
+            log(f"{page}: added to the playlist '{name} {topic}'")
+        else:
+            if r.status_code == 404:      # the playlist was deleted on YouTube - made again next time
+                lists.pop(topic, None)
+                _save(page, st)
+            refused(r, "playlist item")
+    except Exception as e:
+        log(f"{page}: comment / playlist skipped:", str(e)[:200])
+
+
 def access_token(page):
     cid, sec, ref = keys(page)
     r = requests.post(TOKEN_URL, data={"client_id": cid, "client_secret": sec, "refresh_token": ref, "grant_type": "refresh_token"}, timeout=60)
@@ -157,12 +233,14 @@ def catchup(post, now=None):
             if src:      # owner 25 Nov: the Instagram first comment (source + link) at the top, after the 3 hashtags line
                 tagline, _, rest = d["description"].partition("\n")
                 d["description"] = (tagline + "\n\n" + src.strip() + "\n" + rest)[:4900]
-            vid = upload(access_token(page), path, d["title"], d["description"], d["tags"], s["privacy"])
+            tok = access_token(page)
+            vid = upload(tok, path, d["title"], d["description"], d["tags"], s["privacy"])
             st.setdefault("uploads", []).append({"ig": m["id"], "youtube": vid, "day": day, "at": now.isoformat(timespec="seconds"),
                                                  "title": d["title"], **({"daily": True} if m in daily else {})})
             st.pop("failed_at", None)
             _save(page, st)
             log(f"{page}: uploaded to YouTube ({s['privacy']}) https://youtube.com/shorts/{vid} - {d['title'][:60]}")
+            extras(page, tok, vid, src, m.get("caption") or "")      # owner 25 Nov: first comment + topic playlist (needs the extra permission)
         except Exception as e:
             log(f"{page}: not uploaded (tried again in {RETRY_WAIT_MIN} minutes):", str(e)[:250])
             try:      # owner 25 Nov: after an error wait 10 minutes before the next try
