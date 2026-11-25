@@ -83,6 +83,10 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-25 | `b4722e5` | Night stop 00:00-04:00 IST (was 05:00); at most 35 news a day per page on Instagram; YouTube up to 35 a day from 04:00, following Instagram; insights test uses today's date |
+| 2026-11-25 | `44dacfa` | stories shared / Instagram pause |
+| 2026-11-25 | `287e6d3` | pick: written and posted |
+| 2026-11-25 | `438af7e` | pick: list sent |
 | 2026-11-25 | `c123a84` | One e-mail per news with its Instagram, Facebook and YouTube links (sent when all three are done or after 45 minutes; max 60 a day for all pages); YouTube follows Instagram: 5-minute gap, 05:00-24:00 IST, up to 30 a day |
 | 2026-11-25 | `d963136` | stories shared / Instagram pause |
 | 2026-11-25 | `a5b6c08` | stories shared / Instagram pause |
@@ -109,8 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-25 | `5e8b7af` | stories shared / Instagram pause |
 | 2026-11-25 | `db34e3b` | stories shared / Instagram pause |
 | 2026-11-25 | `bf210a2` | stories shared / Instagram pause |
-| 2026-11-25 | `e648f6e` | stories shared / Instagram pause |
-| 2026-11-25 | `09906f7` | R2: one folder per page (the repository name) in every job, so the 24-hour clean-up finds every file |
-| 2026-11-25 | `a16a93b` | stories shared / Instagram pause |
-| 2026-11-25 | `7447f08` | Clean-up keeps 24 hours only: Cloudflare R2 (this page's folder), Cloudinary and the media/ fallback folder |
 <!-- recent-changes:end -->
