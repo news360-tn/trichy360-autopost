@@ -30,6 +30,11 @@ env:
   PROMO_URL: ${{ secrets.PROMO_URL || 'https://script.google.com/macros/s/AKfycbxwMsz3A3kYGIRzrqJ7SS2Yfu-d0kR2zv4DBp8iWS3N3Ax3QEJ6KQxN69XtCTi2qvVF/exec' }}      # owner 20 Nov: approved promotion ads (poster/promo.py) - nothing happens without it
   PROMO_KEY: ${{ secrets.PROMO_KEY }}
   CLOUDINARY_CLOUD: ${{ secrets.CLOUDINARY_CLOUD }}
+  R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}      # owner 25 Nov: Cloudflare R2 replaces Cloudinary (poster/r2host.py)
+  R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+  R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+  R2_BUCKET: news360-media
+  R2_PUBLIC_URL: https://pub-ec316fa6a94f404c993596355ad19128.r2.dev
   CLOUDINARY_PRESET: ${{ secrets.CLOUDINARY_PRESET }}
   CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}      # owner 12 Nov: clean-up of old files (poster/cloudclean.py)
   CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}

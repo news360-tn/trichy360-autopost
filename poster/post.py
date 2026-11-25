@@ -1031,6 +1031,12 @@ def upload(path, kind):
     """owner 24 Nov: a picture Cloudinary refuses is kept in the page's GitHub repository (githost); a video raises as before -
     publish_reel then sends the reel directly to Instagram, and the GitHub link is only the last resort"""
     if kind == "video":
+        import r2host      # owner 25 Nov: Cloudflare R2 first; Cloudinary only when R2 is not set up or refuses
+        if r2host.enabled():
+            try:
+                return r2host.put_file(path, "video")
+            except Exception as e:
+                log("Cloudflare R2 refused the reel - trying Cloudinary:", str(e)[:160])
         return upload_cloudinary(path, kind)
     import githost
     return githost.fallback(lambda: upload_cloudinary(path, kind), path, "image", log=log)

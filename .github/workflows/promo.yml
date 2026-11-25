@@ -14,6 +14,11 @@ env:
   BRIDGE_URL: ${{ secrets.BRIDGE_URL }}
   BRIDGE_KEY: ${{ secrets.BRIDGE_KEY }}
   CLOUDINARY_CLOUD: ${{ secrets.CLOUDINARY_CLOUD }}
+  R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}      # owner 25 Nov: Cloudflare R2 replaces Cloudinary (poster/r2host.py)
+  R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+  R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+  R2_BUCKET: news360-media
+  R2_PUBLIC_URL: https://pub-ec316fa6a94f404c993596355ad19128.r2.dev
   CLOUDINARY_PRESET: ${{ secrets.CLOUDINARY_PRESET }}
   ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 jobs:

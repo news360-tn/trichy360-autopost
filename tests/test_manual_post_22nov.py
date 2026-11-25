@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "poster"))
 import post          # noqa: E402
 
-NOW = datetime(2026, 11, 22, 6, 0, tzinfo=timezone.utc)      # 11:30 IST
+NOW = datetime.now(timezone.utc).replace(hour=6, minute=0, second=0, microsecond=0)      # 11:30 IST today (the list keeps 3 days)
 ROW = {"story_id": "RN-9", "headline_ta": "சாலை பணி", "source": "https://example.com/n/9"}
 
 

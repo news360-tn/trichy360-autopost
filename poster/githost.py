@@ -43,7 +43,19 @@ def host_file(path, kind="image"):
 
 
 def fallback(cloud_fn, path_or_data, kind="image", name="file.jpg", log=print):
-    """cloud_fn() (the Cloudinary upload) first; when it raises and the fallback is set up, the GitHub link instead"""
+    """owner 25 Nov: Cloudflare R2 first (poster/r2host.py, when its secrets are saved), then cloud_fn() (the Cloudinary upload),
+    and when that raises too and the fallback is set up, the GitHub link"""
+    try:
+        import r2host
+        if r2host.enabled():
+            try:
+                if isinstance(path_or_data, (bytes, bytearray)):
+                    return r2host.put(bytes(path_or_data), name, kind)
+                return r2host.put_file(path_or_data, kind)
+            except Exception as e:
+                log(f"Cloudflare R2 refused ({str(e)[:160]}) - trying Cloudinary")
+    except ImportError:
+        pass
     try:
         return cloud_fn()
     except Exception as e:

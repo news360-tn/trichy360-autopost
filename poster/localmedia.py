@@ -90,7 +90,7 @@ def hosted(url, kind="video"):
     path = get(url) or (url[7:] if Path(url[7:]).is_file() else None)
     if not path or not _UPLOADER[0]:
         raise RuntimeError("the file was not sent directly and no copy is left for the link method")
-    log("sending the file directly did not work - this one goes by a Cloudinary link (the post is never lost)")
+    log("sending the file directly did not work - this one goes by a hosted link (R2 or Cloudinary - the post is never lost)")
     _HOSTED[url] = _UPLOADER[0](Path(path), kind)
     return _HOSTED[url]
 
