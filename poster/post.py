@@ -736,6 +736,18 @@ def posts_today_all_pages(now=None):
     return total
 
 
+def combined_mode():
+    """owner 25 Nov: config posted_email "combined" - no e-mail at the Instagram post; ONE e-mail later with all three links.
+    Needs the Promo Hub (PROMO_URL / PROMO_KEY) that sends it; without it the old per-post e-mail stays."""
+    if CONFIG.get("posted_email") != "combined" or DRY:
+        return False
+    try:
+        import promo
+        return promo.enabled()
+    except Exception:
+        return False
+
+
 def posted_quiet():
     """owner 20 Nov: no e-mail per posted reel once the twice-a-day YouTube details e-mail runs (config posted_email "digest" and the
     Promo Hub set up) - Gmail's daily limit was reached with ~200 e-mails a day. Problem e-mails stay instant.
@@ -743,6 +755,8 @@ def posted_quiet():
     after that the posts are only in the daily summary (00:10 IST) - so Hold / manual-post / YouTube e-mails always have room."""
     if CONFIG.get("posted_email") == "digest" and bool(os.environ.get("PROMO_URL") and os.environ.get("PROMO_KEY")):
         return True
+    if combined_mode():
+        return True      # owner 25 Nov: the combined e-mail (Instagram + Facebook + YouTube) is sent later by combined_email.py
     if DRY:
         return False
     try:
@@ -1572,7 +1586,7 @@ def link_hold(row):
 POSTED_DIR = ROOT / "poster" / "posted"      # owner 21 Nov: one small record per posted news (the posted report reads them)
 
 
-def record_posted(sid, row, link, kind="reel"):
+def record_posted(sid, row, link, kind="reel", media_id="", caption=""):
     """owner 21 Nov ("news posted e-mail not received - I don't know if news is posted"): every posted news leaves a tiny file
     poster/posted/<UTC time>-<page>-<story>.json (committed by post.yml); news360's posted_report.py e-mails ONE report for all
     pages 4 times a day. Files older than 3 days are removed. Never raises."""
@@ -1586,6 +1600,8 @@ def record_posted(sid, row, link, kind="reel"):
                 f.unlink()
         rec = {"page": PAGE, "story": sid, "kind": kind, "headline": str((row or {}).get("headline_ta") or "")[:200], "link": link or "",
                "at": now.isoformat(timespec="seconds")}
+        if combined_mode():      # owner 25 Nov: one e-mail with the Instagram, Facebook and YouTube links (poster/combined_email.py)
+            rec.update(combined=True, media_id=str(media_id or ""), caption=str(caption or "")[:2200])
         (POSTED_DIR / f"{now:%Y%m%d-%H%M%S}-{PAGE}-{sid}.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
     except Exception as e:
         log("posted record not saved:", str(e)[:120])
@@ -2313,7 +2329,7 @@ def run_ready_reel(row, page):
         COLLAB = collab_page(row, PAGE)
         mid, link, collab_ok, why = publish_reel(token, url, caption, bool(COLLAB), "")
         log("ready reel posted", sid, link)
-        record_posted(sid, row, link, "ready reel")      # owner 21 Nov: for the posted report
+        record_posted(sid, row, link, "ready reel", mid, caption)      # owner 21 Nov: for the posted report
         try:
             publish_story(token, url, "video", row)
         except Exception as e:
@@ -2619,7 +2635,7 @@ def run_story_page(row, page):
                 mid, link, collab_ok, why = publish_reel(token, url, caption, collab, cover_url)
                 published = True
                 log("reel posted", sid, link)
-                record_posted(sid, row, link)      # owner 21 Nov: for the posted report
+                record_posted(sid, row, link, "reel", mid, caption)      # owner 21 Nov: for the posted report
                 if PROMO_NOW:      # owner 20 Nov: counted for the promotion's reels-a-day limit
                     import promo
                     promo.mark_used(PROMO_NOW, PAGE, sid)
@@ -2998,6 +3014,11 @@ def main():
             ytupload.catchup(sys.modules[__name__])
         except Exception as e:
             log("YouTube upload skipped:", str(e)[:150])
+        try:      # owner 25 Nov: ONE e-mail per news with its Instagram, Facebook and YouTube links
+            import combined_email
+            combined_email.run(sys.modules[__name__])
+        except Exception as e:
+            log("combined posted e-mail skipped:", str(e)[:150])
         log(f"{len(rows)} stories in the queue, ready to post: {n}")
         dashboard_status(n)      # owner 22 Nov: the owner's private dashboard reads poster/dashboard_status.json
         if rows:

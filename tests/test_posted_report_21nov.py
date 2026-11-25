@@ -28,8 +28,8 @@ class PostedRecord(unittest.TestCase):
 
     def test_both_reel_paths_record_it(self):
         src = (ROOT / "poster" / "post.py").read_text(encoding="utf-8")
-        self.assertIn('log("reel posted", sid, link)\n                record_posted(sid, row, link)', src)
-        self.assertIn('log("ready reel posted", sid, link)\n        record_posted(sid, row, link, "ready reel")', src)
+        self.assertIn('log("reel posted", sid, link)\n                record_posted(sid, row, link, "reel", mid, caption)', src)
+        self.assertIn('log("ready reel posted", sid, link)\n        record_posted(sid, row, link, "ready reel", mid, caption)', src)
         wf = (ROOT / ".github" / "workflows" / "post.yml").read_text(encoding="utf-8")
         self.assertIn("git add -f poster/posted", wf)
 

@@ -81,7 +81,7 @@ class Wiring(unittest.TestCase):
         self.assertIn("if (!b.quiet) GmailApp.sendEmail(OWNER_EMAIL", gs)
         cfg = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))
         self.assertEqual(cfg["reel_design"], "v4")
-        self.assertEqual(cfg["posted_email"], "each")      # owner 24 Nov: an e-mail per posted news again
+        self.assertEqual(cfg["posted_email"], "combined")      # owner 25 Nov: ONE e-mail per news with all three links
 
 
 def m(ts, cap):

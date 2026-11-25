@@ -60,8 +60,8 @@ class YouTubeUpload(unittest.TestCase):
             up.assert_called_once()
             self.assertIn("மின் தடை", up.call_args.args[2])      # the power cut first (rasipalan never)
             self.assertEqual(up.call_args.args[5], "public")      # owner 23 Nov: uploads go out public
-            self.run_once(NOW + timedelta(minutes=30)).assert_not_called()      # 90 minutes apart
-            up = self.run_once(NOW + timedelta(minutes=95))
+            self.run_once(NOW + timedelta(minutes=3)).assert_not_called()      # owner 25 Nov: 5 minutes apart, like Instagram
+            up = self.run_once(NOW + timedelta(minutes=10))
             self.assertIn("சாலை", up.call_args.args[2])      # then the next one - never the same reel twice
             self.run_once(NOW + timedelta(minutes=200)).assert_not_called()      # nothing new left (rasipalan is not uploaded)
 
