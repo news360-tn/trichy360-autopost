@@ -83,6 +83,10 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-25 | `0ce92c1` | After a posting error wait 10 minutes before the next try (Instagram, Facebook, YouTube); YouTube and Facebook 20 a day; rasipalan and gold rate on YouTube too, first, outside the 20 |
+| 2026-11-25 | `877f643` | stories shared / Instagram pause |
+| 2026-11-25 | `1a22343` | stories shared / Instagram pause |
+| 2026-11-25 | `5d12270` | stories shared / Instagram pause |
 | 2026-11-25 | `2d46da0` | Posting order: power cut / shutdown first, then High, then the topic this page's insights rank best, then oldest first |
 | 2026-11-25 | `496923a` | stories shared / Instagram pause |
 | 2026-11-25 | `b4722e5` | Night stop 00:00-04:00 IST (was 05:00); at most 35 news a day per page on Instagram; YouTube up to 35 a day from 04:00, following Instagram; insights test uses today's date |
@@ -109,8 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-25 | `ac66182` | stories shared / Instagram pause |
 | 2026-11-25 | `9581aea` | stories shared / Instagram pause |
 | 2026-11-25 | `e767caf` | stories shared / Instagram pause |
-| 2026-11-25 | `93b1595` | stories shared / Instagram pause |
-| 2026-11-25 | `1df9837` | stories shared / Instagram pause |
-| 2026-11-25 | `223ea2d` | stories shared / Instagram pause |
-| 2026-11-25 | `5e8b7af` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
