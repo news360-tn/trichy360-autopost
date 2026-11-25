@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-25T15:03:02+00:00",
+ "updated": "2026-11-25T15:12:41+00:00",
  "day": "2026-11-25",
- "ready": 2,
+ "ready": 3,
  "pages": {
   "trichy": {
    "label": "திருச்சி 360",
@@ -57,7 +57,7 @@
       "kind": "reel"
      }
     ],
-    "paused": "",
+    "paused": "Instagram had a temporary error - posting again after 5 minutes on trichy - paused until 2026-11-25T15:19 UTC",
     "quota": ""
    },
    "facebook": {
