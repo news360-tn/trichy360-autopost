@@ -58,14 +58,16 @@ def busy(rs, now, minutes):
 
 def posted_today(folder, prefix, today):
     """True when every saved post file in folder (name starting with prefix) is dated today; None when there is no such file"""
-    files = [n for n in (names(folder) or []) if n.startswith(prefix) and n.endswith(".json")]
+    files = [n for n in (names(folder) or []) if n.startswith(prefix) and n.endswith(".json")
+             and not n.startswith("rasis_")]      # owner 25 Nov: rasis_<page>_<date>.json is the shared rasipalan text, not a post record
     if not files:
         return None
     for n in files:
         try:
-            if json.loads(raw(f"{folder}/{n}") or "{}").get("date") != today:
-                return False
+            d = json.loads(raw(f"{folder}/{n}") or "{}")
         except ValueError:
+            return False
+        if isinstance(d, dict) and d.get("date") != today:
             return False
     return True
 
