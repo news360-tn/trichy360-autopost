@@ -83,6 +83,26 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-25 | `c0b75a3` | R2: accept the Account ID pasted as a link or with spaces; clear message when it is another value |
+| 2026-11-25 | `0f59941` | stories shared / Instagram pause |
+| 2026-11-25 | `07e54b7` | stories shared / Instagram pause |
+| 2026-11-25 | `94d447a` | stories shared / Instagram pause |
+| 2026-11-25 | `b36f9b8` | stories shared / Instagram pause |
+| 2026-11-25 | `1f61e85` | stories shared / Instagram pause |
+| 2026-11-25 | `cd6e987` | stories shared / Instagram pause |
+| 2026-11-25 | `196c5ae` | stories shared / Instagram pause |
+| 2026-11-25 | `5a7dbe6` | stories shared / Instagram pause |
+| 2026-11-25 | `04457af` | stories shared / Instagram pause |
+| 2026-11-25 | `bddf24f` | stories shared / Instagram pause |
+| 2026-11-25 | `df6ff8f` | stories shared / Instagram pause |
+| 2026-11-25 | `2bf8c67` | stories shared / Instagram pause |
+| 2026-11-25 | `687ea71` | stories shared / Instagram pause |
+| 2026-11-25 | `6151412` | stories shared / Instagram pause |
+| 2026-11-25 | `ae3a508` | stories shared / Instagram pause |
+| 2026-11-25 | `176d8c2` | stories shared / Instagram pause |
+| 2026-11-25 | `de45496` | stories shared / Instagram pause |
+| 2026-11-25 | `599461e` | stories shared / Instagram pause |
+| 2026-11-25 | `0ac5066` | stories shared / Instagram pause |
 | 2026-11-25 | `c5e1b58` | YouTube: public Shorts, 20 a day, 40-minute gap, 7am-10pm IST (same as Namakkal and Coimbatore); starts once the page's YT secrets are saved |
 | 2026-11-25 | `9229e94` | stories shared / Instagram pause |
 | 2026-11-25 | `24c1dc5` | R2 check: manual workflow that uploads a test file and reads it back |
@@ -93,24 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-25 | `15f21e5` | stories shared / Instagram pause |
 | 2026-11-25 | `0073401` | stories shared / Instagram pause |
 | 2026-11-25 | `ee0effa` | stories shared / Instagram pause |
-| 2026-11-25 | `1b6ddd6` | stories shared / Instagram pause |
-| 2026-11-25 | `8d7b7dd` | stories shared / Instagram pause |
-| 2026-11-25 | `44ef590` | stories shared / Instagram pause |
-| 2026-11-25 | `9b92ce9` | Cloudflare R2 (one shared bucket news360-media) replaces Cloudinary: R2 first, then Cloudinary, then the repo; nothing changes until the R2 secrets are saved; manual-post test uses today's date |
-| 2026-11-25 | `dd34c19` | stories shared / Instagram pause |
-| 2026-11-25 | `7f6a5a9` | stories shared / Instagram pause |
-| 2026-11-25 | `14afd2a` | stories shared / Instagram pause |
-| 2026-11-25 | `d962f72` | stories shared / Instagram pause |
-| 2026-11-25 | `d5c7188` | stories shared / Instagram pause |
-| 2026-11-25 | `5242c3e` | stories shared / Instagram pause |
-| 2026-11-25 | `da7c436` | stories shared / Instagram pause |
-| 2026-11-25 | `c1ab013` | stories shared / Instagram pause |
-| 2026-11-25 | `87e656a` | stories shared / Instagram pause |
-| 2026-11-25 | `cb742ab` | stories shared / Instagram pause |
-| 2026-11-25 | `9acb4e4` | stories shared / Instagram pause |
-| 2026-11-25 | `54098a7` | stories shared / Instagram pause |
-| 2026-11-25 | `b9b43fb` | stories shared / Instagram pause |
-| 2026-11-25 | `77482d3` | autofix: corrected held news |
-| 2026-11-25 | `17ed91f` | stories shared / Instagram pause |
-| 2026-11-25 | `ff06d79` | Rasipalan: each page keeps the day's 12 rasi texts; when every AI writer is busy, a page uses the text another 360 page wrote that day |
 <!-- recent-changes:end -->
