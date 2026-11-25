@@ -1,90 +1,12 @@
 {
- "updated": "2026-11-25T18:28:27+00:00",
- "day": "2026-11-25",
- "ready": 1,
+ "updated": "2026-11-25T18:31:24+00:00",
+ "day": "2026-11-26",
+ "ready": 0,
  "pages": {
   "trichy": {
    "label": "திருச்சி 360",
    "instagram": {
-    "posted": [
-     {
-      "id": "RN-144",
-      "head": "சோமரசம்பேட்டை அருகே பெண் இறப்பில் சந்தேகம்: உறவினர்கள் சாலை மறியல்",
-      "link": "https://www.instagram.com/reel/DgJJw5ChENb/",
-      "at": "2026-11-24T23:38:40+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-146",
-      "head": "திருச்சியில் பங்குச் சந்தை மோசடி: ஓய்வு பெற்ற வங்கி ஊழியர் ரூ.57.33 லட்சம் இழப்பு",
-      "link": "https://www.instagram.com/reel/DgJJ-z4Tjvq/",
-      "at": "2026-11-24T23:40:40+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-145",
-      "head": "ஸ்ரீரங்கம் கோயிலில் பக்தர் மயங்கி விழுந்து உயிரிழப்பு",
-      "link": "https://www.instagram.com/reel/DgJLxNeTWKx/",
-      "at": "2026-11-24T23:55:57+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-143",
-      "head": "ஸ்ரீரங்கம், திருவானைக்காவல் கோயில்களில் கார்த்திகை சொக்கப்பனை கொளுத்தப்பட்டது",
-      "link": "https://www.instagram.com/reel/DgJNVpRzOh_/",
-      "at": "2026-11-25T00:09:41+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-149",
-      "head": "பொன்னம்பட்டி பேரூராட்சியில் மழைநீர் சேகரிப்பு விழிப்புணர்வு கூட்டம்",
-      "link": "https://www.instagram.com/reel/DgJT9Qmg5CS/",
-      "at": "2026-11-25T01:07:26+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-148",
-      "head": "துவரங்குறிச்சி அருகே 12,501 அகல் விளக்குகளால் ஜொலித்த பிரம்மாண்ட சிவலிங்கம்!",
-      "link": "https://www.instagram.com/reel/DgJVwQZM0a8/",
-      "at": "2026-11-25T01:23:31+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-150",
-      "head": "திருச்சி மாவட்டத்தில் நாளை மின்தடை: புல்லுகம்பட்டி, இளமணம் உள்ளிட்ட இடங்களில் மின் விநியோகம் நிறுத்தம்",
-      "link": "https://www.instagram.com/reel/DgKLAHpts3h/",
-      "at": "2026-11-25T09:08:45+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-152",
-      "head": "திருச்சி விமான நிலையத்தில் துரை வைகோ ஆவேசம்: 84 வயதான வைகோ பற்றி அவதூறு பரப்புவதாகக் கண்டனம்",
-      "link": "https://www.instagram.com/reel/DgK2hkGydyf/",
-      "at": "2026-11-25T15:29:03+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-153",
-      "head": "திருச்சியில் துரை வைகோ ஆவேச பேட்டி: வைகோவை விமர்சிப்போருக்கு சவால்",
-      "link": "https://www.instagram.com/reel/DgK4T99B4Cw/",
-      "at": "2026-11-25T15:44:40+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-154",
-      "head": "பேரவை துணைத் தலைவர் மீது நடவடிக்கை கோரி வழக்கு: துறையூர் இளைஞர் உயர் நீதிமன்றத்தில் மனு",
-      "link": "https://www.instagram.com/reel/DgLGCNOTjHQ/",
-      "at": "2026-11-25T17:44:26+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-155",
-      "head": "திருச்சி அருகே 4 குழந்தைகளுடன் மனைவி மாயம்",
-      "link": "https://www.instagram.com/reel/DgLH9hLB81a/",
-      "at": "2026-11-25T18:01:19+00:00",
-      "kind": "reel"
-     }
-    ],
+    "posted": [],
     "paused": "",
     "quota": ""
    },
@@ -94,28 +16,15 @@
     "share": [],
     "paused": ""
    },
-   "manual_post": [
-    {
-     "id": "RN-152",
-     "why": "Instagram's 24-hour post limit is reached",
-     "sent": "2026-11-25T15:16:31+00:00",
-     "video": true
-    },
-    {
-     "id": "RN-153",
-     "why": "Instagram's 24-hour post limit is reached",
-     "sent": "2026-11-25T15:20:29+00:00",
-     "video": true
-    }
-   ],
+   "manual_post": [],
    "daily": {
     "gold": {
-     "posted": true,
-     "link": "https://www.instagram.com/reel/DgJpY6wQr2p/"
+     "posted": false,
+     "link": ""
     },
     "rasipalan": {
-     "posted": true,
-     "link": "https://www.instagram.com/reel/DgJVKDrB_p0/"
+     "posted": false,
+     "link": ""
     }
    },
    "youtube": {
