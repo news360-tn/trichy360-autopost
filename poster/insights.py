@@ -53,7 +53,7 @@ def recent_media(uid, tok, days=WINDOW_DAYS, max_pages=6, now=None):
     """19 Nov: every post of the last `days` days, newest first (Instagram gives 50 per page; the next page is asked for only while
     the oldest post seen is still inside the window, at most max_pages pages)"""
     cut = (now or datetime.datetime.now(datetime.timezone.utc)) - datetime.timedelta(days=days)
-    fields = "id,caption,timestamp,media_product_type"
+    fields = "id,caption,timestamp,media_product_type,permalink"      # owner 26 Nov: the post's own link, for the team dashboard
     d = post.ig("GET", f"{uid}/media", tok, fields=fields, limit=50)
     items = list(d.get("data") or [])
     for _ in range(max_pages - 1):
@@ -179,6 +179,8 @@ def main():
             if row:
                 hist[i["id"]] = row
                 reads += 1
+            if i.get("permalink") and i["id"] in hist:      # owner 26 Nov: also for posts that are already final (not read again)
+                hist[i["id"]]["permalink"] = i["permalink"]
     os.makedirs(os.path.dirname(HIST), exist_ok=True)
     json.dump(hist, open(HIST, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
