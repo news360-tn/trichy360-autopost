@@ -1,29 +1,9 @@
-08:30:46 round 2026-11-26_08: news published 26 Nov 06:04 -> 26 Nov 08:30 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-08:30:46 insights 2026-11-26T08:30+05:30 (153 reels): topic weights {'accident': 1.5, 'crime': 1.34, 'power_cut': 1.28, 'civic': -0.03, 'education': -0.5, 'politics': -0.3, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.21}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-08:41:16 from_google dinamalar.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 from_google dinamani.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 from_google dinamalar.com 'திருச்சிராப்பள்ளி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 from_google dinamani.com 'திருச்சிராப்பள்ளி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 from_google dinamalar.com 'மணப்பாறை' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 from_google dinamani.com 'மணப்பாறை' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 from_google dinamalar.com 'ஸ்ரீரங்கம்' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 from_google dinamani.com 'ஸ்ரீரங்கம்' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 from_google tamil.oneindia.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 from_google dinakaran.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 from_google dailythanthi.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 from_google maalaimalar.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 from_google hindutamil.in 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 from_google polimernews.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 open search from_google 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-08:41:16 open search 'திருச்சி' (from_bing): 0 links from our outlets
-08:41:16 59 links on the two papers' Trichy pages
-08:41:57 skipped: published before this window=22, already posted=18, same event already posted=8, not Trichy district=4, only a headline=2
-08:41:57 list: 0 new + 1 earlier news not posted yet
-08:41:57    1. [குற்றம்] மனைவி மாயம் கணவர் தற்கொலை (தினமலர்) (earlier)
-08:41:57 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-26_08
-08:41:59    not picked automatically (suicide / obituary - only when the owner ticks it): மனைவி மாயம் கணவர் தற்கொலை
-08:41:59 round 2026-11-26_08 (at least 6, up to 3 more of well-watched topics): 0 news to choose from (0 from earlier rounds), ranked by this page's insights
-08:41:59 decided: automatic: top 6 of 0 by insights -> 0 news to write and post
-PICK_URLS=
-08:42:04 verify 2026-11-26_08: 0 of 0 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+09:45:17 round 2026-11-26_09: news published 26 Nov 08:30 -> 26 Nov 09:45 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+09:45:17 insights 2026-11-26T09:45+05:30 (153 reels): topic weights {'accident': 1.5, 'crime': 1.32, 'power_cut': 1.27, 'civic': -0.03, 'education': -0.5, 'politics': -0.3, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.21}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+09:45:55 open search 'திருச்சி' (from_google): 0 links from our outlets
+09:45:55 68 links on the two papers' Trichy pages
+09:46:33 skipped: published before this window=22, already posted=18, not Trichy district=12, same event already posted=8, only a headline=2, state-wide / other district=1
+09:46:33 list: 0 new + 1 earlier news not posted yet
+09:46:33    1. [குற்றம்] மனைவி மாயம் கணவர் தற்கொலை (தினமலர்) (earlier)
+09:46:33 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-26_09
