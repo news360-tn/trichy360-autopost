@@ -721,7 +721,7 @@
    "title": "Salem Power Cut: சேலத்தில் நாளை (26-11-2026) எங்கெல்லாம் பவர் கட்? - மின் வாரியம் வெளியிட்ட லிஸ்ட்"
   },
   "https://tamil.abplive.com/news/trichy/trichy-power-cut-26-11-2026-know-timings-areas-affected-by-power-shutdown-280534#district-section": {
-   "at": "2026-11-26T14:26:49.738493+05:30",
+   "at": "2026-11-26T18:38:01.077597+05:30",
    "power_cut": true,
    "why": "power cut ends today at 15:00 - too late to post",
    "title": "திருச்சி மாவட்டத்தில் நாளை (26-11-2026) மின்தடை: பல்வேறு பகுதிகளில் (நவம்பர் 26, 2026, வியாழக்கிழமை) மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெற உள்ளதால், காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம் த"
@@ -881,6 +881,48 @@
    "power_cut": false,
    "why": "not this district",
    "title": "தமிழகத்தில் நாளை (17-10-2026) முழு நேர மின்தடை அறிவிப்பு! ஏரியாக்கள் லிஸ்ட் இதோ!"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-dindigul/tomorrow-nov-27-power-outage-1-00-am---1-00-pm/4386670": {
+   "at": "2026-11-26T18:38:01.077597+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "நாளை (நவ.27) மின்தடை (காலை 9:00 – மதியம் 2:00 மணி)"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-dindigul/negligence-in-removing-plants-and-flags-from-power-lines-frequent-power-outages-in-hill-villages-including-kodaikanal/4375441": {
+   "at": "2026-11-26T18:38:01.077597+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "மின்கம்பங்களில் படரும் செடி, கொடிகள் அகற்றத்தில் அலட்சியம்: கொடைக்கானல் உட்பட மலை கிராமங்களில் அடிக்கடி மின்தடை"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-kancheepuram/power-outage-at-uthiramerur-tomorrow/4386662": {
+   "at": "2026-11-26T18:38:01.077597+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "உத்திரமேரூரில் நாளை மறுதினம் (நவ.28) மின்தடை"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-cuddalore/tomorrows-power-outage-cuddalore/4386630": {
+   "at": "2026-11-26T18:38:01.077597+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "நாளை மறுதினம்(நவ.28) மின்தடை: கடலூர்"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-cuddalore/tomorrows-power-outage-cuddalore/4386632": {
+   "at": "2026-11-26T18:38:01.077597+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "நாளை மறுதினம்(நவ.28) மின்தடை: கடலூர்"
+  },
+  "https://tamil.abplive.com/news/tamil-nadu/tamilnadu-power-shutdown-27-11-2026-kovai-salem-power-cut-areas-affected-280621#district-section": {
+   "at": "2026-11-26T18:38:01.077597+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "Tamilnadu Power Cut: தமிழகத்தில் நாளை (27-11-2026) ஏகப்பட்ட ஏரியக்களில் மின் தடை அறிவிப்பு? - உங்க பகுதி இருக்கா? லிஸ்ட் இதோ"
+  },
+  "https://tamil.abplive.com/news/salem/salem-power-cut-27-11-2026-know-timings-areas-affected-by-power-shutdown-280608/amp#district-section": {
+   "at": "2026-11-26T18:38:01.077597+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "Salem Power Cut: சேலத்தில் நாளை (27-11-2026) இங்கெல்லாம் மின்சாரம் இருக்காது? - மின் வாரியம் வெளியிட்ட"
   }
  },
  "done": {
@@ -944,10 +986,6 @@
   }
  },
  "refused": {
-  "Ccf7ca81": {
-   "why": "not filed: duplicate after write",
-   "at": "2026-11-24T15:45:08.336195+05:30"
-  },
   "Ca9011a8": {
    "why": "not filed: all free models failed: no usable answer from the models",
    "at": "2026-11-25T02:34:56.392577+05:30"
@@ -963,6 +1001,10 @@
   "C68daaf9": {
    "why": "not filed: duplicate after write",
    "at": "2026-11-26T01:01:18.585427+05:30"
+  },
+  "C6f34da8": {
+   "why": "not filed: all free models failed: no usable answer from the models",
+   "at": "2026-11-26T18:41:38.918885+05:30"
   }
  }
 }
