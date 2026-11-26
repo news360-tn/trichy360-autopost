@@ -83,6 +83,9 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-26 | `00da487` | Clean-up: with Cloudflare R2 set up, Cloudinary credit/login problems are yellow warnings (backup only) and no longer turn the run red |
+| 2026-11-26 | `46bd26a` | stories shared / Instagram pause |
+| 2026-11-26 | `de94410` | stories shared / Instagram pause |
 | 2026-11-26 | `aaf3cf7` | YouTube: a channel's own upload limit ('exceeded the number of videos') pauses that channel for 2 hours, not the whole day; Erode's day-block cleared |
 | 2026-11-26 | `69452a2` | stories shared / Instagram pause |
 | 2026-11-26 | `c5c45e9` | YouTube: Trichy login was redone - saved channel check cleared so it re-checks at the next upload |
@@ -110,7 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-26 | `fd0d258` | stories shared / Instagram pause |
 | 2026-11-26 | `b213c0e` | stories shared / Instagram pause |
 | 2026-11-26 | `aa33248` | stories shared / Instagram pause |
-| 2026-11-26 | `a03c9ba` | stories shared / Instagram pause |
-| 2026-11-26 | `3cd1e0b` | stories shared / Instagram pause |
-| 2026-11-26 | `3711ced` | pick: written and posted |
 <!-- recent-changes:end -->
