@@ -1,11 +1,23 @@
-22:45:23 round 2026-11-26_22: news published 26 Nov 22:30 -> 26 Nov 22:45 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-22:45:23 insights 2026-11-26T22:45+05:30 (164 reels): topic weights {'accident': 1.08, 'crime': 1.45, 'power_cut': 1.24, 'civic': -0.22, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.49, 'poultry_agri': -0.49}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-22:45:40 open search 'திருச்சி' (from_google): 0 links from our outlets
-22:45:40 59 links on the two papers' Trichy pages
-22:46:10 skipped: published before this window=23, already posted=20, same event already posted=8, not Trichy district=4, only a headline=2
-22:46:10 list: 0 new + 0 earlier news not posted yet
-22:46:10 no news in this window - no e-mail
-ROUND=2026-11-26_22
-22:46:12 no list this round - nothing to post
-PICK_URLS=
-22:46:13 verify: no decided round
+01:14:30 round 2026-11-27_01: news published 26 Nov 22:45 -> 27 Nov 01:14 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+01:14:30 insights 2026-11-27T01:14+05:30 (165 reels): topic weights {'accident': 1.12, 'crime': 1.41, 'power_cut': 1.2, 'civic': -0.22, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.49}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+01:24:41 from_google dinamalar.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 from_google dinamani.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 from_google dinamalar.com 'திருச்சிராப்பள்ளி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 from_google dinamani.com 'திருச்சிராப்பள்ளி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 from_google dinamalar.com 'மணப்பாறை' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 from_google dinamani.com 'மணப்பாறை' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 from_google dinamalar.com 'ஸ்ரீரங்கம்' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 from_google dinamani.com 'ஸ்ரீரங்கம்' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 from_google tamil.oneindia.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 from_google dinakaran.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 from_google dailythanthi.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 from_google maalaimalar.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 from_google hindutamil.in 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 from_google polimernews.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 open search from_google 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
+01:24:41 open search 'திருச்சி' (from_bing): 0 links from our outlets
+01:24:41 59 links on the two papers' Trichy pages
+01:25:36 skipped: published before this window=23, already posted=21, same event already posted=8, not Trichy district=4, only a headline=2
+01:25:36 list: 0 new + 0 earlier news not posted yet
+01:25:36 no news in this window - no e-mail
+ROUND=2026-11-27_01

@@ -180,5 +180,31 @@
     "Salem, Tamil Nadu": 23
    }
   }
+ },
+ "2026-11-27": {
+  "trichy": {
+   "reach": 34035,
+   "reach_by_follow_type": {
+    "NON_FOLLOWER": 32373,
+    "FOLLOWER": 1650
+   },
+   "follower_cities": {
+    "Tiruchirappalli, Tamil Nadu": 1012,
+    "Manapparai, Tamil Nadu": 368,
+    "Chennai, Tamil Nadu": 209,
+    "Kulittalai, Tamil Nadu": 148,
+    "Lalgudi, Tamil Nadu": 87,
+    "Musiri, Tamil Nadu": 53,
+    "Tuticorin, Tamil Nadu": 50,
+    "Madurai, Tamil Nadu": 42,
+    "Karur, Tamil Nadu": 41,
+    "Turaiyur, Tamil Nadu": 40,
+    "Coimbatore, Tamil Nadu": 36,
+    "Tiruchengodu, Tamil Nadu": 36,
+    "Palladam, Tamil Nadu": 33,
+    "Tirupur, Tamil Nadu": 32,
+    "Mannachanallur, Tamil Nadu": 30
+   }
+  }
  }
 }
