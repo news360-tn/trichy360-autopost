@@ -3,275 +3,128 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://tamil.abplive.com/news/trichy/tragic-accident-near-lalgudi-woman-crossing-the-road-and-a-motorcyclist-killed-village-plunged-into-grief-tnn-280583",
-  "manual link added: https://tamil.abplive.com/news/trichy/heavy-incessant-rain-in-trichy-waterlogging-on-major-roads-causes-severe-hardship-for-motorists-tnn-280579",
-  "manual link added: https://tamil.abplive.com/agriculture/demand-for-rs-40-000-compensation-per-acre-farmers-stage-a-striking-protest-in-trichy-accompanied-by-their-ploughing-oxen-tnn-280598",
-  "candidate filter: collected=3",
-  "to write: 3 Trichy district candidates (max 3 stories)",
-  "round: top 3 of 3 candidates",
-  "candidates waiting: 3 Trichy; time left 79 min",
-  "try (N) manual=True: https://tamil.abplive.com/agriculture/demand-for-rs-40-000-c",
-  "try (N) manual=True: https://tamil.abplive.com/news/trichy/heavy-incessant-rain-i",
-  "try (N) manual=True: https://tamil.abplive.com/news/trichy/tragic-accident-near-l",
+  "manual link added: https://www.maalaimalar.com/news/tamilnadu/rainfall-recorded-in-kayalpattinam",
+  "manual link added: https://www.dailythanthi.com/news/tamilnadu/a-common-candidate-i-will-not-go-and-stand-before-anyone-to-seek-support-seemans-sensational-statement",
+  "candidate filter: collected=2",
+  "to write: 2 Trichy district candidates (max 2 stories)",
+  "round: top 2 of 2 candidates",
+  "candidates waiting: 2 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/a-common-candida",
+  "try (N) manual=True: https://www.maalaimalar.com/news/tamilnadu/rainfall-recorded",
+  "NOT filed (N) பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட: all free models failed: no usable answer from the models",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})",
-  "candidate loop ended: left 0, tried={'N': 3}, done={'N': 3}, time left 77 min",
-  "filed: 3 Trichy district stories (target 3), reels only",
+  "candidate loop ended: left 0, tried={'N': 2}, done={'N': 1}, time left 76 min",
+  "filed: 1 Trichy district stories (target 2), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":3,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":2,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.6-flash (17s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "ok gemini/gemini-3.6-flash (18s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "switching away from gemini/gemini-3.6-flash for 10 min",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "switching away from gemini/gemini-3.6-flash for 10 min",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3.6-flash (24s)",
+  "switching away from gemini/gemini-3.5-flash for 10 min",
+  "ok gemini/gemini-3-flash-preview (12s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.5-flash (13s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "dead for this round: gemini/gemini-3-flash-preview",
-  "ok groq/openai/gpt-oss-120b (4s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing ",
-  "ok groq/openai/gpt-oss-120b (6s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok gemini/gemini-3-flash-preview (27s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok groq/qwen/qwen3.8-27b (1s)",
+  "fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.5-flash",
   "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
   "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok groq/openai/gpt-oss-120b (3s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "ok groq/qwen/qwen3.8-27b (3s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "ok groq/openai/gpt-oss-120b (7s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7"
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
  ],
  "stories": [
   {
-   "tamil_headline": "திருச்சியில் விடாமல் கொட்டிய கனமழை: முக்கிய சாலைகளில் மழைநீர் தேங்கி பொதுமக்கள் கடும் அவதி",
-   "english_headline": "Heavy continuous rain lashes Trichy city; waterlogging in key areas causes severe traffic disruption",
+   "tamil_headline": "காயல்பட்டினத்தில் 18 செ.மீ. மிக கனமழை பதிவு",
+   "english_headline": "18 cm heavy rain recorded in Kayalpattinam, Thoothukudi district",
    "category": "Weather & Agriculture",
-   "location": "Trichy city, Trichy district",
-   "importance": "High",
+   "location": "Kayalpattinam, Thoothukudi district",
+   "importance": "Low",
    "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "மழை செய்தி",
-    "loc": "திருச்சி நகரம்",
-    "hl1": "திருச்சியில் கொட்டிய கனமழை",
-    "hl2": "முக்கிய சாலைகளில் நீர்",
+    "cat": "மழை அளவு",
+    "loc": "காயல்பட்டினம், தூத்துக்குடி",
+    "hl1": "காயல்பட்டினத்தில் 18 செ.மீ. மழை",
+    "hl2": "கடந்த 24 மணி நேரத்தில்",
     "slides": [
      {
-      "title": "கனமழை பதிவானது",
+      "title": "மிக கனமழை",
       "lines": [
-       "திருச்சி மாநகரில் நேற்று <b>விடாமல் கனமழை</b> பெய்தது",
-       "காலை 10 மணிக்குத் தொடங்கி 1 மணி நேரம் கொட்டியது",
-       "பிற்பகலிலும் மழை தொடர்ந்ததால் இயல்பு வாழ்க்கை பாதிப்பு"
+       "காயல்பட்டினத்தில் <b>18 செ.மீ.</b> மழை",
+       "திருச்செந்தூரில் <b>12 செ.மீ.</b> மழை",
+       "கடந்த 24 மணி நேரத்தில் பதிவு"
       ]
      },
      {
-      "title": "பாதிக்கப்பட்ட",
+      "title": "கனமழை இடங்கள்",
       "lines": [
-       "<b>சத்திரம்</b>, தில்லை நகர், மத்திய பேருந்து நிலையத்தில்",
-       "ரயில் நிலையம், காந்தி மார்க்கெட், புத்தூர் பகுதிகளில்",
-       "மேலப்புதூர் சுரங்கப்பாதை, பாலக்கரை, தென்னூர் பாதிப்பு"
+       "தயனூர் (திருச்சி) <b>9 செ.மீ.</b> மழை",
+       "வேளாங்கன்னி, ஊத்து, குலசேகரபட்டினம் தலா 9 செ.மீ.",
+       "19 இடங்களில் கன மழை பெய்துள்ளது"
       ]
      },
      {
-      "title": "போக்குவரத்து",
+      "title": "மற்ற இடங்கள்",
       "lines": [
-       "சாலைகளில் மழைநீர் தேங்கியதால் <b>வாகனங்கள் ஊர்ந்து சென்றன</b>",
-       "இருசக்கர வாகன ஓட்டிகள், மாணவர்கள் கடும் சிரமம்",
-       "மாநகராட்சி பணியாளர்கள் தண்ணீரை அகற்றும் பணியில் ஈடுபட்டனர்"
-      ]
-     },
-     {
-      "title": "பொதுமக்கள்",
-      "lines": [
-       "மழைநீர் வடிகால்களைத் <b>தூர்வாரி சீரமைக்க</b> கோரிக்கை",
-       "மின் கம்பங்கள், திறந்த வடிகால் அருகே கவனமாக இருங்கள்",
-       "தேங்கிய நீரில் வாகனங்களை மெதுவாக இயக்கம் செய்ய அறிவுறுத்தல்"
+       "கொமுகை அணை, தம்மம்பட்டி தலா <b>8 செ.மீ.</b>",
+       "வத்தலை அணைக்கட்டு, நாலுமுக்கு, அம்மன்புரம் தலா 8 செ.மீ.",
+       "மொத்தம் 19 இடங்களில் கன மழை"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சி மாநகரில் நேற்று விடாமல் கொட்டிய கனமழையால் இயல்பு வாழ்க்கை பாதிக்கப்பட்டது. நேற்று காலை 10 மணி அளவில் தொடங்கிய பலத்த மழை 1 மணி நேரத்திற்கு மேலாக தொடர்ந்து பெய்தது. பிற்பகலுக்குப் பிறகும் மீண்டும் பெய்த மழையால் சாலைகளில் தண்ணீர் பெருக்கெடுத்து ஓடியது. சத்திரம் பேருந்து நிலையம், தில்லை நகர், மத்திய பேருந்து நிலையம், ரயில் நிலைய ரவுண்டானா பகுதிகளில் மழைநீர் தேங்கியது. மேலும் காந்தி மார்க்கெட், புத்தூர், மேலப்புதூர் சுரங்கப்பாதை, பாலக்கரை, தென்னூர் ஆகிய இடங்களிலும் தண்ணீர் சூழ்ந்தது. இதனால் இருசக்கர வாகன ஓட்டிகள், பள்ளி மாணவர்கள் மற்றும் பொதுமக்கள் கடும் சிரமத்திற்கு ஆளாகினர். தேங்கிய நீரால் பல இடங்களில் வாகனங்கள் ஒன்றன்பின் ஒன்றாக ஊர்ந்து செல்லும் சூழல் உருவானது. மாநகராட்சி பணியாளர்கள் மழைநீரை வெளியேற்றும் பணியில் தீவிரமாக ஈடுபட்டனர். மழைநீர் வடிகால்களைத் தூர்வாரி நிரந்தரத் தீர்வு காண வேண்டும் என்று பொதுமக்கள் கோரிக்கை விடுத்துள்ளனர். மழை தொடரும் என்பதால் அறுந்து கிடக்கும் மின்கம்பிகள் மற்றும் திறந்த வடிகால்கள் அருகே செல்ல வேண்டாம் என்று எச்சரிக்கப்பட்டுள்ளனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🌧️ திருச்சியில் விடாமல் கொட்டிய கனமழை: முக்கிய சாலைகளில் மழைநீர் தேக்கம்!\n\n📰 முழு விவரம்:\nவடகிழக்கு பருவமழை தீவிரமடைந்துள்ள நிலையில், திருச்சி மாநகரில் நேற்று காலை 10 மணி முதல் விடாமல் கனமழை பெய்தது. ஒரு மணி நேரத்திற்கும் மேலாக பெய்த கனமழையாலும், பிற்பகலில் நீடித்த மழையாலும் நகரின் முக்கிய சாலைகளில் வெள்ளநீர் பெருக்கெடுத்து ஓடியது.\nசத்திரம் பேருந்து நிலையம், தில்லைநகர் பிரதான சாலை, மத்திய பேருந்து நிலையம், ரயில் நிலைய ரவுண்டானா, காந்தி மார்க்கெட், புத்தூர், மேலப்புதூர் சுரங்கப்பாதை, பாலக்கரை, தென்னூர் ஆகிய பகுதிகளில் மழைநீர் தேங்கி நிற்கிறது.\nபேருந்து நிலையங்கள் மற்றும் சுரங்கப்பாதைகளில் நீர் தேங்கியதால் பொதுமக்கள், வாகன ஓட்டிகள் மற்றும் பள்ளி மாணவர்கள் பெரும் சிரமத்திற்கு ஆளாகினர். மாநகராட்சி பணியாளர்கள் மழைநீரை வெளியேற்றும் நடவடிக்கைகளில் ஈடுபட்டனர். மழைநீர் வடிகால்களைத் தூர்வாரி நிரந்தரத் தீர்வு காண வேண்டும் என திருச்சி மக்கள் கோரிக்கை விடுத்துள்ளனர்.\n\n📍 இடம்: திருச்சி மாநகரப் பகுதிகள்\n🗓️ நாள்: 25 நவம்பர் 2026 (புதன்கிழமை)\n⚠️ எச்சரிக்கை: அறுந்து கிடக்கும் மின்கம்பிகள், திறந்த வடிகால்கள் அருகே செல்ல வேண்டாம். வாகனங்களை மெதுவாக இயக்கவும்.\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்!\n\nHeavy rain causes waterlogging in Trichy city roads | Trichy news\n📍 Trichy city, Trichy district | 26 November 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyRain #மழை #திருச்சி",
-   "prompts": "Waterlogged main street near Central Bus Stand in Trichy city, Tamil Nadu, heavy grey rainwater standing along the asphalt road edges, town buses and two-wheelers moving slowly with bright headlight reflections in the water, commuters holding umbrellas walking along wet pavements, low overcast grey monsoon sky, wide street view. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nInundated underpass subway at Melaputhur in Trichy city after rain, standing rainwater pooling on the roadway, two-wheeler riders navigating carefully through the water, municipal workers in safety jackets inspecting side drain outlets, realistic Tamil Nadu urban scene, overcast rainy daylight. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://tamil.abplive.com/news/trichy/heavy-incessant-rain-in-trichy-waterlogging-on-major-roads-causes-severe-hardship-for-motorists-tnn-280579",
-   "published": "2026-11-26T10:31:57+05:30",
-   "verification": "DRAFT (gemini/gemini-3.5-flash) - fact-check: no problems found",
-   "note": "free-model draft gemini/gemini-3.5-flash, 2 attempt(s), 0 validator problem(s)",
+   "reel_script": "காயல்பட்டினத்தில் கடந்த 24 மணி நேரத்தில் 18 சென்டிமீட்டர் மழை பெய்துள்ளது. இது மிக கனமழை வகையைச் சேர்ந்தது. திருச்செந்தூரில் 12 சென்டிமீட்டர் மழை பதிவாகியுள்ளது. தயனூர், வேளாங்கன்னி, ஊத்து, குலசேகரபட்டினம் ஆகிய 4 இடங்களில் தலா 9 சென்டிமீட்டர் மழை பெய்துள்ளது. கொமுகை அணை, தம்மம்பட்டி, வத்தலை அணைக்கட்டு, நாலுமுக்கு, அம்மன்புரம் ஆகிய 5 இடங்களில் தலா 8 சென்டிமீட்டர் மழை பதிவாகியுள்ளது. மொத்தம் 19 இடங்களில் கன மழை பெய்துள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🌧️ காயல்பட்டினத்தில் 18 செ.மீ. மிக கனமழை - கடந்த 24 மணி நேரத்தில்\n\n📰 முழு விவரம்:\nகடந்த 24 மணி நேரத்தில் தூத்துக்குடி மாவட்டம் காயல்பட்டினத்தில் 18 செ.மீ. மழை பெய்துள்ளது. இது மிக கனமழை வகையைச் சேர்ந்தது. திருச்செந்தூரில் 12 செ.மீ. மழை பதிவாகியுள்ளது. தயனூர் (திருச்சி), வேளாங்கன்னி, ஊத்து, குலசேகரபட்டினம் ஆகிய இடங்களில் தலா 9 செ.மீ. மழை பெய்துள்ளது. கொமுகை அணை, தம்மம்பட்டி, வத்தலை அணைக்கட்டு, நாலுமுக்கு, அம்மன்புரம் ஆகிய இடங்களில் தலா 8 செ.மீ. மழை பதிவாகியுள்ளது. மொத்தம் 19 இடங்களில் கன மழை பெய்துள்ளது.\n\n📍 இடம்: காயல்பட்டினம், தூத்துக்குடி மாவட்டம்\n🗓️ காலம்: கடந்த 24 மணி நேரம்\nℹ️ விவரம்: காயல்பட்டினம், திருச்செந்தூரில் மிக கனமழை; 19 இடங்களில் கன மழை\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்\n\nKayalpattinam heavy rain 18 cm | Trichy news\n📍 Kayalpattinam, Thoothukudi | 26 Nov 2026\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyRain #TrichyNews #திருச்சி",
+   "prompts": "A wide, photo-realistic view of a heavy downpour in a coastal town in Tamil Nadu, specifically Kayalpattinam. Dark grey storm clouds cover the sky, and thick rain streaks are visible against the dim light. The scene shows a wet asphalt road with puddles reflecting the grey sky. In the background, simple residential buildings and a few coconut trees are visible, typical of the Thoothukudi district. The atmosphere is intense and wet, capturing the moment of heavy rainfall without any people in the foreground to keep the focus on the weather event. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up, photo-realistic shot of a rain gauge or a simple measuring cylinder filled with water, placed on a wet concrete surface. The water level is clearly visible, indicating a significant amount of rainfall. The background is blurred, showing the dark, rainy environment of a Tamil Nadu town. The focus is on the measurement of the rain, symbolizing the 18 cm rainfall recorded in Kayalpattinam. The lighting is natural and dim, consistent with a heavy rainstorm during the day. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.maalaimalar.com/news/tamilnadu/rainfall-recorded-in-kayalpattinam",
+   "published": "2026-11-26T09:55:19Z",
+   "verification": "DRAFT (groq/qwen/qwen3.8-27b) - NOT CLEAN, held from posting - problems: reel_script has 59 words; need 60-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)",
+   "note": "free-model draft groq/qwen/qwen3.8-27b, 2 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261126/e2cb2f52facefb54.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261126/4f17fd9ea3049361.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சியில் உழவு மாடுகளுடன் விவசாயிகள் அதிரடி போராட்டம்: ஏக்கருக்கு ரூ.40,000 நிவாரணம் கோரிக்கை",
-   "english_headline": "Farmers protest with cattle in Trichy demanding ₹40,000 per acre drought relief and loan waiver",
-   "category": "Weather & Agriculture",
-   "location": "District Collector's Office, Trichy city, Trichy district",
-   "importance": "High",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "விவசாயப் போராட்டம்",
-    "loc": "திருச்சி ஆட்சியர் அலுவலகம்",
-    "hl1": "திருச்சியில் விவசாயிகள் அதிரடி போராட்டம்",
-    "hl2": "ஏக்கருக்கு ரூ.40,000",
-    "slides": [
-     {
-      "title": "ஏன் போராட்டம்?",
-      "lines": [
-       "காவிரி நீர் கிடைக்காததால் பயிர்கள் கருகும் அபாயம்",
-       "ஏக்கருக்கு <b>ரூ.40,000</b> வறட்சி நிவாரணம் வழங்கக் கோரிக்கை",
-       "திருச்சி ஆட்சியர் அலுவலகம் அருகே பரபரப்பு"
-      ]
-     },
-     {
-      "title": "நூதனப் போராட்டம்",
-      "lines": [
-       "கையில் பனை ஓலை ஏந்தி விவசாயிகள் ஆர்ப்பாட்டம்",
-       "உழவு மாடுகளுடன் வந்து முழக்கங்களை எழுப்பினர்",
-       "50 விவசாயிகள் சங்கங்களின் கூட்டமைப்பு பங்கேற்பு"
-      ]
-     },
-     {
-      "title": "முக்கிய",
-      "lines": [
-       "விவசாயக் கடன்களை முழுமையாகத் தள்ளுபடி செய்ய வேண்டும்",
-       "காவிரி டெல்டாவை வறட்சிப் பகுதியாக அறிவிக்க வலியுறுத்தல்",
-       "தேர்தல் வாக்குறுதிகளை அரசு நிறைவேற்றக் கோரிக்கை"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சியில் உழவு மாடுகளுடன் விவசாயிகள் நடத்திய அதிரடி போராட்டத்தால் பரபரப்பு ஏற்பட்டது. காவிரி நீர் கிடைக்காததால் சம்பா பயிர்கள் கருகும் அபாயம் ஏற்பட்டுள்ளதாகக் கூறி, ஏக்கருக்கு 40,000 ரூபாய் வறட்சி நிவாரணம் வழங்க விவசாயிகள் வலியுறுத்தினர். நவம்பர் 26ஆம் தேதி திருச்சி மாவட்ட ஆட்சியர் அலுவலகம் அருகே இந்த நூதனப் போராட்டம் நடைபெற்றது. தமிழகத்தின் 50 விவசாயிகள் சங்கங்களின் கூட்டமைப்பைச் சேர்ந்தவர்கள் கையில் பனை ஓலைகளை ஏந்தியும், உழவு மாடுகளை அழைத்து வந்தும் முழக்கங்களை எழுப்பினர். கூட்டமைப்பின் ஒருங்கிணைப்பாளர் விவேகானந்தன் தலைமையில் இந்த ஆர்ப்பாட்டம் நடைபெற்றது. கூட்டுறவு விவசாயக் கடன்களை முழுமையாகத் தள்ளுபடி செய்ய வேண்டும் என்றும், தேர்தல் வாக்குறுதிகளை அரசு நிறைவேற்ற வேண்டும் என்றும் அவர்கள் கோரிக்கை விடுத்தனர். காவிரி டெல்டா பகுதிகளை வறட்சி பாதித்த இடங்களாக அறிவிக்க வேண்டும் என விவசாயிகள் வலியுறுத்தினர். மகாராஷ்டிரா மாநிலத்தைப் போல தமிழகத்திலும் விவசாயிகளுக்கு நிவாரணம் வழங்க வேண்டும் என விவேகானந்தன் தெரிவித்தார். கோரிக்கைகள் நிறைவேற்றப்படாவிட்டால் மாநில அளவில் போராட்டத்தைத் தீவிரப்படுத்துவோம் என விவசாயிகள் எச்சரித்துள்ளனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚜 திருச்சியில் உழவு மாடுகளுடன் விவசாயிகள் அதிரடி போராட்டம் - ஏக்கருக்கு ரூ.40,000 நிவாரணம் கோரிக்கை\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்ட ஆட்சியர் அலுவலகம் அருகே இன்று (நவ. 26) விவசாயிகள் நூதன முறையில் ஆர்ப்பாட்டத்தில் ஈடுபட்டனர். காவிரி நீர் உரிய நேரத்தில் கிடைக்காததால் சம்பா சாகுபடி பயிர்கள் கருகும் நிலையில் உள்ளதாக விவசாயிகள் கவலை தெரிவித்துள்ளனர்.\n📍 இடம்: மாவட்ட ஆட்சியர் அலுவலகம், திருச்சி\n🌾 கோரிக்கைகள்:\n1. வறட்சியால் பாதிக்கப்பட்ட பயிர்களுக்கு ஏக்கருக்கு ரூ.40,000 நிவாரணம் வழங்க வேண்டும்.\n2. கூட்டுறவு வங்கிகளில் பெற்றுள்ள விவசாயக் கடன்களை முழுமையாகத் தள்ளுபடி செய்ய வேண்டும்.\n3. காவிரி டெல்டா பகுதிகளை வறட்சி பாதித்த பகுதிகளாக அறிவிக்க வேண்டும்.\n4. தேர்தல் நேரத்தில் அளித்த வாக்குறுதிகளை அரசு உடனடியாக நிறைவேற்ற வேண்டும்.\nதமிழகத்தின் 50 விவசாயிகள் சங்கங்களின் கூட்டமைப்பு சார்பில் நடைபெற்ற இந்த போராட்டத்திற்கு ஒருங்கிணைப்பாளர் விவேகானந்தன் தலைமை தாங்கினார். கையில் பனை ஓலைகளை ஏந்தியும், உழவு மாடுகளை அழைத்து வந்தும் விவசாயிகள் தங்கள் எதிர்ப்பைப் பதிவு செய்தனர். கோரிக்கைகள் நிறைவேறாவிட்டால் போராட்டம் மாநில அளவில் தீவிரப்படுத்தப்படும் என எச்சரிக்கப்பட்டுள்ளது.\n\nFarmers protest with cattle in Trichy demanding drought relief | Trichy news\n📍 Trichy Collectorate, Trichy | 26 November 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #FarmersProtest #திருச்சி",
-   "prompts": "A group of farmers protests outside the District Collector's Office in Trichy city, holding palm leaves high in their hands. The scene is set on the paved road in front of the government building, with the office facade visible in the background. Dozens of men, dressed in simple shirts and trousers or veshti, stand in a dense crowd, facing away from the camera towards the building entrance. They are raising their arms, holding large green palm leaves as symbolic placards. In the foreground, two brown bullocks stand tethered, representing the agricultural sector, while the farmers gather around them. The atmosphere is tense but orderly, with the crowd filling the space between the road and the office gate. Daylight illuminates the scene, casting sharp shadows on the concrete. The camera is positioned at eye level, 35 mm lens, capturing the width of the crowd and the official building behind them, emphasizing the scale of the protest against the drought and loan issues. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up view of a farmer's hands gripping a large, fresh green palm leaf, held upright as a symbol of the protest. The leaf is vibrant and detailed, contrasting with the rough, weathered skin of the farmer's hands. In the blurred background, the legs of a bullock and the lower bodies of other protesting farmers are visible, standing on the dusty roadside near the District Collector's Office. The focus is sharp on the palm leaf, highlighting it as the central object of the demonstration. The light is bright daylight, creating a strong contrast between the green leaf and the earthy tones of the surroundings. The camera is slightly high, looking down at the hands and leaf, with a shallow depth of field to isolate the object from the crowd behind. This detail shot emphasizes the traditional agricultural symbol used in the demand for drought relief and loan waivers. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://tamil.abplive.com/agriculture/demand-for-rs-40-000-compensation-per-acre-farmers-stage-a-striking-protest-in-trichy-accompanied-by-their-ploughing-oxen-tnn-280598",
-   "published": "2026-11-26T11:45:00+05:30",
-   "verification": "DRAFT (gemini/gemini-3-flash-preview) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 40 ('திருச்சி: காவிரி நீர் கிடைக்காததால் பயிர்கள் கருகும் அபாயம் '); 40 ('மேலும் விவசாயிகளுக்கு ஏக்கருக்கு ரூ.40 ஆயிரம் வறட்சி நிவாரணம')",
-   "note": "free-model draft gemini/gemini-3-flash-preview, 2 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261126/85ed1c46e4b46368.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261126/ed600d82b2e9c6a9.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "லால்குடி அருகே விபத்து: ரேஸ் பைக் மோதி 40 வயது பெண் உட்பட 2 பேர் உயிரிழப்பு",
-   "english_headline": "Two killed near Lalgudi after speed bike hits pedestrian crossing the national highway",
-   "category": "Crime & Safety",
-   "location": "Kallakudi, Lalgudi taluk, Trichy district",
-   "importance": "High",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "சாலை விபத்து",
-    "loc": "கல்லக்குடி, லால்குடி",
-    "hl1": "லால்குடி அருகே 2 பேர் உயிரிழப்பு",
-    "hl2": "வேகமாக வந்த பைக் மோதியது",
-    "slides": [
-     {
-      "title": "எங்கே நடந்தது?",
-      "lines": [
-       "திருச்சி – சிதம்பரம் தேசிய நெடுஞ்சாலை",
-       "கல்லக்குடி கே.கே.நகர் அருகே இரவு நேரத்தில் விபத்து"
-      ]
-     },
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "உணவகத்திற்குச் செல்ல <b>40 வயது</b> பெண் சாலையைக் கடந்துள்ளார்",
-       "அப்போது அதிவேகமாக வந்த பைக் மோதியது"
-      ]
-     },
-     {
-      "title": "உயிரிழப்பு விவரம்",
-      "lines": [
-       "சம்பவ இடத்திலேயே <b>40 வயது</b> பெண் உயிரிழந்தார்",
-       "பைக் ஓட்டி வந்த இளைஞர் திருச்சி <b>GH</b>-ல் உயிரிழந்தார்",
-       "படுகாயமடைந்த பெண்ணின் மகன் சிகிச்சை பெற்று வருகிறார்"
-      ]
-     },
-     {
-      "title": "போலீஸ் நடவடிக்கை",
-      "lines": [
-       "கல்லக்குடி போலீசார் வழக்குப்பதிவு செய்தனர்",
-       "தேசிய நெடுஞ்சாலையில் வேகக்கட்டுப்பாடு அமைக்க கோரிக்கை"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "லால்குடி அருகே திருச்சி - சிதம்பரம் தேசிய நெடுஞ்சாலையில் பைக் மோதிய விபத்தில் 2 பேர் உயிரிழந்தனர். கல்லக்குடி கே கே நகர் பகுதியில் 40 வயது பெண் ஒருவர் தனது மகனுடன் உணவகத்திற்குச் செல்லச் சாலையைக் கடந்துள்ளார். அப்போது திருச்சி - சிதம்பரம் தேசிய நெடுஞ்சாலையில் அதிவேகமாக வந்த பைக் அவர்கள் மீது மோதியது. இந்த மோதலில் தூக்கி வீசப்பட்ட 40 வயது பெண் சம்பவ இடத்திலேயே பரிதாபமாக உயிரிழந்தார். பைக் ஓட்டி வந்த இளைஞரும், பெண்ணின் மகனும் பலத்த காயமடைந்தனர். 108 ஆம்புலன்ஸ் ஊழியர்கள் இருவரையும் மீட்டு லால்குடி அரசு மருத்துவமனைக்குக் கொண்டு சென்றனர். பின்னர் மேல் சிகிச்சைக்காக திருச்சி அரசு மருத்துவமனைக்கு அனுப்பி வைக்கப்பட்ட நிலையில், பைக் ஓட்டிய இளைஞர் சிகிச்சை பலனின்றி உயிரிழந்தார். பெண்ணின் மகன் திருச்சி அரசு மருத்துவமனையில் தொடர்ந்து தீவிர சிகிச்சை பெற்று வருகிறார். இந்த விபத்து குறித்து கல்லக்குடி போலீசார் வழக்குப்பதிவு செய்து விசாரணை நடத்தி வருகின்றனர். தேசிய நெடுஞ்சாலையில் வேகக்கட்டுப்பாடு மற்றும் பாதுகாப்பு வசதிகள் அமைக்க வேண்டும் என அப்பகுதி மக்கள் கோரிக்கை விடுத்துள்ளனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 லால்குடி அருகே சோகம்: தேசிய நெடுஞ்சாலையில் பைக் மோதி 40 வயது பெண் உட்பட 2 பேர் உயிரிழப்பு\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம் லால்குடி அருகே கல்லக்குடி பகுதியில் திருச்சி - சிதம்பரம் தேசிய நெடுஞ்சாலையைக் கடந்த 40 வயது பெண் மற்றும் அவரது மகன் மீது அதிவேகமாக வந்த பைக் மோதியது. இதில் அந்தப் பெண் சம்பவ இடத்திலேயே உயிரிழந்தார். படுகாயமடைந்த பைக் ஓட்டிய இளைஞர் மற்றும் பெண்ணின் மகன் ஆகியோர் மீட்கப்பட்டு லால்குடி அரசு மருத்துவமனைக்கு கொண்டு செல்லப்பட்டனர். பின்னர் மேல்சிகிச்சைக்காக திருச்சி அரசு மருத்துவமனைக்கு அனுப்பி வைக்கப்பட்டதில் பைக் ஓட்டிய இளைஞர் சிகிச்சை பலனின்றி உயிரிழந்தார். காயமடைந்த பெண்ணின் மகன் தொடர்ந்து சிகிச்சை பெற்று வருகிறார். சம்பவம் குறித்து கல்லக்குடி காவல்துறையினர் வழக்குப்பதிவு செய்து விசாரணை மேற்கொண்டு வருகின்றனர்.\n\n📍 இடம்: கல்லக்குடி, லால்குடி வட்டம், திருச்சி - சிதம்பரம் தேசிய நெடுஞ்சாலை\n🗓️ நாள்: 26 நவம்பர் 2026\n🚑 மீட்பு: 108 ஆம்புலன்ஸ் மூலம் அரசு மருத்துவமனைக்கு அனுமதி\n👮 நடவடிக்கை: கல்லக்குடி போலீசார் வழக்குப்பதிவு செய்து விசாரணை\nℹ️ மக்கள் கவனத்திற்கு: குடியிருப்பு பகுதிகளில் தேசிய நெடுஞ்சாலையைக் கடக்கும் இடங்களில் ஓட்டுநர்கள் வேகக்கட்டுப்பாட்டைப் பின்பற்றுவது அவசியம்.\n\nவிபத்து பற்றிய தகவல்களை மற்றவர்களுக்கும் Share செய்யுங்கள்.\n\nLalgudi Trichy Chidambaram highway road accident bike crash news | Trichy news\n📍 கல்லக்குடி, லால்குடி, திருச்சி மாவட்டம் | 26 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Lalgudi #TrichyNews #திருச்சி",
-   "prompts": "A wide photo-realistic night scene on the Trichy-Chidambaram National Highway near Kallakudi in Trichy district. A dark asphalt four-lane highway with illuminated streetlight poles, blue lights flashing from a Tamil Nadu police vehicle and a 108 ambulance parked on the roadside shoulder in the background. Local police officers in khaki uniform standing near the road edge holding flashlights. No accident victims, bodies, or blood visible. Distant wet asphalt reflecting red and blue lights, clear cinematic night atmosphere, wide eye-level angle. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA night detail shot along a national highway near Lalgudi, Trichy district. Focus on a glowing fluorescent road warning signboard showing a speed limit icon at the edge of an asphalt road near a roadside eatery, blurred flashing yellow warning lights of an emergency vehicle in the background, sharp 50mm lens detail, atmospheric night lighting, Tamil Nadu context, no text, no faces, no logos. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://tamil.abplive.com/news/trichy/tragic-accident-near-lalgudi-woman-crossing-the-road-and-a-motorcyclist-killed-village-plunged-into-grief-tnn-280583",
-   "published": "2026-11-26T10:54:43+05:30",
-   "verification": "DRAFT (gemini/gemini-3.6-flash) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences",
-   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261126/889e3242706604d6.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261126/40285265769db966.jpg"
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261126/69caaea588f9f3c6.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261126/961c987b29cc2275.jpg"
    ]
   }
  ]
