@@ -1,23 +1,23 @@
 {
- "updated": "2026-11-26T17:35+05:30",
- "posts_measured": 159,
+ "updated": "2026-11-26T20:28+05:30",
+ "posts_measured": 162,
  "topic_weight": {
-  "accident": 1.5,
-  "crime": 1.44,
-  "power_cut": 1.26,
-  "civic": -0.22,
+  "accident": 1.27,
+  "crime": 1.5,
+  "power_cut": 1.27,
+  "civic": -0.21,
   "education": -0.5,
   "politics": -0.5,
   "weather": -0.5,
-  "temple": -0.5,
-  "poultry_agri": -0.2
+  "temple": -0.49,
+  "poultry_agri": -0.41
  },
  "topic_n": {
-  "accident": 19,
-  "crime": 34,
+  "accident": 20,
+  "crime": 35,
   "power_cut": 10,
   "civic": 7,
-  "education": 5,
+  "education": 6,
   "politics": 25,
   "sports_culture": 2,
   "weather": 5,
@@ -28,7 +28,7 @@
   2,
   1,
   11,
-  13
+  19
  ],
  "top_openings": [
   "🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை",
@@ -36,10 +36,10 @@
   "🚨 திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது",
   "🚨 சோமரசம்பேட்டை அருகே பெண் இறப்பில் சந்தேகம்: உறவினர்கள் சாலை மறியல்"
  ],
- "avg_watch_s": 7.9,
+ "avg_watch_s": 7.8,
  "best_topics": [
-  "accident",
   "crime",
+  "accident",
   "power_cut"
  ],
  "weak_topics": [

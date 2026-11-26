@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-26T16:49:29.605989+05:30",
+ "last_end": "2026-11-26T20:28:00.884218+05:30",
  "pool": {
   "C936cfee": {
    "id": "C936cfee",
@@ -13,40 +13,6 @@
    "power_cut": false,
    "listed_at": "2026-11-25T23:03:02.803959+05:30"
   },
-  "Ca00110d": {
-   "id": "Ca00110d",
-   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/25/சமயபுரத்தில்-போதைப்-பொருள்கள்-விற்றவா்-கைது",
-   "title": "சமயபுரத்தில் போதைப் பொருள்கள் விற்றவா் கைது",
-   "summary": "திருச்சி மாவட்டம், சமயபுரத்தில் தடை செய்யப்பட்ட போதைப் பொருள்கள் விற்றவா் புதன்கிழமை கைது செய்யப்பட்டாா்.. சமயபுரம் கரியமாணிக்கம் பிரிவுச் சாலையில், சமயபுரம் காவல் ஆய்வாளா் க.",
-   "source": "தினமணி",
-   "published": "2026-11-25T21:16:53.576Z",
-   "category": "குற்றம்",
-   "score": 13.32,
-   "power_cut": false,
-   "alts": [
-    "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/25/%E0%AE%9A%E0%AE%AE%E0%AE%AF%E0%AE%AA%E0%AF%81%E0%AE%B0%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%AA%E0%AF%8B%E0%AE%A4%E0%AF%88%E0%AE%AA%E0%AF%8D-%E0%AE%AA%E0%AF%8A%E0%AE%B0%E0%AF%81%E0%AE%B3%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%B5%E0%AE%BF%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AE%B5%E0%AE%BE%E0%AF%8D-%E0%AE%95%E0%AF%88%E0%AE%A4%E0%AF%81"
-   ],
-   "listed_at": "2026-11-26T04:27:43.088459+05:30",
-   "picked_at": "2026-11-26T04:29:34.307368+05:30",
-   "refused": "not filed: all free models failed: no usable answer from the models"
-  },
-  "Ca95488f": {
-   "id": "Ca95488f",
-   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/25/திருச்சி-அருகே-சுவா்-இடிந்து-விழுந்து-முதியவா்-உயிரிழப்பு",
-   "title": "திருச்சி அருகே சுவா் இடிந்து விழுந்து முதியவா் உயிரிழப்பு",
-   "summary": "திருச்சி அருகே மண் சுவா் இடிந்து விழுந்து முதியவா் செவ்வாய்க்கிழமை உயிரிழந்தாா்..திருச்சி மாவட்டம், ஜீயபுரம் அருகேயுள்ள கடியாக்குறிச்சியைச் சோ்ந்தவா் பா.",
-   "source": "தினமணி",
-   "published": "2026-11-25T21:08:23.254Z",
-   "category": "விபத்து",
-   "score": 12.5,
-   "power_cut": false,
-   "alts": [
-    "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/25/%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF-%E0%AE%85%E0%AE%B0%E0%AF%81%E0%AE%95%E0%AF%87-%E0%AE%9A%E0%AF%81%E0%AE%B5%E0%AE%BE%E0%AF%8D-%E0%AE%87%E0%AE%9F%E0%AE%BF%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81-%E0%AE%B5%E0%AE%BF%E0%AE%B4%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81-%E0%AE%AE%E0%AF%81%E0%AE%A4%E0%AE%BF%E0%AE%AF%E0%AE%B5%E0%AE%BE%E0%AF%8D-%E0%AE%89%E0%AE%AF%E0%AE%BF%E0%AE%B0%E0%AE%BF%E0%AE%B4%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81"
-   ],
-   "listed_at": "2026-11-26T04:27:43.088459+05:30",
-   "picked_at": "2026-11-26T04:29:34.307370+05:30",
-   "refused": "not filed: all free models failed: no usable answer from the models"
-  },
   "Ce280cec": {
    "id": "Ce280cec",
    "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/25/heavy-rain-in-trichy-city",
@@ -59,20 +25,6 @@
    "power_cut": false,
    "listed_at": "2026-11-26T04:27:43.088459+05:30",
    "picked_at": "2026-11-26T04:29:34.307374+05:30",
-   "refused": "not filed: all free models failed: no usable answer from the models"
-  },
-  "Cdef7dee": {
-   "id": "Cdef7dee",
-   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/25/complaint-that-a-headmistress-assaulted-a-school-student",
-   "title": "பள்ளி மாணவியை தலைமை ஆசிரியை தாக்கியதாகப் புகாா்",
-   "summary": "திருச்சி மாவட்டம் மணப்பாறையை அடுத்த ஆமணக்கம்பட்டி பள்ளியில் இறைவணக்கம் பாடவில்லை எனக் கூறி பள்ளி மாணவியை தலைமை ஆசிரியை தாக்கியதாக காவல் நிலையத்தில் செவ்வாய்க்கிழமை புகாா் அளிக்கப்பட்டது..மணப்பாறையை அடுத்த ஆமணக்கம்பட்ட...",
-   "source": "தினமணி",
-   "published": "2026-11-25T21:06:18.129Z",
-   "category": "குற்றம்",
-   "score": 6.5,
-   "power_cut": false,
-   "listed_at": "2026-11-26T04:27:43.088459+05:30",
-   "picked_at": "2026-11-26T04:29:34.307377+05:30",
    "refused": "not filed: all free models failed: no usable answer from the models"
   },
   "C4d42d0c": {
@@ -116,20 +68,33 @@
    "listed_at": "2026-11-26T16:31:22.435988+05:30",
    "picked_at": "2026-11-26T16:34:44.368788+05:30",
    "refused": "not filed: all free models failed: no usable answer from the models"
+  },
+  "C1d13d2b": {
+   "id": "C1d13d2b",
+   "url": "https://www.dailythanthi.com/news/tamilnadu/woman-dies-in-accident-while-buying-noodles-for-sons-birthday-children-suffer-without-support",
+   "title": "மகனின் பிறந்த நாளுக்கு நூடுல்ஸ் வாங்க சென்ற பெண் விபத்தில் பலி: ஆதரவில்லாமல் தவிக்கும் குழந்தைகள்",
+   "summary": "கல்லக்குடி, கல்லக்குடியில் மகனின் பிறந்தநாளுக்கு நூடுல்ஸ் வாங்க சென்ற பெண் விபத்தில் பலியானார். அவர் மீது மோட்டார் சைக்கிளில் வந்து மோதிய என்ஜினீயரும் இறந்தார்..மகன் பிறந்த நாள்திருச்சி மாவட்டம் கல்லக்குடி கே.கே.நகர் ...",
+   "source": "தினத்தந்தி",
+   "published": "2026-11-26T13:35:45Z",
+   "category": "விபத்து",
+   "score": 11.27,
+   "power_cut": false,
+   "listed_at": "2026-11-26T20:28:00.884218+05:30"
+  },
+  "C2c4764d": {
+   "id": "C2c4764d",
+   "url": "https://tamil.samayam.com/tamil-nadu/tiruchirappalli/trichy-penang-direct-flights-batik-air-malaysia-january-2027-10th-international-destination/articleshow/136191493.cms",
+   "title": "திருச்சி சர்வதேச விமான நிலையத்தில் புதிய மைல்கல்: ஜனவரி 2027 முதல் திருச்சி – பினாங்கு நேரடி விமானச் சேவை! 10-வது சர்வதேச நகரமாகப் பினாங்கு இணைப்பு!",
+   "summary": "மத்திய மற்றும் டெல்டா மாவட்ட மக்களின் நீண்டகாலப் பயணத் தேவையைப் பூர்த்தி செய்து வரும் திருச்சி சர்வதேச விமான நிலையம் , தனது சர்வதேச விமான இணைப்புகளின் எண்ணிக்கையில் புதிய மைல்கல்லை எட்டியுள்ளது.",
+   "source": "சமயம் தமிழ்",
+   "published": "2026-11-26T17:47:29+05:30",
+   "category": "பொது",
+   "score": 5.0,
+   "power_cut": false,
+   "listed_at": "2026-11-26T20:28:00.884218+05:30"
   }
  },
  "rounds": {
-  "2026-11-24_22": {
-   "window": [
-    "2026-11-24T22:31:14.136635+05:30",
-    "2026-11-24T22:38:18.266263+05:30"
-   ],
-   "ids": [],
-   "sent": false,
-   "deadline": "2026-11-24T23:38:18.266263+05:30",
-   "decided": null,
-   "written": []
-  },
   "2026-11-24_23": {
    "window": [
     "2026-11-24T22:38:18.266263+05:30",
@@ -471,6 +436,21 @@
     "ids": [],
     "at": "2026-11-26T16:50:31.101584+05:30"
    },
+   "written": []
+  },
+  "2026-11-26_20": {
+   "window": [
+    "2026-11-26T16:49:29.605989+05:30",
+    "2026-11-26T20:28:00.884218+05:30"
+   ],
+   "ids": [
+    "C1d13d2b",
+    "C2c4764d",
+    "C936cfee"
+   ],
+   "sent": false,
+   "deadline": "2026-11-26T21:28:00.884218+05:30",
+   "decided": null,
    "written": []
   }
  },

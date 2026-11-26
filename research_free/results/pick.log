@@ -1,14 +1,11 @@
-16:49:29 round 2026-11-26_16: news published 26 Nov 16:31 -> 26 Nov 16:49 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-16:49:29 insights 2026-11-26T16:49+05:30 (158 reels): topic weights {'accident': 1.5, 'crime': 1.44, 'power_cut': 1.23, 'civic': -0.23, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.21}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-16:49:41 open search 'திருச்சி' (from_google): 0 links from our outlets
-16:49:41 59 links on the two papers' Trichy pages
-16:50:28 skipped: published before this window=22, already posted=19, same event already posted=8, not Trichy district=4, only a headline=2
-16:50:29 list: 0 new + 1 earlier news not posted yet
-16:50:29    1. [குற்றம்] மனைவி மாயம் கணவர் தற்கொலை (தினமலர்) (earlier)
-16:50:29 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-26_16
-16:50:31    not picked automatically (suicide / obituary - only when the owner ticks it): மனைவி மாயம் கணவர் தற்கொலை
-16:50:31 round 2026-11-26_16 (at least 6, up to 3 more of well-watched topics): 0 news to choose from (0 from earlier rounds), ranked by this page's insights
-16:50:31 decided: automatic: top 6 of 0 by insights -> 0 news to write and post
-PICK_URLS=
-16:50:35 verify 2026-11-26_16: 0 of 0 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+20:28:00 round 2026-11-26_20: news published 26 Nov 16:49 -> 26 Nov 20:28 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+20:28:00 insights 2026-11-26T20:28+05:30 (162 reels): topic weights {'accident': 1.27, 'crime': 1.5, 'power_cut': 1.27, 'civic': -0.21, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.49, 'poultry_agri': -0.41}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+20:29:35 open search 'திருச்சி' (from_google): 2 links from our outlets
+20:29:35 88 links on the two papers' Trichy pages
+20:30:41 skipped: not Trichy district=29, published before this window=22, already posted=19, same event already posted=8, only a headline=3, no title=1
+20:30:41 list: 2 new + 1 earlier news not posted yet
+20:30:41    1. [விபத்து] மகனின் பிறந்த நாளுக்கு நூடுல்ஸ் வாங்க சென்ற பெண் விபத்தில் பலி: ஆதரவில (தினத்தந்தி)
+20:30:41    2. [பொது] திருச்சி சர்வதேச விமான நிலையத்தில் புதிய மைல்கல்: ஜனவரி 2027 முதல் திர (சமயம் தமிழ்)
+20:30:41    3. [குற்றம்] மனைவி மாயம் கணவர் தற்கொலை (தினமலர்) (earlier)
+20:30:41 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-26_20
