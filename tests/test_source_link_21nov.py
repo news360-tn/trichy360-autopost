@@ -57,8 +57,9 @@ class SourceCommentOnEveryReel(unittest.TestCase):
         self.assertTrue(post.is_source_comment(got[0]))
 
     def test_tried_again_once(self):
+        import errnote
         got, calls = self.sent(ROW, ["Instagram m/comments: {'is_transient': True, 'code': 2}"])
-        self.assertEqual((len(got), calls), (1, 2))
+        self.assertEqual((len(got), calls), (0, 1) if errnote.strict() else (1, 2))      # owner 26 Nov: no quick repeat
         got, calls = self.sent(ROW, ["Instagram m/comments: (#10) permission denied"])      # a real refusal: not repeated
         self.assertEqual((len(got), calls), (0, 1))
 

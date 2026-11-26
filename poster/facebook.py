@@ -281,6 +281,14 @@ def _err(r):
         return f"{r.status_code} {r.text[:200]}"
 
 
+def _no_quick_retry():
+    try:
+        import errnote
+        return errnote.strict()
+    except Exception:
+        return False
+
+
 def _call(method, path, token, **data):
     url = f"{GRAPH}/{VER}/{path}"
     data = dict(data, access_token=token)
@@ -289,11 +297,11 @@ def _call(method, path, token, **data):
             r = requests.request(method, url, data=data if method == "POST" else None,
                                  params=data if method == "GET" else None, timeout=90)
         except requests.RequestException as e:
-            if i == 2:
+            if i == 2 or (method == "POST" and _no_quick_retry()):      # owner 26 Nov: a failed post waits 10 min, no repeat at once
                 raise RuntimeError(f"Facebook not reachable: {str(e)[:150]}")
             time.sleep(5 * (i + 1))
             continue
-        if r.status_code >= 500 and i < 2:
+        if r.status_code >= 500 and i < 2 and not (method == "POST" and _no_quick_retry()):
             time.sleep(5 * (i + 1))
             continue
         if r.status_code != 200:
@@ -432,6 +440,11 @@ def _attempt(page, sid, kind, media, caption, prev, story=True, link="", comment
             obj, link, first = publish_photos(pid, tok, media, caption)
     except Exception as e:
         if _blocked(e):      # Facebook limited the page: pause it, and this post is not tried again (a retry extends the limit)
+            try:
+                import errnote
+                errnote.note("Facebook", sid, "page limited by Facebook (paused): " + str(e), 0, page)
+            except Exception:
+                pass
             _pause(page, e)
             _save(page, sid, kind, {"status": "skipped", "why": "Facebook limited the page: " + str(e)[:300], "media": media})
             return ""
@@ -439,6 +452,11 @@ def _attempt(page, sid, kind, media, caption, prev, story=True, link="", comment
                                 "ig_media": prev.get("ig_media", ""),      # owner 22 Nov: for the share-from-Instagram e-mail
                                 "first_try": prev.get("first_try") or _now().isoformat(timespec="seconds")})
         log(f"NOT posted to Facebook ({page} {sid} {kind}, try {tries}/{MAX_TRIES}; Instagram is fine):", str(e)[:250])
+        try:      # owner 26 Nov: every posting error is noted at once; the next try is after RETRY_WAIT_MIN minutes
+            import errnote
+            errnote.note("Facebook", sid, e, RETRY_WAIT_MIN if tries < MAX_TRIES else 0, page)
+        except Exception:
+            pass
         return ""
     rec = {"status": "posted", "tries": tries, "id": obj, "link": link, "media": media, "posted_at": _now().isoformat(timespec="seconds")}
     _save(page, sid, kind, rec)

@@ -226,6 +226,14 @@ def age_hours(row):
     return 0.0
 
 
+LAST_REEL_META = {}
+
+
+def views_test_on():
+    """owner 26 Nov: poster/config.json "views_test" (Trichy) - short reels, two voices, Share line, variant kept with each post"""
+    return bool((CONFIG.get("views_test") or {}).get("enabled"))
+
+
 def is_shutdown(row):
     import freshness      # owner 30 Oct: a power cut is found by its headline too, not only by the category the writer chose
     return ("மின் தடை" in (row.get("category") or "") or "shutdown" in (row.get("category") or "").lower()
@@ -809,7 +817,7 @@ SENSITIVE_KW_KINDS = ("death", "crime", "court", "safety")
 def keywords_for(row, limit=170):
     """the keyword line (without the 🔎) for this news, at most `limit` characters; '' when there is nothing sensible to add"""
     ta, en = PAGE_KW.get(PAGE, (PAGE.title(), PAGE.title()))
-    words = [f"{ta} செய்திகள்", f"{en} news", f"{ta} மாவட்ட செய்திகள்", f"{en} district news"]
+    words = [f"{ta} செய்திகள்", f"{en} news"]      # owner 26 Nov: place + topic before the district phrases (a shorter line keeps the topic)
     rn = globals().get("is_rasipuram_news")
     if rn and rn(row):
         words[:0] = ["ராசிபுரம் செய்திகள்", "Rasipuram news"]
@@ -823,7 +831,7 @@ def keywords_for(row, limit=170):
             words += ["மழை எச்சரிக்கை", "weather update"] if "மழை" in head else ["விவசாயம்", "farmers news"]
         else:
             words += list(KIND_KW.get(kind, ()))
-    words += ["Tamil Nadu local news", "இன்றைய செய்திகள்", f"{en} 360"]
+    words += [f"{ta} மாவட்ட செய்திகள்", f"{en} district news", "Tamil Nadu local news", "இன்றைய செய்திகள்", f"{en} 360"]
     out, seen = [], set()
     for w in words:
         k = w.lower()
@@ -881,6 +889,12 @@ def final_caption(row):
         k = next((i for i, l in enumerate(bl) if l.strip().startswith("📍")), len(bl))
         bl[k:k] = [line]
         body = "\n".join(bl)
+    share = str((CONFIG.get("reach") or {}).get("share_line") or "").strip()
+    if share and views_test_on() and share not in body:      # owner 26 Nov: sends per reach is Instagram's strongest signal for new viewers
+        bl = body.split("\n")
+        k = next((i for i, l in enumerate(bl) if "Follow" in l), len(bl))
+        bl[k:k] = [share]
+        body = "\n".join(bl)
     body = re.sub(r"\n{3,}", "\n\n", body)
     cap = body + "\n\n" + " ".join(tags[1:] + [TAG])
     if CONFIG.get("ai_label", True) and "AI" not in cap.split("#")[0][-300:]:
@@ -893,7 +907,7 @@ def final_caption(row):
         cap = "\n".join(lines)
     if CONFIG.get("keywords", True):      # owner 26 Nov: the best keywords last - after the hashtags, before the source line
         try:
-            kw = keywords_for(row)
+            kw = keywords_for(row, int((CONFIG.get("reach") or {}).get("keywords_max_chars") or 170))      # owner 26 Nov: a short line, not a keyword list
             if kw and "🔎" not in cap:
                 cap = cap.rstrip() + "\n\n🔎 " + kw
         except Exception as e:
@@ -1161,6 +1175,11 @@ def render_reel(row, spec, images, work, voice_file=None):
     mp4 = work / f"{row['story_id']}_reel.mp4"
     design = "reel4.py" if CONFIG.get("reel_design") == "v4" else "reel3.py"      # v4: full-detail design (safe zone, 5W cards, summary, send CTA)
     subprocess.run([sys.executable, str(REEL / design), str(work / "reel.json"), str(mp4), PAGE], check=True, env=env)
+    global LAST_REEL_META
+    try:      # owner 26 Nov (views test): voice / seconds / words of this reel, saved with the post by record_posted
+        LAST_REEL_META = dict(json.loads(mp4.with_suffix(".meta.json").read_text()), story=row.get("story_id"))
+    except Exception:
+        LAST_REEL_META = {}
     return mp4
 
 
@@ -1451,6 +1470,10 @@ def publish_reel(token, video_url, caption, collab, cover_url=""):
         except Exception as e:
             if ig_limit_kind(e):
                 raise      # owner 21 Nov: a limit waits - never a second try by the link at once
+            import errnote
+            if errnote.strict():      # owner 26 Nov: no second try at once - the next try (after 10 min) goes by the link
+                igdirect.off(PAGE, e)
+                raise
             log("direct upload not used - posting with the link as before:", str(e)[:200])
         if cid:      # the file is on Instagram: publish it; from here on NO fallback (a reel is never posted twice)
             mid, link = _publish_direct(d, cid)
@@ -1474,6 +1497,12 @@ def publish_reel(token, video_url, caption, collab, cover_url=""):
         vurl = githost.host_file(path, "video")
         log("direct upload not possible either - the reel goes by its GitHub link (last resort)")
     prm = dict(media_type="REELS", video_url=vurl, caption=caption, share_to_feed="true")
+    nocover = CACHE / f"_nocover_{PAGE}.json"
+    try:
+        if cover_url and datetime.fromisoformat(json.loads(nocover.read_text())["until"]) > datetime.now(timezone.utc):
+            cover_url = ""      # owner 26 Nov: Instagram refused the cover in the last hours - Instagram picks a frame
+    except Exception:
+        pass
     if cover_url:
         try:
             prm["cover_url"] = localmedia.hosted(cover_url, "image")   # chosen cover photo (sharp frame with the hook headline)
@@ -1483,6 +1512,14 @@ def publish_reel(token, video_url, caption, collab, cover_url=""):
         cid, collab_ok, why = create_with_collab(uid, token, prm, collab)
     except RuntimeError as e:
         if not prm.get("cover_url"):
+            raise
+        import errnote
+        if errnote.strict():      # owner 26 Nov: no second try at once - the next try (after 10 min) is made without the cover
+            try:
+                CACHE.mkdir(parents=True, exist_ok=True)
+                nocover.write_text(json.dumps({"until": (datetime.now(timezone.utc) + timedelta(hours=6)).isoformat(timespec="seconds"), "why": str(e)[:200]}))
+            except Exception:
+                pass
             raise
         log("reel refused with the cover, posting with Instagram's own cover:", e)
         prm.pop("cover_url", None)
@@ -1674,6 +1711,8 @@ def record_posted(sid, row, link, kind="reel", media_id="", caption=""):
         rec = {"page": PAGE, "story": sid, "kind": kind, "headline": str((row or {}).get("headline_ta") or "")[:200], "link": link or "",
                "at": now.isoformat(timespec="seconds")}
         rec["media_id"] = str(media_id or "")      # owner 25 Nov: YouTube finds the source comment of this post by it
+        if kind == "reel" and LAST_REEL_META and LAST_REEL_META.get("story") == sid:      # never another story's numbers      # owner 26 Nov (views test): which voice / length this reel had
+            rec["variant"] = dict(LAST_REEL_META, test=views_test_on())
         if combined_mode():      # owner 25 Nov: one e-mail with the Instagram, Facebook and YouTube links (poster/combined_email.py)
             rec.update(combined=True, caption=str(caption or "")[:2200])
         (POSTED_DIR / f"{now:%Y%m%d-%H%M%S}-{PAGE}-{sid}.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -1725,7 +1764,8 @@ def first_comment(token, media_id, sid, row):
                 log("source comment added", sid, media_id)
                 return
             except Exception as e:
-                if attempt == 2 or not is_transient(e) or ig_limit_kind(e):
+                import errnote
+                if attempt == 2 or not is_transient(e) or ig_limit_kind(e) or errnote.strict():      # owner 26 Nov: no quick repeat
                     raise
                 log("source comment refused once - trying again:", str(e)[:150])
                 time.sleep(8)
@@ -1985,10 +2025,14 @@ def report_failure(row, kind, e):
         _tries_save(st)
         ig_pause(PAGE, e, "retry", minutes=wait)
         log(f"NOT POSTED {sid} {kind} (try {n} of {len(RETRY_PLAN_MIN) + 1}) - tried again in {wait} minutes:", str(e)[:200])
+        import errnote      # owner 26 Nov: every posting error is noted at once
+        errnote.note("Instagram", sid, e, wait, PAGE)
         return
     st.pop(key, None)
     _tries_save(st)
     log(f"NOT POSTED {sid} {kind} after {n} tries - on Hold, the owner gets an e-mail:", str(e)[:200])
+    import errnote
+    errnote.note("Instagram", sid, f"on Hold after {n} tries: {e}", 0, PAGE)
     for _ in range(3):
         bridge_post("error", {"row": row["row"], "page": PAGE, "kind": kind, "error": str(e)[:900]})
 
@@ -2579,6 +2623,17 @@ def run_story_page(row, page):
         checks = list(cached.get('checks') or [])
     else:
         try:
+            if need_reel and views_test_on() and not is_shutdown(row):      # owner 26 Nov (Trichy views test): short reels
+                maxw = int((CONFIG.get("reach") or {}).get("script_max_words") or 75)
+                sc_ = row.get("reel_script") or ""
+                wc_ = len(sc_.split())
+                if wc_ > maxw + 5:      # a story written before the test: the least important sentences move to the caption
+                    shorter, dropped = shorten_script_detail(sc_, (maxw + 5) / wc_)
+                    if shorter != sc_:
+                        caption = add_to_caption(caption, dropped)
+                        row["reel_script"] = shorter
+                        log(f"views test: reel script shortened from {wc_} to {len(shorter.split())} words (the caption keeps every fact)")
+                        checks.append(f"reel script shortened for the views test (was {wc_} words)")
             if need_reel:
                 rs = reel_spec(row, spec, images)
             spec = verify.clean_obj(spec)      # owner 25 Oct: broken Tamil is cleaned, never a reason to skip

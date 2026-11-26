@@ -19,7 +19,13 @@
     "rate": "+12%",
     "pitch": "+4Hz",
     "outro_voice": "en-IN-PrabhatNeural",
-    "note": "Trichy 360: Valluvar (free edge-tts) reads every reel; Google voices are never used"
+    "note": "Trichy 360: Valluvar (free edge-tts) reads every reel; Google voices are never used",
+    "ab_voices": [
+      "ta-IN-ValluvarNeural",
+      "ta-IN-PallaviNeural"
+    ],
+    "ab_note": "owner 26 Nov (Trichy views test): two free edge-tts Tamil voices, chosen per story by its headline (about half each) and saved with the post, so insights show which voice keeps viewers longer. [] or remove = Valluvar only",
+    "outro_text": "Share this with your friends in Trichy. Follow Trichy Three Sixty."
   },
   "prime_time": {
     "enabled": true,
@@ -40,7 +46,7 @@
     ]
   },
   "reel_punch": false,
-  "reel_max_seconds": 88,
+  "reel_max_seconds": 50,
   "power_cut": {
     "note": "owner 30 Oct: a power-cut reel reads EVERY area, so it may run to max_seconds (88 = 2 s under verify.py's 90 s check) with up to script_max_words; all other reels keep reel_max_seconds / reach.script_max_words. {} = normal limits",
     "max_seconds": 88,
@@ -53,7 +59,7 @@
   "reel_punch_note": "owner 27 Oct (change 1): every reel opens with a spoken punch line (yellow number + headline) while the big headline is on screen",
   "reach": {
     "note": "owner 29 Oct (views plan): each switch can be turned off here without code changes",
-    "script_max_words": 160,
+    "script_max_words": 75,
     "caption_full_details": true,
     "english_search_line": true,
     "hashtag_pattern": true,
@@ -112,12 +118,16 @@
         }
       }
     },
-    "hashtag_note": "owner 2 Nov: 5 tags, all from these fixed lists (never the writer's own tags): page + area + town (place_tags; a village maps to its town tag) + local topic (rain / power cut, else the page's news tag) + the Tamil place tag. A Rasipuram reel never carries a Namakkal page tag; no #TamilNews / #TamilNadu style tags"
+    "hashtag_note": "owner 2 Nov: 5 tags, all from these fixed lists (never the writer's own tags): page + area + town (place_tags; a village maps to its town tag) + local topic (rain / power cut, else the page's news tag) + the Tamil place tag. A Rasipuram reel never carries a Namakkal page tag; no #TamilNews / #TamilNadu style tags",
+    "script_min_words": 35,
+    "share_line": "📤 திருச்சியில் இருக்கும் உங்கள் நண்பர்களுக்கு இந்த செய்தியை Share செய்யுங்கள்",
+    "keywords_max_chars": 120
   },
   "free_images": {
     "note": "owner 13 Nov (new pages): 2 pictures per reel - the news article's own photos first (vision-checked: this news, a real photo, not a file photo); one usable photo -> the second picture is a closer crop of it; none -> 2 AI pictures from the free services (FAL only when all fail)",
     "cloudflare_for_writing": false,
-    "pictures_per_reel": 2
+    "pictures_per_reel": 3,
+    "views_test_note": "owner 26 Nov (Trichy views test): 3 pictures per reel (was 2) - more visual change in a short reel; a missing third picture becomes a closer crop"
   },
   "writers": {
     "note": "owner 30 Oct: free writing models in this order; a provider without its key is skipped; Claude (paid) only after all of them. Gemma 4 is ready but NOT in the order: 30 Oct test on a real story gave 503 (high demand) / 500 - add \"gemma\" here once writer-compare proves it. Cerebras removed 30 Oct: it now needs a card (only $5 trial credit, then paid). Sarvam taken out of the live order 30 Oct: writer-compare gave empty answers (finish_reason length) on 3 real stories - add \"sarvam\" back once writer-compare shows it writes",
@@ -160,11 +170,36 @@
   "posted_email_note": "owner 24 Nov: an e-mail for EVERY posted news again (each). owner 20 Nov: once the Promo Hub is set up (PROMO_URL), no e-mail per posted reel - the twice-a-day YouTube details e-mail per page lists them (Gmail's daily limit). \"each\" brings the per-reel e-mail back.",
   "ig_block_pause_hours": 6,
   "ig_create_pause_hours": 6,
-  "youtube_upload": {"enabled": true, "per_day": 20, "gap_min": 5, "hours": [4, 24], "privacy": "public", "verify_channel": true},
+  "youtube_upload": {
+    "enabled": true,
+    "per_day": 20,
+    "gap_min": 5,
+    "hours": [
+      4,
+      24
+    ],
+    "privacy": "public",
+    "verify_channel": true
+  },
   "youtube_upload_note": "owner 21 Nov: the day's best news reels go to the page's YouTube channel as Shorts - only when its YT_CLIENT_ID_/YT_CLIENT_SECRET_/YT_REFRESH_TOKEN_<PAGE> secrets exist. One Google Cloud project per page (about 6 uploads a day each). privacy stays private until Google approves the YouTube API audit, then set public.",
   "ig_rate_pause_min": 60,
   "story_catchup_tries": 2,
   "ig_limits_note": "owner 21 Nov (Trichy 20-21 Nov: the story catch-up tried the same stories every run - 400+ tries - and Instagram then refused every new post from 10:30 IST, Media Creation Limit 2207069): 'too many posts made' pauses the page ig_create_pause_hours, 'too many requests' ig_rate_pause_min, and a story that fails story_catchup_tries times is given up. Nothing is lost - the news posts after the pause.",
   "ig_block_pause_note": "owner 21 Nov: when Instagram says 'action is blocked' (2207051), the page's posting waits this many hours instead of trying every few minutes (that makes the block longer); its news is posted afterwards",
-  "story_reserve_note": "owner 21 Nov: stories stop when 30 of Instagram's 50 posts a day are used - the last 20 are kept for NEWS (with a story for every news, stories filled the limit and Coimbatore's news waited at 48/50). A story that has to wait is posted later by the story catch-up."
+  "story_reserve_note": "owner 21 Nov: stories stop when 30 of Instagram's 50 posts a day are used - the last 20 are kept for NEWS (with a story for every news, stories filled the limit and Coimbatore's news waited at 48/50). A story that has to wait is posted later by the story catch-up.",
+  "views_test": {
+    "enabled": true,
+    "start_ist": "2026-11-27",
+    "note": "owner 26 Nov: Trichy-only views test, posting count unchanged. (1) short reels: 35-75 words, at most 50 s (power cuts keep every area, up to 88 s); longer scripts already in the queue are shortened before the reel is made and the dropped sentences stay in the caption; (2) two voices A/B (reel_voice.ab_voices); (3) a Share line in the caption; (4) a shorter keyword line (place + topic first); (5) the spoken English end line asks viewers to share (reel_voice.outro_text); (6) insights also read skip rate and reposts and keep the voice / length of every reel. tools/views_test.py compares before and after. to go back to the old long reels: views_test.enabled false, reach.script_max_words 160, reel_max_seconds 88",
+    "styles": [
+      "A",
+      "B",
+      "C",
+      "P"
+    ],
+    "styles_note": "owner 26 Nov: 4 designs take turns (chosen by the headline, about a quarter each, independent of the voice): A = Namakkal 360 classic, B = TV broadcast red band, C = centred cinematic, P = premium story panel. The design is saved with each post. [] = classic only"
+  },
+  "post_error_wait_min": 10,
+  "no_quick_retry": true,
+  "post_error_note": "owner 26 Nov (Trichy): a posting error on Instagram, Facebook or YouTube is noted at once (job log + poster/posting_errors.json) and that post is NOT tried again in the same run - the next try is after post_error_wait_min (10) minutes (Instagram's retry plan 10,10,10,15,15 then Hold; Facebook and YouTube 10 minutes). no_quick_retry false = the old quick repeats inside a run"
 }

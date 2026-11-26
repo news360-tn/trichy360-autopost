@@ -296,6 +296,11 @@ def catchup(post, now=None):
             extras(page, tok, vid, src, m.get("caption") or "")      # owner 25 Nov: first comment + topic playlist (needs the extra permission)
         except Exception as e:
             log(f"{page}: not uploaded (tried again in {RETRY_WAIT_MIN} minutes):", str(e)[:250])
+            try:      # owner 26 Nov: every posting error is noted at once
+                import errnote
+                errnote.note("YouTube", (m.get("id") if "m" in locals() and isinstance(m, dict) else ""), e, RETRY_WAIT_MIN, page)
+            except Exception:
+                pass
             try:      # owner 25 Nov: after an error wait 10 minutes before the next try
                 st = _state(page)
                 st["failed_at"] = now.isoformat(timespec="seconds")

@@ -9,7 +9,7 @@ sys.path.insert(0, HERE)
 sys.path.insert(0, os.path.join(HERE, "..", "research_free"))
 import post, learned
 
-MET = ["reach", "views", "saved", "shares", "total_interactions", "ig_reels_avg_watch_time"]
+MET = ["reach", "views", "saved", "shares", "total_interactions", "ig_reels_avg_watch_time", "reels_skip_rate", "reposts"]      # owner 26 Nov: + skip rate (left in the first 3 s), reposts
 HIST = os.path.join(HERE, "insights", "history.json")
 ACCOUNT = os.path.join(HERE, "insights", "account.json")
 MET_FEED = ["reach", "views", "saved", "shares", "total_interactions"]      # carousels / photos have no watch time
@@ -23,18 +23,21 @@ IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
 def metrics(mid, tok, MET=MET):      # 19 Nov: carousels pass MET_FEED (no watch time)
     """owner 2 Nov: insights are read before EVERY collection round - all metrics in ONE call per reel (was 6), so the extra reads
     stay light for Instagram's API (posting uses the same allowance). One metric at a time only if the combined call is refused."""
-    try:
-        d = post.ig("GET", f"{mid}/insights", tok, metric=",".join(MET)).get("data") or []
-        got = {m: None for m in MET}
-        for x in d:
-            v = (x.get("values") or [{}])[0].get("value")
-            if v is None and isinstance(x.get("total_value"), dict):
-                v = x["total_value"].get("value")
-            got[x.get("name")] = v
-        if any(v is not None for v in got.values()):
-            return {m: got.get(m) for m in MET}
-    except Exception:
-        pass
+    NEW = ("reels_skip_rate", "reposts")      # owner 26 Nov: if Instagram refuses the new metrics, the old set is read in one call
+    for ms in ([MET, [m for m in MET if m not in NEW]] if any(m in NEW for m in MET) else [MET]):
+        try:
+            d = post.ig("GET", f"{mid}/insights", tok, metric=",".join(ms)).get("data") or []
+            got = {m: None for m in MET}
+            for x in d:
+                v = (x.get("values") or [{}])[0].get("value")
+                if v is None and isinstance(x.get("total_value"), dict):
+                    v = x["total_value"].get("value")
+                got[x.get("name")] = v
+            if any(v is not None for v in got.values()):
+                return {m: got.get(m) for m in MET}
+        except Exception:
+            pass
+    MET = [m for m in MET if m not in NEW]
     out = {}
     for m in MET:
         try:
@@ -126,6 +129,9 @@ def read_row(i, page, tok, old, now):
     if kind == "FEED":
         row["type"] = "FEED"
     row.update(metrics(i["id"], tok, MET if kind == "REELS" else MET_FEED))
+    var = (old or {}).get("variant") or _variant(i["id"])
+    if var:      # owner 26 Nov (views test): the reel's voice / seconds / words, from poster/posted (kept there 3 days)
+        row["variant"] = var
     row["final"] = age_h > FINAL_H
     row["read"] = now.isoformat(timespec="minutes")
     for key, lo, hi in SAME_AGE:
@@ -135,6 +141,19 @@ def read_row(i, page, tok, old, now):
             row[key] = {"age_h": round(age_h, 1), "reach": row.get("reach"), "shares": row.get("shares"), "saved": row.get("saved"),
                         "watch_ms": row.get("ig_reels_avg_watch_time")}
     return row
+
+
+def _variant(mid):
+    """the views-test variant saved with this post in poster/posted, or None"""
+    try:
+        import glob
+        for f in glob.glob(os.path.join(HERE, "posted", "*.json")):
+            rec = json.load(open(f, encoding="utf-8"))
+            if rec.get("media_id") == str(mid) and rec.get("variant"):
+                return rec["variant"]
+    except Exception:
+        pass
+    return None
 
 
 def score(h):

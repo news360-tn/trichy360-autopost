@@ -250,6 +250,15 @@ body{background:#0B3B2E}
 PREMIUM_ALERTS = {"rain": ("triangle-exclamation", "வானிலை எச்சரிக்கை", "#1E5FAF"), "crime": ("handcuffs", "போலீஸ் நடவடிக்கை", "#1E4A9C")}
 
 
+def test_styles():
+    """owner 26 Nov: poster/config.json views_test.styles - the designs that take turns on this page ([] = one design)"""
+    try:
+        vt = json.loads((Path(__file__).resolve().parent.parent / "poster" / "config.json").read_text()).get("views_test") or {}
+        return [str(x).upper() for x in (vt.get("styles") or []) if str(x).upper() in ("A", "B", "C", "P")] if vt.get("enabled") else []
+    except Exception:
+        return []
+
+
 def reel_style(spec):
     """REEL_STYLE env, the story's own style, then poster/config.json "reel_style", else the original look A"""
     cfg = ""
@@ -499,6 +508,11 @@ def pick_voice(spec):
         v = cfg.get(k)
         if isinstance(v, str) and v and "Chirp" not in v and (k != "outro_voice" or v.endswith("Neural")):
             vs[k] = v
+    ab = [v for v in (cfg.get("ab_voices") or []) if isinstance(v, str) and v.startswith("ta-IN-") and v.endswith("Neural")]
+    if spec and len(ab) > 1:      # owner 26 Nov (Trichy views test): free edge voices A/B, the same story always gets the same voice
+        import hashlib
+        key = " ".join([str(spec.get("mini") or "")] + [str(x) for x in (spec.get("hook") or [])])
+        vs["voice"] = ab[int(hashlib.md5(key.encode("utf-8")).hexdigest(), 16) % len(ab)]
     return vs, None
 
 
@@ -610,7 +624,14 @@ def english_outro(work, idx, voice):
     try:
         mp3 = work / "outro_en.mp3"
         if True:
-            subprocess.run([sys.executable, "-m", "edge_tts", "--voice", voice, "--rate=+0%", "--text", V3.OUTRO_EN, "--write-media", str(mp3)], check=True, timeout=60)
+            txt = V3.OUTRO_EN
+            try:      # owner 26 Nov (Trichy views test): the spoken end asks people to SEND the news (sends reach new viewers)
+                cfg = json.loads((Path(__file__).resolve().parent.parent / "poster" / "config.json").read_text())
+                if (cfg.get("views_test") or {}).get("enabled") and (cfg.get("reel_voice") or {}).get("outro_text"):
+                    txt = str(cfg["reel_voice"]["outro_text"])
+            except Exception:
+                pass
+            subprocess.run([sys.executable, "-m", "edge_tts", "--voice", voice, "--rate=+0%", "--text", txt, "--write-media", str(mp3)], check=True, timeout=60)
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp3), "-af",
                         "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
                         "highpass=f=80,acompressor=threshold=0.12:ratio=3:attack=5:release=80,loudnorm=I=-16:TP=-1.5", "-ar", "22050", "-ac", "1",
@@ -824,6 +845,12 @@ def main(spec_path, out_mp4, page_key="trichy"):
     import names      # owner 2 Nov: screen abbreviations (names.latin_abbr) - the voice functions import it on their own
     R.PAGE = R.PAGES.get(page_key, R.PAGES["trichy"]); R.LOGO = R.KIT / R.PAGE["logo"]      # one page only (no second page)
     spec = json.loads(Path(spec_path).read_text())
+    rot = test_styles()
+    if rot and not os.environ.get("REEL_STYLE") and not spec.get("style"):      # owner 26 Nov (Trichy views test): several designs on one page
+        import hashlib
+        key = "style " + " ".join([str(spec.get("mini") or "")] + [str(x) for x in (spec.get("hook") or [])])
+        spec["style"] = rot[int(hashlib.md5(key.encode("utf-8")).hexdigest(), 16) % len(rot)]
+        print("views test design:", spec["style"])
     work = Path(out_mp4).with_suffix("")
     work = work.parent / (work.name + "_work"); work.mkdir(parents=True, exist_ok=True)
     sents, outro = spec["sentences"], spec["outro"]
@@ -947,6 +974,12 @@ def main(spec_path, out_mp4, page_key="trichy"):
     if rc:      # owner 2 Nov (review): a failed encode must fail here, not later as an unclear 'Build failed'
         raise SystemExit(f"ffmpeg encoder failed (exit {rc})")
     print(f"done {out_mp4} {total:.1f}s")
+    try:      # owner 26 Nov: the voice and length of this reel, kept with the post for the views test (poster/insights)
+        Path(out_mp4).with_suffix(".meta.json").write_text(json.dumps({"voice": (locals().get("vs") or {}).get("voice", "recorded"),
+                                                                   "secs": round(total, 1), "words": sum(len(str(x["say"]).split()) for x in sents),
+                                                                   "design": reel_style(spec), "pictures": len(spec.get("images") or [])}))
+    except Exception as e:
+        print("reel meta not saved:", str(e)[:100])
 
 
 if __name__ == "__main__":

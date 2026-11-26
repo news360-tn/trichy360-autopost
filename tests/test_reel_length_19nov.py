@@ -13,6 +13,12 @@ sys.path.insert(0, str(ROOT / "poster"))
 class FullNewsLength(unittest.TestCase):
     def test_reel_up_to_90_seconds_and_160_words(self):
         c = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))
+        if (c.get("views_test") or {}).get("enabled"):      # owner 26 Nov: Trichy views test - short reels, power cuts keep 160 words
+            self.assertEqual(50, c["reel_max_seconds"])
+            self.assertEqual(75, c["reach"]["script_max_words"])
+            self.assertEqual(160, c["power_cut"]["script_max_words"])
+            self.assertIn("35-75 words", (ROOT / "research_free" / "rules.md").read_text(encoding="utf-8"))
+            return
         self.assertEqual(88, c["reel_max_seconds"])
         self.assertEqual(160, c["reach"]["script_max_words"])
         rules = (ROOT / "research_free" / "rules.md").read_text(encoding="utf-8")

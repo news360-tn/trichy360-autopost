@@ -267,6 +267,16 @@ def _reach():
         return {}
 
 
+def _views_test():
+    """owner 26 Nov: poster/config.json "views_test" (Trichy) - short reels while it is enabled"""
+    try:
+        from pathlib import Path
+        return bool((json.loads((Path(__file__).resolve().parent.parent / "poster" / "config.json").read_text(encoding="utf-8"))
+                     .get("views_test") or {}).get("enabled"))
+    except Exception:
+        return False
+
+
 def _power_cut():
     """owner 30 Oct: poster/config.json "power_cut" limits ({} = a power cut has the normal limits)"""
     try:
@@ -396,8 +406,8 @@ def validate(d, article, today_digits=("2026",)):
                 p.append(f"slide {i} line {j} is cut off mid-phrase ('{_tags(l)[-20:]}') - write a complete short phrase")
     # scenes: exactly ONE image prompt (the main scene of this news); the reel moves the camera over that one picture
     sc = d.get("scenes")
-    if not isinstance(sc, list) or not 1 <= len(sc) <= 2 or not all(isinstance(x, str) and len(x.strip()) >= 40 for x in sc):
-        p.append("scenes must be a list of TWO clear English image prompts (1: the main scene of this news, 2: a detail of it; each at least 40 characters)")
+    if not isinstance(sc, list) or not 1 <= len(sc) <= 3 or not all(isinstance(x, str) and len(x.strip()) >= 40 for x in sc):
+        p.append("scenes must be a list of 2-3 clear English image prompts (1: the main scene of this news, 2-3: other details of it; each at least 40 characters)")
     rs = d["reel_script"].strip()
     if re.search(r"[A-Za-z]", rs):
         p.append("reel_script must have no English letters (write English words and abbreviations in Tamil script)")
@@ -410,8 +420,11 @@ def validate(d, article, today_digits=("2026",)):
     import freshness
     if freshness.is_power_cut(d.get("tamil_headline"), d.get("english_headline"), d.get("category")):      # owner 30 Oct: a power cut reads EVERY area (up to 90 s)
         maxw = int(_power_cut().get("script_max_words") or maxw)      # only the upper limit grows; the minimum stays the normal one
-    if not max(60, need) <= wc <= maxw + 5:
-        p.append(f"reel_script has {wc} words; need {max(60, need)}-{maxw} (the key facts once each, in at most {60 if maxw <= 110 else 90} seconds; "
+    lo = max(60, need)
+    if _views_test():      # owner 26 Nov (Trichy views test): short reels - hook + the 3-4 key facts; the caption keeps every detail
+        lo = int(_reach().get("script_min_words") or 35)
+    if not lo <= wc <= maxw + 5:
+        p.append(f"reel_script has {wc} words; need {lo}-{maxw} (the key facts once each, in at most {50 if maxw <= 80 else 60 if maxw <= 110 else 90} seconds; "
                  "every other detail goes in the caption's 📰 முழு விவரம் block)")
     ages = re.findall(r"[\u0B80-\u0BFF]+,\s?\d{1,2},", rs)
     if ages:      # owner 28 Oct (RN-158): "ராஜா, 12," is newspaper shorthand; read aloud it is confusing

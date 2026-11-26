@@ -234,6 +234,16 @@ class Files(Tmp):
 
     def test_a_refused_file_goes_by_the_link_once(self):
         ref = localmedia.ref(self.f)
+        import errnote
+        if errnote.strict():      # owner 26 Nov: no second try at once - the error waits 10 min, the next try goes by the link
+            with mock.patch.object(localmedia, "send", side_effect=RuntimeError("upload refused (HTTP 400): bad")), \
+                    mock.patch.object(post, "upload", return_value=LINK) as up:
+                with self.assertRaises(RuntimeError):
+                    post.publish_reel("T", ref, "cap", False, "")
+            up.assert_not_called()
+            self.assertEqual(len(self.published()), 0)
+            self.assertFalse(igdirect.cached_ok("x"))      # the next try (after 10 min) uses the link
+            return
         with mock.patch.object(localmedia, "send", side_effect=RuntimeError("upload refused (HTTP 400): bad")), \
                 mock.patch.object(post, "upload", return_value=LINK) as up:
             post.publish_reel("T", ref, "cap", False, "")
@@ -244,9 +254,14 @@ class Files(Tmp):
     def test_no_permission_switches_the_page_to_the_link_for_6_hours(self):
         self.refuse = "Instagram 1/media: {'message': '(#10) Application does not have permission for this action', 'code': 10}"
         ref = localmedia.ref(self.f)
+        import errnote
         with mock.patch.object(localmedia, "send"), mock.patch.object(post, "upload", return_value=LINK):
-            post.publish_reel("T", ref, "cap", False, "")
-        self.assertEqual(len(self.published()), 1)
+            if errnote.strict():      # owner 26 Nov: the refused try waits 10 min (no link try at once)
+                with self.assertRaises(RuntimeError):
+                    post.publish_reel("T", ref, "cap", False, "")
+            else:
+                post.publish_reel("T", ref, "cap", False, "")
+        self.assertEqual(len(self.published()), 0 if errnote.strict() else 1)
         igdirect._MEM.clear()
         self.assertIsNone(igdirect.ready("x", "U"))      # saved: no new try every run
         self.assertFalse(igdirect.cached_ok("x"))

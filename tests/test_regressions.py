@@ -308,8 +308,8 @@ class Images(unittest.TestCase):
         import validate
         d = dict(json.loads((ROOT / "research_free" / "examples.json").read_text(encoding="utf-8"))[0]["output"])
         self.assertEqual(2, len(d["scenes"]))      # owner 30 Oct: 2 pictures per reel (cover + detail)
-        d["scenes"] = [d["scenes"][0]] * 3
-        self.assertTrue([x for x in validate.validate(d, "") if x.startswith("scenes must")], "three image prompts must be refused")
+        d["scenes"] = [d["scenes"][0]] * 4      # owner 26 Nov views test: up to 3 pictures per reel
+        self.assertTrue([x for x in validate.validate(d, "") if x.startswith("scenes must")], "four image prompts must be refused")
         self.assertNotEqual("1", os.environ.get("REUSE_IMAGES"), "older pictures are never reused")
 
 
@@ -588,6 +588,11 @@ class FullDetail(unittest.TestCase):
         return [x for x in validate.validate(d, art) if x.startswith("reel_script has")]
 
     def test_short_reel_of_long_article_is_rewritten(self):
+        if json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8")).get("views_test", {}).get("enabled"):      # owner 26 Nov views test: 35-75 words whatever the article length; the caption keeps the rest
+            self.assertFalse(self.length_problems(50, 300))
+            self.assertTrue(self.length_problems(100, 300))
+            self.assertTrue(self.length_problems(20, 300))
+            return
         self.assertTrue(self.length_problems(70, 300))
         self.assertFalse(self.length_problems(100, 300))      # owner 31 Oct: a long article needs ~100 words, never forced to 130+
         self.assertFalse(self.length_problems(135, 300))      # owner 31 Oct: at most 90 s / 160 words (29 Oct: 60 s / 105); the caption keeps the rest
@@ -600,10 +605,10 @@ class FullDetail(unittest.TestCase):
 
     def test_examples_are_full_detail(self):
         for e in json.loads((ROOT / "research_free" / "examples.json").read_text(encoding="utf-8")):
-            self.assertGreaterEqual(len(e["output"]["reel_script"].split()), 80)
+            self.assertGreaterEqual(len(e["output"]["reel_script"].split()), 45 if json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8")).get("views_test", {}).get("enabled") else 80)      # owner 26 Nov: short reels in the views test
 
     def test_reel_max_seconds(self):
-        self.assertEqual(json.loads((ROOT / "poster" / "config.json").read_text())["reel_max_seconds"], 88)      # owner 29 Oct
+        self.assertEqual(json.loads((ROOT / "poster" / "config.json").read_text())["reel_max_seconds"], 50 if json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8")).get("views_test", {}).get("enabled") else 88)      # owner 29 Oct; 26 Nov views test: 50 s
         self.assertIn("fit_max(work, len(texts), lead, gap, max_seconds(spec))", (ROOT / "reel" / "reel4.py").read_text(encoding="utf-8"))
 
 class Proofread(unittest.TestCase):
@@ -899,10 +904,10 @@ class ReviewFixes2Nov(unittest.TestCase):
         rules = (ROOT / "research_free" / "rules.md").read_text(encoding="utf-8")
         self.assertNotIn('say "விவரம் இன்னும் தெரியவரவில்லை"', rules)
         self.assertNotIn("Say the KEY facts once each", rules)
-        self.assertIn("Tell EVERY fact of the article once each", rules)
+        self.assertIn("Tell the most important facts once each" if json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8")).get("views_test", {}).get("enabled") else "Tell EVERY fact of the article once each", rules)
         self.assertNotIn("ராஜா\", \"14 வயதான கவுசிக்", rules)
         run_py = (ROOT / "research_free" / "run.py").read_text(encoding="utf-8")
-        self.assertIn("70-160 words: the reel is at most 90 seconds", run_py)
+        self.assertIn("35-75 words, about 20-35 seconds" if json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8")).get("views_test", {}).get("enabled") else "70-160 words: the reel is at most 90 seconds", run_py)
         self.assertNotIn("the reel is at most 60 seconds", run_py)
 
     def test_event_cache_is_thread_safe_and_followers_tracked(self):
@@ -1042,7 +1047,7 @@ class InsightsBeforeEveryRound(unittest.TestCase):
 
     def test_one_call_per_reel(self):
         src = (ROOT / "poster" / "insights.py").read_text(encoding="utf-8")
-        self.assertIn('metric=",".join(MET)', src)
+        self.assertIn('metric=",".join(ms)', src)      # owner 26 Nov: one call (the old metric set in one call if the new ones are refused)
 
 
 
@@ -1776,8 +1781,9 @@ class ReachPlan29Oct(unittest.TestCase):
 
     def test_switches_and_picture_rule(self):
         c = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))
-        self.assertEqual(88, c["reel_max_seconds"])      # owner 31 Oct: 90 s (88 = under the 90 s check)
-        self.assertEqual(160, c["reach"]["script_max_words"])
+        short = (c.get("views_test") or {}).get("enabled")      # owner 26 Nov views test: 50 s / 75 words
+        self.assertEqual(50 if short else 88, c["reel_max_seconds"])      # owner 31 Oct: 90 s (88 = under the 90 s check)
+        self.assertEqual(75 if short else 160, c["reach"]["script_max_words"])
         self.assertIn("no brand names", collect.IMG_TEMPLATE)
 
 
@@ -1911,8 +1917,9 @@ class FreePicturesFirst30Oct(unittest.TestCase):
                 os.environ.pop(k, None) if v is None else os.environ.__setitem__(k, v)
 
     def test_two_pictures_per_reel(self):      # owner 13 Nov: 2 pictures per reel on the new pages (article photos first)
-        self.assertEqual(2, collect.pictures_per_reel())
-        self.assertEqual(2, json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["free_images"]["pictures_per_reel"])
+        n = 3 if json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8")).get("views_test", {}).get("enabled") else 2      # owner 26 Nov views test: 3
+        self.assertEqual(n, collect.pictures_per_reel())
+        self.assertEqual(n, json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["free_images"]["pictures_per_reel"])
 
 
 class FreeWriters30Oct(unittest.TestCase):
@@ -2094,8 +2101,9 @@ class PowerCutRules(unittest.TestCase):
         ns = from_file(ROOT / "reel" / "reel4.py", {"max_seconds"})
         self.assertEqual(88, ns["max_seconds"]({"cat": "மின் தடை", "mini": "மணப்பாறையில் நாளை மின் தடை", "hook": ["", ""]}))
         self.assertEqual(88, ns["max_seconds"]({"cat": "Civic Issues", "mini": "லால்குடியில் நாளை மின்தடை", "hook": ["", ""]}))
-        self.assertEqual(88, ns["max_seconds"]({"cat": "Crime & Safety", "mini": "திருச்சியில் திருட்டு: 2 பேர் கைது", "hook": ["", ""]}))
-        self.assertEqual(88, ns["max_seconds"]())      # owner 31 Oct: every reel up to 90 s
+        normal = 50 if json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8")).get("views_test", {}).get("enabled") else 88      # owner 26 Nov views test: other reels at most 50 s, power cuts keep 88 s
+        self.assertEqual(normal, ns["max_seconds"]({"cat": "Crime & Safety", "mini": "திருச்சியில் திருட்டு: 2 பேர் கைது", "hook": ["", ""]}))
+        self.assertEqual(normal, ns["max_seconds"]())      # owner 31 Oct: every reel up to 90 s
 
     def test_power_cut_script_may_be_longer(self):
         import validate
@@ -2107,7 +2115,10 @@ class PowerCutRules(unittest.TestCase):
             d["reel_script"] = " ".join(["தகவல்"] * 140) + " " + validate.LAST
         words = lambda d: [x for x in validate.validate(d, art) if x.startswith("reel_script has")]
         self.assertFalse(words(pc))      # 140 words + every area: allowed for a power cut
-        self.assertFalse(words(other))   # owner 31 Oct: every reel may use 160 words now (was 105)
+        if json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8")).get("views_test", {}).get("enabled"):
+            self.assertTrue(words(other))      # owner 26 Nov views test: only a power cut may be this long
+        else:
+            self.assertFalse(words(other))   # owner 31 Oct: every reel may use 160 words now (was 105)
         pc["reel_script"] = " ".join(["தகவல்"] * 100) + " " + validate.LAST
         self.assertFalse(words(pc))      # not forced longer than the normal minimum (owner 31 Oct: at most ~100 words required)
 
