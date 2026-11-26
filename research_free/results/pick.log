@@ -1,26 +1,14 @@
-01:14:30 round 2026-11-27_01: news published 26 Nov 22:45 -> 27 Nov 01:14 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-01:14:30 insights 2026-11-27T01:14+05:30 (165 reels): topic weights {'accident': 1.12, 'crime': 1.41, 'power_cut': 1.2, 'civic': -0.22, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.49}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-01:24:41 from_google dinamalar.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 from_google dinamani.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 from_google dinamalar.com 'திருச்சிராப்பள்ளி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 from_google dinamani.com 'திருச்சிராப்பள்ளி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 from_google dinamalar.com 'மணப்பாறை' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 from_google dinamani.com 'மணப்பாறை' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 from_google dinamalar.com 'ஸ்ரீரங்கம்' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 from_google dinamani.com 'ஸ்ரீரங்கம்' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 from_google tamil.oneindia.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 from_google dinakaran.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 from_google dailythanthi.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 from_google maalaimalar.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 from_google hindutamil.in 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 from_google polimernews.com 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 open search from_google 'திருச்சி' failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/searc
-01:24:41 open search 'திருச்சி' (from_bing): 0 links from our outlets
-01:24:41 59 links on the two papers' Trichy pages
-01:25:36 skipped: published before this window=23, already posted=21, same event already posted=8, not Trichy district=4, only a headline=2
-01:25:36 list: 0 new + 0 earlier news not posted yet
-01:25:36 no news in this window - no e-mail
-ROUND=2026-11-27_01
-01:25:38 no list this round - nothing to post
-PICK_URLS=
-01:25:38 verify: no decided round
+04:28:43 round 2026-11-27_04: news published 27 Nov 01:14 -> 27 Nov 04:28 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+04:28:43 insights 2026-11-27T04:28+05:30 (165 reels): topic weights {'accident': 1.13, 'crime': 1.41, 'power_cut': 1.19, 'civic': -0.22, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.49}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+04:29:51 open search 'திருச்சி' (from_google): 3 links from our outlets
+04:29:51 78 links on the two papers' Trichy pages
+04:31:06 skipped: not Trichy district=23, already posted=19, published before this window=19, same event already posted=7, only a headline=2, no title=1, state-wide / other district=1
+04:31:06 list: 6 new + 0 earlier news not posted yet
+04:31:06    1. [விபத்து] காா் கவிழ்ந்து விபத்து ஐயப்ப பக்தா்கள் 4 போ் காயம் (தினமணி)
+04:31:06    2. [குற்றம்] ராணுவ வாகனம் மீது அரசுப் பேருந்து மோதல்: ராணுவ வீரா் உள்பட இருவா் காயம (தினமணி)
+04:31:06    3. [பொது] செயற்கை நுண்ணறிவு சாா்ந்த பாடத் திட்டம்: திருச்சியில் மாநில அளவிலான பண (தினமணி)
+04:31:06    4. [கல்வி] போசம்பட்டி அரசுப் பள்ளியில் அரசமைப்பு தினம் கடைப்பிடிப்பு (தினமணி)
+04:31:06    5. [பொது] அரசின் திட்டங்கள் மக்களை சென்றடைவதை உறுதி செய்ய வேண்டும்: அலுவலா்களுக் (தினமணி)
+04:31:06    6. [பொது] வீட்டிலிருந்தே மாதம் ரூ.3 லட்சம் டர்ன்ஓவர்... சாதிக்கும் திருச்சி மாதே (விகடன்)
+04:31:06 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-27_04

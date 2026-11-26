@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-27T01:14+05:30",
+ "updated": "2026-11-27T04:28+05:30",
  "posts_measured": 165,
  "topic_weight": {
-  "accident": 1.12,
+  "accident": 1.13,
   "crime": 1.41,
-  "power_cut": 1.2,
+  "power_cut": 1.19,
   "civic": -0.22,
   "education": -0.5,
   "politics": -0.5,
