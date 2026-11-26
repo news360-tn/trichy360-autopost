@@ -114,7 +114,8 @@
    "score": 10.5,
    "power_cut": false,
    "listed_at": "2026-11-26T16:31:22.435988+05:30",
-   "picked_at": "2026-11-26T16:34:44.368786+05:30"
+   "picked_at": "2026-11-26T16:34:44.368786+05:30",
+   "posted": true
   },
   "C6f34da8": {
    "id": "C6f34da8",
@@ -127,7 +128,8 @@
    "score": 6.0,
    "power_cut": false,
    "listed_at": "2026-11-26T16:31:22.435988+05:30",
-   "picked_at": "2026-11-26T16:34:44.368788+05:30"
+   "picked_at": "2026-11-26T16:34:44.368788+05:30",
+   "refused": "not filed: all free models failed: no usable answer from the models"
   }
  },
  "rounds": {
@@ -491,7 +493,10 @@
    "written": [
     "C6f34da8",
     "C869e232"
-   ]
+   ],
+   "refused": {
+    "C6f34da8": "not filed: all free models failed: no usable answer from the models"
+   }
   }
  },
  "retry": {}
