@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-26T22:30:14.347197+05:30",
+ "last_end": "2026-11-26T22:45:23.906806+05:30",
  "pool": {
   "Ce280cec": {
    "id": "Ce280cec",
@@ -56,20 +56,6 @@
    "listed_at": "2026-11-26T16:31:22.435988+05:30",
    "picked_at": "2026-11-26T16:34:44.368788+05:30",
    "refused": "not filed: all free models failed: no usable answer from the models"
-  },
-  "Cdbe33ea": {
-   "id": "Cdbe33ea",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/couple-charged-with-rs-50-lakh-fraud-for-selling-house/4387287",
-   "title": "வீட்டை விற்பதாக கூறி ரூ.50 லட்சம் மோசடி: தம்பதி மீது புகார்",
-   "summary": "திருச்சி: திருச்சியில், வீட்டை விற்பதாக கூறி, 50 லட்சம் ரூபாய் மோசடி செய்த உமேஷ், 40, அவரது மனைவி கஸ்துாரி, 38, மீது புகார் அளிக்கப்பட்டுள்ளது.",
-   "source": "தினமலர்",
-   "published": "2026-11-26T22:23:03+05:30",
-   "category": "குற்றம்",
-   "score": 12.44,
-   "power_cut": false,
-   "listed_at": "2026-11-26T22:30:14.347197+05:30",
-   "picked_at": "2026-11-26T22:31:52.825642+05:30",
-   "posted": true
   }
  },
  "rounds": {
@@ -432,24 +418,14 @@
   },
   "2026-11-26_22": {
    "window": [
-    "2026-11-26T20:28:00.884218+05:30",
-    "2026-11-26T22:30:14.347197+05:30"
+    "2026-11-26T22:30:14.347197+05:30",
+    "2026-11-26T22:45:23.906806+05:30"
    ],
-   "ids": [
-    "Cdbe33ea"
-   ],
+   "ids": [],
    "sent": false,
-   "deadline": "2026-11-26T23:30:14.347197+05:30",
-   "decided": {
-    "how": "automatic: top 3 of 1 by insights",
-    "ids": [
-     "Cdbe33ea"
-    ],
-    "at": "2026-11-26T22:31:52.825633+05:30"
-   },
-   "written": [
-    "Cdbe33ea"
-   ]
+   "deadline": "2026-11-26T23:45:23.906806+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}

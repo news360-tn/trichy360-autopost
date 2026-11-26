@@ -1,21 +1,8 @@
-22:30:14 round 2026-11-26_22: news published 26 Nov 20:28 -> 26 Nov 22:30 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-22:30:14 insights 2026-11-26T22:30+05:30 (164 reels): topic weights {'accident': 1.07, 'crime': 1.44, 'power_cut': 1.23, 'civic': -0.22, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.49}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-22:31:01 open search 'திருச்சி' (from_google): 1 links from our outlets
-22:31:01 73 links on the two papers' Trichy pages
-22:31:50 skipped: published before this window=22, already posted=20, not Trichy district=18, same event already posted=8, only a headline=2
-22:31:50 list: 1 new + 0 earlier news not posted yet
-22:31:50    1. [குற்றம்] வீட்டை விற்பதாக கூறி ரூ.50 லட்சம் மோசடி: தம்பதி மீது புகார் (தினமலர்)
-22:31:50 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+22:45:23 round 2026-11-26_22: news published 26 Nov 22:30 -> 26 Nov 22:45 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+22:45:23 insights 2026-11-26T22:45+05:30 (164 reels): topic weights {'accident': 1.08, 'crime': 1.45, 'power_cut': 1.24, 'civic': -0.22, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.49, 'poultry_agri': -0.49}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+22:45:40 open search 'திருச்சி' (from_google): 0 links from our outlets
+22:45:40 59 links on the two papers' Trichy pages
+22:46:10 skipped: published before this window=23, already posted=20, same event already posted=8, not Trichy district=4, only a headline=2
+22:46:10 list: 0 new + 0 earlier news not posted yet
+22:46:10 no news in this window - no e-mail
 ROUND=2026-11-26_22
-22:31:52 round 2026-11-26_22 (at least 3, up to 3 more of well-watched topics): 1 news to choose from (0 from earlier rounds), ranked by this page's insights
-22:31:52   PICK   1.  16.8 [crime +1.44 page] வீட்டை விற்பதாக கூறி ரூ.50 லட்சம் மோசடி: தம்பதி மீது புகார்
-22:31:52 decided: automatic: top 3 of 1 by insights -> 1 news to write and post
-PICK_URLS=https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/couple-charged-with-rs-50-lakh-fraud-for-selling-house/4387287
-22:34:23 1 listed news now in the Sheet
-22:34:31 instagram duplicate check trichy: 50 recent posts read
-22:34:31 verify 2026-11-26_22: 0 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-22:34:31    NOT POSTED Cdbe33ea: queued RN-166 (Queued) - வீட்டை விற்பதாக கூறி ரூ.50 லட்சம் மோசடி: தம்பதி மீது புகார்
-22:39:38 instagram duplicate check trichy: 50 recent posts read
-22:39:38 verify 2026-11-26_22: 0 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-22:39:38    NOT POSTED Cdbe33ea: queued RN-166 (Queued) - வீட்டை விற்பதாக கூறி ரூ.50 லட்சம் மோசடி: தம்பதி மீது புகார்
-22:44:43 verify 2026-11-26_22: 1 of 1 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
