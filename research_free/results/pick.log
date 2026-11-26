@@ -1,38 +1,11 @@
-12:32:36 round 2026-11-26_12: news published 26 Nov 09:45 -> 26 Nov 12:32 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-12:32:36 insights 2026-11-26T12:32+05:30 (154 reels): topic weights {'accident': 1.5, 'crime': 1.31, 'power_cut': 1.26, 'civic': -0.02, 'education': -0.5, 'politics': -0.34, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.35}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-12:35:01 open search 'திருச்சி' (from_google): 4 links from our outlets
-12:35:01 89 links on the two papers' Trichy pages
-12:36:25 skipped: not Trichy district=28, published before this window=22, already posted=18, same event already posted=9, only a headline=3, no title=1
-12:36:25 list: 3 new + 1 earlier news not posted yet
-12:36:25    1. [விபத்து] லால்குடி அருகே கோர விபத்து! சாலையைக் கடந்த பெண்ணும் பைக் ஓட்டியவரும் ப (ஏபிபி நாடு)
-12:36:25    2. [மழை / வானிலை] திருச்சியில் விடாமல் கொட்டிய கனமழை! முக்கிய சாலைகளில் தண்ணீர் தேக்கம்  (ஏபிபி நாடு)
-12:36:25    3. [பொது] ஏக்கருக்கு ரூ.40 ஆயிரம் இழப்பீடு வேண்டும்! உழவு மாடுகளுடன் திருச்சியில (ஏபிபி நாடு)
-12:36:25    4. [குற்றம்] மனைவி மாயம் கணவர் தற்கொலை (தினமலர்) (earlier)
-12:36:25 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-26_12
-12:36:27    not picked automatically (suicide / obituary - only when the owner ticks it): மனைவி மாயம் கணவர் தற்கொலை
-12:36:27 round 2026-11-26_12 (at least 6, up to 3 more of well-watched topics): 3 news to choose from (0 from earlier rounds), ranked by this page's insights
-12:36:27   PICK   1.  16.0 [accident +1.50 page] லால்குடி அருகே கோர விபத்து! சாலையைக் கடந்த பெண்ணும் பைக் ஓட்
-12:36:27   PICK   2.  12.9 [weather +0.80 pattern] திருச்சியில் விடாமல் கொட்டிய கனமழை! முக்கிய சாலைகளில் தண்ணீர
-12:36:27   PICK   3.   4.6 [poultry_agri -0.35 page] ஏக்கருக்கு ரூ.40 ஆயிரம் இழப்பீடு வேண்டும்! உழவு மாடுகளுடன் த
-12:36:27 decided: automatic: top 6 of 3 by insights -> 3 news to write and post
-PICK_URLS=https://tamil.abplive.com/news/trichy/tragic-accident-near-lalgudi-woman-crossing-the-road-and-a-motorcyclist-killed-village-plunged-into-grief-tnn-280583 https://tamil.abplive.com/news/trichy/heavy-incessant-rain-in-trichy-waterlogging-on-major-roads-causes-severe-hardship-for-motorists-tnn-280579 https://tamil.abplive.com/agriculture/demand-for-rs-40-000-compensation-per-acre-farmers-stage-a-striking-protest-in-trichy-accompanied-by-their-ploughing-oxen-tnn-280598
-12:38:51 3 listed news now in the Sheet
-12:39:02 instagram duplicate check trichy: 50 recent posts read
-12:39:02 verify 2026-11-26_12: 0 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-12:39:02    NOT POSTED C1fca0be: queued RN-157 (Queued) - திருச்சியில் விடாமல் கொட்டிய கனமழை! முக்கிய சாலைகளில் தண்ணீர
-12:39:02    NOT POSTED C4a681d7: queued RN-158 (Queued) - ஏக்கருக்கு ரூ.40 ஆயிரம் இழப்பீடு வேண்டும்! உழவு மாடுகளுடன் த
-12:39:02    NOT POSTED Ca982f8c: queued RN-159 (Queued) - லால்குடி அருகே கோர விபத்து! சாலையைக் கடந்த பெண்ணும் பைக் ஓட்
-12:44:09 instagram duplicate check trichy: 50 recent posts read
-12:44:09 verify 2026-11-26_12: 0 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-12:44:09    NOT POSTED C1fca0be: queued RN-157 (Queued) - திருச்சியில் விடாமல் கொட்டிய கனமழை! முக்கிய சாலைகளில் தண்ணீர
-12:44:09    NOT POSTED C4a681d7: queued RN-158 (Queued) - ஏக்கருக்கு ரூ.40 ஆயிரம் இழப்பீடு வேண்டும்! உழவு மாடுகளுடன் த
-12:44:09    NOT POSTED Ca982f8c: queued RN-159 (Queued) - லால்குடி அருகே கோர விபத்து! சாலையைக் கடந்த பெண்ணும் பைக் ஓட்
-12:49:16 instagram duplicate check trichy: 50 recent posts read
-12:49:16 verify 2026-11-26_12: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-12:49:16    NOT POSTED C1fca0be: queued RN-157 (Queued) - திருச்சியில் விடாமல் கொட்டிய கனமழை! முக்கிய சாலைகளில் தண்ணீர
-12:49:16    NOT POSTED C4a681d7: queued RN-158 (Queued) - ஏக்கருக்கு ரூ.40 ஆயிரம் இழப்பீடு வேண்டும்! உழவு மாடுகளுடன் த
-12:54:25 instagram duplicate check trichy: 50 recent posts read
-12:54:25 verify 2026-11-26_12: 2 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-12:54:25    NOT POSTED C1fca0be: queued RN-157 (Queued) - திருச்சியில் விடாமல் கொட்டிய கனமழை! முக்கிய சாலைகளில் தண்ணீர
-12:59:31 verify 2026-11-26_12: 3 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+16:31:22 round 2026-11-26_16: news published 26 Nov 12:32 -> 26 Nov 16:31 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+16:31:22 insights 2026-11-26T16:31+05:30 (158 reels): topic weights {'accident': 1.5, 'crime': 1.46, 'power_cut': 1.25, 'civic': -0.22, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.49}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+16:33:38 open search 'திருச்சி' (from_google): 1 links from our outlets
+16:33:38 103 links on the two papers' Trichy pages
+16:34:42 skipped: not Trichy district=44, published before this window=22, already posted=18, same event already posted=9, only a headline=2, no title=1
+16:34:42 list: 2 new + 1 earlier news not posted yet
+16:34:42    1. [மழை / வானிலை] காயல்பட்டினத்தில் 18 செ.மீ. மழை பதிவு (மாலைமலர்)
+16:34:42    2. [பொது] பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன் - சீமான் (தினத்தந்தி)
+16:34:42    3. [குற்றம்] மனைவி மாயம் கணவர் தற்கொலை (தினமலர்) (earlier)
+16:34:42 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-26_16

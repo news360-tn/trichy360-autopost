@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-26T12:32:36.990682+05:30",
+ "last_end": "2026-11-26T16:31:22.435988+05:30",
  "pool": {
   "C936cfee": {
    "id": "C936cfee",
@@ -61,20 +61,6 @@
    "picked_at": "2026-11-26T04:29:34.307374+05:30",
    "refused": "not filed: all free models failed: no usable answer from the models"
   },
-  "C065eead": {
-   "id": "C065eead",
-   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/25/two-people-including-a-woman-killed-after-being-hit-by-a-motorcycle-near-lalgudi",
-   "title": "லால்குடி அருகே பைக் மோதி பெண் உள்பட இருவா் உயிரிழப்பு",
-   "summary": "திருச்சி மாவட்டம் லால்குடி அருகே செவ்வாய்க்கிழமை இரவு நடந்த விபத்தில் சாலையைக் கடந்த பெண்ணும், பைக்கை ஓட்டி வந்தவரும் உயிரிழந்தனா்..லால்குடி அருகேயுள்ள கல்லக்குடி கே.கே.நகா் பகுதியைச் சோ்ந்தவா் மணி மனைவி ஷீலா (40).",
-   "source": "தினமணி",
-   "published": "2026-11-25T21:14:05.216Z",
-   "category": "விபத்து",
-   "score": 11.5,
-   "power_cut": false,
-   "listed_at": "2026-11-26T04:27:43.088459+05:30",
-   "picked_at": "2026-11-26T04:29:34.307372+05:30",
-   "refused": "not filed: all free models failed: no usable answer from the models"
-  },
   "Cdef7dee": {
    "id": "Cdef7dee",
    "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/25/complaint-that-a-headmistress-assaulted-a-school-student",
@@ -117,71 +103,32 @@
    "picked_at": "2026-11-26T04:29:34.307380+05:30",
    "refused": "not filed: all free models failed: no usable answer from the models"
   },
-  "Ca982f8c": {
-   "id": "Ca982f8c",
-   "url": "https://tamil.abplive.com/news/trichy/tragic-accident-near-lalgudi-woman-crossing-the-road-and-a-motorcyclist-killed-village-plunged-into-grief-tnn-280583",
-   "title": "லால்குடி அருகே கோர விபத்து! சாலையைக் கடந்த பெண்ணும் பைக் ஓட்டியவரும் பலி – சோகத்தில் மிதக்கும் கிராமம்",
-   "summary": "திருச்சி: திருச்சி மாவட்டம் லால்குடி அருகே நடைபெற்ற சாலை விபத்தில் பெண் உள்பட இருவர் உயிரிழந்த சம்பவம் அப்பகுதியில் பெரும் சோகத்தை ஏற்படுத்தியுள்ளது.",
-   "source": "ஏபிபி நாடு",
-   "published": "2026-11-26T10:54:43+05:30",
-   "category": "விபத்து",
-   "score": 11.5,
-   "power_cut": false,
-   "listed_at": "2026-11-26T12:32:36.990682+05:30",
-   "picked_at": "2026-11-26T12:36:27.181412+05:30",
-   "posted": true
-  },
-  "C1fca0be": {
-   "id": "C1fca0be",
-   "url": "https://tamil.abplive.com/news/trichy/heavy-incessant-rain-in-trichy-waterlogging-on-major-roads-causes-severe-hardship-for-motorists-tnn-280579",
-   "title": "திருச்சியில் விடாமல் கொட்டிய கனமழை! முக்கிய சாலைகளில் தண்ணீர் தேக்கம் – வாகன ஓட்டிகள் கடும் அவதி",
-   "summary": "திருச்சி: திருச்சி மாநகரில் நேற்று காலை தொடங்கி இரவு வரை அவ்வப்போது பெய்த கனமழையால் நகரின் பல்வேறு பகுதிகளில் மழைநீர் தேங்கியது. இதனால் பொதுமக்களின் இயல்பு வாழ்க்கை பாதிக்கப்பட்டதுடன், இருசக்கர வாகன ஓட்டிகள், பாதசாரிக...",
-   "source": "ஏபிபி நாடு",
-   "published": "2026-11-26T10:31:57+05:30",
+  "C869e232": {
+   "id": "C869e232",
+   "url": "https://www.maalaimalar.com/news/tamilnadu/rainfall-recorded-in-kayalpattinam",
+   "title": "காயல்பட்டினத்தில் 18 செ.மீ. மழை பதிவு",
+   "summary": "19 இடங்களில் கன மழையும், காயல்பட்டினம், திருச்செந்தூரில் மிக கனமழையும் பெய்துள்ளது..கடந்த 24 மணி நேரத்தில் அதிகபட்சமாக தூத்துக்குடி மாவட்டம் காயல்பட்டினத்தில் 18 செ.மீ.",
+   "source": "மாலைமலர்",
+   "published": "2026-11-26T09:55:19Z",
    "category": "மழை / வானிலை",
    "score": 10.5,
    "power_cut": false,
-   "listed_at": "2026-11-26T12:32:36.990682+05:30",
-   "picked_at": "2026-11-26T12:36:27.181415+05:30",
-   "posted": true
+   "listed_at": "2026-11-26T16:31:22.435988+05:30"
   },
-  "C4a681d7": {
-   "id": "C4a681d7",
-   "url": "https://tamil.abplive.com/agriculture/demand-for-rs-40-000-compensation-per-acre-farmers-stage-a-striking-protest-in-trichy-accompanied-by-their-ploughing-oxen-tnn-280598",
-   "title": "ஏக்கருக்கு ரூ.40 ஆயிரம் இழப்பீடு வேண்டும்! உழவு மாடுகளுடன் திருச்சியில் விவசாயிகள் அதிரடி போராட்டம்!",
-   "summary": "திருச்சி: காவிரி நீர் கிடைக்காததால் பயிர்கள் கருகும் அபாயம் ஏற்பட்டுள்ளதாகக் கூறி, விவசாயிகளுக்கு ஏக்கருக்கு ரூ.40 ஆயிரம் வறட்சி நிவாரணம் வழங்க வேண்டும் என்பன உள்ளிட்ட கோரிக்கைகளை வலியுறுத்தி திருச்சியில் விவசாயிகள் ந...",
-   "source": "ஏபிபி நாடு",
-   "published": "2026-11-26T11:45:00+05:30",
+  "C6f34da8": {
+   "id": "C6f34da8",
+   "url": "https://www.dailythanthi.com/news/tamilnadu/a-common-candidate-i-will-not-go-and-stand-before-anyone-to-seek-support-seemans-sensational-statement",
+   "title": "பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன் - சீமான் பரபரப்பு பேச்சு",
+   "summary": "சென்னைபொது வேட்பாளர் விவகாரத்தில், எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன் என சீமான் பேசியது பரபரப்பு ஏற்படுத்தி உள்ளது.தமிழ்நாட்டில் காலியாக உள்ள விராலிமலை, கரூர், அம்பாசமுத்திரம், பெருந்துறை, திருச்சி கிழக்கு ஆகி...",
+   "source": "தினத்தந்தி",
+   "published": "2026-11-26T10:23:54Z",
    "category": "பொது",
-   "score": 5.65,
+   "score": 6.0,
    "power_cut": false,
-   "listed_at": "2026-11-26T12:32:36.990682+05:30",
-   "picked_at": "2026-11-26T12:36:27.181417+05:30",
-   "posted": true
+   "listed_at": "2026-11-26T16:31:22.435988+05:30"
   }
  },
  "rounds": {
-  "2026-11-24_20": {
-   "window": [
-    "2026-11-24T18:13:52.207755+05:30",
-    "2026-11-24T20:29:34.632150+05:30"
-   ],
-   "ids": [
-    "C945491d"
-   ],
-   "sent": false,
-   "deadline": "2026-11-24T21:29:34.632150+05:30",
-   "decided": {
-    "how": "automatic: top 5 of 1 by insights",
-    "ids": [
-     "C945491d"
-    ],
-    "at": "2026-11-24T20:32:06.748905+05:30"
-   },
-   "written": [
-    "C945491d"
-   ]
-  },
   "2026-11-24_22": {
    "window": [
     "2026-11-24T22:31:14.136635+05:30",
@@ -518,6 +465,21 @@
     "C4a681d7",
     "Ca982f8c"
    ]
+  },
+  "2026-11-26_16": {
+   "window": [
+    "2026-11-26T12:32:36.990682+05:30",
+    "2026-11-26T16:31:22.435988+05:30"
+   ],
+   "ids": [
+    "C869e232",
+    "C6f34da8",
+    "C936cfee"
+   ],
+   "sent": false,
+   "deadline": "2026-11-26T17:31:22.435988+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}
