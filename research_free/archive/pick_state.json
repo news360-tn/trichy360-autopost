@@ -1,20 +1,6 @@
 {
- "last_end": "2026-11-26T06:04:16.490169+05:30",
+ "last_end": "2026-11-26T08:30:46.750855+05:30",
  "pool": {
-  "C5a51d2e": {
-   "id": "C5a51d2e",
-   "url": "https://tamil.abplive.com/news/trichy/they-are-imposing-a-lockdown-what-is-the-reason-behind-the-major-allegation-raised-by-the-people-of-thiruverumbur-tnn-280497",
-   "title": "முடக்கம் செய்யறாங்க... திருவெறும்பூர் மக்கள் எழுப்பிய பெரும் குற்றச்சாட்டு எதற்காக?",
-   "summary": "திருச்சி: திருச்சி மாவட்டம் திருவெறும்பூர் பகுதியில் பல்வேறு குடும்பங்களின் சமையல் எரிவாயு இணைப்புகள் அவர்களின் ஒப்புதல் இல்லாமல் முடக்கப்பட்டுள்ளதாக புகார் எழுந்துள்ளது.",
-   "source": "ஏபிபி நாடு",
-   "published": "2026-11-25T06:46:30+05:30",
-   "category": "பொது",
-   "score": 4.49,
-   "power_cut": false,
-   "listed_at": "2026-11-25T08:27:14.565170+05:30",
-   "picked_at": "2026-11-25T08:28:33.344799+05:30",
-   "refused": "not filed: all free models failed: no usable answer from the models"
-  },
   "C936cfee": {
    "id": "C936cfee",
    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/wife-magic-husband-suicide/4386279",
@@ -133,17 +119,6 @@
   }
  },
  "rounds": {
-  "2026-11-24_13": {
-   "window": [
-    "2026-11-24T12:26:48.636640+05:30",
-    "2026-11-24T13:54:06.773175+05:30"
-   ],
-   "ids": [],
-   "sent": false,
-   "deadline": "2026-11-24T14:54:06.773175+05:30",
-   "decided": null,
-   "written": []
-  },
   "2026-11-24_16": {
    "window": [
     "2026-11-24T13:54:06.773175+05:30",
@@ -483,6 +458,19 @@
     "ids": [],
     "at": "2026-11-26T06:05:40.393428+05:30"
    },
+   "written": []
+  },
+  "2026-11-26_08": {
+   "window": [
+    "2026-11-26T06:04:16.490169+05:30",
+    "2026-11-26T08:30:46.750855+05:30"
+   ],
+   "ids": [
+    "C936cfee"
+   ],
+   "sent": false,
+   "deadline": "2026-11-26T09:30:46.750855+05:30",
+   "decided": null,
    "written": []
   }
  },
