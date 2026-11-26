@@ -75,6 +75,7 @@ def payload(row, reel_link="", en=None):
         "location": row.get("location", ""), "category": row.get("category", ""), "images": images_of(row),
         "reel_link": reel_link or row.get("reel_link", "") or row.get("trichy_link", ""),
         "source": row.get("source", ""), "published": row.get("published", ""), "filed_at": filed_iso(row),
+        "safe_kind": str(row.get("_safe_kind") or ""),      # owner 26 Nov: the source comment's kind of news (the site shows its safe line)
         "district": "trichy",      # owner 22 Nov: one website for all 7 districts (www.namakkal360.workers.dev/trichy)
     }
 
@@ -131,6 +132,9 @@ def backfill(start="RN-1"):
     log(len(rows), "posted stories to send, from", start)
     sent = 0
     for i in range(0, len(rows), 10):
+        for r in rows[i:i + 10]:
+            k = P.comment_kind(r)
+            r["_safe_kind"] = k["kind"] + ("+not_guilty" if k["not_guilty"] else "")
         group = [payload(r, "", english(r)) for r in rows[i:i + 10]]
         res = post(group)
         sent += len((res or {}).get("saved", []))

@@ -2698,6 +2698,8 @@ def run_story_page(row, page):
                 publish_story(token, url, "video", row)
                 try:      # website OFF for now: website.send does nothing without WEBSITE_INGEST_KEY (a website problem never stops posting)
                     import website
+                    k = comment_kind(row)      # owner 26 Nov: the website shows the same safe line as the source comment
+                    row["_safe_kind"] = k["kind"] + ("+not_guilty" if k["not_guilty"] else "")
                     website.send(row, link)
                 except Exception as e:
                     log("website step skipped:", str(e)[:150])
