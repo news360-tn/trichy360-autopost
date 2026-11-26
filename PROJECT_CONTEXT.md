@@ -83,34 +83,34 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
-| 2026-11-25 | `a6b5b5e` | YouTube: upload only when the login's channel is this page's (verify_channel on Erode, Karur, Salem, Tiruppur, Trichy - their Shorts went to the Namakkal channel) |
-| 2026-11-25 | `ecf4e20` | stories shared / Instagram pause |
-| 2026-11-25 | `5137da2` | stories shared / Instagram pause |
-| 2026-11-25 | `7224582` | stories shared / Instagram pause |
-| 2026-11-25 | `6fedf6f` | stories shared / Instagram pause |
-| 2026-11-25 | `51d5764` | stories shared / Instagram pause |
-| 2026-11-25 | `90b084d` | stories shared / Instagram pause |
-| 2026-11-25 | `7d21714` | stories shared / Instagram pause |
-| 2026-11-25 | `d3bb4aa` | stories shared / Instagram pause |
-| 2026-11-25 | `5773657` | stories shared / Instagram pause |
-| 2026-11-25 | `32cd72d` | stories shared / Instagram pause |
-| 2026-11-25 | `62d0ab6` | stories shared / Instagram pause |
-| 2026-11-25 | `f573e62` | stories shared / Instagram pause |
-| 2026-11-25 | `44faf29` | stories shared / Instagram pause |
-| 2026-11-25 | `15755ca` | stories shared / Instagram pause |
-| 2026-11-25 | `b147c3b` | stories shared / Instagram pause |
-| 2026-11-25 | `7359e8f` | stories shared / Instagram pause |
-| 2026-11-25 | `2c257ba` | stories shared / Instagram pause |
-| 2026-11-25 | `5c096f4` | stories shared / Instagram pause |
-| 2026-11-25 | `f45a182` | stories shared / Instagram pause |
-| 2026-11-25 | `1a745e6` | stories shared / Instagram pause |
-| 2026-11-25 | `9dcc432` | stories shared / Instagram pause |
-| 2026-11-25 | `a905b6d` | stories shared / Instagram pause |
-| 2026-11-25 | `9f6445b` | stories shared / Instagram pause |
-| 2026-11-25 | `3949c5b` | stories shared / Instagram pause |
-| 2026-11-25 | `7bdc660` | stories shared / Instagram pause |
-| 2026-11-25 | `766680b` | stories shared / Instagram pause |
-| 2026-11-25 | `c6a53a3` | stories shared / Instagram pause |
-| 2026-11-25 | `891ea67` | stories shared / Instagram pause |
-| 2026-11-25 | `de5a7c6` | stories shared / Instagram pause |
+| 2026-11-26 | `aaf3cf7` | YouTube: a channel's own upload limit ('exceeded the number of videos') pauses that channel for 2 hours, not the whole day; Erode's day-block cleared |
+| 2026-11-26 | `69452a2` | stories shared / Instagram pause |
+| 2026-11-26 | `c5c45e9` | YouTube: Trichy login was redone - saved channel check cleared so it re-checks at the next upload |
+| 2026-11-26 | `9104e96` | stories shared / Instagram pause |
+| 2026-11-26 | `fc4feca` | stories shared / Instagram pause |
+| 2026-11-26 | `37aa222` | stories shared / Instagram pause |
+| 2026-11-26 | `6fc8f0d` | stories shared / Instagram pause |
+| 2026-11-26 | `6aa6cee` | stories shared / Instagram pause |
+| 2026-11-26 | `9a5d3f4` | autofix: corrected held news |
+| 2026-11-26 | `22ecf1d` | stories shared / Instagram pause |
+| 2026-11-26 | `bc471d1` | stories shared / Instagram pause |
+| 2026-11-26 | `20cabcc` | stories shared / Instagram pause |
+| 2026-11-26 | `1f72df4` | stories shared / Instagram pause |
+| 2026-11-26 | `c3291d6` | stories shared / Instagram pause |
+| 2026-11-26 | `59d5bce` | stories shared / Instagram pause |
+| 2026-11-26 | `43cc0f9` | stories shared / Instagram pause |
+| 2026-11-26 | `edf0895` | stories shared / Instagram pause |
+| 2026-11-26 | `25910e6` | pick: written and posted |
+| 2026-11-26 | `81060fd` | pick: picked news saved |
+| 2026-11-26 | `b39dced` | pick: list sent |
+| 2026-11-26 | `8947df6` | goldrate posted |
+| 2026-11-26 | `75848a9` | stories shared / Instagram pause |
+| 2026-11-26 | `89aeff9` | stories shared / Instagram pause |
+| 2026-11-26 | `36c1cd8` | stories shared / Instagram pause |
+| 2026-11-26 | `fd0d258` | stories shared / Instagram pause |
+| 2026-11-26 | `b213c0e` | stories shared / Instagram pause |
+| 2026-11-26 | `aa33248` | stories shared / Instagram pause |
+| 2026-11-26 | `a03c9ba` | stories shared / Instagram pause |
+| 2026-11-26 | `3cd1e0b` | stories shared / Instagram pause |
+| 2026-11-26 | `3711ced` | pick: written and posted |
 <!-- recent-changes:end -->
