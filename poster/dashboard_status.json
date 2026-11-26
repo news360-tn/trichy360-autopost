@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:29:24+00:00",
+ "updated": "2026-11-26T23:36:23+00:00",
  "day": "2026-11-27",
  "ready": 4,
  "pages": {
@@ -24,7 +24,32 @@
     "share": [],
     "paused": ""
    },
-   "manual_post": [],
+   "manual_post": [
+    {
+     "id": "RN-172",
+     "why": "Instagram's 24-hour post limit is reached",
+     "sent": "2026-11-26T23:33:41+00:00",
+     "video": true
+    },
+    {
+     "id": "RN-169",
+     "why": "Instagram's 24-hour post limit is reached",
+     "sent": "2026-11-26T23:33:15+00:00",
+     "video": true
+    },
+    {
+     "id": "RN-171",
+     "why": "Instagram's 24-hour post limit is reached",
+     "sent": "2026-11-26T23:33:19+00:00",
+     "video": true
+    },
+    {
+     "id": "RN-168",
+     "why": "Instagram's 24-hour post limit is reached",
+     "sent": "2026-11-26T23:33:23+00:00",
+     "video": true
+    }
+   ],
    "daily": {
     "gold": {
      "posted": false,
