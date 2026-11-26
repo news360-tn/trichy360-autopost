@@ -1,5 +1,14 @@
 {
- "uploads": [],
+ "uploads": [
+  {
+   "ig": "18125238541979742",
+   "youtube": "jxspmPNzzoo",
+   "day": "2026-11-26",
+   "at": "2026-11-26T05:59:54+00:00",
+   "title": "இன்றைய தங்கம், வெள்ளி விலை | 26 நவம்பர் 2026 | Trichy gold rate today",
+   "daily": true
+  }
+ ],
  "playlists": {},
  "extras_off_until": "2026-11-26T11:31:14+00:00",
  "wrong_channel_uploads": [
@@ -68,5 +77,12 @@
    "at": "2026-11-25T11:42:58+00:00",
    "title": "சோமரசம்பேட்டை அருகே பெண் இறப்பில் சந்தேகம்: உறவின… | Trichy crime news"
   }
- ]
+ ],
+ "channel_check": {
+  "day": "2026-11-26",
+  "ok": true,
+  "why": "",
+  "title": "Trichy 360",
+  "checked_at": "2026-11-26T05:59:54+00:00"
+ }
 }
