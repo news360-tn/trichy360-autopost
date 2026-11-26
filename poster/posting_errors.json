@@ -1,0 +1,10 @@
+[
+ {
+  "at": "2026-11-26T18:04:49+00:00",
+  "platform": "YouTube",
+  "page": "trichy",
+  "story": "18363424657223909",
+  "error": "YouTube upload not started (400): {   \"error\": {     \"code\": 400,     \"message\": \"The user has exceeded the number of videos they may upload.\",     \"errors\": [       {         \"message\": \"The user has exceeded the number of videos they may upload.\",         \"domain\": \"youtube.video\",         \"reason\": \"uploadLimitExceeded\"       }  ",
+  "next_try": "2026-11-26T18:14:49+00:00"
+ }
+]
