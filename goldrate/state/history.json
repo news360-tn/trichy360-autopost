@@ -221,18 +221,21 @@
  },
  {
   "date": "2026-11-26",
-  "g22": 11419,
-  "g24": 12457,
+  "g22": 11540,
+  "g24": 12589,
   "gold_sources": [
    "GoodReturns",
    "Groww",
    "RateToday"
   ],
-  "silver": 164,
+  "silver": 165,
   "silver_sources": [
    "GoodReturns",
    "Groww",
    "RateToday"
-  ]
+  ],
+  "g22_am": 11419,
+  "g24_am": 12457,
+  "silver_am": 164
  }
 ]
