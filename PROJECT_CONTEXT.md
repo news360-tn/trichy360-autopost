@@ -83,34 +83,34 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
-| 2026-11-26 | `00da487` | Clean-up: with Cloudflare R2 set up, Cloudinary credit/login problems are yellow warnings (backup only) and no longer turn the run red |
-| 2026-11-26 | `46bd26a` | stories shared / Instagram pause |
-| 2026-11-26 | `de94410` | stories shared / Instagram pause |
-| 2026-11-26 | `aaf3cf7` | YouTube: a channel's own upload limit ('exceeded the number of videos') pauses that channel for 2 hours, not the whole day; Erode's day-block cleared |
-| 2026-11-26 | `69452a2` | stories shared / Instagram pause |
-| 2026-11-26 | `c5c45e9` | YouTube: Trichy login was redone - saved channel check cleared so it re-checks at the next upload |
-| 2026-11-26 | `9104e96` | stories shared / Instagram pause |
-| 2026-11-26 | `fc4feca` | stories shared / Instagram pause |
-| 2026-11-26 | `37aa222` | stories shared / Instagram pause |
-| 2026-11-26 | `6fc8f0d` | stories shared / Instagram pause |
-| 2026-11-26 | `6aa6cee` | stories shared / Instagram pause |
-| 2026-11-26 | `9a5d3f4` | autofix: corrected held news |
-| 2026-11-26 | `22ecf1d` | stories shared / Instagram pause |
-| 2026-11-26 | `bc471d1` | stories shared / Instagram pause |
-| 2026-11-26 | `20cabcc` | stories shared / Instagram pause |
-| 2026-11-26 | `1f72df4` | stories shared / Instagram pause |
-| 2026-11-26 | `c3291d6` | stories shared / Instagram pause |
-| 2026-11-26 | `59d5bce` | stories shared / Instagram pause |
-| 2026-11-26 | `43cc0f9` | stories shared / Instagram pause |
-| 2026-11-26 | `edf0895` | stories shared / Instagram pause |
-| 2026-11-26 | `25910e6` | pick: written and posted |
-| 2026-11-26 | `81060fd` | pick: picked news saved |
-| 2026-11-26 | `b39dced` | pick: list sent |
-| 2026-11-26 | `8947df6` | goldrate posted |
-| 2026-11-26 | `75848a9` | stories shared / Instagram pause |
-| 2026-11-26 | `89aeff9` | stories shared / Instagram pause |
-| 2026-11-26 | `36c1cd8` | stories shared / Instagram pause |
-| 2026-11-26 | `fd0d258` | stories shared / Instagram pause |
-| 2026-11-26 | `b213c0e` | stories shared / Instagram pause |
-| 2026-11-26 | `aa33248` | stories shared / Instagram pause |
+| 2026-11-26 | `2d24dc6` | Website gets each story's kind of news (safe note like the source comment) |
+| 2026-11-26 | `f7fd17b` | stories shared / Instagram pause |
+| 2026-11-26 | `256e1bc` | stories shared / Instagram pause |
+| 2026-11-26 | `758f4c2` | stories shared / Instagram pause |
+| 2026-11-26 | `9421bec` | powercut: notices written |
+| 2026-11-26 | `47bb070` | stories shared / Instagram pause |
+| 2026-11-26 | `9a74700` | stories shared / Instagram pause |
+| 2026-11-26 | `52089ef` | stories shared / Instagram pause |
+| 2026-11-26 | `d901e5a` | stories shared / Instagram pause |
+| 2026-11-26 | `26f00c3` | stories shared / Instagram pause |
+| 2026-11-26 | `da803bc` | stories shared / Instagram pause |
+| 2026-11-26 | `9db4a3c` | stories shared / Instagram pause |
+| 2026-11-26 | `4917a6d` | stories shared / Instagram pause |
+| 2026-11-26 | `e29fc29` | pick: written and posted |
+| 2026-11-26 | `ac89176` | stories shared / Instagram pause |
+| 2026-11-26 | `b870885` | facebook RN-157 |
+| 2026-11-26 | `7b0117c` | posted RN-157 |
+| 2026-11-26 | `1ffef2e` | facebook RN-158 |
+| 2026-11-26 | `a63af29` | posted RN-158 |
+| 2026-11-26 | `cd726c7` | facebook RN-159 |
+| 2026-11-26 | `9f31236` | posted RN-159 |
+| 2026-11-26 | `08487b9` | stories shared / Instagram pause |
+| 2026-11-26 | `70a79a1` | pick: picked news saved |
+| 2026-11-26 | `ff1a62b` | pick: picked news saved |
+| 2026-11-26 | `4c76f88` | pick: list sent |
+| 2026-11-26 | `99b10b1` | stories shared / Instagram pause |
+| 2026-11-26 | `d7a6d7a` | stories shared / Instagram pause |
+| 2026-11-26 | `bb57aaa` | stories shared / Instagram pause |
+| 2026-11-26 | `94a2264` | stories shared / Instagram pause |
+| 2026-11-26 | `aae5788` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
