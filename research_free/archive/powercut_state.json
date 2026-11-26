@@ -721,7 +721,7 @@
    "title": "Salem Power Cut: சேலத்தில் நாளை (26-11-2026) எங்கெல்லாம் பவர் கட்? - மின் வாரியம் வெளியிட்ட லிஸ்ட்"
   },
   "https://tamil.abplive.com/news/trichy/trichy-power-cut-26-11-2026-know-timings-areas-affected-by-power-shutdown-280534#district-section": {
-   "at": "2026-11-26T14:06:01.839595+05:30",
+   "at": "2026-11-26T14:26:49.738493+05:30",
    "power_cut": true,
    "why": "power cut ends today at 15:00 - too late to post",
    "title": "திருச்சி மாவட்டத்தில் நாளை (26-11-2026) மின்தடை: பல்வேறு பகுதிகளில் (நவம்பர் 26, 2026, வியாழக்கிழமை) மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெற உள்ளதால், காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம் த"
@@ -851,6 +851,36 @@
    "power_cut": false,
    "why": "not this district",
    "title": "coimbatore power cut: கோவையில் நாளை (27-11-2026) எத்தனை இடங்களில் மின் தடை ? - மின்வாரியம் வெளியிட்ட லிஸ்ட்"
+  },
+  "https://www.dinamani.com/all-editions/edition-coimbatore/coimbatore/2026/Nov/21/power-outage-tomorrow-goundampalayam": {
+   "at": "2026-11-26T14:26:49.738493+05:30",
+   "power_cut": false,
+   "why": "other district",
+   "title": "நாளைய மின்தடை: கவுண்டம்பாளையம்"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/file-a-case-against-the-deputy-speaker-and-call-for-an-inquiry-the-victim-petitioned-the-police/4382799": {
+   "at": "2026-11-26T14:26:49.738493+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "துணை சபாநாயகர் மீது வழக்கு போட்டுவிட்டு விசாரணைக்கு அழையுங்கள்; பாதிக்கப்பட்டவர் போலீசிடம் மனு"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/rs-22-crore-fraud-in-ration-rice-distribution-mill-principal-with-family-arrested/4379049": {
+   "at": "2026-11-26T14:26:49.738493+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "ரேஷன் அரிசி வினியோகத்தில் 22 கோடி ரூபாய் மோசடி: ஆலை அதிபர் குடும்பத்துடன் கைது"
+  },
+  "https://tamil.abplive.com/news/tamil-nadu/tamilnadu-power-shutdown-22-10-2026-vellore-karur-power-cut-areas-affected-277933#district-section": {
+   "at": "2026-11-26T14:26:49.738493+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "Tamilnadu Power Cut: தமிழகத்தில் நாளை (22-10-2026) எத்தனை இடங்களில் மின் தடை ? - மின் வாரியத்தின் முழு லிஸ்ட் இதோ"
+  },
+  "https://tamil.samayam.com/tamil-nadu/news/power-outage-in-tamilnadu-on-october-17-2026-due-to-maintenance-work/articleshow/134979174.cms#district-section": {
+   "at": "2026-11-26T14:26:49.738493+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "தமிழகத்தில் நாளை (17-10-2026) முழு நேர மின்தடை அறிவிப்பு! ஏரியாக்கள் லிஸ்ட் இதோ!"
   }
  },
  "done": {
