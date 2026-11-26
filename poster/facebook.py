@@ -244,8 +244,11 @@ def fb_caption(cap, page_tag, tags=None, short=False, tamil_tag=""):
     """the Instagram caption (location line first, full news) with only 3 hashtags at the end.
     Instagram's tag line is: area, town, topic, Tamil place, page -> Facebook keeps town + topic + page tag.
     owner 25 Nov: news (short=True) gets the short Facebook text and the page's Tamil district tag as well."""
-    found, body = [], []
+    found, body, kw_line = [], [], ""
     for l in (cap or "").split("\n"):
+        if l.strip().startswith("🔎"):      # owner 26 Nov: the keyword line stays LAST, after the hashtags
+            kw_line = l.strip()
+            continue
         l = re.sub(r"\s*:?\s*https?://\S+", "", l)      # owner 24 Nov: no outside link in the Facebook post text (Facebook shows such posts to far
         #                                                fewer people) - the article link is in the first comment; "📰 Source: <paper> (<date>)" stays
         t = re.findall(r"#[^\s#]+", l)
@@ -267,7 +270,7 @@ def fb_caption(cap, page_tag, tags=None, short=False, tamil_tag=""):
     tl = list(tags)[:FB_TAGS - 1]
     if tamil_tag and tamil_tag.lower() not in {t.lower() for t in tl + [page_tag]}:
         tl.append(tamil_tag)
-    return (text + "\n\n" + " ".join(tl + [page_tag])).strip()
+    return (text + "\n\n" + " ".join(tl + [page_tag]) + (("\n\n" + kw_line) if kw_line else "")).strip()
 
 
 def _err(r):

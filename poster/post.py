@@ -792,6 +792,50 @@ def posted_quiet():
     return False
 
 
+# owner 26 Nov: SEARCH KEYWORDS - the best keywords go LAST (right after the hashtags, before the source line) on Instagram, Facebook and
+# YouTube. The place comes first (people search "<town> news"), then the topic, then general Tamil Nadu words. Sensitive news (a death,
+# an accused, a court case, a safety / crime report) gets only the place words, never a topic word. Switch off: config.json "keywords": false.
+PAGE_KW = {"namakkal": ("நாமக்கல்", "Namakkal"), "rasipuram": ("இராசிபுரம்", "Rasipuram"), "coimbatore": ("கோவை", "Coimbatore"),
+           "salem": ("சேலம்", "Salem"), "erode": ("ஈரோடு", "Erode"), "karur": ("கரூர்", "Karur"), "tirupur": ("திருப்பூர்", "Tiruppur"),
+           "trichy": ("திருச்சி", "Trichy")}
+KIND_KW = {"power_cut": ("மின்தடை", "power cut today"), "politics": ("அரசியல் செய்திகள்", "politics news"), "jobs": ("வேலைவாய்ப்பு", "job alert"),
+           "govt": ("அரசு அறிவிப்பு", "government notice"), "admin": ("அரசு செய்திகள்", "district administration"), "education": ("கல்வி செய்திகள்", "education news"),
+           "health": ("மருத்துவம்", "health news"), "business": ("விலை நிலவரம்", "price today"), "civic": ("மக்கள் பிரச்சினை", "civic issue"),
+           "roads": ("போக்குவரத்து", "traffic update"), "events": ("நிகழ்ச்சி", "local events"), "wildlife": ("வனவிலங்கு", "wildlife news"),
+           "fire": ("தீ விபத்து", "fire safety")}
+SENSITIVE_KW_KINDS = ("death", "crime", "court", "safety")
+
+
+def keywords_for(row, limit=170):
+    """the keyword line (without the 🔎) for this news, at most `limit` characters; '' when there is nothing sensible to add"""
+    ta, en = PAGE_KW.get(PAGE, (PAGE.title(), PAGE.title()))
+    words = [f"{ta} செய்திகள்", f"{en} news", f"{ta} மாவட்ட செய்திகள்", f"{en} district news"]
+    rn = globals().get("is_rasipuram_news")
+    if rn and rn(row):
+        words[:0] = ["ராசிபுரம் செய்திகள்", "Rasipuram news"]
+    loc = re.split(r"[,|/]", str(row.get("location") or ""))[0].strip()
+    if 2 < len(loc) < 30 and loc.lower() not in (ta.lower(), en.lower(), "unknown", "தெரியவில்லை") and "district" not in loc.lower() and "மாவட்டம்" not in loc:
+        words.insert(0, f"{loc} செய்திகள்" if re.search(r"[\u0B80-\u0BFF]", loc) else f"{loc} news")
+    kind = comment_kind(row)["kind"]
+    if kind not in SENSITIVE_KW_KINDS:
+        if kind == "weather_agri":
+            head = str(row.get("headline_ta") or "")
+            words += ["மழை எச்சரிக்கை", "weather update"] if "மழை" in head else ["விவசாயம்", "farmers news"]
+        else:
+            words += list(KIND_KW.get(kind, ()))
+    words += ["Tamil Nadu local news", "இன்றைய செய்திகள்", f"{en} 360"]
+    out, seen = [], set()
+    for w in words:
+        k = w.lower()
+        if k in seen or not w.strip():
+            continue
+        if len(", ".join(out + [w])) > limit:
+            continue      # a phrase that does not fit is skipped (a later, shorter one may still fit)
+        seen.add(k)
+        out.append(w)
+    return ", ".join(out)
+
+
 def final_caption(row):
     sys.path.insert(0, str(REEL))
     from digits import to_digits
@@ -847,6 +891,13 @@ def final_caption(row):
         else:
             lines += ["", AI_LINE]
         cap = "\n".join(lines)
+    if CONFIG.get("keywords", True):      # owner 26 Nov: the best keywords last - after the hashtags, before the source line
+        try:
+            kw = keywords_for(row)
+            if kw and "🔎" not in cap:
+                cap = cap.rstrip() + "\n\n🔎 " + kw
+        except Exception as e:
+            log("keywords skipped:", str(e)[:100])
     # owner 11 Nov: the source at the very END of the caption - "Source: <paper>: <article link>" (not as a comment)
     _, src_full = source_credit(row)
     src = str(row.get("source") or "").strip()

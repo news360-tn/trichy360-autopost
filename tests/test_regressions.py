@@ -1051,7 +1051,7 @@ class HashtagPattern2Nov(unittest.TestCase):
 
     def tags(self, head, cap_tags="#Trichy360 #TamilNews #Trichy #தீ #Accident"):
         row = {"headline_ta": head, "headline_en": "x", "location": "", "caption": head + "\n\n📍 திருச்சி | 2 நவம்பர் 2026\n\n" + cap_tags}
-        return post.final_caption(row).strip().split("\n")[-1].split()
+        return [l for l in post.final_caption(row).strip().split("\n") if l.startswith("#")][-1].split()
 
     def test_town_topic_tamil(self):
         self.assertEqual(sorted(self.tags("மணப்பாறையில் கனமழை: சாலைகளில் வெள்ளம்")),
@@ -1755,7 +1755,7 @@ class ReachPlan29Oct(unittest.TestCase):
                       "📍 திருவானைக்காவல், திருச்சி | 29 அக்டோபர் 2026\n\n#Trichy360 #Trichy #தீபுறம்போக்கு #விபத்து #TrichyNews"}
 
     def test_five_focused_hashtags(self):
-        tags = post.final_caption(dict(self.ROW)).strip().split("\n")[-1].split()
+        tags = [l for l in post.final_caption(dict(self.ROW)).strip().split("\n") if l.startswith("#")][-1].split()
         self.assertEqual(5, len(tags))
         for t in ("#Trichy360", "#Trichy", "#Thiruvanaikoil", "#TrichyNews", "#திருச்சி"):      # owner 2 Nov pattern
             self.assertIn(t, tags)

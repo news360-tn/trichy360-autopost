@@ -144,6 +144,20 @@ def score(h):
         + (h.get("ig_reels_avg_watch_time") or 0) / 1000.0
 
 
+def fb_followers(page):
+    """owner 26 Nov: the page's Facebook followers / likes for the team dashboard - {"followers", "fans"} or None (secrets missing / refused).
+    Needs FB_PAGE_ID_<PAGE> + FB_TOKEN_<PAGE>; a read of the page's own public counts only."""
+    k = page.upper()
+    pid, tok = os.environ.get("FB_PAGE_ID_" + k, "").strip(), os.environ.get("FB_TOKEN_" + k, "").strip()
+    if not (pid and tok):
+        return None
+    import facebook
+    r = facebook._call("GET", pid, tok, fields="followers_count,fan_count") or {}
+    if r.get("followers_count") is None and r.get("fan_count") is None:
+        return None
+    return {"followers": r.get("followers_count"), "fans": r.get("fan_count")}
+
+
 def main():
     try:
         hist = json.load(open(HIST, encoding="utf-8"))
@@ -167,6 +181,21 @@ def main():
                 print(page, "followers:", acc.get("followers_count"))
             except Exception as e:
                 print(page, "followers not read:", str(e)[:150])
+            try:      # owner 26 Nov: Facebook followers per page per day (the team dashboard shows them)
+                fbf = fb_followers(page)
+                if fbf:
+                    fpath = os.path.join(HERE, "insights", "fb_followers.json")
+                    try:
+                        fol = json.load(open(fpath, encoding="utf-8"))
+                    except Exception:
+                        fol = {}
+                    fol.setdefault(datetime.datetime.now(IST).date().isoformat(), {})[page] = fbf
+                    json.dump(fol, open(fpath, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+                    print(page, "Facebook followers:", fbf.get("followers"), "likes:", fbf.get("fans"))
+                else:
+                    print(page, "Facebook followers not read (page secrets missing or not allowed yet)")
+            except Exception as e:
+                print(page, "Facebook followers not read:", str(e)[:150])
             account_insights(uid, tok, page)      # 19 Nov: follower / non-follower reach + follower cities, once a day
         except Exception as e:
             print(page, "read failed:", str(e)[:200]); continue

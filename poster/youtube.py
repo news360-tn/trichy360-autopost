@@ -86,12 +86,16 @@ def details(m, page, uname):
     room = TITLE_MAX - len(suffix)
     title = (head if len(head) <= room else head[:room - 1].rstrip() + "…") + suffix      # owner 25 Nov: about 70 characters (Shorts feed)
     tags = [t.lstrip("#") for t in re.findall(r"#[^\s#]+", cap)][:12]
-    body = [x for x in lines[1:] if x and not x.startswith("#") and not x.startswith("🤝 Sponsored")]
+    kw_line = next((x for x in lines if x.startswith("🔎")), "")      # owner 26 Nov: the keyword line: last in the description + in the hidden Tags
+    body = [x for x in lines[1:] if x and not x.startswith("#") and not x.startswith("🤝 Sponsored") and not x.startswith("🔎")]
+    for kwd in [w.strip() for w in kw_line.lstrip("🔎").split(",") if w.strip()][:6]:
+        if len(kwd) <= 30 and kwd not in tags:
+            tags.append(kwd)
     src = next((x for x in body if x.startswith("📰 Source")), "")
     body = [x for x in body if x != src]
     date = when(m["timestamp"]).strftime("%d %b %Y")
     desc = "\n".join([f"#{name} #TamilNews #Shorts", "", head, ""] + body[:12] + ["", src or "", f"📅 {date}", "",      # owner 25 Nov: YouTube shows the first 3 hashtags above the title
-                      f"🔔 Subscribe for daily {name} news", f"#{name}News #{name}360"]).strip()      # owner 25 Nov: keep viewers on YouTube
+                      f"🔔 Subscribe for daily {name} news", f"#{name}News #{name}360"] + (["", kw_line] if kw_line else [])).strip()      # owner 25 Nov: keep viewers on YouTube
     for extra in (f"{name} news", "Tamil news", f"{name} 360", "Shorts"):
         if extra not in tags:
             tags.append(extra)
