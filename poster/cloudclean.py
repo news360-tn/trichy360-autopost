@@ -127,10 +127,22 @@ def run(force=False, dry=False, now=None):
     return total
 
 
+def exit_code(alert):
+    """0 = the run stays green. owner 20 Nov: with --alert the scheduled clean-up turns red (GitHub e-mails the owner) when Cloudinary
+    cannot be kept small. owner 26 Nov: with Cloudflare R2 set up, R2 is the main store and Cloudinary only a backup - its credit /
+    login problems stay in the log as yellow warnings and no longer turn the run red."""
+    if not (alert and PROBLEMS):
+        return 0      # never fails the posting run
+    try:
+        import r2host
+        backup_only = r2host.enabled()
+    except Exception:
+        backup_only = False
+    for p in PROBLEMS:
+        print(f"::warning title=Cloudinary (backup) clean-up note::{p}" if backup_only else f"::error title=Cloudinary clean-up problem::{p}")
+    return 0 if backup_only else 1
+
+
 if __name__ == "__main__":
     run(force="--force" in sys.argv, dry="--dry" in sys.argv)
-    if "--alert" in sys.argv and PROBLEMS:      # owner 20 Nov: the scheduled clean-up turns red (GitHub e-mails the owner)
-        for p in PROBLEMS:
-            print(f"::error title=Cloudinary clean-up problem::{p}")
-        sys.exit(1)
-    sys.exit(0)      # never fails the posting run
+    sys.exit(exit_code("--alert" in sys.argv))
