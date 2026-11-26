@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-26T16:31+05:30",
+ "updated": "2026-11-26T16:49+05:30",
  "posts_measured": 158,
  "topic_weight": {
   "accident": 1.5,
-  "crime": 1.46,
-  "power_cut": 1.25,
-  "civic": -0.22,
+  "crime": 1.44,
+  "power_cut": 1.23,
+  "civic": -0.23,
   "education": -0.5,
   "politics": -0.5,
   "weather": -0.5,
   "temple": -0.5,
-  "poultry_agri": -0.49
+  "poultry_agri": -0.21
  },
  "topic_n": {
   "accident": 19,

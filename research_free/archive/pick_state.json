@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-26T16:31:22.435988+05:30",
+ "last_end": "2026-11-26T16:49:29.605989+05:30",
  "pool": {
   "C936cfee": {
    "id": "C936cfee",
@@ -102,20 +102,6 @@
    "listed_at": "2026-11-26T04:27:43.088459+05:30",
    "picked_at": "2026-11-26T04:29:34.307380+05:30",
    "refused": "not filed: all free models failed: no usable answer from the models"
-  },
-  "C869e232": {
-   "id": "C869e232",
-   "url": "https://www.maalaimalar.com/news/tamilnadu/rainfall-recorded-in-kayalpattinam",
-   "title": "காயல்பட்டினத்தில் 18 செ.மீ. மழை பதிவு",
-   "summary": "19 இடங்களில் கன மழையும், காயல்பட்டினம், திருச்செந்தூரில் மிக கனமழையும் பெய்துள்ளது..கடந்த 24 மணி நேரத்தில் அதிகபட்சமாக தூத்துக்குடி மாவட்டம் காயல்பட்டினத்தில் 18 செ.மீ.",
-   "source": "மாலைமலர்",
-   "published": "2026-11-26T09:55:19Z",
-   "category": "மழை / வானிலை",
-   "score": 10.5,
-   "power_cut": false,
-   "listed_at": "2026-11-26T16:31:22.435988+05:30",
-   "picked_at": "2026-11-26T16:34:44.368786+05:30",
-   "posted": true
   },
   "C6f34da8": {
    "id": "C6f34da8",
@@ -472,31 +458,16 @@
   },
   "2026-11-26_16": {
    "window": [
-    "2026-11-26T12:32:36.990682+05:30",
-    "2026-11-26T16:31:22.435988+05:30"
+    "2026-11-26T16:31:22.435988+05:30",
+    "2026-11-26T16:49:29.605989+05:30"
    ],
    "ids": [
-    "C869e232",
-    "C6f34da8",
     "C936cfee"
    ],
    "sent": false,
-   "deadline": "2026-11-26T17:31:22.435988+05:30",
-   "decided": {
-    "how": "automatic: top 6 of 2 by insights",
-    "ids": [
-     "C869e232",
-     "C6f34da8"
-    ],
-    "at": "2026-11-26T16:34:44.368777+05:30"
-   },
-   "written": [
-    "C6f34da8",
-    "C869e232"
-   ],
-   "refused": {
-    "C6f34da8": "not filed: all free models failed: no usable answer from the models"
-   }
+   "deadline": "2026-11-26T17:49:29.605989+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}
