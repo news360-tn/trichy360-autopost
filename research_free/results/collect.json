@@ -3,185 +3,118 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dailythanthi.com/news/tamilnadu/woman-dies-in-accident-while-buying-noodles-for-sons-birthday-children-suffer-without-support",
-  "manual link added: https://tamil.samayam.com/tamil-nadu/tiruchirappalli/trichy-penang-direct-flights-batik-air-malaysia-january-2027-10th-international-destination/articleshow/136191493.cms",
-  "candidate filter: collected=2",
-  "to write: 2 Trichy district candidates (max 2 stories)",
-  "round: top 2 of 2 candidates",
-  "candidates waiting: 2 Trichy; time left 79 min",
-  "try (N) manual=True: https://tamil.samayam.com/tamil-nadu/tiruchirappalli/trichy-",
-  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/woman-dies-in-ac",
+  "manual link added: https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/couple-charged-with-rs-50-lakh-fraud-for-selling-house/4387287",
+  "candidate filter: collected=1",
+  "to write: 1 Trichy district candidates (max 1 stories)",
+  "round: top 1 of 1 candidates",
+  "candidates waiting: 1 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-district-news-tric",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
-  "candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 75 min",
-  "filed: 2 Trichy district stories (target 2), reels only",
+  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 77 min",
+  "filed: 1 Trichy district stories (target 1), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":2,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "ok gemini/gemini-3-flash-preview (25s)",
+  "ok gemini/gemini-3-flash-preview (9s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (48s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (12s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
-  "ok groq/openai/gpt-oss-120b (5s)",
+  "ok groq/openai/gpt-oss-120b (4s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok groq/openai/gpt-oss-120b (3s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "ok groq/qwen/qwen3.8-27b (4s)",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_gener",
+  "ok groq/qwen/qwen3.8-27b (3s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok groq/openai/gpt-oss-120b (4s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/qwen/qwen3.8-27b (3s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok groq/openai/gpt-oss-120b (11s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok groq/openai/gpt-oss-120b (2s)"
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
  ],
  "stories": [
   {
-   "tamil_headline": "திருச்சி – பினாங்கு நேரடி விமானச் சேவை: ஜனவரி 2027 முதல் வாரத்திற்கு 3 முறை இயக்கம்",
-   "english_headline": "New direct flight from Trichy to Penang, Malaysia starting January 2027; 10th international destination for Trichy",
-   "category": "Roads & Transport",
-   "location": "Trichy International Airport, Trichy district",
-   "importance": "High",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "விமானச் சேவை",
-    "loc": "திருச்சி விமான நிலையம்",
-    "hl1": "திருச்சி – பினாங்கு நேரடி விமானம்",
-    "hl2": "ஜனவரி 2027 முதல் தொடக்கம்",
-    "slides": [
-     {
-      "title": "புதிய சேவை",
-      "lines": [
-       "ஜனவரி <b>2027</b> முதல் நேரடி விமானச் சேவை",
-       "வாரத்திற்கு <b>3 முறை</b> விமானங்கள் இயக்கம்",
-       "பாதிக்கு ஏர் மலேசியா நிறுவனம் இயக்குகிறது"
-      ]
-     },
-     {
-      "title": "முக்கியத்துவம்",
-      "lines": [
-       "திருச்சியின் <b>10-வது</b> சர்வதேச நகர இணைப்பு",
-       "மலேசியாவின் <b>3-வது</b> நேரடி நகர இணைப்பு",
-       "கோலாலம்பூர், சுபாங் வரிசையில் பினாங்கு"
-      ]
-     },
-     {
-      "title": "யாருக்குப் பயன்?",
-      "lines": [
-       "மத்திய, டெல்டா மாவட்டப் பயணிகள்",
-       "வேலை, கல்வி, சுற்றுலா செல்வோருக்கு வசதி",
-       "நேரடிப் பயணத்தால் பயண நேரம் குறையும்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சியிலிருந்து மலேசியாவின் பினாங்கு நகரத்திற்கு ஜனவரி 2027 முதல் நேரடி விமானச் சேவை தொடங்குகிறது. வாரத்திற்கு 3 முறை இந்த விமானங்கள் இயக்கப்படும் என்று அறிவிக்கப்பட்டுள்ளது. பாதிக்கு ஏர் மலேசியா நிறுவனம் இந்தப் புதிய சேவையை வழங்க உள்ளது. இதன் மூலம் திருச்சி சர்வதேச விமான நிலையத்திலிருந்து இணைக்கப்படும் 10-வது சர்வதேச நகரமாகப் பினாங்கு இடம்பிடித்துள்ளது. மலேசிய நாட்டில் கோலாலம்பூர் மற்றும் சுபாங் நகரங்களுக்குப் பிறகு திருச்சியுடன் நேரடியாக இணைக்கப்படும் 3-வது நகரம் இதுவாகும். மத்திய மற்றும் டெல்டா மாவட்டங்களைச் சேர்ந்த பயணிகள் இனி மற்ற நகரங்களுக்குச் செல்லாமல் நேரடியாகப் பினாங்கு நகருக்குப் பயணிக்க முடியும். வேலைவாய்ப்பு, கல்வி மற்றும் சுற்றுலாவுக்காக மலேசியா செல்பவர்களுக்கு இந்தச் சேவை பெரும் உதவியாக இருக்கும். பயண நேரம் குறைவதோடு பயணத் திட்டமிடலும் எளிதாகும். விமான அட்டவணை மற்றும் டிக்கெட் முன்பதிவு விவரங்கள் விரைவில் வெளியிடப்படும். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "✈️ திருச்சி – பினாங்கு நேரடி விமானச் சேவை: ஜனவரி 2027 முதல் வாரத்திற்கு 3 முறை இயக்கம்!\n\n📰 முழு விவரம்:\nதிருச்சி சர்வதேச விமான நிலையத்திலிருந்து மலேசியாவின் பினாங்கு நகரத்திற்குப் புதிய நேரடி விமானச் சேவை தொடங்கப்பட உள்ளது. \n🗓️ தொடக்கம்: ஜனவரி 2027 முதல் வாரத்திற்கு 3 முறை இந்த விமானங்கள் இயக்கப்படும்.\n✈️ நிறுவனம்: பாதிக்கு ஏர் மலேசியா (Batik Air Malaysia) இந்தச் சேவையை வழங்குகிறது.\n🌟 முக்கியத்துவம்: இதன் மூலம் திருச்சியுடன் இணைக்கப்படும் 10-வது சர்வதேச நகரமாகப் பினாங்கு மாறுகிறது. மலேசியாவில் கோலாலம்பூர், சுபாங் நகரங்களுக்குப் பிறகு திருச்சியுடன் நேரடியாக இணைக்கப்படும் 3-வது நகரம் இதுவாகும்.\n💼 பயன்கள்: மத்திய மற்றும் டெல்டா மாவட்டங்களைச் சேர்ந்த தொழிலாளர்கள், மாணவர்கள் மற்றும் சுற்றுலாப் பயணிகளுக்கு இந்தப் புதிய சேவை பெரும் வசதியாக அமையும். பயண நேரம் கணிசமாகக் குறையும்.\n\nTrichy to Penang direct flight Batik Air Malaysia | Trichy airport news\n📍 திருச்சி சர்வதேச விமான நிலையம், திருச்சி | 26 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyAirport #Malaysia #திருச்சி",
-   "prompts": "An aircraft taxis on the runway at Trichy International Airport, ready for the inaugural Penang service. The scene is set on the tarmac of Trichy International Airport, with the terminal building visible in the background, typical of a South Indian airport with concrete aprons and a control tower. A few airport ground staff in khaki uniforms stand at a distance, their backs to the camera, watching the plane. The aircraft, a medium‑sized jet, is the only vehicle on the strip; nearby a service truck is parked. Daylight, clear sky, mid‑morning. Eye‑level view with a 35 mm lens, wide enough to capture the runway and terminal. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up shows the metallic wing of the same aircraft, its engines humming as it prepares for take‑off. The wing is seen against the backdrop of the airport’s open sky, with the runway markings faintly visible. No people are in frame, only the blurred silhouette of a ground‑crew member standing behind a maintenance cart. The aircraft’s wing, a ground service cart, and a small luggage trolley are visible. Late morning sunlight casts soft shadows, clear weather. Slightly high angle, 35 mm, tight framing to emphasize the aircraft surface. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://tamil.samayam.com/tamil-nadu/tiruchirappalli/trichy-penang-direct-flights-batik-air-malaysia-january-2027-10th-international-destination/articleshow/136191493.cms",
-   "published": "2026-11-26T17:47:29+05:30",
-   "verification": "DRAFT (gemini/gemini-3-flash-preview) - fact-check: no problems found",
-   "note": "free-model draft gemini/gemini-3-flash-preview, 1 attempt(s), 0 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261126/daa910b2a6561de0.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261126/6e33b29408cd323a.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "கல்லக்குடியில் நூடுல்ஸ் வாங்கச் சென்ற பெண் விபத்தில் உயிரிழப்பு",
-   "english_headline": "Kallakudi woman dies in accident while going to buy noodles for son's birthday; children left without support",
+   "tamil_headline": "வீட்டை விற்பதாக ரூ.50 லட்சம் மோசடி: திருச்சி தம்பதி மீது புகார்",
+   "english_headline": "Couple accused of defrauding buyers of Rs 50 lakh by falsely offering to sell house in Trichy",
    "category": "Crime & Safety",
-   "location": "Kallakudi, Trichy district",
-   "importance": "High",
-   "scope": "",
+   "location": "Trichy city, Trichy district",
+   "importance": "Medium",
+   "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "விபத்து",
-    "loc": "கல்லக்குடி",
-    "hl1": "கல்லக்குடியில் பெண் விபத்தில் உயிரிழப்பு",
-    "hl2": "3 குழந்தைகள் ஆதரவின்றி",
+    "cat": "மோசடி",
+    "loc": "திருச்சி",
+    "hl1": "வீடு விற்பதாக ரூ.50 லட்சம் மோசடி",
+    "hl2": "தம்பதி மீது புகார்",
     "slides": [
      {
       "title": "என்ன நடந்தது?",
       "lines": [
-       "கல்லக்குடி கே.கே.நகரைச் சேர்ந்த ஷீலா (<b>40 வயது</b>) உயிரிழந்தார்",
-       "மகனின் பிறந்தநாளுக்கு நூடுல்ஸ் வாங்கச் சென்றபோது விபத்து",
-       "திருச்சி-சிதம்பரம் தேசிய நெடுஞ்சாலையைக் கடக்கும்போது மோதல்"
+       "திருச்சியில் வீடு விற்பதாக <b>ரூ.50 லட்சம்</b> மோசடி",
+       "உமேஷ், கஸ்தூரி தம்பதி மீது புகார்",
+       "பலரிடம் அட்வான்ஸ் வாங்கி ஏமாற்றியதாக புகார்"
       ]
      },
      {
-      "title": "எப்படி நடந்தது?",
+      "title": "எப்படி ஏமாற்றினர்?",
       "lines": [
-       "மோட்டார் சைக்கிளில் வந்த பாலகுமார் (<b>27 வயது</b>) மோதினார்",
-       "ஷீலா சம்பவ இடத்திலேயே உயிரிழந்தார்",
-       "பாலகுமார் திருச்சி அரசு மருத்துவமனையில் உயிரிழந்தார்"
+       "ஒரே வீட்டை பலருக்குக் காட்டினர்",
+       "<b>ரூ.5 லட்சம் முதல் ரூ.10 லட்சம்</b> வரை அட்வான்ஸ் வாங்கினர்",
+       "யாருக்கும் பத்திரப்பதிவு செய்து தரவில்லை"
       ]
      },
      {
-      "title": "குடும்பத்தின் நிலை",
+      "title": "இப்போது என்ன?",
       "lines": [
-       "ஷீலாவின் கணவர் ஏற்கனவே உயிரிழந்துவிட்டார்",
-       "மகள் மற்றும் <b>2 மகன்கள்</b> ஆதரவின்றித் தவிக்கின்றனர்",
-       "அரசு உதவித் தொகை வழங்க வேண்டும் என சமூக ஆர்வலர்கள்"
+       "பணம் கொடுத்தவர்கள் புகார் அளித்தனர்",
+       "திருச்சி போலீஸ் கமிஷனரிடம் புகார்",
+       "குற்றப்பிரிவு போலீசார் விசாரணை நடத்துகின்றனர்"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "கல்லக்குடியில் மகனின் பிறந்தநாளுக்கு நூடுல்ஸ் வாங்கச் சென்ற பெண் விபத்தில் உயிரிழந்தார். கல்லக்குடி கே கே நகர் பகுதியைச் சேர்ந்த ஷீலா, 40 வயது, ஓட்டல் தொழிலாளி. நேற்று முன்தினம் அவரது மகன் அஜய்க்குப் பிறந்தநாள். அஜய் நூடுல்ஸ் வாங்கித் தருமாறு கேட்டதால், ஷீலா அவருடன் வீட்டுக்கு எதிரே உள்ள ஓட்டலுக்கு நடந்து சென்றார். திருச்சி-சிதம்பரம் தேசிய நெடுஞ்சாலையைக் கடக்க முயன்றபோது, மோட்டார் சைக்கிளில் வந்த பாலகுமார், 27 வயது, அவர்கள் மீது மோதினார். ஷீலா சம்பவ இடத்திலேயே உயிரிழந்தார். அஜய்யின் கால் முறிந்தது. பாலகுமார் தலையில் பலத்த காயம் அடைந்து, திருச்சி அரசு மருத்துவமனையில் சிகிச்சை பலனின்றி உயிரிழந்தார். பெங்களூருவில் சாப்ட்வேர் என்ஜினீயராகப் பணிபுரிந்தவர் பாலகுமார். கல்லக்குடி போலீசார் வழக்குப் பதிவு செய்து விசாரித்து வருகின்றனர். ஷீலாவின் கணவர் ஏற்கனவே உயிரிழந்துவிட்டதால், அவரது 17 வயது மகளும், 14 வயது தினேஷ், 11 வயது அஜய் ஆகிய மகன்களும் ஆதரவின்றித் தவிக்கின்றனர். அரசு அவர்களுக்கு உதவித் தொகை வழங்க வேண்டும் என சமூக ஆர்வலர்கள் வலியுறுத்துகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 கல்லக்குடியில் நூடுல்ஸ் வாங்கச் சென்ற பெண் விபத்தில் உயிரிழப்பு\n\n📰 முழு விவரம்:\nகல்லக்குடி கே.கே.நகரைச் சேர்ந்த ஷீலா (40 வயது), ஓட்டல் தொழிலாளி, மகன் அஜய்யின் (11 வயது) பிறந்தநாளுக்கு நூடுல்ஸ் வாங்கச் சென்றபோது விபத்தில் சிக்கினார். திருச்சி-சிதம்பரம் தேசிய நெடுஞ்சாலையைக் கடக்க முயன்றபோது, கல்லக்குடி காமராஜபுரத்தைச் சேர்ந்த பாலகுமார் (27 வயது) ஓட்டிவந்த மோட்டார் சைக்கிள் அவர்கள் மீது மோதியது. ஷீலா சம்பவ இடத்திலேயே உயிரிழந்தார். அஜய்யின் கால் முறிந்தது. பாலகுமார் திருச்சி அரசு மருத்துவமனையில் சிகிச்சை பலனின்றி உயிரிழந்தார். பாலகுமார் பெங்களூருவில் சாப்ட்வேர் என்ஜினீயராகப் பணிபுரிந்தவர்.\nஷீலாவின் கணவர் மணி ஏற்கனவே உயிரிழந்துவிட்டார். ஷீலாவும் உயிரிழந்ததால், 17 வயது மகள், 14 வயது தினேஷ், 11 வயது அஜய் ஆகியோர் ஆதரவின்றித் தவிக்கின்றனர். அவர்களுக்கு அரசு உதவித் தொகை வழங்க வேண்டும் என சமூக ஆர்வலர்கள் வலியுறுத்தியுள்ளனர்.\n👮 கல்லக்குடி போலீஸ் சப்-இன்ஸ்பெக்டர்கள் கண்ணன், சோபியா ஆகியோர் வழக்குப் பதிவு செய்து விசாரணை நடத்தி வருகின்றனர்.\n\nKallakudi woman dies in accident, children need support | Trichy news\n📍 கல்லக்குடி, திருச்சி மாவட்டம் | 26 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Kallakudi #விபத்து #TrichyNews",
-   "prompts": "A motorcycle lies on its side on the dark national highway, its front wheel twisted, while a woman in a simple salwar‑kurta is collapsed nearby and a small boy in school uniform stands a short distance behind, looking down. The scene is on the Trichy‑Chidambaram National Highway at Kallakudi, K.K. Nagar, a two‑lane road flanked by a low wall and a distant hotel opposite the house. The three figures are seen from behind or blurred, the woman and boy in modest clothing, the rider’s helmet removed and lying near the bike. Nighttime, with faint street lighting casting soft shadows. Shot at eye level with a 35 mm lens, wide enough to capture the road and the overturned motorcycle. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose‑up of the damaged motorcycle on the highway pavement: the cracked front wheel, bent handlebars, and a torn seat are clearly visible, with the black metal frame glinting under the dim street lights. The asphalt shows scuff marks and a small pool of water from recent rain. In the background, faint silhouettes of the woman’s folded sari and the boy’s shoes can be seen, but the focus remains on the wrecked bike as the key object telling the story. Nighttime, low ambient light, no recognizable faces. Captured from a slightly high angle with a 35 mm lens to emphasize the motorcycle’s damage while showing enough of the road surface. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dailythanthi.com/news/tamilnadu/woman-dies-in-accident-while-buying-noodles-for-sons-birthday-children-suffer-without-support",
-   "published": "2026-11-26T13:35:45Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 2 ('ஓட்டல் தொழிலாளியான இவருக்கு 17 வயதில் மகளும், தினேஷ் (14), அ'); 2 ('ஷீலாவின் கணவர் ஏற்கனவே இறந்த நிலையில், ஷீலாவும் இறந்த தால் ம')",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
+   "reel_script": "திருச்சியில் வீட்டை விற்பதாகக் கூறி ரூ.50 லட்சம் மோசடி நடந்துள்ளது. கே.கே. நகரைச் சேர்ந்த உமேஷ் (40 வயது) மற்றும் அவரது மனைவி கஸ்தூரி (38 வயது) மீது புகார் அளிக்கப்பட்டுள்ளது. உமேஷ் திருவெறும்பூரில் மத்திய படைக்கலன் தொழிற்சாலையில் பணியாற்றுகிறார். இந்நிலையில், தங்கள் வீட்டை விற்பதாகக் கூறி, ஒரே வீட்டை பலருக்குக் காட்டி ரூ.5 லட்சம் முதல் ரூ.10 லட்சம் வரை அட்வான்ஸ் வாங்கியுள்ளனர். ஆனால், யாருக்கும் பத்திரப்பதிவு செய்து தரவில்லை. இதையடுத்து, பணம் கொடுத்தவர்கள் தேடிச் சென்றபோது, உமேஷ் குடும்பத்துடன் தலைமறைவானது தெரியவந்தது. பணம் இழந்த லெனின், வீரமணி ஆகியோர் திருச்சி போலீஸ் கமிஷனரிடம் நேற்று புகார் அளித்தனர். தற்போது குற்றப்பிரிவு போலீசார் விசாரித்து வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 திருச்சியில் வீட்டை விற்பதாக ரூ.50 லட்சம் மோசடி\n\n📰 முழு விவரம்:\nதிருச்சி கே.கே. நகரைச் சேர்ந்த உமேஷ் (40 வயது) மற்றும் அவரது மனைவி கஸ்தூரி (38 வயது) மீது ரூ.50 லட்சம் மோசடிப் புகார் அளிக்கப்பட்டுள்ளது.\nதங்கள் வீட்டை விற்பதாகக் கூறி, ஒரே வீட்டை பலருக்குக் காட்டி ரூ.5 லட்சம் முதல் ரூ.10 லட்சம் வரை அட்வான்ஸ் வாங்கியுள்ளனர்.\nயாருக்கும் பத்திரப்பதிவு செய்து தரவில்லை. பணம் கொடுத்தவர்கள் தேடிச் சென்றபோது, குடும்பத்துடன் உமேஷ் தலைமறைவானது தெரியவந்தது.\nபணம் இழந்த திருச்சியைச் சேர்ந்த லெனின், வீரமணி ஆகியோர் திருச்சி போலீஸ் கமிஷனரிடம் நேற்று புகார் அளித்தனர். குற்றப்பிரிவு போலீசார் விசாரித்து வருகின்றனர்.\n\nTrichy house sale fraud Rs 50 lakh | Trichy news\n📍 திருச்சி மாவட்டம் | 26 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Trichy மோசடி",
+   "prompts": "A pair of Tamil Nadu police in khaki stand at the entrance of a Trichy police commissioner's office while two men in shirts and trousers, seen from behind, hand over a folder of papers at a front counter. The setting is a government office in Trichy city with a tiled floor, a wooden bench and a fan hanging from a high ceiling, with a few other visitors waiting in the background. The stack of papers and cash-deposit receipts in the folder hints at the complaint of a Rs 50 lakh cheating case involving a house that was never registered. Daylight comes through the open doorway. Camera at eye level, 35 mm, wide enough to show the office, the counter and the doorway, faces turned away or blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a stack of loose sale-agreement papers and a few bundles of cash in brown envelopes resting on a wooden table, with a pen laid across the top sheet, beside a blurred glimpse of a khaki police sleeve. The papers show no readable text, only the dense layout of forms, and the scene reflects a house advance-payment fraud in Trichy city where several buyers paid Rs 5 to 10 lakh each. Soft daylight from a side window, shallow depth of field, camera slightly high, 35 mm, focus on the papers and cash bundles. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/couple-charged-with-rs-50-lakh-fraud-for-selling-house/4387287",
+   "published": "2026-11-26T22:23:03+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b) - NOT CLEAN, held from posting - problems: hl1 (the first headline on screen) must name the place 'திருச்சி', e.g. 'திருச்சி: ...' or 'திருச்சி-இல் ...' - viewers share news of their own area",
+   "note": "free-model draft anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b, 13 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261126/11e91fc48795feed.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261126/86f7f976f4f7da97.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795712650/trichy360/kg8bvfwrkjstr12bsdob.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795712653/trichy360/xeclb6kmhev04nplid68.jpg"
    ]
   }
  ]
