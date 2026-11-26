@@ -69,3 +69,21 @@ class Extras(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ChannelLimit(unittest.TestCase):
+    """owner 25 Nov: YouTube's per-channel upload limit pauses that channel for 2 hours only (not the whole day)"""
+    def test_wait_two_hours_then_try_again(self):
+        d = Path(tempfile.mkdtemp())
+        with mock.patch.object(ytupload, "STATE", d):
+            s = ytupload.settings({"youtube_upload": {"per_day": 20, "gap_min": 5, "hours": [0, 24]}})
+            st = ytupload._state("x")
+            st["limit_until"] = (NOW + timedelta(hours=2)).isoformat()
+            ytupload._save("x", st)
+            self.assertIn("upload limit", ytupload.due("x", s, NOW))
+            self.assertEqual(ytupload.due("x", s, NOW + timedelta(hours=2, minutes=1)), "")
+
+    def test_error_text_sets_limit_until_not_the_whole_day(self):
+        src = (ROOT / "poster" / "ytupload.py").read_text(encoding="utf-8")
+        self.assertIn('"exceeded the number of videos" in str(e)', src)
+        self.assertIn('st["limit_until"]', src)

@@ -29,6 +29,7 @@ TOKEN_URL = "https://oauth2.googleapis.com/token"
 UPLOAD_URL = "https://www.googleapis.com/upload/youtube/v3/videos"
 
 
+LIMIT_WAIT_H = 2      # owner 25 Nov: wait after a channel upload-limit refusal
 RETRY_WAIT_MIN = 10      # owner 25 Nov: a failed upload waits 10 minutes before the next try
 
 
@@ -68,7 +69,11 @@ def due(page, s, now, daily=False):
     ist = now.astimezone(IST)
     if not (s["hours"][0] <= ist.hour < s["hours"][1]):
         return "outside the upload hours"
-    ups = _state(page).get("uploads", [])
+    st_ = _state(page)
+    lim = st_.get("limit_until")
+    if lim and now < datetime.fromisoformat(lim):
+        return f"this channel's YouTube upload limit was reached - tried again after {datetime.fromisoformat(lim).astimezone(IST):%H:%M} IST"
+    ups = st_.get("uploads", [])
     day = ist.strftime("%Y-%m-%d")
     today = [u for u in ups if u.get("day") == day]
     if daily:
@@ -297,7 +302,14 @@ def catchup(post, now=None):
                 _save(page, st)
             except Exception:
                 pass
-            if "quotaExceeded" in str(e) or "uploadLimitExceeded" in str(e):      # the day's YouTube limit: no more tries today
+            if "exceeded the number of videos" in str(e) or "uploadLimitExceeded" in str(e):      # owner 25 Nov: this CHANNEL's own upload limit
+                try:      # (new / unverified channels: a few Shorts per 24 h) - older uploads age out, so wait 2 hours, not the whole day
+                    st = _state(page)
+                    st["limit_until"] = (now + timedelta(hours=LIMIT_WAIT_H)).isoformat(timespec="seconds")
+                    _save(page, st)
+                except Exception:
+                    pass
+            elif "quotaExceeded" in str(e):      # the project's API quota for the day: no more tries today
                 st = _state(page)
                 st.setdefault("uploads", []).extend({"ig": "", "youtube": "", "day": now.astimezone(IST).strftime("%Y-%m-%d"),
                                                      "at": now.isoformat(timespec="seconds"), "title": "limit"} for _ in range(int(s["per_day"])))      # owner 24 Nov: the whole day's allowance (was 6 - with 20 a day it kept trying after the quota)
