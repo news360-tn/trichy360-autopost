@@ -1,5 +1,5 @@
 {
- "until": "2026-11-25T15:19:43+00:00",
+ "until": "2026-11-26T23:36:40+00:00",
  "kind": "retry",
- "why": "Instagram container 17955286095068297 ERROR"
+ "why": "upload refused (HTTP 400): {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
 }
