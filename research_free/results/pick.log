@@ -1,27 +1,9 @@
-20:28:00 round 2026-11-26_20: news published 26 Nov 16:49 -> 26 Nov 20:28 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-20:28:00 insights 2026-11-26T20:28+05:30 (162 reels): topic weights {'accident': 1.27, 'crime': 1.5, 'power_cut': 1.27, 'civic': -0.21, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.49, 'poultry_agri': -0.41}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-20:29:35 open search 'திருச்சி' (from_google): 2 links from our outlets
-20:29:35 88 links on the two papers' Trichy pages
-20:30:41 skipped: not Trichy district=29, published before this window=22, already posted=19, same event already posted=8, only a headline=3, no title=1
-20:30:41 list: 2 new + 1 earlier news not posted yet
-20:30:41    1. [விபத்து] மகனின் பிறந்த நாளுக்கு நூடுல்ஸ் வாங்க சென்ற பெண் விபத்தில் பலி: ஆதரவில (தினத்தந்தி)
-20:30:41    2. [பொது] திருச்சி சர்வதேச விமான நிலையத்தில் புதிய மைல்கல்: ஜனவரி 2027 முதல் திர (சமயம் தமிழ்)
-20:30:41    3. [குற்றம்] மனைவி மாயம் கணவர் தற்கொலை (தினமலர்) (earlier)
-20:30:41 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-26_20
-20:30:43    not picked automatically (suicide / obituary - only when the owner ticks it): மனைவி மாயம் கணவர் தற்கொலை
-20:30:43 round 2026-11-26_20 (at least 5, up to 3 more of well-watched topics): 2 news to choose from (0 from earlier rounds), ranked by this page's insights
-20:30:43   PICK   1.  15.1 [accident +1.27 page] மகனின் பிறந்த நாளுக்கு நூடுல்ஸ் வாங்க சென்ற பெண் விபத்தில் ப
-20:30:43   PICK   2.   5.0 [other +0.00 pattern] திருச்சி சர்வதேச விமான நிலையத்தில் புதிய மைல்கல்: ஜனவரி 2027
-20:30:43 decided: automatic: top 5 of 2 by insights -> 2 news to write and post
-PICK_URLS=https://www.dailythanthi.com/news/tamilnadu/woman-dies-in-accident-while-buying-noodles-for-sons-birthday-children-suffer-without-support https://tamil.samayam.com/tamil-nadu/tiruchirappalli/trichy-penang-direct-flights-batik-air-malaysia-january-2027-10th-international-destination/articleshow/136191493.cms
-20:34:50 2 listed news now in the Sheet
-20:35:01 instagram duplicate check trichy: 50 recent posts read
-20:35:01 verify 2026-11-26_20: 0 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-20:35:01    NOT POSTED C1d13d2b: queued RN-165 (Queued) - மகனின் பிறந்த நாளுக்கு நூடுல்ஸ் வாங்க சென்ற பெண் விபத்தில் ப
-20:35:01    NOT POSTED C2c4764d: queued RN-164 (Queued) - திருச்சி சர்வதேச விமான நிலையத்தில் புதிய மைல்கல்: ஜனவரி 2027
-20:40:09 instagram duplicate check trichy: 50 recent posts read
-20:40:09 verify 2026-11-26_20: 0 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-20:40:09    NOT POSTED C1d13d2b: queued RN-165 (Queued) - மகனின் பிறந்த நாளுக்கு நூடுல்ஸ் வாங்க சென்ற பெண் விபத்தில் ப
-20:40:09    NOT POSTED C2c4764d: queued RN-164 (Queued) - திருச்சி சர்வதேச விமான நிலையத்தில் புதிய மைல்கல்: ஜனவரி 2027
-20:45:16 verify 2026-11-26_20: 2 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+22:30:14 round 2026-11-26_22: news published 26 Nov 20:28 -> 26 Nov 22:30 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+22:30:14 insights 2026-11-26T22:30+05:30 (164 reels): topic weights {'accident': 1.07, 'crime': 1.44, 'power_cut': 1.23, 'civic': -0.22, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.49}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+22:31:01 open search 'திருச்சி' (from_google): 1 links from our outlets
+22:31:01 73 links on the two papers' Trichy pages
+22:31:50 skipped: published before this window=22, already posted=20, not Trichy district=18, same event already posted=8, only a headline=2
+22:31:50 list: 1 new + 0 earlier news not posted yet
+22:31:50    1. [குற்றம்] வீட்டை விற்பதாக கூறி ரூ.50 லட்சம் மோசடி: தம்பதி மீது புகார் (தினமலர்)
+22:31:50 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-26_22

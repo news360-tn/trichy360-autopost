@@ -1,18 +1,6 @@
 {
- "last_end": "2026-11-26T20:28:00.884218+05:30",
+ "last_end": "2026-11-26T22:30:14.347197+05:30",
  "pool": {
-  "C936cfee": {
-   "id": "C936cfee",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/wife-magic-husband-suicide/4386279",
-   "title": "மனைவி மாயம் கணவர் தற்கொலை",
-   "summary": "திருச்சி: திருச்சியில், மனைவி மாயமானதால், கணவர் துாக்கிட்டு தற்கொலை செய்து கொண்டார். திருச்சி மாவட்டம், திருவெறும்பூர் பகவதிபுரத்தை சேர்ந்தவர் சிக்கந்தர் பாஷா, 32; வெல்டர்.",
-   "source": "தினமலர்",
-   "published": "2026-11-25T21:08:33+05:30",
-   "category": "குற்றம்",
-   "score": 12.36,
-   "power_cut": false,
-   "listed_at": "2026-11-25T23:03:02.803959+05:30"
-  },
   "Ce280cec": {
    "id": "Ce280cec",
    "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/25/heavy-rain-in-trichy-city",
@@ -69,47 +57,20 @@
    "picked_at": "2026-11-26T16:34:44.368788+05:30",
    "refused": "not filed: all free models failed: no usable answer from the models"
   },
-  "C1d13d2b": {
-   "id": "C1d13d2b",
-   "url": "https://www.dailythanthi.com/news/tamilnadu/woman-dies-in-accident-while-buying-noodles-for-sons-birthday-children-suffer-without-support",
-   "title": "மகனின் பிறந்த நாளுக்கு நூடுல்ஸ் வாங்க சென்ற பெண் விபத்தில் பலி: ஆதரவில்லாமல் தவிக்கும் குழந்தைகள்",
-   "summary": "கல்லக்குடி, கல்லக்குடியில் மகனின் பிறந்தநாளுக்கு நூடுல்ஸ் வாங்க சென்ற பெண் விபத்தில் பலியானார். அவர் மீது மோட்டார் சைக்கிளில் வந்து மோதிய என்ஜினீயரும் இறந்தார்..மகன் பிறந்த நாள்திருச்சி மாவட்டம் கல்லக்குடி கே.கே.நகர் ...",
-   "source": "தினத்தந்தி",
-   "published": "2026-11-26T13:35:45Z",
-   "category": "விபத்து",
-   "score": 11.27,
+  "Cdbe33ea": {
+   "id": "Cdbe33ea",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/couple-charged-with-rs-50-lakh-fraud-for-selling-house/4387287",
+   "title": "வீட்டை விற்பதாக கூறி ரூ.50 லட்சம் மோசடி: தம்பதி மீது புகார்",
+   "summary": "திருச்சி: திருச்சியில், வீட்டை விற்பதாக கூறி, 50 லட்சம் ரூபாய் மோசடி செய்த உமேஷ், 40, அவரது மனைவி கஸ்துாரி, 38, மீது புகார் அளிக்கப்பட்டுள்ளது.",
+   "source": "தினமலர்",
+   "published": "2026-11-26T22:23:03+05:30",
+   "category": "குற்றம்",
+   "score": 12.44,
    "power_cut": false,
-   "listed_at": "2026-11-26T20:28:00.884218+05:30",
-   "picked_at": "2026-11-26T20:30:43.225356+05:30",
-   "posted": true
-  },
-  "C2c4764d": {
-   "id": "C2c4764d",
-   "url": "https://tamil.samayam.com/tamil-nadu/tiruchirappalli/trichy-penang-direct-flights-batik-air-malaysia-january-2027-10th-international-destination/articleshow/136191493.cms",
-   "title": "திருச்சி சர்வதேச விமான நிலையத்தில் புதிய மைல்கல்: ஜனவரி 2027 முதல் திருச்சி – பினாங்கு நேரடி விமானச் சேவை! 10-வது சர்வதேச நகரமாகப் பினாங்கு இணைப்பு!",
-   "summary": "மத்திய மற்றும் டெல்டா மாவட்ட மக்களின் நீண்டகாலப் பயணத் தேவையைப் பூர்த்தி செய்து வரும் திருச்சி சர்வதேச விமான நிலையம் , தனது சர்வதேச விமான இணைப்புகளின் எண்ணிக்கையில் புதிய மைல்கல்லை எட்டியுள்ளது.",
-   "source": "சமயம் தமிழ்",
-   "published": "2026-11-26T17:47:29+05:30",
-   "category": "பொது",
-   "score": 5.0,
-   "power_cut": false,
-   "listed_at": "2026-11-26T20:28:00.884218+05:30",
-   "picked_at": "2026-11-26T20:30:43.225361+05:30",
-   "posted": true
+   "listed_at": "2026-11-26T22:30:14.347197+05:30"
   }
  },
  "rounds": {
-  "2026-11-24_23": {
-   "window": [
-    "2026-11-24T22:38:18.266263+05:30",
-    "2026-11-24T23:39:48.138500+05:30"
-   ],
-   "ids": [],
-   "sent": false,
-   "deadline": "2026-11-25T00:39:48.138500+05:30",
-   "decided": null,
-   "written": []
-  },
   "2026-11-25_02": {
    "window": [
     "2026-11-24T23:39:48.138500+05:30",
@@ -466,6 +427,19 @@
     "C1d13d2b",
     "C2c4764d"
    ]
+  },
+  "2026-11-26_22": {
+   "window": [
+    "2026-11-26T20:28:00.884218+05:30",
+    "2026-11-26T22:30:14.347197+05:30"
+   ],
+   "ids": [
+    "Cdbe33ea"
+   ],
+   "sent": false,
+   "deadline": "2026-11-26T23:30:14.347197+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {}
