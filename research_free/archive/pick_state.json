@@ -1,20 +1,6 @@
 {
- "last_end": "2026-11-26T04:48:07.376695+05:30",
+ "last_end": "2026-11-26T06:04:16.490169+05:30",
  "pool": {
-  "Cb386a51": {
-   "id": "Cb386a51",
-   "url": "https://www.dinakaran.com/district/trichy_251126_2",
-   "title": "திருப்பரங்குன்றம் தீப விவகாரம் வீட்டுக்காவலில் முசிறி பாஜ நிர்வாகி - Dinakaran",
-   "summary": "முசிறி, நவ.25: திருச்சி மாவட்டம், முசிறி நகர பாஜ மண்டல் தலைவரும், வழக்கறிஞருமான தமிழ்ச்செல்வன் காவல் துறையினரால் வீட்டுக்காவலில் வைக்கப்பட்டுள்ள சம்பவம் பரபரப்பை ஏற்படுத்தியுள்ளது.",
-   "source": "தினகரன்",
-   "published": "2026-11-25T05:53:17+05:30",
-   "category": "பொது",
-   "score": 3.0,
-   "power_cut": false,
-   "listed_at": "2026-11-25T06:27:48.698764+05:30",
-   "picked_at": "2026-11-25T06:29:07.281902+05:30",
-   "refused": "not filed: all free models failed: no usable answer from the models"
-  },
   "C5a51d2e": {
    "id": "C5a51d2e",
    "url": "https://tamil.abplive.com/news/trichy/they-are-imposing-a-lockdown-what-is-the-reason-behind-the-major-allegation-raised-by-the-people-of-thiruverumbur-tnn-280497",
@@ -147,17 +133,6 @@
   }
  },
  "rounds": {
-  "2026-11-24_12": {
-   "window": [
-    "2026-11-24T11:43:34.351265+05:30",
-    "2026-11-24T12:26:48.636640+05:30"
-   ],
-   "ids": [],
-   "sent": false,
-   "deadline": "2026-11-24T13:26:48.636640+05:30",
-   "decided": null,
-   "written": []
-  },
   "2026-11-24_13": {
    "window": [
     "2026-11-24T12:26:48.636640+05:30",
@@ -491,6 +466,19 @@
     "ids": [],
     "at": "2026-11-26T04:49:15.243613+05:30"
    },
+   "written": []
+  },
+  "2026-11-26_06": {
+   "window": [
+    "2026-11-26T04:48:07.376695+05:30",
+    "2026-11-26T06:04:16.490169+05:30"
+   ],
+   "ids": [
+    "C936cfee"
+   ],
+   "sent": false,
+   "deadline": "2026-11-26T07:04:16.490169+05:30",
+   "decided": null,
    "written": []
   }
  },
