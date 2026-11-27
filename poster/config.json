@@ -196,9 +196,15 @@
     "start_ist": "2026-11-27",
     "note": "owner 26 Nov: Trichy-only views test, posting count unchanged. (1) short reels: 35-75 words, at most 50 s (power cuts keep every area, up to 88 s); longer scripts already in the queue are shortened before the reel is made and the dropped sentences stay in the caption; (2) two voices A/B (reel_voice.ab_voices); (3) a Share line in the caption; (4) a shorter keyword line (place + topic first); (5) the spoken English end line asks viewers to share (reel_voice.outro_text); (6) insights also read skip rate and reposts and keep the voice / length of every reel. tools/views_test.py compares before and after. to go back to the old long reels: views_test.enabled false, reach.script_max_words 160, reel_max_seconds 88",
     "styles": [
-      "A"
+      "A",
+      "BR",
+      "NB",
+      "GP",
+      "NP",
+      "GL",
+      "SP"
     ],
-    "styles_note": "owner 27 Nov evening: back to design A only (the Namakkal / Erode look, where Trichy's biggest reels came from). Was A/B/C/P in turn. owner 27 Nov: news of topic 'other' takes these designs in turn (A classic, B TV band, C centred - dark glass since 27 Nov, P premium panel); every other topic has its news theme (topic_themes). The design is saved with each post.",
+    "styles_note": "owner 27 Nov evening: design A and six colour looks on A's layout take turns (BR breaking red, NB night blue, GP gold premium, NP newspaper, GL green local, SP sunset pop); the design is saved with each post, tools/views_test.py compares them - keep the ones at or above the page's median watch time after 7 days / 15 reels each. [\"A\"] = A only. ",
     "topic_themes": {},
     "topic_themes_note": "owner 27 Nov evening: the 11 topic colour themes are off (the owner did not like them); kept in topic_themes_off_27nov. owner 27 Nov: each kind of news has its own theme (topic from research_free/learned.py, the same topics insights measures): ACC accident hazard red/yellow, POL police navy with a red-blue light bar, WX rain deep-blue glass, PWR power cut amber/black, TMP temple maroon/saffron/gold serif, GOV government white notice green/maroon, CIV civic teal, EDU education notebook blue, JOB jobs green/yellow, AGR farming wheat/leaf green, SPT sports purple/orange. Topic 'other' = styles A/B/C/P take turns. {} = no news themes",
     "clean_hook": true,

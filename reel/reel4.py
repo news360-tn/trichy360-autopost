@@ -388,6 +388,66 @@ STYLES["C"] += """
 """
 
 
+# ==== owner 27 Nov evening: six colour looks on design A's layout (same positions, sizes and timing - only colours and frames);
+# they take turns with A (views_test.styles) so insights can show which one keeps viewers longest
+NOBREAK = ".card .vl,#sum .v{overflow-wrap:normal;word-break:keep-all}"      # a Tamil word is never split across lines (fitAll shrinks it)
+STYLES.update({
+    "BR": NOBREAK + """
+:root{--yellow:#FFE14D}
+#hook .h1{display:inline;background:#E3151B;-webkit-text-stroke:0;color:#fff;padding:6px 22px 0;line-height:1.32;box-decoration-break:clone;-webkit-box-decoration-break:clone;text-shadow:none;font-size:92px}
+#hook .h2{background:#fff;color:#E3151B;margin-top:30px}
+#mini{border-left-color:#E3151B;background:rgba(0,0,0,.55);padding:10px 18px 2px 22px;border-radius:0 12px 12px 0}
+.ph{-webkit-text-stroke:0;background:rgba(0,0,0,.72);border-left:12px solid #E3151B;padding:12px 26px 2px;border-radius:0 16px 16px 0;text-shadow:none;font-size:64px}
+.ph span.on{color:#FFE14D}
+""",
+    "NB": NOBREAK + """
+#shade{background:linear-gradient(180deg,rgba(4,16,48,.85) 0%,rgba(4,16,48,.3) 20%,rgba(4,16,48,0) 36%,rgba(4,16,48,0) 50%,rgba(4,16,48,.45) 64%,rgba(4,16,48,.92) 100%)}
+#hook .h1{background:rgba(6,22,64,.92);-webkit-text-stroke:0;padding:18px 28px 6px;border-radius:18px;border-left:14px solid #00B4FF;text-shadow:none;font-size:94px}
+#hook .h2{background:#00B4FF;color:#04102F}
+#pin{background:#00B4FF;color:#04102F}#pin .ic{color:#fff}
+.card{background:rgba(6,22,64,.95);border:3px solid #00B4FF}.card .ico{background:#00B4FF;color:#04102F}.card .lb{color:#FFD233}.card .vl{color:#fff}
+.ph span.on{color:#5FD3FF}
+#sum{background:rgba(6,22,64,.96);border:3px solid #00B4FF}#sum .st{background:#00B4FF;color:#04102F}#sum .row{border-top-color:rgba(255,255,255,.12)}#sum .row .v{color:#fff}#sum .row .l{color:#9FB3D9}#sum .row .ic{color:#00B4FF}
+#hdr .tag{color:#04102F}
+""",
+    "GP": NOBREAK + """
+:root{--yellow:#F5C542}
+#hook .h1{color:#FFF6DA;-webkit-text-stroke:12px #000}
+#hook .h2{background:linear-gradient(90deg,#F5C542,#D4A017);color:#1A1200}
+#pin{background:#111;color:#F5C542;border:3px solid #D4A017}#pin .ic{color:#F5C542}
+.card{background:#0E0E0E;border:3px solid #D4A017}.card .ico{background:linear-gradient(180deg,#F5C542,#B8860B);color:#111}.card .lb{color:#F5C542}.card .vl{color:#FFF6DA}
+.ph span.on{color:#F5C542}
+#sum{background:#0E0E0E;border:3px solid #D4A017}#sum .st{background:linear-gradient(90deg,#F5C542,#B8860B);color:#111}#sum .row{border-top-color:rgba(212,160,23,.25)}#sum .row .v{color:#FFF6DA}#sum .row .l{color:#C9B57A}#sum .row .ic{color:#F5C542}
+#hdr .tag{color:#111}
+#plogo{border-color:#D4A017}
+""",
+    "NP": NOBREAK + """
+#hook .h1{background:#fff;color:#111;-webkit-text-stroke:0;padding:18px 28px 6px;border-left:16px solid #E3151B;text-shadow:none;font-size:92px;box-shadow:0 14px 40px rgba(0,0,0,.45)}
+#hook .h2{background:#E3151B;color:#fff;border-radius:0}
+#pin{border-radius:6px}
+.card{border-radius:6px;border-left:12px solid #E3151B}.card .ico{background:#111}
+.ph{-webkit-text-stroke:0;background:#111;padding:12px 26px 2px;text-shadow:none;font-size:62px;border-bottom:8px solid #FFD233}
+#sum{border-radius:6px}#sum .st{background:#111}
+""",
+    "GL": NOBREAK + """
+#hook .h2{background:#0E9F6E;color:#fff}
+#pin{background:#0E9F6E;color:#fff}#pin .ic{color:#FFD233}
+#mini{border-left-color:#0E9F6E}
+.ph span.on{color:#7CF5C4}
+""",
+    "SP": NOBREAK + """
+:root{--yellow:#FFB020}
+#hook .h1{-webkit-text-stroke:14px #2A0A1F}
+#hook .h2{background:linear-gradient(90deg,#FF7A00,#FF3D7F);color:#fff}
+#pin{background:linear-gradient(90deg,#FF7A00,#FF3D7F);color:#fff}#pin .ic{color:#fff}
+.card .ico{background:linear-gradient(180deg,#FF7A00,#FF3D7F)}
+.ph span.on{color:#FFB020}
+#sum .st{background:linear-gradient(90deg,#FF7A00,#FF3D7F)}
+""",
+})
+THEME_ACCENT.update({"BR": "#E3151B", "NB": "#00B4FF", "GP": "#D4A017", "NP": "#E3151B", "GL": "#0E9F6E", "SP": "#FF3D7F"})
+
+
 def views_test_cfg():
     try:
         vt = json.loads((Path(__file__).resolve().parent.parent / "poster" / "config.json").read_text()).get("views_test") or {}
