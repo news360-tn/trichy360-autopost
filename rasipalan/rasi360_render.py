@@ -208,5 +208,6 @@ def reel_page(p, ctx):
            "const _seek0=window.seek;let _fitted=0;window.seek=t=>{if(!_fitted&&document.fonts.status==='loaded'){fitAll();_fitted=1}_seek0(t)};")
     js = (f'window.DUR={dur};window.COVER_T=0.5;const SC={json.dumps(win)},WIPE={G.WIPE},SWEEP={json.dumps(G.SWEEP)},'
           f'ARC_C={G.ARC_C},LRC={round(2 * 3.14159265 * G.LOGO_R, 1)};' + G.REEL_JS.replace(".emb .ring circle", ".emb .ring circle,.med .ring circle") + fit)      # long lines shrink to fit their box
-    return (f'<!doctype html><html><head><meta charset="utf-8"><style>{G.css()}{font_zod()}{G.REEL_CSS}{CSS}</style></head>'
-            f'<body class="reel rp">{"".join(scenes)}<div class="hand"></div><div class="pivot"></div><script>{js}</script></body></html>')
+    return G.themed(f'<!doctype html><html><head><meta charset="utf-8"><style>{G.css()}{font_zod()}{G.REEL_CSS}{CSS}</style></head>'
+                    f'<body class="reel rp">{"".join(scenes)}<div class="hand"></div><div class="pivot"></div><script>{js}</script></body></html>',
+                    p, rasi=True)      # owner 27 Nov: the page's own colours (gold360_render.THEMES)

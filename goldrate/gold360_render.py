@@ -153,6 +153,39 @@ body{{width:1080px;overflow:hidden;font-family:'Noto Sans Tamil',sans-serif;colo
 """
 
 
+# owner 27 Nov ("gold and rasipalan each page unique design colour theme, the content the same"): each page has its own colour in
+# place of the maroon (panels, titles, the base strip, the follow card); the gold / silver metal and every word and number stay the
+# same on every page. Key: the page's name1. A page not listed keeps the maroon.
+THEMES = {      # name1: (dark, light-dark, text on dark, soft text on dark, rasipalan background)
+    "திருப்பூர்": ("#3A070B", "#8E1218", "#F0DADB", "#E3C9CB", ""),      # maroon (as before)
+    "கோவை": ("#071A3C", "#1A4594", "#D8E4F7", "#C2D3EF", "linear-gradient(140deg,#EAF2FF 0%,#C9DBFA 30%,#9FBDF0 55%,#D7E5FB 75%,#86A7E3 100%)"),
+    "ஈரோடு": ("#03291E", "#0C6E4E", "#D4EFE4", "#BEE3D3", "linear-gradient(140deg,#E9FBF2 0%,#BFEBD5 30%,#8ED7B5 55%,#CFF1E0 75%,#6CC29C 100%)"),
+    "கரூர்": ("#23083C", "#5F1B90", "#E7D9F3", "#D6C3EA", "linear-gradient(140deg,#F5EDFF 0%,#DCC8F5 30%,#BE9BEA 55%,#E6D8F8 75%,#A47ED8 100%)"),
+    "நாமக்கல்": ("#032F39", "#0A6F82", "#D2EEF3", "#BBE2E9", "linear-gradient(140deg,#E8FAFC 0%,#BDE9F0 30%,#8ED3E0 55%,#CDEFF4 75%,#68BBCB 100%)"),
+    "இராசிபுரம்": ("#141A22", "#3F4C5E", "#DDE3EA", "#C9D1DB", "linear-gradient(140deg,#F4F7FA 0%,#D9E0E8 30%,#B3BFCC 55%,#E6EBF0 75%,#95A3B3 100%)"),      # steel
+    "சேலம்": ("#2C1403", "#8C4511", "#F3E1D1", "#E7CEB9", "linear-gradient(140deg,#FFF3E8 0%,#F5D7BC 30%,#E6B48A 55%,#F8E1CD 75%,#D19A6A 100%)"),
+    "திருச்சி": ("#380522", "#A5175F", "#F4D7E7", "#EAC3D8", "linear-gradient(140deg,#FFEFF6 0%,#F7CDE1 30%,#EDA3C6 55%,#FADCEA 75%,#DB80AC 100%)"),
+}
+_BASE = ("#3A070B", "#8E1218", "#F0DADB", "#E3C9CB")
+
+
+def _rgb(h):
+    return ",".join(str(int(h[i:i + 2], 16)) for i in (1, 3, 5))
+
+
+def themed(html, p, rasi=False):
+    """the page's own colours in a finished reel page (gold360 / rasi360): only colours change, never a word or a number"""
+    t = THEMES.get(str((p or {}).get("name1") or "").strip())
+    if not t or t[:4] == _BASE:
+        return html
+    for old, new in zip(_BASE, t[:4]):
+        html = html.replace(old, new).replace(old.lower(), new)
+    html = html.replace("rgba(58,7,11,", f"rgba({_rgb(t[0])},")
+    if rasi and t[4]:      # the rasipalan screens: the page's own light colour in place of the gold metal
+        html = html.replace("</style>", f".scene.gold{{--bg:{t[4]}}}</style>", 1)
+    return html
+
+
 def brand_html(p):
     """"<town> 360" with the gold 360 - the name on the page's own logo"""
     return f'{p["name1"]}<i>360</i>'
@@ -356,5 +389,5 @@ def reel_page(p, r):
     js = (f'window.DUR={dur};window.COVER_T={cover};const SC={json.dumps(win)},WIPE={WIPE},SWEEP={json.dumps(SWEEP)},'
           f'ARC_C={ARC_C},LRC={round(2 * 3.14159265 * LOGO_R, 1)};' + REEL_JS)
     bigcss = ".reel .hero .chg{font-size:44px;padding:8px 28px}" if big else ""
-    return (f'<!doctype html><html><head><meta charset="utf-8"><style>{css()}{REEL_CSS}{bigcss}</style></head><body class="reel">'
-            f'{"".join(scenes)}<div class="hand"></div><div class="pivot"></div><script>{js}</script></body></html>')
+    return themed(f'<!doctype html><html><head><meta charset="utf-8"><style>{css()}{REEL_CSS}{bigcss}</style></head><body class="reel">'
+                  f'{"".join(scenes)}<div class="hand"></div><div class="pivot"></div><script>{js}</script></body></html>', p)

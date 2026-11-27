@@ -108,7 +108,7 @@ def page(pg="salem"):
 def test_reel_is_our_brand_not_theirs():
     html = D.reel_page(page(), rates())
     assert "சேலம்<i>360</i>" in html and "logo_salem.png" in html and "Follow @salem360.official" in html
-    assert "#3A070B" in html and "#FFD233" in html      # the 360 logo's maroon + gold
+    assert D.THEMES["சேலம்"][0] in html and "#FFD233" in html      # the page's own colour (owner 27 Nov: one theme per page) + the 360 gold
     for theirs in ("Minnal", "minnal", "மின்னல்", "bolt", "#06142E"):
         assert theirs not in html
 
