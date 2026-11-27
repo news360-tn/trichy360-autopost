@@ -912,6 +912,17 @@ def final_caption(row):
                 cap = cap.rstrip() + "\n\n🔎 " + kw
         except Exception as e:
             log("keywords skipped:", str(e)[:100])
+    if CONFIG.get("political_assets"):      # owner 27 Nov evening: credit the free Wikimedia flag / leader photos the reel shows
+        try:
+            if str(REEL) not in sys.path:
+                sys.path.insert(0, str(REEL))
+            import political
+            fl, ld = political.for_reel(body)
+            cl = political.credit_line([f["key"] for f in fl], [x["key"] for x in ld[:2]])
+            if cl and cl not in cap:
+                cap = cap.rstrip() + "\n\n" + cl
+        except Exception as e:
+            log("photo credit skipped:", str(e)[:100])
     # owner 11 Nov: the source at the very END of the caption - "Source: <paper>: <article link>" (not as a comment)
     _, src_full = source_credit(row)
     src = str(row.get("source") or "").strip()

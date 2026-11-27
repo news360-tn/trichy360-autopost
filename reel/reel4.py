@@ -1034,7 +1034,63 @@ window.fitAll=function(){{
   fitEl(document.getElementById('mini'),124,30); document.querySelectorAll('#sum .v').forEach(e=>fitEl(e,104,26)); document.querySelectorAll('#sum .l').forEach(e=>fitEl(e,76,20)); fitEl(document.querySelector('#pin span'),70,28);
 }};
 </script></body></html>"""
-    return premium_layer(html_, spec) if style == "P" else html_
+    return premium_layer(html_, spec) if style == "P" else political_layer(html_, spec, sents, hook_end, end_t)
+
+
+# ---- owner 27 Nov evening: political news - the real party flag / symbol and the real photo of a leader the news names (reel/political.py)
+POL_CSS = """
+#pflags{position:absolute;left:48px;top:1086px;z-index:24;display:flex;gap:14px;opacity:0}
+#pflags img{height:84px;width:auto;max-width:150px;border-radius:8px;border:3px solid #fff;box-shadow:0 8px 22px rgba(0,0,0,.5);background:#fff;object-fit:contain}
+.plead{position:absolute;right:48px;top:900px;width:272px;z-index:24;opacity:0;background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 16px 44px rgba(0,0,0,.55)}
+.plead img{display:block;width:272px;height:214px;object-fit:cover;object-position:50% 22%}
+.plead .nm{font:800 30px/1.2 'NST','CT';color:var(--navy);padding:10px 14px 4px;text-align:center}
+.plead .cr{font:600 15px/1.25 'NST','CT';color:#6B7280;padding:0 10px 8px;text-align:center;overflow-wrap:anywhere}
+"""
+
+
+def political_cfg():
+    try:
+        return bool(json.loads((Path(__file__).resolve().parent.parent / "poster" / "config.json").read_text()).get("political_assets"))
+    except Exception:
+        return False
+
+
+def political_layer(html_, spec, sents, hook_end, end_t):
+    """the flags (from 0.3 s, small, bottom left) and a leader's photo card (right, while a sentence names the leader) laid over
+    the finished page; the page unchanged when nothing matches, the switch is off, or anything is unexpected"""
+    try:
+        if not political_cfg() or "window.renderAt" not in html_ or html_.count("</body>") != 1:
+            return html_
+        import political
+        text = " ".join([str(x) for x in (spec.get("hook") or [])] + [str(spec.get("mini") or "")] + [str(s.get("say") or "") for s in sents])
+        flags, leads = political.for_reel(text)
+        if not flags and not leads:
+            return html_
+        h = ""
+        if flags:
+            h += '<div id="pflags">' + "".join(f'<img src="file://{Path(f["path"]).resolve()}">' for f in flags) + "</div>"
+        win = []
+        for li, ld in enumerate(leads[:2]):
+            cr = political.short_credit(ld) if political.needs_credit(ld) else ""
+            h += (f'<div class="plead" id="pl{li}"><img src="file://{Path(ld["path"]).resolve()}" style="object-position:{political.FOCUS.get(ld["key"], "50% 22%")}"><div class="nm">{E(political.LEADER_NAME.get(ld["key"], ""))}</div>'
+                  + (f'<div class="cr">{E(cr)}</div>' if cr else "") + "</div>")
+            w = [[s["a"], s["b"] + 0.3] for s in sents if political.mentions(str(s.get("say") or ""), ld["key"])]
+            win.append(w or [[hook_end, hook_end + 4.0]])      # named only in the headline: shown right after the big headline
+        if len(win) > 1:      # two leaders never at the same time: the second waits for the first
+            win[1] = [w for w in win[1] if not any(a < w[1] and w[0] < b for a, b in win[0])] or []
+        js = ("<script>(function(){const old=window.renderAt;const W=" + json.dumps(win) + ";"
+              "window.renderAt=function(t){old(t);try{const cl=x=>Math.max(0,Math.min(1,x));"
+              "const sumA=(D.sum_a&&D.rows)?D.sum_a:D.end_t, live=t<sumA&&t<D.end_t;"
+              "const f=document.getElementById('pflags'); if(f){f.style.opacity=live?cl((t-0.3)/0.3):0;}"
+              "W.forEach((w,i)=>{const e=document.getElementById('pl'+i); if(!e)return; let o=0;"
+              "w.forEach(([a,b])=>{const s=Math.max(a,D.hook_end); if(t>=s&&t<b) o=Math.max(o,cl((t-s)/0.3)*cl((b-t)/0.25));});"
+              "e.style.opacity=live?o:0; e.style.transform='translateX('+((1-o)*60)+'px)';});"
+              "}catch(e){}};})();</script>")
+        print("political pictures:", [f.get("commons") for f in flags], [ld["key"] for ld in leads[:2]])
+        return html_.replace("</style>", POL_CSS + "</style>", 1).replace("</body>", h + js + "</body>", 1)
+    except Exception as e:
+        print("political pictures skipped (the reel is fine):", str(e)[:150])
+        return html_
 
 
 def max_seconds(spec=None):

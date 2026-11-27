@@ -230,5 +230,7 @@
   },
   "post_error_wait_min": 10,
   "no_quick_retry": true,
-  "post_error_note": "owner 26 Nov (Trichy): a posting error on Instagram, Facebook or YouTube is noted at once (job log + poster/posting_errors.json) and that post is NOT tried again in the same run - the next try is after post_error_wait_min (10) minutes (Instagram's retry plan 10,10,10,15,15 then Hold; Facebook and YouTube 10 minutes). no_quick_retry false = the old quick repeats inside a run"
+  "post_error_note": "owner 26 Nov (Trichy): a posting error on Instagram, Facebook or YouTube is noted at once (job log + poster/posting_errors.json) and that post is NOT tried again in the same run - the next try is after post_error_wait_min (10) minutes (Instagram's retry plan 10,10,10,15,15 then Hold; Facebook and YouTube 10 minutes). no_quick_retry false = the old quick repeats inside a run",
+  "political_assets": true,
+  "political_assets_note": "owner 27 Nov evening: political news shows the real party flags / election symbols (small, bottom left) and the real photo of a leader the news names (card on the right while the leader is spoken about) - free Wikimedia Commons files only (reel/assets/political/manifest.json), credited on screen and in the caption; never an AI-made face or flag. false = off"
 }

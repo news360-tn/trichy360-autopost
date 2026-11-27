@@ -1,0 +1,706 @@
+{
+ "changes_note": "All files were downloaded from Wikimedia Commons thumbnails (SVGs rasterised by Wikimedia), resized to max 800 px wide (never upscaled) and converted to PNG (flags/symbols; transparent symbols flattened onto white) or JPEG (leaders, alpha flattened onto white). No other edits. Entries with doubtful=true must be reviewed/filtered before use.",
+ "checked": "2026-11-27",
+ "flags": {
+  "dmk": {
+   "party_en": "Dravida Munnetra Kazhagam",
+   "party_ta": "திராவிட முன்னேற்றக் கழகம்",
+   "party_ta_short": "திமுக",
+   "kind": "flag",
+   "file": "flags/dmk.png",
+   "commons": "File:Flag DMK.svg",
+   "license": "Public domain",
+   "license_url": null,
+   "author": "Amit6",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_DMK.svg",
+   "size": [
+    800,
+    435
+   ],
+   "doubtful": false
+  },
+  "aiadmk": {
+   "party_en": "All India Anna Dravida Munnetra Kazhagam",
+   "party_ta": "அனைத்திந்திய அண்ணா திராவிட முன்னேற்றக் கழகம்",
+   "party_ta_short": "அதிமுக",
+   "kind": "flag",
+   "file": "flags/aiadmk.png",
+   "commons": "File:AIADMK Flag.svg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "KindCowboy69",
+   "source_url": "https://commons.wikimedia.org/wiki/File:AIADMK_Flag.svg",
+   "size": [
+    800,
+    533
+   ],
+   "note": "CC BY-SA 4.0 'own work' vectorisation of party artwork (Annadurai figure) - same pattern as the rejected MNM logo, so slightly weaker licence footing. Fallback: File:Indian Election Symbol Two Leaves.svg (CC BY-SA 4.0, AIADMK symbol, caller-verified).",
+   "doubtful": false
+  },
+  "tvk": {
+   "party_en": "Tamilaga Vettri Kazhagam",
+   "party_ta": "தமிழக வெற்றிக் கழகம்",
+   "party_ta_short": "தவெக",
+   "kind": "symbol",
+   "file": "flags/tvk.png",
+   "commons": "File:Indian Election Symbol Whistle.svg",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Election Commission of India",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Indian_Election_Symbol_Whistle.svg",
+   "size": [
+    800,
+    600
+   ],
+   "note": "Generic ECI 'whistle' free symbol; Commons file does not mention TVK (categorised under Aam Janata Unnayan Party). Identity evidence: it is the symbol/page image of the en.wikipedia TVK article (checked 2026-11-27). TVK flag on Commons rejected (licence doubtful).",
+   "doubtful": false
+  },
+  "bjp": {
+   "party_en": "Bharatiya Janata Party",
+   "party_ta": "பாரதிய ஜனதா கட்சி",
+   "party_ta_short": "பாஜக",
+   "kind": "flag",
+   "file": "flags/bjp.png",
+   "commons": "File:BJP Flag.svg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "RachitSinghal",
+   "source_url": "https://commons.wikimedia.org/wiki/File:BJP_Flag.svg",
+   "size": [
+    800,
+    533
+   ],
+   "doubtful": false
+  },
+  "congress": {
+   "party_en": "Indian National Congress",
+   "party_ta": "இந்திய தேசிய காங்கிரஸ்",
+   "party_ta_short": "காங்கிரஸ்",
+   "kind": "flag",
+   "file": "flags/congress.png",
+   "commons": "File:INC Flag Official.jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "author": "Indian National Congress",
+   "source_url": "https://commons.wikimedia.org/wiki/File:INC_Flag_Official.jpg",
+   "size": [
+    800,
+    534
+   ],
+   "doubtful": false
+  },
+  "pmk": {
+   "party_en": "Pattali Makkal Katchi",
+   "party_ta": "பாட்டாளி மக்கள் கட்சி",
+   "party_ta_short": "பாமக",
+   "kind": "flag",
+   "file": "flags/pmk.png",
+   "commons": "File:PMK.svg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "PMK.jpg: Arafath.riyath; derivative work: Germo",
+   "source_url": "https://commons.wikimedia.org/wiki/File:PMK.svg",
+   "size": [
+    800,
+    449
+   ],
+   "doubtful": false
+  },
+  "vck": {
+   "party_en": "Viduthalai Chiruthaigal Katchi",
+   "party_ta": "விடுதலைச் சிறுத்தைகள் கட்சி",
+   "party_ta_short": "விசிக",
+   "kind": "flag",
+   "file": "flags/vck.png",
+   "commons": "File:Viduthalai Chiruthaigal Katchi banner.png",
+   "license": "Public domain",
+   "license_url": null,
+   "author": "Soman",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Viduthalai_Chiruthaigal_Katchi_banner.png",
+   "size": [
+    447,
+    301
+   ],
+   "doubtful": false
+  },
+  "mdmk": {
+   "party_en": "Marumalarchi Dravida Munnetra Kazhagam",
+   "party_ta": "மறுமலர்ச்சி திராவிட முன்னேற்றக் கழகம்",
+   "party_ta_short": "மதிமுக",
+   "kind": "flag",
+   "file": "flags/mdmk.png",
+   "commons": "File:MDMK.svg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "Original: Arafath.riyath; vector: Germo",
+   "source_url": "https://commons.wikimedia.org/wiki/File:MDMK.svg",
+   "size": [
+    800,
+    449
+   ],
+   "doubtful": false
+  },
+  "dmdk": {
+   "party_en": "Desiya Murpokku Dravida Kazhagam",
+   "party_ta": "தேசிய முற்போக்கு திராவிட கழகம்",
+   "party_ta_short": "தேமுதிக",
+   "kind": "symbol",
+   "file": "flags/dmdk.png",
+   "commons": "File:Indian Election Symbol Nagara.svg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Abilngeorge",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Indian_Election_Symbol_Nagara.svg",
+   "size": [
+    800,
+    764
+   ],
+   "doubtful": false
+  },
+  "ammk": {
+   "party_en": "Amma Makkal Munnetra Kazhagam",
+   "party_ta": "அம்மா மக்கள் முன்னேற்றக் கழகம்",
+   "party_ta_short": "அமமுக",
+   "kind": "symbol",
+   "file": "flags/ammk.png",
+   "commons": "File:AMMK SYMBOL PRESSURE COOKER.png",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Thiyagu Ganesh",
+   "source_url": "https://commons.wikimedia.org/wiki/File:AMMK_SYMBOL_PRESSURE_COOKER.png",
+   "size": [
+    585,
+    328
+   ],
+   "doubtful": false
+  },
+  "cpi": {
+   "party_en": "Communist Party of India",
+   "party_ta": "இந்திய கம்யூனிஸ்ட் கட்சி",
+   "party_ta_short": "இந்திய கம்யூனிஸ்ட்",
+   "kind": "flag",
+   "file": "flags/cpi.png",
+   "commons": "File:CPI-banner.svg",
+   "license": "Public domain",
+   "license_url": null,
+   "author": "Unknown (PD text logo; no author recorded on Commons)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:CPI-banner.svg",
+   "size": [
+    800,
+    533
+   ],
+   "note": "party_ta short form unsure: papers use 'இந்திய கம்யூனிஸ்ட்' or 'சிபிஐ'.",
+   "doubtful": false
+  },
+  "cpim": {
+   "party_en": "Communist Party of India (Marxist)",
+   "party_ta": "இந்திய கம்யூனிஸ்ட் கட்சி (மார்க்சிஸ்ட்)",
+   "party_ta_short": "மார்க்சிஸ்ட் கம்யூனிஸ்ட்",
+   "kind": "flag",
+   "file": "flags/cpim.png",
+   "commons": "File:CPI-M-flag.svg",
+   "license": "Public domain",
+   "license_url": null,
+   "author": "Unknown (PD-ineligible; no author recorded on Commons)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:CPI-M-flag.svg",
+   "size": [
+    800,
+    533
+   ],
+   "note": "party_ta short form unsure: papers use 'மார்க்சிஸ்ட் கம்யூனிஸ்ட்' or 'சிபிஎம்'. Commons file has no machine-readable author (PD-ineligible).",
+   "doubtful": false
+  },
+  "iuml": {
+   "party_en": "Indian Union Muslim League",
+   "party_ta": "இந்திய யூனியன் முஸ்லிம் லீக்",
+   "party_ta_short": "முஸ்லிம் லீக்",
+   "kind": "flag",
+   "file": "flags/iuml.png",
+   "commons": "File:Flag of the Indian Union Muslim League.svg",
+   "license": "Public domain",
+   "license_url": null,
+   "author": "Zscout370",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Indian_Union_Muslim_League.svg",
+   "size": [
+    800,
+    533
+   ],
+   "note": "party_ta short form unsure (commonly 'முஸ்லிம் லீக்' / 'ஐயுஎம்எல்').",
+   "doubtful": false
+  },
+  "mnm": {
+   "party_en": "Makkal Needhi Maiam",
+   "party_ta": "மக்கள் நீதி மய்யம்",
+   "party_ta_short": "மநீம",
+   "kind": "symbol",
+   "file": "flags/mnm.png",
+   "commons": "File:Indian Election Symbol Battery-Torch.png",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Janarthanan K S",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Indian_Election_Symbol_Battery-Torch.png",
+   "size": [
+    800,
+    800
+   ],
+   "note": "Generic ECI 'battery torch' symbol drawing (MNM's symbol in 2019/2021); file itself does not mention MNM; identity evidence: used in the en.wikipedia MNM article (checked 2026-11-27). MNM logo/flag file rejected (own-work licence claim on party logo). Short form 'மநீம' unsure; papers often write the full name.",
+   "doubtful": false
+  },
+  "tmc": {
+   "party_en": "Tamil Maanila Congress (Moopanar)",
+   "party_ta": "தமிழ் மாநில காங்கிரஸ் (மூப்பனார்)",
+   "party_ta_short": "தமாகா",
+   "kind": "symbol",
+   "file": "flags/tmc.png",
+   "commons": "File:Indian Election Symbol Cycle.png",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Abilngeorge",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Indian_Election_Symbol_Cycle.png",
+   "size": [
+    300,
+    300
+   ],
+   "note": "Generic ECI 'cycle' symbol (same file is also used for Telugu Desam Party). Identity evidence: it is the page image of the en.wikipedia TMC (Moopanar) article (checked 2026-11-27). Only 300x300 at source, not upscaled. The only TMC flag on Commons is described as the 1996-2002 version (not current), so not used.",
+   "doubtful": false
+  }
+ },
+ "leaders": {
+  "mk_stalin": {
+   "name_en": "M. K. Stalin",
+   "name_ta": "மு.க.ஸ்டாலின்",
+   "match_ta": [
+    "மு.க.ஸ்டாலின்",
+    "மு. க. ஸ்டாலின்",
+    "ஸ்டாலின்"
+   ],
+   "party_key": "dmk",
+   "file": "leaders/mk_stalin.jpg",
+   "commons": "File:Chief Minister MK Stalin.jpg",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Elangoartist",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Chief_Minister_MK_Stalin.jpg",
+   "size": [
+    453,
+    666
+   ],
+   "note": "Bare 'ஸ்டாலின்' also occurs in 'உதயநிதி ஸ்டாலின்' - match the longer name first. 2025 photo, CC0 'own work' (description: 'Anbil Mahesh with MK Stalin', cropped). Alternative PD-user 2009 photo: File:Mkspicture (cropped).jpg.",
+   "doubtful": false
+  },
+  "udhayanidhi_stalin": {
+   "name_en": "Udhayanidhi Stalin",
+   "name_ta": "உதயநிதி ஸ்டாலின்",
+   "match_ta": [
+    "உதயநிதி ஸ்டாலின்",
+    "உதயநிதி"
+   ],
+   "party_key": "dmk",
+   "file": "leaders/udhayanidhi_stalin.jpg",
+   "commons": "File:Udhaya.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Articist",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Udhaya.jpg",
+   "size": [
+    532,
+    665
+   ],
+   "doubtful": false
+  },
+  "edappadi_palaniswami": {
+   "name_en": "Edappadi K. Palaniswami",
+   "name_ta": "எடப்பாடி பழனிசாமி",
+   "match_ta": [
+    "எடப்பாடி பழனிசாமி",
+    "எடப்பாடி கே. பழனிசாமி",
+    "இபிஎஸ்",
+    "பழனிசாமி"
+   ],
+   "party_key": "aiadmk",
+   "file": "leaders/edappadi_palaniswami.jpg",
+   "commons": "File:Palanisamy.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "Silverscreen Media Inc. (https://silverscreen.in)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Palanisamy.jpg",
+   "size": [
+    400,
+    500
+   ],
+   "note": "2018 photo, 400x500 (small).",
+   "doubtful": false
+  },
+  "vijay": {
+   "name_en": "Vijay (C. Joseph Vijay)",
+   "name_ta": "விஜய்",
+   "match_ta": [
+    "தவெக தலைவர் விஜய்",
+    "நடிகர் விஜய்",
+    "முதல்வர் விஜய்",
+    "விஜய்"
+   ],
+   "party_key": "tvk",
+   "file": "leaders/vijay.jpg",
+   "commons": "File:Tamil Film actor Vijay Celebrating World Environment Day at the U.S. Consulate Chennai 4 (cropped).jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "author": "U.S. Consulate General Chennai",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Tamil_Film_actor_Vijay_Celebrating_World_Environment_Day_at_the_U.S._Consulate_Chennai_4_(cropped).jpg",
+   "size": [
+    800,
+    875
+   ],
+   "note": "Old photo (2013). Bare 'விஜய்' also matches other people (e.g. Vijayakant, Vijay Vasanth) - match carefully. Recent 2026 photo (File:C. Joseph Vijay (cropped).jpg) exists but is GODL-India, rejected under current policy.",
+   "doubtful": false
+  },
+  "seeman": {
+   "name_en": "Seeman",
+   "name_ta": "சீமான்",
+   "match_ta": [
+    "சீமான்"
+   ],
+   "party_key": "ntk",
+   "file": "leaders/seeman.jpg",
+   "commons": "File:Tamil Eelam Champion Seeman Speech Outside UN headquarters Geneva 002.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "author": "Velupillai",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Tamil_Eelam_Champion_Seeman_Speech_Outside_UN_headquarters_Geneva_002.jpg",
+   "size": [
+    500,
+    766
+   ],
+   "note": "2013 photo, half-length at a rally (Tamil Eelam scarf); not a clean head-and-shoulders.",
+   "doubtful": false
+  },
+  "annamalai": {
+   "name_en": "K. Annamalai",
+   "name_ta": "அண்ணாமலை",
+   "match_ta": [
+    "அண்ணாமலை",
+    "கே. அண்ணாமலை"
+   ],
+   "party_key": "bjp",
+   "file": "leaders/annamalai.jpg",
+   "commons": "File:K. Annamalai at padayatra.jpg",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "TamizhanEditor",
+   "source_url": "https://commons.wikimedia.org/wiki/File:K._Annamalai_at_padayatra.jpg",
+   "size": [
+    616,
+    913
+   ],
+   "doubtful": false
+  },
+  "thirumavalavan": {
+   "name_en": "Thol. Thirumavalavan",
+   "name_ta": "தொல். திருமாவளவன்",
+   "match_ta": [
+    "தொல். திருமாவளவன்",
+    "திருமாவளவன்"
+   ],
+   "party_key": "vck",
+   "file": "leaders/thirumavalavan.jpg",
+   "commons": "File:Dr Thiruma.png",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Satrainbox",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Dr_Thiruma.png",
+   "size": [
+    800,
+    1200
+   ],
+   "note": "2025 CC0 'own work'; full-length standing photo, crop needed for head-and-shoulders.",
+   "doubtful": false
+  },
+  "vaiko": {
+   "name_en": "Vaiko",
+   "name_ta": "வைகோ",
+   "match_ta": [
+    "வைகோ"
+   ],
+   "party_key": "mdmk",
+   "file": "leaders/vaiko.jpg",
+   "commons": "File:Special screeing for Mr. Vaiko (cropped).JPG",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Rajsankar",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Special_screeing_for_Mr._Vaiko_(cropped).JPG",
+   "size": [
+    451,
+    686
+   ],
+   "doubtful": false
+  },
+  "o_panneerselvam": {
+   "name_en": "O. Panneerselvam",
+   "name_ta": "ஓ. பன்னீர்செல்வம்",
+   "match_ta": [
+    "ஓ. பன்னீர்செல்வம்",
+    "ஓபிஎஸ்",
+    "பன்னீர்செல்வம்"
+   ],
+   "party_key": null,
+   "file": "leaders/o_panneerselvam.jpg",
+   "commons": "File:O. Paneerselvam.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "Prakashfotos",
+   "source_url": "https://commons.wikimedia.org/wiki/File:O._Paneerselvam.jpg",
+   "size": [
+    544,
+    476
+   ],
+   "note": "2014 photo, other people in background. party_key left null: Wikidata (Nov 2026) shows AIADMK membership ended 2026 and DMK membership - verify before use.",
+   "doubtful": false
+  },
+  "kamal_haasan": {
+   "name_en": "Kamal Haasan",
+   "name_ta": "கமல்ஹாசன்",
+   "match_ta": [
+    "கமல்ஹாசன்",
+    "கமல் ஹாசன்",
+    "கமல்"
+   ],
+   "party_key": "mnm",
+   "file": "leaders/kamal_haasan.jpg",
+   "commons": "File:Kamal at 61st FF (cropped).jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "author": "Bollywood Hungama",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Kamal_at_61st_FF_(cropped).jpg",
+   "size": [
+    383,
+    550
+   ],
+   "note": "2014 photo (Filmfare).",
+   "doubtful": false
+  },
+  "narendra_modi": {
+   "name_en": "Narendra Modi",
+   "name_ta": "நரேந்திர மோடி",
+   "match_ta": [
+    "நரேந்திர மோடி",
+    "பிரதமர் மோடி",
+    "மோடி"
+   ],
+   "party_key": "bjp",
+   "file": "leaders/narendra_modi.jpg",
+   "commons": "File:Narendra Modi (2021-12-06, cropped).jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Presidential Executive Office of Russia",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Narendra_Modi_(2021-12-06,_cropped).jpg",
+   "size": [
+    800,
+    978
+   ],
+   "doubtful": false
+  },
+  "rahul_gandhi": {
+   "name_en": "Rahul Gandhi",
+   "name_ta": "ராகுல் காந்தி",
+   "match_ta": [
+    "ராகுல் காந்தி",
+    "ராகுல்"
+   ],
+   "party_key": "congress",
+   "file": "leaders/rahul_gandhi.jpg",
+   "commons": "File:Rahul Gandhi.png",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Himanshu Arya Khowal",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rahul_Gandhi.png",
+   "size": [
+    800,
+    867
+   ],
+   "doubtful": false
+  },
+  "amit_shah": {
+   "name_en": "Amit Shah",
+   "name_ta": "அமித் ஷா",
+   "match_ta": [
+    "அமித் ஷா",
+    "அமித்ஷா"
+   ],
+   "party_key": "bjp",
+   "file": "leaders/amit_shah.jpg",
+   "commons": "File:Pic of Amit Shah IMG 9161.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Duggempudi Ravinder Reddy",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pic_of_Amit_Shah_IMG_9161.jpg",
+   "size": [
+    800,
+    1200
+   ],
+   "note": "Studio-style portrait uploaded as 'own work' (2016); licence as tagged on Commons.",
+   "doubtful": false
+  }
+ },
+ "not_found": {
+  "premalatha_vijayakant": {
+   "name_en": "Premalatha Vijayakant",
+   "name_ta": "பிரேமலதா விஜயகாந்த்",
+   "match_ta": [
+    "பிரேமலதா விஜயகாந்த்",
+    "பிரேமலதா"
+   ],
+   "party_key": "dmdk",
+   "reason": "No photo on Commons (no Wikidata P18; Commons search for 'Premalatha Vijayakanth' returns nothing)."
+  },
+  "nainar_nagendran": {
+   "name_en": "Nainar Nagendran",
+   "name_ta": "நயினார் நாகேந்திரன்",
+   "match_ta": [
+    "நயினார் நாகேந்திரன்",
+    "நயினார்",
+    "நைனார் நாகேந்திரன்"
+   ],
+   "party_key": "bjp",
+   "reason": "No portrait. Only a 5-person group photo (File:Karur Kamalakkannan welcomed Bharatiya Janata Party State President Thiru. Nainar Nagendran in Karur.jpg, CC BY-SA 4.0) where he cannot be reliably identified; not used."
+  },
+  "s_ramadoss": {
+   "name_en": "S. Ramadoss",
+   "name_ta": "ராமதாஸ்",
+   "match_ta": [
+    "மருத்துவர் ராமதாஸ்",
+    "டாக்டர் ராமதாஸ்",
+    "ராமதாஸ்"
+   ],
+   "party_key": "pmk",
+   "reason": "Only candidate File:Dr. S. Ramadoss.png is a CC0 'own work' (2026, new uploader) background-removed studio portrait, 864x1184 - provenance doubtful (likely copied), rejected. Note bare 'ராமதாஸ்' also matches Anbumani Ramadoss."
+  },
+  "tmc_flag": {
+   "reason": "File:Flag of Tamil Maanila Congress.png (CC BY 4.0) is described as the 1996-2002 first version, not the current flag; cycle symbol used instead."
+  },
+  "tvk_flag": {
+   "reason": "File:Tamilaga Vettri Kazhagam (TVK) Flag.png is tagged CC0 but credited to 'TVK IT Wing' via a third-party flag site, dated before the flag was unveiled - licence unclear, rejected."
+  },
+  "ntk_flag": {
+   "reason": "No NTK flag file on Commons."
+  },
+  "dmdk_flag": {
+   "reason": "No DMDK flag file on Commons; ECI symbol used."
+  },
+  "ammk_flag": {
+   "reason": "No AMMK flag file on Commons; ECI symbol used."
+  },
+  "mnm_flag": {
+   "reason": "File:Makkal Needhi Maiam Party Logo.png is a party logo claimed as own work (CC BY-SA 4.0) - unclear licence, rejected; symbol used."
+  }
+ },
+ "rejected": {
+  "GODL-India (free on Commons but not in allowed licence list)": [
+   "File:C. Joseph Vijay (cropped).jpg (Vijay as CM, May 2026)",
+   "File:The Chief Minister of Tamil Nadu, Thiru MK Stalin.jpg",
+   "File:MK Stalin meeting PM Modi (cropped).jpg",
+   "File:Thol Thirumavalavan.jpg",
+   "File:O. Panneerselvam.jpg",
+   "File:Prime Minister Of Bharat Shri Narendra Damodardas Modi.jpg",
+   "File:Official Photograph of Prime Minister Narendra Modi Portrait.png",
+   "File:Union Minister for Home Affairs.jpg",
+   "File:Shri Amit Shah in Raigad.jpg",
+   "File:Anbumani Ramadoss in 2007 (cropped).jpg"
+  ],
+  "wrong person": [
+   "File:Amit Shah Wikipedia.jpg / File:Amit Shah Bafta wiki.jpg (British actor of the same name)"
+  ],
+  "doubtful provenance": [
+   "File:Dr. S. Ramadoss.png",
+   "File:Edappadi K Palaniswami Portrait.jpg (CC0 'own work' 2026, framed official-style portrait - likely copied)"
+  ]
+ },
+ "rejected_by_owner_check": {
+  "anbumani_ramadoss": {
+   "name_en": "Anbumani Ramadoss",
+   "name_ta": "அன்புமணி ராமதாஸ்",
+   "match_ta": [
+    "அன்புமணி ராமதாஸ்",
+    "அன்புமணி"
+   ],
+   "party_key": "pmk",
+   "file": "leaders/anbumani_ramadoss.jpg",
+   "commons": "File:Anbumani Ramadoss at A Stroke of Disssonance Short Film Launch.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "Sriram Narasimhan , Silverscreen Media Inc. (https://silverscreen.in)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Anbumani_Ramadoss_at_A_Stroke_of_Disssonance_Short_Film_Launch.jpg",
+   "size": [
+    800,
+    533
+   ],
+   "note": "2017 photo at a podium (landscape, half-length).",
+   "doubtful": false,
+   "why": "face too small (podium, landscape)"
+  },
+  "selvaperunthagai": {
+   "name_en": "K. Selvaperunthagai",
+   "name_ta": "செல்வப்பெருந்தகை",
+   "match_ta": [
+    "செல்வப்பெருந்தகை",
+    "கு. செல்வப்பெருந்தகை"
+   ],
+   "party_key": "congress",
+   "file": "leaders/selvaperunthagai.jpg",
+   "commons": "File:Selvaperunthagai.png",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "author": "PuthiyaThalaimuraiTV",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Selvaperunthagai.png",
+   "size": [
+    184,
+    237
+   ],
+   "note": "TINY: 184x237 YouTube still (Puthiya Thalaimurai, CC BY 3.0). Not upscaled.",
+   "doubtful": false,
+   "why": "184x237 - too small"
+  },
+  "ttv_dhinakaran": {
+   "name_en": "T. T. V. Dhinakaran",
+   "name_ta": "டி.டி.வி. தினகரன்",
+   "match_ta": [
+    "டி.டி.வி. தினகரன்",
+    "டிடிவி தினகரன்",
+    "டிடிவி",
+    "தினகரன்"
+   ],
+   "party_key": "ammk",
+   "file": "leaders/ttv_dhinakaran.jpg",
+   "commons": "File:T.T.V.Dinakaran.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Gowtham Sampath",
+   "source_url": "https://commons.wikimedia.org/wiki/File:T.T.V.Dinakaran.jpg",
+   "size": [
+    800,
+    799
+   ],
+   "note": "POOR quality: dark night-time rally phone photo (2018). Other option File:T. T. V. Dhinakaran.jpg is 220x275 with a doubtful CC BY-SA claim on a TN Assembly PDF photo. 'தினகரன்' is also the name of a Tamil newspaper - match carefully.",
+   "doubtful": true,
+   "why": "dark night photo"
+  },
+  "ntk": {
+   "party_en": "Naam Tamilar Katchi",
+   "party_ta": "நாம் தமிழர் கட்சி",
+   "party_ta_short": "நாதக",
+   "kind": "symbol",
+   "file": "flags/ntk.png",
+   "commons": "File:NTK-EC-Symbol.jpg",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Mohantry-3009",
+   "source_url": "https://commons.wikimedia.org/wiki/File:NTK-EC-Symbol.jpg",
+   "size": [
+    800,
+    1076
+   ],
+   "note": "Hand-drawn (photographed) sketch of a man carrying a pickaxe/plough by uploader, CC0 own work 2026; description only says 'NTK-EC-Symbol'. Amateur rendering, not official artwork. Identity evidence: it is the page image of the en.wikipedia NTK article (checked 2026-11-27). No NTK flag on Commons.",
+   "doubtful": false,
+   "why": "amateur drawing, not official artwork"
+  }
+ }
+}

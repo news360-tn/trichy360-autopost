@@ -73,7 +73,12 @@ LATIN = {"A": "ஏ", "B": "பி", "C": "சி", "D": "டி", "E": "இ", "F
 # 19 Nov (from Kovai Minnal, owner 19 Nov: "the ai voice read தவெக as a full word"): party short names written WITHOUT dots are
 # read letter by letter like the dotted ones (தி.மு.க.) - VOICE only, the screen and caption keep the paper's spelling. Longest first.
 PARTIES = [("அமமுக", "அ ம மு க"), ("அதிமுக", "அ தி மு க"), ("தேமுதிக", "தே மு தி க"), ("மதிமுக", "ம தி மு க"), ("திமுக", "தி மு க"),
-           ("தவெக", "த வெ க"), ("தவாக", "த வா க"), ("பாஜக", "பா ஜ க"), ("பாமக", "பா ம க"), ("விசிக", "வி சி க"), ("நாதக", "நா த க")]
+           ("தவெக", "த வெ க"), ("தவாக", "த வா க"), ("பாஜக", "பா ஜ க"), ("பாமக", "பா ம க"), ("விசிக", "வி சி க"), ("நாதக", "நா த க"),
+           # owner 27 Nov evening (political reels): more short forms the voice read as one word
+           ("கொமதேக", "கொ ம தே க"), ("தமாகா", "த மா கா"), ("மநீம", "ம நீ ம"), ("மமக", "ம ம க"), ("இஜக", "இ ஜ க"),
+           ("அஇஅதிமுக", "அ இ அ தி மு க"), ("இபிஎஸ்", "இ பி எஸ்"), ("ஓபிஎஸ்", "ஓ பி எஸ்"), ("டிடிவி", "டி டி வி"),
+           ("சிபிஎம்", "சி பி எம்"), ("சிபிஐ", "சி பி ஐ"), ("எஸ்டிபிஐ", "எஸ் டி பி ஐ")]
+PARTIES.sort(key=lambda x: -len(x[0]))      # longest first (அஇஅதிமுக before அதிமுக, எஸ்டிபிஐ before சிபிஐ)
 
 
 def spoken(text):
