@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-27T07:06:54+00:00",
+ "updated": "2026-11-27T07:18:57+00:00",
  "day": "2026-11-27",
- "ready": 3,
+ "ready": 2,
  "pages": {
   "trichy": {
    "label": "திருச்சி 360",
@@ -41,9 +41,16 @@
       "link": "https://www.instagram.com/reel/DgOXuwwh0Ed/",
       "at": "2026-11-27T00:16:37+00:00",
       "kind": "reel"
+     },
+     {
+      "id": "RN-173",
+      "head": "திருச்சியில் இரண்டாவது நாளாக மழை: மரக்கிளைகள் முறிந்து விழுந்தன",
+      "link": "https://www.instagram.com/reel/DgPHqMiyd_E/",
+      "at": "2026-11-27T07:15:24+00:00",
+      "kind": "reel"
      }
     ],
-    "paused": "",
+    "paused": "Instagram had a temporary error - posting again after 5 minutes on trichy - paused until 2026-11-27T07:21 UTC",
     "quota": ""
    },
    "facebook": {
