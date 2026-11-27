@@ -83,6 +83,22 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-27 | `3dffcb3` | Trichy reel: wrap long Tamil location and card text, Tamil end card text, English spoken end line |
+| 2026-11-27 | `0ec3f4a` | stories shared / Instagram pause |
+| 2026-11-27 | `b4964db` | facebook RN-174 |
+| 2026-11-27 | `7673682` | posted RN-174 |
+| 2026-11-27 | `c0246c4` | stories shared / Instagram pause |
+| 2026-11-27 | `268ce58` | manual post e-mail RN-174 |
+| 2026-11-27 | `9a8676e` | manual post e-mail RN-175 |
+| 2026-11-27 | `45d4371` | stories shared / Instagram pause |
+| 2026-11-27 | `f27740a` | facebook RN-173 |
+| 2026-11-27 | `d13f347` | posted RN-173 |
+| 2026-11-27 | `61c60fa` | posting error noted RN-174 |
+| 2026-11-27 | `406c788` | stories shared / Instagram pause |
+| 2026-11-27 | `aa5fbda` | pick: picked news saved |
+| 2026-11-27 | `473f64d` | pick: picked news saved |
+| 2026-11-27 | `e73069e` | pick: list sent |
+| 2026-11-27 | `7eec9a7` | stories shared / Instagram pause |
 | 2026-11-27 | `2d77c49` | Tests: send error notes to a temporary file so test runs never write the live posting_errors.json |
 | 2026-11-27 | `cea2ef2` | stories shared / Instagram pause |
 | 2026-11-27 | `a051607` | stories shared / Instagram pause |
@@ -97,20 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-27 | `158c618` | stories shared / Instagram pause |
 | 2026-11-27 | `982bd02` | stories shared / Instagram pause |
 | 2026-11-27 | `6c46415` | stories shared / Instagram pause |
-| 2026-11-27 | `48f55b0` | stories shared / Instagram pause |
-| 2026-11-27 | `7d39816` | stories shared / Instagram pause |
-| 2026-11-27 | `5f3de79` | autofix: corrected held news |
-| 2026-11-27 | `63787ff` | stories shared / Instagram pause |
-| 2026-11-27 | `0b354e3` | stories shared / Instagram pause |
-| 2026-11-27 | `a90e169` | stories shared / Instagram pause |
-| 2026-11-27 | `15f41a8` | stories shared / Instagram pause |
-| 2026-11-27 | `ed029a5` | stories shared / Instagram pause |
-| 2026-11-27 | `30a9c0c` | stories shared / Instagram pause |
-| 2026-11-27 | `e2b2ec7` | pick: written and posted |
-| 2026-11-27 | `d91600c` | pick: list sent |
-| 2026-11-27 | `db64ee4` | stories shared / Instagram pause |
-| 2026-11-27 | `a67e667` | goldrate posted |
-| 2026-11-27 | `2b76ea3` | stories shared / Instagram pause |
-| 2026-11-27 | `722b56e` | stories shared / Instagram pause |
-| 2026-11-27 | `6aaabc5` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
