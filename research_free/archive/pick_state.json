@@ -26,7 +26,8 @@
    "score": 4.1899999999999995,
    "power_cut": true,
    "late_listed": true,
-   "listed_at": "2026-11-28T00:31:35.130581+05:30"
+   "listed_at": "2026-11-28T00:31:35.130581+05:30",
+   "picked_at": "2026-11-28T00:37:03.332400+05:30"
   },
   "C509325e": {
    "id": "C509325e",
@@ -38,7 +39,8 @@
    "category": "விபத்து",
    "score": 10.9,
    "power_cut": false,
-   "listed_at": "2026-11-28T00:31:35.130581+05:30"
+   "listed_at": "2026-11-28T00:31:35.130581+05:30",
+   "picked_at": "2026-11-28T00:37:03.332402+05:30"
   },
   "Ce3747df": {
    "id": "Ce3747df",
@@ -422,8 +424,18 @@
    ],
    "sent": false,
    "deadline": "2026-11-28T01:31:35.130581+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 1 of 3 by insights + 1 power cut",
+    "ids": [
+     "Cbf689cd",
+     "C509325e"
+    ],
+    "at": "2026-11-28T00:37:03.332391+05:30"
+   },
+   "written": [
+    "C509325e",
+    "Cbf689cd"
+   ]
   }
  },
  "retry": {
