@@ -83,6 +83,14 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-27 | `2d77c49` | Tests: send error notes to a temporary file so test runs never write the live posting_errors.json |
+| 2026-11-27 | `cea2ef2` | stories shared / Instagram pause |
+| 2026-11-27 | `a051607` | stories shared / Instagram pause |
+| 2026-11-27 | `1ecbae7` | stories shared / Instagram pause |
+| 2026-11-27 | `b026d13` | stories shared / Instagram pause |
+| 2026-11-27 | `7c9b6e5` | stories shared / Instagram pause |
+| 2026-11-27 | `e9323e4` | stories shared / Instagram pause |
+| 2026-11-27 | `cf11ab8` | stories shared / Instagram pause |
 | 2026-11-27 | `0b97f14` | Trichy views test round 2: news themes, faster hook, short ending, 6 voices, more news, Facebook/YouTube views |
 | 2026-11-27 | `416322f` | stories shared / Instagram pause |
 | 2026-11-27 | `98da2a2` | autofix: corrected held news |
@@ -105,12 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-27 | `2b76ea3` | stories shared / Instagram pause |
 | 2026-11-27 | `722b56e` | stories shared / Instagram pause |
 | 2026-11-27 | `6aaabc5` | stories shared / Instagram pause |
-| 2026-11-27 | `8166913` | stories shared / Instagram pause |
-| 2026-11-27 | `ca53b2f` | stories shared / Instagram pause |
-| 2026-11-27 | `6818505` | stories shared / Instagram pause |
-| 2026-11-27 | `6ad1f3d` | stories shared / Instagram pause |
-| 2026-11-27 | `3e18637` | stories shared / Instagram pause |
-| 2026-11-27 | `3918c70` | stories shared / Instagram pause |
-| 2026-11-27 | `c1cefd4` | stories shared / Instagram pause |
-| 2026-11-27 | `9a6b589` | pick: written and posted |
 <!-- recent-changes:end -->
