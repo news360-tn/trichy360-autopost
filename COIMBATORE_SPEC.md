@@ -16,7 +16,7 @@ for one Instagram page about **Coimbatore district** news. The Namakkal / Rasipu
 | Page key (code) | `coimbatore` (replaces `namakkal`; there is NO second page – Rasipuram logic and collab are removed / always off) |
 | Page label | `கோயம்புத்தூர் 360` |
 | Hashtag | `#Coimbatore360` |
-| Instagram handle | `coimbatore360_official` (placeholder) |
+| Instagram handle | `coimbatore360.official` |
 | Spoken follow line | `மேலும் செய்திகளுக்கு கோயம்புத்தூர் த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்` |
 | Caption save/follow line | `கோயம்புத்தூர் செய்திகளைத் தவறவிடாமல் இருக்க Save செய்து Follow செய்யுங்கள் 📌` |
 | Logo / footer files | `kit/logo_coimbatore.png`, `reel/assets/footer_coimbatore.png` (simple placeholder images until the owner sends real ones) |
