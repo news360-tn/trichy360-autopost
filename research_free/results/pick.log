@@ -1,11 +1,8 @@
-06:13:39 round 2026-11-27_06: news published 27 Nov 05:51 -> 27 Nov 06:13 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-06:13:39 insights 2026-11-27T06:13+05:30 (170 reels): topic weights {'accident': 1.39, 'crime': 1.38, 'power_cut': 1.16, 'civic': -0.04, 'education': -0.5, 'politics': -0.38, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-06:13:55 open search 'திருச்சி' (from_google): 0 links from our outlets
-06:13:55 57 links on the two papers' Trichy pages
-06:14:43 skipped: already posted=24, published before this window=19, same event already posted=7, not Trichy district=5, only a headline=2
-06:14:43 list: 0 new + 0 earlier news not posted yet
-06:14:43 no news in this window - no e-mail
-ROUND=2026-11-27_06
-06:14:45 no list this round - nothing to post
-PICK_URLS=
-06:14:46 verify: no decided round
+08:26:42 round 2026-11-27_08: news published 27 Nov 06:13 -> 27 Nov 08:26 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+08:26:42 insights 2026-11-27T08:26+05:30 (171 reels): topic weights {'accident': 0.89, 'crime': 1.38, 'power_cut': 1.17, 'civic': -0.04, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.5}; best openings ['🏫 போசம்பட்டி அரசுப் பள்ளியில் அரசமைப்பு தினம் கடைப்பிடிப்பு', '🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை']
+08:27:29 open search 'திருச்சி' (from_google): 1 links from our outlets
+08:27:29 72 links on the two papers' Trichy pages
+08:28:17 skipped: already posted=24, published before this window=19, not Trichy district=18, same event already posted=7, only a headline=3, state-wide / other district=1
+08:28:18 list: 0 new + 0 earlier news not posted yet
+08:28:18 no news in this window - no e-mail
+ROUND=2026-11-27_08

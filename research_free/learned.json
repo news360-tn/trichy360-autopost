@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-27T06:13+05:30",
- "posts_measured": 170,
+ "updated": "2026-11-27T08:26+05:30",
+ "posts_measured": 171,
  "topic_weight": {
-  "accident": 1.39,
+  "accident": 0.89,
   "crime": 1.38,
-  "power_cut": 1.16,
+  "power_cut": 1.17,
   "civic": -0.04,
   "education": -0.5,
-  "politics": -0.38,
+  "politics": -0.5,
   "weather": -0.5,
   "temple": -0.5,
   "poultry_agri": -0.5
@@ -22,7 +22,8 @@
   "sports_culture": 2,
   "weather": 5,
   "temple": 13,
-  "poultry_agri": 11
+  "poultry_agri": 11,
+  "jobs": 1
  },
  "best_hours_ist": [
   2,
@@ -31,19 +32,19 @@
   1
  ],
  "top_openings": [
+  "🏫 போசம்பட்டி அரசுப் பள்ளியில் அரசமைப்பு தினம் கடைப்பிடிப்பு",
   "🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை",
   "🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை",
-  "🚨 திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது",
-  "🚨 சோமரசம்பேட்டை அருகே பெண் இறப்பில் சந்தேகம்: உறவினர்கள் சாலை மறியல்"
+  "🚨 திருச்சி காந்தி மார்க்கெட் பகுதியில் போதை மாத்திரை விற்ற ரவுடி கைது"
  ],
  "avg_watch_s": 7.8,
  "best_topics": [
-  "accident",
   "crime",
-  "power_cut"
+  "power_cut",
+  "accident"
  ],
  "weak_topics": [
   "education",
-  "weather"
+  "politics"
  ]
 }
