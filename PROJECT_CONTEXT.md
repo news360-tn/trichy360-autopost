@@ -83,6 +83,9 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-27 | `d8a99bf` | Trichy reels: first picture change at 1.2 s, 2 s end card, headline at the top, no clock-hand sweep |
+| 2026-11-27 | `5f823c3` | stories shared / Instagram pause |
+| 2026-11-27 | `64c7fae` | powercut: notices written |
 | 2026-11-27 | `6105375` | Trichy reels: back to design A and the Valluvar voice |
 | 2026-11-27 | `0129ef9` | stories shared / Instagram pause |
 | 2026-11-27 | `0d45536` | stories shared / Instagram pause |
@@ -110,7 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-27 | `45d4371` | stories shared / Instagram pause |
 | 2026-11-27 | `f27740a` | facebook RN-173 |
 | 2026-11-27 | `d13f347` | posted RN-173 |
-| 2026-11-27 | `61c60fa` | posting error noted RN-174 |
-| 2026-11-27 | `406c788` | stories shared / Instagram pause |
-| 2026-11-27 | `aa5fbda` | pick: picked news saved |
 <!-- recent-changes:end -->
