@@ -3209,7 +3209,8 @@ def main():
     if mode == "check":
         story_catchup()      # owner 1 Nov: no post without its story
         facebook_catchup()      # owner 21 Nov: every news that is on Instagram also goes to Facebook
-        facebook_share_email()      # owner 22 Nov: still not on Facebook after 3 h - the Instagram link to the owner
+        if CONFIG.get("owner_emails", True):      # owner 27 Nov: no manual work - config.json owner_emails false = no Facebook-share e-mail
+            facebook_share_email()      # owner 22 Nov: still not on Facebook after 3 h - the Instagram link to the owner
         try:      # owner 21 Nov: the day's best news reels also go to the page's YouTube channel (only with its YT_* keys)
             import ytupload
             ytupload.catchup(sys.modules[__name__])
@@ -3282,7 +3283,7 @@ def main():
                     inc = [{"story": i, "slot": sl, "prebuild": ""} for i, sl in ids]
                     try:      # owner 22 Nov: news a page cannot post go to the owner's e-mail, one by one, for a manual post
                         inc += [{"story": s, "slot": 0, "prebuild": "", "manual": "1", "page": p}
-                                for s, p in manual_due(rows, {i for i, _ in ids})]
+                                for s, p in (manual_due(rows, {i for i, _ in ids}) if CONFIG.get("owner_emails", True) else [])]      # owner 27 Nov: owner_emails false = no manual-post e-mail
                     except Exception as e:
                         log("manual post list skipped:", str(e)[:150])
                     ids = [i for i, _ in ids]
