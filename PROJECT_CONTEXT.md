@@ -83,6 +83,9 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-27 | `a99963c` | Views plan: note the 27 Nov evening changes (Valluvar + design A, reel fixes) |
+| 2026-11-27 | `1fce942` | stories shared / Instagram pause |
+| 2026-11-27 | `3fecd44` | stories shared / Instagram pause |
 | 2026-11-27 | `eff3dd3` | Trichy reels: captions follow the voice's own word clock |
 | 2026-11-27 | `d8a99bf` | Trichy reels: first picture change at 1.2 s, 2 s end card, headline at the top, no clock-hand sweep |
 | 2026-11-27 | `5f823c3` | stories shared / Instagram pause |
@@ -110,7 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-27 | `7673682` | posted RN-174 |
 | 2026-11-27 | `c0246c4` | stories shared / Instagram pause |
 | 2026-11-27 | `268ce58` | manual post e-mail RN-174 |
-| 2026-11-27 | `9a8676e` | manual post e-mail RN-175 |
-| 2026-11-27 | `45d4371` | stories shared / Instagram pause |
-| 2026-11-27 | `f27740a` | facebook RN-173 |
 <!-- recent-changes:end -->
