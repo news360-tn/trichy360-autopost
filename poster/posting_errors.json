@@ -86,5 +86,13 @@
   "story": "18124487704822200",
   "error": "YouTube upload not started (400): {   \"error\": {     \"code\": 400,     \"message\": \"The user has exceeded the number of videos they may upload.\",     \"errors\": [       {         \"message\": \"The user has exceeded the number of videos they may upload.\",         \"domain\": \"youtube.video\",         \"reason\": \"uploadLimitExceeded\"       }  ",
   "next_try": "2026-11-27T14:58:27+00:00"
+ },
+ {
+  "at": "2026-11-27T16:49:12+00:00",
+  "platform": "YouTube",
+  "page": "trichy",
+  "story": "18124487704822200",
+  "error": "YouTube upload not started (400): {   \"error\": {     \"code\": 400,     \"message\": \"The user has exceeded the number of videos they may upload.\",     \"errors\": [       {         \"message\": \"The user has exceeded the number of videos they may upload.\",         \"domain\": \"youtube.video\",         \"reason\": \"uploadLimitExceeded\"       }  ",
+  "next_try": "2026-11-27T16:59:12+00:00"
  }
 ]
