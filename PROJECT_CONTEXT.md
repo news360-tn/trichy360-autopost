@@ -83,6 +83,23 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-27 | `6105375` | Trichy reels: back to design A and the Valluvar voice |
+| 2026-11-27 | `0129ef9` | stories shared / Instagram pause |
+| 2026-11-27 | `0d45536` | stories shared / Instagram pause |
+| 2026-11-27 | `c95e8ba` | powercut: notices written |
+| 2026-11-27 | `b0ce76d` | stories shared / Instagram pause |
+| 2026-11-27 | `3da5105` | stories shared / Instagram pause |
+| 2026-11-27 | `47ba3bc` | stories shared / Instagram pause |
+| 2026-11-27 | `ae7e5d0` | stories shared / Instagram pause |
+| 2026-11-27 | `ba39b26` | stories shared / Instagram pause |
+| 2026-11-27 | `9229822` | stories shared / Instagram pause |
+| 2026-11-27 | `3fdbdef` | stories shared / Instagram pause |
+| 2026-11-27 | `60f3b45` | stories shared / Instagram pause |
+| 2026-11-27 | `fc3cdbf` | stories shared / Instagram pause |
+| 2026-11-27 | `421b495` | pick: written and posted |
+| 2026-11-27 | `4cf958c` | facebook RN-175 |
+| 2026-11-27 | `0a94071` | posted RN-175 |
+| 2026-11-27 | `1fc025c` | stories shared / Instagram pause |
 | 2026-11-27 | `3dffcb3` | Trichy reel: wrap long Tamil location and card text, Tamil end card text, English spoken end line |
 | 2026-11-27 | `0ec3f4a` | stories shared / Instagram pause |
 | 2026-11-27 | `b4964db` | facebook RN-174 |
@@ -96,21 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-27 | `61c60fa` | posting error noted RN-174 |
 | 2026-11-27 | `406c788` | stories shared / Instagram pause |
 | 2026-11-27 | `aa5fbda` | pick: picked news saved |
-| 2026-11-27 | `473f64d` | pick: picked news saved |
-| 2026-11-27 | `e73069e` | pick: list sent |
-| 2026-11-27 | `7eec9a7` | stories shared / Instagram pause |
-| 2026-11-27 | `2d77c49` | Tests: send error notes to a temporary file so test runs never write the live posting_errors.json |
-| 2026-11-27 | `cea2ef2` | stories shared / Instagram pause |
-| 2026-11-27 | `a051607` | stories shared / Instagram pause |
-| 2026-11-27 | `1ecbae7` | stories shared / Instagram pause |
-| 2026-11-27 | `b026d13` | stories shared / Instagram pause |
-| 2026-11-27 | `7c9b6e5` | stories shared / Instagram pause |
-| 2026-11-27 | `e9323e4` | stories shared / Instagram pause |
-| 2026-11-27 | `cf11ab8` | stories shared / Instagram pause |
-| 2026-11-27 | `0b97f14` | Trichy views test round 2: news themes, faster hook, short ending, 6 voices, more news, Facebook/YouTube views |
-| 2026-11-27 | `416322f` | stories shared / Instagram pause |
-| 2026-11-27 | `98da2a2` | autofix: corrected held news |
-| 2026-11-27 | `158c618` | stories shared / Instagram pause |
-| 2026-11-27 | `982bd02` | stories shared / Instagram pause |
-| 2026-11-27 | `6c46415` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
