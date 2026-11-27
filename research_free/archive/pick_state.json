@@ -39,7 +39,8 @@
    "power_cut": false,
    "late_listed": true,
    "listed_at": "2026-11-28T02:26:16.505915+05:30",
-   "picked_at": "2026-11-28T02:29:20.415351+05:30"
+   "picked_at": "2026-11-28T02:29:20.415351+05:30",
+   "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
   },
   "Cc209d08": {
    "id": "Cc209d08",
@@ -53,7 +54,8 @@
    "power_cut": false,
    "late_listed": true,
    "listed_at": "2026-11-28T02:26:16.505915+05:30",
-   "picked_at": "2026-11-28T02:29:20.415353+05:30"
+   "picked_at": "2026-11-28T02:29:20.415353+05:30",
+   "posted": true
   },
   "C1396c80": {
    "id": "C1396c80",
@@ -457,7 +459,10 @@
    "written": [
     "Cc209d08",
     "Cf7fe46a"
-   ]
+   ],
+   "refused": {
+    "Cf7fe46a": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
+   }
   }
  },
  "retry": {},
