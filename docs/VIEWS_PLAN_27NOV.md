@@ -1,5 +1,10 @@
 # Trichy 360 — views and followers plan (27 Nov 2026)
 
+> **Update 27 Nov evening (owner):** the 6 voices and the 11 topic colour themes are switched off - Valluvar and design A only,
+> like the other pages (`reel_voice.ab_voices_off_27nov`, `views_test.topic_themes_off_27nov` keep them). `hook_low` is off.
+> Fixed after an audit of the posted reels: first picture change at 1.2 s, 2 s end card, no clock-hand sweep with `cycle_pictures`,
+> captions timed from the voice's own word clock (`reel/edge_words.py`). New colour designs are waiting for the owner's pick.
+
 Trichy page only, on Instagram, Facebook and YouTube. The other pages get these changes only after Trichy proves them.
 Not changed: the posting limits (pick 30 a day, post cap 35) and the posting times.
 
