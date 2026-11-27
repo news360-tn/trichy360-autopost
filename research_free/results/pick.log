@@ -1,38 +1,33 @@
-22:26:45 round 2026-11-27_22: news published 27 Nov 20:26 -> 27 Nov 22:26 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-22:26:45    + news published since 26 Nov 22:26 that no earlier round found (listed / indexed late) - never one already listed or posted
-22:26:45 insights 2026-11-27T22:26+05:30 (179 reels): topic weights {'accident': 0.77, 'crime': 1.28, 'power_cut': 1.18, 'civic': 0.26, 'education': -0.15, 'politics': -0.28, 'weather': -0.5, 'temple': -0.44, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '💼 அயிலாப்பேட்டை மாதேஸ்வரன்: வேலையை விட்டு வீட்டிலிருந்தே மாதம் ரூ.3 லட்சம் டர்ன்']
-22:27:46 open search 'திருச்சி' (from_google): 14 links from our outlets
-22:27:46 town searches (மணப்பாறை, ஸ்ரீரங்கம், லால்குடி, முசிறி, துறையூர் (+Google), திருவெறும்பூர் (+Google), மண்ணச்சநல்லூர்): 8 links from our outlets
-22:27:46 search links: 20 Google links decoded, 0 not decoded, 109 known from an earlier round, 0 left for the next round, 20 of another district by their headline (not opened)
-22:27:46 82 links on the two papers' Trichy pages
-22:28:43 skipped: already posted=24, published before this window=21, not Trichy district=20, same event already posted=7, only a headline=4, checked in an earlier round=4
-22:28:43    drop [not Trichy district] மகசூலை அதிகரிக்க உதவும் ‘தென்னை டானிக்’: வேர் வழியாக செலுத்த | dinamalar.com/news/tamil-nad...ion-to-be-applied-through-root/4387804
-22:28:43    drop [not Trichy district] பாரதியார் பல்கலை சிண்டிகேட்டில் புதிய உறுப்பினர் நியமனம் | dinamalar.com/news/tamil-nad...harathiar-university-syndicate/4387834
-22:28:43    drop [not Trichy district] இலவச வேட்டி, சேலை ‘ஆர்டர்’ வழங்க தாமதம் பழனிசாமி கண்டனம் | dinamalar.com/news/tamil-nad...-in-ordering-free-dhotis-saris/4387848
-22:28:43    drop [not Trichy district] கலை அறிவியல் கல்லூரிகளில் திறன் சார்ந்த பயிற்சி வகுப்புகள் | dinamalar.com/news/tamil-nad...urses-in-arts-science-colleges/4387775
-22:28:43    drop [not Trichy district] மக்கள் தொகை கணக்கெடுப்பு பணி தலைமையாசிரியர்கள் எதிர்ப்பு: போ | dinamalar.com/news/tamil-nad...otest-decision-to-go-on-strike/4387773
-22:28:43    drop [not Trichy district] கனிமொழி, திரிசூலி இல்லைன்னா அருள் விக்னேஷ் தப்பியிருப்பாருல் | tamil.oneindia.com/news/tami...e-starting-from-his-arrest-848807.html
-22:28:43    drop [not Trichy district] சர்க்கரை நோய் கண்டறிய இலவச பரிசோதனை முகாம் | dinamalar.com/news/tamil-nad...re/free-diabetes-check-up-camp/4387795
-22:28:43    drop [not Trichy district] நேர்மையாக செயல்பட்டால் பொறுப்புகள் தானாக தேடி வரும்! கிருஷ்ண | dinamalar.com/news/tamil-nad...atically-find-responsibilities/4387796
-22:28:43    drop [not Trichy district] அருள் விக்னேஷை காப்பாற்ற சமரசமாக செல்ல அழுத்தம் கொடுத்தவர்கள | tamil.oneindia.com/news/chen...o-pressured-for-compromise-848803.html
-22:28:43    drop [not Trichy district] டிஆர்பிக்காக நிகழ்ச்சியின் தரத்தை குறைப்பதா? சேரன், திவாகர்  | tamil.oneindia.com/news/chen...-over-cheran-divakar-clash-848793.html
-22:28:43    drop [not Trichy district] இனி இம்பேக்ட் பிளேயர் கிடையாது தம்பி.. மும்பை கேப்டனான ரோகித | tamil.oneindia.com/news/spor...mumbai-indians-in-ipl-2027-848791.html
-22:28:43    drop [not Trichy district] உச்சநீதிமன்றத்தின் ஈகோ! சபரிமலை தீர்ப்பும் கிடப்பில் தானே போ | tamil.oneindia.com/news/chen...n-in-thiruparankundram-iss-848785.html
-22:28:43    drop [only a headline] பெண் ஐஏஎஸ் அதிகாரிக்கு ஆபாச மெசேஜ் அனுப்பியதாக வழக்கு; தவெக  | dinakaran.com/news/tvkmla_arulvignesh_arrested
-22:28:43    drop [not Trichy district] தவெக அரசுக்கு நீதிமன்றங்களில் அடுத்தடுத்து பின்னடைவு.. சட்ட  | tamil.oneindia.com/news/delh...dvice-being-provided-sound-848781.html
-22:28:43    drop [not Trichy district] விபத்தில் இறந்த மூதாட்டி யார்? போலீஸ் விசாரணை | dinamalar.com/news/tamil-nad...woman-who-died-in-the-accident/4387692
-22:28:43    drop [not Trichy district] மாற்றுத் திறனாளிகள் குறைதீர்க்கும் முகாம்: ரூ. 9 லட்சம் மதிப | dinamalar.com/news/tamil-nad...an-estimated-cost-of-rs-9-lakh/4387690
-22:28:43    drop [not Trichy district] கல்லூரி மாணவர்கள் ரத்ததான முகாம். | dinamalar.com/news/tamil-nad...tion-camp-for-college-students/4387679
-22:28:43    drop [only a headline] மும்பை இந்தியன்ஸ் அணியின் புதிய கேப்டன் ரோஹித் சர்மா - Dinak | dinakaran.com/news/captain_rohit_sharma
-22:28:43 list: 1 new + 0 earlier news not posted yet
-22:28:43    1. [மின்தடை] Trichy Power Cut: திருச்சி மக்களே உஷார்! நாளை (28-11-2026) எங்கெல்லாம் (ஏபிபி நாடு)
-22:28:43 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-27_22
-22:28:44 round 2026-11-27_22 (at least 3, up to 3 more of well-watched topics): 1 news to choose from (0 from earlier rounds), ranked by this page's insights
-22:28:44   PICK   1.   7.7 [power_cut +1.18 page] Trichy Power Cut: திருச்சி மக்களே உஷார்! நாளை (28-11-2026) எ
-22:28:44 decided: automatic: top 3 of 1 by insights + 1 power cut -> 1 news to write and post
-PICK_URLS=https://tamil.abplive.com/news/trichy/trichy-power-cut-28-11-2026-know-timings-areas-affected-by-power-shutdown-280700
-22:31:47 1 picked news refused by the writer - not offered again
-22:31:47 0 listed news now in the Sheet
-22:31:56 verify 2026-11-27_22: 0 of 1 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-22:31:56    SKIPPED C5d6c867: skipped: the writer refused it - not filed: duplicate after write - Trichy Power Cut: திருச்சி மக்களே உஷார்! நாளை (28-11-2026) எ
+00:31:35 round 2026-11-28_00: news published 27 Nov 22:26 -> 28 Nov 00:31 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+00:31:35    + news published since 27 Nov 00:31 that no earlier round found (listed / indexed late) - never one already listed or posted
+00:31:35 insights 2026-11-28T00:31+05:30 (179 reels): topic weights {'accident': 0.9, 'crime': 1.3, 'power_cut': 1.19, 'civic': 0.26, 'education': -0.14, 'politics': -0.28, 'weather': -0.5, 'temple': -0.44, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '💼 அயிலாப்பேட்டை மாதேஸ்வரன்: வேலையை விட்டு வீட்டிலிருந்தே மாதம் ரூ.3 லட்சம் டர்ன்']
+00:32:44 open search 'திருச்சி' (from_google): 15 links from our outlets
+00:32:44 town searches (மணப்பாறை, ஸ்ரீரங்கம், லால்குடி, முசிறி, துறையூர், திருவெறும்பூர் (+Google), மண்ணச்சநல்லூர் (+Google)): 6 links from our outlets
+00:32:44 search links: 23 Google links decoded, 0 not decoded, 112 known from an earlier round, 0 left for the next round, 13 of another district by their headline (not opened)
+00:32:44 82 links on the two papers' Trichy pages
+00:37:01 skipped: already posted=26, published before this window=21, not Trichy district=20, same event already posted=7, only a headline=2, checked in an earlier round=2, could not open (HTTPSConnectionPool(host='www.dinamalar.com', port)=1
+00:37:01    drop [already posted] திருச்சி கார் விபத்தில் பலி 10 ஆக உயர்வு | dinamalar.com/news/tamil-nad...n-trichy-car-crash-rises-to-10/4388134
+00:37:01    drop [not Trichy district] இன்று கன மழை பெய்யும் | dinamalar.com/news/tamil-nad...there-will-be-heavy-rain-today/4387979
+00:37:01    drop [already posted] ஸ்ரீரங்கத்தில் 12 ஜோதிர் லிங்க தரிசனம் தொடக்கம் - அபிஷேகம் ச | hindutamil.in/news/spiritual...ishekam-to-12-jyotirlinga-in-srirangam
+00:37:01    drop [not Trichy district] மின் வாரிய இணையதளம் முடக்கம் | dinamalar.com/news/tamil-nad...ctricity-board-website-blocked/4388078
+00:37:01    drop [not Trichy district] நிதிநிறுவன அதிபரை தாக்கி ரூ.20 லட்சம் கொள்ளை | dinamalar.com/news/tamil-nad...n-principal-rs-20-lakh-robbery/4388074
+00:37:01    drop [not Trichy district] தமிழ்நாட்டின் அனைத்து மாவட்டங்களிலும் மத நல்லிணக்கம், மக்கள் | dinakaran.com/news/leftwing_parties_religious_harmony_rally
+00:37:01    drop [not Trichy district] தொகுதி மறுவரையறை மசோதாவை குறுக்கு வழியில் ஒன்றிய பாஜ அரசு நி | dinakaran.com/news/delimitation_bill_manickamtagore
+00:37:01    drop [not Trichy district] கைதான அருள் விக்னேஷ்.. எம்எல்ஏ பதவி பறிபோகுமா? அடுத்த 24 மண | tamil.oneindia.com/news/tami...next-24-hours-details-here-848815.html
+00:37:01    drop [not Trichy district] “அருள் விக்னேஷை கைது செய்ய ஏலியன்கள் பூமிக்கு வரும் வரை காத் | tamil.oneindia.com/news/chen...sting-tvk-mla-arul-vignesh-848813.html
+00:37:01    drop [not Trichy district] ஐகோர்ட், மகளிர் ஆணையம் சீற்றத்தால் அருள் விக்னேஷ் கைது; சொல் | dinamalar.com/news/tamil-nad...mens-commission-outrage-stalin/4387765
+00:37:01    drop [not Trichy district] மீண்டும் மும்பை இந்தியன்ஸ் அணியின் கேப்டனாக ரோஹித் சர்மா நிய | dinamani.com/sports/cricket/...n-mumbai-indians-after-three-seasons-2
+00:37:01    drop [not Trichy district] தீபத்தூண் விவகாரத்தில் பிடிவாதம் விட்டு, கோர்ட் உத்தரவை மதிய | dinamalar.com/news/tamil-nad...issue-of-fire-annamalai-advice/4387632
+00:37:01    drop [not Trichy district] பஞ்சாபில் கோசாலைகளுக்கு ரூ.100 கோடி உடனடி ஒதுக்கீடு | dinamalar.com/news/india-tam...ocation-for-goshalas-in-punjab/4387542
+00:37:01    drop [not Trichy district] December Matha Palan: ரிஷப ராசிக்கு எதிர்பாராத பணவரவு.. சொந் | tamil.oneindia.com/astrology...am-rasi-receive-this-month-848723.html
+00:37:01    drop [not Trichy district] எந்த கோயிலில் என்ன விசேஷம்? குமரகோட்டத்தில் கும்பாபிஷேகம்! | dinamani.com/religion/religi...B7%E0%AF%87%E0%AE%95%E0%AE%AE%E0%AF%8D
+00:37:01    drop [not Trichy district] சூப்பர்ஹீரோ கதையை எழுதுவது கடினம்... திரைப்பட விழாவில் பாசில | dinamani.com/cinema/cinema-n...rhero-our-protagonists-are-superhumans
+00:37:01    drop [not Trichy district] தங்கம் விலை சவரனுக்கு ரூ.1,840 உயர்வு | dinamalar.com/news/tamil-nad...-price-rises-sovereign-rs-1840/4388061
+00:37:01    drop [already posted] முதியவரை தாக்கியவர் கைது - Dinakaran | dinakaran.com/district/trichy-271126-1
+00:37:01    drop [not Trichy district] பணி நிரந்தரம் கோரி எய்ட்ஸ் கட்டுப்பாட்டு ஊழியர்கள் உண்ணாவிரத | dinamalar.com/news/tamil-nad...r-strike-demand-permanent-jobs/4388079
+00:37:01 list: 3 new + 0 earlier news not posted yet
+00:37:01    1. [மின்தடை] Trichy Power Cut: திருச்சி மக்களே உஷார்! நாளை (28-11-2026) எங்கெல்லாம் (ஏபிபி நாடு) (published 27 Nov 21:40, found only now)
+00:37:01    2. [விபத்து] கார் விபத்தில் பலி 10 ஆனது (தினமலர்)
+00:37:01    3. [நீதிமன்றம்] விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ்களை ஏலம்  (தினமலர்)
+00:37:01 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-28_00

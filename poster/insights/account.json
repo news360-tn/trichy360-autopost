@@ -206,5 +206,31 @@
     "Mannachanallur, Tamil Nadu": 30
    }
   }
+ },
+ "2026-11-28": {
+  "trichy": {
+   "reach": 28814,
+   "reach_by_follow_type": {
+    "NON_FOLLOWER": 27146,
+    "FOLLOWER": 1746
+   },
+   "follower_cities": {
+    "Tiruchirappalli, Tamil Nadu": 1055,
+    "Manapparai, Tamil Nadu": 379,
+    "Chennai, Tamil Nadu": 225,
+    "Kulittalai, Tamil Nadu": 153,
+    "Lalgudi, Tamil Nadu": 97,
+    "Turaiyur, Tamil Nadu": 63,
+    "Musiri, Tamil Nadu": 56,
+    "Tuticorin, Tamil Nadu": 51,
+    "Madurai, Tamil Nadu": 45,
+    "Karur, Tamil Nadu": 42,
+    "Coimbatore, Tamil Nadu": 41,
+    "Tiruchengodu, Tamil Nadu": 39,
+    "Palladam, Tamil Nadu": 35,
+    "Tirupur, Tamil Nadu": 33,
+    "Krishnagiri, Tamil Nadu": 32
+   }
+  }
  }
 }

@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-27T22:26:45.599874+05:30",
+ "last_end": "2026-11-28T00:31:35.130581+05:30",
  "pool": {
   "C5d6c867": {
    "id": "C5d6c867",
@@ -14,26 +14,46 @@
    "listed_at": "2026-11-27T22:26:45.599874+05:30",
    "picked_at": "2026-11-27T22:28:44.863527+05:30",
    "refused": "not filed: duplicate after write"
+  },
+  "Cbf689cd": {
+   "id": "Cbf689cd",
+   "url": "https://tamil.abplive.com/news/trichy/trichy-power-cut-28-11-2026-know-timings-areas-affected-by-power-shutdown-280700/amp",
+   "title": "Trichy Power Cut: திருச்சி மக்களே உஷார்! நாளை (28-11-2026) எங்கெல்லாம் பவர் கட் தெரியுமா? - லிஸ்டில்",
+   "summary": "Trichy Power shutdown (28-11-2026): திருச்சி மாவட்டத்தில் பல்வேறு பகுதிகளில் (நவம்பர் 28, 2026, சனிக்கிழமை) மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெற உள்ளதால், காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம் தடை செய்யப்...",
+   "source": "ஏபிபி நாடு",
+   "published": "2026-11-27T21:40:21+05:30",
+   "category": "மின்தடை",
+   "score": 4.1899999999999995,
+   "power_cut": true,
+   "late_listed": true,
+   "listed_at": "2026-11-28T00:31:35.130581+05:30"
+  },
+  "C509325e": {
+   "id": "C509325e",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/10-killed-in-car-accident/4388088",
+   "title": "கார் விபத்தில் பலி 10 ஆனது",
+   "summary": "திருச்சி: தஞ்சை மாவட்டம், திருக்காட்டுப்பள்ளி செங்கல்சூளையில் வேலை பார்த்த, 10 பேர், கடந்த 22ல் நாமக்கல் சென்று விட்டு, ஊர் திரும்பியபோது, துறையூர் அருகே ஜெம்புநாதபுரத்தில் மரத்தில் கார் மோதியது.",
+   "source": "தினமலர்",
+   "published": "2026-11-27T23:38:34+05:30",
+   "category": "விபத்து",
+   "score": 10.9,
+   "power_cut": false,
+   "listed_at": "2026-11-28T00:31:35.130581+05:30"
+  },
+  "Ce3747df": {
+   "id": "Ce3747df",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-news/court-directs-govt-to-auction-ac-buses-to-compensate-accident-victim/4388100",
+   "title": "விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ்களை ஏலம் விட நீதிமன்றம் உத்தரவு",
+   "summary": "திருச்சி: அரசு பஸ் மோதிய விபத்தில் காயமடைந்தவருக்கு இழப்பீடு வழங்க, ஜப்தி செய்த அரசு ‘ஏசி’ பஸ்களை ஏலம் விட நீதிமன்றம் உத்தரவிட்டு உள்ளது. திண்டுக்கல் மாவட்டம், பண்ணப்பட்டியை சேர்ந்த வர் சின்னதுரை, 39.",
+   "source": "தினமலர்",
+   "published": "2026-11-27T23:46:37+05:30",
+   "category": "நீதிமன்றம்",
+   "score": 9.26,
+   "power_cut": false,
+   "listed_at": "2026-11-28T00:31:35.130581+05:30"
   }
  },
  "rounds": {
-  "2026-11-26_01": {
-   "window": [
-    "2026-11-25T23:03:02.803959+05:30",
-    "2026-11-26T01:30:40.333155+05:30"
-   ],
-   "ids": [
-    "C936cfee"
-   ],
-   "sent": false,
-   "deadline": "2026-11-26T02:30:40.333155+05:30",
-   "decided": {
-    "how": "automatic: top 3 of 0 by insights",
-    "ids": [],
-    "at": "2026-11-26T01:34:06.729081+05:30"
-   },
-   "written": []
-  },
   "2026-11-26_04": {
    "window": [
     "2026-11-26T04:27:43.088459+05:30",
@@ -389,9 +409,38 @@
    "refused": {
     "C5d6c867": "not filed: duplicate after write"
    }
+  },
+  "2026-11-28_00": {
+   "window": [
+    "2026-11-27T22:26:45.599874+05:30",
+    "2026-11-28T00:31:35.130581+05:30"
+   ],
+   "ids": [
+    "Cbf689cd",
+    "C509325e",
+    "Ce3747df"
+   ],
+   "sent": false,
+   "deadline": "2026-11-28T01:31:35.130581+05:30",
+   "decided": null,
+   "written": []
   }
  },
- "retry": {},
+ "retry": {
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/couple-charged-with-rs-50-lakh-fraud-for-selling-house/4387287": {
+   "it": {
+    "key": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/couple-charged-with-rs-50-lakh-fraud-for-selling-house/4387287",
+    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/couple-charged-with-rs-50-lakh-fraud-for-selling-house/4387287",
+    "title": "",
+    "source": "தினமலர்",
+    "published": "",
+    "via": "dinamalar-list",
+    "query": "district list",
+    "snippet": ""
+   },
+   "first": "2026-11-28T00:31:35.130581+05:30"
+  }
+ },
  "seen": {
   "Gf422bfac83": "2026-11-27T12:29 D",
   "G42d73969af": "2026-11-27T12:29 D",
@@ -509,7 +558,7 @@
   "Gbc27709978": "2026-11-27T12:29 D",
   "Gd3ce1d4b99": "2026-11-27T12:29 D",
   "G8f1b3ae545": "2026-11-27T12:29 D",
-  "Cdbe33ea": "2026-11-27T12:29 already posted",
+  "Cdbe33ea": "2026-11-27T12:29 could not open (HTTPSConnectionPool(host",
   "C936cfee": "2026-11-27T12:29 published before this window",
   "Cc42c100": "2026-11-27T12:29 already posted",
   "C276447f": "2026-11-27T12:29 already posted",
@@ -959,6 +1008,58 @@
   "Cdce9643": "2026-11-27T22:26 not Trichy district",
   "C5b1231b": "2026-11-27T22:26 not Trichy district",
   "C0cc850d": "2026-11-27T22:26 not Trichy district",
-  "Cbb21008": "2026-11-27T22:26 only a headline"
+  "Cbb21008": "2026-11-27T22:26 only a headline",
+  "Ga6a850ab33": "2026-11-28T00:31 D",
+  "G38eddc779d": "2026-11-28T00:31 D",
+  "G1b53e7135c": "2026-11-28T00:31 D",
+  "Gffbc57a8a5": "2026-11-28T00:31 D",
+  "Ge561fa2389": "2026-11-28T00:31 D",
+  "G21b61467ac": "2026-11-28T00:31 D",
+  "G6ee6517ca9": "2026-11-28T00:31 D",
+  "G66b698d8e4": "2026-11-28T00:31 D",
+  "Gf381e6e876": "2026-11-28T00:31 D",
+  "Ga6218eb413": "2026-11-28T00:31 D",
+  "G4742a0e5a8": "2026-11-28T00:31 D",
+  "Gd69bcab3a2": "2026-11-28T00:31 D",
+  "G1066c5163f": "2026-11-28T00:31 D",
+  "G4b32079dbd": "2026-11-28T00:31 D",
+  "Gc3090495f2": "2026-11-28T00:31 D",
+  "Gb808ae0d2f": "2026-11-28T00:31 D",
+  "G09ab1ea9a8": "2026-11-28T00:31 D",
+  "G38afeb26e8": "2026-11-28T00:31 D",
+  "Gc1f3d4cf76": "2026-11-28T00:31 D",
+  "G66a3756f80": "2026-11-28T00:31 D",
+  "Gc882313fe4": "2026-11-28T00:31 D",
+  "G7623861fa2": "2026-11-28T00:31 D",
+  "Gabfada28cc": "2026-11-28T00:31 D",
+  "G6c80917769": "2026-11-28T00:31 D",
+  "Gfef69c33dd": "2026-11-28T00:31 D",
+  "Gc62929e923": "2026-11-28T00:31 D",
+  "G7907bc1552": "2026-11-28T00:31 D",
+  "G5889f7c72c": "2026-11-28T00:31 D",
+  "G62c453df8e": "2026-11-28T00:31 D",
+  "G4a7c14260f": "2026-11-28T00:31 D",
+  "Ga8f7cf4cac": "2026-11-28T00:31 D",
+  "G1632f66757": "2026-11-28T00:31 D",
+  "G554879953e": "2026-11-28T00:31 D",
+  "C2935f63": "2026-11-28T00:31 already posted",
+  "C083f5e3": "2026-11-28T00:31 not Trichy district",
+  "Ca54bd7f": "2026-11-28T00:31 already posted",
+  "C12de76f": "2026-11-28T00:31 not Trichy district",
+  "Cd0fd5a1": "2026-11-28T00:31 not Trichy district",
+  "C5158b10": "2026-11-28T00:31 not Trichy district",
+  "C8efa949": "2026-11-28T00:31 not Trichy district",
+  "C6516fab": "2026-11-28T00:31 not Trichy district",
+  "C281368d": "2026-11-28T00:31 not Trichy district",
+  "C2e7569f": "2026-11-28T00:31 not Trichy district",
+  "Ceae032b": "2026-11-28T00:31 not Trichy district",
+  "Cbe05d20": "2026-11-28T00:31 not Trichy district",
+  "Cfa7001c": "2026-11-28T00:31 not Trichy district",
+  "C09e8b69": "2026-11-28T00:31 not Trichy district",
+  "Cbe76c84": "2026-11-28T00:31 not Trichy district",
+  "Cc4b9158": "2026-11-28T00:31 not Trichy district",
+  "C039bfb0": "2026-11-28T00:31 not Trichy district",
+  "C4ca2daa": "2026-11-28T00:31 already posted",
+  "C431c425": "2026-11-28T00:31 not Trichy district"
  }
 }
