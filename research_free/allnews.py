@@ -516,6 +516,17 @@ def _bing_same_article(gurl):
                 return u
     except Exception:
         pass
+    try:      # owner 27 Nov evening: not found on that paper (Namakkal's egg-price news was lost 10 times to Google's 403): the same
+        # headline at ANOTHER of our trusted outlets - a near-identical headline (ratio >= 0.75) is the same news
+        trusted = set(SITES.values())
+        for x in from_bing(title):
+            u = x.get("url") or ""
+            host = urllib.parse.urlparse(u).netloc.replace("www.", "")
+            if any(host == d or host.endswith("." + d) for d in trusted) and \
+                    difflib.SequenceMatcher(None, title, x.get("title") or "").ratio() >= 0.75:
+                return u
+    except Exception:
+        pass
     return ""
 
 
