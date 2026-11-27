@@ -445,7 +445,7 @@ STYLES.update({
 #sum .st{background:linear-gradient(90deg,#FF7A00,#FF3D7F)}
 """,
 })
-THEME_ACCENT.update({"BR": "#E3151B", "NB": "#00B4FF", "GP": "#D4A017", "NP": "#E3151B", "GL": "#0E9F6E", "SP": "#FF3D7F"})
+LOOK_ACCENT = {"BR": "#E3151B", "NB": "#00B4FF", "GP": "#D4A017", "NP": "#E3151B", "GL": "#0E9F6E", "SP": "#FF3D7F"}      # not topic themes
 
 
 def views_test_cfg():
@@ -983,7 +983,7 @@ def head_icon(name):
 def build_html(spec, shots, sents, caps, hook_end, end_t, total, page):
     logo = f"file://{R.KIT.resolve() / page['logo']}"
     foot = f"file://{(Path(__file__).resolve().parent / 'assets' / page.get('footer', 'footer_trichy.png')).as_posix()}"
-    acc = PREMIUM_ACCENT if reel_style(spec) == "P" else THEME_ACCENT.get(reel_style(spec)) or accent_for(spec.get("cat", ""))      # premium / news themes: one fixed accent
+    acc = PREMIUM_ACCENT if reel_style(spec) == "P" else THEME_ACCENT.get(reel_style(spec)) or LOOK_ACCENT.get(reel_style(spec)) or accent_for(spec.get("cat", ""))      # premium / news themes: one fixed accent
     layers = pic_layers(spec["images"])
     imgs = "".join(f'<img class="pic" id="p{i}" src="file://{Path(p).resolve()}">' for i, p in enumerate(layers))
     cards = ""
