@@ -38,7 +38,8 @@
    "score": 12.34,
    "power_cut": false,
    "late_listed": true,
-   "listed_at": "2026-11-28T02:26:16.505915+05:30"
+   "listed_at": "2026-11-28T02:26:16.505915+05:30",
+   "picked_at": "2026-11-28T02:29:20.415351+05:30"
   },
   "Cc209d08": {
    "id": "Cc209d08",
@@ -51,7 +52,8 @@
    "score": 12.34,
    "power_cut": false,
    "late_listed": true,
-   "listed_at": "2026-11-28T02:26:16.505915+05:30"
+   "listed_at": "2026-11-28T02:26:16.505915+05:30",
+   "picked_at": "2026-11-28T02:29:20.415353+05:30"
   },
   "C1396c80": {
    "id": "C1396c80",
@@ -444,8 +446,18 @@
    ],
    "sent": false,
    "deadline": "2026-11-28T03:26:16.505915+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 1 of 4 by insights + 1 more well-watched",
+    "ids": [
+     "Cf7fe46a",
+     "Cc209d08"
+    ],
+    "at": "2026-11-28T02:29:20.415343+05:30"
+   },
+   "written": [
+    "Cc209d08",
+    "Cf7fe46a"
+   ]
   }
  },
  "retry": {},
