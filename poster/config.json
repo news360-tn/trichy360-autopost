@@ -218,7 +218,7 @@
     "topic_themes_note": "owner 27 Nov: each kind of news has its own theme (topic from research_free/learned.py, the same topics insights measures): ACC accident hazard red/yellow, POL police navy with a red-blue light bar, WX rain deep-blue glass, PWR power cut amber/black, TMP temple maroon/saffron/gold serif, GOV government white notice green/maroon, CIV civic teal, EDU education notebook blue, JOB jobs green/yellow, AGR farming wheat/leaf green, SPT sports purple/orange. Topic 'other' = styles A/B/C/P take turns. {} = no news themes",
     "clean_hook": true,
     "clean_hook_note": "owner 27 Nov: the first seconds show only the picture and the big headline (the spoken words appear as captions after the headline) - less text on screen at the start, where most viewers decide to stay",
-    "end_line_ta": "இந்தச் செய்தியை {town} நண்பர்களுக்கு ஷேர் பண்ணுங்க. திருச்சி த்ரீ சிக்ஸ்டி ஃபாலோ பண்ணுங்க.",
+    "end_line_ta": "",
     "end_line_note": "owner 27 Nov: ONE short Tamil share + follow line at the end (was the Tamil follow line + an English share line = a 6 s still end card, 15-19% of a short reel). {town} = the reel's town when it is one of the taluk towns, else திருச்சி. '' = the old two lines end_card_s = seconds of the still logo card at the very end (the share line is spoken over the full-details card before it); 0 = the card shows during the whole line",
     "hook_low": true,
     "hook_max_s": 3.0,

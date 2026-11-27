@@ -54,7 +54,7 @@ body{font-family:'NST','CT',sans-serif;color:#fff;position:relative}
 #pin{position:absolute;left:48px;top:300px;z-index:30;display:flex;align-items:center;gap:14px;max-width:880px;background:rgba(255,255,255,.96);color:var(--navy);
   padding:12px 28px 8px 18px;border-radius:999px;font:800 40px/1.2 'NST','CT';box-shadow:0 10px 30px rgba(0,0,0,.45)}
 #pin .ic{font-size:40px;color:var(--acc);flex:none;margin-top:-4px}
-#pin span{display:block;white-space:nowrap;overflow:hidden;max-width:800px}
+#pin span{display:block;white-space:normal;overflow-wrap:break-word;max-width:800px;line-height:1.25}
 /* hook (first seconds) */
 #hook{position:absolute;left:48px;right:48px;top:560px;z-index:22;text-align:left;opacity:0}
 #hook .h1{font:900 104px/1.1 'CT','NST';color:#fff;-webkit-text-stroke:14px #000;paint-order:stroke fill;text-shadow:0 10px 30px rgba(0,0,0,.5)}
@@ -66,9 +66,9 @@ body{font-family:'NST','CT',sans-serif;color:#fff;position:relative}
 .card{position:absolute;left:48px;top:640px;width:820px;z-index:23;opacity:0;display:flex;align-items:stretch;background:#fff;border-radius:26px;
   box-shadow:0 18px 50px rgba(0,0,0,.5);overflow:hidden}
 .card .ico{flex:none;width:150px;display:flex;align-items:center;justify-content:center;background:var(--acc);color:#fff;font-size:72px}
-.card .tx{padding:22px 30px 16px;display:flex;flex-direction:column;justify-content:center;gap:4px}
+.card .tx{padding:22px 30px 16px;display:flex;flex-direction:column;justify-content:center;gap:4px;min-width:0;flex:1 1 auto}
 .card .lb{font:800 30px 'NST','CT';color:var(--acc);letter-spacing:.5px}
-.card .vl{font:800 52px/1.25 'NST','CT';color:var(--navy)}
+.card .vl{font:800 52px/1.25 'NST','CT';color:var(--navy);overflow-wrap:break-word;word-break:normal}
 /* captions: whole phrases, outlined, in the safe zone above Instagram's caption */
 #cap{position:absolute;left:56px;right:140px;top:1190px;height:330px;z-index:25}
 .ph{position:absolute;left:0;right:0;bottom:0;text-align:left;font:800 70px/1.3 'CT','NST';color:#fff;opacity:0;-webkit-text-stroke:12px #000;paint-order:stroke fill;text-shadow:0 6px 18px rgba(0,0,0,.6)}
@@ -912,7 +912,7 @@ def build_html(spec, shots, sents, caps, hook_end, end_t, total, page):
 {cards}
 {summary}
 <div id="cap">{cap_html}</div>
-<div id="end"><img src="{logo}"><div class="e1">{E(page['tagline'])}</div><div class="e2">FOLLOW @{page['handle']}</div><div class="e4">📌 Save • தேவைப்படுவோருக்கு Share</div><div class="e3">{E(spec.get('location',''))}</div>{('<div class="e5">Source: ' + E(spec['source_full']) + '</div>') if spec.get('source_full') else ''}</div>
+<div id="end"><img src="{logo}"><div class="e1">{E(page['tagline'])}</div><div class="e2">ஃபாலோ பண்ணுங்க @{page['handle']}</div><div class="e4">📌 சேவ் பண்ணுங்க • தேவைப்படுவோருக்கு ஷேர் பண்ணுங்க</div><div class="e3">{E(spec.get('location',''))}</div>{('<div class="e5">Source: ' + E(spec['source_full']) + '</div>') if spec.get('source_full') else ''}</div>
 <script>
 const D={data};
 const cl=x=>Math.max(0,Math.min(1,x)), ease=x=>1-Math.pow(1-x,3), back=x=>{{const c=1.70158,c3=c+1;return 1+c3*Math.pow(x-1,3)+c*Math.pow(x-1,2)}};
