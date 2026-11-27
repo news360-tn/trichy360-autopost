@@ -83,6 +83,10 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-27 | `0101e6d` | Rasipuram 360 username is rasipuram360.official |
+| 2026-11-27 | `714e0f4` | stories shared / Instagram pause |
+| 2026-11-27 | `a38af03` | stories shared / Instagram pause |
+| 2026-11-27 | `784cdb5` | stories shared / Instagram pause |
 | 2026-11-27 | `ea55590` | Rasipalan theme: Coimbatore page named in full (கோயம்புத்தூர்) gets its colour too |
 | 2026-11-27 | `b05e586` | Gold rate and rasipalan reels: each page its own colour theme |
 | 2026-11-27 | `7d2dc33` | stories shared / Instagram pause |
@@ -109,8 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-27 | `728a109` | Writer hint: soft news opens with what changes for local people |
 | 2026-11-27 | `c396160` | Topic labels: Tamil word endings and missing words (better ranking data) |
 | 2026-11-27 | `b6d872c` | stories shared / Instagram pause |
-| 2026-11-27 | `2138c1c` | Reel looks: own accent table (the topic-theme test covers topic themes only) |
-| 2026-11-27 | `fc1f994` | Trichy reels: design A and six colour looks on A's layout take turns |
-| 2026-11-27 | `d509134` | stories shared / Instagram pause |
-| 2026-11-27 | `d12b0b8` | Trichy political reels: real party flags and leader photos; party short forms read letter by letter |
 <!-- recent-changes:end -->
