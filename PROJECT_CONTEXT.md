@@ -83,6 +83,11 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-27 | `d12b0b8` | Trichy political reels: real party flags and leader photos; party short forms read letter by letter |
+| 2026-11-27 | `5b2c58f` | stories shared / Instagram pause |
+| 2026-11-27 | `64dfbc0` | stories shared / Instagram pause |
+| 2026-11-27 | `b560016` | stories shared / Instagram pause |
+| 2026-11-27 | `eff7aaa` | stories shared / Instagram pause |
 | 2026-11-27 | `a99963c` | Views plan: note the 27 Nov evening changes (Valluvar + design A, reel fixes) |
 | 2026-11-27 | `1fce942` | stories shared / Instagram pause |
 | 2026-11-27 | `3fecd44` | stories shared / Instagram pause |
@@ -108,9 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-27 | `0a94071` | posted RN-175 |
 | 2026-11-27 | `1fc025c` | stories shared / Instagram pause |
 | 2026-11-27 | `3dffcb3` | Trichy reel: wrap long Tamil location and card text, Tamil end card text, English spoken end line |
-| 2026-11-27 | `0ec3f4a` | stories shared / Instagram pause |
-| 2026-11-27 | `b4964db` | facebook RN-174 |
-| 2026-11-27 | `7673682` | posted RN-174 |
-| 2026-11-27 | `c0246c4` | stories shared / Instagram pause |
-| 2026-11-27 | `268ce58` | manual post e-mail RN-174 |
 <!-- recent-changes:end -->
