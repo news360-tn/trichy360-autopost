@@ -1,0 +1,90 @@
+writing [N]: ஸ்ரீரங்கத்தில் 12 ஜோதிர் லிங்க தரிசனம் தொடக்கம் - அபிஷேகம் ச
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.6-flash: Expecting ',' delimiter: line 1 column 1147 (char 1146)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.5-flash
+ok gemini/gemini-3-flash-preview (11s)
+attempt 1 gemini/gemini-3-flash-preview: 3 problems
+  reel_script has 94 words; need 35-75 (the key facts once each, in at most 50 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
+  numbers not found in the article: 2025
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 207 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக'); 121 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3-flash-preview (17s)
+attempt 2 gemini/gemini-3-flash-preview: 1 problems
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3-flash-preview (17s)
+attempt 3 gemini/gemini-3-flash-preview: 3 problems
+  reel_script has 92 words; need 35-75 (the key facts once each, in at most 50 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
+  caption needs 5 hashtags (Instagram max), has 6
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக'); 207 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக'); 121 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (14s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3-flash-preview
+ok groq/openai/gpt-oss-120b (6s)
+factcheck by groq/openai/gpt-oss-120b: 3 problems
+  Reel script omits the important fact that a Maha Aarti (மகா ஆரத்தி) is part of the event
+  Feb 12 date is given without the 'next year' qualifier, contradicting the article which says the installation is scheduled for February 12 of the following year
+  Slide title "நேரம் மற்றும்" is an incomplete/unclear Tamil phrase
+attempt 4 gemini/gemini-3-flash-preview: 3 problems
+  fact-check: Reel script omits the important fact that a Maha Aarti (மகா ஆரத்தி) is part of the event
+  fact-check: Feb 12 date is given without the 'next year' qualifier, contradicting the article which says the installation is scheduled for February 12 of the following year
+  fact-check: Slide title "நேரம் மற்றும்" is an incomplete/unclear Tamil phrase
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+switching away from groq/openai/gpt-oss-120b for 10 min
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+ok anthropic/claude-haiku-5-5
+claude rewrite 1 anthropic/claude-haiku-5-5: 1 problems
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக'); 207 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக'); 121 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக')
+ok anthropic/claude-haiku-5-5
+claude rewrite 2 anthropic/claude-haiku-5-5: 1 problems
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக')
+ok anthropic/claude-haiku-5-5
+claude rewrite 3 anthropic/claude-haiku-5-5: 1 problems
+  caption misses facts of the article (put every one in 📰 முழு விவரம்): 3 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக'); 207 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக'); 121 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக')
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok groq/qwen/qwen3.8-27b (5s)
+proofread by groq/qwen/qwen3.8-27b: 1 problems
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+ok groq/qwen/qwen3.8-27b (3s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+real photo used (1192x667, sharpness 77.0, The photograph shows devotees performing abhishekam rituals ): https://cf-images.assettype.com/hindutamil-prod%2F2026-11-27%2Fnmh7f21r%2FIMG2026112712193
+real photo used (1192x667, sharpness 77.0, The image shows devotees performing abhishekam with brass po): https://cf-images.assettype.com/hindutamil-prod/2026-11-27/nmh7f21r/IMG2026112712193001.jp
+real photos used for '12 Jyotirlinga darshan begins in Srirang' (Hindu Tamil Thisai)
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261127-2032","first":"RN-182"}
+posting job started at once
+earlier stories still waiting for images: []
+instagram check: 50 recent posts read from the page
+pick round: only the picked links are written (research_free/pick.py)
+manual link added: https://www.hindutamil.in/news/spirituals/devotees-perform-abishekam-to-12-jyotirlinga-in-srirangam
+candidate filter: collected=1
+to write: 1 Trichy district candidates (max 1 stories)
+round: top 1 of 1 candidates
+candidates waiting: 1 Trichy; time left 79 min
+try (N) manual=True: https://www.hindutamil.in/news/spirituals/devotees-perform-a
+real photo from the source (Hindu Tamil Thisai) for '12 Jyotirlinga darshan begins in Srirang'
+auto images: 1 of 1 stories ({})
+posting job started at once
+candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 75 min
+filed: 1 Trichy district stories (target 1), reels only
+queue: 0 news waiting to be written
+All News sheet: {"ok":true,"added":1,"updated":0} 
+stories: 1
