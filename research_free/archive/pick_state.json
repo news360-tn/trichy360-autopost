@@ -1,46 +1,20 @@
 {
- "last_end": "2026-11-27T18:48:26.413002+05:30",
+ "last_end": "2026-11-27T20:26:24.867417+05:30",
  "pool": {
-  "C796575d": {
-   "id": "C796575d",
-   "url": "https://www.maalaimalar.com/news/tamilnadu/rs-16-lakh-swindled-under-the-pretext-of-securing-jobs-abroad",
-   "title": "வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி",
-   "summary": "பணத்தை வாங்கி கொண்ட அவர்கள் பணத்தை திருப்பி தராமலும், வேலை வாங்கி தராமலும் காலதாமதம் செய்ததாக கூறப்படுகிறது..தஞ்சாவூர் மாவட்டம், பட்டுக்கோட்டை அருகே உள்ள ஆலத்தூர் மெயின் ரோடு பகுதியில் வசித்து வருபவர் கார்த்திகேயன் (வ...",
-   "source": "மாலைமலர்",
-   "published": "2026-11-27T05:38:40Z",
-   "category": "குற்றம்",
-   "score": 12.370000000000001,
+  "Ca54bd7f": {
+   "id": "Ca54bd7f",
+   "url": "https://www.hindutamil.in/news/spirituals/devotees-perform-abishekam-to-12-jyotirlinga-in-srirangam",
+   "title": "ஸ்ரீரங்கத்தில் 12 ஜோதிர் லிங்க தரிசனம் தொடக்கம் - அபிஷேகம் செய்து பக்தர்கள் வழிபாடு",
+   "summary": "திருச்சி: ஸ்ரீரங்கத்தில் 12 ஜோதிர் லிங்க தரிசன நிகழ்வு இன்று தொடங்கியது. இதில், பொதுமக்கள் லிங்கங்களுக்கு அபிஷேகம் செய்து ஆரத்தி காட்டி வழிபட்டனர்.இந்தியாவில் தமிழகத்தின் ராமேசுவரம் ராமநாதசுவாமி உட்பட 8 மாநிலங்களில் 1...",
+   "source": "இந்து தமிழ்",
+   "published": "2026-11-27T14:04:54Z",
+   "category": "பொது",
+   "score": 2.58,
    "power_cut": false,
-   "listed_at": "2026-11-27T12:29:07.021897+05:30",
-   "picked_at": "2026-11-27T12:32:38.359620+05:30",
-   "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
+   "listed_at": "2026-11-27T20:26:24.867417+05:30"
   }
  },
  "rounds": {
-  "2026-11-25_20": {
-   "window": [
-    "2026-11-25T17:01:04.863394+05:30",
-    "2026-11-25T20:28:12.619767+05:30"
-   ],
-   "ids": [
-    "C7c28578",
-    "C087e4ea"
-   ],
-   "sent": false,
-   "deadline": "2026-11-25T21:28:12.619767+05:30",
-   "decided": {
-    "how": "automatic: top 5 of 2 by insights",
-    "ids": [
-     "C7c28578",
-     "C087e4ea"
-    ],
-    "at": "2026-11-25T20:30:53.717930+05:30"
-   },
-   "written": [
-    "C087e4ea",
-    "C7c28578"
-   ]
-  },
   "2026-11-25_23": {
    "window": [
     "2026-11-25T20:28:12.619767+05:30",
@@ -393,142 +367,22 @@
    "deadline": "2026-11-27T19:48:26.413002+05:30",
    "decided": null,
    "written": []
+  },
+  "2026-11-27_20": {
+   "window": [
+    "2026-11-27T18:48:26.413002+05:30",
+    "2026-11-27T20:26:24.867417+05:30"
+   ],
+   "ids": [
+    "Ca54bd7f"
+   ],
+   "sent": false,
+   "deadline": "2026-11-27T21:26:24.867417+05:30",
+   "decided": null,
+   "written": []
   }
  },
- "retry": {
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/gambling-accused-files-police-complaint/4380968": {
-   "it": {
-    "key": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/gambling-accused-files-police-complaint/4380968",
-    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/gambling-accused-files-police-complaint/4380968",
-    "title": "",
-    "source": "தினமலர்",
-    "published": "",
-    "via": "dinamalar-list",
-    "query": "district list",
-    "snippet": ""
-   },
-   "first": "2026-11-27T16:34:32.488190+05:30"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/husband-stabs-wife-to-death-arrested/4384336": {
-   "it": {
-    "key": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/husband-stabs-wife-to-death-arrested/4384336",
-    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/husband-stabs-wife-to-death-arrested/4384336",
-    "title": "",
-    "source": "தினமலர்",
-    "published": "",
-    "via": "dinamalar-list",
-    "query": "district list",
-    "snippet": ""
-   },
-   "first": "2026-11-27T18:48:26.413002+05:30"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/rs-gold-worth-2-crores-smuggled-youth-arrested/4383642": {
-   "it": {
-    "key": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/rs-gold-worth-2-crores-smuggled-youth-arrested/4383642",
-    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/rs-gold-worth-2-crores-smuggled-youth-arrested/4383642",
-    "title": "",
-    "source": "தினமலர்",
-    "published": "",
-    "via": "dinamalar-list",
-    "query": "district list",
-    "snippet": ""
-   },
-   "first": "2026-11-27T18:48:26.413002+05:30"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/a-case-has-been-registered-against-the-driver-of-the-car-for-harassing-the-girl/4383394": {
-   "it": {
-    "key": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/a-case-has-been-registered-against-the-driver-of-the-car-for-harassing-the-girl/4383394",
-    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/a-case-has-been-registered-against-the-driver-of-the-car-for-harassing-the-girl/4383394",
-    "title": "",
-    "source": "தினமலர்",
-    "published": "",
-    "via": "dinamalar-list",
-    "query": "district list",
-    "snippet": ""
-   },
-   "first": "2026-11-27T18:48:26.413002+05:30"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/5-killed-as-omni-van-hits-tree-near-musiri/4383164": {
-   "it": {
-    "key": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/5-killed-as-omni-van-hits-tree-near-musiri/4383164",
-    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/5-killed-as-omni-van-hits-tree-near-musiri/4383164",
-    "title": "",
-    "source": "தினமலர்",
-    "published": "",
-    "via": "dinamalar-list",
-    "query": "district list",
-    "snippet": ""
-   },
-   "first": "2026-11-27T18:48:26.413002+05:30"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/file-a-case-against-the-deputy-speaker-and-call-for-an-inquiry-the-victim-petitioned-the-police/4382799": {
-   "it": {
-    "key": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/file-a-case-against-the-deputy-speaker-and-call-for-an-inquiry-the-victim-petitioned-the-police/4382799",
-    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/file-a-case-against-the-deputy-speaker-and-call-for-an-inquiry-the-victim-petitioned-the-police/4382799",
-    "title": "",
-    "source": "தினமலர்",
-    "published": "",
-    "via": "dinamalar-list",
-    "query": "district list",
-    "snippet": ""
-   },
-   "first": "2026-11-27T18:48:26.413002+05:30"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/furniture-shopper-escapes-with-rs-1-crore-fraud/4381856": {
-   "it": {
-    "key": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/furniture-shopper-escapes-with-rs-1-crore-fraud/4381856",
-    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/furniture-shopper-escapes-with-rs-1-crore-fraud/4381856",
-    "title": "",
-    "source": "தினமலர்",
-    "published": "",
-    "via": "dinamalar-list",
-    "query": "district list",
-    "snippet": ""
-   },
-   "first": "2026-11-27T18:48:26.413002+05:30"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/case-against-aiadmk-for-staging-protest/4380995": {
-   "it": {
-    "key": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/case-against-aiadmk-for-staging-protest/4380995",
-    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/case-against-aiadmk-for-staging-protest/4380995",
-    "title": "",
-    "source": "தினமலர்",
-    "published": "",
-    "via": "dinamalar-list",
-    "query": "district list",
-    "snippet": ""
-   },
-   "first": "2026-11-27T18:48:26.413002+05:30"
-  },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-theni/chief-minister-directs-to-allocate-special-fund-for-idamalagudi/4387554": {
-   "it": {
-    "key": "CBMizgFBVV95cUxOSkw4aXRubHotbGlVekNidURSMUhybWZXU0VRamdFWmZCSzBYelpFb1lzb3pkb3FuMFMwRG40cWxiV3V5V3Z0MVpPMUE1WGw4cDFYUlR2aHpjUFNILTN4d0tLUnF2cUdHZlY5VGRyOF9idDlBcURpMHo2RXFtWW9LbWZpa0hBMXRRcW1KWjdwMXlTeHpvVFg0czhpU2ZiMXVMREk0VllhRUl0UmR5Q3hvdGFTX3VfZXlkYVhleFpXLWVxSkJkX25LTW44ejAwQQ",
-    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-theni/chief-minister-directs-to-allocate-special-fund-for-idamalagudi/4387554",
-    "title": "இடமலைகுடிக்கு சிறப்பு நிதி ஒதுக்கி முதல்வர் உத்தரவு",
-    "site": "https://www.dinamalar.com",
-    "source": "Dinamalar",
-    "published": "2026-11-27T16:20:00+05:30",
-    "via": "google",
-    "query": "திருச்சிராப்பள்ளி site:dinamalar.com",
-    "snippet": " இடமலைகுடிக்கு சிறப்பு நிதி ஒதுக்கி முதல்வர் உத்தரவு    Dinamalar "
-   },
-   "first": "2026-11-27T18:48:26.413002+05:30"
-  },
-  "https://tamil.samayam.com/tamil-nadu/news/which-tamil-nadu-mlas-lose-their-assembly-membership-after-going-to-jail/amp_articleshow/136198768.cms": {
-   "it": {
-    "key": "CBMi3AFBVV95cUxNd2F1OXY4QUUxa0JheTFmUTRJOU5URzJGUWlheHllOEQ1eGhnRmZhbGp5dGcxMGJLdkJzbWVXbjl0RVMwRFZILWVLSGRPRmJoeDJSQ2g5TEdjckZTUU1DenFjaVFHTG9BS0QxREIxa3VsWEJCRHg2ZmJXVko5Yi1GY0JfYWhGN2VhX2JjOUt5WmhJZmdmSjk5ZnVmb2xoaDJlYWlzb2w2VmVvV0FEa0lfcDlnNUg2MDNTVVByQlZOdFNJOTkwTWRMYnFWZkdhS2JXUXB1V2l5ZjhSNW5k0gHcAUFVX3lxTE13YXU5djhBRTFrQmF5MWZRNEk5TlRHMkZRaWF4eWU4RDV4aGdGZmFsanl0ZzEwYkt2QnNtZVduOXRFUzBEVkgtZUtIZE9GYmh4MlJDaDlMR2NyRlNRTUN6cWNpUUdMb0FLRDFEQjFrdWxYQkJEeDZmYldWSjliLUZjQl9haEY3ZWFfYmM5S3laaElmZ2ZKOTlmdWZvbGhoMmVhaXNvbDZWZW9XQURrSV9wOWc1SDYwM1NVUHJCVk50U0k5OTBNZExicVZmR2FLYldRcHVXaXlmOFI1bmQ",
-    "url": "https://tamil.samayam.com/tamil-nadu/news/which-tamil-nadu-mlas-lose-their-assembly-membership-after-going-to-jail/amp_articleshow/136198768.cms",
-    "title": "ஜெயிலுக்கு போனதால் பதிவி பறிப்போன எம்எல்ஏ-க்கள் யார் யார்?: ஜெயலலிதா முதல் பொன்முடி வரை",
-    "site": "https://tamil.samayam.com",
-    "source": "Samayam Tamil",
-    "published": "2026-11-26T22:31:54+05:30",
-    "via": "google",
-    "query": "ஸ்ரீரங்கம்",
-    "snippet": " ஜெயிலுக்கு போனதால் பதிவி பறிப்போன எம்எல்ஏ-க்கள் யார் யார்?: ஜெயலலிதா முதல் பொன்முடி வரை    Samayam Tamil "
-   },
-   "first": "2026-11-27T18:48:26.413002+05:30"
-  }
- },
+ "retry": {},
  "seen": {
   "Gf422bfac83": "2026-11-27T12:29 D",
   "G42d73969af": "2026-11-27T12:29 D",
@@ -650,15 +504,15 @@
   "C936cfee": "2026-11-27T12:29 published before this window",
   "Cc42c100": "2026-11-27T12:29 already posted",
   "C276447f": "2026-11-27T12:29 already posted",
-  "Ce8cf169": "2026-11-27T12:29 could not open (HTTPSConnectionPool(host",
-  "C2be9113": "2026-11-27T12:29 could not open (HTTPSConnectionPool(host",
-  "C9bbb80e": "2026-11-27T12:29 could not open (HTTPSConnectionPool(host",
-  "Cff2ab8a": "2026-11-27T12:29 could not open (HTTPSConnectionPool(host",
-  "Cca79a79": "2026-11-27T12:29 could not open (HTTPSConnectionPool(host",
-  "Cf3f4d6e": "2026-11-27T12:29 could not open (HTTPSConnectionPool(host",
+  "Ce8cf169": "2026-11-27T12:29 already posted",
+  "C2be9113": "2026-11-27T12:29 published before this window",
+  "C9bbb80e": "2026-11-27T12:29 already posted",
+  "Cff2ab8a": "2026-11-27T12:29 same event already posted",
+  "Cca79a79": "2026-11-27T12:29 already posted",
+  "Cf3f4d6e": "2026-11-27T12:29 same event already posted",
   "C35ddda5": "2026-11-27T12:29 published before this window",
-  "C43cd14e": "2026-11-27T12:29 could not open (HTTPSConnectionPool(host",
-  "C4819095": "2026-11-27T12:29 could not open (HTTPSConnectionPool(host",
+  "C43cd14e": "2026-11-27T12:29 published before this window",
+  "C4819095": "2026-11-27T12:29 already posted",
   "C791dfc1": "2026-11-27T12:29 not Trichy district",
   "Ce018ad6": "2026-11-27T12:29 already posted",
   "Ca82de82": "2026-11-27T12:29 already posted",
@@ -986,7 +840,7 @@
   "C230aaab": "2026-11-27T18:48 not Trichy district",
   "Ca0a31f0": "2026-11-27T18:48 not Trichy district",
   "C997eda9": "2026-11-27T18:48 not Trichy district",
-  "Ccdc7d03": "2026-11-27T18:48 could not open (HTTPSConnectionPool(host",
+  "Ccdc7d03": "2026-11-27T18:48 not Trichy district",
   "C6111d3f": "2026-11-27T18:48 not Trichy district",
   "C28948ba": "2026-11-27T18:48 not Trichy district",
   "C20b3377": "2026-11-27T18:48 not Trichy district",
@@ -997,7 +851,51 @@
   "C69e9c1d": "2026-11-27T18:48 not Trichy district",
   "C40cb8a9": "2026-11-27T18:48 not Trichy district",
   "C031a0ce": "2026-11-27T18:48 not Trichy district",
-  "Cfd33422": "2026-11-27T18:48 could not open (404 Client Error: Not Fo",
-  "C45e7471": "2026-11-27T18:48 not Trichy district"
+  "Cfd33422": "2026-11-27T18:48 not Trichy district",
+  "C45e7471": "2026-11-27T18:48 not Trichy district",
+  "G6b1978b45f": "2026-11-27T20:26 D",
+  "G38e453db98": "2026-11-27T20:26 D",
+  "Ged99ac6d0b": "2026-11-27T20:26 D",
+  "Gce16737c1c": "2026-11-27T20:26 D",
+  "G894ed81fdc": "2026-11-27T20:26 D",
+  "G8f226312f5": "2026-11-27T20:26 D",
+  "G6c1559ce25": "2026-11-27T20:26 D",
+  "Gc19e6101a3": "2026-11-27T20:26 D",
+  "Gb30736ef88": "2026-11-27T20:26 D",
+  "G9456594cf8": "2026-11-27T20:26 D",
+  "Ge57e551875": "2026-11-27T20:26 D",
+  "Gca9d65214c": "2026-11-27T20:26 D",
+  "G7409e8c2e4": "2026-11-27T20:26 D",
+  "Gfd90967890": "2026-11-27T20:26 D",
+  "Gb3cf4877dc": "2026-11-27T20:26 D",
+  "G0b01f2d21d": "2026-11-27T20:26 D",
+  "G61743fc95d": "2026-11-27T20:26 D",
+  "G761f4dabc6": "2026-11-27T20:26 D",
+  "G8058a99f4f": "2026-11-27T20:26 D",
+  "Ga480cdf50a": "2026-11-27T20:26 D",
+  "G3a77752c43": "2026-11-27T20:26 D",
+  "G4bc00cc067": "2026-11-27T20:26 D",
+  "G1fd5ebc153": "2026-11-27T20:26 D",
+  "G64526e34f5": "2026-11-27T20:26 D",
+  "G4c19a9cba2": "2026-11-27T20:26 D",
+  "G1cafaeb7f1": "2026-11-27T20:26 D",
+  "G47f238777c": "2026-11-27T20:26 D",
+  "Gfd648efccc": "2026-11-27T20:26 D",
+  "Gec82e16b3e": "2026-11-27T20:26 D",
+  "G480cd29e85": "2026-11-27T20:26 D",
+  "C27f9775": "2026-11-27T20:26 already posted",
+  "Cec50da4": "2026-11-27T20:26 not Trichy district",
+  "C436bab7": "2026-11-27T20:26 not Trichy district",
+  "C6a6ae6e": "2026-11-27T20:26 not Trichy district",
+  "Ccc9aba9": "2026-11-27T20:26 not Trichy district",
+  "Cd251c7f": "2026-11-27T20:26 not Trichy district",
+  "C35df1ae": "2026-11-27T20:26 already posted",
+  "Cfd1c74b": "2026-11-27T20:26 not Trichy district",
+  "C8a727cb": "2026-11-27T20:26 not Trichy district",
+  "C72535e1": "2026-11-27T20:26 not Trichy district",
+  "Cb1b7b64": "2026-11-27T20:26 not Trichy district",
+  "C639fb17": "2026-11-27T20:26 not Trichy district",
+  "C4a5ac31": "2026-11-27T20:26 not Trichy district",
+  "C9d2d973": "2026-11-27T20:26 not Trichy district"
  }
 }
