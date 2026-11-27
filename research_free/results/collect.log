@@ -1,355 +1,324 @@
-writing [N]: சமயபுரத்தில் போதைப் பொருள்கள் விற்றவா் கைது
+writing [N]: முதியவரை தாக்கியவர் கைது - Dinakaran
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: முதியவரை தாக்கியவர் கைது - Dinakaran
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+ok gemini/gemini-3.6-flash (35s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  sentence 1 (one-line story) has 15 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (23s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  sentence 1 (one-line story) has 19 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3.6-flash (26s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  sentence 1 (one-line story) has 15 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (31s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3.6-flash (41s)
+attempt 2 gemini/gemini-3.6-flash: 1 problems
+  reel_script sentence 1 (heard in the first 3 seconds) must name the place 'பொன்மலை' and the news itself, e.g. 'பொன்மலை-இல் ... 3 பேர் கைது.' - viewers decide in 3 seconds whether the news is about their area
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (5s)
+factcheck by gemini/gemini-3.6-flash: 1 problems
+  Caption states the arrest date was November 27, which is not mentioned in the article (November 27 is only the news dateline).
+attempt 2 gemini/gemini-3.6-flash: 1 problems
+  fact-check: Caption states the arrest date was November 27, which is not mentioned in the article (November 27 is only the news dateline).
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+ok gemini/gemini-3.6-flash (18s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (21s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-switching away from gemini/gemini-3.5-flash for 10 min
-ok gemini/gemini-3-flash-preview (14s)
-writing [N]: திருச்சி அருகே சுவா் இடிந்து விழுந்து முதியவா் உயிரிழப்பு
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+dead for this round: gemini/gemini-3.5-flash
+ok gemini/gemini-3.5-flash (8s)
+factcheck by gemini/gemini-3.5-flash: 0 problems
+attempt 3 gemini/gemini-3.6-flash: 0 problems
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok gemini/gemini-3-flash-preview (7s)
-factcheck by gemini/gemini-3-flash-preview: 3 problems
-  The specific date 'November 25' and year '2026' are not mentioned in the article.
-  The name of the arrested person 'Saravanan' is missing from the reel script.
-  The statement that police warned of strict action against illegal activities is an invented detail not found in the article.
-attempt 1 gemini/gemini-3-flash-preview: 3 problems
-  fact-check: The specific date 'November 25' and year '2026' are not mentioned in the article.
-  fact-check: The name of the arrested person 'Saravanan' is missing from the reel script.
-  fact-check: The statement that police warned of strict action against illegal activities is an invented detail not found in the article.
+ok gemini/gemini-3-flash-preview (3s)
+factcheck by gemini/gemini-3-flash-preview: 1 problems
+  The caption incorrectly lists the incident year as 2026, which is not in the article and is a future date.
+attempt 3 gemini/gemini-3.6-flash: 1 problems
+  fact-check: The caption incorrectly lists the incident year as 2026, which is not in the article and is a future date.
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.5-flash (20s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (8s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (5s)
+factcheck by gemini/gemini-3-flash-preview: 0 problems
+attempt 2 gemini/gemini-3.5-flash: 0 problems
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (6s)
+factcheck by gemini/gemini-3-flash-preview: 0 problems
+proofread by gemini/gemini-3-flash-preview: 0 problems
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (6s)
+ok gemini/gemini-3-flash-preview (12s)
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, plea
-dead for this round: gemini/gemini-3-flash-preview
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+ok gemini/gemini-3-flash-preview (30s)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+real photo: vision check unavailable: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:ge
+real photo not this news (It is a generic stock photo of Indian rupee currency notes used to represent mon): https://cf-images.assettype.com/maalai-malar%2F2026-11-27%2F40akg19t%2Fmoneyy.jp
+real photo: vision check out of free quota
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+switching away from gemini/gemini-3-flash-preview for 10 min
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+ok groq/openai/gpt-oss-120b (4s)
+factcheck by groq/openai/gpt-oss-120b: 4 problems
+  Reel script claims the old man hit the attacker ('முதியவர் தட்டிக்கேட்டதால்') which contradicts the article
+  Slide 2 repeats the false claim that the old man hit the attacker
+  Slide 3 states the old man filed the complaint at the police station, a detail not mentioned in the article
+  Reel script omits the victim's name (தனசேகர்) and his occupation as a banana‑leaf trader, an important fact from the article
+proofread rejected (4 problems)
+  fact-check: Reel script claims the old man hit the attacker ('முதியவர் தட்டிக்கேட்டதால்') which contradicts the article
+  fact-check: Slide 2 repeats the false claim that the old man hit the attacker
+  fact-check: Slide 3 states the old man filed the complaint at the police station, a detail not mentioned in the article
+  fact-check: Reel script omits the victim's name (தனசேகர்) and his occupation as a banana‑leaf trader, an important fact from the article
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+switching away from gemini/gemini-3-flash-preview for 10 min
+ok groq/openai/gpt-oss-120b (3s)
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 3 for 'Case registered against 4 members of a T'
+ok groq/openai/gpt-oss-120b (5s)
+factcheck by groq/openai/gpt-oss-120b: 3 problems
+  Reel script omits the name of the arrested suspect (Manikandan) that is given in the article
+  Slide 2 contains an ungrammatical/unclear Tamil sentence: "டூவீலரில் மோதுவது போல் வந்ததை தட்டிக்கேட்டார்"
+  Slide 2 sentence mixes two facts (arrival on two‑wheeler and hitting) into one unclear statement
+attempt 4 gemini/gemini-3-flash-preview: 3 problems
+  fact-check: Reel script omits the name of the arrested suspect (Manikandan) that is given in the article
+  fact-check: Slide 2 contains an ungrammatical/unclear Tamil sentence: "டூவீலரில் மோதுவது போல் வந்ததை தட்டிக்கேட்டார்"
+  fact-check: Slide 2 sentence mixes two facts (arrival on two‑wheeler and hitting) into one unclear statement
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261127-1904","first":"RN-179"}
+posting job started at once
+real photo: vision check resting (free quota busy)
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 3 for 'Youth arrested in Trichy for assaulting '
 ok groq/qwen/qwen3.8-27b (3s)
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-writing [N]: பள்ளி மாணவியை தலைமை ஆசிரியை தாக்கியதாகப் புகாா்
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-ok gemini/gemini-3-flash-preview (16s)
-attempt 1 gemini/gemini-3-flash-preview: 1 problems
-  hl1 is 43 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261127-1904","first":"RN-180"}
+writing [N]: Road Accident | TN Police | கால்வாயில் கவிழ்ந்த லோடு வேன் - 
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-ok anthropic/claude-haiku-5-5
-claude rewrite 1 anthropic/claude-haiku-5-5: 39 problems
-  stray Tamil sign '்' after 'ா' in «ே சுவா் இட»
-  stray Tamil sign '்' after 'ா' in «ுதியவா் உய»
-  stray Tamil sign '்' after 'ா' in «் சுவா் இட»
-  stray Tamil sign '்' after 'ா' in « ஒருவா் உய»
-  stray Tamil sign 'ா' after 'ா' in «ிழந்தாா். »
-  stray Tamil sign '்' after 'ா' in «ழந்தாா். த»
-  stray Tamil sign '்' after 'ோ' in «ைச் சோ்ந்த»
-  stray Tamil sign '்' after 'ா' in «ுதியவா். ச»
-  stray Tamil sign '்' after 'ா' in «் சுவா் அவ»
-  stray Tamil sign '்' after 'ா' in «ா் அவா் மீ»
-  stray Tamil sign '்' after 'ா' in «யே அவா் உய»
-  stray Tamil sign 'ா' after 'ா' in «ிழந்தாா். »
-  stray Tamil sign '்' after 'ா' in «ழந்தாா். க»
-  stray Tamil sign 'ா' after 'ா' in «விட்டாா். »
-  stray Tamil sign '்' after 'ா' in «ிட்டாா். அ»
-  stray Tamil sign '்' after 'ா' in «். அவா் தன»
-  stray Tamil sign 'ா' after 'ா' in « வந்தாா். »
-  stray Tamil sign '்' after 'ா' in «வந்தாா். இ»
-  stray Tamil sign 'ா' after 'ா' in «போலீஸாா் வ»
-  stray Tamil sign '்' after 'ா' in «ோலீஸாா் வழ»
-  stray Tamil sign '்' after 'ா' in «ின்றனா். ப»
-  stray Tamil sign 'ா' after 'ோ' in «சிப்போா் க»
-  stray Tamil sign '்' after 'ா' in «ிப்போா் கவ»
-  stray Tamil sign '்' after 'ா' in «ே சுவா் இட»
-  stray Tamil sign '்' after 'ா' in «ுதியவா் உய»
-  stray Tamil sign '்' after 'ோ' in «ைச் சோ்ந்த»
-  stray Tamil sign 'ா' after 'ா' in «ருந்தாா். »
-  stray Tamil sign '்' after 'ா' in «ுந்தாா். ஏ»
-  stray Tamil sign '்' after 'ா' in «் சுவா் அவ»
-  stray Tamil sign '்' after 'ா' in «ா் அவா் மீ»
-  stray Tamil sign 'ா' after 'ா' in «ிழந்தாா். »
-  stray Tamil sign '்' after 'ா' in «ழந்தாா். அ»
-  stray Tamil sign 'ா' after 'ா' in « வந்தாா்.
-»
-  stray Tamil sign '்' after 'ா' in «வந்தாா்.
-👮»
-  stray Tamil sign 'ா' after 'ா' in «போலீஸாா் வ»
-  stray Tamil sign '்' after 'ா' in «ோலீஸாா் வழ»
-  stray Tamil sign '்' after 'ா' in «ின்றனா்.
-ℹ»
-  stray Tamil sign 'ா' after 'ோ' in «சிப்போா் க»
-  stray Tamil sign '்' after 'ா' in «ிப்போா் கவ»
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-switching away from groq/qwen/qwen3.8-27b for 10 min
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-switching away from groq/qwen/qwen3.8-27b for 10 min
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 free models unavailable: no free model answered: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-1
 ok anthropic/claude-haiku-5-5
-claude rewrite 2 anthropic/claude-haiku-5-5: 1 problems
-  hl1 is 48 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
+claude rewrite 1 anthropic/claude-haiku-5-5: 2 problems
+  slides must have 3 or 4 items
+  hl1 is 42 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+ok groq/openai/gpt-oss-120b (2s)
+factcheck by groq/openai/gpt-oss-120b: 1 problems
+  Caption includes a year (2026) for the November 22 date, which is not mentioned in the article
+attempt 5 groq/qwen/qwen3.8-27b: 1 problems
+  fact-check: Caption includes a year (2026) for the November 22 date, which is not mentioned in the article
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+ok anthropic/claude-haiku-5-5
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/openai/gpt-oss-120b (3s)
+factcheck by groq/openai/gpt-oss-120b: 2 problems
+  Slide2 third line incorrectly says the driver argued with police, but the article states the vehicle owner argued with police for compensation
+  Slide3 third line is an incomplete/question fragment in Tamil and lacks clear meaning
+claude rewrite 2 anthropic/claude-haiku-5-5: 2 problems
+  fact-check: Slide2 third line incorrectly says the driver argued with police, but the article states the vehicle owner argued with police for compensation
+  fact-check: Slide3 third line is an incomplete/question fragment in Tamil and lacks clear meaning
+ok anthropic/claude-haiku-5-5
+claude rewrite 3 anthropic/claude-haiku-5-5: 3 problems
+  hl1 is 42 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
+  reel_script has 33 words; need 35-75 (the key facts once each, in at most 50 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
+  known issue meta_article: cards talks about the article instead of the news ('விவரம் வெளியாகவில்லை') - rewrite so it does not happen again
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+ok anthropic/claude-haiku-5-5
+claude rewrite 1 anthropic/claude-haiku-5-5: 2 problems
+  slides must have 3 or 4 items
+  sentence 1 (one-line story) has 14 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
 ok anthropic/claude-haiku-5-5
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-ok anthropic/claude-haiku-5-5
-claude rewrite 3 anthropic/claude-haiku-5-5: 2 problems
-  hl1 is 41 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
-  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
-hl1 shortened at a natural break: 'ஜீயபுரம் அருகே சுவர் இடிந்து முதியவர் உயிரிழப்பு' -> 'ஜீயபுரம் அருகே சுவர் முதியவர் உயிரிழப்பு'
+ok groq/openai/gpt-oss-120b (6s)
+proofread rejected (3 problems)
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 switching away from groq/openai/gpt-oss-120b for 10 min
-free fact-check unavailable, using Claude: no free model answered: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for mo
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+free fact-check unavailable, using Claude: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model 
 ok anthropic/claude-haiku-5-5
-factcheck by anthropic/claude-haiku-5-5: 8 problems
-  reel_script says the arrest happened on Wednesday night, but the article only says Wednesday (புதன்கிழமை) and gives no night time
-  reel_script says the patrol was led by Inspector Gunasekaran, but the article only lists him among the police involved without saying he led it
-  slides_spec lists the sub-inspector's name as 'முரலி' while the article gives 'மோ. முரளி'; the spelling differs from the source
-  slides_spec says 'ராசையன் கோயில் பகுதி மகன் க. சரவணன்' (son of Rasaiyan Koil area), but the article only says he is from Rasaiyan Koil area; 'மகன்' (son) is an invented detail
-  caption repeats the same invented 'மகன்' (son) detail in the headline line
-  caption says the arrest was made 'புதன்கிழமை' and reel_script says 'புதன்கிழமை இரவு', so the night detail is inconsistent with the article
-  slides_spec says 'உதவி காவல் ஆய்வாளர் முரலி உட்பட 2 பேர்' (2 people in total), but the article does not give a count of officers involved
-  slides_spec says 'போலீஸார் வழக்கு பதிவு செய்தனர்' (police registered a case), which the article does not state
-attempt 2 groq/qwen/qwen3.8-27b: 8 problems
-  fact-check: reel_script says the arrest happened on Wednesday night, but the article only says Wednesday (புதன்கிழமை) and gives no night time
-  fact-check: reel_script says the patrol was led by Inspector Gunasekaran, but the article only lists him among the police involved without saying he led it
-  fact-check: slides_spec lists the sub-inspector's name as 'முரலி' while the article gives 'மோ. முரளி'; the spelling differs from the source
-  fact-check: slides_spec says 'ராசையன் கோயில் பகுதி மகன் க. சரவணன்' (son of Rasaiyan Koil area), but the article only says he is from Rasaiyan Koil area; 'மகன்' (son) is an invented detail
-  fact-check: caption repeats the same invented 'மகன்' (son) detail in the headline line
-  fact-check: caption says the arrest was made 'புதன்கிழமை' and reel_script says 'புதன்கிழமை இரவு', so the night detail is inconsistent with the article
-  fact-check: slides_spec says 'உதவி காவல் ஆய்வாளர் முரலி உட்பட 2 பேர்' (2 people in total), but the article does not give a count of officers involved
-  fact-check: slides_spec says 'போலீஸார் வழக்கு பதிவு செய்தனர்' (police registered a case), which the article does not state
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-free models unavailable: no free model answered: None
+factcheck by anthropic/claude-haiku-5-5: 2 problems
+  The draft's caption includes an English line ('Trichy man arrested for assaulting elderly vendor | Trichy news') that is not part of the article and is not a permitted footer element.
+  The reel_script says the 'அவர்' (the attacker) was arrested alongside a description, but the article does not mention a 'Trichy' location for the attacker beyond the Shanghai-area residence; this is consistent. However, the slides_spec 'hl2' says 'நவ. 22 சம்பவம்' which matches the article; no issue there.
+claude rewrite 2 anthropic/claude-haiku-5-5: 2 problems
+  fact-check: The draft's caption includes an English line ('Trichy man arrested for assaulting elderly vendor | Trichy news') that is not part of the article and is not a permitted footer element.
+  fact-check: The reel_script says the 'அவர்' (the attacker) was arrested alongside a description, but the article does not mention a 'Trichy' location for the attacker beyond the Shanghai-area residence; this is consistent. However, the slides_spec 'hl2' says 'நவ. 22 சம்பவம்' which matches the article; no issue there.
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 switching away from groq/openai/gpt-oss-120b for 10 min
-free fact-check unavailable, using Claude: no free model answered: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for mo
+ok groq/qwen/qwen3.8-27b (1s)
+real photo: no picture on the source page -> AI pictures
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 ok anthropic/claude-haiku-5-5
+claude rewrite 3 anthropic/claude-haiku-5-5: 1 problems
+  slides must have 3 or 4 items
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-free fact-check unavailable, using Claude: no free model answered: None
-ok anthropic/claude-haiku-5-5
-factcheck by anthropic/claude-haiku-5-5: 3 problems
-  Slide 3 says 'மணப்பாறை அரசு மருத்துவமனையில் சிகிச்சை அளிக்கப்பட்டது' — fine, but slide 2 line 'செவ்வாய்க்கிழமை மணப்பாறை காவல் நிலையத்தில் புகார்' is acceptable; however slide 1 line 'இறைவணக்கம் பாடவில்லை என்று மாணவியின் கன்னத்தில்' is an incomplete sentence with no clear meaning (missing the verb 'அறைந்ததாகக் கூறப்படுகிறது')
-  Caption contains an English line 'Manapparai student slapped by headmistress complaint | Trichy news' which is not part of the article and is an extra, unsupported claim in the caption body
-  The reel_script states the complaint was filed by the 'மாணவி தரப்பில்' with the caption and reel ordering implying the father went to school after the sibling was informed; the article says the father went to the school, which is consistent, but the reel omits that the student informed her brother via another teacher's phone, a detail mixed in without the link to the teacher's phone being clear
-claude rewrite 1 anthropic/claude-haiku-5-5: 3 problems
-  fact-check: Slide 3 says 'மணப்பாறை அரசு மருத்துவமனையில் சிகிச்சை அளிக்கப்பட்டது' — fine, but slide 2 line 'செவ்வாய்க்கிழமை மணப்பாறை காவல் நிலையத்தில் புகார்' is acceptable; however slide 1 line 'இறைவணக்கம் பாடவில்லை என்று மாணவியின் கன்னத்தில்' is an incomplete sentence with no clear meaning (missing the verb 'அறைந்ததாகக் கூறப்படுகிறது')
-  fact-check: Caption contains an English line 'Manapparai student slapped by headmistress complaint | Trichy news' which is not part of the article and is an extra, unsupported claim in the caption body
-  fact-check: The reel_script states the complaint was filed by the 'மாணவி தரப்பில்' with the caption and reel ordering implying the father went to school after the sibling was informed; the article says the father went to the school, which is consistent, but the reel omits that the student informed her brother via another teacher's phone, a detail mixed in without the link to the teacher's phone being clear
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-switching away from groq/openai/gpt-oss-120b for 10 min
-proofread skipped: no free model answered: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m7a2whq2ef48ntxcv5v5635b` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4182, Requested 4687. Please try again in 6.5175s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+proofread skipped: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7a2whq2ef48ntxcv5v5635b` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1647. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
 
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok anthropic/claude-haiku-5-5
-factcheck by anthropic/claude-haiku-5-5: 5 problems
-  reel_script says 'போலீசார்' (police) arrested him in a generic way; article says 'Samayapuram' is the place but also the reel_script omits that the arrest was on Wednesday in its sentence structure—minor, but the 'இந்தச் சநடவடிக்கை' contains a typo ('சநடவடிக்கை' is not a valid word, should be 'நடவடிக்கை')
-  reel_script's slides_spec and reel_script say the arrested man was 'ராசையன் கோயில் பகுதியைச் சேர்ந்த க.' — the article's name is 'க. சரவணன்' and the reel_script drops the full name context, leaving a dangling initial 'க' without the name 'சரவணன்' in slides_spec, making the person unidentified
-  slides_spec 'என்ன நடந்தது?' slide line 'கைது செய்யப்பட்டவர் ராசையன் கோயில் பகுதியைச் சேர்ந்த க.' is an incomplete sentence with no name, so the arrested person's identity is unclear
-  reel_script says 'சமயபுரத்தில் தடை செய்யப்பட்ட குட்கா விற்றவர் போலீசாரால் கைது செய்யப்பட்டார்' — the article says 'தடை செய்யப்பட்ட போதைப் பொருள்கள்' (banned narcotic substances), and the reel_script narrows this to gutka only, which is a reasonable reading but the headline and caption use 'போதைப் பொருள்' generally, creating an inconsistency about the substance
-  The reel_script mentions 'சிறார்களுக்கும் கல்லூரி மாணவர்களுக்கும்' selling to minors and students, which matches the article, but the reel_script omits the 'புதன்கிழமை' (Wednesday) arrest date entirely, a key fact of the article's arrest event
-claude rewrite 1 anthropic/claude-haiku-5-5: 5 problems
-  fact-check: reel_script says 'போலீசார்' (police) arrested him in a generic way; article says 'Samayapuram' is the place but also the reel_script omits that the arrest was on Wednesday in its sentence structure—minor, but the 'இந்தச் சநடவடிக்கை' contains a typo ('சநடவடிக்கை' is not a valid word, should be 'நடவடிக்கை')
-  fact-check: reel_script's slides_spec and reel_script say the arrested man was 'ராசையன் கோயில் பகுதியைச் சேர்ந்த க.' — the article's name is 'க. சரவணன்' and the reel_script drops the full name context, leaving a dangling initial 'க' without the name 'சரவணன்' in slides_spec, making the person unidentified
-  fact-check: slides_spec 'என்ன நடந்தது?' slide line 'கைது செய்யப்பட்டவர் ராசையன் கோயில் பகுதியைச் சேர்ந்த க.' is an incomplete sentence with no name, so the arrested person's identity is unclear
-  fact-check: reel_script says 'சமயபுரத்தில் தடை செய்யப்பட்ட குட்கா விற்றவர் போலீசாரால் கைது செய்யப்பட்டார்' — the article says 'தடை செய்யப்பட்ட போதைப் பொருள்கள்' (banned narcotic substances), and the reel_script narrows this to gutka only, which is a reasonable reading but the headline and caption use 'போதைப் பொருள்' generally, creating an inconsistency about the substance
-  fact-check: The reel_script mentions 'சிறார்களுக்கும் கல்லூரி மாணவர்களுக்கும்' selling to minors and students, which matches the article, but the reel_script omits the 'புதன்கிழமை' (Wednesday) arrest date entirely, a key fact of the article's arrest event
-ok anthropic/claude-haiku-5-5
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok anthropic/claude-haiku-5-5
-ok anthropic/claude-haiku-5-5
-claude rewrite 2 anthropic/claude-haiku-5-5: 1 problems
-  hl1 is 42 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
-ok anthropic/claude-haiku-5-5
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-free fact-check unavailable, using Claude: no free model answered: None
-ok anthropic/claude-haiku-5-5
-factcheck by anthropic/claude-haiku-5-5: 3 problems
-  The reel_script states that the arrest was made 'under the leadership of' inspector க. குணசேகரன் (தலைமையில்), but the article only says police including him were on patrol; leadership is not stated.
-  The reel_script says the arrest 'took place on Wednesday' (புதன்கிழமை) — the article says the person was arrested on Wednesday, which matches, but the slide 'புதன்கிழமை போலீசார் இந்தக் கைதை நடத்தினர்' adds that police conducted it; this is consistent, so no problem here.
-  The reel_script says the accused was 'a person who sold banned substances' and the headline says 'தடை செய்யப்பட்ட குட்கா' (banned gutka); the article describes gutka as prohibited, so this is acceptable.
-claude rewrite 2 anthropic/claude-haiku-5-5: 3 problems
-  fact-check: The reel_script states that the arrest was made 'under the leadership of' inspector க. குணசேகரன் (தலைமையில்), but the article only says police including him were on patrol; leadership is not stated.
-  fact-check: The reel_script says the arrest 'took place on Wednesday' (புதன்கிழமை) — the article says the person was arrested on Wednesday, which matches, but the slide 'புதன்கிழமை போலீசார் இந்தக் கைதை நடத்தினர்' adds that police conducted it; this is consistent, so no problem here.
-  fact-check: The reel_script says the accused was 'a person who sold banned substances' and the headline says 'தடை செய்யப்பட்ட குட்கா' (banned gutka); the article describes gutka as prohibited, so this is acceptable.
-real photo skipped (photo uploaded 2026-04-26 (older than the news)): https://media.dinamani.com/dinamani/2026-04-26/ywd6xu2b/%E0%AE%AA%E0%AF%88%E0%AE%95%E0%AF%
-real photo skipped (photo uploaded 2026-04-26 (older than the news)): https://media.dinamani.com/dinamani/2026-04-26/ywd6xu2b/பைக்-மோதி-ஒடிஸா-மாநிலத்தை-சோ்ந்தவ
-ok anthropic/claude-haiku-5-5
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-free fact-check unavailable, using Claude: no free model answered: None
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-ok anthropic/claude-haiku-5-5
-ok anthropic/claude-haiku-5-5
-factcheck by anthropic/claude-haiku-5-5: 4 problems
-  The reel_script and slides say the headmistress 'slapped' (அறைந்ததாக) the girl, but the article says she slapped her cheek on the source claim; this is consistent. However, the caption says 'அறைந்ததாக' and the English line says 'slapped' which matches. No mismatch found there.
-  The slides_spec line 'மாணவியின் தந்தை பள்ளிக்குச் சென்று அழைத்துச் சென்றார்' omits that the father took her to the hospital for treatment, which is in the article; minor but acceptable.
-  The reel_script states the girl 'தனது சகோதரருக்குத் தெரிவித்தார்' (informed her brother) and 'தகவல் அறிந்த' is added wording; the article says the message was relayed via another teacher's phone, which the reel_script omits, so the detail that a teacher's phone was used is missing from the reel_script.
-  The reel_script says 'தலைமை ஆசிரியை மகேஸ்வரி (47 வயது)' but the article says the complaint is pending and police are investigating; the reel_script says 'போலீசார் விசாரணை நடத்தி வருகின்றனர்', which matches.
-claude rewrite 3 anthropic/claude-haiku-5-5: 4 problems
-  fact-check: The reel_script and slides say the headmistress 'slapped' (அறைந்ததாக) the girl, but the article says she slapped her cheek on the source claim; this is consistent. However, the caption says 'அறைந்ததாக' and the English line says 'slapped' which matches. No mismatch found there.
-  fact-check: The slides_spec line 'மாணவியின் தந்தை பள்ளிக்குச் சென்று அழைத்துச் சென்றார்' omits that the father took her to the hospital for treatment, which is in the article; minor but acceptable.
-  fact-check: The reel_script states the girl 'தனது சகோதரருக்குத் தெரிவித்தார்' (informed her brother) and 'தகவல் அறிந்த' is added wording; the article says the message was relayed via another teacher's phone, which the reel_script omits, so the detail that a teacher's phone was used is missing from the reel_script.
-  fact-check: The reel_script says 'தலைமை ஆசிரியை மகேஸ்வரி (47 வயது)' but the article says the complaint is pending and police are investigating; the reel_script says 'போலீசார் விசாரணை நடத்தி வருகின்றனர்', which matches.
-hl1 shortened at a natural break: 'மணப்பாறையில் மாணவியைத் தாக்கியதாகப் புகார்' -> 'மணப்பாறையில் தாக்கியதாகப் புகார்'
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-proofread skipped: no free model answered: None
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-free fact-check unavailable, using Claude: no free model answered: None
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok anthropic/claude-haiku-5-5
-factcheck by anthropic/claude-haiku-5-5: 5 problems
-  The draft's reel_script says the police patrol was carried out by 'போலீசார்' and omits the specific names; that is acceptable, but the caption and reel mention 'தடை செய்யப்பட்ட குட்கா விற்றவர்' while the article calls the seized item 'போதைப் பொருள்கள்' — the seller is only described as selling gutka, which matches the article's content, so no issue there.
-  The reel_script sentence 'அப்போது ராசையன் கோயில் பகுதியைச் சேர்ந்த க சரவணன், 47 வயது நபர் சிறார்களுக்கும் கல்லூரி மாணவர்களுக்கும் குட்கா விற்றது தெரியவந்தது' mixes the arrest-location detail with the seller's identity and age in an awkwardly joined sentence, combining two facts (who and what he sold) without clear grammatical separation.
-  The reel_script states 'அவரிடமிருந்து 8.5 கிலோ குட்கா பறிமுதல் செய்யப்பட்டது' and then lists bike, phone and money separately, but the caption's line 'போலீசாரால் பறிமுதல் செய்யப்பட்டன' and the slides_spec's 'போலீசார் இந்தக் கைதை நடத்தினர்' are phrasings that are not exact to the article, which says the police (காவல்துறையினா்) seized the items after arresting him.
-  The reel_script omits the important fact that the arrest was made by the police during patrol at the Kariyamanikkam junction road as the direct cause; it mentions the patrol but not explicitly that the arrest resulted from it, leaving the cause-and-effect link missing.
-  The slides_spec line 'புதன்கிழமை போலீசார் இந்தக் கைதை நடத்தினர்' is not grammatically clear Tamil and implies a different action than the article's arrest-and-seizure of gutka and related items.
-claude rewrite 3 anthropic/claude-haiku-5-5: 5 problems
-  fact-check: The draft's reel_script says the police patrol was carried out by 'போலீசார்' and omits the specific names; that is acceptable, but the caption and reel mention 'தடை செய்யப்பட்ட குட்கா விற்றவர்' while the article calls the seized item 'போதைப் பொருள்கள்' — the seller is only described as selling gutka, which matches the article's content, so no issue there.
-  fact-check: The reel_script sentence 'அப்போது ராசையன் கோயில் பகுதியைச் சேர்ந்த க சரவணன், 47 வயது நபர் சிறார்களுக்கும் கல்லூரி மாணவர்களுக்கும் குட்கா விற்றது தெரியவந்தது' mixes the arrest-location detail with the seller's identity and age in an awkwardly joined sentence, combining two facts (who and what he sold) without clear grammatical separation.
-  fact-check: The reel_script states 'அவரிடமிருந்து 8.5 கிலோ குட்கா பறிமுதல் செய்யப்பட்டது' and then lists bike, phone and money separately, but the caption's line 'போலீசாரால் பறிமுதல் செய்யப்பட்டன' and the slides_spec's 'போலீசார் இந்தக் கைதை நடத்தினர்' are phrasings that are not exact to the article, which says the police (காவல்துறையினா்) seized the items after arresting him.
-  fact-check: The reel_script omits the important fact that the arrest was made by the police during patrol at the Kariyamanikkam junction road as the direct cause; it mentions the patrol but not explicitly that the arrest resulted from it, leaving the cause-and-effect link missing.
-  fact-check: The slides_spec line 'புதன்கிழமை போலீசார் இந்தக் கைதை நடத்தினர்' is not grammatically clear Tamil and implies a different action than the article's arrest-and-seizure of gutka and related items.
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-proofread skipped: no free model answered: None
-gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-image match check unavailable: gemini-3.5-flash: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models
-ok anthropic/claude-haiku-5-5
-images made: 1 for 'Elderly man killed as mud wall collapses'
-ok anthropic/claude-haiku-5-5
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261126-1845","first":"RN-161"}
-posting job started at once
-real photo skipped (photo uploaded 2026-11-14 (older than the news)): https://media.dinamani.com/dinamani/2026-11-14/3zpfxwhp/%E0%AE%95%E0%AF%88%E0%AE%A4%E0%AF%
-real photo skipped (photo uploaded 2026-11-14 (older than the news)): https://media.dinamani.com/dinamani/2026-11-14/3zpfxwhp/கைது.jfif?w=1200&h=675&auto=format
-image match check unavailable: gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 2 for 'Man arrested for selling banned gutka in'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261126-1846","first":"RN-162"}
-real photo skipped (photo uploaded 2026-11-10 (older than the news)): https://media.dinamani.com/dinamani/2026-11-10/dixz3fgw/%E0%AE%B5%E0%AE%B4%E0%AE%95%E0%AF%
-real photo skipped (photo uploaded 2026-11-10 (older than the news)): https://media.dinamani.com/dinamani/2026-11-10/dixz3fgw/வழக்கு?w=1200&h=675&auto=format%2C
+ok groq/qwen/qwen3.8-27b (1s)
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 2 for 'Headmistress accused of slapping school '
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261126-1846","first":"RN-163"}
+images made: 3 for 'Musiri: cargo van of drunk-driving suspe'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261127-1906","first":"RN-181"}
 earlier stories still waiting for images: []
 instagram check: 50 recent posts read from the page
 source dinamalar list: 15 items
-source google 'திருச்சி': 39 items
+source google 'திருச்சி': 52 items
 source bing 'திருச்சி': 12 items
-source google 'திருச்சிராப்பள்ளி': 13 items
+source google 'திருச்சிராப்பள்ளி': 12 items
 source bing 'திருச்சிராப்பள்ளி': 12 items
-source google 'ஸ்ரீரங்கம்': 9 items
+source google 'ஸ்ரீரங்கம்': 2 items
 source bing 'ஸ்ரீரங்கம்': 12 items
 source google 'திருவெறும்பூர்': 3 items
 source bing 'திருவெறும்பூர்': 11 items
-source google 'லால்குடி': 3 items
+source google 'லால்குடி': 4 items
 source bing 'லால்குடி': 12 items
-source google 'மணப்பாறை': 8 items
+source google 'மணப்பாறை': 7 items
 source bing 'மணப்பாறை': 12 items
 source google 'முசிறி': 2 items
 source bing 'முசிறி': 12 items
-source google 'தொட்டியம்': 1 items
-source bing 'தொட்டியம்': 6 items
+source google 'தொட்டியம்': 0 items
+source bing 'தொட்டியம்': 5 items
 source google 'துறையூர்': 6 items
 source bing 'துறையூர்': 12 items
-source google 'மண்ணச்சநல்லூர்': 2 items
-source bing 'மண்ணச்சநல்லூர்': 11 items
+source google 'மண்ணச்சநல்லூர்': 5 items
+source bing 'மண்ணச்சநல்லூர்': 12 items
 source google 'உப்பிலியபுரம்': 0 items
-source bing 'உப்பிலியபுரம்': 6 items
-source google 'மருங்காபுரி': 0 items
-source bing 'மருங்காபுரி': 1 items
-source google 'சமயபுரம்': 4 items
+source bing 'உப்பிலியபுரம்': 5 items
+source google 'மருங்காபுரி': 1 items
+source bing 'மருங்காபுரி': 2 items
+source google 'சமயபுரம்': 5 items
 source bing 'சமயபுரம்': 12 items
-source google 'திருவானைக்காவல்': 4 items
+source google 'திருவானைக்காவல்': 0 items
 source bing 'திருவானைக்காவல்': 8 items
-source google 'துவாக்குடி': 0 items
+source google 'துவாக்குடி': 1 items
 source bing 'துவாக்குடி': 5 items
-source google 'நவல்பட்டு': 0 items
-source bing 'நவல்பட்டு': 4 items
-source google 'சோமரசம்பேட்டை': 2 items
+source google 'நவல்பட்டு': 1 items
+source bing 'நவல்பட்டு': 5 items
+source google 'சோமரசம்பேட்டை': 1 items
 source bing 'சோமரசம்பேட்டை': 9 items
-source google 'புள்ளம்பாடி': 0 items
-source bing 'புள்ளம்பாடி': 10 items
-source google 'திருச்சி மாவட்டம்': 25 items
-source bing 'திருச்சி மாவட்டம்': 12 items
-source google 'திருச்சி மின்தடை': 11 items
-source bing 'திருச்சி மின்தடை': 11 items
-source google 'திருச்சிராப்பள்ளி மின்தடை': 4 items
+source google 'புள்ளம்பாடி': 1 items
+source bing 'புள்ளம்பாடி': 9 items
+source google 'திருச்சி மாவட்டம்': 21 items
+source bing 'திருச்சி மாவட்டம்': 11 items
+source google 'திருச்சி மின்தடை': 9 items
+source bing 'திருச்சி மின்தடை': 10 items
+source google 'திருச்சிராப்பள்ளி மின்தடை': 1 items
 source bing 'திருச்சிராப்பள்ளி மின்தடை': 3 items
-source google 'மணப்பாறை மின்தடை': 3 items
+source google 'மணப்பாறை மின்தடை': 0 items
 source bing 'மணப்பாறை மின்தடை': 4 items
-source google 'ஸ்ரீரங்கம் மின்தடை': 3 items
+source google 'ஸ்ரீரங்கம் மின்தடை': 0 items
 source bing 'ஸ்ரீரங்கம் மின்தடை': 7 items
 source google 'லால்குடி மின்தடை': 1 items
 source bing 'லால்குடி மின்தடை': 3 items
 source google 'திருச்சி ஆட்சியர் அறிவிப்பு': 5 items
 source bing 'திருச்சி ஆட்சியர் அறிவிப்பு': 12 items
-source google 'திருச்சி மாவட்ட நிர்வாகம்': 5 items
+source google 'திருச்சி மாவட்ட நிர்வாகம்': 4 items
 source bing 'திருச்சி மாவட்ட நிர்வாகம்': 11 items
 source google 'திருச்சி வேலைவாய்ப்பு முகாம்': 0 items
 source bing 'திருச்சி வேலைவாய்ப்பு முகாம்': 1 items
-source google 'திருச்சி ஆட்சேர்ப்பு': 18 items
-source bing 'திருச்சி ஆட்சேர்ப்பு': 3 items
+source google 'திருச்சி ஆட்சேர்ப்பு': 20 items
+source bing 'திருச்சி ஆட்சேர்ப்பு': 2 items
 source google 'திருச்சி சிறப்பு முகாம்': 4 items
 source bing 'திருச்சி சிறப்பு முகாம்': 8 items
 source google 'திருச்சி குறைதீர் கூட்டம்': 1 items
-source bing 'திருச்சி குறைதீர் கூட்டம்': 2 items
-source google 'தில்லை நகர்': 1 items
+source bing 'திருச்சி குறைதீர் கூட்டம்': 3 items
+source google 'தில்லை நகர்': 2 items
 source bing 'தில்லை நகர்': 4 items
 source google 'உறையூர்': 0 items
 source bing 'உறையூர்': 9 items
-source google 'பாலக்கரை': 1 items
-source bing 'பாலக்கரை': 7 items
-source google 'தென்னூர்': 2 items
+source google 'பாலக்கரை': 2 items
+source bing 'பாலக்கரை': 6 items
+source google 'தென்னூர்': 1 items
 source bing 'தென்னூர்': 3 items
 source google 'காஜாமலை': 1 items
 source bing 'காஜாமலை': 8 items
-source google 'மலைக்கோட்டை': 6 items
+source google 'மலைக்கோட்டை': 0 items
 source bing 'மலைக்கோட்டை': 12 items
 source google 'திருவெறும்பூர் மின்தடை': 0 items
 source bing 'திருவெறும்பூர் மின்தடை': 0 items
 source google 'முசிறி மின்தடை': 0 items
-source bing 'முசிறி மின்தடை': 5 items
+source bing 'முசிறி மின்தடை': 4 items
 source google 'தொட்டியம் மின்தடை': 0 items
 source bing 'தொட்டியம் மின்தடை': 1 items
-source google 'துறையூர் மின்தடை': 1 items
+source google 'துறையூர் மின்தடை': 0 items
 source bing 'துறையூர் மின்தடை': 7 items
 source google 'மண்ணச்சநல்லூர் மின்தடை': 0 items
 source bing 'மண்ணச்சநல்லூர் மின்தடை': 2 items
@@ -357,7 +326,7 @@ source google 'உப்பிலியபுரம் மின்தடை': 0
 source bing 'உப்பிலியபுரம் மின்தடை': 0 items
 source google 'மருங்காபுரி மின்தடை': 0 items
 source bing 'மருங்காபுரி மின்தடை': 0 items
-source google 'சமயபுரம் மின்தடை': 0 items
+source google 'சமயபுரம் மின்தடை': 1 items
 source bing 'சமயபுரம் மின்தடை': 3 items
 source google 'திருவானைக்காவல் மின்தடை': 0 items
 source bing 'திருவானைக்காவல் மின்தடை': 0 items
@@ -365,159 +334,145 @@ source google 'துவாக்குடி மின்தடை': 0 items
 source bing 'துவாக்குடி மின்தடை': 0 items
 source google 'நவல்பட்டு மின்தடை': 0 items
 source bing 'நவல்பட்டு மின்தடை': 0 items
-source google 'திருச்சி மின்தடை நாளை': 11 items
+source google 'திருச்சி மின்தடை நாளை': 12 items
 source bing 'திருச்சி மின்தடை நாளை': 11 items
-source google 'திருச்சி மின்தடை பகுதிகள்': 11 items
+source google 'திருச்சி மின்தடை பகுதிகள்': 9 items
 source bing 'திருச்சி மின்தடை பகுதிகள்': 11 items
-source google 'திருச்சி மின் நிறுத்தம்': 6 items
+source google 'திருச்சி மின் நிறுத்தம்': 3 items
 source bing 'திருச்சி மின் நிறுத்தம்': 6 items
 source google தினமலர் 'திருச்சி': 100 items
 source bing தினமலர் 'திருச்சி': 12 items
-source google தினமலர் 'திருச்சிராப்பள்ளி': 14 items
+source google தினமலர் 'திருச்சிராப்பள்ளி': 10 items
 source bing தினமலர் 'திருச்சிராப்பள்ளி': 3 items
-source google தினமலர் 'மணப்பாறை': 7 items
+source google தினமலர் 'மணப்பாறை': 3 items
 source bing தினமலர் 'மணப்பாறை': 12 items
 source google தினமணி 'திருச்சி': 100 items
 source bing தினமணி 'திருச்சி': 12 items
-source google தினமணி 'திருச்சிராப்பள்ளி': 5 items
+source google தினமணி 'திருச்சிராப்பள்ளி': 4 items
 source bing தினமணி 'திருச்சிராப்பள்ளி': 12 items
-source google தினமணி 'மணப்பாறை': 3 items
+source google தினமணி 'மணப்பாறை': 9 items
 source bing தினமணி 'மணப்பாறை': 12 items
 source google தினகரன் 'திருச்சி': 100 items
 source bing தினகரன் 'திருச்சி': 12 items
-source google தினகரன் 'திருச்சிராப்பள்ளி': 2 items
+source google தினகரன் 'திருச்சிராப்பள்ளி': 0 items
 source bing தினகரன் 'திருச்சிராப்பள்ளி': 8 items
 source google தினகரன் 'மணப்பாறை': 0 items
-source bing தினகரன் 'மணப்பாறை': 2 items
+source bing தினகரன் 'மணப்பாறை': 1 items
 source google ஒன்இந்தியா 'திருச்சி': 100 items
 source bing ஒன்இந்தியா 'திருச்சி': 12 items
 source google ஒன்இந்தியா 'திருச்சிராப்பள்ளி': 100 items
 source bing ஒன்இந்தியா 'திருச்சிராப்பள்ளி': 12 items
-source google ஒன்இந்தியா 'மணப்பாறை': 2 items
+source google ஒன்இந்தியா 'மணப்பாறை': 1 items
 source bing ஒன்இந்தியா 'மணப்பாறை': 10 items
-source google தினத்தந்தி 'திருச்சி': 37 items
+source google தினத்தந்தி 'திருச்சி': 44 items
 source bing தினத்தந்தி 'திருச்சி': 12 items
-source google தினத்தந்தி 'திருச்சிராப்பள்ளி': 9 items
+source google தினத்தந்தி 'திருச்சிராப்பள்ளி': 7 items
 source bing தினத்தந்தி 'திருச்சிராப்பள்ளி': 11 items
 source google தினத்தந்தி 'மணப்பாறை': 0 items
 source bing தினத்தந்தி 'மணப்பாறை': 2 items
-source google மாலைமலர் 'திருச்சி': 11 items
+source google மாலைமலர் 'திருச்சி': 17 items
 source bing மாலைமலர் 'திருச்சி': 12 items
 source google மாலைமலர் 'திருச்சிராப்பள்ளி': 3 items
 source bing மாலைமலர் 'திருச்சிராப்பள்ளி': 7 items
 source google மாலைமலர் 'மணப்பாறை': 0 items
 source bing மாலைமலர் 'மணப்பாறை': 1 items
-source google தந்தி டிவி 'திருச்சி': 2 items
+source google தந்தி டிவி 'திருச்சி': 5 items
 source bing தந்தி டிவி 'திருச்சி': 4 items
 source google தந்தி டிவி 'திருச்சிராப்பள்ளி': 0 items
 source bing தந்தி டிவி 'திருச்சிராப்பள்ளி': 0 items
-source google தந்தி டிவி 'மணப்பாறை': 1 items
+source google தந்தி டிவி 'மணப்பாறை': 0 items
 source bing தந்தி டிவி 'மணப்பாறை': 1 items
-source google இந்து தமிழ் 'திருச்சி': 9 items
+source google இந்து தமிழ் 'திருச்சி': 14 items
 source bing இந்து தமிழ் 'திருச்சி': 12 items
 source google இந்து தமிழ் 'திருச்சிராப்பள்ளி': 0 items
 source bing இந்து தமிழ் 'திருச்சிராப்பள்ளி': 1 items
 source google இந்து தமிழ் 'மணப்பாறை': 0 items
-source bing இந்து தமிழ் 'மணப்பாறை': 1 items
-source google பாலிமர் 'திருச்சி': 5 items
-source bing பாலிமர் 'திருச்சி': 3 items
+source bing இந்து தமிழ் 'மணப்பாறை': 0 items
+source google பாலிமர் 'திருச்சி': 6 items
+source bing பாலிமர் 'திருச்சி': 5 items
 source google பாலிமர் 'திருச்சிராப்பள்ளி': 0 items
 source bing பாலிமர் 'திருச்சிராப்பள்ளி': 0 items
 source google பாலிமர் 'மணப்பாறை': 0 items
 source bing பாலிமர் 'மணப்பாறை': 0 items
-source google மாலை முரசு 'திருச்சி': 2 items
+source google மாலை முரசு 'திருச்சி': 3 items
 source bing மாலை முரசு 'திருச்சி': 2 items
 source google மாலை முரசு 'திருச்சிராப்பள்ளி': 1 items
 source bing மாலை முரசு 'திருச்சிராப்பள்ளி': 0 items
 source google மாலை முரசு 'மணப்பாறை': 0 items
 source bing மாலை முரசு 'மணப்பாறை': 0 items
 source google நியூஸ்18 தமிழ் 'திருச்சி': 100 items
-source bing நியூஸ்18 தமிழ் 'திருச்சி': 12 items
-source google நியூஸ்18 தமிழ் 'திருச்சிராப்பள்ளி': 4 items
-source bing நியூஸ்18 தமிழ் 'திருச்சிராப்பள்ளி': 9 items
+source bing நியூஸ்18 தமிழ் 'திருச்சி': 11 items
+source google நியூஸ்18 தமிழ் 'திருச்சிராப்பள்ளி': 2 items
+source bing நியூஸ்18 தமிழ் 'திருச்சிராப்பள்ளி': 8 items
 source google நியூஸ்18 தமிழ் 'மணப்பாறை': 0 items
 source bing நியூஸ்18 தமிழ் 'மணப்பாறை': 5 items
-source google இந்தியன் எக்ஸ்பிரஸ் தமிழ் 'திருச்சி': 14 items
+source google இந்தியன் எக்ஸ்பிரஸ் தமிழ் 'திருச்சி': 9 items
 source bing இந்தியன் எக்ஸ்பிரஸ் தமிழ் 'திருச்சி': 12 items
 source google இந்தியன் எக்ஸ்பிரஸ் தமிழ் 'திருச்சிராப்பள்ளி': 0 items
 source bing இந்தியன் எக்ஸ்பிரஸ் தமிழ் 'திருச்சிராப்பள்ளி': 2 items
-source google இந்தியன் எக்ஸ்பிரஸ் தமிழ் 'மணப்பாறை': 0 items
+source google இந்தியன் எக்ஸ்பிரஸ் தமிழ் 'மணப்பாறை': 2 items
 source bing இந்தியன் எக்ஸ்பிரஸ் தமிழ் 'மணப்பாறை': 1 items
 source தினமணி திருச்சி: 5 items
-source தினகரன் திருச்சி: 10 items
+source தினகரன் திருச்சி: 7 items
 source இந்து தமிழ் திருச்சி: 9 items
 source விகடன் திருச்சி: 14 items
 source பாலிமர் திருச்சி: 6 items
-Tamil outlets only: kept 1324 of 1568 items
-all sources: 1324 items -> 788 different news
-candidate filter: not written=397, not Trichy district news (state-wide / o=267, already filed=50, collected=27, old=26, not written=15, checked earlier=4, checked earlier=1, not written=1
-to write: 27 Trichy district candidates (max 3 stories)
-round: top 3 of 27 candidates + 3 power cut(s)
-candidates waiting: 27 Trichy; time left 52 min
-try (N) manual=False: சமயபுரத்தில் போதைப் பொருள்கள் விற்றவா் கைது
-try (N) manual=False: பெண் தற்கொலை வழக்கில் கணவா், மாமியாா் கைது
-try (N) manual=False: தமிழ்நாட்டின் பல்வேறு இடங்களில் நாளை(26.11.2026) மின்தடை அறி
-skip (N) could not open: தமிழ்நாட்டின் பல்வேறு இடங்களில் நாளை(26.11.2026) ம [https://tamil.news18.com/photogallery/tamil-nadu/power-outag] 403 Client Error: Forbidden for url: https://tamil.news18.com/photogallery/tamil
+source தினத்தந்தி திருச்சி: 0 items
+source மாலைமலர் திருச்சி: 2 items
+source மாலைமலர் திருச்சி (TN): 0 items
+Tamil outlets only: kept 1307 of 1554 items
+all sources: 1307 items -> 807 different news
+manual link added: https://www.dinakaran.com/district/trichy-271126-1
+candidate filter: not written=403, not Trichy district news (state-wide / o=277, already filed=58, old=24, collected=17, not written=14, checked earlier=10, checked earlier=4, checked earlier=1
+to write: 17 Trichy district candidates (max 3 stories)
+round: top 3 of 17 candidates + 2 power cut(s)
+candidates waiting: 17 Trichy; time left 52 min
+try (N) manual=True: https://www.dinakaran.com/district/trichy-271126-1
 try (N) manual=False: நாளைய மின்தடை: ரேஸ்கோா்ஸ்
-skip (N) same event as RN-144: பெண் தற்கொலை வழக்கில் கணவா், மாமியாா் கைது
-try (N) manual=False: ராணுவ வாகனத்தில் மோதிய அரசு பேருந்து; 10 பேர் காயம்: ஒரு மணி
+try (N) manual=False: பராமரிப்புப் பணி எதிரொலி: வெள்ளிக் கிழமை மின்தடை ஏற்படும் பக
 skip (N) too old (2026-11-21T19:39:55.027Z): நாளைய மின்தடை: 
 கவுண்டம்பாளையம்
-try (N) manual=False: புறவழிச்சாலையில் மாடுகள் உலா வாகன ஓட்டிகளுக்கு விபத்து அபாயம
-skip (N) same event as RN-159: ராணுவ வாகனத்தில் மோதிய அரசு பேருந்து; 10 பேர் காயம
-try (N) manual=False: மனைவி மாயம் கணவர் தற்கொலை
-skip (N) no Trichy place in article: புறவழிச்சாலையில் மாடுகள் உலா வாகன ஓட்டிகளுக்கு விப
-try (N) manual=False: கைது செய்க
-skip (N) too old (2026-11-25T21:08:33+05:30): மனைவி மாயம் கணவர் தற்கொலை
-try (N) manual=False: நகராட்சி நிர்வாக துறையில் டெண்டர் முறைகேடு வழக்கு; கே.என்.நே
-skip (N) only a headline, 0 words of text: Madurai News in Tamil | மதுரை செய்திகள் | Latest M [https://tamil.oneindia.com/news/madurai/]
-try (N) manual=False: நாளை மறுதினம் மின்தடை 17.11.2026
-skip (N) too old (2026-11-15T19:42:03+05:30): நாளை மறுதினம் மின்தடை 17.11.2026
-try (N) manual=False: திருச்சி மாநகரில் பலத்த மழை
-skip (N) same event as RN-157: திருச்சி மாநகரில் பலத்த மழை
-try (N) manual=False: இரு பெண்களிடம் அடுத்தடுத்து பாலியல் அத்துமீறல்: மா்ம நபா்களை
-skip (N) no Trichy place in article: இரு பெண்களிடம் அடுத்தடுத்து பாலியல் அத்துமீறல்: மா
-try (N) manual=False: ரூ.500 கோடி வரை சுருட்டிய மோசடி மன்னன் மீண்டும் கைது
-skip (N) too old (2025-09-13T02:10:00+05:30): ரூ.500 கோடி வரை சுருட்டிய மோசடி மன்னன் மீண்டும் கை
-try (N) manual=False: கைது
-skip (N) only a headline, 11 words of text: கைது [https://www.dinamalar.com/photos/social-media-cards/370236]
-try (N) manual=False: தொழிலாளியிடம் நகையை பறிக்க முயன்ற இளைஞா் கைது
-skip (N) no Trichy place in article: நகராட்சி நிர்வாக துறையில் டெண்டர் முறைகேடு வழக்கு;
-try (N) manual=False: வன விலங்குகளை வேட்டையாட முயன்றவா் கைது
-skip (N) no Trichy place in article: தொழிலாளியிடம் நகையை பறிக்க முயன்ற இளைஞா் கைது
-try (N) manual=False: மணப்பாறை அருகே 323 கிலோ குட்கா பறிமுதல்! ஒருவர் கைது
-skip (N) too old (2026-11-14T07:51:06.449Z): மணப்பாறை அருகே 323 கிலோ குட்கா பறிமுதல்! ஒருவர் கை
-try (N) manual=False: கே.என்.நேரு சகோதரரின் உதவியாளர் கைது - லஞ்ச ஒழிப்புத்துறை நட
-skip (N) no Trichy place in article: வன விலங்குகளை வேட்டையாட முயன்றவா் கைது
-try (N) manual=False: அமலாக்கத்துறை வழக்குகளில் சொத்துகளை பறிமுதல் செய்ய கட்டுப்பா
-skip (N) no Trichy place in article: அமலாக்கத்துறை வழக்குகளில் சொத்துகளை பறிமுதல் செய்ய
-try (N) manual=False: திருச்சி அருகே சுவா் இடிந்து விழுந்து முதியவா் உயிரிழப்பு
-skip (N) no Trichy place in article: கே.என்.நேரு சகோதரரின் உதவியாளர் கைது - லஞ்ச ஒழிப்ப
-try (N) manual=False: முசிறி அருகே கோர விபத்து: ஆம்னி வேன் மரத்தில் மோதி 8 போ் பலி
-skip (N) too old (2026-11-22T15:31:35.330Z): முசிறி அருகே கோர விபத்து:  ஆம்னி வேன் மரத்தில் மோ
-try (N) manual=False: 3 டூவீலர்கள் மோதி விபத்து வாலிபர் பலி: 3 பேர் காயம்
-skip (N) too old (2026-11-16T19:20:34+05:30): 3 டூவீலர்கள் மோதி விபத்து வாலிபர் பலி: 3 பேர் காயம
-try (N) manual=False: ஏரியில் குளிக்கச் சென்ற இளைஞா் நீரில் மூழ்கி உயிரிழப்பு
-skip (N) no Trichy place in article: ஏரியில் குளிக்கச் சென்ற இளைஞா் நீரில் மூழ்கி உயிரி
-try (N) manual=False: பெண் ஆட்சியருக்கு ஆபாச குறுஞ்செய்தி அனுப்பிய விவகாரம்: தவெக 
-skip (N) no Trichy place in article: பெண் ஆட்சியருக்கு ஆபாச குறுஞ்செய்தி அனுப்பிய விவகா
-try (N) manual=False: மக்களுக்கு இடையூறு 2 பைக்குகள் பறிமுதல்
-skip (N) too old (2026-11-14T06:22:00+05:30): மக்களுக்கு இடையூறு 2 பைக்குகள் பறிமுதல்
-try (N) manual=False: பள்ளி மாணவியை தலைமை ஆசிரியை தாக்கியதாகப் புகாா்
-auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 1})
-posting job started at once
-try (N) manual=False: நடுவானில் பெல்ட்டால் கழுத்தை நெரித்த பயணி.. கண்ணாடியை உடைத்த
+try (N) manual=False: 720 பக்க சார்ஜ்ஷீட்.. சிறுமி பாலியல் வழக்கிலிருந்து விடுவிக்
+skip (N) no Trichy place in article: பராமரிப்புப் பணி எதிரொலி: வெள்ளிக் கிழமை மின்தடை ஏ
+try (N) manual=False: வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
+skip (N) no Trichy place in article: 720 பக்க சார்ஜ்ஷீட்.. சிறுமி பாலியல் வழக்கிலிருந்த
+try (N) manual=False: திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
+skip (N) already filed: திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்க
+try (N) manual=False: முதியவரை தாக்கியவர் கைது
 auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})
-auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})
-skip (N) no Trichy place in article: நடுவானில் பெல்ட்டால் கழுத்தை நெரித்த பயணி.. கண்ணாட
-candidate loop ended: left 0, tried={'N': 27}, done={'N': 3}, time left 49 min
+posting job started at once
+try (N) manual=False: மாற்றுத்திறனாளி இளைஞா் கொலை: சகோதரா் உள்பட 5 போ் கைது
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})
+try (N) manual=False: பெண் தற்கொலை வழக்கில் கணவா், மாமியாா் கைது
+skip (N) no Trichy place in article: மாற்றுத்திறனாளி இளைஞா் கொலை: சகோதரா் உள்பட 5 போ் 
+try (N) manual=False: இணையவழியில் தொழிலாளியிடம் ரூ. 2.41 லட்சம் மோசடி
+skip (N) too old (2026-11-25T21:12:24.722Z): பெண் தற்கொலை வழக்கில் கணவா், மாமியாா் கைது
+try (N) manual=False: மது பாட்டில் விற்றவர் கைது
+skip (N) no Trichy place in article: இணையவழியில் தொழிலாளியிடம் ரூ. 2.41 லட்சம் மோசடி
+try (N) manual=False: கூரியரில் வந்த போதை பொருட்கள்! மாறுவேடத்தில் சென்று மடக்கி ப
+skip (N) no Trichy place in article: கூரியரில் வந்த போதை பொருட்கள்! மாறுவேடத்தில் சென்ற
+try (N) manual=False: சாலை விபத்தில்
+கல்லூரி மாணவா் உயிரிழப்பு
+skip (N) no Trichy place in article: மது பாட்டில் விற்றவர் கைது
+try (N) manual=False: கார் மோதி விவசாயி பலி
+skip (N) no Trichy place in article: கார் மோதி விவசாயி பலி - Dinakaran
+try (N) manual=False: Road Accident | TN Police | கால்வாயில் கவிழ்ந்த லோடு வேன் - 
+skip (N) too old (2026-11-05T22:21:02+05:30): சாலை விபத்தில் தாய், மகன் உயிரிழப்பு
+try (N) manual=False: கோவில் உண்டியலை உடைத்து நகை திருடிய வாலிபர் சிக்கினார்
+skip (N) too old (2026-11-25T17:05:02+05:30): கோவில் உண்டியலை உடைத்து நகை திருடி சிக்கிய வாலிபர்
+try (N) manual=False: நாடு தழுவிய சிறை நிரப்பும் போராட்டம்: இந்திய கம்யூனிஸ்ட் கட்
+skip (N) no Trichy place in article: நாடு தழுவிய சிறை நிரப்பும் போராட்டம்: இந்திய கம்யூ
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 9})
+NOT filed (N) முதியவரை தாக்கியவர் கைது - Dinakaran: duplicate after write
+candidate loop ended: left 0, tried={'N': 17}, done={'N': 3}, time left 48 min
 filed: 3 Trichy district stories (target 3), reels only
-queue: 0 news waiting to be written
-All News sheet: {"ok":true,"added":34,"updated":26}
-All News sheet: {"ok":true,"added":47,"updated":13}
-All News sheet: {"ok":true,"added":57,"updated":3}
-All News sheet: {"ok":true,"added":54,"updated":6}
-All News sheet: {"ok":true,"added":54,"updated":6}
-All News sheet: {"ok":true,"added":48,"updated":12}
-All News sheet: {"ok":true,"added":49,"updated":10} 
+queue: 1 news waiting to be written
+All News sheet: {"ok":true,"added":14,"updated":46}
+All News sheet: {"ok":true,"added":42,"updated":18}
+All News sheet: {"ok":true,"added":51,"updated":9}
+All News sheet: {"ok":true,"added":45,"updated":15}
+All News sheet: {"ok":true,"added":39,"updated":21}
+All News sheet: {"ok":true,"added":33,"updated":27}
+All News sheet: {"ok":true,"added":22,"updated":38}
+All News sheet: {"ok":true,"added":1,"updated":0} 
 stories: 3
