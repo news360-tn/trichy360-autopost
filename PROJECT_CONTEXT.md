@@ -83,6 +83,7 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-27 | `728a109` | Writer hint: soft news opens with what changes for local people |
 | 2026-11-27 | `c396160` | Topic labels: Tamil word endings and missing words (better ranking data) |
 | 2026-11-27 | `b6d872c` | stories shared / Instagram pause |
 | 2026-11-27 | `2138c1c` | Reel looks: own accent table (the topic-theme test covers topic themes only) |
@@ -112,5 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-27 | `9229822` | stories shared / Instagram pause |
 | 2026-11-27 | `3fdbdef` | stories shared / Instagram pause |
 | 2026-11-27 | `60f3b45` | stories shared / Instagram pause |
-| 2026-11-27 | `fc3cdbf` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
