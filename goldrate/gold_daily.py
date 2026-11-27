@@ -37,7 +37,7 @@ STATE_DIR = HERE / "state"
 
 PAGES = {      # owner 14 Nov: every page, each with its own logo and handle; the rate is the same Tamil Nadu (Chennai) rate
     "namakkal": {"town": "நாமக்கல்", "name1": "நாமக்கல்", "handle": "namakkal.360", "tag": "#Namakkal360", "brand_px": 54},
-    "rasipuram": {"town": "இராசிபுரம்", "name1": "இராசிபுரம்", "handle": "rasipuram.360", "tag": "#Rasipuram360", "brand_px": 50},
+    "rasipuram": {"town": "இராசிபுரம்", "name1": "இராசிபுரம்", "handle": "rasipuram360.official", "tag": "#Rasipuram360", "brand_px": 50},
     "coimbatore": {"town": "கோவை", "name1": "கோவை", "handle": "coimbatore360_official", "tag": "#Coimbatore360", "brand_px": 54},
     "salem": {"town": "சேலம்", "name1": "சேலம்", "handle": "salem360.official", "tag": "#Salem360", "brand_px": 54},
     "erode": {"town": "ஈரோடு", "name1": "ஈரோடு", "handle": "erode360.official", "tag": "#Erode360", "brand_px": 54},
