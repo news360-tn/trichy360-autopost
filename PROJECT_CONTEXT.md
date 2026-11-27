@@ -83,34 +83,34 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
-| 2026-11-27 | `416308d` | Power cuts: never post a cut that is over; post cancellations and reschedules |
-| 2026-11-27 | `d84dcc2` | stories shared / Instagram pause |
-| 2026-11-27 | `c0819c5` | stories shared / Instagram pause |
-| 2026-11-27 | `1f36e6d` | Page names as the owner writes them: Tiruppur 360 |
-| 2026-11-27 | `7b16701` | stories shared / Instagram pause |
-| 2026-11-27 | `29bdd35` | Instagram handles: the real usernames of every page |
-| 2026-11-27 | `0101e6d` | Rasipuram 360 username is rasipuram360.official |
-| 2026-11-27 | `714e0f4` | stories shared / Instagram pause |
-| 2026-11-27 | `a38af03` | stories shared / Instagram pause |
-| 2026-11-27 | `784cdb5` | stories shared / Instagram pause |
-| 2026-11-27 | `ea55590` | Rasipalan theme: Coimbatore page named in full (கோயம்புத்தூர்) gets its colour too |
-| 2026-11-27 | `b05e586` | Gold rate and rasipalan reels: each page its own colour theme |
-| 2026-11-27 | `7d2dc33` | stories shared / Instagram pause |
-| 2026-11-27 | `d963214` | Power cuts are never missed: held notices are rewritten at once |
-| 2026-11-27 | `d09f503` | stories shared / Instagram pause |
-| 2026-11-27 | `04893ac` | stories shared / Instagram pause |
-| 2026-11-27 | `1790b7e` | stories shared / Instagram pause |
-| 2026-11-27 | `95aeb37` | pick: written and posted |
-| 2026-11-27 | `111c380` | pick: picked news saved |
-| 2026-11-27 | `cd9d54a` | Blocked Google News links: also look for the same headline at another trusted outlet |
-| 2026-11-27 | `a1b5446` | stories shared / Instagram pause |
-| 2026-11-27 | `9c56c8c` | pick: picked news saved |
-| 2026-11-27 | `63af17b` | pick: list sent |
-| 2026-11-27 | `be6ce93` | stories shared / Instagram pause |
-| 2026-11-27 | `946e0e1` | pick: written and posted |
-| 2026-11-27 | `5353c16` | pick: list sent |
-| 2026-11-27 | `33c23f9` | stories shared / Instagram pause |
-| 2026-11-27 | `0798540` | Sources: Dailythanthi and Maalaimalar Tamil Nadu / district lists (this district's links only) |
-| 2026-11-27 | `a288edd` | stories shared / Instagram pause |
-| 2026-11-27 | `8297b5e` | stories shared / Instagram pause |
+| 2026-11-27 | `7aeeafe` | No manual work: stop the manual-post and Facebook-share e-mails (config.json owner_emails false); only automatic posting |
+| 2026-11-27 | `624f4c9` | stories shared / Instagram pause |
+| 2026-11-27 | `8809eac` | stories shared / Instagram pause |
+| 2026-11-27 | `2bac21e` | stories shared / Instagram pause |
+| 2026-11-27 | `eda5e51` | stories shared / Instagram pause |
+| 2026-11-27 | `3aed40c` | stories shared / Instagram pause |
+| 2026-11-27 | `4e8855b` | stories shared / Instagram pause |
+| 2026-11-27 | `e9e476e` | stories shared / Instagram pause |
+| 2026-11-27 | `0c85af6` | autofix: corrected held news |
+| 2026-11-27 | `ee8f19a` | stories shared / Instagram pause |
+| 2026-11-27 | `43a6892` | stories shared / Instagram pause |
+| 2026-11-27 | `d8c6e96` | stories shared / Instagram pause |
+| 2026-11-27 | `1943445` | stories shared / Instagram pause |
+| 2026-11-27 | `5ee5f4a` | stories shared / Instagram pause |
+| 2026-11-27 | `9611a08` | pick: written and posted |
+| 2026-11-27 | `0691249` | facebook RN-182 |
+| 2026-11-27 | `d356f9e` | posted RN-182 |
+| 2026-11-27 | `20b119a` | stories shared / Instagram pause |
+| 2026-11-27 | `74155e5` | pick: picked news saved |
+| 2026-11-27 | `ab9cdfb` | pick: picked news saved |
+| 2026-11-27 | `8ec1b90` | pick: list sent |
+| 2026-11-27 | `3e695b6` | stories shared / Instagram pause |
+| 2026-11-27 | `c2b2b45` | stories shared / Instagram pause |
+| 2026-11-27 | `db82524` | stories shared / Instagram pause |
+| 2026-11-27 | `274f869` | stories shared / Instagram pause |
+| 2026-11-27 | `fc9b9b2` | stories shared / Instagram pause |
+| 2026-11-27 | `04b4902` | stories shared / Instagram pause |
+| 2026-11-27 | `af2b9a8` | facebook RN-179 |
+| 2026-11-27 | `f27e436` | posted RN-179 |
+| 2026-11-27 | `5bba513` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
