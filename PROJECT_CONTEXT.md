@@ -83,6 +83,8 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-27 | `c396160` | Topic labels: Tamil word endings and missing words (better ranking data) |
+| 2026-11-27 | `b6d872c` | stories shared / Instagram pause |
 | 2026-11-27 | `2138c1c` | Reel looks: own accent table (the topic-theme test covers topic themes only) |
 | 2026-11-27 | `fc1f994` | Trichy reels: design A and six colour looks on A's layout take turns |
 | 2026-11-27 | `d509134` | stories shared / Instagram pause |
@@ -111,6 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-27 | `3fdbdef` | stories shared / Instagram pause |
 | 2026-11-27 | `60f3b45` | stories shared / Instagram pause |
 | 2026-11-27 | `fc3cdbf` | stories shared / Instagram pause |
-| 2026-11-27 | `421b495` | pick: written and posted |
-| 2026-11-27 | `4cf958c` | facebook RN-175 |
 <!-- recent-changes:end -->
