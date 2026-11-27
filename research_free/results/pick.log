@@ -57,3 +57,73 @@
 12:32:36    6. [பொது] பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன் - சீமான் (தினத்தந்தி) (earlier)
 12:32:36 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
 ROUND=2026-11-27_12
+12:32:38 round 2026-11-27_12 (at least 6, up to 3 more of well-watched topics): 6 news to choose from (1 from earlier rounds), ranked by this page's insights
+12:32:38   PICK   1.  16.5 [crime +1.37 page] வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
+12:32:38   PICK   2.  10.0 [other +0.00 pattern] திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
+12:32:38   PICK   3.   8.0 [weather -0.50 page] திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
+12:32:38   PICK   4.   7.0 [weather -0.50 page] திருச்சி மாவட்டத்தில் 2-ஆவது நாளாக மழை
+12:32:38   PICK   5.   3.5 [other +0.00 pattern] (earlier) பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
+12:32:38   PICK   6.   1.0 [other +0.00 pattern] 5 தொகுதி இடைத்தோ்தல்: தடை கோரிய வழக்கில் இன்று தீா்ப்பு
+12:32:38 decided: automatic: top 6 of 6 by insights -> 6 news to write and post
+PICK_URLS=https://www.maalaimalar.com/news/tamilnadu/rs-16-lakh-swindled-under-the-pretext-of-securing-jobs-abroad https://www.dailythanthi.com/news/tamilnadu/trichy-10-foot-long-python-enters-residential-area-forest-department-rescues-it https://www.dinakaran.com/district/trichy-271126-3/amp https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/26/rain-for-the-2nd-day-in-trichy-district https://www.dailythanthi.com/news/tamilnadu/a-common-candidate-i-will-not-go-and-stand-before-anyone-to-seek-support-seemans-sensational-statement https://www.dinamani.com/tamilnadu/2026/Nov/26/by-elections-in-5-constituencies-verdict-today-in-case-seeking-a-stay
+12:35:41 1 picked news refused by the writer - not offered again
+12:35:41 5 listed news now in the Sheet
+12:35:48 instagram duplicate check trichy: 50 recent posts read
+12:35:48 verify 2026-11-27_12: 0 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
+12:35:48    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
+12:35:48    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
+12:35:48    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
+12:35:48    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
+12:35:48    NOT POSTED Ccb85df1: queued RN-174 (Queued) - 5 தொகுதி இடைத்தோ்தல்: தடை கோரிய வழக்கில் இன்று தீா்ப்பு
+12:35:48    NOT POSTED Cda1804b: queued RN-173 (Queued) - திருச்சி மாவட்டத்தில் 2-ஆவது நாளாக மழை
+12:40:55 instagram duplicate check trichy: 50 recent posts read
+12:40:55 verify 2026-11-27_12: 0 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
+12:40:55    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
+12:40:55    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
+12:40:55    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
+12:40:55    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
+12:40:55    NOT POSTED Ccb85df1: queued RN-174 (Queued) - 5 தொகுதி இடைத்தோ்தல்: தடை கோரிய வழக்கில் இன்று தீா்ப்பு
+12:40:55    NOT POSTED Cda1804b: queued RN-173 (Queued) - திருச்சி மாவட்டத்தில் 2-ஆவது நாளாக மழை
+12:46:03 instagram duplicate check trichy: 50 recent posts read
+12:46:03 verify 2026-11-27_12: 1 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
+12:46:03    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
+12:46:03    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
+12:46:03    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
+12:46:03    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
+12:46:03    NOT POSTED Ccb85df1: queued RN-174 (Queued) - 5 தொகுதி இடைத்தோ்தல்: தடை கோரிய வழக்கில் இன்று தீா்ப்பு
+12:51:10 instagram duplicate check trichy: 50 recent posts read
+12:51:10 verify 2026-11-27_12: 1 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
+12:51:10    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
+12:51:10    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
+12:51:10    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
+12:51:10    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
+12:51:10    NOT POSTED Ccb85df1: queued RN-174 (Queued) - 5 தொகுதி இடைத்தோ்தல்: தடை கோரிய வழக்கில் இன்று தீா்ப்பு
+12:56:17 instagram duplicate check trichy: 50 recent posts read
+12:56:17 verify 2026-11-27_12: 1 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
+12:56:17    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
+12:56:17    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
+12:56:17    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
+12:56:17    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
+12:56:17    NOT POSTED Ccb85df1: queued RN-174 (Queued) - 5 தொகுதி இடைத்தோ்தல்: தடை கோரிய வழக்கில் இன்று தீா்ப்பு
+13:01:25 instagram duplicate check trichy: 50 recent posts read
+13:01:25 verify 2026-11-27_12: 2 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
+13:01:25    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
+13:01:25    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
+13:01:25    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
+13:01:25    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
+13:06:33 instagram duplicate check trichy: 50 recent posts read
+13:06:33 verify 2026-11-27_12: 2 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
+13:06:33    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
+13:06:33    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
+13:06:33    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
+13:06:33    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
+13:11:40 instagram duplicate check trichy: 50 recent posts read
+13:11:40 verify 2026-11-27_12: 2 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
+13:11:40    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
+13:11:40    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
+13:11:40    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
+13:11:40    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
+13:16:48 verify 2026-11-27_12: 3 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
+13:16:48    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
+13:16:48    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
+13:16:48    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
