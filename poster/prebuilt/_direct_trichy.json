@@ -1,7 +1,7 @@
 {
- "ok": true,
- "ig": "17841462048887226",
- "why": "",
+ "ok": false,
+ "ig": "",
+ "why": "Instagram refused the file: upload refused (HTTP 400): {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}",
  "tok": "5dfb83e106",
- "until": "2026-11-27T19:42:09+00:00"
+ "until": "2026-11-27T19:44:01+00:00"
 }

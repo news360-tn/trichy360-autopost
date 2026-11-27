@@ -1,1 +1,7 @@
-{}
+{
+ "RN-180:reel": {
+  "n": 1,
+  "last": "2026-11-27T13:44:01+00:00",
+  "error": "upload refused (HTTP 400): {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+ }
+}
