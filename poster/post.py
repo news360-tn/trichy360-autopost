@@ -334,6 +334,31 @@ def picked_wrong_district(row):
     return ""
 
 
+def power_cut_day_passed(row, nd=None):
+    """owner 27 Nov (Tirupur RN-259, a 25 Nov cut posted on 27 Nov): a power cut is judged by its CUT day on every path - also a
+    'manual' link (the power-cut job files its notices as manual links, and a manual link skipped the age check). '' = not over."""
+    import freshness
+    head = f"{row.get('headline_ta') or ''} {row.get('headline_en') or ''}"
+    if not re.search(r"மின்\s*தடை|மின்தடை|மின்\s*நிறுத்த|மின்\s*வெட்டு|power\s*(cut|shut)", head, re.I):
+        return ""
+    pub = row.get("published") or (nd.isoformat() if nd else "")
+    if hasattr(freshness, "cut_day"):
+        day, _ = freshness.cut_day(head, pub)
+    else:      # Namakkal's freshness.py: the date in the headline, else the day after publishing for 'நாளை', else the publish day
+        p_ = freshness.pub_date(pub)
+        ds = list(freshness.dates_in(head, (p_ or datetime.now(IST).date()).year))
+        for d_, m_, y_ in re.findall(r"(?<![\d.])(\d{1,2})[./-](\d{1,2})[./-](20\d\d|\d\d)(?![\d.])", head):
+            try:
+                ds.append(datetime(int(y_) + (2000 if len(y_) == 2 else 0), int(m_), int(d_)).date())
+            except ValueError:
+                pass
+        ds = [d for d in ds if not p_ or abs((d - p_).days) < 300]
+        day = max(ds) if ds else (p_ + timedelta(days=1) if p_ and re.search(r"நாளை|tomorrow", head, re.I) else p_)
+    if day and day < datetime.now(IST).date():
+        return f"stale: the power cut was on {day:%d %b} - over"
+    return ""
+
+
 def _skip_reason_base(row):
     """'' = fine to post. Otherwise why this story must not go out: its announced date has passed (power cut, job fair, 'today' news ...),
     or the same news was already posted under another story id."""
@@ -353,7 +378,10 @@ def _skip_reason_base(row):
     same_day = bool(f and f.date() == datetime.now(IST).date())      # filed today: it goes out today, whatever the clock says
     nd = freshness.news_date(row.get("published"), row.get("source"), f)
     manual = "manual" in " ".join(str(row.get(k) or "") for k in ("notes", "batch", "review", "source")).lower()
-    max_age = int(os.environ.get("POST_MAX_AGE_DAYS", "1") or 1)      # owner 29 Oct 18:29: Trichy 0 = only news published TODAY
+    max_age = int(os.environ.get("POST_MAX_AGE_DAYS", "1") or 1)
+    over = power_cut_day_passed(row, nd)
+    if over:
+        return over      # owner 29 Oct 18:29: Trichy 0 = only news published TODAY
     if not manual and max_age == 0 and not nd:
         return "stale: no publish date known - today's news only"
     if (nd and not manual and (datetime.now(IST).date() - nd).days > max_age      # owner: only today's (or yesterday's) news is posted
@@ -3415,7 +3443,10 @@ def skip_reason(row):
 
 
 def change_hold(row):
-    """owner 11 Nov: a power-cut cancellation / postponement is posted ONLY when this page posted that power cut before"""
+    """owner 11 Nov: a power-cut cancellation / postponement is posted ONLY when this page posted that power cut before.
+    owner 27 Nov ("power shutdown already announced but cancelled - that news also post it"): every cancellation / change is posted
+    (its cut day is checked like any power cut, power_cut_day_passed) - this hold is off."""
+    return ""
     import freshness
     head = " ".join(str(row.get(k) or "") for k in ("headline_ta", "headline_en"))
     if not freshness.cut_change(head):

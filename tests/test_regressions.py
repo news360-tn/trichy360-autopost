@@ -1454,7 +1454,7 @@ class PowerCutCancelledIsNews11Nov(unittest.TestCase):
             post.ig_recent = lambda pg: [("2026-11-11T08:00:00+0000", "⚡ " + self.CUT + "\n...")]
             self.assertEqual(post.change_hold(row), "")
             post.ig_recent = lambda pg: [("2026-11-11T08:00:00+0000", "மணப்பாறையில் நாளை மின்தடை\n...")]
-            self.assertIn("never posted", post.change_hold(row))
+            self.assertEqual(post.change_hold(row), "")      # owner 27 Nov: posted even when this page never posted that cut
             post.ig_recent = lambda pg: []      # Instagram not readable: never blocked on missing data
             self.assertEqual(post.change_hold(row), "")
             self.assertEqual(post.change_hold({"headline_ta": self.CUT}), "")      # an ordinary power cut is not affected
@@ -1463,7 +1463,7 @@ class PowerCutCancelledIsNews11Nov(unittest.TestCase):
         import powercut
         rec = [{"headline_ta": self.CUT, "post_status": "Posted"}]
         self.assertFalse(powercut._change_without_original({"title": self.CANCEL}, rec))
-        self.assertTrue(powercut._change_without_original({"title": self.CANCEL}, [dict(rec[0], post_status="Queued")]))
+        self.assertFalse(powercut._change_without_original({"title": self.CANCEL}, [dict(rec[0], post_status="Queued")]))      # owner 27 Nov
         self.assertFalse(powercut._change_without_original({"title": self.CUT}, []))
         self.assertFalse(powercut._change_without_original({"title": self.CANCEL}, []))      # Sheet not readable: not blocked
 

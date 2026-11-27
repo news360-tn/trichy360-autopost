@@ -202,7 +202,9 @@ def same_cut(a, b):
 
 
 def _change_without_original(n, recent):
-    """owner 11 Nov: a cancellation / postponement / day change is news for our followers ONLY when we posted that power cut"""
+    """owner 11 Nov: a cancellation / postponement / day change is news for our followers ONLY when we posted that power cut.
+    owner 27 Nov: every cancellation / change of an announced cut is posted (cut day ahead) - never refused here any more."""
+    return False
     from freshness import cut_change, change_of_posted
     if not cut_change(n["title"]) or not recent:      # the Sheet could not be read: never block on missing data
         return False
