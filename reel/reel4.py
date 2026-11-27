@@ -72,7 +72,7 @@ body{font-family:'NST','CT',sans-serif;color:#fff;position:relative}
 /* captions: whole phrases, outlined, in the safe zone above Instagram's caption */
 #cap{position:absolute;left:56px;right:140px;top:1190px;height:330px;z-index:25}
 .ph{position:absolute;left:0;right:0;bottom:0;text-align:left;font:800 70px/1.3 'CT','NST';color:#fff;opacity:0;-webkit-text-stroke:12px #000;paint-order:stroke fill;text-shadow:0 6px 18px rgba(0,0,0,.6)}
-.ph span{display:inline-block;transform-origin:50% 70%;margin-right:.22em}
+.ph span{display:inline-block;transform-origin:50% 70%;margin-right:.32em}      /* owner 27 Nov: .22em ran Tamil words together */
 .ph span.on{color:var(--yellow)}
 /* full-details summary (last news sentence): every key fact in one place - people pause on it or screenshot it */
 #sum{position:absolute;left:48px;right:48px;top:540px;z-index:24;opacity:0;background:rgba(255,255,255,.97);border-radius:30px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.55)}
@@ -250,13 +250,182 @@ body{background:#0B3B2E}
 PREMIUM_ALERTS = {"rain": ("triangle-exclamation", "வானிலை எச்சரிக்கை", "#1E5FAF"), "crime": ("handcuffs", "போலீஸ் நடவடிக்கை", "#1E4A9C")}
 
 
-def test_styles():
-    """owner 26 Nov: poster/config.json views_test.styles - the designs that take turns on this page ([] = one design)"""
+# ==== owner 27 Nov: NEWS THEMES - each kind of news gets its own look (views test, poster/config.json views_test.topic_themes) =====
+# Every text sits on a solid box or band (readable on any photo); each theme has its own colours and one mark of its own.
+def _theme(c, extra=""):
+    return f"""
+#shade{{background:linear-gradient(180deg,{c['sh']}E6 0%,{c['sh']}66 20%,{c['sh']}00 34%,{c['sh']}00 50%,{c['sh']}88 64%,{c['sh']}F2 100%)}}
+#hdr .tag{{background:{c['tag']};color:{c.get('tag_fg', '#fff')}}}
+#pin{{background:{c['pin_bg']};color:{c['pin_fg']}}}
+#pin .ic{{color:{c['pin_ic']}}}
+#hook .h1{{display:inline-block;background:{c['h1_bg']};color:{c['h1_fg']};-webkit-text-stroke:0;text-shadow:none;padding:16px 30px 4px;border-radius:{c['r']};
+  font-size:94px;box-shadow:0 14px 40px rgba(0,0,0,.45)}}
+#hook .h2{{background:{c['h2_bg']};color:{c['h2_fg']};border-radius:{c['r']}}}
+#mini{{background:{c['mini_bg']};color:{c['mini_fg']};border-left:10px solid {c['acc2']};padding:12px 24px 4px 22px;border-radius:0 {c['r']} {c['r']} 0;text-shadow:none;font-size:42px}}
+.card{{background:{c['card_bg']};border-radius:{c['r']}}}
+.card .ico{{background:{c['ico_bg']};color:{c['ico_fg']}}}
+.card .lb{{color:{c['lb']}}}
+.card .vl{{color:{c['card_fg']}}}
+#cap{{left:48px;right:48px}}
+.ph{{-webkit-text-stroke:0;text-shadow:none;background:{c['cap_bg']};color:{c['cap_fg']};padding:14px 28px 4px;border-radius:{c['r']};font-size:62px;border-bottom:8px solid {c['acc2']}}}
+.ph span.on{{color:{c['cap_on']}}}
+#sum{{background:{c['card_bg']};border-radius:{c['r']}}}
+#sum .st{{background:{c['ico_bg']};color:{c['ico_fg']}}}
+#sum .row .ic{{color:{c['lb']}}}
+#sum .row .l{{color:{c['muted']}}}
+#sum .row .v{{color:{c['card_fg']}}}
+#end{{background:{c['end_bg']}}}
+#end .e2{{background:{c['acc']};color:{c.get('e2_fg', '#fff')}}}
+#end .e3{{color:{c['acc2']}}}
+""" + extra
+
+
+_SERIF = R.ff("NSR", "noto-serif-tamil", [700, 800])
+THEME_ACCENT = {"ACC": "#D7141A", "POL": "#1D4ED8", "WX": "#0284C7", "PWR": "#FFB000", "TMP": "#B45309", "GOV": "#0F5132",
+                "CIV": "#0F766E", "EDU": "#1D4ED8", "JOB": "#059669", "AGR": "#4D7C0F", "SPT": "#7C3AED"}
+STYLES.update({
+    # accident - hazard: red headline box, black/yellow hazard stripe, dark cards with a yellow edge
+    "ACC": _theme(dict(sh="#0B0B0B", tag="#D7141A", pin_bg="#FFC700", pin_fg="#111", pin_ic="#D7141A", h1_bg="#D7141A", h1_fg="#fff",
+                       h2_bg="#111", h2_fg="#FFC700", mini_bg="rgba(10,10,10,.86)", mini_fg="#fff", acc2="#FFC700", card_bg="#141414",
+                       card_fg="#fff", ico_bg="#D7141A", ico_fg="#fff", lb="#FFC700", cap_bg="rgba(10,10,10,.86)", cap_fg="#fff",
+                       cap_on="#FFC700", muted="#A3A3A3", end_bg="rgba(10,10,10,.82)", acc="#D7141A", r="8px"), """
+#hook::before{content:"";display:block;width:540px;height:24px;margin-bottom:20px;border-radius:4px;background:repeating-linear-gradient(-45deg,#FFC700 0 30px,#111 30px 60px)}
+.card{border:3px solid #FFC700}
+"""),
+    # crime / police - navy, red-blue light bar over the headline
+    "POL": _theme(dict(sh="#06122B", tag="#1D4ED8", pin_bg="#fff", pin_fg="#06122B", pin_ic="#1D4ED8", h1_bg="#06122B", h1_fg="#fff",
+                       h2_bg="#1D4ED8", h2_fg="#fff", mini_bg="rgba(6,18,43,.88)", mini_fg="#fff", acc2="#3B82F6", card_bg="#fff",
+                       card_fg="#06122B", ico_bg="#06122B", ico_fg="#60A5FA", lb="#1D4ED8", cap_bg="rgba(6,18,43,.9)", cap_fg="#fff",
+                       cap_on="#60A5FA", muted="#64748B", end_bg="rgba(6,18,43,.86)", acc="#1D4ED8", r="6px"), """
+#hook::before{content:"";display:block;width:560px;height:20px;margin-bottom:18px;border-radius:10px;background:linear-gradient(90deg,#E11D48 0 50%,#2563EB 50% 100%);
+  box-shadow:0 0 30px rgba(225,29,72,.7),0 0 30px rgba(37,99,235,.7)}
+#hook .h1{border-left:14px solid #E11D48}
+"""),
+    # rain / weather - deep blue glass, centred, sky line
+    "WX": _theme(dict(sh="#031B3A", tag="#0284C7", pin_bg="rgba(3,27,58,.86)", pin_fg="#fff", pin_ic="#38BDF8", h1_bg="rgba(3,27,58,.88)", h1_fg="#fff",
+                      h2_bg="#38BDF8", h2_fg="#03203F", mini_bg="rgba(3,27,58,.86)", mini_fg="#fff", acc2="#38BDF8", card_bg="rgba(3,27,58,.92)",
+                      card_fg="#fff", ico_bg="#0284C7", ico_fg="#fff", lb="#7DD3FC", cap_bg="rgba(3,27,58,.88)", cap_fg="#fff", cap_on="#7DD3FC",
+                      muted="#A5C8E4", end_bg="rgba(3,27,58,.84)", acc="#0284C7", r="28px"), """
+#hook{text-align:center}
+#hook::before{content:"";display:block;margin:0 auto 18px;width:320px;height:14px;border-radius:7px;background:linear-gradient(90deg,#7DD3FC,#0284C7,#7DD3FC)}
+.ph{text-align:center}
+.card{border:2px solid rgba(125,211,252,.6)}
+"""),
+    # power cut - amber and black, double ring round the headline
+    "PWR": _theme(dict(sh="#0A0A0A", tag="#FFB000", tag_fg="#111", pin_bg="#FFB000", pin_fg="#111", pin_ic="#111", h1_bg="#FFB000", h1_fg="#111",
+                       h2_bg="#111", h2_fg="#FFB000", mini_bg="rgba(10,10,10,.88)", mini_fg="#fff", acc2="#FFB000", card_bg="#111",
+                       card_fg="#fff", ico_bg="#FFB000", ico_fg="#111", lb="#FFB000", cap_bg="rgba(10,10,10,.88)", cap_fg="#fff",
+                       cap_on="#FFB000", muted="#A3A3A3", end_bg="rgba(10,10,10,.86)", acc="#FFB000", e2_fg="#111", r="14px"), """
+#hook .h1{box-shadow:0 0 0 6px #111,0 0 0 12px #FFB000,0 14px 40px rgba(0,0,0,.5)}
+.card{border:3px solid #FFB000}
+"""),
+    # temple / festival - maroon, saffron and gold, serif, centred, double gold frame
+    "TMP": _SERIF + _theme(dict(sh="#3B0A10", tag="#B45309", pin_bg="#FFF7E6", pin_fg="#7A1020", pin_ic="#D97706", h1_bg="#7A1020", h1_fg="#FFF3D6",
+                                h2_bg="#F59E0B", h2_fg="#3B0A10", mini_bg="rgba(59,10,16,.88)", mini_fg="#FFF3D6", acc2="#E8C15A",
+                                card_bg="#FFF7E6", card_fg="#5B0B16", ico_bg="#7A1020", ico_fg="#E8C15A", lb="#B45309",
+                                cap_bg="rgba(59,10,16,.9)", cap_fg="#FFF3D6", cap_on="#F5C451", muted="#8A5A44", end_bg="rgba(59,10,16,.86)",
+                                acc="#B45309", r="18px"), """
+#hook{text-align:center}
+#hook .h1{font-family:'NSR','NST';font-weight:800;border:5px double #E8C15A}
+.ph{text-align:center}
+.card{border:2px solid #E8C15A}
+"""),
+    # government / politics - official notice: white paper, green and maroon, serif headline
+    "GOV": _SERIF + _theme(dict(sh="#0B1F17", tag="#0F5132", pin_bg="#fff", pin_fg="#0F5132", pin_ic="#8B1E2D", h1_bg="#fff", h1_fg="#0F2E22",
+                                h2_bg="#0F5132", h2_fg="#fff", mini_bg="rgba(255,255,255,.95)", mini_fg="#0F2E22", acc2="#8B1E2D",
+                                card_bg="#fff", card_fg="#0F2E22", ico_bg="#0F5132", ico_fg="#fff", lb="#8B1E2D",
+                                cap_bg="rgba(255,255,255,.96)", cap_fg="#0F2E22", cap_on="#8B1E2D", muted="#6B7280",
+                                end_bg="rgba(11,31,23,.86)", acc="#0F5132", r="4px"), """
+#hook .h1{border-top:14px solid #8B1E2D;font-family:'NSR','NST';font-weight:800}
+.ph span.on{background:#FDE68A;border-radius:6px}
+#end .e3{color:#FDE68A}
+"""),
+    # civic (water, roads, buses, town council) - teal public notice
+    "CIV": _theme(dict(sh="#042F2E", tag="#0F766E", pin_bg="#fff", pin_fg="#134E4A", pin_ic="#0F766E", h1_bg="#0F766E", h1_fg="#fff",
+                       h2_bg="#fff", h2_fg="#0F766E", mini_bg="rgba(4,47,46,.88)", mini_fg="#fff", acc2="#5EEAD4", card_bg="#fff",
+                       card_fg="#134E4A", ico_bg="#0F766E", ico_fg="#fff", lb="#0F766E", cap_bg="rgba(4,47,46,.88)", cap_fg="#fff",
+                       cap_on="#5EEAD4", muted="#64748B", end_bg="rgba(4,47,46,.86)", acc="#0F766E", r="22px"), """
+#hook .h1{border-radius:22px 22px 22px 0}
+"""),
+    # education - notebook: white page with the red margin line, blue
+    "EDU": _theme(dict(sh="#0B1B4D", tag="#1D4ED8", pin_bg="#fff", pin_fg="#1E3A8A", pin_ic="#DC2626", h1_bg="#fff", h1_fg="#1E3A8A",
+                       h2_bg="#1D4ED8", h2_fg="#fff", mini_bg="rgba(255,255,255,.95)", mini_fg="#1E3A8A", acc2="#FACC15", card_bg="#fff",
+                       card_fg="#1E3A8A", ico_bg="#1D4ED8", ico_fg="#fff", lb="#DC2626", cap_bg="rgba(11,27,77,.88)", cap_fg="#fff",
+                       cap_on="#FACC15", muted="#64748B", end_bg="rgba(11,27,77,.86)", acc="#1D4ED8", r="10px"), """
+#hook .h1{border-left:12px solid #DC2626;box-shadow:inset 0 -10px 0 #BFDBFE,0 14px 40px rgba(0,0,0,.45)}
+"""),
+    # jobs - green with a yellow pill
+    "JOB": _theme(dict(sh="#022C22", tag="#059669", pin_bg="#fff", pin_fg="#065F46", pin_ic="#059669", h1_bg="#059669", h1_fg="#fff",
+                       h2_bg="#FDE047", h2_fg="#064E3B", mini_bg="rgba(2,44,34,.88)", mini_fg="#fff", acc2="#FDE047", card_bg="#fff",
+                       card_fg="#064E3B", ico_bg="#059669", ico_fg="#fff", lb="#059669", cap_bg="rgba(2,44,34,.88)", cap_fg="#fff",
+                       cap_on="#FDE047", muted="#6B7280", end_bg="rgba(2,44,34,.86)", acc="#059669", r="16px"), """
+#hook .h2{border-radius:999px;padding:12px 40px 2px}
+"""),
+    # farming / prices - wheat and leaf green
+    "AGR": _theme(dict(sh="#1F2A0A", tag="#4D7C0F", pin_bg="#FEF3C7", pin_fg="#3F2A0B", pin_ic="#4D7C0F", h1_bg="#FEF3C7", h1_fg="#3F2A0B",
+                       h2_bg="#4D7C0F", h2_fg="#fff", mini_bg="rgba(31,42,10,.88)", mini_fg="#FEF3C7", acc2="#A3E635", card_bg="#FEF3C7",
+                       card_fg="#3F2A0B", ico_bg="#4D7C0F", ico_fg="#FEF3C7", lb="#4D7C0F", cap_bg="rgba(31,42,10,.88)", cap_fg="#FEF3C7",
+                       cap_on="#BEF264", muted="#78716C", end_bg="rgba(31,42,10,.86)", acc="#4D7C0F", r="20px"), """
+#hook .h1{border-bottom:12px solid #4D7C0F}
+"""),
+    # sports / culture - purple and orange, slanted boxes
+    "SPT": _theme(dict(sh="#1E0B3A", tag="#7C3AED", pin_bg="#fff", pin_fg="#4C1D95", pin_ic="#F97316", h1_bg="#6D28D9", h1_fg="#fff",
+                       h2_bg="#F97316", h2_fg="#fff", mini_bg="rgba(30,11,58,.88)", mini_fg="#fff", acc2="#F97316", card_bg="#fff",
+                       card_fg="#3B0764", ico_bg="#F97316", ico_fg="#fff", lb="#7C3AED", cap_bg="rgba(30,11,58,.88)", cap_fg="#fff",
+                       cap_on="#FDBA74", muted="#6B7280", end_bg="rgba(30,11,58,.86)", acc="#7C3AED", r="6px"), """
+#hook .h1,#hook .h2{transform:skewX(-6deg)}
+"""),
+})
+# owner 27 Nov: C was hard to read on bright photos (white frosted cards, yellow underline over a busy picture) - dark glass instead
+STYLES["C"] += """
+#hook .h1{-webkit-text-stroke:12px rgba(0,0,0,.85);paint-order:stroke fill}
+#hook .h2{background:rgba(0,0,0,.62);padding:10px 26px 0;border-radius:12px;border-bottom:0}
+#pin{background:rgba(0,0,0,.55);border-color:rgba(255,255,255,.35)}
+#mini{background:rgba(0,0,0,.6);padding:10px 22px 2px;border-radius:14px}
+.card{background:rgba(8,12,24,.8);border-color:rgba(255,255,255,.3)}
+.ph{-webkit-text-stroke:12px #000;paint-order:stroke fill}
+#sum{background:rgba(8,12,24,.86)}
+"""
+
+
+def views_test_cfg():
     try:
         vt = json.loads((Path(__file__).resolve().parent.parent / "poster" / "config.json").read_text()).get("views_test") or {}
-        return [str(x).upper() for x in (vt.get("styles") or []) if str(x).upper() in ("A", "B", "C", "P")] if vt.get("enabled") else []
+        return vt if vt.get("enabled") else {}
     except Exception:
-        return []
+        return {}
+
+
+def news_topic(spec):
+    """the topic insights uses (research_free/learned.py), from the category, headline and hook of this reel"""
+    try:
+        rf = str(Path(__file__).resolve().parent.parent / "research_free")
+        if rf not in sys.path:
+            sys.path.append(rf)
+        import learned
+        return learned.topic(" ".join([str(spec.get("cat") or ""), str(spec.get("mini") or "")] + [str(x) for x in (spec.get("hook") or [])]))
+    except Exception:
+        return "other"
+
+
+SHARE_TOWNS = ("மணப்பாறை", "லால்குடி", "முசிறி", "துறையூர்", "ஸ்ரீரங்கம்", "திருவெறும்பூர்", "மண்ணச்சநல்லூர்", "சமயபுரம்", "தொட்டியம்", "துவாக்குடி")
+
+
+def share_town(spec):
+    """owner 27 Nov: the town whose people this news is for ('share with your Manapparai friends'), else Trichy"""
+    loc = str(spec.get("location") or "")
+    return next((t for t in SHARE_TOWNS if t in loc), "திருச்சி")
+
+
+def theme_for(spec):
+    """owner 27 Nov: the news theme of this reel's topic (views_test.topic_themes), '' = none (then the designs take turns)"""
+    th = str((views_test_cfg().get("topic_themes") or {}).get(news_topic(spec)) or "").upper()
+    return th if th in STYLES else ""
+
+
+def test_styles():
+    """owner 26 Nov: poster/config.json views_test.styles - the designs that take turns on this page ([] = one design)"""
+    return [str(x).upper() for x in (views_test_cfg().get("styles") or []) if str(x).upper() in STYLES]
 
 
 def reel_style(spec):
@@ -430,14 +599,14 @@ ACCENT = {"மின் தடை": "#F59E0B", "மழை": "#1E88E5", "வா�
           "கோவில்": "#C2410C", "திருவிழா": "#C2410C", "வேலை": "#059669", "கல்வி": "#2563EB", "தாக்குதல்": "#DC2626"}
 
 # what a fact is about -> icon + label (the label tells the viewer which of the 5W the card answers)
-KINDS = [
-    (r"ரூ\.?|₹|லட்சம்|கோடி|ரூபாய்", "indian-rupee-sign", "தொகை"),
-    (r"மணி|நேரம்", "clock", "நேரம்"),
+KINDS = [      # owner 27 Nov: a pattern matches a whole word start - "கரூர்" (Karur) gave a ₹ "தொகை" card, "தினமணி" a clock card
+    (r"(?<![\u0B80-\u0BFF])ரூ\.?\s*\d|₹|\d[\d,.]*\s*(லட்சம்|கோடி)|ரூபாய்", "indian-rupee-sign", "தொகை"),
+    (r"\d\s*மணி|நேரம்", "clock", "நேரம்"),
     (r"தேதி|ஜனவரி|பிப்ரவரி|மார்ச்|ஏப்ரல்|ஜூன்|ஜூலை|ஆகஸ்ட்|செப்டம்பர்|அக்டோபர்|நவம்பர்|டிசம்பர்|இன்று|நாளை", "calendar-days", "நாள்"),
     (r"மருத்துவமனை|சிகிச்சை", "hospital", "சிகிச்சை"),
     (r"கைது|போலீஸ்|போலீசார்|காவல்", "handcuffs", "நடவடிக்கை"),
     (r"வயது|குழந்தை|சிறுமி|சிறுவன்|மாணவ", "child", "யார்"),
-    (r"\d+\s*பேர்|பலர்|மக்கள்", "users", "எத்தனை பேர்"),
+    (r"\d+\s*பேர்|பலர்", "users", "எத்தனை பேர்"),      # owner 27 Nov: "மக்கள்" alone is not a count (it gave "எத்தனை பேர்" on a meeting)
     (r"நடவடிக்கை|கோரிக்கை|உத்தரவு|அறிவிப்பு", "bullhorn", "நடவடிக்கை"),
     (r"நகர்|சாலை|கிராம|ஊராட்சி|பகுதி", "location-dot", "இடம்"),
 ]
@@ -508,7 +677,7 @@ def pick_voice(spec):
         v = cfg.get(k)
         if isinstance(v, str) and v and "Chirp" not in v and (k != "outro_voice" or v.endswith("Neural")):
             vs[k] = v
-    ab = [v for v in (cfg.get("ab_voices") or []) if isinstance(v, str) and v.startswith("ta-IN-") and v.endswith("Neural")]
+    ab = [v for v in (cfg.get("ab_voices") or []) if isinstance(v, str) and re.match(r"ta-(IN|MY|SG|LK)-\w+Neural$", v)]      # owner 27 Nov: every free Tamil edge voice
     if spec and len(ab) > 1:      # owner 26 Nov (Trichy views test): free edge voices A/B, the same story always gets the same voice
         import hashlib
         key = " ".join([str(spec.get("mini") or "")] + [str(x) for x in (spec.get("hook") or [])])
@@ -664,7 +833,11 @@ def plan_shots(n_img, content_end, snaps):
     """camera shots: 2+ pictures -> the v3 plan (pictures spread over the story); 1 picture -> a cut about every V3.CUT s
     (snapped to a word start), each cut a different move from SINGLE_MOVES, the two layers alternating"""
     if n_img != 1:
-        return V3.plan_shots(n_img, content_end, snaps)
+        shots = V3.plan_shots(n_img, content_end, snaps)
+        if views_test_cfg().get("cycle_pictures"):      # owner 27 Nov: every cut shows another picture (was: each picture once, for a third of the reel)
+            for i, sh in enumerate(shots):
+                sh["img"] = i % n_img
+        return shots
     n = max(2, int(round(content_end / V3.CUT)))
     cuts = [0.0]
     for i in range(1, n):
@@ -691,7 +864,7 @@ def head_icon(name):
 def build_html(spec, shots, sents, caps, hook_end, end_t, total, page):
     logo = f"file://{R.KIT.resolve() / page['logo']}"
     foot = f"file://{(Path(__file__).resolve().parent / 'assets' / page.get('footer', 'footer_trichy.png')).as_posix()}"
-    acc = PREMIUM_ACCENT if reel_style(spec) == "P" else accent_for(spec.get("cat", ""))      # premium: one fixed page accent
+    acc = PREMIUM_ACCENT if reel_style(spec) == "P" else THEME_ACCENT.get(reel_style(spec)) or accent_for(spec.get("cat", ""))      # premium / news themes: one fixed accent
     layers = pic_layers(spec["images"])
     imgs = "".join(f'<img class="pic" id="p{i}" src="file://{Path(p).resolve()}">' for i, p in enumerate(layers))
     cards = ""
@@ -723,10 +896,11 @@ def build_html(spec, shots, sents, caps, hook_end, end_t, total, page):
     mini = spec.get("mini") or " ".join(x for x in hook if x)
     data = json.dumps({"shots": shots, "sents": [{"a": s["a"], "b": s["b"], "card": s["has_card"]} for s in sents],
                        "caps": [{"a": g["a"], "b": g["b"], "w": [[x[1], x[2]] for x in g["words"]]} for g in caps],
-                       "hook_end": hook_end, "end_t": end_t, "total": total, "n": len(layers), "single": len(spec["images"]) == 1,
+                       "hook_end": hook_end, "end_t": end_t, "total": total, "n": len(layers), "single": len(spec["images"]) == 1, "clean_hook": views_test_cfg().get("clean_hook", False),
                        "sum_a": (sents[-2]["a"] if len(sents) > 5 else sents[-1]["a"]) if len(sents) > 3 else end_t, "rows": len(rows) if summary else 0})
     style = reel_style(spec)
-    html_ = f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}{STYLES.get(style, "")}</style></head><body style="--acc:{acc}">
+    low = "#hook{top:900px}#hook .h1{font-size:88px}" if views_test_cfg().get("hook_low") and style != "P" else ""      # owner 27 Nov: headline under the picture's subject, not on it
+    html_ = f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}{STYLES.get(style, "")}{low}</style></head><body style="--acc:{acc}">
 <div id="stage">{imgs}</div><div id="shade"></div><div id="flash"></div>
 <img id="plogo" src="{logo}">
 <div id="hdr"><div><div class="nm">{page['name']}</div>
@@ -783,7 +957,7 @@ window.renderAt=function(t){{
     if(t>=D.sum_a)document.querySelectorAll('.card').forEach(c=>c.style.opacity=0);}}
   // captions
   D.caps.forEach((g,gi)=>{{
-    const ge=document.getElementById('g'+gi), on=(t>=g.a&&t<g.b)&&t<D.end_t;
+    const ge=document.getElementById('g'+gi), on=(t>=g.a&&t<g.b)&&t<D.end_t&&(!D.clean_hook||t>=D.hook_end-0.05);      // owner 27 Nov: first seconds = picture + headline only
     ge.style.opacity=on?cl((t-g.a)/0.08):0;
     if(on){{const u=ease(cl((t-g.a)/0.2)); ge.style.transform='translateY('+(22*(1-u))+'px)';
       g.w.forEach((w,k)=>{{const sp=document.getElementById('w'+gi+'_'+k),act=(t>=w[0]&&t<w[1]);sp.className=act?'on':'';
@@ -846,7 +1020,11 @@ def main(spec_path, out_mp4, page_key="trichy"):
     R.PAGE = R.PAGES.get(page_key, R.PAGES["trichy"]); R.LOGO = R.KIT / R.PAGE["logo"]      # one page only (no second page)
     spec = json.loads(Path(spec_path).read_text())
     rot = test_styles()
-    if rot and not os.environ.get("REEL_STYLE") and not spec.get("style"):      # owner 26 Nov (Trichy views test): several designs on one page
+    th = "" if os.environ.get("REEL_STYLE") or spec.get("style") else theme_for(spec)
+    if th:      # owner 27 Nov: each kind of news has its own theme (accident, police, rain, power cut, temple, government ...)
+        spec["style"] = th
+        print("views test news theme:", th, "for", news_topic(spec))
+    elif rot and not os.environ.get("REEL_STYLE") and not spec.get("style"):      # owner 26 Nov (Trichy views test): several designs on one page
         import hashlib
         key = "style " + " ".join([str(spec.get("mini") or "")] + [str(x) for x in (spec.get("hook") or [])])
         spec["style"] = rot[int(hashlib.md5(key.encode("utf-8")).hexdigest(), 16) % len(rot)]
@@ -888,6 +1066,9 @@ def main(spec_path, out_mp4, page_key="trichy"):
     if punch:      # owner 27 Oct (change 1): the most striking fact is SPOKEN first (~2 s) while the big headline + number are on screen
         sents = [{"say": punch, "caption": punch, "fact": ""}] + sents
         print("opening punch line:", punch)
+    short_end = str(views_test_cfg().get("end_line_ta") or "").strip().replace("{town}", share_town(spec))
+    if short_end:      # owner 27 Nov: ONE short Tamil share + follow line (was Tamil follow + English share line = a 6 s still end card)
+        outro = dict(outro, say=short_end)
     texts = [s["say"] for s in sents] + [outro["say"]]
     gap, lead = 0.16, 0.08
     if os.environ.get("REUSE_VOICE") == "1" and all((work / f"line{i}.wav").exists() for i in range(len(texts))):
@@ -905,7 +1086,8 @@ def main(spec_path, out_mp4, page_key="trichy"):
         if not used:
             (work / "lines.json").write_text(json.dumps(texts, ensure_ascii=False))
             subprocess.run([sys.executable, str(Path(__file__).resolve().parent / "tts.py"), str(work / "lines.json"), str(work), spec.get("voice", "female")], check=True)
-        english_outro(work, len(texts) - 1, vs.get("outro_voice", "en-IN-PrabhatNeural") if used else "en-IN-NeerjaNeural")
+        if not short_end:
+            english_outro(work, len(texts) - 1, vs.get("outro_voice", "en-IN-PrabhatNeural") if used else "en-IN-NeerjaNeural")
     fit_max(work, len(texts), lead, gap, max_seconds(spec))
     starts, ends, t = [], [], lead
     for i in range(len(texts)):
@@ -913,7 +1095,11 @@ def main(spec_path, out_mp4, page_key="trichy"):
         starts.append(round(t, 3)); ends.append(round(t + d, 3))
         t += d + (V3.PAUSE if i == len(texts) - 2 else (0.55 if i == 0 else gap))      # a beat after the one-line story, then the full news
     V3.CHIME_T = round(ends[-2] + 0.12, 3)
-    end_t = V3.CHIME_T
+    try:      # owner 27 Nov: the share line is spoken over the full-details card; the still logo card shows only the last end_card_s seconds (was 6 s)
+        ec = float(views_test_cfg().get("end_card_s") or 0)
+    except (TypeError, ValueError):
+        ec = 0
+    end_t = round(max(V3.CHIME_T, ends[-1] + 0.6 - ec), 3) if short_end and ec >= 1.8 else V3.CHIME_T      # the chime stays at the end of the news
     total = round(max(ends[-1] + 0.6, end_t + 1.8), 3)
     R.make_voice_track(work, texts, starts, total)
     for i, s in enumerate(sents):
@@ -925,9 +1111,18 @@ def main(spec_path, out_mp4, page_key="trichy"):
             wt = names.latin_abbr_words(wt)      # subtitles only - the voice track is already made from s["say"]
         for g in phrases(wt):
             caps.append({"a": g[0][1], "b": g[-1][2], "words": g})
+    if short_end and end_t > starts[-1] + 0.5:      # owner 27 Nov: the share line is on screen too (most viewers watch without sound)
+        for g in phrases(V3.word_times(to_digits(texts[-1]), starts[-1], ends[-1])):
+            caps.append({"a": g[0][1], "b": g[-1][2], "words": g})
     snaps = [w[1] for g in caps for w in g["words"]]
     shots = plan_shots(len(spec["images"]), end_t, snaps)
     hook_end = max(2.6, min(6.0, ends[0] + 0.3))      # the hook stays while the one-line story is spoken
+    try:      # owner 27 Nov: the big headline stays at most hook_max_s (the same still screen for 5-6 s lost viewers); captions follow at once
+        hm = float(views_test_cfg().get("hook_max_s") or 0)
+        if hm:
+            hook_end = max(2.2, min(hm, hook_end))
+    except (TypeError, ValueError):
+        pass
     V3.build_audio(work, starts, shots, [dict(s, fact="") for s in sents], total)
     page = work / "reel4.html"
     new_page = None

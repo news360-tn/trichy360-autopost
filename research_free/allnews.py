@@ -63,6 +63,14 @@ TRICHY_WORDS = ["திருச்சி", "திருச்சிராப�
                 "காட்டுப்புத்தூர்", "தாத்தையங்கார்பேட்டை", "ஜீயபுரம்", "கல்லக்குடி", "பொன்மலை", "அந்தநல்லூர்", "தில்லை நகர்", "உறையூர்", "பாலக்கரை", "தென்னூர்",
                 "காஜாமலை", "மலைக்கோட்டை", "எடமலைப்பட்டி புதூர்", "Trichy", "Manapparai", "Srirangam", "Lalgudi", "Musiri", "Thuraiyur", "Tiruchirappalli", "Tiruchi",
                 "Chathiram"]
+# owner 27 Nov: towns / town panchayats / city areas of Tiruchirappalli district the papers name WITHOUT the word Trichy ("துவரங்குறிச்சி அருகே
+# வீட்டில் பதுக்கிய 300 கிலோ புகையிலை", "பொக்லைன் பேட்டரிகள் திருடிய 4 பேர் அரியமங்கலத்தில் கைது" were posted, but such a headline counted as
+# "no Trichy place"). Only names that are places of THIS district and are not inside a person's name (not மணிகண்டம் - மணிகண்டன்,
+# குணசீலம் - குணசீலன், அன்பில் - அன்பில் மகேஷ்) or another district's better-known town (குண்டூர், வயலூர், காட்டூர், மேட்டுப்பாளையம்).
+TRICHY_WORDS += [w for w in ["துவரங்குறிச்சி", "அரியமங்கலம்", "சிறுகனூர்", "புத்தாநத்தம்", "பெட்டவாய்த்தலை", "திருவெள்ளறை", "தா.பேட்டை", "பஞ்சப்பூர்",
+                             "மன்னார்புரம்", "கருமண்டபம்", "இனாம்குளத்தூர்", "சிறுகமணி", "பூவாளூர்", "கூத்தைப்பார்", "பொன்னம்பட்டி", "மணச்சநல்லூர்",
+                             "திருவானைக்கோவில்", "டால்மியாபுரம்", "வரகனேரி", "செந்தண்ணீர்புரம்", "பாலகிருஷ்ணம்பட்டி", "ராம்ஜி நகர்", "ராம்ஜிநகர்", "பீமநகர்",
+                             "திருப்பராய்த்துறை", "முத்தரசநல்லூர்", "கம்பரசம்பேட்டை", "அல்லித்துறை"] if w not in TRICHY_WORDS]
 OUTSIDE_WORDS = ["தமிழகத்தில்", "தமிழ்நாட்டில்", "மாவட்டங்களில்", "மாவட்டங்களுக்கு", "மாவட்டங்கள்", "தென் மாவட்ட", "டெல்டா", "சென்னை", "மதுரை", "நாமக்கல்", "கோவை",
                  "சேலம்", "ஈரோடு", "திருப்பூர்", "கரூர்", "நீலகிரி", "ஊட்டி", "நெல்லை", "தூத்துக்குடி", "வேலூர்", "தஞ்சை", "கடலூர்", "காஞ்சிபுரம்", "புதுச்சேரி",
                  "தமிழக", "இந்தியா", "பிரதமர்", "முதல்வர் ஸ்டாலின்", "விஜய்", "டெல்லி", "கேரளா", "கர்நாடக", "Chennai", "Tamil Nadu"]
@@ -113,6 +121,12 @@ OTHER_EN = ["coimbatore", "kovai", "pollachi", "mettupalayam", "tiruppur", "tiru
             "namakkal", "rasipuram", "tiruchengode", "dharmapuri", "krishnagiri", "hosur", "chennai", "madurai", "tiruvarur", "vellore", "thanjavur",
             "kanniyakumari", "kanyakumari", "dindigul", "tirunelveli", "thoothukudi", "puducherry", "bengaluru", "kerala", "karnataka", "nilgiris", "ooty",
             "palakkad", "kochi", "mysuru", "perambalur", "pudukkottai"]
+
+
+def trichy_url(url):
+    """owner 27 Nov: the newspaper itself filed the article under Trichy (Dinamalar's Trichy district list, Dinamani's Trichy edition,
+    Dinakaran's / OneIndia's Trichy section)"""
+    return url_district(url) in DISTRICT_SLUGS
 
 
 def url_district(url):
@@ -193,7 +207,10 @@ def _stem_forms(w):
 PLACE_STEMS = list(dict.fromkeys(f for w in TRICHY_WORDS if not w.isascii() for f in _stem_forms(w))) + ["திருவரங்க", "திருச்சிராப்பள்ளி"]
 # words that contain a place stem but are not the place: பேரூராட்சி = town panchayat (every district), கோவைக்காய் = a vegetable,
 # கோபிசெட்டிபாளையம் = Gobi in Erode district (contains செட்டிபாளையம்)
-NOT_PLACE = ["பேரூராட்சி", "திருச்சி சிவா"]
+NOT_PLACE = ["பேரூராட்சி", "திருச்சி சிவா",
+             # owner 27 Nov: words that only BEGIN like திருச்சி - திருச்சிற்றம்பலம் (a Thanjavur-district town, a film, a Saiva greeting) and
+             # திருச்சிலுவை (Holy Cross: churches / schools / colleges in every district)
+             "திருச்சிற்றம்பல", "திருச்சிலுவை"]
 
 
 # owner 29 Oct: START WITH TRICHY CITY ONLY (the whole district later: env CITY_ONLY=0 in the workflows).
@@ -642,7 +659,10 @@ SOUTH_AND_OTHER_TOWNS = ["திருச்செந்தூர்", "தூ�
                          "காரைக்குடி", "சிவகங்கை", "விருதுநகர்", "சிவகாசி", "திண்டுக்கல்", "கொடைக்கானல்", "கும்பகோணம்", "மயிலாடுதுறை", "நாகப்பட்டினம்",
                          "வேளாங்கண்ணி", "திருவண்ணாமலை", "விழுப்புரம்", "கள்ளக்குறிச்சி", "பெரம்பலூர்", "அரியலூர்", "புதுக்கோட்டை", "தருமபுரி",
                          "கிருஷ்ணகிரி", "ஓசூர்", "தஞ்சாவூர்", "திருவாரூர்", "மதுரை", "சென்னை", "திருப்பரங்குன்றம்",
-                         "திண்டிவனம்", "செஞ்சி", "சிதம்பரம்", "நெய்வேலி", "பண்ருட்டி", "விருத்தாசலம்", "செங்கல்பட்டு", "ஆம்பூர்", "வாணியம்பாடி"]      # owner 23 Nov: Tindivanam news was posted on Trichy (RN-129)
+                         "திண்டிவனம்", "செஞ்சி", "சிதம்பரம்", "நெய்வேலி", "பண்ருட்டி", "விருத்தாசலம்", "செங்கல்பட்டு", "ஆம்பூர்", "வாணியம்பாடி",      # owner 23 Nov: Tindivanam news was posted on Trichy (RN-129)
+                         # owner 27 Nov: state news that was posted as Trichy news AFTER the 23 Nov list ("காயல்பட்டினத்தில் 18 செ.மீ. மிக கனமழை பதிவு"
+                         # 26 Nov, "பாம்பன் அருகே 77 கிலோ கஞ்சா பறிமுதல்" 23 Nov, "பரனூர் சுங்கச்சாவடியில் ..." 17 Nov) - towns of other districts
+                         "காயல்பட்டினம்", "பாம்பன்", "பரனூர்", "மேல்மருவத்தூர்"]
 OTHER_PLACES += [w for w in SOUTH_AND_OTHER_TOWNS if w not in OTHER_PLACES]
 OTHER_EN += [w for w in ("tiruchendur", "kovilpatti", "nagercoil", "rameswaram", "karaikudi", "sivakasi", "kumbakonam", "tiruvannamalai",
                          "villupuram", "pudukkottai", "perambalur", "ariyalur", "tindivanam", "gingee", "chidambaram", "neyveli", "panruti", "vriddhachalam", "chengalpattu", "ambur", "vaniyambadi") if w not in OTHER_EN]

@@ -76,6 +76,16 @@ CSS = f"""
 .rem{{margin-top:34px;text-align:center;font-size:36px;font-weight:800;color:{MAROON};white-space:nowrap}}
 .rem b{{background:{MAROON};color:{GOLD};border-radius:12px;padding:2px 16px;margin-left:8px}}
 .zrow{{position:absolute;left:40px;right:40px;top:58px;display:flex;justify-content:space-between}}
+.gtitle{{font-size:74px;font-weight:900;line-height:1.25;color:{MAROON};white-space:nowrap;text-align:center;text-shadow:0 2px 0 rgba(255,255,255,.45)}}
+.ghint{{margin-top:4px;text-align:center;font-size:34px;font-weight:800;color:{MAROON};opacity:.85;white-space:nowrap}}
+.grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px}}
+.cell{{position:relative;background:linear-gradient(160deg,{MAROON2} 0%,{MAROON} 75%);border-radius:26px;padding:12px 6px 14px;text-align:center;color:#fff;
+ box-shadow:0 12px 24px rgba(58,7,11,.32),inset 0 0 0 3px rgba(233,178,51,.85)}}
+.cell .g{{font-family:'Zod';font-size:64px;line-height:1.15;color:{GOLD}}}
+.cell .n{{overflow:hidden;font-size:40px;font-weight:900;line-height:1.3;white-space:nowrap}}
+.cell .s{{font-size:30px;line-height:1.2;color:{GOLD};letter-spacing:2px}} .cell .s b.off{{color:rgba(255,210,51,.25)}}
+.cell.top3{{background:linear-gradient(160deg,#FFF3C4 0%,{GOLD} 80%);color:{MAROON}}} .cell.top3 .g,.cell.top3 .s{{color:{MAROON}}}
+.cell .cw{{position:absolute;right:8px;top:8px;background:#E53935;color:#fff;border-radius:14px;padding:0 10px;font-size:20px;font-weight:800;line-height:1.6}}
 .zrow span{{font-family:'Zod';font-size:46px;width:66px;height:66px;line-height:66px;text-align:center;border-radius:50%;color:rgba(255,210,51,.45)}}
 .zrow span.on{{background:{GOLD};color:{MAROON};box-shadow:0 0 22px rgba(255,210,51,.8)}}
 """
@@ -105,7 +115,7 @@ def zrow(i):
     return '<div class="zrow">' + "".join(f'<span class="{"on" if k == i else ""}">{g}&#xFE0E;</span>' for k, g in enumerate(GLYPH)) + "</div>"
 
 
-def panch_scene(p, P, a):
+def panch_scene(p, P, a, note="அடுத்து: 12 ராசிகளுக்கும் இன்றைய பலன் ➜"):
     rows = [("திதி", P["tithi"], f'{P["paksha"]} • {P["tithi_end"]}', ""),
             ("நட்சத்திரம்", P["nakshatra"], P["nakshatra_end"], ""),
             ("நல்ல நேரம்", f'காலை {P["nalla_morning"]}', f'மாலை {P["nalla_evening"]}', "good") if P.get("nalla_morning") else None,
@@ -118,7 +128,7 @@ def panch_scene(p, P, a):
     day = f'{P["weekday_full"]} • {P["tamil_month"]} {P["tamil_day"]}'
     return (f'<div class="scene gold"><div class="metal"></div>{top(p, P["date_ta"], a)}<div class="col">'
             f'<div class="kick"{a("kick")}>{E(day)}</div><div class="ptitle fit"{a("title")}>இன்றைய பஞ்சாங்கம்</div>'
-            f'<div class="ptable">{body}</div><div class="pnote"{a("pnote")}>அடுத்து: 12 ராசிகளுக்கும் இன்றைய பலன் ➜</div></div>'
+            f'<div class="ptable">{body}</div><div class="pnote"{a("pnote")}>{E(note)}</div></div>'
             f'<div class="base">{G.dial()}{zrow(-1)}</div></div>')
 
 
@@ -143,8 +153,35 @@ def rasi_scene(p, P, i, r, a):
             f'</div><div class="base">{G.dial()}{zrow(i)}</div></div>')
 
 
+def grid_on():
+    """owner 27 Nov: the reel opens with all 12 rasis and today's stars on one screen (people find their own rasi at once, pause, screenshot,
+    share); the panchangam follows the 12 rasis. poster/config.json views_test.rasi_grid false = panchangam first, as before"""
+    try:
+        vt = json.loads((HERE.parent / "poster" / "config.json").read_text(encoding="utf-8")).get("views_test") or {}
+        return bool(vt.get("enabled") and vt.get("rasi_grid"))
+    except Exception:
+        return False
+
+
+def grid_scene(p, P, rasis, a):
+    stars = [int(r.get("stars") or 3) for r in rasis]
+    best = sorted(range(12), key=lambda i: -stars[i])[:3] if len(set(stars)) > 1 else []
+    cells = ""
+    for i, r in enumerate(rasis):
+        st = "".join(f'<b class="{"" if k < stars[i] else "off"}">★</b>' for k in range(5))
+        cw = '<span class="cw">கவனம்</span>' if r.get("rasi") == P.get("chandrashtamam") else ""
+        cells += (f'<div class="cell{" top3" if i in best else ""}">{cw}<div class="g">{GLYPH[i]}&#xFE0E;</div>'
+                  f'<div class="n fit">{E(r.get("rasi") or "")}</div><div class="s">{st}</div></div>')
+    return (f'<div class="scene gold"><div class="metal"></div>{top(p, P["date_ta"], a)}<div class="col">'
+            f'<div class="gtitle fit"{a("title")}>இன்று உங்கள் ராசி எப்படி?</div>'
+            f'<div class="ghint"{a("kick")}>{E(P["weekday_full"])} • 12 ராசிகளின் பலன் அடுத்து ➜</div>'
+            f'<div class="grid">{cells}</div></div><div class="base">{G.dial()}{zrow(-1)}</div></div>')
+
+
 def timeline():
     win = [(0.0, OPEN)] + [(round(OPEN + k * SCENE, 2), round(OPEN + (k + 1) * SCENE, 2)) for k in range(12)]
+    if grid_on():      # the panchangam screen after the 12 rasis
+        win.append((win[-1][1], round(win[-1][1] + OPEN, 2)))
     e0 = win[-1][1]
     win.append((e0, round(e0 + END, 2)))
     return win, win[-1][1]
@@ -155,8 +192,11 @@ def reel_page(p, ctx):
     if len(rasis) != 12:
         raise ValueError("rasipalan reel: 12 rasis needed")
     win, dur = timeline()
-    scenes = [panch_scene(p, P, anim(0, P_STEPS, first=True))]
+    grid = grid_on()
+    scenes = [grid_scene(p, P, rasis, anim(0, P_STEPS, first=True)) if grid else panch_scene(p, P, anim(0, P_STEPS, first=True))]
     scenes += [rasi_scene(p, P, i, r, anim(win[i + 1][0], R_STEPS)) for i, r in enumerate(rasis)]
+    if grid:
+        scenes.append(panch_scene(p, P, anim(win[13][0], P_STEPS), "நண்பர்களுக்கு Share செய்யுங்கள்"))
     a = anim(win[-1][0], G.END_STEPS)
     scenes.append(f'<div class="scene end"><div class="deco">{G.dial()}</div>'
                   f'<svg class="lring" viewBox="0 0 {int(G.LOGO_R * 2 + 24)} {int(G.LOGO_R * 2 + 24)}"><circle cx="{G.LOGO_R + 12}" '

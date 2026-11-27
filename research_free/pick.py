@@ -56,6 +56,29 @@ OUTLETS = {"tamil.oneindia.com": "ஒன்இந்தியா", "dinamalar.co
            "tamil.samayam.com": "சமயம் தமிழ்"}      # owner 24 Nov (Times group; a Trichy airport news came only from it)
 OPEN_OUTLETS = ("vikatan.com", "tamil.abplive.com", "tamil.news18.com", "tamil.indianexpress.com", "puthiyathalaimurai.com", "thanthitv.com",
                 "tamil.samayam.com")
+# owner 27 Nov (30 news a day are allowed, ~12 were found): where the news was lost BEFORE any check -
+#  * a search result older than the round's own window (1-4 hours) was never opened, so an article Google / Bing indexed late was lost for
+#    ever: search results of the last SEARCH_HOURS are opened now (0 = the round's own window, the rule before 27 Nov). The pool, the
+#    posted check and the same-event check still stop a second offer.
+#  * only Manapparai and Srirangam were searched besides the city: every taluk town is asked now (TALUK_TOWNS) - Bing every round
+#    (no decode, no 429 seen), Google only TOWN_GOOGLE towns a round, in turn (Google already answers 429 / 503 some rounds).
+#  * a link checked once is remembered (state "seen", SEEN_HOURS): a Google link is decoded once, never every round.
+SEARCH_HOURS = int(os.environ.get("PICK_SEARCH_HOURS", "24") or 0)
+TALUK_TOWNS = ("மணப்பாறை", "ஸ்ரீரங்கம்", "லால்குடி", "முசிறி", "துறையூர்", "திருவெறும்பூர்", "மண்ணச்சநல்லூர்")
+TOWN_GOOGLE = int(os.environ.get("PICK_TOWN_GOOGLE", "2") or 0)
+GOOGLE_PAUSE = float(os.environ.get("PICK_GOOGLE_PAUSE", "1") or 0)      # seconds before each added Google search (no burst)
+DECODE_MAX = int(os.environ.get("PICK_DECODE_MAX", "40") or 0)      # Google links decoded a round (newest first; the rest wait for the next round)
+DECODE_FAIL_STOP = 4      # so many Google links in a row not decoded: Google is refusing - the rest waits for the next round
+SEEN_HOURS = 60
+DROP_LOG_MAX = 40      # dropped links shown in a round's log (each link only the first time it is dropped)
+# a "no" that cannot change: such a SEARCH link is not opened again in a later round (a district-page link is still read every round)
+STABLE_DROPS = ("not Trichy district", "other district", "state-wide", "already posted", "same event already posted",
+                "published before this window", "shop offer", "not Tamil", "feature", "editorial", "already listed")
+# owner 27 Nov: every AI writer was busy / over its quota (10 news lost on 25-26 Nov) - that is not the news's fault: it is offered
+# again in a later round, at most WRITER_RETRIES times (a real "no" - duplicate, other district, no text - still stays a "no")
+WRITER_BUSY = re.compile(r"all free models failed: no usable answer|no free model answered")
+WRITER_RETRIES = int(os.environ.get("PICK_WRITER_RETRIES", "2") or 0)
+_ROUND = {}      # set by cmd_collect for its own candidates() call: {"t_end": the round's time, "seen": the state's link memory}
 
 
 def log(*a):
@@ -128,6 +151,84 @@ def category(title):
     return "பொது"
 
 
+def search_floor(since, t_end=None):
+    """the oldest published time of a search result that is still opened: SEARCH_HOURS before the round (never later than the round's own
+    start). None = no limit (no window given). Any trouble -> the round's own start, the rule before 27 Nov."""
+    try:
+        if not since or SEARCH_HOURS <= 0:
+            return since
+        return min(since, (t_end or now()) - datetime.timedelta(hours=SEARCH_HOURS))
+    except Exception:
+        return since
+
+
+def google_towns(t=None):
+    """the TOWN_GOOGLE taluk towns Google is asked about in the round at time t - they take turns, so every town is asked every day
+    while a round adds only TOWN_GOOGLE Google requests"""
+    t = t or now()
+    n = len(TALUK_TOWNS)
+    k = max(0, min(TOWN_GOOGLE, n))
+    start = ((t.hour // 2 + t.toordinal()) * max(1, k)) % n
+    return [TALUK_TOWNS[(start + i) % n] for i in range(k)]
+
+
+def town_searches(t=None):
+    """[(town, ask Google too?)] - Bing is asked about every taluk town, Google only about this round's towns"""
+    g = set(google_towns(t))
+    return [(w, w in g) for w in TALUK_TOWNS]
+
+
+def search_requests(t=None):
+    """the news-search requests one round makes when nothing fails: {'google': n, 'bing': n}"""
+    site, other = 4 * 2, len([d for d in OUTLETS if d not in ("dinamalar.com", "dinamani.com") and d not in OPEN_OUTLETS])
+    towns = town_searches(t)
+    return {"google": site + other + 1 + sum(1 for _, g in towns if g), "bing": site + len(towns)}
+
+
+def _stamp(t=None):
+    return (t or now()).strftime("%Y-%m-%dT%H:%M")
+
+
+def gkey(it):
+    """the memory key of a Google News item (its guid, else its link)"""
+    return "G" + hashlib.sha1(str(it.get("key") or it.get("url") or "").encode()).hexdigest()[:10]
+
+
+def prune_seen(mem, t_end):
+    """forget links first seen more than SEEN_HOURS ago"""
+    for k, v in list(mem.items()):
+        t = when(str(v).split(" ", 1)[0])
+        if not t or (t_end - t).total_seconds() > SEEN_HOURS * 3600:
+            mem.pop(k, None)
+    return mem
+
+
+def _mem_state(v):
+    """a remembered Google link: ('D', 0) = decoded and checked in an earlier round, ('F', n) = not decoded n times, ('', 0) = new"""
+    try:
+        w = str(v or "").split(" ", 1)[-1] if " " in str(v or "") else ""
+        if w == "D":
+            return "D", 0
+        if w[:1] == "F":
+            return "F", int(w[1:] or 0)
+    except Exception:
+        pass
+    return "", 0
+
+
+def _elsewhere(title):
+    """the headline alone already says 'another district / the whole state' (check_article refuses exactly these) - not opened"""
+    try:
+        return bool(title) and bool(allnews.other_district(title) or allnews.outside_district(title))
+    except Exception:
+        return False
+
+
+def short_url(u):
+    u = re.sub(r"^https?://(www\.)?", "", str(u or ""))
+    return u if len(u) <= 70 else u[:28] + "..." + u[-38:]
+
+
 def candidates(log_lines, since=None):
     """Dinamalar Trichy district list + Dinamani Trichy edition: article links"""
     items = []
@@ -145,6 +246,12 @@ def candidates(log_lines, since=None):
                     log_lines.append(f"{cfg.get('name', cfg['url'])} list failed: {str(e)[:100]}")
     except Exception as e:
         log_lines.append(f"Dinamani list failed: {str(e)[:120]}")
+    t_end = _ROUND.get("t_end") or now()
+    floor = search_floor(since, t_end)      # owner 27 Nov: the last SEARCH_HOURS, not only the round's own window
+
+    def fresh(x):
+        p = when(x.get("published"))
+        return not (floor and p and p < floor)      # older than the search limit: not opened
     # the district list pages show only the latest ~20-40 news: Google / Bing news searches limited to the two papers fill the rest of the window
     both = (allnews.from_google, allnews.from_bing)
     searches = [(q, d, both) for q in ("திருச்சி", "திருச்சிராப்பள்ளி", "மணப்பாறை", "ஸ்ரீரங்கம்") for d in ("dinamalar.com", "dinamani.com")]
@@ -154,16 +261,14 @@ def candidates(log_lines, since=None):
         if True:
             for fn in fns:
                 try:
-                    got = [x for x in fn(f"{q} site:{dom}") if dom in (x.get("site", "") + x.get("url", ""))
-                           and not (since and when(x.get("published")) and when(x.get("published")) < since)]      # older than the window: not opened
+                    got = [x for x in fn(f"{q} site:{dom}") if dom in (x.get("site", "") + x.get("url", "")) and fresh(x)]
                     got.sort(key=lambda x: str(x.get("published") or ""), reverse=True)
                     items += got[:25]      # the newest 25 of a search (each Google link costs a decode)
                 except Exception as e:
                     log_lines.append(f"{fn.__name__} {dom} '{q}' failed: {str(e)[:80]}")
                     if fn is allnews.from_google and allnews.from_bing not in fns:      # owner 22 Nov: Google busy (503) - Bing for that paper
                         try:
-                            got = [x for x in allnews.from_bing(f"{q} site:{dom}") if dom in (x.get("site", "") + x.get("url", ""))
-                                   and not (since and when(x.get("published")) and when(x.get("published")) < since)]
+                            got = [x for x in allnews.from_bing(f"{q} site:{dom}") if dom in (x.get("site", "") + x.get("url", "")) and fresh(x)]
                             items += sorted(got, key=lambda x: str(x.get("published") or ""), reverse=True)[:25]
                         except Exception as e2:
                             log_lines.append(f"from_bing {dom} '{q}' failed too: {str(e2)[:80]}")
@@ -171,21 +276,80 @@ def candidates(log_lines, since=None):
     # district pages miss news (Dinakaran's Trichy page still showed 19 Nov news on 23 Nov) and the new outlets have no district page
     for fn in (allnews.from_google, allnews.from_bing):
         try:
-            got = [x for x in fn("திருச்சி") if any(d in (x.get("site", "") + " " + x.get("url", "")) for d in OUTLETS)
-                   and not (since and when(x.get("published")) and when(x.get("published")) < since)]
+            got = [x for x in fn("திருச்சி") if any(d in (x.get("site", "") + " " + x.get("url", "")) for d in OUTLETS) and fresh(x)]
             items += sorted(got, key=lambda x: str(x.get("published") or ""), reverse=True)[:40]
             log_lines.append(f"open search 'திருச்சி' ({fn.__name__}): {len(got)} links from our outlets")
             break      # Google answered - Bing only when Google is busy
         except Exception as e:
             log_lines.append(f"open search {fn.__name__} 'திருச்சி' failed: {str(e)[:80]}")
-    seen, out = set(), []
+    # owner 27 Nov: the taluk towns (Lalgudi, Musiri, Thuraiyur, Thiruverumbur, Manachanallur ... were never searched) - one open search
+    # each, kept only for our trusted outlets: Bing for every town, Google for this round's TOWN_GOOGLE towns
+    try:
+        town_n, asked = 0, []
+        for town, use_google in town_searches(t_end):
+            for fn in ((allnews.from_google,) if use_google else ()) + (allnews.from_bing,):
+                try:
+                    if fn is allnews.from_google and GOOGLE_PAUSE > 0:
+                        time.sleep(GOOGLE_PAUSE)
+                    got = [x for x in fn(town) if any(d in (x.get("site", "") + " " + x.get("url", "")) for d in OUTLETS) and fresh(x)]
+                    items += sorted(got, key=lambda x: str(x.get("published") or ""), reverse=True)[:15]
+                    town_n += len(got)
+                except Exception as e:
+                    log_lines.append(f"town search {fn.__name__} '{town}' failed: {str(e)[:80]}")
+            asked.append(town + (" (+Google)" if use_google else ""))
+        log_lines.append(f"town searches ({', '.join(asked)}): {town_n} links from our outlets")
+    except Exception as e:
+        log_lines.append(f"town searches not run: {str(e)[:100]}")
+    mem = _ROUND.get("seen")
+    mem = mem if isinstance(mem, dict) else {}
+    stamp = _stamp(t_end)
+    direct, goog, n, streak = [], {}, {"known": 0, "elsewhere": 0, "later": 0, "decoded": 0, "failed": 0}, 0
     for it in items:
+        if "news.google.com" in it["url"]:
+            goog.setdefault(gkey(it), it)
+        elif it.get("via") == "bing" and _elsewhere(it.get("title") or ""):
+            n["elsewhere"] += 1
+        else:
+            direct.append(it)
+
+    def first(kv):      # a headline that names a Trichy place first, then the newest
+        try:
+            place = bool(allnews.has_place(kv[1].get("title") or ""))
+        except Exception:
+            place = False
+        return (not place, -((when(kv[1].get("published")) or t_end).timestamp()))
+    for k, it in sorted(goog.items(), key=first):
+        kind, fails = _mem_state(mem.get(k))
+        if kind == "D" or fails >= 3:      # decoded in an earlier round (checked then), or not decoded 3 times
+            n["known"] += 1
+            continue
+        title = it.get("title") or ""
+        if _elsewhere(title):
+            mem[k] = stamp + " D"
+            n["elsewhere"] += 1
+            continue
+        if (DECODE_MAX and n["decoded"] + n["failed"] >= DECODE_MAX) or streak >= DECODE_FAIL_STOP:
+            n["later"] += 1      # the round's share is used up, or Google refuses its decoder now (each refusal costs ~40 s): next round
+            continue
+        try:
+            u = allnews.resolve(it["url"])
+            streak = 0
+        except Exception as e:      # owner 27 Nov: said in the log (it was dropped silently) and tried again in the next round
+            n["failed"] += 1
+            streak += 1
+            mem[k] = (str(mem.get(k) or stamp).split(" ", 1)[0]) + f" F{fails + 1}"
+            if n["failed"] <= 5:
+                log_lines.append(f"google link not decoded (tried again next round): {title[:50]} - {str(e)[:70]}")
+            continue
+        mem[k] = stamp + " D"
+        n["decoded"] += 1
+        direct.append(dict(it, url=u))
+    if goog or n["elsewhere"]:
+        log_lines.append(f"search links: {n['decoded']} Google links decoded, {n['failed']} not decoded, {n['known']} known from an earlier round, "
+                         f"{n['later']} left for the next round, {n['elsewhere']} of another district by their headline (not opened)")
+    seen, out = set(), []
+    for it in direct:
         u = it["url"]
-        if "news.google.com" in u:
-            try:
-                u = allnews.resolve(u)
-            except Exception:
-                continue
         u = u.split("?")[0].rstrip("/").replace("dinamani.com/amp/story/", "dinamani.com/").replace("://l-www.dinamalar.com", "://www.dinamalar.com")
         if u not in seen and ("dinamalar.com/news" in u or any(d in u for d in OUTLETS if d != "dinamalar.com")):
             seen.add(u)
@@ -203,6 +367,16 @@ def is_posted(url, title, recent):
     return False
 
 
+def own_page_local(url, title):
+    """owner 27 Nov: the paper itself filed the article under Trichy (Dinamalar's Trichy district list, Dinamani's Trichy edition) and
+    its headline is not state-wide news - then another district named in its first lines ('... of Perambalur district died near
+    Siruganur') does not make it another district's news. A state political story on the district page is still refused."""
+    try:
+        return bool(allnews.trichy_url(url)) and not allnews.statewide(title)
+    except Exception:
+        return False      # the rule before 27 Nov
+
+
 def check_article(it, recent):
     """-> (item dict, '') when it is real Trichy district news, else (None, reason)"""
     import collect
@@ -212,6 +386,8 @@ def check_article(it, recent):
         return None, f"could not open ({str(e)[:50]})"
     art["url"] = it["url"]
     title = re.sub(r"\s+", " ", (art.get("title") or "").replace("ுா", "ூ")).strip()
+    it["_title"] = title      # owner 27 Nov: a dropped link is logged with its headline
+    it["_published"] = art.get("published") or ""
     if not title:
         return None, "no title"
     if len(collect.body_words(art)) < collect.HEADLINE_ONLY_MIN:
@@ -234,7 +410,7 @@ def check_article(it, recent):
         return None, "shop offer / advertisement"
     # owner 3 Nov: the writer's own district check, run here too - a picked story the writer then refuses (another place in its first
     # lines, e.g. a state political story on the district list) left the round short (10 AM round: 4 of 6 written)
-    if allnews.written_elsewhere(title, art.get("text") or ""):
+    if allnews.written_elsewhere(title, art.get("text") or "") and not own_page_local(it["url"], title):
         return None, "not Trichy district"
     low = collect.low_interest(title, it["url"])
     if low and ("feature" in low or "editorial" in low):
@@ -381,6 +557,9 @@ def cmd_collect():
     t_start = when(st.get("last_end")) or first_start(t_end)
     rid = t_end.strftime("%Y-%m-%d_%H")      # owner 2 Nov: 3 rounds a day (06 / 10 / 19); a late round keeps its own name
     log(f"round {rid}: news published {t_start:%d %b %H:%M} -> {t_end:%d %b %H:%M} (" + ", ".join(OUTLETS.values()) + " - Trichy)")
+    floor = search_floor(t_start, t_end)
+    if floor and floor < t_start:      # owner 27 Nov: said openly - the list can hold news published before this round's own window
+        log(f"   + news published since {floor:%d %b %H:%M} that no earlier round found (listed / indexed late) - never one already listed or posted")
     try:      # owner 2 Nov: this round's order follows the insights read a moment ago
         import learned
         d_ = learned.load()
@@ -389,7 +568,17 @@ def cmd_collect():
         log("insights not loaded:", str(e)[:80])
     recent = recent_rows()
     lines = []
-    cands = candidates(lines, t_start)
+    mem = st.get("seen")
+    mem = st.setdefault("seen", {}) if not isinstance(mem, dict) else mem
+    try:
+        prune_seen(mem, t_end)
+    except Exception as e:
+        log("link memory not cleaned:", str(e)[:80])
+    _ROUND.update(t_end=t_end, seen=mem)
+    try:
+        cands = candidates(lines, t_start)
+    finally:
+        _ROUND.clear()
     retry = st.setdefault("retry", {})      # owner 2 Nov (review): links that could not be opened are tried again (max 24 h)
     have = {c["url"] for c in cands}
     for u, r_ in list(retry.items()):
@@ -408,9 +597,28 @@ def cmd_collect():
         power_done = set(json.loads((HERE / "archive" / "powercut_state.json").read_text(encoding="utf-8")).get("done", {}))
     except Exception:
         power_done = set()
-    new, reasons = [], {}
+    new, reasons, drops, stamp = [], {}, [], _stamp(t_end)
+    listed = {re.sub(r"\s+", " ", str(v.get("title") or "")).strip() for v in pool.values()} - {""}
+
+    def note(it, why):
+        """the first time a link is dropped it is shown in the log (headline + reason) and remembered"""
+        try:
+            k = pid(it["url"])
+            if k not in mem:
+                when_ = f" [{str(it.get('_published') or '')[:16]}]" if why.startswith("published before") else ""
+                drops.append(f"   drop [{why[:45]}]{when_} {str(it.get('_title') or it.get('title') or '')[:60]} | {short_url(it['url'])}")
+            mem[k] = f"{str(mem.get(k) or stamp).split(' ', 1)[0]} {why[:40]}"      # the first day it was seen + the latest reason
+        except Exception:
+            pass
     for it in cands:
         if pid(it["url"]) in pool:      # listed in an earlier round: it comes back only as a leftover (below)
+            continue
+        if pid_forms(it["url"]) & set(pool):      # owner 27 Nov: the same article under its other address (amp / l-www) is not a new news
+            continue
+        if it.get("via") in ("google", "bing") and not it.get("_retry") \
+                and str(mem.get(pid(it["url"])) or "").split(" ", 1)[-1].startswith(STABLE_DROPS):
+            # owner 27 Nov: a search link refused in an earlier round for a reason that cannot change is not opened again
+            reasons["checked in an earlier round"] = reasons.get("checked in an earlier round", 0) + 1
             continue
         if pid(it["url"]) in power_done:      # owner 1 Nov: a power cut is posted at once by powercut.py - not asked again
             reasons["power cut - posted automatically"] = reasons.get("power cut - posted automatically", 0) + 1
@@ -422,6 +630,12 @@ def cmd_collect():
             retry.pop(it["url"], None)
         if not item:
             reasons[why] = reasons.get(why, 0) + 1
+            note(it, why)
+            continue
+        if re.sub(r"\s+", " ", str(item.get("title") or "")).strip() in listed and not item.get("power_cut"):
+            # owner 27 Nov: the same headline is already in the pool under another link - not a new news
+            reasons["already listed in an earlier round"] = reasons.get("already listed in an earlier round", 0) + 1
+            note(it, "already listed in an earlier round")
             continue
         pt = when(item["published"])
         if pt and pt < t_start and not (it.get("_retry") and (t_end - pt).total_seconds() < LEFT_HOURS * 3600):
@@ -432,6 +646,7 @@ def cmd_collect():
                 item["late_listed"] = True
             else:
                 reasons["published before this window"] = reasons.get("published before this window", 0) + 1
+                note(it, "published before this window")
                 continue
         if pt and pt > t_end + datetime.timedelta(minutes=5):
             continue
@@ -440,6 +655,10 @@ def cmd_collect():
             continue
         new.append(item)
     log("skipped: " + ", ".join(f"{k}={v}" for k, v in sorted(reasons.items(), key=lambda x: -x[1])))
+    for l in drops[:DROP_LOG_MAX]:      # owner 27 Nov: WHICH links were dropped and why (only the first time; the counts above are every link)
+        log(l)
+    if len(drops) > DROP_LOG_MAX:
+        log(f"   (+ {len(drops) - DROP_LOG_MAX} more dropped links not shown)")
     new = merge_same(new)
     # leftovers: listed before, never posted, less than 24 hours old
     left = []
@@ -463,6 +682,8 @@ def cmd_collect():
             it.pop("refused", None)
             it.pop("picked_at", None)
             log(f"held back by yesterday's daily maximum - offered again today: {it.get('title', '')[:60]}")
+        if writer_retry(it):      # owner 27 Nov: every AI writer failed - not the news's fault, it is a pending news again
+            log(f"every AI writer failed last time - offered again (try {it['writer_retries']} of {WRITER_RETRIES}): {it.get('title', '')[:60]}")
         if it.get("refused"):
             continue      # owner 4 Nov: the writer said no (e.g. duplicate after write) - kept in the pool so it is not "new" again
         pk = when(it.get("picked_at"))
@@ -477,8 +698,11 @@ def cmd_collect():
         pool[it["id"]] = dict(it, listed_at=t_end.isoformat())
     items = new + left
     log(f"list: {len(new)} new + {len(left)} earlier news not posted yet")
+    late = [x for x in new if x.get("late_listed")]
     for i, it in enumerate(items, 1):
-        log(f"  {i:2}. [{it['category']}] {it['title'][:70]} ({it['source']}){' (earlier)' if it.get('leftover') else ''}")
+        pt_ = when(it.get("published"))
+        found_late = f" (published {pt_:%d %b %H:%M}, found only now)" if it.get("late_listed") and not it.get("leftover") and pt_ else ""
+        log(f"  {i:2}. [{it['category']}] {it['title'][:70]} ({it['source']}){' (earlier)' if it.get('leftover') else ''}{found_late}")
     deadline = t_end + datetime.timedelta(minutes=WAIT_MIN)
     st["rounds"][rid] = {"window": [t_start.isoformat(), t_end.isoformat()], "ids": [x["id"] for x in items], "sent": False,
                          "deadline": deadline.isoformat(), "decided": None, "written": []}
@@ -487,7 +711,8 @@ def cmd_collect():
     elif not DRY and items:
         try:
             bridge_post("pickList", {"round": rid, "deadline": deadline.strftime("%I:%M %p").lstrip("0"), "auto_top": AUTO_TOP,
-                                     "window": f"{t_start:%d %b %I:%M %p} – {t_end:%d %b %I:%M %p}",
+                                     "window": f"{t_start:%d %b %I:%M %p} – {t_end:%d %b %I:%M %p}"
+                                               + (f" (+ {len(late)} published earlier, found only now)" if late else ""),
                                      "items": [{k: x.get(k, "") for k in ("id", "title", "summary", "source", "published", "category", "url")}
                                                | {"leftover": bool(x.get("leftover"))} for x in items]})
             st["rounds"][rid]["sent"] = True
@@ -505,6 +730,21 @@ def cmd_collect():
         save_state(st)
     print(f"ROUND={rid}")
     return rid
+
+
+def writer_retry(it):
+    """owner 27 Nov: a pool news the writer refused ONLY because every AI model failed (busy / quota) is released for another try -
+    at most WRITER_RETRIES times. True when it was released (its 'refused' mark and pick time are taken off)."""
+    try:
+        n = int(it.get("writer_retries") or 0)
+        if not WRITER_BUSY.search(str(it.get("refused") or "")) or n >= WRITER_RETRIES:
+            return False
+        it["writer_retries"] = n + 1
+        it.pop("refused", None)
+        it.pop("picked_at", None)
+        return True
+    except Exception:
+        return False
 
 
 def round_order(rid):

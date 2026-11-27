@@ -311,8 +311,19 @@ def reel_timeline(r):
     return kinds, win, win[-1][1], COVER
 
 
+def change_first():
+    """owner 27 Nov: poster/config.json views_test.gold_change_first - today's change, big, from the first frame"""
+    try:
+        vt = json.loads((Path(__file__).resolve().parent.parent / "poster" / "config.json").read_text(encoding="utf-8")).get("views_test") or {}
+        return bool(vt.get("enabled") and vt.get("gold_change_first"))
+    except Exception:
+        return False
+
+
 def reel_page(p, r):
     kinds, win, dur, cover = reel_timeline(r)
+    big = change_first()
+    first = FIRST + (("chip", "vs") if big else ())
 
     def anim(s0, steps):
         def a(k):
@@ -322,7 +333,7 @@ def reel_page(p, r):
                 st = (t + BAR_LEN - 0.1, 0.25, "fade") if k.startswith("barv") else (t, BAR_LEN, "grow")
             else:
                 st = steps.get(k)
-                if st and s0 == 0 and k in FIRST:
+                if st and s0 == 0 and k in first:
                     st = (-1.0, st[1], st[2])      # the reel's first frame already shows it
             return f' data-a="{s0 + st[0]:.2f},{st[1]},{st[2]}"' if st else ""
         return a
@@ -344,5 +355,6 @@ def reel_page(p, r):
                   f'<div class="fw"><span{a("efollow")}>Follow @{p["handle"]}</span></div></div>')
     js = (f'window.DUR={dur};window.COVER_T={cover};const SC={json.dumps(win)},WIPE={WIPE},SWEEP={json.dumps(SWEEP)},'
           f'ARC_C={ARC_C},LRC={round(2 * 3.14159265 * LOGO_R, 1)};' + REEL_JS)
-    return (f'<!doctype html><html><head><meta charset="utf-8"><style>{css()}{REEL_CSS}</style></head><body class="reel">'
+    bigcss = ".reel .hero .chg{font-size:44px;padding:8px 28px}" if big else ""
+    return (f'<!doctype html><html><head><meta charset="utf-8"><style>{css()}{REEL_CSS}{bigcss}</style></head><body class="reel">'
             f'{"".join(scenes)}<div class="hand"></div><div class="pivot"></div><script>{js}</script></body></html>')

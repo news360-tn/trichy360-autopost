@@ -1254,7 +1254,8 @@ def links_alive(media):
 def save_cache(sid, key, media, checks):
     try:
         CACHE.mkdir(parents=True, exist_ok=True)
-        cache_path(sid).write_text(json.dumps(dict(media, key=key, checks=checks, reel_only=not media.get("carousel")), ensure_ascii=False), encoding="utf-8")
+        extra = {"variant": LAST_REEL_META} if LAST_REEL_META and LAST_REEL_META.get("story") == sid else {}      # owner 27 Nov: a prebuilt reel keeps its voice / design for the views test
+        cache_path(sid).write_text(json.dumps(dict(media, key=key, checks=checks, reel_only=not media.get("carousel"), **extra), ensure_ascii=False), encoding="utf-8")
     except Exception as e:
         log("cache not saved:", e)
 
@@ -2694,6 +2695,9 @@ def run_story_page(row, page):
     if cached:
         media = cached
         caption = cached.get("caption") or caption      # a prebuilt long reel brings its extended caption
+        if isinstance(cached.get("variant"), dict) and cached["variant"].get("story") == sid:      # owner 27 Nov: the views test sees prebuilt reels too
+            global LAST_REEL_META
+            LAST_REEL_META = dict(cached["variant"])
     else:
         media = {"carousel": [], "reel": "", "cover": "", "story": ""}
         try:

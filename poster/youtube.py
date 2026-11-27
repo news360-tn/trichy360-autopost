@@ -82,9 +82,18 @@ def details(m, page, uname):
     lines = [x.strip() for x in cap.split("\n")]
     head = re.sub(r"^[^\w஀-௿]+", "", lines[0] if lines else "").strip()
     name = PAGE_EN.get(page, page.title())
-    suffix = f" | {name} {search_word(cap)}"      # owner 25 Nov: an English search word (people search YouTube in English too)
+    word = search_word(cap) if re.search(r"ராசிபலன்|தங்கம்.{0,25}விலை|Gold rate|GoldRate", cap, re.I) else search_word(head)      # owner 27 Nov: the topic of the HEADLINE (the whole caption made a murder 'sports news')
+    suffix = f" | {name} {word}"      # owner 25 Nov: an English search word (people search YouTube in English too)
+    daily = word in ("rasi palan today", "gold rate today")
+    if daily and len(head) > TITLE_MAX - len(suffix):      # owner 27 Nov: the daily reels keep their search word - the weekday goes first
+        head = re.sub(r",\s*[^,|]+$", "", head).strip()
+    if not daily and len(head) > TITLE_MAX - len(suffix):      # owner 27 Nov: a long headline keeps its words - the short suffix first, then a cut at a word end (never inside a word)
+        suffix = f" | {name}"
     room = TITLE_MAX - len(suffix)
-    title = (head if len(head) <= room else head[:room - 1].rstrip() + "…") + suffix      # owner 25 Nov: about 70 characters (Shorts feed)
+    if len(head) > room:
+        cut = head[:room - 1]
+        head = (cut[:cut.rfind(" ")] if cut.rfind(" ") > room * 0.5 else cut).rstrip(" -:,") + "…"
+    title = head + suffix      # owner 25 Nov: about 70 characters (Shorts feed)
     tags = [t.lstrip("#") for t in re.findall(r"#[^\s#]+", cap)][:12]
     kw_line = next((x for x in lines if x.startswith("🔎")), "")      # owner 26 Nov: the keyword line: last in the description + in the hidden Tags
     body = [x for x in lines[1:] if x and not x.startswith("#") and not x.startswith("🤝 Sponsored") and not x.startswith("🔎")]

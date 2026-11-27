@@ -22,9 +22,13 @@
     "note": "Trichy 360: Valluvar (free edge-tts) reads every reel; Google voices are never used",
     "ab_voices": [
       "ta-IN-ValluvarNeural",
-      "ta-IN-PallaviNeural"
+      "ta-IN-PallaviNeural",
+      "ta-MY-KaniNeural",
+      "ta-MY-SuryaNeural",
+      "ta-SG-AnbuNeural",
+      "ta-SG-VenbaNeural"
     ],
-    "ab_note": "owner 26 Nov (Trichy views test): two free edge-tts Tamil voices, chosen per story by its headline (about half each) and saved with the post, so insights show which voice keeps viewers longer. [] or remove = Valluvar only",
+    "ab_note": "owner 27 Nov (Trichy views test): six free edge-tts Tamil voices (India, Malaysia, Singapore; a man and a woman each), chosen per story by its headline (about a sixth each) and saved with the post, so insights show which voice keeps viewers longer - voices under the page's median watch time are removed after a week. The two Sri Lanka voices (ta-LK-KumarNeural, ta-LK-SaranyaNeural) work too and can be added. [] or remove = Valluvar only",
     "outro_text": "Share this with your friends in Trichy. Follow Trichy Three Sixty."
   },
   "prime_time": {
@@ -197,7 +201,34 @@
       "C",
       "P"
     ],
-    "styles_note": "owner 26 Nov: 4 designs take turns (chosen by the headline, about a quarter each, independent of the voice): A = Namakkal 360 classic, B = TV broadcast red band, C = centred cinematic, P = premium story panel. The design is saved with each post. [] = classic only"
+    "styles_note": "owner 27 Nov: news of topic 'other' takes these designs in turn (A classic, B TV band, C centred - dark glass since 27 Nov, P premium panel); every other topic has its news theme (topic_themes). The design is saved with each post.",
+    "topic_themes": {
+      "accident": "ACC",
+      "crime": "POL",
+      "weather": "WX",
+      "power_cut": "PWR",
+      "temple": "TMP",
+      "politics": "GOV",
+      "civic": "CIV",
+      "education": "EDU",
+      "jobs": "JOB",
+      "poultry_agri": "AGR",
+      "sports_culture": "SPT"
+    },
+    "topic_themes_note": "owner 27 Nov: each kind of news has its own theme (topic from research_free/learned.py, the same topics insights measures): ACC accident hazard red/yellow, POL police navy with a red-blue light bar, WX rain deep-blue glass, PWR power cut amber/black, TMP temple maroon/saffron/gold serif, GOV government white notice green/maroon, CIV civic teal, EDU education notebook blue, JOB jobs green/yellow, AGR farming wheat/leaf green, SPT sports purple/orange. Topic 'other' = styles A/B/C/P take turns. {} = no news themes",
+    "clean_hook": true,
+    "clean_hook_note": "owner 27 Nov: the first seconds show only the picture and the big headline (the spoken words appear as captions after the headline) - less text on screen at the start, where most viewers decide to stay",
+    "end_line_ta": "இந்தச் செய்தியை {town} நண்பர்களுக்கு ஷேர் பண்ணுங்க. திருச்சி த்ரீ சிக்ஸ்டி ஃபாலோ பண்ணுங்க.",
+    "end_line_note": "owner 27 Nov: ONE short Tamil share + follow line at the end (was the Tamil follow line + an English share line = a 6 s still end card, 15-19% of a short reel). {town} = the reel's town when it is one of the taluk towns, else திருச்சி. '' = the old two lines end_card_s = seconds of the still logo card at the very end (the share line is spoken over the full-details card before it); 0 = the card shows during the whole line",
+    "hook_low": true,
+    "hook_max_s": 3.0,
+    "cycle_pictures": true,
+    "hook_note": "owner 27 Nov (audit of 4 posted reels: the same picture and headline stood still for 4-6 s and the headline boxes covered the picture's subject): hook_low = the headline sits under the middle of the picture; hook_max_s = the big headline stays at most this long, then the small headline and the captions; cycle_pictures = every cut (about 1.9 s) shows another picture. false / 0 = as before",
+    "end_card_s": 2.0,
+    "rasi_grid": true,
+    "rasi_grid_note": "owner 27 Nov (rasipalan reels: median 203 views, 0 shares in 14 reels; it opened on a dense panchangam table): the reel opens with all 12 rasis and today's stars on one screen (the 3 best days in gold, today's சந்திராஷ்டமம் marked) - people find their own rasi at once; the panchangam comes after the 12 rasis. false = panchangam first",
+    "gold_change_first": true,
+    "gold_change_note": "owner 27 Nov: the gold reel shows today's up / down change (big) from the first frame - the one number people look for"
   },
   "post_error_wait_min": 10,
   "no_quick_retry": true,

@@ -64,5 +64,23 @@ def main():
               + ("   <- test" if d >= START else ""))
 
 
+def other_platforms():
+    """owner 27 Nov: Facebook reels and YouTube Shorts per day (poster/insights/facebook.json, youtube.json - written by insights.yml)"""
+    for name, fname, key in (("Facebook reels (plays)", "facebook.json", "plays"), ("YouTube Shorts (views)", "youtube.json", "views")):
+        try:
+            rows = json.loads((ROOT / "poster" / "insights" / fname).read_text(encoding="utf-8")).values()
+        except Exception:
+            print(f"\n{name}: no numbers yet (the next insights run writes them)")
+            continue
+        by_day = {}
+        for r in rows:
+            if r.get(key) is not None and r.get("at"):
+                by_day.setdefault(when(r["at"]).date().isoformat(), []).append(r[key])
+        print(f"\n{name} per day:")
+        for d in sorted(by_day)[-10:]:
+            print(f"  {d}  videos {len(by_day[d]):>3}  total {sum(by_day[d]):>8}  median {statistics.median(by_day[d]):>6.0f}" + ("   <- test" if d >= START else ""))
+
+
 if __name__ == "__main__":
     main()
+    other_platforms()

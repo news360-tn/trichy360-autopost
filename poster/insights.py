@@ -231,6 +231,12 @@ def main():
                 hist[i["id"]]["permalink"] = i["permalink"]
     os.makedirs(os.path.dirname(HIST), exist_ok=True)
     json.dump(hist, open(HIST, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    for pg in ("trichy",):      # owner 27 Nov: the views test is measured on Facebook and YouTube too (insights/facebook.json, youtube.json)
+        try:
+            import platform_stats
+            platform_stats.read_all(pg)
+        except Exception as e:
+            print(pg, "Facebook / YouTube views not read:", str(e)[:200])
 
     rows = [h for h in hist.values() if h.get("type", "REELS") == "REELS" and h.get("reach") is not None and (h.get("reach") or 0) > 0]      # learned.json: reels only
     # relative score = post score / the page's median (one page: Trichy 360)

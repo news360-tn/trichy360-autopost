@@ -23,7 +23,8 @@ class RasiReel(unittest.TestCase):
 
     def test_screens(self):
         RR, pan, html = self.page()
-        self.assertEqual(html.count('class="scene gold"'), 13)      # panchangam + 12 rasis
+        grid = RR.grid_on()      # owner 27 Nov: the 12-rasi grid opens the reel, the panchangam follows the rasis
+        self.assertEqual(html.count('class="scene gold"'), 14 if grid else 13)      # (grid +) panchangam + 12 rasis
         self.assertEqual(html.count('class="scene end"'), 1)
         for r in RASI:
             self.assertIn(r, html)
@@ -33,7 +34,7 @@ class RasiReel(unittest.TestCase):
         self.assertIn("fitAll", html)      # long lines shrink to fit
         self.assertNotIn("voice", html.lower())
         _, dur = RR.timeline()
-        self.assertAlmostEqual(dur, 43.6, delta=0.01)
+        self.assertAlmostEqual(dur, 47.2 if grid else 43.6, delta=0.01)
 
     def test_twelve_needed(self):
         import rasi360_render as RR
