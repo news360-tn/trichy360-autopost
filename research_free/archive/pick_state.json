@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-28T02:26:16.505915+05:30",
+ "last_end": "2026-11-28T04:27:00.614004+05:30",
  "pool": {
   "C5d6c867": {
    "id": "C5d6c867",
@@ -42,21 +42,6 @@
    "picked_at": "2026-11-28T02:29:20.415351+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
   },
-  "Cc209d08": {
-   "id": "Cc209d08",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/seized-policeman-injured-as-van-overturns/4388104",
-   "title": "பறிமுதல் செய்து ஓட்டி சென்ற வேன் கவிழ்ந்து போலீஸ்காரர் காயம்",
-   "summary": "திருச்சி: வாழைத்தார் ஏற்றிய வேனை, பறிமுதல் செய்து, போலீஸ் ஸ்டேஷனுக்கு ஓட்டி சென்றபோது கவிழ்ந்தது. இதில், வேனை ஓட்டிய போலீஸ்காரர் மருதமுத்து, 40, காயமடைந்தார்.",
-   "source": "தினமலர்",
-   "published": "2026-11-27T23:48:40+05:30",
-   "category": "குற்றம்",
-   "score": 12.34,
-   "power_cut": false,
-   "late_listed": true,
-   "listed_at": "2026-11-28T02:26:16.505915+05:30",
-   "picked_at": "2026-11-28T02:29:20.415353+05:30",
-   "posted": true
-  },
   "C1396c80": {
    "id": "C1396c80",
    "url": "https://www.dinamani.com/all-editions/edition-dharmapuri/salem/2026/Nov/27/risk-of-accidents-due-to-rainwater-stagnation-on-the-thammampattitrichy-highway",
@@ -68,26 +53,130 @@
    "score": 10.5,
    "power_cut": false,
    "listed_at": "2026-11-28T02:26:16.505915+05:30"
+  },
+  "C972569b": {
+   "id": "C972569b",
+   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/power-outage-in-lalgudi-areastoday",
+   "title": "லால்குடி பகுதிகளில் இன்று மின்தடை",
+   "summary": "திருச்சி மாவட்டம், லால்குடி பகுதிகளில் சனிக்கிழமை மின்சாரம் இருக்காது..பராமரிப்பு பணியால் லால்குடி, ஏகே நகா், பரமசிவபுரம், சீனிவாசபுரம், வரதராஜ் நகா், பச்சன்னபுரம், உமா்நகா், பாரதிநகா், வஉசி நகா், காமராஜ் நகா், பாலாஜி...",
+   "source": "தினமணி",
+   "published": "2026-11-27T21:20:04.629Z",
+   "category": "மின்தடை",
+   "score": 12.94,
+   "power_cut": true,
+   "listed_at": "2026-11-28T04:27:00.614004+05:30"
+  },
+  "C72d99ef": {
+   "id": "C72d99ef",
+   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/rs-190-lakh-swindled-from-software-engineer",
+   "title": "மென்பொறியாளரிடம் ரூ. 1.90 லட்சம் மோசடி",
+   "summary": "திருச்சியில் மென்பொறியாளரிடம் இணைய வழியில் ரூ.1.90 லட்சம் மோசடி செய்யப்பட்டது குறித்து சைபா் கிரைம் போலீஸாா் விசாரிக்கின்றனா்..திருச்சியிலுள்ள ஐடி நிறுவன மென்பொறியாளரான சுவாதியை (22) டெலிகிராம் செயலி மூலம் கடந்த நவ.",
+   "source": "தினமணி",
+   "published": "2026-11-27T21:12:39.560Z",
+   "category": "குற்றம்",
+   "score": 12.29,
+   "power_cut": false,
+   "listed_at": "2026-11-28T04:27:00.614004+05:30"
+  },
+  "C9f13a69": {
+   "id": "C9f13a69",
+   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/person-who-obtained-bail-by-providing-false-information-arrested",
+   "title": "பொய்த் தகவல் அளித்து ஜாமீன் பெற்றவா் கைது",
+   "summary": "திருச்சியில் புகையிலைப்பொருள்கள் வழக்கில் நீதிமன்ற பிணையை பொய்த் தகவல் அளித்து பெற்றவரை போலீஸாா் வெள்ளிக்கிழமை கைது செய்தனா்..திருச்சி மாவட்டம், துவாக்குடி காவல் நிலை எல்லைக்குள்பட்ட பகுதியில் அரசால் தடைசெய்யப்பட்ட பு...",
+   "source": "தினமணி",
+   "published": "2026-11-27T21:16:38.723Z",
+   "category": "குற்றம்",
+   "score": 12.29,
+   "power_cut": false,
+   "listed_at": "2026-11-28T04:27:00.614004+05:30"
+  },
+  "Cce99a4e": {
+   "id": "Cce99a4e",
+   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/accident-in-samayapuram-child-in-tourist-van-dies-14-others-injured",
+   "title": "சமயபுரத்தில் விபத்து: சுற்றுலா வேனில் வந்த குழந்தை உயிரிழப்பு; 14 போ் காயம்",
+   "summary": "திருச்சி மாவட்டம், சமயபுரம் பகுதியில் வெள்ளிக்கிழமை பாலக்கட்டையில் சுற்றுலா வேன் மோதியதில் ஒரு வயதுக் குழந்தை உயிரிழந்தது; 14 போ் காயமடைந்தனா்..சென்னை வேங்கைவயல் பகுதியை சோ்ந்த வி.",
+   "source": "தினமணி",
+   "published": "2026-11-27T21:18:11.607Z",
+   "category": "விபத்து",
+   "score": 10.91,
+   "power_cut": false,
+   "listed_at": "2026-11-28T04:27:00.614004+05:30"
+  },
+  "C8e68147": {
+   "id": "C8e68147",
+   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/load-van-overturns-during-vehicle-inspection",
+   "title": "வாகனத் தணிக்கையின்போது லோடு வேன் கவிழ்ந்து விபத்து",
+   "summary": "திருச்சி மாவட்டம் முசிறியில் வாகனத் தணிக்கையில் கைப்பற்றப்பட்ட வாழைக்காய் லோடு வேனை காவல் நிலையத்திற்கு காவலா் ஒருவா் வியாழக்கிழமை இரவு ஓட்டிச் சென்றபோது வாய்க்காலில் கவிழ்ந்து விபத்து ஏற்பட்டது..குளித்தலை முசிறி இணைக...",
+   "source": "தினமணி",
+   "published": "2026-11-27T21:22:53.180Z",
+   "category": "விபத்து",
+   "score": 10.91,
+   "power_cut": false,
+   "listed_at": "2026-11-28T04:27:00.614004+05:30"
+  },
+  "C40e90bd": {
+   "id": "C40e90bd",
+   "url": "https://www.thanthitv.com/news/tamilnadu/tanker-truck-accident-on-trichy-chennai-highway",
+   "title": "Road Accident | TN Police | திருச்சி - சென்னை நெடுஞ்சாலையில் டேங்கர் லாரி விபத்து",
+   "summary": "Road Accident | TN Police | திருச்சி - சென்னை நெடுஞ்சாலையில் டேங்கர் லாரி விபத்து #Ulundurpet #RoadAccident #TNPolice உளுந்தூர்பேட்டை அருகே தேசிய நெடுஞ்சாலையோர 5 அடி பள்ளத்தில் சிமெண்ட் பவுடர் டேங்கர் லாரி கவிழ்ந்து வ...",
+   "source": "தந்தி டிவி",
+   "published": "",
+   "category": "விபத்து",
+   "score": 9.91,
+   "power_cut": false,
+   "listed_at": "2026-11-28T04:27:00.614004+05:30"
+  },
+  "Cc8db3b2": {
+   "id": "Cc8db3b2",
+   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/air-transport-safety-awareness-week-in-trichy",
+   "title": "திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம்",
+   "summary": "திருச்சி பன்னாட்டு விமான நிலையத்தில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம் கடைப்பிடிக்கப்பட்டது..இந்திய விமானப் போக்குவரத்து ஆணையம் சாா்பில் அனைத்து விமான நிலையங்களிலும் நவம்பா் 23 முதல் 27 வரை வான் போக்குவ...",
+   "source": "தினமணி",
+   "published": "2026-11-27T21:20:36.920Z",
+   "category": "பொது",
+   "score": 9.0,
+   "power_cut": false,
+   "listed_at": "2026-11-28T04:27:00.614004+05:30"
+  },
+  "Cc621bc4": {
+   "id": "Cc621bc4",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-dindigul/change-needed-trichy-dindigul-train-departure-time-passengers-hit-by-heavy-delays/4388168",
+   "title": "மாற்றம் தேவை! திருச்சி – திண்டுக்கல் ரயில் புறப்படும் நேரத்தில்: அதிக தாமதத்தால் பாதிப்படையும் பயணிகள்",
+   "summary": "திருச்சியில் இருந்து மாலை 6:35 மணிக்கு திண்டுக்கல்லிற்கு பயணிகள் ரயில் புறப்படுகிறது. இந்த ரயில் சென்னை – திருநெல்வேலி, பெங்களூரு – மதுரை வந்தே பாரத் ரயில்கள், வாராந்திர சிறப்பு எக்ஸ்பிரஸ் ரயில்களுக்கு வழிவிட அடுத்தடு...",
+   "source": "தினமலர்",
+   "published": "2026-11-28T00:54:46+05:30",
+   "category": "ரயில்",
+   "score": 6.26,
+   "power_cut": false,
+   "late_listed": true,
+   "listed_at": "2026-11-28T04:27:00.614004+05:30"
+  },
+  "C208f4f7": {
+   "id": "C208f4f7",
+   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/milch-cows-for-rural-womencall-for-applications",
+   "title": "ஊரக மகளிருக்கு கறவை மாடுகள் விண்ணப்பிக்க அழைப்பு",
+   "summary": "ஊரக மகளிருக்கு கறவை மாடுகள் வழங்கும் திட்டத்தில் பயன்பெற விண்ணப்பங்கள் வரவேற்கப்படுகின்றன..இதுதொடா்பாக, திருச்சி மாவட்ட ஆட்சியா் பிரத்திக் தாயள் வெளியிட்டுள்ள செய்திக்குறிப்பு:.ஊரக மகளிருக்கு விலையில்லா கறவை மாடுகள் வ...",
+   "source": "தினமணி",
+   "published": "2026-11-27T21:11:59.216Z",
+   "category": "பொது",
+   "score": 6.0,
+   "power_cut": false,
+   "listed_at": "2026-11-28T04:27:00.614004+05:30"
+  },
+  "C52cd645": {
+   "id": "C52cd645",
+   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/declare-trichy-a-drought-affected-district-farmers-demand-at-grievance-redressal-meeting",
+   "title": "திருச்சியை வறட்சிப் பாதித்த மாவட்டமாக அறிவிக்க வேண்டும்: குறைதீா் கூட்டத்தில் விவசாயிகள் கோரிக்கை",
+   "summary": "திருச்சியை வறட்சிப் பாதித்த மாவட்டமாக அறிவிக்க வேண்டும் என குறைதீா் கூட்டத்தில் ஆட்சியரிடம் விவசாயிகள் முறையிட்டனா்..திருச்சி மாவட்ட ஆட்சியரகக் கூட்டரங்கில் வெள்ளிக்கிழமை நடைபெற்ற விவசாயிகள் குறைதீா் கூட்டத்துக்கு, ஆட...",
+   "source": "தினமணி",
+   "published": "2026-11-27T21:21:59.374Z",
+   "category": "பொது",
+   "score": 2.5,
+   "power_cut": false,
+   "listed_at": "2026-11-28T04:27:00.614004+05:30"
   }
  },
  "rounds": {
-  "2026-11-26_06": {
-   "window": [
-    "2026-11-26T04:48:07.376695+05:30",
-    "2026-11-26T06:04:16.490169+05:30"
-   ],
-   "ids": [
-    "C936cfee"
-   ],
-   "sent": false,
-   "deadline": "2026-11-26T07:04:16.490169+05:30",
-   "decided": {
-    "how": "automatic: top 7 of 0 by insights",
-    "ids": [],
-    "at": "2026-11-26T06:05:40.393428+05:30"
-   },
-   "written": []
-  },
   "2026-11-26_08": {
    "window": [
     "2026-11-26T06:04:16.490169+05:30",
@@ -463,6 +552,30 @@
    "refused": {
     "Cf7fe46a": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
    }
+  },
+  "2026-11-28_04": {
+   "window": [
+    "2026-11-28T02:26:16.505915+05:30",
+    "2026-11-28T04:27:00.614004+05:30"
+   ],
+   "ids": [
+    "C972569b",
+    "C72d99ef",
+    "C9f13a69",
+    "Cce99a4e",
+    "C8e68147",
+    "C40e90bd",
+    "Cc8db3b2",
+    "Cc621bc4",
+    "C208f4f7",
+    "C52cd645",
+    "C1396c80",
+    "Ce3747df"
+   ],
+   "sent": false,
+   "deadline": "2026-11-28T05:27:00.614004+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {},
@@ -1156,6 +1269,87 @@
   "Ce554c25": "2026-11-28T02:26 not Trichy district",
   "C477bfdf": "2026-11-28T02:26 not Trichy district",
   "C0de8b07": "2026-11-28T02:26 not Trichy district",
-  "C6951e19": "2026-11-28T02:26 not Trichy district"
+  "C6951e19": "2026-11-28T02:26 not Trichy district",
+  "G8c0ee3a187": "2026-11-28T04:27 D",
+  "G8aa14ac55e": "2026-11-28T04:27 D",
+  "G71fd86460f": "2026-11-28T04:27 D",
+  "Gcf823f1235": "2026-11-28T04:27 D",
+  "G7b5f92e893": "2026-11-28T04:27 D",
+  "Ge4ff58f9d4": "2026-11-28T04:27 D",
+  "Ge8f9340d63": "2026-11-28T04:27 D",
+  "Gea4c7a78b5": "2026-11-28T04:27 D",
+  "Gca094b750f": "2026-11-28T04:27 D",
+  "G3bc5a3c72d": "2026-11-28T04:27 D",
+  "Gea0839b5e2": "2026-11-28T04:27 D",
+  "G305a24a996": "2026-11-28T04:27 D",
+  "Gdc4f443ae6": "2026-11-28T04:27 D",
+  "G98976dc243": "2026-11-28T04:27 D",
+  "G58c896eccc": "2026-11-28T04:27 D",
+  "G6fdd653f69": "2026-11-28T04:27 D",
+  "Gd666f6e208": "2026-11-28T04:27 D",
+  "G2c07984f48": "2026-11-28T04:27 D",
+  "G15cf5ff2ba": "2026-11-28T04:27 D",
+  "G58c737d371": "2026-11-28T04:27 D",
+  "G1366e1b8f2": "2026-11-28T04:27 D",
+  "Gd46e11e646": "2026-11-28T04:27 D",
+  "Gc56fce0b4d": "2026-11-28T04:27 D",
+  "Gf8a8a23f68": "2026-11-28T04:27 D",
+  "G1098358fef": "2026-11-28T04:27 D",
+  "G7b589d35be": "2026-11-28T04:27 D",
+  "G1ca29cf21b": "2026-11-28T04:27 D",
+  "Gc43216861b": "2026-11-28T04:27 D",
+  "Gb859463a47": "2026-11-28T04:27 D",
+  "G42a389edbf": "2026-11-28T04:27 D",
+  "G787ca0b575": "2026-11-28T04:27 D",
+  "G2b43c69b71": "2026-11-28T04:27 D",
+  "G07391c7ad0": "2026-11-28T04:27 D",
+  "G0e0efb925e": "2026-11-28T04:27 D",
+  "G1834abda75": "2026-11-28T04:27 D",
+  "Gb3106503c3": "2026-11-28T04:27 D",
+  "G370ba0e136": "2026-11-28T04:27 D",
+  "G7ce7b0bae6": "2026-11-28T04:27 D",
+  "G9ebe106d5c": "2026-11-28T04:27 D",
+  "Gc54b4757fd": "2026-11-28T04:27 D",
+  "Gcb0dbcaa28": "2026-11-28T04:27 D",
+  "Gfa74677c98": "2026-11-28T04:27 D",
+  "Gb43b66875b": "2026-11-28T04:27 D",
+  "Ga4f8cb49ef": "2026-11-28T04:27 D",
+  "G325083fae3": "2026-11-28T04:27 D",
+  "G3508dabf4f": "2026-11-28T04:27 D",
+  "Gaef4db0bcb": "2026-11-28T04:27 D",
+  "Cce9aedc": "2026-11-28T04:27 already posted",
+  "Cc6609ff": "2026-11-28T04:27 not Trichy district",
+  "Ccaf2646": "2026-11-28T04:27 not Trichy district",
+  "C7705c14": "2026-11-28T04:27 already posted",
+  "C41d058b": "2026-11-28T04:27 same event already posted",
+  "C509325e": "2026-11-28T04:27 already posted",
+  "C7cf790b": "2026-11-28T04:27 not Trichy district",
+  "C9eab54b": "2026-11-28T04:27 not Trichy district",
+  "C6a90872": "2026-11-28T04:27 not Trichy district",
+  "C4a9c662": "2026-11-28T04:27 not Trichy district",
+  "C8a670c7": "2026-11-28T04:27 not Trichy district",
+  "C4e76b06": "2026-11-28T04:27 not Trichy district",
+  "Cfdd1352": "2026-11-28T04:27 not Trichy district",
+  "C6da8f33": "2026-11-28T04:27 not Trichy district",
+  "C2657903": "2026-11-28T04:27 not Trichy district",
+  "C357b419": "2026-11-28T04:27 not Trichy district",
+  "Ce93dd66": "2026-11-28T04:27 not Trichy district",
+  "C73ebd7c": "2026-11-28T04:27 not Trichy district",
+  "Cf62f842": "2026-11-28T04:27 not Trichy district",
+  "Cc8ae97c": "2026-11-28T04:27 not Trichy district",
+  "Cdd29943": "2026-11-28T04:27 not Trichy district",
+  "C2fa4009": "2026-11-28T04:27 not Trichy district",
+  "Cd30f1c4": "2026-11-28T04:27 not Trichy district",
+  "C765c5a2": "2026-11-28T04:27 not Trichy district",
+  "Ca1ba474": "2026-11-28T04:27 not Trichy district",
+  "Cde17182": "2026-11-28T04:27 not Trichy district",
+  "C77cf1b3": "2026-11-28T04:27 not Trichy district",
+  "C63ef840": "2026-11-28T04:27 not Trichy district",
+  "Cd0d67f6": "2026-11-28T04:27 not Trichy district",
+  "Caf9dfdf": "2026-11-28T04:27 already posted",
+  "Cdd62ac3": "2026-11-28T04:27 not Trichy district",
+  "C162bad5": "2026-11-28T04:27 not Trichy district",
+  "Cd56de61": "2026-11-28T04:27 not Trichy district",
+  "C26f76aa": "2026-11-28T04:27 not Trichy district"
  }
 }
