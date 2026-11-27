@@ -83,6 +83,9 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-27 | `416308d` | Power cuts: never post a cut that is over; post cancellations and reschedules |
+| 2026-11-27 | `d84dcc2` | stories shared / Instagram pause |
+| 2026-11-27 | `c0819c5` | stories shared / Instagram pause |
 | 2026-11-27 | `1f36e6d` | Page names as the owner writes them: Tiruppur 360 |
 | 2026-11-27 | `7b16701` | stories shared / Instagram pause |
 | 2026-11-27 | `29bdd35` | Instagram handles: the real usernames of every page |
@@ -110,7 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-27 | `0798540` | Sources: Dailythanthi and Maalaimalar Tamil Nadu / district lists (this district's links only) |
 | 2026-11-27 | `a288edd` | stories shared / Instagram pause |
 | 2026-11-27 | `8297b5e` | stories shared / Instagram pause |
-| 2026-11-27 | `e87b77d` | goldrate posted |
-| 2026-11-27 | `e7c0e36` | stories shared / Instagram pause |
-| 2026-11-27 | `7d5fc3a` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
