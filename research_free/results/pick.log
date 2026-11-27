@@ -1,11 +1,8 @@
-05:51:54 round 2026-11-27_05: news published 27 Nov 04:28 -> 27 Nov 05:51 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-05:51:54 insights 2026-11-27T05:51+05:30 (168 reels): topic weights {'accident': 1.1, 'crime': 1.4, 'power_cut': 1.18, 'civic': -0.03, 'education': -0.5, 'politics': -0.33, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-05:52:10 open search 'திருச்சி' (from_google): 0 links from our outlets
-05:52:10 58 links on the two papers' Trichy pages
-05:52:49 skipped: already posted=19, published before this window=19, same event already posted=7, not Trichy district=6, only a headline=2
-05:52:49 list: 0 new + 0 earlier news not posted yet
-05:52:49 no news in this window - no e-mail
-ROUND=2026-11-27_05
-05:52:50 no list this round - nothing to post
-PICK_URLS=
-05:52:51 verify: no decided round
+06:13:39 round 2026-11-27_06: news published 27 Nov 05:51 -> 27 Nov 06:13 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+06:13:39 insights 2026-11-27T06:13+05:30 (170 reels): topic weights {'accident': 1.39, 'crime': 1.38, 'power_cut': 1.16, 'civic': -0.04, 'education': -0.5, 'politics': -0.38, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+06:13:55 open search 'திருச்சி' (from_google): 0 links from our outlets
+06:13:55 57 links on the two papers' Trichy pages
+06:14:43 skipped: already posted=24, published before this window=19, same event already posted=7, not Trichy district=5, only a headline=2
+06:14:43 list: 0 new + 0 earlier news not posted yet
+06:14:43 no news in this window - no e-mail
+ROUND=2026-11-27_06
