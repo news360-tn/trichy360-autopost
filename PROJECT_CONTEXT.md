@@ -83,6 +83,20 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-27 | `cd9d54a` | Blocked Google News links: also look for the same headline at another trusted outlet |
+| 2026-11-27 | `a1b5446` | stories shared / Instagram pause |
+| 2026-11-27 | `9c56c8c` | pick: picked news saved |
+| 2026-11-27 | `63af17b` | pick: list sent |
+| 2026-11-27 | `be6ce93` | stories shared / Instagram pause |
+| 2026-11-27 | `946e0e1` | pick: written and posted |
+| 2026-11-27 | `5353c16` | pick: list sent |
+| 2026-11-27 | `33c23f9` | stories shared / Instagram pause |
+| 2026-11-27 | `0798540` | Sources: Dailythanthi and Maalaimalar Tamil Nadu / district lists (this district's links only) |
+| 2026-11-27 | `a288edd` | stories shared / Instagram pause |
+| 2026-11-27 | `8297b5e` | stories shared / Instagram pause |
+| 2026-11-27 | `e87b77d` | goldrate posted |
+| 2026-11-27 | `e7c0e36` | stories shared / Instagram pause |
+| 2026-11-27 | `7d5fc3a` | stories shared / Instagram pause |
 | 2026-11-27 | `728a109` | Writer hint: soft news opens with what changes for local people |
 | 2026-11-27 | `c396160` | Topic labels: Tamil word endings and missing words (better ranking data) |
 | 2026-11-27 | `b6d872c` | stories shared / Instagram pause |
@@ -99,18 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-27 | `3fecd44` | stories shared / Instagram pause |
 | 2026-11-27 | `eff3dd3` | Trichy reels: captions follow the voice's own word clock |
 | 2026-11-27 | `d8a99bf` | Trichy reels: first picture change at 1.2 s, 2 s end card, headline at the top, no clock-hand sweep |
-| 2026-11-27 | `5f823c3` | stories shared / Instagram pause |
-| 2026-11-27 | `64c7fae` | powercut: notices written |
-| 2026-11-27 | `6105375` | Trichy reels: back to design A and the Valluvar voice |
-| 2026-11-27 | `0129ef9` | stories shared / Instagram pause |
-| 2026-11-27 | `0d45536` | stories shared / Instagram pause |
-| 2026-11-27 | `c95e8ba` | powercut: notices written |
-| 2026-11-27 | `b0ce76d` | stories shared / Instagram pause |
-| 2026-11-27 | `3da5105` | stories shared / Instagram pause |
-| 2026-11-27 | `47ba3bc` | stories shared / Instagram pause |
-| 2026-11-27 | `ae7e5d0` | stories shared / Instagram pause |
-| 2026-11-27 | `ba39b26` | stories shared / Instagram pause |
-| 2026-11-27 | `9229822` | stories shared / Instagram pause |
-| 2026-11-27 | `3fdbdef` | stories shared / Instagram pause |
-| 2026-11-27 | `60f3b45` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
