@@ -84,6 +84,15 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-27 | `c912cf2` | Posting rules 27 Nov: 30 news a day per platform by views, 06:00-22:00 (urgent any time), retry 10 min x5 then 1 h, block wait as stated else 2 h, collect every 2 h |
+| 2026-11-27 | `09a9b4b` | stories shared / Instagram pause |
+| 2026-11-27 | `82f9424` | stories shared / Instagram pause |
+| 2026-11-27 | `a6f6bbf` | pick: written and posted |
+| 2026-11-27 | `24e6b12` | pick: picked news saved |
+| 2026-11-27 | `71f9a87` | pick: picked news saved |
+| 2026-11-27 | `8d02af0` | pick: list sent |
+| 2026-11-27 | `7d381e5` | stories shared / Instagram pause |
+| 2026-11-27 | `443dc34` | stories shared / Instagram pause |
 | 2026-11-27 | `7aeeafe` | No manual work: stop the manual-post and Facebook-share e-mails (config.json owner_emails false); only automatic posting |
 | 2026-11-27 | `624f4c9` | stories shared / Instagram pause |
 | 2026-11-27 | `8809eac` | stories shared / Instagram pause |
@@ -105,13 +114,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-27 | `74155e5` | pick: picked news saved |
 | 2026-11-27 | `ab9cdfb` | pick: picked news saved |
 | 2026-11-27 | `8ec1b90` | pick: list sent |
-| 2026-11-27 | `3e695b6` | stories shared / Instagram pause |
-| 2026-11-27 | `c2b2b45` | stories shared / Instagram pause |
-| 2026-11-27 | `db82524` | stories shared / Instagram pause |
-| 2026-11-27 | `274f869` | stories shared / Instagram pause |
-| 2026-11-27 | `fc9b9b2` | stories shared / Instagram pause |
-| 2026-11-27 | `04b4902` | stories shared / Instagram pause |
-| 2026-11-27 | `af2b9a8` | facebook RN-179 |
-| 2026-11-27 | `f27e436` | posted RN-179 |
-| 2026-11-27 | `5bba513` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
