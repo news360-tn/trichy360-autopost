@@ -1,90 +1,12 @@
 {
- "updated": "2026-11-27T18:22:29+00:00",
- "day": "2026-11-27",
+ "updated": "2026-11-27T18:30:15+00:00",
+ "day": "2026-11-28",
  "ready": 0,
  "pages": {
   "trichy": {
    "label": "திருச்சி 360",
    "instagram": {
-    "posted": [
-     {
-      "id": "RN-167",
-      "head": "அயிலாப்பேட்டை மாதேஸ்வரன்: வீட்டிலிருந்தே மாதம் ரூ.3 லட்சம் டர்ன்ஓவர்",
-      "link": "https://www.instagram.com/reel/DgOQfeyRUF_/",
-      "at": "2026-11-26T23:13:17+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-172",
-      "head": "மணப்பாறை அருகே சபரிமலை பக்தர்கள் கார் கவிழ்ந்து 4 பேர் காயம் அடைந்தனர்",
-      "link": "https://www.instagram.com/reel/DgOT_NzhM-X/",
-      "at": "2026-11-26T23:44:01+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-169",
-      "head": "அரசுத் திட்டங்கள் மக்களைச் சென்றடைய வேண்டும்: திருச்சி எம்பி அறிவுரை",
-      "link": "https://www.instagram.com/reel/DgOVNSxhb58/",
-      "at": "2026-11-26T23:54:29+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-171",
-      "head": "ராணுவ வாகனம் மீது அரசுப் பேருந்து மோதல்: இருவர் காயம்",
-      "link": "https://www.instagram.com/reel/DgOWfGkzW89/",
-      "at": "2026-11-27T00:05:56+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-168",
-      "head": "போசம்பட்டி அரசுப் பள்ளியில் அரசமைப்பு தினம் கடைப்பிடிப்பு",
-      "link": "https://www.instagram.com/reel/DgOXuwwh0Ed/",
-      "at": "2026-11-27T00:16:37+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-173",
-      "head": "திருச்சியில் இரண்டாவது நாளாக மழை: மரக்கிளைகள் முறிந்து விழுந்தன",
-      "link": "https://www.instagram.com/reel/DgPHqMiyd_E/",
-      "at": "2026-11-27T07:15:24+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-174",
-      "head": "5 தொகுதி இடைத்தேர்தல்: தடை கோரிய வழக்கில் இன்று தீர்ப்பு",
-      "link": "https://www.instagram.com/reel/DgPJUwyp9Lw/",
-      "at": "2026-11-27T07:29:51+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-175",
-      "head": "தேர்தலில் சீமான் பொது வேட்பாளராக நிற்பாரா?",
-      "link": "https://www.instagram.com/reel/DgPK7NqC_B_/",
-      "at": "2026-11-27T07:43:56+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-180",
-      "head": "திருச்சியில் முதியவரை தாக்கிய இளைஞர் கைது: கண்டோன்மெண்ட் போலீசார் நடவடிக்கை",
-      "link": "https://www.instagram.com/reel/DgP2KVBRQTL/",
-      "at": "2026-11-27T14:02:02+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-179",
-      "head": "திருச்சி பொன்மலையைச் சேர்ந்த 4 பேர் மீது ரூ.16 லட்சம் வேலை மோசடி வழக்குப்பதிவு",
-      "link": "https://www.instagram.com/reel/DgP3cb5K0J7/",
-      "at": "2026-11-27T14:13:16+00:00",
-      "kind": "reel"
-     },
-     {
-      "id": "RN-182",
-      "head": "ஸ்ரீரங்கத்தில் 12 ஜோதிர்லிங்க தரிசனம் தொடக்கம்: பக்தர்கள் அபிஷேகம் செய்து வழிபாடு",
-      "link": "https://www.instagram.com/reel/DgP-LicBph_/",
-      "at": "2026-11-27T15:11:50+00:00",
-      "kind": "reel"
-     }
-    ],
+    "posted": [],
     "paused": "",
     "quota": ""
    },
@@ -94,141 +16,19 @@
     "share": [],
     "paused": ""
    },
-   "manual_post": [
-    {
-     "id": "RN-172",
-     "why": "Instagram's 24-hour post limit is reached",
-     "sent": "2026-11-26T23:33:41+00:00",
-     "video": true
-    },
-    {
-     "id": "RN-169",
-     "why": "Instagram's 24-hour post limit is reached",
-     "sent": "2026-11-26T23:33:15+00:00",
-     "video": true
-    },
-    {
-     "id": "RN-171",
-     "why": "Instagram's 24-hour post limit is reached",
-     "sent": "2026-11-26T23:33:19+00:00",
-     "video": true
-    },
-    {
-     "id": "RN-168",
-     "why": "Instagram's 24-hour post limit is reached",
-     "sent": "2026-11-26T23:33:23+00:00",
-     "video": true
-    },
-    {
-     "id": "RN-175",
-     "why": "Instagram's 24-hour post limit is reached",
-     "sent": "2026-11-27T07:22:36+00:00",
-     "video": true
-    },
-    {
-     "id": "RN-174",
-     "why": "Instagram's 24-hour post limit is reached",
-     "sent": "2026-11-27T07:23:00+00:00",
-     "video": true
-    },
-    {
-     "id": "RN-179",
-     "why": "Instagram's 24-hour post limit is reached",
-     "sent": "2026-11-27T13:51:05+00:00",
-     "video": true
-    },
-    {
-     "id": "RN-180",
-     "why": "Instagram's 24-hour post limit is reached",
-     "sent": "2026-11-27T13:51:10+00:00",
-     "video": true
-    }
-   ],
+   "manual_post": [],
    "daily": {
     "gold": {
-     "posted": true,
-     "link": "https://www.instagram.com/reel/DgOzGQ2u25p/"
+     "posted": false,
+     "link": ""
     },
     "rasipalan": {
-     "posted": true,
-     "link": "https://www.instagram.com/reel/DgOe1aZTWNK/"
+     "posted": false,
+     "link": ""
     }
    },
    "youtube": {
-    "uploads": [
-     {
-      "ig": "18104239157385954",
-      "youtube": "3aIeDawuwDI",
-      "day": "2026-11-27",
-      "at": "2026-11-27T07:33:23+00:00",
-      "title": "இன்றைய தங்கம், வெள்ளி விலை | 27 நவம்பர் 2026 | Trichy gold rate today",
-      "daily": true
-     },
-     {
-      "ig": "18107850830648090",
-      "youtube": "4f8MYK3acrk",
-      "day": "2026-11-27",
-      "at": "2026-11-27T07:47:26+00:00",
-      "title": "இன்றைய ராசி பலன் | 27 நவம்பர் 2026 | Trichy rasi palan today",
-      "daily": true
-     },
-     {
-      "ig": "18462387031132407",
-      "youtube": "pQGNGMxRDNs",
-      "day": "2026-11-27",
-      "at": "2026-11-27T07:55:18+00:00",
-      "title": "திருச்சியில் 2-ஆவது நாளாக மழை: காஜாமலையில் மரக்கிளைகள்… | Trichy"
-     },
-     {
-      "ig": "18152816038563555",
-      "youtube": "8URhKTEhiGQ",
-      "day": "2026-11-27",
-      "at": "2026-11-27T08:02:59+00:00",
-      "title": "அயிலாப்பேட்டை மாதேஸ்வரன்: வேலையை விட்டு வீட்டிலிருந்தே… | Trichy"
-     },
-     {
-      "ig": "18126384080319142",
-      "youtube": "4o2ccd9qGMQ",
-      "day": "2026-11-27",
-      "at": "2026-11-27T08:10:59+00:00",
-      "title": "அம்பாசமுத்திரத்தில் சீமான் போட்டி: எவனிடமும் ஆதரவு கேட்க… | Trichy"
-     },
-     {
-      "ig": "18118958786028380",
-      "youtube": "plSW4fGpkUM",
-      "day": "2026-11-27",
-      "at": "2026-11-27T08:19:02+00:00",
-      "title": "திருச்சி கிழக்கு உள்ளிட்ட 5 தொகுதி இடைத்தேர்தலுக்குத் தடை… | Trichy"
-     },
-     {
-      "ig": "18070928741685322",
-      "youtube": "AsSelAZKvg4",
-      "day": "2026-11-27",
-      "at": "2026-11-27T08:27:02+00:00",
-      "title": "போசம்பட்டி அரசுப் பள்ளியில் அரசமைப்பு தினம் கடைப்பிடிப்பு | Trichy"
-     },
-     {
-      "ig": "18137639686674809",
-      "youtube": "pv7U2b8TDiU",
-      "day": "2026-11-27",
-      "at": "2026-11-27T08:34:47+00:00",
-      "title": "ஜீயபுரம் அருகே ராணுவ வாகனம் மீது அரசுப் பேருந்து மோதல்… | Trichy"
-     },
-     {
-      "ig": "18500070736107650",
-      "youtube": "iy04PgqXs9c",
-      "day": "2026-11-27",
-      "at": "2026-11-27T08:42:37+00:00",
-      "title": "அரசுத் திட்டங்கள் மக்களைச் சென்றடைய வேண்டும்: திருச்சி… | Trichy"
-     },
-     {
-      "ig": "18189767335424494",
-      "youtube": "I_FaeoLqpmo",
-      "day": "2026-11-27",
-      "at": "2026-11-27T08:50:32+00:00",
-      "title": "மணப்பாறை அருகே சபரிமலை பக்தர்கள் சென்ற கார் கவிழ்ந்து 4… | Trichy"
-     }
-    ],
+    "uploads": [],
     "keys": true
    }
   }
