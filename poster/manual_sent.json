@@ -79,7 +79,11 @@
  "trichy:RN-175": {
   "first": "2026-11-27T07:06:57+00:00",
   "queued": "2026-11-27T07:18:58+00:00",
-  "why": "Instagram's 24-hour post limit is reached"
+  "why": "Instagram's 24-hour post limit is reached",
+  "sent": "2026-11-27T07:22:36+00:00",
+  "day": "2026-11-27",
+  "video": true,
+  "resent": false
  },
  "trichy:RN-174": {
   "first": "2026-11-27T07:18:58+00:00",
