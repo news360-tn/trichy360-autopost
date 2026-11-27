@@ -31,3 +31,26 @@
 00:37:01    3. [நீதிமன்றம்] விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ்களை ஏலம்  (தினமலர்)
 00:37:01 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
 ROUND=2026-11-28_00
+00:37:03 round 2026-11-28_00 (at least 1, up to 3 more of well-watched topics): 3 news to choose from (0 from earlier rounds), ranked by this page's insights
+00:37:03   PICK   1.   7.8 [power_cut +1.19 page] Trichy Power Cut: திருச்சி மக்களே உஷார்! நாளை (28-11-2026) எ
+00:37:03   PICK   2.  13.6 [accident +0.90 page] கார் விபத்தில் பலி 10 ஆனது
+00:37:03          3.  10.0 [civic +0.26 page] விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
+00:37:03 decided: automatic: top 1 of 3 by insights + 1 power cut -> 2 news to write and post
+PICK_URLS=https://tamil.abplive.com/news/trichy/trichy-power-cut-28-11-2026-know-timings-areas-affected-by-power-shutdown-280700/amp https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/10-killed-in-car-accident/4388088
+00:39:47 2 listed news now in the Sheet
+00:39:55 instagram duplicate check trichy: 50 recent posts read
+00:39:55 verify 2026-11-28_00: 0 of 2 picked news posted, 0 skipped on purpose, 1 waiting for their posting start
+00:39:55    WAITING C509325e: waiting RN-184: night: only urgent news posts outside 06:00-22:00 IST (owner 27 Nov) - கார் விபத்தில் பலி 10 ஆனது
+00:39:55    NOT POSTED Cbf689cd: queued RN-183 (Queued) - Trichy Power Cut: திருச்சி மக்களே உஷார்! நாளை (28-11-2026) எ
+00:45:01 instagram duplicate check trichy: 50 recent posts read
+00:45:01 verify 2026-11-28_00: 0 of 2 picked news posted, 0 skipped on purpose, 1 waiting for their posting start
+00:45:01    WAITING C509325e: waiting RN-184: night: only urgent news posts outside 06:00-22:00 IST (owner 27 Nov) - கார் விபத்தில் பலி 10 ஆனது
+00:45:01    NOT POSTED Cbf689cd: queued RN-183 (Queued) - Trichy Power Cut: திருச்சி மக்களே உஷார்! நாளை (28-11-2026) எ
+00:50:07 instagram duplicate check trichy: 50 recent posts read
+00:50:07 verify 2026-11-28_00: 0 of 2 picked news posted, 0 skipped on purpose, 1 waiting for their posting start
+00:50:07    WAITING C509325e: waiting RN-184: night: only urgent news posts outside 06:00-22:00 IST (owner 27 Nov) - கார் விபத்தில் பலி 10 ஆனது
+00:50:07    NOT POSTED Cbf689cd: queued RN-183 (Queued) - Trichy Power Cut: திருச்சி மக்களே உஷார்! நாளை (28-11-2026) எ
+00:55:15 instagram duplicate check trichy: 50 recent posts read
+00:55:15 verify 2026-11-28_00: 0 of 2 picked news posted, 1 skipped on purpose, 1 waiting for their posting start
+00:55:15    WAITING C509325e: waiting RN-184: night: only urgent news posts outside 06:00-22:00 IST (owner 27 Nov) - கார் விபத்தில் பலி 10 ஆனது
+00:55:15    SKIPPED Cbf689cd: skipped RN-183: already on Instagram (2026-11-27T19:23:03+0000) - Trichy Power Cut: திருச்சி மக்களே உஷார்! நாளை (28-11-2026) எ

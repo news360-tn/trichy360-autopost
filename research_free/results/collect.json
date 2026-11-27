@@ -3,42 +3,189 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://tamil.abplive.com/news/trichy/trichy-power-cut-28-11-2026-know-timings-areas-affected-by-power-shutdown-280700",
-  "candidate filter: collected=1",
-  "to write: 1 Trichy district candidates (max 1 stories)",
-  "round: top 1 of 1 candidates",
-  "candidates waiting: 1 Trichy; time left 79 min",
+  "manual link added: https://tamil.abplive.com/news/trichy/trichy-power-cut-28-11-2026-know-timings-areas-affected-by-power-shutdown-280700/amp",
+  "manual link added: https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/10-killed-in-car-accident/4388088",
+  "candidate filter: collected=2",
+  "to write: 2 Trichy district candidates (max 2 stories)",
+  "round: top 2 of 2 candidates",
+  "candidates waiting: 2 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-district-news-tric",
   "try (N) manual=True: https://tamil.abplive.com/news/trichy/trichy-power-cut-28-11",
-  "NOT filed (N) Trichy Power Cut: திருச்சி மக்களே உஷார்! நாளை (28-: duplicate after write",
-  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 0}, time left 77 min",
-  "filed: 0 Trichy district stories (target 1), reels only",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
+  "posting job started at once",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
+  "candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 77 min",
+  "filed: 2 Trichy district stories (target 2), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":2,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
-  "ok gemini/gemini-3.5-flash (46s)",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
+  "ok gemini/gemini-3-flash-preview (13s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.5-flash",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok groq/openai/gpt-oss-120b (6s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok groq/openai/gpt-oss-120b (2s)"
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
  ],
- "stories": []
+ "stories": [
+  {
+   "tamil_headline": "திருச்சியில் நாளை காலை 10 முதல் மதியம் 3 மணி வரை மின் தடை",
+   "english_headline": "Trichy power cut tomorrow 10 AM to 3 PM in several areas including Thiruverumbur and L. Abishekapuram substations",
+   "category": "மின் தடை",
+   "location": "Thiruverumbur substation and L. Abishekapuram substation areas, Trichy district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "மின் தடை",
+    "loc": "திருவெறும்பூர், எல்.அபிஷேகபுரம்",
+    "hl1": "திருவெறும்பூர் பகுதியில் நாளை மின் தடை",
+    "hl2": "காலை 10 – பிற்பகல் 3 மணி வரை",
+    "slides": [
+     {
+      "title": "எப்போது?",
+      "lines": [
+       "நாளை <b>28 நவம்பர் 2026</b> (சனிக்கிழமை)",
+       "காலை <b>10 மணி</b> முதல் பிற்பகல் <b>3 மணி</b> வரை",
+       "மின் பாதை பராமரிப்புப் பணிகள் காரணம்"
+      ]
+     },
+     {
+      "title": "எந்தப் பகுதிகள்?",
+      "lines": [
+       "திருவெறும்பூர் துணை மின் நிலையம்: போலீஸ் காலனி, பெரிய",
+       "எல்.அபிஷேகபுரம் துணை மின் நிலையம்: பரமசிவபுரம், ஏகே நகர்"
+      ]
+     },
+     {
+      "title": "மேலும் பகுதிகள்",
+      "lines": [
+       "அரசு காலனி, வெங்கூர், செல்வபுரம், குண்டூர், ஐயம்பட்டி",
+       "சோலமாதேவி, காந்தளூர், சூரியூர், பாரதி புரம், கணேசபுரம்",
+       "இடையாற்றுமங்கலம், அந்திமேடு, திருமணமேடு, சாத்தமங்கலம்"
+      ]
+     },
+     {
+      "title": "என்ன செய்ய",
+      "lines": [
+       "மொபைல் போனை முழுமையாக சார்ஜ் செய்து வையுங்கள்",
+       "பேட்டரி வானொலி அல்லது போன் மூலம் தகவல் பெறுங்கள்",
+       "மின் தடை நேரத்தில் லிஃப்ட்டைப் பயன்படுத்த வேண்டாம்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "நாளை காலை 10 மணி முதல் மதியம் 3 மணி வரை திருச்சியில் பல பகுதிகளில் மின் தடை. நவம்பர் 28ஆம் தேதி சனிக்கிழமை மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெறுவதால் மின்சாரம் நிறுத்தப்படும். திருவெறும்பூர் துணை மின் நிலையப் பகுதியில் போலீஸ் காலனி, பெரிய சூரியூர், அண்ணா நகர், கும்பக்குடி உள்ளிட்ட இடங்களில் மின் விநியோகம் தடைபடும். எல் அபிஷேகபுரம் துணை மின் நிலையப் பகுதியில் பரமசிவபுரம், ஏகே நகர், டிவி நகர், தண்ணீர்பந்தல் உள்ளிட்ட இடங்களில் மின் தடை இருக்கும். பொதுமக்கள் மொபைல் போனை முழுமையாக சார்ஜ் செய்து வைத்துக்கொள்ளுங்கள். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "⚡ திருச்சியில் நாளை காலை 10 முதல் மதியம் 3 மணி வரை மின் தடை\n\n📰 முழு விவரம்:\nநவம்பர் 28, 2026 (சனிக்கிழமை) அன்று திருச்சி மாவட்டத்தில் பல்வேறு பகுதிகளில் மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெற உள்ளன. இதனால் காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம் தடை செய்யப்படும்.\nபராமரிப்புப் பணிகளில் சிறிய பழுதுகளைச் சரிசெய்வது, மின்கம்பங்கள் மற்றும் மின்வழித்தடங்களில் உள்ள மரக்கிளைகளை அகற்றுவது போன்ற வேலைகள் அடங்கும். மின்சார வாரிய ஊழியர்கள் இப்பணிகளில் ஈடுபடுவார்கள். மாதாந்திர மின் பராமரிப்புப் பணிகளின்போது மின்சாரம் நிறுத்தப்படும் நாளுக்கு முந்தைய நாள் அறிவிப்பு வெளியிடப்படும்.\n🏘️ திருவெறும்பூர் துணை மின் நிலையம்: போலீஸ் காலனி, பெரிய சூரியூர், அண்ணா நகர், கும்பக்குடி, அரசு காலனி, வெங்கூர், செல்வபுரம், குண்டூர், ஐயம்பட்டி, ஆர்எஸ்கே நகர், சோலமாதேவி, காந்தளூர், சூரியூர், பாரதி புரம், கணேசபுரம்\n🏘️ எல்.அபிஷேகபுரம் துணை மின் நிலையம்: பரமசிவபுரம், ஏகே நகர், இடையாற்றுமங்கலம், டிவி நகர், அந்திமேடு, திருமணமேடு, மூமூடிச்சலமங்கலம், தண்ணீர்பந்தல், சாத்தமங்கலம், வரதராஜன் நகர்\nℹ️ மக்கள் கவனத்திற்கு: மின்சாரம் மீண்டும் வழங்கப்படும் நிலை மற்றும் அவசர அறிவிப்புகளை அறிய பேட்டரி வானொலி அல்லது முழுமையாக சார்ஜ் செய்த மொபைல் போனைப் பயன்படுத்துங்கள். மொபைல் பேட்டரியைச் சேமிக்க பவர் சேவிங் மோடை இயக்கி, அவசர அழைப்புகளுக்கு மட்டும் பயன்படுத்துங்கள். மின் தடை நேரத்தில் லிஃப்ட்டைத் தவிர்க்கவும். அவசர தொடர்பு எண்கள், தண்ணீர், சிற்றுண்டி, முதலுதவி பெட்டி ஆகியவற்றைத் தயாராக வைத்திருங்கள்.\n\nTrichy power cut tomorrow 10 AM to 3 PM | Trichy news\n📍 திருவெறும்பூர் மற்றும் எல்.அபிஷேகபுரம் பகுதிகள், திருச்சி மாவட்டம் | 28 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyPowerCut #TrichyNews #திருச்சி",
+   "prompts": "A TNEB lineman in a blue uniform and helmet climbs a concrete electricity pole on a Trichy residential street, working on overhead power lines during a scheduled maintenance shutdown. The place is a quiet residential lane in a Trichy suburb near the Thiruverumbur substation area, with small concrete houses, a few two-wheelers parked by the walls, and tree branches hanging over the wires. Two other TNEB workers stand below holding a long pruning tool and a coil of cable, seen from behind and at a distance. Residents in simple shirts and a woman in a cotton saree stand at their doorways watching quietly. The time is late morning, bright daylight with soft shadows, the street lights are off and the wires are slack. Camera at eye level, 35 mm lens, wide enough to show the pole, the lane and the houses. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a concrete electricity pole with a TNEB transformer and tangled overhead wires, where a branch has been cut and lies on the roadside, showing the maintenance work behind the scheduled power cut in Trichy. The surroundings are a residential street with a dusty roadside, a plastic water pot standing near a house wall and a dry patch of grass. A pair of TNEB work gloves and a saw rest on the pole base. In the blurred background a worker in uniform steps away, seen from behind. The light is bright midday daylight, no sign of storm. Camera is close, slightly low, 35 mm, shallow depth so the pole and tools are sharp while the background softens. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://tamil.abplive.com/news/trichy/trichy-power-cut-28-11-2026-know-timings-areas-affected-by-power-shutdown-280700/amp",
+   "published": "2026-11-27T21:40:21+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: sentence 1 (one-line story) has 14 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences; caption misses facts of the article (put every one in 📰 முழு விவரம்): 11 ('Trichy Power shutdown (28-11-2026): திருச்சி மாவட்டத்தில் பல')",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 2 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/0a9d69cf77cd0b0c.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/dd8985fd35524efb.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "துறையூர் அருகே கார் விபத்தில் 10 பேர் பலி",
+   "english_headline": "Car hits tree near Thuraiyur; death toll rises to 10",
+   "category": "Roads & Transport",
+   "location": "Jemmbunathapuram near Thuraiyur, Trichy district",
+   "importance": "High",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "சாலை விபத்து",
+    "loc": "துறையூர் அருகே",
+    "hl1": "துறையூர் அருகே கார் விபத்தில் பலி",
+    "hl2": "பலி எண்ணிக்கை <b>10</b>",
+    "slides": [
+     {
+      "title": "என்ன நடந்தது?",
+      "lines": [
+       "தஞ்சை மாவட்டம் திருக்காட்டுப்பள்ளி செங்கல்சூளை தொழிலாளர்கள்",
+       "நாமக்கல் சென்று ஊர் திரும்பும்போது விபத்து",
+       "துறையூர் அருகே ஜெம்புநாதபுரத்தில் கார் மரத்தில் மோதியது"
+      ]
+     },
+     {
+      "title": "உயிரிழப்பு",
+      "lines": [
+       "மகாராஜபுரத்தை சேர்ந்த <b>6 பேர்</b> உயிரிழப்பு",
+       "விழுப்புரத்தை சேர்ந்த <b>2 பேர்</b> உயிரிழப்பு",
+       "படுகாயமடைந்த ராமலிங்கம் <b>23ஆம் தேதி</b> இறந்தார்"
+      ]
+     },
+     {
+      "title": "பலி 10 ஆனது",
+      "lines": [
+       "திருச்சி அரசு மருத்துவமனையில் இருந்த ராமர், <b>46 வயது</b>",
+       "இதனால் பலி எண்ணிக்கை <b>10</b> ஆனது",
+       "விபத்தில் பலியானோர் குடும்பங்களுக்கு இரங்கல்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "துறையூர் அருகே கார் மரத்தில் மோதிய விபத்தில் பலி எண்ணிக்கை 10 ஆனது. தஞ்சை மாவட்டம் திருக்காட்டுப்பள்ளி செங்கல்சூளையில் வேலை பார்த்த 10 பேர் நாமக்கல் சென்று ஊர் திரும்பியபோது இந்த விபத்து நடந்தது. துறையூர் அருகே ஜெம்புநாதபுரத்தில் நடந்த இந்த விபத்தில் மகாராஜபுரத்தை சேர்ந்த 6 பேரும், விழுப்புரத்தை சேர்ந்த 2 பேரும் உயிரிழந்தனர். படுகாயமடைந்த சாத்தனூரை சேர்ந்த ராமலிங்கம் 23ஆம் தேதி இறந்தார். திருச்சி அரசு மருத்துவமனையில் சிகிச்சை பெற்ற 46 வயது ராமர் நேற்று சிகிச்சை பலனின்றி உயிரிழந்தார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 துறையூர் அருகே கார் விபத்தில் பலி எண்ணிக்கை 10 ஆனது\n\n📰 முழு விவரம்:\nதஞ்சை மாவட்டம் திருக்காட்டுப்பள்ளி செங்கல்சூளையில் வேலை பார்த்த 10 பேர், கடந்த 22ஆம் தேதி நாமக்கல் சென்றுவிட்டு ஊர் திரும்பினர். அப்போது துறையூர் அருகே ஜெம்புநாதபுரத்தில் கார் மரத்தில் மோதியது.\nஇந்த விபத்தில் மகாராஜபுரத்தை சேர்ந்த 6 பேரும், விழுப்புரத்தை சேர்ந்த 2 பேரும் உயிரிழந்தனர்.\nபடுகாயமடைந்த சாத்தனூரை சேர்ந்த ராமலிங்கம் 23ஆம் தேதி உயிரிழந்தார். சாத்தனூரை சேர்ந்த 46 வயது ராமர் திருச்சி அரசு மருத்துவமனையில் சிகிச்சையில் இருந்த நிலையில், நேற்று சிகிச்சை பலனின்றி உயிரிழந்தார்.\n🕘 நாள்: 22ஆம் தேதி விபத்து (வருடம்: 2026)\n📍 இடம்: ஜெம்புநாதபுரம், துறையூர் அருகே, திருச்சி மாவட்டம்\n\nThuraiyur car accident death toll rises to 10 | Trichy news\n📍 துறையூர், திருச்சி மாவட்டம் | 28 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thuraiyur #திருச்சி #TrichyNews",
+   "prompts": "A badly damaged car is crushed against the trunk of a large roadside tree on a rural road near Thuraiyur, its front bonnet folded inward and shattered windscreen scattered on the tarmac. The setting is Jemmbunathapuram in Trichy district, a quiet two-lane road lined with tall tree trunks, dry paddy and banana fields stretching flat on both sides, and a low village compound wall in the background. A small group of onlookers and two police personnel in khaki uniforms stand at a distance near the roadside, seen from behind and slightly blurred, not facing the camera. A few plastic water bottles and a torn bag lie near the car. It is bright daytime under a clear sky with soft natural light. Shot at eye level, 35 mm, wide enough to show the car, the tree and the empty road. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of the crumpled front of a car pressed into the rough bark of a roadside tree trunk, with the bonnet bent upward, the headlight shattered and loose glass fragments glinting on the dusty tarmac below. A broken side mirror lies on the road and a scrap of torn cloth hangs from the twisted metal. Behind the damaged car a police officer in khaki stands far off, only partly visible and out of focus, with a village road and dry fields blurred in the background. Daylight, clear sky, warm natural light falling across the metal and tree bark. Shot at slightly low angle, 35 mm, focusing on the impact point and the wreckage. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/10-killed-in-car-accident/4388088",
+   "published": "2026-11-27T23:38:34+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: letters of another script inside Tamil words: ् - write every word only in Tamil letters",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/4d8b6a9a847a01fb.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/d533db63ff402194.jpg"
+   ]
+  }
+ ]
 }
