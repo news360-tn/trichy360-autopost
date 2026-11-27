@@ -1,129 +1,42 @@
-12:29:07 round 2026-11-27_12: news published 27 Nov 09:54 -> 27 Nov 12:29 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-12:29:07    + news published since 26 Nov 12:29 that no earlier round found (listed / indexed late) - never one already listed or posted
-12:29:07 insights 2026-11-27T12:29+05:30 (172 reels): topic weights {'accident': 1.25, 'crime': 1.37, 'power_cut': 1.15, 'civic': -0.04, 'education': -0.5, 'politics': -0.5, 'weather': -0.5, 'temple': -0.5, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-12:30:51 open search 'திருச்சி' (from_google): 20 links from our outlets
-12:30:51 town searches (மணப்பாறை, ஸ்ரீரங்கம் (+Google), லால்குடி (+Google), முசிறி, துறையூர், திருவெறும்பூர், மண்ணச்சநல்லூர்): 8 links from our outlets
-12:30:51 search links: 40 Google links decoded, 0 not decoded, 0 known from an earlier round, 57 left for the next round, 82 of another district by their headline (not opened)
-12:30:51 95 links on the two papers' Trichy pages
-12:32:36 skipped: not Trichy district=33, already posted=26, published before this window=19, same event already posted=7, only a headline=4, could not open (HTTPSConnectionPool(host='www.dinamalar.com', port)=1
-12:32:36    drop [already posted] வீட்டை விற்பதாக கூறி ரூ.50 லட்சம் மோசடி: தம்பதி மீது புகார் | dinamalar.com/news/tamil-nad...0-lakh-fraud-for-selling-house/4387287
-12:32:36    drop [published before this window] [2026-11-25T21:08] மனைவி மாயம் கணவர் தற்கொலை | dinamalar.com/news/tamil-nad...lli/wife-magic-husband-suicide/4386279
-12:32:36    drop [already posted] 4 குழந்தைகளுடன் மனைவி மாயம் கணவர் போலீசில் புகார் | dinamalar.com/news/tamil-nad...lice-complaint-against-husband/4386107
-12:32:36    drop [already posted] திருச்சி மலைக்கோட்டையில் கார்த்திகை தீபம் | dinamalar.com/news/tamil-nad...higai-lamp-at-trichy-hill-fort/4385383
-12:32:36    drop [already posted] தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி கைது | dinamalar.com/news/tamil-nad...d-stabs-wife-to-death-arrested/4384336
-12:32:36    drop [published before this window] [2026-11-22T22:18] ரூ.2 கோடி மதிப்பு தங்கம் கடத்தல்: வாலிபர் கைது | dinamalar.com/news/tamil-nad...crores-smuggled-youth-arrested/4383642
-12:32:36    drop [already posted] சிறுமிக்கு தொல்லை டிரைவர் மீது வழக்கு | dinamalar.com/news/tamil-nad...the-car-for-harassing-the-girl/4383394
-12:32:36    drop [same event already posted] முசிறி அருகே மரம் மீது வேன் மோதல்: 8 பேர் பரிதாபமாக பலி | dinamalar.com/news/tamil-nad...omni-van-hits-tree-near-musiri/4383164
-12:32:36    drop [already posted] துணை சபாநாயகர் மீது வழக்கு போட்டுவிட்டு விசாரணைக்கு அழையுங்க | dinamalar.com/news/tamil-nad...e-victim-petitioned-the-police/4382799
-12:32:36    drop [same event already posted] ரூ.25 கோடி மோசடி செய்து பர்னிச்சர் கடைக்காரர் ‘எஸ்கேப்’ | dinamalar.com/news/tamil-nad...-escapes-with-rs-1-crore-fraud/4381856
-12:32:36    drop [published before this window] [2026-11-20T21:16] அரசு வேலை தருவதாக கூறி ரூ.1 கோடி மோசடி செய்த பார்மசிஸ்ட் தலை | dinamalar.com/news/tamil-nad...government-job-goes-absconding/4381855
-12:32:36    drop [published before this window] [2026-11-19T22:13] ஆர்ப்பாட்டம் நடத்திய அ.தி.மு.க.,வினர் மீது வழக்கு | dinamalar.com/news/tamil-nad...nst-aiadmk-for-staging-protest/4380995
-12:32:36    drop [already posted] சூதாட்டத்தில் கைதானவர் போலீஸ் மீது புகார் | dinamalar.com/news/tamil-nad...accused-files-police-complaint/4380968
-12:32:36    drop [not Trichy district] கேரளாவுக்கு ரேஷன் அரிசி விற்று மோசடி புதிய ஆலை, சொகுசு வீடு  | dinamalar.com/news/tamil-nad...et-up-new-factory-luxury-house/4380890
-12:32:36    drop [already posted] ரேஷன் அரிசி வினியோகத்தில் 22 கோடி ரூபாய் மோசடி: ஆலை அதிபர் க | dinamalar.com/news/tamil-nad...principal-with-family-arrested/4379049
-12:32:36    drop [already posted] போசம்பட்டி அரசுப் பள்ளியில் அரசமைப்பு தினம் கடைப்பிடிப்பு | dinamani.com/all-editions/ed...at-the-government-school-in-posampatti
-12:32:36    drop [already posted] சாலை விபத்தில் கல்லூரி மாணவா் உயிரிழப்பு | dinamani.com/all-editions/ed...ாலை-விபத்தில்கல்லூரி-மாணவா்-உயிரிழப்பு
-12:32:36    drop [already posted] காா் கவிழ்ந்து விபத்து ஐயப்ப பக்தா்கள் 4 போ் காயம் | dinamani.com/all-editions/ed...-in-accident4-ayyappa-devotees-injured
-12:32:36    drop [already posted] செயற்கை நுண்ணறிவு சாா்ந்த பாடத் திட்டம்: திருச்சியில் மாநில  | dinamani.com/all-editions/ed...mstate-level-workshop-begins-in-trichy
-12:32:36    drop [already posted] அரசின் திட்டங்கள் மக்களை சென்றடைவதை உறுதி செய்ய வேண்டும்: அல | dinamani.com/all-editions/ed...-people-trichy-mps-advice-to-officials
-12:32:36    drop [already posted] பொன்னம்பட்டி பேரூராட்சியில் மழைநீர் சேகரிப்பு விழிப்புணர்வு  | dinakaran.com/district/trichy_251126_3
-12:32:36    drop [published before this window] [2026-11-25T05:53] திருப்பரங்குன்றம் தீப விவகாரம் வீட்டுக்காவலில் முசிறி பாஜ நி | dinakaran.com/district/trichy_251126_2
-12:32:36    drop [already posted] துவரங்குறிச்சி அருகே பழமையான சிவன் கோயிலில் 12,501 அகல் விளக | dinakaran.com/district/trichy_251126_1
-12:32:36    drop [already posted] திருச்சியில் பலூன்கள் விலை உயர்வை கண்டித்து ஆர்ப்பாட்டம் - D | dinakaran.com/district/trichy_191126_3
-12:32:36    drop [already posted] முதல்வர் வருகையை முன்னிட்டு திருச்சி மாநகரில் தூய்மைபணி தீவி | dinakaran.com/district/trichy_191126_2
-12:32:36    drop [already posted] போதை மாத்திரை விற்ற ரவுடி கைது - Dinakaran | dinakaran.com/district/trichy_191126_1
-12:32:36    drop [published before this window] [2026-11-12T02:41] செல்போன் பறிக்க முயன்ற 3 பேர் கைது - Dinakaran | dinakaran.com/district/trichy_121126_3
-12:32:36    drop [not Trichy district] ராமேஸ்வரத்திலிருந்து கார் மூலம் கடத்தப்பட்ட 7.5 கிலோ தங்கம்  | hindutamil.in/news/tamilnadu...smuggled-by-car-from-rameswaram-seized
-12:32:36    drop [same event already posted] மேகேதாட்டு திட்டத்துக்கு எதிராக திருச்சி காவிரி ஆற்றில் விவச | hindutamil.in/news/tamilnadu...test-in-trichy-oppose-mekedatu-project
-12:32:36    drop [published before this window] [2026-11-12T06:23] “மேகேதாட்டு விவகாரத்தில் டி.கே.சிவகுமார் சொல்வது போல் நடக்கா | hindutamil.in/news/tamilnadu...at-the-mekedatu-dam-can-never-be-built
-12:32:36    drop [published before this window] [2026-11-11T05:08] சமயபுரம் இரட்டைக் கொலை வழக்கில் 6 பேர் கைது: தப்ப முயன்ற இளை | hindutamil.in/news/tamilnadu...case-over-dispute-involving-minor-girl
-12:32:36    drop [published before this window] [2026-11-06T08:33] மணல் குவாரி முறைகேடு: திருச்சியில் 4 அரசு அதிகாரிகள் வீடுகளி | hindutamil.in/news/tamilnadu...ds-in-4-government-officials-at-trichy
-12:32:36    drop [published before this window] [2026-10-29T03:23] டிஜிட்டல் அரெஸ்ட் செய்ய சைபர் க்ரைம் கும்பலுக்கு உதவிய திருச | hindutamil.in/news/crime/tri...bercrime-gang-carrying-digital-arrests
-12:32:36    drop [published before this window] [2026-10-23T08:45] ஸ்ரீரங்கம் கோயில் வைகுண்ட ஏகாதசி பெருவிழா - முகூர்த்தக்கால்  | hindutamil.in/news/spiritual...stival-at-srirangam-ranganathar-temple
-12:32:36    drop [published before this window] [2026-10-22T09:21] திருச்சி அருகே உண்ணாவிரத போராட்டத்தில் ஈடுபட முயன்ற விவசாயிக | hindutamil.in/news/tamilnadu...empt-staging-hunger-strike-near-trichy
-12:32:36    drop [only a headline] Ilamai puthumai Tamil News, supplements News in Tamil | Late | hindutamil.in/news/supplements/ilamai-puthumai
-12:32:36    drop [already posted] வீட்டிலிருந்தே மாதம் ரூ.3 லட்சம் டர்ன்ஓவர்... சாதிக்கும் திர | vikatan.com/business/namma-ooru-ambani-series-39-trichy-madheswaran
-12:32:36    drop [same event already posted] திருச்சி: காதணி விழாவிற்குச் சென்ற 8 பேர் பலி; ஆம்னி வேன் மர | vikatan.com/crime/accidents/...ing-to-an-ear-piercing-ceremony-killed
-12:32:36    drop [published before this window] [2026-11-23T02:21] திருச்சி: நகைக்கடையில் ரூ. 12 லட்சம் மோசடி; இளைஞரைத் தேடும்  | vikatan.com/crime/trichy-rs-...-store-police-on-lookout-for-young-man
-12:32:36    drop [already posted] குளவி கொட்டியதில் 5 வயது சிறுமி பலி; திருச்சியில் சோகம் | vikatan.com/crime/5-year-old...eing-stung-by-a-wasp-tragedy-in-trichy
-12:32:36    (+ 50 more dropped links not shown)
-12:32:36 every AI writer failed last time - offered again (try 1 of 2): பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
-12:32:36 list: 5 new + 1 earlier news not posted yet
-12:32:36    1. [குற்றம்] வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி (மாலைமலர்)
-12:32:36    2. [மழை / வானிலை] திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை (தினகரன்) (published 27 Nov 01:53, found only now)
-12:32:36    3. [பொது] திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப்பாம்பு- வ (தினத்தந்தி)
-12:32:36    4. [மழை / வானிலை] திருச்சி மாவட்டத்தில் 2-ஆவது நாளாக மழை (தினமணி) (published 26 Nov 21:18, found only now)
-12:32:36    5. [பொது] 5 தொகுதி இடைத்தோ்தல்: தடை கோரிய வழக்கில் இன்று தீா்ப்பு (தினமணி) (published 26 Nov 21:36, found only now)
-12:32:36    6. [பொது] பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன் - சீமான் (தினத்தந்தி) (earlier)
-12:32:36 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-27_12
-12:32:38 round 2026-11-27_12 (at least 6, up to 3 more of well-watched topics): 6 news to choose from (1 from earlier rounds), ranked by this page's insights
-12:32:38   PICK   1.  16.5 [crime +1.37 page] வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
-12:32:38   PICK   2.  10.0 [other +0.00 pattern] திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
-12:32:38   PICK   3.   8.0 [weather -0.50 page] திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
-12:32:38   PICK   4.   7.0 [weather -0.50 page] திருச்சி மாவட்டத்தில் 2-ஆவது நாளாக மழை
-12:32:38   PICK   5.   3.5 [other +0.00 pattern] (earlier) பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
-12:32:38   PICK   6.   1.0 [other +0.00 pattern] 5 தொகுதி இடைத்தோ்தல்: தடை கோரிய வழக்கில் இன்று தீா்ப்பு
-12:32:38 decided: automatic: top 6 of 6 by insights -> 6 news to write and post
-PICK_URLS=https://www.maalaimalar.com/news/tamilnadu/rs-16-lakh-swindled-under-the-pretext-of-securing-jobs-abroad https://www.dailythanthi.com/news/tamilnadu/trichy-10-foot-long-python-enters-residential-area-forest-department-rescues-it https://www.dinakaran.com/district/trichy-271126-3/amp https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/26/rain-for-the-2nd-day-in-trichy-district https://www.dailythanthi.com/news/tamilnadu/a-common-candidate-i-will-not-go-and-stand-before-anyone-to-seek-support-seemans-sensational-statement https://www.dinamani.com/tamilnadu/2026/Nov/26/by-elections-in-5-constituencies-verdict-today-in-case-seeking-a-stay
-12:35:41 1 picked news refused by the writer - not offered again
-12:35:41 5 listed news now in the Sheet
-12:35:48 instagram duplicate check trichy: 50 recent posts read
-12:35:48 verify 2026-11-27_12: 0 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-12:35:48    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
-12:35:48    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
-12:35:48    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
-12:35:48    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
-12:35:48    NOT POSTED Ccb85df1: queued RN-174 (Queued) - 5 தொகுதி இடைத்தோ்தல்: தடை கோரிய வழக்கில் இன்று தீா்ப்பு
-12:35:48    NOT POSTED Cda1804b: queued RN-173 (Queued) - திருச்சி மாவட்டத்தில் 2-ஆவது நாளாக மழை
-12:40:55 instagram duplicate check trichy: 50 recent posts read
-12:40:55 verify 2026-11-27_12: 0 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-12:40:55    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
-12:40:55    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
-12:40:55    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
-12:40:55    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
-12:40:55    NOT POSTED Ccb85df1: queued RN-174 (Queued) - 5 தொகுதி இடைத்தோ்தல்: தடை கோரிய வழக்கில் இன்று தீா்ப்பு
-12:40:55    NOT POSTED Cda1804b: queued RN-173 (Queued) - திருச்சி மாவட்டத்தில் 2-ஆவது நாளாக மழை
-12:46:03 instagram duplicate check trichy: 50 recent posts read
-12:46:03 verify 2026-11-27_12: 1 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-12:46:03    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
-12:46:03    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
-12:46:03    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
-12:46:03    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
-12:46:03    NOT POSTED Ccb85df1: queued RN-174 (Queued) - 5 தொகுதி இடைத்தோ்தல்: தடை கோரிய வழக்கில் இன்று தீா்ப்பு
-12:51:10 instagram duplicate check trichy: 50 recent posts read
-12:51:10 verify 2026-11-27_12: 1 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-12:51:10    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
-12:51:10    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
-12:51:10    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
-12:51:10    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
-12:51:10    NOT POSTED Ccb85df1: queued RN-174 (Queued) - 5 தொகுதி இடைத்தோ்தல்: தடை கோரிய வழக்கில் இன்று தீா்ப்பு
-12:56:17 instagram duplicate check trichy: 50 recent posts read
-12:56:17 verify 2026-11-27_12: 1 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-12:56:17    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
-12:56:17    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
-12:56:17    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
-12:56:17    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
-12:56:17    NOT POSTED Ccb85df1: queued RN-174 (Queued) - 5 தொகுதி இடைத்தோ்தல்: தடை கோரிய வழக்கில் இன்று தீா்ப்பு
-13:01:25 instagram duplicate check trichy: 50 recent posts read
-13:01:25 verify 2026-11-27_12: 2 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-13:01:25    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
-13:01:25    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
-13:01:25    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
-13:01:25    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
-13:06:33 instagram duplicate check trichy: 50 recent posts read
-13:06:33 verify 2026-11-27_12: 2 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-13:06:33    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
-13:06:33    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
-13:06:33    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
-13:06:33    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
-13:11:40 instagram duplicate check trichy: 50 recent posts read
-13:11:40 verify 2026-11-27_12: 2 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-13:11:40    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
-13:11:40    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
-13:11:40    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
-13:11:40    NOT POSTED C6f34da8: queued RN-175 (Queued) - பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன
-13:16:48 verify 2026-11-27_12: 3 of 6 picked news posted, 3 skipped on purpose, 0 waiting for their posting start
-13:16:48    SKIPPED C75b400c: skipped RN-176: held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says - திருச்சி மாநகர், புறநகர் பகுதிகளில் வெளுத்து வாங்கிய கனமழை
-13:16:48    SKIPPED C796575d: skipped: the writer refused it - not filed: not Trichy district news (the story's first lines name another place and no Trichy place) - வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசடி
-13:16:48    SKIPPED Ca25f9cb: skipped RN-177: held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', - திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி நீள மலைப
+16:25:55 round 2026-11-27_16: news published 27 Nov 12:29 -> 27 Nov 16:25 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+16:25:55    + news published since 26 Nov 16:25 that no earlier round found (listed / indexed late) - never one already listed or posted
+16:25:55 insights 2026-11-27T16:25+05:30 (176 reels): topic weights {'accident': 0.74, 'crime': 1.4, 'power_cut': 1.17, 'civic': 0.23, 'education': -0.16, 'politics': -0.49, 'weather': -0.5, 'temple': -0.42, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+16:27:44 open search 'திருச்சி' (from_google): 16 links from our outlets
+16:27:44 town searches (மணப்பாறை, ஸ்ரீரங்கம், லால்குடி, முசிறி, துறையூர், திருவெறும்பூர் (+Google), மண்ணச்சநல்லூர் (+Google)): 8 links from our outlets
+16:27:44 search links: 40 Google links decoded, 0 not decoded, 62 known from an earlier round, 35 left for the next round, 39 of another district by their headline (not opened)
+16:27:44 92 links on the two papers' Trichy pages
+16:29:57 skipped: not Trichy district=28, already posted=24, published before this window=20, same event already posted=9, only a headline=4, checked in an earlier round=3, could not open (HTTPSConnectionPool(host='www.dinamalar.com', port)=2, no title=1
+16:29:57    drop [published before this window] [2026-07-07T12:25] துவாக்குடி, சிறுகனூர் பகுதிகளில் நாளை மின்சாரம் நிறுத்தம் | maalaimalar.com/news/tamilnadu/thuvakudi-and-siruganur-area-power-cut
+16:29:57    drop [published before this window] [2026-07-07T11:36] திருச்சி ரெயில்கள் இயக்கத்தில் மாற்றம் | maalaimalar.com/news/tamilnadu/changes-in-train-operations-in-trichy
+16:29:57    drop [not Trichy district] கார்த்திகை தீபம்: 3 நாள்களில் ரூ. 62 லட்சத்துக்கு மேல் வருவா | dinamani.com/all-editions/ed...0-lakh-revenue-during-karthigai-deepam
+16:29:57    drop [not Trichy district] துணை சபாநாயகர் மிரட்டியதாக புகார் மனு: அரசு தரப்பு பதில் அளி | maalaimalar.com/news/tamilna...ts-time-for-government-side-to-respond
+16:29:57    drop [same event already posted] லால்குடி அருகே சாலை விபத்தில் இருவர் பலி - Dinakaran | dinakaran.com/district/trichy-271126-2
+16:29:57    drop [not Trichy district] இலவச மருத்துவ முகாம் | dinamalar.com/news/tamil-nad...manathapuram/free-medical-camp/4387535
+16:29:57    drop [not Trichy district] புத்தகக் கண்காட்சி: ஆட்சியர் தொடங்கி வைத்த நெகிழ்ச்சித் தருண | dinakaran.com/news/book-fair-collectors-heartwarming-launch
+16:29:57    drop [not Trichy district] "லோக்சபா இடங்கள் 50% அதிகரிப்பு.." தொகுதி மறுசீரமைப்பு மசோதா | tamil.oneindia.com/news/delh...parliament-special-session-848581.html
+16:29:57    drop [not Trichy district] நடிகர் ரமேஷ் கண்ணா உடல்நிலை இப்போது எப்படி இருக்கு? அவரே கொட | tamil.oneindia.com/televisio...n-a-response-to-the-rumors-848715.html
+16:29:57    drop [not Trichy district] யூடியூபர்ஸ் வீடியோக்களால் வாழ்க்கையே போச்சு! உயிரோடு இருக்கு | tamil.oneindia.com/televisio...os-is-this-happening-while-848705.html
+16:29:57    drop [only a headline] இன்றைய செய்தித் தெறிப்புகள் | நவ.27, 2026 | hindutamil.in/photo-album/album/today-news-november-27-2026
+16:29:57    drop [not Trichy district] திமுக உறுதியா இருந்தா பாஜக கதை குளோஸ்.. தொகுதி மறுவரையறை திர | tamil.oneindia.com/news/coim...-stand-said-thirumavalavan-848687.html
+16:29:57    drop [not Trichy district] அவருடன் காதல், டேட்டிங் என பல விஷயங்கள் பரப்புனாங்க.. ஆனால்! | tamil.oneindia.com/televisio...talk-of-romance-dating-and-848679.html
+16:29:57    drop [not Trichy district] துணை சபாநாயகர் ரவிசங்கர் மீதான வழக்கு; முழுவிவரங்களையும் செவ | dinakaran.com/news/bench-high-court-deputyspeaker-ravishankar-case
+16:29:57    drop [not Trichy district] அரசியலுக்கு வருகிறாரா? நடிகை த்ரிஷா சென்ற சிருங்கேரி சாரதா க | dinamani.com/cinema/cinema-n...da-temple-which-actress-trisha-visited
+16:29:57    drop [not Trichy district] தொகுதி மறுவரையறை விவகாரம்; நாங்கள் எதிர்பார்க்கும் 2 கோரிக்க | dinakaran.com/news/banner-ne...-constituencies-m-k-stalin-dmks-stance
+16:29:57    drop [same event already posted] 2 தொகுதிகளுக்கு மட்டும் இடைத்தேர்தலுக்கான தடை நீக்கம்..! - உ | polimernews.com/tamilnadunew...two-constituencies-high-court-12845251
+16:29:57    drop [not Trichy district] "ஓம்” படத்தை பார்த்து கலங்கிய மலைவாழ் மக்கள்.. எங்க வலியே பட | tamil.oneindia.com/televisio...-emotion-saying-the-film-c-848661.html
+16:29:57    drop [not Trichy district] ரோபோடிக் அறுவை சிகிச்சை அனைவருக்கும் ஏற்றதா? - Dinakaran - D | dinakaran.com/health/robotic-surgery-suitable-for-everyone
+16:29:57    drop [not Trichy district] சபரிமலை ஐயப்ப பக்தர்கள் வருகை குறைவு; ஆன்லைன் முன்பதிவில் மோ | dinakaran.com/news/sabarimala-bookings-fraud
+16:29:57    drop [not Trichy district] ஆட்டிசம் குழந்தைகளுக்கு வந்தாச்சு நம்பிக்கைத் தரும் டெக்னாலஜ | dinakaran.com/health/technol...hat-gives-hope-to-children-with-autism
+16:29:57    drop [not Trichy district] ரன் அப்பை மாற்றிய பும்ரா.. பந்தை மறைக்காமல் வருவது ஏன்? விக் | tamil.oneindia.com/news/spor...-2nd-test-against-new-zeal-848653.html
+16:29:57    drop [only a headline] Forest Department rescues | dailythanthi.com/topic/forest-department-rescues
+16:29:57    drop [not Trichy district] திரிஷா பேரவை தொடங்கியது ஏன்? சாமி சூட்டிங் ஸ்பாட்டில் நடந்த  | tamil.oneindia.com/televisio...e-film-saamy-rajagopal-rev-848629.html
+16:29:57    drop [no title] திருப்போரூர் மலைக்கோவில் பிரணவ மலை பாதையை சீரமைக்க பக்தர்கள் | temple.dinamalar.com/news_detail.php
+16:29:57    drop [not Trichy district] எனக்கு இன்னும் 50 வயசு ஆகலப்பா.. பேசி பேசியே வயசை ஏத்திட்டாங | tamil.oneindia.com/news/chen...-while-thanking-supporters-848623.html
+16:29:57    drop [not Trichy district] அம்மா, அடுத்தவர் மனைவிதான் வேணும்.. அடம்பிடித்த மகன்.. நள்ளி | tamil.oneindia.com/news/bang...-tumakuru-midnight-tragedy-848621.html
+16:29:57    drop [not Trichy district] இன்றும் தங்கம் விலை உச்சம்; இரு தினங்களில் மட்டும் ரூ.1,440  | dinamalar.com/news/india-tam...es-by-rs-1440-in-just-two-days/4387493
+16:29:57    drop [not Trichy district] திமுகவிடம் செய்ததை போலவே.. வேலையை காட்டிய காங்கிரஸ்.. உ.பியி | tamil.oneindia.com/news/delh...over-seat-sharing-deadlock-848597.html
+16:29:57    drop [not Trichy district] 40 வயதுக்கு மேற்பட்டோருக்கு கண் பரிசோதனை அவசியம் கண் பார்வை  | dinamalar.com/news/tamil-nad...0-to-prevent-visual-impairment/4387432
+16:29:57    drop [not Trichy district] அரசியலமைப்பு தின உறுதிமொழி ஏற்பு | dinamalar.com/news/tamil-nad...of-the-constitution-day-pledge/4387476
+16:29:57 list: 0 new + 0 earlier news not posted yet
+16:29:57 no news in this window - no e-mail
+ROUND=2026-11-27_16
