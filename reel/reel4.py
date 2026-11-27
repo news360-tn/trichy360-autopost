@@ -653,9 +653,15 @@ def edge_lines(work, texts, voice="ta-IN-ValluvarNeural", rate="+8%", pitch="+0H
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "research_free"))
     import names
     for i, t in enumerate(texts):
-        mp3, wav = work / f"line{i}.mp3", work / f"line{i}.wav"
+        mp3, wav, wjs = work / f"line{i}.mp3", work / f"line{i}.wav", work / f"line{i}.words.json"
         say = tts.clean(names.spoken(t))
+        wjs.unlink(missing_ok=True)
         for k in range(4):      # the free voice service fails now and then: try again
+            # owner 27 Nov evening: the voice with its word clock (captions follow the voice); the plain voice when that fails
+            r = subprocess.run([sys.executable, str(Path(__file__).resolve().parent / "edge_words.py"), voice, rate, pitch, say, str(mp3), str(wjs)], timeout=90)
+            if r.returncode == 0 and mp3.exists() and mp3.stat().st_size > 1000:
+                break
+            wjs.unlink(missing_ok=True)
             r = subprocess.run([sys.executable, "-m", "edge_tts", "--voice", voice, f"--rate={rate}", f"--pitch={pitch}", "--text", say, "--write-media", str(mp3)], timeout=90)
             if r.returncode == 0 and mp3.exists() and mp3.stat().st_size > 1000:
                 break
@@ -665,6 +671,54 @@ def edge_lines(work, texts, voice="ta-IN-ValluvarNeural", rate="+8%", pitch="+0H
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp3), "-af",
                         "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,loudnorm=I=-16:TP=-1.5",
                         "-ar", "22050", "-ac", "1", str(wav)], check=True)
+        if wjs.exists():      # the trimmed length, so a later speed-up (fit_max) can be scaled out
+            try:
+                wjs.write_text(json.dumps(dict(json.loads(wjs.read_text(encoding="utf-8")), dur=V3.wav_dur(wav)), ensure_ascii=False), encoding="utf-8")
+            except Exception:
+                wjs.unlink(missing_ok=True)
+
+
+def voice_word_times(work, i, text, s, e):
+    """owner 27 Nov evening: caption word times from the voice's own word clock (edge_words.py), else None (letter count is used).
+    The spoken words can differ from the screen words (numbers read out, abbreviations), so each screen word is placed by its
+    position in the sentence (share of letters) on the spoken words' timeline."""
+    try:
+        d = json.loads((work / f"line{i}.words.json").read_text(encoding="utf-8"))
+        sp = [w for w in d.get("words") or [] if str(w[0]).strip()]
+        words = text.split()
+        if len(sp) < 2 or not words or e <= s:
+            return None
+        t0, dur = float(sp[0][1]), float(d.get("dur") or 0)
+        k = (e - s) / dur if dur > 0 else 1.0      # fit_max may have read the line faster
+        if len(sp) == len(words):      # one spoken word per screen word ("5" read as "ஐந்து"): each word at its own time
+            st = [min(e, max(s, s + (float(w[1]) - t0) * k)) for w in sp]
+            if all(b > a for a, b in zip(st, st[1:])):
+                return [(w, round(st[j], 3), round(st[j + 1] if j + 1 < len(st) else e, 3)) for j, w in enumerate(words)]
+        tot = sum(len(str(w[0])) for w in sp)
+        xs, ts, c = [], [], 0
+        for w in sp:
+            xs.append(c / tot); ts.append(s + (float(w[1]) - t0) * k); c += len(str(w[0]))
+        xs.append(1.0); ts.append(min(e, s + (float(sp[-1][2]) - t0) * k))
+
+        def at(x):
+            for j in range(1, len(xs)):
+                if x <= xs[j]:
+                    f = (x - xs[j - 1]) / max(1e-9, xs[j] - xs[j - 1])
+                    return ts[j - 1] + f * (ts[j] - ts[j - 1])
+            return ts[-1]
+        wts = [max(2, len(w)) for w in words]
+        tw = sum(wts)
+        starts, c = [], 0
+        for w in wts:
+            starts.append(min(e, max(s, at(c / tw)))); c += w
+        out = []
+        for j, w in enumerate(words):
+            a = starts[j] if j == 0 or starts[j] > out[-1][1] else out[-1][1] + 0.01
+            b = starts[j + 1] if j + 1 < len(words) else e
+            out.append((w, round(a, 3), round(max(b, a + 0.05), 3)))
+        return out
+    except Exception:
+        return None
 
 
 def pick_voice(spec):
@@ -1113,7 +1167,7 @@ def main(spec_path, out_mp4, page_key="trichy"):
         s["a"], s["b"] = starts[i], ends[i]
     caps = []
     for i, s in enumerate(sents):
-        wt = V3.word_times(to_digits(s["say"]), starts[i], ends[i])
+        wt = voice_word_times(work, i, to_digits(s["say"]), starts[i], ends[i]) or V3.word_times(to_digits(s["say"]), starts[i], ends[i])
         if abbr_on():
             wt = names.latin_abbr_words(wt)      # subtitles only - the voice track is already made from s["say"]
         for g in phrases(wt):
