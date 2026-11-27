@@ -44,3 +44,10 @@
 16:38:57    1. [விபத்து] Road Accident | TN Police | திருச்சி - சென்னை நெடுஞ்சாலையில் டேங்கர் ல (தந்தி டிவி)
 16:38:57 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
 ROUND=2026-11-27_16
+16:38:58 round 2026-11-27_16 (at least 6, up to 3 more of well-watched topics): 1 news to choose from (0 from earlier rounds), ranked by this page's insights
+16:38:58   PICK   1.  12.0 [accident +0.74 page] Road Accident | TN Police | திருச்சி - சென்னை நெடுஞ்சாலையில்
+16:38:58 decided: automatic: top 6 of 1 by insights -> 1 news to write and post
+PICK_URLS=https://www.thanthitv.com/amp/story/news/tamilnadu/tanker-truck-accident-on-trichy-chennai-highway
+16:43:35 1 listed news now in the Sheet
+16:43:42 verify 2026-11-27_16: 0 of 1 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
+16:43:42    SKIPPED C022b32c: skipped RN-178: not this district's news (the headline names another district / town) - Road Accident | TN Police | திருச்சி - சென்னை நெடுஞ்சாலையில்

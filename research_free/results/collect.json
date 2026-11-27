@@ -3,450 +3,95 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.maalaimalar.com/news/tamilnadu/rs-16-lakh-swindled-under-the-pretext-of-securing-jobs-abroad",
-  "manual link added: https://www.dailythanthi.com/news/tamilnadu/trichy-10-foot-long-python-enters-residential-area-forest-department-rescues-it",
-  "manual link added: https://www.dinakaran.com/district/trichy-271126-3/amp",
-  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/26/rain-for-the-2nd-day-in-trichy-district",
-  "manual link added: https://www.dailythanthi.com/news/tamilnadu/a-common-candidate-i-will-not-go-and-stand-before-anyone-to-seek-support-seemans-sensational-statement",
-  "manual link added: https://www.dinamani.com/tamilnadu/2026/Nov/26/by-elections-in-5-constituencies-verdict-today-in-case-seeking-a-stay",
-  "candidate filter: collected=6",
-  "to write: 6 Trichy district candidates (max 6 stories)",
-  "round: top 6 of 6 candidates",
-  "candidates waiting: 6 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamani.com/tamilnadu/2026/Nov/26/by-elections-",
-  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/a-common-candida",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
-  "posting job started at once",
-  "try (N) manual=True: https://www.dinakaran.com/district/trichy-271126-3/amp",
+  "manual link added: https://www.thanthitv.com/amp/story/news/tamilnadu/tanker-truck-accident-on-trichy-chennai-highway",
+  "candidate filter: collected=1",
+  "to write: 1 Trichy district candidates (max 1 stories)",
+  "round: top 1 of 1 candidates",
+  "candidates waiting: 1 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.thanthitv.com/amp/story/news/tamilnadu/tanker-tr",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
-  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/trichy-10-foot-l",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})",
-  "try (N) manual=True: https://www.maalaimalar.com/news/tamilnadu/rs-16-lakh-swindl",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 11})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 13})",
-  "NOT filed (N) வெளிநாட்டில் வேலை வாங்கி தருவதாக ரூ.16 லட்சம் மோசட: not Trichy district news (the story's first lines name another place and no Trichy place)",
-  "candidate loop ended: left 0, tried={'N': 6}, done={'N': 5}, time left 77 min",
-  "filed: 5 Trichy district stories (target 6), reels only",
+  "posting job started at once",
+  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 75 min",
+  "filed: 1 Trichy district stories (target 1), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":5,\"updated\":1}"
+  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (17s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
+  "ok gemini/gemini-3.5-flash (15s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.5-flash",
+  "ok gemini/gemini-3-flash-preview (4s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "dead for this round: gemini/gemini-3-flash-preview",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok groq/qwen/qwen3.8-27b (3s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "ok gemini/gemini-3-flash-preview (12s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "ok anthropic/claude-haiku-5-5",
+  "ok gemini/gemini-3-flash-preview (11s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok groq/qwen/qwen3.8-27b (4s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "ok groq/qwen/qwen3.8-27b (3s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "ok anthropic/claude-haiku-5-5",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok anthropic/claude-haiku-5-5"
+  "ok gemini/gemini-3-flash-preview (6s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
  ],
  "stories": [
   {
-   "tamil_headline": "திருச்சியில் இரண்டாவது நாளாக மழை: மரக்கிளைகள் முறிந்து விழுந்தன",
-   "english_headline": "Trichy district gets rain for second day; tree branches break and fall, Gandhi Market roads affected",
-   "category": "Weather & Agriculture",
-   "location": "Kajamalai area, Trichy city, Trichy district",
+   "tamil_headline": "உளுந்தூர்பேட்டை அருகே டேங்கர் லாரி கவிழ்ந்து விபத்து: 3 கி.மீ. தூரத்திற்கு கடும் போக்குவரத்து நெரிசல்",
+   "english_headline": "Cement powder tanker lorry overturns into 5-foot ditch near Ulundurpet on Trichy-Chennai highway; 3 km traffic jam reported",
+   "category": "Roads & Transport",
+   "location": "Ulundurpet, Trichy - Chennai National Highway",
    "importance": "High",
    "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "மழை எச்சரிக்கை",
-    "loc": "காஜாமலை, திருச்சி",
-    "hl1": "திருச்சியில் 2-ஆவது நாளாக மழை",
-    "hl2": "786.8 மி.மீ. மழை பதிவு",
+    "cat": "விபத்து",
+    "loc": "உளுந்தூர்பேட்டை",
+    "hl1": "உளுந்தூர்பேட்டை: டேங்கர் லாரி கவிழ்ந்தது",
+    "hl2": "3 கி.மீ. தூரம் வாகன நெரிசல்",
     "slides": [
      {
-      "title": "மழையின் நிலவரம்",
+      "title": "விபத்து எங்கு?",
       "lines": [
-       "திருச்சி மாவட்டத்தில் வியாழக்கிழமை பரவலாக மழை",
-       "திருச்சி நகரில் காலை 6 மணி முதல் தூறல்",
-       "பின்னர் லேசான கனமழையாக பெய்தது"
+       "திருச்சி - சென்னை தேசிய நெடுஞ்சாலையில் விபத்து",
+       "உளுந்தூர்பேட்டை அருகே டேங்கர் லாரி கவிழ்ந்தது"
       ]
      },
      {
-      "title": "மரங்கள், சாலைகள்",
+      "title": "எப்படி நடந்தது?",
       "lines": [
-       "காஜாமலை பகுதியில் மரக்கிளைகள் முறிந்து சாலையில் விழுந்தன",
-       "மாநகராட்சி, நெடுஞ்சாலைத்துறையினர் அப்புறப்படுத்தினர்",
-       "சாலைகளில் ஜல்லிக் கற்கள் பெயர்ந்து மழைநீர் தேக்கம்"
+       "சிமெண்ட் பவுடர் ஏற்றி வந்த டேங்கர் லாரி",
+       "நெடுஞ்சாலையோர <b>5 அடி</b> பள்ளத்தில் கவிழ்ந்தது"
       ]
      },
      {
-      "title": "மக்கள் நிலைமை",
+      "title": "போக்குவரத்து",
       "lines": [
-       "சாலையோர வியாபாரிகள் பாதிப்பு, கடைகள் திறக்கவில்லை",
-       "வாகன ஓட்டிகள் அவதி",
-       "மாவட்டத்தில் சராசரியாக 32.78 மி.மீ. மழை பதிவு"
+       "சுமார் <b>3 கி.மீ.</b> தூரத்திற்கு வாகனங்கள் அணிவகுப்பு",
+       "தேசிய நெடுஞ்சாலையில் கடும் போக்குவரத்து பாதிப்பு"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சி மாவட்டத்தில் 786.8 மி.மீ. மழை பதிவாகி உள்ளது. இரண்டாவது நாளாக வியாழக்கிழமையும் பரவலாக மழை பெய்தது. இதையடுத்து, காஜாமலை பகுதியில் மரக்கிளைகள் முறிந்து சாலையில் விழுந்தன. மாநகராட்சி மற்றும் நெடுஞ்சாலைத்துறையினர் அவற்றை அப்புறப்படுத்தும் பணியில் ஈடுபட்டனர். இதனால் சாலையோர வியாபாரிகள் பாதிக்கப்பட்டனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🌧️ திருச்சியில் 2-ஆவது நாளாக மழை: காஜாமலையில் மரக்கிளைகள் முறிந்து விழுந்தன\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டத்தில் இரண்டாவது நாளாக வியாழக்கிழமையும் பரவலாக மழை பெய்தது. பல இடங்களில் மரங்களின் கிளைகள் முறிந்து விழுந்தன.\nஅதிகாலையில் தூறலுடன் தொடங்கிய மழை, பின்னர் லேசான கனமழையாக பெய்தது. காந்தி சந்தைக்குச் செல்லும் சில்லறை வியாபாரிகள், கூலித் தொழிலாளர்கள், தனியார் நிறுவன ஊழியர்கள் மழையில் நனைந்தபடி விரைந்து சென்றனர்.\nமாணவர்கள் மழைக்கவச ஆடைகளை அணிந்தும், குடை பிடித்தும் பெற்றோர் துணையுடன் கல்வி நிறுவனங்களுக்குச் சென்றனர். பேருந்துகளுக்காக பொதுமக்கள் மத்தியப் பேருந்து நிலையம், சத்திரம் பேருந்து நிலையத்தில் காத்திருந்தனர்.\nமாநகரின் பிரதான சாலைகளில் தார்ச் சாலைகளின் ஜல்லிக் கற்கள் பெயர்ந்து காணப்பட்டன. மழைநீர் தேங்கியதால் வாகன ஓட்டிகள் அவதிப்பட்டனர்.\nதிருச்சி நகரில் காலை 6 மணிக்குத் தொடங்கிய மழை இடைவிடாது தூறிக்கொண்டிருந்தது. சாலையோர மற்றும் தரைக்கடை வியாபாரிகளின் வாழ்க்கை பெரிதும் பாதிக்கப்பட்டது; நடமாடும் உணவகங்களும் சாலையோரக் கடைகளும் திறக்கப்படவில்லை. மாலையிலும் இரவிலும் விட்டு விட்டு மழை பெய்ததால் பொதுமக்கள் சிரமப்பட்டனர்.\nகாஜாமலை பகுதியில் மரங்களிலிருந்து கிளைகள் முறிந்து சாலையில் விழுந்ததால், அவற்றை அப்புறப்படுத்தும் பணியில் மாநகராட்சி மற்றும் நெடுஞ்சாலைத்துறையினர் ஈடுபட்டனர்.\nமாவட்டத்தில் புதன்கிழமை காலை முதல் வியாழக்கிழமை காலை 6 மணி வரை மொத்தம் 786.8 மி.மீ. மழை பதிவானது; சராசரியாக 32.78 மி.மீ. மழை பதிவானது.\nமுக்கிய பதிவுகள்: கல்லக்குடி 43.4 மி.மீ., லால்குடி 15.6 மி.மீ., நந்தியாற்று தலைப்பு 40 மி.மீ., புள்ளம்பாடி 50.4 மி.மீ., சமயபுரம் 25.4 மி.மீ., வாய்த்தலை அணைக்கட்டு 82.6 மி.மீ., மணப்பாறை 13.8 மி.மீ., கோவில்பட்டி 64.2 மி.மீ., மருங்காபுரி 62.4 மி.மீ., முசிறி 34 மி.மீ., நவலூர் குட்டப்பட்டு 72 மி.மீ., துவாக்குடி 29.2 மி.மீ., துறையூர் 18 மி.மீ., பொன்மலை 25 மி.மீ., திருச்சி விமான நிலையம் 27 மி.மீ., திருச்சி ஜங்ஷன் 32.6 மி.மீ., திருச்சி நகரம் 39 மி.மீ.\n\nTrichy rain second day, tree branches fall in Kajamalai | Trichy news\n📍 காஜாமலை, திருச்சி மாவட்டம் | 26 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\nஇந்தத் தகவலை தேவைப்படுவோருக்கு Share செய்யுங்கள்.\n\n#Trichy360 #Trichy #Kajamalai #TrichyRain #திருச்சி",
-   "prompts": "Two Corporation workers in rain gear drag a large broken tree branch off a wet road in the Kajamalai area of Trichy city, Tamil Nadu, while a highway department worker in a khaki shirt and a yellow reflective vest directs a two-wheeler past the debris. The place is an ordinary urban street with a low concrete compound wall, a row of small roadside shops with their shutters pulled down, and a tall roadside tree whose upper branches have snapped, hanging broken above the carriageway. Shopkeepers in lungis and shirts stand under a tin awning watching from a distance, and a few commuters with umbrellas walk past. Two-wheelers and an autorickshaw slow down on the rain-soaked tar road, which shows loose gravel chips and standing rainwater in the potholes. The light is flat overcast daylight after a morning of steady drizzle, with the sky grey and the road shining wet. Shot at eye level, 35 mm lens, wide enough to show the fallen branch, the cleanup workers and the closed shops together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a fallen tree branch with broken, leafy twigs lying across a wet tar road in Kajamalai, Trichy city, Tamil Nadu, with rainwater collected in the dips of the road surface and loose stone chips scattered beside the tyre tracks. In the background, the blurred figures of two municipal workers in rain gear pull at the branch with a rope, seen from behind and kept out of focus. The surroundings are an ordinary city road edge with a concrete drain and the bottom of a tree trunk, while a closed roadside stall's metal shutter is visible in soft focus. Two wet two-wheeler tyres enter the frame at the edge. The light is soft, diffused monsoon daylight with a grey sky and glistening puddles reflecting the clouds. Camera is low, close to the ground, 35 mm lens, focused on the broken branch and the wet road texture. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/26/rain-for-the-2nd-day-in-trichy-district",
-   "published": "2026-11-26T21:18:24.713Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 12 ('காஜாமலை பகுதியில் மரங்களில் இருந்து கிளைகள் முறிந்து சாலையில'); 24 ('காஜாமலை பகுதியில் மரங்களில் இருந்து கிளைகள் முறிந்து சாலையில'); 12, ('காஜாமலை பகுதியில் மரங்களில் இருந்து கிளைகள் முறிந்து சாலையில'); 14, ('காஜாமலை பகுதியில் மரங்களில் இருந்து கிளைகள் முறிந்து சாலையில'); 21, ('காஜாமலை பகுதியில் மரங்களில் இருந்து கிளைகள் முறிந்து சாலையில'); 20, ('காஜாமலை பகுதியில் மரங்களில் இருந்து கிளைகள் முறிந்து சாலையில')",
-   "note": "free-model draft anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b, 12 attempt(s), 1 validator problem(s)",
+   "reel_script": "உளுந்தூர்பேட்டை அருகே லாரி கவிழ்ந்து 3 கிலோமீட்டர் போக்குவரத்து பாதிப்பு. திருச்சி - சென்னை தேசிய நெடுஞ்சாலையில் சிமெண்ட் பவுடர் ஏற்றி வந்த டேங்கர் லாரி விபத்துக்குள்ளானது. நெடுஞ்சாலையோர 5 அடி பள்ளத்தில் லாரி கவிழ்ந்தது. இதனால் 3 கிலோமீட்டர் தூரத்திற்கு வாகனங்கள் அணிவகுத்து நின்று கடும் போக்குவரத்து நெரிசல் ஏற்பட்டது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 உளுந்தூர்பேட்டை அருகே டேங்கர் லாரி கவிழ்ந்து விபத்து - 3 கி.மீ. தூரத்திற்கு போக்குவரத்து நெரிசல்!\n\n📰 முழு விவரம்:\nதிருச்சி - சென்னை தேசிய நெடுஞ்சாலையில் உளுந்தூர்பேட்டை அருகே சிமெண்ட் பவுடர் ஏற்றி வந்த டேங்கர் லாரி விபத்துக்குள்ளானது. நெடுஞ்சாலையோர 5 அடி பள்ளத்தில் லாரி கவிழ்ந்தது. இதனால் 3 கி.மீ. தூரத்திற்கு வாகனங்கள் அணிவகுத்து நின்று கடும் போக்குவரத்து நெரிசல் ஏற்பட்டது.\n\n📍 இடம்: உளுந்தூர்பேட்டை அருகே, திருச்சி - சென்னை தேசிய நெடுஞ்சாலை\n🚛 விபத்து: சிமெண்ட் பவுடர் டேங்கர் லாரி 5 அடி பள்ளத்தில் கவிழ்ந்தது\n🚗 பாதிப்பு: 3 கி.மீ. தூரத்திற்கு வாகனங்கள் அணிவகுப்பு\n\nவாகன ஓட்டிகளுக்கு Share செய்யுங்கள் 🚗\n\nUlundurpet tanker lorry accident Trichy Chennai highway traffic jam | Trichy news\n📍 உளுந்தூர்பேட்டை, திருச்சி - சென்னை நெடுஞ்சாலை | 27 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Ulundurpet #TrichyNews #திருச்சி",
+   "prompts": "A large cement powder tanker lorry lies overturned on its side in a 5-foot deep earthen ditch beside the road. The scene is on the shoulder of the wide Trichy-Chennai National Highway near Ulundurpet. Two TN police officers in khaki uniforms stand on the asphalt edge, looking down at the vehicle from behind. In the background, the highway is visible with a line of stopped TNSTC buses and private cars. The lighting is bright daylight under a clear sky. The camera is at eye level, using a 35mm lens to capture the scale of the overturned tanker against the highway. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up shot focuses on the massive wheels and the undercarriage of the overturned cement tanker resting in the deep ditch. The heavy metal frame of the tanker is tilted at a sharp angle against the dirt wall of the 5-foot trench. A few scattered pieces of debris from the vehicle lie in the dry grass. In the blurred background, the khaki trousers of a police officer are visible standing on the road level. The daylight is harsh, highlighting the texture of the dirt and the metallic surface of the tanker. The camera is at a low angle, looking up from inside the ditch. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA long queue of vehicles, including TNSTC buses, private cars, and heavy lorries, stretches for 3 km along the Trichy-Chennai National Highway. The vehicles are seen from a high angle, showing them bumper-to-bumper on the multi-lane asphalt road. In the far distance, the overturned tanker is partially visible on the roadside surrounded by a small group of people in khaki. The highway is lined with green shrubs and the occasional palm tree typical of the Tamil Nadu landscape. The scene is captured in clear daylight, emphasizing the massive traffic congestion. The camera is positioned high, looking down the length of the highway. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.thanthitv.com/amp/story/news/tamilnadu/tanker-truck-accident-on-trichy-chennai-highway",
+   "published": "",
+   "verification": "DRAFT (gemini/gemini-3.5-flash) - fact-check: no problems found",
+   "note": "free-model draft gemini/gemini-3.5-flash, 2 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/e8ee9de1a255e539.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/5fe7088009a36445.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "5 தொகுதி இடைத்தேர்தல்: தடை கோரிய வழக்கில் இன்று தீர்ப்பு",
-   "english_headline": "Chennai High Court to pronounce verdict today (27 Nov) on plea to stay by-elections in 5 constituencies including Trichy East",
-   "category": "Government & Services",
-   "location": "Trichy East, Ambasamudram, Perundurai, Karur and Viralimalai constituencies, Tamil Nadu",
-   "importance": "High",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "தேர்தல் வழக்கு",
-    "loc": "திருச்சி கிழக்கு",
-    "hl1": "திருச்சி கிழக்கு இன்று தீர்ப்பு",
-    "hl2": "நவ. 27 வெள்ளிக்கிழமை",
-    "slides": [
-     {
-      "title": "எந்தத் தொகுதிகள்?",
-      "lines": [
-       "திருச்சி கிழக்கு, அம்பாசமுத்திரம், பெருந்துறை, கரூர்",
-       "இந்த 5 தொகுதிகளுக்கு இடைத்தேர்தல் அறிவிக்கத் தடை கோரப்பட்டது",
-       "திருநெல்வேலியைச் சேர்ந்த வெங்கடாசலபதி வழக்குத் தொடுத்தார்"
-      ]
-     },
-     {
-      "title": "இதுவரை என்ன?",
-      "lines": [
-       "<b>ஜூலை 10</b> அன்று இடைக்காலத் தடை உத்தரவு பிறப்பிக்கப்பட்டது",
-       "அனைத்து தரப்பு வாதங்களும் நிறைவடைந்தன",
-       "<b>அக். 1</b> அன்று தீர்ப்புக்காக வழக்கு ஒத்திவைக்கப்பட்டது"
-      ]
-     },
-     {
-      "title": "இன்று தீர்ப்பு",
-      "lines": [
-       "<b>நவ. 27 (வெள்ளிக்கிழமை)</b> அன்று தீர்ப்பு வழங்கப்படுகிறது",
-       "தலைமை நீதிபதி எஸ்.ஏ.தர்மாதிகாரி அமர்வு தீர்ப்பளிக்கிறது",
-       "நீதிபதி ஜி.அருள்முருகனும் அமர்வில் உள்ளார்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சி கிழக்கு உள்ளிட்ட 5 தொகுதிகளின் இடைத்தேர்தலுக்குத் தடை கோரிய வழக்கில் இன்று தீர்ப்பு. சென்னை உயர்நீதிமன்றத் தலைமை நீதிபதி அமர்வு நவம்பர் 27ஆம் தேதி வெள்ளிக்கிழமை தீர்ப்பளிக்கிறது. திருச்சி கிழக்கு, அம்பாசமுத்திரம், பெருந்துறை, கரூர், விராலிமலை ஆகிய தொகுதிகள் இதில் அடங்கும். திருநெல்வேலியைச் சேர்ந்த வெங்கடாசலபதி என்பவர் இந்த வழக்கைத் தொடுத்தார். ஜூலை 10ஆம் தேதி இடைக்காலத் தடை உத்தரவு பிறப்பிக்கப்பட்டது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சி கிழக்கு உள்ளிட்ட 5 தொகுதி இடைத்தேர்தலுக்குத் தடை: இன்று தீர்ப்பு\n\n📰 முழு விவரம்:\nதேர்தல் வழக்கு நிலுவையில் உள்ள திருச்சி கிழக்கு, அம்பாசமுத்திரம், பெருந்துறை, கரூர், விராலிமலை ஆகிய 5 தொகுதிகளுக்கு இடைத்தேர்தல் அறிவிக்கத் தடை விதிக்கக் கோரி, திருநெல்வேலியைச் சேர்ந்த வெங்கடாசலபதி என்பவர் சென்னை உயர்நீதிமன்றத்தில் வழக்குத் தொடுத்தார். கடந்த ஜூலை 10ஆம் தேதி 5 தொகுதிகளுக்கும் இடைத்தேர்தல் அறிவிக்க இடைக்காலத் தடை விதித்து உயர்நீதிமன்றம் உத்தரவிட்டிருந்தது.\nஅனைத்து தரப்பு வாதங்களும் நிறைவடைந்த நிலையில், அக். 1ஆம் தேதி தீர்ப்புக்காக வழக்கு ஒத்திவைக்கப்பட்டது.\nஇன்று (நவ. 27, வெள்ளிக்கிழமை) தலைமை நீதிபதி எஸ்.ஏ.தர்மாதிகாரி, நீதிபதி ஜி.அருள்முருகன் ஆகியோர் அடங்கிய அமர்வு தீர்ப்பளிக்கிறது.\n\n📍 இடம்: சென்னை உயர்நீதிமன்றம்\n🗓️ நாள்: நவம்பர் 27, 2026 (வெள்ளிக்கிழமை)\n👮 நடவடிக்கை: 5 தொகுதிகளின் இடைத்தேர்தல் அறிவிப்புக்கான தடை குறித்து நீதிமன்றம் தீர்ப்பளிக்கவுள்ளது\n\nTrichy East by-election stay case verdict today | Trichy news\n📍 சென்னை உயர்நீதிமன்றம் | 27 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #TrichyEast",
-   "prompts": "Inside a Chennai High Court courtroom, a bench of judges in black robes sits on a raised wooden dais as the verdict is about to be read on a Friday morning. Lawyers in black coats and white bands sit on the floor-level benches below, and a few clerks stand near case files stacked on the tables. The room has high ceilings, wooden panelling, ceiling fans and tall windows letting in daylight. The judges and lawyers are seen from behind or at a distance, with no faces visible. Papers and bundles of case files lie on the counsel tables, and a Tamil Nadu flag stands in the corner. The camera is at eye level from the back of the hall, 35 mm, wide enough to show the full bench, the dais and the packed courtroom. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of the stack of case files and legal papers on a wooden counsel table in the High Court courtroom, with the black gown of a lawyer draped over a chair in the foreground. Behind it, the raised judicial bench is slightly out of focus, showing the empty high-backed chairs waiting for the judges. Natural daylight from a tall window falls across the papers, and a glass water jug and a few pens lie beside the bundles. No readable text or case numbers are visible. The shot is taken at a low angle near the table, 35 mm, emphasising the files and the pending legal decision. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA view from the public gallery of a Chennai High Court courtroom, looking down over the rows of lawyers in black coats and white bands toward the judicial bench. Litigants and onlookers sit quietly in the wooden benches at the back, seen from behind and far away. The high ceiling, ceiling fans and wooden panelling frame the scene, with daylight coming through the windows along one wall. Court clerks in plain shirts move between the tables carrying files. The camera is slightly high, 35 mm, showing the whole hall and the tense wait before the verdict. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/tamilnadu/2026/Nov/26/by-elections-in-5-constituencies-verdict-today-in-case-seeking-a-stay",
-   "published": "2026-11-26T21:36:00.568Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 0 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/bdff785741619112.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/fbc5db31a57a7c24.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/d44cf93a07fe9b2c.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "தேர்தலில் சீமான் பொது வேட்பாளராக நிற்பாரா?",
-   "english_headline": "Seeman says he will not beg anyone for support in Ambasamudram by-poll",
-   "category": "Government & Services",
-   "location": "Ambasamudram, Tirunelveli district",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "அரசியல் செய்தி",
-    "loc": "அம்பாசமுத்திரம்",
-    "hl1": "பொது வேட்பாளர்? எவனிடமும் கேட்க மாட்டேன்",
-    "hl2": "அம்பை இடைத்தேர்தல் பரபரப்பு",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "இடைத்தேர்தல் நடைபெறும் 5 தொகுதிகளில் அம்பாசமுத்திரம் ஒன்று",
-       "அம்பாசமுத்திரத்தில் போட்டியிட இருப்பதாக சீமான் அறிவிப்பு",
-       "எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன் என்றார்"
-      ]
-     },
-     {
-      "title": "ஆதரவு குறித்து",
-      "lines": [
-       "தி.மு.க., அ.தி.மு.க. ஆதரித்தால் ஏற்பாரா என்று கேட்கப்பட்டது",
-       "பசியில் இருப்பவருக்கு பிரியாணி கிடைத்தால் ஏற்போம் என்றார்",
-       "மு.க. ஸ்டாலின்: தேர்தல் அறிவிக்கட்டும், பிறகு பேசலாம்"
-      ]
-     },
-     {
-      "title": "இடைத்தேர்தல்",
-      "lines": [
-       "விராலிமலை, கரூர், அம்பாசமுத்திரம், பெருந்துறை, திருச்சி",
-       "இடைத்தேர்தல் அறிவிப்பு சில வாரங்களில் வெளியாகும் என",
-       "த.வெ.க. பலம் சட்டசபையில் 107லிருந்து 109 ஆக உயர்வு"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "சீமான் எவனிடமும் போய் ஆதரவு கேட்க மாட்டேன் என்று பேசியுள்ளார். அம்பாசமுத்திரம் இடைத்தேர்தலில் போட்டியிட இருப்பதாக சீமான் அறிவித்துள்ளார். தி மு க, அ தி மு க ஆதரித்தால் ஏற்பாரா என்று கேட்கப்பட்டதற்கு, பசியில் இருப்பவருக்கு பிரியாணி கிடைத்தால் ஏற்போம் என்று பதிலளித்தார். மு க ஸ்டாலின், தேர்தல் அறிவிக்கட்டும், பிறகு பேசலாம் என்றார். விராலிமலை, கரூர், அம்பாசமுத்திரம், பெருந்துறை, திருச்சி கிழக்கு ஆகிய 5 தொகுதிகளுக்கு இடைத்தேர்தல் நடைபெற உள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🗳️ அம்பாசமுத்திரத்தில் சீமான் போட்டி: எவனிடமும் ஆதரவு கேட்க மாட்டேன்\n\n📰 முழு விவரம்:\nதமிழ்நாட்டில் காலியாக உள்ள விராலிமலை, கரூர், அம்பாசமுத்திரம், பெருந்துறை, திருச்சி கிழக்கு ஆகிய 5 சட்டசபை தொகுதிகளுக்கு விரைவில் இடைத்தேர்தல் நடைபெற உள்ளது. இடைத்தேர்தல் அறிவிப்பு சில வாரங்களில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது.\nஅம்பாசமுத்திரம் தொகுதியில் போட்டியிட இருப்பதாக சீமான் அறிவித்துள்ளார். தி.மு.க., அ.தி.மு.க. ஆதரித்தால் ஏற்பாரா என்று கேட்கப்பட்டதற்கு, பசியில் இருப்பவருக்கு பிரியாணி கிடைத்தால் ஏற்போம் என்று சீமான் பதிலளித்தார்.\nஇதுகுறித்து மு.க. ஸ்டாலின், தேர்தல் அறிவிக்கட்டும், பிறகு பேசலாம் என்றார். அ.தி.மு.க. பொதுச்செயலாளர் எடப்பாடி பழனிசாமி கருத்து எதுவும் தெரிவிக்கவில்லை.\nநெல்லையில் பேசிய சீமான், இனி செயல் மட்டுமே நமது அடையாளம் என்றும், எத்தனை முறை தோற்றாலும் எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன் என்றும் கூறினார்.\nத.வெ.க. பலம் சட்டசபையில் 107லிருந்து 109 ஆக உயர்ந்துள்ளது.\n\nSeeman contests Ambasamudram by-poll | Trichy 360 news\n📍 அம்பாசமுத்திரம், திருநெல்வேலி மாவட்டம் | 27 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Ambasamudram",
-   "prompts": "A crowd of Naam Tamilar Katchi party cadres and supporters gathers at a open-air election-campaign platform in Ambasamudram town, Tirunelveli district, with a speaker standing at a microphone on a low stage, his back to the camera and his face not visible. The setting is a small Tamil Nadu town main road lined with single-storey shops, concrete buildings and a few two-wheelers and an autorickshaw parked at the edge. Several party flags flutter in the air above the crowd, their symbols too small to read. Men in white shirts and veshtis and some in plain shirts stand shoulder to shoulder, seen from behind and far off. It is bright daylight with a clear sky and warm light falling across the street. Camera at eye level, 35 mm lens, wide enough to show the full stage, crowd and street. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a cluster of press microphones and a reporter's handheld recorder held up toward an unseen speaker on a campaign stage in Ambasamudram, Tirunelveli district, with the blurred back of a person in a white shirt at the edge of the frame. The microphones are the central subject, bunched together in the foreground, with the stage's plain metal railing and a few party flags visible out of focus behind them. The background shows a dusty town street with concrete shop fronts and a parked two-wheeler, all softly blurred. Daylight, warm and even, no readable text anywhere. Camera at slightly high angle, 35 mm, shallow depth of field so the microphones stand out sharply against the crowd. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide view from the road of a small town street in Ambasamudram, Tirunelveli district, showing a gathering of Naam Tamilar Katchi supporters seen from behind, filling the road in front of a low concrete stage with a speaker's silhouette at the microphone. Reporters with cameras stand at the front of the crowd, their backs to the lens. On one side of the street are shop fronts and a parked autorickshaw, on the other a row of two-storey buildings with flat roofs. The sky is bright and clear with daylight shadows on the road. Camera at eye level from the far side of the street, 35 mm, wide enough to show the road, the stage and the people together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dailythanthi.com/news/tamilnadu/a-common-candidate-i-will-not-go-and-stand-before-anyone-to-seek-support-seemans-sensational-statement",
-   "published": "2026-11-26T10:23:54Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script sentence 1 (heard in the first 3 seconds) must name the place 'அம்பாசமுத்திரம்' and the news itself, e.g. 'அம்பாசமுத்திரம்-இல் ... 3 பேர் கைது.' - viewers decide in 3 seconds whether the news is about their area",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/82ae2f0eacee5ca3.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/e08c9097eb6d235d.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/957a3bde4993bab7.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சியில் 3 மணி நேரம் கனமழை: நகரம், புறநகரில் வெள்ளம்",
-   "english_headline": "Three hours of heavy rain floods Trichy city and outskirts; water flows on roads",
-   "category": "Weather & Agriculture",
-   "location": "Trichy city and outskirts, Trichy district",
-   "importance": "High",
-   "scope": "",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "மழை",
-    "loc": "திருச்சி நகரம்",
-    "hl1": "திருச்சி நகரில் 3 மணி நேரம் கனமழை",
-    "hl2": "சாலையில் வெள்ளம்போல் மழைநீர்",
-    "slides": [
-     {
-      "title": "எப்போது மழை?",
-      "lines": [
-       "நவ. 27 மதியம் <b>12</b> மணி முதல் கனமழை",
-       "இடைவிடாமல் <b>3 மணி நேரம்</b> கொட்டித் தீர்த்தது",
-       "பின்னர் சாரல் மழையாக நீடித்தது"
-      ]
-     },
-     {
-      "title": "எங்கே பெய்தது?",
-      "lines": [
-       "திருச்சி மத்திய பேருந்து நிலையம், தில்லை நகர்",
-       "உறையூர், கண்டோண்மென்ட், மார்க்கெட்",
-       "சுப்ரமணியபுரம் உள்ளிட்ட நகரப் பகுதிகள்"
-      ]
-     },
-     {
-      "title": "என்ன பாதிப்பு?",
-      "lines": [
-       "சாலையில் வெள்ளம்போல் மழைநீர் ஓடியது",
-       "தாழ்வான பகுதிகளில் மழைநீர் தேங்கியது",
-       "பொதுமக்கள், விவசாயிகள் மகிழ்ச்சி அடைந்தனர்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சி நகரில் 3 மணி நேரம் இடைவிடாமல் கனமழை கொட்டித் தீர்த்தது. நவம்பர் 27ஆம் தேதி மதியம் 12 மணியிலிருந்து மழை பரவலாகப் பெய்தது. மத்திய பேருந்து நிலையம், தில்லை நகர், உறையூர், கண்டோண்மென்ட், மார்க்கெட், சுப்ரமணியபுரம் பகுதிகளில் மழை பெய்தது. சாலைகளில் வெள்ளம்போல் மழைநீர் ஓடியது. தாழ்வான பகுதிகளில் மழைநீர் தேங்கியது. பின்னர் சாரல் மழையாக நீடித்தது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🌧️ திருச்சி நகரில் 3 மணி நேரம் கனமழை: சாலையில் வெள்ளம்\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டத்தில் பல பகுதிகளில் 3 மணி நேரம் இடைவிடாமல் கனமழை கொட்டித் தீர்த்தது. நவம்பர் 27ஆம் தேதி பிற்பகல் 12 மணியளவில் புறநகர் பகுதிகளில் மிதமான மழை தொடங்கியது; மதியம் 1 மணியளவில் கனமழை நீடித்தது. பின்னர் சாரல் மழையாக நீடித்தது.\nதிருச்சி மத்திய பேருந்து நிலையம், தில்லை நகர், உறையூர், கண்டோண்மென்ட், மார்க்கெட், சுப்ரமணியபுரம் உள்ளிட்ட நகரப் பகுதிகளில் பகல் 12 மணி முதல் பரவலாக கனமழை பெய்தது.\nஇதனால் சாலையில் வெள்ளம்போல் மழைநீர் பெருக்கெடுத்து ஓடியது. தாழ்வான பகுதிகளில் பல இடங்களில் மழைநீர் தேங்கி நின்றது.\nவங்கக்கடலில் உருவான குறைந்த காற்றழுத்த தாழ்வு பகுதியால் தமிழகத்தில் கனமழை நீடிப்பதாக வானிலை ஆய்வு மையம் தெரிவித்துள்ளது. இந்த மழையால் பொதுமக்களும் விவசாயிகளும் மகிழ்ச்சி அடைந்தனர்.\n\nTrichy city heavy rain 3 hours, roads flooded | Trichy news\n📍 திருச்சி மாவட்டம் | 27 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyRain #மழை #TrichyNews",
-   "prompts": "A flooded urban street in Trichy city during heavy afternoon rain, with rainwater flowing across the road like a shallow river. Two-wheeler riders and an autorickshaw wade slowly through the brown, churning water, spraying small waves on both sides. The street is lined with shops with closed metal shutters and a bus stand's edge at the far end, near the Central bus stand area. Several people with umbrellas and raincoats walk along the raised pavement, seen from behind. Dark grey monsoon clouds hang over the buildings, and fine rain streaks are visible in the air. Daylight around 1 pm, flat overcast light, wet glistening asphalt. Shot at eye level with a 35 mm lens, wide enough to show the full stretch of flooded road and the people struggling through it. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of rainwater pooled over a low-lying stretch of road in Trichy city, where the water has risen above the curb and covers the lane. Rain drops create ripples across the muddy surface, and a two-wheeler's front wheel and a bare foot in ankle-deep water are visible at the edge of the frame. Behind, the blurred outline of a roadside shop and wet electric poles appear. Grey overcast sky reflects in the water, and the asphalt beneath is dark and slick. The light is soft daylight from heavy clouds. Shot from low angle, slightly above ground level, with a 35 mm lens focused on the water surface and the vehicle wheel to convey the depth of the flooding. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA view from the far side of a flooded road in Trichy outskirts, where the street runs between open paddy and banana fields along the edge of the city. Rainwater covers the tarmac, and a town bus and a few cars move slowly, their headlights on in the dim light, leaving wide wakes behind them. Farmers in the distance stand at the edge of their fields looking at the water, seen from far away and slightly blurred. Green crops and tall palms frame the scene, with grey monsoon clouds hanging low. It is early afternoon, under a heavy overcast sky with steady rain. Camera at slightly raised eye level, 35 mm lens, wide framing to show the road, the vehicles and the fields together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinakaran.com/district/trichy-271126-3/amp",
-   "published": "2026-11-27T01:53:34+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says it covered the city and the outskirts of Trichy district.; fact-check: The reel_script and slides say rain fell 'from 12 noon' but omit that the rain began as light rain in the outskirts at 12 noon and became heavy at 1 pm, a detail mixed or missing.; fact-check: The reel_script omits that the rain was continuous for 3 hours and the drizzle continued afterwards only partially; the article's key context that rain continued for several days under a low-pressure area is missing.; fact-check: The slide 'என்ன பாதிப்பு?' lists 'பொதுமக்கள், விவசாயிகள் மகிழ்ச்சி அடைந்தனர்' (people and farmers were happy), which is a reaction, not a damage/impact, mislabeling the fact.; fact-check: The caption says the Chennai-area weather centre linkage 'தமிழகத்தில் கனமழை நீடிப்பதாக வானிலை ஆய்வு மையம் தெரிவித்துள்ளது' correctly reflects the article, but the caption also says 'Trichy news' in English as a hashtag-line; this is acceptable. However, the caption's first line says 'திருச்சி நகரில்' while the body says 'திருச்சி மாவட்டத்தில்', an inconsistency in location scope.",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 5 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/a0f6f8e7455fee23.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/f604f3a5fad3fdd4.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/9bd477c7b3159b4f.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "திருச்சி: குடியிருப்புப் பகுதிக்குள் புகுந்த 10 அடி மலைப்பாம்பு வனத்துறையினர் மீட்பு",
-   "english_headline": "10-foot python enters residential area near Duvarankurichi, forest department rescues it",
-   "category": "Weather & Agriculture",
-   "location": "Thuvarankurichi, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "வனவிலங்கு",
-    "loc": "துவரங்குறிச்சி",
-    "hl1": "துவரங்குறிச்சியில் மலைப்பாம்பு மீட்பு",
-    "hl2": "10 அடி நீள பாம்பு பிடிபட்டது",
-    "slides": [
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "குடியிருப்புப் பகுதிக்குள் <b>10 அடி</b> மலைப்பாம்பு புகுந்தது",
-       "தெத்தூர் அரசு தொடக்கப்பள்ளி அருகில் நடந்தது",
-       "மக்கள் அலறியடித்து ஓடினர்"
-      ]
-     },
-     {
-      "title": "எப்படி மீட்டனர்?",
-      "lines": [
-       "வனத்துறையினர் பொதுமக்கள் உதவியுடன் பிடித்தனர்",
-       "யாருக்கும் பாதிப்பு இல்லாமல் சாக்குப்பையில் அடைத்தனர்",
-       "நீண்ட நேரப் போராட்டத்திற்குப் பிறகு மீட்பு"
-      ]
-     },
-     {
-      "title": "என்ன ஆனது?",
-      "lines": [
-       "பாம்பு அருகிலுள்ள அடர்ந்த வனப்பகுதியில் விடப்பட்டது",
-       "சிறிது நேரம் அப்பகுதியில் பரபரப்பு நிலவியது",
-       "இன்று (வெள்ளிக்கிழமை) நடந்த சம்பவம்"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "துவரங்குறிச்சி அருகே குடியிருப்புப் பகுதிக்குள் 10 அடி நீள மலைப்பாம்பு புகுந்தது. இன்று வெள்ளிக்கிழமை தெத்தூர் அரசு தொடக்கப்பள்ளி அருகில் இந்தச் சம்பவம் நடந்தது. இதைப் பார்த்த மக்கள் அதிர்ச்சியடைந்து அலறியடித்து ஓடினர். பொதுமக்கள் தகவல் கொடுத்ததை அடுத்து வனத்துறையினர் விரைந்து வந்தனர். நீண்ட நேரப் போராட்டத்திற்குப் பிறகு, யாருக்கும் பாதிப்பு இல்லாமல் பாம்பை வனத்துறையினர் பிடித்தனர். மீட்கப்பட்ட பாம்பு அருகிலுள்ள அடர்ந்த வனப்பகுதியில் பாதுகாப்பாக விடப்பட்டது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 துவரங்குறிச்சி அருகே குடியிருப்புக்குள் புகுந்த 10 அடி மலைப்பாம்பு மீட்பு\n\n📰 முழு விவரம்:\nதுவரங்குறிச்சி அருகே குடியிருப்புப் பகுதிக்குள் சுமார் 10 அடி நீள மலைப்பாம்பு புகுந்தது. இன்று (வெள்ளிக்கிழமை) தெத்தூர் அரசு தொடக்கப்பள்ளி அருகில் உள்ள குடியிருப்புப் பகுதியில் இந்தச் சம்பவம் நடந்தது. இதைப் பார்த்த அப்பகுதி மக்கள் அதிர்ச்சியடைந்து அலறியடித்து ஓடினர். பொதுமக்கள் துவரங்குறிச்சி வனத்துறை மற்றும் தீயணைப்புத் துறையினருக்குத் தகவல் கொடுத்தனர். வனத்துறையினர் பொதுமக்கள் உதவியுடன் பாம்பைப் பிடித்தனர். நீண்ட நேரப் போராட்டத்திற்குப் பிறகு, யாருக்கும் பாதிப்பு ஏற்படாத வகையில் பாம்பு சாக்குப்பையில் அடைக்கப்பட்டது. பின்னர் அருகிலுள்ள அடர்ந்த வனப்பகுதியில் பாதுகாப்பாக விடப்பட்டது. இந்தச் சம்பவத்தால் அப்பகுதியில் சிறிது நேரம் பரபரப்பு நிலவியது.\n\nPython in Thuvarankurichi residential area rescued | Trichy news\n📍 துவரங்குறிச்சி, திருச்சி மாவட்டம் | 27 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Thuvarankurichi",
-   "prompts": "Forest department staff in green uniform kneel on a dirt lane of a village residential area on the forest edge near Thuvarankurichi in Trichy district, carefully holding a long, roughly 10-foot python with gloved hands while the snake coils around one of their arms. Behind them, a row of simple brick houses with tiled and tin roofs lines the lane, and a government primary school building stands nearby. A few local residents in shirts, veshti and sarees watch from a safe distance, some slightly blurred, seen from behind or far away. A forest department vehicle is parked at the side of the lane. It is daytime, Friday, under bright natural light with a clear sky. Shot at eye level with a 35 mm lens, wide enough to show the village lane, the school and the surrounding dry scrub and hills. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up detail of a large, heavy-bodied python with patterned brown and cream scales being gently lifted by a forest guard's gloved hands and pushed into an open gunny sack lying on dry earth in a village lane near Thuvarankurichi, Trichy district. The snake's long body curls over the edge of the sack, and the rough brown fabric and dusty ground are clearly visible. Blurred residential walls and a tiled roof sit in the background, with a few local people far off at the edge of the frame. Daylight on a Friday afternoon, soft natural light. Shot at a low angle with a 35 mm lens, focused on the snake and the sack. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dailythanthi.com/news/tamilnadu/trichy-10-foot-long-python-enters-residential-area-forest-department-rescues-it",
-   "published": "2026-11-27T06:42:27Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', which is not part of the Tamil article and is an added detail outside the Tamil text.",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/7a2523b39f1fbb5f.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/266badbb7dade629.jpg"
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/b377cad9f371517b.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/c56f7ada0d0aab21.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/5c1e44e59e473b00.jpg"
    ]
   }
  ]
