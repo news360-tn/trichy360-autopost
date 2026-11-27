@@ -166,6 +166,7 @@ THEMES = {      # name1: (dark, light-dark, text on dark, soft text on dark, ras
     "சேலம்": ("#2C1403", "#8C4511", "#F3E1D1", "#E7CEB9", "linear-gradient(140deg,#FFF3E8 0%,#F5D7BC 30%,#E6B48A 55%,#F8E1CD 75%,#D19A6A 100%)"),
     "திருச்சி": ("#380522", "#A5175F", "#F4D7E7", "#EAC3D8", "linear-gradient(140deg,#FFEFF6 0%,#F7CDE1 30%,#EDA3C6 55%,#FADCEA 75%,#DB80AC 100%)"),
 }
+THEMES["கோயம்புத்தூர்"] = THEMES["கோவை"]      # the rasipalan names the Coimbatore page in full
 _BASE = ("#3A070B", "#8E1218", "#F0DADB", "#E3C9CB")
 
 

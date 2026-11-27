@@ -15,7 +15,7 @@ def strip_colours(h):
 
 
 def test_every_page_has_its_own_colour():
-    darks = [t[0] for t in D.THEMES.values()]
+    darks = [t[0] for k, t in D.THEMES.items() if k != "கோயம்புத்தூர்"]      # the same page as கோவை
     assert len(set(darks)) == len(darks)
     for name in ("திருப்பூர்", "கோவை", "ஈரோடு", "கரூர்", "நாமக்கல்", "இராசிபுரம்", "சேலம்", "திருச்சி"):
         assert name in D.THEMES
@@ -31,3 +31,14 @@ def test_only_colours_change():
 
 def test_unknown_page_keeps_maroon():
     assert D.themed(PAGE, {"name1": "x"}) == PAGE
+
+
+def test_rasipalan_pages_have_a_theme():      # rasi_daily names a page by its brand ('கோயம்புத்தூர் 360'), the gold reel by name1 ('கோவை')
+    import re as _re
+    s = (ROOT / "rasipalan" / "rasi_daily.py").read_text(encoding="utf-8")
+    for b in _re.findall(r'"brand":\s*"([^"]+)"', s):
+        assert b.replace(" 360", "").strip() in D.THEMES, b
+    sys.path.insert(0, str(ROOT / "goldrate"))
+    import gold_daily
+    for pg in gold_daily.PAGES.values():
+        assert pg["name1"] in D.THEMES, pg["name1"]
