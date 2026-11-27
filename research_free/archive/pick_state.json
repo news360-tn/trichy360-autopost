@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-27T16:25:55.699861+05:30",
+ "last_end": "2026-11-27T16:34:32.488190+05:30",
  "pool": {
   "C796575d": {
    "id": "C796575d",
@@ -14,6 +14,18 @@
    "listed_at": "2026-11-27T12:29:07.021897+05:30",
    "picked_at": "2026-11-27T12:32:38.359620+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
+  },
+  "C022b32c": {
+   "id": "C022b32c",
+   "url": "https://www.thanthitv.com/amp/story/news/tamilnadu/tanker-truck-accident-on-trichy-chennai-highway",
+   "title": "Road Accident | TN Police | திருச்சி - சென்னை நெடுஞ்சாலையில் டேங்கர் லாரி விபத்து",
+   "summary": "உளுந்தூர்பேட்டை விபத்து: டேங்கர் லாரி கவிழ்ந்து 3 கிமீ போக்குவரத்து நெரிசல். Tanker Lorry Accident: Traffic jam stretches 3 km near Ulundurpet.",
+   "source": "தந்தி டிவி",
+   "published": "",
+   "category": "விபத்து",
+   "score": 9.74,
+   "power_cut": false,
+   "listed_at": "2026-11-27T16:34:32.488190+05:30"
   }
  },
  "rounds": {
@@ -375,21 +387,23 @@
   },
   "2026-11-27_16": {
    "window": [
-    "2026-11-27T12:29:07.021897+05:30",
-    "2026-11-27T16:25:55.699861+05:30"
+    "2026-11-27T16:25:55.699861+05:30",
+    "2026-11-27T16:34:32.488190+05:30"
    ],
-   "ids": [],
+   "ids": [
+    "C022b32c"
+   ],
    "sent": false,
-   "deadline": "2026-11-27T17:25:55.699861+05:30",
+   "deadline": "2026-11-27T17:34:32.488190+05:30",
    "decided": null,
    "written": []
   }
  },
  "retry": {
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/karthigai-lamp-at-trichy-hill-fort/4385383": {
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/gambling-accused-files-police-complaint/4380968": {
    "it": {
-    "key": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/karthigai-lamp-at-trichy-hill-fort/4385383",
-    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/karthigai-lamp-at-trichy-hill-fort/4385383",
+    "key": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/gambling-accused-files-police-complaint/4380968",
+    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/gambling-accused-files-police-complaint/4380968",
     "title": "",
     "source": "தினமலர்",
     "published": "",
@@ -397,12 +411,12 @@
     "query": "district list",
     "snippet": ""
    },
-   "first": "2026-11-27T16:25:55.699861+05:30"
+   "first": "2026-11-27T16:34:32.488190+05:30"
   },
-  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/rs-gold-worth-2-crores-smuggled-youth-arrested/4383642": {
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/couple-sold-ration-rice-to-kerala-set-up-new-factory-luxury-house/4380890": {
    "it": {
-    "key": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/rs-gold-worth-2-crores-smuggled-youth-arrested/4383642",
-    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/rs-gold-worth-2-crores-smuggled-youth-arrested/4383642",
+    "key": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/couple-sold-ration-rice-to-kerala-set-up-new-factory-luxury-house/4380890",
+    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/couple-sold-ration-rice-to-kerala-set-up-new-factory-luxury-house/4380890",
     "title": "",
     "source": "தினமலர்",
     "published": "",
@@ -410,7 +424,7 @@
     "query": "district list",
     "snippet": ""
    },
-   "first": "2026-11-27T16:25:55.699861+05:30"
+   "first": "2026-11-27T16:34:32.488190+05:30"
   }
  },
  "seen": {
@@ -533,17 +547,17 @@
   "Cdbe33ea": "2026-11-27T12:29 already posted",
   "C936cfee": "2026-11-27T12:29 published before this window",
   "Cc42c100": "2026-11-27T12:29 already posted",
-  "C276447f": "2026-11-27T12:29 could not open (HTTPSConnectionPool(host",
+  "C276447f": "2026-11-27T12:29 already posted",
   "Ce8cf169": "2026-11-27T12:29 already posted",
-  "C2be9113": "2026-11-27T12:29 could not open (HTTPSConnectionPool(host",
+  "C2be9113": "2026-11-27T12:29 published before this window",
   "C9bbb80e": "2026-11-27T12:29 already posted",
   "Cff2ab8a": "2026-11-27T12:29 same event already posted",
   "Cca79a79": "2026-11-27T12:29 already posted",
   "Cf3f4d6e": "2026-11-27T12:29 same event already posted",
   "C35ddda5": "2026-11-27T12:29 published before this window",
   "C43cd14e": "2026-11-27T12:29 published before this window",
-  "C4819095": "2026-11-27T12:29 already posted",
-  "C791dfc1": "2026-11-27T12:29 not Trichy district",
+  "C4819095": "2026-11-27T12:29 could not open (HTTPSConnectionPool(host",
+  "C791dfc1": "2026-11-27T12:29 could not open (HTTPSConnectionPool(host",
   "Ce018ad6": "2026-11-27T12:29 already posted",
   "Ca82de82": "2026-11-27T12:29 already posted",
   "C11d64a5": "2026-11-27T12:29 already posted",
@@ -723,6 +737,84 @@
   "C5d7a9b6": "2026-11-27T16:25 not Trichy district",
   "C8b6f273": "2026-11-27T16:25 not Trichy district",
   "C67f1a03": "2026-11-27T16:25 not Trichy district",
-  "C35ee8bb": "2026-11-27T16:25 not Trichy district"
+  "C35ee8bb": "2026-11-27T16:25 not Trichy district",
+  "G059aacbaca": "2026-11-27T16:34 D",
+  "G791007f427": "2026-11-27T16:34 D",
+  "G13df4f07e5": "2026-11-27T16:34 D",
+  "Gf8dc269a8f": "2026-11-27T16:34 D",
+  "G19dacb1009": "2026-11-27T16:34 D",
+  "G66aa752ce8": "2026-11-27T16:34 D",
+  "G9dfc180b0f": "2026-11-27T16:34 D",
+  "G43548932a9": "2026-11-27T16:34 D",
+  "Gf4b99f5ff5": "2026-11-27T16:34 D",
+  "Geea531d8a7": "2026-11-27T16:34 D",
+  "Gd4d418316d": "2026-11-27T16:34 D",
+  "G7d48694ac6": "2026-11-27T16:34 D",
+  "G8ee11dbbe5": "2026-11-27T16:34 D",
+  "G0ddecd95ae": "2026-11-27T16:34 D",
+  "G75302880da": "2026-11-27T16:34 D",
+  "Gb5e4960ed7": "2026-11-27T16:34 D",
+  "Gdaaac7a3c6": "2026-11-27T16:34 D",
+  "G80b28e448f": "2026-11-27T16:34 D",
+  "G4ec4c8054a": "2026-11-27T16:34 D",
+  "Gd99a361266": "2026-11-27T16:34 D",
+  "G1e43a2f8ee": "2026-11-27T16:34 D",
+  "G60a23b04c6": "2026-11-27T16:34 D",
+  "G18c9066f9a": "2026-11-27T16:34 D",
+  "G305334f21e": "2026-11-27T16:34 D",
+  "G487732c980": "2026-11-27T16:34 D",
+  "Gc1744cac73": "2026-11-27T16:34 D",
+  "G90abf09706": "2026-11-27T16:34 D",
+  "G023c1fd438": "2026-11-27T16:34 D",
+  "G11560abc62": "2026-11-27T16:34 D",
+  "G044e5d053c": "2026-11-27T16:34 D",
+  "Gbd8f153b71": "2026-11-27T16:34 D",
+  "Gb867751fa1": "2026-11-27T16:34 D",
+  "G1286228480": "2026-11-27T16:34 D",
+  "Gafee850f21": "2026-11-27T16:34 D",
+  "Gc5cf3ddcfd": "2026-11-27T16:34 D",
+  "Ga637611f56": "2026-11-27T16:34 D",
+  "G1e4a51b528": "2026-11-27T16:34 D",
+  "G99aa4b8e41": "2026-11-27T16:34 D",
+  "Gb0fa890612": "2026-11-27T16:34 D",
+  "G9c417eb605": "2026-11-27T16:34 D",
+  "G282521d010": "2026-11-27T16:34 D",
+  "G446482b8dd": "2026-11-27T16:34 D",
+  "Gca8128d098": "2026-11-27T16:34 D",
+  "G4c4bb98a93": "2026-11-27T16:34 D",
+  "Ca55e483": "2026-11-27T16:34 not Trichy district",
+  "C2764568": "2026-11-27T16:34 not Trichy district",
+  "Caba9641": "2026-11-27T16:34 not Trichy district",
+  "C6255914": "2026-11-27T16:34 not Trichy district",
+  "Cd52ba50": "2026-11-27T16:34 not Trichy district",
+  "C3febb1b": "2026-11-27T16:34 not Trichy district",
+  "Cbebd888": "2026-11-27T16:34 not Trichy district",
+  "Ceba878c": "2026-11-27T16:34 not Trichy district",
+  "C87fd998": "2026-11-27T16:34 not Trichy district",
+  "Cee2e8af": "2026-11-27T16:34 not Trichy district",
+  "C46f97a9": "2026-11-27T16:34 already posted",
+  "C17d27e4": "2026-11-27T16:34 not Trichy district",
+  "C541ff34": "2026-11-27T16:34 not Trichy district",
+  "C019d3b0": "2026-11-27T16:34 not Trichy district",
+  "C43d2160": "2026-11-27T16:34 already posted",
+  "C83c9cb4": "2026-11-27T16:34 not Trichy district",
+  "C745f8e4": "2026-11-27T16:34 not Trichy district",
+  "Ce45aea5": "2026-11-27T16:34 not Trichy district",
+  "C44a5aaa": "2026-11-27T16:34 not Trichy district",
+  "C1f76eb0": "2026-11-27T16:34 not Trichy district",
+  "C741fbcc": "2026-11-27T16:34 not Trichy district",
+  "Cf025d3b": "2026-11-27T16:34 not Trichy district",
+  "C63e363f": "2026-11-27T16:34 not Trichy district",
+  "Cca3b23e": "2026-11-27T16:34 not Trichy district",
+  "C8bfaef3": "2026-11-27T16:34 not Trichy district",
+  "C7df9aa4": "2026-11-27T16:34 not Trichy district",
+  "C9d62e02": "2026-11-27T16:34 not Trichy district",
+  "Cd839106": "2026-11-27T16:34 not Trichy district",
+  "Cf9faef2": "2026-11-27T16:34 not Trichy district",
+  "C96e757b": "2026-11-27T16:34 not Trichy district",
+  "Cbd9fdb1": "2026-11-27T16:34 not Trichy district",
+  "Cd826c8f": "2026-11-27T16:34 not Trichy district",
+  "Cd1f78b4": "2026-11-27T16:34 not Trichy district",
+  "C1d13d2b": "2026-11-27T16:34 already posted"
  }
 }
