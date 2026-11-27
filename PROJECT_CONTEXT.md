@@ -83,6 +83,8 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-27 | `b05e586` | Gold rate and rasipalan reels: each page its own colour theme |
+| 2026-11-27 | `7d2dc33` | stories shared / Instagram pause |
 | 2026-11-27 | `d963214` | Power cuts are never missed: held notices are rewritten at once |
 | 2026-11-27 | `d09f503` | stories shared / Instagram pause |
 | 2026-11-27 | `04893ac` | stories shared / Instagram pause |
@@ -111,6 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-27 | `d509134` | stories shared / Instagram pause |
 | 2026-11-27 | `d12b0b8` | Trichy political reels: real party flags and leader photos; party short forms read letter by letter |
 | 2026-11-27 | `5b2c58f` | stories shared / Instagram pause |
-| 2026-11-27 | `64dfbc0` | stories shared / Instagram pause |
-| 2026-11-27 | `b560016` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
