@@ -3,118 +3,506 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/couple-charged-with-rs-50-lakh-fraud-for-selling-house/4387287",
-  "candidate filter: collected=1",
-  "to write: 1 Trichy district candidates (max 1 stories)",
-  "round: top 1 of 1 candidates",
-  "candidates waiting: 1 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-district-news-tric",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/26/car-overturns-in-accident4-ayyappa-devotees-injured",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/26/government-bus-collides-with-military-vehicletwo-people-including-a-soldier-injured",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/26/artificial-intelligence-based-curriculumstate-level-workshop-begins-in-trichy",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/26/constitution-day-observed-at-the-government-school-in-posampatti",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/26/ensure-that-government-schemes-reach-the-people-trichy-mps-advice-to-officials",
+  "manual link added: https://www.vikatan.com/business/namma-ooru-ambani-series-39-trichy-madheswaran",
+  "candidate filter: collected=6",
+  "to write: 6 Trichy district candidates (max 6 stories)",
+  "round: top 6 of 6 candidates",
+  "candidates waiting: 6 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.vikatan.com/business/namma-ooru-ambani-series-39",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 77 min",
-  "filed: 1 Trichy district stories (target 1), reels only",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 7})",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 9})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 12})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 14})",
+  "candidate loop ended: left 0, tried={'N': 6}, done={'N': 6}, time left 77 min",
+  "filed: 6 Trichy district stories (target 6), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":6,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (9s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
-  "ok groq/openai/gpt-oss-120b (4s)",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "dead for this round: gemini/gemini-3-flash-preview",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok gemini/gemini-3-flash-preview (10s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok groq/qwen/qwen3.8-27b (3s)",
+  "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "ok groq/openai/gpt-oss-120b (4s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "ok anthropic/claude-haiku-5-5",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "switching away from groq/openai/gpt-oss-120b for 10 min",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/qwen/qwen3.8-27b (0s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok groq/qwen/qwen3.8-27b (2s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "ok anthropic/claude-haiku-5-5",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/qwen/qwen3.8-27b (1s)",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "ok groq/qwen/qwen3.8-27b (3s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/qwen/qwen3.8-27b (0s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "வீட்டை விற்பதாக ரூ.50 லட்சம் மோசடி: திருச்சி தம்பதி மீது புகார்",
-   "english_headline": "Couple accused of defrauding buyers of Rs 50 lakh by falsely offering to sell house in Trichy",
-   "category": "Crime & Safety",
-   "location": "Trichy city, Trichy district",
+   "tamil_headline": "அயிலாப்பேட்டை மாதேஸ்வரன்: வீட்டிலிருந்தே மாதம் ரூ.3 லட்சம் டர்ன்ஓவர்",
+   "english_headline": "Ayilapettai's Matheswaran earns Rs 3 lakh monthly turnover from home after quitting a Rs 60,000 engineering job",
+   "category": "Business & Prices",
+   "location": "Ayilapettai, Trichy district",
    "importance": "Medium",
    "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "மோசடி",
-    "loc": "திருச்சி",
-    "hl1": "வீடு விற்பதாக ரூ.50 லட்சம் மோசடி",
-    "hl2": "தம்பதி மீது புகார்",
+    "cat": "வெற்றிக் கதை",
+    "loc": "அயிலாப்பேட்டை",
+    "hl1": "அயிலாப்பேட்டை: வேலையை விட்டு வெற்றி",
+    "hl2": "மாதம் ரூ.3 லட்சம் டர்ன்ஓவர்",
     "slides": [
      {
-      "title": "என்ன நடந்தது?",
+      "title": "யார் இவர்?",
       "lines": [
-       "திருச்சியில் வீடு விற்பதாக <b>ரூ.50 லட்சம்</b> மோசடி",
-       "உமேஷ், கஸ்தூரி தம்பதி மீது புகார்",
-       "பலரிடம் அட்வான்ஸ் வாங்கி ஏமாற்றியதாக புகார்"
+       "அயிலாப்பேட்டையைச் சேர்ந்த மாதேஸ்வரன்",
+       "முன்பு மெக்கானிக்கல் இன்ஜினீயர்",
+       "மாதம் <b>ரூ.60,000</b> சம்பள வேலையை விட்டார்"
       ]
      },
      {
-      "title": "எப்படி ஏமாற்றினர்?",
+      "title": "புதிய தொழில்",
       "lines": [
-       "ஒரே வீட்டை பலருக்குக் காட்டினர்",
-       "<b>ரூ.5 லட்சம் முதல் ரூ.10 லட்சம்</b> வரை அட்வான்ஸ் வாங்கினர்",
-       "யாருக்கும் பத்திரப்பதிவு செய்து தரவில்லை"
+       "பாரம்பர்ய அரிசி, அவல், பொறி, நூடுல்ஸ் விற்பனை",
+       "<b>18 வகை</b> உணவுப் பொருள்கள் தயாரிப்பு",
+       "வாடிக்கையாளர்கள் <b>60</b>-க்கும் மேல்"
       ]
      },
      {
-      "title": "இப்போது என்ன?",
+      "title": "வருமானம்",
       "lines": [
-       "பணம் கொடுத்தவர்கள் புகார் அளித்தனர்",
-       "திருச்சி போலீஸ் கமிஷனரிடம் புகார்",
-       "குற்றப்பிரிவு போலீசார் விசாரணை நடத்துகின்றனர்"
+       "மாதம் <b>ரூ.3 லட்சம்</b> வரை டர்ன்ஓவர்",
+       "ஆண்டுக்கு <b>28 டன்</b> அரிசி, அவல் விற்பனை",
+       "நெல் ஏற்றுமதியும் செய்தார்"
+      ]
+     },
+     {
+      "title": "அவரின் அறிவுரை",
+      "lines": [
+       "வீட்டில் உள்ளவர்கள் செய்யும் தொழிலை",
+       "முயன்றால் முடியாதது எதுவுமில்லை"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சியில் வீட்டை விற்பதாகக் கூறி ரூ.50 லட்சம் மோசடி நடந்துள்ளது. கே.கே. நகரைச் சேர்ந்த உமேஷ் (40 வயது) மற்றும் அவரது மனைவி கஸ்தூரி (38 வயது) மீது புகார் அளிக்கப்பட்டுள்ளது. உமேஷ் திருவெறும்பூரில் மத்திய படைக்கலன் தொழிற்சாலையில் பணியாற்றுகிறார். இந்நிலையில், தங்கள் வீட்டை விற்பதாகக் கூறி, ஒரே வீட்டை பலருக்குக் காட்டி ரூ.5 லட்சம் முதல் ரூ.10 லட்சம் வரை அட்வான்ஸ் வாங்கியுள்ளனர். ஆனால், யாருக்கும் பத்திரப்பதிவு செய்து தரவில்லை. இதையடுத்து, பணம் கொடுத்தவர்கள் தேடிச் சென்றபோது, உமேஷ் குடும்பத்துடன் தலைமறைவானது தெரியவந்தது. பணம் இழந்த லெனின், வீரமணி ஆகியோர் திருச்சி போலீஸ் கமிஷனரிடம் நேற்று புகார் அளித்தனர். தற்போது குற்றப்பிரிவு போலீசார் விசாரித்து வருகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சியில் வீட்டை விற்பதாக ரூ.50 லட்சம் மோசடி\n\n📰 முழு விவரம்:\nதிருச்சி கே.கே. நகரைச் சேர்ந்த உமேஷ் (40 வயது) மற்றும் அவரது மனைவி கஸ்தூரி (38 வயது) மீது ரூ.50 லட்சம் மோசடிப் புகார் அளிக்கப்பட்டுள்ளது.\nதங்கள் வீட்டை விற்பதாகக் கூறி, ஒரே வீட்டை பலருக்குக் காட்டி ரூ.5 லட்சம் முதல் ரூ.10 லட்சம் வரை அட்வான்ஸ் வாங்கியுள்ளனர்.\nயாருக்கும் பத்திரப்பதிவு செய்து தரவில்லை. பணம் கொடுத்தவர்கள் தேடிச் சென்றபோது, குடும்பத்துடன் உமேஷ் தலைமறைவானது தெரியவந்தது.\nபணம் இழந்த திருச்சியைச் சேர்ந்த லெனின், வீரமணி ஆகியோர் திருச்சி போலீஸ் கமிஷனரிடம் நேற்று புகார் அளித்தனர். குற்றப்பிரிவு போலீசார் விசாரித்து வருகின்றனர்.\n\nTrichy house sale fraud Rs 50 lakh | Trichy news\n📍 திருச்சி மாவட்டம் | 26 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Trichy மோசடி",
-   "prompts": "A pair of Tamil Nadu police in khaki stand at the entrance of a Trichy police commissioner's office while two men in shirts and trousers, seen from behind, hand over a folder of papers at a front counter. The setting is a government office in Trichy city with a tiled floor, a wooden bench and a fan hanging from a high ceiling, with a few other visitors waiting in the background. The stack of papers and cash-deposit receipts in the folder hints at the complaint of a Rs 50 lakh cheating case involving a house that was never registered. Daylight comes through the open doorway. Camera at eye level, 35 mm, wide enough to show the office, the counter and the doorway, faces turned away or blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a stack of loose sale-agreement papers and a few bundles of cash in brown envelopes resting on a wooden table, with a pen laid across the top sheet, beside a blurred glimpse of a khaki police sleeve. The papers show no readable text, only the dense layout of forms, and the scene reflects a house advance-payment fraud in Trichy city where several buyers paid Rs 5 to 10 lakh each. Soft daylight from a side window, shallow depth of field, camera slightly high, 35 mm, focus on the papers and cash bundles. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/couple-charged-with-rs-50-lakh-fraud-for-selling-house/4387287",
-   "published": "2026-11-26T22:23:03+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b) - NOT CLEAN, held from posting - problems: hl1 (the first headline on screen) must name the place 'திருச்சி', e.g. 'திருச்சி: ...' or 'திருச்சி-இல் ...' - viewers share news of their own area",
-   "note": "free-model draft anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b, 13 attempt(s), 1 validator problem(s)",
+   "reel_script": "அயிலாப்பேட்டையைச் சேர்ந்த மாதேஸ்வரன் மாதம் ரூ.3 லட்சம் வரை டர்ன்ஓவர் செய்கிறார். இவர் மெக்கானிக்கல் இன்ஜினீயர். மாதம் ரூ.60,000 சம்பளம் தந்த வேலையை விட்டுவிட்டு, சொந்தத் தொழிலில் இறங்கினார். பாரம்பர்ய அரிசி, அவல், பொறி, நூடுல்ஸ், சாக்லேட் என 18 வகை உணவுப் பொருள்களைத் தயாரித்து விற்கிறார். ஆண்டுக்கு 28 டன் அரிசி, அவல் விற்பனை செய்கிறார். வீட்டில் உள்ளவர்கள் செய்யும் தொழிலை ஸ்மார்ட்டாகச் செய்தால் வெற்றி நிச்சயம் என்கிறார் மாதேஸ்வரன். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "💼 அயிலாப்பேட்டை மாதேஸ்வரன்: வேலையை விட்டு வீட்டிலிருந்தே மாதம் ரூ.3 லட்சம் டர்ன்ஓவர்\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம், கோப்பு-அயிலாப்பேட்டையைச் சேர்ந்த மாதேஸ்வரன் ஒரு மெக்கானிக்கல் இன்ஜினீயர். மாதம் ரூ.60,000 சம்பளம் தந்த வேலையை விட்டுவிட்டு, பாரம்பர்ய அரிசி விற்பனை, பொறி, நூடுல்ஸ், சாக்லேட் என 18 வகை உணவுப் பொருள்களை விற்பனை செய்து வருகிறார். மாதம் ரூ.3 லட்சம் வரை டர்ன்ஓவர் செய்கிறார்.\nஅவரின் தந்தை தர்மராஜன் விவசாயி. 2015-ல் புனேவில் தனியார் நிறுவனத்தில் வேலைக்குச் சேர்ந்தார். 2020-ல் தந்தைக்கு விபத்து ஏற்பட்டதால் ஊருக்குத் திரும்பினார். மாட்டுப்பண்ணை, மீன் பண்ணை முயற்சிகள் பின்னர் கைவிடப்பட்டன. 10 மாடுகளை வைத்துப் பால் வியாபாரம் செய்தார்; அந்தப் பாலை விற்று கடன் தவணை மற்றும் வீட்டுச் செலவுகளைப் பார்த்துக்கொண்டார்.\n2021-ல் 12 ஏக்கர் நிலத்தைக் குத்தகைக்கு எடுத்து இயற்கை முறையில் கருப்பு கவுனி நெல் பயிரிட்டார். 40 ஏக்கரில் விளைவித்து ரூ.17 லட்சத்துக்கு விற்றார். அடுத்த ஆண்டு காவிரியில் தண்ணீர் வராததால் சிரமம் ஏற்பட்டது. இயற்கை அங்காடிகளில் விற்று கடனுக்கான தவணையை அடைத்தார். திருச்சி உழவர் சந்தையில் ஒன்றரை ஆண்டுகள் குருணை, மஞ்சள் தூள், அவல் விற்றார்.\nகருப்பு கவுனி குருணையில் கஞ்சி மாவு, புட்டு மாவு, இடியாப்ப மாவு, நூடுல்ஸ் தயாரித்தார். யூனியன் பேங்க் மூலம் கடனுதவி பெற்று இயந்திரங்கள் வாங்கினார். வங்கியில் ரூ.2 லட்சம் மானியத்துடன் ரூ.5 லட்சம் கடன் கிடைத்தது. 2024-ல் 12 ஏக்கரில் நெல் பயிரிட்டு 8 டன் அமெரிக்கா, கனடாவுக்கு ஏற்றுமதி செய்தார். 2025-ல் 18 டன் நெல் விற்றார்.\nதற்போது 18 வகை பொருள்கள் தயாரிக்கிறார். 60-க்கும் மேற்பட்ட ரெகுலர் வாடிக்கையாளர்கள் உள்ளனர். \"முயன்றால் முடியாதது ஒன்றுமில்லை\" என்கிறார் மாதேஸ்வரன்.\n\nAyilapettai Matheswaran quits job, earns Rs 3 lakh monthly | Trichy news\n📍 அயிலாப்பேட்டை, திருச்சி மாவட்டம் | 26 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\nஇதை Share செய்யுங்கள்\n\n#Trichy360 #Trichy #Ayilapettai #TrichyNews #திருச்சி",
+   "prompts": "Matheswaran, a man in a plain shirt and trousers, stands in the packing area of his home in Ayilapettai, Trichy district, arranging sealed packets of traditional black kavuni rice, aval and snacks on a wooden table. Behind him are stacked white gunny sacks of rice, the sacks being the key sign of his home-based food business. The setting is a simple village house with a tiled or concrete floor, a courtyard visible through an open doorway, and a few cows tied in a shed at the back. It is bright daylight with soft natural light from the open doorway. Shot at eye level from slightly to the side, 35 mm, wide enough to show the packing space, the stacked sacks and the products on the table. The man is seen from the side, facing the products, with no readable text or labels visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up detail of neatly stacked white gunny sacks of black kavuni rice on a floor in a home packing area, with a few open bowls of aval and a row of sealed snack packets beside them. The sacks are plain, with no readable print or logos, but their sturdy weave and stacked arrangement show bulk rice sales. A wooden table or a low stool holds the snack packets and bowls. Soft daylight falls from one side, creating a warm, natural texture. Shot slightly from above, 35 mm, focused on the sacks and packets with a soft blurred background of a house interior and a courtyard. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.vikatan.com/business/namma-ooru-ambani-series-39-trichy-madheswaran",
+   "published": "2026-11-26T22:29:59Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 7 ('வீட்டில் இருந்த 10 மாடுகளிலிருந்து கிடைத்த பாலை விற்று, அந்த')",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795712650/trichy360/kg8bvfwrkjstr12bsdob.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795712653/trichy360/xeclb6kmhev04nplid68.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795734118/trichy360/evrvmu92x4vdevie4cwt.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795734123/trichy360/adl09eqnxvoiyqruwcbd.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "போசம்பட்டி அரசுப் பள்ளியில் அரசமைப்பு தினம் கடைப்பிடிப்பு",
+   "english_headline": "Constitution Day observed at Bosampatti government school in Trichy district",
+   "category": "Education",
+   "location": "Bosampatti, Trichy district",
+   "importance": "Low",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "கல்வி",
+    "loc": "போசம்பட்டி",
+    "hl1": "போசம்பட்டி பள்ளியில் அரசமைப்பு தினம்",
+    "hl2": "முகப்புரை வாசித்து உறுதிமொழி",
+    "slides": [
+     {
+      "title": "என்ன நிகழ்வு?",
+      "lines": [
+       "போசம்பட்டி அரசு உயர்நிலைப் பள்ளியில் தேசிய அரசமைப்பு தினம்",
+       "வியாழக்கிழமை நடைபெற்றது",
+       "அரசமைப்பு சட்டம் <b>1949 நவம்பர் 26</b> அன்று ஏற்கப்பட்டது"
+      ]
+     },
+     {
+      "title": "நிகழ்ச்சி எப்படி?",
+      "lines": [
+       "ஆசிரியர்கள், மாணவர்கள் அரசமைப்பு சட்ட முகப்புரையை வாசித்தனர்",
+       "அனைவரும் உறுதிமொழி ஏற்றனர்",
+       "சமூக அறிவியல் ஆசிரியர் விஜயஸ்ரீ ஒருங்கிணைத்தார்"
+      ]
+     },
+     {
+      "title": "யார் பங்கேற்றனர்?",
+      "lines": [
+       "தலைமையாசிரியர் எஸ். சற்குணன் கலந்துகொண்டார்",
+       "ஆசிரியர்கள் மற்றும் மாணவர்கள் பங்கேற்றனர்",
+       "பள்ளிக் கல்வித் துறை அறிவுறுத்தலின்படி நடைபெற்றது"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "போசம்பட்டி அரசு உயர்நிலைப் பள்ளியில் வியாழக்கிழமை தேசிய அரசமைப்பு தினம் கடைப்பிடிக்கப்பட்டது. இந்திய அரசமைப்பு சட்டம் 1949 நவம்பர் 26ஆம் தேதி ஏற்கப்பட்டதை நினைவுகூரும் வகையில் இந்த நிகழ்ச்சி நடைபெற்றது. அனைத்துப் பள்ளிகளிலும் அரசமைப்பு சட்ட முகப்புரையை வாசித்து உறுதிமொழி ஏற்க பள்ளிக் கல்வித் துறை அறிவுறுத்தியது. ஆசிரியர்கள், மாணவர்கள் முகப்புரையை வாசித்து உறுதிமொழி ஏற்றனர். தலைமையாசிரியர் எஸ் சற்குணன் உள்ளிட்டோர் கலந்துகொண்டனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🏫 போசம்பட்டி அரசுப் பள்ளியில் அரசமைப்பு தினம் கடைப்பிடிப்பு\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம், போசம்பட்டி அரசு உயர்நிலைப் பள்ளியில் தேசிய அரசமைப்பு தினம் வியாழக்கிழமை கடைப்பிடிக்கப்பட்டது.\nஇந்திய அரசமைப்பு சட்டம் 1949 நவம்பர் 26ஆம் தேதி ஏற்கப்பட்டது. அதை நினைவுகூரும் வகையில் ஆண்டுதோறும் நவம்பர் 26ஆம் தேதி இந்த தினம் கடைப்பிடிக்கப்படுகிறது.\nஅனைத்துப் பள்ளிகளிலும் அரசமைப்பு சட்ட முகப்புரையை வாசித்து உறுதிமொழி ஏற்குமாறு பள்ளிக் கல்வித் துறை அறிவுறுத்தியது.\nஇதன்படி, ஆசிரியர்கள், மாணவர்கள் முகப்புரையை வாசித்து உறுதிமொழி ஏற்றனர். நிகழ்ச்சியை சமூக அறிவியல் ஆசிரியர் விஜயஸ்ரீ ஒருங்கிணைத்தார்.\nதலைமையாசிரியர் எஸ். சற்குணன், ஆசிரியர்கள், மாணவர்கள் கலந்துகொண்டனர்.\n\nConstitution Day observed at Bosampatti govt school, Trichy | Trichy news\n📍 போசம்பட்டி, திருச்சி மாவட்டம் | 26 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Bosampatti #TrichyNews #திருச்சி",
+   "prompts": "Students in school uniforms stand in rows in the school courtyard, facing a raised platform where teachers are positioned. The main action is the collective recitation of the Constitution's preamble, with students holding their heads up in a solemn posture. The place is the open ground of a government high school in Bosampatti, Trichy district, surrounded by typical school buildings with tiled roofs and painted walls. The people include the Principal, the Social Science teacher coordinating the event, and a large group of students, all seen from behind or at a distance to avoid recognizable faces. There are no vehicles in the immediate frame, but the school gate and boundary wall are visible in the background. The time is daytime with bright, natural sunlight casting sharp shadows on the concrete floor. The camera is positioned at eye level, using a 35 mm lens to capture the wide assembly and the formal atmosphere of the civic event. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up view of a teacher's hands holding an open book, specifically the Constitution, while standing at a podium or desk. The focus is on the physical object that signifies the event, with the blurred background showing the school corridor or classroom entrance. The place is inside or just outside the administrative block of the Bosampatti government school. The people are not clearly visible, only the hands and the book, ensuring no faces are shown. The object is a standard hardcover book, representing the legal document being read. The time is daylight, with soft indoor or shaded light illuminating the pages. The camera is slightly high, looking down at the book, using a 35 mm lens to isolate the detail from the busy school environment, emphasizing the importance of the document in the ceremony. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide shot from the school gate looking into the courtyard, showing the full scale of the assembly. Students in uniform are arranged in neat lines, facing the staff on the platform. The place is the Bosampatti government high school, with its distinct architecture and surrounding trees visible. The people include the Principal and teachers on the stage, and the student body in the foreground, all seen from a distance. There are no vehicles, but the school boundary and the road outside are visible at the edges. The time is mid-morning daylight, with clear skies and bright light. The camera is positioned at a slightly elevated angle to capture the entire group and the school setting, using a 35 mm lens to provide context and show the organized nature of the Constitution Day celebration. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/26/constitution-day-observed-at-the-government-school-in-posampatti",
+   "published": "2026-11-26T21:23:20.476Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795734133/trichy360/mj6a5pdgvtiqf7q4onop.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795734136/trichy360/loieioimpe0p08u1p72q.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795734140/trichy360/hea3atnrzhsc7xpgswzn.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "அரசுத் திட்டங்கள் மக்களைச் சென்றடைய வேண்டும்: திருச்சி எம்பி அறிவுரை",
+   "english_headline": "Trichy MP asks officials to ensure government schemes reach people; road safety meeting also held",
+   "category": "Government & Services",
+   "location": "Trichy Collectorate, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "அரசுத் திட்டங்கள்",
+    "loc": "திருச்சி ஆட்சியரகம்",
+    "hl1": "திருச்சியில் அரசுத் ஆய்வுக் கூட்டம்",
+    "hl2": "சாலைப் பாதுகாப்பு",
+    "slides": [
+     {
+      "title": "என்ன கூட்டம்?",
+      "lines": [
+       "திருச்சி மாவட்ட வளர்ச்சி ஒருங்கிணைப்பு",
+       "வியாழக்கிழமை மாலை ஆட்சியரகத்தில் நடைபெற்றது",
+       "தலைமை: திருச்சி எம்.பி. துரை வைகோ"
+      ]
+     },
+     {
+      "title": "அலுவலர்களுக்கு",
+      "lines": [
+       "மத்திய, மாநில அரசுத் திட்டங்கள் மக்களைச் சென்றடைவதை உறுதி",
+       "மக்கள் நலனைக் கருத்தில் கொண்டு பணியாற்ற வேண்டும்",
+       "திட்டப் பணிகளை விரைந்து முடிக்க நடவடிக்கை"
+      ]
+     },
+     {
+      "title": "சாலைப் பாதுகாப்பு",
+      "lines": [
+       "சாலை விபத்துகளைத் தடுக்க எடுக்கப்பட்ட நடவடிக்கைகள் ஆய்வு",
+       "பொதுமக்கள், வாகன ஓட்டிகளுக்கு விழிப்புணர்வு ஏற்படுத்த ஆலோசனை",
+       "நாடாளுமன்றத் தொகுதிக் குழுக் கூட்டம் நடைபெற்றது"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சி ஆட்சியரகத்தில் நடைபெற்ற மாவட்ட கண்காணிப்புக் குழுக் கூட்டத்தில் அரசுத் திட்டங்கள் ஆய்வு செய்யப்பட்டன. திருச்சி நாடாளுமன்ற உறுப்பினர் துரை வைகோ தலைமையில் வியாழக்கிழமை மாலை கூட்டம் நடைபெற்றது. மத்திய, மாநில அரசுத் திட்டங்கள் மக்களைச் சென்றடைவதை அலுவலர்கள் உறுதி செய்ய வேண்டும் என்று அவர் அறிவுறுத்தினார். மக்கள் நலனைக் கருத்தில் கொண்டு அலுவலர்கள் பணியாற்ற வேண்டும் என்றும் கூறினார். இதன் தொடர்ச்சியாக நடைபெற்ற சாலைப் பாதுகாப்புக் கூட்டத்தில் சாலை விபத்துகளைத் தடுக்கும் நடவடிக்கைகள் ஆய்வு செய்யப்பட்டன. பொதுமக்களுக்கும் வாகன ஓட்டிகளுக்கும் விழிப்புணர்வு ஏற்படுத்த ஆலோசனைகள் வழங்கப்பட்டன. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🏛️ அரசுத் திட்டங்கள் மக்களைச் சென்றடைய வேண்டும்: திருச்சி எம்.பி. அறிவுரை\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்ட வளர்ச்சி ஒருங்கிணைப்பு மற்றும் கண்காணிப்புக் குழுக் கூட்டம் வியாழக்கிழமை மாலை ஆட்சியரகத்தில் நடைபெற்றது. திருச்சி எம்.பி. துரை வைகோ தலைமை வகித்தார்; மாவட்ட ஆட்சியர் பிரத்திக் தாயள் முன்னிலை வகித்தார்.\nமத்திய, மாநில அரசுகளின் பல்வேறு துறைத் திட்டப் பணிகள் ஆய்வுக்கு உட்படுத்தப்பட்டன. பணிகளை விரைந்து முடித்து மக்கள் பயன்பாட்டுக்குக் கொண்டுவர எடுக்கப்படும் நடவடிக்கைகள் குறித்தும் கேட்டறியப்பட்டது.\nஅனைத்துத் துறை அலுவலர்களும் அரசுத் திட்டங்கள் பொதுமக்களைச் சென்றடைவதை உறுதி செய்ய வேண்டும் என்று துரை வைகோ அறிவுறுத்தினார்.\nஇதன் தொடர்ச்சியாக நடைபெற்ற சாலைப் பாதுகாப்பு குறித்த நாடாளுமன்றத் தொகுதிக் குழுக் கூட்டத்தில், சாலை விபத்துகளைத் தடுக்கும் நடவடிக்கைகள் குறித்தும், பொதுமக்கள், வாகன ஓட்டிகளுக்கு விழிப்புணர்வு ஏற்படுத்துவது குறித்தும் ஆலோசனைகள் வழங்கப்பட்டன.\nகூட்டத்தில் மாநிலங்களவை உறுப்பினர்கள் ராஜாத்தி (எ) கவிஞர் சல்மா, கிறிஸ்டோபர் திலக், மணப்பாறை எம்எல்ஏ ரா.கதிரவன், நவல்பட்டு எம்எல்ஏ எஸ்.விஜி (திருவெறும்பூர்), மாவட்ட காவல் கண்காணிப்பாளர் டோங்ரே பிரவின் உமேஷ், மாவட்ட வருவாய் அலுவலர் ஆர்.பாலாஜி, கூடுதல் ஆட்சியர் (வளர்ச்சி) த.சுவாதி ஸ்ரீ, திருச்சி மாநகர காவல் துணை ஆணையர் (தலைமையிடம்) பொன்கார்த்திக்குமார் உள்ளிட்டோர் கலந்துகொண்டனர்.\n\nTrichy district review meeting, MP Duraivaiko | Trichy news\n📍 திருச்சி ஆட்சியரகம், திருச்சி மாவட்டம் | 26 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Manapparai",
+   "prompts": "Inside the Trichy District Collectorate conference hall in Trichy city, Tamil Nadu, a long wooden table is set with official name placards, files and papers, and microphones. Officials in shirts and trousers and khaki-uniformed police officers sit in a row, seen from behind a few rows of chairs, with a Tamil Nadu government emblem on the wall (no readable text). Durai Vaiko, the Trichy MP, sits at the centre of the table, seen from behind and slightly blurred, speaking with a microphone in front of him. Ceiling fans and tube lights light the room in the Thursday evening hours. Camera at eye level from the back of the hall, 35 mm, wide enough to show the full table and room, people kept from the front and unrecognisable. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a table in the Trichy District Collectorate meeting hall, showing a stack of government files, papers with printed tables, a glass of water and a microphone resting on a wooden table cloth in front of empty chairs with name placards turned away from camera. Behind the table, out of focus, khaki-uniformed police officers and suited officials sit in the evening indoor light of tube lights and ceiling fans. Shallow depth of field, 35 mm at close range, no readable text on any paper or placard, no faces visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/26/ensure-that-government-schemes-reach-the-people-trichy-mps-advice-to-officials",
+   "published": "2026-11-26T21:20:50.365Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795734147/trichy360/jj8ayq0h3vuuff1one76.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795734180/trichy360/msksqn7zxog61oqp6qxw.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "திருச்சியில் செயற்கை நுண்ணறிவு பாடத் திட்டப் பணிமனை தொடக்கம்",
+   "english_headline": "State-level workshop on AI syllabus begins in Trichy",
+   "category": "Education",
+   "location": "Trichy city, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "கல்வி",
+    "loc": "திருச்சி",
+    "hl1": "திருச்சியில் AI பாடத் திட்டப் பணிமனை",
+    "hl2": "சனிக்கிழமை வரை நடைபெறும்",
+    "slides": [
+     {
+      "title": "என்ன நடைபெறுகிறது?",
+      "lines": [
+       "செயற்கை நுண்ணறிவு பாடத் திட்டப் பணிமனை தொடக்கம்",
+       "புத்தகம் எழுதுவது தொடர்பான மாநில அளவிலான பணிமனை",
+       "திருச்சி தமிழ்நாடு ஹோட்டலில் நடைபெறுகிறது"
+      ]
+     },
+     {
+      "title": "ஏன் இந்தப் பாடம்?",
+      "lines": [
+       "டிஎன்ஸ்பார்க் பாடத் திட்டம் கடந்த ஆண்டு அறிமுகம்",
+       "6 முதல் 12ஆம் வகுப்பு மாணவர்களுக்கானது",
+       "10 முதல் 12ஆம் வகுப்பு வரை கூடுதல் பாடத் திட்டம்"
+      ]
+     },
+     {
+      "title": "யார் பங்கேற்பு?",
+      "lines": [
+       "பல்கலைக்கழகப் பேராசிரியர்கள், ஆசிரியர்கள் பங்கேற்பு",
+       "பல்வேறு மாவட்டங்களைச் சேர்ந்த 30 பேர் கொண்ட குழு",
+       "மாநில கல்வி ஆராய்ச்சி மற்றும் பயிற்சி நிறுவனம் ஏற்பாடு"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சியில் செயற்கை நுண்ணறிவு பாடத் திட்டம் உருவாக்கும் மாநில அளவிலான பணிமனை வியாழக்கிழமை தொடங்கியது. தமிழகத்தில் 6 முதல் 12ஆம் வகுப்பு மாணவர்களுக்கு டிஎன்ஸ்பார்க் பாடத் திட்டம் கடந்த ஆண்டு அறிமுகமானது. இந்தப் பாடத் திட்டத்தில் 10ஆம் வகுப்பு முதல் 12ஆம் வகுப்பு வரை கூடுதல் பாடங்களைச் சேர்க்கும் பணி நடைபெறுகிறது. பல்கலைக்கழகப் பேராசிரியர்கள் மற்றும் பல மாவட்ட ஆசிரியர்கள் என 30 பேர் கொண்ட குழு இதில் ஈடுபட்டுள்ளது. திருச்சி தமிழ்நாடு ஹோட்டலில் நடைபெறும் இந்தப் பணிமனை சனிக்கிழமை வரை நடைபெறும். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🎓 திருச்சியில் செயற்கை நுண்ணறிவு பாடத் திட்டப் பணிமனை தொடக்கம்\n\n📰 முழு விவரம்:\nசெயற்கை நுண்ணறிவு சார்ந்த பாடத் திட்டம் மற்றும் புத்தகம் எழுதுவது தொடர்பான மாநில அளவிலான பணிமனை திருச்சியில் வியாழக்கிழமை தொடங்கியது. தமிழகத்தில் 6 முதல் 12ஆம் வகுப்பு வரை படிக்கும் மாணவர்களுக்கு டிஎன்ஸ்பார்க் பாடத் திட்டம் கடந்த ஆண்டு அறிமுகப்படுத்தப்பட்டுள்ளது. இதில் 10ஆம் வகுப்பு முதல் 12ஆம் வகுப்பு வரையிலான மாணவர்களுக்கு கூடுதல் பாடத் திட்டத்தைச் சேர்க்க புதிய பாடத் திட்டம் உருவாக்கப்படுகிறது.\n📍 இடம்: திருச்சி தமிழ்நாடு ஹோட்டல்\n🗓️ நடைபெறும் காலம்: சனிக்கிழமை வரை\n🏛️ ஏற்பாடு: மாநில கல்வி ஆராய்ச்சி மற்றும் பயிற்சி நிறுவனம்\n👥 பங்கேற்பு: பல்கலைக்கழகப் பேராசிரியர்கள், பல்வேறு மாவட்டங்களைச் சேர்ந்த ஆசிரியர்கள் உள்பட 30 பேர் கொண்ட குழு\n\nTrichy AI syllabus workshop begins | Trichy news\n📍 திருச்சி மாவட்டம் | 27 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #கல்வி",
+   "prompts": "A group of about 30 teachers and university professors sit in rows of tables inside a hotel conference hall in Trichy city, working together on a new AI syllabus and textbook drafts. Seen from the back of the room at eye level, a few people in shirts and sarees lean over open notebooks, printed syllabus papers and textbooks spread on the tables. A presenter stands near a projection screen at the front, one hand raised as he speaks to the group, while the others take notes with pens. The room has plain white walls, ceiling fans, and large windows letting in daylight from the afternoon. Some tables hold water bottles and laptops. The scene reflects a serious, focused working session of the Tamil Nadu state education workshop. Shot at eye level with a 35 mm lens, wide enough to show the full room and all the seated groups. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a stack of printed syllabus drafts and an open textbook on a conference table, with a pen resting on the pages and a laptop beside them. Behind the table, out of focus, a few participants in sarees and shirts review papers together. The paper pages show only blank layout lines and sections with no readable words. The table is covered with a white cloth, and a pair of reading glasses sits near the papers. Soft daylight from a window falls across the desk. This detail shows the hands-on work of writing a new AI curriculum for school students at the workshop in Trichy, captured at a slightly high angle with a 35 mm lens to highlight the documents and the working desk. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/26/artificial-intelligence-based-curriculumstate-level-workshop-begins-in-trichy",
+   "published": "2026-11-26T21:21:45.040Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: numbers not found in the article: 10",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795734187/trichy360/jsax5js4d5gu2fijo360.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795734190/trichy360/nttdb84t9gmc3m4tso6c.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "ராணுவ வாகனம் மீது அரசுப் பேருந்து மோதல்: இருவர் காயம்",
+   "english_headline": "Govt bus hits army vehicle on Trichy-Karur highway; soldier and one more injured, driver booked",
+   "category": "Crime & Safety",
+   "location": "Jeeyapuram, Trichy district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "சாலை விபத்து",
+    "loc": "ஜீயபுரம், திருச்சி",
+    "hl1": "ஜீயபுரம் அருகே ராணுவ பேருந்து மோதல்",
+    "hl2": "ராணுவ வீரா உள்பட இருவா",
+    "slides": [
+     {
+      "title": "என்ன நடந்தது?",
+      "lines": [
+       "திருச்சி - கரூ தேசிய நெடுஞ்சாலையில் விபத்து",
+       "வியாழக்கிழமை காலை 7 மணிக்கு நடந்தது",
+       "கோவையில் இருந்து திருச்சி நோக்கி வந்த அரசுப் பேருந்து"
+      ]
+     },
+     {
+      "title": "யாருக்கு காயம்?",
+      "lines": [
+       "ராணுவ வாகன ஓட்டுநர் வே. கவாஸ்காக்கு இரு கால்களிலும் காயம்",
+       "பேருந்தில் பயணித்த மணிகண்டனுக்கு லேசான காயம்",
+       "இருவரும் திருச்சி அரசு மருத்துவமனையில் சிகிச்சை"
+      ]
+     },
+     {
+      "title": "என்ன நடவடிக்கை?",
+      "lines": [
+       "அரசுப் பேருந்து ஓட்டுநர் கைப்பேசியில் பேசியபடி ஓட்டியதே",
+       "ஓட்டுநர் ம. பிரபு மீது ஜீயபுரம் போலீசார் வழக்குப் பதிவு",
+       "போலீசார் பேச்சுவார்த்தைக்குப் பின் ராணுவ வேன் அகற்றப்பட்டது"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "ஜீயபுரம் அருகே அரசுப் பேருந்து மோதியதில் ராணுவ வீரர் உள்பட இருவர் காயமடைந்தனர். வியாழக்கிழமை காலை 7 மணிக்கு திருச்சி - கரூர் தேசிய நெடுஞ்சாலையில் விபத்து நடந்தது. கோவையில் இருந்து திருச்சி நோக்கி வேகமாக வந்த அரசுப் பேருந்து ராணுவ வாகனத்தின் மீது மோதியது. பேருந்து ஓட்டுநர் கைப்பேசியில் பேசியபடி அலட்சியமாக ஓட்டியதே காரணம் என போலீசார் தெரிவித்தனர். ஓட்டுநர் ம பிரபு மீது ஜீயபுரம் போலீசார் வழக்குப் பதிவு செய்துள்ளனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 ஜீயபுரம் அருகே ராணுவ வாகனம் மீது அரசுப் பேருந்து மோதல்: இருவர் காயம்\n\n📰 முழு விவரம்:\nதிருச்சி - கரூர் தேசிய நெடுஞ்சாலையில் வியாழக்கிழமை காலை 7 மணிக்கு அல்லூர் மாரியம்மன் கோயில் தெரு அருகே விபத்து நடந்தது. கோவையில் இருந்து திருச்சி நோக்கி வேகமாக வந்த அரசுப் பேருந்து, பெங்களூரு ராணுவ முகாமில் இருந்து வந்த ராணுவ வாகனத்தின் மீது மோதியது. இதில் இரு வாகனங்களின் கண்ணாடிகளும் சேதமடைந்தன.\nராணுவ வாகனத்தை ஓட்டிய திருவள்ளூர் மாவட்டம் குளத்தூரைச் சேர்ந்த வே. கவாஸ்கர் (39 வயது) என்பவருக்கு இரு கால்களிலும் காயம். அரசுப் பேருந்தில் பயணித்த கரூர் மாவட்டம் புலியூரைச் சேர்ந்த சோ. மணிகண்டன் (48 வயது) என்பவருக்கு லேசான காயம். இருவரையும் ஜீயபுரம் போலீசார் மீட்டு திருச்சி அரசு மருத்துவமனைக்கு அனுப்பினர்.\nவிபத்துக்குப் பின் ராணுவ வேனை அகற்றுவதில் தாமதம் ஏற்பட்டதால் திருச்சி - கரூர் சாலையில் கடும் போக்குவரத்து நெரிசல் ஏற்பட்டது. போலீசார் பேச்சுவார்த்தை நடத்தி ராணுவ வேனை அப்புறப்படுத்தினர்.\nபோலீசாரின் முதற்கட்ட விசாரணையில், அரசுப் பேருந்து ஓட்டுநர் கைப்பேசியில் பேசிக்கொண்டே அலட்சியமாக பேருந்தை இயக்கியதே விபத்துக்குக் காரணம் எனத் தெரியவந்தது. கரூர் மாவட்டம் புகழூரைச் சேர்ந்த ஓட்டுநர் ம. பிரபு (44 வயது) மீது ஜீயபுரம் போலீசார் வழக்குப் பதிவு செய்து விசாரித்து வருகின்றனர்.\n\nJeeyapuram bus hits army vehicle on Trichy-Karur highway | Trichy news\n📍 ஜீயபுரம், திருச்சி மாவட்டம் | 27 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Jeeyapuram #சாலை_விபத்து #TrichyNews",
+   "prompts": "A Tamil Nadu government bus and an Indian Army van stand locked together on the Trichy-Karur National Highway near Jeeyapuram, the army van's front glass shattered and the bus's front glass cracked. The highway is a wide two-lane asphalt road lined with roadside shops and a small temple street nearby, with a few shop shutters half open in the early morning light. Behind the damaged vehicles, police in khaki uniform stand at a distance from behind, one of them gesturing with his arm, while a small group of bus passengers and local onlookers in shirts, trousers and sarees watch from the roadside. A soldier in olive-green army uniform sits on the edge of the roadside, seen from behind and far away, with his legs stretched out. Stuck in the jam behind are two-wheelers, a private car and a line of autorickshaws. It is around 7 am on a clear morning with soft daylight. Shot at eye level, 35 mm, wide enough to show the highway, the damaged vehicles, police and the traffic queue. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of the crumpled front of the Tamil Nadu government bus meeting the army van, showing the shattered windscreen glass scattered across the asphalt and the dented bonnet of the olive-green army vehicle. Broken glass shards glint on the road surface in the morning light, with a police khaki sleeve and boot visible at the edge of the frame as a policeman inspects the damage. Behind, the highway's white lane markings and a row of stopped two-wheelers are slightly out of focus. No faces are shown, no readable number plates or signboards. Soft daylight, around 7 am. Shot at a low angle, 35 mm, close enough to show the glass damage and the vehicles' collision point. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA view from the roadside behind the stopped traffic, looking along the Trichy-Karur National Highway toward the crash site near Jeeyapuram. The army van and the government bus sit at an angle in the middle of the road with police in khaki standing beside them, seen from behind and far away, while a long queue of buses, lorries, cars and two-wheelers stretches back into the distance. Roadside shop fronts and a temple gopuram-style roof are visible on the left under clear morning daylight. Shot from slightly high, eye level, 35 mm, showing the scale of the traffic jam and the accident scene together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/26/government-bus-collides-with-military-vehicletwo-people-including-a-soldier-injured",
+   "published": "2026-11-26T21:10:28.785Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 50 ('திருச்சி - கரூா் தேசிய நெடுஞ்சாலையில் ராணுவ வாகனம் மீது அரசு'); 10 ('திருச்சி - கரூா் தேசிய நெடுஞ்சாலையில் ராணுவ வாகனம் மீது அரசு')",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795734198/trichy360/ebnqxyiytzy95dp0bcwc.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795734202/trichy360/n8w2iofkzg4eskspnigl.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795734206/trichy360/gc0n5585thus92y87sie.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "மணப்பாறை அருகே சபரிமலை பக்தர்கள் கார் கவிழ்ந்து 4 பேர் காயம்",
+   "english_headline": "Four Ayyappa devotees injured as car overturns near Manapparai while heading to Sabarimala",
+   "category": "Roads & Transport",
+   "location": "Maravanur area near Manapparai, Trichy district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "சாலை விபத்து",
+    "loc": "மறவனூர், மணப்பாறை",
+    "hl1": "மணப்பாறையில் கார் கவிழ்ந்து விபத்து",
+    "hl2": "ஐயப்ப பக்தர்கள் 4 பேர் காயம்",
+    "slides": [
+     {
+      "title": "எங்கே நடந்தது?",
+      "lines": [
+       "மணப்பாறை அருகே மறவனூர் பகுதியில்",
+       "வியாழக்கிழமை மாலை கார் நடுசாலையில் கவிழ்ந்தது",
+       "ஓட்டுநர் கட்டுப்பாட்டை இழந்ததால் விபத்து"
+      ]
+     },
+     {
+      "title": "யார் பயணம்?",
+      "lines": [
+       "சபரிமலை ஐயப்பன் கோயிலுக்குச் சென்ற காரில் 4 பேர்",
+       "அனைவரும் செங்கல்பட்டு மாவட்டம் மாம்பாக்கம்",
+       "காரை ருத்ரகுமாரன் ஓட்டினார்"
+      ]
+     },
+     {
+      "title": "காயம் நிலை",
+      "lines": [
+       "நால்வருக்கும் சிறு சிறு காயங்கள்",
+       "மணப்பாறை தனியார் மருத்துவமனையில் சிகிச்சை",
+       "போலீசார் வழக்குப் பதிந்து விசாரிக்கின்றனர்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "மணப்பாறை அருகே சபரிமலை சென்ற கார் கவிழ்ந்ததில் 4 ஐயப்ப பக்தர்கள் காயமடைந்தனர். வியாழக்கிழமை மாலை மறவனூர் பகுதியில் இந்த விபத்து நடந்தது. செங்கல்பட்டு மாவட்டம் மாம்பாக்கத்தைச் சேர்ந்த நால்வரும் ஒரே காரில் பயணம் செய்தனர். ஓட்டுநர் ருத்ரகுமாரன் கட்டுப்பாட்டை இழந்ததால் கார் நடுசாலையில் கவிழ்ந்தது. நால்வரும் சிறு காயங்களுடன் உயிர் தப்பினர். மணப்பாறை தனியார் மருத்துவமனையில் சிகிச்சை பெற்றனர். போலீசார் வழக்குப் பதிந்து விசாரிக்கின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 மணப்பாறை அருகே சபரிமலை பக்தர்கள் சென்ற கார் கவிழ்ந்து 4 பேர் காயம்\n\n📰 முழு விவரம்:\nமணப்பாறை அருகே சபரிமலை ஐயப்பன் கோயிலுக்குச் சென்ற கார் வியாழக்கிழமை மாலை மறவனூர் பகுதியில் வந்தபோது, ஓட்டுநர் திடீரென கட்டுப்பாட்டை இழந்ததால் நடுசாலையில் கவிழ்ந்தது. செங்கல்பட்டு மாவட்டம் வண்டலூரை அடுத்த மாம்பாக்கம் பகுதியைச் சேர்ந்த மணிகண்டன் (37 வயது), யுவபிரகாஷ் (35 வயது), ராகேஷ் (32 வயது), ருத்ரகுமாரன் (35 வயது) ஆகிய நால்வரும் ஒரே காரில் பயணம் செய்தனர். காரை ருத்ரகுமாரன் ஓட்டினார். விபத்தில் நால்வரும் சிறு சிறு காயங்களுடன் உயிர் தப்பினர். காயமடைந்தவர்கள் மணப்பாறை தனியார் மருத்துவமனையில் சிகிச்சை பெற்றனர். விபத்து குறித்து மணப்பாறை போலீசார் வழக்குப் பதிந்து விசாரிக்கின்றனர்.\n📍 இடம்: மறவனூர், மணப்பாறை அருகே\n🗓️ நாள்: நவம்பர் 26, வியாழக்கிழமை\n🕘 நேரம்: மாலை\n👮 நடவடிக்கை: மணப்பாறை போலீசார் வழக்குப் பதிந்து விசாரிக்கின்றனர்\nℹ️ மக்கள் கவனத்திற்கு: சபரிமலை செல்லும் பயணத்தில் வாகனத்தை கவனமாக ஓட்டுங்கள்.\n\nIyyappa devotees car overturns near Manapparai | Trichy news\n📍 மறவனூர், மணப்பாறை, திருச்சி மாவட்டம் | 26 நவம்பர் 2026\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Manapparai #TrichyNews #திருச்சி",
+   "prompts": "A car lies overturned on its roof in the middle of a rural two-lane road near Maravanur, Manapparai, Trichy district, as dusk falls on a Thursday evening. The road is empty except for the wrecked car, with dry paddy fields and a few palm trees stretching on both sides under a soft orange sky. Two police constables in khaki uniforms stand at a distance near the car, and a small group of shirtless devotees in black dhotis and dark clothing, with Tulsi mala garlands around their necks, stand far off on the roadside, seen from behind and not showing faces. Their bags and a few scattered items lie near the car. No injured people are visible, and the car's damage is clearly visible on its underside and roof. Shot at eye level from about 30 metres back with a 35 mm lens, wide enough to show the road, the overturned car and the open fields around it. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of the overturned car's crumpled roof and shattered windshield lying on the tarmac of a Manapparai rural road in Trichy district, with the car's underside and wheels pointing up into the evening air. Broken glass pieces sparkle on the dark asphalt, and a black Ayyappa devotee's cloth bag and a few small scattered belongings lie near the wheel. The edge of a dusty roadside and dry grass are visible behind it, with a faint blur of paddy fields beyond. Dusk daylight with warm low sun. Shot close at about one metre from the car at knee height with a 35 mm lens, focusing on the damaged roof and glass to tell the story of the accident without showing any injured people. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/26/car-overturns-in-accident4-ayyappa-devotees-injured",
+   "published": "2026-11-26T21:22:22.979Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795734223/trichy360/txaxr2nxptpqffhwnzkm.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795734227/trichy360/eiyzvy7r8guqrstfnavh.jpg"
    ]
   }
  ]
