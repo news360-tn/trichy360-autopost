@@ -829,12 +829,17 @@ def pic_layers(images):
     return images * 2 if len(images) == 1 else images
 
 
+FIRST_CUT_S = 1.2      # owner 27 Nov evening (audit of posted reels: 0.3 s and 1.5 s showed the same frame): the first picture change
+
+
 def plan_shots(n_img, content_end, snaps):
     """camera shots: 2+ pictures -> the v3 plan (pictures spread over the story); 1 picture -> a cut about every V3.CUT s
     (snapped to a word start), each cut a different move from SINGLE_MOVES, the two layers alternating"""
     if n_img != 1:
         shots = V3.plan_shots(n_img, content_end, snaps)
         if views_test_cfg().get("cycle_pictures"):      # owner 27 Nov: every cut shows another picture (was: each picture once, for a third of the reel)
+            if len(shots) > 1 and shots[0]["b"] > FIRST_CUT_S + 0.3:      # owner 27 Nov evening: the first 1.5 s looked frozen - the first cut comes at 1.2 s
+                shots[0]["b"] = shots[1]["a"] = FIRST_CUT_S
             for i, sh in enumerate(shots):
                 sh["img"] = i % n_img
         return shots
@@ -897,6 +902,7 @@ def build_html(spec, shots, sents, caps, hook_end, end_t, total, page):
     data = json.dumps({"shots": shots, "sents": [{"a": s["a"], "b": s["b"], "card": s["has_card"]} for s in sents],
                        "caps": [{"a": g["a"], "b": g["b"], "w": [[x[1], x[2]] for x in g["words"]]} for g in caps],
                        "hook_end": hook_end, "end_t": end_t, "total": total, "n": len(layers), "single": len(spec["images"]) == 1, "clean_hook": views_test_cfg().get("clean_hook", False),
+                       "cycle": bool(views_test_cfg().get("cycle_pictures")),
                        "sum_a": (sents[-2]["a"] if len(sents) > 5 else sents[-1]["a"]) if len(sents) > 3 else end_t, "rows": len(rows) if summary else 0})
     style = reel_style(spec)
     low = "#hook{top:900px}#hook .h1{font-size:88px}" if views_test_cfg().get("hook_low") and style != "P" else ""      # owner 27 Nov: headline under the picture's subject, not on it
@@ -1099,7 +1105,8 @@ def main(spec_path, out_mp4, page_key="trichy"):
         ec = float(views_test_cfg().get("end_card_s") or 0)
     except (TypeError, ValueError):
         ec = 0
-    end_t = round(max(V3.CHIME_T, ends[-1] + 0.6 - ec), 3) if short_end and ec >= 1.8 else V3.CHIME_T      # the chime stays at the end of the news
+    # owner 27 Nov evening: the end card is really end_card_s long also with the English share line (posted reels showed it ~4 s)
+    end_t = round(max(V3.CHIME_T, ends[-1] + 0.6 - ec), 3) if ec >= 1.8 else V3.CHIME_T      # the chime stays at the end of the news
     total = round(max(ends[-1] + 0.6, end_t + 1.8), 3)
     R.make_voice_track(work, texts, starts, total)
     for i, s in enumerate(sents):

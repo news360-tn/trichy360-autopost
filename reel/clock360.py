@@ -45,7 +45,7 @@ window.renderAt=function(t){old(t);
   if(lg&&ck){ck.style.visibility=(t<D.end_t||!document.getElementById('end'))?'visible':'hidden'; /* no end card: the full ring stays */ fit(ck, lg, 16); arc(ck.querySelector('.pr'), cl(t/D.end_t));
     const op=ck.querySelector('.op'); arc(op, eo(cl(t/0.7))); op.style.opacity=t<0.7?1:cl(1-(t-0.7)/0.35);}
   const hand=document.getElementById('ckhand'), piv=document.getElementById('ckpiv'); let hv=false;
-  if(D.shots&&D.shots.length&&!D.single){
+  if(D.shots&&D.shots.length&&!D.single&&!D.cycle){      /* owner 27 Nov evening: no clock-hand sweep when the picture changes every cut (it looked like a glitch) */
     let ai=D.shots.length-1; D.shots.forEach((s,i)=>{if(t>=s.a&&t<s.b)ai=i});
     const a=D.shots[ai], prev=ai>0?D.shots[ai-1]:null, k=t-a.a, W=0.35;
     for(let i=0;i<D.n;i++){const e=document.getElementById('p'+i); if(e){e.style.webkitMaskImage='none'; e.style.maskImage='none';}}
