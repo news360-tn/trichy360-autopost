@@ -46,9 +46,20 @@ def rank(cap):
     return 0
 
 
+def views_weight(cap):
+    """owner 27 Nov: how well this news's topic is watched on this page (research_free/learned.json from the page's Instagram views)"""
+    try:
+        import sys as _s, os as _o
+        _s.path.insert(0, _o.path.join(_o.path.dirname(__file__), "..", "research_free"))
+        import learned
+        return (1 if learned.urgent_topic(cap or "") else 0, learned.boost(cap or ""))
+    except Exception:
+        return (0, 0.0)
+
+
 def pick(items, n):
-    """the n most useful: by rank, then newest"""
-    return sorted(items, key=lambda m: (rank(m.get("caption")), m.get("timestamp") or ""), reverse=True)[:n]
+    """the n most useful: power cuts / alerts first (rank), then the topics this page's viewers watch most (owner 27 Nov), then newest"""
+    return sorted(items, key=lambda m: (rank(m.get("caption")), *views_weight(m.get("caption")), m.get("timestamp") or ""), reverse=True)[:n]
 
 
 def when(ts):

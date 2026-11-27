@@ -17,6 +17,7 @@ WINDOW_DAYS, FINAL_H, DAILY_AFTER_H, REREAD_H = 8, 168, 72, 20      # read 8 day
 MAX_READS = 120      # posts read per page per run, newest first (the first run after the change reads about 190; the rest follow next run)
 SAME_AGE = (("r24", 20, 32), ("r48", 44, 56))      # numbers kept when a post is about 1 day / 2 days old (runs are 4 h apart)
 MIN_PER_TOPIC, MIN_POSTS = 3, 12
+URGENT_VIEWS, URGENT_SHARE = 10000, 0.2      # owner 27 Nov: 10,000+ views on at least 1 in 5 of a topic's reels = urgent topic
 IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
 
 
@@ -257,6 +258,13 @@ def main():
                 m = statistics.median(v)
                 tw[t] = round(max(-0.5, min(1.5, (m - 1.0) * 2)), 2)      # +1.5 max, -0.5 min: public-service news (weather, power cuts) is never buried the page median (clamped)
         out["topic_weight"] = tw
+        share = {}      # owner 27 Nov: a topic whose reels on this page OFTEN pass 10,000 views (1 in 5 or more) is urgent news
+        for t in by:
+            hs = [h for h in rows if h["topic"] == t]
+            if t != "other" and len(hs) >= MIN_PER_TOPIC:
+                share[t] = round(sum(1 for h in hs if (h.get("views") or 0) >= URGENT_VIEWS) / len(hs), 2)
+        out["topic_10k_share"] = share
+        out["urgent_topics"] = sorted(t for t, v in share.items() if v >= URGENT_SHARE)
         out["topic_n"] = {t: len(v) for t, v in by.items() if t != "other"}      # owner 14 Nov: reels measured per topic (learned.TRUST_N)
         hours = {}
         for h in rows:

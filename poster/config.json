@@ -37,18 +37,15 @@
     "starts": [],
     "grace_min": 60,
     "max_wait_hours": 18,
-    "immediate": "power_cut",
-    "note": "owner 21 Nov: NO best-time waiting - a news reel posts as soon as it is ready, any time from 05:00 to midnight (5 minutes apart). Nothing is posted on Instagram from 00:00 to 05:00 IST (quiet_ist), not even power cuts or stories; news ready at night posts from 05:00.",
+    "immediate": "priority",
+    "note": "owner 27 Nov: 06:00-22:00 IST every news reel posts as soon as it is ready (no best-time waiting). 22:00-06:00 only urgent news posts: an upcoming power cut or a topic whose reels often pass 10,000 views (post.py is_priority_news); other news waits for 06:00.",
     "windows": [
       [
-        "04:00",
-        "24:00"
+        "06:00",
+        "22:00"
       ]
     ],
-    "quiet_ist": [
-      "00:00",
-      "04:00"
-    ]
+    "quiet_ist": []
   },
   "reel_punch": false,
   "reel_max_seconds": 50,
@@ -160,7 +157,7 @@
   "story_reserve": 20,
   "post_stories": false,
   "post_stories_note": "owner 23 Nov: reels only - no Instagram or Facebook stories (the owner posts important ones by hand)",
-  "ig_retry_wait_min": 5,
+  "ig_retry_wait_min": 10,
   "stories_urgent_only": true,
   "stories_urgent_only_note": "owner 21 Nov (Instagram-safe): the story share only for power cuts / urgent news again, as Kovai and Chennai Minnal do - a story for every news took pages to 48/50 of Instagram's daily posts (blocks come near the limit) and doubled the Cloudinary downloads. false = every news gets its story",
   "reel_style": "A",
@@ -173,21 +170,21 @@
   "reel_look_note": "owner 20 Nov (final decision): ONE look on every page - the earlier, proven reel4 look (big hook, big captions, fact cards, FOLLOW end card) with '📅 date  📰 Source: paper' in the header and the 360 clock branding. \"handoff\" switches on the design team's look (reel/design360.py), kept in the code. (reel_design must stay \"v4\": it picks reel4.py.)",
   "posted_email": "combined",
   "posted_email_note": "owner 24 Nov: an e-mail for EVERY posted news again (each). owner 20 Nov: once the Promo Hub is set up (PROMO_URL), no e-mail per posted reel - the twice-a-day YouTube details e-mail per page lists them (Gmail's daily limit). \"each\" brings the per-reel e-mail back.",
-  "ig_block_pause_hours": 6,
-  "ig_create_pause_hours": 6,
+  "ig_block_pause_hours": 2,
+  "ig_create_pause_hours": 2,
   "youtube_upload": {
     "enabled": true,
-    "per_day": 20,
+    "per_day": 30,
     "gap_min": 5,
     "hours": [
-      4,
-      24
+      6,
+      22
     ],
     "privacy": "public",
     "verify_channel": true
   },
   "youtube_upload_note": "owner 21 Nov: the day's best news reels go to the page's YouTube channel as Shorts - only when its YT_CLIENT_ID_/YT_CLIENT_SECRET_/YT_REFRESH_TOKEN_<PAGE> secrets exist. One Google Cloud project per page (about 6 uploads a day each). privacy stays private until Google approves the YouTube API audit, then set public.",
-  "ig_rate_pause_min": 60,
+  "ig_rate_pause_min": 120,
   "story_catchup_tries": 2,
   "ig_limits_note": "owner 21 Nov (Trichy 20-21 Nov: the story catch-up tried the same stories every run - 400+ tries - and Instagram then refused every new post from 10:30 IST, Media Creation Limit 2207069): 'too many posts made' pauses the page ig_create_pause_hours, 'too many requests' ig_rate_pause_min, and a story that fails story_catchup_tries times is given up. Nothing is lost - the news posts after the pause.",
   "ig_block_pause_note": "owner 21 Nov: when Instagram says 'action is blocked' (2207051), the page's posting waits this many hours instead of trying every few minutes (that makes the block longer); its news is posted afterwards",

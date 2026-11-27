@@ -57,19 +57,20 @@ class Limits(Tmp):
         self.assertEqual([post.ig_limit_kind(e) for e in (CREATE, APP, BLOCK, QUOTA, FATAL, "Instagram container 1 ERROR")],
                          ["create", "rate", "block", "quota", "", ""])
 
-    def test_too_many_posts_made_pauses_the_page_6_hours(self):
+    def test_too_many_posts_made_pauses_the_page_2_hours(self):      # owner 27 Nov: no stated time - 2 hours (was 6)
         with mock.patch.object(post, "PAGE", "x"):
             self.assertTrue(post.is_limit_error(CREATE))      # waits - never marked failed
         h, d = hours_left("x")
-        self.assertAlmostEqual(h, 6, delta=0.1)
+        self.assertAlmostEqual(h, 2, delta=0.1)
         self.assertEqual(d["kind"], "create")
         self.assertIn("paused until", post.ig_paused("x"))
         self.assertTrue(post.limit_reached("x"))
 
-    def test_too_many_requests_pauses_an_hour_and_a_longer_pause_stays(self):
+    def test_too_many_requests_pauses_2_hours_and_a_longer_pause_stays(self):      # owner 27 Nov: no stated time - 2 hours
         post.ig_pause("x", APP, "rate")
-        self.assertAlmostEqual(hours_left("x")[0], 1, delta=0.05)
-        post.ig_pause("x", CREATE, "create")
+        self.assertAlmostEqual(hours_left("x")[0], 2, delta=0.05)
+        post.ig_pause("x", CREATE + " - try again in 6 hours", "create")      # the time Instagram states is used
+        self.assertAlmostEqual(hours_left("x")[0], 6, delta=0.05)
         post.ig_pause("x", APP, "rate")      # shorter: the 6-hour pause is not shortened
         self.assertEqual(hours_left("x")[1]["kind"], "create")
 

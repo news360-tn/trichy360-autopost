@@ -1,7 +1,7 @@
-"""owner 24 Nov: any problem - tried again after 5 minutes (3 times), then after 15 minutes (2 times), then Hold + ONE e-mail.
+"""owner 27 Nov: any problem - tried again after 10 minutes (5 times), then once more after 1 hour (only that news waits), then Hold.
 'The Instagram account is restricted' (code 25 / 2207050) follows the same plan; the 5-minute posting gap is unchanged."""
 import json, sys, tempfile, unittest
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest import mock
 ROOT = Path(__file__).resolve().parent.parent
@@ -36,14 +36,22 @@ class RetryPlan24Nov(unittest.TestCase):
         self.assertFalse(post.is_limit_error(ERR))
         self.assertFalse(post.ig_pause_file(post.PAGE).exists())
 
-    def test_5_5_5_15_15_then_hold(self):
+    def test_10_min_5_times_then_1_hour_once_then_hold(self):      # owner 27 Nov
         row = {"row": 9, "story_id": "RN-1"}
-        for want in (10, 10, 10, 15, 15):      # owner 25 Nov
+        for _ in range(5):
             post.ig_pause_file(post.PAGE).unlink(missing_ok=True)
             post.report_failure(row, "reel", ERR)
-            self.assertAlmostEqual(self.wait_min(), want, delta=0.2)
-            self.assertEqual(self.sent, [])      # no Hold, no e-mail yet
-        post.report_failure(row, "reel", ERR)      # the 6th failure
+            self.assertAlmostEqual(self.wait_min(), 10, delta=0.2)      # the page waits 10 minutes
+            self.assertFalse(post.retry_waits("RN-1"))
+            self.assertEqual(self.sent, [])      # no Hold yet
+        post.ig_pause_file(post.PAGE).unlink(missing_ok=True)
+        post.report_failure(row, "reel", ERR)      # the 6th failure: THIS news waits 1 hour, the page goes on
+        self.assertFalse(post.ig_pause_file(post.PAGE).exists())
+        self.assertTrue(post.retry_waits("RN-1"))
+        self.assertFalse(post.retry_waits("RN-5"))
+        self.assertFalse(post.retry_waits("RN-1", datetime.now(timezone.utc) + timedelta(minutes=61)))
+        self.assertEqual(self.sent, [])
+        post.report_failure(row, "reel", ERR)      # the 7th failure
         self.assertEqual([a for a, _ in self.sent], ["error"] * 3)      # the sheet holds it at the 3rd report: one e-mail
         self.assertEqual(post._tries_load(), {})
 

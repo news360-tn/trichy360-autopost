@@ -34,7 +34,7 @@ class ShareEmail(unittest.TestCase):
 
     def save(self, sid, hours, status="waiting"):
         facebook._save("x", sid, "reel", {"status": status, "ig_media": "M" + sid, "caption": f"Headline {sid}\nbody",
-                                          "waiting_since": (NOW - timedelta(hours=hours)).isoformat(), "tries": 3})
+                                          "waiting_since": (NOW - timedelta(hours=hours)).isoformat(), "tries": facebook.MAX_TRIES})      # owner 27 Nov: 7 tries now
 
     def run_once(self, now=NOW):
         with mock.patch("promo.hub_post", side_effect=lambda a, p: self.sent.append(p)):

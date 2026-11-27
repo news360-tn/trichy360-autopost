@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "poster"))
 import ytupload      # noqa: E402
 
-NOW = datetime.now(timezone.utc)
+NOW = datetime.now(timezone.utc).replace(hour=4, minute=0, second=0, microsecond=0)      # 09:30 IST: +3 h stays the same IST day (failed 21:00-24:00 IST)
 S = {"verify_channel": True}
 
 

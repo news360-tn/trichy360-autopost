@@ -50,6 +50,11 @@ def load():
         return {}
 
 
+def urgent_topic(text):
+    """owner 27 Nov: news of a topic whose reels on this page often pass 10,000 views (insights.py urgent_topics) is urgent news"""
+    return topic(text) in (load().get("urgent_topics") or [])
+
+
 def boost(text):
     """score adjustment for a candidate headline from its topic's measured performance (weights are already clamped by insights.py)"""
     t = topic(text)

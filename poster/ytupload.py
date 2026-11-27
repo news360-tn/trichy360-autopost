@@ -31,6 +31,8 @@ UPLOAD_URL = "https://www.googleapis.com/upload/youtube/v3/videos"
 
 LIMIT_WAIT_H = 2      # owner 25 Nov: wait after a channel upload-limit refusal
 RETRY_WAIT_MIN = 10      # owner 25 Nov: a failed upload waits 10 minutes before the next try
+LAST_WAIT_MIN = 60       # owner 27 Nov: after 5 failed retries, one last try 1 hour later
+FAIL_TRIES = 7           # owner 27 Nov: first try + 5 retries + 1 last retry; then this reel is given up (the next reel goes on)
 
 
 def log(*a):
@@ -83,9 +85,11 @@ def due(page, s, now, daily=False):
         news = [u for u in today if not u.get("daily")]
         if len(news) >= s["per_day"]:
             return f"{len(news)} uploads today - the day's limit"
-    err = _state(page).get("failed_at")
-    if err and (now - datetime.fromisoformat(err)).total_seconds() < RETRY_WAIT_MIN * 60:
-        return f"an upload error less than {RETRY_WAIT_MIN} min ago - tried again after {RETRY_WAIT_MIN} minutes"
+    stt = _state(page)
+    err = stt.get("failed_at")
+    wait = LAST_WAIT_MIN if int(stt.get("fail_n", 0)) >= FAIL_TRIES - 1 else RETRY_WAIT_MIN      # owner 27 Nov: 10 min x 5, then 1 hour once
+    if err and (now - datetime.fromisoformat(err)).total_seconds() < wait * 60:
+        return f"an upload error less than {wait} min ago - tried again after {wait} minutes"
     last = max((u.get("at", "") for u in ups), default="")
     if last and (now - datetime.fromisoformat(last)).total_seconds() < s["gap_min"] * 60:
         return f"less than {s['gap_min']} min since the last upload"
@@ -247,6 +251,7 @@ def catchup(post, now=None):
     if not s["enabled"] or post.DRY:
         return
     for page in post.LABEL:
+        m = None
         try:
             if not keys(page):
                 continue
@@ -263,7 +268,7 @@ def catchup(post, now=None):
                     log(f"{page}: {bad}")
                     continue
             st = _state(page)
-            done = {u.get("ig") for u in st.get("uploads", [])}
+            done = {u.get("ig") for u in st.get("uploads", [])} | set(st.get("given_up", []))      # owner 27 Nov: a reel given up after 7 tries
             token = post.bridge_get("token", page=page)["token"]
             uname = post.ig_account(token)[1]
             day = now.astimezone(IST).strftime("%Y-%m-%d")
@@ -290,7 +295,8 @@ def catchup(post, now=None):
             vid = upload(tok, path, d["title"], d["description"], d["tags"], s["privacy"])
             st.setdefault("uploads", []).append({"ig": m["id"], "youtube": vid, "day": day, "at": now.isoformat(timespec="seconds"),
                                                  "title": d["title"], **({"daily": True} if m in daily else {})})
-            st.pop("failed_at", None)
+            for k in ("failed_at", "fail_n", "fail_ig"):
+                st.pop(k, None)
             _save(page, st)
             log(f"{page}: uploaded to YouTube ({s['privacy']}) https://youtube.com/shorts/{vid} - {d['title'][:60]}")
             extras(page, tok, vid, src, m.get("caption") or "")      # owner 25 Nov: first comment + topic playlist (needs the extra permission)
@@ -301,16 +307,27 @@ def catchup(post, now=None):
                 errnote.note("YouTube", (m.get("id") if "m" in locals() and isinstance(m, dict) else ""), e, RETRY_WAIT_MIN, page)
             except Exception:
                 pass
-            try:      # owner 25 Nov: after an error wait 10 minutes before the next try
+            try:      # owner 27 Nov: after an error wait 10 minutes (5 times), then 1 hour once; then this reel is given up
                 st = _state(page)
                 st["failed_at"] = now.isoformat(timespec="seconds")
+                mid = (m or {}).get("id", "")
+                if re.search(r"exceeded the number of videos|uploadLimitExceeded|quotaExceeded", str(e)):
+                    mid = ""      # a channel limit / day quota is a block (its own wait below), not this reel's fault - never gives it up
+                st["fail_n"] = int(st.get("fail_n", 0)) + 1 if mid and st.get("fail_ig") == mid else 1
+                st["fail_ig"] = mid
+                if mid and st["fail_n"] >= FAIL_TRIES:
+                    log(f"{page}: reel {mid} not uploaded after {FAIL_TRIES} tries - given up, the next reel goes on")
+                    st["given_up"] = (st.get("given_up", []) + [mid])[-200:]
+                    for k in ("failed_at", "fail_n", "fail_ig"):
+                        st.pop(k, None)
                 _save(page, st)
             except Exception:
                 pass
             if "exceeded the number of videos" in str(e) or "uploadLimitExceeded" in str(e):      # owner 25 Nov: this CHANNEL's own upload limit
                 try:      # (new / unverified channels: a few Shorts per 24 h) - older uploads age out, so wait 2 hours, not the whole day
                     st = _state(page)
-                    st["limit_until"] = (now + timedelta(hours=LIMIT_WAIT_H)).isoformat(timespec="seconds")
+                    import blockwait      # owner 27 Nov: the wait YouTube states, else 2 hours
+                    st["limit_until"] = (now + timedelta(hours=blockwait.wait_hours(e, LIMIT_WAIT_H))).isoformat(timespec="seconds")
                     _save(page, st)
                 except Exception:
                     pass

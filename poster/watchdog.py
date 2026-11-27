@@ -83,7 +83,7 @@ def start(wf, *inputs):
     print(("started " if r.returncode == 0 else "could not start ") + wf, (r.stderr or "").strip()[:200])
 
 
-ROUNDS = ((4, 0), (8, 0), (12, 0), (16, 0), (20, 0), (22, 0))      # owner 22 Nov: + 22:00      # owner 21 Nov: the collection rounds (IST), every 4 hours (pick.yml / research_free.yml)
+ROUNDS = tuple((h, 0) for h in range(0, 24, 2))      # owner 27 Nov: the collection rounds (IST), every 2 hours day and night (pick.yml / research_free.yml)
 
 
 def round_overdue(now, round_runs):

@@ -31,7 +31,7 @@ class InstagramBlock(unittest.TestCase):
 
     def test_setting(self):
         cfg = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))
-        self.assertEqual(cfg["ig_block_pause_hours"], 6)
+        self.assertEqual(cfg["ig_block_pause_hours"], 2)      # owner 27 Nov: no stated time - 2 hours
 
 
 if __name__ == "__main__":

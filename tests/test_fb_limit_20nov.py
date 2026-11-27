@@ -19,7 +19,7 @@ class FacebookLimit(unittest.TestCase):
         self.assertLess(facebook.TOP_PER_DAY, facebook.REEL_CAP)      # under Facebook's 30 API reels a day
         ok, why = facebook.top_news({"urgent": False, "topic": "education", "weight": -0.5, "best": False})
         self.assertTrue(ok, why)
-        self.assertEqual(facebook.PAUSE_HOURS, 24)
+        self.assertEqual(facebook.PAUSE_HOURS, 2)      # owner 27 Nov: a block with no stated time waits 2 hours
 
 
 if __name__ == "__main__":

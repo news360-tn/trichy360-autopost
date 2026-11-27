@@ -52,7 +52,7 @@ env:
   YT_CLIENT_ID_TRICHY: ${{ secrets.YT_CLIENT_ID_TRICHY }}
   YT_CLIENT_SECRET_TRICHY: ${{ secrets.YT_CLIENT_SECRET_TRICHY }}
   YT_REFRESH_TOKEN_TRICHY: ${{ secrets.YT_REFRESH_TOKEN_TRICHY }}
-  DAILY_CAP: "35"      # owner 25 Nov: at most 35 news a day per page (only urgent news after that)
+  DAILY_CAP: "30"      # owner 27 Nov: at most 30 news a day per page (IST day; rasipalan / gold rate not counted), then only urgent news
   CITY_ONLY: "0"      # owner 31 Oct: the whole district (top 3 per round decides)
   POST_MAX_AGE_DAYS: "1"      # owner 13 Nov: today's and yesterday's news - the night's news waits for 08:00 and is never skipped
   DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '' }}
@@ -60,7 +60,7 @@ env:
   PAUSED: ${{ vars.PAUSED }}
   DIRECT_UPLOAD: "auto"      # owner 21 Nov ("do not use Cloudinary"): reels and stories go to Instagram / Facebook as FILES once the page's Facebook token (FB_PAGE_ID_* / FB_TOKEN_*, with instagram_basic + instagram_content_publish) is set - until then the Cloudinary link as before. "0" switches it off.
   FB_GAP_MIN: "5"      # owner 23 Nov: Facebook like Instagram - the next news 5 minutes after the last (owner chose this knowing the Meta 368 risk; was 60)
-  FB_TOP_PER_DAY: "20"      # owner 24 Nov: 20 Facebook news a day per page (30 brought Meta 368 blocks on Coimbatore); beyond 20 the news waits / is e-mailed
+  FB_TOP_PER_DAY: "30"      # owner 27 Nov: 30 Facebook news a day per page, best by views first (was 20; rasipalan / gold rate not counted)
 
 jobs:
   check:

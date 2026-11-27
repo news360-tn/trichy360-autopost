@@ -113,7 +113,7 @@ class TrichyPriority(unittest.TestCase):
         self.assertNotIn('age("collect") > 160 else', (wf / "post.yml").read_text())      # the watchdog never starts a round
         for f in ("research_free.yml", "write_stories.yml"):
             self.assertIn('DAILY_CAP: "1000"', (wf / f).read_text(), f)      # owner 31 Oct 4:48 PM: no daily limit of our own
-        self.assertIn('DAILY_CAP: "35"', (wf / "post.yml").read_text())      # owner 25 Nov: at most 35 a day (urgent news after that)
+        self.assertIn('DAILY_CAP: "30"', (wf / "post.yml").read_text())      # owner 27 Nov: at most 30 news a day (urgent news after that)
         for wf in ("research_free.yml", "write_stories.yml"):
             self.assertIn('FRESH_DAYS: "1"', (ROOT / ".github" / "workflows" / wf).read_text())
 
@@ -483,37 +483,44 @@ class PrimeTime(unittest.TestCase):
     def row(self, title, h, m=0):
         return {"story_id": "RN-T", "headline_ta": title, "headline_en": "", "category": "", "researched": self.at(h, m).strftime("%d %b %Y, %H:%M")}
 
-    def wait(self, row, now, waited=1.0):
+    def wait(self, row, now, waited=1.0, urgent_topics=()):
         pt = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["prime_time"]
-        with mock.patch.object(post, "age_hours", return_value=waited), mock.patch.dict(post.CONFIG, {"prime_time": pt}):
+        sys.path.insert(0, str(ROOT / "research_free"))
+        import learned
+        with mock.patch.object(post, "age_hours", return_value=waited), mock.patch.dict(post.CONFIG, {"prime_time": pt}), \
+                mock.patch.object(learned, "load", return_value={"urgent_topics": list(urgent_topics)}):
             return post.prime_wait(row, now)
 
-    def test_windows_switched_on(self):      # owner 21 Nov: no best-time windows - any time from 05:00, quiet 00:00-05:00
+    def test_windows_switched_on(self):      # owner 27 Nov: 06:00-22:00 every news at once; at night only urgent news
         pt = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))["prime_time"]
         self.assertTrue(pt["enabled"])
-        self.assertEqual(pt["windows"], [["04:00", "24:00"]])
-        self.assertEqual(pt["quiet_ist"], ["00:00", "04:00"])
+        self.assertEqual(pt["windows"], [["06:00", "22:00"]])
+        self.assertEqual(pt["quiet_ist"], [])
+        self.assertEqual(pt["immediate"], "priority")
         self.assertFalse(pt["starts"])
 
     def test_inside_a_window_at_once_outside_waits(self):
         news = "கோவில் கும்பாபிஷேக விழா"
-        for now, expect in (((3, 30), "night"), ((4, 0), ""), ((9, 30), ""), ((12, 0), ""), ((14, 30), ""), ((21, 0), ""),
-                            ((23, 59), ""), ((0, 0), "night"), ((1, 0), "night")):
+        for now, expect in (((3, 30), "night"), ((5, 59), "night"), ((6, 0), ""), ((9, 30), ""), ((14, 30), ""), ((21, 59), ""),
+                            ((22, 0), "night"), ((23, 59), "night"), ((0, 0), "night")):
             got = self.wait(self.row(news, 0, 30), self.at(*now))
             if expect:
                 self.assertIn(expect, got, now)
             else:
                 self.assertEqual("", got, now)
 
-    def test_only_power_cut_posts_at_once(self):      # owner 21 Nov: every news posts at once now - and nothing at night, power cuts too
-        self.assertEqual("", self.wait(self.row("காளப்பநாயக்கன்பட்டி பகுதியில் நாளை மின் தடை", 21, 30), self.at(23)))
-        self.assertIn("night", self.wait(self.row("காளப்பநாயக்கன்பட்டி பகுதியில் நாளை மின் தடை", 21, 30), self.at(2)))
+    def test_urgent_news_posts_at_night(self):      # owner 27 Nov: an upcoming power cut or a 10k-view topic posts at any hour
+        for h in (23, 2, 5):
+            self.assertEqual("", self.wait(self.row("காளப்பநாயக்கன்பட்டி பகுதியில் நாளை மின் தடை", 21, 30), self.at(h)), h)
+        crime = "ராசிபுரத்தில் நகை திருட்டு: 2 பேர் கைது"
+        self.assertEqual("", self.wait(self.row(crime, 1, 0), self.at(2), urgent_topics=["crime"]))
+        self.assertIn("night", self.wait(self.row(crime, 1, 0), self.at(2), urgent_topics=["accident"]))
         for title in ("தனியார் பேருந்து மோதி தொழிலாளி உயிரிழப்பு", "கனமழை எச்சரிக்கை", "ஆட்சியர் அறிவிப்பு: சிறப்பு முகாம்"):
             self.assertEqual("", self.wait(self.row(title, 13, 50), self.at(13, 55)), title)
 
-    def test_never_dropped_after_long_wait(self):
+    def test_long_wait_never_posts_at_night(self):      # owner 27 Nov: outside 06:00-22:00 only urgent news, however long it waited
         self.assertIn("night", self.wait(self.row("கோவில் கும்பாபிஷேக விழா", 21, 30), self.at(3, day=1), waited=19))
-        self.assertEqual("", self.wait(self.row("கோவில் கும்பாபிஷேக விழா", 21, 30), self.at(5, day=1), waited=21))
+        self.assertEqual("", self.wait(self.row("கோவில் கும்பாபிஷேக விழா", 21, 30), self.at(6, day=1), waited=21))
 
 
 class ReelOpening(unittest.TestCase):
@@ -935,6 +942,7 @@ class SpacedPostingMatrix(unittest.TestCase):
             "bridge_get": lambda a, **k: {"rows": rows if a == "queue" else []}, "pick_all": lambda rs: list(rows),
             "pages_of": lambda r: ["pg"], "page_done": lambda r, p: False, "limit_reached": lambda p: False,
             "prime_wait": lambda r, now=None: "", "is_urgent": lambda r: r["story_id"] == "RN-3",
+            "is_priority_news": lambda r: r["story_id"] == "RN-3", "news_today": lambda p, now=None: 10,      # owner 27 Nov: news-only day count
             "minutes_since_last_post": lambda p: since, "ready": lambda r: False, "set_started": lambda r: True,
             "age_hours": lambda r: 1.0, "auto_images": lambda: None, "PREBUILD": "", "TOTAL": {"pg": 50}, "USED": {"pg": 10},
         }.items()]
@@ -2287,8 +2295,9 @@ class RoundsTopThree(unittest.TestCase):
         wf = (self.WF / "pick.yml").read_text(encoding="utf-8")
         times = sorted(((int(h) * 60 + int(m) + 330) % 1440) / 60 for m, hs in re.findall(r'cron: "(\d+) ([\d,]+) \* \* \*"', wf)
                        for h in hs.split(","))
-        self.assertEqual([4, 8, 12, 16, 20, 22], times)      # owner 21 Nov: collection every 4 hours (04:00-20:00 IST)
-        self.assertIn('PICK_ROUND_TOP: "4=7,8=6,12=6,16=6,20=5,22=3"', wf)      # owner 21 Nov: 7 + 6 + 6 + 6 + 5 = 30 a day (max 35)
+        self.assertEqual(list(range(0, 24, 2)), times)      # owner 27 Nov: collection every 2 hours, day and night
+        self.assertIn('PICK_ROUND_TOP: "0=1,2=1,4=3,6=3,8=3,10=3,12=3,14=3,16=3,18=3,20=2,22=2"', wf)      # owner 27 Nov: 12 rounds = 30 a day
+        self.assertIn('PICK_ALL: "0"', wf)      # owner 27 Nov: only the best news of each round are written
         self.assertIn('PICK_EMAIL: "0"', wf)      # "do not ask me to confirm"
 
     def test_each_round_writes_top_3_of_the_whole_district(self):

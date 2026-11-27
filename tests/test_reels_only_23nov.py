@@ -33,7 +33,7 @@ class ReelsOnly(unittest.TestCase):
         self.assertEqual(calls, [])      # the reel only
 
     def test_temporary_error_waits_five_minutes(self):
-        self.assertEqual(CFG["ig_retry_wait_min"], 5)
+        self.assertEqual(CFG["ig_retry_wait_min"], 10)      # owner 27 Nov: never sooner than 10 minutes
         d = Path(tempfile.mkdtemp())
         with mock.patch.object(post, "CACHE", d), mock.patch.dict(post.CONFIG, {"ig_retry_wait_min": 5}), mock.patch.dict(post.LIMIT, {}, clear=True):
             post.ig_pause("x", RuntimeError("temporary"), "retry")

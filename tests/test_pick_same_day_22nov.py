@@ -25,7 +25,7 @@ class PickSameDay(unittest.TestCase):
         self.assertIn("pick_ = power + rest\n", src)
         wf = (ROOT / ".github" / "workflows" / "pick.yml").read_text(encoding="utf-8")
         self.assertIn('DAILY_CAP: "30"', wf)
-        self.assertIn('cron: "30 16 * * *"', wf)
+        self.assertIn('cron: "30 0,2,4,6,8,10,12,14,16,18,20,22 * * *"', wf)      # owner 27 Nov: every 2 hours (22:00 IST included)
 
 
 if __name__ == "__main__":

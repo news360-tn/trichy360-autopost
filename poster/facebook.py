@@ -27,9 +27,15 @@ HERE = Path(__file__).resolve().parent
 STATE = HERE / "fb_posted"
 VER = os.environ.get("FB_GRAPH_VER", "v26.0")      # the version the owner's Graph API Explorer uses
 GRAPH = "https://graph.facebook.com"
-MAX_TRIES = 3            # first try + 2 retries
+MAX_TRIES = 7            # owner 27 Nov: first try + 5 retries 10 minutes apart + 1 last retry 1 hour later (was 3)
 RETRY_HOURS = 24
 RETRY_WAIT_MIN = 10      # owner 25 Nov: a failed Facebook post waits 10 minutes before it is tried again
+LAST_WAIT_MIN = 60       # owner 27 Nov: after 5 failed retries, one last try 1 hour later
+
+
+def retry_wait_min(tries):
+    """minutes to wait after the given number of failed tries (owner 27 Nov: 10 minutes, 5 times; then 1 hour, once)"""
+    return LAST_WAIT_MIN if int(tries) >= MAX_TRIES - 1 else RETRY_WAIT_MIN
 REEL_CAP = int(os.environ.get("FB_DAILY_CAP", "30") or 30)      # Facebook allows about 30 API reels a day per page
 WAIT_READY_S = int(os.environ.get("FB_WAIT_S", "300") or 300)
 FB_TAGS = 3              # Facebook: town + topic + page tag (many hashtags do not help there)
@@ -39,7 +45,7 @@ TOP_PER_DAY = int(os.environ.get("FB_TOP_PER_DAY", "25") or 25)      # owner 21 
 TOP_ONLY = os.environ.get("FB_TOP_ONLY", "0") == "1"      # owner 20 Nov: every news goes (1 = only the top news, as from 11 Nov)
 GAP_MIN = int(os.environ.get("FB_GAP_MIN", "30") or 30)      # owner 21 Nov: 30 min (a news that comes sooner WAITS, it is not dropped)      # owner 20 Nov: 18 a day fit in the day with 45 min between posts
 MIN_WEIGHT = float(os.environ.get("FB_MIN_WEIGHT", "0.4") or 0.4)
-PAUSE_HOURS = 24
+PAUSE_HOURS = 2      # owner 27 Nov: a Facebook block with no stated time waits 2 hours (was 24)
 # owner 20 Nov (more Facebook views): the article link goes in the FIRST COMMENT, not the post text (Facebook shows posts with an outside
 # link to fewer people); if the comment is refused (no pages_manage_engagement yet) the link goes into the text as before.
 # Hashtags stay at FB_TAGS = 3 (town + topic + page): Facebook allows ~30, but 1-3 relevant tags reach the most people.
@@ -113,10 +119,12 @@ def paused(page):
 
 
 def _pause(page, why):
+    import blockwait      # owner 27 Nov: wait the time Facebook states for the block, else 2 hours (was always 24 h)
+    hours = blockwait.wait_hours(why, PAUSE_HOURS)
     STATE.mkdir(parents=True, exist_ok=True)
-    until = (_now() + dt.timedelta(hours=PAUSE_HOURS)).isoformat(timespec="seconds")
+    until = (_now() + dt.timedelta(hours=hours)).isoformat(timespec="seconds")
     _pause_file(page).write_text(json.dumps({"until": until, "why": str(why)[:300]}, indent=1), encoding="utf-8")
-    log(f"Facebook limited {page} - Facebook posting paused for {PAUSE_HOURS} h (until {until[:16]} UTC); Instagram goes on")
+    log(f"Facebook limited {page} - Facebook posting paused for {hours:g} h (until {until[:16]} UTC); Instagram goes on")
 
 
 def _last_posted(page):
@@ -549,8 +557,8 @@ def retry_failed(limit=2):
                 continue
             if dt.datetime.fromisoformat(d.get("first_try") or d.get("updated")) < cut:
                 continue
-            if d.get("updated") and _now() - dt.datetime.fromisoformat(d["updated"]) < dt.timedelta(minutes=RETRY_WAIT_MIN):
-                continue      # owner 25 Nov: after an error wait 10 minutes before the next try
+            if d.get("updated") and _now() - dt.datetime.fromisoformat(d["updated"]) < dt.timedelta(minutes=retry_wait_min(d.get("tries", 0))):
+                continue      # owner 27 Nov: after an error wait 10 minutes (5 times), then 1 hour before the last try
             page, sid, kind = d["page"], d["story"], d.get("kind", "reel")
             if any(localmedia.is_ref(x) for x in d.get("media") or []):      # owner 21 Nov: it went as a file - no copy is left to try again
                 d.update(status="skipped", why="sent as a file (no Cloudinary copy) - not tried again")

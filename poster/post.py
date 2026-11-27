@@ -179,6 +179,10 @@ def prime_wait(row, now=None):
     pt = CONFIG.get("prime_time") or {}
     if not pt.get("enabled"):
         return ""
+    if pt.get("immediate") == "priority":      # owner 27 Nov: 06:00-22:00 every reel posts as soon as it is ready; at night only urgent news
+        if is_priority_news(row) or in_prime_time(now):
+            return ""
+        return f"night: only urgent news posts outside {' / '.join(f'{a}-{b}' for a, b in pt.get('windows', []))} IST (owner 27 Nov)"
     if pt.get("immediate") == "power_cut":      # owner 13 Nov: ONLY power cuts post at once (found by category or headline)
         now_ok = is_shutdown(row) or bool(POWER_CUT.search(f"{row.get('headline_ta', '')} {row.get('headline_en', '')}"))
     else:
@@ -508,6 +512,8 @@ def ready(row):
     pg = pages_of(row)
     if all(page_done(row, p) for p in pg):
         return False
+    if retry_waits(row.get("story_id")):      # owner 27 Nov: its 1-hour wait after 5 failed tries is not over
+        return False
     why = news_hold(row) if is_ready_reel(row) else skip_reason(row)    # owner reels: no news checks, but the fact-check / location hold always applies
     if why:
         if row.get("story_id") not in _SKIPPED:
@@ -598,6 +604,29 @@ def insight_weight(row, _w={}):
 
 def is_power_cut(row):
     return is_shutdown(row) or bool(POWER_CUT.search(f"{row.get('headline_ta', '')} {row.get('headline_en', '')}"))
+
+
+def is_priority_news(row):
+    """owner 27 Nov: urgent news - posts at any hour (also 22:00-06:00) and after the day's 30 news. It is an upcoming power cut
+    (planned / monthly shutdown / maintenance; a cut that is over is stopped before this by freshness.py) or news of a topic whose
+    reels on this page often pass 10,000 views (research_free/learned.json urgent_topics, written by poster/insights.py)"""
+    if is_power_cut(row):
+        return True
+    try:
+        sys.path.insert(0, str(ROOT / "research_free"))
+        import learned
+        return learned.urgent_topic(str(row.get("headline_ta") or ""))
+    except Exception:
+        return False
+
+
+def news_today(page, now=None):
+    """owner 27 Nov: news posted on this page's Instagram TODAY (IST calendar day) - the daily rasipalan / gold rate do not count"""
+    now = now or datetime.now(timezone.utc)
+    start = now.astimezone(IST).replace(hour=0, minute=0, second=0, microsecond=0).astimezone(timezone.utc).strftime("%Y%m%d-%H%M%S")
+    if not POSTED_DIR.exists():
+        return 0
+    return sum(1 for f in POSTED_DIR.glob(f"*-{page}-*.json") if f.name[:15] >= start and not re.search(r"rasipalan|gold", f.name, re.I))
 
 
 def pick_all(rows):
@@ -2022,7 +2051,7 @@ def story_image(jpg, dst):
 # ---------------------------------------------------------------- main flows
 # owner 24 Nov: "any issue - retry 5 min after, max 3 times; still an issue - wait 15 min, retry 2 times" (then Hold + e-mail).
 # The posting gap itself (5 minutes) is not changed. Instagram's own limits (daily 50, blocked, too many requests) keep their waits.
-RETRY_PLAN_MIN = (10, 10, 10, 15, 15)      # owner 25 Nov: after an error wait 10 minutes (was 5), then 2 tries 15 minutes apart, then Hold
+RETRY_PLAN_MIN = (10, 10, 10, 10, 10, 60)      # owner 27 Nov: after ANY error 5 tries 10 minutes apart (never at once), then one last try 1 hour later, then Hold
 
 
 def _tries_file():
@@ -2044,6 +2073,20 @@ def _tries_save(st):
         log("tries not saved:", str(x)[:120])
 
 
+def retry_waits(sid, now=None):
+    """owner 27 Nov: a news in its 1-hour wait (after 5 failed tries 10 minutes apart) is not tried again before the hour is over"""
+    now = now or datetime.now(timezone.utc)
+    for f in CACHE.glob("_tries_*.json") if CACHE.exists() else []:
+        try:
+            st = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        for k, v in st.items():
+            if k.startswith(f"{sid}:") and v.get("until") and datetime.fromisoformat(v["until"]) > now:
+                return True
+    return False
+
+
 def tries_clear(sid):
     st = _tries_load()
     if any(k.startswith(f"{sid}:") for k in st):
@@ -2051,8 +2094,8 @@ def tries_clear(sid):
 
 
 def report_failure(row, kind, e):
-    """owner 24 Nov: a news that could not be posted waits 5 minutes (3 times), then 15 minutes (2 times) and is tried again; only after
-    the last try it goes on Hold and the owner gets ONE e-mail (the sheet puts a story on Hold at its 3rd error report)"""
+    """owner 27 Nov: a news that could not be posted is tried again 10 minutes later, 5 times, then once more 1 hour later; only after
+    that last try it goes on Hold (the sheet puts a story on Hold at its 3rd error report)"""
     sid = row.get("story_id")
     key = f"{sid}:{kind}"
     st = _tries_load()
@@ -2061,9 +2104,12 @@ def report_failure(row, kind, e):
     if n <= len(RETRY_PLAN_MIN):
         wait = RETRY_PLAN_MIN[n - 1]
         v.update(last=datetime.now(timezone.utc).isoformat(timespec="seconds"), error=str(e)[:300])
+        if wait > 10:      # owner 27 Nov: the 1-hour wait is for THIS news only (retry_waits) - the page goes on posting other news
+            v["until"] = (datetime.now(timezone.utc) + timedelta(minutes=wait)).isoformat(timespec="seconds")
         st[key] = v
         _tries_save(st)
-        ig_pause(PAGE, e, "retry", minutes=wait)
+        if wait <= 10:
+            ig_pause(PAGE, e, "retry", minutes=wait)
         log(f"NOT POSTED {sid} {kind} (try {n} of {len(RETRY_PLAN_MIN) + 1}) - tried again in {wait} minutes:", str(e)[:200])
         import errnote      # owner 26 Nov: every posting error is noted at once
         errnote.note("Instagram", sid, e, wait, PAGE)
@@ -2171,16 +2217,17 @@ def ig_pause(page, e, kind="block", minutes=None):
     (block: config ig_block_pause_hours 6; too many posts made: ig_create_pause_hours 6; too many requests: ig_rate_pause_min 60).
     Its news is posted after that, nothing is lost. A longer pause that is already running is never shortened."""
     try:
-        if kind == "retry":      # owner 23 Nov: a temporary error - wait, then post again (owner 24 Nov: 5 or 15 minutes, RETRY_PLAN_MIN)
-            hours = float(minutes if minutes is not None else CONFIG.get("ig_retry_wait_min", 5)) / 60
+        import blockwait      # owner 27 Nov: a temporary block waits the time Instagram states, else 2 hours - no tries in between
+        if kind == "retry":      # owner 23 Nov: a temporary error - wait, then post again (owner 27 Nov: 10 minutes x 5, then 1 hour, RETRY_PLAN_MIN)
+            hours = float(minutes if minutes is not None else CONFIG.get("ig_retry_wait_min", 10)) / 60
         elif kind == "rate":
-            hours = float(CONFIG.get("ig_rate_pause_min", 60)) / 60
+            hours = blockwait.wait_hours(e, float(CONFIG.get("ig_rate_pause_min", 120)) / 60)
         elif kind == "restricted":      # owner 24 Nov: checked again every 2 hours (a restriction can lift in hours)
-            hours = float(CONFIG.get("ig_restricted_pause_hours", 2))
+            hours = blockwait.wait_hours(e, float(CONFIG.get("ig_restricted_pause_hours", 2)))
         elif kind == "create":
-            hours = float(CONFIG.get("ig_create_pause_hours", 6))
+            hours = blockwait.wait_hours(e, float(CONFIG.get("ig_create_pause_hours", 2)))
         else:
-            hours = float(CONFIG.get("ig_block_pause_hours", 6))
+            hours = blockwait.wait_hours(e, float(CONFIG.get("ig_block_pause_hours", 2)))
         until_dt = datetime.now(timezone.utc) + timedelta(hours=hours)
         try:
             old = json.loads(ig_pause_file(page).read_text(encoding="utf-8"))
@@ -2479,8 +2526,8 @@ def run_story(row):
         if limit_reached(pg) and not MANUAL:
             log("LIMIT: 24-hour Instagram post limit reached for", pg, "- ", row.get("story_id"), "waits")
             continue
-        if not MANUAL and limit_reached(pg) is False and USED.get(pg, 0) >= SOFT_CAP and not is_urgent(row):
-            log(f"CAP: {pg} already has {USED[pg]} posts in 24 h (cap {SOFT_CAP}) - only important news now,", row.get("story_id"), "waits")
+        if not MANUAL and limit_reached(pg) is False and news_today(pg) >= SOFT_CAP and not is_priority_news(row):      # owner 27 Nov: 30 news a day, then only urgent news
+            log(f"CAP: {pg} already has {news_today(pg)} news today (cap {SOFT_CAP}) - only urgent news now,", row.get("story_id"), "waits")
             continue
         done += run_story_page(row, pg) or []
     return done
@@ -3257,7 +3304,7 @@ def main():
                             continue
                         ps = per_story if wants_story(r) else 1      # owner 14 Nov: no story share = 1 post for this news
                         pg = [p for p in todo if p not in full and left.get(p, ps) >= ps
-                              and (is_urgent(r) or USED.get(p, 0) < SOFT_CAP)]      # owner 2 Nov (review): over the cap only urgent news
+                              and (is_priority_news(r) or news_today(p) < SOFT_CAP)]      # owner 27 Nov: 30 news a day (rasipalan / gold not counted), then only urgent news
                         if todo and not pg:
                             log("  ", r["story_id"], "waits: Instagram's 24-hour post limit is (almost) used on", todo)
                             continue
