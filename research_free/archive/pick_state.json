@@ -11,7 +11,8 @@
    "category": "மின்தடை",
    "score": 4.18,
    "power_cut": true,
-   "listed_at": "2026-11-27T22:26:45.599874+05:30"
+   "listed_at": "2026-11-27T22:26:45.599874+05:30",
+   "picked_at": "2026-11-27T22:28:44.863527+05:30"
   }
  },
  "rounds": {
@@ -374,8 +375,16 @@
    ],
    "sent": false,
    "deadline": "2026-11-27T23:26:45.599874+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 3 of 1 by insights + 1 power cut",
+    "ids": [
+     "C5d6c867"
+    ],
+    "at": "2026-11-27T22:28:44.863519+05:30"
+   },
+   "written": [
+    "C5d6c867"
+   ]
   }
  },
  "retry": {},
