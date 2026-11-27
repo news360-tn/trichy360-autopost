@@ -150,7 +150,7 @@ def mark_used(p, page, sid):
 
 # ---------------------------------------------------------------- the sample reel for the owner
 PAGE_EN = {"namakkal": "Namakkal 360", "rasipuram": "Rasipuram 360", "coimbatore": "Coimbatore 360", "salem": "Salem 360",
-           "erode": "Erode 360", "karur": "Karur 360", "tirupur": "Tirupur 360", "trichy": "Trichy 360"}
+           "erode": "Erode 360", "karur": "Karur 360", "tirupur": "Tiruppur 360", "trichy": "Trichy 360"}
 SKIP_REEL = re.compile(r"ராசிபலன்|GoldRate|தங்கம்.{0,25}விலை|Gold rate", re.I)
 
 

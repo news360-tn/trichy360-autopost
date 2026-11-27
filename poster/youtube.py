@@ -24,7 +24,7 @@ RANK = [(3, re.compile(r"மின்\s*தடை|மின்தடை|power ?c
         (2, re.compile(r"எச்சரிக்கை|கனமழை|வெள்ளம்|புயல்|விடுமுறை|போக்குவரத்து மாற்றம்|alert", re.I)),
         (1, re.compile(r"முகாம்|வேலைவாய்ப்பு|விண்ணப்ப|திட்டம்|ரயில்|பஸ்|தேர்வு|camp|job", re.I))]
 PAGE_EN = {"namakkal": "Namakkal", "rasipuram": "Rasipuram", "coimbatore": "Coimbatore", "salem": "Salem", "erode": "Erode",
-           "karur": "Karur", "tirupur": "Tirupur", "trichy": "Trichy"}
+           "karur": "Karur", "tirupur": "Tiruppur", "trichy": "Trichy"}
 
 
 def log(*a):
