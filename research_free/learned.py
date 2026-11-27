@@ -79,7 +79,11 @@ def reach_weight(text, data=None):
 def hints():
     """short style guidance for the writer prompt; '' until enough posts have been measured"""
     d = load()
-    out = []
+    # owner 27 Nov evening (Trichy insights: politics 44 %, temple 62 %, education 67 % of reels under 500 views; meetings and
+    # statements stay low at any length): soft news must open with what it means for the people who watch
+    out = ["For temple, school / college, government, meeting or political news: the FIRST sentence of reel_script says what changes "
+           "for local people (a date, a place, a closure, a benefit, who can apply, what to bring) - never who spoke, who attended "
+           "or that a meeting was held. Keep it a fact from the article."]
     if d.get("avg_watch_s"):
         out.append(f"Viewers leave after about {d['avg_watch_s']} seconds on average: the FIRST sentence of reel_script must carry the most surprising fact (a number, place or consequence), never a greeting or background.")
     if d.get("top_openings"):
