@@ -83,6 +83,12 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-27 | `d963214` | Power cuts are never missed: held notices are rewritten at once |
+| 2026-11-27 | `d09f503` | stories shared / Instagram pause |
+| 2026-11-27 | `04893ac` | stories shared / Instagram pause |
+| 2026-11-27 | `1790b7e` | stories shared / Instagram pause |
+| 2026-11-27 | `95aeb37` | pick: written and posted |
+| 2026-11-27 | `111c380` | pick: picked news saved |
 | 2026-11-27 | `cd9d54a` | Blocked Google News links: also look for the same headline at another trusted outlet |
 | 2026-11-27 | `a1b5446` | stories shared / Instagram pause |
 | 2026-11-27 | `9c56c8c` | pick: picked news saved |
@@ -107,10 +113,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-27 | `5b2c58f` | stories shared / Instagram pause |
 | 2026-11-27 | `64dfbc0` | stories shared / Instagram pause |
 | 2026-11-27 | `b560016` | stories shared / Instagram pause |
-| 2026-11-27 | `eff7aaa` | stories shared / Instagram pause |
-| 2026-11-27 | `a99963c` | Views plan: note the 27 Nov evening changes (Valluvar + design A, reel fixes) |
-| 2026-11-27 | `1fce942` | stories shared / Instagram pause |
-| 2026-11-27 | `3fecd44` | stories shared / Instagram pause |
-| 2026-11-27 | `eff3dd3` | Trichy reels: captions follow the voice's own word clock |
-| 2026-11-27 | `d8a99bf` | Trichy reels: first picture change at 1.2 s, 2 s end card, headline at the top, no clock-hand sweep |
 <!-- recent-changes:end -->
