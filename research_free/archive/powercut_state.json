@@ -1009,7 +1009,7 @@
    "title": "coimbatore power cut: கோவையில் நாளை (27-11-2026) எத்தனை இடங்களில் மின் தடை ? - மின்வாரியம் வெளியிட்ட"
   },
   "https://tamil.abplive.com/news/trichy/trichy-power-cut-28-11-2026-know-timings-areas-affected-by-power-shutdown-280700#district-section": {
-   "at": "2026-11-28T00:34:00.651725+05:30",
+   "at": "2026-11-28T00:55:30.555079+05:30",
    "power_cut": true,
    "why": "",
    "title": "திருச்சி மாவட்டத்தில் நாளை (28-11-2026) மின்தடை: பல்வேறு பகுதிகளில் (நவம்பர் 28, 2026, சனிக்கிழமை) மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெற உள்ளதால், காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம் தடை"
@@ -1091,6 +1091,10 @@
   "C796575d": {
    "why": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)",
    "at": "2026-11-27T14:21:34.517109+05:30"
+  },
+  "C5d6c867": {
+   "why": "not filed: duplicate after write",
+   "at": "2026-11-28T00:58:41.621092+05:30"
   }
  }
 }
