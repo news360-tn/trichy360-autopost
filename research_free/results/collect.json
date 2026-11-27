@@ -3,127 +3,42 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.hindutamil.in/news/spirituals/devotees-perform-abishekam-to-12-jyotirlinga-in-srirangam",
+  "manual link added: https://tamil.abplive.com/news/trichy/trichy-power-cut-28-11-2026-know-timings-areas-affected-by-power-shutdown-280700",
   "candidate filter: collected=1",
   "to write: 1 Trichy district candidates (max 1 stories)",
   "round: top 1 of 1 candidates",
   "candidates waiting: 1 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.hindutamil.in/news/spirituals/devotees-perform-a",
-  "real photo from the source (Hindu Tamil Thisai) for '12 Jyotirlinga darshan begins in Srirang'",
-  "auto images: 1 of 1 stories ({})",
-  "posting job started at once",
-  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 75 min",
-  "filed: 1 Trichy district stories (target 1), reels only",
+  "try (N) manual=True: https://tamil.abplive.com/news/trichy/trichy-power-cut-28-11",
+  "NOT filed (N) Trichy Power Cut: திருச்சி மக்களே உஷார்! நாளை (28-: duplicate after write",
+  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 0}, time left 77 min",
+  "filed: 0 Trichy district stories (target 1), reels only",
   "queue: 0 news waiting to be written",
   "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.6-flash: Expecting ',' delimiter: line 1 column 1147 (char 1146)",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
   "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
+  "ok gemini/gemini-3.5-flash (46s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (11s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (17s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (17s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (14s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
-  "ok groq/openai/gpt-oss-120b (6s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "dead for this round: gemini/gemini-3-flash-preview",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok groq/qwen/qwen3.8-27b (5s)",
+  "ok groq/openai/gpt-oss-120b (6s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "ok groq/qwen/qwen3.8-27b (3s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "ok groq/openai/gpt-oss-120b (2s)"
  ],
- "stories": [
-  {
-   "tamil_headline": "ஸ்ரீரங்கத்தில் 12 ஜோதிர்லிங்க தரிசனம் தொடக்கம்: பக்தர்கள் அபிஷேகம் செய்து வழிபாடு",
-   "english_headline": "12 Jyotirlinga darshan begins in Srirangam; devotees perform abhishekam and aarti",
-   "category": "Temples & Events",
-   "location": "Srirangam, Trichy district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "ஆன்மிக நிகழ்வு",
-    "loc": "ஸ்ரீரங்கம்",
-    "hl1": "ஸ்ரீரங்கத்தில் 12 ஜோதிர்லிங்க தரிசனம்",
-    "hl2": "நவ. 29 வரை <b>3 நாள்</b>",
-    "slides": [
-     {
-      "title": "எங்கே, எப்போது?",
-      "lines": [
-       "ஸ்ரீரங்கம் அம்மா மண்டபம் சாலை சிருங்கேரி மடத்தில்",
-       "இன்று முதல் <b>நவ. 29</b> வரை நடைபெறும்",
-       "காலை <b>8 மணி</b> முதல் மதியம் <b>12 மணி</b> வரை, மாலை <b>4"
-      ]
-     },
-     {
-      "title": "என்ன நடந்தது?",
-      "lines": [
-       "12 ஜோதிர்லிங்கங்களுக்குப் பொதுமக்கள் தங்கள் கைகளால்",
-       "ஆரத்தி காட்டி சிறப்பு வழிபாடு செய்தனர்",
-       "அபிஷேக தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள்"
-      ]
-     },
-     {
-      "title": "பக்தர்களுக்கு",
-      "lines": [
-       "தேவார, திருவாசக நித்ய பாராயணம் நடைபெறும்",
-       "தினமும் மகா ஆரத்தி நடைபெறும்",
-       "வீட்டில் இருந்து கங்கை தீர்த்தம், காவிரி தீர்த்தம்"
-      ]
-     },
-     {
-      "title": "அடுத்த நிகழ்வு",
-      "lines": [
-       "ஜோதிர்லிங்கங்கள் <b>அடுத்த ஆண்டு பிப். 12</b> அன்று",
-       "பாரதியார் குருகுலத்தில் நடைபெறும்",
-       "இந்து முன்னணி சார்பில் ஏற்பாடு"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "ஸ்ரீரங்கத்தில் 12 ஜோதிர்லிங்க தரிசனம் இன்று தொடங்கியது. பொதுமக்கள் தங்கள் கைகளால் அபிஷேகம் செய்து வழிபடலாம். இந்நிகழ்வு நவம்பர் 29ஆம் தேதி வரை சிருங்கேரி மடத்தில் நடைபெறும். காலை 8 மணி முதல் மதியம் 12 மணி வரையும், மாலை 4 மணி முதல் இரவு 9 மணி வரையும் தரிசனம் செய்யலாம். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🙏 ஸ்ரீரங்கத்தில் 12 ஜோதிர்லிங்க தரிசனம் இன்று தொடக்கம்\n\n📰 முழு விவரம்:\nஸ்ரீரங்கத்தில் 12 ஜோதிர்லிங்க தரிசன நிகழ்வு இன்று தொடங்கியது. பொதுமக்கள் லிங்கங்களுக்கு அபிஷேகம் செய்து ஆரத்தி காட்டி வழிபட்டனர். அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக்தர்களுக்கு பிரசாதமாக வழங்கப்பட்டன.\nஇந்தியாவில் தமிழகத்தின் ராமேசுவரம் ராமநாதசுவாமி உட்பட 8 மாநிலங்களில் 12 ஜோதிர்லிங்கங்கள் உள்ளன. ஜோதிர்லிங்கங்களை தரிசனம் செய்வதன் மூலம் ஆன்மிக அமைதி, பாவ நிவர்த்தி, மனத்தெளிவு மற்றும் இறையருள் கிடைக்கும் என்பது பக்தர்களின் நம்பிக்கை.\nஇந்து முன்னணி சார்பில் 12 ஜோதிர்லிங்கங்களின் மாதிரிகள் தமிழகம் முழுவதும் கொண்டு செல்லப்பட்டன. கடந்த அக்டோபர் மாதம் திருவண்ணாமலையில் தொடங்கிய இந்த நிகழ்ச்சி, இன்று ஸ்ரீரங்கம் சிருங்கேரி மடத்துக்கு வந்தது.\nஅடுத்த ஆண்டு பிப். 12ஆம் தேதி திருச்சி உறையூர் அருகே சீராத்தோப்பில் உள்ள பாரதியார் குருகுலத்தில் ஜோதிர்லிங்கங்கள் பிரதிஷ்டை செய்ய திட்டமிடப்பட்டுள்ளது.\n🕘 தரிசன நேரம்: காலை 8 – மதியம் 12, மாலை 4 – இரவு 9 (நவ. 29 வரை)\n🕉️ தேவார, திருவாசக நித்ய பாராயணம், தினமும் மகா ஆரத்தி\n🌿 வீட்டில் இருந்து கங்கை தீர்த்தம், காவிரி தீர்த்தம், வில்வம், உதிரிப் பூக்கள், பூஜைப் பொருட்களை சமர்ப்பிக்கலாம்.\n\nSrirangam 12 Jyotirlinga darshan till 29 Nov | Trichy news\n📍 ஸ்ரீரங்கம், திருச்சி மாவட்டம் | 27 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Srirangam #திருச்சி #TrichyNews",
-   "prompts": "A large group of devotees stands in a queue facing a row of twelve stone Jyotirlinga models arranged on a platform. The main action is the public darshan where people offer water and perform aarti. The location is the courtyard of the Sringeri Mutt on Amma Mandapam Street in Srirangam, characterized by traditional temple architecture with gopurams visible in the background. The people are seen from behind, wearing traditional Tamil attire such as veshti and sarees, standing respectfully. In the foreground, the twelve lingams are clearly visible, each with a small aarti lamp burning nearby. The scene is bathed in bright daylight, suggesting the morning session of the event. The camera is positioned at eye level, 35 mm, capturing the depth of the crowd and the sacred objects in focus. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up view of the twelve Jyotirlinga models arranged in a neat row on a wooden or stone platform. The focus is on the objects themselves, showing the distinct shape of the lingams and the small aarti lamps placed in front of each one. Water vessels used for abhishekam are visible next to the lingams. The background is slightly blurred, showing the legs and feet of devotees standing in line, emphasizing the scale of the gathering. The lighting is natural daylight, highlighting the texture of the stone lingams and the flame of the lamps. This detail shot tells the story of the specific religious objects being worshipped during the event. The camera is slightly high, looking down at the arrangement to show all twelve models clearly. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide shot from the entrance of the Sringeri Mutt courtyard, looking towards the main temple structure. The crowd of devotees is seen from a distance, filling the open space in front of the temple. The gopuram of the Srirangam temple is visible in the background, establishing the location. The twelve Jyotirlinga models are visible on a raised platform in the middle ground, with priests or organizers standing near them. The scene captures the scale of the event and the architectural context of Srirangam. The light is bright daylight, casting soft shadows. The camera is wide, 35 mm, showing the relationship between the crowd, the sacred objects, and the temple building. The atmosphere is one of peaceful devotion and organized worship. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.hindutamil.in/news/spirituals/devotees-perform-abishekam-to-12-jyotirlinga-in-srirangam",
-   "published": "2026-11-27T14:04:54Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 3 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக'); 207 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக'); 121 ('அபிஷேக செய்த தீர்த்தம், விபூதி, படையலிட்ட உணவுப்பொருட்கள் பக')",
-   "note": "free-model draft anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b, 13 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/7c918acde9fd050f.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/7c918acde9fd050f.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/ebcfc157bba77e9b.jpg"
-   ],
-   "real_photo": "Hindu Tamil Thisai"
-  }
- ]
+ "stories": []
 }
