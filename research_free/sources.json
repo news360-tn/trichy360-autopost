@@ -28,5 +28,23 @@
   "url": "https://www.polimernews.com/tags/trichy",
   "link_regex": "href=\"((?:https://www\\.polimernews\\.com)?/districtnews/[^\"#?]+)\"",
   "limit": 30
+ },
+ {
+  "name": "தினத்தந்தி திருச்சி",
+  "url": "https://www.dailythanthi.com/news/tamilnadu",
+  "link_regex": "href=\"((?:https://www\\.dailythanthi\\.com)?/news/tamilnadu/(?:[a-z0-9]+-)*(?:trichy|tiruchi|tiruchirappalli|trichirappalli|srirangam|manapparai|lalgudi|musiri|thuraiyur|thottiyam|samayapuram|thiruverumbur|manachanallur|thuvakudi)(?:-[a-z0-9]+)*)\"",
+  "limit": 15
+ },
+ {
+  "name": "மாலைமலர் திருச்சி",
+  "url": "https://www.maalaimalar.com/news/district",
+  "link_regex": "href=\"((?:https://www\\.maalaimalar\\.com)?/news/(?:district|tamilnadu)/(?:[a-z0-9]+-)*(?:trichy|tiruchi|tiruchirappalli|trichirappalli|srirangam|manapparai|lalgudi|musiri|thuraiyur|thottiyam|samayapuram|thiruverumbur|manachanallur|thuvakudi)(?:-[a-z0-9]+)*)\"",
+  "limit": 15
+ },
+ {
+  "name": "மாலைமலர் திருச்சி (TN)",
+  "url": "https://www.maalaimalar.com/news/tamilnadu",
+  "link_regex": "href=\"((?:https://www\\.maalaimalar\\.com)?/news/tamilnadu/(?:[a-z0-9]+-)*(?:trichy|tiruchi|tiruchirappalli|trichirappalli|srirangam|manapparai|lalgudi|musiri|thuraiyur|thottiyam|samayapuram|thiruverumbur|manachanallur|thuvakudi)(?:-[a-z0-9]+)*)\"",
+  "limit": 15
  }
 ]
