@@ -1,44 +1,37 @@
-18:43:18 round 2026-11-27_18: news published 27 Nov 16:34 -> 27 Nov 18:43 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-18:43:18    + news published since 26 Nov 18:43 that no earlier round found (listed / indexed late) - never one already listed or posted
-18:43:18 insights 2026-11-27T18:43+05:30 (176 reels): topic weights {'accident': 0.74, 'crime': 1.4, 'power_cut': 1.17, 'civic': 0.23, 'education': -0.16, 'politics': -0.3, 'weather': -0.5, 'temple': -0.42, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
-18:44:57 open search 'திருச்சி' (from_google): 18 links from our outlets
-18:44:57 town searches (மணப்பாறை (+Google), ஸ்ரீரங்கம் (+Google), லால்குடி, முசிறி, துறையூர், திருவெறும்பூர், மண்ணச்சநல்லூர்): 7 links from our outlets
-18:44:57 search links: 37 Google links decoded, 0 not decoded, 111 known from an earlier round, 0 left for the next round, 28 of another district by their headline (not opened)
-18:44:57 97 links on the two papers' Trichy pages
-18:46:50 skipped: not Trichy district=35, already posted=24, published before this window=21, same event already posted=7, checked in an earlier round=5, only a headline=2, could not open (HTTPSConnectionPool(host='www.dinamalar.com', port)=1, no title=1
-18:46:50    drop [already posted] பேரவை துணைத் தலைவர் மீது நடவடிக்கை கோரிய வழக்கு தள்ளிவைப்பு | hindutamil.in/news/tamilnadu...deputy-speaker-adjourned-at-madurai-hc
-18:46:50    drop [not Trichy district] வேப்பேரி, பெரியார் திடலில் இன்று மனிதநேய நல்லிணக்க நலத்திட்ட | dinakaran.com/news/welfare_assistance_udhayanidhistalin
-18:46:50    drop [not Trichy district] ஆசை அத்தான்... பாக்கெட் நாவல் படத்தின் முதல் பாடல் அறிவிப்பு | dinamani.com/cinema/cinema-n...a-aththan-first-single-from-december-1
-18:46:50    drop [not Trichy district] தங்கம் விலை ஒரே நாளில் இருமுறை உயர்வு! | dinamani.com/tamilnadu/2026/...gold-price-rises-twice-in-a-single-day
-18:46:50    drop [not Trichy district] நாடாளுமன்ற சிறப்பு கூட்டத்தொடர்- எம்.பி.க்களுக்கு காங்கிரஸ்  | dinakaran.com/news/congress-...ip-ahead-of-special-parliament-sitting
-18:46:50    drop [not Trichy district] "உங்க பையன் வெற்றியை காண குறைந்தது 25 ஆண்டுகளுக்கு மேலாகும்" | tamil.oneindia.com/news/chen...e-years-for-him-to-achieve-848753.html
-18:46:50    drop [not Trichy district] மக்களவைத் தொகுதிகளின் எண்ணிக்கை 50% அதிகரிக்க மசோதா: ஒன்றிய  | dinakaran.com/news/bill-to-increase-number-lok-sabha-constituencies
-18:46:50    drop [not Trichy district] மாற்றுத் திறனாளிகள் ஓய்வூதியத்தை உயர்த்த கோரிய மனு தள்ளுபடி | hindutamil.in/news/tamilnadu...n-of-increase-disabled-persons-pension
-18:46:50    drop [not Trichy district] இடமலைகுடிக்கு சிறப்பு நிதி ஒதுக்கி முதல்வர் உத்தரவு | dinamalar.com/news/tamil-nad...e-special-fund-for-idamalagudi/4387554
-18:46:50    drop [not Trichy district] இந்திய அஞ்சல் துறையில் 24 டிரைவர் பணியிடங்கள்! 10-ம் வகுப்பு | tamil.abplive.com/news/tamil...icense-are-all-you-need-tnn-280679/amp
-18:46:50    drop [not Trichy district] 2வது டெஸ்ட் போட்டியில் ஜடேஜாவுக்கு இடம் கிடைக்காதது துரதிர்ஷ | dinakaran.com/news/sports_news/jadeja_sunil_gavaskar
-18:46:50    drop [not Trichy district] இந்திய அணிக்கு திரும்புவது பற்றிய எண்ணத்தை நிறுத்திவிட்டேன்: | dinakaran.com/news/indian_team_mohammedshami
-18:46:50    drop [not Trichy district] திருப்பங்குன்றம்..யார் யாருக்கு CALL போனது? 8 டாப் அதிகாரிகள | tamil.oneindia.com/news/chen...s-cdr-call-records-submiss-848735.html
-18:46:50    drop [not Trichy district] அஜித், நயன்தாரா சீக்கிரத்தில் காணாமல் போயிடுவாங்க.. தலையில்  | tamil.oneindia.com/televisio...-the-scene-is-it-because-t-848725.html
-18:46:50    drop [not Trichy district] 720 பக்க சார்ஜ்ஷீட்.. சிறுமி பாலியல் வழக்கிலிருந்து விடுவிக் | tamil.oneindia.com/news/chen...eramani-discharge-petition-848707.html
-18:46:50    drop [not Trichy district] டிசம்பர் மாத பலன் 2026: மேஷம் ராசிக்கு தொட்டதெல்லாம் வெற்றி. | tamil.oneindia.com/astrology...asi-in-this-december-month-848689.html
-18:46:50    drop [not Trichy district] தொடர்ந்து உயரும் தங்கம் விலை! இன்றைய நிலவரம் (நவ. 27) | dinamani.com/tamilnadu/2026/...continues-to-rise-todays-status-nov-27
-18:46:50    drop [not Trichy district] விநாயகா மிஷனில் இன்று சிறப்பு நிகழ்ச்சி | dinamalar.com/news/tamil-nad...vent-at-vinayaka-mission-today/4387380
-18:46:50    drop [not Trichy district] விவசாய சங்கம் ஆர்ப்பாட்டம் | dinamalar.com/news/tamil-nad...i/farmers-union-stages-protest/4387030
-18:46:50    drop [not Trichy district] பாட்மின்டன்: அரையிறுதியில் லக்சயா | dinamalar.com/news/sports-badminton
-18:46:50    drop [not Trichy district] 3-வது டி20: ஆஸ்திரேலியாவை வீழ்த்தி இங்கிலாந்து அபார வெற்றி! | dinamani.com/sports/cricket/...-brilliant-victory-defeating-australia
-18:46:50    drop [not Trichy district] கோ–ஆப்ரேட்டிவ் சொசைட்டியில் அதிக வட்டி, டிபாசிட் செய்யலாமா? | dinamalar.com/news/business-...rest-in-a-co-operative-society/4383675
-18:46:50    drop [not Trichy district] குப்பை, இறைச்சி கழிவுகளை கொட்டியவர்களுக்கு அபராதம் | dinamalar.com/news/tamil-nad...r-littering-garbage-meat-waste/4386834
-18:46:50    drop [not Trichy district] அரசியலமைப்பு தின விழா | dinamalar.com/news/puducherry/constitution-day-celebrations/4387242
-18:46:50    drop [not Trichy district] மின்சாரம் பாய்ந்து மெக்கானிக் உயிரிழப்பு | dinamani.com/all-editions/ed...B4%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81
-18:46:50    drop [not Trichy district] ஜெயிலுக்கு போனதால் பதிவி பறிப்போன எம்எல்ஏ-க்கள் யார் யார்?:  | tamil.samayam.com/tamil-nadu...-to-jail/amp_articleshow/136198768.cms
-18:46:50    drop [not Trichy district] விபத்துகளைத் தவிா்க்க தேசிய நெடுஞ்சாலையில் மேம்பாலம்: பொதுமக | dinamani.com/all-editions/ed...ay-to-prevent-accidents-public-request
-18:46:50    drop [not Trichy district] அமைப்புசாரா நல வாரியங்களில் உறுப்பினர் சேர்க்கை: ‘ஆன்லைனில்’ | dinamalar.com/news/tamil-nad...oards-apply-online-and-benefit/4386799
-18:46:50    drop [not Trichy district] புதை மின் வடம் பணி தாமதம்: வாகன ஓட்டிகள் கடும் அவதி | dinamalar.com/news/tamil-nad...ts-suffer-due-to-delay-in-work/4387149
-18:46:50    drop [not Trichy district] துளிர் திறன் தேர்வு | dinamalar.com/news/tamil-nad...amanathapuram/skills-selection/4387118
-18:46:50    drop [not Trichy district] 10 மாதங்களாக பயன்பாட்டுக்கு வராத 750 புதிய ‘ஏசி’ பஸ்கள் | dinamalar.com/news/tamil-nad...buses-not-in-use-for-10-months/4386944
-18:46:50    drop [not Trichy district] கொட்டி தீர்த்த கனமழை மரங்கள் விழுந்து பாதிப்பு | dinamalar.com/news/tamil-nad...es-uprooted-due-to-heavy-rains/4386921
-18:46:50 list: 1 new + 0 earlier news not posted yet
-18:46:50    1. [குற்றம்] முதியவரை தாக்கியவர் கைது - Dinakaran (தினகரன்) (published 27 Nov 01:53, found only now)
-18:46:50 DRY RUN: list shown only - no e-mail, the round is not saved
+18:48:26 round 2026-11-27_18: news published 27 Nov 16:34 -> 27 Nov 18:48 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+18:48:26    + news published since 26 Nov 18:48 that no earlier round found (listed / indexed late) - never one already listed or posted
+18:48:26 insights 2026-11-27T18:48+05:30 (176 reels): topic weights {'accident': 0.74, 'crime': 1.4, 'power_cut': 1.17, 'civic': 0.23, 'education': -0.16, 'politics': -0.3, 'weather': -0.5, 'temple': -0.42, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை']
+18:49:54 open search 'திருச்சி' (from_google): 15 links from our outlets
+18:49:54 town searches (மணப்பாறை (+Google), ஸ்ரீரங்கம் (+Google), லால்குடி, முசிறி, துறையூர், திருவெறும்பூர், மண்ணச்சநல்லூர்): 7 links from our outlets
+18:49:54 search links: 30 Google links decoded, 0 not decoded, 112 known from an earlier round, 0 left for the next round, 30 of another district by their headline (not opened)
+18:49:54 89 links on the two papers' Trichy pages
+18:57:32 skipped: not Trichy district=26, already posted=21, published before this window=19, could not open (HTTPSConnectionPool(host='www.dinamalar.com', port)=9, same event already posted=5, checked in an earlier round=5, only a headline=2, no title=1, could not open (404 Client Error: Not Found for url: https://tamil)=1
+18:57:32    drop [already posted] கன்டெய்னர் லாரி மோதி தந்தை, மகன் பரிதாப பலி | dinamalar.com/news/tamil-nad...illed-as-truck-rams-into-truck/4377013
+18:57:32    drop [not Trichy district] 22,500 கி.மீ வேகத்தில் பாய்ந்த நாசா விண்கலம்-திசைமாறிய விண்க | dinakaran.com/news/22500-km-h-impact-nasa-deflects-asteroid
+18:57:32    drop [already posted] பேரவை துணைத் தலைவர் மீது நடவடிக்கை கோரிய வழக்கு தள்ளிவைப்பு | hindutamil.in/news/tamilnadu...deputy-speaker-adjourned-at-madurai-hc
+18:57:32    drop [not Trichy district] வேப்பேரி, பெரியார் திடலில் இன்று மனிதநேய நல்லிணக்க நலத்திட்ட | dinakaran.com/news/welfare_assistance_udhayanidhistalin
+18:57:32    drop [not Trichy district] ஆசை அத்தான்... பாக்கெட் நாவல் படத்தின் முதல் பாடல் அறிவிப்பு | dinamani.com/cinema/cinema-n...a-aththan-first-single-from-december-1
+18:57:32    drop [not Trichy district] தங்கம் விலை ஒரே நாளில் இருமுறை உயர்வு! | dinamani.com/tamilnadu/2026/...gold-price-rises-twice-in-a-single-day
+18:57:32    drop [not Trichy district] நாடாளுமன்ற சிறப்பு கூட்டத்தொடர்- எம்.பி.க்களுக்கு காங்கிரஸ்  | dinakaran.com/news/congress-...ip-ahead-of-special-parliament-sitting
+18:57:32    drop [not Trichy district] டி. ராஜா போட்ட குண்டு.. பெண்கள் இட ஒதுக்கீடா.. தொகுதி மறுவரை | tamil.oneindia.com/news/chen...-bjp-government-s-strategy-848757.html
+18:57:32    drop [not Trichy district] "உங்க பையன் வெற்றியை காண குறைந்தது 25 ஆண்டுகளுக்கு மேலாகும்" | tamil.oneindia.com/news/chen...e-years-for-him-to-achieve-848753.html
+18:57:32    drop [not Trichy district] பாராட்டு விழா | dinamalar.com/news/tamil-nad...vagangai/appreciation-ceremony/4387556
+18:57:32    drop [not Trichy district] வீட்டின் அஸ்திவாரத்தை அரிக்கும் ஈரப்பதம் அடித்தளத்தில் ‘பிளி | dinamalar.com/news/tamil-nad...d-protection-on-the-foundation/4387559
+18:57:32    drop [not Trichy district] மக்களவைத் தொகுதிகளின் எண்ணிக்கை 50% அதிகரிக்க மசோதா: ஒன்றிய  | dinakaran.com/news/bill-to-increase-number-lok-sabha-constituencies
+18:57:32    drop [not Trichy district] மாற்றுத் திறனாளிகள் ஓய்வூதியத்தை உயர்த்த கோரிய மனு தள்ளுபடி | hindutamil.in/news/tamilnadu...n-of-increase-disabled-persons-pension
+18:57:32    drop [could not open (HTTPSConnectionPool(host='www] இடமலைகுடிக்கு சிறப்பு நிதி ஒதுக்கி முதல்வர் உத்தரவு | dinamalar.com/news/tamil-nad...e-special-fund-for-idamalagudi/4387554
+18:57:32    drop [not Trichy district] 2வது டெஸ்ட் போட்டியில் ஜடேஜாவுக்கு இடம் கிடைக்காதது துரதிர்ஷ | dinakaran.com/news/sports_news/jadeja_sunil_gavaskar
+18:57:32    drop [not Trichy district] இந்திய அணிக்கு திரும்புவது பற்றிய எண்ணத்தை நிறுத்திவிட்டேன்: | dinakaran.com/news/indian_team_mohammedshami
+18:57:32    drop [not Trichy district] திருப்பங்குன்றம்..யார் யாருக்கு CALL போனது? 8 டாப் அதிகாரிகள | tamil.oneindia.com/news/chen...s-cdr-call-records-submiss-848735.html
+18:57:32    drop [not Trichy district] அஜித், நயன்தாரா சீக்கிரத்தில் காணாமல் போயிடுவாங்க.. தலையில்  | tamil.oneindia.com/televisio...-the-scene-is-it-because-t-848725.html
+18:57:32    drop [not Trichy district] 720 பக்க சார்ஜ்ஷீட்.. சிறுமி பாலியல் வழக்கிலிருந்து விடுவிக் | tamil.oneindia.com/news/chen...eramani-discharge-petition-848707.html
+18:57:32    drop [not Trichy district] டிசம்பர் மாத பலன் 2026: மேஷம் ராசிக்கு தொட்டதெல்லாம் வெற்றி. | tamil.oneindia.com/astrology...asi-in-this-december-month-848689.html
+18:57:32    drop [not Trichy district] தொடர்ந்து உயரும் தங்கம் விலை! இன்றைய நிலவரம் (நவ. 27) | dinamani.com/tamilnadu/2026/...continues-to-rise-todays-status-nov-27
+18:57:32    drop [not Trichy district] 3-வது டி20: ஆஸ்திரேலியாவை வீழ்த்தி இங்கிலாந்து அபார வெற்றி! | dinamani.com/sports/cricket/...-brilliant-victory-defeating-australia
+18:57:32    drop [not Trichy district] டாலருக்கு நிகரான ரூபாய் மதிப்பு 60 காசுகள் சரிந்து ரூ. 92.98 | dinamani.com/trade/2026/Nov/27/rupee-dips-60-paise-to-9298
+18:57:32    drop [not Trichy district] மின்சாரம் பாய்ந்து மெக்கானிக் உயிரிழப்பு | dinamani.com/all-editions/ed...B4%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81
+18:57:32    drop [could not open (404 Client Error: Not Found f] ஜெயிலுக்கு போனதால் பதிவி பறிப்போன எம்எல்ஏ-க்கள் யார் யார்?:  | tamil.samayam.com/tamil-nadu...-to-jail/amp_articleshow/136198768.cms
+18:57:32    drop [not Trichy district] விபத்துகளைத் தவிா்க்க தேசிய நெடுஞ்சாலையில் மேம்பாலம்: பொதுமக | dinamani.com/all-editions/ed...ay-to-prevent-accidents-public-request
+18:57:32 list: 0 new + 0 earlier news not posted yet
+18:57:32 no news in this window - no e-mail
 ROUND=2026-11-27_18
