@@ -103,7 +103,7 @@ class EndingAndVoices(unittest.TestCase):
             self.assertRegex(v, r"^ta-(IN|MY|SG|LK)-\w+Neural$")
         self.assertEqual(len(pool), len(set(pool)))
 
-    @unittest.skipUnless(VT.get("enabled"), "views test is off")
+    @unittest.skipUnless(VT.get("enabled") and len((CFG.get("reel_voice") or {}).get("ab_voices") or []) > 1, "one voice only (no voice test)")
     def test_same_story_same_voice_and_every_voice_used(self):
         pool = CFG["reel_voice"]["ab_voices"]
         seen = set()
