@@ -31,7 +31,10 @@ jobs:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CLAUDE_MAX_CALLS: "0"      # Trichy: Claude backup OFF (free models only; no ANTHROPIC_API_KEY passed)
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}      # owner 27 Nov ("do not miss power cut news"): paid backup for POWER CUTS only
+          ANTHROPIC_MODEL: claude-haiku-5-5
+          AUTOFIX_CLAUDE: power_cut      # Trichy: every other held news stays free-models-only (research_free/autofix.py)
+          CLAUDE_MAX_CALLS: "12"      # cost guard per run (a power-cut rewrite is ~3-4 calls)
           BUDGET_MIN: "50"
         run: mkdir -p research_free/results && python -u research_free/autofix.py 2>&1 | tee research_free/results/autofix.log
       - name: Save the corrected news

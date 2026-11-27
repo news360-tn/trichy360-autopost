@@ -3295,7 +3295,8 @@ _ARTICLE_TEXT = {}
 def _location_still_wrong(row, problem):
     """owner 2 Nov (RN-284 'பரமத்தி வேலூர்' vs the article's 'ப.வேலுார்'): a 'location not in the article' note saved before the check was
     fixed is judged again against the article with today's check. Article not readable -> the note stands (held)."""
-    if not problem.startswith("not grounded: location"):
+    kind = next((k for k in ("not grounded: location", "not grounded: place word") if problem.startswith(k)), "")      # owner 27 Nov: place word too (RN-259)
+    if not kind:
         return True
     src = str(row.get("source") or "").strip()
     if not src.startswith("http"):
@@ -3310,8 +3311,9 @@ def _location_still_wrong(row, problem):
         if len(art) < 200:
             return True
         sp = json.loads(row.get("slides_spec") or "{}")
-        now = [p for p in validate.grounding_problems({"slides_spec": sp, "tamil_headline": "", "reel_script": "", "caption": ""}, art)
-               if p.startswith("not grounded: location")]
+        head = str(row.get("headline_ta") or "") if kind.endswith("word") else ""
+        now = [p for p in validate.grounding_problems({"slides_spec": sp, "tamil_headline": head, "reel_script": "", "caption": ""}, art)
+               if p.startswith(kind)]
         if not now:
             log("hold lifted:", row.get("story_id"), "-", problem[:80], "- the location IS in the article (checked again)")
         return bool(now)

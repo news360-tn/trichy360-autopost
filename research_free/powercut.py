@@ -324,6 +324,10 @@ def cmd_verify():
         if v == "posted":
             continue
         why = refused.get(k, "") if v == "not written" else _never_posted(by.get(k)) if v.startswith("queued") else ""
+        if why.startswith("held: fact-check") and want[k].get("cut_day", "9") >= now.date().isoformat() and not fr().power_cut_over(want[k]["title"], "", want[k]["published"], now):
+            log(f"   HELD {k}: {why[:150]} - {want[k]['title'][:60]} (autofix.py powercut rewrites it)")      # owner 27 Nov: never silent
+            bad[k] = "held by the fact-check"
+            continue
         if why:
             log(f"   SKIPPED {k}: {why[:150]} - {want[k]['title'][:60]}")      # never posted on purpose - not a failure
             continue

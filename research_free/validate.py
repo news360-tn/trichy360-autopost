@@ -55,7 +55,13 @@ def _tamil_words(t):
 
 
 def _stem(w):
-    return w.replace("\u0bc1\u0bbe", "\u0bc2")[:4]      # Dinamalar writes ூ as ுா ('வேலுார்' = 'வேலூர்')
+    return _old_print(w)[:4]      # Dinamalar writes ூ as ுா ('வேலுார்' = 'வேலூர்')
+
+
+def _old_print(t):
+    """the old print forms the papers still use: ூ as ுா ('வேலுார்' = 'வேலூர்'), ர் as ா் (Dinamani: 'குமாா் நகா்' = 'குமார் நகர்';
+    owner 27 Nov - the Kumar Nagar power cut (Tirupur RN-259) was held as 'place word நகர் is not in the article')"""
+    return (t or "").replace("\u0bc1\u0bbe", "\u0bc2").replace("\u0bbe\u0bcd", "\u0bb0\u0bcd")
 
 
 def _initial(w):
@@ -88,7 +94,7 @@ def district_only(loc):
 
 
 def names_place(text, loc):
-    t = (text or "").replace("\u0bc1\u0bbe", "\u0bc2")
+    t = _old_print(text)
     return any(_stem(w) in t for w in place_words(loc))
 
 
@@ -146,7 +152,7 @@ def grounding_problems(d, article):
     # 1) the place named in the headline / location must be in the article
     for fld in ("tamil_headline",):
         for w in _tamil_words(d.get(fld, ""))[:3]:
-            if re.search(r"(ூர்|புரம்|பாளையம்|பட்டி|பேட்டை|கோடு|மலை|நகர்|பாளை|ம்பட்டி)", w) and _stem(w) not in stems:
+            if re.search(r"(ூர்|புரம்|பாளையம்|பட்டி|பேட்டை|கோடு|மலை|நகர்|பாளை|ம்பட்டி)", w) and _stem(w) not in stems and w not in GENERIC_LOC:
                 out.append(f"not grounded: place word '{w}' is not in the article")
     loc = (d.get("slides_spec") or {}).get("loc", "")
     if NO_PLACE.search(loc):      # owner 2 Nov (RN-289: loc 'விவரம் இல்லை') - a location never says that it is not known
@@ -303,7 +309,7 @@ def caption_problems(cap, reach=None):
 
 
 def _stems4(t):
-    return {w[:4] for w in re.findall(r"[\u0B80-\u0BFF]{4,}", t or "")}
+    return {w[:4] for w in re.findall(r"[\u0B80-\u0BFF]{4,}", _old_print(t))}
 
 
 GENERIC4 = {"நாமக்", "மாவட", "திரு", "ராசி", "இராச", "செய்", "தெரி", "இந்த", "அந்த", "பகுத", "மேலு", "நடைப", "வருக", "உள்ள", "என்ற",

@@ -42,6 +42,7 @@ reel_script rules
 - Write numbers, dates and times as DIGITS in reel_script (7 பேர், 2,600 டன், ரூ.9 லட்சம், 21ம் தேதி, காலை 9 மணி); the system turns them into correct spoken Tamil number words. Never write number words yourself. No English letters here.
 - 4-7 short sentences, 35-75 words in total (owner 26 Nov views test: a reel is about 20-35 seconds). Tell the most important facts once each (what, exact where, when, the key number, how it ended / what people should do); leave the rest out of the reel - the caption's "📰 முழு விவரம்:" block holds the WHOLE story.
 - POWER SHUTDOWN exception (owner 30 Oct): a power-cut story may use up to 160 words (at most 90 seconds) - read the date, the time, the substation and EVERY affected area exactly as published, none dropped, never guessed. All other rules stay the same.
+- POWER CUT numbers (owner 27 Nov - power cuts were held as 'numbers not found in the article'): write ONLY the numbers the notice prints - its date, its times (as printed: 'காலை 9 முதல் மாலை 5 மணி வரை', never 24-hour '17:00'), the feeder / substation numbers. Never add a number of your own: no duration ('8 மணி நேரம்'), no count of areas, no year or weekday the notice does not print.
 - The LAST sentence is exactly: மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.
 - No private individuals' names, no source names.
 

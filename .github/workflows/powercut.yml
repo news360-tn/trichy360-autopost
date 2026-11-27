@@ -84,13 +84,17 @@ jobs:
             echo "writer exit $? (try $TRY)" >> research_free/results/powercut_write.log; sleep 30
           done
           tail -25 research_free/results/powercut_write.log
+          # owner 27 Nov ("do not miss power cut news"): a power cut HELD by the fact-check is written again at once (autofix.py powercut,
+          # paid Claude backup for power cuts only) - it used to wait for the free writers and was never posted (Tirupur RN-259, RN-294)
+          AUTOFIX_CLAUDE=power_cut python -u research_free/autofix.py powercut >> research_free/results/autofix_powercut.log 2>&1 || true
+          tail -8 research_free/results/autofix_powercut.log
           gh api -X POST "repos/$GH_REPO/actions/workflows/post.yml/dispatches" -f ref=main -f "inputs[dry_run]=false" -f "inputs[prebuild]=false" >/dev/null 2>&1 || true
       - name: Save state (a notice is never written twice)
         if: always() && env.POWERCUT_DRY != '1'
         run: |
           git config user.name "news360-bot"; git config user.email "bot@users.noreply.github.com"
           python research_free/powercut.py remember || true      # owner 11 Nov: the writer's refusals are kept for later checks
-          for f in research_free/archive/powercut_state.json research_free/results/powercut.log research_free/results/powercut_write.log; do [ -f "$f" ] && git add -f "$f"; done; true      # owner 2 Nov (review): one missing file made the whole add fail - the state was never saved
+          for f in research_free/archive/powercut_state.json research_free/results/powercut.log research_free/results/powercut_write.log research_free/results/autofix_powercut.log poster/fixed; do [ -e "$f" ] && git add -f "$f"; done; true      # owner 2 Nov (review): one missing file made the whole add fail - the state was never saved
           git commit -qm "powercut: notices written" || true
           for i in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash origin main && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((i*4)); done || true
       - name: Check every power cut is on Instagram (else post again; after 40 minutes fail loudly)
@@ -100,6 +104,12 @@ jobs:
           for i in $(seq 1 8); do
             sleep 300
             python -u research_free/powercut.py verify 2>&1 | tee -a research_free/results/powercut.log && exit 0
+            AUTOFIX_CLAUDE=power_cut python -u research_free/autofix.py powercut > /tmp/af.log 2>&1 || true      # owner 27 Nov: a held power cut is rewritten, then posted
+            cat /tmp/af.log >> research_free/results/autofix_powercut.log
+            if grep -q "FIXED - posts" /tmp/af.log; then
+              git add -f poster/fixed research_free/results/autofix_powercut.log; git commit -qm "powercut: held notice corrected" || true
+              for j in 1 2 3 4 5; do git pull -q --rebase -X theirs --autostash origin main && git push -q && break; git rebase --abort 2>/dev/null || true; sleep $((j*4)); done || true
+            fi
             gh api -X POST "repos/$GH_REPO/actions/workflows/post.yml/dispatches" -f ref=main -f "inputs[dry_run]=false" -f "inputs[prebuild]=false" >/dev/null 2>&1 || true
           done
           echo "::error::a power-cut notice is still not posted after 40 minutes - see 'NOT POSTED' lines above"; exit 1
