@@ -55,3 +55,28 @@
 04:32:46   12. [நீதிமன்றம்] விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ்களை ஏலம்  (தினமலர்) (earlier)
 04:32:46 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
 ROUND=2026-11-28_04
+04:32:53 round 2026-11-28_04 (at least 3, up to 3 more of well-watched topics): 12 news to choose from (2 from earlier rounds), ranked by this page's insights
+04:32:53   PICK   1.  15.8 [power_cut +0.94 page] லால்குடி பகுதிகளில் இன்று மின்தடை
+04:32:53   PICK   2.  16.2 [crime +1.29 page] மென்பொறியாளரிடம் ரூ. 1.90 லட்சம் மோசடி
+04:32:53   PICK   3.  16.2 [crime +1.29 page] பொய்த் தகவல் அளித்து ஜாமீன் பெற்றவா் கைது
+04:32:53   PICK   4.  13.6 [accident +0.91 page] சமயபுரத்தில் விபத்து: சுற்றுலா வேனில் வந்த குழந்தை உயிரிழப்ப
+04:32:53   EXTRA  5.  13.6 [accident +0.91 page] வாகனத் தணிக்கையின்போது லோடு வேன் கவிழ்ந்து விபத்து
+04:32:53   EXTRA  6.  12.6 [accident +0.91 page] Road Accident | TN Police | திருச்சி - சென்னை நெடுஞ்சாலையில்
+04:32:53          7.   9.5 [civic +0.26 page] (earlier) விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
+04:32:53          8.   9.0 [weather -0.50 page] (earlier) தம்மம்பட்டி - திருச்சி நெடுஞ்சாலையில் தேங்கும் மழைநீரால் விப
+04:32:53          9.   9.0 [other +0.00 pattern] திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
+04:32:53         10.   7.0 [civic +0.26 page] மாற்றம் தேவை! திருச்சி – திண்டுக்கல் ரயில் புறப்படும் நேரத்த
+04:32:53         11.   6.0 [other +0.00 pattern] ஊரக மகளிருக்கு கறவை மாடுகள் விண்ணப்பிக்க அழைப்பு
+04:32:53         12.   1.0 [poultry_agri -0.50 page] திருச்சியை வறட்சிப் பாதித்த மாவட்டமாக அறிவிக்க வேண்டும்: குற
+04:32:53 decided: automatic: top 3 of 12 by insights + 2 more well-watched + 1 power cut -> 6 news to write and post
+PICK_URLS=https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/power-outage-in-lalgudi-areastoday https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/rs-190-lakh-swindled-from-software-engineer https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/person-who-obtained-bail-by-providing-false-information-arrested https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/accident-in-samayapuram-child-in-tourist-van-dies-14-others-injured https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/load-van-overturns-during-vehicle-inspection https://www.thanthitv.com/news/tamilnadu/tanker-truck-accident-on-trichy-chennai-highway
+04:36:26 1 picked news refused by the writer - not offered again
+04:36:26 5 listed news now in the Sheet
+04:36:34 instagram duplicate check trichy: 50 recent posts read
+04:36:34 verify 2026-11-28_04: 0 of 6 picked news posted, 2 skipped on purpose, 4 waiting for their posting start
+04:36:34    WAITING C72d99ef: waiting RN-191: night: only urgent news posts outside 06:00-22:00 IST (owner 27 Nov) - மென்பொறியாளரிடம் ரூ. 1.90 லட்சம் மோசடி
+04:36:34    WAITING C8e68147: waiting RN-188: night: only urgent news posts outside 06:00-22:00 IST (owner 27 Nov) - வாகனத் தணிக்கையின்போது லோடு வேன் கவிழ்ந்து விபத்து
+04:36:34    WAITING C9f13a69: waiting RN-190: night: only urgent news posts outside 06:00-22:00 IST (owner 27 Nov) - பொய்த் தகவல் அளித்து ஜாமீன் பெற்றவா் கைது
+04:36:34    WAITING Cce99a4e: waiting RN-189: night: only urgent news posts outside 06:00-22:00 IST (owner 27 Nov) - சமயபுரத்தில் விபத்து: சுற்றுலா வேனில் வந்த குழந்தை உயிரிழப்ப
+04:36:34    SKIPPED C40e90bd: skipped RN-178: not this district's news (the headline names another district / town) - Road Accident | TN Police | திருச்சி - சென்னை நெடுஞ்சாலையில்
+04:36:34    SKIPPED C972569b: skipped: the writer refused it - not filed: duplicate after write - லால்குடி பகுதிகளில் இன்று மின்தடை

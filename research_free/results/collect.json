@@ -3,124 +3,458 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dailythanthi.com/news/tamilnadu/fellow-police-officer-arrested-for-cheating-on-female-police-officer-by-falling-in-love",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/seized-policeman-injured-as-van-overturns/4388104",
-  "candidate filter: collected=2",
-  "to write: 2 Trichy district candidates (max 2 stories)",
-  "round: top 2 of 2 candidates",
-  "candidates waiting: 2 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-district-news-tric",
-  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/fellow-police-of",
-  "NOT filed (N) பெண் போலீசை காதலித்து ஏமாற்றியதாக, சக போலீஸ்காரர் : not Trichy district news (the story's first lines name another place and no Trichy place)",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/power-outage-in-lalgudi-areastoday",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/rs-190-lakh-swindled-from-software-engineer",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/person-who-obtained-bail-by-providing-false-information-arrested",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/accident-in-samayapuram-child-in-tourist-van-dies-14-others-injured",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/load-van-overturns-during-vehicle-inspection",
+  "manual link added: https://www.thanthitv.com/news/tamilnadu/tanker-truck-accident-on-trichy-chennai-highway",
+  "candidate filter: collected=6",
+  "to write: 6 Trichy district candidates (max 6 stories)",
+  "round: top 6 of 6 candidates",
+  "candidates waiting: 6 Trichy; time left 79 min",
+  "try (N) manual=True: https://www.thanthitv.com/news/tamilnadu/tanker-truck-accide",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
   "posting job started at once",
-  "candidate loop ended: left 0, tried={'N': 2}, done={'N': 1}, time left 78 min",
-  "filed: 1 Trichy district stories (target 2), reels only",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 7})",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 10})",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 12})",
+  "NOT filed (N) லால்குடி பகுதிகளில் \nஇன்று மின்தடை: duplicate after write",
+  "candidate loop ended: left 0, tried={'N': 6}, done={'N': 5}, time left 76 min",
+  "filed: 5 Trichy district stories (target 6), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":2,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":6,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
+  "ok groq/openai/gpt-oss-120b (7s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing ",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "dead for this round: gemini/gemini-3-flash-preview",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "ok groq/qwen/qwen3.8-27b (6s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "switching away from groq/openai/gpt-oss-120b for 10 min",
   "ok anthropic/claude-haiku-5-5",
-  "ok groq/qwen/qwen3.8-27b (4s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "ok anthropic/claude-haiku-5-5",
+  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
   "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/qwen/qwen3.8-27b (0s)",
   "ok groq/qwen/qwen3.8-27b (3s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok groq/qwen/qwen3.8-27b (3s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok groq/qwen/qwen3.8-27b (6s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "பறிமுதல் செய்த வேன் கவிழ்ந்து போலீஸ்காரர் காயம்",
-   "english_headline": "Seized van overturns while being driven to police station, policeman injured",
-   "category": "Crime & Safety",
+   "tamil_headline": "உளுந்தூர்பேட்டை அருகே டேங்கர் லாரி விபத்து, போக்குவரத்து பாதிப்பு",
+   "english_headline": "Cement powder tanker overturns in 5-ft roadside pit near Ulundurpet on Trichy-Chennai highway; 3 km traffic jam",
+   "category": "Roads & Transport",
+   "location": "Ulundurpet, Kallakurichi district",
+   "importance": "High",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "சாலை விபத்து",
+    "loc": "உளுந்தூர்பேட்டை",
+    "hl1": "உளுந்தூர்பேட்டை அருகே லாரி கவிழ்ந்தது",
+    "hl2": "3 கிலோமீட்டர் போக்குவரத்து",
+    "slides": [
+     {
+      "title": "என்ன நடந்தது?",
+      "lines": [
+       "சிமெண்ட் பவுடர் டேங்கர் லாரி கவிழ்ந்தது",
+       "தேசிய நெடுஞ்சாலையோர <b>5 அடி</b> பள்ளத்தில் விபத்து",
+       "திருச்சி - சென்னை நெடுஞ்சாலையில் நடந்தது"
+      ]
+     },
+     {
+      "title": "போக்குவரத்து",
+      "lines": [
+       "<b>3 கிலோமீட்டர்</b> தூரத்திற்கு வாகனங்கள் அணிவகுத்து நின்றன",
+       "இதனால் போக்குவரத்து பாதிப்பு ஏற்பட்டுள்ளது",
+       "வாகன ஓட்டிகள் மாற்றுப் பாதையை பயன்படுத்துங்கள்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "உளுந்தூர்பேட்டை அருகே சிமெண்ட் பவுடர் டேங்கர் லாரி 5 அடி பள்ளத்தில் கவிழ்ந்தது. திருச்சி - சென்னை தேசிய நெடுஞ்சாலையில் இந்த விபத்து நடந்தது. இதனால் 3 கிலோமீட்டர் தூரத்திற்கு வாகனங்கள் அணிவகுத்து நின்றன. போக்குவரத்து பாதிப்பு ஏற்பட்டுள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚚 உளுந்தூர்பேட்டை அருகே டேங்கர் லாரி கவிழ்ந்து 3 கிலோமீட்டர் போக்குவரத்து பாதிப்பு\n\n📰 முழு விவரம்:\nஉளுந்தூர்பேட்டை அருகே திருச்சி - சென்னை தேசிய நெடுஞ்சாலையோரம் உள்ள 5 அடி பள்ளத்தில் சிமெண்ட் பவுடர் ஏற்றிச் சென்ற டேங்கர் லாரி கவிழ்ந்து விபத்துக்குள்ளானது.\nஇதனால் 3 கிலோமீட்டர் தூரத்திற்கு வாகனங்கள் அணிவகுத்து நின்றதால் போக்குவரத்து பாதிப்பு ஏற்பட்டுள்ளது.\n\n📍 இடம்: உளுந்தூர்பேட்டை அருகே, திருச்சி - சென்னை தேசிய நெடுஞ்சாலை\nℹ️ மக்கள் கவனத்திற்கு: இந்தப் பகுதியில் பயணம் செய்வோர் மாற்றுப் பாதையைப் பயன்படுத்துங்கள்.\n\nUlundurpet tanker accident, 3 km traffic jam | Trichy news\n📍 உளுந்தூர்பேட்டை, கள்ளக்குறிச்சி மாவட்டம் | 28 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Ulundurpet #RoadAccident #TrichyNews",
+   "prompts": "A large grey cement powder tanker lorry lies on its side in a deep roadside pit beside a busy national highway near Ulundurpet, its tyres pointing upward and a patch of pale cement dust spilled on the dirt around it. Behind it, a long queue of stopped vehicles stretches into the distance along the highway: lorries, cars, autorickshaws and two-wheelers waiting in both lanes, forming the 3 km traffic jam. The setting is a flat rural-semi-urban stretch of Tamil Nadu road with dry scrubland, a low earth embankment and a few roadside trees under daylight. A few Tamil Nadu police in khaki stand at a distance near the pit, and some onlookers in shirts and trousers, seen from behind, watch from the shoulder. Daylight, dry road, no visible injuries. Camera: eye level, 35 mm, wide enough to show the tanker, the pit and the stretch of stopped traffic behind it. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of the overturned cement powder tanker's tank and its wheels resting at the bottom of a 5-foot roadside pit, with fine pale cement powder dusted over the soil and the edge of the pit. Metal tank surface and tyres are clearly visible, with the grey dust spread around the tyres and the sloping earth wall of the pit behind. Above the pit edge, the national highway shoulder and the rear of a few stopped vehicles can be seen, showing the connection between the accident and the jam. Daylight, dry dusty ground, no people in the foreground, no injuries. Camera: slightly high angle, 35 mm, close enough to make the tanker and the spilled powder the clear focus. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.thanthitv.com/news/tamilnadu/tanker-truck-accident-on-trichy-chennai-highway",
+   "published": "",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: slides must have 3 or 4 items",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/f23527eeb82fae77.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/5cf3dd008568c01a.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "முசிறியில் வாகனத் தணிக்கையில் லோடு வேன் கவிழ்ந்து விபத்து",
+   "english_headline": "Lorry overturns in canal during vehicle check in Musiri; driver found drunk",
+   "category": "Roads & Transport",
    "location": "Musiri, Trichy district",
    "importance": "Medium",
    "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "விபத்து",
-    "loc": "முசிறி, திருச்சி மாவட்டம்",
-    "hl1": "முசிறியில் வேன் போலீஸ்காரர் காயம்",
-    "hl2": "பறிமுதல் செய்த வேன் விபத்து",
+    "cat": "சாலை விபத்து",
+    "loc": "முசிறி",
+    "hl1": "முசிறியில் லோடு வேன் கவிழ்ந்து விபத்து",
+    "hl2": "மது போதையில் ஓட்டுநர்",
     "slides": [
      {
       "title": "என்ன நடந்தது?",
       "lines": [
-       "வாழைத்தார் ஏற்றிய வேனை போலீசார் பறிமுதல் செய்தனர்",
-       "குடிபோதையில் ஓட்டிய டிரைவருக்கு அபராதம் விதிக்கப்பட்டது",
-       "வேனை போலீஸ் ஸ்டேஷனுக்கு ஓட்டிச் சென்றபோது கவிழ்ந்தது"
+       "வாகனத் தணிக்கையில் கைப்பற்றிய வாழைக்காய் லோடு வேன்",
+       "காவல் நிலையத்துக்கு ஓட்டிச் சென்றபோது விபத்து",
+       "வியாழக்கிழமை இரவு நடந்தது"
       ]
      },
      {
-      "title": "யார்? எங்கே?",
+      "title": "எங்கே?",
       "lines": [
-       "வேனை ஓட்டிய போலீஸ்காரர் மருதமுத்து, <b>40</b>, காயமடைந்தார்",
-       "முசிறி காவிரி பாலம் அருகே சம்பவம் நடந்தது",
-       "வேன் உரிமையாளர் மாணிக்கவாசகம், <b>45</b>, குளித்தலையைச் சேர்ந்தவர்"
+       "முசிறி அருகே சந்தப்பாளையம்",
+       "குளித்தலை–முசிறி இணைக்கும் பெரியார் பாலம் அருகே தணிக்கை",
+       "சாலையோர பாசன வாய்க்காலில் வேன் கவிழ்ந்தது"
       ]
      },
      {
-      "title": "இறுதியில் என்ன?",
+      "title": "என்ன ஆனது?",
       "lines": [
-       "உரிமையாளர் உறவினர்களுடன் சேர்ந்து மறியலில் ஈடுபட்டார்",
-       "போலீசார் பேச்சு நடத்தி மறியலைக் கைவிடச் செய்தனர்"
+       "ஓட்டுநர் விஜய் மது போதையில் இருந்தது தெரிந்தது",
+       "காவலர் மருதமுத்து காயமடைந்தார்",
+       "உரிமையாளர் நள்ளிரவில் சாலை மறியல் செய்ய முயன்றார்"
+      ]
+     },
+     {
+      "title": "முடிவு",
+      "lines": [
+       "தொட்டியம் போலீசார் பேச்சுவார்த்தை நடத்தினர்",
+       "பேச்சுவார்த்தையில் போராட்டம் கைவிடப்பட்டது"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "முசிறி அருகே பறிமுதல் செய்த வேன் கவிழ்ந்ததில் போலீஸ்காரர் காயமடைந்தார். வாழைத்தார் ஏற்றிய வேனை போலீசார் பறிமுதல் செய்தனர். குடிபோதையில் வேனை ஓட்டிய டிரைவருக்கு அபராதம் விதிக்கப்பட்டது. வேனை போலீஸ் ஸ்டேஷனுக்கு ஓட்டிச் சென்றபோது சாலையோர பள்ளத்தில் கவிழ்ந்தது. வேனை ஓட்டிய போலீஸ்காரர் மருதமுத்து (40 வயது), காயமடைந்தார். உரிமையாளர் மாணிக்கவாசகம் உறவினர்களுடன் மறியலில் ஈடுபட்டார். போலீசார் பேச்சு நடத்தி மறியலைக் கைவிடச் செய்தனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 முசிறியில் பறிமுதல் செய்த வேன் கவிழ்ந்து போலீஸ்காரர் காயம்\n\n📰 முழு விவரம்:\nவாழைத்தார் ஏற்றிய சரக்கு வேனில் குடிபோதையில் டிரைவர் இருந்தது முசிறி காவிரி பாலம் அருகே வாகன சோதனையில் தெரியவந்தது. வேனை பறிமுதல் செய்த போலீசார் அபராதம் விதித்தனர். வேன் உரிமையாளர் மாணிக்கவாசகம் (45 வயது), வாழைத்தார்கள் சேதமாகும் என்பதால் அவற்றை எடுத்துக்கொள்ள அனுமதி கேட்டார். ஆனால் போலீசார் வேனை போலீஸ் ஸ்டேஷனுக்கு ஓட்டிச் செல்லுமாறு கூறினர். போலீஸ்காரர் மருதமுத்து (40 வயது), வேனை ஓட்டிச் சென்றபோது சாலையோர பள்ளத்தில் வேன் கவிழ்ந்தது; அவர் காயமடைந்தார். இதையடுத்து உரிமையாளர் உறவினர்களுடன் மறியலில் ஈடுபட்டார். போலீசார் பேச்சு நடத்தி மறியலைக் கைவிடச் செய்தனர்.\n📍 இடம்: முசிறி காவிரி பாலம் அருகே\n🗓️ நாள்: நவம்பர் 26, 2026 (இரவு)\n👮 நடவடிக்கை: வேன் பறிமுதல், டிரைவருக்கு அபராதம்\nபகிர்ந்து விழிப்புணர்வு ஏற்படுத்துங்கள்.\n\nMusiri seized van overturns, policeman injured | Trichy news\n📍 முசிறி, திருச்சி மாவட்டம் | 27 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Musiri #TrichyNews #திருச்சி",
-   "prompts": "A goods van loaded with banana bunches lies on its side in a roadside ditch on a road near the Cauvery bridge in Musiri, Trichy district, while a khaki-uniformed Tamil Nadu policeman stands at the edge of the ditch and a few men in shirts and veshti stand back with a police jeep parked on the road. Bunches of green banana fruit spill from the open back doors of the overturned van onto the grassy slope and road edge. The setting is a two-lane Tamil Nadu road with a concrete roadside drain, dry paddy fields and banana plantations beyond, and the Cauvery river bridge rising in the background. Two-wheelers and an autorickshaw pass slowly on the road. Daylight, soft morning sun, slightly overcast. Camera at eye level, 35 mm lens, wide enough to show the van, the ditch, the road and the bridge, people seen from the side and far away with no faces visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up detail of heaped green banana bunches (valaithaar) spilling from the back of an overturned cargo van lying in a roadside ditch, the broken edge of the van door and rough dirt and grass around them. A khaki trouser leg and boots of a policeman stand at the edge of the frame, with a few veshti-clad legs of onlookers visible further back on the tarred road. Dust and scattered banana leaves on the ground, a stone roadside kerb. Daylight, natural and soft. Camera slightly high, 50 mm, shallow depth of field, faces not shown, focus on the fruit and the tilted van. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/seized-policeman-injured-as-van-overturns/4388104",
-   "published": "2026-11-27T23:48:40+05:30",
+   "reel_script": "முசிறியில் வாகனத் தணிக்கையில் பிடிபட்ட லோடு வேன் வாய்க்காலில் கவிழ்ந்தது. வியாழக்கிழமை இரவு, முசிறி காவல் நிலையத்துக்கு வேனை ஓட்டிச் சென்ற காவலர் மருதமுத்து காயமடைந்தார். வேனின் ஓட்டுநர் விஜய் மது போதையில் இருந்தது தெரியவந்தது. சந்தப்பாளையம் அருகே சாலையோர பாசன வாய்க்காலில் வேன் கவிழ்ந்தது. உரிமையாளர் மாணிக்கவாசகம் நள்ளிரவில் சாலை மறியலில் ஈடுபட முயன்றார். தொட்டியம் போலீசார் பேச்சுவார்த்தை நடத்தியதால் போராட்டம் கைவிடப்பட்டது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 முசிறியில் வாகனத் தணிக்கையில் பிடிபட்ட லோடு வேன் வாய்க்காலில் கவிழ்ந்து விபத்து\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டம் முசிறியில் வாகனத் தணிக்கையில் கைப்பற்றப்பட்ட வாழைக்காய் லோடு வேனை, வியாழக்கிழமை இரவு காவல் நிலையத்துக்கு ஒரு காவலர் ஓட்டிச் சென்றார். குளித்தலை–முசிறி இணைக்கும் பெரியார் பாலம் அருகே போலீசார் நடத்திய தணிக்கையில், வேனின் ஓட்டுநர் விஜய் மது போதையில் இருந்தது தெரியவந்தது.\nமுசிறி அருகே சந்தப்பாளையத்தில் வேன் சென்றபோது எதிர்பாராதவிதமாக சாலையோர பாசன வாய்க்காலில் கவிழ்ந்தது. இதில் காவலர் மருதமுத்து காயமடைந்தார்.\nஇதை எதிர்த்து வேன் உரிமையாளர் மாணிக்கவாசகம் நண்பர்களுடன் நள்ளிரவில் சாலை மறியலில் ஈடுபட முயன்றார். தொட்டியம் போலீசார் நடத்திய பேச்சுவார்த்தையில் போராட்டம் கைவிடப்பட்டது.\n\n📍 இடம்: சந்தப்பாளையம், முசிறி, திருச்சி மாவட்டம்\n🗓️ நாள்: வியாழக்கிழமை இரவு\n👮 நடவடிக்கை: தொட்டியம் போலீசார் பேச்சுவார்த்தை நடத்தினர்\n\nMusiri lorry overturns in canal during vehicle check | Trichy news\n📍 முசிறி, திருச்சி மாவட்டம்\n\nதேவைப்படுவோருக்கு Share செய்யுங்கள்\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Musiri #TrichyNews #திருச்சி",
+   "prompts": "A white-and-blue police-seized van loaded with raw banana bunches lies tilted on its side in a roadside irrigation canal in Musiri, Trichy district, at night. Its wheels stick up out of the dark water and some green banana bunches spill from the open back onto the muddy bank. Two khaki-uniformed Tamil Nadu policemen stand on the edge of the road, seen from behind, with a flashlight beam on the scene, while a few onlookers in shirts and veshti watch from a distance. The narrow tarmac road runs past the canal, lined with palm trees and a low concrete parapet, under dim street light and the glow of a passing two-wheeler's headlight. Night-time, damp air after recent rain. Camera at eye level, 35 mm, wide enough to show the van, the canal and the road. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a fallen raw banana bunch lying on the wet muddy bank of a Tamil Nadu irrigation canal (vaaykkal), with the tilted rear of a van loaded with plantain just visible at the edge of the frame. Murky canal water reflects the yellow glow of a roadside street light. A pair of khaki police boots and a wooden baton rest on the concrete edge nearby, showing that a police constable was involved. Night, damp ground, scattered leaves and mud. Shallow depth of field, 50 mm, low angle, focus on the banana bunch and the water. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nWide view from the road edge in Musiri near the Periyar bridge area, showing the overturned banana-load van in the irrigation canal below the tarmac. Three or four men in shirts and trousers stand on the road, seen from behind, while two policemen in khaki shine a torch into the canal. A parked two-wheeler and an autorickshaw sit on the roadside, and a few town bus lights are visible in the distance across the bridge. Night sky, sodium street lamps, slightly wet tarmac. Camera slightly high, 35 mm, eye level with the road, showing the canal, the van and the bridge. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/load-van-overturns-during-vehicle-inspection",
+   "published": "2026-11-27T21:22:53.180Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b) - fact-check: no problems found",
+   "note": "free-model draft anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b, 13 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/a6465c96100227c5.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/905862d08b7aee23.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/7fb10db116b01afa.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "சமயபுரத்தில் சுற்றுலா வேன் மோதி ஒரு வயதுக் குழந்தை உயிரிழப்பு; 14 பேர் காயம்",
+   "english_headline": "Tourist van hits pavement at Samayapuram; one-year-old child dies, 14 injured",
+   "category": "Roads & Transport",
+   "location": "Samayapuram, Trichy district",
+   "importance": "High",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "சாலை விபத்து",
+    "loc": "சமயபுரம், திருச்சி",
+    "hl1": "சமயபுரத்தில் வேன் குழந்தை உயிரிழப்பு",
+    "hl2": "<b>14 பேர்</b> காயம்",
+    "slides": [
+     {
+      "title": "என்ன நடந்தது?",
+      "lines": [
+       "வெள்ளிக்கிழமை சமயபுரம் பகுதியில் விபத்து",
+       "சுற்றுலா வேன் பாலக்கட்டையில் திடீரென மோதியது",
+       "ஒரு வயதுக் குழந்தை <b>தியான்ஸ்ரீ</b> உயிரிழந்தது"
+      ]
+     },
+     {
+      "title": "யார் பயணம்?",
+      "lines": [
+       "சென்னை வேங்கைவயல் பகுதியைச் சேர்ந்த குடும்பத்தினர்",
+       "உறவினர், நண்பர்கள் உட்பட <b>14 பேர்</b>",
+       "மூணாறுக்கு சுற்றுலா சென்றனர்"
+      ]
+     },
+     {
+      "title": "காயமடைந்தவர்கள்",
+      "lines": [
+       "<b>15 பேர்</b> காயமடைந்தனர், வேன் ஓட்டுநர் உட்பட",
+       "திருச்சி அரசு, தனியார் மருத்துவமனைகளில் சிகிச்சை",
+       "போலீசார் விசாரணை நடத்துகின்றனர்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "சமயபுரம் அருகே சுற்றுலா வேன் மோதிய விபத்தில் ஒரு வயதுக் குழந்தை உயிரிழந்தது. வெள்ளிக்கிழமை சென்னை-திருச்சி தேசிய நெடுஞ்சாலையில் பாலக்கட்டையில் வேன் திடீரென மோதியது. சென்னை வேங்கைவயல் பகுதியைச் சேர்ந்த குடும்பத்தினரும் உறவினர்களும் மூணாறுக்குச் சுற்றுலா சென்றனர். இந்த விபத்தில் 15 பேர் காயமடைந்தனர். அவர்கள் திருச்சி அரசு, தனியார் மருத்துவமனைகளில் சிகிச்சை பெறுகின்றனர். சமயபுரம் போலீசார் விபத்து குறித்து விசாரிக்கின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 சமயபுரத்தில் சுற்றுலா வேன் விபத்து: ஒரு வயதுக் குழந்தை உயிரிழப்பு, 14 பேர் காயம்\n\n📰 முழு விவரம்:\nவெள்ளிக்கிழமை சமயபுரம் பகுதியில் சென்னை-திருச்சி தேசிய நெடுஞ்சாலையில் பாலக்கட்டையில் சுற்றுலா வேன் திடீரென மோதியது. இதில் ஒரு வயதுக் குழந்தை தியான்ஸ்ரீ உயிரிழந்தது.\nசென்னை வேங்கைவயல் பகுதியைச் சேர்ந்த வி. கீர்த்திகா (35 வயது) தனது குடும்பத்தினர், உறவினர்கள், நண்பர்கள் 14 பேருடன் மூணாறுக்கு சுற்றுலா சென்றனர். வேனை விழுப்புரம் கீழ்பெரும்பாக்கம் பகுதியைச் சேர்ந்த மா. வெங்கடேசன் (50 வயது) ஓட்டினார்.\nவிபத்தில் 15 பேர் காயமடைந்தனர்; அவர்களில் வேன் ஓட்டுநரும் அடங்குவார். திருச்சி அரசு, தனியார் மருத்துவமனைகளில் சிகிச்சை பெறுகின்றனர்.\n👮 நடவடிக்கை: சமயபுரம் போலீசார் விபத்து குறித்து விசாரணை நடத்துகின்றனர்.\n\nSamayapuram tourist van accident, child dies | Trichy news\n📍 சமயபுரம், திருச்சி மாவட்டம் | 27 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Samayapuram #TrichyNews #திருச்சி",
+   "prompts": "A white tourist van with its front bumper crumpled stands at an angle against a concrete bridge parapet on the Chennai-Trichy National Highway at Samayapuram, Trichy district. Broken pieces of the curb lie on the road and the van's front glass is cracked. Two Tamil Nadu police in khaki stand a few metres away near a police jeep, with a small group of onlookers in shirts and trousers and women in sarees watching from the roadside at a distance. Heavy two-wheelers, a private bus and a lorry slow down in the lane beside. Daylight, slightly overcast, the Cauvery bridge area and banana fields visible in the background. Shot at eye level, 35 mm, wide enough to show the highway, the damaged bridge edge and the van together, people seen from behind or far away. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up detail of the crumpled front of a white tourist van pressed against a broken concrete bridge parapet on a highway edge, shattered headlight and cracked windscreen, chunks of concrete on the tarmac and a small child's sandal lying on the road near the damaged edge, shot at low angle with shallow depth of field in soft daylight. Two police in khaki blurred in the background, a yellow-and-white town bus passing behind. The surface is wet tarmac with dust. Tamil Nadu highway setting, banana and paddy fields beyond the road. 35 mm, eye level or slightly low. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/accident-in-samayapuram-child-in-tourist-van-dies-14-others-injured",
+   "published": "2026-11-27T21:18:11.607Z",
    "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
    "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/877beb6ba54416e0.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/2fe155566a441437.jpg"
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/793be5eca8a5f7d3.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/6b8c2bfa83278758.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "பொய்த் தகவல் அளித்து ஜாமீன் பெற்றவர் கைது",
+   "english_headline": "Man who got bail with fake wedding invitation arrested in Trichy",
+   "category": "Crime & Safety",
+   "location": "Thuvakudi, Trichy district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "குற்றச் செய்தி",
+    "loc": "துவாக்குடி, திருச்சி",
+    "hl1": "பொய்த் தகவலில் ஜாமீன் பெற்றவர் கைது",
+    "hl2": "போலி திருமண அழைப்பிதழ்",
+    "slides": [
+     {
+      "title": "என்ன நடந்தது?",
+      "lines": [
+       "தடை செய்யப்பட்ட புகையிலைப் பொருள் வழக்கில் கைது",
+       "செப்டம்பர் <b>23</b> ஆம் தேதி துவாக்குடி போலீசார் கைது செய்தனர்",
+       "ஆர். போசங்கு (<b>30</b>) மீது வழக்கு"
+      ]
+     },
+     {
+      "title": "பொய்த் தகவல்",
+      "lines": [
+       "அக்டோபர் <b>10</b> ஆம் தேதி திருமணம் என கூறினார்",
+       "போலி திருமண அழைப்பிதழ் காண்பித்து ஜாமீன் பெற்றார்",
+       "நார்த்தாமலை கோயிலில் திருமணப் பதிவு இல்லை"
+      ]
+     },
+     {
+      "title": "ஜாமீன் ரத்து",
+      "lines": [
+       "ஜாமீன் ஆணையை ரத்து செய்ய போலீசார் மனு தாக்கல்",
+       "நவம்பர் <b>25</b> ஆம் தேதி நீதிபதி ஜாமீனை ரத்து செய்தார்",
+       "வெள்ளிக்கிழமை அதிகாலை மீண்டும் கைது செய்யப்பட்டார்"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சி துவாக்குடியில் பொய்த் தகவல் அளித்து ஜாமீன் பெற்றவர் மீண்டும் கைது செய்யப்பட்டுள்ளார். புதுக்கோட்டை மாவட்டம் குளத்தூர் சோண்டாம்பட்டியைச் சேர்ந்த 30 வயது ஆர் போசங்கு, தடை செய்யப்பட்ட புகையிலைப் பொருள்கள் விற்ற வழக்கில் செப்டம்பர் 23ஆம் தேதி கைது செய்யப்பட்டார். அக்டோபர் 10ஆம் தேதி நார்த்தாமலை மாரியம்மன் கோயிலில் தனக்குத் திருமணம் நடைபெறவுள்ளதாகக் கூறி, நீதிமன்றத்தில் அழைப்பிதழ் காண்பித்தார். அதை நம்பி அவருக்கு ஜாமீன் வழங்கப்பட்டது. ஆனால் போலி அழைப்பிதழ் அச்சடித்துக் காண்பித்தது போலீசாரின் விசாரணையில் தெரியவந்தது. கோயிலில் திருமணம் தொடர்பாக எந்தப் பதிவும் இல்லை என்றும் போலீசார் தெரிவித்தனர். இதையடுத்து, ஜாமீன் ஆணையை ரத்து செய்யக் கோரி போலீசார் மனு தாக்கல் செய்தனர். நவம்பர் 25ஆம் தேதி நீதிபதி ஜாமீன் ஆணையை ரத்து செய்தார். வெள்ளிக்கிழமை அதிகாலை துவாக்குடி உதவி ஆய்வாளர் நாகராஜ் தலைமையிலான போலீசார் அவரை மீண்டும் கைது செய்து, திருச்சி மத்திய சிறையில் அடைத்தனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 துவாக்குடியில் போலி திருமண அழைப்பிதழ் காட்டி ஜாமீன் பெற்றவர் கைது\n\n📰 முழு விவரம்:\nதடை செய்யப்பட்ட புகையிலைப் பொருள்கள் விற்ற வழக்கில் செப்டம்பர் 23ஆம் தேதி துவாக்குடி போலீசார் புதுக்கோட்டை மாவட்டம் குளத்தூர் சோண்டாம்பட்டியைச் சேர்ந்த ஆர். போசங்கு (30 வயது) என்பவரைக் கைது செய்தனர்.\nநீதிமன்றத்தில் ஆஜர்படுத்தப்பட்ட அவர், அக்டோபர் 10ஆம் தேதி நார்த்தாமலை மாரியம்மன் கோயிலில் தனக்குத் திருமணம் நடைபெறவுள்ளதாகக் கூறி அழைப்பிதழ் காண்பித்தார். இதையடுத்து மாவட்ட முதன்மை அமர்வு நீதிமன்றம் அவருக்கு ஜாமீன் ஆணை வழங்கியது.\nதுவாக்குடி காவல் உதவி ஆய்வாளர் நாகராஜ், காவலர் பாண்டியராஜன் ஆகியோர் விசாரித்ததில், போசங்கு போலி திருமண அழைப்பிதழை அச்சடித்துக் காண்பித்து மோசடியாக ஜாமீன் பெற்றது தெரியவந்தது. நார்த்தாமலை கோயிலில் திருமணம் தொடர்பாக எந்தப் பதிவும் இல்லை என்றும் போலீசார் தெரிவித்தனர்.\nஇதையடுத்து ஜாமீனை ரத்து செய்யக் கோரி உதவி ஆய்வாளர் நாகராஜ் மனு தாக்கல் செய்தார். நவம்பர் 25ஆம் தேதி நீதிபதி ஜாமீன் ஆணையை ரத்து செய்து உத்தரவிட்டார். வெள்ளிக்கிழமை அதிகாலை நாகராஜ் தலைமையிலான போலீசார் போசங்குவைக் கைது செய்து, நீதிமன்றத்தில் ஆஜர்படுத்தி திருச்சி மத்திய சிறையில் அடைத்தனர்.\n\nTrichy man arrested after bail obtained with fake wedding invitation | Trichy news\n📍 துவாக்குடி, திருச்சி மாவட்டம் | 28 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Thuvakudi",
+   "prompts": "A Trichy police sub-inspector in khaki stands at the gate of a court complex in Thuvakudi-area Trichy, holding a folded wedding invitation card as evidence while a constable walks beside a handcuffed man in a plain shirt and veshti toward a police jeep. The setting is the entrance of a district court compound in Trichy city, with a low white government building, a concrete compound wall, a few parked two-wheelers and a white police jeep with its door open. Two or three lawyers in black coats and a small knot of onlookers stand at a distance, seen from behind. The arrested man's face is turned away and his hands are restrained in front of him. It is early Friday morning, soft pre-dawn light turning to daylight, clear weather. Camera at eye level, 35 mm, wide enough to show the court gate, the jeep and the police officers in full frame. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a printed wedding invitation card lying on a government office table beside a stack of case files and a blue police register, with a constable's khaki sleeve and a wristwatch visible at the edge of the frame. Behind the table, a wooden almirah and a tube light in a Trichy police station room in Thuvakudi limits. Small packets of seized tobacco products sit in a clear plastic bag at the corner of the table. The card's text is not readable, and no names or letters are legible. Early morning daylight comes through a barred window, soft and cool. Camera slightly high, 35 mm close framing, shallow depth of field so the card and tobacco bag are sharp and the background is softly blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide view from the road outside a Trichy court and police station complex, seen from behind a line of parked two-wheelers and an autorickshaw. Police in khaki stand near a white police jeep while a constable guides a man in a plain shirt toward the vehicle. A row of bougainvillea and a concrete compound wall frame the scene, with a few early commuters on bicycles passing on the road. Light is early Friday morning daylight, clear sky. Camera eye level from across the street, 35 mm, wide enough to show the police jeep, the building entrance and the road together. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/person-who-obtained-bail-by-providing-false-information-arrested",
+   "published": "2026-11-27T21:16:38.723Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b) - NOT CLEAN, held from posting - problems: reel_script has 106 words; need 35-75 (the key facts once each, in at most 50 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)",
+   "note": "free-model draft anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b, 13 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/7017954a0f74cc55.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/bdf167b12b1be206.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/a5de63b835aa149e.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "மென்பொறியாளரிடம் ரூ.1.90 லட்சம் மோசடி",
+   "english_headline": "Trichy software engineer loses Rs 1.90 lakh in online scam",
+   "category": "Crime & Safety",
+   "location": "Trichy city, Trichy district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "சைபர் மோசடி",
+    "loc": "திருச்சி",
+    "hl1": "திருச்சியில் இணைய மோசடி",
+    "hl2": "ரூ.1.90 லட்சம் பறிபோனது",
+    "slides": [
+     {
+      "title": "என்ன நடந்தது?",
+      "lines": [
+       "ஐடி மென்பொறியாளர் சுவாதி ஏமாற்றப்பட்டார்",
+       "டெலிகிராம் மூலம் மர்ம நபர் தொடர்பு கொண்டார்",
+       "ஹோட்டல் தர நிலைப் பதிவுக்கு ஊக்கத்தொகை ஆசை காட்டினார்"
+      ]
+     },
+     {
+      "title": "எவ்வளவு இழப்பு?",
+      "lines": [
+       "முதலில் <b>ரூ.3,000</b> செலுத்தினார்",
+       "ரூ.3,900 ஊக்கத்தொகை கிடைத்ததாக நம்ப வைத்தார்",
+       "நவ. 1 முதல் 12 வரை மொத்தம் <b>ரூ.1.90 லட்சம்</b> செலுத்தினார்"
+      ]
+     },
+     {
+      "title": "இப்போது நிலை?",
+      "lines": [
+       "ஊக்கத்தொகையை எடுக்க முடியவில்லை",
+       "மர்ம நபரையும் தொடர்பு கொள்ள முடியவில்லை",
+       "சைபர் குற்றப் பிரிவு போலீசார் வழக்குப் பதிந்து விசாரணை"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சியில் ஒரு மென்பொறியாளர் ரூ.1.90 லட்சத்தை இணைய மோசடியில் இழந்துள்ளார். ஐடி நிறுவனத்தில் பணியாற்றும் 22 வயது சுவாதியை டெலிகிராம் மூலம் ஒரு மர்ம நபர் தொடர்பு கொண்டார். நட்சத்திர ஹோட்டல்களுக்கு கூகுல் மேப்பில் தர நிலை பதிவிட்டால் ஊக்கத்தொகை கிடைக்கும் என்று கூறினார். முதலில் ரூ.3,000 செலுத்திய சுவாதிக்கு ரூ.3,900 ஊக்கத்தொகை கிடைத்ததாக நம்ப வைக்கப்பட்டது. பின்னர் விஐபி ஐடிக்காக பணம் கேட்கப்பட்டு, நவ. 1 முதல் 12ஆம் தேதி வரை ரூ.1.90 லட்சம் செலுத்தப்பட்டது. ஊக்கத்தொகையை எடுக்க முடியாமல் போனதால்தான் ஏமாற்றப்பட்டது தெரியவந்தது. திருச்சி மாநகர சைபர் குற்றப் பிரிவு போலீசார் வழக்குப் பதிந்து விசாரிக்கின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚨 திருச்சியில் மென்பொறியாளரிடம் ரூ.1.90 லட்சம் இணைய மோசடி\n\n📰 முழு விவரம்:\nதிருச்சியில் ஐடி நிறுவன மென்பொறியாளர் சுவாதியை (22 வயது), டெலிகிராம் செயலி மூலம் நவ. 1ஆம் தேதி மர்ம நபர் தொடர்பு கொண்டார். நட்சத்திர ஹோட்டல்களை இணையத்தில் கூகுல் மேப் மூலம் தர நிலை பதிவிட்டால் ஊக்கத்தொகை கிடைக்கும் என்று கூறினார்.\nமுதலில் ரூ.3,000 செலுத்தி பதிவிட்ட அவருக்கு ரூ.3,900 ஊக்கத்தொகை கிடைத்தது. பின்னர் கூடுதல் பணம் செலுத்தி விஐபி ஐடி பெற்றால் அதிக ஊக்கத்தொகை கிடைக்கும் என்று கூறப்பட்டது.\nநவ. 1 முதல் 12ஆம் தேதி வரை சுவாதி மொத்தம் ரூ.1.90 லட்சம் செலுத்தினார். ஊக்கத்தொகையை எடுக்க முடியாததாலும், மர்ம நபரைத் தொடர்பு கொள்ள முடியாததாலும் ஏமாற்றப்பட்டது தெரியவந்தது.\n🔎 இணையதளம் மூலம் சுவாதி அளித்த புகாரின்பேரில், திருச்சி மாநகர சைபர் குற்றப் பிரிவு போலீசார் வியாழக்கிழமை வழக்குப் பதிந்து விசாரிக்கின்றனர்.\n\nTrichy software engineer Rs 1.90 lakh online scam | Trichy news\n📍 திருச்சி மாநகரம் | 28 நவம்பர் 2026\n\nஇதுபோன்ற ஆன்லைன் வேலை ஆசை அழைப்புகளில் கவனமாக இருங்கள். பிறருக்கும் Share செய்யுங்கள்.\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி",
+   "prompts": "A young woman software engineer in a salwar kameez sits at a desk in a small IT office in Trichy city, seen from behind over her shoulder, looking at a laptop screen that shows a map with star hotel pins and a messaging chat window, with a mobile phone face down beside the keyboard and a steel water bottle on the table. The office has a window with daylight coming in, cubicle partitions and other desks empty in the background. Other colleagues are only faint blurred figures far away. The mood is serious and worried, with the woman's posture slightly bent forward as if reviewing lost payments. Taken at eye level with a 35 mm lens, wide enough to show the desk, the screen, and the office room around her, in soft natural daylight. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up detail of a smartphone lying on a wooden desk beside a printed complaint paper with no readable text, a pen, and a small stack of rupee notes, with a laptop screen dimly lit in the background showing a map view with hotel location pins in blue and red. The phone screen glows with a messaging chat window, fingers in a plain shirt sleeve just touching the edge of the phone. Shallow depth of field keeps the phone and paper sharp while the background softly blurs. Soft daylight from a window falls across the desk, giving a calm but tense tone. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/rs-190-lakh-swindled-from-software-engineer",
+   "published": "2026-11-27T21:12:39.560Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: caption misses facts of the article (put every one in 📰 முழு விவரம்): 3 ('1-ஆம் தேதி தொடா்புகொண்ட மா்ம நபா், நட்சத்திர ஹோட்டல்கள் குறி')",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/c5c4fe4567a74001.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261127/d6fe8ea05da04a54.jpg"
    ]
   }
  ]
