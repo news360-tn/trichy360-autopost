@@ -3,106 +3,101 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinakaran.com/news/thiruparankundram-deepa-lamp-light-issue-supreme-court-verdict-trichy-ekatuthva-muslim-jamaat-road-blockade",
+  "manual link added: https://tamil.indianexpress.com/tamilnadu/vck-protest-against-delimitation-bill-trichy-tamil-news-12849229",
   "candidate filter: collected=1",
   "to write: 1 Trichy district candidates (max 1 stories)",
   "round: top 1 of 1 candidates",
   "candidates waiting: 1 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinakaran.com/news/thiruparankundram-deepa-lamp-",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 2})",
+  "try (N) manual=True: https://tamil.indianexpress.com/tamilnadu/vck-protest-agains",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})",
   "posting job started at once",
-  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 75 min",
+  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 78 min",
   "filed: 1 Trichy district stories (target 1), reels only",
   "queue: 0 news waiting to be written",
   "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
-  "ok gemini/gemini-3.5-flash (22s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.5-flash (23s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.5-flash (23s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3.5-flash (14s)",
+  "ok gemini/gemini-3.6-flash (18s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (19s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
   "ok gemini/gemini-3.5-flash (7s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.5-flash (20s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3.5-flash (12s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (28s)",
+  "ok gemini/gemini-3-flash-preview (10s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3-flash-preview (8s)",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3-flash-preview (7s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
  ],
  "stories": [
   {
-   "tamil_headline": "திருப்பரங்குன்றம் தீப விவகாரம்: உச்ச நீதிமன்ற தீர்ப்பை கண்டித்து திருச்சியில் ஏகத்துவ முஸ்லிம் ஜமாத் சாலை மறியல்",
-   "english_headline": "Ekathuva Muslim Jamaath conducts road blockade on Trichy-Chennai highway over Thiruparankundram verdict",
+   "tamil_headline": "திருச்சி உறையூரில் வி.சி.க ஆர்ப்பாட்டம்: தொகுதி மறுவரையறை மசோதாவுக்கு எதிர்ப்பு",
+   "english_headline": "VCK holds protest in Uraiyur, Trichy against constituency delimitation bill",
    "category": "Civic Issues",
-   "location": "Old Palpannai, Trichy district",
-   "importance": "High",
+   "location": "Uraiyur, Trichy district",
+   "importance": "Medium",
    "scope": "local",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "சாலை மறியல்",
-    "loc": "பழைய பால்பண்ணை, திருச்சி",
-    "hl1": "திருச்சி பழைய பால்பண்ணையில் மறியல்",
-    "hl2": "தீர்ப்பைக் கண்டித்து மறியல்",
+    "cat": "கண்டன ஆர்ப்பாட்டம்",
+    "loc": "உறையூர், திருச்சி",
+    "hl1": "உறையூரில் வி.சி.க கண்டன ஆர்ப்பாட்டம்",
+    "hl2": "தொகுதி மறுவரையறைக்கு",
     "slides": [
      {
-      "title": "சாலை மறியல்",
+      "title": "ஆர்ப்பாட்டம்",
       "lines": [
-       "திருச்சி <b>பழைய பால்பண்ணை</b> அருகே போராட்டம்",
-       "<b>திருச்சி - சென்னை</b> தேசிய நெடுஞ்சாலையில் மறியல்"
+       "திருச்சி உறையூர் குறத்தெருவில் வி.சி.க ஆர்ப்பாட்டம்",
+       "மத்திய பா.ஜ.க அரசைக் கண்டித்து முழக்கங்கள்"
+      ]
+     },
+     {
+      "title": "முக்கியக் கோரிக்கை",
+      "lines": [
+       "தொகுதி மறுவரையறை நடவடிக்கைக்கு எதிர்ப்பு",
+       "தற்போதைய எல்லைப்படி மகளிர் இடஒதுக்கீடு அமல் கோரிக்கை"
       ]
      },
      {
       "title": "யார் பங்கேற்பு?",
       "lines": [
-       "<b>ஏகத்துவ முஸ்லிம் ஜமாத்</b> சார்பில் போராட்டம்",
-       "தேசிய நெடுஞ்சாலையில் திரண்டு சாலை மறியல்"
+       "மாவட்ட செயலாளர் புல்லட் லாரன்ஸ் தலைமை",
+       "மாநில நிதிச் செயலாளர் தமிழாதன் கண்டன உரை"
       ]
      },
      {
-      "title": "என்ன காரணம்?",
+      "title": "மசோதா பின்னணி",
       "lines": [
-       "<b>திருப்பரங்குன்றம் தீபம்</b> ஏற்றுவது தொடர்பான தீர்ப்பு",
-       "உச்ச நீதிமன்ற தீர்ப்பைக் கண்டித்து மறியல் போராட்டம்"
+       "நவம்பர் <b>30</b> முதல் நாடாளுமன்ற சிறப்பு கூட்டத்தொடர்",
+       "மசோதா நிறைவேற <b>3-ல் 2 பங்கு</b> ஆதரவு தேவை"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சி பழைய பால்பண்ணை அருகே தேசிய நெடுஞ்சாலையில் சாலை மறியல் போராட்டம் நடைபெற்றது. திருப்பரங்குன்றம் மலையில் தீபம் ஏற்றுவது தொடர்பாக உச்ச நீதிமன்றம் பிறப்பித்த தீர்ப்பைக் கண்டித்து இந்த போராட்டம் நடத்தப்பட்டது. ஏகத்துவ முஸ்லிம் ஜமாத் அமைப்பு சார்பில் இந்த சாலை மறியல் போராட்டம் நடைபெற்றது. திருச்சி - சென்னை தேசிய நெடுஞ்சாலையில் ஏகத்துவ முஸ்லிம் ஜமாத் அமைப்பினர் திரண்டு இந்த மறியல் போராட்டத்தை நடத்தினார்கள். திருப்பரங்குன்றம் தீப விவகாரத்தில் உச்ச நீதிமன்றம் அளித்த தீர்ப்புக்கு எதிர்ப்பை தெரிவிக்கும் வகையில் அமைப்பினர் இந்த போராட்டத்தில் ஈடுபட்டனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚨 திருச்சி பழைய பால்பண்ணை அருகே தேசிய நெடுஞ்சாலையில் ஏகத்துவ முஸ்லிம் ஜமாத் சாலை மறியல்\n\n📰 முழு விவரம்:\nதிருப்பரங்குன்றத்தில் தீபம் ஏற்றுவது தொடர்பாக உச்ச நீதிமன்றம் பிறப்பித்த தீர்ப்பைக் கண்டித்து திருச்சியில் ஏகத்துவ முஸ்லிம் ஜமாத் அமைப்பு சார்பில் சாலை மறியல் போராட்டம் நடைபெற்றது. திருச்சி - சென்னை தேசிய நெடுஞ்சாலையில் பழைய பால்பண்ணை அருகே அமைப்பினர் திரண்டு இந்த போராட்டத்தை நடத்தினார்கள்.\n\n📍 இடம்: பழைய பால்பண்ணை, திருச்சி - சென்னை தேசிய நெடுஞ்சாலை\n🗓️ நாள்: 28 நவம்பர் 2026\n📢 காரணம்: திருப்பரங்குன்றம் தீப விவகார உச்ச நீதிமன்ற தீர்ப்பைக் கண்டித்து\n👥 அமைப்பு: ஏகத்துவ முஸ்லிம் ஜமாத்\n\nமுக்கியமான தகவல்களுக்கு Share செய்யுங்கள்.\n\nEkathuva Muslim Jamaath road blockade near Old Palpannai in Trichy | Trichy news\n📍 பழைய பால்பண்ணை, திருச்சி மாவட்டம் | 28 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #OldPalpannai #TrichyNews #திருச்சி",
-   "prompts": "A crowd of men from the Ekathuva Muslim Jamaath are staging a road blockade on the Trichy-Chennai National Highway near the Old Palpannai area. The scene takes place on the wide asphalt highway with concrete medians typical of the Trichy city outskirts. The protesters, a group of about forty men in shirts and trousers with some wearing white skullcaps, are seen from behind as they stand in a line across the road. A few stopped vehicles, including a green TNSTC bus and several two-wheelers, are visible in the distance behind the crowd, halted by the demonstration. The bright midday sun creates high-contrast lighting on the road surface. The camera is at eye level, using a 35mm wide-angle lens to show the protesters blocking the main transport artery. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide shot captures the protest gathering at the Old Palpannai junction on the Trichy-Chennai highway. The group of protesters is clustered together on the road, holding up placards and flags that signify their demonstration against the court verdict. Tamil Nadu police personnel in khaki uniforms are stationed at a distance, observing the scene from behind the crowd. The background shows the urban landscape of Trichy with utility poles and the broad expanse of the highway. The lighting is bright daylight under a clear sky. The camera is positioned at a slightly high angle from a distance, providing a comprehensive view of the road blockade while ensuring that no individual faces are recognizable and no text on the placards is readable. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinakaran.com/news/thiruparankundram-deepa-lamp-light-issue-supreme-court-verdict-trichy-ekatuthva-muslim-jamaat-road-blockade",
-   "published": "2026-11-28T12:17:34+05:30",
-   "verification": "DRAFT (gemini/gemini-3.5-flash) - fact-check: no problems found",
-   "note": "free-model draft gemini/gemini-3.5-flash, 5 attempt(s), 0 validator problem(s)",
+   "reel_script": "திருச்சி உறையூரில் தொகுதி மறுவரையறை மசோதாவைக் கண்டித்து வி சி க ஆர்ப்பாட்டம். நாடாளுமன்ற சிறப்பு கூட்டத்தொடர் நவம்பர் 30 முதல் டிசம்பர் 3 வரை நடைபெறவுள்ளது. இதில் தொகுதி மறுவரையறைக்கான அரசியல் சாசன திருத்த மசோதா தாக்கல் செய்யப்பட உள்ளது. இந்த மசோதா நிறைவேற 3-ல் 2 பங்கு ஆதரவு தேவை. கடந்த ஏப்ரல் மாதம் 3-ல் 2 பங்கு ஆதரவு கிடைக்காததால் இந்த மசோதா தோல்வி அடைந்தது. தற்போது மீண்டும் இந்த மசோதா கொண்டுவரப்படும் நிலையில் வி சி க சார்பில் கண்டன ஆர்ப்பாட்டம் நடைபெற்றது. திருச்சி மேற்கு தொகுதி வி சி க சார்பில் உறையூர் குறத்தெரு பகுதியில் இந்த ஆர்ப்பாட்டம் நடந்தது. தற்போதைய தொகுதி வரையறையின்படியே மகளிர் இடஒதுக்கீட்டை உடனடியாக அமல்படுத்த வேண்டும் என்று வலியுறுத்தினர். மாவட்ட செயலாளர் புல்லட் லாரன்ஸ் தலைமையில் நடைபெற்ற இதில் மாநில நிதிச் செயலாளர் தமிழாதன் கண்டன உரையாற்றினார். நிர்வாகிகள் திரளாகப் பங்கேற்று மத்திய பா ஜ க அரசுக்கு எதிராக முழக்கமிட்டனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "📢 திருச்சி உறையூரில் வி.சி.க ஆர்ப்பாட்டம் - தொகுதி மறுவரையறை மசோதாவுக்கு எதிர்ப்பு\n\n📰 முழு விவரம்:\nநாடாளுமன்ற சிறப்பு கூட்டத்தொடர் நவம்பர் 30 முதல் டிசம்பர் 3 வரை நடைபெறவுள்ளது. இதில் தொகுதி மறுவரையறைக்கான அரசியல் சாசன திருத்த மசோதா மீண்டும் தாக்கல் செய்யப்பட உள்ளது. இந்த மசோதா நிறைவேறுவதற்கு 3-ல் 2 பங்கு உறுப்பினர்களின் ஆதரவு தேவைப்படும் நிலையில், கடந்த ஏப்ரல் மாதம் போதுமான ஆதரவு கிடைக்காததால் மசோதா தோல்வி அடைந்தது.\n\nதற்போது மீண்டும் மசோதா தாக்கல் செய்யப்பட உள்ள நிலையில், தொகுதி மறுவரையறை நடவடிக்கையை எதிர்த்தும், தற்போதைய தொகுதி வரையறையின்படியே மகளிர் இடஒதுக்கீட்டை உடனடியாக அமல்படுத்தக் கோரியும் விடுதலை சிறுத்தைகள் கட்சி சார்பில் தமிழகம் முழுவதும் கண்டன ஆர்ப்பாட்டம் நடைபெற்றது.\n\nஇதன் ஒரு பகுதியாக திருச்சி மேற்கு தொகுதி வி.சி.க சார்பில் உறையூர் குறத்தெரு பகுதியில் இன்று ஆர்ப்பாட்டம் நடைபெற்றது. மாவட்ட செயலாளர் புல்லட் லாரன்ஸ் தலைமையில் நடைபெற்ற இந்த ஆர்ப்பாட்டத்தில், மாநில நிதிச் செயலாளர் தமிழாதன் சிறப்பு அழைப்பாளராகப் பங்கேற்று கண்டன உரையாற்றினார். இதில் வி.சி.க நிர்வாகிகள் பலர் திரளாகக் கலந்துகொண்டு மத்திய பா.ஜ.க அரசுக்கு எதிராக முழக்கங்களை எழுப்பினர்.\n\n📍 இடம்: குறத்தெரு, உறையூர், திருச்சி\n🗓️ நாள்: 28 நவம்பர் 2026\n📣 கோரிக்கை: தொகுதி மறுவரையறைக்கு எதிர்ப்பு & மகளிர் இடஒதுக்கீடு அமல்\n\nமுக்கிய தகவல்களுக்கு Share செய்யுங்கள்!\n\nVCK protest in Uraiyur Trichy against constituency delimitation bill | Trichy news\n📍 Uraiyur, Trichy district | 28 November 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Uraiyur #VCKProtest #திருச்சி",
+   "prompts": "A crowd of VCK party members holding a protest demonstration against the delimitation bill in the Kuratheru area of Uraiyur, Trichy. The scene is a narrow urban street lined with small local shops and old concrete buildings. About thirty men, dressed in white shirts and veshtis or trousers, are gathered together, seen from behind as they raise their hands in protest. Several blue party flags on wooden poles are held high above the crowd. The sun is bright, indicating midday light. The camera is at eye level, using a 35mm lens to capture the density of the protest and the surrounding Uraiyur neighborhood. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide shot of the protest gathering at a street junction in Uraiyur near Kuratheru. Protesters are lined up along the side of the road, with their backs to the camera, holding placards and blue flags. In the background, a TNEB transformer on concrete poles and overhead power lines are visible against the clear sky. A few parked two-wheelers are seen on the edge of the street. The lighting is natural daylight, showing the dusty road and the urban textures of the Trichy suburb. The camera is positioned at a slightly high angle to show the scale of the gathering and the specific city environment. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://tamil.indianexpress.com/tamilnadu/vck-protest-against-delimitation-bill-trichy-tamil-news-12849229",
+   "published": "2026-11-28T15:52:38+05:30",
+   "verification": "DRAFT (gemini/gemini-3.6-flash) - fact-check: no problems found",
+   "note": "free-model draft gemini/gemini-3.6-flash, 2 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795856567/trichy360/mebumqvqay57zmbfvay9.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795856599/trichy360/vbvebgneso0u45xrtq4h.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795862931/trichy360/bfbafd5s05tkplhatqrn.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795862935/trichy360/ndnqvt15axpzq47l2hka.jpg"
    ]
   }
  ]
