@@ -33,7 +33,7 @@ MAROON, MAROON2, GOLD = G.MAROON, G.MAROON2, G.GOLD
 
 # geometry (px)
 CARD_TOP, CARD_H = 250, 830                   # the big fortune card
-HOME = (30, 1072)                             # the parrot on its cage (top-left of the parrot box)
+HOME = (30, 1162)                             # the parrot on its cage (top-left of the parrot box)
 SMALL_W, SMALL_H, SMALL_Y, SMALL_X0, SMALL_GAP = 52, 150, 1650, 318, 10
 BIG_C = (540, CARD_TOP + CARD_H // 2)
 PARROT_Y_AT_CARD = 1520
@@ -58,7 +58,7 @@ PARROT = """<svg viewBox="0 0 260 300" width="221" height="255" overflow="visibl
 <path d="M184 60 Q232 66 226 104 Q222 117 212 112 Q214 92 190 98 Q180 84 184 60 Z" fill="#E53935"/>
 </g></svg>"""
 
-CAGE = f"""<svg viewBox="0 0 240 280" width="240" height="280" style="position:absolute;left:18px;top:1290px">
+CAGE = f"""<svg viewBox="0 0 240 280" width="240" height="280" style="position:absolute;left:18px;top:1380px">
 <path d="M20 70 Q120 -10 220 70" fill="none" stroke="#8D5A2B" stroke-width="12"/>
 <rect x="14" y="66" width="212" height="200" rx="10" fill="rgba(255,255,255,.12)" stroke="#8D5A2B" stroke-width="10"/>
 {''.join(f'<line x1="{x}" y1="70" x2="{x}" y2="262" stroke="#A9743F" stroke-width="5"/>' for x in range(38, 220, 26))}
@@ -81,7 +81,7 @@ CSS = f"""
 .fc .rhead{{margin-top:0}} .fc .rlines{{margin-top:26px}} .fc .rl{{min-height:122px}} .fc .luck{{margin-top:26px}} .fc .rem{{margin-top:24px}}
 .fc .kick{{font-size:38px;font-weight:800;color:{MAROON};opacity:.8;margin-bottom:6px}}
 .hk{{text-align:center;padding-top:40px}}
-.hk .t1{{font-size:112px;font-weight:900;color:{MAROON};line-height:1.2;white-space:nowrap}}
+.hk .t1{{font-size:98px;font-weight:900;color:{MAROON};line-height:1.2;white-space:nowrap}}
 .hk .t2{{margin-top:6px;font-size:42px;font-weight:800;color:{MAROON};opacity:.85}}
 .hk .t3{{display:inline-block;margin-top:34px;background:{MAROON};color:{GOLD};border-radius:40px;padding:10px 40px;font-size:46px;font-weight:900}}
 .hk .best{{display:flex;justify-content:center;gap:26px;margin-top:34px}}
@@ -104,7 +104,7 @@ CSS = f"""
  box-shadow:0 6px 10px rgba(0,0,0,.35),inset 0 0 0 3px {MAROON};text-align:center;transform-origin:50% 50%}}
 .sc b{{display:block;margin-top:10px;font-family:'Zod';font-size:34px;line-height:1;color:{MAROON}}}
 .sc i{{position:absolute;left:8px;right:8px;bottom:14px;height:58px;border-radius:6px;background:repeating-linear-gradient(45deg,{MAROON} 0 6px,#C49A2C 6px 12px)}}
-#parrot{{position:absolute;left:0;top:0;z-index:5;will-change:transform}}
+#parrot{{position:absolute;left:0;top:0;z-index:5;will-change:transform;transform-origin:0 100%}}
 .sc.fly{{z-index:6}}
 """
 
@@ -230,7 +230,7 @@ def page(p, ctx, segs, dur, env, best):
             f'</div>')
     js = ("const SEG=" + json.dumps(segs) + ",ENV=" + json.dumps(env) + f",FPS={FPS},HOME={list(HOME)},BIG={list(BIG_C)},"
           f"CX={json.dumps([card_x(i) for i in range(12)])},SY={SMALL_Y},SW={SMALL_W},SH={SMALL_H},PY={PARROT_Y_AT_CARD},"
-          f"HOP={HOP_S},PECK={PECK_S},BACK={BACK_S},VAT={VOICE_AT};window.DUR={dur};window.COVER_T=0.5;" + """
+          f"BIGP=1.3,HOP={HOP_S},PECK={PECK_S},BACK={BACK_S},VAT={VOICE_AT};window.DUR={dur};window.COVER_T=0.5;" + """
 const FC=[...document.querySelectorAll('.fc')],SC=[...document.querySelectorAll('.sc')],PR=document.getElementById('parrot'),
  HD=document.getElementById('head'),WG=document.getElementById('wing'),BK=document.getElementById('beak'),LD=document.getElementById('lid');
 const cl=u=>Math.max(0,Math.min(1,u)),ez=u=>{u=cl(u);return u<.5?2*u*u:1-Math.pow(-2*u+2,2)/2},lp=(a,b,u)=>a+(b-a)*u;
@@ -244,18 +244,18 @@ window.seek=function(t){
   else if(j===k-1){o=s.kind==='rasi'?cl(1-(u-0.85)/0.15):cl(1-u/0.3)}      // the last card stays until the new one opens
   e.style.opacity=o;e.style.transform='perspective(1600px) rotateY('+ry+'deg)'});
  SC.forEach(e=>{e.style.transform='';e.style.opacity=1;e.classList.remove('fly')});
- let px=HOME[0],py=HOME[1],dip=0,flap=0,talk=s.kind!=='rasi'||u>VAT;
+ let px=HOME[0],py=HOME[1],dip=0,flap=0,sz=BIGP,talk=s.kind!=='rasi'||u>VAT;      // owner 28 Nov: the parrot is bigger while it speaks
  if(s.kind==='rasi'){const cx=CX[s.i],tx=cx-196,ty=PY;
-  if(u<HOP){const q=ez(u/HOP);px=lp(HOME[0],tx,q);py=lp(HOME[1],ty,q)-140*Math.sin(Math.PI*q);flap=Math.sin(u*38)}
-  else if(u<HOP+PECK){px=tx;py=ty;dip=Math.sin(Math.PI*(u-HOP)/PECK)}
-  else if(u<HOP+PECK+BACK){const q=ez((u-HOP-PECK)/BACK);px=lp(tx,HOME[0],q);py=lp(ty,HOME[1],q)-140*Math.sin(Math.PI*q);flap=Math.sin(u*38)}
+  if(u<HOP){const q=ez(u/HOP);sz=lp(BIGP,1,q);px=lp(HOME[0],tx,q);py=lp(HOME[1],ty,q)-140*Math.sin(Math.PI*q);flap=Math.sin(u*38)}
+  else if(u<HOP+PECK){sz=1;px=tx;py=ty;dip=Math.sin(Math.PI*(u-HOP)/PECK)}
+  else if(u<HOP+PECK+BACK){const q=ez((u-HOP-PECK)/BACK);sz=lp(1,BIGP,q);px=lp(tx,HOME[0],q);py=lp(ty,HOME[1],q)-140*Math.sin(Math.PI*q);flap=Math.sin(u*38)}
   const e=SC[s.i];
   if(u>=0.6){const q=ez((u-0.6)/0.45);e.classList.add('fly');
    e.style.transform='translate('+(BIG[0]-cx-SW/2)*q+'px,'+(BIG[1]-SY-SH/2)*q+'px) scale('+(1+3*q)+') rotate('+(-10*q)+'deg)';
    e.style.opacity=u<1.0?1:cl(1-(u-1.0)/0.18)}
   if(u>1.2){e.style.transform='';e.style.opacity=0.35}}      // back in its place, dimmed (taken)
  const bob=talk?3*Math.sin(t*6.5):0;
- PR.style.transform='translate('+px+'px,'+(py+bob)+'px)';
+ PR.style.transform='translate('+px+'px,'+(py+bob)+'px) scale('+sz+')';
  HD.style.transform='rotate('+(dip*30+(talk?2*Math.sin(t*3.1):0))+'deg)';
  WG.style.transform='rotate('+(-38*Math.abs(flap))+'deg)';
  const f=Math.min(ENV.length-1,Math.max(0,Math.round(t*FPS)));
