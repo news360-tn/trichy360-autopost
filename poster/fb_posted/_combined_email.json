@@ -220,7 +220,12 @@
   },
   "trichy:RN-197": {
    "day": "2026-11-28",
-   "tries": 2
+   "tries": 3,
+   "how": "failed"
+  },
+  "trichy:RN-195": {
+   "day": "2026-11-28",
+   "tries": 1
   }
  }
 }
