@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-28T14:26:45.668967+05:30",
+ "last_end": "2026-11-28T16:15:11.475470+05:30",
  "pool": {
   "C5d6c867": {
    "id": "C5d6c867",
@@ -30,34 +30,20 @@
    "picked_at": "2026-11-28T02:29:20.415351+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
   },
-  "C52d2339": {
-   "id": "C52d2339",
-   "url": "https://www.dinakaran.com/news/thiruparankundram-deepa-lamp-light-issue-supreme-court-verdict-trichy-ekatuthva-muslim-jamaat-road-blockade",
-   "title": "திருப்பரங்குன்றம் தீப விவகாரம்: உச்ச நீதிமன்ற தீர்ப்பை கண்டித்து திருச்சியில் ஏகத்துவ முஸ்லிம் ஜமாத் சாலை மறியல் - Dinakaran - Dinakaran",
-   "summary": "திருப்பரங்குன்றம் தீபம் ஏற்றுவது தொடர்பாக உச்சநீதிமன்றம் பிறப்பித்த தீர்ப்பை கண்டித்து ஏகத்துவ முஸ்லிம் ஜமாத் அமைப்பு சார்பில் திருச்சி பழைய பால்பண்ணை அருகே திருச்சி - சென்னை தேசிய நெடுஞ்சாலையில் சாலை மறியல் போராட்டத்...",
-   "source": "தினகரன்",
-   "published": "2026-11-28T12:17:34+05:30",
-   "category": "சாலை",
-   "score": 9.23,
+  "Cef8d3e0": {
+   "id": "Cef8d3e0",
+   "url": "https://tamil.indianexpress.com/tamilnadu/vck-protest-against-delimitation-bill-trichy-tamil-news-12849229",
+   "title": "தொகுதி மறுவரையறை மசோதா: திருச்சியில் வி.சி.க ஆர்ப்பாட்டம்",
+   "summary": "நாடாளுமன்ற சிறப்பு கூட்டத்தொடர் நவம்பர் 30 முதல் டிசம்பர் 3 வரை நடைபெறவுள்ளது. இதில், தொகுதி மறுவரையறைக்கான அரசியல் சாசன திருத்த மசோதா மீண்டும் தாக்கல் செய்யப்பட இருக்கிறது.",
+   "source": "இந்தியன் எக்ஸ்பிரஸ் தமிழ்",
+   "published": "2026-11-28T15:52:38+05:30",
+   "category": "பொது",
+   "score": 3.0,
    "power_cut": false,
-   "late_listed": true,
-   "listed_at": "2026-11-28T14:26:45.668967+05:30",
-   "picked_at": "2026-11-28T14:28:53.521136+05:30",
-   "posted": true
+   "listed_at": "2026-11-28T16:15:11.475470+05:30"
   }
  },
  "rounds": {
-  "2026-11-27_01": {
-   "window": [
-    "2026-11-26T22:45:23.906806+05:30",
-    "2026-11-27T01:14:30.444845+05:30"
-   ],
-   "ids": [],
-   "sent": false,
-   "deadline": "2026-11-27T02:14:30.444845+05:30",
-   "decided": null,
-   "written": []
-  },
   "2026-11-27_04": {
    "window": [
     "2026-11-27T01:14:30.444845+05:30",
@@ -507,6 +493,19 @@
    "written": [
     "C52d2339"
    ]
+  },
+  "2026-11-28_16": {
+   "window": [
+    "2026-11-28T14:26:45.668967+05:30",
+    "2026-11-28T16:15:11.475470+05:30"
+   ],
+   "ids": [
+    "Cef8d3e0"
+   ],
+   "sent": false,
+   "deadline": "2026-11-28T17:15:11.475470+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {},
@@ -1682,6 +1681,62 @@
   "Ce3fd16e": "2026-11-28T14:26 not Trichy district",
   "Ce456d83": "2026-11-28T14:26 not Trichy district",
   "C024f2f0": "2026-11-28T14:26 not Trichy district",
-  "C5aaa1da": "2026-11-28T14:26 not Trichy district"
+  "C5aaa1da": "2026-11-28T14:26 not Trichy district",
+  "G7572d64971": "2026-11-28T16:15 D",
+  "G9186049b0f": "2026-11-28T16:15 D",
+  "G563ab45efd": "2026-11-28T16:15 D",
+  "G0e228a0109": "2026-11-28T16:15 D",
+  "G817077c332": "2026-11-28T16:15 D",
+  "Ge4149a5db6": "2026-11-28T16:15 D",
+  "Gad84e89402": "2026-11-28T16:15 D",
+  "G51841da19a": "2026-11-28T16:15 D",
+  "Gf9f06cded8": "2026-11-28T16:15 D",
+  "G1515d9c815": "2026-11-28T16:15 D",
+  "G81fa2d32a2": "2026-11-28T16:15 D",
+  "G5603b46a35": "2026-11-28T16:15 D",
+  "G4cbed000dc": "2026-11-28T16:15 D",
+  "Ga4430ead29": "2026-11-28T16:15 D",
+  "Gcf63d0ce4a": "2026-11-28T16:15 D",
+  "G69355f161e": "2026-11-28T16:15 D",
+  "G73f06c1564": "2026-11-28T16:15 D",
+  "G58035fb12c": "2026-11-28T16:15 D",
+  "Gd18cec9425": "2026-11-28T16:15 D",
+  "G3e74aa62da": "2026-11-28T16:15 D",
+  "G1d071df15f": "2026-11-28T16:15 D",
+  "G5d97879cbe": "2026-11-28T16:15 D",
+  "G1202bec52f": "2026-11-28T16:15 D",
+  "G8cf92e756e": "2026-11-28T16:15 D",
+  "G379d664949": "2026-11-28T16:15 D",
+  "G070090c918": "2026-11-28T16:15 D",
+  "Ge552f4485c": "2026-11-28T16:15 D",
+  "Gabdea63b01": "2026-11-28T16:15 D",
+  "G8065a86708": "2026-11-28T16:15 D",
+  "Gffeabaf94f": "2026-11-28T16:15 D",
+  "G341c179d3b": "2026-11-28T16:15 D",
+  "Gee8aa49499": "2026-11-28T16:15 D",
+  "G8cf573c531": "2026-11-28T16:15 D",
+  "G41058ea4aa": "2026-11-28T16:15 D",
+  "Gd732289a0c": "2026-11-28T16:15 D",
+  "Gd7a53136a1": "2026-11-28T16:15 D",
+  "G719a4b00df": "2026-11-28T16:15 D",
+  "G54aa366f90": "2026-11-28T16:15 D",
+  "C73ecbd6": "2026-11-28T16:15 not Trichy district",
+  "Cb182e35": "2026-11-28T16:15 already posted",
+  "C2753a75": "2026-11-28T16:15 not Trichy district",
+  "Cc006fd6": "2026-11-28T16:15 not Trichy district",
+  "C3f05163": "2026-11-28T16:15 not Trichy district",
+  "Cbb491c6": "2026-11-28T16:15 not Trichy district",
+  "Cdb24471": "2026-11-28T16:15 not Trichy district",
+  "C83ed231": "2026-11-28T16:15 not Trichy district",
+  "Ccfaf1ef": "2026-11-28T16:15 not Trichy district",
+  "Cd467ce7": "2026-11-28T16:15 not Trichy district",
+  "C08aae7e": "2026-11-28T16:15 not Trichy district",
+  "C9328657": "2026-11-28T16:15 not Trichy district",
+  "Cc54ddb4": "2026-11-28T16:15 not Trichy district",
+  "Cd3dfcfc": "2026-11-28T16:15 not Trichy district",
+  "Ce706874": "2026-11-28T16:15 not Trichy district",
+  "Cd721b2a": "2026-11-28T16:15 not Trichy district",
+  "Cf689b5b": "2026-11-28T16:15 not Trichy district",
+  "C462b16d": "2026-11-28T16:15 not Trichy district"
  }
 }
