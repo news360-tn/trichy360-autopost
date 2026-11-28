@@ -174,5 +174,13 @@
   "story": "17979914828935635",
   "error": "YouTube upload not started (400): {   \"error\": {     \"code\": 400,     \"message\": \"The user has exceeded the number of videos they may upload.\",     \"errors\": [       {         \"message\": \"The user has exceeded the number of videos they may upload.\",         \"domain\": \"youtube.video\",         \"reason\": \"uploadLimitExceeded\"       }  ",
   "next_try": "2026-11-28T13:49:48+00:00"
+ },
+ {
+  "at": "2026-11-28T15:12:48+00:00",
+  "platform": "Facebook",
+  "page": "trichy",
+  "story": "RN-208",
+  "error": "page limited by Facebook (paused): Facebook video_reels: 400 368/1390008 We limit how often you can post, comment or do other things in a given amount of time in order to help protect the community from spam. You can try again later. Learn More",
+  "next_try": "2026-11-28T15:12:48+00:00"
  }
 ]
