@@ -1,0 +1,90 @@
+name: samples-free
+# owner 28 Nov: SAMPLES of the free news-reel ideas for the owner's review only - this branch never posts (no Instagram / Facebook /
+# Sheet secrets are given; every other workflow is removed on this branch). Only the free picture services' keys are passed.
+on:
+  push:
+    branches: [free-samples]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  news:
+    strategy:
+      fail-fast: false
+      matrix:
+        story: [RN-184, RN-185, RN-199, RN-197]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    env:
+      PAGE: trichy
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+      TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+      POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: Browser (cached)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-rasipalan-1.56.0
+      - name: Install
+        timeout-minutes: 15
+        run: |
+          pip install -q requests==2.32.5 pillow==11.3.0 playwright==1.56.0 pyswisseph==2.10.3.2 imageio-ffmpeg==0.6.0 numpy edge-tts==7.2.3 opencv-python-headless onnxruntime
+          python -m playwright install chromium
+          python -c "from playwright.sync_api import sync_playwright as s; p=s().start(); p.chromium.launch().close(); p.stop()" ||
+            sudo "$(command -v python)" -m playwright install-deps chromium
+      - name: Make the sample (never posted)
+        run: python -u tools/samples_free.py news ${{ matrix.story }}
+      - name: Save for download
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-${{ matrix.story }}
+          path: |
+            out/samples/free/news/*.mp4
+            out/samples/free/news/*.png
+            out/samples/free/news/*/pic*.jpg
+          if-no-files-found: warn
+
+  morning-and-comments:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    env:
+      PAGE: trichy
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: Browser (cached)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-rasipalan-1.56.0
+      - name: Install
+        timeout-minutes: 15
+        run: |
+          pip install -q requests==2.32.5 pillow==11.3.0 playwright==1.56.0 pyswisseph==2.10.3.2 imageio-ffmpeg==0.6.0 numpy edge-tts==7.2.3
+          python -m playwright install chromium
+          python -c "from playwright.sync_api import sync_playwright as s; p=s().start(); p.chromium.launch().close(); p.stop()" ||
+            sudo "$(command -v python)" -m playwright install-deps chromium
+      - name: Morning bulletin sample (never posted)
+        run: python -u tools/samples_free.py morning
+      - name: First comments sample
+        if: always()
+        run: python -u tools/samples_free.py comments
+      - name: Save for download
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: morning-and-comments
+          path: |
+            out/samples/free/morning/*.mp4
+            out/samples/free/morning/*.png
+            out/samples/free/comments/*.txt
+          if-no-files-found: warn
