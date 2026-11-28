@@ -180,8 +180,11 @@ def type_layer(kind, s):
         allx = [clean(x) for sl in slides for x in sl.get("lines", [])]
         gain = next((x for x in allx if re.search(r"ரூ|₹|இலவச|மானிய|உதவி", x)), clean(s["spec"].get("hl2")))
         last = next((x for x in allx if re.search(r"கடைசி|வரை|தேதி", x)), "")
-        steps = lines("விண்ணப்ப")[:3] or allx[-3:]
-        st = "".join(f'<div class="st"><b>{i + 1}</b>{E(x)}</div>' for i, x in enumerate(steps))
+        last = re.sub(r"^\s*(விண்ணப்பிக்க\s*)?கடைசி\s*நாள்\s*[:：-]?\s*", "", last)      # the label says it already
+        how = lines("எப்படி")[:3]      # numbered steps ONLY from the 'how to apply' card (owner 28 Nov: never number who is NOT eligible)
+        st = "".join(f'<div class="st"><b>{i + 1}</b>{E(x)}</div>' for i, x in enumerate(how))
+        if how:
+            st = '<div class="sh">எப்படி விண்ணப்பிப்பது?</div>' + st
         return (f'<div id="sch"><div class="c1"><small>பயன்</small>{E(gain)}</div>'
                 + (f'<div class="c2"><small>கடைசி நாள்</small>{E(last)}</div>' if last else "") + f'<div class="steps">{st}</div></div>')
     if kind == "rain":
@@ -192,7 +195,8 @@ def type_layer(kind, s):
 def page(s, kind, frames, segs, words, dur, end_t, town_xy, number):
     logo = f"file://{Path(PAGE['logo']).resolve()}"
     m = json.loads((ROOT / "reel" / "assets" / "district_map.json").read_text(encoding="utf-8"))
-    place_words = [w for w in re.split(r"[\s,]+", s["loc"]) if len(w) > 2 and "மாவட்ட" not in w]
+    place_words = [w for w in re.split(r"[\s,]+", s["loc"])      # place names only - never "near" / "area" / "district"
+                   if len(w) > 2 and not re.match(r"(மாவட்ட|அருகே|அருகில்|பகுதி|மாநகர|நகர)", w)]
     mapcard = ""
     if town_xy:
         tx, ty = town_xy[1]
@@ -217,7 +221,7 @@ body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:#000;font-fam
  text-shadow:0 0 6px #000,0 6px 18px rgba(0,0,0,.9),3px 3px 0 #000,-3px -3px 0 #000,3px -3px 0 #000,-3px 3px 0 #000}}
 #cap .w{{display:inline-block;margin:0 10px}} #cap .w.on{{color:#FFE14D;transform:scale(1.12)}} #cap .w.num{{color:#5BF08A}}
 #cap .w.pl{{color:#6FD3FF}}
-#mapc{{position:absolute;right:40px;top:200px;width:360px;z-index:6;background:rgba(10,10,20,.78);border-radius:26px;padding:16px;
+#mapc{{position:absolute;right:40px;top:262px;width:360px;z-index:6;background:rgba(10,10,20,.78);border-radius:26px;padding:16px;
  box-shadow:0 14px 34px rgba(0,0,0,.5),0 0 0 4px {GOLD};text-align:center;opacity:0}}
 #mapc svg{{width:328px;height:328px}} #mapc path{{fill:rgba(233,178,51,.25);stroke:{GOLD};stroke-width:2}}
 #mapc .p{{fill:#FF3B30;stroke:#fff;stroke-width:2}} #mapc .r{{fill:none;stroke:#FF3B30;stroke-width:2}}
@@ -241,6 +245,7 @@ body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:#000;font-fam
 #sch .c2{{background:#FFE14D}} #sch small{{display:block;font-size:30px;font-weight:800;opacity:.7}}
 #sch .st{{display:flex;gap:16px;align-items:center;background:rgba(0,0,0,.72);color:#fff;border-radius:18px;padding:12px 20px;margin-bottom:12px;
  font-size:38px;font-weight:800;opacity:0}}
+#sch .sh{{display:inline-block;background:{MAROON};color:{GOLD};border-radius:14px;padding:6px 20px;margin-bottom:12px;font-size:36px;font-weight:900;opacity:0}}
 #sch .st b{{flex:none;width:58px;height:58px;border-radius:50%;background:{GOLD};color:{MAROON};text-align:center;line-height:58px;font-size:36px}}
 #rain{{position:absolute;inset:0;z-index:4;pointer-events:none}}
 #alert{{position:absolute;left:0;right:0;top:150px;height:84px;z-index:7;background:#F9A825;color:#1A1A1A;font-size:44px;font-weight:900;
@@ -272,16 +277,16 @@ window.seek=async function(t){
  if(RG){RG.style.opacity=t<1.6?0.5+0.5*Math.sin(t*12):0;BRK.querySelector('i').style.opacity=(Math.floor(t*3)%2)?1:0.2}
  if(BOARD){const a=D.segs[0].t1;BOARD.style.opacity=t>a&&t<D.end?ez((t-a)/0.3):0;BOARD.querySelector('.bar b').style.width=(100*cl((t-a)/(D.end-a)))+'%';
   BOARD.style.transform='translateY('+(40*(1-ez((t-a)/0.3)))+'px)'}
- if(D.kind==='scheme'){const a=D.segs[0].t1;[...document.querySelectorAll('#sch .c1,#sch .c2,#sch .st')].forEach((e,i)=>{const b=a+i*0.9;
+ if(D.kind==='scheme'){const a=D.segs[0].t1;[...document.querySelectorAll('#sch .c1,#sch .c2,#sch .sh,#sch .st')].forEach((e,i)=>{const b=a+i*0.9;
   e.style.opacity=t>b&&t<D.end?ez((t-b)/0.3):0;e.style.transform='translateX('+(-60*(1-ez((t-b)/0.3)))+'px)'})}
  if(RAIN){const c=RAIN.getContext('2d');c.clearRect(0,0,1080,1920);c.strokeStyle='rgba(200,220,255,.55)';c.lineWidth=3;
   for(let i=0;i<220;i++){const x=(i*97.3)%1080,sp=1400+(i%7)*160,y=((i*233.1)+t*sp)%2100-100;c.beginPath();c.moveTo(x,y);c.lineTo(x-14,y+46);c.stroke()}}
  const wi=D.words.findIndex(w=>t>=w[1]&&t<w[2]+0.12),gi=groups.findIndex(g=>g.includes(wi));
- if(gi>=0&&t<D.end){CAP.innerHTML=groups[gi].map(i=>{const w=D.words[i][0];return '<span class="w'+(i===wi?' on':'')+(isNum(w)?' num':isPl(w)?' pl':'')+'">'+w+'</span>'}).join('')}
+ if(gi>=0&&t<D.end){CAP.innerHTML=groups[gi].map(i=>{const w=D.words[i][0];return '<span class="w'+(i===wi?' on':'')+(isNum(w)?' num':isPl(w)?' pl':'')+'">'+w+'</span>'}).join(' ')}
  else if(t>=D.end||wi<0&&!groups.some(g=>D.words[g[0]][1]-0.05<=t&&t<=D.words[g[g.length-1]][2]+0.3))CAP.innerHTML='';
  END.style.opacity=t>=D.end?ez((t-D.end)/0.3):0;
 };""")
-    band = (f'<div class="band"><img src="{logo}"><b>{G.brand_html(PAGE)}</b><span>{E(TYPE_LABEL[kind])}</span></div>')
+    band = (f'<div class="band"><img src="{logo}"><b>{G.brand_html(PAGE)}</b>' + (f'<span>{E(TYPE_LABEL[kind])}</span>' if kind in ("power", "scheme") else "") + '</div>')
     body = (f'<img id="bg" src="{frames[0][0]}"><div id="shade"></div>{type_layer(kind, s)}{band}'
             f'<div id="hook"><span class="h1">{E(hl1)}</span>' + (f'<br><span class="h2">{E(hl2)}</span>' if hl2 else "") + '</div>'
             f'{mapcard}{num}<div id="cap"></div>'
@@ -347,7 +352,7 @@ def make_news(item):
     import mapintro
     town = mapintro.town_of(s["loc"], m["towns"]) or next((tn for tn in sorted(m["towns"], key=len, reverse=True) if tn in s["loc"]), "")
     town_xy = (town, m["towns"][town]) if town else None
-    nm = re.search(r"(\d[\d,.]*)\s*(பேர்[^\s]*|லட்ச\w*|கோடி|மணி\w*|ரூபாய்)", clean(s["spec"].get("hl1")) + " " + s["head"] + " " + clean(s["spec"].get("hl2")))
+    nm = re.search(r"(\d[\d,.]*)\s*(பேர்[^\s]*|லட்ச\w*|கோடி|ரூபாய்|ஏக்கர்|டன்|கிலோ)", clean(s["spec"].get("hl1")) + " " + s["head"] + " " + clean(s["spec"].get("hl2")))      # a count, never a time (owner 28 Nov: '3 மணி' is not a counter)
     number = (nm.group(1), nm.group(2)) if nm else None
     track = np.zeros(int(dur * SR) + SR, dtype=np.float32)
     i0 = int(lead * SR)
@@ -452,14 +457,36 @@ def make_morning():
     log(f"morning sample: {dur:.1f} s - " + " | ".join(x["story"] for x in items))
 
 
-def make_comments():
+MEANING = [      # owner 28 Nov (review): what the news IS about decides the question - checked before the topic word
+    ("court", r"நீதிமன்ற|ஐகோர்ட்|உயர் நீதிமன்ற|தீர்ப்பு|வழக்கு", "இந்த தீர்ப்பு / வழக்கு பற்றி உங்கள் கருத்து என்ன? 👇"),
+    ("scheme", r"விண்ணப்ப|இலவச|மானியம்|உதவித்தொகை|திட்டம்|முகாம்", "யாருக்கு இது பயன்படும்? அவர்களை டேக் செய்யுங்க 👇"),
+    ("ban", r"தடை(?!\s*செய்)|மூடல்|மூடப்ப|அனுமதி இல்லை", "இந்த அறிவிப்பு பற்றி உங்கள் கருத்து? நண்பர்களுக்கு தெரியப்படுத்துங்க 👇"),
+    ("power_cut", r"மின்\s*தடை|மின்தடை", COMMENT["power_cut"]),
+    ("rain", r"மழை|வெள்ளம்|புயல்", COMMENT["weather"]),
+    ("accident", r"விபத்து|மோதி|கவிழ்ந்து|பலி|உயிரிழ", COMMENT["accident"]),
+    ("traffic", r"ரயில்|பஸ்|சாலை|போக்குவரத்து|தாமத", "இந்த வழியில் நீங்களும் பயணிக்கிறீர்களா? உங்கள் அனுபவம் 👇"),
+]
+
+
+def comment_for(head):
     import learned
+    for name, rx, text in MEANING:
+        if name == "power_cut" and re.search(rx, head):
+            return name, text      # a power cut notice: the area question, even with "தடை"
+    for name, rx, text in MEANING:
+        if re.search(rx, head):
+            return name, text
+    tp = learned.topic(head)
+    return tp, COMMENT.get(tp, COMMENT["other"])
+
+
+def make_comments():
     out = OUT / "comments"
     out.mkdir(parents=True, exist_ok=True)
     rows = []
     for x in recent_posts(30)[-15:]:
-        tp = learned.topic(x["head"])
-        rows.append(f"{x['story']} [{tp}] {x['head']}\n   → {COMMENT.get(tp, COMMENT['other'])}")
+        tp, text = comment_for(x["head"])
+        rows.append(f"{x['story']} [{tp}] {x['head']}\n   → {text}")
     (out / "first_comments.txt").write_text("\n\n".join(rows), encoding="utf-8")
     log(f"comments sample: {len(rows)} news")
 
