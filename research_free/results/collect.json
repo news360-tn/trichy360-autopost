@@ -3,20 +3,20 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://www.dinakaran.com/district/trichy_281126_1",
-  "manual link added: https://www.dinamani.com/all-editions/edition-dharmapuri/salem/2026/Nov/27/risk-of-accidents-due-to-rainwater-stagnation-on-the-thammampattitrichy-highway",
-  "manual link added: https://www.dinamalar.com/news/tamil-nadu-district-news-dindigul/change-needed-trichy-dindigul-train-departure-time-passengers-hit-by-heavy-delays/4388168",
+  "manual link added: https://www.dinakaran.com/district/pudukkottai_281126_1",
+  "manual link added: https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/milch-cows-for-rural-womencall-for-applications",
+  "manual link added: https://www.dinakaran.com/news/deputy_speaker_case_government_highcourt",
   "candidate filter: collected=3",
   "to write: 3 Trichy district candidates (max 3 stories)",
   "round: top 3 of 3 candidates",
   "candidates waiting: 3 Trichy; time left 79 min",
-  "try (N) manual=True: https://www.dinamalar.com/news/tamil-nadu-district-news-dind",
-  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-dharmapuri/sal",
-  "try (N) manual=True: https://www.dinakaran.com/district/trichy_281126_1",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
+  "try (N) manual=True: https://www.dinakaran.com/news/deputy_speaker_case_governmen",
+  "try (N) manual=True: https://www.dinamani.com/all-editions/edition-trichy/trichy/",
+  "try (N) manual=True: https://www.dinakaran.com/district/pudukkottai_281126_1",
+  "auto images: 1 of 1 stories ({'pollinations': 3})",
   "posting job started at once",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 6})",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})",
+  "auto images: 1 of 1 stories ({'pollinations': 6})",
+  "auto images: 1 of 1 stories ({'pollinations': 9})",
   "candidate loop ended: left 0, tried={'N': 3}, done={'N': 3}, time left 77 min",
   "filed: 3 Trichy district stories (target 3), reels only",
   "queue: 0 news waiting to be written",
@@ -25,249 +25,260 @@
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
   "dead for this round: gemini/gemini-3-flash-preview",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "dead for this round: gemini/gemini-3-flash-preview",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "dead for this round: gemini/gemini-3-flash-preview",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "switching away from groq/openai/gpt-oss-120b for 10 min",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
   "ok anthropic/claude-haiku-5-5",
+  "ok groq/qwen/qwen3.8-27b (4s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok groq/openai/gpt-oss-120b (3s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok groq/openai/gpt-oss-120b (6s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
-  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok groq/qwen/qwen3.8-27b (3s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "switching away from groq/openai/gpt-oss-120b for 10 min",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/qwen/qwen3.8-27b (4s)",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "ok anthropic/claude-haiku-5-5",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "switching away from groq/qwen/qwen3.8-27b for 10 min",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
   "ok anthropic/claude-haiku-5-5",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok groq/qwen/qwen3.8-27b (3s)",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "ok anthropic/claude-haiku-5-5",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "ok anthropic/claude-haiku-5-5"
  ],
  "stories": [
   {
-   "tamil_headline": "திருச்சி – திண்டுக்கல் ரயில்: அதிக தாமதத்தால் பயணிகள் பாதிப்பு",
-   "english_headline": "Trichy–Dindigul train at 6:35 PM faces long delays; passengers avoid it, demand a time change",
-   "category": "Roads & Transport",
-   "location": "Trichy to Dindigul railway line, Manapparai, Trichy district",
-   "importance": "Medium",
-   "scope": "",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "ரயில் பயணம்",
-    "loc": "திருச்சி – திண்டுக்கல்",
-    "hl1": "திருச்சி ரயிலில் தொடரும் தாமதம்",
-    "hl2": "மாலை 6:35 மணி ரயில்",
-    "slides": [
-     {
-      "title": "எந்த ரயில்?",
-      "lines": [
-       "திருச்சியில் இருந்து மாலை <b>6:35 மணிக்கு</b> திண்டுக்கல்",
-       "வந்தே பாரத், சிறப்பு ரயில்களுக்கு வழிவிட அதிக நேரம்",
-       "8 பெட்டிகள் மட்டுமே உள்ளன"
-      ]
-     },
-     {
-      "title": "பயணிகள் குறைவு",
-      "lines": [
-       "திருச்சி – மணப்பாறை இடையே நெரிசல் பிரச்னை",
-       "பயணிகள் வைகை எக்ஸ்பிரஸ்சுக்கு மாறுகின்றனர்",
-       "பெண் பயணிகள் பாதுகாப்பின்மை உணர்கின்றனர்"
-      ]
-     },
-     {
-      "title": "பயணிகளின் கோரிக்கை",
-      "lines": [
-       "ரயில் பயணிகள் சங்கம் நேர மாற்றம் கோருகிறது",
-       "மாலை <b>5:50 அல்லது 6:00 மணிக்கு</b> புறப்பட வேண்டும்",
-       "தஞ்சாவூர் பெட்டிகளை பயன்படுத்த பரிந்துரை"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "திருச்சியில் இருந்து மாலை 6:35 மணிக்குப் புறப்படும் திண்டுக்கல் ரயிலில் தாமதம் அதிகமாக உள்ளது. வந்தே பாரத், சிறப்பு ரயில்களுக்கு வழிவிட அடுத்தடுத்த நிலையங்களில் இந்த ரயில் அதிக நேரம் நிறுத்தப்படுகிறது. 8 பெட்டிகள் மட்டுமே இருப்பதால் திருச்சி – மணப்பாறை இடையே நெரிசல் ஏற்படுகிறது. இதனால் பயணிகள் வைகை எக்ஸ்பிரஸ்சுக்கு மாறுகின்றனர். ரயில் பயணிகள் சங்கம் மாலை 5:50 அல்லது 6:00 மணிக்குப் புறப்பட நேரம் மாற்றம் வேண்டும் எனக் கோரியுள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚆 திருச்சி – திண்டுக்கல் ரயில்: அதிக தாமதத்தால் பயணிகள் பாதிப்பு\n\n📰 முழு விவரம்:\nதிருச்சியில் இருந்து மாலை 6:35 மணிக்குப் புறப்படும் திண்டுக்கல் பயணிகள் ரயில், சென்னை – திருநெல்வேலி, பெங்களூரு – மதுரை வந்தே பாரத் ரயில்கள் மற்றும் வாராந்திர சிறப்பு எக்ஸ்பிரஸ் ரயில்களுக்கு வழிவிட அடுத்தடுத்த நிலையங்களில் அதிக நேரம் நிறுத்தப்படுகிறது.\n8 பெட்டிகளே இருப்பதால் திருச்சி – மணப்பாறை இடையே அதிக நெரிசல் ஏற்படுகிறது. மணப்பாறைக்கு அடுத்த நிலையங்களில் 2 எக்ஸ்பிரஸ் ரயில்களுக்கு வழிவிட நிறுத்தப்படுவதாலும் இந்த ரயிலைப் பயன்படுத்துவோர் எண்ணிக்கை குறைந்து வருகிறது.\nதிண்டுக்கல் ரயில் நிலையத்தில் தூத்துக்குடி – மைசூரு எக்ஸ்பிரஸ் பிடிக்க விரும்பும் மணப்பாறை, வையம்பட்டி, கல்பட்டிசத்திரம், அய்யலூர், வடமதுரை பயணிகள் இந்த ரயிலை நம்பிக்கையுடன் பயன்படுத்த முடியாத நிலை உள்ளது.\nதற்போது பேருந்தில் திண்டுக்கல் பேருந்து நிலையம் சென்று, அங்கிருந்து ஆட்டோவில் 1.5 கி.மீ. தூரம் அதிக செலவில் ரயில் நிலையம் செல்ல வேண்டியுள்ளது. இதனால் மணப்பாறை – திண்டுக்கல் இடையேயான நிலையங்களில் இந்த ரயிலில் ஏறும் பயணிகளும் குறைந்துவிட்டனர்.\nதிருச்சியில் அதிக பயணிகளுடன் புறப்படும் ரயில் திண்டுக்கல் செல்லும்போது ஆள் குறைவதால் பெண் பயணிகளுக்குப் பாதுகாப்பற்ற பயணமாக மாறுகிறது.\nரயில் பயணிகள் சங்கத்தினர், சீசன் டிக்கெட் வைத்திருப்போர் முன்னதாக புறப்படும் வைகை எக்ஸ்பிரஸ்சில் செல்வதாகத் தெரிவித்தனர். திருச்சி – திண்டுக்கல் ரயிலின் நேரத்தை மாலை 5:50 அல்லது 6:00 மணிக்கு மாற்ற வேண்டும் என்றும், தஞ்சாவூரில் இருந்து இயக்கப்படும் ரயில் பெட்டிகளைப் பயன்படுத்த வேண்டும் என்றும் கோரிக்கை வைத்துள்ளனர்.\n\nTrichy Dindigul train delays, passengers avoid it | Trichy news\n📍 திருச்சி – மணப்பாறை – திண்டுக்கல் வழித்தடம், திருச்சி மாவட்டம் | 28 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Manapparai #TrichyNews #திருச்சி",
-   "prompts": "A nearly empty 8-coach passenger train sits on the tracks at Trichy Junction railway station, its doors open but few passengers visible inside, illustrating the low occupancy mentioned in the news. The scene is set on the main platform of the busy Trichy station, with the characteristic red brick architecture and railway signage visible in the background, though no readable text is shown. A small group of passengers, seen from behind, stands near the edge of the platform, some holding bags, waiting to board or having just missed the departure time. The train coaches are standard Indian Railways green and cream livery, looking slightly worn. The atmosphere is quiet compared to the usual rush, highlighting the issue of passengers avoiding this specific service. The light is the soft, fading glow of late afternoon, casting long shadows across the platform. The camera is positioned at eye level, 35 mm, capturing the length of the train and the sparse crowd to emphasize the emptiness. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up view of the railway platform edge at Trichy Junction, focusing on the gap between the platform and the train carriage, where a few pieces of luggage are placed. This detail shot highlights the physical separation and the waiting period, symbolizing the delays and the inconvenience faced by travelers. The concrete platform surface shows signs of wear and dust. In the blurred background, the side of the train coach is visible, with its windows reflecting the evening sky. No people are in the immediate foreground, keeping the focus on the inanimate objects that tell the story of a journey in progress but delayed. The lighting is natural evening light, creating a somber mood. The camera is slightly high, looking down at the platform edge, 35 mm, ensuring the context of the railway environment is clear without showing any readable signs or faces. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide shot from the opposite side of the tracks, looking across at the Trichy Junction station building and the platform where the train is stationed. The perspective shows the scale of the railway infrastructure, with multiple tracks and overhead electric lines crisscrossing the sky. A few distant figures of passengers and railway staff are visible on the platform, appearing small against the large station structure. The station building, with its colonial-era architectural features, stands prominently in the background. The scene captures the broader context of the railway hub in Trichy, emphasizing that while the station is a major transit point, this particular train is struggling with ridership. The time is late afternoon, with the sun low on the horizon, casting a warm hue over the scene. The camera is wide, 35 mm, providing a comprehensive view of the location and the event's setting. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamalar.com/news/tamil-nadu-district-news-dindigul/change-needed-trichy-dindigul-train-departure-time-passengers-hit-by-heavy-delays/4388168",
-   "published": "2026-11-28T00:54:46+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 0 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/2e135a5d8e603818.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/8963433a79a7590f.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/d3f33abed6e97a60.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "தம்மம்பட்டி – துறையூர் சாலையில் மழைநீர் தேக்கம்: விபத்து அபாயம்",
-   "english_headline": "Rainwater stagnates on Thammampatti–Thuraiyur road near Ettadiyan temple, drivers fear accidents at night",
-   "category": "Roads & Transport",
-   "location": "Ettadiyan Koil area, Thammampatti - Thuraiyur highway, Thuraiyur taluk, Trichy district",
-   "importance": "Medium",
-   "scope": "",
-   "post_to": "Trichy 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "சாலை அபாயம்",
-    "loc": "தம்மம்பட்டி",
-    "hl1": "தம்மம்பட்டியில் மழைநீர் விபத்து அபாயம்",
-    "hl2": "இரவில் வாகனங்களுக்கு ஆபத்து",
-    "slides": [
-     {
-      "title": "எங்கே?",
-      "lines": [
-       "தம்மம்பட்டி - துறையூர் நெடுஞ்சாலை",
-       "எட்டடியான் கோயில் அருகே சாலையின் குறுக்கே வடிகால் வாய்க்கால்",
-       "இந்த இடத்தில் மழைநீர் தேங்கி நிற்கிறது"
-      ]
-     },
-     {
-      "title": "ஏன் தேங்குகிறது?",
-      "lines": [
-       "வாய்க்கால் பகுதி ஆக்கிரமிக்கப்பட்டுள்ளது",
-       "கருங்காடு பகுதியிலிருந்து வரும் மழைநீர் வெளியேற வழியில்லை",
-       "சாலையின் குறுக்கே குளம்போல நீர் தேங்குகிறது"
-      ]
-     },
-     {
-      "title": "ஆபத்து",
-      "lines": [
-       "இரவு நேரத்தில் சாலையைக் கடக்கும் வாகனங்களுக்கு",
-       "வாகன ஓட்டிகள் அச்சம் தெரிவிக்கின்றனர்",
-       "சம்பந்தப்பட்ட அதிகாரிகள் நடவடிக்கை எடுக்க வேண்டும் என"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "தம்மம்பட்டி – துறையூர் நெடுஞ்சாலையில் இரவில் விபத்து அபாயம் உள்ளது. எட்டடியான் கோயில் அருகே சாலையின் குறுக்கே உள்ள வடிகால் வாய்க்கால் ஆக்கிரமிக்கப்பட்டுள்ளது. இதனால் கருங்காடு பகுதியிலிருந்து வரும் மழைநீர் வெளியேற வழியின்றி சாலையில் குளம்போல தேங்கி நிற்கிறது. இரவு நேரத்தில் இந்தச் சாலையைக் கடக்கும் வாகனங்கள் விபத்தில் சிக்கும் அபாயம் உள்ளதாக வாகன ஓட்டிகள் அச்சம் தெரிவிக்கின்றனர். சம்பந்தப்பட்ட அதிகாரிகள் நடவடிக்கை எடுக்க வேண்டும் என அவர்கள் வலியுறுத்துகின்றனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚧 தம்மம்பட்டி – துறையூர் சாலையில் மழைநீர் தேக்கம்: இரவில் விபத்து அபாயம்\n\n📰 முழு விவரம்:\nதம்மம்பட்டி – துறையூர் நெடுஞ்சாலையில் எட்டடியான் கோயில் அருகே சாலையின் குறுக்கே உள்ள வடிகால் வாய்க்கால் ஆக்கிரமிக்கப்பட்டுள்ளது. மழைக்காலங்களில் கருங்காடு பகுதியிலிருந்து வரும் மழைநீர் அந்த வாய்க்கால் வழியாக அருகிலுள்ள ஓடையில் கலக்கும். ஆனால் வாய்க்கால் ஆக்கிரமிக்கப்பட்டதால் மழைநீர் வெளியேற வழியின்றி சாலையின் குறுக்கே குளம்போல தேங்கி நிற்கிறது. இரவில் இந்தச் சாலையைக் கடக்கும் வாகனங்கள் விபத்தில் சிக்கும் அபாயம் உள்ளதாக வாகன ஓட்டிகள் அச்சம் தெரிவித்துள்ளனர். இது குறித்து சம்பந்தப்பட்ட அதிகாரிகள் நடவடிக்கை எடுக்க வேண்டும் என அவர்கள் வலியுறுத்தியுள்ளனர்.\n\n📍 இடம்: எட்டடியான் கோயில் அருகே, தம்மம்பட்டி – துறையூர் நெடுஞ்சாலை\n🌧️ பிரச்சனை: ஆக்கிரமிக்கப்பட்ட வாய்க்கால் காரணமாக மழைநீர் தேக்கம்\n⚠️ அபாயம்: இரவு நேரத்தில் வாகனங்களுக்கு விபத்து அபாயம்\n🙏 கோரிக்கை: சம்பந்தப்பட்ட அதிகாரிகள் நடவடிக்கை எடுக்க வேண்டும்\n\nThammampatti Thuraiyur road rainwater stagnation accident risk | Trichy news\n📍 தம்மம்பட்டி, திருச்சி மாவட்டம் | 28 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thuraiyur #TrichyNews #திருச்சி",
-   "prompts": "A stretch of the Thammampatti-Thuraiyur highway near Ettadiyan Koil is covered by a wide pool of stagnant rainwater, with the dark asphalt visible only at the edges. Two-wheelers and a car slow down at the water's edge, their riders and drivers seen from behind, hesitating before entering the flooded lane. The road runs through a semi-rural stretch of Thuraiyur taluk, with dense green roadside bushes, a few palm trees, and a small temple roof with a modest gopuram peeking above the trees in the distance. Overcast sky after recent rain, with grey light reflecting off the wet road surface. Camera at eye level, 35 mm, wide enough to show the full width of the flooded road, the vehicles and the temple in the background. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of the drainage channel beside the highway where the rainwater should flow out but is blocked by encroachment, with muddy water backed up and spilling across the tarmac. Dense weeds, scattered plastic bottles and mud clog the concrete edges of the channel, and a shallow pool spreads over the road surface. A single two-wheeler's front wheel is partly visible at the edge of the water, its rider seen from behind. Overcast daylight, wet ground, a few palm fronds at the top of the frame. Camera low and close, 35 mm, focusing on the blocked channel and the water crossing the road. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinamani.com/all-editions/edition-dharmapuri/salem/2026/Nov/27/risk-of-accidents-due-to-rainwater-stagnation-on-the-thammampattitrichy-highway",
-   "published": "2026-11-27T19:54:23.546Z",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 0 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 999,
-   "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/791909f5a92c29b0.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/4bdb79a0ad55c7cc.jpg"
-   ]
-  },
-  {
-   "tamil_headline": "பச்சைமலை மங்களம் அருவியில் குளிக்கத் தடை",
-   "english_headline": "Bathing banned at Mangalam falls in Pachaimalai after flooding",
-   "category": "Weather & Agriculture",
-   "location": "Manapparai... no, Thuraiyur, Trichy district",
+   "tamil_headline": "துணை சபாநாயகர் தாக்கிய வழக்கு: அரசு பதில் அளிக்க ஐகோர்ட் உத்தரவு",
+   "english_headline": "High Court orders government to respond to case against Deputy Speaker accused of assaulting a petitioner with a club",
+   "category": "Crime & Safety",
+   "location": "Madurai High Court Bench (case); Thuraiyur, Trichy district",
    "importance": "High",
-   "scope": "local",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "மழை எச்சரிக்கை",
-    "loc": "துறையூர், பச்சைமலை",
-    "hl1": "பச்சைமலை மங்களம் அருவியில் தடை",
-    "hl2": "குளிக்கவும் நடமாடவும் தடை",
+    "cat": "வழக்கு விசாரணை",
+    "loc": "துறையூர், திருச்சி மாவட்டம்",
+    "hl1": "துறையூர்: துணை சபாநாயகர் தாக்கிய வழக்கு",
+    "hl2": "அரசு பதில் அளிக்க ஐகோர்ட்",
     "slides": [
      {
       "title": "என்ன நடந்தது?",
       "lines": [
-       "மங்களம் அருவியில் வெள்ளப்பெருக்கு",
-       "சுற்றுலா பயணிகள் குளிக்கத் தடை",
-       "தொடர் மழையால் காட்டருவிகளில் நீர் பெருக்கு"
+       "துறையூரைச் சேர்ந்த கார்த்திக்குமார் மனு தாக்கல் செய்தார்",
+       "கோரிக்கை மனு அளிக்கச் சென்றபோது உருட்டுக்கட்டையால்",
+       "துறையூர் எம்எல்ஏ, துணை சபாநாயகர் ரவிசங்கர் மீது நடவடிக்கை"
       ]
      },
      {
-      "title": "எங்கே?",
+      "title": "புகாரில் என்ன?",
       "lines": [
-       "துறையூர் அடுத்த உப்பிலியபுரம் ஒன்றியம்",
-       "தென்புறநாடு ஊராட்சி, பச்சைமலை",
-       "திருச்சி மாவட்டம்"
+       "மண்ணச்சநல்லூர் அரசு மருத்துவமனையில் சிகிச்சை பெற்றதாக",
+       "காவலர்கள் அடையாளம் தெரியாத நபர் தாக்கியதாகப் பதிவு செய்ததாக",
+       "இன்ஸ்பெக்டர் கிருபாநிதி வீடியோ"
       ]
      },
      {
-      "title": "ஏன் தடை?",
+      "title": "ஐகோர்ட் உத்தரவு",
       "lines": [
-       "கடந்த மாத கனமழையில் குறுக்கு கம்பிகள் சேதம்",
-       "பயணிகள் பாதுகாப்புக்காக தடை",
-       "அடுத்த அறிவிப்பு வரும் வரை தடை நீடிக்கும்"
+       "மதுரை கிளையில் விசாரணை நடைபெற்றது",
+       "அரசுத் தரப்பு கால அவகாசம் கோரியது",
+       "போதுமான விவரங்களுடன் பதில் அளிக்க அரசுக்கு உத்தரவு"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "பச்சைமலை மங்களம் அருவியில் வெள்ளப்பெருக்கு ஏற்பட்டுள்ளதால் சுற்றுலா பயணிகள் குளிக்கத் தடை விதிக்கப்பட்டுள்ளது. துறையூர் அடுத்த உப்பிலியபுரம் ஒன்றியம் தென்புறநாடு ஊராட்சியில் தொடர் மழையால் காட்டருவிகளில் நீர் பெருக்கெடுத்து ஓடுகிறது. கடந்த மாத கனமழையால் அருவியின் பாதுகாப்புக் குறுக்கு கம்பிகள் சேதமடைந்தன. பாதுகாப்பு கருதி அடுத்த அறிவிப்பு வரும் வரை அருவிப் பகுதியில் நடமாடவும் குளிக்கவும் தடை. மாவட்ட வன அலுவலர் கவுதம் தெரிவித்துள்ளார். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "🚫 பச்சைமலை மங்களம் அருவியில் குளிக்கத் தடை\n\n📰 முழு விவரம்:\nதுறையூர் அடுத்த உப்பிலியபுரம் ஒன்றியம் தென்புறநாடு ஊராட்சி பச்சைமலையில் தொடர் மழையால் காட்டருவிகளில் நீர் பெருக்கெடுத்து ஓடுகிறது. மங்களம் அருவிப் பகுதியில் நீர்வரத்து அதிகரித்துள்ளது.\nகடந்த மாதம் பெய்த கனமழையால் மங்களம் அருவியில் சமீபத்தில் புனரமைக்கப்பட்ட சுற்றுலா பயணிகள் பாதுகாப்புக் குறுக்கு கம்பிகள் அனைத்தும் சேதமடைந்தன.\nசுற்றுலா பயணிகளின் பாதுகாப்பு கருதி அடுத்த அறிவிப்பு வரும் வரை மங்களம் அருவிப் பகுதியில் நடமாடவும் குளிக்கவும் தடை விதிக்கப்பட்டுள்ளதாக மாவட்ட வன அலுவலர் கவுதம் தெரிவித்துள்ளார்.\n📍 இடம்: மங்களம் அருவி, பச்சைமலை, துறையூர்\nℹ️ மக்கள் கவனத்திற்கு: அடுத்த அறிவிப்பு வரும் வரை அருவிப் பகுதிக்குச் செல்ல வேண்டாம்.\n\nPachaimalai Mangalam falls bathing ban | Trichy news\n📍 துறையூர், திருச்சி மாவட்டம் | 28 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thuraiyur #மழை #TrichyNews",
-   "prompts": "A thick, fast-flowing brown-white torrent pours down the rocky tiers of Mangalam falls in the Pachaimalai hills near Thuraiyur, Trichy district, after days of continuous rain. Dense green forest covers the steep slopes on both sides of the gorge, and mist hangs over the upper rocks under an overcast monsoon sky. At the base of the falls, a forest department staff member in a khaki uniform stands far off with his back to the camera, while a couple of tourists in casual clothes stand well back on a stone platform, watching the water. A simple barricade and a caution board stand at the edge of the walkway to block entry; no text is visible. Wet boulders glisten and the water surges around them. Daylight, grey soft light, no sun. Shot at eye level with a 35 mm lens, wide enough to show the full cascade, the forest slopes and the people at the barricade. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of the damaged safety railing beside the Mangalam falls walkway: the iron cross-bars are bent and broken, some hanging loose from their posts, while swift muddy water rushes over the wet rocks just beyond them. Behind the railing, the rocky stream bed and churning foam of the falls fill the frame, with green forest leaves dripping in the background. A weathered warning post with its sign turned away from the camera stands by the broken bars, and a few fallen leaves and wet stones lie on the stone steps. Overcast daylight gives soft, even light and no harsh shadows. Shot at low eye level with a 35 mm lens, focusing on the broken bars and the flood water beyond them, showing why bathing and movement near the falls have been prohibited. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.dinakaran.com/district/trichy_281126_1",
-   "published": "2026-11-28T06:46:20+05:30",
-   "verification": "DRAFT (anthropic/claude-haiku-5-5) - fact-check: no problems found",
-   "note": "free-model draft anthropic/claude-haiku-5-5, 11 attempt(s), 0 validator problem(s)",
+   "reel_script": "துணை சபாநாயகர் தாக்கிய வழக்கில் அரசு பதில் அளிக்க ஐகோர்ட் உத்தரவிட்டுள்ளது. கோரிக்கை மனு அளிக்கச் சென்றவரை உருட்டுக்கட்டையால் தாக்கியதாக துறையூர் எம்எல்ஏவும் துணை சபாநாயகருமான ரவிசங்கர் மீது புகார் கூறப்பட்டுள்ளது. மனுதாரர் கார்த்திக்குமார் மதுரை ஐகோர்ட் கிளையில் மனு தாக்கல் செய்தார். மண்ணச்சநல்லூர் இன்ஸ்பெக்டர் கிருபாநிதி மீதும் நடவடிக்கை கோரப்பட்டுள்ளது. இந்த மனுவை நீதிபதி கோவிந்தராஜன் திலகவதி விசாரித்தார். அரசுத் தரப்பு கால அவகாசம் கோரியதால் விசாரணை தள்ளிவைக்கப்பட்டது. போதுமான விவரங்களுடன் பதில் அளிக்க அரசுக்கு உத்தரவிடப்பட்டுள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "⚖️ துணை சபாநாயகர் தாக்கிய வழக்கில் அரசு பதில் அளிக்க ஐகோர்ட் உத்தரவு\n\n📰 முழு விவரம்:\nகோரிக்கை மனு அளிக்கச் சென்றவரை உருட்டுக்கட்டையால் தாக்கியதாக துறையூர் எம்எல்ஏவும் துணை சபாநாயகருமான ரவிசங்கர் மீது நடவடிக்கை கோரி, துறையூரைச் சேர்ந்த கார்த்திக்குமார் ஐகோர்ட் மதுரை கிளையில் மனு தாக்கல் செய்தார். மண்ணச்சநல்லூர் அரசு மருத்துவமனையில் சிகிச்சை பெற்றதாகவும், காவலர்கள் அடையாளம் தெரியாத நபர் தாக்கியதாகப் பதிவு செய்ததாகவும் அவர் கூறியுள்ளார். மண்ணச்சநல்லூர் இன்ஸ்பெக்டர் கிருபாநிதி தன்னை துணை சபாநாயகர் இல்லத்துக்கு அழைத்துச் சென்று மறுப்பு வீடியோ எடுக்கக் கட்டாயப்படுத்தினார் என்றும், மறுத்தபோது குடும்பத்தினர் மீது பொய் வழக்கு போடுவதாக மிரட்டினார் என்றும் மனுதாரர் குற்றம் சாட்டியுள்ளார். புகார் அளித்தும் நடவடிக்கை இல்லை என்பதால், இன்ஸ்பெக்டர் கிருபாநிதி மற்றும் ரவிசங்கர் மீது சட்டப்படி நடவடிக்கை எடுக்க திருச்சி எஸ்பி மற்றும் முசிறி டிஎஸ்பிக்கு உத்தரவிட வேண்டும் என மனுவில் கோரப்பட்டுள்ளது. நீதிபதி கோவிந்தராஜன் திலகவதி முன் நேற்று விசாரணைக்கு வந்த இந்த மனுவில், அரசுத் தரப்பு கால அவகாசம் கோரியது. போதுமான விவரங்களுடன் பதில் அளிக்க வேண்டும் என உத்தரவிட்டு விசாரணை தள்ளிவைக்கப்பட்டது.\n\nDeputy Speaker assault case, HC orders govt reply | Trichy news\n📍 துறையூர், திருச்சி மாவட்டம் | 28 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Thuraiyur #TrichyNews #திருச்சி",
+   "prompts": "A High Court courtroom in Madurai, with a wooden bench and dark wooden panels, judges' podium empty in the foreground. Government lawyers in black coats and white bands sit at a long table stacked with bundled case files and papers, seen from behind as they listen. A few advocates and litigants in shirts and sarees sit on rows of benches, all shown from behind or far off. Tall windows let in soft daylight, ceiling fans turn overhead, and the ornate pillars of the old colonial-era hall frame the scene. Tamil Nadu court atmosphere, no visible text. Taken at eye level with a 35 mm lens, wide enough to show the whole hall and the people's backs, no faces visible. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a stack of court files and a thick bundle of petition papers tied with red tape on a wooden table in the Madurai High Court hall. A black-coated advocate's sleeve and white band are just visible at the edge of the frame, seen from behind. Soft daylight from a tall window falls across the papers, and the grain of the wooden table and a brass inkstand sit in focus. No readable text, no faces, no signboards. Shot at eye level with a 35 mm lens, shallow depth of field, the papers as the central subject and the courtroom blurred behind them. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinakaran.com/news/deputy_speaker_case_government_highcourt",
+   "published": "2026-11-28T04:50:35+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: reel_script sentence 1 (heard in the first 3 seconds) must name the place 'துறையூர்' and the news itself, e.g. 'துறையூர்-இல் ... 3 பேர் கைது.' - viewers decide in 3 seconds whether the news is about their area",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 12 attempt(s), 1 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/043943ae07851b39.jpg",
-    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/d28727f0f7ea9989.jpg"
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/ce6342799f46ab08.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/032ef6b18a833eff.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "ஊரக மகளிருக்கு இலவச கறவை மாடு: டிச. 17க்குள் விண்ணப்பியுங்கள்",
+   "english_headline": "Free dairy cows for rural women in Trichy district; apply online by 17 Dec",
+   "category": "Government & Services",
+   "location": "Marungapuri panchayat union, Trichy district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "அரசுத் திட்டம்",
+    "loc": "மருங்காபுரி, திருச்சி",
+    "hl1": "ஊரக மகளிருக்கு இலவச கறவை மாடு",
+    "hl2": "டிச. 17க்குள்",
+    "slides": [
+     {
+      "title": "திட்டம் என்ன?",
+      "lines": [
+       "ரூ.<b>50,000</b> மதிப்புள்ள கறவை மாடு இலவசம்",
+       "2 ஆண்டு காப்பீடும் வழங்கப்படும்",
+       "மாட்டை வீட்டுக்குக் கொண்டு செல்ல போக்குவரத்துச் செலவுடன்"
+      ]
+     },
+     {
+      "title": "யார்",
+      "lines": [
+       "<b>18 முதல் 60 வயது</b> மகளிர், திருநங்கைகள்",
+       "கறவை பசு வளர்க்க இடவசதி, தீவன வசதி இருக்க வேண்டும்",
+       "முன்னுரிமை: கைவிடப்பட்ட, விதவை, மாற்றுத்திறனாளி"
+      ]
+     },
+     {
+      "title": "யார் விண்ணப்பிக்க",
+      "lines": [
+       "<b>2.5 ஏக்கருக்கு</b> மேல் நிலம் உள்ளவர்கள்",
+       "ஆண்டு வருமானம் <b>ரூ.2.5 லட்சத்துக்கு</b> மேல் உள்ளவர்கள்",
+       "ஏற்கெனவே கறவை மாடு வைத்திருப்பவர்கள்"
+      ]
+     },
+     {
+      "title": "எப்படி",
+      "lines": [
+       "விண்ணப்பம் <b>இணையதளம் மூலம்</b> மட்டுமே",
+       "தெரியாதவர்கள் கால்நடை அலுவலகம், மருங்காபுரி கால்நடை",
+       "கடைசி நாள் <b>டிசம்பர் 17</b>"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சி மாவட்ட ஊரக மகளிருக்கு இலவசமாக கறவை மாடு வழங்கப்படுகிறது. இதில் ரூ.50,000 மதிப்புள்ள மாட்டுடன் 2 ஆண்டு காப்பீடும் கிடைக்கும். மேலும், மாட்டை வீட்டுக்குக் கொண்டு செல்ல போக்குவரத்துச் செலவுக்காக ரூ.3,000 வழங்கப்படும். 18 முதல் 60 வயதுக்குள் உள்ள மகளிரும் திருநங்கைகளும் விண்ணப்பிக்கலாம். ஆனால், 2.5 ஏக்கருக்கு மேல் நிலம் வைத்திருப்பவர்களும், ஏற்கெனவே கறவை மாடு வைத்திருப்பவர்களும் விண்ணப்பிக்க முடியாது. விண்ணப்பம் இணையதளம் மூலம் மட்டுமே ஏற்கப்படும். இதற்கான கடைசி நாள் டிசம்பர் 17. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🐄 ஊரக மகளிருக்கு இலவச கறவை மாடு: டிச. 17க்குள் விண்ணப்பியுங்கள்\n\n📰 முழு விவரம்:\nதிருச்சி மாவட்டத்தில் ஊரக மகளிருக்கு விலையில்லா கறவை மாடுகள் வழங்கும் திட்டத்தில் பயன்பெற விண்ணப்பங்கள் வரவேற்கப்படுகின்றன. ரூ.50,000 மதிப்புள்ள கறவை மாடு மற்றும் 2 ஆண்டு காப்பீடு வழங்கப்படும். வழங்கப்படும் பசுவை வீட்டுக்குக் கொண்டு செல்ல போக்குவரத்துச் செலவு மற்றும் உடனடி தீவனச் செலவுக்காக மொத்தம் ரூ.3,000 வழங்கப்படும். 18 முதல் 60 வயதுக்குள்பட்ட மகளிர் மற்றும் திருநங்கைகள், கறவை பசு வளர்ப்பில் ஆர்வமும் போதிய இடவசதி, தீவன வசதியும் உள்ளவர்கள் பயன்பெறலாம். ஆதரவற்ற விதவைகள், கணவரால் கைவிடப்பட்ட மகளிர், திருநங்கைகள், மாற்றுத்திறனாளி மகளிர், மாற்றுத்திறன் கொண்ட குழந்தைகள் அல்லது குடும்ப உறுப்பினர்களைக் கொண்ட மகளிருக்கு முன்னுரிமை உண்டு. 2.5 ஏக்கருக்கு மேல் நிலம் வைத்திருப்பவர்கள், குடும்ப ஆண்டு வருமானம் ரூ.2.5 லட்சத்துக்கு மேல் உள்ளவர்கள், ஏற்கெனவே கால்நடைத் துறை திட்டத்தில் பயன் பெற்றவர்கள் மற்றும் ஏற்கெனவே கறவை மாடு வைத்திருப்பவர்கள் விண்ணப்பிக்க முடியாது. இத்திட்டம் மருங்காபுரி ஊராட்சி ஒன்றியத்தில் முதல் கட்டமாக நடப்பாண்டில் செயல்படுத்தப்பட உள்ளது. இத்திட்டம் செயல்படுத்தப்படும் ஒன்றியங்கள் குறித்த தகவல்களை மாவட்ட கால்நடை பராமரிப்புத் துறையின் இணையதளத்தில் அறிந்துகொள்ளலாம். விண்ணப்பம் இணையதளம் மூலம் மட்டுமே செய்ய முடியும். இணையதளத்தில் விண்ணப்பிக்கத் தெரியாதவர்கள் கால்நடை பெருக்கம் மற்றும் தீவன அபிவிருத்தி துணை இயக்குநர் அலுவலக மையம், திருச்சி அல்லது மருங்காபுரி கால்நடை மருந்தகம், மருங்காபுரி ஊராட்சி ஒன்றியத்தை அணுகி உதவி பெறலாம். விண்ணப்பிக்கும் கடைசி நாள் டிசம்பர் 17. மாவட்ட ஆட்சியர் பிரத்திக் தாயள் இதைத் தெரிவித்துள்ளார்.\n\nFree dairy cows for rural women Trichy, apply by 17 Dec | Trichy news\n📍 மருங்காபுரி, திருச்சி மாவட்டம் | 28 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Marungapuri #TrichyNews #திருச்சி",
+   "prompts": "A group of rural Tamil women in cotton sarees stand in a queue outside the Marungapuri panchayat union office in Trichy district, holding plastic files with their papers. Seen from behind and slightly to the side, they wait near a whitewashed government building with a tiled roof and a dusty courtyard. Some women carry small cloth bags and one holds a mobile phone, hinting at the online application. Behind them a few tubelight-lit windows and a plain concrete veranda show a typical Tamil Nadu rural government office. Light is bright daylight with soft shadows. A pair of cattle is faintly visible at the back of the courtyard. Camera at eye level, 35 mm lens, wide enough to show the building and the queue. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a healthy brown and white dairy cow standing in a clean cattle shed in a Marungapuri village, with a bundle of green fodder grass and a steel bucket of feed beside it. A stack of dried paddy straw sits in the background, and a rough concrete floor and tin roof show a rural livestock setting. A woman's hand, seen only at the edge of frame in a faded cotton saree sleeve, rests on the cow's back. Soft daylight enters through the open side of the shed. Camera slightly low, 50 mm, shallow depth of field to highlight the cow and fodder. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nWide view from the dirt road outside the Marungapuri livestock dispensary, showing a small single-storey government building with a concrete compound wall, a few parked two-wheelers and a rickshaw. Several rural women walk toward the entrance from behind, carrying files and wearing sarees, while a farmer leads a cow on a rope past them. Paddy fields and a row of palm trees stretch in the background under a clear afternoon sky. Camera at eye level from across the road, 35 mm, showing the building, road and people in one frame. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/milch-cows-for-rural-womencall-for-applications",
+   "published": "2026-11-27T21:11:59.216Z",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b) - NOT CLEAN, held from posting - problems: hl1 (the first headline on screen) must name the place 'மருங்காபுரி', e.g. 'மருங்காபுரி: ...' or 'மருங்காபுரி-இல் ...' - viewers share news of their own area",
+   "note": "free-model draft anthropic/claude-haiku-5-5 + proofread groq/qwen/qwen3.8-27b, 13 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/1e50872cbf7a9eb0.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/c9d94538816d655b.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/d5b22fa463aa4c21.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "கந்தர்வகோட்டை சாலையில் சென்டர் மீடியனை அகற்ற கோரிக்கை",
+   "english_headline": "Kandarvakottai-Trichy road: people demand removal of centre median that causes frequent accidents",
+   "category": "Roads & Transport",
+   "location": "Kandarvakottai town, Pudukkottai district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "சாலை விபத்து",
+    "loc": "கந்தர்வகோட்டை",
+    "hl1": "கந்தர்வகோட்டை சாலையில் அடிக்கடி விபத்து",
+    "hl2": "சென்டர் மீடியனை அகற்ற",
+    "slides": [
+     {
+      "title": "என்ன பிரச்சினை?",
+      "lines": [
+       "கந்தர்வகோட்டை-திருச்சி சாலையில் <b>அடிக்கடி</b> விபத்து",
+       "பேருந்து நிறுத்தம் அருகே சாலையின் நடுவில் தடுப்புச் சுவர்",
+       "சுவர் முறையாக அமைக்கப்படாததே காரணம்"
+      ]
+     },
+     {
+      "title": "மக்களின் கோரிக்கை",
+      "lines": [
+       "சுவரை அகற்றிவிட்டு கம்பிகளால் ஆன தடுப்பு அமைக்க வேண்டும்",
+       "பொதுமக்களும் வியாபாரிகளும் கோரிக்கை விடுத்துள்ளனர்",
+       "சில சமயங்களில் பெரும் விபத்துக்கும் இதுவே காரணமாகிறது"
+      ]
+     },
+     {
+      "title": "அதிகாரிகளுக்கு",
+      "lines": [
+       "சம்பந்தப்பட்ட துறை களஆய்வு செய்ய வேண்டும்",
+       "கோரிக்கை நிறைவேற்றப்படுமா என்பது இதுவரை தெரியவில்லை"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "கந்தர்வகோட்டை-திருச்சி சாலையில் அடிக்கடி விபத்துகள் நடப்பதாக பொதுமக்கள் புகார் கூறுகின்றனர். பேருந்து நிறுத்தம் அருகே சாலையின் நடுவில் உள்ள தடுப்புச் சுவர் முறையாக அமைக்கப்படாததே இதற்குக் காரணம் என்று கூறப்படுகிறது. சில சமயங்களில் இது பெரிய விபத்துக்கும் வழிவகுக்கிறது. அந்தச் சுவரை அகற்றிவிட்டு கம்பிகளால் ஆன தடுப்பை அமைக்க வேண்டும் என்று பொதுமக்களும் வியாபாரிகளும் கேட்டுக்கொள்கின்றனர். சம்பந்தப்பட்ட துறை களஆய்வு செய்ய வேண்டும் என்றும் கோரிக்கை விடுக்கப்பட்டுள்ளது. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚧 கந்தர்வகோட்டை-திருச்சி சாலையில் அடிக்கடி விபத்து: சென்டர் மீடியனை அகற்ற கோரிக்கை\n\n📰 முழு விவரம்:\nகந்தர்வகோட்டை பேரூராட்சியில் பேருந்து நிறுத்தம் அருகே உள்ள திருச்சி சாலையின் மையப் பகுதியில், நெடுஞ்சாலைத் துறை மூலம் அரளைக் கற்களைக் கொண்டு சாலையை இருபுறமாகப் பிரிக்கும் சுவர் அமைக்கப்பட்டுள்ளது.\nஇந்தச் சுவர் முறையாக அமைக்கப்படாததால் சாலையின் இருபுறமும் அடிக்கடி விபத்துகள் ஏற்படுகின்றன. சில சமயங்களில் இதுவே பெரிய விபத்துக்குக் காரணமாகவும் உள்ளது.\nஎனவே, சம்பந்தப்பட்ட துறை களஆய்வு செய்து சுவரை அகற்றி, கம்பிகளால் ஆன தடுப்பு அமைக்க வேண்டும் என்று பொதுமக்களும் வியாபாரிகளும் கோரிக்கை விடுத்துள்ளனர்.\n📍 இடம்: கந்தர்வகோட்டை பேரூராட்சி, பேருந்து நிறுத்தம் அருகே, திருச்சி சாலை\n\nKandarvakottai Trichy road accidents, centre median removal demand | Trichy news\n📍 கந்தர்வகோட்டை, புதுக்கோட்டை மாவட்டம் | 28 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #Kandarvakottai",
+   "prompts": "A group of local residents and shopkeepers stand beside a rural town road in Kandarvakottai, Pudukkottai district, seen from behind, looking toward a raised centre median of loose gravel stones dividing the Trichy road near a bus stop. Several two-wheelers and a town bus are parked close to the median, and a few men in shirts and veshti hold a folded petition sheet, pointing toward the divider as if demanding its removal. Small roadside tea shops and shop fronts line the edge of the road, with a plain low-rise Tamil town skyline behind them. The stones of the median are uneven and piled high, clearly unsafe for vehicles crossing it. Daylight, clear sky, mild dust in the air. Camera at eye level, 35 mm lens, wide enough to show the road, the median, the bus stop and the group of people, with faces turned away or blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up detail of the raised centre median on the Kandarvakottai road, made of loose aggregate and gravel stones piled in a low wall running along the middle of the tarred road. Two-wheeler tyre tracks and scattered gravel are visible on the asphalt beside the stones, showing how vehicles swerve near it. The edge of the median is uneven and crumbling, with a few stones spilling onto the road surface. Behind it, a blurred bus stop shelter and the side of a roadside shop are visible in soft focus. Bright daylight, no people in sharp focus. Camera slightly high, 35 mm lens, shallow depth of field focusing on the stone median. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide view from the roadside of the Trichy road in Kandarvakottai town, looking along the road where the gravel-stone centre median divides the traffic lanes near the bus stop. A town bus and several two-wheelers approach from the far end of the road, passing on either side of the median, while a small group of residents stands at the kerb, seen from behind. Roadside shops, a bus shelter and a few trees line the road. Daylight, dusty but clear weather. Camera at eye level from the road edge, 35 mm lens, showing the full stretch of the road and the median running through the middle. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dinakaran.com/district/pudukkottai_281126_1",
+   "published": "2026-11-28T06:43:58+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: known issue meta_article: caption talks about the article instead of the news ('தகவல் வெளியாகவில்லை') - rewrite so it does not happen again",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/ba247410ea4d4772.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/4fd60c52d1fa29aa.jpg",
+    "https://pub-ec316fa6a94f404c993596355ad19128.r2.dev/trichy360/20261128/b0ab3d97b0e4f61c.jpg"
    ]
   }
  ]
