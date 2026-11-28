@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:15:59+00:00",
+ "updated": "2026-11-28T01:24:03+00:00",
  "day": "2026-11-28",
  "ready": 6,
  "pages": {
@@ -43,7 +43,7 @@
       "kind": "reel"
      }
     ],
-    "paused": "",
+    "paused": "Instagram had a temporary error - posting again after 5 minutes on trichy - paused until 2026-11-28T01:31 UTC",
     "quota": ""
    },
    "facebook": {
@@ -59,8 +59,8 @@
      "link": ""
     },
     "rasipalan": {
-     "posted": false,
-     "link": ""
+     "posted": true,
+     "link": "https://www.instagram.com/reel/DgRDiJXxBMO/"
     }
    },
    "youtube": {
