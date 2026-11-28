@@ -43,7 +43,8 @@
    "alts": [
     "https://www.dailythanthi.com/amp/story/news/tamilnadu/additional-coaches-added-to-trichy-srikanganagar-train"
    ],
-   "listed_at": "2026-11-28T18:28:09.381138+05:30"
+   "listed_at": "2026-11-28T18:28:09.381138+05:30",
+   "picked_at": "2026-11-28T18:30:06.815388+05:30"
   },
   "Ce1a8de3": {
    "id": "Ce1a8de3",
@@ -55,7 +56,8 @@
    "category": "பொது",
    "score": 3.0,
    "power_cut": false,
-   "listed_at": "2026-11-28T18:28:09.381138+05:30"
+   "listed_at": "2026-11-28T18:28:09.381138+05:30",
+   "picked_at": "2026-11-28T18:30:06.815390+05:30"
   }
  },
  "rounds": {
@@ -505,8 +507,18 @@
    ],
    "sent": false,
    "deadline": "2026-11-28T19:28:09.381138+05:30",
-   "decided": null,
-   "written": []
+   "decided": {
+    "how": "automatic: top 3 of 2 by insights",
+    "ids": [
+     "C82383ec",
+     "Ce1a8de3"
+    ],
+    "at": "2026-11-28T18:30:06.815379+05:30"
+   },
+   "written": [
+    "C82383ec",
+    "Ce1a8de3"
+   ]
   }
  },
  "retry": {},
