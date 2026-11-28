@@ -85,6 +85,19 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-28 | `089f764` | reel: the NEWS360-TN news reader in a round window on every news reel (owner 28 Nov) - the owner's own 9 drawings, the mouth chosen from the reel's voice (closed in every pause, open while the news is read); the place card sits beside it. Top 5 reel: headline clear of the buttons, the time chip above the caption area, the 5-4-3-2-1 row down the left side - one video for Instagram, Facebook and YouTube Shorts. Map opening off on this page: the reel opens with the news picture and headline, the place card shows the map |
+| 2026-11-28 | `5a503d7` | stories shared / Instagram pause |
+| 2026-11-28 | `f28d158` | pick: picked news saved |
+| 2026-11-28 | `c9a96ab` | pick: list sent |
+| 2026-11-28 | `ae93a83` | stories shared / Instagram pause |
+| 2026-11-28 | `a9e36ac` | stories shared / Instagram pause |
+| 2026-11-28 | `15e2286` | stories shared / Instagram pause |
+| 2026-11-28 | `e1377a9` | stories shared / Instagram pause |
+| 2026-11-28 | `9120b72` | stories shared / Instagram pause |
+| 2026-11-28 | `4eca879` | powercut: notices written |
+| 2026-11-28 | `ae3fe22` | stories shared / Instagram pause |
+| 2026-11-28 | `595122f` | facebook RN-204 |
+| 2026-11-28 | `91d6311` | posted RN-204 |
 | 2026-11-28 | `5c72790` | yt_hashtags: a page's tag lists are also found by the channel name (Tiruppur 360: page tirupur, tag #Tiruppur360) - no change for this page |
 | 2026-11-28 | `b32abe5` | stories shared / Instagram pause |
 | 2026-11-28 | `633f29e` | Hashtag fixes (owner 28 Nov): a source link's #part is no longer a hidden YouTube tag (district-section); a Facebook hashtag is never repeated and the top 5 reel gets topic + district + page tag |
@@ -102,17 +115,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-28 | `d3aa8b9` | stories shared / Instagram pause |
 | 2026-11-28 | `3606c23` | YouTube: 40 hashtags on every Short (owner 28 Nov) - 25 for the video, 5 page, 5 district, 5 area (poster/yt_hashtags.py); title, first line, hidden tags, Instagram and Facebook unchanged |
 | 2026-11-28 | `e3efc8e` | stories shared / Instagram pause |
-| 2026-11-28 | `7b57acc` | stories shared / Instagram pause |
-| 2026-11-28 | `ca50659` | stories shared / Instagram pause |
-| 2026-11-28 | `9d739c0` | stories shared / Instagram pause |
-| 2026-11-28 | `24daf31` | stories shared / Instagram pause |
-| 2026-11-28 | `99763d3` | stories shared / Instagram pause |
-| 2026-11-28 | `9fc01e4` | stories shared / Instagram pause |
-| 2026-11-28 | `74e1047` | stories shared / Instagram pause |
-| 2026-11-28 | `67c3e65` | stories shared / Instagram pause |
-| 2026-11-28 | `e3618bf` | stories shared / Instagram pause |
-| 2026-11-28 | `93a7ef0` | stories shared / Instagram pause |
-| 2026-11-28 | `2647e3b` | stories shared / Instagram pause |
-| 2026-11-28 | `7c8bc6b` | stories shared / Instagram pause |
-| 2026-11-28 | `8764d74` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
