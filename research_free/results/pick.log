@@ -1,63 +1,34 @@
-10:27:28 round 2026-11-28_10: news published 28 Nov 08:27 -> 28 Nov 10:27 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-10:27:28    + news published since 27 Nov 10:27 that no earlier round found (listed / indexed late) - never one already listed or posted
-10:27:28 insights 2026-11-28T10:27+05:30 (197 reels): topic weights {'accident': 0.82, 'crime': 1.37, 'power_cut': 0.85, 'civic': 0.23, 'education': -0.17, 'politics': -0.09, 'weather': -0.5, 'temple': -0.39, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '💼 அயிலாப்பேட்டை மாதேஸ்வரன்: வேலையை விட்டு வீட்டிலிருந்தே மாதம் ரூ.3 லட்சம் டர்ன்']
-10:28:48 open search 'திருச்சி' (from_google): 17 links from our outlets
-10:28:48 town searches (மணப்பாறை, ஸ்ரீரங்கம் (+Google), லால்குடி (+Google), முசிறி, துறையூர், திருவெறும்பூர், மண்ணச்சநல்லூர்): 15 links from our outlets
-10:28:48 search links: 27 Google links decoded, 0 not decoded, 129 known from an earlier round, 0 left for the next round, 20 of another district by their headline (not opened)
-10:28:48 96 links on the two papers' Trichy pages
-10:29:50 skipped: already posted=23, not Trichy district=23, published before this window=21, checked in an earlier round=16, same event already posted=7, only a headline=2
-10:29:50    drop [already posted] பச்சைமலை அருவியில் வெள்ளப்பெருக்கு - Dinakaran | dinakaran.com/district/trichy_281126_1
-10:29:50    drop [already posted] பறிமுதல் செய்து ஓட்டி சென்ற வேன் கவிழ்ந்து போலீஸ்காரர் காயம் | dinamalar.com/news/tamil-nadu-district-news-trichirappalli
-10:29:50    drop [already posted] கந்தர்வகோட்டை- திருச்சி செல்லும் சாலையின் நடுவே உள்ள சென்டர் | dinakaran.com/district/pudukkottai_281126_1/amp
-10:29:50    drop [not Trichy district] பென்சன்.. அரசு ஊழியர்களின் இடைக்கால மாதாந்திர வழங்குத்தொகை உ | tamil.oneindia.com/news/chen...e-for-government-employees-848883.html
-10:29:50    drop [not Trichy district] கால் ரெக்கார்டை கேட்ட கோர்ட்! முதல்வர் டூ அமைச்சர்கள் வரை! த | tamil.oneindia.com/news/chen...-ministers-and-cm-vijays-o-848879.html
-10:29:50    drop [not Trichy district] தவெக எம்எல்ஏ குறுஞ்செய்தி தானே அனுப்பினார்.. கொலை குற்றம் இல | tamil.oneindia.com/news/coim...crime-said-mansoor-alikhan-848875.html
-10:29:50    drop [not Trichy district] சுதீஷ் வீட்டு கல்யாணத்தில் விஜய பிரபாகரன் ஆட்டம்.. சண்முகப்ப | tamil.oneindia.com/news/chen...at-sudheesh-family-wedding-848851.html
-10:29:50    drop [not Trichy district] காசி தமிழ்ச் சங்கமம் 5.0: வாரணாசியில் இன்று தொடங்கிவைக்கிறார | tamil.oneindia.com/news/delh...festival-in-varanasi-today-848871.html
-10:29:50    drop [not Trichy district] கேரள நகைக் கடையில் துப்பாக்கி, கத்தியை காட்டி!20 பவுன் கொள்ள | tamil.oneindia.com/thiruvana...kerala-palakkad-jewel-shop-848869.html
-10:29:50    drop [not Trichy district] ரேஷன் அரிசி கடத்திய இருவருக்கு காப்பு | dinamalar.com/news/tamil-nad...held-for-smuggling-ration-rice/4388325
-10:29:50    drop [not Trichy district] வி.பி.சிங் நினைவு நாள்: கட்சித் தலைவர்கள் புகழாரம் | hindutamil.in/news/tamilnadu...-pay-tribute-to-v-p-singh-memorial-day
-10:29:50    drop [not Trichy district] தூய்மை திருவிழா விழிப்புணர்வு பேரணி | dinamalar.com/news/tamil-nad...leanliness-day-awareness-rally/4388280
-10:29:50    drop [not Trichy district] தொகுதி மறுவரையறை! ஸ்டாலின் தலைமையில் இன்று திமுக எம்பிக்கள்  | tamil.oneindia.com/news/chen...am-chaired-by-ex-cm-stalin-848861.html
-10:29:50    drop [not Trichy district] சர்ச்சில் ஐயப்பன் பாடல்.. மேடையேறி கீபோர்ட்டை தட்டிய நபரை வி | tamil.oneindia.com/thiruvana...ting-man-who-objected-to-h-848859.html
-10:29:50    drop [not Trichy district] மனிதனின் திறமையை ஏ.ஐ.,யால் பறித்து விட முடியுமா?: அந்துமணி ப | dinamalar.com/news/premium-n...ngs-talent-be-taken-away-by-ai/4388237
-10:29:50    drop [not Trichy district] பஸ் கவிழ்ந்து 8 பேர் காயம் | dinamalar.com/news/tamil-nad...uri/8-injured-as-bus-overturns/4388234
-10:29:50    drop [not Trichy district] நித்தீஸ்வரர் சுவாமி கோவிலுக்கு கும்பாபிேஷகம் நடத்த கோரிக்கை | dinamalar.com/news/tamil-nad...temple-demands-kumbabisaramsam/4387964
-10:29:50    drop [not Trichy district] ரூ.11 லட்சம் அலங்கார விளக்கு, ரூ.30 லட்சம் டிவிக்கள்! அரவிந் | dinamalar.com/news/india-tam...decorative-lamp-rs-30-lakh-tvs/4388205
-10:29:50    drop [not Trichy district] வேளாண் பொருட்கள் சந்தை நிலவரம் 27112026 | dinamalar.com/news/business-...-produce-market-status-2711026/4388192
-10:29:50    drop [not Trichy district] தாஜ்மஹாலில் இருந்து எடுத்துச் செல்லப்பட்ட பளிங்குக் கல் பிரி | dinamani.com/india/2026/Nov/...e-taj-mahal-to-be-auctioned-in-britain
-10:29:50    drop [not Trichy district] தேசியம் பேட்டி: நவ. 28 | dinamalar.com/news/india-tam...ionality-interview-november-28/4387877
-10:29:50    drop [not Trichy district] லோக்சபாவில் அனைத்து மாநிலங்களுக்கும் 50 சதவீதம் கூடுதல் இடங் | dinamalar.com/news/india-tam...or-all-states-in-the-lok-sabha/4388188
-10:29:50 list: 0 new + 3 earlier news not posted yet
-10:29:50    1. [பொது] வணிகர் சங்கங்கள் பேரமைப்பு மாநாடு ஆலோசனை கூட்டம் - Dinakaran (தினகரன்) (earlier)
-10:29:50    2. [பொது] சமயபுரத்திற்கு பாத யாத்திரை (தினமலர்) (earlier)
-10:29:50    3. [பொது] திருச்சியை வறட்சிப் பாதித்த மாவட்டமாக அறிவிக்க வேண்டும்: குறைதீா் கூட் (தினமணி) (earlier)
-10:29:50 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-28_10
-10:29:52 round 2026-11-28_10 (at least 3, up to 3 more of well-watched topics): 3 news to choose from (3 from earlier rounds), ranked by this page's insights
-10:29:52   PICK   1.   3.0 [other +0.00 pattern] (earlier) வணிகர் சங்கங்கள் பேரமைப்பு மாநாடு ஆலோசனை கூட்டம் - Dinakaran
-10:29:52   PICK   2.   3.0 [other +0.00 pattern] (earlier) சமயபுரத்திற்கு பாத யாத்திரை
-10:29:52   PICK   3.   0.5 [poultry_agri -0.50 page] (earlier) திருச்சியை வறட்சிப் பாதித்த மாவட்டமாக அறிவிக்க வேண்டும்: குற
-10:29:52 decided: automatic: top 3 of 3 by insights -> 3 news to write and post
-PICK_URLS=https://www.dinakaran.com/district/trichy_281126_3 https://www.dinamalar.com/news/tamil-nadu-district-news-namakkal/padayatra-to-samayapuram/4388274 https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/declare-trichy-a-drought-affected-district-farmers-demand-at-grievance-redressal-meeting
-10:32:51 3 listed news now in the Sheet
-10:33:00 instagram duplicate check trichy: 50 recent posts read
-10:33:00 verify 2026-11-28_10: 0 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-10:33:00    SKIPPED C7e0f496: skipped RN-202: held: fact-check problems - fact-check: slides_spec title 'எத்தனை பேர்?' and the 'வழித்தடம்' slide line 'வளையப்பட்டி, ஏளூர்பட்டி, தொட்டியம் வழிய - சமயபுரத்திற்கு பாத யாத்திரை
-10:33:00    NOT POSTED C2bace8e: queued RN-203 (Queued) - வணிகர் சங்கங்கள் பேரமைப்பு மாநாடு ஆலோசனை கூட்டம் - Dinakaran
-10:33:00    NOT POSTED C52cd645: queued RN-201 (Queued) - திருச்சியை வறட்சிப் பாதித்த மாவட்டமாக அறிவிக்க வேண்டும்: குற
-10:38:08 instagram duplicate check trichy: 50 recent posts read
-10:38:08 verify 2026-11-28_10: 0 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-10:38:08    SKIPPED C7e0f496: skipped RN-202: held: fact-check problems - fact-check: slides_spec title 'எத்தனை பேர்?' and the 'வழித்தடம்' slide line 'வளையப்பட்டி, ஏளூர்பட்டி, தொட்டியம் வழிய - சமயபுரத்திற்கு பாத யாத்திரை
-10:38:08    NOT POSTED C2bace8e: queued RN-203 (Queued) - வணிகர் சங்கங்கள் பேரமைப்பு மாநாடு ஆலோசனை கூட்டம் - Dinakaran
-10:38:08    NOT POSTED C52cd645: queued RN-201 (Queued) - திருச்சியை வறட்சிப் பாதித்த மாவட்டமாக அறிவிக்க வேண்டும்: குற
-10:43:14 instagram duplicate check trichy: 50 recent posts read
-10:43:14 verify 2026-11-28_10: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-10:43:14    SKIPPED C7e0f496: skipped RN-202: held: fact-check problems - fact-check: slides_spec title 'எத்தனை பேர்?' and the 'வழித்தடம்' slide line 'வளையப்பட்டி, ஏளூர்பட்டி, தொட்டியம் வழிய - சமயபுரத்திற்கு பாத யாத்திரை
-10:43:14    NOT POSTED C2bace8e: queued RN-203 (Queued) - வணிகர் சங்கங்கள் பேரமைப்பு மாநாடு ஆலோசனை கூட்டம் - Dinakaran
-10:48:21 instagram duplicate check trichy: 50 recent posts read
-10:48:21 verify 2026-11-28_10: 1 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-10:48:21    SKIPPED C7e0f496: skipped RN-202: held: fact-check problems - fact-check: slides_spec title 'எத்தனை பேர்?' and the 'வழித்தடம்' slide line 'வளையப்பட்டி, ஏளூர்பட்டி, தொட்டியம் வழிய - சமயபுரத்திற்கு பாத யாத்திரை
-10:48:21    NOT POSTED C2bace8e: queued RN-203 (Queued) - வணிகர் சங்கங்கள் பேரமைப்பு மாநாடு ஆலோசனை கூட்டம் - Dinakaran
-10:53:27 verify 2026-11-28_10: 2 of 3 picked news posted, 1 skipped on purpose, 0 waiting for their posting start
-10:53:27    SKIPPED C7e0f496: skipped RN-202: held: fact-check problems - fact-check: slides_spec title 'எத்தனை பேர்?' and the 'வழித்தடம்' slide line 'வளையப்பட்டி, ஏளூர்பட்டி, தொட்டியம் வழிய - சமயபுரத்திற்கு பாத யாத்திரை
+12:27:15 round 2026-11-28_12: news published 28 Nov 10:27 -> 28 Nov 12:27 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+12:27:15    + news published since 27 Nov 12:27 that no earlier round found (listed / indexed late) - never one already listed or posted
+12:27:15 insights 2026-11-28T12:27+05:30 (199 reels): topic weights {'accident': 0.83, 'crime': 1.37, 'power_cut': 0.85, 'civic': 0.23, 'education': -0.17, 'politics': -0.09, 'weather': -0.5, 'temple': -0.39, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '💼 அயிலாப்பேட்டை மாதேஸ்வரன்: வேலையை விட்டு வீட்டிலிருந்தே மாதம் ரூ.3 லட்சம் டர்ன்']
+12:28:36 open search 'திருச்சி' (from_google): 16 links from our outlets
+12:28:36 town searches (மணப்பாறை, ஸ்ரீரங்கம், லால்குடி, முசிறி (+Google), துறையூர் (+Google), திருவெறும்பூர், மண்ணச்சநல்லூர்): 12 links from our outlets
+12:28:36 search links: 29 Google links decoded, 0 not decoded, 116 known from an earlier round, 0 left for the next round, 22 of another district by their headline (not opened)
+12:28:36 91 links on the two papers' Trichy pages
+12:29:28 skipped: not Trichy district=25, published before this window=22, already posted=21, checked in an earlier round=10, same event already posted=7, only a headline=2, not Tamil=1
+12:29:28    drop [already posted] துணை சபாநாயகர் தாக்கிய வழக்கில் அரசு பதிலளிக்க ஐகோர்ட் உத்தர | dinakaran.com/news/deputy_speaker_case_government_highcourt
+12:29:28    drop [not Trichy district] சேமிப்பு வங்கி கணக்கில் பணம் வைத்திருப்பவர் இறந்துவிட்டால்?  | tamil.oneindia.com/news/chen...ey-details-for-legal-heirs-848939.html
+12:29:28    drop [not Trichy district] தமிழ்நாட்டிற்கு பெருமை சேர்த்த 'பேட்மிண்டன் வாரியர்ஸ்'! வீரர | tamil.oneindia.com/news/duba...adminton-premier-league-ti-848937.html
+12:29:28    drop [not Trichy district] தொகுதி மறுவரையறை மசோதா.. திமுக ஆதரவு நிலைப்பாடு எடுத்தது ஏன் | tamil.oneindia.com/news/chen...o-seek-amendments-on-areas-848935.html
+12:29:28    drop [not Trichy district] நாடாளுமன்றத்தில் கொண்டு வரப்படவுள்ள தொகுதி மறுவரையறை மசோதாவு | dinakaran.com/news/parliamen...tituency-delimitation-bill-dmk-support
+12:29:28    drop [not Tamil] NITES seeks policy framework to ringfence IT workers from AI | dinamalar.com/news/kalvimala...workers-from-ai-job-displacement/62505
+12:29:28    drop [not Trichy district] வாங்க..வாங்க! சிஆர்பிஎப் வீரர்களை பூத்தூவி வரவேற்பு கொடுத்த  | tamil.oneindia.com/news/madu...htens-at-thiruparankundram-848927.html
+12:29:28    drop [not Trichy district] மக்கள் எல்லோருமே ஹேப்பி அண்ணாச்சி! வெற்றிவேல் முருகனுக்கு அர | tamil.oneindia.com/news/tuti...am-issue-and-law-and-order-848919.html
+12:29:28    drop [not Trichy district] மக்கள் உயிரோடு விளையாடாதீங்க.. பழைய டயர்களால் பாழாய்ப் போன அ | tamil.oneindia.com/news/chen...roads-due-to-tyre-shortage-848915.html
+12:29:28    drop [not Trichy district] உரிக்காமலேயே கண்ணீர் வருது.. டபுள் செஞ்சுரி போட்ட வெங்காயம்! | tamil.oneindia.com/news/dind...-kg-as-garlic-soars-to-800-848911.html
+12:29:28    drop [not Trichy district] சேறும் சகதியுமா இருந்த இடத்தில் நிலைகுலைந்த ரமேஷ் கண்ணா.. வீ | tamil.oneindia.com/news/chen...eaction-from-balaji-prabhu-848909.html
+12:29:28    drop [not Trichy district] Gold Price Today: தங்கம் விலை இன்று தாறுமாறாக சரிந்தது.. நகை | tamil.oneindia.com/gold-rate...urprise-for-jewelry-lovers-848903.html
+12:29:28    drop [not Trichy district] மின்சாரம் பாய்ந்து தொழிலாளி பலி | dinamalar.com/news/tamil-nad...labourer-electrocuted-to-death/4388259
+12:29:28    drop [not Trichy district] புத்தக திருவிழா கண்காட்சி தொடக்கம் தினமும் 7,000 மாணவர் பார் | dinamalar.com/news/tamil-nad...s-7000-students-to-visit-daily/4388251
+12:29:28    drop [not Trichy district] இரவு வேளை மழையால் குற்றால அருவிகளில் நீர்வரத்து அதிகரிப்பு | dinakaran.com/district/nellai_281126_1/amp
+12:29:28    drop [not Trichy district] ஊரக வேலை திட்டத்தில் குளறுபடி நாவலூர் மக்கள் சாலை மறியல் | dinamalar.com/news/tamil-nad...s-part-of-rural-work-programme/4388246
+12:29:28    drop [not Trichy district] குன்றாண்டார்கோவில் பகுதியில் டெங்கு காய்ச்சல் தடுப்பு முன்னெ | dinakaran.com/district/pudukkottai_281126_3/amp
+12:29:28    drop [not Trichy district] வடமலாப்பூரில் பாரம்பரிய நெல் ரகங்கள் பற்றி கலந்துரையாடல் நிக | dinakaran.com/district/pudukkottai_281126_2/amp
+12:29:28    drop [not Trichy district] மேட்டுமகாதானபுரம் அங்கன்வாடி மைய கட்டிடத்திற்கு மின் இணைப்பு | dinakaran.com/district/karur_281126_2/amp
+12:29:28    drop [not Trichy district] சர்க்கரை ஆலையில் இளஞ்சூடேற்று விழா | dinamalar.com/news/tamil-nad...i/youth-festival-at-sugar-mill/4388233
+12:29:28    drop [not Trichy district] திருப்பரங்குன்ற தீபத்தூணில் தீபம்: ஆதினங்கள், இந்து அமைப்பின | dinamalar.com/news/premium-n...is-hindu-organisations-welcome/4388217
+12:29:28    drop [not Trichy district] ரஷ்ய அதிபருடன் செல்பி; கேரள சிறுவன் மகிழ்ச்சி | dinamalar.com/news/premium-n...-president-kerala-boy-rejoices/4388206
+12:29:28    drop [not Trichy district] கடை குத்தகை விவகாரம்: வணிகா்களின் கருத்தை கேட்டறிய வேண்டும்  | dinamani.com/all-editions/ed...A4%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D
+12:29:28 list: 0 new + 0 earlier news not posted yet
+12:29:28 no news in this window - no e-mail
+ROUND=2026-11-28_12

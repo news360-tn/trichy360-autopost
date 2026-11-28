@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-28T10:27+05:30",
- "posts_measured": 197,
+ "updated": "2026-11-28T12:27+05:30",
+ "posts_measured": 199,
  "topic_weight": {
-  "accident": 0.82,
+  "accident": 0.83,
   "crime": 1.37,
   "power_cut": 0.85,
   "civic": 0.23,
@@ -34,7 +34,7 @@
   "politics": 27,
   "weather": 8,
   "temple": 18,
-  "poultry_agri": 15,
+  "poultry_agri": 17,
   "jobs": 1
  },
  "best_hours_ist": [
