@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-28T07:49:17.436184+05:30",
+ "last_end": "2026-11-28T08:27:22.641725+05:30",
  "pool": {
   "C5d6c867": {
    "id": "C5d6c867",
@@ -30,20 +30,6 @@
    "picked_at": "2026-11-28T02:29:20.415351+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
   },
-  "C1396c80": {
-   "id": "C1396c80",
-   "url": "https://www.dinamani.com/all-editions/edition-dharmapuri/salem/2026/Nov/27/risk-of-accidents-due-to-rainwater-stagnation-on-the-thammampattitrichy-highway",
-   "title": "தம்மம்பட்டி - திருச்சி நெடுஞ்சாலையில் தேங்கும் மழைநீரால் விபத்து அபாயம்!",
-   "summary": "தம்மம்பட்டி நெடுஞ்சாலையில் தேங்கும் மழைநீரால் விபத்து ஏற்படும் அபாயம் உள்ளதாக வாகன ஓட்டிகள் அச்சம் தெரிவிக்கின்றனா்..தம்மம்பட்டி - துறையூா் நெடுஞ்சாலையில் எட்டடியான் கோயில் அருகே சாலையின் குறுக்கே வடிகால் வாய்க்கால் உ...",
-   "source": "தினமணி",
-   "published": "2026-11-27T19:54:23.546Z",
-   "category": "மழை / வானிலை",
-   "score": 10.5,
-   "power_cut": false,
-   "listed_at": "2026-11-28T02:26:16.505915+05:30",
-   "picked_at": "2026-11-28T07:52:27.778497+05:30",
-   "posted": true
-  },
   "C972569b": {
    "id": "C972569b",
    "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/power-outage-in-lalgudi-areastoday",
@@ -57,21 +43,6 @@
    "listed_at": "2026-11-28T04:27:00.614004+05:30",
    "picked_at": "2026-11-28T04:32:53.331485+05:30",
    "refused": "not filed: duplicate after write"
-  },
-  "Cc621bc4": {
-   "id": "Cc621bc4",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-dindigul/change-needed-trichy-dindigul-train-departure-time-passengers-hit-by-heavy-delays/4388168",
-   "title": "மாற்றம் தேவை! திருச்சி – திண்டுக்கல் ரயில் புறப்படும் நேரத்தில்: அதிக தாமதத்தால் பாதிப்படையும் பயணிகள்",
-   "summary": "திருச்சியில் இருந்து மாலை 6:35 மணிக்கு திண்டுக்கல்லிற்கு பயணிகள் ரயில் புறப்படுகிறது. இந்த ரயில் சென்னை – திருநெல்வேலி, பெங்களூரு – மதுரை வந்தே பாரத் ரயில்கள், வாராந்திர சிறப்பு எக்ஸ்பிரஸ் ரயில்களுக்கு வழிவிட அடுத்தடு...",
-   "source": "தினமலர்",
-   "published": "2026-11-28T00:54:46+05:30",
-   "category": "ரயில்",
-   "score": 6.26,
-   "power_cut": false,
-   "late_listed": true,
-   "listed_at": "2026-11-28T04:27:00.614004+05:30",
-   "picked_at": "2026-11-28T07:52:27.778499+05:30",
-   "posted": true
   },
   "C208f4f7": {
    "id": "C208f4f7",
@@ -109,20 +80,6 @@
    "power_cut": false,
    "listed_at": "2026-11-28T06:27:01.751171+05:30"
   },
-  "C65bbab9": {
-   "id": "C65bbab9",
-   "url": "https://www.dinakaran.com/district/trichy_281126_1",
-   "title": "பச்சைமலை அருவியில் வெள்ளப்பெருக்கு - Dinakaran",
-   "summary": "துறையூர், நவ.28: திருச்சி பச்சைமலை மங்களம் அருவியில் வெள்ளப்பெருக்கு ஏற்பட்டுள்ளதால் சுற்றுலா பயணிகள் குளிக்க தடை விதிக்கப்பட்டுள்ளது. திருச்சி மாவட்டம் துறையூர் அடுத்த உப்பிலியபுரம் ஒன்றியம் தென்புறநாடு ஊராட்சி பச்சை...",
-   "source": "தினகரன்",
-   "published": "2026-11-28T06:46:20+05:30",
-   "category": "மழை / வானிலை",
-   "score": 11.0,
-   "power_cut": false,
-   "listed_at": "2026-11-28T07:49:17.436184+05:30",
-   "picked_at": "2026-11-28T07:52:27.778495+05:30",
-   "posted": true
-  },
   "C31f3096": {
    "id": "C31f3096",
    "url": "https://www.dinakaran.com/news/deputy_speaker_case_government_highcourt/amp",
@@ -159,37 +116,22 @@
    "score": 3.0,
    "power_cut": false,
    "listed_at": "2026-11-28T07:49:17.436184+05:30"
+  },
+  "Cb99874b": {
+   "id": "Cb99874b",
+   "url": "https://www.dinakaran.com/district/pudukkottai_281126_1",
+   "title": "கந்தர்வகோட்டை- திருச்சி செல்லும் சாலையின் நடுவே உள்ள சென்டர் மீடியனை அகற்ற வேண்டும் - Dinakaran",
+   "summary": "கந்தர்வகோட்டை, நவ.28: கந்தர்வகோட்டை- திருச்சி சாலையில் அடிக்கடி விபத்து ஏற்படுத்தும் சென்டர்மீடியனை அகற்ற பொதுமக்கள் கோரிக்கை விடுத்துள்ளனர்.",
+   "source": "தினகரன்",
+   "published": "2026-11-28T06:43:58+05:30",
+   "category": "சாலை",
+   "score": 9.3,
+   "power_cut": false,
+   "late_listed": true,
+   "listed_at": "2026-11-28T08:27:22.641725+05:30"
   }
  },
  "rounds": {
-  "2026-11-26_12": {
-   "window": [
-    "2026-11-26T09:45:17.427344+05:30",
-    "2026-11-26T12:32:36.990682+05:30"
-   ],
-   "ids": [
-    "Ca982f8c",
-    "C1fca0be",
-    "C4a681d7",
-    "C936cfee"
-   ],
-   "sent": false,
-   "deadline": "2026-11-26T13:32:36.990682+05:30",
-   "decided": {
-    "how": "automatic: top 6 of 3 by insights",
-    "ids": [
-     "Ca982f8c",
-     "C1fca0be",
-     "C4a681d7"
-    ],
-    "at": "2026-11-26T12:36:27.181402+05:30"
-   },
-   "written": [
-    "C1fca0be",
-    "C4a681d7",
-    "Ca982f8c"
-   ]
-  },
   "2026-11-26_16": {
    "window": [
     "2026-11-26T16:31:22.435988+05:30",
@@ -613,6 +555,25 @@
     "C65bbab9",
     "Cc621bc4"
    ]
+  },
+  "2026-11-28_08": {
+   "window": [
+    "2026-11-28T07:49:17.436184+05:30",
+    "2026-11-28T08:27:22.641725+05:30"
+   ],
+   "ids": [
+    "Cb99874b",
+    "C208f4f7",
+    "Cf3b3c6e",
+    "C31f3096",
+    "C2bace8e",
+    "C7e0f496",
+    "C52cd645"
+   ],
+   "sent": false,
+   "deadline": "2026-11-28T09:27:22.641725+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {},
@@ -1530,6 +1491,57 @@
   "C1fc504a": "2026-11-28T07:49 not Trichy district",
   "C132db56": "2026-11-28T07:49 not Trichy district",
   "C8afe2e1": "2026-11-28T07:49 not Trichy district",
-  "C5b31501": "2026-11-28T07:49 not Trichy district"
+  "C5b31501": "2026-11-28T07:49 not Trichy district",
+  "G571dad7287": "2026-11-28T08:27 D",
+  "G7f8369ed08": "2026-11-28T08:27 D",
+  "G0df18b62fa": "2026-11-28T08:27 D",
+  "G71990133ab": "2026-11-28T08:27 D",
+  "G3487f44cce": "2026-11-28T08:27 D",
+  "G8050e8963e": "2026-11-28T08:27 D",
+  "G554611161b": "2026-11-28T08:27 D",
+  "Gceaccea700": "2026-11-28T08:27 D",
+  "G8a06512968": "2026-11-28T08:27 D",
+  "G9e8ef5963a": "2026-11-28T08:27 D",
+  "G525fc2ea0a": "2026-11-28T08:27 D",
+  "G99f57df09b": "2026-11-28T08:27 D",
+  "G84849ffaa3": "2026-11-28T08:27 D",
+  "Gf7e007fba5": "2026-11-28T08:27 D",
+  "G638ec56275": "2026-11-28T08:27 D",
+  "Gbf3682a522": "2026-11-28T08:27 D",
+  "G0d19cec7e9": "2026-11-28T08:27 D",
+  "G6d8298888e": "2026-11-28T08:27 D",
+  "Ge8201fe340": "2026-11-28T08:27 D",
+  "Ga378cb650e": "2026-11-28T08:27 D",
+  "G7b10959bf3": "2026-11-28T08:27 D",
+  "G7dc1a7d522": "2026-11-28T08:27 D",
+  "G0756b8cb56": "2026-11-28T08:27 D",
+  "Ge46fd36149": "2026-11-28T08:27 D",
+  "G3abc3cca36": "2026-11-28T08:27 D",
+  "Ga2434e687d": "2026-11-28T08:27 D",
+  "Gfffc7e8ffe": "2026-11-28T08:27 D",
+  "G7521197f1c": "2026-11-28T08:27 D",
+  "G9a3b6c16e9": "2026-11-28T08:27 D",
+  "G4bf3c009dc": "2026-11-28T08:27 D",
+  "Cc8db3b2": "2026-11-28T08:27 already posted",
+  "Ce3747df": "2026-11-28T08:27 already posted",
+  "C5c4564c": "2026-11-28T08:27 not Trichy district",
+  "C0613cbd": "2026-11-28T08:27 not Trichy district",
+  "C71a1e20": "2026-11-28T08:27 not Trichy district",
+  "C4e2daa6": "2026-11-28T08:27 not Trichy district",
+  "C671a8cd": "2026-11-28T08:27 not Trichy district",
+  "Ce168c51": "2026-11-28T08:27 not Trichy district",
+  "C4f74851": "2026-11-28T08:27 not Trichy district",
+  "Cdf71910": "2026-11-28T08:27 not Trichy district",
+  "C078b53d": "2026-11-28T08:27 not Trichy district",
+  "C3153d86": "2026-11-28T08:27 not Trichy district",
+  "C9173a0f": "2026-11-28T08:27 not Trichy district",
+  "C8efa1d2": "2026-11-28T08:27 not Trichy district",
+  "C61e6094": "2026-11-28T08:27 not Trichy district",
+  "Ccf8a87e": "2026-11-28T08:27 not Trichy district",
+  "C747afc5": "2026-11-28T08:27 not Trichy district",
+  "C6d9168d": "2026-11-28T08:27 not Trichy district",
+  "C8191912": "2026-11-28T08:27 not Trichy district",
+  "C9192161": "2026-11-28T08:27 not Trichy district",
+  "C61e6f7a": "2026-11-28T08:27 not Trichy district"
  }
 }
