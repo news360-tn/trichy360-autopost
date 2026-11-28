@@ -249,7 +249,7 @@ def main():
                                  "stories": [x["story"] for x in top]}, ensure_ascii=False, indent=1), encoding="utf-8")
     try:      # the same reel on the page's Facebook page
         import facebook
-        facebook.share(PAGE, f"top5-{day.isoformat()}", "reel", [vurl], cap, cfg["tags"][-1], tags=cfg["tags"][-2:], always=True)
+        facebook.share(PAGE, f"top5-{day.isoformat()}", "reel", [vurl], cap, cfg["tags"][-1], tags=["#இன்றையடாப்5", cfg["tags"][-2]], always=True)      # owner 28 Nov: topic + district + page tag (the page tag was given twice)
     except Exception as e:
         log("Facebook step skipped:", str(e)[:150])
     return 0

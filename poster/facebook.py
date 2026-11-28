@@ -275,7 +275,11 @@ def fb_caption(cap, page_tag, tags=None, short=False, tamil_tag=""):
     text = re.sub(r"\n{3,}", "\n\n", "\n".join(body)).strip()
     if short:
         text = _short(text)
-    tl = list(tags)[:FB_TAGS - 1]
+    tl, seen = [], {page_tag.lower()}      # owner 28 Nov: a hashtag is never repeated (the top 5 reel gave the page tag twice)
+    for t in tags:
+        if t and t.lower() not in seen and len(tl) < FB_TAGS - 1:
+            seen.add(t.lower())
+            tl.append(t)
     if tamil_tag and tamil_tag.lower() not in {t.lower() for t in tl + [page_tag]}:
         tl.append(tamil_tag)
     return (text + "\n\n" + " ".join(tl + [page_tag]) + (("\n\n" + kw_line) if kw_line else "")).strip()
