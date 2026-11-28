@@ -85,7 +85,7 @@ def page_html(p, items, segs, dur):
     for i, x in enumerate(items):
         rank = 5 - i
         sc.append(f'<div class="s news"><img class="bg" src="file://{x["img"]}"><div class="shade"></div><img class="cv" src="file://{x["img"]}">'
-                  f'<div class="rk">#{rank}</div><div class="txt"><div class="hd">{E(x["head"])}</div><div class="vw">இன்று {x["at"]:%I:%M %p}</div></div>'
+                  f'<div class="rk">#{rank}</div><div class="txt"><div class="hd">{E(x["head"])}</div><div class="vw">{"இன்று" if x["at"].date() == datetime.now(IST).date() else "நேற்று"} {x["at"]:%I:%M %p}</div></div>'
                   + '<div class="dots">' + "".join(f'<b class="{"on" if r == rank else "done" if r > rank else ""}">{r}</b>' for r in (5, 4, 3, 2, 1))
                   + '</div></div>')
     sc.append(f'<div class="s end"><img src="{logo}"><div class="n">{G.brand_html(p)}</div><div class="sub">தினமும் இரவு இன்றைய டாப் 5</div>'
@@ -112,11 +112,12 @@ body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:{MAROON};font
 .news .shade{{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.75) 75%)}}
 .news .rk{{position:absolute;left:40px;top:220px;z-index:3;background:{GOLD};color:{MAROON};border-radius:30px;padding:0 34px;font-family:'Catamaran';
  font-size:130px;font-weight:900;line-height:1.25;box-shadow:0 14px 30px rgba(0,0,0,.45)}}
-.news .txt{{position:absolute;left:50px;right:50px;top:1360px}}
-.news .hd{{color:#fff;font-size:66px;font-weight:900;line-height:1.3;text-shadow:0 4px 12px rgba(0,0,0,.6)}}
+.news .txt{{position:absolute;left:50px;right:50px;top:1350px}}
+.news .hd{{color:#fff;font-size:60px;font-weight:900;line-height:1.3;text-shadow:0 4px 12px rgba(0,0,0,.6);
+ display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}}      /* owner 28 Nov: at most 3 lines - never over the 5-4-3-2-1 row */
 .news .vw{{margin-top:18px;display:inline-block;background:rgba(255,255,255,.92);color:{MAROON};border-radius:40px;padding:8px 30px;
  font-size:38px;font-weight:800}}
-.dots{{position:absolute;left:0;right:0;bottom:120px;display:flex;justify-content:center;gap:18px}}
+.dots{{position:absolute;left:0;right:0;bottom:70px;display:flex;justify-content:center;gap:18px}}
 .dots b{{width:78px;height:78px;border-radius:50%;line-height:78px;text-align:center;font-family:'Catamaran';font-size:40px;font-weight:900;
  color:rgba(255,255,255,.55);border:3px solid rgba(255,255,255,.35)}} .dots b.on{{background:{GOLD};color:{MAROON};border-color:{GOLD}}}
 .dots b.done{{color:rgba(255,255,255,.3);border-color:rgba(255,255,255,.15)}}
