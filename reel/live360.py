@@ -89,6 +89,14 @@ window.renderAt=function(t){
 </script>"""
 
 
+def say(*a):
+    """one line in the job's log; a log problem never touches the reel"""
+    try:
+        print(*a, flush=True)
+    except Exception:
+        pass
+
+
 def config():
     try:
         return json.loads((HERE.parent / "poster" / "config.json").read_text(encoding="utf-8"))
@@ -159,7 +167,8 @@ def add(page_html, spec):
         if not isinstance(D, dict) or "hook_end" not in D or "end_t" not in D:
             return page_html
         out = page_html
-        if turn_pictures(D):
+        turns = turn_pictures(D)
+        if turns:
             out = out[:a] + json.dumps(D, ensure_ascii=False).replace("</", "<\\/") + out[b:]
         extra = ""
         if serious(spec):
@@ -174,9 +183,12 @@ def add(page_html, spec):
             extra += (f'<div id="lvmap"><svg viewBox="0 0 260 260"><path d="{E(m["path"])}"/><circle class="r" cx="{tx}" cy="{ty}" r="10"/>'
                       f'<circle class="p" cx="{tx}" cy="{ty}" r="7"/></svg><div class="t"><i>இடம்</i><b>{E(town)}</b>'
                       f'<span>{E(str(m.get("district_ta") or ""))} மாவட்டம்</span></div></div>')
+        say(f"reel additions: pictures take turns: {'yes' if turns else 'no (one picture)'}; BREAKING tag: {'yes' if 'lvbrk' in extra else 'no'}; "
+              f"place card: {town if 'lvmap' in extra else 'no'}")      # in the job's log: what this reel got
         if not extra:
             return out
         data = {"end": end_t, "hook_end": hook_end, "map_a": map_a, "map_b": map_b}
         return out.replace("</style>", CSS + "</style>", 1).replace("</body>", extra + JS.replace("__DATA__", json.dumps(data)) + "</body>", 1)
-    except Exception:
+    except Exception as e:
+        say("reel additions not made:", str(e)[:150])
         return page_html

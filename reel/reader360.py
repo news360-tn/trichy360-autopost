@@ -126,22 +126,28 @@ def add(page_html, spec, work):
     """the finished reel page + the news reader; the page unchanged when switched off or anything is missing"""
     try:
         cfg = live360.config()
-        if not on(cfg) or 'id="rdr"' in page_html or 'id="fxloop"' in page_html:
+        if not on(cfg) or 'id="rdr"' in page_html:
             return page_html
-        if any(x not in page_html for x in NEEDS) or page_html.count("</style>") != 1 or page_html.count("</body>") != 1:
+        if 'id="fxloop"' in page_html or any(x not in page_html for x in NEEDS) or page_html.count("</style>") != 1 or page_html.count("</body>") != 1:
+            live360.say("news reader not added: the page is not the usual design")
             return page_html
         if cfg.get("reel_reader_serious", True) is False and live360.serious(spec or {}):
+            live360.say("news reader left out: news about a death (reel_reader_serious is off)")
             return page_html
         frames, voice = drawings(), Path(work) / "voice.wav"
         if not frames or not voice.is_file():
+            live360.say("news reader not added:", "a drawing is missing in reel/assets/reader" if not frames else "no voice file " + voice.name)
             return page_html
         D = live360.page_data(page_html)[0]
         pose = poses(loudness(voice, D["total"]))
         if not any(f not in (0, BLINK) for f in pose):
+            live360.say("news reader not added: no voice heard in the voice file")
             return page_html      # no voice heard: no silent reader
+        live360.say(f"news reader added: the mouth moves for {sum(f not in (0, BLINK) for f in pose) / FPS:.1f} s of the reel's {len(pose) / FPS:.1f} s")      # in the job's log: proof it was drawn
         data = {"end": float(D["end_t"]), "size": SIZE, "fps": FPS, "pose": pose}
         imgs = "".join(f'<img src="{f.as_uri()}">' for f in frames)
         return page_html.replace("</style>", CSS + "</style>", 1).replace(
             "</body>", f'<div id="rdr">{imgs}</div>' + JS.replace("__DATA__", json.dumps(data)) + "</body>", 1)
-    except Exception:
+    except Exception as e:
+        live360.say("news reader not added:", str(e)[:150])
         return page_html
