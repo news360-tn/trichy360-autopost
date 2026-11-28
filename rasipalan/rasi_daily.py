@@ -124,10 +124,15 @@ def _upload_video_cloudinary(path):
     return r.json()["secure_url"]
 
 
+HANDLES = {"trichy": "trichy360.official", "namakkal": "namakkal360.official", "rasipuram": "rasipuram360.official",      # owner 28 Nov: the real
+           "coimbatore": "coimbatore360.official", "erode": "erode360.official", "salem": "salem360.official",      # usernames when Instagram
+           "karur": "karur360.official", "tirupur": "tiruppur360.official"}      # does not answer (never a made-up Tamil name)
+
+
 def reel_cfg(cfg, token):
     """the reel's page settings: town, name (without " 360"), the page's real Instagram username, the logo"""
     p = {"town": cfg["town"], "name1": cfg["brand"].replace(" 360", "").strip(), "logo": ROOT / "kit" / cfg["logo"],
-         "handle": cfg.get("handle") or cfg["brand"].replace(" ", "").lower()}
+         "handle": cfg.get("handle") or HANDLES.get(PAGE) or cfg["brand"].replace(" ", "").lower()}
     if token:
         try:
             p["handle"] = ig("GET", "me", token, fields="username").get("username") or p["handle"]
