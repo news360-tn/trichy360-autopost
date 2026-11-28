@@ -359,7 +359,14 @@ def main():
     if REEL:
         try:
             import rasi_reel
-            mp4 = rasi_reel.make(reel_cfg(cfg, token), ctx, OUT / "reel", log)
+            parrot, rcap = False, reel_caption(cap)
+            try:      # owner 28 Nov: the parrot rasipalan (கிளி ஜோசியம்) on every page; the usual reel only when it cannot be made
+                import rasi_parrot
+                mp4 = rasi_parrot.make(reel_cfg(cfg, token), ctx, OUT / "parrot", log, stills=())
+                rcap, parrot = rasi_parrot.with_times(rcap, rasi_parrot.LAST.get("times", "")), True
+            except Exception as e:
+                log("parrot rasipalan not made - the usual rasipalan reel instead:", str(e)[:300])
+                mp4 = rasi_reel.make(reel_cfg(cfg, token), ctx, OUT / "reel", log)
             if DRY:
                 log(f"DRY RUN: the reel {mp4} (and {len(jpgs)} backup carousel slides) in {OUT} - not posted")
                 return 0
@@ -367,8 +374,13 @@ def main():
                 log("already posted meanwhile - stop")
                 return 0
             vurl = upload_video(mp4)
-            mid, link, collab_ok = publish_reel(token, vurl, reel_caption(cap), cfg["collab"])
-            reel = (vurl, reel_caption(cap))
+            mid, link, collab_ok = publish_reel(token, vurl, rcap, cfg["collab"])
+            reel = (vurl, rcap)
+            if parrot:
+                try:      # owner 28 Nov: the first comment asks for the viewer's rasi (Instagram's API cannot pin a comment)
+                    ig("POST", f"{mid}/comments", token, message=rasi_parrot.LAST.get("comment", ""))
+                except Exception as e:
+                    log("first comment not posted:", str(e)[:150])
             log("the rasipalan went out as a REEL")
         except Exception as e:
             log("rasipalan REEL not posted - the carousel goes out instead:", str(e)[:300])

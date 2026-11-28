@@ -1243,6 +1243,9 @@ def render_reel(row, spec, images, work, voice_file=None):
     mp4 = work / f"{row['story_id']}_reel.mp4"
     design = "reel4.py" if CONFIG.get("reel_design") == "v4" else "reel3.py"      # v4: full-detail design (safe zone, 5W cards, summary, send CTA)
     subprocess.run([sys.executable, str(REEL / design), str(work / "reel.json"), str(mp4), PAGE], check=True, env=env)
+    if CONFIG.get("map_intro"):      # owner 28 Nov (Trichy only): the first 2.6 s zoom the district map to the news town (poster/mapintro.py)
+        import mapintro
+        mapintro.apply(mp4, spec.get("loc") or "", row.get("headline_ta") or "", work, log)
     global LAST_REEL_META
     try:      # owner 26 Nov (views test): voice / seconds / words of this reel, saved with the post by record_posted
         LAST_REEL_META = dict(json.loads(mp4.with_suffix(".meta.json").read_text()), story=row.get("story_id"))
