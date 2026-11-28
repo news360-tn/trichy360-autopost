@@ -9,6 +9,7 @@ permissions:
   contents: read
 jobs:
   parrot:
+    if: ${{ !contains(github.event.head_commit.message, '[extra]') }}      # the parrot sample is done - an [extra] push makes only the others
     runs-on: ubuntu-24.04
     timeout-minutes: 60
     steps:
@@ -38,4 +39,42 @@ jobs:
             out/samples/parrot/*.mp4
             out/samples/parrot/*.png
             out/samples/parrot/script.txt
+          if-no-files-found: warn
+
+  extra:      # owner 28 Nov: the map-zoom opening and the இன்றைய டாப் 5 samples, from today's real Trichy reels (read from main, never changed)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Today's posted reels (main branch, read only)
+        uses: actions/checkout@v4
+        with: {ref: main, path: live, sparse-checkout: poster}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: Browser (cached)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-rasipalan-1.56.0
+      - name: Install
+        timeout-minutes: 15
+        run: |
+          pip install -q requests==2.32.5 pillow==11.3.0 playwright==1.56.0 pyswisseph==2.10.3.2 imageio-ffmpeg==0.6.0 numpy edge-tts==7.2.3
+          python -m playwright install chromium
+          python -c "from playwright.sync_api import sync_playwright as s; p=s().start(); p.chromium.launch().close(); p.stop()" ||
+            sudo "$(command -v python)" -m playwright install-deps chromium
+      - name: Make the map-zoom and top-5 samples (never posted)
+        run: python tools/samples_extra.py live
+      - name: Save the samples for download
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: map-and-top5-samples
+          path: |
+            out/samples/map/*.mp4
+            out/samples/map/*.png
+            out/samples/map/about.txt
+            out/samples/top5/*.mp4
+            out/samples/top5/*.png
+            out/samples/top5/script.txt
           if-no-files-found: warn
