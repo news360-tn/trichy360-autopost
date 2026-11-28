@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-28T18:28+05:30",
- "posts_measured": 202,
+ "updated": "2026-11-28T20:25+05:30",
+ "posts_measured": 204,
  "topic_weight": {
-  "accident": 0.75,
-  "crime": 1.12,
-  "power_cut": 0.76,
-  "civic": 0.23,
-  "education": -0.17,
-  "politics": -0.11,
+  "accident": 0.81,
+  "crime": 1.22,
+  "power_cut": 0.83,
+  "civic": 0.3,
+  "education": -0.5,
+  "politics": -0.04,
   "weather": -0.5,
-  "temple": -0.39,
+  "temple": -0.34,
   "poultry_agri": -0.5
  },
  "topic_10k_share": {
@@ -17,7 +17,7 @@
   "crime": 0.11,
   "power_cut": 0.08,
   "civic": 0.06,
-  "education": 0.17,
+  "education": 0.14,
   "politics": 0.0,
   "weather": 0.0,
   "temple": 0.11,
@@ -29,7 +29,7 @@
   "crime": 53,
   "power_cut": 12,
   "civic": 16,
-  "education": 6,
+  "education": 7,
   "sports_culture": 2,
   "politics": 27,
   "weather": 8,
@@ -49,14 +49,14 @@
   "🔥 திருச்சி மலைக்கோட்டையில் மகா தீபம்: உச்சிப்பிள்ளையார் கோயில் மலை மீது ஏற்றம்",
   "🚨 போதாவூரில் முன்விரோதத்தில் விவசாயி வெட்டிக் கொலை"
  ],
- "avg_watch_s": 7.7,
+ "avg_watch_s": 7.6,
  "best_topics": [
   "crime",
   "power_cut",
   "accident"
  ],
  "weak_topics": [
-  "weather",
-  "poultry_agri"
+  "education",
+  "weather"
  ]
 }

@@ -1,45 +1,28 @@
-18:28:09 round 2026-11-28_18: news published 28 Nov 16:15 -> 28 Nov 18:28 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-18:28:09    + news published since 27 Nov 18:28 that no earlier round found (listed / indexed late) - never one already listed or posted
-18:28:09 insights 2026-11-28T18:28+05:30 (202 reels): topic weights {'accident': 0.75, 'crime': 1.12, 'power_cut': 0.76, 'civic': 0.23, 'education': -0.17, 'politics': -0.11, 'weather': -0.5, 'temple': -0.39, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '💼 அயிலாப்பேட்டை மாதேஸ்வரன்: வேலையை விட்டு வீட்டிலிருந்தே மாதம் ரூ.3 லட்சம் டர்ன்']
-18:29:01 open search 'திருச்சி' (from_google): 22 links from our outlets
-18:29:01 town searches (மணப்பாறை, ஸ்ரீரங்கம், லால்குடி (+Google), முசிறி (+Google), துறையூர், திருவெறும்பூர், மண்ணச்சநல்லூர்): 9 links from our outlets
-18:29:01 search links: 14 Google links decoded, 0 not decoded, 138 known from an earlier round, 0 left for the next round, 21 of another district by their headline (not opened)
-18:29:01 77 links on the two papers' Trichy pages
-18:30:04 skipped: published before this window=24, already posted=21, not Trichy district=14, same event already posted=7, checked in an earlier round=5, only a headline=2, power cut - posted automatically=1
-18:30:04    drop [not Trichy district] திராவிட இயக்கம் காத்து வந்த மாநில உரிமைகளை.. எரித்துச் சாம்ப | tamil.oneindia.com/news/chen...te-rights-reduced-to-ashes-849101.html
-18:30:04    drop [not Trichy district] ராமாயணம் திரைப்படத்திற்கு எதிர்ப்பு; நீதிமன்ற நேரத்தை வீணடிக | dinakaran.com/news/ramayana_film_supremecourt
-18:30:04    drop [not Trichy district] பிறரின் மதச் சுதந்திரத்தில் தலையிடாமல் இருப்பதே மத நல்லிணக்க | dinamalar.com/news/tamil-nad...hers-bjp-hits-back-at-congress/4388385
-18:30:04    drop [not Trichy district] “தேவாரம், திருவாசகம் தெரியாதா?” அர்ச்சகரிடம் கேட்ட வைகோ.. கட | tamil.oneindia.com/news/than...n-devaram-and-thiruvasagam-849055.html
-18:30:04    drop [not Trichy district] தீபத்தூணில் தீபம் ஏற்றுவதற்கான பணிகள் தீவிரம் | dinamalar.com/news/tamil-nad...t-the-bonfire-is-in-full-swing/4388379
-18:30:04    drop [not Trichy district] Simmam: சிம்ம ராசிக்கு நல்ல காலம் பிறந்தாச்சு.. கஷ்டங்களுக்க | tamil.oneindia.com/astrology...am-rasi-receive-this-month-849041.html
-18:30:04    drop [not Trichy district] கூடுதல் வாக்குகள் இல்லாமலேயே அதிக சீட் வெல்லும் பாஜக! தொகுதி | tamil.oneindia.com/news/delh...s-cockroach-janta-explains-849025.html
-18:30:04    drop [not Trichy district] தமிழ்நாட்டின் நலனில் சமரசம் செய்து கொள்ள மாட்டோம்; தொகுதி மற | dinakaran.com/news/constituency_delimitation_bill_dmk_support
-18:30:04    drop [not Trichy district] தங்கம் விலை குறைந்தது! இன்றைய நிலவரம் (நவ. 28) | dinamani.com/tamilnadu/2026/...ilver-price-today-in-chennai-tamilnadu
-18:30:04    drop [published before this window] [2026-11-25T21:08] துணை சபாநாயகர் மீது புகார் ஐகோர்ட்டில் நாளை விசாரணை | dinamalar.com/news/tamil-nad...r-heard-in-high-court-tomorrow/4386282
-18:30:04    drop [not Trichy district] இடைக்கால ஓய்வூதியம் பெறுவோருக்கு அகவிலைப்படி 63 சதவீதமாக உயா | dinamani.com/all-editions/ed...ion-recipients-increased-to-63-percent
-18:30:05 list: 2 new + 0 earlier news not posted yet
-18:30:05    1. [பொது] திருச்சி-ஸ்ரீகங்காநகர் ரெயிலில் கூடுதல் பெட்டிகள் இணைப்பு (தினத்தந்தி)
-18:30:05    2. [பொது] திருச்சி உயிரியல் பூங்கா எப்போது திறக்கப்படும்? மத்திய உயிரியல் பூங்கா (சமயம் தமிழ்)
-18:30:05 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-28_18
-18:30:06 round 2026-11-28_18 (at least 3, up to 3 more of well-watched topics): 2 news to choose from (0 from earlier rounds), ranked by this page's insights
-18:30:06   PICK   1.   4.0 [other +0.00 pattern] திருச்சி-ஸ்ரீகங்காநகர் ரெயிலில் கூடுதல் பெட்டிகள் இணைப்பு
-18:30:06   PICK   2.   3.0 [other +0.00 pattern] திருச்சி உயிரியல் பூங்கா எப்போது திறக்கப்படும்? மத்திய உயிரி
-18:30:06 decided: automatic: top 3 of 2 by insights -> 2 news to write and post
-PICK_URLS=https://www.dailythanthi.com/news/tamilnadu/additional-coaches-added-to-trichy-srikanganagar-train https://tamil.samayam.com/tamil-nadu/tiruchirappalli/trichy-biological-park-opening-delay-continues-in-approval-from-central-authority/articleshow/136245752.cms
-18:33:17 2 listed news now in the Sheet
-18:33:27 instagram duplicate check trichy: 50 recent posts read
-18:33:27 verify 2026-11-28_18: 0 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-18:33:27    NOT POSTED C82383ec: queued RN-207 (Queued) - திருச்சி-ஸ்ரீகங்காநகர் ரெயிலில் கூடுதல் பெட்டிகள் இணைப்பு
-18:33:27    NOT POSTED Ce1a8de3: queued RN-208 (Queued) - திருச்சி உயிரியல் பூங்கா எப்போது திறக்கப்படும்? மத்திய உயிரி
-18:38:33 instagram duplicate check trichy: 50 recent posts read
-18:38:33 verify 2026-11-28_18: 0 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-18:38:33    NOT POSTED C82383ec: queued RN-207 (Queued) - திருச்சி-ஸ்ரீகங்காநகர் ரெயிலில் கூடுதல் பெட்டிகள் இணைப்பு
-18:38:33    NOT POSTED Ce1a8de3: queued RN-208 (Queued) - திருச்சி உயிரியல் பூங்கா எப்போது திறக்கப்படும்? மத்திய உயிரி
-18:43:41 instagram duplicate check trichy: 50 recent posts read
-18:43:41 verify 2026-11-28_18: 1 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-18:43:41    NOT POSTED Ce1a8de3: queued RN-208 (Queued) - திருச்சி உயிரியல் பூங்கா எப்போது திறக்கப்படும்? மத்திய உயிரி
-18:48:48 instagram duplicate check trichy: 50 recent posts read
-18:48:48 verify 2026-11-28_18: 1 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-18:48:48    NOT POSTED Ce1a8de3: queued RN-208 (Queued) - திருச்சி உயிரியல் பூங்கா எப்போது திறக்கப்படும்? மத்திய உயிரி
-18:53:54 verify 2026-11-28_18: 2 of 2 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+20:25:59 round 2026-11-28_20: news published 28 Nov 18:28 -> 28 Nov 20:25 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+20:25:59    + news published since 27 Nov 20:25 that no earlier round found (listed / indexed late) - never one already listed or posted
+20:25:59 insights 2026-11-28T20:25+05:30 (204 reels): topic weights {'accident': 0.81, 'crime': 1.22, 'power_cut': 0.83, 'civic': 0.3, 'education': -0.5, 'politics': -0.04, 'weather': -0.5, 'temple': -0.34, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '💼 அயிலாப்பேட்டை மாதேஸ்வரன்: வேலையை விட்டு வீட்டிலிருந்தே மாதம் ரூ.3 லட்சம் டர்ன்']
+20:26:54 open search 'திருச்சி' (from_google): 21 links from our outlets
+20:26:54 town searches (மணப்பாறை, ஸ்ரீரங்கம், லால்குடி, முசிறி, துறையூர் (+Google), திருவெறும்பூர் (+Google), மண்ணச்சநல்லூர்): 10 links from our outlets
+20:26:54 search links: 17 Google links decoded, 0 not decoded, 133 known from an earlier round, 0 left for the next round, 21 of another district by their headline (not opened)
+20:26:54 79 links on the two papers' Trichy pages
+20:27:44 skipped: published before this window=23, already posted=21, not Trichy district=21, same event already posted=7, checked in an earlier round=4, only a headline=2, power cut - posted automatically=1
+20:27:44    drop [not Trichy district] மக்கள் காவலன் டிரைலர் தேதி! | dinamani.com/cinema/cinema-n...026/Nov/28/makkal-kavalan-trailer-date
+20:27:44    drop [not Trichy district] ஊரக வளா்ச்சித் துறையிடம் ரூ.22 கோடி ஆன்லைன் மோசடி: மேலும் 5  | dinamani.com/tamilnadu/2026/...development-department-5-more-arrested
+20:27:44    drop [not Trichy district] பூக்கடை வரதராஜ பெருமாள் கோயிலுக்கு சொந்தமான ரூ.2 கோடி நிலம்  | dinakaran.com/news/recovery_land_belonging_perumaltemple
+20:27:44    drop [not Trichy district] ஓம் படத்தின் 8வது நாள் வசூல் எவ்வளவு தெரியுமா? தனுஷ் படத்தின | tamil.oneindia.com/televisio...here-is-the-current-status-849113.html
+20:27:44    drop [not Trichy district] Delimitation.. காங்கிரஸ் கனவிலும் நினைத்தே பார்க்காத சிக்கல் | tamil.oneindia.com/news/delh...hi-is-angry-with-mk-stalin-849111.html
+20:27:44    drop [not Trichy district] தர்மப் போராட்டத்திற்குக் கிடைத்த வெற்றி ஒளி; எல்.முருகன் நெக | dinamalar.com/news/tamil-nad...-struggle-l-murugan-resilience/4388493
+20:27:44    drop [not Trichy district] திருப்பரங்குன்ற மலை தூணில் தீபம் ஏற்றிய நொடி முதல்.. தொடர்ச் | tamil.oneindia.com/news/madu...ruparankundram-hill-pillar-849093.html
+20:27:44    drop [not Trichy district] கொளத்தூர் சங்கீதா வீட்டில் வெடித்த சபரிமலை விவகாரம்.. கணவர்  | tamil.oneindia.com/news/chen...a-family-alleges-suspicion-849087.html
+20:27:44    drop [not Trichy district] பாஜக அரசின் தொகுதி மறுவரையறைக்கு திமுக ஆதரவு ஏன்? தயாநிதி மா | tamil.oneindia.com/news/chen...rnment-s-delimitation-bill-849073.html
+20:27:44    drop [not Trichy district] பாஜகவின் கருத்தோடு திமுக ஒத்து போவது ஏற்றுக்கொள்ள முடியாது.. | tamil.oneindia.com/news/than...gan-gandhi-in-an-interview-849069.html
+20:27:44    drop [not Trichy district] ராமாயணம் திரைப்படத்திற்கு எதிர்ப்பு; நீதிமன்ற நேரத்தை வீணடிக | dinakaran.com/news/ramayana_film_supremecourt/amp
+20:27:44    drop [not Trichy district] Thiruparankundram: யார் அந்த சார்? அதிகாரிகளுக்கு உத்தரவிட்ட | tamil.oneindia.com/news/delh...ind-deepam-order-violation-849061.html
+20:27:44    drop [not Trichy district] நிர்வாகத்தில் பெண்களுக்கு கூடுதல் பலம்; அனைத்துக் கட்சிகளுக் | dinamalar.com/news/india-tam...to-empower-women-in-governance/4388369
+20:27:44    drop [not Trichy district] தொகுதி மறுவரையறை மசோதாவுக்கு திமுக ஆதரவா? எம்.பி.க்கள் கூட்ட | dinamani.com/tamilnadu/2026/...the-constituency-delimitation-bill-why
+20:27:44    drop [not Trichy district] தொகுதி மறுவரையறை மசோதா நிறைவேறும் வாய்ப்பு பிரகாசம் | dinamalar.com/news/tamil-nad...ation-bill-likely-to-be-passed/4388336
+20:27:44    drop [not Trichy district] நெடுஞ்சாலையில் தீப்பற்றி எரிந்த கார் | dinamalar.com/news/tamil-nad...em/car-catches-fire-on-highway/4388248
+20:27:44    drop [not Trichy district] சித்தூரில் முழு அடைப்பு போராட்டம்: இயல்பு நிலை பாதிப்பு | dinamalar.com/news/tamil-nad...n-in-chittor-normalcy-affected/4387762
+20:27:44 list: 0 new + 0 earlier news not posted yet
+20:27:44 no news in this window - no e-mail
+ROUND=2026-11-28_20

@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-28T18:28:09.381138+05:30",
+ "last_end": "2026-11-28T20:25:59.896063+05:30",
  "pool": {
   "C5d6c867": {
    "id": "C5d6c867",
@@ -29,51 +29,9 @@
    "listed_at": "2026-11-28T02:26:16.505915+05:30",
    "picked_at": "2026-11-28T02:29:20.415351+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
-  },
-  "C82383ec": {
-   "id": "C82383ec",
-   "url": "https://www.dailythanthi.com/news/tamilnadu/additional-coaches-added-to-trichy-srikanganagar-train",
-   "title": "திருச்சி-ஸ்ரீகங்காநகர் ரெயிலில் கூடுதல் பெட்டிகள் இணைப்பு",
-   "summary": "திருச்சி, ரெயில்களில் பயணிகளின் நெரிசலை குறைப்பதற்காக பின்வரும் ரெயில்களில் தற்காலிக கூடுதல் பெட்டிகள் இணைக்கப்பட்டுள்ளன. அதன்படி ஸ்ரீகங்காநகர்-திருச்சி இடையே திங்கட்கிழமை இயக்கப்படும் ஹம்சாபர் எக்ஸ்பிரஸ் ரெயிலில் வரு...",
-   "source": "தினத்தந்தி",
-   "published": "2026-11-28T11:56:08Z",
-   "category": "பொது",
-   "score": 4.0,
-   "power_cut": false,
-   "alts": [
-    "https://www.dailythanthi.com/amp/story/news/tamilnadu/additional-coaches-added-to-trichy-srikanganagar-train"
-   ],
-   "listed_at": "2026-11-28T18:28:09.381138+05:30",
-   "picked_at": "2026-11-28T18:30:06.815388+05:30",
-   "posted": true
-  },
-  "Ce1a8de3": {
-   "id": "Ce1a8de3",
-   "url": "https://tamil.samayam.com/tamil-nadu/tiruchirappalli/trichy-biological-park-opening-delay-continues-in-approval-from-central-authority/articleshow/136245752.cms",
-   "title": "திருச்சி உயிரியல் பூங்கா எப்போது திறக்கப்படும்? மத்திய உயிரியல் பூங்கா ஆணையத்தின் ஒப்புதலில் தொடரும் தாமதம்!",
-   "summary": "திருச்சி உயிரியல் பூங்கா (Biological Park) எப்போது திறக்கப்படும் என்ற கேள்வி பொதுமக்கள் மற்றும் இயற்கை ஆர்வலர்கள் மத்தியில் வலுத்து வரும் நிலையில், மத்திய உயிரியல் பூங்கா ஆணையத்தின் (Central Zoo Authority - CZA) ஒப்பு...",
-   "source": "சமயம் தமிழ்",
-   "published": "2026-11-28T17:10:13+05:30",
-   "category": "பொது",
-   "score": 3.0,
-   "power_cut": false,
-   "listed_at": "2026-11-28T18:28:09.381138+05:30",
-   "picked_at": "2026-11-28T18:30:06.815390+05:30",
-   "posted": true
   }
  },
  "rounds": {
-  "2026-11-27_05": {
-   "window": [
-    "2026-11-27T04:28:43.727618+05:30",
-    "2026-11-27T05:51:54.246081+05:30"
-   ],
-   "ids": [],
-   "sent": false,
-   "deadline": "2026-11-27T06:51:54.246081+05:30",
-   "decided": null,
-   "written": []
-  },
   "2026-11-27_06": {
    "window": [
     "2026-11-27T05:51:54.246081+05:30",
@@ -521,6 +479,17 @@
     "C82383ec",
     "Ce1a8de3"
    ]
+  },
+  "2026-11-28_20": {
+   "window": [
+    "2026-11-28T18:28:09.381138+05:30",
+    "2026-11-28T20:25:59.896063+05:30"
+   ],
+   "ids": [],
+   "sent": false,
+   "deadline": "2026-11-28T21:25:59.896063+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {},
@@ -1796,6 +1765,55 @@
   "Cf0544ec": "2026-11-28T18:28 not Trichy district",
   "C1ed5f0a": "2026-11-28T18:28 not Trichy district",
   "Ce7b1f1d": "2026-11-28T18:28 published before this window",
-  "Cc4eb8a1": "2026-11-28T18:28 not Trichy district"
+  "Cc4eb8a1": "2026-11-28T18:28 not Trichy district",
+  "Ga820c499e9": "2026-11-28T20:25 D",
+  "Gc0401442c1": "2026-11-28T20:25 D",
+  "G25f6ee9229": "2026-11-28T20:25 D",
+  "G3db825ee6c": "2026-11-28T20:25 D",
+  "Gb45e2486d7": "2026-11-28T20:25 D",
+  "Gc2b4ffae7c": "2026-11-28T20:25 D",
+  "G79b03b4923": "2026-11-28T20:25 D",
+  "Gb7b74e6b90": "2026-11-28T20:25 D",
+  "G36747b11bc": "2026-11-28T20:25 D",
+  "Ga47bc01df7": "2026-11-28T20:25 D",
+  "Gcd3997c86f": "2026-11-28T20:25 D",
+  "G56d9728963": "2026-11-28T20:25 D",
+  "G9dce3ffb6c": "2026-11-28T20:25 D",
+  "G9e5f9930d3": "2026-11-28T20:25 D",
+  "Gd269b2eea0": "2026-11-28T20:25 D",
+  "G1b4d24c1ae": "2026-11-28T20:25 D",
+  "G73a1b99730": "2026-11-28T20:25 D",
+  "G0ca6d7c2e3": "2026-11-28T20:25 D",
+  "Gaa2f8b0dd9": "2026-11-28T20:25 D",
+  "G851a82b5f3": "2026-11-28T20:25 D",
+  "Gceea4de691": "2026-11-28T20:25 D",
+  "Gcf81e25ce1": "2026-11-28T20:25 D",
+  "G6a77dc28f7": "2026-11-28T20:25 D",
+  "Gcfb69ea1ed": "2026-11-28T20:25 D",
+  "Gd9723dee81": "2026-11-28T20:25 D",
+  "Gc41701ae0b": "2026-11-28T20:25 D",
+  "G92a4529ad6": "2026-11-28T20:25 D",
+  "G22ede47892": "2026-11-28T20:25 D",
+  "G95fbf70018": "2026-11-28T20:25 D",
+  "Ge9c0619ed3": "2026-11-28T20:25 D",
+  "Ge1275da26a": "2026-11-28T20:25 D",
+  "Gdcb334b739": "2026-11-28T20:25 D",
+  "C71cd6bb": "2026-11-28T20:25 not Trichy district",
+  "C2543125": "2026-11-28T20:25 not Trichy district",
+  "C48e4f11": "2026-11-28T20:25 not Trichy district",
+  "Ca725286": "2026-11-28T20:25 not Trichy district",
+  "Cff63fba": "2026-11-28T20:25 not Trichy district",
+  "Cbfa7281": "2026-11-28T20:25 not Trichy district",
+  "C0c0c6bc": "2026-11-28T20:25 not Trichy district",
+  "C602962e": "2026-11-28T20:25 not Trichy district",
+  "Cf4c3596": "2026-11-28T20:25 not Trichy district",
+  "C8cfcaf4": "2026-11-28T20:25 not Trichy district",
+  "Cea1ad41": "2026-11-28T20:25 not Trichy district",
+  "C098c69d": "2026-11-28T20:25 not Trichy district",
+  "Cba88b28": "2026-11-28T20:25 not Trichy district",
+  "C72259a5": "2026-11-28T20:25 not Trichy district",
+  "C3f148fe": "2026-11-28T20:25 not Trichy district",
+  "Cff73eaa": "2026-11-28T20:25 not Trichy district",
+  "C324a2e4": "2026-11-28T20:25 not Trichy district"
  }
 }
