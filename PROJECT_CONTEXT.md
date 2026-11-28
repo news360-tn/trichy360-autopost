@@ -85,6 +85,15 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-28 | `633f29e` | Hashtag fixes (owner 28 Nov): a source link's #part is no longer a hidden YouTube tag (district-section); a Facebook hashtag is never repeated and the top 5 reel gets topic + district + page tag |
+| 2026-11-28 | `35a5e06` | stories shared / Instagram pause |
+| 2026-11-28 | `7037cf8` | stories shared / Instagram pause |
+| 2026-11-28 | `b1e9b74` | stories shared / Instagram pause |
+| 2026-11-28 | `a3f35b1` | posting error noted RN-204 |
+| 2026-11-28 | `71d81f5` | stories shared / Instagram pause |
+| 2026-11-28 | `d3e1b82` | powercut: notices written |
+| 2026-11-28 | `fc90bc9` | stories shared / Instagram pause |
+| 2026-11-28 | `b46e3f0` | stories shared / Instagram pause |
 | 2026-11-28 | `8c43b4c` | reel: design A + improvements on every page (owner 28 Nov, the sample the owner chose) - with 2+ pictures they take turns every second cut, a BREAKING tag only on serious news, a place card with the district map and the town pin after the headline; no clock-hand line across the picture (soft dissolve). One layer over the finished page (reel/live360.py), inside the area that is free on Instagram, Facebook and YouTube Shorts; it never fails the reel. The place card is left out here (the reel already opens with the map); map intro: a named town wins over the city |
 | 2026-11-28 | `a1830d2` | stories shared / Instagram pause |
 | 2026-11-28 | `36ab15d` | stories shared / Instagram pause |
@@ -106,13 +115,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-28 | `8764d74` | stories shared / Instagram pause |
 | 2026-11-28 | `4480b5f` | stories shared / Instagram pause |
 | 2026-11-28 | `08dabfd` | stories shared / Instagram pause |
-| 2026-11-28 | `d82fd09` | stories shared / Instagram pause |
-| 2026-11-28 | `50415b4` | stories shared / Instagram pause |
-| 2026-11-28 | `109f3c4` | stories shared / Instagram pause |
-| 2026-11-28 | `b9be961` | pick: written and posted |
-| 2026-11-28 | `2349179` | pick: list sent |
-| 2026-11-28 | `5b1e692` | stories shared / Instagram pause |
-| 2026-11-28 | `e25576b` | stories shared / Instagram pause |
-| 2026-11-28 | `f525aa0` | stories shared / Instagram pause |
-| 2026-11-28 | `5704b6e` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
