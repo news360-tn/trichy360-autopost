@@ -115,7 +115,7 @@ window.seek(0);""")
     css = f"""
 body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:radial-gradient(circle at 50% 42%,{MAROON2} 0%,{MAROON} 70%);
  font-family:'Noto Sans Tamil',sans-serif}}
-#map{{position:absolute;left:40px;top:330px;width:1000px;height:1000px}}
+#map{{position:absolute;left:40px;top:330px;width:1000px;height:1000px;overflow:visible}}
 #d{{fill:{GOLD};stroke:{GOLD};stroke-width:1.6;stroke-linejoin:round;fill-opacity:0}}
 #pin circle.dot{{fill:#FF3B30;stroke:#fff;stroke-width:1.6}} .ring{{fill:none;stroke:#FF3B30;stroke-width:1.2}}
 #top{{position:absolute;left:0;right:0;top:120px;text-align:center;color:#F6E3A6;font-size:46px;font-weight:800;letter-spacing:2px}}
@@ -177,7 +177,7 @@ def top5_html(items, segs, dur, env):
               f'<div class="grid">{thumbs}</div></div>')
     for i, x in enumerate(items):
         rank = 5 - i
-        sc.append(f'<div class="s news"><img class="bg" src="file://{x["img"]}"><div class="shade"></div><div class="rk">#{rank}</div>'
+        sc.append(f'<div class="s news"><img class="bg" src="file://{x["img"]}"><div class="shade"></div><img class="cv" src="file://{x["img"]}"><div class="rk">#{rank}</div>'
                   f'<div class="txt"><div class="hd">{E(x["head"])}</div><div class="vw">{k_views(x["views"])} பார்வைகள் • {x["at"]:%I:%M %p}</div></div></div>')
     sc.append(f'<div class="s end"><img src="{logo}"><div class="n">{G.brand_html(PAGE)}</div><div class="sub">தினமும் இரவு இன்றைய டாப் 5</div>'
               f'<div class="f">Follow @{E(PAGE["handle"])}</div></div>')
@@ -197,11 +197,12 @@ body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:{MAROON};font
 .th img{{width:100%;height:100%;object-fit:cover}}
 .th b{{position:absolute;left:14px;top:10px;background:{GOLD};color:{MAROON};border-radius:50%;width:76px;height:76px;line-height:76px;
  font-family:'Catamaran';font-size:52px;font-weight:900}}
-.news .bg{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform-origin:50% 40%}}
-.news .shade{{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(0,0,0,.82) 78%)}}
-.news .rk{{position:absolute;left:44px;top:240px;background:{GOLD};color:{MAROON};border-radius:30px;padding:0 34px;font-family:'Catamaran';
+.news .bg{{position:absolute;inset:-60px;width:calc(100% + 120px);height:calc(100% + 120px);object-fit:cover;filter:blur(22px) brightness(.5);transform-origin:50% 40%}}
+.news .cv{{position:absolute;left:50%;top:250px;width:560px;height:996px;margin-left:-280px;object-fit:cover;border-radius:34px;box-shadow:0 26px 60px rgba(0,0,0,.6),0 0 0 7px {GOLD};transform-origin:50% 50%}}
+.news .shade{{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.75) 75%)}}
+.news .rk{{position:absolute;left:40px;top:220px;z-index:3;background:{GOLD};color:{MAROON};border-radius:30px;padding:0 34px;font-family:'Catamaran';
  font-size:130px;font-weight:900;line-height:1.25;box-shadow:0 14px 30px rgba(0,0,0,.45)}}
-.news .txt{{position:absolute;left:50px;right:50px;bottom:170px}}
+.news .txt{{position:absolute;left:50px;right:50px;top:1290px}}
 .news .hd{{color:#fff;font-size:66px;font-weight:900;line-height:1.3;text-shadow:0 4px 12px rgba(0,0,0,.6)}}
 .news .vw{{margin-top:18px;display:inline-block;background:rgba(255,255,255,.92);color:{MAROON};border-radius:40px;padding:8px 30px;
  font-size:38px;font-weight:800}}
@@ -217,7 +218,7 @@ const S=[...document.querySelectorAll('.s')],cl=u=>Math.max(0,Math.min(1,u)),ez=
 window.seek=function(t){
  let k=SEG.findIndex(s=>t>=s.t0&&t<s.t1);if(k<0)k=SEG.length-1;const u=t-SEG[k].t0,d=SEG[k].t1-SEG[k].t0;
  S.forEach((e,j)=>{e.style.opacity=j===k?(k===0?1:ez(u/0.25)):(j===k-1&&u<0.25?1:0);e.style.zIndex=j===k?2:1});
- const e=S[k],bg=e.querySelector('.bg');if(bg)bg.style.transform='scale('+(1.02+0.12*u/d)+')';      // slow zoom on the picture
+ const e=S[k],cv=e.querySelector('.cv');if(cv)cv.style.transform='scale('+((0.86+0.14*ez(u/0.35))*(1+0.04*u/d))+')';      // the reel card comes forward, then a slow push in
  const rk=e.querySelector('.rk');if(rk)rk.style.transform='scale('+(0.6+0.4*ez(u/0.3))+')';
  const tx=e.querySelector('.txt');if(tx){tx.style.opacity=ez((u-0.2)/0.3);tx.style.transform='translateY('+(40*(1-ez((u-0.2)/0.3)))+'px)'}
  e.querySelectorAll('.th').forEach((th,i)=>{const q=ez((u-0.15-i*0.12)/0.3);th.style.opacity=q;th.style.transform='scale('+(0.8+0.2*q)+')'});
