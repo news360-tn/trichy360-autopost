@@ -111,10 +111,16 @@ class FortyHashtags(unittest.TestCase):
         self.assertEqual(g["area"][:4], ["#Rasipuram", "#RasipuramNews", "#ராசிபுரம்", "#Vennandur"])
         self.assertNotIn("#TamilNadu", g["district"])
 
+    def test_page_lists_are_found_when_the_tag_is_spelt_like_the_channel(self):      # Tiruppur 360: page 'tirupur', tag #Tiruppur360
+        reach = {"hashtag_profiles": {"#tiruppur360": {"page": "#Tiruppur360"}}}
+        self.assertEqual(yt_hashtags.profile("tirupur", reach, "Tiruppur"), {"page": "#Tiruppur360"})
+        self.assertEqual(yt_hashtags.profile("salem", reach, "Salem"), {})
+        self.assertEqual(yt_hashtags.profile("tirupur", {"hashtag_profiles": {"#tirupur360": {"page": "x"}}}, "Tiruppur"), {"page": "x"})
+
     def test_this_repo_pages_with_the_real_settings(self):
         cfg = json.loads((ROOT / "poster" / "config.json").read_text(encoding="utf-8"))
         for key, prof in ((cfg.get("reach") or {}).get("hashtag_profiles") or {}).items():
-            page = next((p for p in youtube.PAGE_EN if key.lstrip("#").startswith(p)), "")
+            page = next((p for p, en in youtube.PAGE_EN.items() if key.lstrip("#").startswith((p, en.lower()))), "")      # "#tiruppur360" is the page 'tirupur'
             self.assertTrue(page, key)
             name = youtube.PAGE_EN[page]
             for cap in (NEWS, RASI, GOLD):

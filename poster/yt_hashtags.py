@@ -103,9 +103,11 @@ def from_phrase(p):
     return clean("".join(w if any(c.isupper() for c in w) else w.capitalize() for w in words))
 
 
-def profile(page, reach):
+def profile(page, reach, name=""):
+    """the page's tag lists: the key is the page hashtag in small letters ("#namakkal360"; "#tiruppur360" for the page 'tirupur')"""
+    starts = tuple(x for x in (str(page).lower(), str(name).lower()) if x)
     for k, p in (reach.get("hashtag_profiles") or {}).items():
-        if k.lower().lstrip("#").startswith(str(page).lower()):
+        if k.lower().lstrip("#").startswith(starts):
             return p or {}
     return {}
 
@@ -133,7 +135,7 @@ def build(cap, page, name, head="", cfg=None):
     """{"video": [...25], "page": [...5], "district": [...5], "area": [...5]} - 40 different hashtags for this reel"""
     cfg = config() if cfg is None else cfg
     reach = cfg.get("reach") or {}
-    prof = profile(page, reach)
+    prof = profile(page, reach, name)
     if not prof:
         reach = {}      # a page this repo has no lists for: only tags from the page's own name and the news itself
     lines = [x.strip() for x in (cap or "").split("\n")]
