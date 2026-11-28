@@ -254,5 +254,20 @@
   "g22_am": 11600,
   "g24_am": 12655,
   "silver_am": 170
+ },
+ {
+  "date": "2026-11-28",
+  "g22": 11720,
+  "g24": 12786,
+  "gold_sources": [
+   "GoodReturns",
+   "RateToday"
+  ],
+  "silver": 170,
+  "silver_sources": [
+   "GoodReturns",
+   "Groww",
+   "RateToday"
+  ]
  }
 ]
