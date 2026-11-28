@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-28T08:27:22.641725+05:30",
+ "last_end": "2026-11-28T10:27:28.061839+05:30",
  "pool": {
   "C5d6c867": {
    "id": "C5d6c867",
@@ -44,20 +44,6 @@
    "picked_at": "2026-11-28T04:32:53.331485+05:30",
    "refused": "not filed: duplicate after write"
   },
-  "C208f4f7": {
-   "id": "C208f4f7",
-   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/milch-cows-for-rural-womencall-for-applications",
-   "title": "ஊரக மகளிருக்கு கறவை மாடுகள் விண்ணப்பிக்க அழைப்பு",
-   "summary": "ஊரக மகளிருக்கு கறவை மாடுகள் வழங்கும் திட்டத்தில் பயன்பெற விண்ணப்பங்கள் வரவேற்கப்படுகின்றன..இதுதொடா்பாக, திருச்சி மாவட்ட ஆட்சியா் பிரத்திக் தாயள் வெளியிட்டுள்ள செய்திக்குறிப்பு:.ஊரக மகளிருக்கு விலையில்லா கறவை மாடுகள் வ...",
-   "source": "தினமணி",
-   "published": "2026-11-27T21:11:59.216Z",
-   "category": "பொது",
-   "score": 6.0,
-   "power_cut": false,
-   "listed_at": "2026-11-28T04:27:00.614004+05:30",
-   "picked_at": "2026-11-28T08:29:20.176461+05:30",
-   "posted": true
-  },
   "C52cd645": {
    "id": "C52cd645",
    "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/declare-trichy-a-drought-affected-district-farmers-demand-at-grievance-redressal-meeting",
@@ -69,33 +55,6 @@
    "score": 2.5,
    "power_cut": false,
    "listed_at": "2026-11-28T04:27:00.614004+05:30"
-  },
-  "Cf3b3c6e": {
-   "id": "Cf3b3c6e",
-   "url": "https://www.dinakaran.com/news/deputy_speaker_case_government_highcourt",
-   "title": "துணை சபாநாயகர் தாக்கிய வழக்கில் அரசு பதிலளிக்க ஐகோர்ட் உத்தரவு - Dinakaran - Dinakaran",
-   "summary": "மதுரை: கோரிக்கை மனு அளிக்க வந்தவரை உருட்டுக்கட்டையால் தாக்கிய துணை சபாநாயகர் மீது நடவடிக்கை கோரிய வழக்கில் அரசு பதிலலிக்க ஐகோர்ட் உத்தரவிட்டுள்ளது.",
-   "source": "தினகரன்",
-   "published": "2026-11-28T04:50:35+05:30",
-   "category": "குற்றம்",
-   "score": 3.0,
-   "power_cut": false,
-   "listed_at": "2026-11-28T06:27:01.751171+05:30",
-   "picked_at": "2026-11-28T08:29:20.176463+05:30",
-   "posted": true
-  },
-  "C31f3096": {
-   "id": "C31f3096",
-   "url": "https://www.dinakaran.com/news/deputy_speaker_case_government_highcourt/amp",
-   "title": "துணை சபாநாயகர் தாக்கிய வழக்கில் அரசு பதிலளிக்க ஐகோர்ட் உத்தரவு",
-   "summary": "மதுரை: கோரிக்கை மனு அளிக்க வந்தவரை உருட்டுக்கட்டையால் தாக்கிய துணை சபாநாயகர் மீது நடவடிக்கை கோரிய வழக்கில் அரசு பதிலலிக்க ஐகோர்ட் உத்தரவிட்டுள்ளது.",
-   "source": "தினகரன்",
-   "published": "2026-11-28T04:50:35+05:30",
-   "category": "குற்றம்",
-   "score": 3.0,
-   "power_cut": false,
-   "late_listed": true,
-   "listed_at": "2026-11-28T07:49:17.436184+05:30"
   },
   "C2bace8e": {
    "id": "C2bace8e",
@@ -120,41 +79,9 @@
    "score": 3.0,
    "power_cut": false,
    "listed_at": "2026-11-28T07:49:17.436184+05:30"
-  },
-  "Cb99874b": {
-   "id": "Cb99874b",
-   "url": "https://www.dinakaran.com/district/pudukkottai_281126_1",
-   "title": "கந்தர்வகோட்டை- திருச்சி செல்லும் சாலையின் நடுவே உள்ள சென்டர் மீடியனை அகற்ற வேண்டும் - Dinakaran",
-   "summary": "கந்தர்வகோட்டை, நவ.28: கந்தர்வகோட்டை- திருச்சி சாலையில் அடிக்கடி விபத்து ஏற்படுத்தும் சென்டர்மீடியனை அகற்ற பொதுமக்கள் கோரிக்கை விடுத்துள்ளனர்.",
-   "source": "தினகரன்",
-   "published": "2026-11-28T06:43:58+05:30",
-   "category": "சாலை",
-   "score": 9.3,
-   "power_cut": false,
-   "late_listed": true,
-   "listed_at": "2026-11-28T08:27:22.641725+05:30",
-   "picked_at": "2026-11-28T08:29:20.176458+05:30",
-   "posted": true
   }
  },
  "rounds": {
-  "2026-11-26_16": {
-   "window": [
-    "2026-11-26T16:31:22.435988+05:30",
-    "2026-11-26T16:49:29.605989+05:30"
-   ],
-   "ids": [
-    "C936cfee"
-   ],
-   "sent": false,
-   "deadline": "2026-11-26T17:49:29.605989+05:30",
-   "decided": {
-    "how": "automatic: top 6 of 0 by insights",
-    "ids": [],
-    "at": "2026-11-26T16:50:31.101584+05:30"
-   },
-   "written": []
-  },
   "2026-11-26_20": {
    "window": [
     "2026-11-26T16:49:29.605989+05:30",
@@ -592,6 +519,21 @@
     "Cb99874b",
     "Cf3b3c6e"
    ]
+  },
+  "2026-11-28_10": {
+   "window": [
+    "2026-11-28T08:27:22.641725+05:30",
+    "2026-11-28T10:27:28.061839+05:30"
+   ],
+   "ids": [
+    "C2bace8e",
+    "C7e0f496",
+    "C52cd645"
+   ],
+   "sent": false,
+   "deadline": "2026-11-28T11:27:28.061839+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {},
@@ -764,7 +706,7 @@
   "C2e3d896": "2026-11-27T12:29 not Trichy district",
   "Caf91ed8": "2026-11-27T12:29 already posted",
   "C847f5c3": "2026-11-27T12:29 already posted",
-  "C4cc55c1": "2026-11-27T12:29 already posted",
+  "C4cc55c1": "2026-11-27T12:29 published before this window",
   "C877c296": "2026-11-27T12:29 already posted",
   "Ce0fb5ca": "2026-11-27T12:29 published before this window",
   "C3d37369": "2026-11-27T12:29 published before this window",
@@ -1560,6 +1502,74 @@
   "C6d9168d": "2026-11-28T08:27 not Trichy district",
   "C8191912": "2026-11-28T08:27 not Trichy district",
   "C9192161": "2026-11-28T08:27 not Trichy district",
-  "C61e6f7a": "2026-11-28T08:27 not Trichy district"
+  "C61e6f7a": "2026-11-28T08:27 not Trichy district",
+  "G5b0d0c36dd": "2026-11-28T10:27 D",
+  "G2e588d724b": "2026-11-28T10:27 D",
+  "G66bb37cb74": "2026-11-28T10:27 D",
+  "Gc1fe76396c": "2026-11-28T10:27 D",
+  "Gc4053bbd77": "2026-11-28T10:27 D",
+  "Gdbee5d9ccb": "2026-11-28T10:27 D",
+  "G8341659285": "2026-11-28T10:27 D",
+  "G2ce6ca0b23": "2026-11-28T10:27 D",
+  "G50afe7b21d": "2026-11-28T10:27 D",
+  "Gc315500a88": "2026-11-28T10:27 D",
+  "Gecbf25a79a": "2026-11-28T10:27 D",
+  "G152a43ab06": "2026-11-28T10:27 D",
+  "Gd1982c7a03": "2026-11-28T10:27 D",
+  "Gd740bb94a1": "2026-11-28T10:27 D",
+  "Gc2a2fd98c6": "2026-11-28T10:27 D",
+  "G176947906b": "2026-11-28T10:27 D",
+  "Gee4f4af53e": "2026-11-28T10:27 D",
+  "G535b18544a": "2026-11-28T10:27 D",
+  "G49717de8b6": "2026-11-28T10:27 D",
+  "G0c7f6a16e6": "2026-11-28T10:27 D",
+  "G87ab032a7e": "2026-11-28T10:27 D",
+  "Gdbda8a4fd9": "2026-11-28T10:27 D",
+  "Gb17ba5dd87": "2026-11-28T10:27 D",
+  "G6c827caa37": "2026-11-28T10:27 D",
+  "G37683536c9": "2026-11-28T10:27 D",
+  "Gcfdc46d57b": "2026-11-28T10:27 D",
+  "Ga1bcc19820": "2026-11-28T10:27 D",
+  "G60de8d1bec": "2026-11-28T10:27 D",
+  "G7b78aa0041": "2026-11-28T10:27 D",
+  "G86834d62ac": "2026-11-28T10:27 D",
+  "G7c7f1fd2f3": "2026-11-28T10:27 D",
+  "G58ac015187": "2026-11-28T10:27 D",
+  "G4025693171": "2026-11-28T10:27 D",
+  "G329045947a": "2026-11-28T10:27 D",
+  "G4b7f13ddcb": "2026-11-28T10:27 D",
+  "Gb45b8695ef": "2026-11-28T10:27 D",
+  "Gc9aba4c347": "2026-11-28T10:27 D",
+  "Ge68fd780da": "2026-11-28T10:27 D",
+  "Geda6bfcb5b": "2026-11-28T10:27 D",
+  "Gd2500890b1": "2026-11-28T10:27 D",
+  "G11cba27a10": "2026-11-28T10:27 D",
+  "G3dee3fbea9": "2026-11-28T10:27 D",
+  "G2a751e1e52": "2026-11-28T10:27 D",
+  "Gf8cc27676d": "2026-11-28T10:27 D",
+  "G99a5d7e017": "2026-11-28T10:27 D",
+  "G1e190aeff8": "2026-11-28T10:27 D",
+  "C65bbab9": "2026-11-28T10:27 already posted",
+  "C972a1d8": "2026-11-28T10:27 already posted",
+  "C2618bf5": "2026-11-28T10:27 already posted",
+  "C007ac72": "2026-11-28T10:27 not Trichy district",
+  "Cbdb85fa": "2026-11-28T10:27 not Trichy district",
+  "Cc096981": "2026-11-28T10:27 not Trichy district",
+  "Ce179de5": "2026-11-28T10:27 not Trichy district",
+  "C14bfdfa": "2026-11-28T10:27 not Trichy district",
+  "C4f382a0": "2026-11-28T10:27 not Trichy district",
+  "C0deee77": "2026-11-28T10:27 not Trichy district",
+  "C144771a": "2026-11-28T10:27 not Trichy district",
+  "Cd9ddd30": "2026-11-28T10:27 not Trichy district",
+  "C182455a": "2026-11-28T10:27 not Trichy district",
+  "Ca4fa334": "2026-11-28T10:27 not Trichy district",
+  "C63d7743": "2026-11-28T10:27 not Trichy district",
+  "Cf95de02": "2026-11-28T10:27 not Trichy district",
+  "C43b7cbb": "2026-11-28T10:27 not Trichy district",
+  "C6373528": "2026-11-28T10:27 not Trichy district",
+  "Ced860c9": "2026-11-28T10:27 not Trichy district",
+  "C11a8cfb": "2026-11-28T10:27 not Trichy district",
+  "C6eb44fd": "2026-11-28T10:27 not Trichy district",
+  "Ca88420e": "2026-11-28T10:27 not Trichy district"
  }
 }
