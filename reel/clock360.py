@@ -2,7 +2,8 @@
 A layer laid OVER the finished reel page - the design, colours, text, voice and timing stay exactly as they are:
  1. logo ring: a gold ring round the top logo fills clockwise 0 -> 360 over the reel (reel progress, like a clock hand)
  2. opening: in the first 0.7 s a bright 360 ring draws round the logo once (the hook text is untouched)
- 3. picture change: a clockwise clock-hand sweep (0.35 s) when the picture really changes (not on a one-picture reel)
+ 3. picture change: SWITCHED OFF (owner 28 Nov: "this clock line do not use") - was a clockwise clock-hand sweep (0.35 s) when the
+    picture changes; the picture now changes with the page's own soft dissolve (the 0&& in the script below)
  4. end card: a gold ring closes 360 round the logo, a faint clock bezel turns behind it
 
 add(page_html) -> the page with the layer. It never fails the reel: anything unexpected (a page without the logo / end card / renderAt)
@@ -45,7 +46,7 @@ window.renderAt=function(t){old(t);
   if(lg&&ck){ck.style.visibility=(t<D.end_t||!document.getElementById('end'))?'visible':'hidden'; /* no end card: the full ring stays */ fit(ck, lg, 16); arc(ck.querySelector('.pr'), cl(t/D.end_t));
     const op=ck.querySelector('.op'); arc(op, eo(cl(t/0.7))); op.style.opacity=t<0.7?1:cl(1-(t-0.7)/0.35);}
   const hand=document.getElementById('ckhand'), piv=document.getElementById('ckpiv'); let hv=false;
-  if(D.shots&&D.shots.length&&!D.single&&!D.cycle){      /* owner 27 Nov evening: no clock-hand sweep when the picture changes every cut (it looked like a glitch) */
+  if(0&&D.shots&&D.shots.length&&!D.single&&!D.cycle){      /* owner 27 Nov evening: no clock-hand sweep when the picture changes every cut (it looked like a glitch) */
     let ai=D.shots.length-1; D.shots.forEach((s,i)=>{if(t>=s.a&&t<s.b)ai=i});
     const a=D.shots[ai], prev=ai>0?D.shots[ai-1]:null, k=t-a.a, W=0.35;
     for(let i=0;i<D.n;i++){const e=document.getElementById('p'+i); if(e){e.style.webkitMaskImage='none'; e.style.maskImage='none';}}

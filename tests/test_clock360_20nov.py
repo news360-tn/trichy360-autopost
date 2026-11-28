@@ -40,7 +40,7 @@ class Clock360(unittest.TestCase):
 
     def test_wired_into_news_reel(self):
         src = (ROOT / "reel" / "reel4.py").read_text(encoding="utf-8")
-        self.assertIn("page.write_text(clock360.add(new_page or build_html(spec, shots, sents, caps, hook_end, end_t, total, R.PAGE)))", src)
+        self.assertIn("clock360.add(new_page or build_html(spec, shots, sents, caps, hook_end, end_t, total, R.PAGE))", src)      # 28 Nov: live360.add(...) is laid over it
 
 
 if __name__ == "__main__":

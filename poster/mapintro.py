@@ -25,9 +25,11 @@ def _ffmpeg():
 def town_of(location, towns):
     """the most specific town of the district map named in the location ('ஸ்ரீரங்கம், திருச்சி' -> ஸ்ரீரங்கம்), or ''"""
     loc = str(location or "").strip()
-    t = next((t for t in sorted(towns, key=len, reverse=True) if t in loc), "")
+    found = sorted((t for t in towns if t in loc), key=len, reverse=True)
+    city = ("திருச்சி", "திருச்சிராப்பள்ளி")
+    t = next((t for t in found if t not in city), "") or (found[0] if found else "")      # 28 Nov: 'லால்குடி, திருச்சி' -> லால்குடி (a town of the same length as the city's name could lose to it)
     first = loc.split(",")[0].strip()
-    if t in ("திருச்சி", "திருச்சிராப்பள்ளி") and not first.startswith(t):      # 'X, திருச்சி' with X not on the map: no pin on the city
+    if t in city and not first.startswith(t):      # 'X, திருச்சி' with X not on the map: no pin on the city
         return ""
     return t
 
