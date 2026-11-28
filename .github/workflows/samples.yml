@@ -1,0 +1,41 @@
+name: samples
+# owner 28 Nov: SAMPLE reels for the owner's review only - this branch never posts (no Instagram / Facebook / Sheet secrets are given,
+# every other workflow is removed on this branch). The video is saved as a download on the run page (Artifacts).
+on:
+  push:
+    branches: [parrot-sample]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  parrot:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: Browser (cached)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-rasipalan-1.56.0
+      - name: Install
+        timeout-minutes: 15
+        run: |
+          pip install -q requests==2.32.5 pillow==11.3.0 playwright==1.56.0 pyswisseph==2.10.3.2 imageio-ffmpeg==0.6.0 numpy edge-tts==7.2.3
+          python -m playwright install chromium
+          python -c "from playwright.sync_api import sync_playwright as s; p=s().start(); p.chromium.launch().close(); p.stop()" ||
+            sudo "$(command -v python)" -m playwright install-deps chromium
+      - name: Make the parrot rasipalan sample (never posted)
+        run: python tools/parrot_sample.py
+      - name: Save the sample for download
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: parrot-rasipalan-sample
+          path: |
+            out/samples/parrot/*.mp4
+            out/samples/parrot/*.png
+            out/samples/parrot/script.txt
+          if-no-files-found: warn
