@@ -81,7 +81,8 @@ CSS = f"""
 .fcin{{position:absolute;left:40px;top:34px;width:1135px;transform:scale(.8);transform-origin:0 0}}
 .fc .rhead{{margin-top:0}} .fc .rlines{{margin-top:26px}} .fc .rl{{min-height:122px}} .fc .luck{{margin-top:26px}} .fc .rem{{margin-top:24px}}
 .fc .kick{{font-size:38px;font-weight:800;color:{MAROON};opacity:.8;margin-bottom:6px}}
-.hk{{text-align:center;padding-top:40px}}
+.hk{{text-align:center;padding-top:92px}}
+.fc .ptitle{{font-size:66px}} .fc .ptable{{padding:4px 34px}} .fc .prow{{min-height:116px}} .fc .prow .v{{font-size:42px}}
 .hk .t1{{font-size:98px;font-weight:900;color:{MAROON};line-height:1.2;white-space:nowrap}}
 .hk .t2{{margin-top:6px;font-size:42px;font-weight:800;color:{MAROON};opacity:.85}}
 .hk .t3{{display:inline-block;margin-top:34px;background:{MAROON};color:{GOLD};border-radius:40px;padding:10px 40px;font-size:46px;font-weight:900}}
@@ -151,7 +152,7 @@ def lines(p, P, rasis):
     if P.get("nalla_morning"):
         parts.append(f'நல்ல நேரம் காலை {spoken_span(P["nalla_morning"])}')
     if P.get("rahu"):
-        parts.append(f'ராகு காலம் {spoken_span(P["rahu"])}')
+        parts.append(f'ராகு காலம் {spoken_span(with_period(P["rahu"]))}')
     panch = "இன்றைய பஞ்சாங்கம். " + ". ".join(parts) + "." if parts else "இன்றைய பஞ்சாங்கம் பாருங்கள்."
     return best, hook, panch, say_r, end
 
@@ -162,10 +163,22 @@ def spoken_span(s):
     return re.sub(r"\s*[-–]\s*", " முதல் ", s, count=1) + " வரை" if re.search(r"\d\s*[-–]\s*\d", s) else s
 
 
+def with_period(s):
+    """owner 28 Nov: '9:00 – 10:30' -> 'காலை 9:00 – 10:30', '1:30 – 3:00' -> 'மதியம் 1:30 – 3:00' (12-hour times without AM / PM are
+    unclear when heard); a value that already says காலை / மதியம் / மாலை / இரவு is kept"""
+    s = str(s or "").strip()
+    m = re.match(r"(\d{1,2}):\d{2}", s)
+    if not s or not m or re.match(r"(காலை|மதியம்|மாலை|இரவு|அதிகாலை)", s):
+        return s
+    h = int(m.group(1))
+    word = "காலை" if 5 <= h <= 11 else "மதியம்" if h == 12 or h <= 3 else "மாலை" if h <= 7 else "இரவு"
+    return f"{word} {s}"
+
+
 def panch_rows(P):
     rows = [("நல்ல நேரம்", f'காலை {P["nalla_morning"]}', f'மாலை {P["nalla_evening"]}' if P.get("nalla_evening") else "", "good")
             if P.get("nalla_morning") else None,
-            ("ராகு காலம்", P.get("rahu"), "", "bad"), ("எமகண்டம்", P.get("emagandam"), "", "bad"),
+            ("ராகு காலம்", with_period(P.get("rahu")), "", "bad"), ("எமகண்டம்", with_period(P.get("emagandam")), "", "bad"),
             ("திதி", P.get("tithi"), P.get("tithi_end") or "", ""), ("நட்சத்திரம்", P.get("nakshatra"), P.get("nakshatra_end") or "", ""),
             ("சந்திராஷ்டமம்", P.get("chandrashtamam"), "இந்த ராசிக்கு இன்று கவனம்", "bad")]
     return [r for r in rows if r and r[1]]

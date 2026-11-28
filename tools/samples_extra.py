@@ -178,7 +178,8 @@ def top5_html(items, segs, dur, env):
     for i, x in enumerate(items):
         rank = 5 - i
         sc.append(f'<div class="s news"><img class="bg" src="file://{x["img"]}"><div class="shade"></div><img class="cv" src="file://{x["img"]}"><div class="rk">#{rank}</div>'
-                  f'<div class="txt"><div class="hd">{E(x["head"])}</div><div class="vw">இன்று {x["at"]:%I:%M %p}</div></div></div>')
+                  f'<div class="txt"><div class="hd">{E(x["head"])}</div><div class="vw">இன்று {x["at"]:%I:%M %p}</div></div>'
+                  + '<div class="dots">' + "".join(f'<b class="{"on" if r == rank else "done" if r > rank else ""}">{r}</b>' for r in (5, 4, 3, 2, 1)) + '</div></div>')
     sc.append(f'<div class="s end"><img src="{logo}"><div class="n">{G.brand_html(PAGE)}</div><div class="sub">தினமும் இரவு இன்றைய டாப் 5</div>'
               f'<div class="f">Follow @{E(PAGE["handle"])}</div></div>')
     css = f"""
@@ -198,11 +199,14 @@ body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:{MAROON};font
 .th b{{position:absolute;left:14px;top:10px;background:{GOLD};color:{MAROON};border-radius:50%;width:76px;height:76px;line-height:76px;
  font-family:'Catamaran';font-size:52px;font-weight:900}}
 .news .bg{{position:absolute;inset:-60px;width:calc(100% + 120px);height:calc(100% + 120px);object-fit:cover;filter:blur(22px) brightness(.5);transform-origin:50% 40%}}
-.news .cv{{position:absolute;left:50%;top:250px;width:560px;height:996px;margin-left:-280px;object-fit:cover;border-radius:34px;box-shadow:0 26px 60px rgba(0,0,0,.6),0 0 0 7px {GOLD};transform-origin:50% 50%}}
+.news .cv{{position:absolute;left:50%;top:236px;width:610px;height:1084px;margin-left:-305px;object-fit:cover;border-radius:34px;box-shadow:0 26px 60px rgba(0,0,0,.6),0 0 0 7px {GOLD};transform-origin:50% 50%}}
 .news .shade{{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.75) 75%)}}
 .news .rk{{position:absolute;left:40px;top:220px;z-index:3;background:{GOLD};color:{MAROON};border-radius:30px;padding:0 34px;font-family:'Catamaran';
  font-size:130px;font-weight:900;line-height:1.25;box-shadow:0 14px 30px rgba(0,0,0,.45)}}
-.news .txt{{position:absolute;left:50px;right:50px;top:1290px}}
+.news .txt{{position:absolute;left:50px;right:50px;top:1360px}}
+.dots{{position:absolute;left:0;right:0;bottom:120px;display:flex;justify-content:center;gap:18px}}
+.dots b{{width:78px;height:78px;border-radius:50%;line-height:78px;text-align:center;font-family:'Catamaran';font-size:40px;font-weight:900;
+ color:rgba(255,255,255,.55);border:3px solid rgba(255,255,255,.35)}} .dots b.on{{background:{GOLD};color:{MAROON};border-color:{GOLD}}} .dots b.done{{color:rgba(255,255,255,.3);border-color:rgba(255,255,255,.15)}}
 .news .hd{{color:#fff;font-size:66px;font-weight:900;line-height:1.3;text-shadow:0 4px 12px rgba(0,0,0,.6)}}
 .news .vw{{margin-top:18px;display:inline-block;background:rgba(255,255,255,.92);color:{MAROON};border-radius:40px;padding:8px 30px;
  font-size:38px;font-weight:800}}
