@@ -40,10 +40,9 @@ STEP 1 - "facts": read the article and list ONLY what a camera could see, copied
  what happened (the event itself), the exact place and its type, the people by role and their number, vehicles (exact type and colour if given),
  objects (seized goods, damaged things, tools), animals, buildings, weather, time of day. Write "unknown" for anything the article does not say. Never invent.
 
-STEP 2 - "scenes": exactly THREE photographs of THIS news (owner 26 Nov views test: 3 pictures per reel): scene 1 = the COVER - the main event itself;
+STEP 2 - "scenes": exactly TWO photographs of THIS news (owner 30 Oct: 2 pictures per reel): scene 1 = the COVER - the main event itself;
  scene 2 = a DETAIL close-up of the one object or sign that tells the story (seized goods, the damaged vehicle, the transformer, the garbage
- heap, water on the road, the documents) or, if there is no such object, a WIDE shot of the place with the event in it; scene 3 = a
- different angle of the same place or event (from the road, from behind the people, the building or office involved). Each scene
+ heap, water on the road, the documents) or, if there is no such object, a WIDE shot of the place with the event in it. Each scene
  100-150 words of plain English, written in THIS order:
  1. SUBJECT + ACTION: the main thing of THIS news happening, in the first sentence (e.g. "A TNEB lineman on a ladder repairs a transformer ...").
  2. PLACE: the real place type in Trichy city with its look (see CITY LOOK), named area if the article gives it.

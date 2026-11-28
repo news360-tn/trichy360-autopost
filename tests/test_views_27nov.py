@@ -115,8 +115,8 @@ class EndingAndVoices(unittest.TestCase):
         self.assertEqual(seen, set(pool))
 
     def test_pictures_take_turns(self):
-        if not VT.get("cycle_pictures"):
-            self.skipTest("cycle_pictures is off")
+        if not (VT.get("enabled") and VT.get("cycle_pictures")):      # owner 28 Nov: the views test is off
+            self.skipTest("the views test or cycle_pictures is off")
         shots = reel4.plan_shots(3, 24.0, [])
         self.assertEqual([s["img"] for s in shots[:6]], [0, 1, 2, 0, 1, 2])
 
