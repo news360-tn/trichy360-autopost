@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-28T06:27:01.751171+05:30",
+ "last_end": "2026-11-28T07:49:17.436184+05:30",
  "pool": {
   "C5d6c867": {
    "id": "C5d6c867",
@@ -14,20 +14,6 @@
    "listed_at": "2026-11-27T22:26:45.599874+05:30",
    "picked_at": "2026-11-27T22:28:44.863527+05:30",
    "refused": "not filed: duplicate after write"
-  },
-  "Ce3747df": {
-   "id": "Ce3747df",
-   "url": "https://www.dinamalar.com/news/tamil-nadu-news/court-directs-govt-to-auction-ac-buses-to-compensate-accident-victim/4388100",
-   "title": "விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ்களை ஏலம் விட நீதிமன்றம் உத்தரவு",
-   "summary": "திருச்சி: அரசு பஸ் மோதிய விபத்தில் காயமடைந்தவருக்கு இழப்பீடு வழங்க, ஜப்தி செய்த அரசு ‘ஏசி’ பஸ்களை ஏலம் விட நீதிமன்றம் உத்தரவிட்டு உள்ளது. திண்டுக்கல் மாவட்டம், பண்ணப்பட்டியை சேர்ந்த வர் சின்னதுரை, 39.",
-   "source": "தினமலர்",
-   "published": "2026-11-27T23:46:37+05:30",
-   "category": "நீதிமன்றம்",
-   "score": 9.26,
-   "power_cut": false,
-   "listed_at": "2026-11-28T00:31:35.130581+05:30",
-   "picked_at": "2026-11-28T06:29:34.447329+05:30",
-   "posted": true
   },
   "Cf7fe46a": {
    "id": "Cf7fe46a",
@@ -70,20 +56,6 @@
    "picked_at": "2026-11-28T04:32:53.331485+05:30",
    "refused": "not filed: duplicate after write"
   },
-  "Cc8db3b2": {
-   "id": "Cc8db3b2",
-   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/air-transport-safety-awareness-week-in-trichy",
-   "title": "திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம்",
-   "summary": "திருச்சி பன்னாட்டு விமான நிலையத்தில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம் கடைப்பிடிக்கப்பட்டது..இந்திய விமானப் போக்குவரத்து ஆணையம் சாா்பில் அனைத்து விமான நிலையங்களிலும் நவம்பா் 23 முதல் 27 வரை வான் போக்குவ...",
-   "source": "தினமணி",
-   "published": "2026-11-27T21:20:36.920Z",
-   "category": "பொது",
-   "score": 9.0,
-   "power_cut": false,
-   "listed_at": "2026-11-28T04:27:00.614004+05:30",
-   "picked_at": "2026-11-28T06:29:34.447331+05:30",
-   "posted": true
-  },
   "Cc621bc4": {
    "id": "Cc621bc4",
    "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-dindigul/change-needed-trichy-dindigul-train-departure-time-passengers-hit-by-heavy-delays/4388168",
@@ -121,20 +93,6 @@
    "power_cut": false,
    "listed_at": "2026-11-28T04:27:00.614004+05:30"
   },
-  "C26b500d": {
-   "id": "C26b500d",
-   "url": "https://www.dinakaran.com/news/female_police_officer_marriage_family_caste_armed_forces",
-   "title": "பெண் காவலரை திருமணம் செய்வதாக ஒன்றாக குடும்பம் நடத்திவிட்டு ஜாதியை காரணம் காட்டி திருமணம் செய்ய மறுத்த ஆயுதப்படை போலீஸ்காரர் கைது - Dinakaran - Dinakaran",
-   "summary": "* ஆஜராக வந்தவரை நீதிமன்ற உத்தரவுப்படி எழும்பூர் மகளிர் போலீஸ் நடவடிக்கைசென்னை: பெண் காவலரை திருமணம் செய்வதாக ஒன்றாக குடும்பம் நடத்திவிட்டு, பிறகு ஜாதியை காரணம் காட்டி திருமணம் செய்ய மறுத்த திருச்சி ஆயுப்படை காவலர் ஒரு...",
-   "source": "தினகரன்",
-   "published": "2026-11-28T05:08:17+05:30",
-   "category": "குற்றம்",
-   "score": 12.28,
-   "power_cut": false,
-   "listed_at": "2026-11-28T06:27:01.751171+05:30",
-   "picked_at": "2026-11-28T06:29:34.447327+05:30",
-   "posted": true
-  },
   "Cf3b3c6e": {
    "id": "Cf3b3c6e",
    "url": "https://www.dinakaran.com/news/deputy_speaker_case_government_highcourt",
@@ -146,26 +104,58 @@
    "score": 3.0,
    "power_cut": false,
    "listed_at": "2026-11-28T06:27:01.751171+05:30"
+  },
+  "C65bbab9": {
+   "id": "C65bbab9",
+   "url": "https://www.dinakaran.com/district/trichy_281126_1",
+   "title": "பச்சைமலை அருவியில் வெள்ளப்பெருக்கு - Dinakaran",
+   "summary": "துறையூர், நவ.28: திருச்சி பச்சைமலை மங்களம் அருவியில் வெள்ளப்பெருக்கு ஏற்பட்டுள்ளதால் சுற்றுலா பயணிகள் குளிக்க தடை விதிக்கப்பட்டுள்ளது. திருச்சி மாவட்டம் துறையூர் அடுத்த உப்பிலியபுரம் ஒன்றியம் தென்புறநாடு ஊராட்சி பச்சை...",
+   "source": "தினகரன்",
+   "published": "2026-11-28T06:46:20+05:30",
+   "category": "மழை / வானிலை",
+   "score": 11.0,
+   "power_cut": false,
+   "listed_at": "2026-11-28T07:49:17.436184+05:30"
+  },
+  "C31f3096": {
+   "id": "C31f3096",
+   "url": "https://www.dinakaran.com/news/deputy_speaker_case_government_highcourt/amp",
+   "title": "துணை சபாநாயகர் தாக்கிய வழக்கில் அரசு பதிலளிக்க ஐகோர்ட் உத்தரவு",
+   "summary": "மதுரை: கோரிக்கை மனு அளிக்க வந்தவரை உருட்டுக்கட்டையால் தாக்கிய துணை சபாநாயகர் மீது நடவடிக்கை கோரிய வழக்கில் அரசு பதிலலிக்க ஐகோர்ட் உத்தரவிட்டுள்ளது.",
+   "source": "தினகரன்",
+   "published": "2026-11-28T04:50:35+05:30",
+   "category": "குற்றம்",
+   "score": 3.0,
+   "power_cut": false,
+   "late_listed": true,
+   "listed_at": "2026-11-28T07:49:17.436184+05:30"
+  },
+  "C2bace8e": {
+   "id": "C2bace8e",
+   "url": "https://www.dinakaran.com/district/trichy_281126_3",
+   "title": "வணிகர் சங்கங்கள் பேரமைப்பு மாநாடு ஆலோசனை கூட்டம் - Dinakaran",
+   "summary": "திருச்சி, நவ.28: தமிழ்நாடு வணிகர் சங்கங்களின் பேரவை திருச்சி மாவட்டம் சார்பில் 44வது வணிகர் தின மாநில மாநாடு தொடர்பான ஆலோசனைக் கூட்டம் திருச்சி பழைய பால்பண்ணையில் உள்ள தனியார் மண்டபத்தில் நடைபெற்றது.",
+   "source": "தினகரன்",
+   "published": "2026-11-28T06:46:54+05:30",
+   "category": "பொது",
+   "score": 3.0,
+   "power_cut": false,
+   "listed_at": "2026-11-28T07:49:17.436184+05:30"
+  },
+  "C7e0f496": {
+   "id": "C7e0f496",
+   "url": "https://www.dinamalar.com/news/tamil-nadu-district-news-namakkal/padayatra-to-samayapuram/4388274",
+   "title": "சமயபுரத்திற்கு பாத யாத்திரை",
+   "summary": "சேந்தமங்கலம்:சேந்தமங்கலத்தில் இருந்து, இரண்டு நாட்கள் நடைபயணமாக, 50க்கும் மேற்பட்ட பக்தர்கள் சமயபுரம் மாரியம்மனை தரிசிக்க, நேற்று மாலை, சேந்தமங்கலம் பெரிய மாரியம்மன் கோவிலில் இருந்து புறப்பட்டு சென்றனர்.",
+   "source": "தினமலர்",
+   "published": "2026-11-28T07:16:00+05:30",
+   "category": "பொது",
+   "score": 3.0,
+   "power_cut": false,
+   "listed_at": "2026-11-28T07:49:17.436184+05:30"
   }
  },
  "rounds": {
-  "2026-11-26_09": {
-   "window": [
-    "2026-11-26T08:30:46.750855+05:30",
-    "2026-11-26T09:45:17.427344+05:30"
-   ],
-   "ids": [
-    "C936cfee"
-   ],
-   "sent": false,
-   "deadline": "2026-11-26T10:45:17.427344+05:30",
-   "decided": {
-    "how": "automatic: top 6 of 0 by insights",
-    "ids": [],
-    "at": "2026-11-26T09:46:34.970582+05:30"
-   },
-   "written": []
-  },
   "2026-11-26_12": {
    "window": [
     "2026-11-26T09:45:17.427344+05:30",
@@ -584,6 +574,27 @@
     "Cc8db3b2",
     "Ce3747df"
    ]
+  },
+  "2026-11-28_07": {
+   "window": [
+    "2026-11-28T06:27:01.751171+05:30",
+    "2026-11-28T07:49:17.436184+05:30"
+   ],
+   "ids": [
+    "C65bbab9",
+    "C31f3096",
+    "C2bace8e",
+    "C7e0f496",
+    "C1396c80",
+    "Cc621bc4",
+    "C208f4f7",
+    "Cf3b3c6e",
+    "C52cd645"
+   ],
+   "sent": false,
+   "deadline": "2026-11-28T08:49:17.436184+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {},
@@ -1426,6 +1437,81 @@
   "C3e1a177": "2026-11-28T06:27 not Trichy district",
   "Ca2cdc1e": "2026-11-28T06:27 not Trichy district",
   "Ce8214d1": "2026-11-28T06:27 not Trichy district",
-  "Cb60a0b1": "2026-11-28T06:27 not Trichy district"
+  "Cb60a0b1": "2026-11-28T06:27 not Trichy district",
+  "Gf9b43aef63": "2026-11-28T07:49 D",
+  "Gf0a1811997": "2026-11-28T07:49 D",
+  "Gbafde501f4": "2026-11-28T07:49 D",
+  "G32a1d28f36": "2026-11-28T07:49 D",
+  "G4636bd94f8": "2026-11-28T07:49 D",
+  "G8a8b47cd77": "2026-11-28T07:49 D",
+  "G4e16725f2c": "2026-11-28T07:49 D",
+  "Ge72baaf709": "2026-11-28T07:49 D",
+  "G56d67804ba": "2026-11-28T07:49 D",
+  "G1b5ef07db0": "2026-11-28T07:49 D",
+  "Gd12b4c8428": "2026-11-28T07:49 D",
+  "Gc16c04821d": "2026-11-28T07:49 D",
+  "G296eb27988": "2026-11-28T07:49 D",
+  "G88add4b2f1": "2026-11-28T07:49 D",
+  "G954ce2a763": "2026-11-28T07:49 D",
+  "Gbd07fd114b": "2026-11-28T07:49 D",
+  "Ge8a21677ba": "2026-11-28T07:49 D",
+  "G5fe24ad1e3": "2026-11-28T07:49 D",
+  "G0edeb72d24": "2026-11-28T07:49 D",
+  "G7a20c90f24": "2026-11-28T07:49 D",
+  "G6caf6fc396": "2026-11-28T07:49 D",
+  "G31baa666d1": "2026-11-28T07:49 D",
+  "Gca68420a8d": "2026-11-28T07:49 D",
+  "Gaa38206a04": "2026-11-28T07:49 D",
+  "Ge261f858e5": "2026-11-28T07:49 D",
+  "G436389c11a": "2026-11-28T07:49 D",
+  "G9e0602dab5": "2026-11-28T07:49 D",
+  "G6bc6735ce9": "2026-11-28T07:49 D",
+  "G0a3c4ea365": "2026-11-28T07:49 D",
+  "G129ab77715": "2026-11-28T07:49 D",
+  "G5286306092": "2026-11-28T07:49 D",
+  "G32ae174ff1": "2026-11-28T07:49 D",
+  "G407d078f7b": "2026-11-28T07:49 D",
+  "G1d7d7b5764": "2026-11-28T07:49 D",
+  "G57b6794ca5": "2026-11-28T07:49 D",
+  "Gb7eb2a3086": "2026-11-28T07:49 D",
+  "Geaea32e780": "2026-11-28T07:49 D",
+  "Gcdb5780bf5": "2026-11-28T07:49 D",
+  "G7d4c057d64": "2026-11-28T07:49 D",
+  "Gca0f6014e2": "2026-11-28T07:49 D",
+  "Gf8d9a7159b": "2026-11-28T07:49 D",
+  "C8e68147": "2026-11-28T07:49 already posted",
+  "Ca2fd1c4": "2026-11-28T07:49 not Trichy district",
+  "C9f13a69": "2026-11-28T07:49 already posted",
+  "Cce99a4e": "2026-11-28T07:49 already posted",
+  "Cf10542d": "2026-11-28T07:49 not Trichy district",
+  "C0cebea0": "2026-11-28T07:49 not Trichy district",
+  "C6f47f72": "2026-11-28T07:49 not Trichy district",
+  "C6c74eb7": "2026-11-28T07:49 not Trichy district",
+  "C513340a": "2026-11-28T07:49 not Trichy district",
+  "Ce1475c4": "2026-11-28T07:49 not Trichy district",
+  "C943ca7f": "2026-11-28T07:49 not Trichy district",
+  "C79b71fa": "2026-11-28T07:49 not Trichy district",
+  "Cac6fea5": "2026-11-28T07:49 not Trichy district",
+  "C4d5d92e": "2026-11-28T07:49 not Trichy district",
+  "Ce31d9ea": "2026-11-28T07:49 not Trichy district",
+  "C492ddf7": "2026-11-28T07:49 not Trichy district",
+  "C95f260b": "2026-11-28T07:49 not Trichy district",
+  "C7cbdb88": "2026-11-28T07:49 not Trichy district",
+  "C6bd1df7": "2026-11-28T07:49 not Trichy district",
+  "C4db006f": "2026-11-28T07:49 not Trichy district",
+  "C5726da6": "2026-11-28T07:49 not Trichy district",
+  "Cef5efec": "2026-11-28T07:49 not Trichy district",
+  "Cd3ba65f": "2026-11-28T07:49 not Trichy district",
+  "C24d2d94": "2026-11-28T07:49 not Trichy district",
+  "C84ce0ae": "2026-11-28T07:49 not Trichy district",
+  "Ce1d1b84": "2026-11-28T07:49 not Trichy district",
+  "C10d431b": "2026-11-28T07:49 not Trichy district",
+  "Cfc5688b": "2026-11-28T07:49 not Trichy district",
+  "C8848b56": "2026-11-28T07:49 not Trichy district",
+  "C1948aa4": "2026-11-28T07:49 not Trichy district",
+  "C1fc504a": "2026-11-28T07:49 not Trichy district",
+  "C132db56": "2026-11-28T07:49 not Trichy district",
+  "C8afe2e1": "2026-11-28T07:49 not Trichy district",
+  "C5b31501": "2026-11-28T07:49 not Trichy district"
  }
 }

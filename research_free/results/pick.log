@@ -1,120 +1,54 @@
-06:27:01 round 2026-11-28_06: news published 28 Nov 04:27 -> 28 Nov 06:27 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
-06:27:01    + news published since 27 Nov 06:27 that no earlier round found (listed / indexed late) - never one already listed or posted
-06:27:01 insights 2026-11-28T06:27+05:30 (182 reels): topic weights {'accident': 1.13, 'crime': 1.28, 'power_cut': 0.93, 'civic': 0.26, 'education': -0.14, 'politics': -0.29, 'weather': -0.5, 'temple': -0.44, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '💼 அயிலாப்பேட்டை மாதேஸ்வரன்: வேலையை விட்டு வீட்டிலிருந்தே மாதம் ரூ.3 லட்சம் டர்ன்']
-06:28:30 open search 'திருச்சி' (from_google): 16 links from our outlets
-06:28:30 town searches (மணப்பாறை, ஸ்ரீரங்கம், லால்குடி, முசிறி, துறையூர் (+Google), திருவெறும்பூர் (+Google), மண்ணச்சநல்லூர்): 12 links from our outlets
-06:28:30 search links: 33 Google links decoded, 0 not decoded, 131 known from an earlier round, 0 left for the next round, 8 of another district by their headline (not opened)
-06:28:30 101 links on the two papers' Trichy pages
-06:29:31 skipped: not Trichy district=30, already posted=21, published before this window=21, checked in an earlier round=10, same event already posted=7, only a headline=2
-06:29:31    drop [already posted] பறிமுதல் செய்து ஓட்டி சென்ற வேன் கவிழ்ந்து போலீஸ்காரர் காயம் | dinamalar.com/news/tamil-nad...ceman-injured-as-van-overturns/4388104
-06:29:31    drop [not Trichy district] பேருந்துகள் மோதல்; 20 போ் காயம் | dinamani.com/all-editions/ed...Nov/27/buses-collide-20-people-injured
-06:29:31    drop [not Trichy district] ஜல்லிக் கற்கள் பெயர்ந்த சாலை விபத்தில் சிக்கும் வாகன ஓட்டிகள | dinamalar.com/news/tamil-nad...ed-in-jallikattu-road-accident/4387786
-06:29:31    drop [not Trichy district] பயிர்க்கடன் தள்ளுபடி திட்ட காலத்தை ஒரு மாதம் நீட்டிக்கப்படும | dinamalar.com/news/tamil-nad...-scheme-be-extended-by-a-month/4387682
-06:29:31    drop [not Trichy district] கிணற்றில் விழுந்து முதியவா் உயிரிழப்பு | dinamani.com/tenkasi/2026/No...%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81-4
-06:29:31    drop [not Trichy district] சொல்லிட்டாங்க... - Dinakaran - Dinakaran | dinakaran.com/news/mkstalin_edappadipalaniswami-6
-06:29:31    drop [not Trichy district] ஆஸ்திரேலியாவுடன் 3வது டி20 எளிதில் வென்றது இங்கிலாந்து: ஓவர் | dinakaran.com/news/australia_t20_england_overton_seat
-06:29:31    drop [not Trichy district] சில்லி பாயின்ட்… - Dinakaran - Dinakaran | dinakaran.com/news/chili_point-37
-06:29:31    drop [not Trichy district] கச்சா வாழைக்காய் மசாலா சிப்ஸ் | dinamalar.com/news/tamil-nad...mbatore/raw-banana-spice-chips/4388200
-06:29:31    drop [not Trichy district] 385 பேருக்கு முதல்வா் காவல் பதக்கம்: காவல் ஆணையா் அமல்ராஜ் வ | dinamani.com/all-editions/ed...esented-by-police-commissioner-amalraj
-06:29:31    drop [not Trichy district] கர்ப்பிணி பெண்களுக்கு சமுதாய வளைகாப்பு | dinakaran.com/district/kanchipuram-281126-2/amp
-06:29:31    drop [not Trichy district] இன்று மின்தடை | dinakaran.com/district/dindigul-281126-3/amp
-06:29:31    drop [not Trichy district] வரி கட்டாத திருமண மண்டபங்களுக்கு சீல் | dinakaran.com/district/dindigul-281126-1/amp
-06:29:31    drop [not Trichy district] வீணை இசை கச்சேரி | dinamalar.com/news/tamil-nad...ict-news-chennai/veena-concert/4387988
-06:29:31    drop [not Trichy district] தீபத்தூணில் தீபம் ஏற்ற அறநிலையத்துறை ஏற்பாடு செய்யவில்லை | dinamalar.com/news/tamil-nad...o-light-the-diyas-at-deepathun/4388170
-06:29:31    drop [not Trichy district] சொத்து வரி விதிக்க ரூ.2500 லஞ்சம் ஊராட்சி செயலர், பெண் நூலகர | dinamalar.com/news/tamil-nad...etary-woman-librarian-arrested/4388064
-06:29:31    drop [not Trichy district] Delimitation Bill: எந்தெந்த மாநிலங்களுக்கு எவ்வளவு தொகுதிகள | tamil.oneindia.com/news/delh...nd-union-union-territories-848841.html
-06:29:31    drop [not Trichy district] மகரம் - இன்றைய ராசி பலன் (28.11.2026) | dinamani.com/astrology/daily...ons/2026/Nov/27/daily-predictions-4137
-06:29:31    drop [not Trichy district] கன்னி - இன்றைய ராசி பலன் (28.11.2026) | dinamani.com/astrology/daily...ons/2026/Nov/27/daily-predictions-4133
-06:29:31    drop [not Trichy district] பாக்கெட் நாவல் படத்தின் ஸ்டில்ஸ் | dinamani.com/galleries/photo...v/27/stills-from-the-film-pocket-novel
-06:29:31    drop [not Trichy district] அரிகொம்பன் இசை மற்றும் டிரைலர் வெளியீட்டு விழா - புகைப்படங்க | dinamani.com/galleries/photo...mban-music-and-trailer-launch-ceremony
-06:29:31    drop [not Trichy district] இன்று திமுக எம்.பி.க்கள் ஆலோசனைக் கூட்டம் | dinamani.com/tamilnadu/2026/.../consultative-meeting-of-dmk-mps-today
-06:29:31    drop [not Trichy district] பள்ளி மாணவிகளுக்கு பாலியல் தொல்லை: ஆசிரியா் கைது | dinamani.com/all-editions/ed...ssment-of-schoolgirls-teacher-arrested
-06:29:31    drop [not Trichy district] கிரிப்டோ கரன்சி முதலீடு எனக் கூறி தனியாா் நிறுவன மேலாளரிடம்  | dinamani.com/all-editions/ed...e-pretext-of-cryptocurrency-investment
-06:29:31    drop [not Trichy district] இருவேறு விபத்துகளில் இளைஞா் உள்பட 2 போ் உயிரிழப்பு | dinamani.com/all-editions/ed...g-man-killed-in-two-separate-accidents
-06:29:31    drop [not Trichy district] புனிதா்களின் திருப்பண்டங்கள் காட்சிக்கு வைப்பு | dinamani.com/all-editions/ed.../27/exhibition-of-relics-of-the-saints
-06:29:31    drop [not Trichy district] விலையில்லா கறவை மாடுகள் வழங்கும் திட்டத்துக்கு விண்ணப்பிக்கல | dinamani.com/all-editions/ed...r-the-scheme-providing-free-milch-cows
-06:29:31    drop [not Trichy district] பயணிகளின் உடமைகளில் கத்தி: விமானநிலையத்தில் சோதனையின்போது பற | dinamani.com/all-editions/ed...gsconfiscated-during-airport-screening
-06:29:32 list: 2 new + 6 earlier news not posted yet
-06:29:32    1. [குற்றம்] பெண் காவலரை திருமணம் செய்வதாக ஒன்றாக குடும்பம் நடத்திவிட்டு ஜாதியை கார (தினகரன்)
-06:29:32    2. [குற்றம்] துணை சபாநாயகர் தாக்கிய வழக்கில் அரசு பதிலளிக்க ஐகோர்ட் உத்தரவு - Dinak (தினகரன்)
-06:29:32    3. [மழை / வானிலை] தம்மம்பட்டி - திருச்சி நெடுஞ்சாலையில் தேங்கும் மழைநீரால் விபத்து அபாயம (தினமணி) (earlier)
-06:29:32    4. [நீதிமன்றம்] விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ்களை ஏலம்  (தினமலர்) (earlier)
-06:29:32    5. [பொது] திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம் (தினமணி) (earlier)
-06:29:32    6. [ரயில்] மாற்றம் தேவை! திருச்சி – திண்டுக்கல் ரயில் புறப்படும் நேரத்தில்: அதிக  (தினமலர்) (earlier)
-06:29:32    7. [பொது] ஊரக மகளிருக்கு கறவை மாடுகள் விண்ணப்பிக்க அழைப்பு (தினமணி) (earlier)
-06:29:32    8. [பொது] திருச்சியை வறட்சிப் பாதித்த மாவட்டமாக அறிவிக்க வேண்டும்: குறைதீா் கூட் (தினமணி) (earlier)
-06:29:32 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
-ROUND=2026-11-28_06
-06:29:34 round 2026-11-28_06 (at least 3, up to 3 more of well-watched topics): 8 news to choose from (6 from earlier rounds), ranked by this page's insights
-06:29:34   PICK   1.  16.1 [crime +1.28 page] பெண் காவலரை திருமணம் செய்வதாக ஒன்றாக குடும்பம் நடத்திவிட்டு 
-06:29:34   PICK   2.   9.5 [civic +0.26 page] (earlier) விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
-06:29:34   PICK   3.   9.0 [other +0.00 pattern] (earlier) திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-06:29:34          4.   8.5 [weather -0.50 page] (earlier) தம்மம்பட்டி - திருச்சி நெடுஞ்சாலையில் தேங்கும் மழைநீரால் விப
-06:29:34          5.   6.5 [civic +0.26 page] (earlier) மாற்றம் தேவை! திருச்சி – திண்டுக்கல் ரயில் புறப்படும் நேரத்த
-06:29:34          6.   6.0 [other +0.00 pattern] (earlier) ஊரக மகளிருக்கு கறவை மாடுகள் விண்ணப்பிக்க அழைப்பு
-06:29:34          7.   3.0 [other +0.00 pattern] துணை சபாநாயகர் தாக்கிய வழக்கில் அரசு பதிலளிக்க ஐகோர்ட் உத்தர
-06:29:34          8.   1.0 [poultry_agri -0.50 page] (earlier) திருச்சியை வறட்சிப் பாதித்த மாவட்டமாக அறிவிக்க வேண்டும்: குற
-06:29:34 decided: automatic: top 3 of 8 by insights -> 3 news to write and post
-PICK_URLS=https://www.dinakaran.com/news/female_police_officer_marriage_family_caste_armed_forces https://www.dinamalar.com/news/tamil-nadu-news/court-directs-govt-to-auction-ac-buses-to-compensate-accident-victim/4388100 https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/air-transport-safety-awareness-week-in-trichy
-06:31:53 3 listed news now in the Sheet
-06:32:03 instagram duplicate check trichy: 50 recent posts read
-06:32:03 verify 2026-11-28_06: 0 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-06:32:03    NOT POSTED C26b500d: queued RN-192 (Queued) - பெண் காவலரை திருமணம் செய்வதாக ஒன்றாக குடும்பம் நடத்திவிட்டு 
-06:32:03    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-06:32:03    NOT POSTED Ce3747df: queued RN-193 (Queued) - விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
-06:37:08 instagram duplicate check trichy: 50 recent posts read
-06:37:08 verify 2026-11-28_06: 0 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-06:37:08    NOT POSTED C26b500d: queued RN-192 (Queued) - பெண் காவலரை திருமணம் செய்வதாக ஒன்றாக குடும்பம் நடத்திவிட்டு 
-06:37:08    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-06:37:08    NOT POSTED Ce3747df: queued RN-193 (Queued) - விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
-06:42:15 instagram duplicate check trichy: 50 recent posts read
-06:42:15 verify 2026-11-28_06: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-06:42:15    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-06:42:15    NOT POSTED Ce3747df: queued RN-193 (Queued) - விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
-06:47:22 instagram duplicate check trichy: 50 recent posts read
-06:47:22 verify 2026-11-28_06: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-06:47:22    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-06:47:22    NOT POSTED Ce3747df: queued RN-193 (Queued) - விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
-06:52:30 instagram duplicate check trichy: 50 recent posts read
-06:52:30 verify 2026-11-28_06: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-06:52:30    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-06:52:30    NOT POSTED Ce3747df: queued RN-193 (Queued) - விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
-06:57:37 instagram duplicate check trichy: 50 recent posts read
-06:57:37 verify 2026-11-28_06: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-06:57:37    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-06:57:37    NOT POSTED Ce3747df: queued RN-193 (Queued) - விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
-07:02:44 instagram duplicate check trichy: 50 recent posts read
-07:02:44 verify 2026-11-28_06: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-07:02:44    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-07:02:44    NOT POSTED Ce3747df: queued RN-193 (Queued) - விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
-07:07:50 instagram duplicate check trichy: 50 recent posts read
-07:07:51 verify 2026-11-28_06: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-07:07:51    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-07:07:51    NOT POSTED Ce3747df: queued RN-193 (Queued) - விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
-07:12:56 instagram duplicate check trichy: 50 recent posts read
-07:12:56 verify 2026-11-28_06: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-07:12:56    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-07:12:56    NOT POSTED Ce3747df: queued RN-193 (Queued) - விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
-07:18:02 instagram duplicate check trichy: 50 recent posts read
-07:18:02 verify 2026-11-28_06: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-07:18:02    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-07:18:02    NOT POSTED Ce3747df: queued RN-193 (Queued) - விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
-07:23:10 instagram duplicate check trichy: 50 recent posts read
-07:23:10 verify 2026-11-28_06: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-07:23:10    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-07:23:10    NOT POSTED Ce3747df: queued RN-193 (Queued) - விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
-07:28:16 instagram duplicate check trichy: 50 recent posts read
-07:28:16 verify 2026-11-28_06: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-07:28:16    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-07:28:16    NOT POSTED Ce3747df: queued RN-193 (Queued) - விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
-07:33:22 instagram duplicate check trichy: 50 recent posts read
-07:33:22 verify 2026-11-28_06: 1 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-07:33:22    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-07:33:22    NOT POSTED Ce3747df: queued RN-193 (Queued) - விபத்தில் பாதிக்கப்பட்டவருக்கு இழப்பீடு வழங்க அரசு, ‘ஏசி’ பஸ
-07:38:29 instagram duplicate check trichy: 50 recent posts read
-07:38:29 verify 2026-11-28_06: 2 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-07:38:29    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-07:43:36 instagram duplicate check trichy: 50 recent posts read
-07:43:36 verify 2026-11-28_06: 2 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
-07:43:36    NOT POSTED Cc8db3b2: queued RN-194 (Queued) - திருச்சியில் வான் போக்குவரத்து பாதுகாப்பு விழிப்புணா்வு வாரம
-07:48:41 verify 2026-11-28_06: 3 of 3 picked news posted, 0 skipped on purpose, 0 waiting for their posting start
+07:49:17 round 2026-11-28_07: news published 28 Nov 06:27 -> 28 Nov 07:49 (ஒன்இந்தியா, தினமலர், தினமணி, தினகரன், தினத்தந்தி, மாலைமலர், இந்து தமிழ், பாலிமர், விகடன், ஏபிபி நாடு, நியூஸ்18 தமிழ், இந்தியன் எக்ஸ்பிரஸ் தமிழ், புதிய தலைமுறை, தந்தி டிவி, சமயம் தமிழ் - Trichy)
+07:49:17    + news published since 27 Nov 07:49 that no earlier round found (listed / indexed late) - never one already listed or posted
+07:49:17 insights 2026-11-28T07:49+05:30 (189 reels): topic weights {'accident': 0.78, 'crime': 1.34, 'power_cut': 0.87, 'civic': 0.21, 'education': -0.18, 'politics': -0.32, 'weather': -0.5, 'temple': -0.47, 'poultry_agri': -0.5}; best openings ['🚨 திருச்சி அருகே போதாவூரில் விவசாயி வெட்டிக் கொலை', '💼 அயிலாப்பேட்டை மாதேஸ்வரன்: வேலையை விட்டு வீட்டிலிருந்தே மாதம் ரூ.3 லட்சம் டர்ன்']
+07:50:53 open search 'திருச்சி' (from_google): 17 links from our outlets
+07:50:53 town searches (மணப்பாறை, ஸ்ரீரங்கம், லால்குடி, முசிறி, துறையூர் (+Google), திருவெறும்பூர் (+Google), மண்ணச்சநல்லூர்): 13 links from our outlets
+07:50:53 search links: 35 Google links decoded, 0 not decoded, 121 known from an earlier round, 0 left for the next round, 7 of another district by their headline (not opened)
+07:50:53 108 links on the two papers' Trichy pages
+07:52:25 skipped: not Trichy district=34, already posted=22, published before this window=20, checked in an earlier round=14, same event already posted=7, only a headline=2
+07:52:25    drop [already posted] வாகனத் தணிக்கையின்போது லோடு வேன் கவிழ்ந்து விபத்து | dinamani.com/all-editions/ed...an-overturns-during-vehicle-inspection
+07:52:25    drop [not Trichy district] திருப்பரங்குன்றம் விவகாரம் முதல்வர் விஜய் பதவி விலக வேண்டும் | dinakaran.com/district/trichy_281126_2
+07:52:25    drop [already posted] பொய்த் தகவல் அளித்து ஜாமீன் பெற்றவா் கைது | dinamani.com/all-editions/ed...y-providing-false-information-arrested
+07:52:25    drop [already posted] சமயபுரத்தில் விபத்து: சுற்றுலா வேனில் வந்த குழந்தை உயிரிழப்ப | dinamani.com/all-editions/ed...-in-tourist-van-dies-14-others-injured
+07:52:25    drop [not Trichy district] Today Panchangam மற்றும் முக்கிய நிகழ்வுகள்- 28 நவம்பர் 2026 | maalaimalar.com/spirituality...november-2026-sani-bhagavan-abhishekam
+07:52:25    drop [not Trichy district] ஆற்காட்டில் நுகா்வோா் குறைதீா் கூட்டம் | dinamani.com/all-editions/ed...r-grievance-redressal-meeting-in-arcot
+07:52:25    drop [not Trichy district] வெடிகுண்டு செயலிழப்பு ஒத்திகை | dinamalar.com/news/tamil-nad...news-salem/bomb-disposal-drill/4388260
+07:52:25    drop [not Trichy district] மழையின்றி கருகும் மானாவாரி கொள்ளு | dinamalar.com/news/tamil-nad...salem/take-a-rain-free-drizzle/4388255
+07:52:25    drop [not Trichy district] காகங்கள் நடமாட்டம் ஆய்வு | dinamalar.com/news/tamil-nad...salem/survey-of-crow-movements/4388254
+07:52:25    drop [not Trichy district] பெண்களுக்கு இலவசமாக மாடுகள் | dinamalar.com/news/tamil-nad...news-salem/free-cows-for-women/4388252
+07:52:25    drop [not Trichy district] அளவை கற்களை பிடுங்கியதால் மோதல் இரு தரப்பை சேர்ந்த நால்வர் க | dinamalar.com/news/tamil-nad...cking-of-scale-stones-arrested/4388222
+07:52:25    drop [not Trichy district] டிச., 5, 7ம் தேதிகளில் தாயுமானவர் திட்டத்தில் ரேஷன் பொருள் வ | dinamalar.com/news/tamil-nad...scheme-on-5th-and-7th-december/4388221
+07:52:25    drop [not Trichy district] நீர்வரத்து 2,878 கன அடியாக உயர்வு | dinamalar.com/news/tamil-nad...ter-level-rises-to-2878-cusecs/4388250
+07:52:25    drop [not Trichy district] மருத்துவமனையில் இருந்து சில்மிஷ வாலிபர் தப்பி ஓட்டம் | dinamalar.com/news/tamil-nad...teenager-escapes-from-hospital/4388245
+07:52:25    drop [not Trichy district] சபரிமலை சீசன் ஹைதராபாத் - கொல்லம் சிறப்பு ரயில்கள் அறிவிப்பு | dinamalar.com/news/tamil-nad...nnounced-for-sabarimala-season/4388238
+07:52:25    drop [not Trichy district] 18 கிலோ கஞ்சா கடத்திய தம்பதியர் உள்பட மூவர் கைது | dinamalar.com/news/tamil-nad...led-18-kg-of-cannabis-arrested/4388236
+07:52:25    drop [not Trichy district] பராமரிப்பின்றி ரயில்வே மேம்பாலம் அருகே புதர் மண்டிய ரவுண்டான | dinamalar.com/news/tamil-nad...e-near-shrub-mandya-roundabout/4384927
+07:52:25    drop [not Trichy district] ரூ.28 லட்சத்துக்கு ஏலம் போன தீர்த்தமலை சைக்கிள் ஸ்டாண்ட் | dinamalar.com/news/tamil-nad...stand-auctioned-for-rs-28-lakh/4388228
+07:52:25    drop [not Trichy district] பெண் சத்துணவு அமைப்பாளர் மாயம் | dinamalar.com/news/tamil-nad...us-meal-organizer-goes-missing/4388226
+07:52:25    drop [not Trichy district] தொல்லியல் துறை சார்பில் உலக மரபு வார விழா | dinamalar.com/news/tamil-nad...-the-department-of-archaeology/4388220
+07:52:25    drop [not Trichy district] மா மரங்களில் கம்மோசிஸ் நோய் தாக்குதல் கட்டுப்படுத்துவது குறி | dinamalar.com/news/tamil-nad...rol-of-gammosis-in-mango-trees/4388216
+07:52:25    drop [not Trichy district] எம்.சாண்ட் கடத்திய லாரி பறிமுதல் | dinamalar.com/news/tamil-nad...hnagiri/truck-carrying--seized/4388218
+07:52:25    drop [not Trichy district] ஹோட்டல் சுவையில் வீட்டிலேயே செய்யலாம் செஸ்வான் நூடுல்ஸ்! | dinamalar.com/news/bengaluru...home-to-the-taste-of-the-hotel/4387813
+07:52:25    drop [not Trichy district] வீட்டிலிருந்து சென்றவர் மாயம் | dinamalar.com/news/tamil-nad...iri/man-goes-missing-from-home/4388215
+07:52:25    drop [not Trichy district] அருப்புக்கோட்டையில் மிதமான மழை | dinamani.com/virudhunagar/20...E%E0%AE%A9-%E0%AE%AE%E0%AE%B4%E0%AF%88
+07:52:25    drop [not Trichy district] திருவாடானை அரசு மருத்துவமனையில் குடிநீா் சுத்திகரிப்பு நிலைய | dinamani.com/all-editions/ed...t-the-thiruvadanai-government-hospital
+07:52:25    drop [not Trichy district] அமெரிக்காவை புரட்டி போட்டது ‘நார்ஈஸ்டர்’ புயல் | dinamalar.com/news/world-tam...-landfall-in-the-united-states/4387954
+07:52:25    drop [not Trichy district] தேவலோகத்திலிருந்து வந்த அமைச்சர்கள் எம்.எல்.ஏ., சோமசேகர் கடு | dinamalar.com/news/bengaluru...inister-from-devlog-is-furious/4387817
+07:52:25    drop [not Trichy district] பேராசிரியரிடம் நூதன முறையில் கொள்ளை | dinamalar.com/news/tamil-nad...ws-virudhunagar/teacher-robbed/4388126
+07:52:25    drop [not Trichy district] திருப்புத்தூர் சர்ச் விழா கொடியேற்றத்துடன் துவக்கம் | dinamalar.com/news/tamil-nad...ival-begins-with-flag-hoisting/4388112
+07:52:25    drop [not Trichy district] மூன் வாக் டிரைலர்! | dinamani.com/videos/video-ci...B0%E0%AF%88%E0%AE%B2%E0%AE%B0%E0%AF%8D
+07:52:25    drop [not Trichy district] இருளில் மூழ்கி கிடக்கும் ரயில் நிலைய சாலை | dinamalar.com/news/tamil-nad...ilway-station-road-in-darkness/4387997
+07:52:25    drop [not Trichy district] பிராந்தியங்களின் சங்கமம் | dinamani.com/editorial-artic...cles/2026/Nov/28/confluence-of-regions
+07:52:25    drop [not Trichy district] பணகுடி பேரூராட்சியில் ஆக்கிரமிப்புகள் அகற்றம் | dinamani.com/all-editions/ed...B1%E0%AF%8D%E0%AE%B1%E0%AE%AE%E0%AF%8D
+07:52:26 list: 4 new + 5 earlier news not posted yet
+07:52:26    1. [மழை / வானிலை] பச்சைமலை அருவியில் வெள்ளப்பெருக்கு - Dinakaran (தினகரன்)
+07:52:26    2. [குற்றம்] துணை சபாநாயகர் தாக்கிய வழக்கில் அரசு பதிலளிக்க ஐகோர்ட் உத்தரவு (தினகரன்) (published 28 Nov 04:50, found only now)
+07:52:26    3. [பொது] வணிகர் சங்கங்கள் பேரமைப்பு மாநாடு ஆலோசனை கூட்டம் - Dinakaran (தினகரன்)
+07:52:26    4. [பொது] சமயபுரத்திற்கு பாத யாத்திரை (தினமலர்)
+07:52:26    5. [மழை / வானிலை] தம்மம்பட்டி - திருச்சி நெடுஞ்சாலையில் தேங்கும் மழைநீரால் விபத்து அபாயம (தினமணி) (earlier)
+07:52:26    6. [ரயில்] மாற்றம் தேவை! திருச்சி – திண்டுக்கல் ரயில் புறப்படும் நேரத்தில்: அதிக  (தினமலர்) (earlier)
+07:52:26    7. [பொது] ஊரக மகளிருக்கு கறவை மாடுகள் விண்ணப்பிக்க அழைப்பு (தினமணி) (earlier)
+07:52:26    8. [குற்றம்] துணை சபாநாயகர் தாக்கிய வழக்கில் அரசு பதிலளிக்க ஐகோர்ட் உத்தரவு - Dinak (தினகரன்) (earlier)
+07:52:26    9. [பொது] திருச்சியை வறட்சிப் பாதித்த மாவட்டமாக அறிவிக்க வேண்டும்: குறைதீா் கூட் (தினமணி) (earlier)
+07:52:26 automatic pick (owner 2 Nov): no e-mail - the top 4 are written at once
+ROUND=2026-11-28_07
