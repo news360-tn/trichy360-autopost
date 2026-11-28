@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-28T12:27:15.577716+05:30",
+ "last_end": "2026-11-28T14:26:45.668967+05:30",
  "pool": {
   "C5d6c867": {
    "id": "C5d6c867",
@@ -30,33 +30,21 @@
    "picked_at": "2026-11-28T02:29:20.415351+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
   },
-  "C972569b": {
-   "id": "C972569b",
-   "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/power-outage-in-lalgudi-areastoday",
-   "title": "லால்குடி பகுதிகளில் இன்று மின்தடை",
-   "summary": "திருச்சி மாவட்டம், லால்குடி பகுதிகளில் சனிக்கிழமை மின்சாரம் இருக்காது..பராமரிப்பு பணியால் லால்குடி, ஏகே நகா், பரமசிவபுரம், சீனிவாசபுரம், வரதராஜ் நகா், பச்சன்னபுரம், உமா்நகா், பாரதிநகா், வஉசி நகா், காமராஜ் நகா், பாலாஜி...",
-   "source": "தினமணி",
-   "published": "2026-11-27T21:20:04.629Z",
-   "category": "மின்தடை",
-   "score": 12.94,
-   "power_cut": true,
-   "listed_at": "2026-11-28T04:27:00.614004+05:30",
-   "picked_at": "2026-11-28T04:32:53.331485+05:30",
-   "refused": "not filed: duplicate after write"
+  "C52d2339": {
+   "id": "C52d2339",
+   "url": "https://www.dinakaran.com/news/thiruparankundram-deepa-lamp-light-issue-supreme-court-verdict-trichy-ekatuthva-muslim-jamaat-road-blockade",
+   "title": "திருப்பரங்குன்றம் தீப விவகாரம்: உச்ச நீதிமன்ற தீர்ப்பை கண்டித்து திருச்சியில் ஏகத்துவ முஸ்லிம் ஜமாத் சாலை மறியல் - Dinakaran - Dinakaran",
+   "summary": "திருப்பரங்குன்றம் தீபம் ஏற்றுவது தொடர்பாக உச்சநீதிமன்றம் பிறப்பித்த தீர்ப்பை கண்டித்து ஏகத்துவ முஸ்லிம் ஜமாத் அமைப்பு சார்பில் திருச்சி பழைய பால்பண்ணை அருகே திருச்சி - சென்னை தேசிய நெடுஞ்சாலையில் சாலை மறியல் போராட்டத்...",
+   "source": "தினகரன்",
+   "published": "2026-11-28T12:17:34+05:30",
+   "category": "சாலை",
+   "score": 9.23,
+   "power_cut": false,
+   "late_listed": true,
+   "listed_at": "2026-11-28T14:26:45.668967+05:30"
   }
  },
  "rounds": {
-  "2026-11-26_22": {
-   "window": [
-    "2026-11-26T22:30:14.347197+05:30",
-    "2026-11-26T22:45:23.906806+05:30"
-   ],
-   "ids": [],
-   "sent": false,
-   "deadline": "2026-11-26T23:45:23.906806+05:30",
-   "decided": null,
-   "written": []
-  },
   "2026-11-27_01": {
    "window": [
     "2026-11-26T22:45:23.906806+05:30",
@@ -496,6 +484,19 @@
    "deadline": "2026-11-28T13:27:15.577716+05:30",
    "decided": null,
    "written": []
+  },
+  "2026-11-28_14": {
+   "window": [
+    "2026-11-28T12:27:15.577716+05:30",
+    "2026-11-28T14:26:45.668967+05:30"
+   ],
+   "ids": [
+    "C52d2339"
+   ],
+   "sent": false,
+   "deadline": "2026-11-28T15:26:45.668967+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {},
@@ -669,7 +670,7 @@
   "Caf91ed8": "2026-11-27T12:29 already posted",
   "C847f5c3": "2026-11-27T12:29 published before this window",
   "C4cc55c1": "2026-11-27T12:29 published before this window",
-  "C877c296": "2026-11-27T12:29 already posted",
+  "C877c296": "2026-11-27T12:29 published before this window",
   "Ce0fb5ca": "2026-11-27T12:29 published before this window",
   "C3d37369": "2026-11-27T12:29 published before this window",
   "C20e2979": "2026-11-27T12:29 not Trichy district",
@@ -1606,6 +1607,71 @@
   "C30fce20": "2026-11-28T12:27 not Trichy district",
   "C5b857f3": "2026-11-28T12:27 not Trichy district",
   "C1c3f89d": "2026-11-28T12:27 not Trichy district",
-  "Cb8ce97f": "2026-11-28T12:27 not Trichy district"
+  "Cb8ce97f": "2026-11-28T12:27 not Trichy district",
+  "G229887e655": "2026-11-28T14:26 D",
+  "G16bc7e4131": "2026-11-28T14:26 D",
+  "G86c470ada0": "2026-11-28T14:26 D",
+  "Gfce4475151": "2026-11-28T14:26 D",
+  "G3c8172bc5f": "2026-11-28T14:26 D",
+  "G2fc5783c5b": "2026-11-28T14:26 D",
+  "G9956ce142a": "2026-11-28T14:26 D",
+  "G3625472902": "2026-11-28T14:26 D",
+  "G2295538137": "2026-11-28T14:26 D",
+  "Ga0c124463d": "2026-11-28T14:26 D",
+  "G2b9334d189": "2026-11-28T14:26 D",
+  "Gdd17a951c6": "2026-11-28T14:26 D",
+  "Ga758bfa5ae": "2026-11-28T14:26 D",
+  "G02275d4b1e": "2026-11-28T14:26 D",
+  "G22766b45ab": "2026-11-28T14:26 D",
+  "Gf2490f0726": "2026-11-28T14:26 D",
+  "Gbcd609c41f": "2026-11-28T14:26 D",
+  "G1cc4d63674": "2026-11-28T14:26 D",
+  "G1d46d15d12": "2026-11-28T14:26 D",
+  "Gc4b10bbea4": "2026-11-28T14:26 D",
+  "G8269baed2c": "2026-11-28T14:26 D",
+  "Gb366297f72": "2026-11-28T14:26 D",
+  "Gf1077a5295": "2026-11-28T14:26 D",
+  "G39c88b4838": "2026-11-28T14:26 D",
+  "Gadf3aef209": "2026-11-28T14:26 D",
+  "G6cbfd6a01d": "2026-11-28T14:26 D",
+  "Ga83e8d36c6": "2026-11-28T14:26 D",
+  "G0f6c314805": "2026-11-28T14:26 D",
+  "Gc7c93a5aae": "2026-11-28T14:26 D",
+  "G825548fa22": "2026-11-28T14:26 D",
+  "G0c07d233a0": "2026-11-28T14:26 D",
+  "G5895b8bd8e": "2026-11-28T14:26 D",
+  "G89d2255a0f": "2026-11-28T14:26 D",
+  "Gb94c2f032b": "2026-11-28T14:26 D",
+  "G9ded3a695f": "2026-11-28T14:26 D",
+  "Gcbeff9f749": "2026-11-28T14:26 D",
+  "Gbd43f158f5": "2026-11-28T14:26 D",
+  "G53413e8c93": "2026-11-28T14:26 D",
+  "Gb9460b00f6": "2026-11-28T14:26 D",
+  "G48fef325dd": "2026-11-28T14:26 D",
+  "G17cbc7baef": "2026-11-28T14:26 D",
+  "Ga150049f24": "2026-11-28T14:26 D",
+  "G34b1b04ca8": "2026-11-28T14:26 D",
+  "Ge8945d0b7b": "2026-11-28T14:26 D",
+  "Gd4ef56f74a": "2026-11-28T14:26 D",
+  "G519aec8d1a": "2026-11-28T14:26 D",
+  "C52cd645": "2026-11-28T14:26 already posted",
+  "C2bace8e": "2026-11-28T14:26 already posted",
+  "C428e95c": "2026-11-28T14:26 not Trichy district",
+  "Ca05e748": "2026-11-28T14:26 not Trichy district",
+  "C355ae2b": "2026-11-28T14:26 not Trichy district",
+  "C090588d": "2026-11-28T14:26 not Trichy district",
+  "C55b0a64": "2026-11-28T14:26 not Trichy district",
+  "C9fe822b": "2026-11-28T14:26 not Trichy district",
+  "C7641b96": "2026-11-28T14:26 not Trichy district",
+  "Cf248dda": "2026-11-28T14:26 not Trichy district",
+  "C3a8f655": "2026-11-28T14:26 not Trichy district",
+  "C20bbb66": "2026-11-28T14:26 not Trichy district",
+  "C0d01b0a": "2026-11-28T14:26 not Trichy district",
+  "C33678dc": "2026-11-28T14:26 not Trichy district",
+  "C1e109ff": "2026-11-28T14:26 same event already posted",
+  "Ce3fd16e": "2026-11-28T14:26 not Trichy district",
+  "Ce456d83": "2026-11-28T14:26 not Trichy district",
+  "C024f2f0": "2026-11-28T14:26 not Trichy district",
+  "C5aaa1da": "2026-11-28T14:26 not Trichy district"
  }
 }
