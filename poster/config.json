@@ -48,7 +48,7 @@
     "quiet_ist": []
   },
   "reel_punch": false,
-  "reel_max_seconds": 50,
+  "reel_max_seconds": 88,
   "power_cut": {
     "note": "owner 30 Oct: a power-cut reel reads EVERY area, so it may run to max_seconds (88 = 2 s under verify.py's 90 s check) with up to script_max_words; all other reels keep reel_max_seconds / reach.script_max_words. {} = normal limits",
     "max_seconds": 88,
@@ -61,7 +61,7 @@
   "reel_punch_note": "owner 27 Oct (change 1): every reel opens with a spoken punch line (yellow number + headline) while the big headline is on screen",
   "reach": {
     "note": "owner 29 Oct (views plan): each switch can be turned off here without code changes",
-    "script_max_words": 75,
+    "script_max_words": 160,
     "caption_full_details": true,
     "english_search_line": true,
     "hashtag_pattern": true,
@@ -128,7 +128,7 @@
   "free_images": {
     "note": "owner 13 Nov (new pages): 2 pictures per reel - the news article's own photos first (vision-checked: this news, a real photo, not a file photo); one usable photo -> the second picture is a closer crop of it; none -> 2 AI pictures from the free services (FAL only when all fail)",
     "cloudflare_for_writing": false,
-    "pictures_per_reel": 3,
+    "pictures_per_reel": 2,
     "views_test_note": "owner 26 Nov (Trichy views test): 3 pictures per reel (was 2) - more visual change in a short reel; a missing third picture becomes a closer crop"
   },
   "writers": {
@@ -190,7 +190,7 @@
   "ig_block_pause_note": "owner 21 Nov: when Instagram says 'action is blocked' (2207051), the page's posting waits this many hours instead of trying every few minutes (that makes the block longer); its news is posted afterwards",
   "story_reserve_note": "owner 21 Nov: stories stop when 30 of Instagram's 50 posts a day are used - the last 20 are kept for NEWS (with a story for every news, stories filled the limit and Coimbatore's news waited at 48/50). A story that has to wait is posted later by the story catch-up.",
   "views_test": {
-    "enabled": true,
+    "enabled": false,
     "start_ist": "2026-11-27",
     "note": "owner 26 Nov: Trichy-only views test, posting count unchanged. (1) short reels: 35-75 words, at most 50 s (power cuts keep every area, up to 88 s); longer scripts already in the queue are shortened before the reel is made and the dropped sentences stay in the caption; (2) two voices A/B (reel_voice.ab_voices); (3) a Share line in the caption; (4) a shorter keyword line (place + topic first); (5) the spoken English end line asks viewers to share (reel_voice.outro_text); (6) insights also read skip rate and reposts and keep the voice / length of every reel. tools/views_test.py compares before and after. to go back to the old long reels: views_test.enabled false, reach.script_max_words 160, reel_max_seconds 88",
     "styles": [
@@ -235,6 +235,6 @@
   "post_error_wait_min": 10,
   "no_quick_retry": true,
   "post_error_note": "owner 26 Nov (Trichy): a posting error on Instagram, Facebook or YouTube is noted at once (job log + poster/posting_errors.json) and that post is NOT tried again in the same run - the next try is after post_error_wait_min (10) minutes (Instagram's retry plan 10,10,10,15,15 then Hold; Facebook and YouTube 10 minutes). no_quick_retry false = the old quick repeats inside a run",
-  "political_assets": true,
+  "political_assets": false,
   "political_assets_note": "owner 27 Nov evening: political news shows the real party flags / election symbols (small, bottom left) and the real photo of a leader the news names (card on the right while the leader is spoken about) - free Wikimedia Commons files only (reel/assets/political/manifest.json), credited on screen and in the caption; never an AI-made face or flag. false = off"
 }
