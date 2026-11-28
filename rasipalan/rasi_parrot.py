@@ -8,6 +8,7 @@ the first frame = the cover) and ends with the follow card. Our own music bed st
 make(p, ctx, outdir, log) -> mp4 path     p: town, name1, handle, logo     ctx: {"p": panchangam, "rasis": the 12 written rasis}
 Same frame-by-frame recording as rasi_reel.py (window.DUR, window.seek(t)), so it can replace that reel later without other changes."""
 import json
+import re
 import subprocess
 import sys
 import wave
@@ -146,21 +147,78 @@ def lines(p, P, rasis):
             t += " இன்று சந்திராஷ்டமம், கவனம் தேவை."
         say_r.append(t)
     end = f'தினமும் கிளி ஜோசியம் கேட்க, {p["name1"]} த்ரீ சிக்ஸ்டி பக்கத்தை ஃபாலோ பண்ணுங்க.'
-    return best, hook, say_r, end
+    parts = []      # owner 28 Nov: the parrot also reads today's good time and rahu kalam (the old reel's panchangam screen)
+    if P.get("nalla_morning"):
+        parts.append(f'நல்ல நேரம் காலை {spoken_span(P["nalla_morning"])}')
+    if P.get("rahu"):
+        parts.append(f'ராகு காலம் {spoken_span(P["rahu"])}')
+    panch = "இன்றைய பஞ்சாங்கம். " + ". ".join(parts) + "." if parts else "இன்றைய பஞ்சாங்கம் பாருங்கள்."
+    return best, hook, panch, say_r, end
+
+
+def spoken_span(s):
+    """'10:30 - 12:00' -> '10:30 முதல் 12:00 வரை' (how a news reader says a time span)"""
+    s = str(s or "").strip()
+    return re.sub(r"\s*[-–]\s*", " முதல் ", s, count=1) + " வரை" if re.search(r"\d\s*[-–]\s*\d", s) else s
+
+
+def panch_rows(P):
+    rows = [("நல்ல நேரம்", f'காலை {P["nalla_morning"]}', f'மாலை {P["nalla_evening"]}' if P.get("nalla_evening") else "", "good")
+            if P.get("nalla_morning") else None,
+            ("ராகு காலம்", P.get("rahu"), "", "bad"), ("எமகண்டம்", P.get("emagandam"), "", "bad"),
+            ("திதி", P.get("tithi"), P.get("tithi_end") or "", ""), ("நட்சத்திரம்", P.get("nakshatra"), P.get("nakshatra_end") or "", ""),
+            ("சந்திராஷ்டமம்", P.get("chandrashtamam"), "இந்த ராசிக்கு இன்று கவனம்", "bad")]
+    return [r for r in rows if r and r[1]]
+
+
+def chirp():
+    """the parrot's two short tweets when it picks a card (made here - no sound file needed)"""
+    out = []
+    for f0, f1 in ((2900, 4300), (3300, 4700)):
+        n = int(0.075 * SR)
+        f = np.linspace(f0, f1, n)
+        out += [0.32 * np.sin(2 * np.pi * np.cumsum(f) / SR) * np.hanning(n), np.zeros(int(0.045 * SR))]
+    return np.concatenate(out).astype(np.float32)
+
+
+def flip():
+    """a soft paper flip when the card opens"""
+    n = int(0.11 * SR)
+    noise = np.random.default_rng(7).standard_normal(n)
+    noise = np.diff(noise, prepend=0) * np.exp(-np.linspace(0, 6, n))
+    return (0.16 * noise / (np.abs(noise).max() or 1)).astype(np.float32)
+
+
+def caption_text(p, P, best, rasis, segs):
+    """owner 28 Nov: the caption tells each viewer where his rasi starts (people jump to their own rasi instead of leaving)"""
+    times = [f'{rasis[s["i"]]["rasi"]} {int(s["t0"] + 1) // 60}:{int(s["t0"] + 1) % 60:02d}' for s in segs if s["kind"] == "rasi"]
+    rows = "\n".join(" • ".join(times[k:k + 3]) for k in range(0, 12, 3))
+    luck = ", ".join(rasis[i]["rasi"] for i in best)
+    pan = "\n".join(f"{k}: {v}" + (f" ({s})" if s else "") for k, v, s, _ in panch_rows(P)[:3])
+    return (f"🦜 கிளி ஜோசியம் | {P['date_ta']}, {P['weekday_full']}\n"
+            + (f"✨ இன்று அதிர்ஷ்டம்: {luck}\n" if luck else "") +
+            f"\n⏱ உங்கள் ராசி எந்த நேரத்தில்:\n{rows}\n\n📿 {pan}\n\n"
+            f"தினமும் காலை கிளி ஜோசியம் பார்க்க @{p['handle']} Follow செய்யுங்கள்.\n\n#ராசிபலன் #RasiPalan #கிளிஜோசியம் #{p['name1']}360")
+
+
+PINNED_COMMENT = "உங்கள் ராசி என்ன? கமெண்டில் சொல்லுங்க 👇 கிளி உங்களுக்கு என்ன சொன்னது?"
 
 
 def timeline(voices):
-    """voices: [hook, 12 rasis, end] sample arrays -> scenes [{kind, i, t0, t1, v0}] and the whole length"""
+    """voices: [hook, panchangam, 12 rasis, end] sample arrays -> scenes [{kind, i, t0, t1, v0}] and the whole length"""
     segs, t = [], 0.0
     d = len(voices[0]) / SR
     segs.append({"kind": "hook", "i": -1, "t0": 0.0, "v0": 0.3, "t1": round(max(3.2, 0.3 + d + 0.5), 2)})
     t = segs[-1]["t1"]
+    d = len(voices[1]) / SR
+    segs.append({"kind": "panch", "i": -1, "t0": round(t, 2), "v0": round(t + 0.4, 2), "t1": round(t + max(3.4, 0.4 + d + 0.5), 2)})
+    t = segs[-1]["t1"]
     for i in range(12):
-        d = len(voices[1 + i]) / SR
+        d = len(voices[2 + i]) / SR
         t1 = round(t + max(3.8, VOICE_AT + d + 0.3), 2)
         segs.append({"kind": "rasi", "i": i, "t0": round(t, 2), "v0": round(t + VOICE_AT, 2), "t1": t1})
         t = t1
-    d = len(voices[13]) / SR
+    d = len(voices[14]) / SR
     segs.append({"kind": "end", "i": -1, "t0": round(t, 2), "v0": round(t + 0.4, 2), "t1": round(t + 0.4 + d + 0.9, 2)})
     return segs, segs[-1]["t1"]
 
@@ -224,7 +282,11 @@ def page(p, ctx, segs, dur, env, best):
             f'<div class="t3">இன்று அதிர்ஷ்டம்</div><div class="best">{cells}</div>{warn}</div></div>')
     end = (f'<div class="fc"><div class="en"><img src="{logo}"><div class="n">{G.brand_html(p)}</div>'
            f'<div class="s">தினமும் காலை கிளி ஜோசியம்</div><div class="f">Follow @{E(p["handle"])}</div></div></div>')
-    cards = hook + "".join(fortune(p, P, i, r) for i, r in enumerate(rasis)) + end
+    prow = "".join(f'<div class="prow {c}"><div class="k">{k}</div><div class="v"><div class="fit">{E(str(v))}</div>'
+                   f'{f"<small>{E(str(s))}</small>" if s else ""}</div></div>' for k, v, s, c in panch_rows(P))
+    panch = (f'<div class="fc"><div class="fcin"><div class="kick">{E(day)}</div><div class="ptitle fit">இன்றைய பஞ்சாங்கம்</div>'
+             f'<div class="ptable">{prow}</div></div></div>')
+    cards = hook + panch + "".join(fortune(p, P, i, r) for i, r in enumerate(rasis)) + end
     small = "".join(f'<div class="sc" style="left:{card_x(i)}px"><b>{GLYPH[i]}&#xFE0E;</b><i></i></div>' for i in range(12))
     band = (f'<div class="band"><img src="{logo}"><div class="bn">{G.brand_html(p)}<small>கிளி ஜோசியம் • இன்றைய ராசிபலன்</small></div>'
             f'</div>')
@@ -240,7 +302,7 @@ let fitted=0;
 window.seek=function(t){
  if(document.fonts.status==='loaded')fitAll();
  let k=SEG.findIndex(s=>t>=s.t0&&t<s.t1);if(k<0)k=SEG.length-1;const s=SEG[k],u=t-s.t0;
- FC.forEach((e,j)=>{let o=0,ry=0;if(j===k){if(s.kind==='rasi'){const q=ez((u-0.95)/0.35);o=q;ry=(1-q)*85}else o=s.kind==='end'?ez(u/0.3):1}
+ FC.forEach((e,j)=>{let o=0,ry=0;if(j===k){if(s.kind==='rasi'){const q=ez((u-0.95)/0.35);o=q;ry=(1-q)*85}else o=s.kind==='hook'?1:ez(u/0.3)}
   else if(j===k-1){o=s.kind==='rasi'?cl(1-(u-0.85)/0.15):cl(1-u/0.3)}      // the last card stays until the new one opens
   e.style.opacity=o;e.style.transform='perspective(1600px) rotateY('+ry+'deg)'});
  SC.forEach(e=>{e.style.transform='';e.style.opacity=1;e.classList.remove('fly')});
@@ -279,13 +341,21 @@ def make(p, ctx, outdir, log=print, stills=(0.5,)):
     P, rasis = ctx["p"], ctx["rasis"]
     if len(rasis) != 12:
         raise ValueError("parrot reel: 12 rasis needed")
-    best, hook, say_r, end = lines(p, P, rasis)
-    texts = [hook] + say_r + [end]
+    best, hook, panch, say_r, end = lines(p, P, rasis)
+    texts = [hook, panch] + say_r + [end]
     (outdir / "script.txt").write_text("\n".join(texts), encoding="utf-8")
     voices = [say(t, work, n, log) for n, t in enumerate(texts)]
     segs, dur = timeline(voices)
     track = voice_track(voices, segs, dur)
-    env = envelope(track)
+    env = envelope(track)      # the beak follows the voice only, not the sounds below
+    ch, fl = chirp(), flip()
+    for s in segs:      # owner 28 Nov: a chirp when the parrot picks the card, a paper flip when the card opens
+        if s["kind"] == "rasi":
+            for snd, at in ((ch, s["t0"] + HOP_S + 0.05), (fl, s["t0"] + 0.95)):
+                k = int(at * SR)
+                track[k:k + len(snd)] += snd[:max(0, len(track) - k)]
+    (outdir / "caption.txt").write_text(caption_text(p, P, best, rasis, segs), encoding="utf-8")
+    (outdir / "pinned_comment.txt").write_text(PINNED_COMMENT, encoding="utf-8")
     vwav, mwav, awav = outdir / "voice.wav", outdir / "music.wav", outdir / "audio.wav"
     write_wav(vwav, track)
     music = gold_reel.soundtrack(dur, mwav, log)
@@ -304,7 +374,8 @@ def make(p, ctx, outdir, log=print, stills=(0.5,)):
         pg.goto(f"file://{html.resolve()}")
         pg.evaluate("document.fonts.ready.then(() => 1)")
         pg.wait_for_timeout(600)
-        for k, s in enumerate(list(stills) + [segs[1]["t0"] + 0.75, segs[1]["t0"] + 2.2, segs[5]["t0"] + 2.5, segs[-1]["t0"] + 1.0]):
+        for k, s in enumerate(list(stills) + [segs[1]["t0"] + 1.5, segs[2]["t0"] + 0.75, segs[2]["t0"] + 2.2, segs[6]["t0"] + 2.5,
+                                              segs[-1]["t0"] + 1.0]):
             pg.evaluate(f"window.seek({s:.3f})")
             pg.screenshot(path=str(outdir / f"still_{k}.png"))
         cmd = [_ffmpeg(), "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(FPS), "-c:v", "mjpeg", "-i", "-",

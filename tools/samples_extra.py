@@ -122,8 +122,8 @@ body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:radial-gradie
 #lb{{position:absolute;left:0;right:0;top:1080px;text-align:center;transform-origin:50% 50%}}
 #lb span{{display:inline-block;background:#fff;color:{MAROON};border-radius:60px;padding:14px 46px;font-size:76px;font-weight:900;
  box-shadow:0 18px 40px rgba(0,0,0,.45),inset 0 0 0 6px {GOLD}}}
-#hd{{position:absolute;left:60px;right:60px;bottom:250px;text-align:center;color:#fff;font-size:58px;font-weight:900;line-height:1.3;
- text-shadow:0 4px 14px rgba(0,0,0,.6)}}
+#hd{{position:absolute;left:50px;right:50px;bottom:230px;text-align:center;color:#fff;font-size:56px;font-weight:900;line-height:1.3;z-index:3;
+ background:rgba(0,0,0,.62);border-radius:30px;padding:24px 30px;box-shadow:0 14px 34px rgba(0,0,0,.45)}}
 #fl{{position:absolute;inset:0;background:#fff;opacity:0}}
 """
     return G.themed(f"""<!doctype html><html><head><meta charset="utf-8"><style>{G.css()}{css}</style></head><body>
@@ -178,7 +178,7 @@ def top5_html(items, segs, dur, env):
     for i, x in enumerate(items):
         rank = 5 - i
         sc.append(f'<div class="s news"><img class="bg" src="file://{x["img"]}"><div class="shade"></div><img class="cv" src="file://{x["img"]}"><div class="rk">#{rank}</div>'
-                  f'<div class="txt"><div class="hd">{E(x["head"])}</div><div class="vw">{k_views(x["views"])} பார்வைகள் • {x["at"]:%I:%M %p}</div></div></div>')
+                  f'<div class="txt"><div class="hd">{E(x["head"])}</div><div class="vw">இன்று {x["at"]:%I:%M %p}</div></div></div>')
     sc.append(f'<div class="s end"><img src="{logo}"><div class="n">{G.brand_html(PAGE)}</div><div class="sub">தினமும் இரவு இன்றைய டாப் 5</div>'
               f'<div class="f">Follow @{E(PAGE["handle"])}</div></div>')
     css = f"""
