@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-28T13:19:22+00:00",
+ "updated": "2026-11-28T13:25:44+00:00",
  "day": "2026-11-28",
- "ready": 2,
+ "ready": 1,
  "pages": {
   "trichy": {
    "label": "திருச்சி 360",
@@ -160,6 +160,13 @@
       "link": "https://www.instagram.com/reel/DgSVN3GhBCV/",
       "at": "2026-11-28T13:11:56+00:00",
       "kind": "reel"
+     },
+     {
+      "id": "RN-208",
+      "head": "திருச்சி உயிரியல் பூங்கா திறப்பு மேலும் தாமதம்: மத்திய ஆணைய ஒப்புதல் இன்னும் கிடைக்கவில்லை",
+      "link": "https://www.instagram.com/reel/DgSWZxwh7Hq/",
+      "at": "2026-11-28T13:22:16+00:00",
+      "kind": "reel"
      }
     ],
     "paused": "",
@@ -167,7 +174,7 @@
    },
    "facebook": {
     "posted": 0,
-    "waiting": 0,
+    "waiting": 1,
     "share": [],
     "paused": "Facebook limited this page - paused until 2026-11-28T15:12 UTC"
    },
