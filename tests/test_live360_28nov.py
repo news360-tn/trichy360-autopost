@@ -104,7 +104,8 @@ class Live360(unittest.TestCase):
     def test_every_addition_inside_the_shared_safe_area(self):      # owner 28 Nov: one video for Instagram, Facebook and YouTube Shorts
         css = live360.CSS + live360.JS
         for k in ("#lvmap{position:absolute;left:48px", "max-width:880px", "brk.style.right='48px'", "box($('cap')).top-12-mapTop",
-                  "p.right+24<=1080-48-brk.offsetWidth", "y>=p.bottom+10", "map.offsetWidth>860"):
+                  "p.right+24<=1080-48-brk.offsetWidth", "y>=p.bottom+10", "map.scrollWidth>MW", "MW=950-L-(rd?0:42)",
+                  "L=rd?48+rd.offsetWidth+22:48"):      # the card stays left of x 950, beside the news reader when there is one
             self.assertIn(k, css, k)
 
     def test_never_fails_the_reel(self):

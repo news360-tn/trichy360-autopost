@@ -5,7 +5,8 @@ A layer laid OVER the finished reel page, like clock360 - the layout, colours, t
  2. BREAKING tag: only on serious news (a death, a murder, people badly hurt) - above the big headline while it shows, then small at
     the end of the place row
  3. place card: the district outline with the news town pinned and the town's name, for 3 s after the big headline
-    (reel/assets/district_map.json; only a town the map knows; not on a page whose reel already opens with the map - "map_intro")
+    (reel/assets/district_map.json; only a town the map knows; not on a page whose reel already opens with the map - "map_intro");
+    it sits to the right of the news reader's round window when the reel has one (reel/reader360.py)
 
 The same video goes to Instagram, Facebook and YouTube Shorts (owner 28 Nov): every addition sits where design A already keeps its own
 parts - left of x 950 below the logo row and above y 1600, inside the middle the 4:5 feed keeps (y 285-1635). The tag and the card are
@@ -71,8 +72,10 @@ window.renderAt=function(t){
    if(t>=a&&t<b){
     if(mapTop===null){      /* once: under the lowest fact card, above the captions; a long town name is made smaller */
      let y=box($('mini')).bottom; document.querySelectorAll('.card').forEach(c=>{y=Math.max(y,box(c).bottom)});
-     const nm=map.querySelector('b'); let fs=52; while(map.offsetWidth>860&&fs>30){fs-=2;nm.style.fontSize=fs+'px';}
-     mapTop=y+24; mapS=Math.min(1,(box($('cap')).top-12-mapTop)/map.offsetHeight); if(mapS<0.8||map.offsetWidth>860)mapS=0;
+     const rd=$('rdr'), L=rd?48+rd.offsetWidth+22:48, MW=950-L-(rd?0:42);      /* beside the news reader (reel/reader360.py) when the reel has one */
+     map.style.left=L+'px'; map.style.maxWidth=(MW+20)+'px';
+     const nm=map.querySelector('b'); let fs=52; while(map.scrollWidth>MW&&fs>26){fs-=2;nm.style.fontSize=fs+'px';}
+     mapTop=y+24; mapS=Math.min(1,(box($('cap')).top-12-mapTop)/map.offsetHeight); if(mapS<0.8||map.scrollWidth>MW)mapS=0;
     }
     map.style.top=mapTop+'px';
     map.style.transform='translateX('+(-(1-ez((t-a)/0.3))*80)+'px) scale('+(mapS||1)+')';

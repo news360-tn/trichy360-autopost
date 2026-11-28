@@ -24,6 +24,7 @@ import reel as R
 import reel3 as V3
 import clock360      # owner 20 Nov: the 360 clock branding layer over every news reel (never fails the reel)
 import live360      # owner 28 Nov: design A + improvements - pictures take turns, BREAKING tag, place card (never fails the reel)
+import reader360      # owner 28 Nov: the NEWS360-TN news reader in a round window, mouth moving with the voice (never fails the reel)
 import design360      # owner 20 Nov: the design team's reel look (off; poster/config.json reel_look: handoff switches it on)
 from digits import to_digits
 
@@ -1310,7 +1311,7 @@ def main(spec_path, out_mp4, page_key="trichy"):
                                       {"a": starts[-1], "b": ends[-1], "text": outro.get("say", "")})
         except Exception as e:
             print("new design not made, the earlier design is used:", str(e)[:200])
-    page.write_text(live360.add(clock360.add(new_page or build_html(spec, shots, sents, caps, hook_end, end_t, total, R.PAGE)), spec))
+    page.write_text(reader360.add(live360.add(clock360.add(new_page or build_html(spec, shots, sents, caps, hook_end, end_t, total, R.PAGE)), spec), spec, work))
     if os.environ.get("PROMO_JSON"):      # owner 20 Nov: the approved sponsor ad (poster/promo.py chose it; never stops the reel)
         try:
             import promo360

@@ -2,6 +2,9 @@
 page (Instagram views), 5 -> 1, each on its own reel cover; the Valluvar voice reads the headlines. No view counts are shown.
 Posted once a day by .github/workflows/top5.yml (before 22:00 IST); it is not one of the day's 30 news (poster/posted is not touched).
 Uses the rasipalan job's page settings and posting steps (rasipalan/rasi_daily.py) - the same upload, Instagram and Facebook way.
+Layout (owner 28 Nov, "verify and update"): the same video goes to Instagram, Facebook and YouTube Shorts, so everything that matters
+sits inside x 48-950 / y 100-1600: the page name lower in the top band, the headline clear of the buttons on the right, the time
+chip above the caption area, the 5-4-3-2-1 row down the left side (it was at the very bottom, under the caption).
   PAGE=<page> python poster/top5.py      (DRY_RUN=1: make the reel only)"""
 import json
 import os
@@ -92,33 +95,33 @@ def page_html(p, items, segs, dur):
               f'<div class="f">Follow @{E(p["handle"])}</div></div>')
     css = f"""
 body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:{MAROON};font-family:'Noto Sans Tamil',sans-serif}}
-.band{{position:absolute;left:0;right:0;top:0;height:200px;z-index:9;display:flex;align-items:center;gap:24px;padding:0 44px;
+.band{{position:absolute;left:0;right:0;top:0;height:260px;z-index:9;display:flex;align-items:flex-end;gap:24px;padding:0 44px 16px;box-sizing:border-box;
  background:linear-gradient(180deg,{MAROON2},{MAROON})}}
 .band img{{width:136px;height:136px;border-radius:50%;background:#fff;box-shadow:0 0 0 6px {GOLD}}}
 .band b{{color:#fff;font-size:58px;font-weight:900}} .band b i{{font-style:normal;color:{GOLD};font-family:'Catamaran'}}
 .band small{{display:block;color:#F6E3A6;font-size:32px;font-weight:800}}
 .s{{position:absolute;inset:0;opacity:0;overflow:hidden}}
-.hook{{background:radial-gradient(circle at 50% 30%,{MAROON2},{MAROON} 70%);text-align:center;padding-top:300px}}
+.hook{{background:radial-gradient(circle at 50% 30%,{MAROON2},{MAROON} 70%);text-align:center;padding-top:330px}}
 .hook .t1{{color:{GOLD};font-size:150px;font-weight:900;line-height:1.1}}
 .hook .t2{{margin:20px 40px 0;color:#fff;font-size:48px;font-weight:800}}
-.grid{{display:flex;flex-wrap:wrap;justify-content:center;gap:22px;margin:60px 50px 0}}
-.th{{position:relative;width:300px;height:400px;border-radius:24px;overflow:hidden;box-shadow:0 14px 30px rgba(0,0,0,.45),0 0 0 5px {GOLD}}}
+.grid{{display:flex;flex-wrap:wrap;justify-content:center;gap:18px;margin:40px 100px 0}}
+.th{{position:relative;width:258px;height:344px;border-radius:24px;overflow:hidden;box-shadow:0 14px 30px rgba(0,0,0,.45),0 0 0 5px {GOLD}}}
 .th img{{width:100%;height:100%;object-fit:cover}}
 .th b{{position:absolute;left:14px;top:10px;background:{GOLD};color:{MAROON};border-radius:50%;width:76px;height:76px;line-height:76px;
  font-family:'Catamaran';font-size:52px;font-weight:900}}
 .news .bg{{position:absolute;inset:-60px;width:calc(100% + 120px);height:calc(100% + 120px);object-fit:cover;filter:blur(22px) brightness(.5)}}
-.news .cv{{position:absolute;left:50%;top:236px;width:610px;height:1084px;margin-left:-305px;object-fit:cover;border-radius:34px;
+.news .cv{{position:absolute;left:50%;top:300px;width:540px;height:960px;margin-left:-270px;object-fit:cover;border-radius:34px;
  box-shadow:0 26px 60px rgba(0,0,0,.6),0 0 0 7px {GOLD};transform-origin:50% 50%}}
 .news .shade{{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.75) 75%)}}
-.news .rk{{position:absolute;left:40px;top:220px;z-index:3;background:{GOLD};color:{MAROON};border-radius:30px;padding:0 34px;font-family:'Catamaran';
+.news .rk{{position:absolute;left:40px;top:280px;z-index:3;background:{GOLD};color:{MAROON};border-radius:30px;padding:0 34px;font-family:'Catamaran';
  font-size:130px;font-weight:900;line-height:1.25;box-shadow:0 14px 30px rgba(0,0,0,.45)}}
-.news .txt{{position:absolute;left:50px;right:50px;top:1350px}}
-.news .hd{{color:#fff;font-size:60px;font-weight:900;line-height:1.3;text-shadow:0 4px 12px rgba(0,0,0,.6);
+.news .txt{{position:absolute;left:50px;right:140px;top:1290px}}
+.news .hd{{color:#fff;font-size:58px;font-weight:900;line-height:1.3;text-shadow:0 4px 12px rgba(0,0,0,.6);
  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}}      /* owner 28 Nov: at most 3 lines - never over the 5-4-3-2-1 row */
-.news .vw{{margin-top:18px;display:inline-block;background:rgba(255,255,255,.92);color:{MAROON};border-radius:40px;padding:8px 30px;
- font-size:38px;font-weight:800}}
-.dots{{position:absolute;left:0;right:0;bottom:70px;display:flex;justify-content:center;gap:18px}}
-.dots b{{width:78px;height:78px;border-radius:50%;line-height:78px;text-align:center;font-family:'Catamaran';font-size:40px;font-weight:900;
+.news .vw{{margin-top:12px;display:inline-block;background:rgba(255,255,255,.92);color:{MAROON};border-radius:40px;padding:6px 28px;
+ font-size:34px;font-weight:800}}
+.dots{{position:absolute;left:98px;top:500px;z-index:3;display:flex;flex-direction:column;gap:16px}}      /* owner 28 Nov: down the left side - the bottom row was under the caption on Instagram, Facebook and Shorts */
+.dots b{{width:72px;height:72px;border-radius:50%;line-height:72px;text-align:center;font-family:'Catamaran';font-size:38px;font-weight:900;background:rgba(0,0,0,.35);
  color:rgba(255,255,255,.55);border:3px solid rgba(255,255,255,.35)}} .dots b.on{{background:{GOLD};color:{MAROON};border-color:{GOLD}}}
 .dots b.done{{color:rgba(255,255,255,.3);border-color:rgba(255,255,255,.15)}}
 .end{{background:radial-gradient(circle at 50% 40%,#FFFBEA,#FCEBB8);text-align:center;padding-top:420px}}

@@ -1,6 +1,7 @@
 {
   "owner_emails": false,
-  "map_intro": true,
+  "map_intro": false,
+  "map_intro_note": "owner 28 Nov 14:10: off - the reel opens with the news picture and the big headline again (the map opening kept the first 2.6 s on the same map for every reel); the place card of reel/live360.py now shows the district map and the town pin after the headline, as on the other pages. true brings the map opening back (the place card is then left out).",
   "ai_label": false,
   "collab_username": "",
   "post_windows_ist": [
