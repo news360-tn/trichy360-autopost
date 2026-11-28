@@ -34,6 +34,8 @@ PAGE = {"town": "திருச்சி", "name1": "திருச்சி",
 MAROON, MAROON2, GOLD = G.MAROON, G.MAROON2, G.GOLD
 VOICE = ("ta-IN-ValluvarNeural", "+12%", "+4Hz")
 SHOT_S, MOVE_FRAMES = 2.2, 96
+NO_FAKE = (", absolutely no number plates or license plates, no brand logos or badges, no readable text, letters or signs "
+           "anywhere in the image")      # owner 28 Nov (review): a made-up number plate or car logo looks fake in news
 
 STORIES = [
     {"id": "RN-184", "kind": "breaking", "prompts": [
@@ -41,6 +43,10 @@ STORIES = [
         "police barricade and traffic cones, evening light, photorealistic news photo, no people, no text",
         "Close view of a damaged car front bonnet and shattered headlight near a tree trunk on an Indian village road, dusk, "
         "photorealistic, no people, no text"]},
+    {"id": "RN-188", "kind": "breaking", "prompts": [      # owner 28 Nov (review): an accident WITHOUT deaths - the calm band
+        "A small goods van overturned on its side on a town road in Tamil Nadu, police barricades of a vehicle check nearby, daytime, "
+        "photorealistic news photo, no people",
+        "Close view of an overturned goods van and some scattered cardboard boxes on an Indian road, daytime, photorealistic, no people"]},
     {"id": "RN-185", "kind": "power", "prompts": [
         "Electricity board linemen in safety helmets repairing overhead power lines on a utility pole in a Tamil Nadu town, "
         "daytime, photorealistic news photo, faces not visible, no text",
@@ -165,14 +171,23 @@ def whoosh():
 
 # ---------------------------------------------------------------- the page
 
+def serious(s):
+    """owner 28 Nov (review): BREAKING only for serious news - deaths or serious injuries (in the live pipeline also only when fresh,
+    within about 3 hours of the event)"""
+    text = " ".join([s["head"], clean(s["spec"].get("hl1")), clean(s["spec"].get("hl2"))])
+    return bool(re.search(r"பலி|உயிரிழ|இறந்|படுகாய|உயிர்ப்பலி|கொலை", text))
+
+
 def type_layer(kind, s):
     slides = s["spec"].get("slides") or []
     lines = lambda k: [clean(x) for sl in slides if k in str(sl.get("title", "")) for x in sl.get("lines", [])]
-    if kind == "breaking":
+    if kind == "breaking" and serious(s):
         return f'<div id="brk"><i></i>BREAKING<span>{E(s["cat"] or TYPE_LABEL[kind])}</span></div><div id="redglow"></div>'
+    if kind == "breaking":      # owner 28 Nov (review): an accident without deaths / serious injuries gets a calmer band, no BREAKING
+        return f'<div id="brk" class="calm"><span>{E(s["cat"] or TYPE_LABEL[kind])}</span></div>'
     if kind == "power":
         when = lines("எப்போது") or [clean(s["spec"].get("hl2"))]
-        areas = lines("பகுதி")[:4]
+        areas = [a for a in lines("பகுதி") if not re.search(r"கீழே|பட்டியல்|caption", a)][:4]      # never "the full list is below"
         rows = "".join(f"<li>{E(a)}</li>" for a in areas)
         return (f'<div id="board"><div class="bt">⚡ மின் தடை அறிவிப்பு</div><div class="bw">{E(" • ".join(when[:2]))}</div>'
                 f'<div class="bar"><b></b></div><ul>{rows}</ul></div>')
@@ -217,7 +232,7 @@ body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:#000;font-fam
 #hook .h1{{display:inline;background:#fff;color:#111;font-size:76px;font-weight:900;line-height:1.42;padding:4px 16px;
  box-decoration-break:clone;-webkit-box-decoration-break:clone}}
 #hook .h2{{display:inline-block;margin-top:18px;background:{GOLD};color:{MAROON};font-size:50px;font-weight:900;padding:4px 18px;border-radius:8px}}
-#cap{{position:absolute;left:40px;right:40px;bottom:250px;z-index:7;text-align:center;font-size:86px;font-weight:900;line-height:1.25;color:#fff;
+#cap{{position:absolute;left:40px;right:40px;bottom:250px;z-index:7;text-align:center;font-size:72px;font-weight:900;line-height:1.25;color:#fff;
  text-shadow:0 0 6px #000,0 6px 18px rgba(0,0,0,.9),3px 3px 0 #000,-3px -3px 0 #000,3px -3px 0 #000,-3px 3px 0 #000}}
 #cap .w{{display:inline-block;margin:0 10px}} #cap .w.on{{color:#FFE14D;transform:scale(1.12)}} #cap .w.num{{color:#5BF08A}}
 #cap .w.pl{{color:#6FD3FF}}
@@ -231,6 +246,7 @@ body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:#000;font-fam
 #num span{{display:inline-block;background:#E53935;color:#fff;font-size:62px;font-weight:900;padding:6px 30px;border-radius:14px}}
 #brk{{position:absolute;left:0;right:0;top:150px;height:84px;z-index:7;background:#D32F2F;color:#fff;font-family:'Catamaran';font-size:52px;
  font-weight:900;letter-spacing:3px;display:flex;align-items:center;gap:20px;padding:0 36px}}
+#brk.calm{{background:#E65100}} #brk.calm span{{font-size:44px}}
 #brk i{{width:26px;height:26px;border-radius:50%;background:#fff}} #brk span{{font-family:'Noto Sans Tamil';letter-spacing:0;font-size:40px;opacity:.95}}
 #redglow{{position:absolute;inset:0;z-index:5;box-shadow:inset 0 0 160px 40px rgba(255,0,0,.75);opacity:0}}
 #board{{position:absolute;left:40px;right:40px;top:560px;z-index:6;background:linear-gradient(160deg,#0E3B2E,#062118);border-radius:24px;
@@ -263,7 +279,7 @@ const BG=document.getElementById('bg'),CAP=document.getElementById('cap'),HK=doc
  NUM=document.getElementById('num'),END=document.getElementById('end'),RG=document.getElementById('redglow'),BRK=document.getElementById('brk'),
  BOARD=document.getElementById('board'),RAIN=document.getElementById('rain');
 const cl=u=>Math.max(0,Math.min(1,u)),ez=u=>{u=cl(u);return 1-Math.pow(1-u,3)},pop=u=>{u=cl(u);const c=1.70158;return 1+(c+1)*Math.pow(u-1,3)+c*Math.pow(u-1,2)};
-const groups=[];{let g=[];D.words.forEach((w,i)=>{g.push(i);if(g.length>=3||/[.,?!]$/.test(w[0])||i===D.words.length-1){groups.push(g);g=[]}})}
+const groups=[];{let g=[],n=0;D.words.forEach((w,i)=>{g.push(i);n+=w[0].length+1;if(n>=20||g.length>=3||/[.,?!]$/.test(w[0])||i===D.words.length-1){groups.push(g);g=[];n=0}})}      // owner 28 Nov (review): short groups - at most 2 lines
 const isNum=w=>/\\d/.test(w),isPl=w=>D.place.some(p=>w.indexOf(p.slice(0,4))===0);
 window.seek=async function(t){
  const sh=D.segs.findIndex(s=>t>=s.t0&&t<s.t1),s=D.segs[sh<0?D.segs.length-1:sh],u=t-s.t0,d=s.t1-s.t0;
@@ -282,7 +298,8 @@ window.seek=async function(t){
  if(RAIN){const c=RAIN.getContext('2d');c.clearRect(0,0,1080,1920);c.strokeStyle='rgba(200,220,255,.55)';c.lineWidth=3;
   for(let i=0;i<220;i++){const x=(i*97.3)%1080,sp=1400+(i%7)*160,y=((i*233.1)+t*sp)%2100-100;c.beginPath();c.moveTo(x,y);c.lineTo(x-14,y+46);c.stroke()}}
  const wi=D.words.findIndex(w=>t>=w[1]&&t<w[2]+0.12),gi=groups.findIndex(g=>g.includes(wi));
- if(gi>=0&&t<D.end){CAP.innerHTML=groups[gi].map(i=>{const w=D.words[i][0];return '<span class="w'+(i===wi?' on':'')+(isNum(w)?' num':isPl(w)?' pl':'')+'">'+w+'</span>'}).join(' ')}
+ if(t<D.segs[0].t1){CAP.innerHTML=''}      // owner 28 Nov (review): no captions under the opening headline
+ else if(gi>=0&&t<D.end){CAP.innerHTML=groups[gi].map(i=>{const w=D.words[i][0];return '<span class="w'+(i===wi?' on':'')+(isNum(w)?' num':isPl(w)?' pl':'')+'">'+w+'</span>'}).join(' ')}
  else if(t>=D.end||wi<0&&!groups.some(g=>D.words[g[0]][1]-0.05<=t&&t<=D.words[g[g.length-1]][2]+0.3))CAP.innerHTML='';
  END.style.opacity=t>=D.end?ez((t-D.end)/0.3):0;
 };""")
@@ -332,7 +349,7 @@ def make_news(item):
     for k, prompt in enumerate(item["prompts"]):
         jpg = work / f"pic{k}.jpg"
         if not jpg.exists():
-            jpg.write_bytes(imagegen.generate(prompt, seed=17 + k, free_only=True))      # free picture services only
+            jpg.write_bytes(imagegen.generate(prompt + NO_FAKE, seed=17 + k, free_only=True))      # free picture services only
         frames.append(living_frames(jpg, work / f"live{k}", 5 + k))
     a, words = voice(s["script"], work)
     lead = 0.3
@@ -357,11 +374,11 @@ def make_news(item):
     track = np.zeros(int(dur * SR) + SR, dtype=np.float32)
     i0 = int(lead * SR)
     track[i0:i0 + len(a)] += a
-    if kind == "breaking":
+    if kind == "breaking" and serious(s):      # the siren only with BREAKING
         sr_ = siren()
         track[:len(sr_)] += sr_
     wh = whoosh()
-    for sg in segs[1:-1]:
+    for sg in segs[1:-1][::2]:      # owner 28 Nov (review): a whoosh on every other picture change only
         i = int(sg["t0"] * SR)
         track[i:i + len(wh)] += wh[:max(0, len(track) - i)]
     track = track[:int(dur * SR)]
@@ -464,6 +481,7 @@ MEANING = [      # owner 28 Nov (review): what the news IS about decides the que
     ("power_cut", r"மின்\s*தடை|மின்தடை", COMMENT["power_cut"]),
     ("rain", r"மழை|வெள்ளம்|புயல்", COMMENT["weather"]),
     ("accident", r"விபத்து|மோதி|கவிழ்ந்து|பலி|உயிரிழ", COMMENT["accident"]),
+    ("event", r"விழிப்புணர்வு|விழா|மாநாடு|கருத்தரங்கு|பேரணி", "இதுபோன்ற நிகழ்ச்சிகள் உங்கள் பகுதியில் நடந்தால் கமெண்டில் சொல்லுங்க 👇"),
     ("traffic", r"ரயில்|பஸ்|சாலை|போக்குவரத்து|தாமத", "இந்த வழியில் நீங்களும் பயணிக்கிறீர்களா? உங்கள் அனுபவம் 👇"),
 ]
 

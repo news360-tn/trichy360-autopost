@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        story: [RN-184, RN-185, RN-199, RN-197]
+        story: [RN-184, RN-188, RN-185, RN-199, RN-197]
     runs-on: ubuntu-24.04
     timeout-minutes: 60
     env:
