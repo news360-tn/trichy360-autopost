@@ -84,34 +84,34 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
-| 2026-11-28 | `6a1a77c` | Writer hook (first 3 s): place first + strong event word + one hard detail; நாளை/இன்று first; schemes open with the amount / last date; caption first line 7-12 words (data: 2,686 reels) |
-| 2026-11-28 | `44b6882` | stories shared / Instagram pause |
-| 2026-11-28 | `e74962a` | Trichy writer: full-news scripts (70-160 words, every fact) and 2 pictures again, like the other pages - views test rules off |
-| 2026-11-28 | `5d1cedf` | stories shared / Instagram pause |
-| 2026-11-28 | `cd71935` | stories shared / Instagram pause |
-| 2026-11-28 | `6af6ca2` | stories shared / Instagram pause |
-| 2026-11-28 | `46ae411` | facebook RN-200 |
-| 2026-11-28 | `2344937` | posted RN-200 |
-| 2026-11-28 | `6948619` | pick: written and posted |
-| 2026-11-28 | `280b060` | Trichy reels: same design as the other pages (design test off - design A only, 88 s / 160 words, 2 pictures, English FOLLOW end card, no political assets) |
-| 2026-11-28 | `145fac6` | stories shared / Instagram pause |
-| 2026-11-28 | `043fc25` | stories shared / Instagram pause |
-| 2026-11-28 | `bbed658` | facebook RN-198 |
-| 2026-11-28 | `efe850b` | posted RN-198 |
-| 2026-11-28 | `3c27f0a` | facebook RN-199 |
-| 2026-11-28 | `096c262` | posted RN-199 |
-| 2026-11-28 | `c712e14` | stories shared / Instagram pause |
-| 2026-11-28 | `ecf9f1a` | pick: picked news saved |
-| 2026-11-28 | `c41f360` | stories shared / Instagram pause |
-| 2026-11-28 | `72b8ec9` | pick: picked news saved |
-| 2026-11-28 | `95f2503` | pick: list sent |
-| 2026-11-28 | `5b53b34` | stories shared / Instagram pause |
-| 2026-11-28 | `4f731c2` | pick: written and posted |
-| 2026-11-28 | `ca222bf` | facebook RN-196 |
-| 2026-11-28 | `ff0f7b3` | posted RN-196 |
-| 2026-11-28 | `a1ba63f` | stories shared / Instagram pause |
-| 2026-11-28 | `4909eed` | stories shared / Instagram pause |
-| 2026-11-28 | `d29d903` | facebook RN-195 |
-| 2026-11-28 | `ccd3e41` | posted RN-195 |
-| 2026-11-28 | `62cd735` | stories shared / Instagram pause |
+| 2026-11-28 | `cc07aa0` | New reels: parrot rasipalan (kili josiyam) with panchangam, rasi times and first comment; evening top 5; map-zoom opening on Trichy news reels |
+| 2026-11-28 | `191cf75` | stories shared / Instagram pause |
+| 2026-11-28 | `0902970` | autofix: corrected held news |
+| 2026-11-28 | `6b51d1b` | stories shared / Instagram pause |
+| 2026-11-28 | `4bc7973` | pick: written and posted |
+| 2026-11-28 | `e91b930` | facebook RN-203 |
+| 2026-11-28 | `bdff5df` | posted RN-203 |
+| 2026-11-28 | `2aabf27` | stories shared / Instagram pause |
+| 2026-11-28 | `a04c7ab` | stories shared / Instagram pause |
+| 2026-11-28 | `b48f22c` | facebook RN-201 |
+| 2026-11-28 | `85c107b` | posted RN-201 |
+| 2026-11-28 | `635bdf3` | stories shared / Instagram pause |
+| 2026-11-28 | `a15300c` | pick: picked news saved |
+| 2026-11-28 | `24a6b17` | stories shared / Instagram pause |
+| 2026-11-28 | `de74785` | pick: picked news saved |
+| 2026-11-28 | `f0142bb` | pick: list sent |
+| 2026-11-28 | `1ed3042` | stories shared / Instagram pause |
+| 2026-11-28 | `e38e55e` | stories shared / Instagram pause |
+| 2026-11-28 | `d6827d3` | autofix: corrected held news |
+| 2026-11-28 | `81299d0` | stories shared / Instagram pause |
+| 2026-11-28 | `971544b` | stories shared / Instagram pause |
+| 2026-11-28 | `9d7c1b7` | stories shared / Instagram pause |
+| 2026-11-28 | `ffb04c1` | stories shared / Instagram pause |
+| 2026-11-28 | `ab7da4e` | stories shared / Instagram pause |
+| 2026-11-28 | `22a9731` | stories shared / Instagram pause |
+| 2026-11-28 | `19845d4` | stories shared / Instagram pause |
+| 2026-11-28 | `810b34f` | stories shared / Instagram pause |
+| 2026-11-28 | `52544da` | stories shared / Instagram pause |
+| 2026-11-28 | `fea1fa4` | stories shared / Instagram pause |
+| 2026-11-28 | `bd4d911` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
