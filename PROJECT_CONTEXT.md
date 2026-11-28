@@ -85,34 +85,34 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
-| 2026-11-28 | `c9ec0c7` | Top 5: headline at most 3 lines (never over the 5-4-3-2-1 row), the row a little lower, 'nettru' for yesterday's news |
-| 2026-11-28 | `e3cfd8d` | stories shared / Instagram pause |
-| 2026-11-28 | `f013031` | stories shared / Instagram pause |
-| 2026-11-28 | `6fa05d2` | stories shared / Instagram pause |
-| 2026-11-28 | `b740cd1` | stories shared / Instagram pause |
-| 2026-11-28 | `fe0f9e6` | stories shared / Instagram pause |
-| 2026-11-28 | `96add27` | stories shared / Instagram pause |
-| 2026-11-28 | `b47d993` | stories shared / Instagram pause |
-| 2026-11-28 | `6783405` | stories shared / Instagram pause |
-| 2026-11-28 | `29890f6` | stories shared / Instagram pause |
-| 2026-11-28 | `79a636d` | stories shared / Instagram pause |
-| 2026-11-28 | `35b5967` | stories shared / Instagram pause |
-| 2026-11-28 | `a713eb7` | Rasipalan and top 5: the page's real Instagram username as the fallback (never a made-up Tamil name on the follow card) |
-| 2026-11-28 | `b6ca078` | stories shared / Instagram pause |
-| 2026-11-28 | `39d7ddd` | stories shared / Instagram pause |
-| 2026-11-28 | `49b0e72` | stories shared / Instagram pause |
-| 2026-11-28 | `4575e56` | stories shared / Instagram pause |
-| 2026-11-28 | `2933f00` | stories shared / Instagram pause |
-| 2026-11-28 | `cc07aa0` | New reels: parrot rasipalan (kili josiyam) with panchangam, rasi times and first comment; evening top 5; map-zoom opening on Trichy news reels |
-| 2026-11-28 | `191cf75` | stories shared / Instagram pause |
-| 2026-11-28 | `0902970` | autofix: corrected held news |
-| 2026-11-28 | `6b51d1b` | stories shared / Instagram pause |
-| 2026-11-28 | `4bc7973` | pick: written and posted |
-| 2026-11-28 | `e91b930` | facebook RN-203 |
-| 2026-11-28 | `bdff5df` | posted RN-203 |
-| 2026-11-28 | `2aabf27` | stories shared / Instagram pause |
-| 2026-11-28 | `a04c7ab` | stories shared / Instagram pause |
-| 2026-11-28 | `b48f22c` | facebook RN-201 |
-| 2026-11-28 | `85c107b` | posted RN-201 |
-| 2026-11-28 | `635bdf3` | stories shared / Instagram pause |
+| 2026-11-28 | `3606c23` | YouTube: 40 hashtags on every Short (owner 28 Nov) - 25 for the video, 5 page, 5 district, 5 area (poster/yt_hashtags.py); title, first line, hidden tags, Instagram and Facebook unchanged |
+| 2026-11-28 | `e3efc8e` | stories shared / Instagram pause |
+| 2026-11-28 | `7b57acc` | stories shared / Instagram pause |
+| 2026-11-28 | `ca50659` | stories shared / Instagram pause |
+| 2026-11-28 | `9d739c0` | stories shared / Instagram pause |
+| 2026-11-28 | `24daf31` | stories shared / Instagram pause |
+| 2026-11-28 | `99763d3` | stories shared / Instagram pause |
+| 2026-11-28 | `9fc01e4` | stories shared / Instagram pause |
+| 2026-11-28 | `74e1047` | stories shared / Instagram pause |
+| 2026-11-28 | `67c3e65` | stories shared / Instagram pause |
+| 2026-11-28 | `e3618bf` | stories shared / Instagram pause |
+| 2026-11-28 | `93a7ef0` | stories shared / Instagram pause |
+| 2026-11-28 | `2647e3b` | stories shared / Instagram pause |
+| 2026-11-28 | `7c8bc6b` | stories shared / Instagram pause |
+| 2026-11-28 | `8764d74` | stories shared / Instagram pause |
+| 2026-11-28 | `4480b5f` | stories shared / Instagram pause |
+| 2026-11-28 | `08dabfd` | stories shared / Instagram pause |
+| 2026-11-28 | `d82fd09` | stories shared / Instagram pause |
+| 2026-11-28 | `50415b4` | stories shared / Instagram pause |
+| 2026-11-28 | `109f3c4` | stories shared / Instagram pause |
+| 2026-11-28 | `b9be961` | pick: written and posted |
+| 2026-11-28 | `2349179` | pick: list sent |
+| 2026-11-28 | `5b1e692` | stories shared / Instagram pause |
+| 2026-11-28 | `e25576b` | stories shared / Instagram pause |
+| 2026-11-28 | `f525aa0` | stories shared / Instagram pause |
+| 2026-11-28 | `5704b6e` | stories shared / Instagram pause |
+| 2026-11-28 | `fa835b0` | stories shared / Instagram pause |
+| 2026-11-28 | `ccccc9d` | stories shared / Instagram pause |
+| 2026-11-28 | `d0202c7` | stories shared / Instagram pause |
+| 2026-11-28 | `198ba30` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
