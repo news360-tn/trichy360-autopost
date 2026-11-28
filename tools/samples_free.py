@@ -133,7 +133,7 @@ def living_frames(jpg, out_dir, seed):
         z = 1.07 + 0.04 * (f / (MOVE_FRAMES - 1))      # zoomed in a little: no empty edge
         mx = (gx - W / 2) / z + W / 2 - dx * u * (d - 0.35)
         my = (gy - H / 2) / z + H / 2 - dy * u * (d - 0.35)
-        cv2.imwrite(str(out_dir / f"f{f:03d}.jpg"), cv2.remap(img, mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT),
+        cv2.imwrite(str(out_dir / f"f{f:03d}.jpg"), cv2.remap(img, mx.astype(np.float32), my.astype(np.float32), cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT),
                     [cv2.IMWRITE_JPEG_QUALITY, 88])
     return [str((out_dir / f"f{f:03d}.jpg").resolve()) for f in range(MOVE_FRAMES)]
 
