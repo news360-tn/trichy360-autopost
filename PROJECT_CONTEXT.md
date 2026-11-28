@@ -84,6 +84,13 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-28 | `e74962a` | Trichy writer: full-news scripts (70-160 words, every fact) and 2 pictures again, like the other pages - views test rules off |
+| 2026-11-28 | `5d1cedf` | stories shared / Instagram pause |
+| 2026-11-28 | `cd71935` | stories shared / Instagram pause |
+| 2026-11-28 | `6af6ca2` | stories shared / Instagram pause |
+| 2026-11-28 | `46ae411` | facebook RN-200 |
+| 2026-11-28 | `2344937` | posted RN-200 |
+| 2026-11-28 | `6948619` | pick: written and posted |
 | 2026-11-28 | `280b060` | Trichy reels: same design as the other pages (design test off - design A only, 88 s / 160 words, 2 pictures, English FOLLOW end card, no political assets) |
 | 2026-11-28 | `145fac6` | stories shared / Instagram pause |
 | 2026-11-28 | `043fc25` | stories shared / Instagram pause |
@@ -107,11 +114,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-28 | `62cd735` | stories shared / Instagram pause |
 | 2026-11-28 | `c280957` | stories shared / Instagram pause |
 | 2026-11-28 | `3451c48` | facebook RN-197 |
-| 2026-11-28 | `afc6d75` | posted RN-197 |
-| 2026-11-28 | `fcab646` | stories shared / Instagram pause |
-| 2026-11-28 | `d861369` | pick: picked news saved |
-| 2026-11-28 | `dffff9e` | stories shared / Instagram pause |
-| 2026-11-28 | `81c1819` | pick: picked news saved |
-| 2026-11-28 | `314eb34` | pick: list sent |
-| 2026-11-28 | `726bfb2` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
