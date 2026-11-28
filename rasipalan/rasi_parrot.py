@@ -38,7 +38,7 @@ SMALL_W, SMALL_H, SMALL_Y, SMALL_X0, SMALL_GAP = 52, 150, 1650, 318, 10
 BIG_C = (540, CARD_TOP + CARD_H // 2)
 PARROT_Y_AT_CARD = 1520
 HOP_S, PECK_S, BACK_S = 0.45, 0.35, 0.45      # hop to the card, pick it, hop back
-VOICE_AT = 1.15                               # the voice starts once the card is open
+VOICE_AT = 1.0                                # the voice starts once the card is open
 
 PARROT = """<svg viewBox="0 0 260 300" width="221" height="255" overflow="visible">
 <path d="M72 196 L8 296 L34 298 L98 214 Z" fill="#2E9E57"/><path d="M84 204 L38 299 L58 299 L106 220 Z" fill="#1F7FB8"/>
@@ -81,16 +81,16 @@ CSS = f"""
 .fc .rhead{{margin-top:0}} .fc .rlines{{margin-top:26px}} .fc .rl{{min-height:122px}} .fc .luck{{margin-top:26px}} .fc .rem{{margin-top:24px}}
 .fc .kick{{font-size:38px;font-weight:800;color:{MAROON};opacity:.8;margin-bottom:6px}}
 .hk{{text-align:center;padding-top:40px}}
-.hk .t1{{font-size:118px;font-weight:900;color:{MAROON};line-height:1.15}}
+.hk .t1{{font-size:112px;font-weight:900;color:{MAROON};line-height:1.2;white-space:nowrap}}
 .hk .t2{{margin-top:6px;font-size:42px;font-weight:800;color:{MAROON};opacity:.85}}
-.hk .t3{{display:inline-block;margin-top:44px;background:{MAROON};color:{GOLD};border-radius:40px;padding:10px 40px;font-size:46px;font-weight:900}}
-.hk .best{{display:flex;justify-content:center;gap:26px;margin-top:40px}}
-.hk .best div{{width:290px;background:linear-gradient(160deg,{MAROON2},{MAROON});border-radius:30px;padding:16px 8px 20px;color:#fff;
+.hk .t3{{display:inline-block;margin-top:34px;background:{MAROON};color:{GOLD};border-radius:40px;padding:10px 40px;font-size:46px;font-weight:900}}
+.hk .best{{display:flex;justify-content:center;gap:26px;margin-top:34px}}
+.hk .best>div{{width:290px;background:linear-gradient(160deg,{MAROON2},{MAROON});border-radius:30px;padding:16px 8px 20px;color:#fff;
  box-shadow:0 14px 28px rgba(58,7,11,.3),inset 0 0 0 4px {GOLD}}}
 .hk .best .g{{font-family:'Zod';font-size:86px;line-height:1.1;color:{GOLD}}}
 .hk .best .n{{font-size:50px;font-weight:900;line-height:1.3;white-space:nowrap}}
 .hk .best .s{{font-size:34px;color:{GOLD};letter-spacing:2px}}
-.hk .w{{margin-top:44px;font-size:40px;font-weight:800;color:#C62828}}
+.hk .w{{margin-top:34px;font-size:40px;font-weight:800;color:#C62828}}
 .en{{text-align:center;padding-top:90px}}
 .en img{{width:300px;height:300px;border-radius:50%;background:#fff;box-shadow:0 0 0 10px {GOLD},0 20px 40px rgba(58,7,11,.35)}}
 .en .n{{margin-top:40px;font-size:96px;font-weight:900;color:{MAROON}}} .en .n i{{font-style:normal;color:{GOLD};font-family:'Catamaran'}}
@@ -141,7 +141,7 @@ def lines(p, P, rasis):
             if best else "கிளி ஜோசியம்! இன்று பன்னிரண்டு ராசிகளுக்கும் பலன் பார்க்கலாம்.")
     say_r = []
     for r in rasis:
-        t = f'{r["rasi"]}. {str(r.get("work") or "").rstrip(".")}. {str(r.get("money") or "").rstrip(".")}.'
+        t = f'{r["rasi"]}. {str(r.get("work") or "").rstrip(".")}.'      # one line spoken (the card shows all four) - a shorter reel
         if r.get("rasi") == P.get("chandrashtamam"):
             t += " இன்று சந்திராஷ்டமம், கவனம் தேவை."
         say_r.append(t)
@@ -157,7 +157,7 @@ def timeline(voices):
     t = segs[-1]["t1"]
     for i in range(12):
         d = len(voices[1 + i]) / SR
-        t1 = round(t + max(4.2, VOICE_AT + d + 0.45), 2)
+        t1 = round(t + max(3.8, VOICE_AT + d + 0.3), 2)
         segs.append({"kind": "rasi", "i": i, "t0": round(t, 2), "v0": round(t + VOICE_AT, 2), "t1": t1})
         t = t1
     d = len(voices[13]) / SR
@@ -220,14 +220,14 @@ def page(p, ctx, segs, dur, env, best):
     cells = "".join(f'<div><div class="g">{GLYPH[i]}&#xFE0E;</div><div class="n">{E(rasis[i]["rasi"])}</div>'
                     f'<div class="s">{"★" * stars[i]}</div></div>' for i in best)
     warn = f'<div class="w">சந்திராஷ்டமம்: {E(P.get("chandrashtamam") or "")} • கவனம்</div>' if P.get("chandrashtamam") else ""
-    hook = (f'<div class="fc"><div class="hk"><div class="t1">கிளி ஜோசியம்</div><div class="t2">{E(P["date_ta"])} • {E(day)}</div>'
+    hook = (f'<div class="fc"><div class="hk"><div class="t1">கிளி ஜோசியம்</div><div class="t2">{E(P["date_ta"])} • {E(P["weekday_full"])}</div>'
             f'<div class="t3">இன்று அதிர்ஷ்டம்</div><div class="best">{cells}</div>{warn}</div></div>')
     end = (f'<div class="fc"><div class="en"><img src="{logo}"><div class="n">{G.brand_html(p)}</div>'
            f'<div class="s">தினமும் காலை கிளி ஜோசியம்</div><div class="f">Follow @{E(p["handle"])}</div></div></div>')
     cards = hook + "".join(fortune(p, P, i, r) for i, r in enumerate(rasis)) + end
     small = "".join(f'<div class="sc" style="left:{card_x(i)}px"><b>{GLYPH[i]}&#xFE0E;</b><i></i></div>' for i in range(12))
     band = (f'<div class="band"><img src="{logo}"><div class="bn">{G.brand_html(p)}<small>கிளி ஜோசியம் • இன்றைய ராசிபலன்</small></div>'
-            f'<div class="dt">{E(P["date_ta"])}<br>{E(P["weekday_full"])}</div></div>')
+            f'</div>')
     js = ("const SEG=" + json.dumps(segs) + ",ENV=" + json.dumps(env) + f",FPS={FPS},HOME={list(HOME)},BIG={list(BIG_C)},"
           f"CX={json.dumps([card_x(i) for i in range(12)])},SY={SMALL_Y},SW={SMALL_W},SH={SMALL_H},PY={PARROT_Y_AT_CARD},"
           f"HOP={HOP_S},PECK={PECK_S},BACK={BACK_S},VAT={VOICE_AT};window.DUR={dur};window.COVER_T=0.5;" + """
@@ -238,10 +238,10 @@ function fitAll(){document.querySelectorAll('.fit').forEach(e=>{let s=parseFloat
  while(e.scrollWidth>e.clientWidth+1&&s>16){s-=1;e.style.fontSize=s+'px'}})}
 let fitted=0;
 window.seek=function(t){
- if(!fitted&&document.fonts.status==='loaded'){FC.forEach(e=>e.style.opacity=1);fitAll();fitted=1}
+ if(document.fonts.status==='loaded')fitAll();
  let k=SEG.findIndex(s=>t>=s.t0&&t<s.t1);if(k<0)k=SEG.length-1;const s=SEG[k],u=t-s.t0;
  FC.forEach((e,j)=>{let o=0,ry=0;if(j===k){if(s.kind==='rasi'){const q=ez((u-0.95)/0.35);o=q;ry=(1-q)*85}else o=s.kind==='end'?ez(u/0.3):1}
-  else if(j===k-1&&u<0.3){o=1-u/0.3}
+  else if(j===k-1){o=s.kind==='rasi'?cl(1-(u-0.85)/0.15):cl(1-u/0.3)}      // the last card stays until the new one opens
   e.style.opacity=o;e.style.transform='perspective(1600px) rotateY('+ry+'deg)'});
  SC.forEach(e=>{e.style.transform='';e.style.opacity=1;e.classList.remove('fly')});
  let px=HOME[0],py=HOME[1],dip=0,flap=0,talk=s.kind!=='rasi'||u>VAT;
@@ -253,7 +253,7 @@ window.seek=function(t){
   if(u>=0.6){const q=ez((u-0.6)/0.45);e.classList.add('fly');
    e.style.transform='translate('+(BIG[0]-cx-SW/2)*q+'px,'+(BIG[1]-SY-SH/2)*q+'px) scale('+(1+3*q)+') rotate('+(-10*q)+'deg)';
    e.style.opacity=u<1.0?1:cl(1-(u-1.0)/0.18)}
-  if(u>1.2)e.style.opacity=0.35}
+  if(u>1.2){e.style.transform='';e.style.opacity=0.35}}      // back in its place, dimmed (taken)
  const bob=talk?3*Math.sin(t*6.5):0;
  PR.style.transform='translate('+px+'px,'+(py+bob)+'px)';
  HD.style.transform='rotate('+(dip*30+(talk?2*Math.sin(t*3.1):0))+'deg)';
