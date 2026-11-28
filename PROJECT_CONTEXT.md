@@ -85,6 +85,10 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-28 | `08616a7` | reel: one line in the job log for every reel - what the design additions and the news reader did ("news reader added: ...", "reel additions: ...", or why not), so a posting run shows it was really drawn |
+| 2026-11-28 | `a6c7e92` | stories shared / Instagram pause |
+| 2026-11-28 | `113dbf0` | stories shared / Instagram pause |
+| 2026-11-28 | `5899fbe` | pick: picked news saved |
 | 2026-11-28 | `089f764` | reel: the NEWS360-TN news reader in a round window on every news reel (owner 28 Nov) - the owner's own 9 drawings, the mouth chosen from the reel's voice (closed in every pause, open while the news is read); the place card sits beside it. Top 5 reel: headline clear of the buttons, the time chip above the caption area, the 5-4-3-2-1 row down the left side - one video for Instagram, Facebook and YouTube Shorts. Map opening off on this page: the reel opens with the news picture and headline, the place card shows the map |
 | 2026-11-28 | `5a503d7` | stories shared / Instagram pause |
 | 2026-11-28 | `f28d158` | pick: picked news saved |
@@ -111,8 +115,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-28 | `b46e3f0` | stories shared / Instagram pause |
 | 2026-11-28 | `8c43b4c` | reel: design A + improvements on every page (owner 28 Nov, the sample the owner chose) - with 2+ pictures they take turns every second cut, a BREAKING tag only on serious news, a place card with the district map and the town pin after the headline; no clock-hand line across the picture (soft dissolve). One layer over the finished page (reel/live360.py), inside the area that is free on Instagram, Facebook and YouTube Shorts; it never fails the reel. The place card is left out here (the reel already opens with the map); map intro: a named town wins over the city |
 | 2026-11-28 | `a1830d2` | stories shared / Instagram pause |
-| 2026-11-28 | `36ab15d` | stories shared / Instagram pause |
-| 2026-11-28 | `d3aa8b9` | stories shared / Instagram pause |
-| 2026-11-28 | `3606c23` | YouTube: 40 hashtags on every Short (owner 28 Nov) - 25 for the video, 5 page, 5 district, 5 area (poster/yt_hashtags.py); title, first line, hidden tags, Instagram and Facebook unchanged |
-| 2026-11-28 | `e3efc8e` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
