@@ -39,14 +39,16 @@ NO_FAKE = (", absolutely no number plates or license plates, no brand logos or b
 
 STORIES = [
     {"id": "RN-184", "kind": "breaking", "prompts": [
-        "A wrecked silver sedan car crashed into a huge roadside tree on a rural two-lane highway in Tamil Nadu, broken windscreen, "
-        "police barricade and traffic cones, evening light, photorealistic news photo, no people, no text",
-        "Close view of a damaged car front bonnet and shattered headlight near a tree trunk on an Indian village road, dusk, "
-        "photorealistic, no people, no text"]},
+        "Side view from the driver's door of a wrecked silver car crashed into a huge roadside tree on a rural highway in Tamil Nadu, "      # owner 28 Nov (review): an
+        "the front and back of the car are out of the frame, crumpled doors, broken side windows, traffic cones, evening light, "      # angle where no number plate
+        "photorealistic news photo, no people",                                                                                         # can show
+        "Extreme close-up of a crumpled car door and shattered side-window glass pieces on the road beside a tree trunk, dusk, "
+        "photorealistic, no people"]},
     {"id": "RN-188", "kind": "breaking", "prompts": [      # owner 28 Nov (review): an accident WITHOUT deaths - the calm band
-        "A small goods van overturned on its side on a town road in Tamil Nadu, police barricades of a vehicle check nearby, daytime, "
-        "photorealistic news photo, no people",
-        "Close view of an overturned goods van and some scattered cardboard boxes on an Indian road, daytime, photorealistic, no people"]},
+        "A plain white unmarked small goods van lying on its side on a town road in Tamil Nadu, seen from its roof side, blank painted "
+        "panels, police barricades of a vehicle check nearby, daytime, photorealistic news photo, no people",
+        "Close-up of plain brown cardboard boxes scattered on an Indian asphalt road next to a fallen van's plain white roof, daytime, "
+        "photorealistic, no people"]},
     {"id": "RN-185", "kind": "power", "prompts": [
         "Electricity board linemen in safety helmets repairing overhead power lines on a utility pole in a Tamil Nadu town, "
         "daytime, photorealistic news photo, faces not visible, no text",
@@ -94,6 +96,66 @@ def story(sid):
     spec = json.loads(t["slides_spec"]) if isinstance(t.get("slides_spec"), str) else (t.get("slides_spec") or {})
     script = re.split(r"\s*மேலும் செய்திகளுக்கு", t["reel_script"])[0].strip()
     return {"id": sid, "head": t["headline_ta"], "script": script, "spec": spec, "loc": spec.get("loc") or "", "cat": spec.get("cat") or ""}
+
+
+# ---------------------------------------------------------------- no fake number plates / logos / text in a news picture
+
+def blur_fake_text(jpg):
+    """owner 28 Nov (review): the free picture AI ignores 'no number plates', so the free Gemini vision check finds every number plate,
+    brand logo and piece of readable text in the picture, and those spots are blurred. A picture is kept as it is when the check is
+    not available (never a lost picture). The unblurred picture is kept next to it for review."""
+    import base64
+    import shutil
+    import cv2
+    import imagegen
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        log("blur: no Gemini key - picture kept as it is")
+        return 0
+    shutil.copy(jpg, jpg.with_name(jpg.stem + "_before_blur.jpg"))
+    body = {"contents": [{"parts": [
+        {"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(jpg.read_bytes()).decode()}},
+        {"text": "Find every vehicle number plate or license plate, every brand logo or badge, and every piece of readable text, "
+                 "letters or numbers anywhere in this image (signs, boards, vehicle bodies, clothes). Answer only JSON: "
+                 '{"boxes": [[ymin, xmin, ymax, xmax], ...]} with coordinates from 0 to 1000. Use an empty list when there is none.'}]}],
+        "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
+    boxes, last = None, ""
+    for model in imagegen._vision_models(key):
+        try:
+            r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                              headers={"x-goog-api-key": key, "Content-Type": "application/json"}, json=body, timeout=40)
+            r.raise_for_status()
+            j = json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
+            boxes = j.get("boxes", []) if isinstance(j, dict) else j
+            break
+        except Exception as e:
+            last = f"{model}: {str(e)[:100]}"
+    if boxes is None:
+        log("blur: vision check not available - picture kept as it is:", last)
+        return 0
+    img = cv2.imread(str(jpg))
+    h, w = img.shape[:2]
+    n = 0
+    for b in (boxes or [])[:25]:
+        if isinstance(b, dict):
+            b = b.get("box_2d") or b.get("box") or []
+        try:
+            y0, x0, y1, x1 = [float(v) for v in b][:4]
+        except Exception:
+            continue
+        x0, x1 = sorted((x0, x1))
+        y0, y1 = sorted((y0, y1))
+        px, py = (x1 - x0) * 0.15 + 4, (y1 - y0) * 0.15 + 4
+        X0, X1 = int(max(0, x0 - px) * w / 1000), int(min(1000, x1 + px) * w / 1000)
+        Y0, Y1 = int(max(0, y0 - py) * h / 1000), int(min(1000, y1 + py) * h / 1000)
+        if X1 - X0 < 4 or Y1 - Y0 < 4:
+            continue
+        small = cv2.resize(img[Y0:Y1, X0:X1], (max(1, (X1 - X0) // 16), max(1, (Y1 - Y0) // 16)), interpolation=cv2.INTER_AREA)
+        img[Y0:Y1, X0:X1] = cv2.GaussianBlur(cv2.resize(small, (X1 - X0, Y1 - Y0), interpolation=cv2.INTER_LINEAR), (0, 0), 5)
+        n += 1
+    cv2.imwrite(str(jpg), img, [cv2.IMWRITE_JPEG_QUALITY, 92])
+    log(f"blur: {n} spot(s) blurred (plates / logos / text)")
+    return n
 
 
 # ---------------------------------------------------------------- (4) living pictures
@@ -234,7 +296,7 @@ body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:#000;font-fam
 #hook .h2{{display:inline-block;margin-top:18px;background:{GOLD};color:{MAROON};font-size:50px;font-weight:900;padding:4px 18px;border-radius:8px}}
 #cap{{position:absolute;left:40px;right:40px;bottom:250px;z-index:7;text-align:center;font-size:72px;font-weight:900;line-height:1.25;color:#fff;
  text-shadow:0 0 6px #000,0 6px 18px rgba(0,0,0,.9),3px 3px 0 #000,-3px -3px 0 #000,3px -3px 0 #000,-3px 3px 0 #000}}
-#cap .w{{display:inline-block;margin:0 10px}} #cap .w.on{{color:#FFE14D;transform:scale(1.12)}} #cap .w.num{{color:#5BF08A}}
+#cap .w{{display:inline-block;margin:0 10px}} #cap .w.on{{color:#FFE14D}} #cap .w.num{{color:#5BF08A}}
 #cap .w.pl{{color:#6FD3FF}}
 #mapc{{position:absolute;right:40px;top:262px;width:360px;z-index:6;background:rgba(10,10,20,.78);border-radius:26px;padding:16px;
  box-shadow:0 14px 34px rgba(0,0,0,.5),0 0 0 4px {GOLD};text-align:center;opacity:0}}
@@ -350,6 +412,7 @@ def make_news(item):
         jpg = work / f"pic{k}.jpg"
         if not jpg.exists():
             jpg.write_bytes(imagegen.generate(prompt + NO_FAKE, seed=17 + k, free_only=True))      # free picture services only
+            blur_fake_text(jpg)
         frames.append(living_frames(jpg, work / f"live{k}", 5 + k))
     a, words = voice(s["script"], work)
     lead = 0.3
