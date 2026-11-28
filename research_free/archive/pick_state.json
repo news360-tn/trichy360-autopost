@@ -1,5 +1,5 @@
 {
- "last_end": "2026-11-28T16:15:11.475470+05:30",
+ "last_end": "2026-11-28T18:28:09.381138+05:30",
  "pool": {
   "C5d6c867": {
    "id": "C5d6c867",
@@ -30,58 +30,35 @@
    "picked_at": "2026-11-28T02:29:20.415351+05:30",
    "refused": "not filed: not Trichy district news (the story's first lines name another place and no Trichy place)"
   },
-  "Cef8d3e0": {
-   "id": "Cef8d3e0",
-   "url": "https://tamil.indianexpress.com/tamilnadu/vck-protest-against-delimitation-bill-trichy-tamil-news-12849229",
-   "title": "தொகுதி மறுவரையறை மசோதா: திருச்சியில் வி.சி.க ஆர்ப்பாட்டம்",
-   "summary": "நாடாளுமன்ற சிறப்பு கூட்டத்தொடர் நவம்பர் 30 முதல் டிசம்பர் 3 வரை நடைபெறவுள்ளது. இதில், தொகுதி மறுவரையறைக்கான அரசியல் சாசன திருத்த மசோதா மீண்டும் தாக்கல் செய்யப்பட இருக்கிறது.",
-   "source": "இந்தியன் எக்ஸ்பிரஸ் தமிழ்",
-   "published": "2026-11-28T15:52:38+05:30",
+  "C82383ec": {
+   "id": "C82383ec",
+   "url": "https://www.dailythanthi.com/news/tamilnadu/additional-coaches-added-to-trichy-srikanganagar-train",
+   "title": "திருச்சி-ஸ்ரீகங்காநகர் ரெயிலில் கூடுதல் பெட்டிகள் இணைப்பு",
+   "summary": "திருச்சி, ரெயில்களில் பயணிகளின் நெரிசலை குறைப்பதற்காக பின்வரும் ரெயில்களில் தற்காலிக கூடுதல் பெட்டிகள் இணைக்கப்பட்டுள்ளன. அதன்படி ஸ்ரீகங்காநகர்-திருச்சி இடையே திங்கட்கிழமை இயக்கப்படும் ஹம்சாபர் எக்ஸ்பிரஸ் ரெயிலில் வரு...",
+   "source": "தினத்தந்தி",
+   "published": "2026-11-28T11:56:08Z",
+   "category": "பொது",
+   "score": 4.0,
+   "power_cut": false,
+   "alts": [
+    "https://www.dailythanthi.com/amp/story/news/tamilnadu/additional-coaches-added-to-trichy-srikanganagar-train"
+   ],
+   "listed_at": "2026-11-28T18:28:09.381138+05:30"
+  },
+  "Ce1a8de3": {
+   "id": "Ce1a8de3",
+   "url": "https://tamil.samayam.com/tamil-nadu/tiruchirappalli/trichy-biological-park-opening-delay-continues-in-approval-from-central-authority/articleshow/136245752.cms",
+   "title": "திருச்சி உயிரியல் பூங்கா எப்போது திறக்கப்படும்? மத்திய உயிரியல் பூங்கா ஆணையத்தின் ஒப்புதலில் தொடரும் தாமதம்!",
+   "summary": "திருச்சி உயிரியல் பூங்கா (Biological Park) எப்போது திறக்கப்படும் என்ற கேள்வி பொதுமக்கள் மற்றும் இயற்கை ஆர்வலர்கள் மத்தியில் வலுத்து வரும் நிலையில், மத்திய உயிரியல் பூங்கா ஆணையத்தின் (Central Zoo Authority - CZA) ஒப்பு...",
+   "source": "சமயம் தமிழ்",
+   "published": "2026-11-28T17:10:13+05:30",
    "category": "பொது",
    "score": 3.0,
    "power_cut": false,
-   "listed_at": "2026-11-28T16:15:11.475470+05:30",
-   "picked_at": "2026-11-28T16:17:13.937489+05:30",
-   "posted": true
+   "listed_at": "2026-11-28T18:28:09.381138+05:30"
   }
  },
  "rounds": {
-  "2026-11-27_04": {
-   "window": [
-    "2026-11-27T01:14:30.444845+05:30",
-    "2026-11-27T04:28:43.727618+05:30"
-   ],
-   "ids": [
-    "C9e5360d",
-    "C43d2160",
-    "C668647f",
-    "Ca82de82",
-    "C8f8a245",
-    "Ca84a525"
-   ],
-   "sent": false,
-   "deadline": "2026-11-27T05:28:43.727618+05:30",
-   "decided": {
-    "how": "automatic: top 7 of 6 by insights",
-    "ids": [
-     "C9e5360d",
-     "C43d2160",
-     "C668647f",
-     "Ca82de82",
-     "C8f8a245",
-     "Ca84a525"
-    ],
-    "at": "2026-11-27T04:31:08.131274+05:30"
-   },
-   "written": [
-    "C43d2160",
-    "C668647f",
-    "C8f8a245",
-    "C9e5360d",
-    "Ca82de82",
-    "Ca84a525"
-   ]
-  },
   "2026-11-27_05": {
    "window": [
     "2026-11-27T04:28:43.727618+05:30",
@@ -516,6 +493,20 @@
    "written": [
     "Cef8d3e0"
    ]
+  },
+  "2026-11-28_18": {
+   "window": [
+    "2026-11-28T16:15:11.475470+05:30",
+    "2026-11-28T18:28:09.381138+05:30"
+   ],
+   "ids": [
+    "C82383ec",
+    "Ce1a8de3"
+   ],
+   "sent": false,
+   "deadline": "2026-11-28T19:28:09.381138+05:30",
+   "decided": null,
+   "written": []
   }
  },
  "retry": {},
@@ -1747,6 +1738,50 @@
   "Ce706874": "2026-11-28T16:15 not Trichy district",
   "Cd721b2a": "2026-11-28T16:15 not Trichy district",
   "Cf689b5b": "2026-11-28T16:15 not Trichy district",
-  "C462b16d": "2026-11-28T16:15 not Trichy district"
+  "C462b16d": "2026-11-28T16:15 not Trichy district",
+  "G475e80b357": "2026-11-28T18:28 D",
+  "G0d5cd9c0b1": "2026-11-28T18:28 D",
+  "G10ca849de2": "2026-11-28T18:28 D",
+  "G559d805ed6": "2026-11-28T18:28 D",
+  "G7552d08c30": "2026-11-28T18:28 D",
+  "G93f2b0dda3": "2026-11-28T18:28 D",
+  "G45dcc1542e": "2026-11-28T18:28 D",
+  "Ga3e8662035": "2026-11-28T18:28 D",
+  "G8759ef4870": "2026-11-28T18:28 D",
+  "G78903a0e10": "2026-11-28T18:28 D",
+  "Gc854d56ac6": "2026-11-28T18:28 D",
+  "Gb77b750919": "2026-11-28T18:28 D",
+  "G7a5b12506c": "2026-11-28T18:28 D",
+  "Gc5542d2f6f": "2026-11-28T18:28 D",
+  "Ga2471ee2a9": "2026-11-28T18:28 D",
+  "G3aca41a000": "2026-11-28T18:28 D",
+  "G3f4f382b2a": "2026-11-28T18:28 D",
+  "G2473484f82": "2026-11-28T18:28 D",
+  "G1668bc8cca": "2026-11-28T18:28 D",
+  "G5fe71a99de": "2026-11-28T18:28 D",
+  "G7de3407f15": "2026-11-28T18:28 D",
+  "G106acf0d91": "2026-11-28T18:28 D",
+  "Gd518152136": "2026-11-28T18:28 D",
+  "Ge6313e31ed": "2026-11-28T18:28 D",
+  "G02c4bc4400": "2026-11-28T18:28 D",
+  "G8f78137d07": "2026-11-28T18:28 D",
+  "G190d8bf03d": "2026-11-28T18:28 D",
+  "G88798e5154": "2026-11-28T18:28 D",
+  "G359dad0bb5": "2026-11-28T18:28 D",
+  "Ge8852bf1f9": "2026-11-28T18:28 D",
+  "G6c95258f1b": "2026-11-28T18:28 D",
+  "Gc2f4180db0": "2026-11-28T18:28 D",
+  "Gd67ec0bd2f": "2026-11-28T18:28 D",
+  "Cf018101": "2026-11-28T18:28 not Trichy district",
+  "Cd6cc431": "2026-11-28T18:28 not Trichy district",
+  "C8cf0ee4": "2026-11-28T18:28 not Trichy district",
+  "Ce3c8243": "2026-11-28T18:28 not Trichy district",
+  "Cf7dfa25": "2026-11-28T18:28 not Trichy district",
+  "Cb9b2fa0": "2026-11-28T18:28 not Trichy district",
+  "Cc81c836": "2026-11-28T18:28 not Trichy district",
+  "Cf0544ec": "2026-11-28T18:28 not Trichy district",
+  "C1ed5f0a": "2026-11-28T18:28 not Trichy district",
+  "Ce7b1f1d": "2026-11-28T18:28 published before this window",
+  "Cc4eb8a1": "2026-11-28T18:28 not Trichy district"
  }
 }
