@@ -1,68 +1,68 @@
-11:12:45 SKIP RN-4 stale: published 12 Nov, older than yesterday
-11:12:45 SKIP RN-19 stale: published 14 Nov, older than yesterday
-11:12:45 SKIP RN-22 stale: published 14 Nov, older than yesterday
-11:12:45 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
-11:12:45 SKIP RN-29 stale: published 14 Nov, older than yesterday
-11:12:45 SKIP RN-42 stale: published 16 Nov, older than yesterday
-11:12:45 SKIP RN-45 stale: the power cut was on 17 Nov - over
-11:12:45 SKIP RN-71 stale: published 18 Nov, older than yesterday
-11:12:45 SKIP RN-92 stale: published 20 Nov, older than yesterday
-11:12:45 SKIP RN-108 stale: published 21 Nov, older than yesterday
-11:12:45 SKIP RN-109 stale: published 21 Nov, older than yesterday
-11:12:45 SKIP RN-110 stale: published 21 Nov, older than yesterday
-11:12:45 SKIP RN-111 stale: published 21 Nov, older than yesterday
-11:12:45 SKIP RN-112 stale: published 21 Nov, older than yesterday
-11:12:45 SKIP RN-113 stale: published 22 Nov, older than yesterday
-11:12:45 SKIP RN-114 stale: published 22 Nov, older than yesterday
-11:12:45 SKIP RN-116 stale: the power cut was on 23 Nov - over
-11:12:45 SKIP RN-140 stale: published 24 Nov, older than yesterday
-11:12:45 SKIP RN-142 stale: published 24 Nov, older than yesterday
-11:12:46 SKIP RN-151 held: fact-check problems - numbers not found in the article: 15
-11:12:46 SKIP RN-162 stale: published 26 Nov, older than yesterday
-11:12:46 SKIP RN-170 held: fact-check problems - numbers not found in the article: 10
-11:12:46 SKIP RN-176 held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says it covered the city and the outskirts of Trichy district.; fact-check: The reel_scr
+11:15:33 SKIP RN-4 stale: published 12 Nov, older than yesterday
+11:15:33 SKIP RN-19 stale: published 14 Nov, older than yesterday
+11:15:33 SKIP RN-22 stale: published 14 Nov, older than yesterday
+11:15:33 SKIP RN-24 known issue english_in_voice: voice script has English words the voice skips (in, tnstc, www)
+11:15:33 SKIP RN-29 stale: published 14 Nov, older than yesterday
+11:15:33 SKIP RN-42 stale: published 16 Nov, older than yesterday
+11:15:33 SKIP RN-45 stale: the power cut was on 17 Nov - over
+11:15:33 SKIP RN-71 stale: published 18 Nov, older than yesterday
+11:15:33 SKIP RN-92 stale: published 20 Nov, older than yesterday
+11:15:33 SKIP RN-108 stale: published 21 Nov, older than yesterday
+11:15:33 SKIP RN-109 stale: published 21 Nov, older than yesterday
+11:15:33 SKIP RN-110 stale: published 21 Nov, older than yesterday
+11:15:33 SKIP RN-111 stale: published 21 Nov, older than yesterday
+11:15:33 SKIP RN-112 stale: published 21 Nov, older than yesterday
+11:15:33 SKIP RN-113 stale: published 22 Nov, older than yesterday
+11:15:33 SKIP RN-114 stale: published 22 Nov, older than yesterday
+11:15:33 SKIP RN-116 stale: the power cut was on 23 Nov - over
+11:15:33 SKIP RN-140 stale: published 24 Nov, older than yesterday
+11:15:33 SKIP RN-142 stale: published 24 Nov, older than yesterday
+11:15:33 SKIP RN-151 held: fact-check problems - numbers not found in the article: 15
+11:15:33 SKIP RN-162 stale: published 26 Nov, older than yesterday
+11:15:34 SKIP RN-170 held: fact-check problems - numbers not found in the article: 10
+11:15:34 SKIP RN-176 held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says it covered the city and the outskirts of Trichy district.; fact-check: The reel_scr
 ::warning title=Held from posting RN-176::held: fact-check problems - fact-check: The reel_script says the heavy rain fell in 'திருச்சி நகரில்' (Trichy city) only, while the article says it covered the city and the outskirts of Trichy district.; fact-check: The reel_scr
-11:12:46 SKIP RN-177 held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', which is not part of the Tamil article and is an added detail outside the Tamil tex
+11:15:34 SKIP RN-177 held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', which is not part of the Tamil article and is an added detail outside the Tamil tex
 ::warning title=Held from posting RN-177::held: fact-check problems - fact-check: The caption contains an English line 'Python in Thuvarankurichi residential area rescued | Trichy news', which is not part of the Tamil article and is an added detail outside the Tamil tex
-11:12:46 SKIP RN-178 not this district's news (the headline names another district / town)
-11:12:46 SKIP RN-181 held: fact-check problems - fact-check: Slide2 third line incorrectly says the driver argued with police, but the article states the vehicle owner argued with police for compensation
+11:15:34 SKIP RN-178 not this district's news (the headline names another district / town)
+11:15:34 SKIP RN-181 held: fact-check problems - fact-check: Slide2 third line incorrectly says the driver argued with police, but the article states the vehicle owner argued with police for compensation
 ::warning title=Held from posting RN-181::held: fact-check problems - fact-check: Slide2 third line incorrectly says the driver argued with police, but the article states the vehicle owner argued with police for compensation
-11:12:46 SKIP RN-187 not this district's news (the headline names another district / town)
-11:12:46 SKIP RN-202 held: fact-check problems - fact-check: slides_spec title 'எத்தனை பேர்?' and the 'வழித்தடம்' slide line 'வளையப்பட்டி, ஏளூர்பட்டி, தொட்டியம் வழியாக செல்கின்றனர்' are fine, but the 'வழித்தடம்' slide line 'முசிறி, மண்ணச்சநல்லூர் வழ
+11:15:34 SKIP RN-187 not this district's news (the headline names another district / town)
+11:15:34 SKIP RN-202 held: fact-check problems - fact-check: slides_spec title 'எத்தனை பேர்?' and the 'வழித்தடம்' slide line 'வளையப்பட்டி, ஏளூர்பட்டி, தொட்டியம் வழியாக செல்கின்றனர்' are fine, but the 'வழித்தடம்' slide line 'முசிறி, மண்ணச்சநல்லூர் வழ
 ::warning title=Held from posting RN-202::held: fact-check problems - fact-check: slides_spec title 'எத்தனை பேர்?' and the 'வழித்தடம்' slide line 'வளையப்பட்டி, ஏளூர்பட்டி, தொட்டியம் வழியாக செல்கின்றனர்' are fine, but the 'வழித்தடம்' slide line 'முசிறி, மண்ணச்சநல்லூர் வழ
-11:12:46 story catch-up off (test run or post_stories false)
-11:12:46   youtube upload: trichy: waits (this channel's YouTube upload limit was reached - tried again after 12:04 IST)
-11:12:46 29 stories in the queue, ready to post: 1
-11:12:46   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
-11:12:46    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 364.0 ready= False set_started= True
-11:12:46    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 333.2 ready= False set_started= True
-11:12:46    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 329.5 ready= False set_started= True
-11:12:46    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 329.5 ready= False set_started= True
-11:12:46    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 325.5 ready= False set_started= True
-11:12:46    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 293.3 ready= False set_started= True
-11:12:46    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 293.3 ready= False set_started= True
-11:12:46    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 243.8 ready= False set_started= True
-11:12:46    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 198.7 ready= False set_started= True
-11:12:46    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 170.3 ready= False set_started= True
-11:12:46    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 170.3 ready= False set_started= True
-11:12:46    RN-110 review= 'Auto' images= 197 spec= 662 pages= ['trichy'] links= '' '' age_h= 162.5 ready= False set_started= True
-11:12:46    RN-111 review= 'Auto' images= 197 spec= 733 pages= ['trichy'] links= '' '' age_h= 158.6 ready= False set_started= True
-11:12:46    RN-112 review= 'Auto' images= 99 spec= 503 pages= ['trichy'] links= '' '' age_h= 155.9 ready= False set_started= True
-11:12:46    RN-113 review= 'Auto' images= 197 spec= 685 pages= ['trichy'] links= '' '' age_h= 153.0 ready= False set_started= True
-11:12:46    RN-114 review= 'Auto' images= 197 spec= 817 pages= ['trichy'] links= '' '' age_h= 153.0 ready= False set_started= True
-11:12:46    RN-116 review= 'Auto' images= 197 spec= 670 pages= ['trichy'] links= '' '' age_h= 153.0 ready= False set_started= True
-11:12:46    RN-140 review= 'Auto' images= 197 spec= 726 pages= ['trichy'] links= '' '' age_h= 88.9 ready= False set_started= True
-11:12:46    RN-142 review= 'Auto' images= 197 spec= 799 pages= ['trichy'] links= '' '' age_h= 84.6 ready= False set_started= True
-11:12:46    RN-151 review= 'Auto' images= 189 spec= 611 pages= ['trichy'] links= '' '' age_h= 68.7 ready= False set_started= True
-11:12:46    RN-162 review= 'Auto' images= 189 spec= 757 pages= ['trichy'] links= '' '' age_h= 40.4 ready= False set_started= True
-11:12:46    RN-170 review= 'Auto' images= 197 spec= 712 pages= ['trichy'] links= '' '' age_h= 30.7 ready= False set_started= True
-11:12:46    RN-176 review= 'Auto' images= 283 spec= 632 pages= ['trichy'] links= '' '' age_h= 22.6 ready= False set_started= True
-11:12:46    RN-177 review= 'Auto' images= 189 spec= 693 pages= ['trichy'] links= '' '' age_h= 22.6 ready= False set_started= True
-11:12:46    RN-178 review= 'Auto' images= 283 spec= 569 pages= ['trichy'] links= '' '' age_h= 18.5 ready= False set_started= True
-11:12:46    RN-181 review= 'Auto' images= 283 spec= 686 pages= ['trichy'] links= '' '' age_h= 16.1 ready= False set_started= True
-11:12:46    RN-183 review= 'Auto' images= 189 spec= 888 pages= ['trichy'] links= '' '' age_h= 10.6 ready= True set_started= True
-11:12:46    RN-187 review= 'Auto' images= 189 spec= 528 pages= ['trichy'] links= '' '' age_h= 6.6 ready= False set_started= True
-11:12:46    RN-202 review= 'Auto' images= 189 spec= 697 pages= ['trichy'] links= '' '' age_h= 0.7 ready= False set_started= True
-11:12:47 publishing quota trichy: 27/50
-11:12:50 instagram duplicate check trichy: 50 recent posts read
-11:12:50    RN-183 skipped: already on Instagram ['trichy']
+11:15:34 story catch-up off (test run or post_stories false)
+11:15:34   youtube upload: trichy: waits (this channel's YouTube upload limit was reached - tried again after 12:04 IST)
+11:15:34 29 stories in the queue, ready to post: 1
+11:15:34   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ta', 'images', 'importance', 'location', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'spare_link', 'story_id', 'trichy_link', 'verification']
+11:15:34    RN-4 review= 'Auto' images= 99 spec= 730 pages= ['trichy'] links= '' '' age_h= 364.0 ready= False set_started= True
+11:15:34    RN-19 review= 'Auto' images= 197 spec= 737 pages= ['trichy'] links= '' '' age_h= 333.3 ready= False set_started= True
+11:15:34    RN-22 review= 'Auto' images= 197 spec= 899 pages= ['trichy'] links= '' '' age_h= 329.6 ready= False set_started= True
+11:15:34    RN-24 review= 'Auto' images= 197 spec= 756 pages= ['trichy'] links= '' '' age_h= 329.6 ready= False set_started= True
+11:15:34    RN-29 review= 'Auto' images= 197 spec= 550 pages= ['trichy'] links= '' '' age_h= 325.5 ready= False set_started= True
+11:15:34    RN-42 review= 'Auto' images= 197 spec= 741 pages= ['trichy'] links= '' '' age_h= 293.4 ready= False set_started= True
+11:15:34    RN-45 review= 'Auto' images= 197 spec= 706 pages= ['trichy'] links= '' '' age_h= 293.4 ready= False set_started= True
+11:15:34    RN-71 review= 'Auto' images= 197 spec= 920 pages= ['trichy'] links= '' '' age_h= 243.8 ready= False set_started= True
+11:15:34    RN-92 review= 'Auto' images= 197 spec= 705 pages= ['trichy'] links= '' '' age_h= 198.7 ready= False set_started= True
+11:15:34    RN-108 review= 'Auto' images= 197 spec= 892 pages= ['trichy'] links= '' '' age_h= 170.3 ready= False set_started= True
+11:15:34    RN-109 review= 'Auto' images= 197 spec= 723 pages= ['trichy'] links= '' '' age_h= 170.3 ready= False set_started= True
+11:15:34    RN-110 review= 'Auto' images= 197 spec= 662 pages= ['trichy'] links= '' '' age_h= 162.6 ready= False set_started= True
+11:15:34    RN-111 review= 'Auto' images= 197 spec= 733 pages= ['trichy'] links= '' '' age_h= 158.6 ready= False set_started= True
+11:15:34    RN-112 review= 'Auto' images= 99 spec= 503 pages= ['trichy'] links= '' '' age_h= 155.9 ready= False set_started= True
+11:15:34    RN-113 review= 'Auto' images= 197 spec= 685 pages= ['trichy'] links= '' '' age_h= 153.1 ready= False set_started= True
+11:15:34    RN-114 review= 'Auto' images= 197 spec= 817 pages= ['trichy'] links= '' '' age_h= 153.1 ready= False set_started= True
+11:15:34    RN-116 review= 'Auto' images= 197 spec= 670 pages= ['trichy'] links= '' '' age_h= 153.1 ready= False set_started= True
+11:15:34    RN-140 review= 'Auto' images= 197 spec= 726 pages= ['trichy'] links= '' '' age_h= 89.0 ready= False set_started= True
+11:15:34    RN-142 review= 'Auto' images= 197 spec= 799 pages= ['trichy'] links= '' '' age_h= 84.7 ready= False set_started= True
+11:15:34    RN-151 review= 'Auto' images= 189 spec= 611 pages= ['trichy'] links= '' '' age_h= 68.8 ready= False set_started= True
+11:15:34    RN-162 review= 'Auto' images= 189 spec= 757 pages= ['trichy'] links= '' '' age_h= 40.5 ready= False set_started= True
+11:15:34    RN-170 review= 'Auto' images= 197 spec= 712 pages= ['trichy'] links= '' '' age_h= 30.7 ready= False set_started= True
+11:15:34    RN-176 review= 'Auto' images= 283 spec= 632 pages= ['trichy'] links= '' '' age_h= 22.7 ready= False set_started= True
+11:15:34    RN-177 review= 'Auto' images= 189 spec= 693 pages= ['trichy'] links= '' '' age_h= 22.7 ready= False set_started= True
+11:15:34    RN-178 review= 'Auto' images= 283 spec= 569 pages= ['trichy'] links= '' '' age_h= 18.5 ready= False set_started= True
+11:15:34    RN-181 review= 'Auto' images= 283 spec= 686 pages= ['trichy'] links= '' '' age_h= 16.2 ready= False set_started= True
+11:15:34    RN-183 review= 'Auto' images= 189 spec= 888 pages= ['trichy'] links= '' '' age_h= 10.6 ready= True set_started= True
+11:15:34    RN-187 review= 'Auto' images= 189 spec= 528 pages= ['trichy'] links= '' '' age_h= 6.7 ready= False set_started= True
+11:15:34    RN-202 review= 'Auto' images= 189 spec= 697 pages= ['trichy'] links= '' '' age_h= 0.7 ready= False set_started= True
+11:15:35 publishing quota trichy: 27/50
+11:15:36 instagram duplicate check trichy: 50 recent posts read
+11:15:36    RN-183 skipped: already on Instagram ['trichy']
