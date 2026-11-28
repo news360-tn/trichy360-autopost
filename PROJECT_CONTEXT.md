@@ -84,34 +84,34 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
-| 2026-11-27 | `4c8219a` | Tests: Facebook retry plan is 10 min x5 then 1 h once (7 tries) |
-| 2026-11-27 | `55454e0` | stories shared / Instagram pause |
-| 2026-11-27 | `c912cf2` | Posting rules 27 Nov: 30 news a day per platform by views, 06:00-22:00 (urgent any time), retry 10 min x5 then 1 h, block wait as stated else 2 h, collect every 2 h |
-| 2026-11-27 | `09a9b4b` | stories shared / Instagram pause |
-| 2026-11-27 | `82f9424` | stories shared / Instagram pause |
-| 2026-11-27 | `a6f6bbf` | pick: written and posted |
-| 2026-11-27 | `24e6b12` | pick: picked news saved |
-| 2026-11-27 | `71f9a87` | pick: picked news saved |
-| 2026-11-27 | `8d02af0` | pick: list sent |
-| 2026-11-27 | `7d381e5` | stories shared / Instagram pause |
-| 2026-11-27 | `443dc34` | stories shared / Instagram pause |
-| 2026-11-27 | `7aeeafe` | No manual work: stop the manual-post and Facebook-share e-mails (config.json owner_emails false); only automatic posting |
-| 2026-11-27 | `624f4c9` | stories shared / Instagram pause |
-| 2026-11-27 | `8809eac` | stories shared / Instagram pause |
-| 2026-11-27 | `2bac21e` | stories shared / Instagram pause |
-| 2026-11-27 | `eda5e51` | stories shared / Instagram pause |
-| 2026-11-27 | `3aed40c` | stories shared / Instagram pause |
-| 2026-11-27 | `4e8855b` | stories shared / Instagram pause |
-| 2026-11-27 | `e9e476e` | stories shared / Instagram pause |
-| 2026-11-27 | `0c85af6` | autofix: corrected held news |
-| 2026-11-27 | `ee8f19a` | stories shared / Instagram pause |
-| 2026-11-27 | `43a6892` | stories shared / Instagram pause |
-| 2026-11-27 | `d8c6e96` | stories shared / Instagram pause |
-| 2026-11-27 | `1943445` | stories shared / Instagram pause |
-| 2026-11-27 | `5ee5f4a` | stories shared / Instagram pause |
-| 2026-11-27 | `9611a08` | pick: written and posted |
-| 2026-11-27 | `0691249` | facebook RN-182 |
-| 2026-11-27 | `d356f9e` | posted RN-182 |
-| 2026-11-27 | `20b119a` | stories shared / Instagram pause |
-| 2026-11-27 | `74155e5` | pick: picked news saved |
+| 2026-11-28 | `280b060` | Trichy reels: same design as the other pages (design test off - design A only, 88 s / 160 words, 2 pictures, English FOLLOW end card, no political assets) |
+| 2026-11-28 | `145fac6` | stories shared / Instagram pause |
+| 2026-11-28 | `043fc25` | stories shared / Instagram pause |
+| 2026-11-28 | `bbed658` | facebook RN-198 |
+| 2026-11-28 | `efe850b` | posted RN-198 |
+| 2026-11-28 | `3c27f0a` | facebook RN-199 |
+| 2026-11-28 | `096c262` | posted RN-199 |
+| 2026-11-28 | `c712e14` | stories shared / Instagram pause |
+| 2026-11-28 | `ecf9f1a` | pick: picked news saved |
+| 2026-11-28 | `c41f360` | stories shared / Instagram pause |
+| 2026-11-28 | `72b8ec9` | pick: picked news saved |
+| 2026-11-28 | `95f2503` | pick: list sent |
+| 2026-11-28 | `5b53b34` | stories shared / Instagram pause |
+| 2026-11-28 | `4f731c2` | pick: written and posted |
+| 2026-11-28 | `ca222bf` | facebook RN-196 |
+| 2026-11-28 | `ff0f7b3` | posted RN-196 |
+| 2026-11-28 | `a1ba63f` | stories shared / Instagram pause |
+| 2026-11-28 | `4909eed` | stories shared / Instagram pause |
+| 2026-11-28 | `d29d903` | facebook RN-195 |
+| 2026-11-28 | `ccd3e41` | posted RN-195 |
+| 2026-11-28 | `62cd735` | stories shared / Instagram pause |
+| 2026-11-28 | `c280957` | stories shared / Instagram pause |
+| 2026-11-28 | `3451c48` | facebook RN-197 |
+| 2026-11-28 | `afc6d75` | posted RN-197 |
+| 2026-11-28 | `fcab646` | stories shared / Instagram pause |
+| 2026-11-28 | `d861369` | pick: picked news saved |
+| 2026-11-28 | `dffff9e` | stories shared / Instagram pause |
+| 2026-11-28 | `81c1819` | pick: picked news saved |
+| 2026-11-28 | `314eb34` | pick: list sent |
+| 2026-11-28 | `726bfb2` | stories shared / Instagram pause |
 <!-- recent-changes:end -->
