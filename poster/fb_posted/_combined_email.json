@@ -193,9 +193,17 @@
   },
   "trichy:RN-191": {
    "day": "2026-11-28",
-   "tries": 2
+   "tries": 3,
+   "how": "failed"
   },
   "trichy:RN-190": {
+   "day": "2026-11-28",
+   "how": "sent",
+   "at": "2026-11-28T01:58:13+00:00",
+   "fb": true,
+   "yt": false
+  },
+  "trichy:RN-188": {
    "day": "2026-11-28",
    "tries": 1
   }
