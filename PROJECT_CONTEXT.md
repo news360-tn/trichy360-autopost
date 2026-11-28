@@ -84,6 +84,8 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-28 | `6a1a77c` | Writer hook (first 3 s): place first + strong event word + one hard detail; நாளை/இன்று first; schemes open with the amount / last date; caption first line 7-12 words (data: 2,686 reels) |
+| 2026-11-28 | `44b6882` | stories shared / Instagram pause |
 | 2026-11-28 | `e74962a` | Trichy writer: full-news scripts (70-160 words, every fact) and 2 pictures again, like the other pages - views test rules off |
 | 2026-11-28 | `5d1cedf` | stories shared / Instagram pause |
 | 2026-11-28 | `cd71935` | stories shared / Instagram pause |
@@ -112,6 +114,4 @@ python3 tools/repost.py RN-158               # (Actions: repost) post a reel aga
 | 2026-11-28 | `d29d903` | facebook RN-195 |
 | 2026-11-28 | `ccd3e41` | posted RN-195 |
 | 2026-11-28 | `62cd735` | stories shared / Instagram pause |
-| 2026-11-28 | `c280957` | stories shared / Instagram pause |
-| 2026-11-28 | `3451c48` | facebook RN-197 |
 <!-- recent-changes:end -->
