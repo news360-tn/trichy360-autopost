@@ -114,8 +114,14 @@ def details(m, page, uname):
     src = next((x for x in body if x.startswith("📰 Source")), "")
     body = [x for x in body if x != src]
     date = when(m["timestamp"]).strftime("%d %b %Y")
+    more = [f"#{name}News #{name}360"]
+    try:      # owner 28 Nov: 40 hashtags on every Short - 25 for the video, 5 page, 5 district, 5 area (yt_hashtags.py; YouTube allows 60)
+        import yt_hashtags
+        more = yt_hashtags.lines(cap, page, name, head) or more
+    except Exception as e:
+        log("the 40 hashtags were skipped (the old two are used):", str(e)[:120])
     desc = "\n".join([f"#{name} #TamilNews #Shorts", "", head, ""] + body[:12] + ["", src or "", f"📅 {date}", "",      # owner 25 Nov: YouTube shows the first 3 hashtags above the title
-                      f"🔔 Subscribe for daily {name} news", f"#{name}News #{name}360"] + (["", kw_line] if kw_line else [])).strip()      # owner 25 Nov: keep viewers on YouTube
+                      f"🔔 Subscribe for daily {name} news"] + more + (["", kw_line] if kw_line else [])).strip()      # owner 25 Nov: keep viewers on YouTube
     for extra in (f"{name} news", "Tamil news", f"{name} 360", "Shorts"):
         if extra not in tags:
             tags.append(extra)

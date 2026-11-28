@@ -33,6 +33,7 @@ daily        insights.yml       Instagram insights -> learned topic weights (wri
 | Priority | owner 27 Nov: by this page's Instagram views per topic (research_free/learned.json); urgent = an upcoming power cut (first) or a topic whose reels often pass 10,000 views (1 in 5) |
 | Never miss news | Everything eligible is queued and written; duplicates and other-district news are skipped; nothing eligible is dropped |
 | Daily cap | owner 27 Nov: 30 news a day per page on Instagram, Facebook and YouTube each (IST day; rasipalan / gold rate extra); after 30 only urgent news |
+| YouTube hashtags | owner 28 Nov: 40 hashtags on every YouTube Short (YouTube allows 60) - 25 for the video (from its own keyword line; sensitive news gets general tags only), 5 for the page, 5 for the district, 5 for the area of the news (poster/yt_hashtags.py). The first line stays `#<Page> #TamilNews #Shorts`; title, hidden Tags, Instagram and Facebook are not changed. Switch off: config.json `"youtube_hashtags": false` |
 | Posting time | owner 27 Nov: 06:00-22:00 IST every reel posts as soon as it is ready; 22:00-06:00 only urgent news. News is collected every 2 hours |
 | Errors and blocks | owner 27 Nov: after an error 5 tries 10 minutes apart, then 1 try 1 hour later, then Hold - never retried at once; a temporary block waits the time the platform states, else 2 hours. No manual work for the owner (config.json owner_emails false) |
 | Format | Reel only (no carousel) |
