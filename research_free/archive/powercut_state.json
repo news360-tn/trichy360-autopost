@@ -871,9 +871,9 @@
    "title": "coimbatore power cut: கோவையில் நாளை (27-11-2026) எத்தனை இடங்களில் மின் தடை ? - மின்வாரியம் வெளியிட்ட"
   },
   "https://tamil.abplive.com/news/trichy/trichy-power-cut-28-11-2026-know-timings-areas-affected-by-power-shutdown-280700#district-section": {
-   "at": "2026-11-28T13:32:32.269261+05:30",
+   "at": "2026-11-28T14:10:11.732134+05:30",
    "power_cut": true,
-   "why": "",
+   "why": "power cut ends today at 15:00 - too late to post",
    "title": "திருச்சி மாவட்டத்தில் நாளை (28-11-2026) மின்தடை: பல்வேறு பகுதிகளில் (நவம்பர் 28, 2026, சனிக்கிழமை) மின் பாதையில் பராமரிப்புப் பணிகள் நடைபெற உள்ளதால், காலை 10 மணி முதல் பிற்பகல் 3 மணி வரை மின்சாரம் தடை"
   },
   "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/27/load-van-overturns-during-vehicle-inspection": {
@@ -935,6 +935,24 @@
    "power_cut": false,
    "why": "other district",
    "title": "இன்றைய மின் தடை: காஞ்சிபுரம்"
+  },
+  "https://www.dinamalar.com/news/tamil-nadu-district-news-trichirappalli/husband-stabs-wife-to-death-arrested/4384336": {
+   "at": "2026-11-28T14:10:11.732134+05:30",
+   "power_cut": false,
+   "why": "not a power cut",
+   "title": "தலையில் அம்மிக்கல்லை போட்டு கணவனை கொன்ற மனைவி கைது"
+  },
+  "https://tamil.abplive.com/news/tamil-nadu/tamilnadu-power-shutdown-20-12-2026-kovai-thanjavur-power-cut-areas-affected-280133#district-section": {
+   "at": "2026-11-28T14:10:11.732134+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "Tamilnadu Power Cut: தமிழகத்தில் நாளை (20-11-2026) எங்கெல்லாம் பவர் கட் ? - மின் வாரியம் வெளியிட்ட லிஸ்ட்"
+  },
+  "https://tamil.abplive.com/news/tamil-nadu/karur-power-cut-24-11-2026-know-timings-areas-affected-by-power-shutdown-280375#district-section": {
+   "at": "2026-11-28T14:10:11.732134+05:30",
+   "power_cut": false,
+   "why": "not this district",
+   "title": "Karur Power Cut: கரூரில் நாளை (24-11-2026) இத்தனை இடங்களில் பவர் கட்டா? - மின் வாரியம் வெளியிட்ட பெரிய லிஸ்ட்"
   }
  },
  "done": {
