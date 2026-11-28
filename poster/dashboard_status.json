@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-28T13:03:21+00:00",
+ "updated": "2026-11-28T13:14:41+00:00",
  "day": "2026-11-28",
- "ready": 3,
+ "ready": 2,
  "pages": {
   "trichy": {
    "label": "திருச்சி 360",
@@ -153,6 +153,13 @@
       "link": "https://www.instagram.com/reel/DgSFz_GoQQv/",
       "at": "2026-11-28T10:57:09+00:00",
       "kind": "reel"
+     },
+     {
+      "id": "RN-207",
+      "head": "திருச்சி-ஸ்ரீகங்காநகர் ரெயிலில் கூடுதல் பெட்டி இணைப்பு: டிசம்பர் 11 முதல் அமலாக",
+      "link": "https://www.instagram.com/reel/DgSVN3GhBCV/",
+      "at": "2026-11-28T13:11:56+00:00",
+      "kind": "reel"
      }
     ],
     "paused": "",
@@ -162,7 +169,7 @@
     "posted": 0,
     "waiting": 0,
     "share": [],
-    "paused": ""
+    "paused": "Facebook limited this page - paused until 2026-11-28T15:12 UTC"
    },
    "manual_post": [],
    "daily": {
