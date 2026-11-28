@@ -3,101 +3,188 @@
   "earlier stories still waiting for images: []",
   "instagram check: 50 recent posts read from the page",
   "pick round: only the picked links are written (research_free/pick.py)",
-  "manual link added: https://tamil.indianexpress.com/tamilnadu/vck-protest-against-delimitation-bill-trichy-tamil-news-12849229",
-  "candidate filter: collected=1",
-  "to write: 1 Trichy district candidates (max 1 stories)",
-  "round: top 1 of 1 candidates",
-  "candidates waiting: 1 Trichy; time left 79 min",
-  "try (N) manual=True: https://tamil.indianexpress.com/tamilnadu/vck-protest-agains",
+  "manual link added: https://www.dailythanthi.com/news/tamilnadu/additional-coaches-added-to-trichy-srikanganagar-train",
+  "manual link added: https://tamil.samayam.com/tamil-nadu/tiruchirappalli/trichy-biological-park-opening-delay-continues-in-approval-from-central-authority/articleshow/136245752.cms",
+  "candidate filter: collected=2",
+  "to write: 2 Trichy district candidates (max 2 stories)",
+  "round: top 2 of 2 candidates",
+  "candidates waiting: 2 Trichy; time left 79 min",
+  "try (N) manual=True: https://tamil.samayam.com/tamil-nadu/tiruchirappalli/trichy-",
+  "try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/additional-coach",
   "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})",
   "posting job started at once",
-  "candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 78 min",
-  "filed: 1 Trichy district stories (target 1), reels only",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
+  "candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 76 min",
+  "filed: 2 Trichy district stories (target 2), reels only",
   "queue: 0 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":1,\"updated\":0}"
+  "All News sheet: {\"ok\":true,\"added\":2,\"updated\":0}"
  ],
  "llm": [
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3.6-flash (18s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok gemini/gemini-3.6-flash (19s)",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (15s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (20s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "ok gemini/gemini-3.5-flash (7s)",
+  "ok gemini/gemini-3.5-flash (4s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.5-flash",
   "ok gemini/gemini-3-flash-preview (10s)",
   "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (20s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok gemini/gemini-3-flash-preview (7s)",
-  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
+  "ok gemini/gemini-3-flash-preview (10s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3-flash-preview (8s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3-flash-preview (10s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3-flash-preview (4s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3-flash-preview",
+  "ok groq/openai/gpt-oss-120b (7s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "ok anthropic/claude-haiku-5-5",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/openai/gpt-oss-120b (5s)",
+  "gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/openai/gpt-oss-120b (2s)"
  ],
  "stories": [
   {
-   "tamil_headline": "திருச்சி உறையூரில் வி.சி.க ஆர்ப்பாட்டம்: தொகுதி மறுவரையறை மசோதாவுக்கு எதிர்ப்பு",
-   "english_headline": "VCK holds protest in Uraiyur, Trichy against constituency delimitation bill",
-   "category": "Civic Issues",
-   "location": "Uraiyur, Trichy district",
+   "tamil_headline": "திருச்சி-ஸ்ரீகங்காநகர் ரெயிலில் கூடுதல் பெட்டி இணைப்பு: டிசம்பர் 11 முதல் அமல்",
+   "english_headline": "Extra AC coach added to Trichy-Sri Ganganagar Humsafar Express from Dec 11 to Jan 1",
+   "category": "Roads & Transport",
+   "location": "Trichy Junction, Trichy district",
    "importance": "Medium",
-   "scope": "local",
+   "scope": "district",
    "post_to": "Trichy 360",
    "slides_spec": {
     "v": 3,
-    "cat": "கண்டன ஆர்ப்பாட்டம்",
-    "loc": "உறையூர், திருச்சி",
-    "hl1": "உறையூரில் வி.சி.க கண்டன ஆர்ப்பாட்டம்",
-    "hl2": "தொகுதி மறுவரையறைக்கு",
+    "cat": "ரயில் செய்தி",
+    "loc": "திருச்சி",
+    "hl1": "திருச்சி ரெயிலில் கூடுதல் பெட்டி",
+    "hl2": "கூடுதல் ஏசி பெட்டி இணைப்பு",
     "slides": [
      {
-      "title": "ஆர்ப்பாட்டம்",
+      "title": "என்ன மாற்றம்?",
       "lines": [
-       "திருச்சி உறையூர் குறத்தெருவில் வி.சி.க ஆர்ப்பாட்டம்",
-       "மத்திய பா.ஜ.க அரசைக் கண்டித்து முழக்கங்கள்"
+       "திருச்சி - ஸ்ரீகங்காநகர் ஹம்சாபர் எக்ஸ்பிரஸ்",
+       "கூடுதலாக <b>ஒரு</b> 3-அடுக்கு ஏசி பெட்டி இணைப்பு",
+       "பயணிகள் நெரிசலைக் குறைக்க நடவடிக்கை"
       ]
      },
      {
-      "title": "முக்கியக் கோரிக்கை",
+      "title": "திருச்சி டூ",
       "lines": [
-       "தொகுதி மறுவரையறை நடவடிக்கைக்கு எதிர்ப்பு",
-       "தற்போதைய எல்லைப்படி மகளிர் இடஒதுக்கீடு அமல் கோரிக்கை"
+       "வண்டி எண்: <b>22498</b>",
+       "டிசம்பர் <b>11</b> முதல் ஜனவரி <b>1</b> வரை",
+       "வெள்ளிக்கிழமை அதிகாலை <b>4.45</b>-க்கு புறப்படும்"
       ]
      },
      {
-      "title": "யார் பங்கேற்பு?",
+      "title": "மறுமார்க்கம்",
       "lines": [
-       "மாவட்ட செயலாளர் புல்லட் லாரன்ஸ் தலைமை",
-       "மாநில நிதிச் செயலாளர் தமிழாதன் கண்டன உரை"
-      ]
-     },
-     {
-      "title": "மசோதா பின்னணி",
-      "lines": [
-       "நவம்பர் <b>30</b> முதல் நாடாளுமன்ற சிறப்பு கூட்டத்தொடர்",
-       "மசோதா நிறைவேற <b>3-ல் 2 பங்கு</b> ஆதரவு தேவை"
+       "ஸ்ரீகங்காநகர் - திருச்சி ரயில்",
+       "டிசம்பர் <b>7</b> முதல் <b>28</b>-ம் தேதி வரை",
+       "திங்கட்கிழமைகளில் கூடுதல் பெட்டி"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "திருச்சி உறையூரில் தொகுதி மறுவரையறை மசோதாவைக் கண்டித்து வி சி க ஆர்ப்பாட்டம். நாடாளுமன்ற சிறப்பு கூட்டத்தொடர் நவம்பர் 30 முதல் டிசம்பர் 3 வரை நடைபெறவுள்ளது. இதில் தொகுதி மறுவரையறைக்கான அரசியல் சாசன திருத்த மசோதா தாக்கல் செய்யப்பட உள்ளது. இந்த மசோதா நிறைவேற 3-ல் 2 பங்கு ஆதரவு தேவை. கடந்த ஏப்ரல் மாதம் 3-ல் 2 பங்கு ஆதரவு கிடைக்காததால் இந்த மசோதா தோல்வி அடைந்தது. தற்போது மீண்டும் இந்த மசோதா கொண்டுவரப்படும் நிலையில் வி சி க சார்பில் கண்டன ஆர்ப்பாட்டம் நடைபெற்றது. திருச்சி மேற்கு தொகுதி வி சி க சார்பில் உறையூர் குறத்தெரு பகுதியில் இந்த ஆர்ப்பாட்டம் நடந்தது. தற்போதைய தொகுதி வரையறையின்படியே மகளிர் இடஒதுக்கீட்டை உடனடியாக அமல்படுத்த வேண்டும் என்று வலியுறுத்தினர். மாவட்ட செயலாளர் புல்லட் லாரன்ஸ் தலைமையில் நடைபெற்ற இதில் மாநில நிதிச் செயலாளர் தமிழாதன் கண்டன உரையாற்றினார். நிர்வாகிகள் திரளாகப் பங்கேற்று மத்திய பா ஜ க அரசுக்கு எதிராக முழக்கமிட்டனர். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
-   "caption": "📢 திருச்சி உறையூரில் வி.சி.க ஆர்ப்பாட்டம் - தொகுதி மறுவரையறை மசோதாவுக்கு எதிர்ப்பு\n\n📰 முழு விவரம்:\nநாடாளுமன்ற சிறப்பு கூட்டத்தொடர் நவம்பர் 30 முதல் டிசம்பர் 3 வரை நடைபெறவுள்ளது. இதில் தொகுதி மறுவரையறைக்கான அரசியல் சாசன திருத்த மசோதா மீண்டும் தாக்கல் செய்யப்பட உள்ளது. இந்த மசோதா நிறைவேறுவதற்கு 3-ல் 2 பங்கு உறுப்பினர்களின் ஆதரவு தேவைப்படும் நிலையில், கடந்த ஏப்ரல் மாதம் போதுமான ஆதரவு கிடைக்காததால் மசோதா தோல்வி அடைந்தது.\n\nதற்போது மீண்டும் மசோதா தாக்கல் செய்யப்பட உள்ள நிலையில், தொகுதி மறுவரையறை நடவடிக்கையை எதிர்த்தும், தற்போதைய தொகுதி வரையறையின்படியே மகளிர் இடஒதுக்கீட்டை உடனடியாக அமல்படுத்தக் கோரியும் விடுதலை சிறுத்தைகள் கட்சி சார்பில் தமிழகம் முழுவதும் கண்டன ஆர்ப்பாட்டம் நடைபெற்றது.\n\nஇதன் ஒரு பகுதியாக திருச்சி மேற்கு தொகுதி வி.சி.க சார்பில் உறையூர் குறத்தெரு பகுதியில் இன்று ஆர்ப்பாட்டம் நடைபெற்றது. மாவட்ட செயலாளர் புல்லட் லாரன்ஸ் தலைமையில் நடைபெற்ற இந்த ஆர்ப்பாட்டத்தில், மாநில நிதிச் செயலாளர் தமிழாதன் சிறப்பு அழைப்பாளராகப் பங்கேற்று கண்டன உரையாற்றினார். இதில் வி.சி.க நிர்வாகிகள் பலர் திரளாகக் கலந்துகொண்டு மத்திய பா.ஜ.க அரசுக்கு எதிராக முழக்கங்களை எழுப்பினர்.\n\n📍 இடம்: குறத்தெரு, உறையூர், திருச்சி\n🗓️ நாள்: 28 நவம்பர் 2026\n📣 கோரிக்கை: தொகுதி மறுவரையறைக்கு எதிர்ப்பு & மகளிர் இடஒதுக்கீடு அமல்\n\nமுக்கிய தகவல்களுக்கு Share செய்யுங்கள்!\n\nVCK protest in Uraiyur Trichy against constituency delimitation bill | Trichy news\n📍 Uraiyur, Trichy district | 28 November 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #Uraiyur #VCKProtest #திருச்சி",
-   "prompts": "A crowd of VCK party members holding a protest demonstration against the delimitation bill in the Kuratheru area of Uraiyur, Trichy. The scene is a narrow urban street lined with small local shops and old concrete buildings. About thirty men, dressed in white shirts and veshtis or trousers, are gathered together, seen from behind as they raise their hands in protest. Several blue party flags on wooden poles are held high above the crowd. The sun is bright, indicating midday light. The camera is at eye level, using a 35mm lens to capture the density of the protest and the surrounding Uraiyur neighborhood. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide shot of the protest gathering at a street junction in Uraiyur near Kuratheru. Protesters are lined up along the side of the road, with their backs to the camera, holding placards and blue flags. In the background, a TNEB transformer on concrete poles and overhead power lines are visible against the clear sky. A few parked two-wheelers are seen on the edge of the street. The lighting is natural daylight, showing the dusty road and the urban textures of the Trichy suburb. The camera is positioned at a slightly high angle to show the scale of the gathering and the specific city environment. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://tamil.indianexpress.com/tamilnadu/vck-protest-against-delimitation-bill-trichy-tamil-news-12849229",
-   "published": "2026-11-28T15:52:38+05:30",
-   "verification": "DRAFT (gemini/gemini-3.6-flash) - fact-check: no problems found",
-   "note": "free-model draft gemini/gemini-3.6-flash, 2 attempt(s), 0 validator problem(s)",
+   "reel_script": "திருச்சியில் இருந்து ஸ்ரீகங்காநகர் செல்லும் ரெயிலில் கூடுதல் பெட்டி இணைக்கப்படுகிறது. பயணிகளின் கூட்ட நெரிசலைக் குறைப்பதற்காக இந்தத் தற்காலிக ஏற்பாடு செய்யப்பட்டுள்ளது. திருச்சி - ஸ்ரீகங்காநகர் ஹம்சாபர் எக்ஸ்பிரஸ் ரெயிலில் கூடுதலாக ஒரு மூன்றடுக்கு ஏசி பெட்டி இணைக்கப்படும். வண்டி எண் 22498 கொண்ட இந்த ரெயில் திருச்சியில் இருந்து வெள்ளிக்கிழமை தோறும் அதிகாலை 4.45-க்கு புறப்படும். இந்த ரெயிலில் டிசம்பர் 11ஆம் தேதி முதல் ஜனவரி 1ஆம் தேதி வரை கூடுதல் பெட்டி இருக்கும். மறுமார்க்கமாக ஸ்ரீகங்காநகரில் இருந்து திருச்சிக்கு திங்கட்கிழமைகளில் இயக்கப்படும் ரெயிலிலும் மாற்றம் செய்யப்பட்டுள்ளது. இந்த ரெயிலில் டிசம்பர் 7ஆம் தேதி முதல் 28ஆம் தேதி வரை கூடுதல் ஏசி பெட்டி இணைக்கப்படும். பயணிகள் இந்த வசதியைப் பயன்படுத்தி தங்கள் பயணத்தைத் திட்டமிட்டுக் கொள்ளலாம். மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🚆 திருச்சி-ஸ்ரீகங்காநகர் ரெயிலில் கூடுதல் ஏசி பெட்டி இணைப்பு - டிசம்பர் 11 முதல் அமல்\n\n📰 முழு விவரம்:\nதிருச்சி மற்றும் ஸ்ரீகங்காநகர் இடையே இயக்கப்படும் ஹம்சாபர் எக்ஸ்பிரஸ் ரெயில்களில் பயணிகளின் நெரிசலைக் குறைக்க கூடுதல் பெட்டிகள் இணைக்கப்பட்டுள்ளன.\n🚆 திருச்சி - ஸ்ரீகங்காநகர் (வண்டி எண்: 22498): திருச்சியில் இருந்து வெள்ளிக்கிழமை அதிகாலை 4.45-க்கு புறப்படும் இந்த ரெயிலில் டிசம்பர் 11 முதல் ஜனவரி 1 வரை கூடுதலாக ஒரு மூன்றடுக்கு ஏசி பெட்டி இணைக்கப்படும்.\n🚆 ஸ்ரீகங்காநகர் - திருச்சி: திங்கட்கிழமைகளில் இயக்கப்படும் இந்த ரெயிலில் டிசம்பர் 7 முதல் 28-ம் தேதி வரை கூடுதல் ஏசி பெட்டி இணைக்கப்படும்.\nபயணிகள் இந்த கூடுதல் வசதியைப் பயன்படுத்தி முன்பதிவு செய்து கொள்ளலாம்.\n\n📍 இடம்: திருச்சி ஜங்ஷன், திருச்சி மாவட்டம்\n🗓️ நாள்: டிசம்பர் 11 முதல் ஜனவரி 1 வரை\n🕘 நேரம்: அதிகாலை 4.45 மணி (திருச்சி புறப்பாடு)\nℹ️ மக்கள் கவனத்திற்கு: கூடுதல் பெட்டி இணைக்கப்பட்டுள்ளதால் பயணிகள் நெரிசலின்றி பயணிக்கலாம்.\n\nTrichy Sri Ganganagar Humsafar Express extra coach | Trichy railway news\n📍 Trichy Junction, Trichy | 28 November 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyJunction #TrichyNews #திருச்சி",
+   "prompts": "The Trichy-Sri Ganganagar Humsafar Express train stands stationary at a platform of Trichy Junction railway station during the early morning. The long train features its distinct blue and orange patterned coaches along the concrete platform under the glow of station lights. A few passengers carrying suitcases and bags are seen from behind, walking along the platform towards the train doors. The overhead electric lines and multiple tracks of the junction are visible in the dim pre-dawn light. The camera is at eye level, using a 35mm wide lens to capture the scale of the train and the station environment. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA detailed close-up shot focuses on the exterior of a 3-tier AC coach of the Humsafar Express at Trichy Junction. The side of the coach shows its sealed glass windows and the characteristic blue-orange livery, positioned perfectly against the edge of the station platform. In the background, the blurred silhouette of a railway worker in a reflective vest is seen from behind near the coach coupling. The scene is illuminated by the artificial yellow light of the platform lamps at 4:45 AM, reflecting off the metallic surface of the train. The camera is at eye level, providing a clear view of the modern coach added to handle the passenger rush. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.dailythanthi.com/news/tamilnadu/additional-coaches-added-to-trichy-srikanganagar-train",
+   "published": "2026-11-28T11:56:08Z",
+   "verification": "DRAFT (gemini/gemini-3-flash-preview) - fact-check: no problems found",
+   "note": "free-model draft gemini/gemini-3-flash-preview, 3 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
    "_score": 999,
    "images": [
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795862931/trichy360/bfbafd5s05tkplhatqrn.jpg",
-    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795862935/trichy360/ndnqvt15axpzq47l2hka.jpg"
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795870904/trichy360/apwnthgpo3gcks8idldn.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795870937/trichy360/zctelaldo5wjnjhuqyox.jpg"
+   ]
+  },
+  {
+   "tamil_headline": "திருச்சி உயிரியல் பூங்கா திறப்பு மேலும் தாமதம்: மத்திய ஆணைய ஒப்புதல் இன்னும் கிடைக்கவில்லை",
+   "english_headline": "Trichy biological park opening delayed further as Central Zoo Authority approval is still pending",
+   "category": "Civic Issues",
+   "location": "Trichy city, Trichy district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Trichy 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "பொது அறிவிப்பு",
+    "loc": "திருச்சி",
+    "hl1": "திருச்சி உயிரியல் பூங்கா திறப்பு தாமதம்",
+    "hl2": "ஒப்புதல் இன்னும்",
+    "slides": [
+     {
+      "title": "என்ன தாமதம்?",
+      "lines": [
+       "திருச்சி உயிரியல் பூங்கா திறப்பு தாமதமாகிறது",
+       "மத்திய உயிரியல் பூங்கா ஆணையத்தின் ஒப்புதல் கிடைக்கவில்லை",
+       "திறப்புத் தேதி குறித்த உறுதியான தகவல் இன்னும் இல்லை"
+      ]
+     },
+     {
+      "title": "ஏன் முக்கியம்?",
+      "lines": [
+       "குடும்பத்தினர், குழந்தைகள், மாணவர்களுக்கு புதிய",
+       "வார இறுதி, விடுமுறை நாட்களில் இயற்கைச் சூழல் வாய்ப்பு",
+       "சுற்றுலாப் பயணிகள் வருகையும் அதிகரிக்கும் என எதிர்பார்ப்பு"
+      ]
+     },
+     {
+      "title": "அடுத்து என்ன?",
+      "lines": [
+       "ஒப்புதல் நடைமுறைகள் விரைவுபடுத்தப்பட வேண்டும் என",
+       "தெளிவான கால அட்டவணை வெளியிட வேண்டும் என மக்கள் கோரிக்கை",
+       "அதிகாரிகளின் அதிகாரப்பூர்வ தகவலுக்கு காத்திருப்பு"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "திருச்சி உயிரியல் பூங்கா எப்போது திறக்கப்படும் என்ற கேள்விக்கு இன்னும் உறுதியான பதில் கிடைக்கவில்லை. மத்திய உயிரியல் பூங்கா ஆணையத்தின் ஒப்புதல் கிடைப்பதில் தொடர்ந்து தாமதம் நிலவி வருகிறது. உயிரியல் பூங்காக்கள் அமைத்தல் மற்றும் இயக்குதல் தொடர்பான விதிமுறைகளின்படி இந்த ஒப்புதல் முக்கியப் பங்கு வகிக்கிறது. திருச்சி மாநகரம் மற்றும் சுற்றியுள்ள மாவட்டங்களைச் சேர்ந்த குடும்பத்தினர், குழந்தைகள் மற்றும் மாணவர்கள் வார இறுதி மற்றும் விடுமுறை நாட்களில் இயற்கைச் சூழலில் நேரத்தைச் செலவிட இந்தப் பூங்கா பெரிதும் உதவும். பூங்கா செயல்பாட்டுக்கு வரும்போது சுற்றுலாப் பயணிகளின் வருகையும் ஊக்கம் பெறும் என எதிர்பார்க்கப்படுகிறது. கட்டமைப்பு வசதிகள், விலங்குகள் பராமரிப்பு, பார்வையாளர் பாதுகாப்பு ஆகியவை விதிமுறைகளின்படி முழுமையாகச் செயல்படுத்தப்பட வேண்டும். ஒப்புதல் நடைமுறைகள் விரைவுபடுத்தப்பட்டு, தெளிவான கால அட்டவணை வெளியிடப்பட வேண்டும் என்பதே மக்களின் எதிர்பார்ப்பு. மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.",
+   "caption": "🦁 திருச்சி உயிரியல் பூங்கா திறப்பு மேலும் தாமதம்\n\n📰 முழு விவரம்:\nதிருச்சி உயிரியல் பூங்கா எப்போது திறக்கப்படும் என்ற கேள்வி பொதுமக்கள், இயற்கை ஆர்வலர்கள் மத்தியில் வலுத்து வருகிறது.\nமத்திய உயிரியல் பூங்கா ஆணையத்தின் (Central Zoo Authority) ஒப்புதல் கிடைப்பதில் தொடர்ந்து தாமதம் நிலவுவதாகத் தெரிவிக்கப்பட்டுள்ளது.\nகுடும்பத்தினர், குழந்தைகள், மாணவர்கள் வார இறுதி, விடுமுறை நாட்களில் இயற்கைச் சூழலில் நேரம் செலவிட இது உதவும் என எதிர்பார்க்கப்படுகிறது.\nபூங்கா செயல்பாட்டுக்கு வந்ததும் சுற்றுலாப் பயணிகளின் வருகையும் அதிகரிக்கும் என எதிர்பார்ப்பு.\n🔎 கட்டமைப்பு, விலங்கு பராமரிப்பு, பார்வையாளர் பாதுகாப்பு வழிமுறைகள் விதிமுறைகளின்படி முழுமையாகச் செயல்படுத்தப்பட வேண்டும்.\n📢 ஒப்புதல் நடைமுறைகள் விரைவுபடுத்தப்பட்டு தெளிவான கால அட்டவணை வெளியிட வேண்டும் என மக்கள் எதிர்பார்க்கின்றனர்.\n\nTrichy biological park opening delayed | Trichy news\n📍 திருச்சி மாநகரம், திருச்சி மாவட்டம் | 28 நவம்பர் 2026\n\nஉள்ளூர் செய்திகளுக்கு Follow செய்யுங்கள் 🙏\n\n#Trichy360 #Trichy #TrichyNews #திருச்சி #TrichyRain",
+   "prompts": "A fenced construction site of the Trichy biological park stands empty, indicating the opening has been delayed. The scene is set at the park’s perimeter in Trichy city, showing the typical park grounds with temporary barriers and no visitors. No people are visible; the area is quiet and unoccupied. The only objects are construction fences and a few scattered building materials, hinting at ongoing work. Daylight illuminates the site under clear weather. The camera is positioned at eye level, using a 35 mm lens to capture a wide view of the park’s outer area. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up of a wooden notice board placed near the park’s entrance, displaying a handwritten note that reads “Opening postponed – awaiting CZA approval”. The board is set against the backdrop of the park’s gate in Trichy city. No people are shown; the focus is on the notice itself, the only object that conveys the story. The board is illuminated by natural daylight, with a clear sky overhead. The shot is taken slightly high, using a 35 mm lens to frame the notice clearly while keeping the surrounding fence blurred. Photorealistic press photograph from Trichy city, Tamil Nadu, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://tamil.samayam.com/tamil-nadu/tiruchirappalli/trichy-biological-park-opening-delay-continues-in-approval-from-central-authority/articleshow/136245752.cms",
+   "published": "2026-11-28T17:10:13+05:30",
+   "verification": "DRAFT (anthropic/claude-haiku-5-5) - NOT CLEAN, held from posting - problems: known issue meta_article: script talks about the article instead of the news ('தகவல் இன்னும் வெளியாகவில்லை') - rewrite so it does not happen again",
+   "note": "free-model draft anthropic/claude-haiku-5-5, 13 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 999,
+   "images": [
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795870979/trichy360/duh8mm9g905fkfria7o2.jpg",
+    "https://res.cloudinary.com/ou9cqzro/image/upload/v1795870988/trichy360/ccogp4fxosliiwy7fgy4.jpg"
    ]
   }
  ]

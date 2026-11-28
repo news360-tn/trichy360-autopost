@@ -1,13 +1,16 @@
-writing [N]: தொகுதி மறுவரையறை மசோதா: திருச்சியில் வி.சி.க ஆர்ப்பாட்டம்
+writing [N]: திருச்சி-ஸ்ரீகங்காநகர் ரெயிலில் கூடுதல் பெட்டிகள் இணைப்பு
+writing [N]: திருச்சி உயிரியல் பூங்கா எப்போது திறக்கப்படும்? மத்திய உயிரி
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok gemini/gemini-3.6-flash (18s)
-attempt 1 gemini/gemini-3.6-flash: 2 problems
-  sentence 1 (one-line story) has 14 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
-  caption misses facts of the article (put every one in 📰 முழு விவரம்): 2 ('இந்த மசோதா நிறைவேறுவதற்கு 3-ல் 2 பங்கு உறுப்பினர்களின் ஆதரவு'); 2 ('தற்போது மீண்டும் அந்த மசோதா கொண்டு வரப்படும் நிலையில், இந்த ')
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok gemini/gemini-3.6-flash (19s)
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3.6-flash (15s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  hl1 is 41 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
+  reel_script has 83 words; need 100-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3.6-flash (20s)
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
@@ -15,9 +18,11 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-ok gemini/gemini-3.5-flash (7s)
-factcheck by gemini/gemini-3.5-flash: 0 problems
-attempt 2 gemini/gemini-3.6-flash: 0 problems
+ok gemini/gemini-3.5-flash (4s)
+factcheck by gemini/gemini-3.5-flash: 1 problems
+  reel_script mentions 'தென்னக ரயில்வே' (Southern Railway), which is not mentioned in the article
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  fact-check: reel_script mentions 'தென்னக ரயில்வே' (Southern Railway), which is not mentioned in the article
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
@@ -26,38 +31,101 @@ fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.5-flash
 ok gemini/gemini-3-flash-preview (10s)
-proofread rejected (4 problems)
-  hl2 longer than 28 characters
-  reel_script must end with exactly: மேலும் செய்திகளுக்கு திருச்சி த்ரீ சிக்ஸ்டி பக்கத்தை பின்தொடருங்கள்.
-  sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
-  caption needs 5 hashtags (Instagram max), has 8
+attempt 2 gemini/gemini-3-flash-preview: 3 problems
+  hl1 is 47 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
+  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+  not grounded: location 'ரயில்' is not in the article
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (20s)
+attempt 2 gemini/gemini-3.6-flash: 2 problems
+  hl1 is 41 characters (max 40) - write a SHORTER COMPLETE phrase with fewer words that still ends with its key word (what happened: e.g. 'X அருகே வீட்டில் கொள்ளை'); never stop a phrase in the middle
+  known issue meta_article: caption talks about the article instead of the news ('தகவல் வெளியாகவில்லை') - rewrite so it does not happen again
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok gemini/gemini-3-flash-preview (7s)
+ok gemini/gemini-3-flash-preview (10s)
 gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-real photo: vision check unavailable: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:ge
-real photo: vision check out of free quota
-image match: False The image features plain blue flags instead of the official VCK party flag (which is blue and red with a white star), an
-image match: False The photo shows a rally with plain blue flags in a street with Gujarati signboards, not Tamil Nadu (Uraiyur, Trichy) whe
-Cloudflare R2 refused (R2 daily safety limit reached for trichy360 (299 MB, 52 files today) - R2 is skipped until tomorrow (free tier protected)) - trying Cloudinary
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3-flash-preview (8s)
+factcheck by gemini/gemini-3-flash-preview: 0 problems
+attempt 3 gemini/gemini-3-flash-preview: 0 problems
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (10s)
+proofread rejected (1 problems)
+  caption needs 5 hashtags (Instagram max), has 7
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3-flash-preview (4s)
+real photo skipped (photo uploaded 2026-06-10 (older than the news)): https://media.assettype.com/dailythanthi%2F2026-06-10%2Fchoau7ju%2F100.jpg?w=1200&ar=40%3A
+real photo skipped (photo uploaded 2026-06-10 (older than the news)): https://media.assettype.com/dailythanthi/2026-06-10/choau7ju/100.jpg?w=1200&h=675&auto=for
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+image match: False The photo shows a generic scene of passengers walking along a train platform, not the specific event of an extra AC coac
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 Cloudflare R2 refused (R2 daily safety limit reached for trichy360 (299 MB, 52 files today) - R2 is skipped until tomorrow (free tier protected)) - trying Cloudinary
-images made: 2 for 'VCK holds protest in Uraiyur, Trichy aga'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261128-1618","first":"RN-206"}
+fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3-flash-preview
+ok groq/openai/gpt-oss-120b (7s)
+attempt 3 groq/openai/gpt-oss-120b: 3 problems
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m7
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+Cloudflare R2 refused (R2 daily safety limit reached for trichy360 (299 MB, 52 files today) - R2 is skipped until tomorrow (free tier protected)) - trying Cloudinary
+images made: 2 for 'Extra AC coach added to Trichy-Sri Ganga'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261128-1832","first":"RN-207"}
 posting job started at once
+ok anthropic/claude-haiku-5-5
+claude rewrite 1 anthropic/claude-haiku-5-5: 2 problems
+  caption needs 5 hashtags (Instagram max), has 9
+  known issue meta_article: script talks about the article instead of the news ('தகவல் இன்னும் வெளியாகவில்லை') - rewrite so it does not happen again
+ok anthropic/claude-haiku-5-5
+claude rewrite 2 anthropic/claude-haiku-5-5: 2 problems
+  reel_script has 93 words; need 100-160 (the key facts once each, in at most 90 seconds; every other detail goes in the caption's 📰 முழு விவரம் block)
+  known issue meta_article: script talks about the article instead of the news ('தகவல் வெளியாகவில்லை') - rewrite so it does not happen again
+ok anthropic/claude-haiku-5-5
+claude rewrite 3 anthropic/claude-haiku-5-5: 1 problems
+  known issue meta_article: script talks about the article instead of the news ('தகவல் இன்னும் வெளியாகவில்லை') - rewrite so it does not happen again
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/openai/gpt-oss-120b (5s)
+proofread rejected (3 problems)
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/openai/gpt-oss-120b (2s)
+real photo: vision check unavailable: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:ge
+real photo: vision check out of free quota
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+Cloudflare R2 refused (R2 daily safety limit reached for trichy360 (299 MB, 52 files today) - R2 is skipped until tomorrow (free tier protected)) - trying Cloudinary
+image match: True The sign clearly states that the opening is postponed while awaiting CZA (Central Zoo Authority) approval, directly matc
+Cloudflare R2 refused (R2 daily safety limit reached for trichy360 (299 MB, 52 files today) - R2 is skipped until tomorrow (free tier protected)) - trying Cloudinary
+images made: 2 for 'Trichy biological park opening delayed f'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261128-1833","first":"RN-208"}
 earlier stories still waiting for images: []
 instagram check: 50 recent posts read from the page
 pick round: only the picked links are written (research_free/pick.py)
-manual link added: https://tamil.indianexpress.com/tamilnadu/vck-protest-against-delimitation-bill-trichy-tamil-news-12849229
-candidate filter: collected=1
-to write: 1 Trichy district candidates (max 1 stories)
-round: top 1 of 1 candidates
-candidates waiting: 1 Trichy; time left 79 min
-try (N) manual=True: https://tamil.indianexpress.com/tamilnadu/vck-protest-agains
+manual link added: https://www.dailythanthi.com/news/tamilnadu/additional-coaches-added-to-trichy-srikanganagar-train
+manual link added: https://tamil.samayam.com/tamil-nadu/tiruchirappalli/trichy-biological-park-opening-delay-continues-in-approval-from-central-authority/articleshow/136245752.cms
+candidate filter: collected=2
+to write: 2 Trichy district candidates (max 2 stories)
+round: top 2 of 2 candidates
+candidates waiting: 2 Trichy; time left 79 min
+try (N) manual=True: https://tamil.samayam.com/tamil-nadu/tiruchirappalli/trichy-
+try (N) manual=True: https://www.dailythanthi.com/news/tamilnadu/additional-coach
 auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})
 posting job started at once
-candidate loop ended: left 0, tried={'N': 1}, done={'N': 1}, time left 78 min
-filed: 1 Trichy district stories (target 1), reels only
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})
+candidate loop ended: left 0, tried={'N': 2}, done={'N': 2}, time left 76 min
+filed: 2 Trichy district stories (target 2), reels only
 queue: 0 news waiting to be written
-All News sheet: {"ok":true,"added":1,"updated":0} 
-stories: 1
+All News sheet: {"ok":true,"added":2,"updated":0} 
+stories: 2
